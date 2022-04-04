@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_374">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Kritik des selbstorganisierten Lernens in der Berufsausbildung : eine Konzeptdiskussion in erkenntnistheoretischer Absicht</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hagedorn, Udo</displayForm>
+                        <namePart type="family">Hagedorn</namePart>
+                        <namePart type="given">Udo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2008</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Als bildungstheoretisches Konzept ist der Begriff der Selbstorganisation des Lernens unbestimmt und bezeichnet - anders als seine landläufige Verbreitung als Modethema vermuten lässt - für die betriebliche wie für die schulische Ausbildung ein Paradoxon. Wörtlich verstanden verabschiedet die Selbstorganisation des Lernens aus curricularer Perspektive nahezu alle Elemente des dualen Systems, die die betriebliche Ausbildung und den damit verbundenen schulischen Unterricht als Institution der Breitenqualifizierung ausmachen. Auf allen Ebenen curricularer Ausbildungsplanung werden Erwartungen an- und Aufgaben von Berufsausbildung außer Kraft gesetzt: auf kollektiver Ebene programmatisch,auf institutioneller Ebene in ihrer Umsetzung inszenatorisch und auf individueller Ebene als persönlicher Anspruch und (intentionale) Motivation.
+
+Ausbildung (betrieblich und schulisch) als Programm mit gesellschaftlicher Verpflichtung ist axiomatisch mindestens an vordefinierte Ziele, Inhalte und institutionelle Rahmen gebunden und bisher darum mindestens in der Inszenierung prozessorientiert und fremdorganisiert.
+
+Wenn der eigentliche Antrieb hinter dem aktuellen Megatrend aber aus dieser Herleitung heraus offensichtlich unklar ist, stellen sich die Fragen, a) von welchem ?Selbst? in der ausbildungspraktischen Übersetzung des Fachdiskurses überhaupt die Rede ist, was dabei b) der eigentliche Zweck der damit verbundenen Selbstorganisation des Lernens ist, welches Versprechen damit warum und von wem eingelöst werden soll und was sich denn c) tatsächlich hinter dieser Etikettierung verbirgt.</abstract>
+                    <subject>
+                        <topic>Selbstgesteuertes Lernen</topic>
+                        <topic>Subjektbildung</topic>
+                        <topic>curriculare Codierung</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 2, Erziehungswissenschaft und Psychologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-3746</identifier>
+                    <identifier type="sys">HT015832517</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_374</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2008-10-30</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_374">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/374/1/hagedorn.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_374"
+            DMDID="DMD_siegen_opus_374">
+            <mets:fptr FILEID="FILE0_siegen_opus_374"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,85 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1948">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Frequency-domain fatigue analysis of wind turbine structures and fatigue damage detection: performance evaluation of spectral-based methods against the rainflow counting algorithm</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Frequenzbereichs-Ermüdungsanalyse von Windturbinenstrukturen und Erkennung von Ermüdungsschäden: Leistungsbewertung spektralbasierter Methoden gegen den Rainflow-Zählalgorithmus</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Chaaban, Rannam</displayForm>
+                        <namePart type="family">Chaaban</namePart>
+                        <namePart type="given">Rannam</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Fritzen, Claus-Peter</displayForm>
+                        <namePart type="family">Fritzen</namePart>
+                        <namePart type="given">Claus-Peter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Fatigue failure of metallic structures such as wind turbine towers is a problem that affects their remaining service life. Fatigue cracks are most likely to initiate in the structural hot spots such as holes or welded joints. The time-domain approach in dealing with the fatigue analysis problem is the industry standard of fatigue load certification and fatigue damage assessment on wind turbines systems. The time-domain approach is based on time domain cycle counting and a linear fatigue accumulation rule to estimate a cumulative fatigue damage index. By comparing this index to a reference value, fatigue failure prediction and fatigue life estimation are possible.
+The development of an equivalent formulation to the time-domain fatigue analysis problem has been an active topic of research in the past few years. This equivalent formulation is based on the random vibration fatigue theory where fatigue analysis is done in the frequency domain. The frequency-domain fatigue analysis has found it’s way into many applications subject to random loading. However, the frequency-domain fatigue analysis is developed under certain assumptions that are hard to meet in the case of wind turbine loading. This includes for example the stationarity of the loading, the assumption of zero-mean and the Gaussian amplitude distribution of the stochastic loading.
+This thesis sets three objectives. The first objective is to address systematically the assumptions required by the spectral fatigue analysis methods in order to be able to accept the obtained results. To achieve this objective, the theoretical basis of the spectral fatigue analysis is reviewed and the limitations of the frequency-domain methods are addressed. Furthermore, a new strategy that enables using the spectral methods for wind turbine fatigue analysis is developed.
+The second objective is the performance assessment of the equivalent formulations of fatigue analysis problem, the frequency-domain against the industry standard time-domain. This is achieved using two different data-sets: simulation and operational. The simulation-based dataset is generated using hi-fidelity wind turbine simulation tool and aims to replicate the integrated design process at early stages; while the operational data-set is obtained from tower loading measurements of an operating small and utility-scale wind turbines and used to evaluate the performance of different spectral fatigue analysis methods against the well-established rainflow cycle counting method in time domain.
+The third objective is to explore the potentials of using comparative sensor data approach in the early detection in structural failure. This approach is based on monitoring the linear correlation of the measured strain or estimated fatigue damage at pre-defined sensor locations.
+An experimental validation of this method is presented in this thesis, and the obtained results demonstrate the possibility of using this technique for structural failure detection.
+The proposed objectives aim to meet the challenges of optimizing wind turbine structures in terms of cost, fatigue damage and service life time by developing new approaches capable of saving time, computational effort, resources in addition to reducing cost of energy.</abstract>
+                    <subject>
+                        <topic>Materialermüdung</topic>
+                        <topic>Spectral fatigue damage</topic>
+                        <topic>Fatigue analysis</topic>
+                        <topic>Frequency-domain</topic>
+                        <topic>Wind turbine</topic>
+                        <topic>Fatigue damage detection</topic>
+                        <topic>Spektrale Ermüdungsschädigung</topic>
+                        <topic>Ermüdungsanalyse</topic>
+                        <topic>Frequenz-Domäne</topic>
+                        <topic>Windkraftanlage</topic>
+                        <topic>Ermüdungsschaden-Erkennung</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Mechanik und Regelungstechnik - Mechatronik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19485</identifier>
+                    <identifier type="sys">HT020997029</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1948</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2021-02-26</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1948">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1948/6/Dissertation_Rannam_Chaaban.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1948"
+            DMDID="DMD_siegen_opus_1948">
+            <mets:fptr FILEID="FILE0_siegen_opus_1948"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

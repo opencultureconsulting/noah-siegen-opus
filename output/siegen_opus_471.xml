@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_471">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Approximative bedingte Unabhängigkeit in Finanzzeitreihen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schupp, Petra</displayForm>
+                        <namePart type="family">Schupp</namePart>
+                        <namePart type="given">Petra</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Stochastische Volatilitätszeitreihen sind häufig verwendete Modelle für Finanzzeitreihen, da auf Finanzmärkten keine konstante Volatilität beobachtet wird. Bedeutende Spezialfälle stellen hierbei GARCH-Zeitreihen dar, in denen die Volatilität als gewichtete Summe der quadrierten vorhergehenden Beobachtungen modelliert wird. Solche Zeitreihen werden in der Finanzliteratur als geeignete Modelle für kurzfristige, z.B. tägliche Renditen angesehen. Oftmals wird jedoch von Seiten des Bankenaufsichtsrechts eine Risikomessung auf Basis einer längerfristigen Haltedauer wie z.B. von 10-Tages-Renditen gefordert. 
+
+Die Promotionsarbeit stellt zunächst den Prognosebegriff für stochastische Volatilitätszeitreihen heraus. Im Anschluss daran liefert das Hauptresultat, dass n aufeinander folgende Folgenglieder von bestimmten stochastischen Volatilitätszeitreihen, insbesondere GARCH(1,1)-Zeitreihen, approximativ bedingt unabhängig und identisch verteilt (iid) gegeben der Vergangenheit sind. Als Maß für den Fehler dieser Approximation wird der Variationsabstand verwendet. Des Weiteren wird der Zusammenhang von GARCH(1,1)- und allgemeinen stochastischen Volatilitätszeitreihen untersucht, der Parameter der bedingten iid Approximation eingeführt und ausführlich untersucht. In der Finanzwirtschaft wird eine Quantifizierung des Risikos größtenteils über den Value at Risk (VaR) vorgenommen. Als Anwendung des Hauptresultats erfolgt die Prognose einer obere Schranke des n-Tages VaR einer stochastischen Volatilitätszeitreihe. Anschließend wird dieser prognostizierte VaR durch Backtesting also mittels statistischer Tests validiert. Zuletzt werden die theoretischen Resultate durch Simulationen und reale Datensätze beispielhaft erläutert.</abstract>
+                    <subject>
+                        <topic>GARCH-Prozess</topic>
+                        <topic>Value at Risk</topic>
+                        <topic>stochastic volatility series</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Statistik, Risikoanalyse &amp; Computing"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4712</identifier>
+                    <identifier type="sys">HT016622373</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_471</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2010-09-15</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_471">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/471/1/schupp.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_471"
+            DMDID="DMD_siegen_opus_471">
+            <mets:fptr FILEID="FILE0_siegen_opus_471"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

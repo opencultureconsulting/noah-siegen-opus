@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1644">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Exploring the potential of virtual reality for learning – a systematic literature review</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Weber, Sebastian</displayForm>
+                        <namePart type="family">Weber</namePart>
+                        <namePart type="given">Sebastian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">With the recent advent of affordable consumer technologies like Oculus Rift and gadgets from other technology companies as HTC, Google, or Samsung, virtual reality has gained enormous popularity. Offering unique characteristics like the feeling of being in a virtual space and a natural interaction with objects in this space, virtual reality has also been part of research as a promising learning tool. However, results in this context are mixed. Using the approach of a systematic literature review, this research scrutinizes these different results and contradictory theories. The outcomes present which theoretical approaches have been taken to explain learning and which factors are essential regarding the design of a virtual space. Furthermore, this research identifies future research opportunities to better understand and unfold the potential of virtual reality for learning.</abstract>
+                    <subject>
+                        <topic>Virtuelle Realität</topic>
+                        <topic>Virtual Reality</topic>
+                        <topic>Individual Learning</topic>
+                        <topic>Learning Theories</topic>
+                        <topic>Systematic Review</topic>
+                        <topic>Literature Review</topic>
+                        <topic>Individuelles Lernen</topic>
+                        <topic>Lerntheorien</topic>
+                        <topic>Systematische Überprüfung</topic>
+                        <topic>Literaturübersicht</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16443</identifier>
+                    <identifier type="sys">HT020642475</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1644</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1644">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1644/5/Exploring_the_Potential_of_Virtual_Reality_for_Learning.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1644"
+            DMDID="DMD_siegen_opus_1644">
+            <mets:fptr FILEID="FILE0_siegen_opus_1644"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

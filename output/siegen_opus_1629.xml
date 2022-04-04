@@ -1,0 +1,74 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1629">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Exploring emerging patient responsibilities in telemedicine use: An empirical study</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Müller, Marius</displayForm>
+                        <namePart type="family">Müller</namePart>
+                        <namePart type="given">Marius</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Telemedical solutions are increasingly utilized by physicians to cope with
+emerging challenges in modern healthcare. Rising numbers of patients due to
+demographic change and associated health issues complicate the comprehensive
+provision of care. Digital technologies, such as video consultation tools that establish
+a virtual connection between patients and practitioners, are able to antagonize these
+issues to some extent. However, the digitalization of care processes affects patients
+as well, who are increasingly obliged to be an active part of healthcare by using
+telemedicine and assessing its applicability and functionality. As a result, patients
+become more and more responsible for an effective and successful implementation
+of telemedicine. In that vein, this study proposes preliminary empirical findings and
+discussion points drawn from an ongoing research project. Findings suggest that
+responsibilities emerge regarding the preparation of online appointments, decisionmaking,
+the perpetuation of behavioral patterns, and the prevention of overuse.</abstract>
+                    <subject>
+                        <topic>Gesundheitstelematik</topic>
+                        <topic>Gesundheitstelematik</topic>
+                        <topic>Telemedizin</topic>
+                        <topic>Qualitative Studie</topic>
+                        <topic>Telemedicine</topic>
+                        <topic>Qualitative Study</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16293</identifier>
+                    <identifier type="sys">HT021015955</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1629</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1629">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1629/5/Exploring_Emerging_Patient_Responsibilities.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1629"
+            DMDID="DMD_siegen_opus_1629">
+            <mets:fptr FILEID="FILE0_siegen_opus_1629"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_170">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Bestimmung der Löslichkeit von Metallchelaten in überkritischem Kohlendioxid</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wolf, André</displayForm>
+                        <namePart type="family">Wolf</namePart>
+                        <namePart type="given">André</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">1999</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In der vorliegenden Arbeit wurden die Grundlagen für eine direkte reaktive Extraktion der Metalle Palladium und Rhodium ermittelt. Die Metalle wurden dabei durch Zugabe geeigneter Liganden in Chelate umgewandelt. Bedingt durch die enormen Löslichkeitsunterschiede der sich bildenden Chelate konnten die verwendeten Liganden DPDC und THD auch zur selektiven Extraktion dieser Metalle herangezogen werden. 
+Die wichtigste Grundlage für eine selektive Extraktion eines Metallchelatgemisches ist die Kenntnis der Löslichkeit der einzelnen Chelate im Extraktionsmittel.  Zur Schaffung dieser Grundlage wurde eine dynamisch-spektroskopische Methode zur Löslichkeitsbestimmung metallorganischer Verbindungen in überkritischem Kohlendioxid entwickelt. Die verwendete Apparatur bestand in ihrem Kern aus einer modifizierten MPS 225 der Fa. Suprex, welche mit einem ein scannenden UV-Detektor ausgestattet wurde. Die Kalibrierung
+erfolgte durch eine offline Quantifizierung. 
+Mit dieser Apparatur wurde die Löslichkeit von Chelaten in Abhängigkeit von der Temperatur und der Dichte des überkritischen Fluids bestimmt. Die Temperaturen, bei denen die Isothermen gemessen wurden, waren 50, 60 und 70 °C. Der untersuchte Bereich der reduzierten Dichte erstreckte von 1,1 bis 1,9. 
+Die verwendeten Modellsubstanzen waren Chelate der Schwermetalle Palladium, Rhodium und Blei. Als Liganden wurden das 2,2,6,6 Tetramethylheptandion (THD) als Vertreter der Diketongruppe, das Diisopropyldithiocarbamat (DPDC) und das Methylthioglykolat (MTG) gewählt.</abstract>
+                    <abstract type="content" lang="eng">In the present work the bases for a direct reactive extraction of the metals palladium and rhodium were determined. The metals were converted thereby by addition of suitable ligands into chelates. Enormous differences in solubility of the chelates formed with the ligands DPDC and THD could be determined which is a basis for the selective extraction of metals. The most important basis for a selective extraction of a mixture of metal chelates is the knowledge of the
+solubility of the individual chelates in the extracting agent. For the investigation of this basis a dynamic-spectroscopic method was developed for the solubility determination of metal-organic compounds in supercritical carbon dioxide. The equipment used consisted in its core of a modified MPS 225 of the company Suprex, which was connected to a scanning UV detector. The calibration took place via an off-line quantification. 
+With this equipment the solubility of chelates was determined as a function of the temperature and the density of the supercritical fluid. The temperatures, at which the isotherms were measured, were 50, 60 and 70 °C. The examined area of the reduced density extended from 1,1 to 1,9. The used model substances were chelates of the heavy metals palladium, rhodium and lead. As ligands 2.2.6.6 Tetramethylheptandione (THD), Diisopropyldithiocarbamate (DPDC) and the Methylthioglykolate (MTG) were selected.</abstract>
+                    <subject>
+                        <topic>Metallchelate</topic>
+                        <topic>Löslichkeit</topic>
+                        <topic>überkritische Fluide</topic>
+                        <topic>metal chelates</topic>
+                        <topic>solubility</topic>
+                        <topic>supercritical fluids</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 8, Chemie - Biologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1708</identifier>
+                    <identifier type="sys">HT012746699</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_170</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>1999-12-17</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_170">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/170/1/wolf_andre.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_170"
+            DMDID="DMD_siegen_opus_170">
+            <mets:fptr FILEID="FILE0_siegen_opus_170"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

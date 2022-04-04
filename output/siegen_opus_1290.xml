@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1290">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Graphical models and simulation for THz-imaging</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Graphische Modelle und Simulation für THz-Bildgebung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Pätzold, Martin</displayForm>
+                        <namePart type="family">Pätzold</namePart>
+                        <namePart type="given">Martin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The utilization of terahertz (THz) radiation is an active research field. Approaches for non-intrusive material monitoring or reliable surveillance of hidden treats promise considerable improvements of current technologies in these research fields. Due to the prototypical nature of current methods, easily accessible or unoptimized techniques are commonly used for processing THz data or simulating THz radiation. Methods of computer graphics (CG) allow an efficient prototyping to evaluate the potential of these new THz technologies and algorithms. 
+In this thesis, CG methods are developed and applied to the problems of THz research. It is shown that these methods are beneficial in terms of efficiency and performance. A sparse voxel tree (SVT) is proposed to store highly detailed objects with inner structures for simulating the imaging capabilities of THz setups. Mainly, an efficient creation and rendering of this voxel structure are introduced. The SVT is applied to the simulation of a prototypical THz setup which scans a scene by focused radiation. 
+Another THz setup, which is based on unfocused radiation and synthetic aperture techniques, is used to show the benefits of GPU algorithms for the reconstruction of large THz data. Furthermore, a volume based simulation of this system is shown. In addition, a geometrical configuration of the THz system and the rendering of multimodal data from the THz setup are introduced.</abstract>
+                    <abstract type="content" lang="ger">Die Nutzbarmachung von Terahertz (THz) Strahlung ist ein aktives Forschungsfeld. Ansätze für berührungsfreie Materialüberwachung oder zuverlässliche Kontrolle von versteckten Bedrohungen versprechen erhebliche Verbesserungen von derzeitigen Technologien in diesen Forschungsfeldern. Durch den prototypischen Charakter aktueller Methoden werden leicht zugängliche oder unoptimierte Techniken bevorzugt um THz Daten zu verarbeiten oder THz-Strahlung zu simulieren. Methoden der Computergraphik (CG) erlauben ein effizientes Prototyping um das Potential von neuen THz-Technologien and Algorithmen zu evaluieren. 
+In dieser Arbeit werden CG-Methoden entwickelt und auf die Problemstellungen in der THz Forschung angewendet. Es wird gezeigt, dass diese Methoden in Bezug auf Effizienz und Performanz vorteilhaft sind. Ein Sparse Voxel Tree (SVT) wird vorgeschlagen um hochdetaillierte Objekte mit inneren Strukturen zu repräsentieren und die bildgebenden Möglichkeiten eines THz-Setups zu simulieren. Hauptsächlich wird die effiziente Erstellung und das Rendering dieser Voxelstruktur vorgestellt. Der SVT wird für die Simulation eine prototypischen THz-Setups eingesetzt, welches die Szene mit fokussierter Strahlung abtastet. 
+Ein anderes THz-Setup, welches mit unfokussierter Strahlung und synthetischer Apertur arbeitet, wird verwendet um die Vorteile von GPU-Algorithmen zur Rekonstruktion von großen THz Datensätzen zu zeigen. Weiterhin wird eine volumenbasierte Simulation für dieses System präsentiert. Zusätzlich wird eine geometrische Konfiguration und das Rendering von multimodalen Daten des THz Setups vorgestellt.</abstract>
+                    <subject>
+                        <topic>Voxel</topic>
+                        <topic>Computergraphik</topic>
+                        <topic>Terahertz</topic>
+                        <topic>Simulation</topic>
+                        <topic>Voxelisierung</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-12906</identifier>
+                    <identifier type="sys">HT019620076</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1290</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2018-01-24</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1290">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1290/1/Dissertation_Martin_Paetzold.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1290"
+            DMDID="DMD_siegen_opus_1290">
+            <mets:fptr FILEID="FILE0_siegen_opus_1290"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

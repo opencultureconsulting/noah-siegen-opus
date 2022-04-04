@@ -1,0 +1,96 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1921">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>clustering approach for topic filtering within systematic literature reviews</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Burggräf, Peter</displayForm>
+                        <namePart type="family">Burggräf</namePart>
+                        <namePart type="given">Peter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Weißer, Tim</displayForm>
+                        <namePart type="family">Weißer</namePart>
+                        <namePart type="given">Tim</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Saßmannshausen, Till Moritz</displayForm>
+                        <namePart type="family">Saßmannshausen</namePart>
+                        <namePart type="given">Till Moritz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ohrndorf, Dennis</displayForm>
+                        <namePart type="family">Ohrndorf</namePart>
+                        <namePart type="given">Dennis</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wagner, Johannes</displayForm>
+                        <namePart type="family">Wagner</namePart>
+                        <namePart type="given">Johannes</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Within a systematic literature review (SLR), researchers are confronted with vast amounts of articles from scientific databases, which have to be manually evaluated regarding their relevance for a certain field of observation. The evaluation and filtering phase of prevalent SLR methodologies is therefore time consuming and hardly expressible to the intended audience. The proposed method applies natural language processing (NLP) on article meta data and a k-means clustering algorithm to automatically convert large article corpora into a distribution of focal topics. This allows efficient filtering as well as objectifying the process through the discussion of the clustering results. Beyond that, it allows to quickly identify scientific communities and therefore provides an iterative perspective for the so far linear SLR methodology.
+•    NLP and k-means clustering to filter large article corpora during systematic literature reviews.
+•    Automated clustering allows filtering very efficiently as well as effectively compared to manual selection.
+•    Presentation and discussion of the clustering results helps to objectify the nontransparent filtering step in systematic literature reviews.</abstract>
+                    <subject>
+                        <topic>Literaturrecherche [vorwiegend nach inhaltlichen Kriterien]</topic>
+                        <topic>Systematische Literaturrecherche</topic>
+                        <topic>Natürliche Sprachverarbeitung</topic>
+                        <topic>Systematic literature review</topic>
+                        <topic>Natural language processing</topic>
+                    </subject>
+                    <classification authority="ddc">620</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19213</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1921</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1921">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1921/4/A_clustering_approach_for_topic_filtering.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1921"
+            DMDID="DMD_siegen_opus_1921">
+            <mets:fptr FILEID="FILE0_siegen_opus_1921"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

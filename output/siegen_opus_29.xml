@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_29">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Polynuclear metallocene complexes incorporating ansa-chromocene and ferrocene units</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zehnder, Ralph</displayForm>
+                        <namePart type="family">Zehnder</namePart>
+                        <namePart type="given">Ralph</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2002</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Novel bimetallic and trimetallic complexes containing ansa-chromocene units have have been synthesized by a ligand substitution approach. The carbonyl ligands of the corresponding ansa-chromocene carbonyl complexes were substituted by the mono- and diisocyanide species ferrocenylisocyanide, ferrocenyldiisocyandie, and 1,4-phenylene diisocyanide in order to form polymetallic complexes that might exhibit mixed valence behavior. The heteronuclear complexes containing a ferrocene unit show a remarkable stability against thermolysis and photolysis. Cyrstallographic data show that the C-N-C bond angles and Cr-C bond distances of these species follow the trend of other ansa-chromocene isocyanides that show a moderate dependence of the Cr 2+/3+ redox potential on the substituents of the isocyanide groups. In contrast, the heteronuclear complexes do not follow such a trend in respect to their electronic properties. Interestingly, these complexes can modulate the electron density at the Cr metal centers, which enables them to keep their redox potentials constant.</abstract>
+                    <abstract type="content" lang="ger">Neuartige ansa-Chromocenkomplexe mit zwei bzw. drei Metallzentren wurden mittels Ligandensubtitution synthetisiert. Die Carbonyl-Liganden der entsprechenden ansa-Chromocencarbonylkomplexe wurden von den Isocyanidderivaten Ferrocenisocyanid, Ferrocendiisocyanid und 1,4-Phenyldiisocyanid substituiert, um mehrkernige Komplexe zu erhalten, die eventuell gemischtvalente Eigenschaften aufweisen könnten. Die heteronuklearen ansa-Chromocenkomplexe mit einer Ferroceneinheit zeigen eine beachtliche Stabilität in Bezug auf Photolyse und Thermolyse. Kristallografische Daten zeigen, dass die C-N-C Bindungswinkel und Cr-C Bindungslängen dem Trend anderer Isocyanide folgen, die eine gewisse Abhängigkeit des Cr 2+/3+ Redoxpotentials von der Art der Substituenten an den Isocyanidgruppen aufweisen. Im Kontrast dazu folgen die heteronuklearen Komplexe nicht solch einem Trend in Bezug auf ihre elektronischen Eigenschaften. Interessanterweise können diese Komplexe die Elektronendichte an den Cr Metallzentren regulieren, was ihnen ermöglicht, ihre Redoxpotentiale konstant zu halten.</abstract>
+                    <subject>
+                        <topic>polynuclear organo transition metal complexes</topic>
+                        <topic>mixed valence compounds</topic>
+                        <topic>cyclic voltammetry</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 8, Chemie - Biologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-296</identifier>
+                    <identifier type="sys">HT013584159</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_29</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2003-02-03</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_29">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/29/1/zehnder.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_29"
+            DMDID="DMD_siegen_opus_29">
+            <mets:fptr FILEID="FILE0_siegen_opus_29"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

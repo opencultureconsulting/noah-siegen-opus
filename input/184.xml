@@ -1,0 +1,60 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>184</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">ANIMAL-FARM: an extensible framework for algorithm visualization</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Guido</pc:foreName>
+            <pc:surName>Rößling</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Algorithmenanimation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Algorithmenvisualisierung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Framework</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Algorithm visualization (AV) researches the displaying of the dynamic properties of software. The primary application areas are education and debugging. The many different AV systems cover a wide range of topic areas with different feature sets. Choosing an AV system for a given task is therefore difficult. Alas, most&#13;
+AV systems cannot be adapted to specific needs by configuring or extending components. &#13;
+This thesis presents a requirement-driven framework design with a default implementation for extensible and configurable AV systems. The framework consequently uses dynamic loading for component acquisition and hashing for administrating the components. New instances can be retrieved by cloning the stored prototypes. Extensions can also be added or removed at run-time. The representation of object state by properties instead of fixed attributes allows the introduction of new object properties at run-time. The handler concept introduced in this thesis strictly separates two parties and thus simplifies individual component extensions. The framework provides a package for on-the-fly translation of arbitrary Swing-based GUI components.  &#13;
+Finally, we present a reference implementation prototype of the framework and analyze it according to our requirements. Example extensions underscore the functionality of underlying framework. The prototype also offers advanced AV operations, such as the first implementation of general-purpose dynamic reverse&#13;
+playing in AV systems.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Algorithmenvisualisierung (AV) erforscht die Darstellung des dynamischen Verhaltens von Software. Die Hauptanwendungsgebiete liegen in Lehre und Debugging. Die zahlreichen vorhandenen AV-System unterscheiden sich erheblich in Struktur und abgedeckten Inhalten. Die Wahl eines Systems ist daher schwierig,&#13;
+insbesondere da die meisten System nicht durch Konfiguration oder Erweiterung an spezifische Bedürfnisse anpassbar sind.  &#13;
+Diese Arbeit stellt ein Framework für erweiterbare und konfigurierbare AV-System auf der Basis einer umfangreichen Anforderungsanalyse vor. Komponenten werden dynamisch geladen und durch Hashing als Prototypen verwaltet, wobei neue Instanzen durch Klonen erstellbar sind. Erweiterungen können zur Laufzeit&#13;
+eingebunden oder entfernt werden. Die Modellierung des Objektzustands durch Properties erlaubt die Einführung neuer Eigenschaften zur Laufzeit. Das in der Arbeit vorgestellte Handler -Konzept bietet eine strikte Trennung von Komponenten und erleichtert damit die Erweiterung. Zusätzlich wird die dynamische ad-hoc Übersetzung von Komponenten unterstützt.  &#13;
+Eine Referenzimplementierung demonstriert die Fähigkeiten des Frameworks. Zur Evaluation werden dabei auch Beispielerweiterungen präsentiert. Neben den Framework-Eigenschaften bietet der Prototyp weitreichende AV-Operationen. Hierzu zählt insbesondere die erste Implementierung dynamischen Rückwärtsabspielens in kontextfreien AV-Systemen.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2002-04-10</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2002</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-1849</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 12, Elektrotechnik und Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>2</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="roessling.pdf" ddb:fileSize="6853804"/>
+   <ddb:fileProperties ddb:fileName="abst_ger.pdf" ddb:fileSize="7727"/>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/184</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

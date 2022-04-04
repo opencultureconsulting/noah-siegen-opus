@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_278">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Involuntary entrepreneurship in Germany</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Welter, Friederike</displayForm>
+                        <namePart type="family">Welter</namePart>
+                        <namePart type="given">Friederike</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kolb, Susanne</displayForm>
+                        <namePart type="family">Kolb</namePart>
+                        <namePart type="given">Susanne</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Althoff, Kai</displayForm>
+                        <namePart type="family">Althoff</namePart>
+                        <namePart type="given">Kai</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2007</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Involuntary entrepreneurship is not a new phenomenon, but it is closely linked to indus-trialisation processes and a changing labour market. The note “involuntary” implies that a person is somehow driven into self-employment and does not do this necessarily out of conviction. There are different causes for involuntary entrepreneurship as well as dif-ferent forms of its appearance. In the analysis we first concentrate on the academic discourse on the multifaceted nature of involuntary entrepreneurship. We give an overview on how this topic is reflected in the German academic discussion, how it is addressed, and which aspects are emphasised. Parallel to this we present the different definitions of involuntary entrepreneurship in the German academic literature.
+Then we describe the legal discourse on involuntary entrepreneurship and its political aspects in Germany. There, we analyse what kind of initiatives or courses of action policy-makers are currently carrying out or planning to launch in order to address issues relevant to involuntary entrepreneurship. We also look at which factors are the driving motivations behind these initiatives and actions.</abstract>
+                    <subject>
+                        <topic>Scheinselbstständigkeit</topic>
+                        <topic>unfreiwilliges Unternehmertum</topic>
+                    </subject>
+                    <classification authority="ddc">650</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-2787</identifier>
+                    <identifier type="sys">HT015099987</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_278</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_278">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/278/1/Involuntary_Entrepreneurship.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_278"
+            DMDID="DMD_siegen_opus_278">
+            <mets:fptr FILEID="FILE0_siegen_opus_278"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

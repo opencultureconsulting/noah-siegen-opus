@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1021">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Zur Lebens- und Betreuungssituation von Menschen mit kognitiver Beeinträchtigung und herausforderndem Verhalten in Nordrhein-Westfalen : Ergebnisse einer Onlinebefragung in Einrichtungen und Diensten für Menschen mit Behinderungen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Reichstein, Martin F.</displayForm>
+                        <namePart type="family">Reichstein</namePart>
+                        <namePart type="given">Martin F.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schädler, Johannes</displayForm>
+                        <namePart type="family">Schädler</namePart>
+                        <namePart type="given">Johannes</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Herausforderndes Verhalten von Menschen mit Behinderungen wird aktuell unter verschiedenen Gesichtspunkten diskutiert. Oft stellen als problematisch empfundene Verhaltensweisen von Klient/inn/en eine schwer zu bewältigende Herausforderung für Mitarbeiter/inn/en in Betreuungsangeboten für Menschen mit Behinderungen dar. In diesem Zusammenhang werden auch freiheitsentziehende Maßnahmen als mögliche Reaktion in Betracht gezogen. Entsprechende Konzepte werden zurzeit bei Trägern und Kostenträgern intensiv diskutiert. Zugleich erhält dieser Aspekt des Themas aktuell vor dem Hintergrund des Übereinkommens der Vereinten Nationen über die Rechte von Menschen mit Behinderungen (UN-BRK) zusätzliche Relevanz.
+Die vorliegende Untersuchung liefert einen Beitrag zur aktuellen Fachdebatte um den Umgang mit herausforderndem Verhalten im Rahmen der wohnbezogenen Eingliederungshilfe für Menschen mit Behinderungen nach § 53ff. SGB XII. Ein besonderes Augenmerk wird dabei auf Formen geschlossener Unterbringung gelegt.</abstract>
+                    <subject>
+                        <topic>Behinderung</topic>
+                        <topic>Herausforderndes Verhalten</topic>
+                        <topic>Soziale Dienste</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-10216</identifier>
+                    <identifier type="sys">HT019044202</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1021</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1021">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1021/1/ZPE_Nr_43_Martin_F_Reichstein_Johannes_Schaedler.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1021"
+            DMDID="DMD_siegen_opus_1021">
+            <mets:fptr FILEID="FILE0_siegen_opus_1021"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

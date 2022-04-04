@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_501">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Wege in die Wohnungslosigkeit : eine qualitative Untersuchung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Paulgerg-Muschiol, Larissa von</displayForm>
+                        <namePart type="family">Paulgerg-Muschiol</namePart>
+                        <namePart type="given">Larissa von</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2009</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In der vorliegenden Arbeit ging es darum, die Genese von Wohnungslosigkeit zu untersuchen. Dazu wurden im Rahmen einer DFG geförderten qualitativen Studie biographische Interviews mit über 30 wohnungslosen Männern aus München durchgeführt und ausgewertet. Methodisch orientiert sich die Untersuchung an den Stilvorgaben der Grounded Theory nach Anselm Strauss. Nach einer theoretischen Annäherung an die Problematik der Wohnungslosenkarrieren, wird anhand von fünf ausgewählten Lebensverläufen das Leben von später wohnungslosen Männern beschrieben und in ihrer für die Analyse relevanten Unterschiedlichkeit beleuchtet, um dann den eigentlichen Einstieg in die Wohnungslosigkeit zu analysieren. Als Synthese der beiden vorangegangenen Auswertungskapitel werden im abschließenden Kapitel die Ergebnisse und Zusammenhänge im gesellschaftlichen Kontext analysiert.</abstract>
+                    <subject>
+                        <topic>Obdachlosigkeit</topic>
+                        <topic>Wohnungslosigkeit</topic>
+                        <topic>Karriere</topic>
+                        <topic>qualitative Untersuchung</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 1, Sozialwissenschaften - Philosophie - Theologie - Geschichte - Geographie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5010</identifier>
+                    <identifier type="sys">HT016808364</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_501</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2009-06-23</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_501">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/501/1/paulgerg_muschiol.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_501"
+            DMDID="DMD_siegen_opus_501">
+            <mets:fptr FILEID="FILE0_siegen_opus_501"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

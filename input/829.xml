@@ -1,0 +1,58 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>829</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">CIMAWA : Entwicklung und Anwendung einer textbasierten Assoziations-Berechnungsmethode</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="eng">CIMAWA : development and implementation of a text-based association measuring method</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Patrick</pc:foreName>
+            <pc:surName>Uhr</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Text Mining</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Semantics -- Psychological aspects</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Knowledge Management</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die vorliegende Arbeit stellt die Entwicklung und Anwendung einer textbasierten Assoziations - Berechnungsmethode vor. Das Verfahren trägt den Titel CIMAWA (Concept for the Imitation of the Human Ability of Word Association) und berechnet die Stärke der Beziehungen zwischen Worten. CIMAWA orientiert sich dabei an der menschlichen Wortassoziation und versucht diese möglichst exakt nachzubilden. Basierend auf großen Textsammlungen, werden statistische Auswertungen über gemeinsames Vorkommen von Worten und deren Häufigkeit dazu verwendet, die Stärke der Assoziationen zwischen Begriffen zu berechnen. Die Ergebnisse der CIMAWA-Berechnungen werden in mehreren Fallstudien mit Assoziationstests an menschlichen Probanden verglichen. Zusätzlich wurden aus der Literatur bekannte Assoziations – Berechnungsmethoden implementiert und in ihrer Leistungsfähigkeit bewertet.&#13;
+Die detaillierte Erläuterung der Berechnung und die Herleitung der Parameter werden komplettiert durch die Darstellung der konzeptuellen Unterschiede zwischen den bekannten Berechnungsverfahren und CIMAWA. Die vielseitige Anwendbarkeit und praktische Relevanz der CIMAWA-Assoziationsberechnung wird durch vier Umsetzungen aus verschiedenen Anwendungsgebieten gezeigt.&#13;
+Die erste Anwendung zeigt, wie CIMAWA zur Erkennung von Multi-Themenstrukturen in Textdokumenten eingesetzt wird. Die Metaanalyse von Textdokumenten im Instandhaltungsmanagement wird zum Gegenstand der zweiten Anwendung und die kontextbasierte Bereitstellung von Texten im Produktverbesserungsprozess ist im dritten Beispiel behandelt. Ein assoziatives Suchverfahren für die Wissensbasis von Unternehmen bildet die abschließende CIMAWA-Anwendung.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The present work discusses the development and application of a novel method for text-based word association measuring. The method is entitled as CIMAWA which stands for the ‘Concept for the Imitation of the Human Ability of Word Association‘. CIMAWA calculates the strength of the relationship between words. Taking into account the human ability of word association as an archetype, CIMAWA is aimed at simulating the existing but not necessarily discovered associations. It applies statistical analysis to detect co-occurring terms and frequencies based on huge collections of texts, and uses the outcomes for the calculation of the strength of the relation. &#13;
+CIMAWA is verified in several case studies, especially in comparison with free association tests of human test subjects. In addition the literatures of association measuring are reviewed and the most common methods are implemented and compared with CIMAWA’s outcomes. A detailed explanation of the calculation and the parameters are given, as well as a demonstration of the conceptual differences between CIMAWA and other measurement methods. &#13;
+The multilateral areas of application and the practical adaptability are shown in four independent software applications. The first application shows how CIMAWA is utilized to detect multi-topic structures in text documents. The second discusses the meta-analysis of text documents in maintenance management. The third presents a CIMAWA based recommender system for text documents towards improving quality of industrial goods.  Finally, the fourth application is developed for associative search engine in companies.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2014-09-23</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2014</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-8298</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Wissensbasierte Systeme und Wissensmanagement</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Patrick_Uhr.pdf" ddb:fileSize="4282258"/>
+   <ddb:checksum ddb:type="MD5">3424abd87cacd9a11429ddbd99387e24</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/829/1/Dissertation_Patrick_Uhr.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/829</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

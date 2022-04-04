@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1835">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>making of the world in co-operative action</title>
+                        <subTitle lang="eng">from sentence construction to cultural evolution</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Streeck, Jürgen</displayForm>
+                        <namePart type="family">Streeck</namePart>
+                        <namePart type="given">Jürgen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Book Review Symposium Charles Goodwin</abstract>
+                    <subject>
+                        <topic>Interaction cooperation</topic>
+                        <topic>World-making</topic>
+                        <topic>Conversation analysis</topic>
+                        <topic>Semiosis</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-18353</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1835</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1835">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1835/4/Streeck_The_making_of.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1835"
+            DMDID="DMD_siegen_opus_1835">
+            <mets:fptr FILEID="FILE0_siegen_opus_1835"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

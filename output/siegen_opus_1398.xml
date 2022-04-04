@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1398">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Über operator-stable-like Prozesse und ihre Eigenschaften</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Operator-stable-like processes and their properties</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schulte, Daniel</displayForm>
+                        <namePart type="family">Schulte</namePart>
+                        <namePart type="given">Daniel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In dieser Arbeit führen wir im ersten Teil eine neue Klasse von stochastischen Prozessen ein, die operator-stable-like Prozesse. Diese verhalten sich lokal wie operator-stabile Prozesse, aber lassen räumliche Inhomogenitäten zu. Die operator-stable-like Prozesse bilden eine Teilklasse der Feller-Prozesse und enthalten als Spezialfall die stable-like Prozesse.
+Wir modifizieren das Levy-Maß einer operator-stabilen Verteilung ohne Gaußanteil, sodass der Exponent nicht länger konstant ist, sondern eine matrixwertige Funktion E(x) (x ist ein Element des RR^d) des Ortes ist. Falls der Exponent gewisse Bedingungen erfüllt, definieren wir über diese modifizierte Darstellung eine Familie von Levy-Maßen phi(x,.), die wir operator-stable-like Levy-Maße nennen. Zu dem operator-stable-like Levy-Maß stellen wir eine zugehörige stochastische Differentialgleichung (SDE) auf und zeigen, dass die Lösung dieser SDE ein Feller-Prozess ist. Für symmetrische operator-stable-like Levy-Maße leiten wir eine Symboldarstellung des konstruierten Feller-Prozesses über diese Levy-Maße phi(x,.) her. Den zugehörigen Prozess bezeichnen  wir als operator-stable-like Prozess.
+Der zweite Teil beschäftigt sich zunächst mit der Untersuchung der Eigenschaften des Symbols der operator-stable-like Prozesse. Wir zeigen eine Skalierungseigenschaft. Aus der Skalierungseigenschaft leiten wir obere und untere Abschätzungen her. Mithilfe dieser Abschätzungen des Symbols analysieren wir mehrere Eigenschaften der Prozesse. Wir bestimmen Maximalabschätzungen, die Existenz von Momenten, das asymptotische Kurz- und Langzeitverhalten der Pfade sowie die p-Variation.</abstract>
+                    <abstract type="content" lang="eng">In this thesis, we will introduce a new class of stochastic processes, so-called operator-stable-like processes. Roughly speaking, they behave locally like operator stable processes, but they need not to be homogenous in space. They are a subclass of Feller processes. A special case of operator-stable-like processes are stable-like processes.
+We modify the Levy measure of a operator stable law without normal component in such a way that the exponent E (d times d matrix) is no longer constant but depends on the position x (x is a element of RR^d) in space. If the exponent E(x) satisfies certain conditions, we call the resulting family of Levy measures phi(x,.) operator-stable-like Levy measures.
+According to the Levy measure, we construct an associated stochastic differential equation (SDE) and prove that the solution of this SDE is a Feller process. We show that for symmetric operator-stable-like Levy measures the symbol of the constructed Feller process can be represented with these Levy measures. We call the associated process operator-stable-like process.
+In the second part we investigate the properties of the symbol. We show a scaling property. The scaling property is helpful to get lower and upper bounds for the symbol. Then we use these estimations to study the properties of the processes. We will focus on maximal estimations, the existence of moments, the short- and long-time behaviour of the sample paths and the p-variation.</abstract>
+                    <subject>
+                        <topic>Feller-Prozess</topic>
+                        <topic>Symbol</topic>
+                        <topic>stable-like Prozess</topic>
+                        <topic>operator-stabile Verteilung</topic>
+                        <topic>Operator-stable-like processes</topic>
+                        <topic>LÃ©vy measure</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-13980</identifier>
+                    <identifier type="sys">HT019949230</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1398</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2018-12-07</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1398">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1398/1/Dissertation_Daniel_Schulte.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1398"
+            DMDID="DMD_siegen_opus_1398">
+            <mets:fptr FILEID="FILE0_siegen_opus_1398"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

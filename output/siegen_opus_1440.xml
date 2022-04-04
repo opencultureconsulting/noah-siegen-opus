@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1440">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Dealing with wandering in dementia care : a developmental story of designing a GPS monitoring system and its challenges in a wider context</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wan, Lin</displayForm>
+                        <namePart type="family">Wan</namePart>
+                        <namePart type="given">Lin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">This dissertation documents a developmental story of the design and evaluation of a GPS monitoring system for late phase dementia patients with wandering tendency. The research was carried out in both familial and institutional care environments in over 2 years. Despite the widespread of GPS technology, its usage in dementia care at date is still very low. This work takes a socio-technical stance on development and appropriation of GPS technology in dementia care and assesses the practical and ideological issues surrounding care to understand why.
+The results include: 1) Results from qualitative user studies from which design ideas, implications and requirements for design and redesign were developed. 2) Description of the politics, negotiations, and challenges encountered in the project at hand. These processual matters had a powerful impact on the product that was finally envisaged. The processes in question illuminate the way in which design outcomes are arrived at and to foster discussion about how ‘best practice’ might possibly be achieved.</abstract>
+                    <subject>
+                        <topic>Wandering behavior</topic>
+                        <topic>GPS monitoring system</topic>
+                        <topic>Design research</topic>
+                        <topic>Joint research</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät III - Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-14408</identifier>
+                    <identifier type="sys">HT020021630</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1440</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2019-02-13</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1440">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1440/1/Dissertation_Lin_Wan.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1440"
+            DMDID="DMD_siegen_opus_1440">
+            <mets:fptr FILEID="FILE0_siegen_opus_1440"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

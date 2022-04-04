@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1732">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Tax policy changes and market prices</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Steueränderungen und Marktpreise</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ardalan, Aria</displayForm>
+                        <namePart type="family">Ardalan</namePart>
+                        <namePart type="given">Aria</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kessing, Sebastian G.</displayForm>
+                        <namePart type="family">Kessing</namePart>
+                        <namePart type="given">Sebastian G.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">This thesis provides empirical evidence for the impacts of tax changes onto market prices from different angles: pass-through of consumption taxes, stock market share price responses in light of corporate tax reforms, and finally how cross-country consumption tax differences translate into production inefficiency and affect relative producer price ratios between final consumption and intermediate sectors.</abstract>
+                    <subject>
+                        <topic>Marktpreis</topic>
+                        <topic>Öffentliche Finanzen</topic>
+                        <topic>Ökonomie der Besteuerung</topic>
+                        <topic>Public Finance</topic>
+                        <topic>Economic of Taxation</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät III - Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-17326</identifier>
+                    <identifier type="sys">HT020634563</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1732</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2020-10-19</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1732">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1732/3/Dissertation_Aria_Ardalan.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1732"
+            DMDID="DMD_siegen_opus_1732">
+            <mets:fptr FILEID="FILE0_siegen_opus_1732"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

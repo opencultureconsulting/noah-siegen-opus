@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1127">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Der </nonSort>
+                        <title>Erwerb der Nominalphrasensyntax : Attribution und Schematisierung als syntaktische Verfahren zur Konstruktion objektbezogener Referenz</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <nonSort>Der </nonSort>
+                        <title>Noun phrase development in German first language acquisition</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Krüger, Josephine</displayForm>
+                        <namePart type="family">Krüger</namePart>
+                        <namePart type="given">Josephine</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Arbeit untersucht die Frage, anhand welchen Musters Kinder im Laufe ihrer frühen und späteren Kindheit die Nominalphrase (NP) mit all ihren variablen Leerstellen erfassen. Dazu wurde ein Längsschnittkorpus bestehend aus mehr als 30.000 NP auf die Erwerbsmechanismen der NP-Syntax analysiert. Die Grundlage bildeten dabei Aufnahmen natürlicher Spontansprachdaten dreier Mädchen, die vom ersten bis fünften bzw. achten Lebensjahr hin aufgezeichnet und transkribiert wurden.
+Die Ergebnisse zeigen, dass das Aufkommen der syntaktischen Leerstellen der NP (Artikel, Adjektive, Relativsätze, Präpositionalphrasen, aber auch das Nomen selbst) bei allen drei Kindern ähnlich verläuft: von links nach rechts. Nachdem Kinder über viele Monate hinweg sich nur einzelner Nomen, meistens in Kombination mit einer Zeigegeste, bedienen, folgen als Begleiter der Nomen recht zügig erste Artikel und später Adjektive. Wenn dieses Grundgerüst bestehend aus Artikel, Adjektiv und Nomen etabliert ist, setzen postnominale Attribute ein wie Relativsätze, Präpositionalphrasen und Adverbiale. Adjektive bilden dabei die häufigste Attributionsform, die, ebenso wie auch Artikel, in sich ein eigenes Erwerbsmuster aufweisen.</abstract>
+                    <abstract type="content" lang="eng">The study investigates the question of which patterns are used by early language learners in the acquisition of noun phrases and all its modifying complements. A panel study corpus of more than 30.000 noun phrases uttered by three girls over the course of several years was established to understand the mechanisms of noun phrases acquisition. The corpus was generated from natural spontaneous speech transcripts which is essential in order to generate genuine and hence unbiased data.
+The results suggest that all three children, though unknown of each other, follow a similar pattern in filling in grammatical slots such as determiners, adjectives, relative clauses, prepositional phrases, and the noun, over the course of their early years: From left to right. After using single nouns for many months in the early beginning, often combined with pointing gestures, children soon start combining those nouns with determiner-like fillers, then ‘real’ determiners such as der, die, das and ein, eine, einer, and soon after followed by adjectives. This basic NP pattern consisting of determiner + adjective + noun (e. g. die kleine Katze) is soon thereafter followed by postnominal complements like relative clauses, prepositional phrases, and adverbs (e. g. die Katze dort). However, adjectives are the most prominent and frequent complement and seem to have their own acquisition pattern.</abstract>
+                    <subject>
+                        <topic>Nominalphrase</topic>
+                    </subject>
+                    <classification authority="ddc">430</classification>
+                    <classification authority="ioo" displayLabel="Fakultät I Philosophische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11273</identifier>
+                    <identifier type="sys">HT019321003</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1127</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2017-01-11</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1127">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1127/1/Dissertation_Josephine_Krueger.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1127"
+            DMDID="DMD_siegen_opus_1127">
+            <mets:fptr FILEID="FILE0_siegen_opus_1127"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

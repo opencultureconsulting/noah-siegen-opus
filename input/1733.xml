@@ -1,0 +1,64 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1733</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">New approaches for object tracking and image-based quality control</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Neue Methoden zur Objektverfolgung und bildbasierte Qualitätskontrolle</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Ahmad</pc:foreName>
+            <pc:surName>Delforouzi</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Bildverarbeitung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Image Processing</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Quality Control</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Object Tracking</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">621</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The dissertation at hand is concerned with the scientific solutions for the problems of visual object tracking and image-based railway quality control. In the tracking scenario, an object of interest is followed automatically. The type, size and, general features of the object are not known and the system does not have any knowledge of it. The object tracking schemes are studied based on three different sensors namely rectangular, omnidirectional and, 360-degree cameras. For the rectangular videos, two object detection-based methods are proposed. The first tracker uses a pre-trained object detector and does not update, whereas the second one is updated during the tracking. These systems compare five famous training based object detectors. The results demonstrate the trackers’ efficiency and show the preference of offline tracker to the online one. The polar cameras - namely omnidirectional and 360-degree sensors - provide videos&#13;
+with a wider field of view than the conventional normal rectangular ones. Replacing conventional security cameras with 360-degree ones allows a significant reduction of hardware costs as well as software license and maintenance costs. There are many trackers based on conventional rectangular videos in the literature, whereas the number of polar object following systems, in comparison, is very limited and they are not yet matured. Most of the projects which are going to be discussed in this work are processing the 360-degree videos. Two proposed methods unwrap the polar videos using image rectification; then a modified version of Tracking Learning Detection tracker and another state-of-the-art detector are applied. To increase the speed of the process, a trapezoidal tracker is proposed to eliminate the rectification part. In another proposed scheme, a SURF based algorithm is used to improve performance. This tracker uses two learning-based modules for interesting points matching and challenges recognizing respectively.&#13;
+The other proposed method combines a polar candidates generation method and color binary features to improve its accuracy and speed. The experiments show that the last method has the best accuracy and speed among the proposed methods and it outperforms the state-of-the-art polar trackers.&#13;
+In the second part of the dissertation, a vision-based quality control method of concrete railroad sleepers is presented. This system captures an image sequence by a high resolution, fast and moving camera from railway top view and applies a proposed image-based crack detector to control the railway sleepers quality. This scheme first locates the sleepers within the images and then, generates crack candidates on the sleeper images and finally, detects and classifies the cracks and by applying a supervised classifier on the candidates. The classifier uses geometrical features to detect and classify the cracks on the concrete sleepers. The experimental results show that the crack detector successfully finds the cracks.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die vorliegende Dissertation befasst sich mit der Problematik der visuellen Objektverfolgung und bildbasierte Bahnqualitätskontrolle. Im Objektverfolgungsszenario wird ein Objekt von Interesse automatisch verfolgt. Hierbei sind Art, Größe und im Allgemeinen die Eigenschaften ebendiesen Objekts nicht bekannt und der Tracker hat keinerlei Kenntnis über das Objekt. Die Objektverfolgung wird auf der Grundlage von drei verschiedenen Sensoren untersucht, nämlich rechteckigen, omnidirektionalen und 360-Grad-Sensoren. Für die rechteckigen Videos werden zwei auf Objekterkennung basierende Tracker vorgeschlagen. Der erste Tracker verwendet einen vortrainierten Objektdetektor und aktualisiert nicht, während der zweite während des Tracking aktualisiert wird. Anhand dessen werden fünf bekannte trainingsbasierte Objektdetektoren verglichen. Die Ergebnisse zeigen die Effizienz der Tracker und die Präferenz des Offline gegenüber dem Online-Tracker.&#13;
+Die Polarsensoren, d.h. omnidirektionale und 360- Grad-Sensoren, liefern polare Videos. Sie verfügen über ein breiteres Sichtfeld als die herkömmlichen rechteckigen Sensoren. Der Austausch herkömmlicher Sicherheitskameras durch 360-Grad Kameras reduziert die Kosten für Hardware, Softwarelizenzierung und Wartung erheblich. In der Literatur finden sich viele Tracker, die auf herkömmlichen rechteckigen Videos basieren, während die Anzahl der Polar-Tracker im Vergleich dazu sehr begrenzt ist und diese noch nicht ausgereift sind. Die meisten Projekte, die in dieser Dissertation behandelt werden, verarbeiten Videos von 360-Grad-Sensoren. Zwei vorgestellte Tracker wandeln die polaren Videos mittels Bild-Rektifizierung in ein rechteckiges Format um. Anschließend erfolgt die Anwendung einer modifizierten Version des Tracking- Learning-Detection Tracker für die erste Objektverfolgungsmethode. Die Tracking- Geschwindigkeit soll erhöht werden, indem ein trapezförmiger Tracker vorgeschlagen wird, um den Rektifikationsprozess zu vermeiden. In einem anderen Vorschlag wird ein SURF-basierter Tracker verwendet, um die Trackingleistung zu verbessern. Dieser verwendet zwei lernbasierte Module, um interessante Punkte abzugleichen und Herausforderungen zu erkennen. Schließlich werden ein Polar-Kandidaten-Erzeugungsverfahren und Farbbinärmerkmale verwendet, um deren Genauigkeit und Geschwindigkeit zu verbessern. Die Experimente zeigen, dass diese Methode die beste Genauigkeit und Geschwindigkeit unter den vorgeschlagenen polaren Trackern bietet und die modernen Polar-Tracker übertrifft.&#13;
+Im zweiten Teil dieser Dissertation wird ein visionsbasiertes Qualitätskontrollverfahren für Eisenbahnschwellen aus Beton dargelegt. Hierbei wird eine Bildsequenz von einer hochauflösenden und sich schnell bewegenden Kamera von Draufsicht auf die Eisenbahn aufgenommen und der vorgeschlagene bildbasierte Rissdetektor überprüft den Zustand der Schwellen. Die vorgeschlagene Methode findet zunächst die Schwellen in den Bildern. Anschließend werden auf den Schwellenbildern Riss-Kandidaten erzeugt und schließlich werden Risse anhand geometrischer Merkmale erkannt und klassifiziert, indem ein überwachter Klassifizierer auf die Kandidaten angewendet wird. Die experimentellen Ergebnisse zeigen, dass der Rissdetektor die Risse erfolgreich findet.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Hubert</pc:foreName>
+            <pc:surName>Roth</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2020-07-22</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2020</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-17332</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/lizenz.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Ahmad_Delforouzi.pdf" ddb:fileSize="34730666"/>
+   <ddb:checksum ddb:type="MD5">840fe1771e311b34025d5df69bb087f2</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1733/3/Dissertation_Ahmad_Delforouzi.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1733</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

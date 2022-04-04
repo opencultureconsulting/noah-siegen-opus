@@ -1,0 +1,61 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>851</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Innovative Sensorkonzepte und Signalverarbeitungsstrategien zur Bewegungserkennung und Präsenzkontrolle von Personen</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Thomas P. U.</pc:foreName>
+            <pc:surName>Krieger</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">PIR-Bewegungsmelder</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">CMOS-Bildwächter</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Kalman-Filter</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Sensoren zur Bewegungs- und Anwesenheitserkennung sind ein wesentlicher Bestandteil moderner Gebäudeautomatisierungskonzepte. Insbesondere die preiswerten Passiv-Infrarot-Bewegungsmelder ermöglichen die bedarfsgerechte Steuerung zentraler Gebäudefunktionen und gewährleisten einen wirtschaftlichen Umgang mit den zur Verfügung stehenden Ressourcen.&#13;
+Speziell zur Anwesenheitskontrolle sind sehr hohe Bereichsauflösungen erforderlich. Diese lassen sich mit konventionellen CCD-Kameras erzielen, allerdings ist der Systemaufwand im Vergleich zu den niedriger auflösenden Passiv-Infrarot-Meldern höher. Mittlerweile bieten sich auch CMOS-Bildsensoren zur Präsenzkontrolle an. Im Rahmen dieser Arbeit werden Voruntersuchungen zur Realisierung eines CMOS-Bildwächters und zur Verbesserung des Schaltverhaltens von Passiv-Infrarot-Bewegungsmeldern präsentiert. Beide Sensorkonzepte können separat, aber auch gemeinsam in einem Multisensorsystem verwendet werden.&#13;
+Langjährige Erfahrungen beim Design optischer Sensoren im Zentrum für Sensorsysteme und gezielte Untersuchungen zu geeigneten Signalverarbeitungsstrategien führten zu einem hochwertigen Bewegungsmelder. Digitale Signalverarbeitungsalgorithmen reduzieren dabei die Fehlalarmanfälligkeit durch eine sehr spezielle Bewertung signalspezifischer Eigenschaften.&#13;
+Für zukünftige Verbesserungen wurde außerdem eine neuartiges Signalverarbeitungskonzept entwickelt, dass auf den Grundlagen der Estimationstheorie basiert. Dieser Ansatz verwendet ein zeitdiskretes lineares Zustandsraummodell des realen Prozesses und führt auf einen linearen optimalen Estimationsalgorithmus, der nach seinem Entdecker “Kalman-Filter“ genannt wird. Das Kalman-Filter wird zur Störungsunterdrückung eingesetzt. Abweichungen des prädizierten und des beobachteten Systemverhaltens dienen zur Bewegungserkennung, woraus eine erhöhte Detektionsempfindlichkeit bei gleichzeitig reduzierter Fehlalarmrate resultiert.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Motion observers and presence controllers are essential parts of modern concepts for building automation and energy management. Especially the low-cost passive infrared sensors, based on the pyroelectric effect, are suitable for reducing the overall power consumption by providing information about the presence or absence of persons.&#13;
+Particularly in indoor applications, conventional motion observers suffer from the low resolution of commercially available pyroelectric detectors. On the other hand, CCD cameras for the visible and near infrared region of light provide extremely high resultions, but for comparatively high cost. Newer developments in CMOS imager technology enable the design of low cost camera sensors. In the scope of this work, preleminary investigations on both, the&#13;
+CMOS camera and the motion observer with pyroelectric detectors, are presented. Both parts can be realized as separate sensor systems or in combination.&#13;
+Many years of experience in optical sensor design at the Center of Sensor Systems and closer investigations on signal processing strategies for motion detection culminated in a new superior motion observer. Digital signal processing algorithms reduce the susceptibility to false alarms through a very special evaluation of signal-specific characteristics.&#13;
+For future improvements, a new evaluation strategy for motion observers was developed, which is based on the foundations of estimation theory. This approach uses a discrete-time linear state space model of the real world process and leads to a linear, optimum estimation algorithm, which is called “Kalman-filter” according to its explorer. The Kalman-filter serves as suppressor for unwanted background signals. Deviations between the predicted behaviour and the behaviour observed at the real system are used for motion detection. This procedure&#13;
+yields into an increased sensitivity with simultaneously improved false alarm immunity.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2002-06-10</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2002</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-12</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 12, Elektrotechnik und Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="krieger.pdf" ddb:fileSize="7851314"/>
+   <ddb:checksum ddb:type="MD5">3af37d6be3577e36ab606a2ff8cd56fa</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/851/1/krieger.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/851</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_464">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Numerical analysis of Cauchy-type problem arising in electrical engineering</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Numerische Analyse von Cauchy-Problemen mit Anwendung in der Elektrotechnik</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Dücker, Monika</displayForm>
+                        <namePart type="family">Dücker</namePart>
+                        <namePart type="given">Monika</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Inverse problems arise often in physical and technical processes. In this dissertation we consider problems of Cauchy-type based on the application of hybrid insulation. The experimental setup takes place at the NTNU Trondheim which placed at the disposal the measurements for the calculation. In this case we search Dirichlet or Neumann control for given Neumann measurements. After describing the problem of hybrid insulation and introducing the basic principals of functional analysis we analyse Nitsche&apos;s method for dealing with Dirichlet boundary conditions. The error estimates will be deduced and verified. Subsequent we give an introduction to inverse problems and their regularisation. We formulate three optimal control problems on the unit square based on the application of hybrid insulation. For given Neumann measurement we search Dirichlet control. For the regularisation we draw on three matrices. For all three problems we do numerical calculations with different grid refinements, different numbers  of degrees of freedom on the boundary of control and different regularisation parameters. After comparison of the results within each problem we compare the results to each other. Based on these results we do the numerical caluclations for the application of hybrid insulation for searched Neumann control and given Neumann measurements.</abstract>
+                    <abstract type="content" lang="ger">Inverse Probleme sind häufig auftretende Probleme in Naturwissenschaft und Technik. In dieser Arbeit werden Probleme vom Cauchy-Typ basierend auf der elektotechnischen Anwendung hybrider Isolierung betrachtet. Der Experimentaufbau befindet sich an der NTNU Trondheim, die die Messdaten für die Berechnungen zur Verfügung gestellt hat. In diesem Fall wird die Dirichlet- oder Neumann-Steuerung für gegebene Neumann-Messdaten gesucht. Nachdem das Problem der hybriden Isolierung beschrieben und die nötigen Grundlagen der Funktionalanalysis eingeführt wurden, wird Nitsche&apos;s Methode zur Behandlung von Dirichlet-Randdaten analysiert. Die Fehlerabschätzungen werden hergeleitet und verifiziert. Im Anschluß wird eine Einführung zu inversen Problemen und deren Regularisierung gegeben. Es werden drei optimale Steuerungsprobleme auf dem Einheitsquadrat formuliert, basierend auf der Anwendung der hybriden Isolierung. Zu gegebenen Neumann-Messdaten werden Dirichlet- oder Neumann-Steuerung gesucht und zu gegebenen Dirichlet-Messdaten die Dirichlet-Steuerung. Zur Regularisierung werden drei Matrizen herangezogen. Für alle drei Probleme werden numerische Berechnungen für verschiedene globale Verfeinerungen, verschiedene Anzahlen an Freiheitsgraden auf dem Kontrollrand und verschiedene Regularisierungsparameter durchgeführt. Nach einem Vergleich der Ergebnisse innerhalb eines Problems werden die Ergebnisse der Probleme untereinander verglichen. Basierend auf diesen Ergebnissen werden für das Problem der hybriden Isolierung  nur die numerischen Berechnungen im Fall gesuchter Neumann-Steuerung zu gegebenen Neumann-Messdaten durchgeführt.</abstract>
+                    <subject>
+                        <topic>Cauchy-Anfangswertproblem</topic>
+                        <topic>Cauchy problem</topic>
+                        <topic>Nitsche&apos;s method</topic>
+                        <topic>Dirichlet control</topic>
+                        <topic>Neumann control</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 6, Mathematik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4646</identifier>
+                    <identifier type="sys">HT016598804</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_464</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2010-09-09</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_464">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/464/1/duecker.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_464"
+            DMDID="DMD_siegen_opus_464">
+            <mets:fptr FILEID="FILE0_siegen_opus_464"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

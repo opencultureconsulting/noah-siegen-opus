@@ -1,0 +1,62 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1171</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Novel scheduling strategies for future NoC and MPSoC architectures</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Neue Scheduling Strategien für zukünftige NoC und MPSoC Architekturen</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Christian</pc:foreName>
+            <pc:surName>Schöler</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Netzwerktopologie</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">MPSoC</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">SAT</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">SMT</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">NP-complete</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Time-Triggered Network-on-Chip (TTNoC) and Multi-Processor-System on a Chip (MPSoC) are networking concepts aiming at providing both predictable and high-throughput communication for modern multiprocessor systems. Time-triggered networks play an important role in safety-critical systems, where their inherent properties such as temporal predictability, fault tolerance and composability improve safety and reduce certification costs. Time-triggered networks use timeplans, which define the points in time of all message exchanges with respect to a global time base. In multi-cluster time-triggered systems of large embedded systems (e.g. automotive, avionics), conflict-free paths along switches and endsystems are defined for each message. The conflict-free temporal and spatial allocation of communication resources in combination with an intelligent communication network (e.g. local and central guardians) prevents interference between messages from different components upon integration and in the presence of faults.&#13;
+Therefore message scheduling in TTNoCs is one of the major challenges, where the points in time for the transmission of a message with conflict-free paths through the switches are determined. As the scheduling problem is NP-complete this work introduces a novel scheduling framework based on the latest advancements of theorem solvers such as Satisfiability Modulo Theories (SMT) techniques which have successfully been applied to problem instances of this complexity class.&#13;
+In addition this work also investigates different concepts to partition the problem instances allowing the application of parallel computing to further accelerate the proposed scheduling framework.&#13;
+MPSoC architectures and their specific architectural properties will require scheduling tools capable of dealing with the increasing complexity of the systems. To meet these challenges we will outline how the proposed scheduling framework performs after it has been ported to an MPSoC emulating target system. We compare its performance to state-of-the-art schedulers based on CPLEX.  Furthermore we will analyze how the proposed scheduling framework can be deployed to recover from faults by re-scheduling the system under consideration at runtime.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Zur Erfüllung steigender Anforderungen hinsichtlich Sicherheit, Komfort und Effizienz an Mobilitätssysteme spielt die Elektronik eine immer größere Rolle. Dem daraus resultierenden Mehrbedarf an Performanz sowie der Reduzierung von Energieverbrauch, Größe und Gewicht können nur Multicoresysteme gerecht werden. Der Einsatz solcher Systeme in sicherheitskritischen Mobilitätsbereichen bringt allerdings noch viele offene Fragen mit sich:&#13;
+Mit den steigenden Anforderungen an die Verfügbarkeit von Funktionen speziell in Zukunftsthemen wie (teil-)automatisiertem Fahren oder Internet of Things, müssen neue Architekturpattern, sogenannte Multi-Processor-Systems on a Chip (MPSoCs), entwickelt werden. Diese Pattern sollen eine hochgradige Verfügbarkeit von Funktionen sicherstellen und gleichzeitig kostengünstig umgesetzt werden. &#13;
+Eine der zentralen Fragestellungen für moderne Mehrkernarchitekturen ist eine effektive Umsetzung der internen Kommunikationsprozesse. Die vorliegende Arbeit präsentiert einen Scheduler, der optimale Zeitpläne berechnen kann und auch auf einem eingebetteten System mit eingeschränkter Rechenkapazität eingesetzt werden kann. Darüber hinaus diskutieren wir Strategien, um diesen Scheduler effizient einzusetzen. Als Grundlage für die Berechnung von optimalen Schedules  nutzen wir moderne Tools aus der automatisierten Verifikationstheorie, da das optimale Scheduling Problem aus der Komplexitätklasse der NP-vollständigen Probleme stammt. Wir erläutern, warum Verifikationstools aus diesem Gebiet geeignet sind, um optimale Schedules für zeitgesteuerten Systemen, sogenannten TTNoCs, zu berechnen.&#13;
+Der Einsatz dieser Programme bietet zwei zentrale Vorteilen gegenüber der  herkömmlichen Berechnung mit Multi-Integer-Linear-Programming (MILP) basierten Schedulern: Zum einen können wir die Laufzeit und den Speicherbedarf reduzieren und auf der anderen Seite unser Scheduling Framework auch direkt auf dem MPSoC verwenden. Neben dem Einsatz auf dem Zielsystem evaluieren wir, wie unser Scheduler zur Laufzeit eingesetzt werden kann und die Fehlertoleranz des betrachteten Zielsystems verbessert. Dabei analysieren wir insbesondere die Performance unseres Schedulers im Vergleich zu einem weit verbreiteten heuristischen Ansatz.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2017-06-06</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2017</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-11710</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV - Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Christian_Schoeler.pdf" ddb:fileSize="2343471"/>
+   <ddb:checksum ddb:type="MD5">06b2bdd02c71af1d4e3de4a08a551764</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1171/1/Dissertation_Christian_Schoeler.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1171</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

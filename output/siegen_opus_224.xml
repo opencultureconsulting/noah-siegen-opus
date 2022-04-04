@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_224">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Multi-component metallo-supramolecular assemblies</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kalsani, Venkateshwarlu</displayForm>
+                        <namePart type="family">Kalsani</namePart>
+                        <namePart type="given">Venkateshwarlu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2005</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The key-results of the present thesis are: (1) Mechanistic Insight into the
+HETPHEN ( het eroleptic phen anthroline complexes) Approach. (2) Synthesis of a Variety of Rigid Bisphenanthrolines and Study of their Self-Assembly Behavior in Solution, in the Solid state and at Solid-Liquid Interfaces. (3) Multicomponent Self-Assembly Using a Nanoscale Macrocycle. (4) The HETTAP ( het eroleptic t erpyridine a nd p henanthroline complexes)Concept.</abstract>
+                    <abstract type="content" lang="ger">Die wichtigsten Ergebnisse der vorgelegten Dissertation sind: (1) Mechanistische
+Einblicke in des HETPHEN-Konzept ( het eroleptic phen anthroline complexes). (2) Synthese einer Vielzahl von starren Bisphenanthrolinen und Studien ihres Selbstassemblierungsverhaltens in Lösung, im Feststoff und an der Fest-Flüssig Grenzfläche. (3) Multikomponenten Selbsassemblierungsreaktionen unter Nutzung eines Nanomacrozyklus. (4) Das HETTAP-Konzept ( het eroleptic t erpyridine a nd p henanthroline complexes).</abstract>
+                    <subject>
+                        <topic>HETPHEN</topic>
+                        <topic>HETTAP</topic>
+                        <topic>nanostructures</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 8, Chemie - Biologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-2242</identifier>
+                    <identifier type="sys">HT014821302</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_224</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2005-05-12</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_224">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/224/1/kalsani.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_224"
+            DMDID="DMD_siegen_opus_224">
+            <mets:fptr FILEID="FILE0_siegen_opus_224"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

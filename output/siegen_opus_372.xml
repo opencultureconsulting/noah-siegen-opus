@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_372">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Pulse Sequence Analysis and Pulse Shape Analysis: Methods to Analyze Partial Discharge Processes</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Puls-Sequenz- und Impulsform-Analyse: Diagnoseverfahren zur Untersuchung von Teilentladungsprozessen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Benzerouk, Djamal</displayForm>
+                        <namePart type="family">Benzerouk</namePart>
+                        <namePart type="given">Djamal</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2008</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Partial discharge measurements and analyses have been widely used as a non-destructive diagnostic tool to monitor and to examine the degradation of electrical equipment. Over the years an immense effort has been put into the development of sophisticated statistic software tools, but relevant information about the process has not been taken into account. The work reported in this thesis is focused on the use of the Pulse Sequence Analysis and the Pulse Shape Analysis as diagnostic tools to investigate the degradation phenomena in electric power apparatus, especially by means of the evaluation of the information contained in the sequence of consecutive partial discharge events and the pulse shape of the signals after the band pass filter.
+A software program has been developed to analyze the huge amount of complex data sets generated in PD measurements. With the help of this software tool different possibilities for the analysis and treatment of the partial discharge data sets using the Pulse Sequence Analysis were performed. The pulse shape of the PD signal was used as relevant parameter to characterize different types of the PD-active defects. Different parameters extracted from the oscillating PD signals were used to identify and to separate the discharge signals from different sources.
+The build-up of space charges as a consequence of partial discharges has been discussed on the basis of an improved PD equivalent circuit. The results of PD measurements on a HV transformer and during electrical treeing in polyethylene were discussed on the basis of this equivalent circuit.
+The Pulse Sequence Analysis combined with the Pulse Shape Analysis have been applied for the investigation and the analysis of partial discharges in the insulation system of electric machines. Different types of defects on model stator bars of high voltage machines were characterized. Thermal ageing and the influence of the temperature on the partial discharge behaviour have also been investigated.</abstract>
+                    <abstract type="content" lang="ger">Teilentladungsmessungen werden heute als diagnostisches Verfahren zur Charakterisierung des Zustandes elektrischer Geräte angewandt, wobei umfangreiche statistische Analyseverfahren eingesetzt werden, die jedoch einen wesentlichen Punkt, nämlich die Beeinflussung einer Teilentladung durch vorangegangene Teilentladungen außer acht lassen. Die Dissertation liefert durch Anwendung der Puls-Sequenz-Analyse und der Pulsform-Analyse einen Beitrag zur besseren Charakterisierung der lokalen Schädigungsprozesse. Hierbei wird insbesondere die Information benutzt, die in der Abfolge aufeinanderfolgender Teilentladungsereignisse enthalten ist, sowie die Kurvenform der Teilentladungssignale nach dem Bandpaßfilter.
+Zur Auswertung der Datensätze wurde ein Software Programm entwickelt, mit dessen Hilfe Meßergebnisse von unterschiedlichen Testobjekten erfaßt und hinsichtlich der zugrundeliegenden physikalischen Prozesse analysiert werden können. Hierbei wird speziell der Einfluß lokaler Flächen- und/oder Raumladungen auf die Abfolge der Teilentladungsereignisse diskutiert. Die Analyse der Abfolgen ermöglicht Aussagen über die lokalen Bedingungen am Ort der Teilentladung. Zur Beschreibung der Vorgänge wird ein verbessertes Ersatzschaltbild für Teilentladungsprozesse benutzt.
+Bei hohen elektrischen Feldern, wenn typischerweise in Geräten Teilentladungen gleichzeitig an unterschiedlichen Stellen auftreten, ermöglicht die Pulsform-Analyse, d.h. die Analyse der Form der Teilentladungssignale nach dem Bandpaßfilter eine Möglichkeit zur Separierung der Teilentladungssignale von unterschiedlichen Quellen oder zur Eliminierung von Störsignalen. Die Methode kann benutzt werden, um die Effizienz der Puls-Sequenz-Analyse zu erhöhen.</abstract>
+                    <subject>
+                        <topic>Teilentladung</topic>
+                        <topic>Isoliersysteme</topic>
+                        <topic>Hochspannungsgeräte</topic>
+                        <topic>Teilentladungsdiagnose</topic>
+                        <topic>Puls-Sequenz-Analyse</topic>
+                        <topic>Impulsform-Analyse</topic>
+                        <topic>Insulating systems, partial discharge diagnostics</topic>
+                        <topic>high voltage equipment</topic>
+                        <topic>Pulse Sequence Analysis</topic>
+                        <topic>Pulse Shape  Analysis</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Werkstoffe der Elektrotechnik und Diagnostik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-3728</identifier>
+                    <identifier type="sys">HT015742918</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_372</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2008-06-05</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_372">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/372/1/benzerouk.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_372"
+            DMDID="DMD_siegen_opus_372">
+            <mets:fptr FILEID="FILE0_siegen_opus_372"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_655">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>response of silicon PNCCD sensors with aluminum on-chip filter to visible light, UV- and X-ray radiation</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <nonSort>The </nonSort>
+                        <title>Die Antwortfunktion von Silizium-Detektoren mit Aluminium-Lichtfilter für sichtbares Licht, UV- und Röntgenstrahlung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Granato, Stefanie</displayForm>
+                        <namePart type="family">Granato</namePart>
+                        <namePart type="given">Stefanie</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Halbleiterdetektoren, wie z.B. PNCCDs, werden in den unterschiedlichsten wissenschaftlichen Feldern eingesetzt, von astronomischen Beobachtungen hin zu Experimenten an freien Elektronenlasern. Ein PNCCD ist ein pixelierter Halbleiterdetektor zur gleichzeitigen Abbildung und Spektroskopie von Röntgenstrahlung. Für die sieben PNCCDKameras des eROSITA Weltraumteleskops wurde ein Strahleneintrittsfenster mit einem auf dem Chip aufgebrachtem Lichtfilter entwickelt. Dieser Filter schwächt die Intensität von optischem Licht und UV-Strahlung ab. Der störende Einfluss der durch Licht generierten Elektronen im Silizium auf die Röntgenspektroskopie wird dadurch minimiert. Ein PNCCD mit einem solchen Lichtfilter wurde bisher noch nie für die Röntgenastronomie genutzt. In der folgenden Arbeit wird die Antwortfunktion von PNCCDs mit Filter untersucht. Diese Untersuchung beinhaltet die Analyse der Photonenabsorptions- und Emissionsprozesse sowie des Transports von Elektronen im Eintrittsfenster. Des Weiteren umfasst sie die experimentelle Charakterisierung der Detektoreigenschaften bezüglich der
+Lichtabschwächung sowie der spektralen Verteilungsfunktion und Quanteneffizienz für Röntgenstrahlung. Der PNCCD ist hierbei Gegenstand der Analyse und zugleich Messinstrument, da dieser hochsensitive Detektor es ermöglicht, die bei der Umwandlung von Photonen in Signalladung beteiligten physikalischen Prozesse zu untersuchen. 
+Die Messungen werden durch Simulationen der Festkörperphysik im Detektor ergänzt. Ein auf Geant4 basierendes Monte-Carlo Programm wird um die Ladungsverlustmechanismen im Eintrittsfenster erweitert und durch Vergleich mit experimentellen Daten verifiziert. Durch die Nachbildung der Ereigniskette zwischen der Absorption eines Photons und der Ladungssammlung gibt diese Arbeit ein detailliertes Verständnis der Bildung von Röntgenspektren mit PNCCDs. Die charakteristischen Strukturen in den gemessenen Spektren werden ihrem Entstehungsort im Detektorvolumen zugewiesen und durch das Modell erklärt. Auf Basis des vorgestellten Modells erlauben die Ergebnisse dieser Arbeit eine überaus genaue Analyse von Spektren wie sie in Zukunft mit eROSITA gemessen werden.</abstract>
+                    <abstract type="content" lang="eng">There are various scientific applications, from astronomical observations to free electron lasers, that make use of X-ray semiconductor detectors like PNCCDs. The PNCCD is a pixelized semiconductor detector for simultaneous X-ray imaging and spectroscopy. For the seven PNCCD cameras of the eROSITA space telescope, a radiation entrance window including an on-chip optical blocking filter has been designed. The blocking filter is a necessity to minimize electron generation by visible light and UV radiation affecting X-ray spectroscopy. A PNCCD with such a blocking filter has not been used so far in astronomy. The following work deals with the analysis of the response of PNCCDs with on-chip filter. This includes the study of photon absorption and emission processes as well as the transport of electrons inside the detector entrance window. Furthermore it comprises the experimental characterization of the detector properties regarding the attenuation of light as well as their X-ray spectral redistribution function and quantum efficiency. With the ability to reveal the involved physical processes, the PNCCD is subject of analysis and measurement device at the same time.
+In addition to the results of the measurements, simulations of the solid state physics inside the detector are presented. A Geant4 Monte-Carlo code is extended by the treatment of charge loss in the entrance window and is verified by comparison with experimental data.
+Reproducing the chain of processes from photon absorption to charge collection, this work provides a detailed understanding of the formation of PNCCD spectra. The spectral features observed in the measurements are attributed to their point of origin inside the detector
+volume and explained by the model. The findings of this work allow high precision analysis of spectra of silicon detectors, e.g. of the eROSITA data, based on the presented detailed spectral response model.</abstract>
+                    <subject>
+                        <topic>Röntgendetektor</topic>
+                        <topic>Siliziumdetektor</topic>
+                        <topic>PNCCD</topic>
+                        <topic>Quanteneffizienz</topic>
+                        <topic>Antwortfunktion</topic>
+                        <topic>Eintrittsfenster</topic>
+                        <topic>silicon detector</topic>
+                        <topic>PNCCD</topic>
+                        <topic>quantum efficiency</topic>
+                        <topic>response function</topic>
+                        <topic>entrance window</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-6559</identifier>
+                    <identifier type="sys">HT017448920</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_655</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2012-10-17</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_655">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/655/1/granato.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_655"
+            DMDID="DMD_siegen_opus_655">
+            <mets:fptr FILEID="FILE0_siegen_opus_655"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

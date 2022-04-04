@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_735">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Systemidentifikation zur Modellierung mechanischer Strukturen : Markovparameter zur experimentellen Schadenserfassung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ebert, Carsten</displayForm>
+                        <namePart type="family">Ebert</namePart>
+                        <namePart type="given">Carsten</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In der vorliegenden Arbeit wird eine neue Methodik beschrieben, wie auf Basis von Schwingungsmessungen Strukturveränderungen lokalisiert werden können. Bisherige schwingungsbasierte Verfahren nutzen häufig modale Daten. Zur Lokalisation und Quantifizierung von festgestellten Strukturveränderungen ist dann oftmals ein Abgleich mit einem Finite-Element-Modell notwendig. Die dafür erforderliche Bestimmung einer beschränkten Anzahl sensitiver Modellparameter ist anspruchsvoll und beeinflusst die Modellgüte maßgeblich. Abweichend hierzu werden in dieser Arbeit strukturmechanisch interpretierbare Parameter direkt aus experimentell erfassten Schwingungssignalen generiert. Ein Finite-Element-Modell ist hierfür nicht notwendig.
+Auf Basis eines systemtheoretischen Modellansatzes wird das Übertragungsverhalten linearer Strukturen als Black-Box-Modell in Zustandsraumdarstellung modelliert. Die Systemidentifikation erfolgt unter Verwendung von Methoden der linearen Algebra. Die dabei gewonnenen Modellparameter sind zunächst rein mathematisch deutbar. In dieser Arbeit wird erörtert, wie diese Black-Box-Zustandsraummodelle in physikalisch deutbare White-Box-Modelle überführt werden können. Anhand von theoretischen Betrachtungen unter Verwendung der Bewegungsgleichung der Mechanik wird zunächst gezeigt, wie Markovparameter und strukturmechanische Parameter (Masse, Dämpfung, Steifigkeit) in Zusammenhang stehen. Im Weiteren ist dargestellt, welche theoretisch notwendigen Randbedingungen bei der experimentellen Anwendung einzuhalten sind. Vollständig gelingt dies bei der realen Anwendung kaum, deswegen werden korrespondierende strukturmechanische Größen auf Basis von Markovparametern eingeführt, mit Hilfe derer eine Lokalisation von Schäden dennoch möglich ist.
+Nachdem auf Basis von simulierten Messdaten die Funktionalität der vorgestellten Methodik nachgewiesen wurde, erfolgt die Anwendung unter Nutzung experimenteller Daten. Anhand von Laborversuchen ist ausführlich das Verhalten einer Kragarmstruktur dargestellt. Als Strukturveränderung dienen verschieden positionierte Gewichte und Sägeschnitte zur Veränderung von Strukturmasse und Steifigkeit. Abschließend werden die Ergebnisse eines experimentellen Großversuches an einer Spannbeton-Bogenbrücke präsentiert, bei der der Ausfall eines Spannbeton-Hängers lokalisiert werden konnte.</abstract>
+                    <abstract type="content" lang="eng">The present work serves to describe a new methodology how structural changes can be located on the basis of vibration measurements. So far, vibration-based methods often use modal data. For the localisation and quantification of detected structural changes a comparison with a finite element model then is often necessary. The determination of a limited number of sensitive model parameters as necessary, which is necessary for this purpose, is challenging and influences the model quality significantly. In deviation thereto, parameters are generated in this work which are interpretable from the structure-mechanical aspect, but which are generated direct on the basis of experimentally acquired vibration signals, so that a finite element model is not required.
+Using a model approach based on system theory the transfer behaviour of linear structures is modelled as black-box-model in state-space formulation. The system identification is effected using linear algebra methods. Initially the model parameters gained are interpretable from the purely mathematical aspect. In this work it is explained how these black-box state-space models can be transferred to physically interpretable white-box models. First, on the basis of theoretical considerations and using the mechanical equation of motion it is shown how Markov parameters and structure-mechanical parameters (mass, damping, stiffness) are associated with each other. Furthermore, it is described which theoretically necessary boundary conditions are to be guaranteed during the experimental application. This can hardly be achieved with real application. Therefore, corresponding structure-mechanical quantities based on Markov parameters are introduced on the basis of which a localisation of damage is still possible.
+After the functionality of the presented methodology was proved by means of analytical and simulated vibration data it is applied using experimental data. On the basis of laboratory tests the behaviour of a beam structure is represented in detail. The structural change was applied using differently positioned weights and saw cuts for a modification of structural mass and stiffness. Finally, the results of an experimental large-scale test are presented using the example of an arch bridge made of prestressed concrete, where the failure of a prestressed concrete hanger could be localised.</abstract>
+                    <subject>
+                        <topic>Systemidentifikation</topic>
+                        <topic>Markovparameter</topic>
+                        <topic>Schadenserkennung</topic>
+                        <topic>structural health monitoring</topic>
+                        <topic>modal analysis</topic>
+                        <topic>markov parameter</topic>
+                        <topic>damage detection</topic>
+                        <topic>system identification</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Mechanik und Regelungstechnik - Mechatronik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-7352</identifier>
+                    <identifier type="sys">HT017653400</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_735</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2012-07-12</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_735">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/735/1/Ebert_final_2013_04_15_mit_Deckblatt.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_735"
+            DMDID="DMD_siegen_opus_735">
+            <mets:fptr FILEID="FILE0_siegen_opus_735"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,99 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1918">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Relevant content for a scientific collaboration in mathematics and physics education research - a comparative content analysis of handbooks and conference proceedings in Germany and Vietnam</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kraus, Simon Friedrich</displayForm>
+                        <namePart type="family">Kraus</namePart>
+                        <namePart type="given">Simon Friedrich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Krause, Eduard</displayForm>
+                        <namePart type="family">Krause</namePart>
+                        <namePart type="given">Eduard</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Dilling, Frederik</displayForm>
+                        <namePart type="family">Dilling</namePart>
+                        <namePart type="given">Frederik</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Nguyen, Phuong</displayForm>
+                        <namePart type="family">Nguyen</namePart>
+                        <namePart type="given">Phuong</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Tran, Ngoc Chau</displayForm>
+                        <namePart type="family">Tran</namePart>
+                        <namePart type="given">Ngoc Chau</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Van Bien, Nguyen</displayForm>
+                        <namePart type="family">Van Bien</namePart>
+                        <namePart type="given">Nguyen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">This article presents a possible framework for the cooperation of mathematics and physics education research domains. Moreover, the potential topics for such a scientific collaboration are explained by means of a structuring qualitative content analysis of current handbooks and conference proceedings in Germany and Vietnam. These topics can form a basis for further projects on the connection of subject-related didactics. One of these projects is an interdisciplinary course in teacher training at the Hanoi National University of Education (HNUE) as part of the Inter TeTra project between the HNUE and the University of Siegen.</abstract>
+                    <subject>
+                        <topic>Mathematisch-naturwissenschaftlicher Unterricht</topic>
+                        <topic>STEM Education</topic>
+                        <topic>Teacher Training</topic>
+                        <topic>International Comparative Study</topic>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19182</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1918</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1918">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1918/4/Relevant_content_for_a_scientific_collaboration.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1918"
+            DMDID="DMD_siegen_opus_1918">
+            <mets:fptr FILEID="FILE0_siegen_opus_1918"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

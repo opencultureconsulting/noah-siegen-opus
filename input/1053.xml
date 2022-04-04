@@ -1,0 +1,102 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1053</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Parallel multi-scale simulations with octrees and coupled applications</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Harald</pc:foreName>
+            <pc:surName>Klimach</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Simulation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">gekoppelte Anwendungen</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Frameworks</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Physical simulations often require the consideration of many phenomena&#13;
+and scales. For example in aeroacoustic problems, both, the flow generating&#13;
+the noise and the sound wave propagation needs to be considered. This work&#13;
+investigates numerical approaches to such problems on large distributed and&#13;
+parallel computing systems. The coupling framework KOP is parallelized&#13;
+as far as possible and to overcome fundamental scalability limits a new&#13;
+framework APES is developed. Both implementations utilize high-order&#13;
+discretizations, as these allow for accurate simulations with less degrees of&#13;
+freedoms than lower order methods. This property of high-order methods&#13;
+is an important feature for modern supercomputing systems, as memory&#13;
+to represent degrees of freedom in a simulation is a scarce resource. The&#13;
+presented methods enable the transient simulation of multi-scale setups but&#13;
+detailed resolutions still require large amounts of computational resources.&#13;
+A focus is put on the efficient utilization of modern computing systems&#13;
+to address this need. Besides the scalability of the implementations, the&#13;
+importance of single core optimization and vectorization is illustrated. &#13;
+KOP uses discrete points to realize the coupling and allows for the interaction&#13;
+between domains with differing discretizations and solved equation&#13;
+systems. Arbitrary mesh configurations are supported and both, structured&#13;
+and unstructured mesh solvers are available in the framework. In both framworks&#13;
+explicit time integration methods are deployed to resolve the time&#13;
+dependent simulations. The coupling allows for a varying time step width&#13;
+over the participating domains by a sub-cycling method. Various conservation&#13;
+laws can be solved by the presented frameworks ranging from Maxwell’s&#13;
+equations and linearized Euler equations to full compressible Navier-Stokes&#13;
+equations. A fully distributed coupling approach is developed that allows&#13;
+for coupling of those in a large-scale simulation to solve, for example, aeroacoustic problems. &#13;
+APES enables high-order discretizations in the spectral regime. It involves&#13;
+a fully scalable toolchain for mesh-based simulations featuring a mesh&#13;
+generation and a post-processing tool to support the solvers. The common&#13;
+foundation of these tools is an Octree representation for the mesh, and&#13;
+this work specifically covers the generation of high-order geometry approximations in the developed mesh generator Seeder. This robust mechanism works for arbitrarily complex surfaces and offers a practical way to tackle&#13;
+engineering tasks with spectral element discretizations.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Simulationen physikalischer Gegebenheiten müssen oft das Zusammenspiel&#13;
+vieler Phänomene und Skalen berücksichtigen. Bei aeroakustischen Problemen&#13;
+zum Beispiel, muss beides berücksichtigt werden, sowohl die Strömung,&#13;
+die den Lärm erzeugt, als auch der Transport der Schallwellen. In dieser Arbeit&#13;
+werden numerische Ansätze für solche Probleme auf großen, verteilt parallelen&#13;
+Rechensystemen untersucht. Das Kopplungsframework KOP wird,&#13;
+soweit wie möglich, parallelisiert und ein neues Framework (APES) wird&#13;
+entwickelt um fundamentale Beschränkungen der Skalierbarkeit zu überwinden.&#13;
+In beiden Implementierungen werden Verfahren hoher Ordnung&#13;
+eingesetzt, da diese eine hochauflösende Simulation mit weniger Freiheitsgraden&#13;
+ermöglichen, als Verfahren niedrigerer Ordnung. Diese Eigenschaft von Verfahren hoher Ordnung ist ein wichtiger Vorteil auf modernen Supercomputersystemen, da der Speicher, der benötigt wird um die Freiheitsgrade abzubilden eine knappe Ressource darstellt. Die vorgestellten Methoden ermöglichen die transiente Simulation von Mehrskalenproblemen, allerdings werden für detaillierte Simulationen noch immer große Mengen an Rechenressourcen benötigt. Im Rahmen dieser Arbeit wird deshalb ein Fokus auf&#13;
+die effiziente Nutzung moderner Rechensysteme gelegt. &#13;
+KOP verwendet diskrete Punkte um die Kopplung zu realisieren. Dies&#13;
+erlaubt die Interaktion zwischen Gebieten mit unterschiedlicher Diskretisierung&#13;
+aber auch verschiedenen Gleichungen. Beide Implementierungen&#13;
+verwenden eine explizite Zeitintegration um die zeitabhängigen Simulationen&#13;
+aufzulösen. Das Kopplungsframework erlaubt von Gebiet zu Gebiet&#13;
+variierende Zeitschritte. Diverse Erhaltungsgleichungen, von linearisierten&#13;
+Euler Gleichungen und den Maxwell Gleichung, bis hin zu den Navier-Stokes&#13;
+Gleichungen, können mit den vorgestellten Verfahren gelöst werden. Ein&#13;
+vollständig verteilter Kopplungsmechanismus wird im Rahmen der Arbeit&#13;
+entwickelt, der es ermöglicht, diese Gleichungen in großen Simulationen&#13;
+gekoppelt zu verwenden. &#13;
+APES erlaubt die Verwendung spektraler Diskretisierungen. Dazu bringt&#13;
+es eine eigene Toolchain mit, die eine skalierbare Ausführung der gesamten&#13;
+Simulation sicherstellt. Insbesondere, umfasst dies auch einen Gittergenerator,&#13;
+der Geometrien mit Polynomen hoher Ordnung darstellen kann. Das&#13;
+robuste Verfahren, das hier zum Einsatz kommt ermöglicht es, ingenieurtechnische&#13;
+Fragestellungen auch mit solchen Verfahren hoher Ordnung in Angriff&#13;
+zu nehmen.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2016</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">book</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-10536</dc:identifier>
+   <dc:source xsi:type="ddb:ISBN">978-3-936533-82-8</dc:source>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dcterms:isPartOf xsi:type="ddb:noScheme">Simulation techniques in Siegen - STS;  1</dcterms:isPartOf>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Klimach_Parallel_multi_scale_simulations.pdf" ddb:fileSize="12893836"/>
+   <ddb:checksum ddb:type="MD5">c38d59f345bed49c77379bd419988915</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1053/1/Klimach_Parallel_multi_scale_simulations.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1053</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_2085">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Von Briefen, die es nicht (mehr) gibt: Franz Kafka und die Puppe</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Of letters that do not (no longer) exist: Franz Kafka and the doll</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Nieradka-Steiner, Magali</displayForm>
+                        <namePart type="family">Nieradka-Steiner</namePart>
+                        <namePart type="given">Magali</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Briefe einer Puppe – verfasst von Franz Kafka als Trost für ein Mädchen, das seine Puppe in einem Berliner Park verloren hat und weint? Diese von Kafkas letzter Lebensgefährtin Dora Diamant mündlich überlieferte Episode aus der gemeinsam verbrachten Zeit in Berlin kurz vor seinem Tod erweist sich – trotz oder wegen ihres unklaren Wahrheitsgehalts – als Quelle literarisch-poetischer Inspiration für Schriftsteller:innen über einen Zeitraum von mehr als sechzig Jahren. Der Beitrag geht diesem Phänomen und damit der literarischen Resonanz auf einen ‚ganz anderen‘ Kafka in zahlreichen dieser Texte nach.</abstract>
+                    <abstract type="content" lang="eng">Letters of a doll – written by Franz Kafka as a consolation for a girl who has lost her doll in a Berlin park and is crying? This episode passed down orally by Kafka&apos;s last companion Dora Diamant from the time they spent together in Berlin shortly before his death proves – despite or because of its unclear truth content – to be a source of literary-poetic inspiration for writers over a period of more than sixty years. This article explores this phenomenon and thus the literary response to a &apos;very different&apos; Kafka in many of these texts.</abstract>
+                    <subject>
+                        <topic>Franz Kafka</topic>
+                        <topic>Dora Diamant</topic>
+                        <topic>Puppenbriefe</topic>
+                        <topic>Verlust</topic>
+                        <topic>Reise</topic>
+                        <topic>Franz Kafka</topic>
+                        <topic>Dora Diamant</topic>
+                        <topic>Letters of a doll</topic>
+                        <topic>Loss</topic>
+                        <topic>Travelling</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-20852</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_2085</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_2085">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/2085/1/Nieradka-Steiner_Briefe_Dedo4.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_2085"
+            DMDID="DMD_siegen_opus_2085">
+            <mets:fptr FILEID="FILE0_siegen_opus_2085"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

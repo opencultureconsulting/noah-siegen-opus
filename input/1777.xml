@@ -1,0 +1,69 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1777</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Fault-tolerant real-time architecture for elderly care</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Fehlertolerante Architektur für Echtzeitanwendungen in der Altenpflege</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Michael-Christian</pc:foreName>
+            <pc:surName>Schmidt</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Cyber-physisches System</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Time Sensitive Networking</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Real-Time</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Fault-Tolerance</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Elderly Care</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Linux</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The ongoing transition from traditional elderly care to the use of modern technologies from the field of Cyber Physical Systems (CPSs) results in new challenges for both industry and research. This shift is mainly motivated by the increasing share of elderly people in the population which is causing a notable shortage of nursing staff. With the availability of new technologies, the CPSs for elderly care are also enabling new fields of applications in the area of biomedicine and robotics. Use cases like the automatic injection of insulin and robotic assistance are prominent examples for these application fields. These new application fields impose new requirements on architectures in the field of elderly care, such as deterministic real-time behavior and dependability along with an open-world assumption in which dynamic changes within the composition of the system can occur at run-time. Likewise, the application of robotic systems in the field of elderly care introduces stringent real-time requirements to the whole CPS, affecting the integration of complex and heterogeneous sensors, the control of actuators and the communication network. Moreover, the application of fault-tolerance and mixed-criticality techniques is required to establish a dependable CPS that is able to tolerate faults in order to prevent dangerous situations for human life. Furthermore, CPSs have to encompass different integration levels like the local network and the Internet in order to support services from professional stakeholders like medical services from caregivers or a doctor.&#13;
+The proposed architecture for elderly care takes into account the new emerging application fields in elderly care as well as the associated challenges, which are (1) real-time support, (2) dependability and (3) support of an open-world assumption while taking into account multiple integration levels and the heterogeneity of the underlying technologies. A review of state-of-the-art architectures for elderly care shows that there is no architecture available at present that meets all these challenges. The proposed architecture addresses this gap by taking advantage of a broad range of well-known technologies and standards from the state-of-the-art like ISO/IEEE 11073 and Time Sensitive Networking (TSN) while further introducing new concepts and technologies, such as fault containment among containers for high-critical applications as well as real-time container-to-container communication with latencies and jitter in the low microsecond range. A huge challenge is further to address the open-world assumption while providing real-time guarantees and fault-tolerance. In particular, this puts further requirements to the real-time system like the capability of a dynamic rescheduling of real-time resources like the real-time network. This is addressed by the introduction of a service for the dynamic rescheduling of real-time communication resources that takes care about topology and service management, scheduling, configuration building and distribution of communication schedules. By this way, changes within the physical model (e.g. a new network switch or end system) and the logical model (e.g. a new service) are supported at run-time of the system.&#13;
+In the field of software architectures, the use of microservices has reached a strong technical maturity in recent years. The proposed architecture is embracing this trend and introduces platform services as microservices. Finally, several proof-of-concept implementations are presented and evaluated in different experiments ranging from a real scenario to experiments in a laboratory in order to show that the proposed architecture for elderly care is able to address the shift in traditional elderly care to the use of modern technologies from the field of CPSs.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Der fortschreitende Wandel von einer traditionellen Altenpflege hin zum Einsatz moderner Technologien aus dem Bereich der Cyber Physical Systems (CPSs) führt zu neuen Herausforderungen für Industrie und Forschung. Dieser Wandel ist vor allem durch den zunehmenden Anteil älterer Menschen an der Bevölkerung begründet und führt bereits jetzt zu einem bemerkenswerten Mangel an Pflegepersonal. Mit der Verfügbarkeit neuer Technologien ermöglichen die CPSs auf den Gebiet der Altenpflege neue Anwendungsfelder im Bereich der Biomedizin und Robotik. Die automatische Verabreichung von Insulin oder die Roboterunterstützung im Bereich der Pflege sind prominente Beispiele für diese Anwendungsfelder. Diese neuen Anwendungsfelder stellen neue Anforderungen an Architekturen im Bereich der Altenpflege, wie z.B. deterministisches Echtzeitverhalten und Zuverlässigkeit. Diese müssen zusammen mit einer Open-World-Annahme gelöst werden, bei der dynamische Veränderungen innerhalb der Zusammensetzung des Systems zur Laufzeit auftreten können. Ebenso stellt der Einsatz von Robotersystemen im Bereich der Altenpflege strenge Echtzeitanforderungen an das gesamte CPS, welche sich auf die Integration komplexer und heterogener Sensoren, die Steuerung von Aktoren und das Kommunikationsnetzwerk auswirken. Darüber hinaus ist die Anwendung von Fehlertoleranz- und Mixed-Criticality-Techniken erforderlich, um gefährliche Situationen für den Menschen zu verhindern. Zudem muss das CPS verschiedene Integrationsebenen, wie das lokale Netzwerk und das Internet, berücksichtigten, um Dienstleistungen von professionellen Stakeholdern, wie medizinische Dienstleister oder Ärzte zu unterstützen.&#13;
+Die in dieser Arbeit vorgeschlagene Architektur berücksichtigt die neu entstehenden Anwendungsfelder in der Altenpflege, sowie die damit verbundenen Herausforderungen, nämlich (1) Echtzeit-Unterstützung, (2) Zuverlässigkeit und (3) Unterstützung einer Open-World-Annahme unter Berücksichtigung mehrerer Integrationsebenen und der Heterogenität der zugrunde liegenden Technologien. Ein Überblick über Architekturen für die Altenpflege im Stand der Technik zeigt, dass es derzeit keine Architektur gibt, welche allen Herausforderungen gerecht wird. Die vorgeschlagene Architektur schließt diese Lücke, indem sie sich eine breite Vielfalt bekannter Technologien und Standards aus dem Stand der Technik wie ISO/IEEE 11073 und Time Sensitive Networking (TSN) zunutze macht und gleichzeitig neue Konzepte und Technologien einführt, wie z.B. Fehlereindämmung zwischen Containern für sicherheitskritische Anwendungen, sowie echtzeitfähige Container-zu-Container-Kommunikation mit Latenzen und Jitter im niedrigen Mikrosekundenbereich. Eine maßgebliche Herausforderung besteht weiterhin darin, die Open-World-Annahme zu unterstützen und gleichzeitig Echtzeitgarantien und Fehlertoleranz zu bieten. Dies stellt zusätzliche Anforderungen an das Echtzeitsystem, wie beispielsweise die Fähigkeit einer dynamischen Umplanung von Echtzeit-Ressourcen. Diesen Anforderungen wird bspw. durch die Einführung eines Dienstes für die dynamische Umplanung von Echtzeit-Kommunikations\-ressourcen Rechnung getragen, welcher für Topologie- und Dienstmanagement, Zeitplanung, Konfigurationsbildung und Verteilung von Kommunikationsplänen verantwortlich ist. Auf diese Weise werden Änderungen innerhalb des physikalischen Modells (z.B. ein neuer Netzwerk-Switch oder ein neues Endgerät) und des logischen Modells (z.B. ein neuer Dienst) zur Laufzeit des Systems unterstützt.&#13;
+Im Bereich der Software-Architekturen hat der Einsatz von Microservices in den letzten Jahren eine nennenswerte technische Reife erreicht. Die vorgeschlagene Architektur greift diesen Trend auf und führt Plattformdienste als Microservices ein. Schließlich werden mehrere Proof-of-Concept-Implementierungen vorgestellt und in verschiedenen Experimenten, die von einem realen Szenario bis hin zu Experimenten im Labor reichen, evaluiert, um zu zeigen, dass die vorgeschlagene Architektur für die Altenpflege in der Lage ist, den Wandel in der traditionellen Altenpflege hin zur Nutzung moderner Technologien aus dem Bereich CPSs zu bewältigen.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Roman</pc:foreName>
+            <pc:surName>Obermaisser</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2020-12-08</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2020</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-17774</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Department Elektrotechnik - Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Michael-Christian_Schmidt.pdf" ddb:fileSize="9234770"/>
+   <ddb:checksum ddb:type="MD5">7756c0cee16b90e0f270cb3d9f7249b0</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1777/5/Dissertation_Michael-Christian_Schmidt.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1777</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

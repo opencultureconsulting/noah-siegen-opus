@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_337">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Tourismuspolitik in Deutschland und in Siegen, Westfalen in den 1950er und 60er Jahren : eine Quellenstudie</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bellers, Jürgen</displayForm>
+                        <namePart type="family">Bellers</namePart>
+                        <namePart type="given">Jürgen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2005</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Politische Steuerung des Tourismus</abstract>
+                    <abstract type="content" lang="eng">Political regulation of tourism</abstract>
+                    <subject>
+                        <topic>Fremdenverkehr</topic>
+                        <topic>Politik</topic>
+                        <topic>Westfalen</topic>
+                        <topic>Tourismuspolitik</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-3376</identifier>
+                    <identifier type="sys">HT015462180</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_337</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_337">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/337/1/tourismuspolitik.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_337"
+            DMDID="DMD_siegen_opus_337">
+            <mets:fptr FILEID="FILE0_siegen_opus_337"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

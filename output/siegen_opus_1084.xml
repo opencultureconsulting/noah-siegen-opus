@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1084">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>On-wafer characterization of mm-wave and THz circuits using electrooptic sampling</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Jamshidifar, Mehran</displayForm>
+                        <namePart type="family">Jamshidifar</namePart>
+                        <namePart type="given">Mehran</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">THz, the electromagnetic spectrum lying between millimeter waves and optics, is nowadays widely utilized in the applications such as material inspection, medicine, explosives detection and astronomy. Although optical and photonic based systems for generating THz waves can fully cover the upper band of the THz spectrum (from several THz to far infrared), they are inefficient at lower frequency bands i.e.,  mm-waves, and at the same time inappropriately bulky for portable applications. In contrast, recent progress in solid states electronics in conjunction with aggressive scaling of devices are promising to facilitate the future availability of THz systems realized as compact and cheap all-electronic solutions. THz microelectronics is an increasingly relevant field of activities, therefore.
+
+Without concerning about the challenges in the design and fabrication of such devices, their performance needs to be characterized with systems faster than the device itself; therefore, we face with limitations. Recently, the measurement bandwidth of microwave network analyzers equipped with extension modules has extended beyond 1 THz. However, their calibration is a challenging task and performing a full band measurement, due to a need for waveguide components, considerably increases the cost and time of measurement. Systematic errors in system calibration due to lack of precise models for devices at THz frequencies are also remarkable drawbacks of this approach. An eligible alternative for these systems is the use of electrooptic and photoconductive sampling which rely on optical and photonic approaches. These techniques with the help of femtosecond pulse lasers provide a very broadband measurement system far beyond today’s electronic devices bandwidth without suffering from the challenges of the electronic approach. In particular electrooptic sampling with non-contact probing can also perform useful high resolution near field scanning of devices.
+The aim of this thesis is to demonstrate the electrooptic sampling for the characterization of mm-wave and THz electronic devices. To this end, an extremely broadband (microwave to THz) device, which is a 65-nm CMOS nonlinear transmission line (NLTL), is used as the device under test. Before showing the measurement results for this device, the advances in THz electronics as well as their common the characterization techniques are reviewed. For the characterization, a rather compact EOS experimental setup featured with a large dynamic range, high sensitivity and high spatial resolution is presented. In the measurement phase, it is shown that what challenges in particular for the characterization of a nonlinear device we may face to and which scenarios can be used to overcome them. The relative jitter in EOS, known as the most prohibiting factor for achieving a high measurement bandwidth, is resolved with a novel synchronization technique called Laser Master Laser Slave (LM-LS). This is achieved by feeding the DUT with a microwave signal which is generated from the comb harmonics of the femtosecond laser. Since the signal is sampled by the laser itself, EOS provides a fully coherent heterodyne detection which helps to significantly increase the detection bandwidth of the system from 50 GHz up to 300 GHz which is presently restricted by the DUT fabrication technology i.e. the 65-nm CMOS. Furthermore, it is shown that for nonlinear devices, measurement with EOS can outperform traditional microwave network analyzer measurements and in particular it can detect hidden features like conversion losses which may not be observed by electronic techniques. In the end by performing photoconductive measurements for the DUT, a good comparison between electrooptic and photoconductive sampling in terms of their detection bandwidth and image resolution is demonstrated.</abstract>
+                    <abstract type="content" lang="ger">THz, das elektromagnetische Spektrum, das zwischen Millimeterwellen und Optik liegt, ist weit verbreitet in Anwendungsgebieten wie Materialinspektion, Medizin, Entdeckung von Sprengstoffen und Astronomie. Obwohl auf Optik und Photonik basierende Systeme für Generation von Terahertz-wellen die oberen Bandbreit des THz-Spektrums vollig abdecken koennen, sind sie ineffizient in den unteren Frequenzbändern, wie etwa dem mm-Wellenbereich, und gleichzeitig sind ihre Größen ungeeignet für tragbare Anwendungen. Im Gegensatz dazu versprechen die aktuellen Fortschritte in der Festkörper Elektronik in Verbindung mit einer aggressiven Skalierung von Bauelement, die zukünftige Verfügbarkeit von THz Systemen, als kompakte und preiswert voll-elektronische Lösungen. Daher ist die THz Mikroelektronik ein zunehmend relevantes Arbeitsfeld.
+Unabhängig von den Herausforderungen in Design und Fabrikation von THz Komponenten, müssen deren Leistungsfähigkeit mit Hilfe von Instrumenten charakterisiert werden, die schneller sind als die Komponente selbst, daher stößt man hier an Grenzen. Die aktuellen Messbandbreiten von Mikrowellen-Netzwerkanalysatoren, die mit Erweiterungsmodulen ausgestatten worden sind, gehen bereits über 1 THz Hinaus. Jedoch ist ihre Kalibrierung aufwendig und Messungen über die volle Bandbreite erhöhen, wegen der Notwendigkeit von Wellenleiterkomponenten, wesentlich die Kosten und den Zeitaufwand. Die systematischen Fehler in der Kalibrierung der Systeme, auf Grund des Mangels an präzisen Modellen für Komponenten im THz Frequenzbereich, sind ebenfalls ein bedeutender Nachteil dieses Ansatzes. Eine gute Alternative für diese Systeme ist elektrooptisches oder photokonduktives Abtasten, welche nicht elektronisch arbeiten sondern optik- und photonik-basiert sind. Diese Techniken stellen mit Hilfe von Femtosekunden-Lasern Breitbandsmesssysteme zur Verfügung, welche die Bandbreite der heutigen elektronischen Messgeräte bei weiten übertreffen, ohne durch die Herausforderungen von elektronischen Ansätzen beschränkt zu werden. Insbesondere durch das elektrooptische Abtasten mit Hilfe von kontaktlosen Probern können wertvolle, hochauflösunge Nahfeld-Scans von Komponenten durchgeführt.
+Das Ziel dieser Dissertation ist die Charakterisierung von mm-Wellen und THz Komponenten mit Hilfe des elektrooptischen Abtastens zu demonstrieren. Zu diesem Zweck wird eine extrem breitbandige (von Mikrowellen bis zu THz) Komponenten, eine 65-nm CMOS nichtlineare Diodenleitung, als DUT genutzt. Bevor die Messungsergebnisse für das Gerät gezeigt werden, werden sowohl die Fortschritte in der THz-Elektronik als auch deren häufigsten Charakterisierungsmethoden vorgestellt. Der für die Charakterisierung verwendete relativ kompakte elektrooptische Aufbau, welcher eine große Dynamik, hohe Sensitivität und hohe räumliche Auflösung aufweist, darauf folgend präsentiert. Der anschließende Abschnitt beschreibt die Messungen und zeigt mit welche Herausforderungen, insbesondere bei der Charakterisierung von nichtlinearem Komponenten, man konfrontieren wird und welche Szenarios als Lösung genutzt werden können. Der relative Jitter im elektrooptischen Abtasten, der meist am stärksten einschränkende Faktor für die Erreichung hoher Messbandbreiten, wird mit Hilfe einer neuartige Synchronisationstechnik, dem sogenannt Laser Master Laser Slave (LM-LS), entgegengewirkt. Dies ist durch die Versorgung des DUT mit Mikrowellensignal, die aus dem Harmonik-Kamm des Femtosekunden-Lasers generiert wird, erreicht. Da das Mikrowellensignal mit dem gleichen Laser abgetastet wird, erhöht das voll kohärente, elektrooptische Abtasten die Detektionsbandbreit von zuvor 50 GHz auf bis zu 300 GHz, was die derzeitige Grenze auf Grund der DUT Fabrikationstechnologie (65-nm CMOS) ist. Ausserdem wird gezeigt, dass elektrooptisches Abtasten für nichtlineare Komponenten die traditionelle Mikrowellenmessmethoden übertreffen kann. Insbesondere detektiert elektrooptisches Abtasten versteckte Eigenschaften, wie Umwandlungsverlusten, die nicht mit elektronischen Messungen beobachtet werden können. Abschließend demonstrieren die Messungen mit einem Photokonduktivdetektor eine gute Vergleichbarkeit von elektrooptischen und photokonduktiven Abtasten, insbesondere in Bezug auf Detektionsbandbreit und Bildauflösung.</abstract>
+                    <subject>
+                        <topic>Femtosekundenlaser</topic>
+                        <topic>Electrooptic Sampling</topic>
+                        <topic>Nonlinear Transmission Line</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Kommunikations- und Informationstechnik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-10849</identifier>
+                    <identifier type="sys">HT019269598</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1084</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2016-10-04</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1084">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1084/1/Dissertation_Mehran_Jamshidifar.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1084"
+            DMDID="DMD_siegen_opus_1084">
+            <mets:fptr FILEID="FILE0_siegen_opus_1084"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

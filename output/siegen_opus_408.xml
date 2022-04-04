@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_408">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Energy consistent time-integration of hybrid multibody systems</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Energie-konsistente Zeitintegration hybrider Mehrkörpersysteme</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Uhlar, Stefan</displayForm>
+                        <namePart type="family">Uhlar</namePart>
+                        <namePart type="given">Stefan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2009</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">In the present contribution we address the design of energy-consistent time stepping schemes for hybrid multibody systems, which consist of rigid and flexible parts. First focusing on rigid body dynamics, we will present a specific rotationless formulation to describe rigid body rotations. This kinematics alleviates the design of energy-consistent integration schemes which facilitate a stable numerical integration of the corresponding set of differential algebraic equations. Furthermore we will mainly focus on vital modeling features concerning rigid bodies. In this connection we present the coordinate augmentation technique, the design of explicit null space matrices for closed loop systems, the incorporation of control constraints, the modeling of dissipation and its consistent time integration, the incorporation of kinematic constraints as well as the coupling of flexible and rigid structures. The performance of the final hybrid scheme will be demonstrated with an example incorporating all modeling features listed above.</abstract>
+                    <abstract type="content" lang="ger">In der vorliegenden Arbeit steht die Entwicklung eines energiekonsistenten Zeitintegrationsverfahrens für hybride Mehrkörpersysteme, bestehend aus starren und flexiblen Komponenten, im Vordergrund. Dabei beschäftigen wir uns zunächst mit der Starrkörperdynamik und wählen eine rotationsfreie Formulierung als Starrkörperkinematik. Diese erleichtert die Entwicklung von energiekonsistenten Zeitintegratoren, welche ein stabiles Verhalten bei der Lösung von differential-algebraischen Gleichungssystemen aufweisen. Ein weiterer Schwerpunkt der Arbeit liegt auf Modellierungstechniken für die Starrkörperdynamik. In diesem Zusammenhang stellen wir die Koordinaten Augmentierung vor, präsentieren eine explizite Darstellung von Null-Raum Matrizen für Systeme mit geschlossenen kinematischen Schleifen, behandeln Steuerungsprobleme, beschäftigen uns mit der Modellierung von Dissipation und der zugehörigen energie-konsistenten Zeitintegration, wie auch letztendlich die Behandlung von nichtholonomen Systemen. Die Leistungsfähigkeit des neuen Zeitintegrationsverfahrens für hybride Mehrkörpersysteme wird anhand eines letzten Beispieles, welches alle oben genannten Modellierungsaspekte beinhaltet, aufgezeigt.</abstract>
+                    <subject>
+                        <topic>Mechanik</topic>
+                        <topic>Mehrkörperdynamik</topic>
+                        <topic>Zeitintegration</topic>
+                        <topic>Differential-algebraic equations</topic>
+                        <topic>inverse dynamics</topic>
+                        <topic>nonholonomic constraints</topic>
+                        <topic>dissipation</topic>
+                        <topic>multibody systems</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Mechanik und Regelungstechnik - Mechatronik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4086</identifier>
+                    <identifier type="sys">HT016130601</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_408</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2009-10-22</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_408">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/408/1/uhlar.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_408"
+            DMDID="DMD_siegen_opus_408">
+            <mets:fptr FILEID="FILE0_siegen_opus_408"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

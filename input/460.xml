@@ -1,0 +1,58 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>460</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Extremal discriminant analysis</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Bangalore G.</pc:foreName>
+            <pc:surName>Manjunath</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Diskriminanzanalyse</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Diskriminanzanalyse</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Extremwertmodell</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Discriminant analysis</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Gaussian model</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Truncation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Generalized Pareto distributions</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">HÃ¼sler-Reiss triangular arrays</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">510</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Das Hauptziel der vorliegenden Dissertation ist die Einführung von Extremwertmodellen in der Diskriminanzanalyse. Die klassische Diskriminanzanalyse konzentriert sich auf Normalverteilungs und nichtparametrische Modelle, bei denen im zweiten Fall die unbekannten Dichten durch Kerndichten ersetzt werden, die auf der Lernstichprobe basieren. Im Folgenden nimmt man an, dass es genügt die Klassifizierung auf Basis von Überschreitungen über einer Schranke vorzunehmen. Diese Überschreitungen können als Beobachtungen im bedingten Rahmen interpretiert werden. Daher ist lediglich die statistische Modellierung von abgeschnitten Verteilungen erforderlich. In diesem Zusammenhang ist eine nichtparametrische Modellierung nicht adäquat, da die Methode bezüglich der Kerndichte im Bereich der oberen Flanke nicht exakt ist. Dennoch kann eine abgeschnittene Verteilung wie die Normalverteilung verwendet werden. Es ist das primäre Ziel, abgeschnittene Normalverteilungen durch geeignete verallgemeinerte Pareto-Verteilungen zu ersetzen und Eigenschaften und die Beziehung der Diskriminanzfunktionen in beiden Modellen zu untersuchen. Anders als beim klassischen Vorgehen in der Diskriminanzanalyse wird auch die Konvergenz der klassischen Diskriminanzfunktionen untersucht.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The main goal of this dissertation is to introduce an extreme value model to discriminant analysis.  A  classical discriminant analysis focuses on Gaussian and nonparametric models where in the second case, the unknown densities are replaced by kernel densities based on the training sample. In the present text we assume that it suffices to base the classification on exceedances above higher thresholds, which can be interpreted as observations in a conditional framework. Therefore, the statistical modeling of truncated distributions is  merely required. In this context, a nonparametric modeling is not adequate because the kernel method is inaccurate in the upper tail region. Yet one may deal with truncated parametric distributions like the Gaussian ones. The primary aim is to replace truncated Gaussian distributions by appropriate generalized Pareto distributions and to explore properties and the relationship of discriminant functions in both models.  Different to the classical work on discriminant analysis, we are also interested in the convergence of the classical discriminant function.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2010-10-12</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2010</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-4609</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Statistik, Risikoanalyse &amp; Computing</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="manjunath.pdf" ddb:fileSize="837625"/>
+   <ddb:checksum ddb:type="MD5">84ed66b2f80d2e70cf253657102b487c</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/460/1/manjunath.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/460</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

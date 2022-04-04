@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1939">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Lost and found: transforming assistance at digital Deutsche Bahn</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Potthast, Jörg</displayForm>
+                        <namePart type="family">Potthast</namePart>
+                        <namePart type="given">Jörg</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Paying close attention to the intricacies of the episode below, this paper sets out to reflect in situ a shift to digitizing “lost and found” services. Foreshadowing a more extensive study on a contemporary redistribution of assistance at Deutsche Bahn, it refers to a pragmatist tradition concerned with preserving the condition of voice. Following this vein, it faces a purist critical attitude – epitomized in the practice of economics (Orléan 2014), which defends market forces (“exit”) as a way to outperform voice in any situation of decline, decay or dissatisfaction (Hirschman 1970). Anti-elitist suspicions, brought to perfection by another branch of social sciences, have become a powerful ally of this position. Rather than criticizing elitism and privilege, however, the present contribution draws on ethnographic research which displays the ambiguity of privileged users’ encounters with assis- tants. Exploring ambiguous patterns in the practice of assistance, it seeks for a politics of pity which has been largely absent from current appraisals of digital sociality.</abstract>
+                    <subject>
+                        <topic>Techniksoziologie</topic>
+                        <topic>social studies of technology</topic>
+                        <topic>infrastructure</topic>
+                        <topic>digital practices</topic>
+                        <topic>assistance</topic>
+                        <topic>exit and voice</topic>
+                        <topic>privileged users</topic>
+                        <topic>situated judgement</topic>
+                        <topic>consumer dissatisfaction</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19397</identifier>
+                    <identifier type="sys">HT020961809</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1939</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1939">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1939/2/WPS_19_Potthast.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1939"
+            DMDID="DMD_siegen_opus_1939">
+            <mets:fptr FILEID="FILE0_siegen_opus_1939"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

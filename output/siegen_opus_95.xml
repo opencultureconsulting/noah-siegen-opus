@@ -1,0 +1,98 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_95">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Bestimmung und Modellierung von Detektionsgrenzen bei TFA-Bildsensoren</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Sterzel, Jürgen</displayForm>
+                        <namePart type="family">Sterzel</namePart>
+                        <namePart type="given">Jürgen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2005</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Thin-Film-on-ASIC- (TFA-) Sensoren nutzen als fotoelektrischen Wandler eine Dünnschicht
+auf Basis amorphen Siliziums, die großflächig über das 2-dimensionale kristalline Pixelarray
+aufgebracht ist. In der Arbeit werden von integrierenden TFA-Bildsensoren die Grenzeigenschaften
+Empfindlichkeit, Dunkelstrom, temporäres und örtliches Rauschen untersucht.
+Eine gute Stromempfindlichkeit wird durch optimale Detektorgeometrien erreicht. Parasitäre
+Kapazitäten der 3-dimensionalen Anordnung und die gewählte Pixeleingangsschaltung
+bestimmen die Wandlungs- oder Spannungsempfindlichkeit.
+Dunkelstromanteile sind durch thermische Effekte bzw. durch Feldeffekte bestimmt. Der
+Sperrstrom des Detektors, der Leckstrom des Resettransistors und der Leckstrom über das
+Treibergate sind zu bewerten. Je nach dominierendem Anteil ändert sich die Temperaturabhängigkeit.
+Bei ohmschen Anteilen ist die Dunkelstromverbesserung durch Kühlung vernachlässigbar.
+Die Einbindung des Detektorrauschens von Foto- und Dunkelstrom in SPICE ermöglicht die
+Bestimmung des Signal-Rauschabstands und des Dynamikbereichs der Pixeleingangsstufe.
+Bei der Detektionsschwelle dominiert i. d. R. das Treiberrauschen.
+Eine Beschreibung für das Verstärkungs-FPN (PRNU) ist mithilfe der Momentenmethode
+dargestellt. Das temporäre Rauschen geht stärker in die Pixeleingangsstufe ein als das örtliche
+Rauschen.
+Durch die allgemein gültige Beschreibung sind die zentralen Ergebnisse dieser Arbeit für
+CMOS- als auch für TFA-Bildsensoren anwendbar.</abstract>
+                    <abstract type="content" lang="eng">Thin-Film-on-ASIC (TFA) sensors use a thin film layer as photoelectric detector. Based on
+amorphous silicon, the film is deposited on top of the 2-dimensional crystalline pixel area.
+This thesis analyses the limiting properties of integrating TFA image sensors, i.e. sensitivity,
+dark current, temporal and fixed pattern noise.
+A useful current sensitivity is obtained with optimized detector geometries. Parasitic capacitances
+of the 3-dimensional design and the selected pixel input circuit determine the
+conversion or voltage sensitivity.
+The dark current is determined by thermal effects or electrical field effects. The reverse
+current of the detector, the leakage current of the reset transistor and the leakage current of the
+driver gate have to be considered. The dark current temperature dependence varies with the
+dominating physical property. Dark current improvements of ohmic components by cooling
+are negligible.
+The integration of photo and dark current detector noise into SPICE enables the determination
+of the signal-to-noise ratio and the dynamic range of the pixel input stage. In most cases, the
+driver transistor noise determines the detection limit.
+A description of gain FPN (PRNU) depending on the transistor geometry is developed using
+the moment method. Temporal noise has a stronger influence on the pixel input stage than
+fixed pattern noise.
+Due to the generally valid description, the central results of this thesis are applicable to
+normal CMOS as well as TFA image sensors.</abstract>
+                    <subject>
+                        <topic>TFA-technology</topic>
+                        <topic>Image sensors</topic>
+                        <topic>Fixed-pattern-noise</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-950</identifier>
+                    <identifier type="sys">HT014440656</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_95</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2004-12-02</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_95">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/95/1/sterzel.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_95"
+            DMDID="DMD_siegen_opus_95">
+            <mets:fptr FILEID="FILE0_siegen_opus_95"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

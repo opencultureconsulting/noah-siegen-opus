@@ -1,0 +1,57 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1817">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Formats as media of cooperation</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Volmar, Axel</displayForm>
+                        <namePart type="family">Volmar</namePart>
+                        <namePart type="given">Axel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">This paper aims to link the possibility of translocal cooperation to the agency of formats. At first, I discuss some of the basic types, features, and functions of formats in order to show how formats frame and configure media in distinct ways. Building on this, I assess the benefits and relevance of format studies in current media studies. As formats tend to stretch across different domains of media production, distribution, and reception, I argue that they are not only crucial for understanding aesthetic properties of media but also the value chains and infrastructures of media distribution. Furthermore, formats link media more closely to specific media-related practices and communities of practice: each format tells stories about how people create, work with, consume or appropriate media. Formats can thus be thought of as both—usually conventionalized—materializations of media-related practices and default affordances which govern and support those practices. Therefore, I argue that formats should be regarded as paradigmatic media of cooperation. Since formats help establishing and stabilizing connections, relations, and labour chains, they also need to be taken into account as fundamental factors within processes of scaling and growth, such as historical formations or transformations of media systems, infrastructures, and industries.</abstract>
+                    <subject>
+                        <topic>Format studies</topic>
+                    </subject>
+                    <classification authority="ddc">302</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-18170</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1817</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1817">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1817/4/Volmar_Formats.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1817"
+            DMDID="DMD_siegen_opus_1817">
+            <mets:fptr FILEID="FILE0_siegen_opus_1817"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

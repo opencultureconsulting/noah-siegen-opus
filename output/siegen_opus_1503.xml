@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1503">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Rekodierungen auf dem Weg zum &quot;Komparativ&quot;</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kappest, Klaus-Peter</displayForm>
+                        <namePart type="family">Kappest</namePart>
+                        <namePart type="given">Klaus-Peter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">1998</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Inhaltsverzeichnis:
+1 Ein Sprecher lernt das Schreiben
+2 Analysekategorie Komparativ: ein exemplarisches Problemfeld
+3 Die Quelle der Beobachtungen: das Rigol-Korpus
+4 Erste Beobachtungen der Aneignung komparativischer Sprachstrukturformen
+5 Rekodierungen in der Aneignung sprachlicher Strukturformen
+6 Weitere Rekodierungen und der Einfluß des Schreibenlernens
+7 Die ontogenetische Selbstorganisation der Grammatik
+8 Literaturverzeichnis</abstract>
+                    <subject>
+                        <topic>Schreibunterricht</topic>
+                        <topic>Deutschunterricht</topic>
+                        <topic>Komparativ</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-15035</identifier>
+                    <identifier type="sys">HT020281463</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1503</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1503">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1503/2/SPASS_Heft_03_1998.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1503"
+            DMDID="DMD_siegen_opus_1503">
+            <mets:fptr FILEID="FILE0_siegen_opus_1503"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,61 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>171</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Online-Demodulation stark gestörter winkelmodulierter Signale mit dem Extended Kalman-Filter</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Dirk</pc:foreName>
+            <pc:surName>Balzer</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Kalman-Filter</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Demodulation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">DSP</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die Arbeit zeigt, daß Extended Kalman-Filter zur Online-Demodulation&#13;
+winkelmodulierter Signale grundsätzlich geeignet sind. Abhängig vom betrachteten SNR (CNR) und der Wahl der Quellsignale müssen unterschiedliche Extended Kalman-&#13;
+Filtermodelle gewählt werden. Im betrachteten Bereich von 0 bis 17 dB zeigen insbesondere adaptive Kalman-Filtermodelle eine hohe Genauigkeit. Dabei ist die externe Parameter-Anpassung durch Maximum-Likelihood Schätzung zu bevorzugen, da Filterlaufzeit eingespart wird und das Filter nicht durch zusätzliche Komponenten destabilisiert wird. Besitzen die Signale nur geringe Dynamik, dann lassen sich vorgefilterte Kalman-Filter einsetzen, bei denen im stationären Betrieb auf den Kovarianzenzyklus verzichtet wird. Erweiterte Filtermodelle zeigen insbesondere bei negativen SNR´s die Vorteile der Datenfusion, ihr Verhalten ist jedoch grundsätzlich instabiler. Die Gruppe der Smoothermodelle ist für Online-Anwendungen eher ungeeignet, da extrem hohe Filterlaufzeiten benötigt werden, um Stabilität und Filtergenauigkeit steigern zu können.  &#13;
+Bei nichtlinearen Filtern muß auf die Wahl von korrekten Startwerten geachtet werden, da sich diese nicht nur auf die Filterstabilität beim Einschwingen auswirken, sondern auch noch auf die Filtergenauigkeit des eingeschwungenen Filters. Es läßt sich beim Filtertuning eine optimale Einschwingzeit ermitteln, bei der die Filtergenauigkeit noch optimal bleibt und erst bei Verkürzen der Einschwingdauer, der Filterfehler ansteigt. &#13;
+Parallel zu den theoretischen Untersuchungen wurde eine Entwicklungsumgebung aufgebaut, welche ein brauchbares Entwicklungstool nicht nur für die Online-Demodulation darstellt, sondern sich vielseitig auch für andere Anwendungen beipielsweise im Motorenmanagement (Automobilindustrie) oder Maschinenregelungen einsetzen läßt.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Kalman filters offer a good opportunity for processing heavily disturbed signals. Applied to the demodulation problem of communications an Extended Kalman filter is used as a demodulator of angularly modulated signals. In the range of low signal to noise ratios (0 to 17 dB) a number of several filter models is examined in this work /3, 5, 16, 24, 34, 35, 40, 42, 49, 54, 69, 77/. &#13;
+The two quadrature components, real and imaginary part of a received signal in the baseband are considered as components of a two dimensional observation vector from which phase, frequency and even amplitude and amplitude derivative are estimated. &#13;
+Supplementary observations as amplitude and phase, adaptive elements and smoother elements have been tested in an online development environment. It has been built up with a DSP (TMS320 C44) to prove data fusion concepts and information absorption in Kalman filters based on examinations which have been theoretical determined in /5, 42/. It proves that even virtually created additional observations like phase and amplitude determined with the two quadrature components lead to an increase of the absorbed information, which leads to better filter results. &#13;
+Furtheron stability, accuracy and bandwidth have been observed in the online simulation. They are important criteria for online processing, whereas in case batch processing only the accuracy is the important parameter. &#13;
+Chapter 3 will be laying the basics in signal theory for the following chapter 4, where the different Kalman filter models developed for the demodulation problem will be described. Chapter 5 will show filtering results and Chapter 6 gives a rough description of the DSP development environment used for online-demodulation /2, 33, 76/. A summary in Chapter 7 concludes this work with results and remarks.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">1999-05-13</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">1999</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-1718</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 12, Elektrotechnik und Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="balzer.pdf" ddb:fileSize="1463771"/>
+   <ddb:checksum ddb:type="MD5">6883ecaeca07787194365916fdb9cd2c</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/171/1/balzer.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/171</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_787">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Modellierung, Herstellung und Optimierung von a-Si:H Mehrfarbdioden für eine verbesserte Farbseparation</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Modeling, production and optimization of a-Si:H multicolordiode for an improved color separation</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bablich, Andreas</displayForm>
+                        <namePart type="family">Bablich</namePart>
+                        <namePart type="given">Andreas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Gegenstand der verfassten Dissertationsschrift ist die Entwicklung neuartiger, lichtsensitiver und spektralselektiver Photodioden aus amorphem, hydrogenisiertem Silizium sowie amorphen Siliziumlegierungen. Üblicherweise erreicht man Farbselektivität in Bildaufnehmern aus kristallinem Silizium durch Aufbringen optischer Filterschichten auf einen helligkeitsempfindlichen Sensor. Nutzt man die wellenlängenabhängige optische Absorption des amorphen Materials aus und erzeugt zudem einen mehrschichtigen Halbleiterstapel, dessen Ladungsträgerdrifteigenschaften sich für unterschiedliche Schichttiefen unterscheiden, wird eine Feldsteuerung der spektralen Empfindlichkeit ermöglicht. Anhand der vorgestellten Bauelementarchitekturen kann eine beliebige Anzahl ortsaufgelöster Farbsignale in nur einem einzelnen Sensorelement generiert werden. Es wird der Entwicklungsprozess von Helligkeitssensoren über diskret bandabstandsoptimierte Mehrfarbsensoren bis hin zu höchstkomplexen, kontinuierlich bandveränderten, Hyperspektralsensoren beschrieben. Die genaue Kenntnis elektrooptischer Eigenschaften der implementierten Einzelschichten in derartigen Detektoren - diese Dünnschichten sind Absorptions-, Dotierungs- und Kontaktschichten - ist im Entwicklungsprozess unabdingbar. Im Rahmen dieser Arbeit findet eine ausführliche elektrische und optische Charakterisierung einer Vielzahl diskreter Dünnschichten mittels Strom-/Spannungs-, spektraler Empfindlichkeits- und konstanter Photostrommessungen statt. Zudem werden fundamentale Ergebnisse aus optischen Simulationen, insbesondere Absorptions-, Reflexions- und Transmissionsspektren sowie Schichtdickenanalysen, präsentiert und diskutiert. Weiterhin wird das transiente und das kapazitive Verhalten der hergestellten Farbsensoren beleuchtet. Um die Funktion der Sensoren anhand von Transport-, Generations- und Rekombinationsmechanismen von Ladungsträgern im amorphen Silizium physikalisch nachvollziehen zu können, werden zwei Modelle, ein stark vereinfachtes, analytisches Modell und ein komplexerer, numerischer Modellansatz zur Berechnung diverser halbleiterphysikalischer Parameter des Sensorelementes pin-Diode, gegenübergestellt. Besonderes Augenmerk wird in diesem Zusammenhang auf den örtlichen Verlauf des elektrischen Feldes und dem Produkt aus Ladungsträgerbeweglichkeit und -lebensdauer, dem mutau-Produkt, gelegt. Diese Parameter definieren die Driftlänge, die fundamentale Variable zur Steuerung der spektralen Empfindlichkeit. Die vorgestellten Modelle sind zur Beschreibung der spektralen Empfindlichkeit ungeeignet, jedoch tragen sie in großem Maße zum Verständnis der Funktionsweise der entwickelten Bauelemente bei und unterstützen die Interpretation der entstandenen Messergebnisse. Ein selbst entwickeltes Modell zur Beschreibung des Kathodenmaterialeinflusses auf Interferenzerscheinungen in der fallenden Flanke der Spektralantwort stellt ein eigenständiges Kapitel der Arbeit dar. Die Herstellung eines Hyperspektralsensors, dessen Bauelementstruktur sowohl die Detektion des nahezu kompletten sichtbaren Spektralbereiches als auch die Abtastung im nahen UV-Bereich ermöglicht, ist eines der wissenschaftlichen Kernresultate der Dissertation. Ein neuartiges Prozessierungsverfahren, welches eine textit{in situ}-Strukturierung von Dünnschichten im Hochvakuum-Herstellungsprozess ermöglicht, ohne diese mit Flüssigkeiten zu ätzen, wird ebenso präsentiert. Unmittelbar vor Fertigstellung der Arbeit konnte erfolgreich die Integration eines vergrabenen, diskreten a-Si:H-Dünnschichtfilters, welcher gesondert die Grünempfindlichkeit eines Mehrfarbdetektors unterdrückt, demonstriert werden. Nicht zuletzt belegen die vorgestellten Dünnschichtbauelemente, dass diese innovative Sensortechnologie zur Erkennung koloristischer Merkmale erhebliches Potential der Weiterentwicklung aufweist. 
+
+Ein potentielles Einsatzgebiet der neu entwickelten Sensoren liegt im Bereich der Sicherheitstechnologie, zum Beispiel in der Erkennung von Gefahrstoffen, wie Sprengstoffen oder illegalen Drogen. Ebenso sind Anwendungen in der Medizin- und Umwelttechnik vorstellbar, etwa bei der Klassifizierung von Abfällen oder bei Untersuchungen von Gewebeproben. Mögliche Anwendungsfelder erschließen sich zudem in Bereichen der Photovoltaik, spektrophotometrischer und hyperspektraler Messsysteme sowie in chemischen Analyseverfahren.</abstract>
+                    <abstract type="content" lang="eng">The object of this PhD thesis is the development of novel light sensitive and spectral selective photodiodes based on amorphous silicon and its alloys. Typically, color selectivity of state of the art crystalline silicon sensors is achieved by stacking additional optical filter arrays on sensors surfaces being just sensitive to light intensity. The wavelength dependent optical absorption in amorphous silicon combined with an adequate $mutau$-engineering of the absorbing multilayer stack, results in a field-adjustable drift-profile. This enables the opportunity to manipulate the spectral response. The sensor architectures developed are capable to generate almost an infinite number of space-resolved color information signals in just one single sensing device. The development process presented ranges from simple light intensity detectors to multicolor sensors with an optimized discrete bandgap structure. At the end of the process, characteristics of high complex and continuous bandgap adjusted hyperspectral sensors are discussed. Detector development requires an exact and well-founded knowledge of electro-/optical characteristics of the thin film layers; these are absorbing-, doping- and contact thin films. In this work, a variety of layers is examined by current-/voltage-, spectral sensitivity- and constant photocurrent measurements. Beneath optical simulations to analyze absorption-, reflection- and transmission spectra, scanning electron microscopy studies were performed to monitor film thicknesses, etching processes and the structural quality of the deposited thin films. An additional focus is put on the transient and capacitive behavior of the devices developed. To understand physical fundamentals like transport-, generation- and recombination processes in an amorphous hydrogenated silicon pin-photosensor, a simple analytical model and a more complex numerical model of a-Si:H devices are compared to calculate essential parameters like current density. Furthermore, those models support the interpretation of the measurement results. Especially, the course of the electrical field and the product of charge carrier mobility and life-time, the mutau-product, give an insight in understanding the functionality of the devices presented. This special transport parameter defines the drift-length, the fundamental value enabling a voltage adjustable spectral response. Those models do not allow a fully characterization of the spectral response curves, but they support the fundamental understanding of the devices functionality and help in interpreting the measurement results. In this work, a model describing the correlation between the cathode material and the interference fringes, occurring in the falling edge of the spectral response, is developed and highlighted in a separate chapter. One of the main research results being presented in this work is the realization of an innovative hyperspectral sensor being not just sensitive in the visible spectral range, but being able to scan optical signals in the near ultraviolet, too. Another highlight presented, is the development of a novel process, enabling an in-situ structuring of thin films in a high vacuum process, without etching the material with a fluid solvent. At the end of this thesis, an innovative sensor structure comprising an internal, discrete a-Si:H filter structure which successfully suppresses the green sensitivity of a multicolor sensor is characterized. All thin film detectors presented, reveal that this kind of innovative sensor technology is predestined to be used in color recognition systems. Therefore, they offer a lot of potential for improvement and redevelopment. Possible sensor applications may exist in fields of civil security technologies, for example in the detection of hazardous materials, like explosives or illegal drugs. Moreover, applications in fields of environmental engineering are imaginable to classify waste or tissue samples. These sensors also may be useful for improving photovoltaic cells, medical diagnostic tools, fluorescence and spectrophotometric measurement systems, chemical analysis tools or  colorimetric and hyperspectral imagery systems.</abstract>
+                    <subject>
+                        <topic>Photodioden</topic>
+                        <topic>optische Sensoren</topic>
+                        <topic>Amorphes Silizium</topic>
+                        <topic>Photovoltaik</topic>
+                        <topic>Photo diodes</topic>
+                        <topic>optical sensors</topic>
+                        <topic>amorphous silicon</topic>
+                        <topic>photovoltaics</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Mikrosystemtechnik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-7877</identifier>
+                    <identifier type="sys">HT018192818</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_787</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2013-10-21</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_787">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/787/1/bablich.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_787"
+            DMDID="DMD_siegen_opus_787">
+            <mets:fptr FILEID="FILE0_siegen_opus_787"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

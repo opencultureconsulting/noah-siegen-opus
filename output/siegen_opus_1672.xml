@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1672">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Bewegliche Tragwerke</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wirfler, Katja</displayForm>
+                        <namePart type="family">Wirfler</namePart>
+                        <namePart type="given">Katja</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Fernandez Serrano, Martino Peña</displayForm>
+                        <namePart type="family">Fernandez Serrano</namePart>
+                        <namePart type="given">Martino Peña</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Weimar, Thorsten</displayForm>
+                        <namePart type="family">Weimar</namePart>
+                        <namePart type="given">Thorsten</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Der erste Band Lehre 01 der neuen von Prof. Dr. Thorsten Weimar herausgegebenen Schriftenreihe Tragkonstruktion widmet sich dem Thema »Bewegliche Tragwerke« und dokumentiert studentische Arbeiten, die den Zusammenhang von Entwurf, gestalterischem Potential sowie erforderlicher Konstruktion bis hin zum analogen und digitalen Modell umfassen.
+Seit 2014 wird das Wahlmodul »Bewegliche Tragwerke« vom Lehrstuhl für Tragkonstruktion im Department Architektur der Universität Siegen angeboten. Zentrales Ziel ist es dabei, den Studierenden ein allgemeines Verständnis für Tragkonstruktionen im Zusammenhang mit materialgerechtem Konstruieren und hohem architektonischen Anspruch zu vermitteln. Die Studierenden im Masterstudiengang Architektur entwerfen und entwickeln dazu faltbare und bewegliche Tragstrukturen. Dabei stehen für die Teilnehmer direkte Erfahrungen vom kreativen Umgang mit der Tragkonstruktion für die vorgegebene Aufgabe bis zur eigenständigen Umsetzung am Modell im Fokus.</abstract>
+                    <subject>
+                        <topic>Faltwerk</topic>
+                        <topic>Prototypentwicklung</topic>
+                        <topic>Tragkonstruktion</topic>
+                        <topic>studentische Arbeiten</topic>
+                        <topic>Modellbau</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16724</identifier>
+                    <identifier type="sys">HT020641568</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1672</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1672">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1672/1/Bewegliche%20Tragwerke_Lehre%2001.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1672"
+            DMDID="DMD_siegen_opus_1672">
+            <mets:fptr FILEID="FILE0_siegen_opus_1672"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

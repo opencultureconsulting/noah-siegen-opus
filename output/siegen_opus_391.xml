@@ -1,0 +1,133 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_391">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Frequency estimation for single-carrier and OFDM signals in communication and radar systems</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ubolkosold, Pakorn</displayForm>
+                        <namePart type="family">Ubolkosold</namePart>
+                        <namePart type="given">Pakorn</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2009</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Eine der klassischen Problemstellungen in der Signalverarbeitung
+ist die Schaetzung der Frequenz eines Signals, das von weissem
+Rauschen additiv ueberlagert ist. Diese bedeutende Aufgabe
+stellt sich in vielen verschiedenen Anwendungsbereichen wie der
+Kommunikationstechnik, beim Doppler-Radar, beim Radar mit
+synthetischer Apertur (SAR), beim Array Processing, bei
+Radio-Frequency-IDentification (RFID), bei Resonanz-Sensoren usw.
+
+Die Anforderungen bezueglich der Leistungsfaehigkeit des
+Frequenzschaetzers haengen von der Anwendung ab. Die
+Leistungsfaehigkeit ist dabei oft unter Beruecksichtigung
+der folgenden 4 Punkte definiert: i) Genauigkeit,
+Richtigkeit der Schaetzung, ii) Arbeitsbereich
+(estimation range), iii) Grenzwerte der Schaetzung (im
+Vergleich zu einer theoretisch moeglichen Schwelle) und
+iv) Komplexitaet der Implementierung. Diese
+Anforderungen koennen nicht unabhaengig voneinander
+betrachtet werden und stehen sich teilweise gegenueber.
+Beispielsweise erfordert die Erzielung von Ergebnissen nahe an der
+theoretisch moeglichen Schwelle eine hohe Komplexitaet.
+Ebenso kann ein Schaetz-ergebnis von hoher Genauigkeit oftmals
+nur fuer einen stark eingeschraenkten Arbeitsbereich erzielt
+werden. Die Frequenzschaetzung ist im Falle von durch Fading
+hervorgerufenem multiplikativem Rauschen noch herausfordernder. Es
+handelt sich dann um den allgemeinen Fall der
+Frequenzschaetzung. Bisher hat man bereits viel Arbeit in die
+Ableitung eines Schaetzers für diesen allgemeinen Fall
+investiert. Ein Schaetzer, der optimal bezueglich aller oben
+genannten Kriterien ist, duerfte allerdings nur schwer zu
+finden sein.
+
+In dieser Dissertation wird mit Blick auf Kommunikationstechnik
+und Radaranwendungen ein verallgemeinerter, in geschlossener Form
+vorliegender, Frequenzschaetzer eingefuehrt, der alle
+genannten Kriterien der Leistungs-faehigkeit
+beruecksichtigt. Die Herleitung des Schaetzers beruht auf
+dem Prinzip der kleinsten Fehlerquadrate fuer den nichtlinearen
+Fall in Verbindung mit der Abelschen partiellen Summation. Zudem
+werden verschiedene modifizierte Frequenzschaetzer vorgestellt,
+die sich fuer Faelle in denen kein Fading oder nur sehr
+geringes Fading auftritt, eignen.</abstract>
+                    <abstract type="content" lang="eng">Estimating the frequency of a signal embedded in additive white
+Gaussian noise is one of the classical problems in signal
+processing. It is of fundamental importance in various
+applications such as in communications, Doppler radar,
+synthetic aperture radar (SAR), array processing, radio
+frequency identification (RFID), resonance sensor, etc.
+
+The requirement on the performance of the frequency estimator
+varies with the application. The performance is often defined
+using four indexes: i). estimation accuracy, ii).
+estimation range, iii). estimation threshold, and
+iv). implementation complexity. These indexes may be in
+contrast with each other. For example, achieving a low threshold
+usually implies a high complexity. Likewise, good estimation
+accuracy is often obtained at the price of a narrow estimation
+range. The estimation becomes even more difficult in the presence
+of fading-induced multiplicative noise which is considered to be
+the general case of the frequency estimation problem. There have
+been a lot of efforts in deriving the estimator for the general
+case, however, a generalized estimator that fulfills all indexes
+can be hardly obtained.
+
+Focusing on communications and radar applications, this thesis
+proposes a new generalized closed-form frequency estimator that
+compromises all performance indexes. The derivation of the
+proposed estimator relies on the nonlinear least-squares principle
+in conjunction with the well known summation-by-parts formula. In
+addition to this, several modified frequency estimators suitable
+for non-fading or very slow fading scenarios, are also introduced
+in this thesis.</abstract>
+                    <subject>
+                        <topic>Kommunikationstechnik</topic>
+                        <topic>Frequenzschaetzung</topic>
+                        <topic>Frequenzschaetzer</topic>
+                        <topic>Frequency estimation</topic>
+                        <topic>Frequency estimator</topic>
+                        <topic>frequency offset</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="NRW-Zentrum für Sensorsysteme (ZESS)"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-3910</identifier>
+                    <identifier type="sys">HT016079231</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_391</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2009-04-14</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_391">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/391/1/Ubolkosold.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_391"
+            DMDID="DMD_siegen_opus_391">
+            <mets:fptr FILEID="FILE0_siegen_opus_391"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

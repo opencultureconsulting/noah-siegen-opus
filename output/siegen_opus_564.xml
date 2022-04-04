@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_564">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Die </nonSort>
+                        <title>Auswirkungen einer chronischen psychischen Erkrankung auf eine Paarbeziehung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Born, Stephanie</displayForm>
+                        <namePart type="family">Born</namePart>
+                        <namePart type="given">Stephanie</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">masterThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">&quot;Die Auswirkungen einer chronischen psychischen Erkrankung auf eine Paarbeziehung.&quot; Mit dieser Fragestellung verfolgte ich anhand von Interviews herauszufinden, welchen Einfluss die psychische Erkrankung eines Partners auf die gesamte Partnerschaft haben kann. Welche Veränderungen sind innerhalb des partnerschaftlichen Miteinanders erkennbar, welche Belastungen ergeben sich speziell für den gesunden Partner und welche Bedeutung hat dieser für den Erkrankten während des Krankheitsverlaufs? Welchen Bewältigungsanforderungen steht das Paar gegenüber und kann die gemeinsame Paarbeziehung aufrechterhalten werden?</abstract>
+                    <subject>
+                        <topic>Partnerschaft</topic>
+                        <topic>Paarbeziehung</topic>
+                        <topic>psychische Erkrankung</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät II (Bildung, Architektur, Künste)"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5643</identifier>
+                    <identifier type="sys">HT017110403</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_564</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaMasterThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_564">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/564/1/born.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_564"
+            DMDID="DMD_siegen_opus_564">
+            <mets:fptr FILEID="FILE0_siegen_opus_564"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

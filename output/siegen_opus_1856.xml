@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1856">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>digital transformation of healthcare</title>
+                        <subTitle lang="eng">exploring stakeholder perspectives and ethical issues of digital technologies in patient treatment</subTitle>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <nonSort>The </nonSort>
+                        <title>Die digitale Transformation des Gesundheitswesens : Erforschung von Stakeholder-Perspektiven und ethischen Fragen bezüglich digitaler Technologien in der Behandlung von Patient*innen</title>
+                        <subTitle lang="eng">exploring stakeholder perspectives and ethical issues of digital technologies in patient treatment</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Müller, Marius</displayForm>
+                        <namePart type="family">Müller</namePart>
+                        <namePart type="given">Marius</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Niehaves, Björn</displayForm>
+                        <namePart type="family">Niehaves</namePart>
+                        <namePart type="given">Björn</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Gesundheitssysteme sehen sich wachsenden Herausforderungen gegenübergestellt. Entwicklungen wie der demografische Wandel und erhöhte Behandlungsbedarfe tragen zu der Entstehung von Versorgungsdefiziten bei. Vielerorts kann dem steigenden Bedarf nicht begegnet werden, was die flächendeckende Gesundheitsversorgung gefährdet. Parallel zu dieser Entwicklung sind transformative Digitalisierungsprozesse zu beobachten, die durch den rasanten technologischen Fortschritt und das Potenzial von Telemedizin beschleunigt werden. Technologische Ansätze tangieren dabei eine Vielzahl von Stakeholdergruppen. Die kumulative Dissertation nimmt auf dieser Grundlage unter Anwendung empirischer Methoden eine multiperspektivische Haltung ein. Ziel der Arbeit ist die Beleuchtung und Integration der Versorger- und Verbraucherperspektive auf den Einsatz von Telemedizin in der aktuellen sowie künftigen Patientenversorgung sowie die Identifikation und Diskussion auftretender (ethischer) Konflikte. Zudem geht die Arbeit darauf ein, welche Implikationen aus den empirischen Erkenntnissen für die konkrete Ausgestaltung digitaler Technologien in der Versorgung gezogen werden können. Die Arbeit liefert folglich einen interdisziplinären Beitrag an der Schnittstelle zwischen Wirtschafts- und Medizininformatik, Versorgungsforschung und sozialwissenschaftlichen Bereichen.</abstract>
+                    <abstract type="content" lang="eng">Healthcare systems are facing growing challenges. Developments such as demographic change and increased treatment needs are contributing to the emergence of care deficits. In many places, it is not possible to meet the increasing demand, which jeopardizes nationwide healthcare provision. Parallel to this development, transformative digitalization processes can be observed, which are accelerated by rapid technological progress and the potential of telemedicine. Technological approaches thereby affect a variety of stakeholder groups. On this basis, the cumulative dissertation takes a multi-perspective stance using empirical methods. The aim of the thesis is to illuminate and integrate the provider and consumer perspectives on the use of telemedicine in current and future patient care, as well as to identify and discuss emerging (ethical) conflicts. In addition, the work addresses implications that can be drawn from the empirical findings for the concrete design of digital technologies in care. Consequently, the work provides an interdisciplinary contribution at the intersection of business and medical informatics, health services research, and social sciences.</abstract>
+                    <subject>
+                        <topic>Telemedizin</topic>
+                        <topic>Healthcare</topic>
+                        <topic>Telemedicine</topic>
+                        <topic>Gesundheitsversorgung</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät III - Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-18568</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1856</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2021-02-22</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1856">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1856/5/Dissertation_Marius_Mueller.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1856"
+            DMDID="DMD_siegen_opus_1856">
+            <mets:fptr FILEID="FILE0_siegen_opus_1856"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

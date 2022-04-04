@@ -1,0 +1,89 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_2010">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Regelung des Werkstoffflusses zur Erhöhung der Bauteilqualität beim Rotationszugbiegen</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Control of the material flow to increase the component quality in rotary draw bending</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Borchmann, Linda</displayForm>
+                        <namePart type="family">Borchmann</namePart>
+                        <namePart type="given">Linda</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Engel, Bernd</displayForm>
+                        <namePart type="family">Engel</namePart>
+                        <namePart type="given">Bernd</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Das Rotationszugbiegen ist ein Profilbiegeverfahren, welches vorzugsweise bei geringen Wanddicken und kleinen Biegeradien verwendet wird. Durch Druckspannungen am Innenbogen können Falten verursacht werden. Die Verfahrensgrenze Faltenbildung ist eine Instabilität, die aufgrund der Vielfalt der Einflüsse nur begrenzt kalkulierbar ist. Bisher wird der Biegeprozess durch Einstellversuche erfahrener Maschinenbediener faltenfrei gestaltet. Bei Korrekturen zum Verhindern von Falten besteht die Gefahr, dass der Prozess zur Rissbildung geführt wird. In dieser Arbeit wird eine wissensbasierte Methode vorgestellt, welche die Faltenbildung während des Biegeprozesses selbstständig verhindert, ohne dass ein manuelles Eingreifen erforderlich ist. Die Umsetzung erfolgte über einen Fuzzy-Regler, der Parameterkorrekturen zur Faltenvermeidung unter Beachtung der Rissbildung ermöglicht. Gegenmaßnahmen zur Verhinderung der Falten werden so viel wie nötig und so wenig wie möglich eingeleitet. In-situ-Messsysteme erfassen die erste Falte in ihrer Entstehung. Ein Zustellen des Gegenhalters in Richtung des Rohres und eine Reduzierung der Vorschubgeschwindigkeit der Transporteinheit wirken den Falten entgegen und dienen als Aktoren. Erfahrungswissen wurde bei der Entwicklung der Regelung integriert. Das abgeleitete Prozessmodell kann neben dem System einer Regelung auf andere Problemlösungssysteme, wie Case-based reasoning-Systeme, übertragen werden. In praktischen Biegeversuchen zur Erprobung des Reglers wurden faltenfreie Rohrbögen hergestellt. Der in die Maschine integrierte und dauerhaft aktivierte Regler reagiert auf Schwankungen bspw. durch Temperaturänderungen, Chargenwechsel sowie Wechsel der Biegeaufgabe. Durch den Einsatz des Reglers entfallen zeit- und kostenintensive Einstellversuche und die Ausschussquote wird verringert. Durch die gezielte Prozessführung werden unnötig hohe Werkzeugkräfte vermieden, was den Werkzeugverschleiß reduzieren kann.</abstract>
+                    <abstract type="content" lang="eng">Rotary draw bending is a forming process used for bending tubular profiles with small wall thicknesses and small bending radii. Wrinkling as a process boundary is an instability that can only be calculated to a limited extent due to the variety of influences. Up to now, only experienced machine operators designed the bending process to be wrinkle-free by carrying out adjustment trials. If corrections are made to prevent wrinkles, there is a risk that the process will lead to cracking. In this work, a knowledge-based method is presented that automatically prevents wrinkling during the bending process. A fuzzy controller was implemented that allows dosed parameter corrections to prevent wrinkles while considering the risk of cracking. Countermeasures to prevent the wrinkles are introduced as much as necessary and as little as possible. In-situ measurement systems detect the first wrinkle as it forms. Both moving the pressure die toward the tube and reducing the feed rate of the transport unit counteract the wrinkles and serve as actuators of the controller. Experience-based knowledge was integrated in the development of the control system. The derived process model can be applied to other problem solving systems, such as case-based reasoning systems, in addition to the system of a closed-loop control. In practical bending tests to prove the controller, wrinkle-free tube bends were produced. The controller, which is integrated into the machine and permanently activated, reacts to fluctuations caused, for example, by temperature fluctuations, batch changes and changes in the bending task. The use of the controller eliminates time-consuming and cost-intensive adjustment trials and reduces the reject rate. The targeted process control avoids unnecessarily high tool forces, which can reduce tool wear.</abstract>
+                    <subject>
+                        <topic>Rotationszugbiegen</topic>
+                        <topic>Rotationszubiegen</topic>
+                        <topic>In-situ-Messsysteme</topic>
+                        <topic>Faltenbildung</topic>
+                        <topic>Rissbildung</topic>
+                        <topic>Prozessregelung</topic>
+                        <topic>Erfahrungswissen</topic>
+                        <topic>Rüstprozess</topic>
+                        <topic>Faltenglätter</topic>
+                        <topic>Fuzzy-Logik</topic>
+                        <topic>Rotary draw bending</topic>
+                        <topic>In-situ measurement systems</topic>
+                        <topic>Wrinkle formation</topic>
+                        <topic>Crack formation</topic>
+                        <topic>Process control</topic>
+                        <topic>Experience knowledge</topic>
+                        <topic>Setup process</topic>
+                        <topic>Wiper die</topic>
+                        <topic>Fuzzy logic</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Produktionstechnik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-20102</identifier>
+                    <identifier type="sys">HT021183109</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_2010</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2021-09-27</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_2010">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/2010/3/UTS_14_Borchmann.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_2010"
+            DMDID="DMD_siegen_opus_2010">
+            <mets:fptr FILEID="FILE0_siegen_opus_2010"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1213">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Characterizing classical and quantum systems from marginal correlations</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Charakterisierung von klassischen und Quantensystemen aus Marginaliendaten</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Miklin, Nikolai</displayForm>
+                        <namePart type="family">Miklin</namePart>
+                        <namePart type="given">Nikolai</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">This thesis studies different problems in quantum information theory and the foundations of quantum mechanics. These include the quantum marginal problem, the problem of causal inference in quantum mechanics, and the problem of indefinite causal order in quantum processes.
+We start by considering an instance of the quantum marginal problem in which our goal is to detect genuine multiparticle entanglement from the marginal information, i.e. correlations in the subsystems. In simple words, genuine multiparticle entanglement means that all particles are entangled with each other. Moreover, we consider an exotic case where the marginals themselves are separable, i.e. do not manifest entanglement if considered separately. Our results show that this phenomenon, which we call emergence of multiparticle entanglement, occurs frequently and for an arbitrary number of particles. In particular, we present a systematic method to look for such states and present various examples of systems up to 6 qubits (two-level systems). Interestingly, already for four qubits there exist a pure state with this properties which suggests that this phenomenon can be observed in the experiment. In the subsequent part of the thesis we define and study a particular class of genuine entangled states, called hypergraph states, in systems of qudits (d-level systems). This class of states is a generalization of graph states, which are used in measurement-based quantum computing and error-correcting codes. Hypergraph states can be obtained by applying certain sequence of entangling gates, associated with hyperedges, on systems of qudits, associated with vertices. In this thesis we provide a detailed analysis of equivalence of tripartite hypergraph states in dimension 3 and 4 under local operations.
+Then we pass on to the problem of explaining correlations observed in experiment by classical causal models. A particular example of a causal model is a local hidden variable model of Bell’s test. Cause-effect relations, or causal links, in causal models are given by the underlying causal structures, which often can be represented by graphs. Given a causal structure one can derive constraints for correlations to be compatible with this structure, which in the case of Bell’s theorem are the famous Bell inequalities. Alternatively, given experimental data, the task would be to determine the underlined causal model, which is a problem of causal inference. In some experiments of causal inference the correlations among all variables cannot be accessed or are not collected. In this case one faces a type of the marginal problem where one has to judge about possible underlined causal structures from marginal data. Clearly, the success of the causal inference in this case depends strongly on the configuration of accessible marginals, which is known as the marginal scenario. In this thesis we provide a general theory connecting marginal scenario and possible causal structures. We derive a necessary condition on causal structures to be distinguishable from a given marginal scenario. Among others, this result can help us to find new interesting scenarios for nonlocality tests.
+Finally, we discuss the problem of indefinite causal order in quantum mechanics. Causal order puts restrictions on causal relations in two systems of random variables generated by two different events. In particular, it restricts these causal links to be directed in the same way, from one event to the other. An example of causal order is a space-time manifold. Recently, it has been realized that physical theories do not necessarily have to comply with the idea of a definite causal order. For example, one can imagine a theory where the causal order is a dynamical element of this theory and can be in a sort of “quantum superposition&quot;. In this thesis we derive inequalities, similar to those of Bell, but for testing indefiniteness of causal order. In particular, inequalities are derived for information-theoretic quantities allowing for testing information flow in processes with indefinite causal order.</abstract>
+                    <abstract type="content" lang="ger">Diese Arbeit untersucht verschiedene Probleme in der Quanteninformationstheorie und die Grundlagen der Quantenmechanik. Dies beinhaltet das Quantenmarginalienproblem, das Problem der Kausalfolgerung in der Quantenmechanik und das Problem der unbestimmten Kausalordnung in Quantenprozessen.
+Wir beginnen mit einem Beispiel aus dem Bereich des Quantenmarginalienproblems. Hierbei ist es unser Ziel, eine echte Mehrteilchen-Verschränkung aus der Marginalieninformation, d.h. aus Korrelationen in den Teilsystemen, zu erkennen. Echte Mehrteilchen-Verschränkung bedeutet, dass alle Teilchen miteinander verschränkt sind. Darüber hinaus betrachten wir einen exotischen Fall, bei dem die Marginale selbst separabel sind, d.h. keine Verschränkung beinhalten. Unsere Ergebnisse zeigen, dass dieses Phänomen, das wir als Auftreten der Mehrteilchen-Verschränkung bezeichnen, häufig und für eine beliebige Anzahl von Teilchen auftritt. Insbesondere stellen wir eine systematische Methode vor, um solche Zustände zu suchen. Hierzu geben wir verschiedene Beispiele von Systemen, die aus bis zu sechs Qubits (zweistufige Systeme) bestehen. Interessanterweise gibt es bereits für vier Qubits einen reinen Zustand mit diesen Eigenschaften, was darauf hindeutet, dass dieses Phänomen im Experiment beobachtet werden kann.
+Im darauffolgenden Teil der Arbeit definieren und analysieren wir eine bestimmte Klasse von echt verschänkten Zuständen, sogenannte Hypergraph-Zustände, in Systemen von Qudits (d-Level-Systeme). Diese Klasse von Zuständen ist eine Verallgemeinerung von Graphenzuständen, die in messbasierten Quantencomputern und fehlerkorrigierenden Codes verwendet werden. Hypergraph-Zustände können durch Anwenden einer bestimmten Abfolge von Verschränkungsgattern, die mit Hyperkanten assoziiert sind, auf Systeme von Qudits, die mit Knoten assoziiert sind, erzeugt werden. In dieser Arbeit geben wir eine detaillierte Analyse der Äquivalenz von dreiteilchen Hypergraph-Zuständen unter lokalen Operationen in Dimension drei und vier.
+Danach befassen wir uns mit dem Problem der Erklärung von Korrelationen, die im Experiment durch klassische Kausalmodelle beobachtet wurden. Ein besonderes Beispiel für ein Kausalmodell ist ein lokales verstecktes Variablenmodell im Bell Test. Ursache-Wirkungs-Beziehungen, oder Kausal-Verbindungen, in Kausal-Modellen werden durch die zugrunde liegenden Kausalstrukturen gegeben, die oft durch Graphen dargestellt werden können. Für eine gegebene kausale Struktur kann man Einschränkungen für Korrelationen ableiten, um mit dieser Struktur kompatibel zu sein, was im Fall von Bell’s Theorem die berühmten Bell-Ungleichungen sind. Alternativ, bei gegebenen experimentellen Daten, wäre die Aufgabe, das zugrundeliegende Kausalmodell ivzu bestimmen, was ein Problem der kausalen Inferenz ist. In einigen Experimenten der kausalen Inferenz kann auf die Korrelationen zwischen allen Variablen nicht zugegriffen werden oder sie werden nicht gesammelt. In diesem Fall steht man einer Art des Marginalienproblems gegenüber, wo man über mögliche zugrundeliegende Kausalstrukturen aus Marginaliendaten folgern muss. Offensichtlich hängt der Erfolg der kausalen Inferenz in diesem Fall stark von der Konfiguration der zugänglichen Marginalien ab, die als das Marginalienszenario bekannt ist. In dieser Arbeit geben wir eine allgemeine Theorie, die das marginale Szenario und mögliche Kausalstrukturen verbindet. Wir erhalten eine notwendige Bedingung für kausale Strukturen, um diese von einem gegebenen Marginalienszenario zu unterscheiden. Dieses Ergebnis kann uns dabei helfen, neue interessante Szenarien für Nichtlokalitätsprüfungen zu finden.
+Schließlich diskutieren wir das Problem der unbestimmten Kausalordnung in der Quantenmechanik. Ein Beispiel für Kausalordnung ist ein Raum-Zeit-Mannigfaltigkeit. Neure Ekentnisse zeigen, dass physikalische Theorien nicht unbedingt mit der Idee einer bestimmten Kausalordnung übereinstimmen müssen. Zum Beispiel kann man sich eine Theorie vorstellen, in der die Kausalordnung ein dynamisches Element dieser Theorie ist und in einer Art Quantenüberlagerung sein kann. In dieser Arbeit leiten wir Ungleichheiten, ähnlich denen von Bell, aber für die Prüfung der Unbestimmtheit von Kausalordnung her. Insbesondere werden Ungleichungen für informationstheoretische Größen abgeleitet, die es ermöglichen, den Informationsfluss in Prozessen mit unbestimmter Kausalordnung zu testen.</abstract>
+                    <subject>
+                        <topic>Qubit</topic>
+                        <topic>Quanteninformatik</topic>
+                        <topic>Quantentheorie</topic>
+                        <topic>Kausalität</topic>
+                        <topic>Grundlagen der Quantenmechanik</topic>
+                        <topic>Quantum information</topic>
+                        <topic>Foundations of quantum mechanics</topic>
+                        <topic>Causality</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-12136</identifier>
+                    <identifier type="sys">HT019458449</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1213</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2017-08-18</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1213">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1213/1/Dissertation_Nikolai_Miklin.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1213"
+            DMDID="DMD_siegen_opus_1213">
+            <mets:fptr FILEID="FILE0_siegen_opus_1213"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

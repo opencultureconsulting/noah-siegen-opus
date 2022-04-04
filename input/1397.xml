@@ -1,0 +1,95 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1397</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Real-time processing of range data focusing on environment reconstruction</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Damien</pc:foreName>
+            <pc:surName>Lefloch</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">ToF-Kamera</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Real-Time</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Range Data</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Reconstruction ,Time-of-Flight</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">3D</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Durch die Verfügbarkeit von kostengünstigen Nahfeldsensoren, die 3D daten der aufgenommenen&#13;
+Szene in Echtzeit erstellen, entstehen neue Anwendungen im Bereich Computer Vision. Diese Anwendungen&#13;
+reichen von der Erstellung neuer Mensch-Maschine-Schnittstellen (bekannt als Natural&#13;
+User Interfaces) über die Erstellung von sehr detaillierten Rekonstruktionen komplexer Szenen (z.B.&#13;
+in der Spuren an Tatorten oder Kulturstätten) bis hin zu Autonomem Fahren und Erweiterter Realität.&#13;
+Diese Tiefensensoren basieren hauptsächlich auf zwei effizienten Technologien, dem: Structured-&#13;
+Light (SL) Prinzip (wie in der Xbox 360 Kinect Kamera) and Time-of-Flight (ToF) Prinzip (wie&#13;
+Kameras der Firma pmdtechnologies). Während ToF-Kameras die Zeit zwischen Lichtemission der&#13;
+Beleuchtungseinheit und Empfang der Rückstreuung auf dem ”smart detectors” messen, projizieren&#13;
+SL Kameras ein bekanntes Lichtmuster in die Szene und messen die Verzerrung zwischen ausgesendetem&#13;
+Muster und dem resultierenden Bild. Beide Technologien haben ihre Vor- und Nachteile.&#13;
+Diese Dissertation besteht aus vier Beiträgen. Wir schlagen einen effizienten Ansatz vor,&#13;
+um Bewegungsartefakte von ToF-Rohbildern zu kompensieren. Danach arbeiten wir an 3DRekonstruktionsanwendungen&#13;
+und verbessern die Robustheit des Kameratrackings durch die Segmentierung&#13;
+von bewegten Objekten.&#13;
+Der zweite Beitrag liegt in der robusten Handhabung von Rauschen in den Rohdaten über die ganze&#13;
+Verarbeitungskette der Rekonstruktion. Hier wird eine neue Art der Informationsfusion verwendet,&#13;
+welche die anisotropischen Eigenschaften von Rauschen in den Tiefendaten berücksichtigt und&#13;
+damit eine schnellere Konvergenz für hochqualitative Rekonstruktionen erzielt.&#13;
+Abschließend wird eine Methode entworfen welche die Information über die Oberflächenkrümmung&#13;
+verwendet um auch feine Strukturen von kleinen Objekten robust zu rekonstruieren. Zusätzlich&#13;
+wird der Gesamtfehler des Kameradrifts eingeschränkt.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">With the availability of affordable range imaging sensors, providing real-time three-dimensional information&#13;
+of the captured scene, new types of Computer Vision applications arise. Such applications&#13;
+range from designing new Human-Computer interfaces (known as Natural User Interfaces) to the&#13;
+generation of highly detailed reconstructions of complex scenes (for example to keep track of cultural&#13;
+heritage or crime scenes), to autonomous driving and augmented reality.&#13;
+These depth sensors are mostly based on two efficient technologies: the structured-light principle&#13;
+(such as the Xbox 360 version of the Kinect camera) and the time-of-flight (ToF) principle (as cameras&#13;
+implemented by pmdtechonologies). When ToF cameras measure the time until the light emitted&#13;
+by their illumination unit is backscattered to their smart detectors, the structured-light cameras&#13;
+project a known light pattern onto the scene and measure the amount of distortion between the&#13;
+emitted light pattern and its image. Both technologies have their own advantages and weak points.&#13;
+This dissertation is composed of 4 contributions. First, an efficient approach is proposed to compensate&#13;
+motion artifact of ToF raw images. Thereafter, a work on online three-dimensional reconstruction&#13;
+application has been investigated to improve the robustness of the camera tracker by segmenting&#13;
+moving objects. The second major contribution lies on a robust handling of noise on raw data, during&#13;
+the full reconstruction pipeline, proposing a new type of information fusion which considered&#13;
+the anisotropic nature of noise present on depth data, leading to faster convergence of high-quality&#13;
+reconstructions. Finally, a new method has been designed which uses surface curvature information&#13;
+to robustly reconstruct fine structures of small objects, as well as limiting the total error of camera&#13;
+drift.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2018-01-26</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2017</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-13972</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV - Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Damien_Lefloch.pdf" ddb:fileSize="39632581"/>
+   <ddb:checksum ddb:type="MD5">15070bdb9d2d4133ec001751e44dd3b0</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1397/1/Dissertation_Damien_Lefloch.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1397</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

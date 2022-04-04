@@ -1,0 +1,80 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_978">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Drehgeberlose Identifikation der Rotorlage der elektrisch erregten Synchronmaschine in Mittelspannungsantrieben</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Encoderless rotor position identification of the electrically excited synchronous machine in medium voltage drives</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Feuersänger, Simon Peter</displayForm>
+                        <namePart type="family">Feuersänger</namePart>
+                        <namePart type="given">Simon Peter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Für die Regelung der elektrisch erregten Synchronmaschine ist unbedingt die Information über die Polradlage oder die Lage eines Maschinenflusses notwendig. Üblicherweise wird dafür ein mechanischer Winkelpositionssensor an der Maschinenwelle angeschlossen, der gegebenenfalls zusammen mit einem geeigneten Maschinenmodell alle notwendigen Informationen in jedem Betriebszustand der Maschine liefern kann. Unglücklicherweise handelt es sich bei den Winkelsensoren um mechanisch sowie elektrisch sensible Geräte, sodass deren Einsatz die Zuverlässigkeit des gesamten Antriebs reduziert. Ein Fehler im Sensor führt in der Regel zu einem Ausfall des gesamten Antriebs.
+Eine Alternative zu dem herkömmlichen Verfahren mit mechanischem Sensor (Gebersystem) bieten die geberlosen Regelverfahren. Hierbei wird die benötigte Information der Polradlage bzw. der Lage des Maschinenflusses nur aufgrund von Maschinenmodellen ermittelt, deren Eingänge ausschließlich die Statorströme sowie der Feldstrom und die Spannung im Gleichspannungszwischenkreis sind. Diese Größen werden ohnehin im Antrieb gemessen.
+Für den drehgeberlosen Betrieb von elektrisch erregten Synchronmaschinen sind verschiedene Verfahren für verschiedene Betriebszustände notwendig. Während die Verfahren für hohe Drehgeschwindigkeiten problemlos bei diesem Maschinentyp eingesetzt werden können, versagen die bisher bekannten Methoden im niedrigen Drehgeschwindigkeitsbereich oder im Stillstand bei einer Vielzahl von Maschinen oder Anwendungen. In dieser Dissertation wurden nun zunächst detailliert die Probleme beschrieben, die zu dem Versagen der bisher bekannten Methoden führen. Aufbauend auf dieser Erkenntnis wurden zwei neue Identifikationsverfahren, sowohl für die Identifikation der Anfangsrotorlage als auch für den geregelten Betrieb bei niedriger Drehgeschwindigkeit, vorgestellt. Beide Verfahren basieren auf Methoden, die das Potential haben, bei einer Vielzahl von Maschinen erfolgreich angewandt werden zu können, nämlich die Injektion von niederfrequenten Testsignalen in die Statorwicklung und die Auswertung der Signalantworten entweder im Stator oder im Feldkreis. Beide Verfahren wurden zunächst simuliert, danach an einer Nieder-spannungsmaschine und letztendlich an einem kommerziellen Mittelspannungs-umrichter mit entsprechender Maschine experimentell validiert.
+Das Verfahren für die Identifikation der Anfangsrotorlage liefert bei der gemessenen Maschine eine Genauigkeit von besser als 5° des elektrischen Winkels der Polradlage und lässt sich sowohl bei direkt erregten als auch bei bürstenlos erregten Maschinen anwenden.
+Das Verfahren zur geberlosen Regelung bei niedriger Drehgeschwindigkeit stellt den dauerhaften, geregelten Betrieb unter Last sowohl im Stillstand als auch bei kleiner Drehgeschwindigkeit sicher. Es kommt dabei zu keinerlei Drift im identifizierten Winkel. Aufgrund von praktischen Begrenzungen konnte der Winkel jedoch nur mit der moderaten Genauigkeit von 30° (elektrischer Winkel) an einem konventionellen Mittelspannungsantrieb identifiziert werden.</abstract>
+                    <abstract type="content" lang="eng">For the control of electrically excited synchronous machines, the information of the actual rotor position or the position of a machine flux space phasor is mandatory. Generally, a mechanical angular encoder is installed at the machine shaft which delivers this information, if necessary in combination with an adequate machine model. Thus, all required information is obtained in any arbitrary operating point of the machine. Unfortunately, these sensors are mechanically and electrically sensitive devices. Leading to a degradation of the total reliability of the whole drive system as an error in these sensors normally leads to a failure in the whole drive.
+An alternative to the commonly used control approaches with a mechanical sensor (encoder) are the encoderless control schemes. In this case, the required information of the rotor or flux position is determined solely by means of machine models, which only need to be fed by the measured stator and field currents as well as the voltage of the dc-link, which are measured anyways in a classical configuration.
+For the encoderless control of electrically excited synchronous machines, several different approaches are necessary for different operating points of the machine. The methods which cover the high-speed operation of the drive can be applied without difficulties to this machine type, but the methods for the low speed range or standstill fail with most machines or cannot be applied in several applications. The first thing, that is discussed in this dissertation are the problems which lead to the failure of the standard methods. Based on this knowledge, two new identification strategies are introduced: one for the initial rotor position and the other for the encoderless control in the low speed and standstill area. Both approaches are based on physical effects which have the potential to work on many different electrically excited synchronous machines, namely the injection of low frequency test signals and the evaluation of the response in the stator or field winding. Both approaches were first simulated, then tested on a low voltage test bench and finally validated on a conventional medium voltage drive.
+The approach for the initial rotor position identification leads to an accuracy better than 5° for the identified electrical rotor angle at the measured medium voltage machine. It can be applied at either direct or brushless excited synchronous machines.
+The approach for the encoderless control in the low speed and standstill region ensures the permanent and safe operation under load in standstill and low velocities without any drift of the identified angle. However, due to practical constraints this procedure exhibits a moderate accuracy of approximately 30° of the electrical angle on a conventional medium voltage inverter.</abstract>
+                    <subject>
+                        <topic>Synchronmaschine</topic>
+                        <topic>Drehgeberlose Regelung</topic>
+                        <topic>Sensorlose Regelung</topic>
+                        <topic>Polradlage</topic>
+                        <topic>Mittelspannungsumrichter</topic>
+                        <topic>Niederspannungsmaschine</topic>
+                        <topic>Electric machinery (synchronous)</topic>
+                        <topic>Encoderless control</topic>
+                        <topic>Sensorless control</topic>
+                        <topic>Flux position</topic>
+                        <topic>Medium voltage drive</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-9787</identifier>
+                    <identifier type="sys">HT018855234</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_978</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2015-11-09</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_978">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/978/1/Dissertation_Simon_Peter_FeuersAnger.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_978"
+            DMDID="DMD_siegen_opus_978">
+            <mets:fptr FILEID="FILE0_siegen_opus_978"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

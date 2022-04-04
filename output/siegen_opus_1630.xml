@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1630">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Context factors for pro-social practices in health care</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Uhde, Alarith</displayForm>
+                        <namePart type="family">Uhde</namePart>
+                        <namePart type="given">Alarith</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mesenhöller, Mena</displayForm>
+                        <namePart type="family">Mesenhöller</namePart>
+                        <namePart type="given">Mena</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hassenzahl, Marc</displayForm>
+                        <namePart type="family">Hassenzahl</namePart>
+                        <namePart type="given">Marc</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">In order to reduce the shortage of healthcare workers, researchers try to find ways to improve nurses’ job conditions. A lot of effort concentrates on organizing shift work in a more agreeable way by providing more autonomy to the nurses, e.g., through self scheduling. However, increased autonomy also means that nurses have to resolve scheduling conflicts within the team. To that end, a good team coherence is essential. In this brief exploratory study we present the pro-social practices of three Japanese nurses, each one working in a different setting that brings specific opportunities for pro-sociality. The findings can serve as a starting point for more focused, context-specific studies on pro-sociality in outpatient, residential, or day care.</abstract>
+                    <subject>
+                        <topic>Gesundheitswesen</topic>
+                        <topic>Gesundheitswesen</topic>
+                        <topic>Schichtarbeit</topic>
+                        <topic>Healthcare</topic>
+                        <topic>Shift Work</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16304</identifier>
+                    <identifier type="sys">HT021015972</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1630</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1630">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1630/5/Context_Factors_for_Pro-social_Practices.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1630"
+            DMDID="DMD_siegen_opus_1630">
+            <mets:fptr FILEID="FILE0_siegen_opus_1630"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

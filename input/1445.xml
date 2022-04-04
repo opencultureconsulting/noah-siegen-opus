@@ -1,0 +1,73 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1445</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Entwicklung eines optischen Lageüberwachungssystems für einen neuartigen flexiblen Roboter mit steuerbarer Steifigkeit zur Durchführung minimal-invasiver chirurgischer Eingriffe</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="eng">Development of an optical position tracking system for a novel flexible robot with controllable stiffness for minimally invasive surgery</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Matthias</pc:foreName>
+            <pc:surName>Mende</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Minimal-invasive Chirurgie</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Weicher Roboter</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Lageermittlung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Oktopus</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Stiff-Flop</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Minimally invasive surgery</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Medical robotics</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">621</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Eine Sparte der modernen Robotik, die sich in den letzten Jahren außergewöhnlich dynamisch entwickelt hat, ist die Medizinrobotik. Besonders ergiebig ist der Bereich der minimal-invasiven Chirurgie (MIS). Diese bringt neben den Vorteilen für den Patienten (schnellere Rekonvaleszenz, bessere kosmetische Ergebnisse, erhöhter Komfort) auch einige technische Herausforderungen für den Chirurgen mit sich. Die minimal-invasive Chirurgie bietet dabei großes Potential für roboter-basierte Assistenzsysteme und stellt mittlerweile einen eigenen Forschungszweig dar, der kontinuierlich weiter ausgebaut wird.&#13;
+Die meisten der verfügbaren Systeme bauen dabei konzeptionell auf adaptierten Industrieplattformen auf. Die etablierte Technik ermöglicht hohe Präzision und häufig eine detaillierte Vorab-Planung der einzelnen Arbeitsabläufe. Dem gegenüber steht der oft hohe Platzbedarf, der auch den Arbeitsraum des OP-Teams erheblich einschränkt und nicht selten zu einer unergonomischen Arbeitshaltung führt. Die extremen Sicherheitsvorkehrungen, die auf die Verwendung motorisch angetriebener, starrer Kinematiken zurückzuführen sind, treiben die Kosten in die Höhe. Als weitere Folge sind die entwickelten Systeme häufig nicht kompatibel mit der Kernspinresonanzspektroskopie (NMR-Kompatibilität). &#13;
+Einen völlig anderen Ansatz verfolgt das von der EU geförderte Forschungsprojekt „Stiff-Flop“. Die Basis bildet ein hochflexibler Silikonschlauch, welcher durch Druckluft gesteuert und zum Zweck der Ausübung von Kräften dynamisch versteift werden kann. Inspiriert wird dieser Ansatz von der Bewegung des Tintenfisches, welcher sich einerseits ohne eine innere Schale durch die engsten Öffnungen zwängen kann, andererseits aber auch in der Lage ist, Teile seines Körpers zu versteifen, um nach Objekten zu greifen. Ein solches weiches System ist zwar inhärent sicher, bringt aber eine Reihe neuer Herausforderungen mit sich. Gerade im Bereich der Sensorik erfordert die flexible Beschaffenheit des Systems völlig neue Herangehensweisen und Lösungsansätze.  &#13;
+Eine Teilaufgabe bildet die Entwicklung eines optischen Sensorsystems, welches, basierend auf vorhandenem Live-Videomaterial (Endoskopkamera des Chirurgen), die Lage des Stiff-Flop Armes überwacht und zur Optimierung seiner Positionsregelung beiträgt. Die größte Herausforderung liegt dabei in der zuverlässigen Erkennung des gesuchten flexiblen Manipulatorabschnittes. Sowohl die Beschaffenheit des Objektes selbst als auch die durch den Arbeitsraum und die verwendete Gerätetechnik vorgegebenen Beschränkungen führen zu diversen Restriktionen bei der Umsetzung des Vorhabens. Erschwert wird die Aufgabe, weil ohne die Verwendung eines Stereokamerasystems aus der Kameraprojektion Rückschlüsse auf die Pose des detektierten Objektes im Raum gezogen werden müssen.&#13;
+Etablierte Verfahren sind im untersuchten Szenario nicht anwendbar, da diese im Allgemeinen entweder auf der Erkennung eines bekannten und angelernten Umrisses, einer eindeutigen, bekannten Textur oder starken Kontrastunterschieden von Vorder- und Hintergrund basieren. Keine dieser Voraussetzungen ist hier gegeben: Der Manipulator ist durchgängig flexibel, kann seine Länge ändern und auch eine Texturerkennung ist schwierig umzusetzen, da gegebenenfalls angebrachte Muster mit zunehmender Krümmung des Armes deutliche Verzerrungen in der zu erkennenden Textur erhalten. &#13;
+Aus diesem Grund erfolgt die Lageermittlung zweigleisig: Zum einen wird der Stiff-Flop Arm als Ganzes durch einen texturbasierten Ansatz, einer so genannten Support Vector Machine (SVM), detektiert und vermessen, zum anderen erfolgt eine Überwachung von am Prüfling angebrachten optischen ringförmigen Markern mittels eines neuartigen, auf einer modifizierten Kreiserkennung basierenden Algorithmus. Die Detektierung dieser Umlaufmarkierungen bietet verschiedene Vorteile. Zum einen bleibt die Abbildung bei hinreichend schmalen Markierungen annähernd verzerrungsfrei, zum anderen wirkt sich eine eventuell auftretende, systembedingte radiale Streckung des Armes ausschließlich auf die Genauigkeit der Entfernungsmessung zwischen Kameraebene und Mittelachse des Manipulators aus. Das vorgestellte Verfahren ist außerdem robust gegenüber Bildrauschen oder kleineren Glanzlichtern, solange die Kontur des Ringes nicht über größere Abschnitte unterbrochen ist.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">One of the most dynamically evolving branches of modern robotics is the area of medical robotics. Especially in minimally invasive surgery these applications lead to several advantages for the patients (faster convalescence, better cosmetic results, higher comfort), but also to some technical challenges for the surgeon. The minimally invasive surgery offers great potential for robot-based assistance and now represents a separate branch of research that is expanding continuously.&#13;
+Most of the available systems are based on adapted industrial manipulator platforms. The established technology allows high precision and often a detailed pre-planning of the individual work processes. This often contrasts with high space requirements, which considerably restrict also the working space of the surgical team and often results in a non-ergonomic working posture.&#13;
+Electric driven devices used in surgery require extreme safety precautions raising the development and operating costs. As a further consequence the developed systems are often not compatible with the nuclear magnetic resonance spectroscopy (NMR-compatibility).&#13;
+The EU funded project „Stiff-Flop“ follows a different approach. The basis here is a highly flexible silicon tube that can be maneuvered through narrow holes by applying pressure to channels inside and that can be stiffened dynamically to apply forces to its environment. The idea is taken from the octopus, which can squeeze through narrow passages and grab prey on the other hand. Such a system - although inherently secure - brings a new set of challenges. The flexible nature of the system requires completely new approaches and solutions, especially in the field of sensors.&#13;
+One of the tasks is the development of an optical sensor system that calculates the pose of the Stiff-Flop arm based on the available video stream from the endoscopic camera in order to enhance its position control. The biggest challenge lies in the reliable detection of the desired object. The nature of the object itself and the conditions in the work space as well as the equipment available for MIS lead to several restrictions in implementation strategies.&#13;
+In addition, the task has to be carried out without the usage of a stereo camera system. Position and orientation of the tube have to be determined based on the video stream of a single endoscopic camera.&#13;
+Established methods are not applicable in the examined scenario, as these are generally based on either the detection of known and trained outline, a clear well-known texture or pronounced differences in contrast of foreground and background. None of these conditions is given here: The manipulator is throughout flexible, can change its length, and texture recognition is difficult to implement, since any fitted pattern gets distorted significantly with increasing curvature of the arm. Because of these reasons, the pose determination is done in two steps: In the first step the Stiff-Flop arm is detected with a texture-based approach by a so-called Support Vector Machine (SVM). The resulting outline is measured and used to estimate the spatial pose of the tube. The second step is the detection of optical circular markers with a modified circle detection algorithm.&#13;
+The detection of these circulating markers has several advantages. Firstly, the figure remains almost distortion-free with sufficiently narrow markings; on the other hand, a possibly occurring, system-related radial extension of the arm solely affects the accuracy of the distance measurement between the camera plane and the central axis of the manipulator.&#13;
+The presented method is also robust against noise or smaller highlights, as long as the contour of the ring is not interrupted over larger sections.&#13;
+The redundancy of the two methods used essentially offers two advantages: First, it allows a plausibility check of the detected marker positions; on the other hand, the calculation of a continuous centre line is possible. In addition, this center line can be used for simple collision detection, if 3D models of the working space are provided.  For the primary task this aspect plays a subordinate role.&#13;
+During the implementation phase, it has turned out that a parameter optimization with subsequent re-calibration or measurement of the optical setup is essential. Based on a large number of partially dependent parameters methods and tools have been designed and implemented allowing a user to identify optimal parameters with a structured approach. Based on a graphical representation method developed by Prof. Alfred Inselberg of Tel Aviv University, Israel, an intuitive user interface has been developed, allowing a simple comparison of different parameter sets.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2018-01-19</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2019</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-14455</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Regelungs- und Steuerungstechnik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Matthias_Mende.pdf" ddb:fileSize="6274422"/>
+   <ddb:checksum ddb:type="MD5">03f96a07537b9b8d8c6e64dd7aeaae63</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1445/1/Dissertation_Matthias_Mende.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1445</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

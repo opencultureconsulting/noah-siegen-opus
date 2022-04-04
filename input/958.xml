@@ -1,0 +1,220 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>958</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Statistical analysis and simulation of design models evolution</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Hamed</pc:foreName>
+            <pc:surName>Shariat Yazdi</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Zeitreihenanalyse</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">modellbasierte Entwicklung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Testmodell Generierung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Statistical Analysis</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Time Series Analysis</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Model Driven Development</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Test Model Generation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Simulation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Tools, algorithms and methods in the context of&#13;
+Model-Driven Engineering (MDE) have to be assessed,&#13;
+evaluated and tested with regard to different aspects&#13;
+such as correctness, quality, scalability and efficiency.&#13;
+  Unfortunately, appropriate test models are scarcely&#13;
+available and those which are accessible often lack&#13;
+desired properties.&#13;
+ Therefore, one needs to resort to artificially generated&#13;
+test models in practice.&#13;
+&#13;
+ Many services and features of model versioning systems are &#13;
+motivated from the collaborative development paradigm.&#13;
+ Testing such services does not require single models, but&#13;
+rather pairs of models, one being derived from the other&#13;
+one by applying a known sequence of edit steps.&#13;
+ The edit operations used to modify the models should be&#13;
+the same as in usual development&#13;
+environments, e.g. adding, deleting and changing of&#13;
+model elements in visual model editors.&#13;
+  Existing model generators are motivated from the&#13;
+testing of model transformation engines,&#13;
+they do not consider the true nature of evolution&#13;
+in which models are evolved through iterative editing steps.&#13;
+  They provide no or very little control over the&#13;
+generation process and they can generate only single models&#13;
+rather than model histories.&#13;
+  Moreover, the generation of stochastic and other properties&#13;
+of interest also are not supported in the existing approaches.&#13;
+&#13;
+  Furthermore, blindly generating models through random&#13;
+application of edit operations does not yield useful models,&#13;
+since the generated models are not (stochastically) realistic&#13;
+and do not reflect true properties of evolution in real software&#13;
+systems.&#13;
+  Unfortunately, little is known about how models of&#13;
+real software systems evolve over time, what are the properties&#13;
+and characteristics of evolution, how one can mathematically formulate&#13;
+the evolution and simulate it.&#13;
+&#13;
+  To address the previous problems, we introduce a new general&#13;
+approach which facilitates generating (stochastically) realistic&#13;
+test models for model differencing tools and tools for analyzing &#13;
+model histories.&#13;
+  We propose a model generator which addresses&#13;
+the above deficiencies and generates or modifies models by&#13;
+applying proper edit operations.&#13;
+  Fine control mechanisms for the generation process&#13;
+are devised and the generator supports stochastic and other&#13;
+properties of interest in the generated models.&#13;
+  It also can generate histories, i.e. related sequences,&#13;
+of models.&#13;
+  Moreover, in our approach we provide a methodological framework for &#13;
+capturing, mathematically representing and simulating the evolution&#13;
+of real design models.&#13;
+  The proposed framework is able to capture the evolution in terms of&#13;
+edit operations applied between revisions.&#13;
+  Mathematically, the representation of evolution is based on&#13;
+different statistical distributions as well as different&#13;
+time series models.&#13;
+  Forecasting, simulation and generation of stochastically realistic &#13;
+test models are discussed in detail.&#13;
+  As an application, the framework is applied to the evolution of design &#13;
+models obtained from sample a set of carefully selected Java systems.&#13;
+&#13;
+  In order to study the the evolution of design models, &#13;
+we analyzed 9 major Java projects which have at least 100 revisions.&#13;
+ We reverse engineered the design models from the Java source code&#13;
+and compared consecutive revisions of the design models.&#13;
+ The observed changes were expressed in terms of two&#13;
+sets of edit operations.&#13;
+  The first set consists of &#13;
+75 low-level graph edit operations, e.g. add, delete, etc.&#13;
+of nodes and edges of the abstract syntax graph of the models.&#13;
+  The second set consists of&#13;
+188 high-level (user-level) edit operations which are&#13;
+more meaningful from a developer’s point of view and&#13;
+are frequently found in visual model editors.&#13;
+  A high-level operation typically comprises several&#13;
+low-level operations and is considered as one user action.&#13;
+&#13;
+  In our approach, we mathematically formulated the pairwise evolution,&#13;
+i.e. changes between each two subsequent revisions,&#13;
+using statistical models (distributions).&#13;
+  In this regard, we initially considered many distributions&#13;
+which could be promising in modeling the frequencies of the &#13;
+observed low-level and high-level changes.&#13;
+  Six distributions were very successful in modeling the changes&#13;
+and able to model the evolution with very good rates of success.&#13;
+   To simulate the pairwise evolution, we studied random variate&#13;
+generation algorithms of our successful distributions&#13;
+in detail.&#13;
+  For four of our distributions which no tailored algorithms&#13;
+existed, we indirectly generated their random variates.&#13;
+&#13;
+  The chronological (historical) evolution of design models&#13;
+was modeled using three kinds of time series models,&#13;
+namely ARMA, GARCH and mixed ARMA-GARCH.&#13;
+  The comparative performance of the time series models for&#13;
+handling the dynamics of evolution as well as accuracies of their&#13;
+forecasts was deeply studied.&#13;
+  Roughly speaking, our studies show that mixed ARMA-GARCH&#13;
+models are superior to other models.&#13;
+  Moreover, we discuss the simulation aspects of&#13;
+our proposed time series models in detail.&#13;
+&#13;
+  The knowledge gained through statistical analysis&#13;
+of the evolution was then used in our test model generator&#13;
+in order to generate more realistic test models for&#13;
+model differencing, model versioning, history analysis tools,&#13;
+etc.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Im Kontext der modellgetriebenen Entwicklung müssen Werkzeuge, Algorithmen und Methoden bewertet, evaluiert und getestet werden. Dabei spielen verschiedene Aspekte wie Korrektheit, Qualität, Skalierbarkeit und Effizienz eine grosse Rolle. Problematisch dabei ist, dass geeignete Testmodelle nur spärlich verfügbar sind. Verfügbare Modelle weisen darüber hinaus die für Evaluationszwecke gewünschten Eigenschaften oft nicht auf. Aus diesem Grund muss in der Praxis auf künstlich erzeugte Testmodelle zurückgegriffen werden.&#13;
+&#13;
+Viele der Funktionalitäten von Modellversionierungssystemen sind motiviert von den Paradigmen der kollaborativen (Software) Entwicklung. Für das Testen derartiger Funktionalitäten braucht man keine einzelnen Modelle, sondern Paare von Modellen, bei denen das Zweite durch Anwendungen einer bekannten Sequenz von Editierschritten auf das Erste erzeugt wird. Die genutzten Editieroperationen sollten dabei die gleichen sein, die bei den typischen Entwicklungsumgebungen angewendet werden, beispielsweise das Hinzufügen, Löschen oder Verändern von Modellelementen in visuellen Editoren. Derzeit existierende Modellgeneratoren sind motiviert durch das Testen von Modelltransformationsumgebungen. Dabei berücksichtigen sie nicht die wahre Natur der (Software) Evolution, bei der die Modelle iterativ durch die kontrollierte Anwendung einzelner Editierschritte verändert werden. Dabei bieten sie nur wenig Kontrolle über den Prozess der Generierung und sie können nur einzelne Modelle, &#13;
+aber keine Modellhistorien, erzeugen. Darüber hinaus werden gewünschte Eigenschaften, beispielsweise eine stochastisch kontrollierte Erzeugung, von den derzeit existierenden Ansätzen nicht unterstützt.&#13;
+&#13;
+Aufgrund der (blinden) zufallsgesteuerten Anwendungen von&#13;
+Editieroperationen werden keine brauchbaren, (stochastisch)&#13;
+realistischen Modelle generiert. Dadurch repräsentieren&#13;
+sie keine Eigenschaften von Evolutionen in echten Systemen.&#13;
+Leider gibt es wenig wissenschaftliche Erkenntnis darüber,&#13;
+wie Modelle in realen Systemen evolvieren,&#13;
+was die Eigenschaften und Charakteristika einer solchen&#13;
+Evolution sind und wie man diese mathematisch formulieren und&#13;
+simulieren kann.&#13;
+&#13;
+Um die zuvor genannten Probleme zu adressieren, stellen wir&#13;
+einen allgemeinen Ansatz zur (stochastischen) Generierung&#13;
+realer Testmodelle zur Verwendung in Differenzwerkzeugen und&#13;
+Historienanalysen vor. Unser Generator generiert oder&#13;
+modifiziert Modelle durch geeignete Anwendung&#13;
+von Editieroperationen. Sowohl feine Kontrollmechanismen für&#13;
+den Generierungsprozess als auch die Unterstützung von&#13;
+stochastischen und anderen interessanten Eigenschaften&#13;
+in den generierten Modellen zeichnen den Generator aus.&#13;
+Zusätzlich kann dieser Historien, d.h. abhängige/zusammenhängende&#13;
+Änderungssequenzen, von Modellen generieren. Unser Ansatz&#13;
+bietet eine methodische Umgebung für das Aufzeichnen,&#13;
+die mathematische Repräsentation als auch das Simulieren&#13;
+von Evolutionen realer Modelle. Die vorgestellte Umgebung&#13;
+kann die Evolution in Form von Editieroperationen, angewandt&#13;
+zwischen Revisionen, erfassen. Die mathematische&#13;
+Repräsentation der Evolution basiert sowohl auf verschiedenen&#13;
+stochastischen Verteilungen als auch unterschiedlichen&#13;
+Modellen von Zeitreihen. Das Vorhersagen, Simulieren und Generieren&#13;
+von stochastisch realistischen Testmodellen wird im Detail&#13;
+diskutiert. Als praktische Anwendung setzen wir unsere&#13;
+Umgebung im Rahmen einer Modellevolution&#13;
+von sorgfältig ausgewählten Java-Systemen ein.&#13;
+&#13;
+&#13;
+Im Rahmen dieser Arbeit wurde die Evolution von Design Modellen auf Basis von neun Open-Source Java Projekten analysiert. Für jedes Projekt lagen mindestens 100 Revisionen vor, aus deren Quelltexten Design Modelle nachkonstruiert wurden. Die dabei gefunden Änderungen konnten anhand zwei verschiedener Mengen von Editieroperationen beschrieben werden. Die erste Menge besteht aus 75 einfachen Graph-Operationen. Beispiele dafür sind das Hinzufügen, Löschen, etc. einzelner Knoten und Kanten im abstrakten Syntax-Graphen der Modelle. Die zweite Menge enthält 188 komplexe Editieroperationen. Komplexe Editieroperationen haben für Entwickler eine höhere Aussagekraft, da sie auf dem gewohnten Abstraktionsniveau des Entwicklers angesiedelt und oftmals in visuellen Modelleditoren zu finden sind. Typischerweise besteht eine komplexe Editieroperation dabei aus mehreren einfachen Operationen, wobei die Ausführung der komplexen Operation immer als eine einzelne Aktion angesehen wird.&#13;
+Um die schrittweise Evolution, also die Veränderung aufeinanderfolgender Revisionen, zu analysieren betrachteten wir verschiedene statistische Modelle (Distributionen). Von allen betrachteten Distributionen erwiesen sich sechs als sehr erfolgreich dabei die beobachteten Veränderungen und die Evolution der Modelle auf Basis einfacher und komplexer Editieroperationen zu beschreiben. Um die Evolution weiter simulieren zu können, betrachteten wir Algorithmen für die Erstellung von Zufallsvariaten der erfolgreichen Distributionen. Für vier der Distributionen, für die keine derartigen Algorithmen verfügbar waren, wurden die Zufallsvariate indirekt abgeleitet.&#13;
+&#13;
+Die chronologische (historische) Evolution von Modellen wurde&#13;
+auf Basis von drei Zeitreihen nachgebildet, konkret ARMA, GARCH und einer Mischung&#13;
+aus ARMA-GARCH. Sowohl deren Leistungsfähigkeit, Evolutionsdynamik darstellen zu können, als auch&#13;
+die Genauigkeit von Vorhersagen wurden im Detail analysiert und gegenübergestellt. Grob gesagt zeigen unsere&#13;
+Ergebnisse, dass ARMA-GARCH Modelle besser als die übrigen geeignet sind. Zusätzlich diskutieren wir ausführlich&#13;
+die Simulationsmöglichkeiten aller vorgestellten Zeitreihen.&#13;
+&#13;
+Die Ergebnisse unserer statistischen Analysen der Evolution&#13;
+haben wir dann in unserem Testmodell Generator eingesetzt. So konnten wir realistische&#13;
+Testmodelle generieren, die für Modelldifferenz-, Versionierungs- und Historienanalysewerkzeuge&#13;
+u.s.w. verwendet werden können.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2015-08-21</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2015</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-9589</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Praktische und Technische Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Shariat_Yazdi.pdf" ddb:fileSize="4146320"/>
+   <ddb:checksum ddb:type="MD5">710179f25ab8461a7fe14d38bddb4b6c</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/958/1/Shariat_Yazdi.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/958</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

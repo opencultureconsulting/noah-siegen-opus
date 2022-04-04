@@ -1,0 +1,85 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1718">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Learning machine monitoring models from sparse and noisy sensor data annotations</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Lernen von Modellen zur Maschinenüberwachung aus spärlichen und verrauschten Sensordatenannotationen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Reich, Christian</displayForm>
+                        <namePart type="family">Reich</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Van Laerhoven, Kristof</displayForm>
+                        <namePart type="family">Van Laerhoven</namePart>
+                        <namePart type="given">Kristof</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Heutige Anforderungen an Effizienz und Qualität von Fertigungsprozessen bedingen eine ständige Überwachung von Werkzeugmaschinen und Bearbeitungsprozessen. Obwohl automatisierte, sensorbasierte Maschinenüberwachungssysteme in der Literatur bestehen, sind reale Produktionsstätten weiterhin durch einen hohen Anteil menschlicher Beteiligung gekennzeichnet, was teuer und fehleranfällig zu sein tendiert. Dies ist durch drei Herausforderungen bedingt, denen sich solche Überwachungssysteme ausgesetzt sehen und welche in dieser Arbeit adressiert werden:
+Zunächst einmal erfordern Überwachungssysteme im Langzeitbetrieb robuste, prädiktive Modelle. Die Modelle müssen über nutzerbedingte Anpassungen von Prozessparametern und Wechsel von Werkstücktypen hinweg generalisieren,sodass trainierte Modelle weiterhin zur Verteilung neu aufgenommener Testdaten passen und damit unabhängig gegenüber des Covariate Shifts zwischen Trainings- und Testdatenverteilungen sind. Die Varianz in Sensordaten ist häufig stärker von derartigen Parameteranpassungen und Werkstücktypwechseln beeinflusst als von tatsächlichen Anomalien. Diese Dominanz des Covariate Shifts gegenüber signalklassenunterscheidender Information in Sensordaten ist herausfordernd.
+Zweitens sind die leistungsstärksten prädiktiven Modelle (teil)überwacht und erfordern große Mengen annotierter Sensordaten. Die Annotation von Anomalien in Sensordaten ist teuer und bedingt mögliche Folgeschäden an den Maschinen, wenn die Anomalien bewusst herbeigeführt werden. Zu guter Letzt benötigen die leistungsfähigsten Modelle viel Speicherplatz, lange Trainings- und Modellausführungszeiten oder spezielle Hardware wie GPUs im Trainingsprozess.
+Diese Anforderungen stehen im Widerspruch zu fertigungsbetrieblichen Wünschen nach industriell robusten, kompakten eingebetteten Sensorsystemen und kurzen Modellausführungszeiten, welche sowohl zeitnahe Warnungen von als auch schnelle Reaktion auf potentiell kritische Anomalien ermöglichen. Die Datenauswertung innerhalb des eingebetteten Sensorsystems ermöglicht eine höhere Datensicherheit, die Kompaktheit des Systems erlaubt nachträgliche Ausstattung von Maschinen mit diesen Sensorsystemen.
+Der erste Teil der Arbeit umfasst die Definition maßgeschneiderter Merkmale, welche über den Covariate Shift der Daten hinweg generalisieren, für spezifische Maschinenüberwachungsaufgaben. Dafür wird Fachexpertenwissen über Maschinen- und Prozesscharakteristika in maßgeschneiderten Vorverarbeitungsmodellen zur Segmentierung von Sensordaten und Nachverfolgung diskreter Frequenzkomponenten abgebildet. Der zweite Teil konzentriert sich auf die kostengünstige Annotation und Erkennung von im realen Bearbeitungsprozess aufgenommenen Anomalien. Ein prototypisches Auswertungssystem, welches speziell auf raue industrielle Umgebungen abgestimmt ist, wurde entwickelt und in einer solchen Umgebung eingesetzt. Dieses System ermöglicht Datenaufnahme, Datenauswertung
+im System und Meldung potentieller Anomalien. Damit unterstützt es sowohl Maschinenbediener in Entscheidungsprozessen und ermöglicht eine Annotation der Sensordaten über die Rückmeldung der Bediener auf gemeldete Anomalien. Auswertungen dieses prototypischen Systems und der resultierenden Daten legten eine allzu simple Art der eingesetzten Anomalieerkennungsmodelle nahe, weswegen ausgefeiltere, unüberwachte neuronale Anomalieerkennungsmodelle getestet wurden. Zusätzlich wurden zwei teilüberwachte Modellerweiterungen mit Expertenlabels sowie automatisch generierten und damit schwächeren Labels trainiert. Sowohl die unüberwachten als auch die teilüberwachten neuronalen Anomalieerkennungsmodelle bewiesen sich als geeignet, sie generalisierten über einige Wochen von Daten und den auftretenden Covariate Shift hinweg.
+Alle vorgestellten Methoden beachten die Einschränkungen, welche durch die für die Maschinenüberwachung eingesetzten eingebetteten Systeme und den Bedarf an zeitnahen Reaktionen gegenüber Anomalien bedingt sind.</abstract>
+                    <abstract type="content" lang="eng">Present-day requirements on efficiency and quality of manufacturing processes necessitate constant monitoring of machine tools and machining processes. Although automated, sensor-based machine monitoring techniques are described in literature, real-world production shops still exhibit a high degree of human intervention, which tends to be both expensive and error-prone. This is due to three challenges that such machine monitoring systems are confronted with which this thesis will address:
+First of all, long-term deployable systems require robust predictive models.
+The models need to generalize across user-initiated adjustments of process parameters and changes of workpiece types, such that trained models still match the distribution of newly incoming test data by independence of covariate shift among training and testing data distributions. The variance in sensor data is often more influenced by such parameter adjustments and workpiece changes than by actual anomalies. This dominance of covariate shift over class-discriminative information in sensor data is challenging. Secondly, most performant predictive models are (semi-)supervised, requiring large sets of labeled sensor data. Annotation of anomalous data is expensive and comes with a severe risk of machine damages when deliberately provoking anomalies. Finally, high-performant models rely on high memory resources, long training and model execution times or specific hardware for training (e.g., GPUs). These requirements conflict with the desire of companies for industrially robust and compact embedded sensor systems and short model execution times (allowing timely alerts of and quick responses to potentially critical anomalies). Evaluation directly on embedded sensor systems allows for an increased data security, compactness allows to retrospectively equip machines with these sensor systems.
+The first part of the thesis is concerned with defining features tailor-made for specific machine monitoring tasks that generalize across covariate shift. To that end, domain expertise about machine and process characteristics is included in custom-built preprocessing models for segmentation of sensor data and tracking of discrete frequency components. The second part of the thesis focuses on low-cost annotation and detection of “in-the-wild” recorded anomalies. A prototypical evaluation system was developed specifically for harsh industrial environments and deployed there. The system enables data recording, on-system evaluation and reporting of potential anomalies, both supporting operators in decision processes and allowing for annotation of sensor data by operators’ feedback to anomaly propositions. Evaluations of this prototypical system and the resulting data suggested that involved anomaly detection models were overly simple, so more sophisticated unsupervised neural anomaly detection models were tested.
+In addition, two semi-supervised extensions trained with expert labels and automatically generated, therefore weak labels were compared. Both unsupervised and semi-supervised neural anomaly detectors prove to be well-suited, generalizing across several weeks of data exhibiting covariate shift. All presented methods respect constraints imposed by embedded systems used for machine monitoring and the need of timely responses to anomalies.</abstract>
+                    <subject>
+                        <topic>Maschinelles Lernen</topic>
+                        <topic>Machine Learning</topic>
+                        <topic>Signal Processing</topic>
+                        <topic>Condition Monitoring</topic>
+                        <topic>Process Monitoring</topic>
+                        <topic>Predictive Maintenance</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Department Elektrotechnik - Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-17183</identifier>
+                    <identifier type="sys">HT020625572</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1718</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2020-06-29</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1718">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1718/3/Dissertation_Christian_Reich.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1718"
+            DMDID="DMD_siegen_opus_1718">
+            <mets:fptr FILEID="FILE0_siegen_opus_1718"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

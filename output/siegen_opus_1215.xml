@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1215">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>19. Treffen junger WissenschaftlerInnen deutschsprachiger Wasserbauinstitute</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Jensen, Jürgen</displayForm>
+                        <namePart type="family">Jensen</namePart>
+                        <namePart type="given">Jürgen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Das JuWi-Treffen wurde erstmalig 1999 in Weimar veranstaltet und findet seitdem jährlich im Wechsel an Wasserbauinstituten verschiedener Universitäten statt. Vorherige Treffen wurden unter anderem in Zürich, Dresden, Braunschweig und Graz ausgetragen. Ziel der Treffen ist es, wissenschaftliche MitarbeiterInnen und insbesondere DoktorandInnen aus dem Bereich des Wasserbaus zusammenzuführen und einen fachlichen Austausch in einem informellen Rahmen zu ermöglichen.
+
+Die in diesem Tagungsband zusammengestellten Beiträge fassen die Vorträge des diesjährigen Treffens in Form von jeweils vierseitigen &quot;Extended Abstracts&quot; zusammen.</abstract>
+                    <subject>
+                        <topic>Wasserbau</topic>
+                        <topic>Ethohydraulik</topic>
+                    </subject>
+                    <classification authority="ddc">624</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-12154</identifier>
+                    <identifier type="sys">HT019459885</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1215</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1215">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1215/1/Jensen_JuWi_Treffen_2017_Tagungsband.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1215"
+            DMDID="DMD_siegen_opus_1215">
+            <mets:fptr FILEID="FILE0_siegen_opus_1215"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

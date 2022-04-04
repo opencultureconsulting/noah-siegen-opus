@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_444">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Discussion of information security in e-learning</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Diskussion der Informationssicherheit im E-Learning</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Eibl, Christian Josef</displayForm>
+                        <namePart type="family">Eibl</namePart>
+                        <namePart type="given">Christian Josef</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The implied need for security and connected requirements by the use of e-learning systems has only been marginally examined up to now. A problem of respective research is given by the relation of abstract criteria and requirements from educational science with technical realisation possibilities from informatics subdomains. The research project as presented in this thesis focuses on this interdisciplinary field and investigates e-learning from perspectives of both disciplines to develop a security concept that provides a sufficient level of security without negatively influencing the learning process. This thesis, first, deals with the question of which data and functionality for teaching with e-learning systems are reasonable. For this, design criteria for e-learning basing on educational scientific findings are deduced and brought into relation with aspects of information security.
+Special consideration is put into the learning process and specific requirements of learners in order to prioritise learning in opposition to the pure use of informatics systems. Requirements for an appropriate processing and storing of needed data and functionality are discussed.
+
+Core component of this work is the investigation of threats for e-learning by using the fault tree analysis approach. To conduct this analysis, certain demands resulting from educational science and e-learning research are transferred to technical assets. These assets, thereafter, can be used as root elements of subtrees within the fault tree analysis, i.e., harming such assets is considered to be an undesired event that should be avoided. During the threat analysis process, dependencies on base components of e-learning as web-based service are also considered and discussed, e.g., web server or database system. A central aspect of this analysis is given by mutual dependencies and different expectations of affiliated roles and groups of users in those roles. Exemplary threats, as discovered within the analysis step, are discussed with possible consequences and relevance for e-learning. The entire fault tree is presented in the appendix of this thesis. In addition to the theoretical investigation, case studies of wide-spread and well-known learning management systems are presented that demonstrate different practical shortcomings in the security concepts of these systems. This thesis primarily deals with conceptual problems in the software design, i.e., threats by abusing functionality that was meant to be present in the software. These shortcomings in design imply a significant challenge for mitigation, such that the necessity of an early integration of security deliberations and recommendations into e-learning systems gets emphasised.
+
+Basing on discovered threats for e-learning, respective recommendations are introduced and discussed that can help avoiding the majority of mentioned problems and threats. Knowing that security mechanisms may require user interaction, and therefore, can distract learners from their learning process, a proxy server approach is presented. This proxy server can overtake user interactions following predefined rules. Thus, the user can be relieved despite the implementation of sophisticated security mechanisms. A respective architecture, specification details, and realisation deliberations are discussed together with related problems. This thesis is concluded by a discussion of achieved results and open problems.</abstract>
+                    <abstract type="content" lang="ger">Der Sicherheitsbedarf und die Sicherheitsanforderungen, die durch die Verwendung von E-Learning-Systemen gestellt werden, sind bisher nur sehr marginal erforscht worden. Problem bei entsprechender Forschung ist die Verbindung von abstrakten Kriterien und Anforderungen aus der Erziehungswissenschaft mit technischen Realisierungsmöglichkeiten wie von Informatik-Teilbereichen geboten. Das hier beschriebene Forschungsprojekt setzt an dieser interdisziplinären Stelle an und untersucht E-Learning ausgehend von beiden Disziplinen, um ein Sicherheitskonzept zu entwickeln, das hinreichend starke Sicherheit bietet, während Anforderungen durch den Lernprozess nicht vernachlässigt werden. Diese Arbeit beschäftigt sich daher zuerst mit der Frage, welche Daten und Funktionen für die Lehre mit E-Learning-Systemen sinnvoll sind. Hierfür werden Designkriterien für E-Learning basierend auf erziehungswissenschaftlichen Erkenntnissen erarbeitet und diese in Verbindung mit Aspekten der Informationssicherheit gebracht. Besonderer Wert wird auf den Lernprozess und die speziellen Anforderungen von Lernenden gelegt, um das Lernen gegenüber der bloßen Verwendung eines Informatiksystems zu priorisieren. Anforderungen an eine entsprechende Verarbeitung und Speicherung benötigter Daten und Funktionen werden diskutiert.
+
+Kernbestandteil dieser Arbeit ist eine Untersuchung bezüglich der Gefahren für E-Learning mit Hilfe der Fehlerbaumanalyse. Um diese Analyse durchzuführen werden Anforderungen, wie sie sich aus der Erziehungswissenschaft und der E-Learning-Forschung ergeben, auf technische Assets abgebildet. Diese Assets dienen im weiteren Verlauf der Analyse als Wurzelknoten für die (Teil-)Fehlerbäume, d.h. als unerwünschte Ereignisse, die vermieden werden sollen. In der Gefahrenanalyse wird berücksichtigt, dass E-Learning als webbasierter Dienst auf weiteren Basiskomponenten wie Web-Server und Datenbank-System aufbaut und folglich Abhängigkeiten von diesen Komponenten existieren. Zentrale Aspekte bei der Analyse sind gegenseitige Abhängigkeiten und unterschiedliche Anforderungen und Wünsche bei beteiligten Rollen bzw. Gruppen von Anwendern in diesen Rollen.
+Mögliche Gefahren, die sich im E-Learning ergeben und in der Analyse aufgedeckt worden sind, werden exemplarisch diskutiert mit möglichen Auswirkungen und ihrer Relevanz für E-Learning. Der vollständige Fehlerbaum wird im Anhang präsentiert. Zusätzlich zur theoretischen Untersuchung werden Fallstudien mit weitverbreiteten und bekannten Lern-Management-Systemen präsentiert, die verschiedene praktische Unzulänglichkeiten im Sicherheitskonzept dieser Systeme aufzeigen.
+In dieser Arbeit werden vorrangig konzeptbezogene Probleme behandelt, d.h. Gefahren durch Missbrauch von Funktionen, die im Design der Software so vorgesehen sind. Diese Fehler im Design stellen eine signifikante Herausforderung für die Fehlerbereinigung dar, was die Notwendigkeit einer frühen Integration von Sicherheitsüberlegungen und Empfehlungen in E-Learning-Systeme unterstreicht.
+
+Ausgehend von aufgedeckten Gefahren für E-Learning werden entsprechende Empfehlungen aufgeführt und diskutiert, mit deren Hilfe sich ein Großteil dieser Probleme und Gefahren vermeiden lässt. Mit dem Wissen, dass viele Sicherheitsmechanismen Benutzerinteraktion erforderlich machen, und damit auch Lernende vom Lernen abhalten können, wird zudem ein Proxy-Server vorgestellt, der entsprechende Interaktionen nach vorgefertigten Regeln übernehmen kann, um den Lernenden zu entlasten.
+Hierfür werden eine entsprechende Architektur, Spezifikationsdetails und Realisierungsüberlegungen zusammen mit aufgetretenen Problemen diskutiert. Den Abschluss dieser Arbeit bildet eine Diskussion der erreichten Ziele und offener Probleme.</abstract>
+                    <subject>
+                        <topic>E-Learning</topic>
+                        <topic>webbasierte Systeme</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <classification authority="ioo" displayLabel="Institut für Praktische und Technische Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4441</identifier>
+                    <identifier type="sys">HT016425343</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_444</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2010-05-16</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_444">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/444/1/eibl.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_444"
+            DMDID="DMD_siegen_opus_444">
+            <mets:fptr FILEID="FILE0_siegen_opus_444"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

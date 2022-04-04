@@ -1,0 +1,82 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>2111</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Efficient high-order simulation of aeroacoustics from rigid body motion on massively parallel systems</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Effiziente Simulation der Aeroakustik von Starrkörperbewegungen mit hoher Ordnung auf massiv parallelen Systemen</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Neda</pc:foreName>
+            <pc:surName>Ebrahimi Pour</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Schallerzeugung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">High-order</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Immersed boundary</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">High Performance Computing</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Aeroacoustics</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Hohe Ordnung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Eingebettete Randbedingungen</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Hochleistungsrechnen</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Aeroakustik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The numerical simulation of physical problems involves capturing various phenomena occurring simultaneously at different scales in a single simulation. For example, considering aeroacoustic problems, the noise generating flow and the propagation of the sound waves in the far-field need to be taken into account. The increasing computational capacities and the development of modern supercomputers allow for more detailed studies of complex multi-physics and multi-scale problems. In this work, the sound generation by moving obstacles and its propagation up to the far-field is of particular interest. For this purpose, a high-order Discontinuous Galerkin method is utilized to discretize the fluid dynamic equations. These high-order methods are exceptionally efficient as they only require a few degrees of freedom to represent smooth solutions. Therefore, they are often deployed for, e.g., the acoustics far-field, where a homogenous flow field can be found. From the computational perspective on modern high-performing architectures, few degrees of freedom are an exceptional advantage, with memory bandwidth being a bottleneck on modern systems. Additionally, the ratio between communication and computation is minimal due to the loose connection of computational elements at their respective interfaces, which is an additional advantage of these methods, when considering distributed and massively parallel computing systems.&#13;
+However, the high-order representation of complex geometries has been a critical limitation for their application in various fields. The representation of geometrical shapes has to be appropriate to preserve the quality of the numerical solution, which has been discretized with high-order. Incorporating meshing techniques such as body-fitted meshes might not be robust in the workflow for the simulation. They are required to withstand different scenarios that are common, such as scenarios with general complex geometries inside the simulation domain. They can become expensive in computation when involving simulations with multiple geometries and even more when geometries can move. In these cases, the embedded method, also known as immersed boundary method, provides a promising prospect. In this work, the Brinkman penalization technique is applied to model multiple complex and moving geometries.&#13;
+Moving rigid bodies are common in engineering applications. The sound emitted due to the motion and the flow disturbance by geometries is of particular interest, as awareness of environmental impact in society has grown in recent years. Therefore, predicting the produced noise is a common responsibility in different fields, such as the design of wind turbines. These simulations have a complex nature and require an efficient strategy to facilitate them feasibly. Therefore we deploy the partitioned coupling approach, where the complex and large simulation domain is decomposed into smaller subdomains. Each subdomain is configured such that the occurring phenomena can be precisely captured. It results in an efficient strategy allowing for the simulation of various scales and physics, such as the large-scale simulation in this work. The simulation includes the motion of an airfoil and the induced noise that spreads over a large domain.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Bei der numerischen Simulation physikalischer Ereignisse sind oft viele unterschiedliche Phänomene involviert, die gleichzeitig auftreten, jedoch unterschiedliche räumliche und zeitliche Skalen haben können. Ist die Schallausbreitung von Interesse, so muss sowohl die schallgenerierende Strömung als auch die Schallausbreitung ins Fernfeld berücksichtigt werden. Durch die Weiterentwicklung von Supercomputern und die vorhandenen Rechenkapazitäten ist es möglich, detaillierte Simulationen, die mehrere Skalen und physikalische Phänomene beinhalten, zu berücksichtigen.&#13;
+In dieser Arbeit wird die Schallerzeugung durch bewegte Geometrien betrachtet, ebenso die Schallausbreitung ins Fernfeld. Um die numerische Simulation mit hoher Genauigkeit und effizient zu realisieren, wird ein Verfahren hoher Ordnung (Discontinuous Galerkin) für die numerische Diskretisierung der Strömungsgleichungen herangezogen. Das Verfahren erlaubt, neben effizienter Berechnung der Strömungsgleichungen, auch eine hohe Genauigkeit der Lösung. Besonders für glatte Lösungen kann das Verfahren seine Vorteile ausspielen. Dabei kann, verglichen mit Verfahren niedriger Ordnung, die selbe Genauigkeit der Lösung mit weniger Freiheitsgraden erzielt werden. Glatte Lösungen sind u.a. im akustischen Fernfeld vorzufinden, wo ein homogenes Strömungsfeld vorliegt. Aufgrund der wenigen Freiheitsgrade ist das Verfahren hoher Ordnung besonders vorteilhaft und erlaubt sehr effiziente Berechnungen auf modernen Supercomputern, deren Speicherbandbreite ein limitierender Faktor darstellt. Des Weiteren wird durch das angewendete Verfahren lediglich zwischen den direkten Nachbarn kommuniziert. Somit ist das Verhältnis zwischen Kommunikation und der eigentlichen Berechnung sehr gering gehalten. Dies ist besonders wichtig und von Bedeutung, wenn Simulationen auf massiv parallelen Rechensystemen ausgeführt werden.&#13;
+Die Repräsentation von komplexen Geometrien gilt jedoch als Limitierung für Verfahren hoher Ordnung und wird somit kaum für die Darstellung von Geometrien herangezogen. Die Modellierung der Geometrie mit einer niedrigen Verfahrensordnung würde die Vorteile der hohen Verfahrensordnung im Strömungsfeld reduzieren und dazu führen, dass die hohe Genauigkeit der Lösung nicht mehr gegeben ist. Das Heranziehen von Vernetzungsmethoden, wie z.B. körperangepassten Gittern, erlauben oft keinen robusten Arbeitsablauf, um alle komplexen Szenarien, wie z.B. die Bewegung einer komplexen Geometrie, zu erlauben. Des Weiteren kann das Verwenden von mehreren komplexen Geometrien und insbesondere ihre Bewegung zu Problemen bei der Generierung von körperangepassten Gittern, führen. Bei solchen Problemstellungen bieten eingebettete Methoden eine Möglichkeit, um auch mit Verfahren hoher Ordnung komplizierte Geometrien und deren Bewegung zu modellieren. In dieser Ausarbeitung wird zur Modellierung von Geometrien, das Brinkman Penalisierungsverfahren herangezogen.&#13;
+Bewegte Bauteile sind im Ingenieurbereich üblich. Umströmte, bewegte Objekte verursachen Störungen der Strömung, die auch Schall erzeugen. Dabei ist es wichtig, bereits in der Entwicklungsphase von z.B. Windturbinen, die Geräuschentwicklung auf ein Minimum zu reduzieren. Die numerische Simulation solcher Anwendungen ist komplexer Natur und setzt eine effiziente Strategie voraus, um das große Simulationsgebiet durch numerische Simulation zu verwirklichen. Dazu wird in dieser Arbeit die Strategie der partitionierten Kopplung verwendet, um eine effiziente Simulation zu ermöglichen. Das Simulationsgebiet wird dabei in Teilgebiete unterteilt und jedes dieser Gebiete so konfiguriert, das auftretende physikalische Phänomene durch die Numerik erfasst werden. Dies ermöglicht physikalische Phänomene numerisch korrekt zu simulieren und den Rechenaufwand zu reduzieren. In dieser Arbeit wird u.a. der durch die Bewegung eines Tragflügels induzierter Schall simuliert.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution>
+         <cc:name>universi – Universitätsverlag Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Am Eichenhang 50, 57076 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Sabine</pc:foreName>
+            <pc:surName>Roller</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2021-07-27</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2021</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-21114</dc:identifier>
+   <dc:source xsi:type="ddb:ISBN">978-3-96182-105-1</dc:source>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dcterms:isPartOf xsi:type="ddb:noScheme">Simulation techniques in Siegen - STS;  6</dcterms:isPartOf>
+   <dc:rights xsi:type="dcterms:URI">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Department Maschinenbau</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Ebrahimi Pour_STS 6.pdf" ddb:fileSize="5336946"/>
+   <ddb:checksum ddb:type="MD5">d645bc3cb02e39b66618726e7b9584b1</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/2111/1/Dissertation_Ebrahimi%20Pour_STS%206.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/2111</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

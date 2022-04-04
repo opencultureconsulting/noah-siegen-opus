@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1154">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>„Dann kriegen alle graue Haare und keiner sagt: Das verstehe ich nicht.“ : ein Gespräch mit Stefan Göthling (Netzwerk People First Deutschland e.V.)</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Düber, Miriam</displayForm>
+                        <namePart type="family">Düber</namePart>
+                        <namePart type="given">Miriam</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Göthling, Stefan</displayForm>
+                        <namePart type="family">Göthling</namePart>
+                        <namePart type="given">Stefan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Nutzung des Internets stellt auch für Menschen mit Lernschwierigkeiten eine wichtige Form gesellschaftlicher Teilhabe dar. Gleichzeitig tauchen im Umgang mit den neuen Medien auch immer neue Schwierigkeiten auf, vor allem in Form von Barrieren für diese Personengruppe. Nicht zuletzt die Verordnung zur Schaffung barrierefreier Informationstechnik nach dem Behindertengleichstellungsgesetz (BITV 2.0) ist ein Beleg dafür, dass das Ziel der digitalen Barrierefreiheit auch in Bezug auf Menschen mit Lernschwierigkeiten zunehmend in den Fokus rückt.</abstract>
+                    <subject>
+                        <topic>Lernbehinderter</topic>
+                        <topic>Behinderung</topic>
+                        <topic>Digitale Teilhabe</topic>
+                        <topic>Neue Medien</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11544</identifier>
+                    <identifier type="sys">HT019532212</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1154</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1154">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1154/1/Dueber_Dann_kriegen_alle_graue_Haare.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1154"
+            DMDID="DMD_siegen_opus_1154">
+            <mets:fptr FILEID="FILE0_siegen_opus_1154"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

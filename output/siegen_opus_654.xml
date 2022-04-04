@@ -1,0 +1,80 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_654">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Entwicklung eines haptisch unterstützten Bedienkonzepts für Hydraulikbagger</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Development of a haptically enhanced operational concept for hydraulic excavators</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hayn, Henning</displayForm>
+                        <namePart type="family">Hayn</namePart>
+                        <namePart type="given">Henning</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Haptisch unterstützte Bedienkonzepte finden gegenwärtig in mobilen Arbeitsmaschinen, wie z. B. Hydraulikbaggern, keine Anwendung. Zurzeit werden diese Maschinen mit hydraulischen Joysticks bedient. Jede Joystickachse steuert einen einzelnen hydraulischen Aktor (z. B. Zylinder), was aufgrund der nicht immer übereinstimmenden Bewegungsarten und -richtungen zu einer wenig intuitiven Bedienung führt. Erst seit der Verfügbarkeit elektrohydraulischer Systeme für den Serieneinsatz sind auch alternative intuitive Bedienkonzepte mit elektronischen Vorsteuergeräten möglich. Diese Konzepte können durch haptisch unterstützte Assistenzsysteme erweitert werden. Haptisch unterstützte Bedienkonzepte zielen auf eine effizientere Mensch-Maschine-Interaktion, eine Reduzierung von Bedienfehlern und eine Verkürzung der Einlernzeit unerfahrener Bediener.
+In der vorliegenden Arbeit wird ein Master-Slave-Bedienkonzept für einen Hydraulikbagger vorgeschlagen, welches den Fahrer über haptische Interaktion bei der Maschinenführung unterstützt. Das Bedienkonzept beinhaltet intuitive, aktive Bedienelemente, die eine Alternative zur herkömmlichen Maschinensteuerung mit Joysticks darstellen, und eine bilaterale Reglerarchitektur für das Gesamtsystem, bestehend aus Bagger und Bediengerät. Die Bedienelemente, welche die kinematische Kette des Arbeitsarms nachbilden, versprechen eine intuitive Bedienung der Maschine. Für die ständige Synchronisation der Bedienelemente mit der aktuellen Position des Hydraulikbaggers müssen diese mit Aktoren ausgestattet und positionsgeregelt sein. In der vorgeschlagenen Reglerarchitektur geben sich beide Systeme jeweils gegenseitig die Führungsgröße für die Positionsregelung vor. Der Bediener wirkt als Störung auf das System. Diese Architektur ermöglicht eine stabile Regelung und gibt dem Bediener ein haptisches Feedback der Trägheit des hydraulischen Manipulators. Die Regler für die elektrischen bzw. hydraulischen Aktoren von Bedienelementen und Bagger werden mit Hilfe der Entwurfsmethode Internal Model Control ausgelegt. Dazu wird ein bekannter Ansatz auf integrierende Strecken erweitert. Zur Verbesserung der Regelgüte wird eine Stellgrößenbeschränkung über ein Zustandsvariablenfilter für Systeme mit integrierenden Strecken vorgeschlagen.
+Ein weiterer Aspekt der Arbeit ist die Nutzung der Aktoren der Bedienelemente zur Implementierung von haptischen Assistenzsystemen. Diese unterstützen den Fahrer bei verschiedenen Arbeitsaufgaben (z. B. Planieren, Böschungsbau, Kollisionsvermeidung) durch fühlbare Kräfte, die das Bedienelement an den Fahrer zurückgibt.
+Um das Bedienkonzept zu verifizieren, wird ein echtzeitfähiger Virtual Reality Baggersimulator und ein mit elektronisch vorgesteuerten Hydraulikventilen, Rapid Control Prototyping Hardware und Sensorik ausgerüsteter Versuchsbagger verwendet. Zur prototypischen Umsetzung der Bedienelemente am Versuchsbagger werden kommerziell verfügbare Bediengeräte, ein SensAble Phantom Omni und ein 3Dconnexion SpaceBall 5000, eingesetzt. Es werden Ergebnisse aus experimentellen Messungen angegeben.
+Zur Bewertung des vorgeschlagenen Bedienkonzepts sowie der haptischen Assistenzfunktionen werden Experimente mit Probanden am Versuchsbagger durchgeführt, welche die Intuitivität des Konzepts und die Funktionalität der Assistenzsysteme bestätigen.</abstract>
+                    <abstract type="content" lang="eng">In mobile hydraulic machines such as excavators, haptic human-machine interfaces are currently not in use. Today, the machines are operated by mechanical-hydraulic joysticks. Each joystick axis controls a single hydraulic actuator. This leads to operational concepts which are not very easy to use. Due to the fact that electro-hydraulic systems with electronic joysticks are available for serial applications, alternatively, more intuitive operational concepts have become feasible. These concepts can be enhanced further by adding haptic driver-assistance systems. The aims of haptically enhanced operational concepts are to increase the efficiency of the human-machine interaction by providing driver-assistance systems, reducing operating errors, and shortening the time required for inexperienced drivers to learn how to operate the machine.
+In this thesis, a haptically enhanced master-slave operational concept for a hydraulic excavator is proposed. The concept includes a conceptual design for intuitive, active operating-elements as an alternative to conventional joysticks. It also includes bilateral control-architecture for the complete system, consisting of the hydraulic excavator and the active operating-device. The device resembles the kinematic chain of the excavator’s manipulator. This allows for intuitive operation of the machine. The operating device is actuated to implement position control of the device. This is necessary to permanently synchronize the operating device and the position of the hydraulic manipulator. The main idea entails position controllers for both the excavator and the operating device where both control loops output the reference position to one another. More specifically, two position-controlled systems are placed in a feedback loop with each other. The human operator acts as an input disturbance to the operating device. This approach allows stable teleoperation of the machine and gives the operator haptic feedback of the manipulator’s inertia. The Internal Model Control (IMC) methodology is employed to design the position controllers for both the hydraulic manipulator and the operating device. Therefore, a simplified design rule for the IMC filter and a novel anti-windup approach for models with pure integrators are proposed.
+A second aspect is the utilization of the active operating-device’s actuators to implement haptically enhanced driver-assistance systems. These systems support the driver as he performs his working tasks (e. g. leveling assistance, slope cutting, and workspace limitation) through tactile forces fed back by the operation element.
+In order to verify the operational concept and the haptic assistance systems, they were exemplified on a virtual-reality excavator simulator and on an experimental excavator equipped with electronic pilot-valves, rapid-control prototyping hardware, and sensor systems. To test the concept on the prototype, commercially available devices, namely a SensAble Phantom Omni and a 3Dconnexion SpaceBall 5000, were used. Measurement results are given.
+Experiments with test drivers are performed to evaluate the proposed operational concept and the haptically enhanced driver assistance systems. The experiments confirm the usability of the operational concept and the benefit of the haptic assistance systems.</abstract>
+                    <subject>
+                        <topic>Bagger</topic>
+                        <topic>Haptik</topic>
+                        <topic>IMC</topic>
+                        <topic>Bedienkonzept</topic>
+                        <topic>Bedienung</topic>
+                        <topic>Kraftrückmeldung</topic>
+                        <topic>excavator</topic>
+                        <topic>control</topic>
+                        <topic>haptic</topic>
+                        <topic>operation</topic>
+                        <topic>feedback</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Mechanik und Regelungstechnik - Mechatronik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-6543</identifier>
+                    <identifier type="sys">HT017447094</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_654</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2012-07-16</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_654">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/654/1/hayn.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_654"
+            DMDID="DMD_siegen_opus_654">
+            <mets:fptr FILEID="FILE0_siegen_opus_654"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

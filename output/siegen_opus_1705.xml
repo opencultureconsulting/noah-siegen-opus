@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1705">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Quantified integer programming with polyhedral and decision-dependent uncertainty</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Quantifizierte ganzzahlige Programmierung unter polyedrischer und entscheidungsabhängiger Unsicherheit</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Quantifizierte ganzzahlige Programmierung unter polyedrischer und entscheidungsabhängiger Unsicherheit</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hartisch, Michael</displayForm>
+                        <namePart type="family">Hartisch</namePart>
+                        <namePart type="given">Michael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lorenz, Ulf</displayForm>
+                        <namePart type="family">Lorenz</namePart>
+                        <namePart type="given">Ulf</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Das in der Mitte des letzten Jahrhunderts etablierte Forschungsgebiet der Optimierung unter Unsicherheit hat in den letzten beiden Jahrzehnten viel Aufmerksamkeit erhalten. Der Umgang mit unsicheren Daten in Optimierungsproblemen bleibt aber trotz (oder gerade wegen) der Zeiten großer Datenmengen und Cloud-Lösungen eine große Herausforderung. Die bekanntesten Ansätze um mit solchen Optimierungsproblemen umzugehen sind stochastische Programmierung und robuste Optimierung. Um ein realistischeres Abbild des zugrunde liegenden Problems zu ermöglichen, können dabei auch mehrstufige Modelle zum Einsatz kommen. Während es einige echt-mehrstufige stochastische Ansätze gibt, gehen die meisten mehrstufigen Erweiterungen der robusten Optimierung nicht über ein zweistufiges Modell hinaus. Noch weniger Aufmerksamkeit wird der Berücksichtigung von entscheidungsabhängiger Unsicherheit geschenkt. Um diese Lücke zu schließen, wurden in dieser Arbeit mehrstufige Optimierungsprobleme auch mit entscheidungsabhängiger Unsicherheit mittels quantifizierter Programme untersucht.
+Mit quantifizierten Programmen können mehrstufige Optimierungsprobleme unter Unsicherheit formuliert werden. Dabei handelt es sich um  lineare Programme, deren Variablen mit jeweils einem Existenz- oder einem Allquantor versehen sind und eine feste Reihenfolge aufweisen. Die erzielten Fortschritte für quantifizierte lineare Programme gaben Anlass zur näheren Untersuchung von quantifizierten ganzzahligen Programmen (QIP) in dieser Arbeit. Während sich ein Großteil der Forschung in diesem Bereich der komplexitätstheoretischen Untersuchung  spezieller QIP-Erfüllbarkeitsprobleme widmet, war das vorrangige Ziel dieser Arbeit neue Lösungstechniken und Unsicherheitskonzepte für das QIP-Optimierungsproblem zu erforschen.
+QIPs können durch eine Spielbaumsuche gelöst werden, welche durch Techniken aus den Bereichen des SAT-, QBF- und MIP-Lösens erweitert werden können. Weitere Lösungstechniken, die in eine solche Spielbaumsuche mit einfließen,  wurden in der vorliegenden Arbeit entwickelt und fundiert. Insbesondere wurde die Strategic Copy-Pruning Heuristik etabliert. Diese erlaubt es die Existenz einer Strategie in linearer Zeit implizit sicherzustellen, ohne diese explizit durchlaufen zu müssen. Außerdem konnte gezeigt werden, dass die Umsetzung der erlangten Ergebnisse den Suchprozess erheblich beschleunigen kann.
+Um die Ausdrucksfähigkeit von QIPs zu erhöhen, wurden darüber hinaus QIPs mit polyedrischer Unsicherheitsmenge eingeführt. Infolge dieser Erweiterung konnten verschiedene mehrstufige kombinatorische Optimierungsprobleme deutlich schneller gelöst werden. Durch eine zusätzliche Erweiterung wurde außerdem ein allgemeiner Rahmen für mehrstufige Optimierungsprobleme unter entscheidungsabhängiger Unsicherheit geschaffen. In dieser Arbeit wurden dafür Lösungstechniken theoretisch fundiert, Implementierungsdetails bereitgestellt und explizite Polynomzeitreduktionen hergeleitet.</abstract>
+                    <abstract type="content" lang="eng">The research field of optimization under uncertainty, even though already established in the middle of the last century, gained much attention in the last two decades. The necessity to deal with uncertain data remains a major challenge despite (or because of) the times of big  data and cloud solutions. The most prominent modeling paradigms dealing with such optimization tasks are stochastic programming and robust optimization. Sometimes, in order to obtain an even more realistic description of the underlying problem, multistage models can be used. While there are some real multistage stochastic approaches, most multistage extensions to robust optimization hardly ever consider more than two stages. Even less attention is paid to the consideration of decision-dependent uncertainty. To overcome these shortcomings, we  explored multistage optimization under decision-dependent uncertainty via quantified programming.	
+Quantified programs, which are linear programs with ordered variables that are either existentially or universally quantified, provide a convenient framework for multistage optimization under uncertainty. While considerable research has been conducted with regard to quantified linear programming (QLP) this thesis focused on quantified integer programming (QIP). Whereas most research in this area is concerned with complexity results regarding the QIP satisfiability problem, we concentrate on solution and modeling techniques for the QIP optimization problem, which we tested and implemented in our open-source solver.
+One way to solve a QIP is to apply a game tree search, enhanced with non-chronological backjumping. We developed and theoretically substantiated further solution techniques for QIPs within a game tree search framework and  established the strategic copy-pruning mechanism, which allows to implicitly deduce the existence of a strategy in linear time (by static examination of the QIP-matrix) without explicitly traversing the strategy itself. We also showed that the implementation of our findings can massively speed up the search process.
+Furthermore, in order to enhance the expressive power of QIPs, we introduced QIPs with a polyhedral uncertainty set. We showed that by exploiting this extension, we were able to significantly speed up our solver on various multistage combinatorial optimization problems. Additionally, we established QIPs with interdependent domains and thereby provide a general framework  for multistage optimization problems under decision-dependent uncertainty. We theoretically substantiated solution techniques, provided implementation details and derived polynomial-time reduction functions mapping both extensions to the basic QIP.</abstract>
+                    <subject>
+                        <topic>Robuste Optimierung</topic>
+                        <topic>Robust Optimization</topic>
+                        <topic>Multistage Optimization</topic>
+                        <topic>Combinatorial Search</topic>
+                        <topic>Game Tree Search</topic>
+                        <topic>Optimization under Uncertainty</topic>
+                        <topic>Mehrstufige Optimierung</topic>
+                        <topic>Spielbaumsuche</topic>
+                        <topic>Optimierung unter Unsicherheit</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-17058</identifier>
+                    <identifier type="sys">HT020573762</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1705</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2020-08-07</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1705">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1705/4/Dissertation_Michael_Hartisch.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1705"
+            DMDID="DMD_siegen_opus_1705">
+            <mets:fptr FILEID="FILE0_siegen_opus_1705"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

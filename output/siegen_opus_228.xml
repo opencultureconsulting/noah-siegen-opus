@@ -1,0 +1,108 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_228">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Product engineering for silicon based MEMS IP</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ortloff, Dirk</displayForm>
+                        <namePart type="family">Ortloff</namePart>
+                        <namePart type="given">Dirk</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2006</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Today the silicon based Micro Electro-Mechanical Systems (MEMS) industry
+has inadequate development methodologies and frameworks. This is especially
+true when developing MEMS process and design Intellectual Property
+(IP). The existing development methods and frameworks are not accommodating
+for the necessary areas and components required for efficient, reproducible
+and controlled MEMS IP development. As such issues have not been
+addressed, this results in e.g. unresolved development methodology questions
+and non-systematic storage of product deliverables.
+
+This thesis proposes a systematic development approach to tackle several
+of such insufficiencies. It proposes a novel MEMS IP development methodology
+guiding the developments from a product idea to a marketable product.
+Because the business processes of the method require tool support, a quality
+integrated Product Engineering Framework is proposed supporting the key areas.
+The thesis describes a new framework concept of business process components
+supporting the methodology and establishes processes guiding through
+the development efforts.
+
+A major focus is set on the in-depth research of reproducibility and control
+aspects of the process IP development efforts. The findings concerning process
+development tracking are converted into novel concepts for supporting tools
+and the newly implemented software environment to address the found problem
+areas is introduced. The thesis presents results generated during the EU
+FP6 project PROMENADE [Eur04] and previous works. The software environment
+developed by the PROMENADE project builds a major cornerstone of a
+company wide framework for developing silicon based MEMS IP modules.</abstract>
+                    <abstract type="content" lang="ger">Die Industrie für siliziumbasierte Mikrosysteme hat heute keine adäquaten
+Entwicklungsmethoden und -umgebungen. Dies gilt speziell für Firmen,
+die ein wissensbasiertes Geschäftsmodell (Intellectual Property, IP) verfolgen.
+Die existierenden Methoden und Umgebungen unterstützen nicht alle
+erforderlichen Bereiche und bieten nicht alle notwendigen Komponenten
+für die Mikrosystementwicklung. Diese unzureichende Unterstützung führt,
+unter anderem, zu unvollständigen und nicht reproduzierbaren Entwicklungsflüssen. Dies ist vor allem auf die unsystematische Speicherung der
+Entwicklungs- und Produktergebnissen zurückzuführen.
+
+Diese Doktorarbeit stellt einen systematischen Entwicklungsansatz vor, der
+mehrere dieser Probleme bearbeitet. Hierzu werden alle relevanten Aspekte
+analysiert und exemplarische Lösungsvorschläge aufgezeigt. Es wird eine neue Methodik bereitgestellt, welche von der Idee bis zum vermarktbaren,
+wissensbasierten Mikrosystemprodukt führt. Hierzu wird eine Umgebung
+aus Geschäftsprozessen und Unterstützungswerkzeugen für die Methodik beschrieben.
+
+Ein besonderes Augenmerk wird auf die detaillierte Analyse von
+Reproduzierbarkeits- und Kontrollaspekten der Fertigungsprozessentwicklung
+gelegt. Die Ergebnisse wurden zur Entwicklung neuer Konzepte und
+Werkzeuge zur Entwicklungsunterstützung in der Praxis eingesetzt. Die Arbeit
+präsentiert Ergebnisse aus dem von der EU geförderten Projekt PROMENADE
+[Eur04] und des Vorläuferprototypen PDTS. Die innerhalb des Projektes
+entwickelte Softwareumgebung bildet einen Grundpfeiler für die firmenweite
+eingesetzte Entwicklungsumgebung.</abstract>
+                    <subject>
+                        <topic>Microsystems</topic>
+                        <topic>Intellectual Property</topic>
+                        <topic>Semiconductor IP</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-2287</identifier>
+                    <identifier type="sys">HT014821063</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_228</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2006-06-25</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_228">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/228/1/ortloff.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_228"
+            DMDID="DMD_siegen_opus_228">
+            <mets:fptr FILEID="FILE0_siegen_opus_228"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

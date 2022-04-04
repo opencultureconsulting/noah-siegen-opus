@@ -1,0 +1,191 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1685</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Coincident detection of Cherenkov photons for medical applications</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Koinzidente Detektion von Cherenkov Photonen für medizinische Anwendungen</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Reimund</pc:foreName>
+            <pc:surName>Bayerlein</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Compton-Kamera</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Cherenkov Light</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Medical Imaging</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Silicon-Photomultiplier</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Photon Detection</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Detector Physics</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Compton Camera</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">530</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">The detection of higher energetic gamma rays (≥ 1 MeV) is of increasing importance in&#13;
+medical imaging and nuclear medicine. Especially proton therapy treatment could benefit&#13;
+from the ability to measure prompt gammas emitted subsequent to the irradiation of the&#13;
+patient with high-energetic sub-atomic particles like protons. Such an imaging modality&#13;
+would help monitor the treatment process and ensure correct particle range and optimal dose&#13;
+delivery to the tumor while sparing surrounding healthy tissue.&#13;
+One potential gamma detector for medical applications is the Compton camera – a two-layer&#13;
+detection system, where an incoming gamma scatters in a first detection layer and is absorbed&#13;
+in a second layer. In the first layer, a Compton electron is created, which carries a large part&#13;
+of the momentum information about the incoming gamma. A coincidence measurement of&#13;
+energy and position of both the electron and the absorbed gamma enables to reconstruct the&#13;
+gamma source location to lie on the surface of a cone. Knowledge of the electron momentum&#13;
+direction enables to confine the origin to an arc. The real reconstructed source position&#13;
+is obtained by the measurement and superposition of many of these cones or arcs, respectively.&#13;
+In this work, a novel detection concept for the Compton scattered electron is presented and&#13;
+investigated, which is based on the coincident measurement of Cherenkov photons created&#13;
+by that electron in an optically transparent radiator material. The photons are emitted&#13;
+along the surface of a cone with a characteristic opening angle that mainly depends on the&#13;
+refractive index of the material and the velocity of the electron. The intersection of this&#13;
+Cherenkov cone with a photon sensitive detector area forms a ring or an ellipse, which can&#13;
+be used to reconstruct the cone and the momentum direction of the electron. The number&#13;
+of emitted photons yields information on the electron energy, while the size of the ellipse&#13;
+contains information on the scattering vertex position.&#13;
+A first proof of this concept is provided in this thesis. In a first test set-up, a successful&#13;
+coincident measurement of Cherenkov photons on an array of Silicon-Photomultipliers (SiPMs)&#13;
+was performed. The photons were created by electrons from a Sr-90 source inside radiator&#13;
+materials of different types and thicknesses. A coincidence time resolution of 242 ps could be&#13;
+achieved using signal read-out based on an application specific integrated circuit (ASIC). The&#13;
+number of detected photons could be counted with a charge integrating measurement and&#13;
+analysis method using an oscilloscope. The width of the distribution of the measured patterns&#13;
+was quantified and was in good agreement with predictions. All results were compared&#13;
+with calculations, which were performed under consideration of electron energy and range,&#13;
+detection efficiency of the SiPM, detector geometry and absorption properties of the radiator.&#13;
+A sensitivity of the measured pattern to the thickness of the sample and to the position of&#13;
+the electron source was observed from accumulated coincident events. These patterns also&#13;
+allowed for a reconstruction of the electron source position with an accuracy better than&#13;
+1 mm. In the scope of the development of the set-up and measurement method, all detector&#13;
+components were investigated to find the optimal parameter settings and the most suited&#13;
+radiator materials.&#13;
+With an improved set-up with a different ASIC and cooled detectors a coincident light&#13;
+detection on single photon level was possible. An extensive correction algorithm allowed for&#13;
+a compensation of time walk effects and inherent time differences between individual ASIC&#13;
+channels. The ability to count the number of detected Cherenkov photons per event and per&#13;
+Silicon Photomultiplier (SiPM) channel was implemented using the Time over Threshold&#13;
+(TOT) information of the SiPM signals. The average number of detected photons per event&#13;
+was measured for various sample thicknesses and the results were compared to calculations&#13;
+and simulations performed with Geant4.&#13;
+After these first successful coincidence measurements, the detection principle was applied&#13;
+to the detection of Compton scattered electrons and photo electrons created by 511 keV&#13;
+photons from a Na-22 source in UV transparent Polymethyl Metacrylate (PMMA). A detection&#13;
+efficiency on the order of 0.001 was found. Simulations indicate a strong increase in the&#13;
+efficiency to about 3 % for higher gamma energies. The number of detected Cherenkov&#13;
+photons from Compton electrons was counted and compared with simulation results. The&#13;
+measured coincidence pattern from accumulated events showed response to a shift of the&#13;
+gamma source position.&#13;
+The ability to detect Cherenkov photons from Compton electrons in coincidence could be&#13;
+successfully demonstrated. In future works, the patterns of individual events need to be used&#13;
+to reconstruct the Cherenkov cone and the electron momentum direction. The achievements&#13;
+in this thesis constitute a vital step towards an application of this electron detection principle&#13;
+for medical purposes and could help realize prompt gamma detection in particle therapy&#13;
+treatment using a Compton camera.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die Detektion höherenergetischer Gammastrahlung (≥ 1 MeV) ist von wachsender Bedeutung&#13;
+für die medizinische Bildgebung und die Nuklearmedizin. Besonders die Partikeltherapie&#13;
+könnte von der Möglichkeit profitieren, prompte Gammastrahlen zu messen, welche in Folge&#13;
+der Bestrahlung des Patienten mit hochenergetischen, subatomaren Teilchen wie Protonen&#13;
+emittiert werden. Solch ein Bildgebungsverfahren würde die Überwachung des Behand-&#13;
+lungsprozesses unterstützen und dabei helfen, die korrekte Teilchenreichweite und die opti-&#13;
+male Dosisverabreichung im Tumor sicherzustellen und dabei umliegendes Gewebe zu schonen.&#13;
+Ein Kandidat für einen Gammadetektor in medizinischen Anwendungen ist die Compton&#13;
+Camera – ein zweilagiges Detektorsystem, bei welchem ein einfallendes Gamma in einer ersten&#13;
+Detektorschicht streut und in einer zweiten absorbiert wird. In der ersten Schicht wird ein&#13;
+Compton-Elektron erzeugt, welches einen großen Teil der Impulsinformation des einfallenden&#13;
+Gammas trägt. Eine koinzidente Messung von Energie und Position des Elektrons als auch&#13;
+des gestreuten Gammas ermöglicht es, die Ursprungsrichtung des Gammas auf die Oberfläche&#13;
+eines Kegels einzuschränken. Kenntnis des Elektronenimpulses ermöglicht eine Einschränkung&#13;
+des Usprungs auf einen Kreisbogen. Die tatsächliche rekonstruierte Quellposition wird durch&#13;
+Messung und Überlagerung vieler dieser Kegel beziehungsweise Kreisbögen gewonnen.&#13;
+In dieser Arbeit wird ein neues Messkonzept für Compton-gestreute Elektronen präsentiert&#13;
+und untersucht, welches auf der koinzidenten Messung von Cherenkovphotonen basiert, die&#13;
+durch das Elektron in einem optisch transparenten Radiatormaterial abgestrahlt werden. Die&#13;
+Photonen werden entlang der Oberfläche eines Kegels mit charakteristischem Öffnungswinkel&#13;
+emittiert, welcher hauptsächlich vom Brechungsindex des Materials und der Geschwindigkeit&#13;
+des Elektrons abhängt. Der Schnitt des Cherenkovkegels mit einer lichtsensitiven Detek-&#13;
+torebene erzeugt einen Ring oder eine Ellipse, welche dazu verwendet werden kann, den&#13;
+Kegel und die Impulsinformation des Elektrons zu rekonstruieren. Die Anzahl der emittierten&#13;
+Photonen gibt Aufschluss über die Energie des Elektrons, während die Größe der Ellipse&#13;
+Informationen über die Position des Compton-Streuvertex enthält.&#13;
+Ein erster Machbarkeitsnachweis wird in dieser Dissertation vorgestellt. Eine erfolgreiche&#13;
+Koinzidenzmessung von Cherenkovphotonen auf einem Array von Silizium-Photomultipliern&#13;
+(SiPMs) wurde mit einem ersten Testaufbau durchgeführt. Die Photonen wurden von Elek-&#13;
+tronen aus einer Sr-90-Quelle in Radiatormaterialien unterschiedlicher Typen und Stärken&#13;
+erzeugt. Unter Verwendung einer Ausleseelektronik basierend auf einem Application Specific&#13;
+Integrated Circuit (ASIC) konnte eine Koinzidenzzeitauflösung von 242 ps erreicht werden.&#13;
+Die Anzahl der detektierten Photonen konnte mit einem Oszilloskop mittels Ladungsinte-&#13;
+gration gezählt werden. Die Breite der Verteilung der aufgenommenen Pattern (Hitmuster&#13;
+koinzidenter Photonen) wurde quantifiziert und war in guter Übereinstimmung mit Vorher-&#13;
+sagen. Alle Ergebnisse wurden mit Berechnungen verglichen, welche unter Berücksichtigung&#13;
+von Elektronenenergie und -reichweite, Detektionseffizienz des SiPM, Detektorgeometrie und Absorptionseigenschaften des Radiators angestellt worden waren. Es wurde eine Sensi-&#13;
+tivität der gemessenen Pattern von akkumulierten Ereignissen hinsichtlich Radiatorstärke&#13;
+und Quellposition beobachtet. Diese Pattern ermöglichten es des Weiteren, die Position der&#13;
+Elektronenquelle mit einer Genauigkeit von unter 1 mm zu rekonstruieren. Im Rahmen der&#13;
+Entwicklung des Messaufbaus und der Messmethode wurden alle Detektorkomponenten un-&#13;
+tersucht, um die optimalen Einstellungen und die am besten geeigneten Radiatormaterialien&#13;
+zu finden.&#13;
+Mit einem verbesserten Aufbau unter Verwendung eines anderen ASICs und gekühlten&#13;
+Detektoren war eine koinzidente Lichtdetektion auf Einzelphotonenniveau möglich. Ein&#13;
+aufwändiger Korrekturalgorithmus ermöglichte die Kompensation von Time-Walk-Effekten&#13;
+und inherenten Zeitunterschieden zwischen einzelnen Kanälen des ASICs. Die Möglichkeit,&#13;
+die Anzahl detektierter Cherenkovphotonen zu zählen, wurde unter Verwendung der Time-&#13;
+over-Threshold-Information der SiPM-Signale umgesetzt. Die mittlere Anzahl detektierter&#13;
+Photonen pro Ereignis wurde für unterschiedliche Materialstärken gemessen und mit Berech-&#13;
+nungen und Geant4-Simulationen verglichen.&#13;
+Nach diesen ersten erfolgreichen Koinzidenzmessungen wurde das Detektionsprinzip für&#13;
+den Nachweis von Compton- und Photoelektronen verwendet, welche in UV-transparentem&#13;
+Polymethylmethacrylat (PMMA) von Photonen mit einer Energie von 511 keV aus einer&#13;
+Na-22 Quelle erzeugt wurden. Es wurde eine Detektionseffizienz in der Größenordnung von&#13;
+0,001 ermittelt. Simulationen deuten auf einen starken Anstieg der Effizienz auf etwa 3 % für&#13;
+höherenergetische Gammas hin. Die Anzahl der detektierten Cherenkovphotonen von Comp-&#13;
+tonelektronen wurde gezählt und mit Simulationsergebnissen verglichen. Die gemessenen&#13;
+Koinzidenzmuster von akkumulierten Ereignissen sprachen auf eine Änderung der Position&#13;
+der Gammaquelle an.&#13;
+Die Möglichkeit, Cherenkovphotonen vom Comptonelektronen in Koinzidenz zu detektieren,&#13;
+konnte erfolgreich nachgewiesen werden. In zukünftigen Arbeiten müssen die Pattern einzelner&#13;
+Ereignisse verwendet werden, um den Cherenkovkegel und den Elektronenimpuls zu rekon-&#13;
+struieren. Die Erfolge in dieser Dissertation stellen einen wesentlichen Schritt in Richtung&#13;
+einer Anwendung für medizinische Zwecke dar und könnten dazu beitragen, Prompt-Gamma-&#13;
+Detektion in der Partikeltherapie mittels Compton Cameras zu realisieren.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Ivor</pc:foreName>
+            <pc:surName>Fleck</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2020-06-25</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2020</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-16853</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/lizenz.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Department Physik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Bayerlein_ Coincident Detection of Cherenkov Photons.pdf" ddb:fileSize="13807828"/>
+   <ddb:checksum ddb:type="MD5">c2b33d5f231c5fbe0d07af737f5cd45c</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1685/3/Dissertation_Bayerlein_%20Coincident%20Detection%20of%20Cherenkov%20Photons.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1685</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

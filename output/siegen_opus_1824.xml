@@ -1,0 +1,59 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1824">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Re-Use under US copyright law</title>
+                        <subTitle lang="eng">Fair use as a best practice or just a myth of balance in copyright?</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kocatepe, Sibel</displayForm>
+                        <namePart type="family">Kocatepe</namePart>
+                        <namePart type="given">Sibel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Sibel Kocatepe takes a look beyond the borders of the German jurisdiction and analyses US-American copyright law and their regulations with regard to referential forms of art. She elaborates on the so-called “fair use” doctrine as a limitation on copyright and its application in US-American judicial practice. Her contribution emphasises that the often-lauded American fair use limitation provides the necessary flexibility for solving conflicts of interests between copyright holders of original works and artists that use them within the restrictions of copyright. At the same time, Kocatepe highlights the fact that this flexibility might also result in a certain degree of unpredictability and legal uncertainty. In this context, she discusses whether the flexible fair use doctrine is actually able to balance conflicts of interests, in order to evaluate whether a legal transplant of this standard is, in fact, advisable. Kocatepe also touches upon the question whether the new Canadian “YouTube Exception” for non-commercial user-generated content might be a more preferable limitation for the German and ultimately the European jurisdiction.</abstract>
+                    <subject>
+                        <topic>Fair Use</topic>
+                        <topic>Re Use</topic>
+                    </subject>
+                    <classification authority="ddc">302</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-18243</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1824</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1824">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1824/4/Kocatepe_Re-Use.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1824"
+            DMDID="DMD_siegen_opus_1824">
+            <mets:fptr FILEID="FILE0_siegen_opus_1824"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

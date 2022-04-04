@@ -1,0 +1,143 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1941">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Transmitter and channel design for multi-chip communication interfaces</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Sender und Kanaldesign für Multi-Chip-Kommunikationsschnittstellen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Chaudhary, Muhammad Waqas</displayForm>
+                        <namePart type="family">Chaudhary</namePart>
+                        <namePart type="given">Muhammad Waqas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Choubey, Bhaskar</displayForm>
+                        <namePart type="family">Choubey</namePart>
+                        <namePart type="given">Bhaskar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The size of integrated circuit (IC) die has continuously increased due to Moore’s law
+in the last few decades. A large system on chip (SOC) contains many complex analog
+and digital blocks which must run at high clock rate to support the needs of today’s
+applications. These large SOCs suffer from global interconnect delay bottleneck and
+increased design complexity. In order to deal with this problem, the SOC can be
+divided into smaller chips which could be placed together in a multi-chip-module
+(MCM) or in a 2.5D interposer system. The chips must communicate with each
+other, which poses the challenges of transmitter and channel design along with
+system optimization.
+This work addresses the three challenges of multi-chip system design: (i) transmitter
+design for moderate speed unterminated signalling and high speed multi-Gb/s
+terminated signalling, (ii) channel analysis and design for minimum area usage while
+meeting the bandwidth and energy requirements of memory and high speed interfaces,
+(iii) design methodologies for transmitter and channel co-design, and design
+flow for optimum memory interface in multi-chip systems.
+This work tackles the transmitter design challenge for multi-chip systems by offering
+two types of transmitters: an unterminated low swing driver for moderate
+data rates, and a high speed terminated transmitter for multi-Gb/s communication
+interfaces. Both transmitters are designed in 22nm FDSOI technology and taped
+out. Channel analysis is done for various width, spacing and length of interconnects
+in 2.5D silicon interposer technology. The signal integrity analysis of memory and
+serial interfaces (SERDES) directs the designer to choose the right width and spacing
+of channel for optimum energy or area metrics. Two design methdologies are
+presented in this work: first is current mode logic (CML) differential driver and interposer
+co-design for minimum energy and area performance metric, second is a
+design flow for optimum memory interface design by choosing the right memory and
+integration technology based on given cost and bandwidth constraints. The proposed
+transmitters, channel analysis and suggested methodologies can be used by industry
+and research community to design energy and area efficient multi-chip interfaces.</abstract>
+                    <abstract type="content" lang="ger">Die Größe der integrierten Schaltkreise (ICs) hat aufgrund des Mooreschen Gesetzes
+in den letzten Jahrzehnten kontinuierlich zugenommen. Dabei enthalten große System
+on Chip (SOC) Lösungen viele komplexe analoge und digitale Blöcke, die mit
+hoher Taktrate laufen müssen, um die Anforderungen der heutigen Anwendungen zu
+unterstützen. Die mitunter größten Herausforderungen derartiger SOCs sind die Verzögerungen
+aufgrund sehr langer Verbindungen und die erhöhte Design Komplexität.
+Um diese Probleme zu lösen, kann das SOC in kleinere Chips unterteilt werden, die
+zusammen in einem Multi-Chip-Modul (MCM) oder auf einem 2.5D-Interposer basierten
+System platziert werden können. Die notwendige Kommunikation der Chips
+impliziert neue Herausforderungen bzgl. des Sender- und Kanaldesigns und der Systemoptimierung.
+Diese Arbeit befasst sich mit den drei Herausforderungen des Multi-Chip-System
+designs: (i) Dem Design der Sender für nicht terminierte Signalübertragung bei mittlerer
+Geschwindigkeit und terminierte Signalübertragung bei hoher Geschwindigkeit
+mit mehreren Gb/s. (ii) Der Kanalanalyse und -gestaltung mit minimaler Flächennutzung
+unter Beachtung der Bandbreiten- und Energieanforderungen, welche vom
+Speicher und Hochgeschwindigkeitsschnittstellen an das System gestellt werden. (iii)
+Den Designmethoden für das Co-Design von Sendern und Kanal sowie dem Design-
+Flow für eine optimale Speicherschnittstelle in Multi-Chip-Systemen.
+Die vorliegende Arbeit geht auf die Herausforderungen im Senderdesing von
+Mulit-chip-Systemen durch zwei Arten von Sendern ein: Einen nicht terminierten
+Treiber mit geringer Schwingung für moderate Datenraten und einen terminierten
+Hochgeschwindigkeitssender für eine Kommunikationsschnittstelle mit mehreren
+Gb/s. Beide Sender wurden auf Basis der 22nm FDSOI-Technologie designt
+und gefertigt. Die Kanalanalyse umfasst verschiedene Breiten, Abstände und Längen
+der Verbindungen auf einem 2.5D-Silizium-Interposer. Die Signalintegritätsanalyse
+des Speichers und der seriellen Schnittstellen (SERDES) liefert die optimale
+Breite und den optimalen Abstand der Kanäle unter Berücksichtigung von Energieoder
+Flächenmetriken. In dieser Arbeit werden zwei Design-Flows vorgestellt: Erstens
+die Stromschaltlogik (Current Mode Logic; CML) für Differentialtreiber und das
+Interposer-Co-Design für minimale Energie und Flächenleistungsmetrik, zweitens ein
+Design-Flow für optimale Speicherschnittstellen bezüglich der Auswahl der richtigen
+Speicher und Integrationstechnologie auf Grundlage gegebener Kosten und Bandbreitenbeschränkungen.
+Die vorgeschlagenen Sender, die Kanalanalyse und die vorgeschlagenen
+Methoden können von Industrie und Forschungsgemeinschaften zum
+Entwurf energie- und flächeneffizienter Multi-Chip-Schnittstellen verwendet werden.</abstract>
+                    <subject>
+                        <topic>Multichiptechnik</topic>
+                        <topic>Multi-Chip-Module</topic>
+                        <topic>Chip-to-Chip</topic>
+                        <topic>Communication Interfaces</topic>
+                        <topic>Transmitter</topic>
+                        <topic>2.5D Interposer</topic>
+                        <topic>Multi-Chip-Modul</topic>
+                        <topic>Sender</topic>
+                        <topic>Kanal</topic>
+                        <topic>Co-Design</topic>
+                        <topic>2.5D-Silizium-Interposer</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Department Elektrotechnik - Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19412</identifier>
+                    <identifier type="sys">HT020991538</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1941</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2021-02-25</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1941">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1941/5/Dissertation_Muhammad_Waqas_Chaudhary.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1941"
+            DMDID="DMD_siegen_opus_1941">
+            <mets:fptr FILEID="FILE0_siegen_opus_1941"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

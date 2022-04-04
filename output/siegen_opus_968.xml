@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_968">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Donald Davidsons Wahrheitstheorie</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Donald Davidson’s theory of truth</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Burt, Fabian</displayForm>
+                        <namePart type="family">Burt</namePart>
+                        <namePart type="given">Fabian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bachelorThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Donald Davidson darf wohl ohne Zweifel zu den meistdiskutierten und -rezipierten amerikanischen Philosophen des 20. Jahrhunderts gezählt werden. Obgleich sein philosophisches Gesamtwerk eine Vielzahl an Problemstellungen und Disziplinen umfasst, hat insbesondere seine wahrheitstheoretische Semantik maßgeblich zu diesem Ruf beigetragen. Dieser theoretische Ansatz, der die Frage nach dem Wesen von Wahrheit mit der Bedeutungstheorie, also der Frage nach dem Wesen der Bedeutung von Sätzen, verbindet, ist zwar keineswegs von Davidson erfunden, aber dennoch maßgeblich von ihm beeinflusst worden. Seine originäre Leistung auf dem Gebiet besteht darin, die semantische Wahrheitskonzeption Alfred Tarskis für die Bedeutungstheorie fruchtbar gemacht zu haben. Davidsons Hauptprämisse bei diesem Vorgehen ist seine Überzeugung, dass die Bedeutung eines Satzes zu kennen, heißt, die Bedingungen zu kennen, unter denen dieser wahr ist. Vor diesem Hintergrund besteht seine Grundidee darin, dass Tarski mit seiner extensionalen Bestimmung des Wahrheitsbegriffs die formale Struktur einer Bedeutungstheorie geliefert hat, da es mit dieser Methode möglich ist, die Wahrheitsbedingungen eines jeden Satzes zu bestimmen. Zudem hat Tarskis Theorie den Vorteil, dass sie rekursiv vorgeht, womit sie einer zentralen formalen Anforderung an Bedeutungstheorien gerecht wird. Bedeutungstheorien müssen in der Lage sein zu erklären, wie es uns als endlichen Wesen möglich ist, eine prinzipiell unendliche Menge an Bedeutungen vermittelst unserer Sprache verstehen und erzeugen zu können. Rekursivität, im Kontext der Bedeutungstheorie auch als Kompositionalismus bezeichnet, ist eine Möglichkeit, dieses Phänomen zu erklären, da sie die Unendlichkeit an Sätzen auf eine endliche Menge an Regeln und sprachlichen Elementen zurückführt.
+
+Die vorliegende Arbeit widmet sich der historisch-systematischen Genese dieses Ansatzes, wobei der Schwerpunkt auf der Rekapitulation der Entwicklung des Wahrheitsbegriffs und Davidsons Versuchen liegt, diesen trotz seiner Rolle im Kontext der Bedeutungstheorie eigenständig zu charakterisieren. Historisch ist diese Arbeit, insofern sie die Entwicklung seines Denkens zu diesem Begriff über einen Zeitraum von gut 30 Jahren nachvollzieht, beginnend im Jahre 1967 und endend im Jahre 1997. Aus diesen dreißig Jahren wird dabei nicht auf alle wahrheitsbezogenen, sondern nur auf eine eingeschränkte Auswahl an Aufsätzen eingegangen, die jedoch als repräsentativ für die jeweiligen Entwicklungsstufen des Denkens angesehen werden können. Systematisch ist die Arbeit, sofern gezeigt werden soll, inwieweit hinsichtlich der Grundideen des davidsonschen Wahrheitsverständnisses die kontinuierliche Auseinandersetzung mit den verschiedenen vorhandenen Theorietraditionen zu einer schärferen Abgrenzung von diesen und schließlich zu einem diesen gegenüber eigenständigen Theorieansatz führt.</abstract>
+                    <subject>
+                        <topic>Wahrheit</topic>
+                        <topic>truth</topic>
+                        <topic>meaning</topic>
+                        <topic>semantics</topic>
+                        <topic>theory of truth</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät I Philosophische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-9683</identifier>
+                    <identifier type="sys">HT018820977</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_968</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBachelorThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_968">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/968/1/Fabian_Burt.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_968"
+            DMDID="DMD_siegen_opus_968">
+            <mets:fptr FILEID="FILE0_siegen_opus_968"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

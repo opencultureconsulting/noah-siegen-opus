@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1676">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Die </nonSort>
+                        <title>Inszenierung von Autorschaft bei Uwe Timm</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <nonSort>Die </nonSort>
+                        <title>The presentation of authorship in the works of Uwe Timm</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Anuntkosol, Nantana</displayForm>
+                        <namePart type="family">Anuntkosol</namePart>
+                        <namePart type="given">Nantana</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wanning, Berbeli</displayForm>
+                        <namePart type="family">Wanning</namePart>
+                        <namePart type="given">Berbeli</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die vorliegende Dissertation befasst sich mit der Frage der Inszenierung der Autorschaft am Beispiel von Uwe Timm. Dieser Problematik geht sie nach, indem sie vier unterschiedliche „begleitende“ Genres untersucht: Zeitschriften und Zeitungen, Reiseberichte, Autobiographien und Poetikvorlesungen, welche unter dem Begriff „Medien der Autorschaft“ nach Urs Meyer zu verstehen sind. Das Erkenntnisinteresse dieser Arbeit richtet sich auf die medialen Erscheinungsformen einerseits und auf die Darstellungsweise der Autorschaft andererseits. Auf dieser Grundlage werden multiple Autorbilder von Uwe Timm vor dem Hintergrund des Konzepts des literarischen Felds und des Habitus von Pierre Bourdieu herausgearbeitet: der politisch engagierte Autor, der Autor als Ethnologe, der Autor als Erinnerungsarbeiter des kollektiven Gedächtnisses sowie der Autor als Geschichtenerzähler.</abstract>
+                    <abstract type="content" lang="eng">This dissertation addresses the question of how authorship is presented in the works of Uwe Timm. To explore this issue, four different “accompanying” genres have been considered: journals and newspapers, travel writings, autobiographies and poetic lectures, all of which are to be understood as “Media of Authorship” according to Urs Meyer. The discussion revolves around two aspects, the forms of media on the one hand, and the representational techniques on the other. Through Pierre Bourdieu’s concept of literary field and habitus, Uwe Timm’s multiple author images have been highlighted: the politically engaged author, the author as an ethnologist, the author as a memory worker of the collective memory and the author as a storyteller.</abstract>
+                    <subject>
+                        <topic>Uwe Timm</topic>
+                        <topic>self-representation</topic>
+                        <topic>authorship</topic>
+                        <topic>German literature</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät I Philosophische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16768</identifier>
+                    <identifier type="sys">HT020569134</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1676</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2019-07</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1676">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1676/1/Anuntkosol_Die%20Inszenierung%20von%20Autorschaft%20bei%20Uwe%20Timm.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1676"
+            DMDID="DMD_siegen_opus_1676">
+            <mets:fptr FILEID="FILE0_siegen_opus_1676"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

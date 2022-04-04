@@ -1,0 +1,92 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1373</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Grid points and generalized discrepancies on the d-dimensional ball</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Amna</pc:foreName>
+            <pc:surName>Ishtiaq</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Inverses Problem</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Inverse problems (Differential equations)</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Discrepancy method</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Quadrature points</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Sphere</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">510</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The problem of distributing points on a domain, like ball, plays a special&#13;
+role in the fields like geosciences and medical imaging. Therefore, we present&#13;
+an equidistribution theory with a focus on obtaining low-discrepancy point&#13;
+grids on a 3-dimensional ball.&#13;
+The connection of the discrepancy method and the quadrature points on a&#13;
+given domain is quite well known. We approximate the integral of a function&#13;
+given on a bounded domain by the sum of function values at a specific set of&#13;
+points together with some weights. The idea is to get the best approximation&#13;
+with the fewest possible function values. The ansatz is logical, if the chosen&#13;
+data set is well distributed on the whole domain. This perspective, with the&#13;
+ball as a domain, enables us to get nice configurations as well as suitable&#13;
+approximations to the integrals of functions on the ball.&#13;
+It is, for instance, important for choosing the centres of the radial basis&#13;
+functions as they are needed for regularization methods such as the RFMP&#13;
+algorithm and the ROFMP algorithm, developed by the Geomathematics&#13;
+Group at the University of Siegen for ill-posed inverse problems with particular&#13;
+focus on the sphere and the ball as domains of the unknown functions.&#13;
+Additionally, it is also important for computational purposes. For instance,&#13;
+for the wavelet methods with data given on the ball, where one needs to have&#13;
+an appropriate quadrature rule.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Das Problem, Punkte auf einem Bereich, wie einer Kugel, zu verteilen, spielt&#13;
+eine wichtige Rolle in den Geowissenschaften und der medizinischen Bildgebung.&#13;
+Deshalb präsentieren wir eine Gleichverteilungstheorie auf der 3DKugel&#13;
+in Bezug auf Minimum-Diskrepanz-Gitter. Der Zusammenhang zwischen&#13;
+Diskrepanz und Punktgittern für gegebene Bereiche ist wohlbekannt.&#13;
+Hierbei wird das Integral einer Funktion durch eine gewichtete Summe von&#13;
+Funktionswerten approximiert. Die Idee besteht darin, die beste Annäherung&#13;
+mit möglichst wenigen Funktionswerten zu erzielen. Der Ansatz ist klar,&#13;
+wenn die gewählten Punkte in dem gesamten Bereich gut verteilt sind. Diese&#13;
+Perspektive, mit dem Ball als Bereich, ermöglicht es uns, "schöne" Strukturen&#13;
+sowie geeignete Näherungen an die Integrale von Funktionen auf der&#13;
+Kugel zu erhalten. Zum Beispiel ist es wichtig, die Mittelpunkte der radialen&#13;
+Basisfunktionen auszuwählen, weil diese für Regularisierungsmethoden&#13;
+wie den RFMP-Algorithmus und den ROFMP-Algorithmus benötigt werden.&#13;
+Diese Algorithmen wurden von der AG Geomathematik der Universität&#13;
+Siegen für schlecht gestellte inverse Probleme mit besonderem Fokus auf die&#13;
+Sphäre und die Kugel als Definitionsbereiche entwickelt. Darüber hinaus&#13;
+sind solche Gitter auch für andere numerische Zwecke hilfreich, wie z.B. für&#13;
+Wavelet-Verfahren auf der Kugel, die ein Quadraturgitter brauchen.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2018-09-07</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2018</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-13733</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV - Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Amna_Ishtiaq.pdf" ddb:fileSize="1471198"/>
+   <ddb:checksum ddb:type="MD5">4a44b31a5ecde6d46507fb2cbe6c341c</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1373/1/Dissertation_Amna_Ishtiaq.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1373</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

@@ -1,0 +1,74 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_470">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Zur Erkennung verformbarer Objekte anhand ihrer Teile</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Stommel, Martin</displayForm>
+                        <namePart type="family">Stommel</namePart>
+                        <namePart type="given">Martin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Erkennung verformbarer Objekte mit den Mitteln der digitalen Bildverarbeitung ist ein drängendes, aber bisher weitgehend ungelöstes Problem. In vielen industriellen und anderen Bereichen besteht ein großer Bedarf, Abläufe zu automatisieren, die in einer sich verändernden oder nicht vollständig kontrollierbaren Umgebung stattfinden. Technische Systeme folgen jedoch derzeit in der Regel starren Abläufen, ohne mit ihrer Umgebung zu interagieren. Das Hauptproblem liegt dabei in der Interpretation der Kameradaten. Die existierenden Verfahren zur Erkennung von Objekten funktionieren nur in einfachen Spezialfällen.
+
+In dieser Arbeit wird daher ein neuartiger Ansatz untersucht, der sowohl eine Klassifikation als auch eine Lokalisation von Objekten im Bild ermöglicht. Dazu wird ein kompositionelles Modell eingeführt, bei dem ein Objekt als Hierarchie von Teilen und Unterteilen in geometrischen Beziehungen beschrieben wird. Ein besonderer Schwerpunkt liegt dabei auf der Untersuchung, welches Verhältnis zwischen der Ausprägung und der Position lokaler Merkmale besteht. Da gerade verformbare Objekte in ihrer Erscheinung stark variieren, speichert das Modell mehrere Objektansichten. Dies unterscheidet den vorliegenden Ansatz von vielen anderen.
+
+Das Modell wird mittels einer Stichprobe von Beispielbildern trainiert. Dies umfaßt sowohl die automatische Wahl geeigneter Teile als auch die Identifikation charakteristischer Ansichten. Die Teilemengen auf verschiedenen Hierarchieebenen werden aufgrund unterschiedlicher Randbedingungen individuell optimiert. Über eine Erkennungsmethode, die sowohl zur Hough-Transformation als auch zu Radialen Basisfunktionen Ähnlichkeiten besitzt, wird das Modell mit den Bildern verglichen.
+
+Die Leistungsfähigkeit des entwickelten Verfahrens wird am Beispiel einer Cartoon-Datenbank gezeigt. Dazu werden unterschiedliche Modellkonfigurationen vorgestellt, die bei einer Korrektklassifikationsrate von mindestens 78 Prozent entweder einen positiven Vorhersagewert von 97 Prozent oder eine Sensitivität von 93 Prozent erreichen.</abstract>
+                    <abstract type="content" lang="eng">The recognition of deformable objects by the means of digital image processing is a crucial, but widely unsolved problem yet. In many industrial and other areas there is a strong need to automate processes which take place in a changing or not completely controllable environment. However, technical systems are presently characterised by fixed operational procedures and little interaction with their environment. The main problem lies in the interpretation of the camera data. The existing object recognition methods work only in simple special cases.
+
+Therefore, in this thesis a novel approach is studied which allows for a simultaneous classification and localisation of the objects present in an image. To this end, a compositional model is introduced which describes an object as a hierarchy of parts and sub-parts. Between parts, geometrical relationships are modelled. A major emphasis is placed on the analysis of the relationship between the position and the attributes of parts. To account for the strongly varying appearance of deformable objects, the model stores multiple views. This is in contrast to many other recent approaches.
+
+The model is build by analysing sample images of the objects to be recognised. The training comprises both the automatic selection of appropriate parts as well as the identification of characteristic views. Due to differing boundary conditions, the resulting sets of parts are optimised individually for every level in the hierarchy. The comparison between the model and a test image is done by a voting method which has similarities to the Hough transform or to radial basis functions.
+
+The performance of the new methods is demonstrated by the recognition of a character from a cartoon data-base with strongly varying appearance. Two model configurations are presented achieving either a precision of 97 percent or a recall of 93 percent with a general accuracy of at least 78 percent for both cases.</abstract>
+                    <subject>
+                        <topic>Bildverarbeitung</topic>
+                        <topic>Clusterung</topic>
+                        <topic>erscheinungsbasiert</topic>
+                        <topic>teilebasiert</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4706</identifier>
+                    <identifier type="sys">HT016612739</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_470</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2010-06-30</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_470">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/470/1/stommel.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_470"
+            DMDID="DMD_siegen_opus_470">
+            <mets:fptr FILEID="FILE0_siegen_opus_470"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

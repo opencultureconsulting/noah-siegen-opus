@@ -1,0 +1,71 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1953</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Approaches for the prediction of lead times in an engineer to order environment - a systematic review</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Peter</pc:foreName>
+            <pc:surName>Burggräf</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Johannes</pc:foreName>
+            <pc:surName>Wagner</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Benjamin</pc:foreName>
+            <pc:surName>Koke</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Fabian</pc:foreName>
+            <pc:surName>Steinberg</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Maschinelles Lernen</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Durchlaufzeitverkürzung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Maschinelles Lernen</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Operations Research</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Vorhersagemethoden</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Lead time reduction</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Machine learning</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Operations research</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Prediction methods</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The interest of manufacturing companies in a sufficient prediction of lead times is continuouslyincreasing - especially in engineer to order environments with typically a large number of individual parts andcomplex production processes. A multitude of approaches have been proposed in the literature for predictinglead times considering different data and methods or algorithms from operations research (OR) and machinelearning (ML). In order to provide guidance at setting up prediction models and developing new approaches,a systematic review of the available approaches for predicting lead times is presented in this paper. Forty-twopublications were analyzed and synthetized: Based on a developed framework considering the used dataclass (e.g. product data or system status), the data origin (master data or real data) and the used methodand algorithm from OR and ML, the publications are classified. Based on the classification, a descriptiveanalysis is performed to identify common approaches in the existing literature as well as implications forfurther research. One result is, that mostly order data and the status of the production system are used forpredicting lead times whereas material data are used seldom. Additionally, ML approaches primarily useartificial neural networks and regression models for predicting lead times, while OR approaches use mainlycombinatorial optimization or heuristics. Furthermore, with increasing model complexity the use of realdata decreased. Thus, we identified as an implication for further research to set up a complex data modelconsidering material data, which uses real data as data origin.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2020</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">article</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-19536</dc:identifier>
+   <dc:source xsi:type="ddb:ISSN">2169-3536</dc:source>
+   <dc:source xsi:type="dcterms:URI">https://doi.org/10.1109/ACCESS.2020.3010050</dc:source>
+   <dc:source xsi:type="ddb:noScheme">IEEE Access ; vol. 8, S. 142434-142445. - DOI: https://doi.org/10.1109/ACCESS.2020.3010050</dc:source>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/lizenz.txt</dc:rights>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Approaches_for_the_prediction_of_lead_times.pdf" ddb:fileSize="1553494"/>
+   <ddb:checksum ddb:type="MD5">b1b4dff2d93493d32c4f4a01290620d3</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1953/3/Approaches_for_the_prediction_of_lead_times.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1953</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

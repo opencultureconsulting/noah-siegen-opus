@@ -1,0 +1,72 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1534</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Efficient rendering and simulation of fluid transport and phase transitions in SPH-based fluids</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Effiziente Darstellung und Simulation von Transportprozessen und Phasenübergängen in SPH-basierten Flüssigkeiten</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Hendrik</pc:foreName>
+            <pc:surName>Hochstetter</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Computergrafik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Fluidsimulation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Computer graphics</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Fluid simulation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Volume rendering</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Computer animation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Visualization</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Partikelbasierte Flüssigkeitssimulation mit der Smoothed Particle Hydrodynamics (SPH) Methode hat in den letzten Jahren große Aufmerksamkeit erfahren. Aufgrund ihrer flexiblen Diskretisierung, ihrer inhärenten Masseerhaltung und ihrer Stärke, Strömungen an freien Oberflächen und komplexe Fluid-Struktur-Kopplung stabil zu simulieren, hat die SPH-Methode Einzug in viele Forschungsbereiche gehalten. Während viele Phänomene wie der Transport von Substanzen wie Salz oder Farbstoff und das Schmelzen und Erstarren bereits in SPH umgesetzt werden, werden Wechselwirkungen mit der umgebenden Luftphase im Allgemeinen vernachlässigt. Üblicherweise werden nur Oberflächenrenderings von SPH-basierten Flüssigkeiten zur Darstellung verwendet. Mit der wachsenden Komplexität von Simulationen geht allerdings auch der Bedarf an entsprechenden Techniken des Renderings und der Visualisierung einher, die auch den Transport von Substanzen miteinbeziehen. Das Ziel dieser Arbeit ist es, sowohl die Fluidanimation von Oberflächenprozessen als auch das Rendering und die Visualisierung von Fluidtransportphänomenen weiterzuentwickeln.&#13;
+Zuerst wird eine Simulation der Verdunstung und Kondensation SPH-basier\-ter Flüssigkeiten vorgestellt. Dazu wird die Luftphase auf einem groben Gitter simuliert, über das ein Masseaustausch mit der partikelbasierten Flüssigkeitsphase erfolgt. Kondensation findet ausschließlich an Oberflächen von Festkörpern statt und wird mittels Texturen realisiert, in die Masse kondensieren kann und von der Partikel erzeugt werden können. Um kondensierte Flüssigkeit in hoher visueller Auflösung zu erreichen, wird ein implizites Oberflächenmodell entwickelt, das es ermöglicht, sich bewegende Partikel in Subpartikelauflösung mit dynamischen Kontaktwinkeln darzustellen.&#13;
+Zweitens wird ein effizientes adaptives Volumen-Raycasting für SPH-basierte Skalarfelder entwickelt. Um dabei schnellen räumlichen Zugriff auf Partikeldaten zu erhalten, werden Partikel auf Zellen eines perspektivischen Gitters abgebildet, das mit dem Sichtfrustum ausgerichtet ist. Durch eine Analyse des Samplingfehlers der Volumenrenderinggleichung innerhalb jeder Gitterzelle kann die Samplingrate lokal an eine benutzerdefinierte Bildfehlertoleranz angepasst werden. Dadurch lässt sich eine große Beschleunigung erreichen, ohne die Bildqualität zu beeinträchtigen.&#13;
+Drittens wird in dieser Arbeit eine Vektorfeldvisualisierung von advektiv-diffusiven Flüssen von skalaren Größen vorgestellt. Dazu werden der advektive, der diffusive und der totale Fluss jeweils in eine skalare und eine Geschwindigkeitskomponente des Transports zerlegt. Mit Hilfe der neuen graphischen Metapher der Stream Feathers können alle Komponenten von Flüssen gleichzeitig dargestellt werden, was einen intuitiven Zugang zu komplexen Flussszenarien erlaubt.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Particle based fluid simulation using the smoothed particle hydrodynamics (SPH) method has gained much attention in recent years. Due to its flexible discretization, inherent mass preservation and its ability to stably simulate free surface flows and complex interactions with boundaries, SPH has found its way into many fields of research. While many phenomena including the transport of substances such as salt or dye, and melting and solidification can already be described in SPH, interactions with the air phase are commonly omitted. Typically, SPH liquids are rendered only in terms of their surface. However, with the growing complexity of simulations there arises a need for complementary rendering and visualization techniques that take transport of substances into account. The goal of this work is to improve fluid animation of surface dynamics and the rendering and visualization of fluid transport.&#13;
+First, a simulation of evaporation and condensation of SPH based fluids is introduced. Therefore, the air phase is simulated on a coarse grid and exchanges mass with the particle based liquid phase. Condensation only takes place on surfaces of rigid objects and is realized using textures into which mass can be condensed and from which particles can be generated. In order to achieve high visual detail of condensed liquids at surfaces, an implicit surface model is developed that allows to render moving liquid droplets at sub-particle detail including dynamic contact angles.&#13;
+Second, an efficient adaptive volume ray casting of SPH-based scalar fields is developed. In order to achieve fast spatial access to particle data, particles are mapped to cells of a view-aligned perspective grid. By applying a sampling error analysis to the volume rendering equation inside of each grid cell, the sampling rate can locally be adjusted according to a user-defined screen space error tolerance yielding substantial speedups without sacrificing image quality.&#13;
+Third, this work presents a vector field visualization of advective-diffusive flows of scalar quantities. Therefore, the advective, diffusive and total flow are each decomposed into a scalar quantity and a velocity component of transport. By introducing the novel visual metaphor of stream feathers, all flow components can be simultaneously visualized allowing for an intuitive insight into complex flow scenarios.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Andreas</pc:foreName>
+            <pc:surName>Kolb</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2019-05-22</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2019</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-15348</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/lizenz.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV - Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Hendrik_Hochstetter.pdf" ddb:fileSize="37135849"/>
+   <ddb:checksum ddb:type="MD5">23fc5302ca729deefdc2b615ca94379e</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1534/4/Dissertation_Hendrik_Hochstetter.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1534</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

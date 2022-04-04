@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1237">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Lattice-Boltzmann-Methoden zur Simulation inkompressibler Wirbelströmungen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Krämer, Andreas</displayForm>
+                        <namePart type="family">Krämer</namePart>
+                        <namePart type="given">Andreas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In dieser Arbeit werden neuartige methodische Erweiterungen der Lattice-Boltzmann-Methode (LBM) entwickelt, die effizientere Simulationen inkompressibler Wirbelströmungen ermöglichen. Diese Erweiterungen beheben zwei Hauptprobleme der Standard-LBM: ihre Instabilität in unteraufgelösten turbulenten Simulationen und ihre Beschränkung auf reguläre Rechengitter. Dazu wird zunächst eine Pseudo-Entropische Stabilisierung (PES) entwickelt. Diese kombiniert Ansätze der Multiple-Relaxation-Time (MRT)-Modelle und der Entropischen LBM zu einem expliziten, lokalen und flexiblen Stabilisierungsoperator. Diese Modifikation des Kollisionsschritts erlaubt selbst auf stark unteraufgelösten Gittern stabile und qualitativ korrekte Simulationen. Zur Erweiterung der LBM auf irreguläre Rechengitter wird zunächst eine moderne Discontinuous-Galerkin-LBM untersucht und um stabilere Zeitintegratoren ergänzt. Diese Studie demonstriert die drastischen Schwächen existierender LBMAnsätze auf irregulären Gittern. Basierend auf den gewonnenen Erkenntnissen gelingt die Formulierung einer neuartigen Semi-Lagrangeschen LBM (SLLBM). Diese ermöglicht in einzigartigerWeise sowohl die Verwendung irregulärer Gitter und großer Zeitschritte als auch eine hohe räumliche Konvergenzordnung. Anhand von Beispielsimulationen wird demonstriert, wieso dieser Ansatz anderen aktuellen Off-Lattice-Boltzmann-Methoden (OLBMs) in Effizienz und Genauigkeit überlegen ist. Weitere neuartige Aspekte dieser Arbeit sind die Entwicklung eines modularen Off-Lattice-Boltzmann-Codes und die Erweiterung der LBM um implizite Mehrschrittverfahren, mit denen eine Erhöhung der zeitlichen Konvergenzordnung gelingt.</abstract>
+                    <abstract type="content" lang="eng">The present work develops novel methodological extensions to the lattice Boltzmann method (LBM). These extensions enable the method to efficiently simulate incompressible vortical flows. They cure two major drawbacks of the standard LBM: its instability in under-resolved turbulence and its restriction to regular computational grids. At first, a pseudo-entropic stabilizer (PES) is developed, which combines ideas from multiple-relaxation-time (MRT) models and entropic models. The new PES is local, explicit, and flexible. It modifies the collision step in a way that enables stable simulations and produces qualitatively matching results, even on strongly underresolved grids. To extend the LBM towards simulations on irregular grids, a recent discontinuous Galerkin lattice Boltzmann method is studied and enhanced by more stable time integrators. This study illustrates the severe shortcomings of existing off-lattice Boltzmann methods (OLBMs). Based on these findings, the present work succeeds in developing a semi-Lagrangian lattice Boltzmann method (SLLBM). This novel approach allows unstructured grids, large time steps, and high-order accurate representations of the solution to be used in a unique way. Applications to exemplary flows demonstrate how and why the new method outperforms other recent OLBMs in both efficiency and accuracy. Additionally, this work describes the development of a modular off-lattice Boltzmann code and shows that the method’s convergence order can be increased by implicit multistep methods.</abstract>
+                    <subject>
+                        <topic>Turbulenz</topic>
+                        <topic>Lattice-Boltzmann</topic>
+                        <topic>Strömungssimulation</topic>
+                        <topic>Semi-Lagrange-Verfahren</topic>
+                        <topic>Irreguläre Gitter</topic>
+                        <topic>Lattice Boltzmann</topic>
+                        <topic>Computational Fluid Dynamics</topic>
+                        <topic>Semi-Lagrangian Methods</topic>
+                        <topic>Turbulence</topic>
+                        <topic>Irregular Grids</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Fluid- und Thermodynamik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-12372</identifier>
+                    <identifier type="sys">HT019488605</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1237</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2017-10-12</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1237">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1237/1/Dissertation_Andreas_Kraemer.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1237"
+            DMDID="DMD_siegen_opus_1237">
+            <mets:fptr FILEID="FILE0_siegen_opus_1237"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

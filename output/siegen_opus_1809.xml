@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1809">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Central Register of Foreigners</title>
+                        <subTitle lang="eng">a short history of early digitisation in the Swiss Federal Administration</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Koller, Guido</displayForm>
+                        <namePart type="family">Koller</namePart>
+                        <namePart type="given">Guido</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The modern Swiss Confederation was founded in 1848. Since then, government and administration have been constantly reorganised. One important, but little noticed change occurred between the 1960s and 1980s: the automation and standardisation of information management. This was an important requirement for taking “binding decisions” (Niklas Luhmann) in times of rapidly growing quantities of information. The paper examines the steps toward automation in the Swiss federal administration using the example of the Zentrales Ausländerregister (Central Register of Foreigners; ZAR) of the Eidgenössische Fremdenpolizei (Swiss Police for Foreigners). Its focus is on the ZAR and data processing as a means of operationalising administrative workflows, showing that data processing developed incrementally on a path that finally led to the digitisation of increasingly large parts of the administration. A generalisation of this example yields a historical model of the early stages of digitisation of public administrations that would ultimately lead to various forms of e-government.</abstract>
+                    <subject>
+                        <topic>Switzerland</topic>
+                        <topic>Federal government</topic>
+                        <topic>Administration</topic>
+                        <topic>Digitisation</topic>
+                        <topic>Central Register of Foreigners</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-18091</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1809</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1809">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1809/4/Koller_Central_Register.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1809"
+            DMDID="DMD_siegen_opus_1809">
+            <mets:fptr FILEID="FILE0_siegen_opus_1809"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,67 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1990</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Mixed FE-models for variational inequalities</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Gemischte FE-Modelle für variationele Ungleichungen</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Andrej</pc:foreName>
+            <pc:surName>Garanza</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Finite-Elemente-Methode</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Numerical FE-treatment</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Partial differential equations</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Inequality constraints</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">510</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">In this work we deepen our studies on the numerical FE-treatment of systems of partial differential equations, where the solution is subjected to inequality constraints. Especially we focus on Lagrange-settings, which can be employed to handle the given constraints. In this way additional auxiliary variables are introduced which are determined simultaneously to the original primal solution within a so-called mixed system.&#13;
+On this basis efficient solution processes for the mixed systems are constructed by eliminating inequality constraints yielding nonlinear equation systems. These can easily be solved by (non-smooth) Newton-type schemes. Furthermore concepts for a posteriori error control are reviewed and refined.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">In dieser Arbeit werden Systeme partieller Differentialgleichungen mit Ungleichungsnebenbedingungen behandelt.&#13;
+Genauer geht es um die numerische Analyse mit Finite-Element-Methoden (FEM). Besonderes Augenmerk liegt hierbei auf dem Einsatz von Lagrange-Techniken. Die dadurch eingeführten Hilfsvariablen werden simultan zur primalen Lösung im Rahmen eines sogenannten gemischten Systems bestimmt.&#13;
+Auf der Basis von Projektionstechniken können die Ungleichungsnebenbedingungen eliminiert werden. Die dann entstehenden nicht-linearen Probleme werden dann mit nicht-glatten Verfahren vom Newton-Typ effizient gelöst.&#13;
+Darüber hinaus werden Techniken zur a posteriori Fehlerkontrolle verfeinert und auf die vorliegende neue Situation erweitert.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Franz-Theo</pc:foreName>
+            <pc:surName>Suttmeier</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2020-10-20</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2020</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-19907</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Department Mathematik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Andrej_Garanza.pdf" ddb:fileSize="1031340"/>
+   <ddb:checksum ddb:type="MD5">d3ea68d52ed250f6e6fe5ffdc293ffe5</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1990/5/Dissertation_Andrej_Garanza.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1990</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

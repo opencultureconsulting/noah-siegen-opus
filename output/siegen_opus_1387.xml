@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1387">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Die </nonSort>
+                        <title>&quot;Mengenlehre&quot; im Anfangsunterricht : historische Darstellung einer gescheiterten Unterrichtsreform in der Bundesrepublik Deutschland</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hamann, Tanja</displayForm>
+                        <namePart type="family">Hamann</namePart>
+                        <namePart type="given">Tanja</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die in den 1970ern in der Bundesrepublik Deutschland stattgefundene Reform des Mathematikunterrichts in der Grundschule („Mengenlehre“) war durch die Aufnahme neuer Inhalte wie Methoden gekennzeichnet. Die vorliegende Arbeit geht schwerpunktmäßig der Frage nach, wie die grundlegenden wissenschaftlich-theoretischen Ideen in Unterrichtskonzepten – hier exemplarisch anhand dreier Unterrichtswerke aus der Zeit – umgesetzt wurden, um damit eine Grundlage für Aussagen über Verlauf und historische Bedeutsamkeit der Reform zu schaffen.
+Es lässt sich dabei ein weitgehender Konsens im Hinblick auf die methodische Umsetzung in den Lehrgängen feststellen, während sich die didaktischen, curricularen Gesamtkonzeptionen, bedingt durch eine verkürzte Übernahme der grundlegenden Ideen, unterscheiden. Vor diesem Hintergrund muss die Reform – mutmaßlich beispielhaft für weitere Reformen – bereits im Ansatz als gescheitert gelten.</abstract>
+                    <subject>
+                        <topic>Mengenlehre</topic>
+                        <topic>Set theory</topic>
+                        <topic>Educational change</topic>
+                        <topic>Mathematics teaching</topic>
+                        <topic>Primary school</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-13870</identifier>
+                    <identifier type="sys">HT019886342</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1387</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1387">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1387/1/SieB_Band9.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1387"
+            DMDID="DMD_siegen_opus_1387">
+            <mets:fptr FILEID="FILE0_siegen_opus_1387"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

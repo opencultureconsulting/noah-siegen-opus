@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_807">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Characterizing quantum correlations: the genuine multiparticle negativity as entanglement monotone</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Charakterisierung von Quantenkorrelationen: Die echte Mehrteilchennegativität als Verschränkungsmaß</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hofmann, Martin</displayForm>
+                        <namePart type="family">Hofmann</namePart>
+                        <namePart type="given">Martin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Multiparticle entanglement is a useful resource in quantum information processing. It is involved in some quantum key distribution protocols, quantum metrology and many other physical applications and phenomena and can be experimentally observed in various quantum systems. Having said this, its classification, detection and especially its quantification is quite challenging. To this day there exists no general mixed state measure for genuine multiparticle entanglement, which can be computed and analytically treated at the same time.
+
+In this thesis the analytical characterisation of genuine multiparticle entanglement in quantum systems using the computable genuine multiparticle negativity as entanglement measure is provided. Furthermore, the notion of stabiliser states, which are families of symmetric genuine multiparticle entangled states, is generalised and a useful method to exploit local symmetries to speed up the computation of the investigated entanglement measure is provided.</abstract>
+                    <abstract type="content" lang="ger">Echte Mehrteilchenverschränkung ist eine wichtige Ressource in der Quanteninformation. Sie ist ein wesentlicher Bestandteil in einigen Quanten-Schlüsselaustausch-Protokollen, in der Quantenmetrologie und vielen anderen physikalischen Anwendungen und Phänomenen. Nichtsdestotrotz ist ihre Klassifizierung, Detektion und vor ihre allem Quantifizierung enorm herausfordernd. Bisher existiert kein allgemeines gemischtes Zustandsmaß, welches sowohl numerisch berechenbar als auch analytisch behandelbar ist.
+
+Diese Arbeit behandelt die analytische Charakterisierung echter Mehrteilchenverschränkung in Quantensystemen mit der numerisch berechenbaren echten Mehrteilchennegativität als Verschränkungsmaß. Sie verallgemeinert den Begriff stabilisierter Zustände, die Familien symmetrischer echt mehrteilchenverschränkter Zustände definieren, und zeigt auf, wie lokale Symmetrien genutzt werden können um die Berechnung des Maßes zu optimieren.</abstract>
+                    <subject>
+                        <topic>Qubit</topic>
+                        <topic>Quantenkorrelationen</topic>
+                        <topic>Echte Mehrteilchenverschränkung</topic>
+                        <topic>Echte Mehrteilchennegativität</topic>
+                        <topic>XY-Model im transversalen Feld</topic>
+                        <topic>Quantum Correlations</topic>
+                        <topic>Genuine Multiparticle Entanglement</topic>
+                        <topic>Genuine Multiparticle Negativity</topic>
+                        <topic>XY-Model in a Transverse Field</topic>
+                        <topic>Phase Transitions</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-8074</identifier>
+                    <identifier type="sys">HT018314277</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_807</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2014-05-27</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_807">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/807/1/hofmann_martin_phd_thesis_bearbeitet.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_807"
+            DMDID="DMD_siegen_opus_807">
+            <mets:fptr FILEID="FILE0_siegen_opus_807"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

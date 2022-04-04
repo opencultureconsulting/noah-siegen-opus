@@ -1,0 +1,83 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1523">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Language recognition in the sliding window model</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Formale Sprachen im Sliding-Window-Modell</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ganardi, Moses</displayForm>
+                        <namePart type="family">Ganardi</namePart>
+                        <namePart type="given">Moses</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lohrey, Markus</displayForm>
+                        <namePart type="family">Lohrey</namePart>
+                        <namePart type="given">Markus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">In many streaming applications recent elements in the stream are considered more important than older elements. In the sliding window model we are given an unbounded stream of elements and the goal is to maintain a data structure which allows performing a certain query (e.g. computing a numerical quantity or verifying a property) on the set or sequence of the last n elements. The number n is called the window size, which can be either a fixed number or controlled online. The challenge is to devise streaming algorithms which avoid maintaining the window explicitly using Θ(n) space.
+
+This thesis considers the language recognition problem in the sliding window problem: Given a formal language (in other words, a property) and a stream of symbols, maintain a small data structure which allows testing whether the current window, i.e. the suffix of length n, belongs to the language (satisfies the property). The main question that we aim to answer is: Which languages admit sliding window algorithms using sublinear space?
+
+The first main result is a space trichotomy (constant, logarithmic, linear) for the space complexity
+of regular languages in the fixed- and the variable-size sliding window model, together with language-theoretic descriptions of the space classes. We also study the uniform setting where the regular language is considered as part of the input. On this basis we extend these results in various directions: (i) randomness, (ii) approximation, and (iii) subclasses of context-free languages. We prove a quatrochotomy for the randomized space complexity of regular languages. Concerning approximation, we present a constant-space sliding window property tester for every regular language, which distinguishes between words in the language and words that have large Hamming distance from the language. Finally, we give partial results on context-free languages over sliding windows and extend the space trichotomy for regular languages to the class of visibly pushdown languages.</abstract>
+                    <abstract type="content" lang="ger">In vielen Streaminganwendungen sind neue Datenelemente wichtiger als ältere Elemente. Im Sliding-Window-Modell ist die Eingabe ein unbeschränkter Strom von Elementen und das Ziel ist es eine Datenstruktur aufrechtzuerhalten, die es erlaubt gewisse Anfragen (Berechnung von Statistiken oder Überprüfen einer Eigenschaft) an die Menge oder die Folge der letzten n Elemente auszuführen. Die Zahl n ist die sogenannte Fensterlänge, die entweder fixiert ist oder online kontrolliert wird. Die Herausforderung besteht darin Streamingalgorithmen zu entwerfen, die die explizite Speicherung des Fensters in Θ(n) Bits vermeidet.
+
+Diese Arbeit befasst sich mit dem Membershipproblem für formale Sprachen im Sliding-Window-Modell: Gegeben eine formale Sprache (in anderen Worten: eine Eigenschaft) und ein Strom von Symbolen, gesucht ist eine kompakte Datenstruktur, die über dem Strom aufrechterhalten werden kann und es erlaubt zu testen, ob das aktuelle Fenster zur Sprache gehört bzw. die Eigenschaft erfüllt. Die Hauptfrage, die wir uns stellen, lautet: Für welche Sprachen gibt es einen Sliding-Window-Algorithmus mit sublinearem Platz?
+
+Das erste Hauptergebnis ist eine Trichotomie (konstant, logarithmisch, linear) für die Platzkomplexität von regulären Sprachen in dem Sliding-Window-Modell mit fester und variable Fensterlänge. Außerdem werden die Platzklassen sprachentheoretisch beschrieben. Wir betrachten auch das uniforme Problem, bei dem die reguläre Sprache Teil der Eingabe ist. Anschließend werden diese Ergebnisse in verschiedene Richtungen erweitert: (i) Randomisierung, (ii) Approximation und (iii) Teilklassen von kontextfreien Sprachen. Wir beweisen eine Quatrochotomie für die randomisierte Platzkomplexität von regulären Sprachen. Als einen möglichen Approximationsansatz präsentieren wir einen Sliding-Window-Property-Tester mit konstantem Platz für jede reguläre Sprache, der Wörter in der Sprache von Wörtern mit großer Hammingdistanz von der Sprache unterscheidet. Zuletzt untersuchen wir kontextfreie Sprachen im Sliding-Window-Modell und erweitern die Platztrichotomie für reguläre Sprachen auf die Teilklasse der Visibly-Pushdown-Sprachen.</abstract>
+                    <subject>
+                        <topic>Streaming &lt;Kommunikationstechnik&gt;</topic>
+                        <topic>streaming algorithms</topic>
+                        <topic>sliding windows</topic>
+                        <topic>formal languages and automata theory</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Theoretische Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-15234</identifier>
+                    <identifier type="sys">HT020285441</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1523</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2019-10-16</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1523">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1523/4/Dissertation_Moses_Ganardi.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1523"
+            DMDID="DMD_siegen_opus_1523">
+            <mets:fptr FILEID="FILE0_siegen_opus_1523"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

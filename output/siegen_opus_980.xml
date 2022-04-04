@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_980">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Der </nonSort>
+                        <title>Einsatz von Mitarbeiterbefragungen als Lerninstrument in Unternehmen : dargestellt anhand des Praxisbeispiels der Mitarbeiterbefragung bei der Ingram Micro Distribution GmbH</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wiertalla, Kerstin</displayForm>
+                        <namePart type="family">Wiertalla</namePart>
+                        <namePart type="given">Kerstin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Viele deutsche Unternehmen nutzen Mitarbeiterbefragungen, doch ein Großteil davon ist mit dem Erfolg der Befragung nicht zufrieden. Zwar wird das Erkennen und die Umsetzung von Maßnahmen als zentraler Erfolgsfaktor gesehen, Unternehmen scheitern aber oft an der praktischen Umsetzung. Mit der vorliegenden Arbeit soll systematisch dargestellt werden, wie Mitarbeiterbefragungen zur Initiierung und Gestaltung von Lernprozessen in Unternehmen genutzt werden können. Dazu wird ein Analyserahmen entwickelt, um Mitarbeiterbefragungen selbst zu evaluieren und zu verbessern. Nach einer verbindlichen Definition grundlegender Begriffe und Konzepte werden Mitarbeiterbefragungen als Lerninstrumente dargestellt. Abschließend wird das entwickelte Konzept auf ein Praxisbeispiel angewendet.</abstract>
+                    <abstract type="content" lang="eng">Many German organizations use employee surveys but the better part of those organizations are not satisfied with the success of the surveys. Organizations know that developing and implementing actions is key to success. Even so implementation often fails. The dissertation shows how employee surveys can be used to initiate and shape learning processes in organizations. By defining a systemic framework, employee surveys themselves can be assessed and improved. After defining the basic terms and concepts, employee surveys will be depicted as learning instruments. Finally the developed framework will be used to evaluate the employee survey of an organization as an practical example.</abstract>
+                    <subject>
+                        <topic>Mitarbeiterbefragung</topic>
+                        <topic>Lerninstrument</topic>
+                        <topic>Organisatorisches Lernen</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät I Philosophische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-9804</identifier>
+                    <identifier type="sys">HT018864499</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_980</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2014-01-29</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_980">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/980/1/Dissertation_Kerstin_Wiertalla.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_980"
+            DMDID="DMD_siegen_opus_980">
+            <mets:fptr FILEID="FILE0_siegen_opus_980"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

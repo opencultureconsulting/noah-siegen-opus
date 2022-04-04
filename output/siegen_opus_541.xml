@@ -1,0 +1,74 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_541">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Surface and bulk properties of soft nanocomposites</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Oberflächen- und Volumeneigenschaften von weichen Nano-Verbundstoffen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Pihan, Sascha Alexander</displayForm>
+                        <namePart type="family">Pihan</namePart>
+                        <namePart type="given">Sascha Alexander</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Um zum grundlegenden Verständnis der Abrasionseigenschaften von Verbundwerkstoffen bestehend aus Polymeren und oberflächenmodifizierten, weichen Nanopartikeln beizutragen, wurden deren Eigenschaften auf der Nanometerskala untersucht. Die Widerstandsfähigkeit gegen Abrasion von Poly(ethyl-methacrylat) (PEMA) konnte durch Zugabe von PEMA-gepfropften Nanopartikeln erhöht werden, währen der Elastizitätsmodul dieses Verbundwerkstoffes konstant blieb. Die Widerstandsfähigkeit gegen Abrasion wurde der erhöhten Anzahl von Verschlaufungen der gepfropften Polymerbürsten mit den Polymerketten der Matrix  zugeordnet und ist eine direkte Folge des Dispersionsverhaltens der modifizierten Nanopartikel.
+Das Dispersionsverhalten dieser PEMA-gepfropften, weichen Nanopartikel wurde daher mit Rastersondenmikroskopie und Kleinwinkel-Röntgenstreuung im streifenden Einfall untersucht. Es konnte gezeigt werden, dass theoretische Modelle zum Verhalten von Sternpolymeren auch für PEMA-gepfropfte Nanopartikel anwendbar sind.
+Zur Deposition von Polymerfilmen auf nanomechanischen Federbalken wurde ein Tintenstrahl-druckverfahren entwickelt, welches homogene und dicke filme erzeugt. Die Oberfläche des Federbalkens wurde vor der Deposition mit Polymerbürsten modifiziert um ein Entnetzen zu verhindern. Die mechanischen Eigenschaften des Films wurden dann durch Messung der Resonanzfrequenz des bedruckten Federbalkens bestimmt. Dieses Konzept kann zum Screening der mechanischen Eigenschaften von Polymeren oder Verbundwerkstoffen unterschiedlicher Zusammensetzung angewendet werden.</abstract>
+                    <abstract type="content" lang="eng">The behavior of polymer grafted soft nanoparticles mixed with like homopolymers was investigated to gain some fundamental understanding of the surface wear mechanisms of these composites on a nanometer scale. The resistance to surface wear of nanocomposites composed of poly(ethyl methacrylate) (PEMA) and PEMA-grafted nanoparticles could be increased while the elastic modulus of the composite remained constant. The elevated nanowear resistivity was attributed to the increased number of entanglements with the grafted polymer brushes and is a direct consequence of the dispersion behavior of the PEMA-grafted nanoparticles in a PEMA matrix.
+The dispersion of PEMA-grafted nanoparticles in a PEMA matrix was investigated by SPM and GISAXS. It was shown that theoretical models for the behavior of star polymers are also applicable for polymer-grafted nanoparticles. 
+The surface of nanomechanical cantilever sensors was functionalized with polymer brushes. This approach allowed deposition of thick homogeneous polymer coatings on cantilevers by Inkjet-printing. The mechanical properties of the printed films were then determined by measuring the resonance frequency of the cantilevers. This concept allows for a screening of the mechanical properties of polymers and polymer nanocomposite materials using nanomechanical cantilever sensors.</abstract>
+                    <subject>
+                        <topic>Nanopartikel</topic>
+                        <topic>Nano-Verbundstoffe</topic>
+                        <topic>Nanoabrasion</topic>
+                        <topic>Polymerbürsten</topic>
+                        <topic>Nanocomposite</topic>
+                        <topic>Nanowear</topic>
+                        <topic>Polymer brushes</topic>
+                        <topic>Nanoparticles</topic>
+                        <topic>scanning force microscopy</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5414</identifier>
+                    <identifier type="sys">HT016920965</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_541</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2011-07-28</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_541">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/541/1/pihan.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_541"
+            DMDID="DMD_siegen_opus_541">
+            <mets:fptr FILEID="FILE0_siegen_opus_541"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

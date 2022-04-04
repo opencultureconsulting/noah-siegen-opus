@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_363">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Integrierte optische Detektoren auf Basis amorphen Siliziums und flüssige Lichtwellenleiter für mikrofluidische Anwendungen</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Integrated amorphous silicon based optical detectors and liquid waveguides for microfluidic applications</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schäfer, Heiko</displayForm>
+                        <namePart type="family">Schäfer</namePart>
+                        <namePart type="given">Heiko</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2008</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Während die zunehmende Verkleinerung und Integration elektronischer Bauteile zu hoch komplexen Mikrochips und sehr leistungsfähigen Rechnern geführt hat, steht die Miniaturisierung und Integration von (bio-)chemischen Prozessen noch am Anfang. Hier besteht ein sehr großes Innovations- und Technologiepotential. Im Gegensatz zu bereits erhältlichen einfachen Labchips sieht das als applikationsspezifischer Lab-on-Microchip (ALM) bezeichnete Konzept vor, ein Großteil der für eine Analyse notwendigen Funktionskomponenten monolithisch auf einen applikationsspezifischen integrierten Schaltkreis aufzubringen.
+
+Die vorliegende Arbeit beschäftigt sich mit der Entwicklung und Erprobung optischer Komponenten für den ALM welche aus Kostengründen auf einem Glassubstrat realisiert wurden. Dies sind zum einen monolithisch integrierte planare Lichtwellenleiter mit einem flüssigen Kern und zum anderen strukturierte Dünnschichtdetektoren aus amorphem Silizium, welche hybrid auf das mikrofluidische System aufgebondet werden. Hierzu wurden mehrere Herstellungsprozesse entwickelt. Zu den diskutierten sensorischen Innovationen gehören eine an den vertikalen Flanken mit einem Polymer isolierte pin-Diode mit einem Detektionsabstand von 150 µm und ein flüssiger Lichtwellenleiter, innerhalb des auf SU-8 basierenden fluidischen Netzwerks, um Anregungslicht orthogonal zur Detektionsrichtung des Sensorelements in die Analysekapillare einzustrahlen.
+
+Eine vorgestellte Modellrechnung bezieht sich auf die verwendete Detektor- und Kapillargeometrie zur Abschätzung des fluoreszenten Lichtanteils der auf einen Detektor auftreffenden Photonen und einer Diskussion der auftretenden Verluste. Weiterhin konnte mit Hilfe der Methode der effektiven Brechungsindizes eine weiterentwickelte invertierte Rippenwellenleiterstruktur für das vorgeschlagene Konzept dimensioniert werden.
+
+Die auf Fluoreszenz beruhende Steigerung des Lichtanteils pH-Wert-sensitiver Anthracenderivate konnte mit Hilfe des ALM detektiert werden. Die beiden Spezies der Anthracenderivate wiesen dabei einen Stoke&apos;s-Shift von beinahe 100 nm zwischen ihrer unprotonierten (Ox) und ihrer protonierten (Ox-H + ) Form auf. Die Grenze der minimal detektierbaren Stoffmenge konnte zu ~5,25 fmol ermittelt werden.
+
+Ein spezielles auf Ruthenium(II) basierendes Sensormolekül kann Metallionen wie Blei, Quecksilber und Kupfer detektieren. Die elektrochemilumineszente Reaktion des Sensormoleküls auf dem ALM fand in einem Messvolumen von 1,2 nl statt. Die über einen Konzentrationsbereich von drei Größenordnungen durchgeführte Studie zeigt, dass sich das lumineszierende Molekül bis zu einer Konzentration von ~66 nM nachweisen lässt. Diese Intensität steigt unter Anwesenheit von Quecksilberionen nochmals um den Faktor 8,2. Daher kann für zukünftige Weiterentwicklungen eine Detektionsgrenze unterhalb von 1 nM erwartet werden.</abstract>
+                    <abstract type="content" lang="eng">The objective of this thesis was to integrate microotical components, such as amorphous silicon based pin-diodes and liquid core planar waveguides for luminescence detection in a micro total analysis system. The concept is called application specific lab-on-microchip (ALM) and contains microfluidic networks and microoptical components monolithically integrated on top of a standard application specific integrated circuit (ASIC). Glass substrates has been used for the study of the microfluidic networks and microoptical components instead of externally fabricated ASICs.
+
+Several processes for the fabrication has been developed. The processes involved the fabrication of a glass substrate with metal contacts and a polymer layer (SU-8) to realize the microfluidic network. A thinner top plate is used to seal the fluid capillaries. This plate contains the pin-diodes which are manufactured by plasma enhanced chemical vapor deposition. In the concept external generated excitation light is guided towards the fluidic capillaries, filled with a methylene iodide mixture (CH 2 I 2 :CH 2 Cl 2 ), orthogonally to the active sensor detection direction. No additional fabrication steps are needed to build the liquid core planar waveguides. Furthermore, an inverted liquid core planar rip-waveguide structure has been investigated by numerical calculations.
+
+By bringing the optoelectronic components in such close proximity, the fraction of photons which strike the pin-detector has been discussed analytically and design solutions are proposed. The pin-diode layer stack is isolated by SU-8 and has been integrated with the microfluidic channels to test the sensor sensitivity. While sputtered chromium is used for the rear contact a sputtered ZnO:Al (TCO) with a thickness of 225 nm acts as front contact in the optical path to the microfluidic capillary. Its transmission is approximately 90 % for visible and near IR light and the layer resistance is on the order of 30 ohms per square. In particular, the dark current density corresponds to 1,3 × 10 -10 A/cm 2 @ 300 K and rises exponentially with the temperature. The spectral response is ranging from 320 nm to 780 nm and exhibits a quantum efficiency of approximately 70 % @ 600 nm at room temperature.
+
+Lab-on-microchip test results demonstrate a significant difference in the normalized intensity spectrum of anthracene derivatives Ox and Ox-H + as a consequence of the fluorescence spectrum shift upon protonation by hydrochloric acid from pH 7 to pH 2. The experimental limit of detection has been determined to ~25 fmol.
+
+An electrochemiluminescence based detection of an azacrown ether appended trisphenanthroline ruthenium(II) complex is a well suited technique since there is no need of excitation light to generate luminescence. The combination of a chemical sensor molecule and an amorphous silicon based optical sensor exhibits a limit of detection of ~66 nM according to a detection volume of 1,2 nl, respectively. Furthermore, an electrochemiluminescence enhancement of I/I 0 =8.2 has been observed for Hg 2+ ions without any shift in the emission spectra. Therefore, it is believed that this technology holds great potential to reach detection limits less than 1 nM and compete against bulk optical approaches.</abstract>
+                    <subject>
+                        <topic>Mikrofluidik</topic>
+                        <topic>flüssige Lichtwellenleiter</topic>
+                        <topic>amorphes Silizium</topic>
+                        <topic>Lab-on-Microchip</topic>
+                        <topic>monolithisch integrierte planare Lichtwellenleiter</topic>
+                        <topic>liquid waveguides</topic>
+                        <topic>amorphes silicon</topic>
+                        <topic>microfluidic</topic>
+                        <topic>pin-diode</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Mikrosystemtechnik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-3631</identifier>
+                    <identifier type="sys">HT015638652</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_363</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2008-07-08</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_363">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/363/1/schaefer.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_363"
+            DMDID="DMD_siegen_opus_363">
+            <mets:fptr FILEID="FILE0_siegen_opus_363"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

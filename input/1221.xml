@@ -1,0 +1,82 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1221</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">The influence of forcing schemes on the diffusion properties in pseudopotential-based Lattice Boltzmann models for multicomponent flows</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Knut</pc:foreName>
+            <pc:surName>Küllmer</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Andreas</pc:foreName>
+            <pc:surName>Krämer</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Wolfgang</pc:foreName>
+            <pc:surName>Joppich</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Dirk</pc:foreName>
+            <pc:surName>Reith</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Holger</pc:foreName>
+            <pc:surName>Foysi</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Pseudopotential</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Lattice-Boltzmann Methode</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Pseudopotential</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Lattice Boltzmann method</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Multiphase flow</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Forcing schemes</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">In dem Vortrag wird gezeigt, wie die Wahl eines Forcing Schemas (bspw. von Shan &amp; Doolen (1995) oder He &amp; Doolen (1998)) über die Chapman-Enskog Entwicklung zu einem vom Forcing abhängigen Diffusionskoeffizienten für Mehrphasenströmungen führt. Der kritische Wert von G wird danach bestimmt und bekannte in der Literatur ad hoc verwendete Beziehungen abgeleitet (Huan et al. (2007)), sowie für tau=1 der bisher nicht erklärbare Shift um den Faktor 2 abgeleitet. Simulationen zeigen die exzellente Übereinstimmung des Diffusionskoeffizienten bspw. mit dem Fick’schen Gesetz für unterschiedliche Werte von G.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The talk presents the influence of the choice of forcing schemes in pseudopotential-based LBM methods for multi-phase flows (e.g. Shan &amp; Doolen (1995) or He &amp; Doolen (1998))  on the diffusion coefficient, obtained via Chapman-Enskog analysis. The critical value of G is obtained und known relations used in the literature are subsequently derived based on this theory (e.g. Huan et al. (2007)). The often observed shift at tau=1 for the critical value of G can be directly derived. Simulation show excellent agreement between the diffusion coefficient and Fick’s law for various values of G.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="editor">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Holger</pc:foreName>
+            <pc:surName>Foysi</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2017</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">Other</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-12213</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="The_Influence_of_Forcing_Schemes.pdf" ddb:fileSize="635233"/>
+   <ddb:checksum ddb:type="MD5">4d3c8512aca1743439c802d931d89050</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1221/1/The_Influence_of_Forcing_Schemes.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1221</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

@@ -1,0 +1,65 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>380</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Transformation of graphical models to support knowledge transfer</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Alexander</pc:foreName>
+            <pc:surName>Holland</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Entscheidungsbaum</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Strukturlernalgorithmus ,Transformation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Wissenstransfer</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Framework</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Entscheidungsnetze</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Graphical Models</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Decision Networks</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Framework</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Product Lifecycle Management</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Condition Monitoring</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Menschliche Experten verfügen über die Fähigkeit, ihr Entscheidungsverhalten flexibel auf die jeweilige Situation abzustimmen. Diese Fähigkeit zahlt sich insbesondere dann aus, wenn Entscheidungen unter beschränkten Ressourcen wie Zeitrestriktionen getroffen werden müssen. In solchen Situationen ist es besonders vorteilhaft, die Repräsentation des zugrunde liegenden Wissens anpassen und Entscheidungsmodelle auf unterschiedlichen Abstraktionsebenen verwenden zu können. Weiterhin zeichnen sich menschliche Experten durch die Fähigkeit aus, neben unsicheren Informationen auch unscharfe Wahrnehmungen in die Entscheidungsfindung einzubeziehen.&#13;
+&#13;
+Klassische entscheidungstheoretische Modelle basieren auf dem Konzept der Rationalität, wobei in jeder Situation die nutzenmaximale Entscheidung einer Entscheidungsfunktion zugeordnet wird. Neuere graphbasierte Modelle wie Bayes'sche Netze oder Entscheidungsnetze machen entscheidungstheoretische Methoden unter dem Aspekt der Modellbildung interessant. Als Hauptnachteil lässt sich die Komplexität nennen, wobei Inferenz in Entscheidungsnetzen NP-hart ist. Zielsetzung dieser Dissertation ist die Transformation entscheidungstheoretischer Modelle in Fuzzy-Regelbasen als Zielsprache. Fuzzy-Regelbasen lassen sich effizient auswerten, eignen sich zur Approximation nichtlinearer funktionaler Beziehungen und garantieren die Interpretierbarkeit des resultierenden Handlungsmodells. Die Übersetzung eines Entscheidungsmodells in eine Fuzzy-Regelbasis wird durch einen neuen Transformationsprozess unterstützt.&#13;
+Ein Agent kann zunächst ein Bayes'sches Netz durch Anwendung eines in dieser Arbeit neu vorgestellten parametrisierten Strukturlernalgorithmus generieren lassen. Anschließend lässt sich durch Anwendung von Präferenzlernverfahren und durch Präzisierung der Wahrscheinlichkeitsinformation ein entscheidungstheoretisches Modell erstellen. Ein Transformationsalgorithmus kompiliert daraus eine Regelbasis, wobei ein Approximationsmaß den erwarteten Nutzenverlust als Gütekriterium berechnet. Anhand eines Beispiels zur Zustandsüberwachung einer Rotationsspindel wird die Praxistauglichkeit des Konzeptes gezeigt.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Human experts are able to flexible adjust their decision behaviour with regard to the respective situation. This capability pays in situations under limited resources like time restrictions. It is particularly advantageous to adapt the underlying knowledge representation and to make use of decision models at different levels of abstraction. Furthermore human experts have the ability to include uncertain information and vague perceptions in decision making.&#13;
+	&#13;
+Classical decision-theoretic models are based directly on the concept of rationality, whereby the decision behaviour prescribed by the principle of maximum expected utility. For each observation some optimal decision function prescribes an action that maximizes expected utility. Modern graph-based methods like Bayesian networks or influence diagrams make use of modelling. One disadvantage of decision-theoretic methods concerns the issue of complexity. Finding an optimal decision might become very expensive. Inference in decision networks is known to be NP-hard. This dissertation aimed at combining the advantages of decision-theoretic models with rule-based systems by transforming a decision-theoretic model into a fuzzy rule-based system. Fuzzy rule bases are an efficient implementation from a computational point of view, they can approximate non-linear functional dependencies and they are also intelligible. There was a need for establishing a new transformation process to generate rule-based representations from decision models, which provide an efficient implementation architecture and represent knowledge in an explicit, intelligible way. At first, an agent can apply the new parameterized structure learning algorithm to identify the structure of the Bayesian network. The use of learning approaches to determine preferences and the specification of probability information subsequently enables to model decision and utility nodes and to generate a consolidated decision-theoretic model. Hence, a transformation process compiled a rule base by measuring the utility loss as approximation measure. The transformation process concept has been successfully applied to the problem of representing condition monitoring results for a rotation spindle.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2008-11-24</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2008</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-3807</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Praktische und Technische Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="holland.pdf" ddb:fileSize="5873750"/>
+   <ddb:checksum ddb:type="MD5">983c5ab5f866b6d12358147089602e6e</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/380/1/holland.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/380</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

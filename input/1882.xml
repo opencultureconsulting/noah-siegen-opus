@@ -1,0 +1,70 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1882</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Highly precise MEMS gyroscopes for fully automated driving</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Hochpräzise MEMS Drehratensensoren für vollautomatisiertes Fahren</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Tobias</pc:foreName>
+            <pc:surName>Hiller</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Autonomes Fahrzeug</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">MEMS gyroscopes</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Automated driving</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Bias instability</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Allan variance</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Inertial sensors</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">MEMS-Gyroskope</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Automatisiertes Fahren</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Bias-Instabilität</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Allan-Varianz</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Inertial-Sensoren</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Future, fully automated vehicles pose strict requirements on the performance of inertial sensors. Achievable accuracies of micro-electromechanical (MEMS) gyroscopes are however challenged by a number of non-idealities and long-term drift effects like bias instability. This dissertation analyzes the effect of bias instability on purely inertial navigation in comparison with other noise effects. It is shown, that bias instability becomes the dominant error component during navigation periods as short as ten seconds. At the core of the dissertation, origins and mechanisms of bias instability in triaxial, mode-matched, force-feedback MEMS gyroscopes are examined. Results gain credibility through a combination of analytical investigation, model-based simulation and extensive experimental analysis on real-world, next-generation sensor prototypes. It is found, that a combination of flicker noise on the frequency tuning voltage ensuring mode-matching together with certain types of rate offsets form a dominant source of bias instability. Feedback control on the frequency tuning voltage using pilot tones leads to an improvement of up to a factor of ten for the z-axis. Bias instabilities of lower than 0.1 dph are reached, which is an unprecedented value for automotive-type MEMS gyroscopes. The out-of-plane sensing x- and y-axes are shown to experience an additional, yet-unknown contribution of bias instability and could not be improved by frequency tuning control. For the first time, scale-factor instability was described and analyzed in detail. This effect produces an increase in signal drift with higher measured angular rates. Lastly, a novel measure for mode-matching was devised, which, contrarily to the pilot tone scheme, only uses the existing noise in the gyroscope’s force-feedback structure to estimate the sense mode’s detuning and scale-factor.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Zukünftige, vollautomatisierte Fahrzeuge stellen strenge Anforderungen an die verwendete Inertialsensorik. Die Genauigkeit von MEMS Drehratensensoren wird durch eine Vielzahl an Nichtidealitäten und langsamen Drifteffekten wie Biasinstabilität begrenzt. Diese Dissertation befasst sich mit dem Einfluss von Biasinstabilität auf die Genauigkeit von rein inertialer Navigation im Vergleich zu anderen Rauschtypen. Es wird aufgezeigt, dass sich Biasinstabilität bereits bei Navigationsdauern über zehn Sekunden als größter Fehleranteil erweist. Im Hauptteil der Arbeit werden Ursprünge und Mechanismen von Biasinstabilität in dreiachsigen MEMS Drehratensensoren mit identischen Antriebs- und Detektionsmodenfrequenzen und Kraftrückkopplung untersucht. Dies findet unter Einbeziehung von analytischen Berechnungen, ausführlicher Systemmodellierung und -simulation sowie experimentellen Untersuchungen an aktuellen Prototypen statt. Es wird gezeigt, dass eine Kombination aus Flickerrauschen auf der Frequenztuningspannung der Detektionsmode sowie gewissen Offsets die dominante Quelle für Biasinstabilität in den z-Achsen darstellt. Wird die Frequenztuningspannung geregelt und damit die Resonanzfrequenz der Detektionsmode in Relation zur Antriebsmode konstant gehalten, kann die Biasinstabilität um bis zu einem Faktor zehn auf unter 0.1 deg/h verbessert werden. Hierbei findet die Messung der Resonanzfrequenz der Detektionsmode unter Verwendung von sogenannten Pilottönen statt. Für die senkrecht zur Sensorebene messenden x- und y-Achsen besteht eine weitere, unbekannte Ursache von Biasinstabilität. Eine Reduktion mittels der genannten Methode ist hierbei nicht möglich. Darüber hinaus wird zum ersten Mal in der Literatur ein Effekt der Empfindlichkeitsinstabilität detailliert beschrieben, welcher als ein Anwachsen von Drift bei größeren gemessenen Drehraten auftritt. Zuletzt wird eine neuartige Methode entwickelt, die eine Identifikation von Detektionsmodenfrequenz und Sensorempfindlichkeit im Betrieb allein aufgrund des Rauschens in der Kraftrückkopplung ermöglicht. Im Gegensatz zum Pilottonverfahren benötigt diese Methode keine Injektion von zusätzlichen Signalen in den Regelkreis.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Hubert</pc:foreName>
+            <pc:surName>Roth</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2021-02-01</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2021</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-18822</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/lizenz.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Regelungs- und Steuerungstechnik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Tobias_Hiller.pdf" ddb:fileSize="21791098"/>
+   <ddb:checksum ddb:type="MD5">94ffbdbeb57169f7b058fa23140b7818</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1882/3/Dissertation_Tobias_Hiller.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1882</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

@@ -1,0 +1,72 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>700</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Phänomenologische Modellierung und multistatische Simulation von Time-of-Flight 3D PMD Kameras</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="eng">Phenomenological modeling and multistatic simulation of time-of-flight 3D PMD cameras</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Valerij</pc:foreName>
+            <pc:surName>Peters</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">ToF-Kamera</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">PMD</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">3D-Bildgebung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">photoelectronic mixing device</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">3D-imaging</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">simulation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">modeling</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Eines der zentralen Probleme der Automatisierungs-, Kontroll- und Sicherheitstechnik stellt die schnelle und präzise Erfassung von bewegten dreidimensionalen Objekten und ihrer räumlichen Orientierung dar. Herkömmliche optische Bildsensoren, die lediglich 2D-Aufnahmen mit Farbinformation liefern, stoßen hierbei schnell an ihre Grenzen. Bei konventionellen nach dem Prinzip der Stereoskopie arbeitenden Verfahren, mit deren Hilfe aus zwei oder mehr 2D-Bildern Tiefeninformation gewonnen werden kann, lässt sich das Korrespondenzproblem oftmals nur mit hohem Rechenaufwand oder nur teilweise lösen.&#13;
+&#13;
+PMD-Sensoren, deren Funktionsprinzip auf Lichtlaufzeitverfahren basiert, liefern dagegen vektorielle dreidimensionale Messwerte eines 3D-Raums und ermöglichen somit direkt die 3D-Darstellung und Lokalisierung von Objekten. Sie sind selbstbeleuchtend im Infrarotbereich und können daher auch bei schlechteren Sichtverhältnissen (Nebel, Regen, Dunkelheit) im Gegensatz zu konventionellen optischen Systemen weitgehend zuverlässig arbeiten. Dank dieser Eigenschaften bieten PMD-Bildsensoren einen wesentlichen Vorteil gegenüber anderen Bildsensoren.&#13;
+&#13;
+Obwohl die neueren Generationen der PMD-Sensoren bezüglich der Messgenauigkeit stark verbessert wurden, zeigen dennoch die zahlreichen Untersuchungen der letzten Jahre, dass die gemessenen Tiefenwerte, teilweise prinzipbedingt, von mehreren systematischen Fehlern verfälscht werden (Rauschen, Bewegungsartefakte, fliegende Pixel, Messfehler aufgrund des multistatischen Aufbaus der Kamera usw.). Ein sehr effektives Werkzeug bei den Untersuchungen solcher Fehler stellen Simulationen dar.&#13;
+&#13;
+Mit ihrer Hilfe können den Anwendern, Algorithmenentwicklern und Systemplanern weitgehend unabhängig vom Entwicklungsstand und -fortschritt der PMD-Sensorhardware synthetische Referenzdaten erstellt sowie Erkenntnisse gewonnen werden, die in den Bereichen der Entwicklung dazu beitragen können, die Fehler zu klassifizieren und die existierenden Prozessierungs- und Koregistrierungsansätze weiterhin zu verbessern und zu optimieren. Mit synthetischen Testdaten können Algorithmen vorab auf ihre Funktionstüchtigkeit untersucht, Systemkonfigurationen auf ihre Eignung für eine spezielle Anwendung überprüft und Anwendern der PMD-Technologie vor dem realen Einsatz bereits ein Bild von der Leistungsfähigkeit, bzw. den Leistungsgrenzen einer bestimmten PMD-Konfiguration vermittelt werden.&#13;
+&#13;
+Diese Arbeit befasst sich mit der Modellierung und Entwicklung eines solchen universell einsetzbaren PMD-Simulators.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">One of the central problems of automation, control and safety technology is fast and accurate detection of moving objects and their spatial orientation. Conventional optical sensors providing only 2D images with color information are not fully suitable for this. In conventional methods, according to the principle of stereoscopy, two images from the field of interest from different viewpoints are required to capture the object surface. An efficient real-time capable solution of the correspondence problem associates with high computational costs and is for some object types only partially solved.&#13;
+&#13;
+In contrast, PMD sensors, whose operating principle is based on the measurement of the light propagation time, provide without further processing three-dimensional vector measurements of the environment and thus allow a direct 3D visualization and localization of objects. Another advantage over other image sensors is due to the self-illuminating construction the ability to suppress the most of the background light coming from artificial lighting or the sun and to increase thus the dynamic range.&#13;
+&#13;
+The newer generations of PMD sensors have been greatly improved in terms of the measurement accuracy. However, the numerous studies have shown that the measured distance values are superposed with systematic errors (noise, motion artifacts, flying pixels, measurement error due to the multistatic constellation of the camera, etc.). Simulations are a very effective tool in the investigation of such errors. They can support algorithm developers and system designers for generating synthetic reference data of the PMD sensor hardware. The results can help to classify the errors and to improve the existing processing and coregistration algorithms. By using synthetic test data algorithms can previously be tested for their ability to function and system designs can be appraised for their suitability for a particular application.&#13;
+&#13;
+This work deals with the modeling and development of such a universal PMD simulator.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2013-01-13</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2013</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-7005</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV - Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="peters.pdf" ddb:fileSize="33005934"/>
+   <ddb:checksum ddb:type="MD5">4239d14225ff888a99c2b3799319ccf9</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/700/1/peters.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/700</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

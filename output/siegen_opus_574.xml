@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_574">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Event Structure Analysis (ESA) - Ein Instrument des Change Managements in der sozialen Arbeit</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Weiß, Carsten</displayForm>
+                        <namePart type="family">Weiß</namePart>
+                        <namePart type="given">Carsten</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">masterThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2004</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Das hier vorgestellte Verfahren bezieht sich auf das Computerprogramm Event Structure Analysis (ESA). In der deutschen Übersetzung steht ESA für Strukturanalyse von Ereignissen. Mit diesem qualitativen Instrument können Kognitionen in Form von Kausalannahmen des Anwenders grafisch dargestellt und analysiert werden.</abstract>
+                    <subject>
+                        <topic>Sozialarbeit</topic>
+                        <topic>Strukturanalyse</topic>
+                        <topic>Kausalannahmen</topic>
+                        <topic>Kognitionen</topic>
+                        <topic>Storytelling</topic>
+                        <topic>Kausalkarten</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 1, Sozialwissenschaften - Philosophie - Theologie - Geschichte - Geographie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5740</identifier>
+                    <identifier type="sys">HT017042539</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_574</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaMasterThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_574">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/574/1/weiss.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_574"
+            DMDID="DMD_siegen_opus_574">
+            <mets:fptr FILEID="FILE0_siegen_opus_574"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,165 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>412</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Real-time particle systems and their application to flow visualization</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Echtzeit-Partikelsysteme und deren Anwendung auf Strömungsvisualisierung</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Nicolas</pc:foreName>
+            <pc:surName>Cuntz</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Visualisierung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Both visualization and simulation tasks make high demands on&#13;
+accuracy and interactivity. The former is an evident requisite of&#13;
+any tool focusing on quality, the latter stands for a responsive&#13;
+system in which the user has real-time control. A permanent&#13;
+trade-off between both demands can be observed, since high&#13;
+accuracy is usually time-consuming. &#13;
+&#13;
+The graphics processing unit (GPU), which evolved to a powerful&#13;
+general purpose coprocessor during the last decade, is undoubtedly&#13;
+becoming an ideal instrument for performing visualization and&#13;
+simulation tasks accurately and in real-time.&#13;
+&#13;
+One of the main challenges in the context of geometric flow&#13;
+visualization and fluid dynamics is the representation of motion.&#13;
+In both fields, particle systems and grid-based structures&#13;
+constitute basic models describing the objects to which the motion&#13;
+is applied.&#13;
+&#13;
+This work is dedicated to the development of GPU-based particle&#13;
+techniques and their combination with grids in order to improve&#13;
+the efficiency of fluid simulation and geometric flow&#13;
+visualization techniques. All resulting algorithms are&#13;
+characterized by their parallel nature and by being entirely&#13;
+executable on graphics hardware.&#13;
+&#13;
+The first aim is to provide an efficient solution to particle&#13;
+coupling in the context of fluids based on smoothed particle&#13;
+hydrodynamics. A parallel processing using graphics hardware is&#13;
+achieved by providing a grid-based mechanism for the efficient&#13;
+processing of particle neighborhoods.&#13;
+&#13;
+The second aim is to provide a set of algorithms for various&#13;
+geometric flow visualization techniques including flow particles,&#13;
+flow lines and flow surfaces/volumes. The accuracy is explicitly&#13;
+addressed in all cases. Accordingly, a method for generating&#13;
+time-adaptive stream and path lines and a special refinement&#13;
+scheme for streak lines is presented. &#13;
+&#13;
+The flow volumes, including time surfaces, path and streak&#13;
+volumes, are based on a parallel reinterpretation of the particle&#13;
+level set (PLS) method. This reinterpretation is based on a method&#13;
+for grid-particle interchange which is similar to the one proposed&#13;
+for particle coupling. Combining a grid and a particle set takes&#13;
+the advantages from both models: the grid representation is robust&#13;
+w.r.t. deformations and topological changes, and the particles are&#13;
+used to reduce numerical diffusion. For the reinitialization of&#13;
+the level set function, which is the most time-consuming step of&#13;
+the PLS algorithm, a hierarchical method for computing distance&#13;
+transforms is proposed. It turns out that the use of a distance&#13;
+transform is advantageous for realizing a GPU-based PLS framework.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Sowohl Visualisierungen als auch Simulationen setzen hohe&#13;
+Ansprüche an Genauigkeit und Interaktivität. Erstere ist eine&#13;
+offensichtliche Voraussetzung für Werkzeuge, bei denen die&#13;
+Qualität im Vordergrund steht, letztere steht für ein System, das&#13;
+in Echtzeit auf Benutzereingaben reagiert. Beide Aspekte liegen in&#13;
+permanenter Konkurrenz zueinander, denn eine hohe Genauigkeit ist&#13;
+i.A. zeitaufwändig.&#13;
+&#13;
+Moderne Graphikprozessoren (engl. Graphics Processing Units bzw.&#13;
+kurz GPU's) haben sich im Laufe des letzten Jahrzehnts zu&#13;
+universal einsatzfähigen Recheneinheiten weiterentwickelt. Die GPU&#13;
+als Coprozessor ist unzweifelhaft ein ideales Werkzeug geworden,&#13;
+um Visualisierungs- und Simulationsaufgaben in hoher Genauigkeit&#13;
+und in Echtzeit zu lösen.&#13;
+&#13;
+Eine der größten Herausforderungen im Kontext geometrischer&#13;
+Strömungsvisualisierung und der Simulation von Fluiden ist die&#13;
+Repräsentation von Bewegungen und Verformungen. In beiden&#13;
+Disziplinen bilden Partikelsysteme und gitterbasierte Strukturen&#13;
+grundlegende Modelle zur Beschreibung der veränderlichen Objekte.&#13;
+&#13;
+Diese Arbeit widmet sich der Weiterentwicklung GPU-basierter&#13;
+Partikelsysteme und deren Kombination mit Gitterstrukturen, um die&#13;
+Effizienz von Techniken in den beiden zuvor genannten Disziplinen&#13;
+zu verbessern. Alle resultierenden Algorithmen sind gekennzeichnet&#13;
+durch Ihren parallelen Aufbau, und dadurch, dass sie vollständig&#13;
+auf Graphik-Hardware ausführbar sind.&#13;
+&#13;
+Die erste Zielsetzung besteht darin, eine effiziente&#13;
+Partikelkopplung im Kontext von Fluiden zu ermöglichen, die auf&#13;
+den SPH-Ansatz (Smoothed Particle Hydrodynamics) basieren. Eine&#13;
+parallele Verarbeitung mittels der Graphik-Hardware wird erreicht&#13;
+durch einen Mechanismus zur effizienten gitterbasierten&#13;
+Verarbeitung von Partikelnachbarschaften.&#13;
+&#13;
+Die zweite Zielsetzung besteht darin, einen Satz von Algorithmen&#13;
+für unterschiedliche geometrische&#13;
+Strömungsvisualisierungstechniken bereitzustellen, welche die&#13;
+folgenden Primitive nutzen: Partikel, Linien, Oberflächen und&#13;
+Volumina. Die Genauigkeit wird in allen Fällen explizit&#13;
+thematisiert. Dementsprechend wird eine Methode zur Generierung&#13;
+zeitadaptiver Stream- und Path-Lines und ein Schema zur adaptiven&#13;
+Verfeinerung von Streak-Lines präsentiert.&#13;
+&#13;
+Die dritte Kategorie von Primitiven besteht aus Time-Surfaces,&#13;
+Path- und Streak-Volumes. Diese werden aufgrund einer&#13;
+Neuinterpretation der PLS-Methode (Particle Level Set)&#13;
+beschrieben. Diese Neuinterpretation basiert auf einem Schema zum&#13;
+Gitter-Partikel-Austausch, das dem zuvor für die Partikelkopplung&#13;
+vorgeschlagenen ähnelt. Die Kombination beider Strukturen, der&#13;
+Partikelmenge und des Gitters, vereinigt die Vorteile beider&#13;
+Modelle: Die Gitterrepräsentation ist robust gegenüber&#13;
+Deformationen und topologischen Veränderungen, und die Partikel&#13;
+können verwendet werden, um die numerische Diffusion zu&#13;
+verringern. Für die Reinitialisierung der Level-Set-Funktion,&#13;
+welche den aufwändigsten Schritt im PLS-Algorithmus bildet, wird&#13;
+eine hierarchische Methode zur Berechnung eines&#13;
+Distance-Transforms vorgeschlagen. Es stellt sich heraus, dass die&#13;
+Nutzung eines Distance-Transforms vorteilhaft bei der Realisierung&#13;
+eines GPU-basierten PLS-Frameworks.&#13;
+&#13;
+Alle präsentierten Strömungsvisualisierungstechniken werden auf&#13;
+ein reales Beispiel im Kontext der Klimaforschung angewandt. Die&#13;
+Evaluation zeigt, dass das interaktive System die effiziente&#13;
+Exploration von komplexen Strömungsdatensätzen erleichtert.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2009-09-27</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2009</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-4126</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Bildinformatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="cuntz.pdf" ddb:fileSize="11809942"/>
+   <ddb:checksum ddb:type="MD5">9c289c9ca75773d3c789d5959548ed2a</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/412/1/cuntz.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/412</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

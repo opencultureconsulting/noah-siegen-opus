@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1172">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Wie gut entwickeln sich Pflegekinder? : eine Longitudinalstudie</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Reimer, Daniela</displayForm>
+                        <namePart type="family">Reimer</namePart>
+                        <namePart type="given">Daniela</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Petri, Corinna</displayForm>
+                        <namePart type="family">Petri</namePart>
+                        <namePart type="given">Corinna</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Was wird aus Kindern, die in Pflegefamilien aufgewachsen sind? Wie wichtig bleibt die Pflegefamilie? Welche Bedeutung kommt der Herkunftsfamilie zu?
+Diese Fragen werden anhand einer von der EmMi Luebeskind-Stiftung finanzierten Longitudinalstudie beantwortet, basierend auf biografischen Interviews mit jungen erwachsenen Pflegekindern und einer vier bis acht Jahre später durchgeführten Folgebefragung. Konsequenzen und Empfehlungen für Fachkräfte, Pflegefamilien und die Strukturen der Jugendhilfe werden abgeleitet.</abstract>
+                    <subject>
+                        <topic>Pflegekind</topic>
+                        <topic>Longitudinalstudie</topic>
+                        <topic>Pflegefamilien</topic>
+                        <topic>EmMi Luebeskind-Stiftung</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11723</identifier>
+                    <identifier type="sys">HT019360921</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1172</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1172">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1172/1/ZPE_Nr_47_Daniela_Reimer_Corinna_Petri.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1172"
+            DMDID="DMD_siegen_opus_1172">
+            <mets:fptr FILEID="FILE0_siegen_opus_1172"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

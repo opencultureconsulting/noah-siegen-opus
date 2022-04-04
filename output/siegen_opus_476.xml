@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_476">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Grundgesetz für die Bundesrepublik Deutschland (GG) : vom 23. Mai 1949 (BGBl. I S. 1) ; ein Revisionsvorschlag</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>German constitution, a proposal to reform</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bellers, Jürgen</displayForm>
+                        <namePart type="family">Bellers</namePart>
+                        <namePart type="given">Jürgen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Vorschlag von Änderungen für das Grundgesetz Deutschlands.</abstract>
+                    <abstract type="content" lang="eng">Proposals of reforms for the German constitution.</abstract>
+                    <subject>
+                        <topic>Deutschland / Grundgesetz</topic>
+                        <topic>Verfassung</topic>
+                        <topic>Konstitution</topic>
+                        <topic>constitution</topic>
+                        <topic>Germany</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4764</identifier>
+                    <identifier type="sys">HT016652492</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_476</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_476">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/476/1/gg_revisionneu.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_476"
+            DMDID="DMD_siegen_opus_476">
+            <mets:fptr FILEID="FILE0_siegen_opus_476"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

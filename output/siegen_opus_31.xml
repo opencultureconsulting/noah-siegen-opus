@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_31">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Aufbau eines hochgenauen Laborthermostaten</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ney, Michael</displayForm>
+                        <namePart type="family">Ney</namePart>
+                        <namePart type="given">Michael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2002</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Ziel der Arbeit war die Konstruktion eines Laborthermostaten zur hochgenauen Thermostatisierung
+von Messvorrichtungen. Die Temperaturstabilität sollte im Bereich eines
+Millikelvins oder darunter liegen. Dabei sollte eine gewisse Flexibilität gegeben sein,
+d.h. der Thermostat sollte nicht nur für eine bestimmte Apparatur ausgelegt werden,
+sondern bei verschiedenen Messzellen angewendet werden können. Dabei wurde
+versucht, die Regelung an die jeweiligen Verhältnisse der Regelstrecke in Hinsicht auf
+Tot- und Verzögerungszeiten anzupassen. Dazu wurden unterschiedliche empirische
+Verfahren getestet. Weiterhin wurde versucht, aufwendigere Adaptionsverfahren zur
+Optimierung der Parameter zu nutzen. Unter Verwendung von Simulationsprogrammen
+wie Scilab und des Mathematikprogramms Mathematica wurde versucht, ein Modell zu
+erstellen, mit dessen Hilfe z.B. Reaktionen des Thermostates auf Sollwertänderungen
+nachvollzogen werden können.
+An einer Apparatur zur Messung des Cotton-Mouton-Effektes wurde eine Messreihe
+über einen größeren Temperaturbereich aufgenommen, wobei der Thermostat zur
+Temperierung der Messzelle benutzt wurde. Es gelang auf diese Weise näher an den
+isotrop-nematischen Phasenübergang eines Flüssigkristalls heranzukommen, als es mit
+handelsüblichen Thermostaten möglich war.
+Die sehr große Temperaturabhängigkeit der Cotton-Mouton Konstante in der Nähe der
+Phasenumwandlung ist ein guter Indikator für die Temperaturstabilität eines Thermostaten.</abstract>
+                    <abstract type="content" lang="eng">The aim of this work was the development of a laboratory thermostat for the highly
+precise temperature control. The fluctuation of the temperature should be less than a
+millikelvin. The thermostat was designed to control the temperature of various measuring
+devices. To achieve this, the parameters of the controller had to be ajusted to
+different properties of the controlled system, such as various dead-times or delay-times.
+For this purpose, different empirical methods were tested. Further it was tried to optimise
+the parameters in a more theoretical way. This was attempted by using the simulation
+program Scilab and the mathematics program Mathematica. With the aid of those
+programs, a model could be developed wich allows e.g. to investigate reactions of the
+thermostat to changes in the nominal value of the temperature or external disturbances.
+The Cotton-Mouton-Effekt is very sensitive to changes in temperature near the
+isotropic- nematic phase-transition of a liquid crystal. So it can be used to test the
+performance of a thermostat.With an equipment for the measurement of the Cotton-
+Mouton effect a series of measurements was accomplished over a larger temperature
+range. It could be shown that it was possible to get closer to the phase transition, than it
+was possible with commercial thermostats.</abstract>
+                    <subject>
+                        <topic>Präzisionsthermostat</topic>
+                        <topic>Temperaturstabilität</topic>
+                        <topic>adaptive Regelung</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 8, Chemie - Biologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-315</identifier>
+                    <identifier type="sys">HT013685698</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_31</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2003-02-06</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_31">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/31/1/ney.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_31"
+            DMDID="DMD_siegen_opus_31">
+            <mets:fptr FILEID="FILE0_siegen_opus_31"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

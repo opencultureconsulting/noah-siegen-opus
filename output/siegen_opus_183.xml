@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_183">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Spektralselektive optoelektronische Sensoren auf der Basis amorphen Siliziums</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Rieve, Peter</displayForm>
+                        <namePart type="family">Rieve</namePart>
+                        <namePart type="given">Peter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2000</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Dissertation beschreibt die Entwicklung spektralselektiver optoelektronischer Sensoren auf der Basis amorphen Siliziums. Das herausragende Merkmal dieses neuartigen Detektortyps besteht in seiner spannungsgesteuerten spektralen Empfindlichkeit, welche die Wellenlängenabhängigkeit der optischen Absorption des Halbleitermaterials durch die Bereitstellung eines entsprechenden Ladungsträger-Driftprofils ausnutzt. Auf diese Weise ist es möglich, mit
+einem einzigen Bauelement ein komplettes (RGB-) Farbsignal zu generieren. 
+Die Arbeit dokumentiert die verschiedenen Entwicklungsstufen, in denen unterschiedliche Typen bipolarer und unipolarer Farbsensoren realisiert und optimiert worden sind. Der trichromatische Sensor des unipolaren Typs pi 3 n stellt den Endpunkt der Entwicklung dar. Er verbindet eine gute Farbtrennung mit hoher Dynamik und zeichnet sich darüber hinaus durch
+eine respektable Auslesegeschwindigkeit aus. 
+Besondere Bedeutung erhält die Entwicklung der Farbsensoren im Zusammenhang mit der TFA-Technologie (Thin Film on ASIC), einer neuartigen Technologie zur Realisierung optischer Bildsensoren. Unmittelbar vor Fertigstellung dieser Arbeit konnte weltweit erstmalig die Realisierung eines TFA-Farbbildsensors demonstriert werden konnte. Hierbei kam ein unipolarer Dreifarbsensor zum Einsatz, welcher vom Autor im Rahmen dieser Arbeit entwickelt worden ist. Nicht zuletzt diese Tatsache belegt, daß die äußerst innovative Farbsensortechnologie
+den Weg für eine neue Generation von Farbbildaufnehmern mit vielfältigen
+Anwendungsfeldern ebnet, die von der digitalen Photographie bis hin zu komplexen
+Farbbildverarbeitungssystemen für den industriellen Bereich reichen.</abstract>
+                    <abstract type="content" lang="eng">This Ph.D. thesis deals with spectrally selective optoelectronic sensors based on amorphous silicon. The most important feature of this novel detector type is its voltage controlled spectral sensitivity, originating from the wavelength dependence of optical absorption inside the thin film multilayer structures in conjunction with a corresponding drift profile for charge carriers. In this way a single device is able to generate a complete RGB color signal. 
+The thesis documents various steps of development in which different types of bipolar and unipolar color detectors have been realized and optimized. The endpoint of the development is represented by the trichromatic unipolar sensor of pi 3 n type which combines good color separation and a high dynamic range. Moreover, this detector exhibits reasonable read out speed. The color reproduction performance of the device can be regarded as comparable to
+conventional color sensors using optical filters. 
+The development of the color detectors gains special importance in the framework of TFA technology (Thin Film on ASIC), a novel technology for realization of image sensors, combining the excellent electrooptical properties of photodetectors based on amorphous silicon with powerful and flexible ASIC technology. Immediately before completion of this thesis a TFA color sensor array has been demonstrated successfully for the first time. The TFA imager makes use of an unipolar three color sensor that has been developed by the author. This fact already shows that the innovative color sensor technology guides the way to a new generation of color imagers to be employed in many fields of applications ranging from digital photography to complex industrial color image processing systems.</abstract>
+                    <subject>
+                        <topic>Farbsensor</topic>
+                        <topic>TFA-Technologie</topic>
+                        <topic>Farbmetrik</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1832</identifier>
+                    <identifier type="sys">HT011236987</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_183</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2000-01-06</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_183">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/183/1/rieve.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_183"
+            DMDID="DMD_siegen_opus_183">
+            <mets:fptr FILEID="FILE0_siegen_opus_183"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

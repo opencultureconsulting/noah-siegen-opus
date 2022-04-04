@@ -1,0 +1,91 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1906">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Influence of phenylethylammonium iodide as additive in the formamidinium tin iodide perovskite on interfacial characteristics and charge carrier dynamics</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Horn, Jonas</displayForm>
+                        <namePart type="family">Horn</namePart>
+                        <namePart type="given">Jonas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Scholz, Mirko</displayForm>
+                        <namePart type="family">Scholz</namePart>
+                        <namePart type="given">Mirko</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Oum, Kawon</displayForm>
+                        <namePart type="family">Oum</namePart>
+                        <namePart type="given">Kawon</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lenzer, Thomas</displayForm>
+                        <namePart type="family">Lenzer</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schlettwein, Derck</displayForm>
+                        <namePart type="family">Schlettwein</namePart>
+                        <namePart type="given">Derck</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">A combined electrical and time-resolved optical investigation of the perovskite formamidinium tin iodide (FASnI3) and its phenylethylammonium (PEA) derivative PEA0.08FA0.92SnI3, which recently achieved a power conversion efficiency of 9%, is presented to study the specifics of contact characteristics and charge carrier dynamics. Microstructured gold electrode arrays were used to investigate the charge transport across a metal-perovskite interface and through micrometers of the perovskite films. Symmetrical contact configuration enabled detailed polarization studies. Hysteresis in the current-voltage characteristics and a corresponding current-time behavior indicated limitations by charge transfer in the contacts. Hysteresis was less pronounced in PEA0.08FA0.92SnI3 compared with FASnI3. This is explained by a 2-dimensional interlayer at the contacts, which leads to decreased field-induced migration of ions at the contact. Carrier recombination in the bulk of FASnI3 films, however, was only slightly modified by the presence of PEA. Femtosecond broadband transient absorption experiments up to 1.5 ns provided rate constants for the Auger and bimolecular recombination processes in FASnI3 of k3 = 1 × 10−29 cm6 s−1 and k2 = 3.1 × 10−10 cm3 s−1, respectively. In PEA0.08FA0.92SnI3, no significant differences in k2 and an only slightly increased k3 = 2 × 10−29 cm6 s−1 were measured. In extension to previous photoluminescence studies, we found efficient cooling of hot carriers by coupling to optical phonons (τcop = 0.5 ps), which is even faster than in lead perovskites.
+The authors thank the Deutsche Forschungsgemeinschaft (DFG) for financial support (Nos. SCHL 340/21-3, OU 58/10-3, LE 926/11-3, and RTG 2204). We are also grateful to R. Kentsch for complementary steady-state absorption and PL measurements, M. Morgenroth for assistance during the transient absorption experiments, H. Hemmelmann for measuring XRD at grazing incidence, and ZfM/LaMa (JLU Gieβen) for support in SEM and photolithography.</abstract>
+                    <subject>
+                        <topic>Perowskit</topic>
+                        <topic>Perovskite</topic>
+                        <topic>Semiconductors</topic>
+                    </subject>
+                    <classification authority="ddc">540</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19061</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1906</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1906">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1906/4/Influence_of_phenylethylammonium.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1906"
+            DMDID="DMD_siegen_opus_1906">
+            <mets:fptr FILEID="FILE0_siegen_opus_1906"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_246">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Krisenmanagement von kleinen und mittleren Unternehmen : Ergebnisse einer empirischen Untersuchung</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Crisis management in small and medium sized companies : results of an empirical analysis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Heinemann, Daniel</displayForm>
+                        <namePart type="family">Heinemann</namePart>
+                        <namePart type="given">Daniel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2006</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die hohe Zahl der Unternehmensinsolvenzen in Deutschland verdeutlicht, dass viele Unternehmen eine negative Unternehmensentwicklung letztlich nicht mehr umkehren können. Das Krisen- und Turnaround-Management scheitert und das Krisenunternehmen wird aufgelöst. Ziel der vorliegenden Untersuchung ist, Anhaltspunkte zu finden, weshalb der Turnaround-Prozess in einigen Krisenunternehmen positiv und in anderen wiederum negativ verläuft.</abstract>
+                    <subject>
+                        <topic>Unternehmenskrise</topic>
+                        <topic>Turnaround-Management</topic>
+                        <topic>KMU</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-2468</identifier>
+                    <identifier type="sys">HT014931759</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_246</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_246">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/246/1/Band_1_Krisenmanagement_in_KMU.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_246"
+            DMDID="DMD_siegen_opus_246">
+            <mets:fptr FILEID="FILE0_siegen_opus_246"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

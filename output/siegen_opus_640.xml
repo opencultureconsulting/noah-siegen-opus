@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_640">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>From tone to intonation : an empirical study of L2 prosodic acquisition by Chinese learners of German</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Tegethoff, Isabella</displayForm>
+                        <namePart type="family">Tegethoff</namePart>
+                        <namePart type="given">Isabella</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bachelorThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">This comprehensive case study is meant to introduce linguistic differences between Standard German and Mandarin Chinese with a major focus on intonation. Intonation is a prosodic feature that influences the articulation and interpretation of single words, phrases and complete sentences. It may have syntactic or expressive functions that either distinguish different types of sentences or contribute emotions, moods and attitudes to the literal meaning of an utterance. In this way, intonation provides important information which is not explicitly mentioned in the literal meaning of an utterance. However, since Chinese is not one of the world&apos;s intonation languages, such as German, but a tone language, it is reasonable to question whether Chinese uses the same intonation strategies to convey attitudes, emotions and other information as German does.
+
+
+Is the use of varying pitch contours a universal phenomenon or do different languages apply different strategies to express intonational meaning? Do certain pitch contours appear equally in different languages? If they do not, how does this affect the acquisition of a language by speakers of another? Is it possible for speakers of a tone language such as Chinese to master the comprehension and production of the intonation strategies of a toneless language such as German or does the acquisition of this feature raise difficulties? If acquiring the use of intonation is in fact of a problematic nature, how does this affect the intercultural communication between native Chinese learners of German and native German speakers? In order to find answers to these questions, the present study set up an empirical research project which involved native Chinese learners of German as well as native German speakers to investigate the comprehension and production of four particular types of German intonation.</abstract>
+                    <subject>
+                        <topic>Artikulatorische Phonetik</topic>
+                        <topic>Tonhöhenverlauf</topic>
+                        <topic>Chinesische Lerner des Deutschen</topic>
+                        <topic>Intonationssprache</topic>
+                        <topic>L2 acquisition</topic>
+                        <topic>intonation language</topic>
+                        <topic>tone language</topic>
+                        <topic>pitch contour</topic>
+                        <topic>Chinese learner</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät I Philosophische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-6407</identifier>
+                    <identifier type="sys">HT017381561</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_640</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBachelorThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_640">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/640/1/tegethoff.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_640"
+            DMDID="DMD_siegen_opus_640">
+            <mets:fptr FILEID="FILE0_siegen_opus_640"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

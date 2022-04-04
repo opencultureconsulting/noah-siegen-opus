@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1624">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Material mediations complicate communication privacy management</title>
+                        <subTitle lang="eng">the case of Wilma in Finnish high schools</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lehmuskallio, Asko</displayForm>
+                        <namePart type="family">Lehmuskallio</namePart>
+                        <namePart type="given">Asko</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lampinen, Airi</displayForm>
+                        <namePart type="family">Lampinen</namePart>
+                        <namePart type="given">Airi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Increasingly, school settings are implementing digital technologies to coordinate teachers’ work. The article examines the role of these technologies in teachers’ boundary regulation processes through the lens of communication privacy management theory, and it provides empirical insight into the renegotiation of being a teacher in the presence of rules formalized in software code. The case of Finnish high school teachers exposed to the use of Wilma, a distributed computing system used to store, process, and transmit student data, revealed experiences of a need to renegotiate formalized and trackable work processes, faster and more colloquial communication, and intensified day-to-day work. These influence modes of accountability and the need to negotiate visibility, along with understandings of rules as a central coordination mechanism for interpersonal boundary regulation. The authors suggest in addition that these technologies inure various social stakeholders to constant technical monitoring and regular accounting, thereby advancing the normalization of surveillance practices. This creates good reason to pay closer attention to how rules of engagement may be coordinated.</abstract>
+                    <subject>
+                        <topic>Datenschutz</topic>
+                        <topic>Kommunikationsmanagement</topic>
+                        <topic>Wilma &lt;software&gt;</topic>
+                        <topic>communication privacy management</topic>
+                        <topic>social media</topic>
+                        <topic>boundary regulation</topic>
+                        <topic>education</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16248</identifier>
+                    <identifier type="sys">HT020567243</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1624</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1624">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1624/5/WPS_16_Lehmuskallio_Lampinen.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1624"
+            DMDID="DMD_siegen_opus_1624">
+            <mets:fptr FILEID="FILE0_siegen_opus_1624"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

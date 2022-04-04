@@ -1,0 +1,65 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>2115</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">The evolution of statistical hypothesis testing</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Die Evolution statistischer Hypothesentests - Bayes'sche statistische Lösungen zur Replikationskrise in der Medizin</dc:title>
+   <dcterms:alternative xsi:type="ddb:talternativeISO639-2" lang="eng">Bayesian statistical solutions to the replication crisis in the biomedical sciences</dcterms:alternative>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Riko</pc:foreName>
+            <pc:surName>Kelter</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Bayes-Entscheidungstheorie</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Medizinische Statistik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Medical statistics</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Bayesian statistics</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Biometry</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Biostatistics</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">510</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Statistical hypothesis testing is a central method for the judgement of empirical findings in the medical, social and natural sciences. In recent years, the ongoing problems with null hypothesis significance testing and p-values have shown that the underlying paradigm for quantifying statistical evidence about a research hypothesis is highly problematic, and the situation has been termed a replication crisis. In this thesis, the evolution of statistical hypothesis testing is reconstructed, and it is shown that various of the recently observed problems with the reproducibility of research can be attributed to the underlying statistical theory of widely used inferential statistical methods. In the first part, the development of an inconsistent hybrid approach to statistical hypothesis testing which emerged out of Fisher’s theory of significance tests, p-values and the Neyman-Pearson theory is analyzed. In part two, the evolution of Bayesian approaches to hypothesis testing is detailed with a focus on the Bayes factor. Part three discusses the development of modern Markov-Chain-Monte-Carlo algorithms and their impact on Bayesian hypothesis testing. Part four then provides an axiomatic analysis of the concept of statistical evidence in the context of statistical hypothesis testing and it is shown that various substantial problems which were observed in the replication crisis can be attributed to purely axiomatic inconsistencies and conflicts with the likelihood principle. Based on the axiomatic analysis, it is shown that robust Bayesian methods, in particular robust Bayesian hypothesis tests provide a solution to some substantial problems with the reproducibility of research. Bayesian statistical solutions to the replication crisis are provided in the fifth part with a focus on widely used Bayesian statistical models in the biomedical sciences. New results demonstrate that the implicit error control of Bayesian hypothesis tests is comparable to frequentist tests based on p-values, and that a variety of Bayesian evidence measures attains reasonable type I error control and power in practice. Also, a shift towards the Hodges-Lehmann paradigm which advocates testing small interval instead of point null hypotheses is explored, and new theoretical results show that such a shift may be an appealing additional step towards increasing the reproducibility of science which has not received enough attention in the discussion about the validity of statistical hypotheses and the reproducibility of scientific research.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Gregor</pc:foreName>
+            <pc:surName>Nickel</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2021-10-22</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2021</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-21154</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">http://creativecommons.org/licenses/by-nc-sa/4.0/</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Department Mathematik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Riko_Kelter.pdf" ddb:fileSize="12211224"/>
+   <ddb:checksum ddb:type="MD5">c09179318ee650b9faddc2e6a88af248</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/2115/4/Dissertation_Riko_Kelter.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/2115</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

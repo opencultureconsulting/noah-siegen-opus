@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_750">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Low-cost MEMS-INS/GPS integration using nonlinear filtering approaches</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zhou, Junchuan</displayForm>
+                        <namePart type="family">Zhou</namePart>
+                        <namePart type="given">Junchuan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Some important key issues in GNSS/INS integration mainly arise in the field of creating and developing low-cost, robust and at the same time highly accurate navigation systems, putting a focus of interest onto powerful sensor fusion algorithms. The so-called tightly-coupled integration is one of the most promising approaches to fuse the GNSS (global navigation satellite systems) data with INS (inertial navigation system) measurements. However, when modeling the underlying problem, the system process and observation models turn out to be nonlinear, and the GNSS stochastic measurement errors are often non-Gaussian distributed (e.g., due to multipath effects). Among other estimation approaches, the so-called particle filter (PF) as a nonlinear/non-Gaussian estimation method is especially theoretically attractive to be used in this field. However, its large computational burden usually limits its practical usage. In order to reduce the computational burden without degrading the system estimation accuracy, recently, an unscented particle filter (UPF) has been proposed, which combines the PF with the unscented Kalman filter (UKF). In this thesis, only one UKF is used in the algorithm, and the re-sampling step is not required anymore. Thus, the number of particles can be largely reduced, and the implementation of the PF on a hardware platform turns out to be feasible.</abstract>
+                    <abstract type="content" lang="ger">Aktuelle Entwicklungen auf dem Gebiet der Fusion von inertialer Navigation und satellitengestützten Positionierungsverfahren zielen klar auf kosteneffiziente, robuste und gleichzeitig hochpräzise Lösungen ab. Leistungsfähige Sensordatenfusionsansätze spielen hier eine Schlüsselrolle, wobei die sogenannte &quot;Tightly Coupled Integration&quot; zur Fusion der satellitengestützten Navigationsdaten mit den Messdaten eines inertialen Systems besonders vielversprechend erscheint. Als erschwerender Umstand ergeben sich hier allerdings nichtlineare Prozess- und Beobachtungsmodelle, die in Verbindung mit nicht länger gaußverteilten Beobachtungsfehlern, beispielsweise aufgrund von Mehrwegeausbreitung, nichtlineare, möglichst optimale Datenfusionsverfahren, wie beispielsweise Partikelfilter-Ansätze erfordern. Theoretisch elegant und leistungsfähig auf der einen Seite, benötigen diese Ansätze in der praktischen Realisierung vielfach eine ungemein hohe Anzahl von einzelnen &quot;Partikeln&quot;, so dass der hierdurch verursachte Berechnungsaufwand die praktische Einsatzfähigkeit unter Echtzeitbedingungen vielfach entweder im Hinblick auf die Filterperformance oder auf die Taktzeit limitiert. Ein Ansatz zur Lösung dieser Problematik besteht in der Kombination eines Partikelfilters mit einem Unscented Kalman Filter. Hierbei wird der sonst bei Partikelfiltern übliche, aber zeitaufwändige, Resampling Schritt nicht mehr benötigt. Auch die Anzahl der benötigten Partikel kann stark reduziert werden, so dass eine Realisierung auf einer Signalprozessorplattform möglich wird.</abstract>
+                    <subject>
+                        <topic>INS/GPS</topic>
+                        <topic>Quaternionen</topic>
+                        <topic>Partikel-Filter</topic>
+                        <topic>sequenzielle Verarbeitung</topic>
+                        <topic>INS/GPS</topic>
+                        <topic>Quaternions</topic>
+                        <topic>Particle filter</topic>
+                        <topic>Sequential processing</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="NRW-Zentrum für Sensorsysteme (ZESS)"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-7500</identifier>
+                    <identifier type="sys">HT017675433</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_750</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2013-04-17</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_750">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/750/1/zhou.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_750"
+            DMDID="DMD_siegen_opus_750">
+            <mets:fptr FILEID="FILE0_siegen_opus_750"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

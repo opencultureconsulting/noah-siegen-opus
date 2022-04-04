@@ -1,0 +1,71 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>347</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Eine Implementierung bis "Next to Leading Order" von b-Quarks in PHOJET</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="eng">An implementation up to "next to leading order" of b-quarks into PHOJET</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Stefan</pc:foreName>
+            <pc:surName>Lammers</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">b-Quark</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Computerverfahren</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">PHOJET</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">DPMJET</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">MC@NLO</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">bottom quark</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">PHOJET</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">DPMJET</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">MC@NLO</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">bottom quark</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">"next to leading order"</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">530</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Diese Arbeit befasst sich mit der Implementierung der Produktion von b-Quarks in das Simulationsprogramm PHOJET (bzw. in das Simulationsprogramm DPMJET III, mit dem PHOJET aus technischen Gründen aufgerufen wird) bis "Next to Leading Order" nach einer Methode von S. Frixione und B.R.  Webber.&#13;
+Um eine für diese Art der Implementierung typische Schwierigkeit von Eventgeneratoren, das "Double Counting", das während der Partonen-Schauer-Phase eintritt, weitgehend lösen zu können, wurde ein gegebenes Schema (in seiner ursprünglichen Form ist es für das Simulationsprogramm HERWIG angepasst und in dem Programm MC@NLO realisiert) adaptiert und entsprechend verändert. Der wesentliche Bestandteil daraus, der Subtraktionsterm, wurde dann für das Programm DPMJET III neu berechnet (Kapitel 4, Abschnitte 5.4 und 5.5 sowie ab Abschnitt 6.3). &#13;
+Die Berechnungen wurden in Kapitel 7 an Hand von Vektorbosonenproduktion überprüft. Im Gegensatz zu dem Simulationsprogramm HERWIG wurde gefunden, dass DPMJET III für die relevante Konfiguration mit den gewählten Schauervariablen den "Soft"'- und "Kollinearen"' Bereich unter der Emission eines Partons in diesem Fall ohne weiteres "Tuning"' korrekt beschreiben kann.&#13;
+ Nach einer Beschreibung der Eventgenerierung werden in Kapitel 9 schließlich Transversalimpulsverteilungen von "Bottom"-Mesonen zu einer Fermilab-Konfiguration präsentiert. Da die Modelle weitgehend den Daten entsprechen, sind die Subtraktionsterme im Wesentlichen Modell-unabhängig, und der mit dem Programm MC@NLO verfügbare Subtraktionsterm für das Simulationsprogramm HERWIG kann als Kontrolle herangezogen werden. Diese Vorhersagen wurden mit den experimentellen Daten, die durch die CDF-Kollaboration bereitgestellt wurden (Run I und II), verglichen. Nach einer moderaten Anpassung der Faktorisierungs- und Renormierungsskala wird eine Übereinstimmung mit den Fermilab-Daten gefunden.&#13;
+Für den Abschnitt 10.1 wurden ebenfalls unter einer LHCb-Konfiguration Transversalimpulsspektren von "Bottom"-Mesonen erzeugt. Dafür wurden die frei wählbaren Renormierungs- und Faktorisierungsskalen wie in Abschnitt 9.1 angesetzt. Auch diese Grafiken wurden mit beiden Subtraktionstermen erzeugt.&#13;
+DPMJET III und PHOJET sind vollständige und in vielen Aspekten getestete Eventgeneratoren. Da diese Programme den Hintergrund gut beschreiben, ist es möglich, mehr technische Fragen zu untersuchen. Der Abschnitt  10.2 präsentiert daher die Fähigkeit des Programms DPMJET III, auch als "Teilchen-Rekonstruktions-Maschinerie" arbeiten zu können. Um diese Rekonstruktionen durchführen zu können, wurde ein weiteres Programm geschrieben, dass die Zerfallsprodukte bestimmter "Bottom"-Mesonen-Zerfälle analysiert und darauf testet, ob die Sekundär-Teilchen aus einem der nachgelagerten Zerfälle zu einem B-Meson gehören können oder nicht. Solche Analysen sind hilfreich, wenn "Mutterprodukte" nur schwer (oder gar nicht) direkt zugänglich für experimentelle Messungen sind.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">This works aim is primarily the implementation of b-quarks into the event generator PHOJET (respectively into DPMJET III containing PHOJET). Following a method of S. Frixione and B.R. Webber the implementation includes "next to leading order" in a perturbative expansion on partonic level.&#13;
+A typical problem of such a calculation in event generators that include initial and final state radiation is "double counting". To overcome this error Frixione and Webber developed a scheme involving subtraction terms. In this thesis this elaborate method is adapted and implemented in DPMJET III by means of recalculation of this subtraction term to match DPMJET III needs (chapter 4 and sections 5.4, 5.5 as well as the section 6.3.&#13;
+ The correct outcome of this matching is shown in chapter 7 by means of production of vector bosons. In contrast to the event generator HERWIG it is found, that DPMJET III is able to reproduce the correct partonic behavior in the "soft"' and "collinear"' limits, when one additional parton is emitted.&#13;
+After a short description of the method of event generation this work presents, beginning with chapter 9 the results of the calculation which are then compared to available experimental data provided by the CDF collaboration (RUN I and II). A moderate adjustment of the two relevant scales (factorization and renormalization scales) leads to good agreement between model prediction and the CDF data. Subsequently the predictions for the transverse spectra of bottom mesons at LHCb (section 10.1) are presented. As the adjusted factorization and renormalization scales were kept, the results can be expected to be quite reliable.&#13;
+DPMJET III and PHOJET are highly checked out and complete event generators that can reliably reproduce the background part of the events. It is therefore possible to address more technical questions like the identification of B-mesons in realistic events to DPMJET III.  To investigate this task in a generic way a small program was built to identify daughter particles of specific bottom decays with suitable cuts on an event.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2008-04-22</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2008</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-3470</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 7, Physik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Stefan_Lammers.pdf" ddb:fileSize="1474412"/>
+   <ddb:checksum ddb:type="MD5">99416debad27f06c40fc0547fca13a70</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/347/1/Dissertation_Stefan_Lammers.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/347</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

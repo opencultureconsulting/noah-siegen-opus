@@ -1,0 +1,64 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1275</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Predictive control scheme of the PMSM with a modulator of variable switching frequency</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Prädiktive Regelung einer permanenterregten Synchronmaschine mit Pulsweitenmodulation und variabler Schaltfrequenz</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Fernando David</pc:foreName>
+            <pc:surName>Ramirez Figueroa</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Leistungselektronik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Elektrische Antriebe</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Power Electronics</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Electric drives</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Field programmable gate array</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Predictive control</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Electrical machine control</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">621</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">In this work, a novel predictive control scheme for the permanent magnet synchronous machine by using a pulse-width modulation technique of variable switching frequency and variable sampling time is proposed. The control scheme is based on the model-based predictive control theory and makes use of a flexible pulse width modulation stage that can be reconfigured during the operation of the system without stopping the execution.&#13;
+The PI-controllers conventionally used in field-oriented control schemes are modified so that they can be used during the prediction stage of the control with different sampling times, without saturating the integral part of the controller. A finite set of switching frequencies is used for the optimization of a cost function, which aims to minimize not only the error in the torque and flux producing components of the currents of the space phasor of the PMSM. In addition, the cost function includes the reduction of the switching losses by directly reducing the switching frequency and maintaining a minimum level of desired performance mainly regulated by the maximum allowed torque ripple. The oversampling of the reference signals allows the adaption of the sampling frequency in order to avoid delays in the reaction of the system in case of transients.&#13;
+The proposed control scheme demands a high degree of flexibility in the implementation and a fast signal processing. Therefore, a FPGA implementation was mandatory that allows the realization of most of the control algorithm in silicon and a parallel execution. The acquisition of analogue control signals is carried out by means of Delta-Sigma ADCs with a very short conversion time that permits an oversampling and a signal processing with a high time resolution. As a result, the control features not only an excellent dynamic behavior with high bandwidth allowing to consider the harmonics of the current i.e. the switching ripple.&#13;
+The proposed predictive control approach, successfully overcomes the majority of the drawbacks of conventional field-oriented control and eliminates some of the drawbacks of conventional model predictive control, delivers good dynamics in the torque behavior and exploits the parallel processing capabilities and high computational power provided by an FPGA implementation. A sensorless implementation complements the proposed predictive control strategy. The faster processing capabilities of the FPGA allow the sensorless operation of the drive at very low speeds without the need of additional signal injection.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die vorliegende Arbeit befasst sich mit der prädiktiven Regelung einer permanenterregten Synchronmaschine mit Pulsweitenmodulation und variabler Schaltfrequenz. Das vorgestellte Regelkonzept nutzt eine Modell basierte prädiktive Regelung wobei eine Pulsweitenmodulation verwendet wird, die während des Betriebs rekonfiguriert werden kann. Konventionelle, digitale PI-Regler, die auch in der feldorientieren Regelung Verwendung finden, werden während der Prädiktionsphase mit verschiedenen Abtastzeiten so modifiziert, dass es zu keiner Sättigung der Regler kommt.&#13;
+Mittels einer begrenzten Anzahl von Schaltfrequenzen kann die Kostenfunktion optimiert werden. Die zu minimierende Kostenfunktion beinhaltet unter anderem das Drehmoment und die flussbildende Komponente des Raumzeigers der permanenterregten Synchronmaschine. Während der Minimierung können die Schaltverluste reduziert werden, wobei eine minimal geforderte Dynamik erhalten bleibt, welche in der Regel durch die maximal erlaubte Drehmomentwelligkeit begrenzt wird. Die Überabtastung der Sollwerte erlaubt die Adaptierung der Schaltfrequenz während transienter Vorgänge um die Verzögerung in der Reaktion des Systems zu reduzieren.&#13;
+Das vorgeschlagene Regelungsverfahren erforscht eine hohe Flexibilität und eine schnelle Signalverarbeitung, wodurch die Implementierung erfolgt darum mittels eines FPGAs. Die meisten notwendigen Regelungsalgorithmen werden in Silizium ausgeführt und parallel verarbeitet. Die Messdatenerfassung der analogen Signale wurde mittels Delta-Sigma ADCs durchgeführt, die eine sehr kurze Umsetzungszeit haben und damit die Überabtastung der Signale mit höherer zeitlicher Auflösung ermöglichen. Als Ergebnis hat das vorgeschlagene Regelungsverfahren ein hervorragendes dynamisches Verhalten mit hoher Bandbreite, wodurch die Berücksichtigung von Harmonischen möglich wird.&#13;
+Der vorgeschlagene Ansatz der prädiktiven Regelung eliminiert einen Großteil der Nachteile der herkömmlichen feldorientierten Regelung sowie einige der Nachteile der gewohnten modellprädiktiven Regelung. Insbesondere wird eine gute Dynamik im Drehmomentverhalten erreicht, wobei die parallele Verarbeitungsmöglichkeit und hohe Rechenleistung durch die FPGA-Implementierung ausgenutzt wird. Eine sensorlose Implementierung vervollständigt das vorgestellte prädiktive Regelungsverfahren. Die hohe Rechenleistung des FPGAs erlaubt den sensorlosen Betrieb des Antriebs bei niedrigen Geschwindigkeiten ohne zusätzliche Signaleinprägung.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2017-03-07</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2017</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-12752</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV - Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Fernando_David_Ramirez_Figueroa.pdf" ddb:fileSize="14813320"/>
+   <ddb:checksum ddb:type="MD5">59eccd928dbf944e0d4b65f65411b09e</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1275/1/Dissertation_Fernando_David_Ramirez_Figueroa.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1275</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

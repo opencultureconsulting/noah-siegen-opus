@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_382">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Machtprozesse in der Heimerziehung : eine qualitative Studie über ein Setting klassischer Heimerziehung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wolf, Klaus</displayForm>
+                        <namePart type="family">Wolf</namePart>
+                        <namePart type="given">Klaus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">1999</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Menschen, die miteinander zu tun haben, entwickeln zwangsläufig Abhängigkeiten: Es ist ihnen nicht ganz gleichgültig, was die anderen tun, denken oder fühlen. Dabei kann der eine deutlich abhängiger sein als der andere, dann besteht ein großer Machtunterschied, der sich im Verlauf der Zeit vergrößern oder verringern kann. In diesem Buch werden die Machtbalancen zwischen Kindern und Erwachsenen einer Heimgruppe untersucht. Dabei spielt die ungleiche materielle Abhängigkeit eine Rolle, aber auch das Bedürfnis, geliebt zu werden, der Wunsch, die eigene Arbeit als sinnvoll zu erleben oder der Vorsprung an Orientierungsmitteln, körperliche Stärke, die gesellschaftliche Funktion der Heimerziehung und schließlich gesellschaftliche Deutungsmuster. Zusammenhänge zwischen den Lebenserfahrungen und den Bedürfnissen der Menschen, zwischen Organisationsmerkmalen, anderen Beziehungen und gesellschaftliche Faktoren werden analysiert. Dabei wird ein Gewebe unterschiedlicher Prozesse deutlich, das die Lebens- und Lernbedingungen in der Heimgruppe prägt, Entwicklungschancen hervorbringt und begrenzt.</abstract>
+                    <subject>
+                        <topic>Heimerziehung</topic>
+                        <topic>Machtprozesse</topic>
+                        <topic>Figurationsanalyse</topic>
+                        <topic>Interdependenzen</topic>
+                        <topic>Kind</topic>
+                        <topic>Pädagoge</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-3821</identifier>
+                    <identifier type="sys">HT015953410</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_382</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_382">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/382/1/machtprozesse.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_382"
+            DMDID="DMD_siegen_opus_382">
+            <mets:fptr FILEID="FILE0_siegen_opus_382"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

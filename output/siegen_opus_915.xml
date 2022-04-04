@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_915">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Mechanismenorientierte Modellierung und Simulation der mikrostrukturbestimmten Kurzrissausbreitung unter Berücksichtigung ebener und räumlicher Aspekte</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Köster, Philipp</displayForm>
+                        <namePart type="family">Köster</namePart>
+                        <namePart type="given">Philipp</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In der vorliegenden Arbeit werden zwei mechanismenbasierte Modellierungsansätze zur Beschreibung der mikrostrukturabhängigen Kurzrissausbreitung vorgestellt. Zum einen wird auf Basis von experimentellen Untersuchungen ein zweidimensionales Modell entwickelt, dass das Stadium I-Risswachstum in der technisch bedeutenden Titanlegierung Ti6Al4V nachbildet. Der Ansatz beschreibt den Rissfortschritt auf kristallinen Gleitebenen und Korngrenzen als Folge irreversibler plastischer Verformungen an der Rissspitze und berücksichtigt die Barrierewirkung von Korngrenzen. Das Modell wird anhand real gewachsener Ermüdungsrisse validiert und zur Simulation der Rissausbreitung in virtuellen Mikrostrukturen eingesetzt. Dabei zeigen die Ergebnisse für zwei unterschiedliche Gefüge eine gute Übereinstimmung der berechneten Bruchzyklenzahlen mit realen Ermüdungsdaten. 
+Im zweiten Teil der Arbeit wird ein dreidimensionales Modell zur Simulation der Stadium I-Rissausbreitung auf Gleitebenen entwickelt, das gegenüber bestehenden zweidimensionalen Ansätzen entscheidende Vorteile im Hinblick auf eine realitätsnahe Beschreibung des Kurzrisswachstums bietet. Durch diese erweiterte Betrachtung können Oberflächenrisse endlicher Tiefe abgebildet und die räumliche Orientierung der kristallinen Gleitebenen bzw. die Missorientierung zweier Gleitsysteme in benachbarten Körnern berücksichtigt werden. Das dreidimensionale Rissproblem wird numerisch effizient mit Hilfe von Versetzungsring-Randelementen gelöst. Anhand von systematischen Untersuchungen werden der Einfluss der oben genannten Faktoren auf die Rissausbreitungsrate bestimmt und die Vorteile gegenüber einer vereinfachten zweidimensionalen Betrachtung aufgezeigt.</abstract>
+                    <abstract type="content" lang="eng">In this thesis two mechanism-based models are presented, which simulate the propagation of microstructurally short fatigue cracks. The first one is a two-dimensional approach based on experimental investigations on titanium Ti6Al4V that describes stage I-crack growth in this widely used alloy. The model allows for crack propagation on slip planes and grain boundaries due to partially irreversible plastic deformations at the crack tip and considers grain boundaries as obstacles to crack extension. It is validated by simulating the growth of real fatigue cracks and applied to predict crack propagation in virtual microstructures. Here, simulation results show a good agreement between the calculated number of cycles to failure and fatigue test data. 
+In the second part of this thesis a three-dimensional model for stage I-crack propagation is presented, which offers significant advantages compared to two-dimensional approaches. It allows for a more realistic description of short crack growth by considering the finite depth of surface cracks as well as the real three-dimensional orientation of the slip planes and the resulting misorientation between slip systems in adjacent grains. The three-dimensional crack problem is solved numerically using finite dislocation loop boundary elements. The model is applied to analyse the influence of the factors mentioned above on the crack propagation rate and to show the advantages in comparison to simplified two-dimensional approaches.</abstract>
+                    <subject>
+                        <topic>Rissausbreitung</topic>
+                        <topic>mikrostrukturbestimmte Kurzrissausbreitung</topic>
+                        <topic>Stadium I</topic>
+                        <topic>Randelementemethode</topic>
+                        <topic>short crack propagation</topic>
+                        <topic>stage I</topic>
+                        <topic>boundary element method</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Mechanik und Regelungstechnik - Mechatronik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-9153</identifier>
+                    <identifier type="sys">HT018688216</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_915</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2014-11-21</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_915">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/915/1/Dissertation_Philipp_Koester.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_915"
+            DMDID="DMD_siegen_opus_915">
+            <mets:fptr FILEID="FILE0_siegen_opus_915"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

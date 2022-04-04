@@ -1,0 +1,105 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_242">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Entwicklung einer intelligenten Struktur : eine Kombination globaler und lokaler Verfahren zur Schadensdiagnose</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mengelkamp, Gregor</displayForm>
+                        <namePart type="family">Mengelkamp</namePart>
+                        <namePart type="given">Gregor</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2006</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Während in der Vergangenheit oftmals die technische Umsetzbarkeit einer Produktidee im
+Vordergrund stand, entscheidet gegenwärtig und zukünftig wohl in zunehmenden Maße die
+Höhe der Betriebskosten über den wirtschaftlichen Erfolg eines Produktes. Die Lösung dieses
+Problems stellen u.a. die Prinzipien und Konzepte, die unter dem Oberbegriff Leichtbau
+bekannt geworden sind, dar. Vornehmlich beschäftigt sich der Leichtbau damit, das
+Strukturgewicht und die damit eng verknüpften Betriebskosten zu reduzieren ohne dabei die
+technologischen Eigenschaften zu verschlechtern. Möglich wird dies jedoch erst durch eine
+schadenstolerante Auslegung, d.h. das bewusste in Kauf nehmen eines möglichen Schadens
+noch während der Produktlebensdauer. Die Überwachung von Strukturen ist Gegenstand des
+sogenannten Structural Health Monitoring (SHM), das alle Verfahren, Entwicklungen und
+Forschungsaktivitäten auf diesem Gebiet umfasst.
+
+In dieser Arbeit wird zunächst ein Überblick über die derzeitig auf dem Gebiet des Structural
+Health Monitoring stattfindende Forschung gegeben. Der Fokus richtet sich dabei
+insbesondere auf die globalen und lokalen Verfahren, die im weiteren Verlauf der Arbeit zur
+Entwicklung einer Intelligenten Struktur genutzt werden sollen. Unter Intelligenten Strukturen
+versteht der Verfasser Strukturen, die, mit Aktoren, Sensoren und Auswertealgorithmen
+ausgestattet, in der Lage sind, selbstständig über ihren Zustand Auskunft zu geben.
+
+Im Grundlagenteil der Arbeit werden die theoretischen Voraussetzungen und die
+physikalischen Wirkprinzipien, auf denen die eingesetzten und entwickelten Verfahren
+basieren, zusammengefasst. Im Anschluss daran wird die im Rahmen dieser Arbeit
+entwickelte Intelligente Struktur vorgestellt. Die letzten beiden Kapitel zeigen schließlich die
+Leistungsfähigkeit dieser Struktur und geben einen Ausblick auf die noch zu leistende
+Forschungsarbeit.</abstract>
+                    <abstract type="content" lang="eng">To realise a product idea in the best technical way has been the dominating thought of the
+past, whereas today it becomes more and more likely that the operating costs will decide
+about the economical success of a product. The solution of this problem could be found in the
+principals and concepts developed in the context of the idea of a lightweight construction. The
+mayor concern of such a construction is to reduce structural weight - and at the same time
+related operational costs - without decreasing technological properties. This goal can only be
+achieved by taking into account that a damage may already occur within economic life-time.
+Such a concept may then be called a “damage tolerant design”. The monitoring of structures
+describes the topic of the so-called “structural health monitoring” (SHM), which includes all
+methods, developments and research activities in this field.
+
+The paper starts with an overview of today’s research activities in the field of structural health
+monitoring. The focus is directed to global and local methods that will later be used for the
+development of a smart structure. The author defines a smart structure as a structure that is
+equipped with sensors and actuators and that includes all algorithms to perform a self
+diagnosis.
+
+The basics of this paper describe the theory and the physical mechanisms the used and
+developed methods are based on. After that the developed smart structure will be introduced.
+The last two chapters finally show the performance of the smart structure and give an outlook
+on the research activities that still have to be done.</abstract>
+                    <subject>
+                        <topic>Lamb-Wellen</topic>
+                        <topic>intelligente Struktur</topic>
+                        <topic>structural health monitoring</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Mechanik und Regelungstechnik - Mechatronik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-2429</identifier>
+                    <identifier type="sys">HT014865915</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_242</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2006-08-09</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_242">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/242/1/mengelkamp.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_242"
+            DMDID="DMD_siegen_opus_242">
+            <mets:fptr FILEID="FILE0_siegen_opus_242"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

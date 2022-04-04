@@ -1,0 +1,83 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>504</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Automatic model-based face reconstruction and recognition</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Automatische modell-basierte Gesichtsrekonstruktion und -erkennung</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Pia</pc:foreName>
+            <pc:surName>Breuer</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Robustheit</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Erkennung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Kontur</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Analyse-durch-Synthese</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">vollautomatisch</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">morphable model</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">reconstruction</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">recognition</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">occlusion</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">self-adapting-feature-layers</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Three-dimensional Morphable Models (3DMM) are known to be valuable tools for both face reconstruction and face recognition. These models are particularly relevant in safety applications or Computer Graphics. In this thesis, contributions are made to address the major difficulties preceding and during the fitting process of the Morphable Model in the framework of a fully automated system.It is shown to which extent the reconstruction and recognition results depend on the initialization and what can be done to make the system more robust, e.g. against vague feature positions or occlusions of the face.&#13;
+&#13;
+Based on the 3DMM, a fully automated algorithm is presented. Support Vector Machines (SVMs) and the Morphable Model of 3D faces are combined for reconstructing a textured 3D model of a face from a single photograph or a raw video stream. The SVM delivers a list of candidates for several facial feature positions, and these are evaluated using a novel criterion that is based on the Morphable Model and a combination of linear projections. To make the algorithm robust with respect to head orientation, this process is iterated while the estimate of pose is refined. Finally, the feature points initialize the model-fitting procedure of the Morphable Model to result in a high-resolution 3D surface model.&#13;
+&#13;
+Furthermore a new approach called self-adapting feature layers (SAFL) is presented. The algorithm integrates feature detection into the iterative analysis-by-synthesis framework, combining the robustness of feature search with the flexibility of model fitting. Templates for facial features are created and updated while the fitting algorithm converges, so the templates adapt to the pose, illumination, shape and texture of the individual face. The benefit of the proposed method is an increased robustness of model fitting with respect to unavoidable errors in the initial feature point positions. Such residual errors usually create problems when feature detection and model fitting are combined to form a fully automated face reconstruction or recognition system. Several case studies show the benefits of the new concept proposed in this work.&#13;
+&#13;
+In addition to the SAFL concept, another focus of this work is the importance of contour information for the entire reconstruction result. The overall shape of the face is not exclusively determined by the contour line, but it is substantially influenced by it. Different approaches are presented improving the contour fitting of the 3DMM.&#13;
+&#13;
+Besides initialization, robustness and better contour adaption, this thesis also addresses the problem of occlusions. Manually or automatically identified occlusions can be marked to exclude them from the fitting process. Different kinds of automated detection algorithms using the 3DMM, for different kinds of occlusions, are presented.&#13;
+&#13;
+Finally, capabilities have been investigated for the reconstruction based on multiple images. Here the focus was not only on a better reconstruction of the overall shape, but on distinguishing features, such as wrinkles, birthmarks or freckles. If only one input image is used, these get poorly reproduced. The reconstruction out of multiple images enhances their reconstruction.&#13;
+&#13;
+The essential approaches are applicable to other model- based approaches to image analysis and they include a number of general strategies to analysis-by-synthesis besides their contribution to the improvement of the 3DMM.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Dreidimensionale Morphable Models (3DMM) sind bekannt als wertvolle Werkzeuge für die Gesichtsrekonstruktion und auch für die Gesichtserkennung. Außerdem wird diese Art von Modellen für Sicherheitsanwendungen und in der Computergraphik verwendet. Die vorliegende Doktorarbeit behandelt im Hinblick auf die Nutzung in einem vollautomatischen System die Hauptschwierigkeiten, die vor und während des Anpassungsprozesses des morphfähigen Modells auftreten. Es wird gezeigt, in welchem Maße die Ergebnisse der Rekonstruktionen und der Erkennung von der Initialisierung abhängen und wie das System robuster gemacht werden kann, beispielsweise im Bezug auf ungenaue Merkmalspositionen oder Verdeckungen des Gesichts.&#13;
+&#13;
+Basierend auf dem 3DMM von Blanz und Vetter wird in dieser Arbeit ein vollautomatischer Algorithmus präsentiert. Es werden Support Vector Machines (SVMs) und das morphfähige 3D Gesichtsmodell kombiniert, um ein texturiertes 3D Modell eines Gesichts aus einem Einzelphoto oder einem groben Videostrom zu rekonstruieren. Die SVM liefert eine Liste von Kandidaten für verschiedene Gesichtsmerkmalspositionen. Diese werden mittels eines neuen Kriteriums analysiert und die besten ausgewählt. Das neue Kriterium basiert auf dem morphfähigen Modell und einer Kombination von linearen Projektionen. Um den Algorithmus unabhängig von der Orientierung des Kopfes nutzen zu können, wird der Prozess iteriert, während die Posenschätzung verfeinert wird. Schließlich wird die Rekonstruktion mit den ausgewählten Merkmalspunkten initialisiert und die Modellanpassung liefert ein hochaufgelöstes 3D Oberflächenmodell.&#13;
+&#13;
+Des weiteren wird ein neuer Ansatz vorgestellt: self-adapting feature layers (SAFL). Der Algorithmus verbindet Merkmalserkennung und das iterative Analyse-durch-Synthese Rahmenprogramm. Dadurch wird die Robustheit der Merkmalserkennung mit der Flexibilität der Modellanpassung kombiniert. Während der Anpassungsalgorithmus konvergiert, werden die Vergleichsmuster der Gesichtsmerkmale jeweils aktualisiert. So passen sich die Vergleichsmuster an Form, Farbe, Kopfpose und Beleuchtung jedes individuellen Gesichts an. Der Vorteil der vorgestellten Methode liegt in der größeren Robustheit der Modellanpassung, falls unvermeidbare Fehler bei den initialen Merkmalspositionen auftreten. Wenn man Merkmalsdetektion und Modellanpassung für ein vollautomatisches Gesichtsrekonstruktions- und erkennungssystem kombiniert, verursachen solche verbleibenden Fehler meist Probleme. Verschiedene Fallstudien zeigen die Vorteile des neuen Konzepts, das in dieser Arbeit vorgestellt wird.&#13;
+&#13;
+Zusätzlich zum SAFL-Konzept wird die Wichtigkeit der Konturinformationen für das Gesamtergebnis der Rekonstruktion untersucht. Die Gesamterscheinung des Kopfes hängt nicht ausschließlich von der Konturlinie ab, wird durch sie jedoch maßgeblich beeinflusst. In dieser Arbeit werden verschiedene Ansätze vorgestellt, um die Konturanpassung des 3DMM zu verbessern.&#13;
+&#13;
+Neben der Initialisierung, der Robustheit und einer besseren Konturanpassung liegt ein weiterer Augenmerk dieser Dissertation auf dem Umgang mit Objekten, die das Gesicht partiell verdecken. Verdeckungen, die manuell oder automatisch identifiziert und markiert werden, können bei der Anpassung ignoriert werden. Es werden verschiedene Verfahren vorgestellt, die mithilfe des 3DMM verschiedene Arten von Verdeckungen erkennen.&#13;
+&#13;
+Abschließend werden die Möglichkeiten untersucht, inwiefern das Rekonstruktionsergebnis durch die Nutzung mehrerer Bilder für eine Anpassung verbessert werden kann. Hierbei liegt der Fokus nicht nur auf einer besseren Rekonstruktion der Gesamtform, sondern besonderer Merkmale wie Falten, Muttermalen oder Sommersprossen. Wird nur ein Eingabebild genutzt, werden diese Merkmale nur unzureichend reproduziert. Die Anpassung an mehrere Bilder verbessert die Rekonstruktion. Die grundlegenden Ansätze dieser Arbeit sind auf andere modell-basierte Verfahren zur Bildanalyse übertragbar. Neben dem Beitrag zur Verbesserung des 3DMM enthält diese Arbeit außerdem grundlegende Strategien, die in anderen Analyse-durch-Synthese-Verfahren genutzt werden können.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2010-12-20</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2010</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-5049</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Bildinformatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="breuer.pdf" ddb:fileSize="25797469"/>
+   <ddb:checksum ddb:type="MD5">1e12de8100d6d8a6921ee5356c8d76ab</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/504/1/breuer.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/504</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

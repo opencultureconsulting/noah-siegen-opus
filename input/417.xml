@@ -1,0 +1,62 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>417</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Modulare Simulation komplexer SAR-Szenarien: Signalgenerierung, Positionsschätzung und Missionsplanung</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Marc</pc:foreName>
+            <pc:surName>Kalkuhl</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Radarfernerkundung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">SAR</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Synthetic Aperture Radar</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">SAR-Simulation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">SAR-Konstellation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">synthetische SAR-Rohdatengenerierung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Synthetic Aperture Radar</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die vorliegende Arbeit entstand an der Universität Siegen im Rahmen des von der DFG unter dem Förderkennzeichen WI1705/9-1 geförderten Gemeinschaftsprojekts Bistatic Exploration, das in Zusammenarbeit des ZESS (Zentrum für Sensorsysteme), FOMAAS (Forschungszentrum für Multidisziplinäre Analysen und Angewandte Systemoptimierung) und der FGAN-FHR Wachtberg (Forschungsgesellschaft für Angewandte Naturwissenschaften - Forschungsinstitut für Hochfrequenzphysik und Radartechnik) durchgeführt wird. Dieses Projekt hat zum Ziel, neue grundlegende Verfahren und Methoden für die Radarfernerkundung mit bistatischen SAR-Techniken (Synthetic Aperture Radar - Radar mit synthetischer Apertur) zu entwickeln.&#13;
+Der Fokus dieser Arbeit liegt auf der Entwicklung eines modularen, universell einsetzbaren SAR-Simulators zur Unterstützung der am Projekt beteiligten Forschergruppen, die sich u.a. mit der Entwicklung von neuen Algorithmen und Ansätzen zur Prozessierung bi- und multistatischer Rohdaten befassen. Dabei soll der Simulator synthetisch generierte SAR- und Sensordaten von komplexen mono-, bi- und multistatischen SAR-Konstellationen zum Test der neu entwickelten Ansätze und Algorithmen liefern sowie die für die Beurteilung dieser Konstellationen benötigten Daten bereitstellen. Im Vergleich zu bisher verfügbaren SAR-Simulatoren, bei denen oft nur ebene Geometrien und lineare Flugpfade berücksichtigt werden, soll er SAR-Konstellationen unter realitätsnahen Bedingungen simulieren, wobei reale, gekrümmte Bewegungstrajektorien sowie ein digitales Höhenmodell der Erde als Reflektionsoberfläche verwendet werden.&#13;
+Das Grundkonzept des Simulators besteht in der Bereitstellung eines möglichst frei konfigurierbaren Werkzeugs, das dem Anwender größtmögliche Flexibilität zur Umsetzung und Simulation von komplexen SAR-Konstellationen bietet. Dazu wurde zunächst ein modulares Baukastenkonzept entwickelt, das die Basiselemente typischer SAR-Missionen bereitstellt. Durch entsprechende Kombination dieser Baukastenelemente kann eine Vielzahl von unterschiedlichen Konstellationen erzeugt werden.&#13;
+Um den Simulator flexibel verwenden zu können, wurde ein Frameworkkonzept entwickelt, das modular aus verschiedenen Programmkomponenten aufgebaut ist und alle zur SAR-Simulation benötigten Funktionalitäten bereitstellt. Dabei sind die einzelnen Komponenten autark und können in unterschiedlichen Kombinationen für unterschiedliche Aufgaben genutzt werden. Das Framework selbst besitzt bewusst keine eigene Logik zur Steuerung der Simulation. Diese Aufgabe übernimmt ein eigenständiges Steuerwerk, das die einzelnen Funktionalitäten für unterschiedliche Aufgabenstellungen in logischer Weise verwendet. Neben der Nutzung exemplarisch implementierter Anwendungen hat der Benutzer die Möglichkeit, das Steuerwerk durch eigene Implementierungen um speziell benötigte Funktionalitäten selber zu erweitern. Im Rahmen dieser Arbeit wurden ein Modell zur Berechnung von hochgenauen Satellitentrajektorien sowie ein Positionsschätzer auf Basis eines Kalman-Filters zur Fusion von simulierten und gemessenen Positionsdaten im Rechen- und Steuerwerk implementiert. Zusätzlich konnte ein grundlegendes Modul zur Missionsplanung und -optimierung zum Design neuer SAR-Missionen entwickelt und umgesetzt werden.&#13;
+Die Signalübertragung wird mittels eines phänomenologischen Modellierungsansatzes umgesetzt, bei dem sie als mechanisch-geometrisches System abgebildet wird. Hierdurch kann die Verwendung eines sehr komplexen mathematischen und physikalischen Modells zur Abbildung von elektromagnetischen Wellen vermieden werden. Der geometrische Ansatz eignet sich ebenfalls für die Modellierung aller weiteren benötigten Sensoren zur Bereitstellung der erforderlichen Sensordaten.&#13;
+Aufgrund sehr langer Simulationszeiten wurde die sehr rechenzeitintensive Rohdatengenerierung auf einem Rechencluster parallelisiert. Dazu sind unterschiedliche Ansätze zur parallelen Generierung von Rohdaten entwickelt und implementiert worden, mit denen ein großer Speedup in der Simulation erreicht werden konnte.&#13;
+Der neu entwickelte Simulator bildet die Basis für weiterführende Entwicklungen im Bereich der SAR-Simulation und bietet Potential für zusätzliche wissenschaftliche Untersuchungen.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2009-08-27</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2009</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-4171</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Systemtechnik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="kalkuhl.pdf" ddb:fileSize="8955263"/>
+   <ddb:checksum ddb:type="MD5">3318ec6b989f3718c07a6e840da2c646</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/417/1/kalkuhl.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/417</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1433">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Der </nonSort>
+                        <title>Prozess informationeller Öffnung : Grundzüge einer Ideengeschichte und theoretische Betrachtung der Faktoren und Folgen medialer Praxis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Groneberg, Christoph</displayForm>
+                        <namePart type="family">Groneberg</namePart>
+                        <namePart type="given">Christoph</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Ausgangshypothese der Arbeit lautet &quot;Mit jedem neuen Medium gibt es einen Prozess informationeller Öffnung.&quot; Davon ausgehend wird auf einem breiten theoretischen Fundament anhand der Schriftentwicklung, des Buchdrucks, des Radios und Computers und digitaler Netzwerke der Anteil der jeweiligen Medien an einem Prozess informationeller Öffnung untersucht. Dabei wird der Blick insbesondere auf soziale Systeme und Ebenen, Phasen, Publikationsprozesse und Effekte gelegt.</abstract>
+                    <abstract type="content" lang="eng">The starting hypothesis of the work is &quot;With every new medium there is a process of informational opening.&quot; Based on a broad theoretical foundation based on the development of language, the printing press, radio as well as computer and digital networks, the share of the respective media on a process of informational opening is examined. The analysis focuses social systems and levels, phases, publication processes and effects.</abstract>
+                    <subject>
+                        <topic>Information</topic>
+                        <topic>Öffnung</topic>
+                        <topic>Prozess</topic>
+                        <topic>Medien</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät I Philosophische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-14334</identifier>
+                    <identifier type="sys">HT020005228</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1433</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2019-02-13</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1433">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1433/1/Dissertation_Christoph_Groneberg.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1433"
+            DMDID="DMD_siegen_opus_1433">
+            <mets:fptr FILEID="FILE0_siegen_opus_1433"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

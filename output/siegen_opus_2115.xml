@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_2115">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>evolution of statistical hypothesis testing</title>
+                        <subTitle lang="eng">Bayesian statistical solutions to the replication crisis in the biomedical sciences</subTitle>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <nonSort>The </nonSort>
+                        <title>Die Evolution statistischer Hypothesentests - Bayes&apos;sche statistische Lösungen zur Replikationskrise in der Medizin</title>
+                        <subTitle lang="eng">Bayesian statistical solutions to the replication crisis in the biomedical sciences</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kelter, Riko</displayForm>
+                        <namePart type="family">Kelter</namePart>
+                        <namePart type="given">Riko</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Nickel, Gregor</displayForm>
+                        <namePart type="family">Nickel</namePart>
+                        <namePart type="given">Gregor</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Statistical hypothesis testing is a central method for the judgement of empirical findings in the medical, social and natural sciences. In recent years, the ongoing problems with null hypothesis significance testing and p-values have shown that the underlying paradigm for quantifying statistical evidence about a research hypothesis is highly problematic, and the situation has been termed a replication crisis. In this thesis, the evolution of statistical hypothesis testing is reconstructed, and it is shown that various of the recently observed problems with the reproducibility of research can be attributed to the underlying statistical theory of widely used inferential statistical methods. In the first part, the development of an inconsistent hybrid approach to statistical hypothesis testing which emerged out of Fisher’s theory of significance tests, p-values and the Neyman-Pearson theory is analyzed. In part two, the evolution of Bayesian approaches to hypothesis testing is detailed with a focus on the Bayes factor. Part three discusses the development of modern Markov-Chain-Monte-Carlo algorithms and their impact on Bayesian hypothesis testing. Part four then provides an axiomatic analysis of the concept of statistical evidence in the context of statistical hypothesis testing and it is shown that various substantial problems which were observed in the replication crisis can be attributed to purely axiomatic inconsistencies and conflicts with the likelihood principle. Based on the axiomatic analysis, it is shown that robust Bayesian methods, in particular robust Bayesian hypothesis tests provide a solution to some substantial problems with the reproducibility of research. Bayesian statistical solutions to the replication crisis are provided in the fifth part with a focus on widely used Bayesian statistical models in the biomedical sciences. New results demonstrate that the implicit error control of Bayesian hypothesis tests is comparable to frequentist tests based on p-values, and that a variety of Bayesian evidence measures attains reasonable type I error control and power in practice. Also, a shift towards the Hodges-Lehmann paradigm which advocates testing small interval instead of point null hypotheses is explored, and new theoretical results show that such a shift may be an appealing additional step towards increasing the reproducibility of science which has not received enough attention in the discussion about the validity of statistical hypotheses and the reproducibility of scientific research.</abstract>
+                    <subject>
+                        <topic>Bayes-Entscheidungstheorie</topic>
+                        <topic>Medizinische Statistik</topic>
+                        <topic>Medical statistics</topic>
+                        <topic>Bayesian statistics</topic>
+                        <topic>Biometry</topic>
+                        <topic>Biostatistics</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Department Mathematik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-21154</identifier>
+                    <identifier type="sys">HT021191332</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_2115</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2021-10-22</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_2115">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/2115/4/Dissertation_Riko_Kelter.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_2115"
+            DMDID="DMD_siegen_opus_2115">
+            <mets:fptr FILEID="FILE0_siegen_opus_2115"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

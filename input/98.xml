@@ -1,0 +1,54 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>98</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Development of a readout electronic for a Si-pixeldetector for application in a Compton camera</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Iskander</pc:foreName>
+            <pc:surName>Ibragimov</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">ASIC</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Compton camera</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Pixel detector</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">ASIC</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">530</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Compton cameras are very promising gamma-ray imaging systems, which have already found their application in astrophysics. Their use in nuclear medicine could offer higher sensitivity and better spatial resolution than existing mechanically-collimated gamma cameras, leading to a reduction of the radiation dose given to a patient. A Comp- ton camera consists basically of two detectors: a scatter detector, where Compton scatter- ing takes place, and a photoabsorber, where the scattered photons are absorbed. Silicon pixel detectors are the best choice for a scatter medium since they provide good position resolution, good energy resolution at room temperature and a relatively small Doppler broadening effect. Scintillation detectors are preferred for the use as a photoabsorber because of their greater stopping power. In the present work a low noise readout electronic for Si-pixeldetectors with 200µmÃ  200µm pixel size has been developed in CMOS technology. The electronic is self-triggering and delivers also a timestamp for the use in coincidences. Bonded to a Si-pixeldetector the readout circuit has been tested with gamma-ray sources; an electronic noise of about 49e − was obtained. A pixellated CsI detector read out by a Si PIN photodiode array has been studied as a photoabsorber.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Compton-Kameras sind sehr vielversprechende Gamma-Bildgebungssysteme, die bereits ihre Anwendung in der Astrophysik gefunden haben. Ihr Einsatz in der Nuklearmedizin konnte hohere Empfindlichkeit und bessere Ortsauflosung ermoglichen als vorhandene mechanisch-kollimierte Gammakameras. Dadurch kann die einem Patienten verabreichte Strahlendosis vermindert werden. Eine Compton-Kamera besteht grundsätzlich aus zwei Detektoren: einem Streuungsdetektor, wo die Compton-Streuung stattfindet, und einem Photoabsorber, wo die gestreuten Photonen absorbiert werden. Silizium-Pixeldetektoren sind die beste Wahl für ein Streuungsmedium, da sie gute Ortsauflosung, gute Energieauflosung bei Raumtemperatur und relativ kleine Dopplerverbreitung bieten. Szintillationsdetektoren werden für den Einsatz als Photoabsorber wegen ihres großeren Strahlungsbremsvermogens bevorzugt. In Rahmen dieser Arbeit wurde eine rauscharme Ausleseelektronik für Si-Pixeldetektoren mit einer Pixel-Große von 200µm Ã  200µm in der CMOS Technologie entwickelt. Die Auslese ist selbsttriggernd und liefert außerdem eine Zeitmarke zur Verwendung in Koinzidenzen. Gebondet an einem Si-Pixeldetector wurde die Ausleseelektronik mit Gammaquellen getestet; elektronisches Rauschen von ungefähr 49e − wurde gemessen. Außerdem wurde ein pixelierter CsI Detektor mit Photodiodenauslese auf moglichen Einsatz als Photoabsorber untersucht.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2005-01-25</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2004</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-982</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 7, Physik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="ibragimov.pdf" ddb:fileSize="3872396"/>
+   <ddb:checksum ddb:type="MD5">8e174426b3c28e148b2599ecbcb0f41d</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/98/1/ibragimov.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/98</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_508">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Dem </nonSort>
+                        <title>Untergang geweiht? : apokalyptische Traditionen des Urchristentums und ihre theologische Bedeutung in Vergangenheit wie Gegenwart</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Löttgers, Daniel</displayForm>
+                        <namePart type="family">Löttgers</namePart>
+                        <namePart type="given">Daniel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Unter den frischen Eindrücken der verheerenden Katastrophe in Japan und dem kriegerischen Geschehen in Libyen fällt es schwer, das Wort Apokalypse nicht im Hinterkopf zu haben. Ob es apokalyptische Zeichen sein mögen oder ob man diese Geschehnisse in einem apokalyptischen Sinn deuten soll, wird jeder für sich selbst beantworten müssen. 
+
+Fest steht, dass diese Begebenheiten Anlass zum Nachdenken über die Zukunft des Planeten Erde und der Menschheit geben. Diese atomaren Unglücksfälle, Naturkatastrophen und Kriege veranschaulichen eindrucksvoll, wie zerbrechlich das Weltgeschehen ist und dass es an der Zeit ist, dass der Mensch seine Existenz und sein Handeln neu überdenken muss. Apokalyptisches Denken nimmt in diesem Zusammenhang eine zentrale Rolle ein. Sowohl christliche als auch moderne Apokalypsen beziehen sich auf das Ende der Welt und appellieren an den Menschen, verantwortungsvoll zu handeln. Diese Arbeit beschäftigt sich zwar in erster Linie mit der exegetischen Untersuchung urchristlicher Apokalypsen und ihrer Bedeutung, verliert aber auch den Blick für die Moderne nicht aus den Augen und stellt dar, inwiefern der Mensch gemahnt wird, sein Handeln zu überdenken. Damals wie heute.</abstract>
+                    <subject>
+                        <topic>Apokalyptik</topic>
+                    </subject>
+                    <classification authority="ddc">230</classification>
+                    <classification authority="ioo" displayLabel="Fachbereich 1, Sozialwissenschaften - Philosophie - Theologie - Geschichte - Geographie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5080</identifier>
+                    <identifier type="sys">HT016779313</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_508</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2011-04-05</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_508">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/508/1/loettgers.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_508"
+            DMDID="DMD_siegen_opus_508">
+            <mets:fptr FILEID="FILE0_siegen_opus_508"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_474">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Perspektiven der Hochschuldidaktik</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Naumann, Werner</displayForm>
+                        <namePart type="family">Naumann</namePart>
+                        <namePart type="given">Werner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Siebert-Ott, Gesa</displayForm>
+                        <namePart type="family">Siebert-Ott</namePart>
+                        <namePart type="given">Gesa</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Stötzel, Berthold</displayForm>
+                        <namePart type="family">Stötzel</namePart>
+                        <namePart type="given">Berthold</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">KoSi - Werkstattbericht Hochschuldidaktik 1 stellt Arbeiten aus dem Bereich der Arbeitsstelle Hochschuldidaktik im Kompetenzzentrum der Universität Siegen vor.
+a) Hochschulpädagogik als Arbeitsprinzip, 
+b) Mehrsprachigkeit und Studienerfolg, 
+c) Hochschuldidaktik und Neuroscience</abstract>
+                    <subject>
+                        <topic>Hochschuldidaktik</topic>
+                        <topic>Hochschuldidaktik</topic>
+                        <topic>Mehrsprachigkeit</topic>
+                        <topic>Studienerfolg</topic>
+                        <topic>Neurodidaktik</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4743</identifier>
+                    <identifier type="sys">HT017119839</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_474</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_474">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/474/1/werkstattbericht_perspektiven.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_474"
+            DMDID="DMD_siegen_opus_474">
+            <mets:fptr FILEID="FILE0_siegen_opus_474"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,84 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>2104</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Crash simulation of woven fabric thermoplastic composites</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Crash-Simulation von gewebten thermoplastischen Faserverbundwerkstoffen</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Bilal</pc:foreName>
+            <pc:surName>Ahmad</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Verbundwerkstoff</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Thermoplastics composites</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Testing</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Material modeling</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Dynamic simulation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Thermoplastische Verbundwerkstoffe</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Werkstoffprüfung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Materialmodellierung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Dynamische Simulation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Fiber composite materials are frequently being used in automotive industry to meet the growing demand for fuel efficient passenger cars. Woven fabric thermoplastic composites materials provide high stiffness-to-weight, strength-to-weight and energy absorption-to-weight ratio at affordable mass production cost. To use these materials in structural components of passenger cars, the crashworthiness requirements must be met. To fulfill the crashworthiness requirements, dynamic FEM simulations are carried out as part of the product development process. However, the composite material behavior under dynamics loads is not fully understood. Furthermore, the state-of-the-art material models fail to predict the crash behavior of woven fabric composite material accurately which leads to under-utilization of the weight-saving-potential of these materials.&#13;
+The goal of this work was to develop an improved material model for the dynamics simulation of woven fabric thermoplastic composites. The material model must be independent of non-physical parameters and all parameters could be determined experimentally.&#13;
+In the framework of this work, the mechanical material properties were measured experimentally. The test data was used to identify discrepancies in state-of-the-art continuum damage mechanics material models. The in-plane shear damage behavior was improved and effects of tensile and compression strain on the shear behavior were quantified. High-speed test data was used to incorporate the strain rate-dependency in material model. The improved material model was implemented as user-material subroutine and simulation results were validated with component level drop tower crash tests.&#13;
+The potential for further improvements was identified by proposing the method to implement the measured size effect on the strength of materials. Stress-strain transformation was used to determine the failure points under multiaxial stress state. Finally, the viability of cohesive zone modeling approach was investigated to model the quasi-static axial crushing.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Um die wachsende Nachfrage nach kraftstoffsparenden PKW zu erfüllen, werden in der Automobilindustrie heutzutage zunehmend Faserverbundwerkstoffe eingesetzt.&#13;
+Thermoplastische Verbundwerkstoffe bieten eine hohe spezifische Steifigkeit, spezifische Festigkeit und spezifische Energieabsorption bei erschwinglichen Produktionskosten in der Massenfertigung. Um diese Materialien in Strukturbauteilen von PKWs einzusetzen, müssen diverse Anforderungen an die Crashsicherheit erfüllt werden. Um diese Anforderungen zu erfüllen, werden im Rahmen der Produktentwicklung dynamische FEM-Simulationen durchgeführt. Das Verhalten von Verbundwerkstoffen unter dynamischen Belastungen ist jedoch noch nicht vollständig bekannt. Darüber hinaus können die aktuellen Materialmodelle das Crashverhalten von gewebten Verbundwerkstoffen nicht genau vorhersagen, was dazu führt, dass das Gewichtseinsparungspotenzial dieser Materialien nicht voll ausgeschöpft wird.&#13;
+Das Ziel dieser Arbeit war es, ein verbessertes Materialmodell für die dynamische Simulation von gewebten thermoplastischen Verbundwerkstoffen zu entwickeln. Da das Materialmodell auf nicht-physikalische Parameter verzichtet, kann es vollständig mittels experimentell erhobener Daten kalibriert werden.&#13;
+Im Rahmen dieser Arbeit wurden die mechanischen Materialeigenschaften experimentell ermittelt. Die resultierenden Versuchsdaten wurden verwendet, um Diskrepanzen in modernen kontinuumsmechanischen Materialmodellen zu identifizieren. Das Schädigungsgesetz für Schub wurde verbessert und die Auswirkungen von Zug- und Druckbelastungen auf das Schubverhalten wurden quantifiziert. Hochgeschwindigkeits-Testdaten wurden verwendet, um die Abhängigkeit von der Dehnungsrate in das Materialmodell einzubeziehen. Das Materialmodell wurde als User-Material-Subroutine implementiert und die Simulationsergebnisse wurden mit Fallturm-Crashtests auf Komponentenebene validiert.&#13;
+Die Implementierung des beobachteten Größeneffekts auf die Festigkeit der geprüften Materialien wurde als Verbesserungspotenzial für zukünftige Arbeiten identifiziert. Die Spannungs-Dehnungs-Transformation wurde verwendet, um die Versagenspunkte unter multiaxialem Spannungszustand zu bestimmen. Zum Schluss wurde die Durchführbarkeit des Modellierungsansatzes für kohäsive Zonen untersucht, um den quasistatischen Axialcrash zu modellieren.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution>
+         <cc:name>universi – Universitätsverlag Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Am Eichenhang 50, 57076 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Xiangfan</pc:foreName>
+            <pc:surName>Fang</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2021-07-27</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2021</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-21043</dc:identifier>
+   <dc:source xsi:type="ddb:ISBN">978-3-96182-108-2</dc:source>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dcterms:isPartOf xsi:type="ddb:noScheme">Siegener Schriftenreihe Automobiltechnik;  7</dcterms:isPartOf>
+   <dc:rights xsi:type="dcterms:URI">http://creativecommons.org/licenses/by-sa/4.0/</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Fahrzeugtechnik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="FLB_7_Dissertation_Ahmad.pdf" ddb:fileSize="15771384"/>
+   <ddb:checksum ddb:type="MD5">d4d2d53fc0ca8cecd7bddc5c14db09ef</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/2104/3/FLB_7_Dissertation_Ahmad.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/2104</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

@@ -1,0 +1,73 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>911</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Efficient SPH-based simulation and rendering of fluid transport dynamics</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Effiziente SPH basierte Simulation und Darstellung von Fluid Transport Dynamiken</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Jens</pc:foreName>
+            <pc:surName>Orthmann</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Transporttheorie</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">SPH</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Ray Casting</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Adaptive Sampling</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Fluid Simulation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Fluid Transport</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Transported substances, such as salt, water colors and detergents, not only change fluid properties and the fluid’s natural appearance, but they also interact with surrounding materials. Naturally, physically-based simulation of transport phenomena can be an important tool for visual effects. However, even though Smoothed Particle Hydrodynamics (SPH) provide state-of-the art solutions for fluid motion in unbounded free-surface scenarios, fluid transport phenomena have seldom been addressed. Hence, the main aim of this work is to advance SPH-based fluid animation by developing efficient simulation and rendering mechanisms for fluid transport processes. Since properties of SPH are linked to field interpolations, this thesis proposes three novel sampling techniques that target an efficient reconstruction of quantity fields:&#13;
+&#13;
+First, this work addresses issues that arise from coupling surface transport and bulk transport. Therefore, the surface is modeled by stably sampling a surface delta function with bulk particles, which results in a consistent representation of quantity fields in bulk and on surfaces. The embedded surface model fully avoids back-and-forth interpolation between bulk and surface, and, additionally, it lays the foundation for stable and symmetric boundary fluxes.&#13;
+&#13;
+Second, the demand for high surface resolution leads to inefficiencies that are counteracted by an adaptive particle sampling within homogeneous regions in the fluid’s bulk. Time coherent sampling, which is achieved via smooth blending of particle levels, reintroduces robustness, which is especially needed for incompressible fluids.&#13;
+&#13;
+Third, the work features a sampling mechanism for an instant high-quality ray casting of particle fields. A greedy approach reveals strict error bounds for the underlying adaptive sampling mechanism and triggers cell merging in order to ensure cache-coherent particle access.&#13;
+&#13;
+Error predictions stabilize integration time steps during simulation and they also preserve sharp features during ray casting. In addition to the aforementioned contributions, this thesis features a fully data-parallel implementation on currently-available Graphic Processing Units, but without limiting algorithms to hardware-specific features.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Transportierte Substanzen, wie beispielsweise Salz, Wasserfarben und Waschmittel, ändern nicht nur die Eigenschaften und das Erscheinungsbild von Flüssigkeiten, sondern interagieren auch mit den sie umgebenden Materialien. Besonders die physikalisch-basierte Simulation dieser Transport-Phänomene kann ein wichtiges Werkzeug für visuelle Effekte sein. Obwohl Smoothed Particle Hydrodynamics (SPH) State-of-the-Art Lösungen für die Bewegung von Flüssigkeiten im Zusammenspiel mit offenen Simulationsbieten und freien Oberflächen bieten, stellen Aspekte des Flüssigkeitstransportes bisher ein Desiderat der Forschung dar. Das Hauptziel dieser Promotionsarbeit ist es, mittels effizienten Simulations- und Rendering Mechanismen für Flüssigkeitstransporteprozesse, die bisherige SPH-basierte Forschung im Bereich der Flüssigkeitsanimationen voranzutreiben. Da die Eigenschaften von SPH direkt an Feldinterpolationen gekoppelt sind, erarbeitet die vorliegende Qualifikationsarbeit drei neue Sampling-Techniken für eine effiziente Rekonstruktion von Partikelfeldern:&#13;
+&#13;
+Erstens werden die bestehenden Transportgleichungen um einen entsprechenden Oberflächentransport erweitert. Um die Kopplung zwischen Bulk und Oberfläche zu erreichen wird die Oberfläche  mittel einer impliziten Deltafunktion beschrieben. Das Sampling der impliziten Oberfläche mit Volumenpartikeln führt zu einer konsistenten Beschreibung der quantitativen Felder im Volumen und an der Oberfläche. Das eingebettete Oberflächenmodell vermeidet dabei eine vor-und-zurück Interpolation zwischen Volumen und Oberflächefeldern und legt zudem das Fundament für stabile und symmetrische Randbedingungen.&#13;
+&#13;
+Zweitens wird durch ein adaptives Sampling in homogenen Bereichen der hohen Partikelzahl an der Oberfläche entgegengewirkt: Ein zeitkohärentes Sampling, welches durch ein kontinuierliches Überblenden von Partikelauflösungen erreicht wird, führt die nötige Robustheit ein, die besonders im Zusammenhang mit inkompressiblen Flüssigkeiten benötigt wird.&#13;
+&#13;
+Drittens, stellt die Arbeit einen Samplingmechanismus für eine hochqualitätige Strahlenverfolgung von Partikelfelder ohne Vorverarbeitung vor. Der beschriebene Greedy-Ansatz enthüllt strikte Fehlergrenzen für den darunterliegenden adaptiven Samplingmechanismus und stellt einen Cache-kohärenten Partikelzugriff sicher.&#13;
+&#13;
+Fehlervorhersagen stabilisieren dabei die Integrations-Zeitschritte während der Simulation, und erhalten Konturen während der Strahlenverfolgung. Abgesehen von den technischen Neuerungen bietet die vorliegende Dissertation eine komplette datenparallele Implementierung auf aktuell verfügbaren Graphikkarten (GPUs), ohne dabei die verwendeten Algorithmen auf hardware-spezifische Aspekte zu beschränken.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2014-11-14</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2014</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-9113</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Bildinformatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Jens_Orthmann.pdf" ddb:fileSize="11516493"/>
+   <ddb:checksum ddb:type="MD5">3eea95e538efdeec0949c740f15cf1da</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/911/1/Dissertation_Jens_Orthmann.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/911</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

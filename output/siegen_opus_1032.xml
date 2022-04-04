@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1032">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Der </nonSort>
+                        <title>institutionelle Reformprozess des politischen Systems Italiens : zwischen Path Dependency und Change Leadership</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Edelmann, Jana</displayForm>
+                        <namePart type="family">Edelmann</namePart>
+                        <namePart type="given">Jana</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Italiens politische Elite versuchte mehr als 30 Jahre vergeblich, das politische System Italiens grundlegend und in pfadabweichender Weise zu reformieren. Dem jungen Ministerpräsidenten Matteo Renzi dagegen gelang dies in nur zwei Jahren. Der Senat stimmte seiner eigenen Abschaffung zu, das neue Wahlrecht wird endlich klare Mehrheiten herstellen. Anstelle von Machtdiffusion und Proporz stellt das unter ihm reformierte Institutionensystem nun auf Machtkonzentration und Effizienz ab. Wie Jana Edelmann nachweist, gelang dies dem Change Leader Renzi aufgrund seines Innovationswillens, seiner persönlichen Führungsstärke und Machtposition und wegen seines Konsensbildungsgeschicks.
+Mit Hilfe des neu entwickelten Change Leader Konzeptes wird hier also erklärt, aus welchem Grund das dysfunktionale politische System Italiens mehr als drei Dekaden trotz zahlreicher Reformanläufe nicht verändert werden konnte, während der Ministerpräsident Renzi seit seinem Amtsantritt 2014 erfolgreich darin ist, endlich eine neue institutionelle Handlungslogik des politischen Systems zu begründen.</abstract>
+                    <subject>
+                        <topic>Italien</topic>
+                        <topic>Pfadabhängigkeit</topic>
+                        <topic>politischer Wandel</topic>
+                        <topic>politische Führung</topic>
+                        <topic>Geschichte 1943-2015</topic>
+                        <topic>Change Leadership</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät I Philosophische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-10320</identifier>
+                    <identifier type="sys">HT019064975</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1032</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2016-06-28</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1032">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1032/1/Dissertation_Jana_Marjam_Edelmann.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1032"
+            DMDID="DMD_siegen_opus_1032">
+            <mets:fptr FILEID="FILE0_siegen_opus_1032"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

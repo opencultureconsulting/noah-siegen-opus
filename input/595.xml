@@ -1,0 +1,90 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>595</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Customizable visualization in the context of metabolic networks</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Höchst anpassbare Visualisierung im Kontext von Stoffwechselnetzwerken</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Peter</pc:foreName>
+            <pc:surName>Droste</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Visualisierung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Omix</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Modellierung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Netzwerk</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Fluxomics</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Biochemisches Netzwerk</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Visualization</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Biochemical Network</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Scripting language</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Semi-automatic layout</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Systems Biology</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Systems biology has the ambitious goal to obtain a holistic understanding of the biochemical processes in living organisms. In order to reach this goal experimental studies coupled with computer simulations are applied in an iterative process. Commonly, biologic processes are considered as networks describing various substances in the cell as well as substance transfer. These so-called metabolic networks are subject of many studies that are made to gain insights into the cellular metabolism.&#13;
+Nowadays, modern high-throughput methods as well as high-performance computer simulation lead to a huge amount of data concerning metabolic networks. Post-processing these data is a big challenge for today's sience. In this situation, visualization becomes more and more important. This thesis deals with the visualization of data in metabolic networks. Therefore, new approaches are developed in four different topics:&#13;
+&#13;
+Network drawing:&#13;
+A drawing editor for biochemical network is developed bringing high usability and supporting special requirements of metabolic networks.&#13;
+&#13;
+Network layout:&#13;
+In combination with metabolic networks, de facto standards concerning the arrangement of network components have arisen in the last decades. These conventions cannot be met by available automatic layout algorithms. Semi-automatic network layout approaches are developed that support drawing networks according to established standards.&#13;
+&#13;
+Data visualization:&#13;
+For the visualization of data in networks, a new approach is introduced in this thesis: the script-based visualization. A new scripting language is developed that allows the users to visualize data according to individual requirements and preferences.&#13;
+&#13;
+Extensibility:&#13;
+In order to allow adaptability to future application fields and requirements, a plug-in interface is indispensable. The conceptual design of this interface as well as existing modeling and 3D visualization plug-ins are introduced.&#13;
+A large amount of example applications brought by this thesis reveals the high benefit of the here introduced approaches for systems biology.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die Systembiologie hat das ehrgeizige Ziel, die biologischen Zusammenhänge in lebenden Organismen ganzheitlich zu verstehen. Um dieses Ziel zu erreichen, werden experimentelle Studien gekoppelt mit Computersimulation in einem iterativen Prozess eingesetzt. Biologische Prozesse werden gemeinhin als Netzwerke aufgefasst, welche die unterschiedlichen Stoffe in einer Zelle und die Stoffübergänge beschreiben. Solche sogenannten metabolischen Netzwerke sind Gegenstand vieler Studien zum Verständnis des zellulären Stoffwechsels.&#13;
+Moderne Hochdurchsatz-Techniken und Hochleistungs-Computersimulation führen heutzutage zu Unmengen von Daten, welche diese Stoffwechsel-Netzwerke betreffen. Die Auswertung dieser Daten stellt eine große Herausforderung für die heutige Forschung dar. Visualisierung ist hier ein bedeutendes Hilfsmittel. Diese Doktorarbeit befasst sich mit der Visualisierung von Daten in metabolischen Netzwerken. Dabei werden neuartige Ansätze in vier verschiedenen Themengebieten entwickelt:&#13;
+&#13;
+Zeichnen von Netzwerkdiagrammen:&#13;
+Es wird ein Zeichenwerkzeug für Stoffwechsel-Diagramme entwickelt, welches eine hohe Anwenderfreundlichkeit aufweist und die speziellen Anforderungen metabolischer Netzwerke unterstützt.&#13;
+&#13;
+Netzwerklayout:&#13;
+Im Zusammenhang mit metabolischen Netzwerken sind de facto Standards für das Anordnen der Netzwerkkomponenten entstanden, die von gängigen Netzwerklayout-Algorithmen nicht unterstützt werden. Es werden semi-automatische Layouttechniken entwickelt, welche das Zeichnen von Netzwerken nach konventionellen Standards unterstützen.&#13;
+&#13;
+Datenvisualisierung:&#13;
+Zur Visualisierung von Daten in Netzwerkdiagrammen wird eine neuartige Herangehensweise vorgestellt: die skript-basierte Visualisierung. Es wird eine Skriptsprache eingeführt, mit der Anwender die Datenvisualisierung nach eigenen Anforderungen programmieren können.&#13;
+&#13;
+Erweiterbarkeit durch Plugins:&#13;
+Damit ein Visualisierungswerkzeug an zukünftige Anforderungen anpassbar bleibt ist eine Plugin-Schnittstelle unumgänglich. Der Entwurf dieser Schnittstelle und bestehende Modellierungs- und 3D-Visualisierungs-Plugins werden vorgestellt.&#13;
+Eine hohe Anzahl an Beispielanwendungen in der Arbeit macht den großen Nutzen der hier entwickelten neuen Ansätze für die Systembiologie deutlich.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2011-12-01</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2011</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-5958</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV - Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="droste.pdf" ddb:fileSize="46441048"/>
+   <ddb:checksum ddb:type="MD5">f50e4733d73ae2251ca1e623d86bbab8</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/595/1/droste.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/595</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_550">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Energy dependent charge spread function in a dedicated synchrotron beam pnCCD detector</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Yousef, Hazem</displayForm>
+                        <namePart type="family">Yousef</namePart>
+                        <namePart type="given">Hazem</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Um die Größe der Elektronenwolke in einem pnCCD-Röntgendetektor auflösen zu können, wurden an der EDR-Beamline des Synchrotrons BESSY II in Berlin mit einem Nadelstrahl die Pixelkanten des Detektors abgetastet.
+Der Radius der Elektronenwolke wird in Abhängigkeit von der Photonenenergie und des Einstrahlwinkels des Röntgenstrahls zur Oberfläche des Detektorchips analysiert. Die Messungen werden durch entsprechende numerische Modelle in einer Simulation bestätigt.
+Für verschiedene Einstrahlrichtungen ergeben sich aus der Spur der Röntgenstrahlung im Volumen des Detektorchips unterschiedliche Verteilungen der Elektronenwolke über mehrere Pixel. Dazu wurde ein kollimierter Röntgenstrahl der Energie 12,4 keV unter den Eingangswinkeln 30° und 40° benutzt.
+Es wird gezeigt, dass die zwei Effekte zur Verbreiterung der Elektronenwolke,  Diffusion und elektrostatische Abstoßung, aus den Messdaten separiert werden können. Desweiteren wird beobachtet, dass die elektrostatische Abstoßung die Verbreiterung der Elektronenwolke während der Drift der Elektronen dominiert.
+Aus den Daten bei senkrechter Bestrahlung wird der Radius der Elektronenwolke in Abhängigkeit von der Photonenenergie bestimmt. Die Ergebnisse zeigen, dass im Energiebereich von (5,0 - 21,6) keV die Elektronenwolke kleiner als die Pixelgröße von (75 * 75) µm2 ist.</abstract>
+                    <abstract type="content" lang="eng">A scan on the pixel edges is the method which is used to resolve the electron cloud size in the pixel array of the pnCCD detector. The EDR synchrotron radiation in BESSY is the source of the X-ray photons which are used in the scans. The radius of the electron cloud as a function of the impinging photon energy is analyzed. The angle of incidence of the X-ray beam is employed in the measurements. The measurements are validated by the numerical simulation models.
+The inclined X-ray track leads to distribute the electron clouds in a certain number of pixels according to the incident angle of the X-ray beam. The pixels detect different electron clouds according to their generation position in the detector bulk. A collimated X-ray beam of 12.14 keV is used in the measurements with 30o and 40o entrance angles. It is shown that the two factors that leads to expand the electron clouds namely the diffusion and the mutual electrostatic repulsion can be separated from the measured electron clouds. It is noticed as well that the influence of the mutual electrostatic repulsion dominates the cloud expansion over the diffusion process in the collection time of the detector. 
+The perpendicular X-ray track leads to determine the average radius of the electron cloud per photon energy. The results show that the size of the electron clouds (RMS) in the energy range of [5.0-21.6] keV is smaller than the pixel size.</abstract>
+                    <subject>
+                        <topic>CCD-Sensor</topic>
+                        <topic>Halbleiter-Detektor</topic>
+                        <topic>Elektronenwolke</topic>
+                        <topic>Parallaxe</topic>
+                        <topic>Semiconductor Detector</topic>
+                        <topic>pnCCD Detector</topic>
+                        <topic>Charge Spread Function</topic>
+                        <topic>Sub-pixel Resolution</topic>
+                        <topic>Parallax Effect</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5508</identifier>
+                    <identifier type="sys">HT016976576</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_550</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2011-05-19</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_550">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/550/1/yousef.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_550"
+            DMDID="DMD_siegen_opus_550">
+            <mets:fptr FILEID="FILE0_siegen_opus_550"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

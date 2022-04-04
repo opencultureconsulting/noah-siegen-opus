@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1103">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Genreübergreifende phantastische Jugendliteratur am Beispiel der Luna-Chroniken von Marissa Meyer</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Höchst, Marie Nadine</displayForm>
+                        <namePart type="family">Höchst</namePart>
+                        <namePart type="given">Marie Nadine</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">masterThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Kinder- und Hausmärchen der Brüder Grimm sind weltweit bekannt und erfreuen sich noch heute einer großen Leserschaft. Die kurzen Erzählungen berichten vom Glück der Glücklosen, vom Triumph des Guten über das Böse und von schönen Prinzessinnen und galanten Prinzen. Sie halten sich also an bekannte Muster und erfüllen die Erwartungen ihrer Leserinnen und Leser. In Marissa Meyers Jugendbuchserie Die Luna-Chroniken wird mit ebendiesen bekannten Mustern gebrochen. So ist das Mädchen Aschenputtel in ihren Romanen keine schöne Prinzessin, die in prachtvollen Kleidern den königlichen Ball besucht und am Ende ihren Prinzen heiratet, sondern eine Mechanikerin, welche als Cyborg von der Gesellschaft verachtet wird und in einer futuristischen Welt gegen die tyrannische Herrschaft einer außerirdischen Königin kämpft. Handlungen bekannter Grimm’scher Märchen wie Aschenputtel, Rotkäppchen, Rapunzel und Schneewittchen werden in den Luna-Chroniken mit Elementen der Science Fiction vermischt. In der vorliegenden Arbeit werden zunächst genrespezifische Merkmale der phantastischen Literatur, der Science Fiction und des europäischen Volksmärchens vorgestellt, um zu untersuchen, inwieweit Meyers Romanserie als genreübergreifende phantastische Jugendliteratur bezeichnet werden kann.</abstract>
+                    <subject>
+                        <topic>Jugendliteratur</topic>
+                        <topic>Marissa Meyer</topic>
+                        <topic>Die Luna-Chroniken</topic>
+                        <topic>Genreübergreifende Literatur</topic>
+                        <topic>Aschenputtel</topic>
+                        <topic>Brüder Grimm</topic>
+                        <topic>The Lunar Chronicles</topic>
+                        <topic>Cinderella</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät I Philosophische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11038</identifier>
+                    <identifier type="sys">HT019244853</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1103</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaMasterThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1103">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1103/1/Masterarbeit_Marie_Nadine_Hoechst.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1103"
+            DMDID="DMD_siegen_opus_1103">
+            <mets:fptr FILEID="FILE0_siegen_opus_1103"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

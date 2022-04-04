@@ -1,0 +1,74 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1186">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Entwicklung eines räumlich verteilten, konzeptionellen Niederschlag-Abfluss-Modells für den Einsatz in Schnee-dominierten datenarmen Gebieten</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Development of a spatially distributed, conceptual rainfall-runoff model for the use in snow-dominated poor-data areas</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kahl, Michaela</displayForm>
+                        <namePart type="family">Kahl</namePart>
+                        <namePart type="given">Michaela</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In vielen ariden Nachbarregionen kontinentaler Hochgebirge ist Wasser aus der Schnee- und Gletscherschmelze die hauptsächliche wasserwirtschaftliche Ressource. Zur Modellierung des Schneeschmelz-Abfluss-Prozesses werden Niederschlag-Abfluss-Modelle eingesetzt, die spezielle Module für die Abbildung der Schnee- und Gletscherschmelze haben. Die Bestimmung der räumlichen Verteilung der benötigten meteorologischen Eingangsgrößen ist bisher jedoch aufgrund der hohen morphologischen Variabilität und der i. d. R. geringen Messnetzdichte in den meisten Hochgebirgsregionen sehr schwierig und mit großen Unsicherheiten behaftet.
+Die vorliegende Arbeit hat zum Ziel, den Einsatz der heute verfügbaren globalen Fernerkundungs- und Reanalysedaten als meteorologische Eingangsgrößen zur Modellierung des Niederschlag-Abfluss-Prozesses zu untersuchen. Das Haupteinsatzgebiet des Modells liegt in Schnee-dominierten datenarmen Einzugsgebieten.
+Zur Modellierung des Schneeschmelz-Abfluss-Prozesses wurde das weltweit für den Einsatz in Schnee-dominierten Gebieten etablierte „Snowmelt Runoff Model“ (SRM) von Martinec (1975) zu einem räumlich verteilten, konzeptionellen Niederschlag-Abfluss-Modell (rSRM) weiterentwickelt. Die drei wesentlichen Eingangsgrößen des Modells sind die Lufttemperatur, die Ausdehnung der Schneedecke und der Niederschlag. Zur Aufbereitung der Landoberflächentemperaturen aus Daten des „Moderate-Resolution Imaging Spectroradiometer“ (MODIS) wurde eine neue Methode zur Rekonstruktion von räumlich verteilten Tagesmitteltemperaturen unter zur Hilfenahme einer Referenzstation entwickelt. Zur Bestimmung des Schneebedeckungsgrads wurde ein Verfahren weiterentwickelt, mit welchem die räumlichen Datenlücken in den täglichen MODIS-Datensätzen geschlossen werden können. Der Niederschlag wurde aus einem Ensemble aus Fernerkundungs- und Reanalysedaten abgeleitet. Hierzu wurde als deterministisches Modell ein künstliches neuronales Netz, als probabilistische Methode der „Model Conditional Processor“ und eine Kombination beider Ansätze zur Ermittlung des optimalen Datensatzes untersucht. 
+Zur Beurteilung wurden die einzelnen Methoden in den Schweizer Alpen bei guter Datenlage mit Bodenstationsdaten verglichen. Anschließend wurden die Verfahren zur praktischen Anwendung in ein datenarmes Gebiet übertragen. Zur Validierung der Modellierungsergebnisse erfolgte die Modellierung des Niederschlag-Abfluss-Prozesses für zwei Schweizer und ein datenarmes, Schnee-dominiertes Einzugsgebiet mit rSRM, HEC-HMS und einem künstlichen neuronalen Netz.
+Im Rahmen dieser Arbeit konnte gezeigt werden, dass die verfügbaren globalen Fernerkundungs- und Reanalysedaten als Eingangsgrößen zur Modellierung des Niederschlag-Abfluss-Prozesses für Schnee-dominierte Einzugsgebiete hervorragend geeignet sind. Wesentlich ist dabei eine räumlich und zeitlich vollständige Rekonstruktion der infolge Wolkenbedeckung häufig unvollständigen Fernerkundungsdaten für die Temperatur und den Schneebedeckungsgrad. Die in der Arbeit entwickelten Rekonstruktionsverfahren liefern räumlich hoch aufgelöste, tägliche Datensätze, welche zur genaueren Abbildung des Schneeschmelzprozesses innerhalb von rSRM entscheidend beitragen.</abstract>
+                    <abstract type="content" lang="eng">In many neighboring regions of continental high mountain ranges water from snow and glacier melt is the main water resource. The snowmelt-runoff process is usually modeled by rainfall-runoff models, which have special routines for the simulation of the snow and glacier melt. However, the determination of the spatial distribution of the required meteorological input data from ground stations is very difficult and is subject to great uncertainties due to the high morphological variability and the generally low station density in most high mountain regions.
+The aim of this thesis is to evaluate the use of today’s global remote sensing and reanalysis data as meteorological input for the modeling of the rainfall-runoff process with a special focus on snow-dominated catchments with poor data availability.
+To model the snowmelt-runoff process, the Snowmelt Runoff Model (SRM) developed by Martinec (1975) that has been established worldwide for use in snow-dominated areas was developed further into a spatially distributed, conceptual rainfall-runoff model (rSRM). The three main input variables of the model are: air temperature, snow covered area and precipitation. A new method for reconstructing MODIS land surface temperatures has been developed, which provides the required spatially distributed daily mean temperatures needing only one reference ground station. Accordingly, existing approaches have been refined in order to close the spatial gaps in the daily MODIS snow-cover data-sets. The precipitation input was derived from an ensemble of remote sensing and reanalysis data. For this purpose, an artificial neural network as a deterministic method, the Model Conditional Processor as a probabilistic method and a combination of both approaches were used to determine the optimal data-set.
+To evaluate the methods, a comparison against data of ground stations was carried out in the Swiss Alps. Subsequently, the methods were transferred to a poor-data catchment in order to test the practical applicability. To validate the model results, the rainfall-runoff process was simulated for two Swiss and one snow-dominated poor-data catchment with rSRM, HEC-HMS and an artificial neural network.
+In the framework of this thesis, it could be demonstrated that the available global remote sensing and reanalysis data is extremely suitable as meteorological input for the modeling of the rainfall-runoff process in snow-dominated catchments. Of particular importance is a complete reconstruction of the remote sensing data, which is often incomplete because of cloud coverage, for the air temperature and fractional snow cover distribution. The reconstruction methods developed in this thesis provide daily data-sets with high spatial resolution that contribute decisively to a more accurate simulation of the snowmelt process within rSRM.</abstract>
+                    <subject>
+                        <topic>Hydrologie</topic>
+                        <topic>Niederschlag-Abfluss-Modell</topic>
+                        <topic>Fernerkundungsdaten</topic>
+                        <topic>Reanalysedaten</topic>
+                        <topic>MODIS</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Forschungsinstitut Wasser und Umwelt - fwu"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11867</identifier>
+                    <identifier type="sys">HT019406917</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1186</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2017-04-18</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1186">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1186/1/Dissertation_Michaela_Kahl.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1186"
+            DMDID="DMD_siegen_opus_1186">
+            <mets:fptr FILEID="FILE0_siegen_opus_1186"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

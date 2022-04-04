@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_799">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Essays on central bank forecasting</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Aufsätze zum Thema Zentralbankprognosen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schultefrankenfeld, Guido</displayForm>
+                        <namePart type="family">Schultefrankenfeld</namePart>
+                        <namePart type="given">Guido</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">In this doctoral thesis consisting of four thematically linked essays, the informational and political aspects of central bank forecasts, in particular of density forecasts for inflation and output growth, are analyzed using statistical methods. The evaluation of the information content of macroeconomic risk forecasts, the analysis of the determinants of the shape of
+inflation fan charts, the impact of the interest rate assumption on the forecast accuracy of central bank forecasts and the relevance of uncertainty and risk forecasts for monetary policy decisions are the pillars of this work. Surveys of the international practice of central bank forecasting with respect to these issues complement the empirical parts of the studies.</abstract>
+                    <abstract type="content" lang="ger">In der aus vier thematisch verbundenen Aufsätzen bestehenden Dissertation werden Informations- und Politikaspekte von Zentralbankprognosen, insbesondere von Dichteprognosen für Inflation und Wirtschaftswachstum, mit statistischen Methoden analysiert. Die Untersuchung des Informationsgehaltes von qualitativen und quantitativen Risikoprognosen, der Bestimmungsgründe für Schiefe und Weite von Fächerdiagrammen (&quot;Fan Charts&quot;), der Auswirkungen unterschiedlicher Zinsannahmen auf die Güte von Dichteprognosen für Inflation und Wirtschaftswachstum sowie der Relevanz von Prognoseunsicherheiten und -risiken im geldpolitischen Entscheidungsprozess bilden die Kernpunkte der Arbeit. Übersichtsbeiträge zu Gemeinsamkeiten, Unterschieden und Besonderheiten der Prognosepraktiken von Zentralbanken ergänzen die Studien.</abstract>
+                    <subject>
+                        <topic>Inflation</topic>
+                        <topic>Dichteprognose</topic>
+                        <topic>Risikoprognose</topic>
+                        <topic>Prognoseunsicherheit</topic>
+                        <topic>Zinspfad</topic>
+                        <topic>inflation</topic>
+                        <topic>density forecast</topic>
+                        <topic>risk forecast</topic>
+                        <topic>forecast uncertainty</topic>
+                        <topic>interest rate path</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät III - Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-7992</identifier>
+                    <identifier type="sys">HT018276520</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_799</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2014-04-01</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_799">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/799/1/schultefrankenfeld.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_799"
+            DMDID="DMD_siegen_opus_799">
+            <mets:fptr FILEID="FILE0_siegen_opus_799"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

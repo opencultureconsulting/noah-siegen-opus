@@ -1,0 +1,59 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>817</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Analyse von Maschinendaten zur Entscheidungsunterstützung bei der Produktverbesserung durch die Anwendung eines Feedback Assistenz Systems</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Susanne</pc:foreName>
+            <pc:surName>Dienst</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Produktentwicklung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">product development</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">feedback assistance system (FAS)</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">knowledge discovery in databases</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">product life cycle</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Der technologische Fortschritt führt dazu, dass immer mehr Daten erzeugt und verwaltet werden. Dieser Trend lässt sich auch im Kontext des Produktlebenszyklus beobachten. Hier werden während der Nutzungsphase in der Umgebung und am Produkt selbst mit steigender Tendenz Daten mittels Sensoren automatisch erfasst. Aber auch manuell werden durch Betreiber oder Servicemitarbeiter immer mehr Daten in Informationssysteme eingegeben. Diese Daten werden für einen spezifischen Verwendungszweck, wie die Abrechnung von Dienstleistungen genutzt und anschließend archiviert. Dabei kann aus diesen Daten über ihren eigentlichen Verwendungszweck hinaus Wissen zur Verbesserung von Produkten generiert werden, wofür die Basis in der Produktentwicklung gelegt wird. &#13;
+Eine erfolgreiche Produktentwicklung führt zu qualitativ hochwertigen Gütern und zufriedenen Kunden und damit zu hohen Verkaufszahlen der Güter, was den Unternehmenserfolg auf dem Markt ausmacht. Daher ist die Verbesserung der Produktentwicklung immer wieder Gegenstand der Forschung. Aktuell werden hierzu im Produktlebenszyklus der Produktentwicklung nachgelagerte Phasen, speziell die Nutzungsphase kaum betrachtet. Das Ziel der vorliegenden Arbeit ist es daher einen Wissenstransfer zu realisieren, in dem aus den Produktnutzungsdaten anwendbares Wissen in die Produktentwicklung zurückgeführt wird. Der Fokus liegt dabei auf Industriegütern, bei denen die Feedbackdaten strukturiert in verschiedenen Datenquellen vorliegen und ein enger Kontakt zwischen Kunden und Herstellern gegeben ist. &#13;
+Zur Verwaltung und Analyse der Daten wird ein Feedback Assistenz System (FAS) konzipiert und entwickelt. Hier werden die Daten aus den verschiedenen Quellen hin transferiert und in ein einheitliches Datenbankschema übertragen. Auf diese zentrale Datenbasis lassen sich wissensbasierte Methoden anwenden u.a. aus dem Bereich des Data Mining. Diese assistieren dem Produktentwickler bei der Verbesserung bestehender Produktgenerationen. Die erfassten und umfangreichen Datenmengen werden verdichtet und Muster werden aufgedeckt, die der Bereitstellung von entscheidungsrelevantem und intuitiv verständlichem Wissen für den Produktentwickler dienen. Im Rahmen der Produktverbesserung sind hierzu explizit drei Bereiche identifiziert worden, in denen die Feedbackdaten erfolgsbringend eingesetzt werden können: die Überprüfung der Kundenanforderungen, die Fehlerdiagnose und die Bewertung von Verbesserungsalternativen. Mittels der Feedbackdaten werden Kosten- und Zeitindikatoren aufgestellt und berechnet zur Überprüfung der Kundenanforderungen mit dem Ziel bei nicht erfüllen den Produktverbesserungsprozess auszulösen. Sodann wird während der Analysephase der Produktverbesserung eine Methode zur Diagnose von Schwachstellen und Fehlerursachen entwickelt und angewandt. Ziel ist hier die Aufdeckung von Verbesserungspotentialen und somit die Senkung der Fehleranfälligkeit von Produkten. Zur Verbesserung des Produktes stehen dem Produktentwickler eine Vielzahl von Alternativen zur Verfügung, die bewertet werden müssen, nach den Zielsetzungen aus der Produktentwicklung und/oder mittels der Feedbackdaten. Hierzu ist eine Methode aus der multikriteriellen Entscheidungstheorie konzipiert und umgesetzt worden.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Technological progress leads to an increasing number of generated and managed data. This trend can also be observed in the context of the product life cycle. During the use phase data are collected from the product automatically, with increasing tendency, by means of on-site, embedded or mounted sensors. In addition, the operator or service staffs insert substantial data into information systems. The accumulated data are used for specific purposes, such as billing of services, and afterwards are archived in the repositories. Knowledge can be generated from the collected data with the intention to support development and especially improvement of the product. &#13;
+A successful product development leads to high-quality goods and customer satisfaction which ultimately influences on the company’s success in the market with large scale sales of goods. Hence, the product development is consistently a subject of research. Currently in the product life cycle, the subsequent phases, especially the use phase is not considered. The aim of this work is to realize a knowledge transfer where applicable knowledge from the product use data is fed back into product development. The focus is on industrial goods, where the feedback data are structured in multiple data sources, and also manufacturers and customers are in close contacts.  &#13;
+For the management and analysis of data, a feedback assistance system (FAS), is designed and developed. Here the data from different sources are transferred into a unified database. On this data layer, knowledge-based methods can be applied i.e. from the field of data-mining. These methods should assist product developers in the improvement of existing product generations. The captured, extensive amounts of data are, therefore, condensed, and patterns are detected. As a result, the FAS provide the product developer with decision-relevant and intuitively under-standable knowledge. In the scope of product improvement, important is to determine the areas in which the feedback data can be used successfully. So for the FAS, a combination of methods for three main applications will be integrated (1) verification of customer requirements, (2) fault diagnosis, and (3) evaluation of improvement potential. Cost and time indicators are deployed for the verification of requirements which consequently reveal the non-achieved objectives of the product improvement process. So the diagnosis should be applied to detect weak points and failure causes as improvement potential such as reduction of the error rate. To eliminate the existing weaknesses and deficiencies, the product developers should evaluate a variety of alternatives according to the objectives of the product development on the basis of the feedback data. For this purpose, a method from the multi-criteria decision theory is implemented.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2014-07-24</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2014</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-8179</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Wissensbasierte Systeme und Wissensmanagement</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Susanne_Dienst_bearbeitet.pdf" ddb:fileSize="3492765"/>
+   <ddb:checksum ddb:type="MD5">c238b2f459afd068d328400d03c04f31</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/817/1/Dissertation_Susanne_Dienst_bearbeitet.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/817</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

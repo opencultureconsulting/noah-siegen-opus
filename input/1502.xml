@@ -1,0 +1,66 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1502</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Algorithmic aspects of grammar-compressed trees</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Carl Philipp</pc:foreName>
+            <pc:surName>Reh</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Datenkompression</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Grammatik-basierte Baum-Kompression</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Algorithmen auf komprimierten Daten</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Forest straight-line program</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Grammar-compressed trees</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">We introduce forest straight-line programs (FSLPs) as a compressed representation for unranked trees (forests). These are compared to other compression formalisms for forests, namely top dags and TSLPs (tree straight-line programs) for fcns (first-child next-sibling) encoding. We show that FSLPs are equally succinct to TSLPs for fcns encodings but converting them to top dags requires a blowup of the alphabet size. All of these formalisms are treated uniformly using an algebraic setting.&#13;
+We then use FSLPs to implement various data structures and algorithms:&#13;
+We can answer in polynomial time if two FSLPs produce equal forests modulo associativity and/or modulo commutativity. Allowing linear preprocessing time, we implement a data structure that allows navigation steps on FSLPs (go to the first/last child, the next/previous neighbor or to the parent, or print the symbol at the current location) to occur in constant time. Allowing polynomial time preprocessing, we extend this to include a subtree equality check that works in constant time.&#13;
+We also study the effects of unorderedness on compression and derive various bounds. In the best case, compression using DAGs can be improved from $n$ to $log n$ when trees are allowed to be reordered, i.e. a ratio of $n / log n$.&#13;
+For TSLPs/FSLPs instead of DAGs, we show a ratio of $n * log log n / log^2 n$.&#13;
+We show how to evaluate a form of visibly one-counter automata on FSLPs in polynomial time by implementing them as an algebra.&#13;
+Finally, we implement an algorithm that produces a top dag and is worst-case optimal, i.e. it always finds a top dag that compresses to at least $n/log n$, while also retaining other beneficial properties from previous top dag compressors.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Wir stellen Forest-Straight-Line-Programme vor, die ungerankte Bäume (Forests) komprimieren. Diese werden mit anderen komprimierten Darstellungen verglichen: Top-Dags und TSLPs (Tree-Straight-Line-Programme) für fcns (First-Child-Next-Sibling)-Kodierung. Wir zeigen, dass FSLPs und TSLPs für fcns gleich stark komprimieren. Beim Konvertieren von FSLPs zu Top-Dags ist allerdings ein Blowup der Alphabetgröße unvermeidbar. All diese Formalismen werden gleichermaßen in einem algebraischen Setting behandelt.&#13;
+Wir implementieren verschiedene Algorithmen und Datenstrukturen auf FSLPs:&#13;
+In Polynomialzeit können wir beantworten, ob zwei FSLPs die gleichen Forests modulo Assoziativität und/oder Kommutativität produzieren. Mit linearer Preprocessing-Zeit können wir eine Datenstruktur implementieren, die Navigationsschritte auf FSLPs (gehe zum ersten/letzten Kind, zum nächsten/vorherigen Nachbarn oder zum Elternknoten, oder gib das Symbol an der aktuellen Position aus) in konstanter Zeit durchführen. Mit polynomieller Preprocessing-Zeit können wir dies um einen Subtree-Equality-Check erweitern.&#13;
+Wir untersuchen außerdem, wie sich Unorderedness auf Kompression auswirkt, wobei wir verschiedene Schranken zeigen. Im besten Fall kann die Kompression eines DAGs von $n$ zu $log n$ verbessert werden, wenn man Bäume umordnen darf, was einem Verhältnis von $n / log n$ entspricht. Im Falle von TSLPs/FSLPs zeigen wir ein Verhältnis von $n * log log n / log^2 n$.&#13;
+Wir zeigen, wie man eine Art Visibly One-Counter-Automat auf FSLPs auswerten kann, indem wir diese als Algebra implementieren.&#13;
+Zuletzt implementieren wir einen Algorithmus, der einen Top-Dag produziert, welcher worst-case-optimal ist, d.h. er findet immer einen Top-Dag, der mindestens zu $n / log n$ komprimiert. Außerdem erhält dieser andere nützliche Eigenschaften von vorher eingeführten Top-Dag-Kompressoren.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2019-09-19</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2019</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-15023</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Theoretische Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Carl_Philipp_Reh.pdf" ddb:fileSize="866038"/>
+   <ddb:checksum ddb:type="MD5">e5e7c9586b2ca35ffe0d0aa16be20b57</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1502/1/Dissertation_Carl_Philipp_Reh.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1502</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

@@ -1,0 +1,75 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1438</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Complexity of strategic influences in elections and group identification with a main focus on incomplete information</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Komplexität strategischer Beeinflussungen in Wahlen und Gruppenidentifikation insbesondere unter unvollständiger Information</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Christian</pc:foreName>
+            <pc:surName>Reger</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Computational Social Choice</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Wahlen</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Gruppenidentifikation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">partielle Information</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Computational Social Choice</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">voting</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">group identification</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">partial information</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">650</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Traditionally, an election consists of a candidate set and a voter set, and each voter completely ranks all candidates from first to last. Depending on the voters’ rankings, a voting rule determines the winner or the winners of the election. Apart from winner determination, there are further problems related to voting which are usually formulated as decision problems. For instance, in bribery we ask whether an external agent can make a candidate a winner of the given election by changing at most a certain number of voters’ votes.&#13;
+ &#13;
+In this thesis, we generalize the assumption of complete information and regard nine different partial information models in total (some of them are already known). We study the complexity of the problems necessary winner, possible winner, necessary bribery, and possible bribery in the voting rules k-Approval and k-Veto.&#13;
+ &#13;
+Moreover, we consider another model of incomplete information. In contrast to the models previously mentioned, lottery-based voting is based on the assumption that the votes are given as complete rankings, but a lottery draws at random a voter subset of fixed and predetermined size to which a voting rule is applied afterward. Once more, we investigate the complexity for variants of necessary and possible winner as well as necessary and possible bribery. Besides, we consider a counting problem asking how many subelections of a certain size exist such that a designated candidate wins the election. &#13;
+&#13;
+We further regard two voting rules frequently used in practice — Plurality with Runoff and Veto with Runoff. We explore the complexity of bribery and several control problems such as control by adding, deleting, and replacing candidates and/or voters. For several problems, we assume that there is full information.&#13;
+&#13;
+Last but not least, we attend to group identification. On the one hand, we determine the complexity for group bribery as well as three different destructive group control variants in group identification. On the other hand, we consider partial information in group identification and, in particular, we study the problems possibly qualified individuals and necessarily qualified individuals as well as variations of these problems where each individual must qualify exactly k individuals.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Gewöhnlich besteht eine Wahl aus einer Kandidatenmenge sowie einer Wählermenge, wobei jeder Wähler alle Kandidaten vom ersten bis zum letzten Rang einreiht. Abhängig von den Rankings der Wähler bestimmt eine Wahlregel den oder die Gewinner der Wahl. Neben der Gewinnerbestimmung gibt es weitere Probleme bezüglich Wahlen, welche traditionell als Entscheidungsprobleme formuliert werden. Im Bestechungsproblem stellt sich beispielsweise die Frage, ob ein externer Agent einen Kandidaten zum Gewinner der Wahl machen kann, wenn höchstens eine gewisse Anzahl an Wählerstimmen geändert wird. &#13;
+&#13;
+In dieser Arbeit verallgemeinern wir die Annahme vollständiger Information und betrachten insgesamt neun verschiedene Modelle partieller Information (manche dieser Modelle sind schon bekannt). Wir untersuchen die Komplexität für die Probleme Necessary Winner, Possible Winner, Necessary Bribery und Possible Bribery für die Wahlregeln k-Approval und k-Veto. &#13;
+&#13;
+Wir betrachten außerdem ein weiteres Modell unvollständiger Information. Im Gegensatz zu den vorher genannten Modellen basiert lotteriebasiertes Wählen auf der Annahme, dass die Wählerstimmen zwar als vollständige Rankings gegeben sind, aber ein Lotterie eine Wählerteilmenge fester vorgegebener Größe zufällig auslost, auf welche anschließend eine Wahlregel angewandt wird. Erneut untersuchen wir unter anderem die Komplexität für Varianten der Probleme Necessary und Possible Winner sowie Necessary und Possible Bribery. Überdies betrachten wir ein Zählproblem, bei dem sich die Frage stellt, auf wie viele verschiedene Möglichkeiten die Lotterie eine feste Anzahl an Wählern auslosen kann, so dass ein designierter Kandidat ein Wahlgewinner ist. &#13;
+&#13;
+Ferner betrachten wir zwei häufig in der Praxis verwendete Wahlregeln, Pluralität und Veto jeweils mit Stichwahl. Wir erforschen die Komplexität von Bestechung sowie mehrerer Kontrollprobleme wie Kontrolle durch Hinzufügen, Löschen und Ersetzen von Kandidaten und/oder Wählern. Für sämtliche Probleme nehmen wir an, dass volle Information vorliegt.&#13;
+ &#13;
+Schließlich widmen wir uns der Gruppenidentifikation. Wir bestimmen einerseits die Komplexität für Gruppenbestechung sowie drei verschiedene Arten destruktiver Gruppenkontrolle. Andererseits betrachten wir Gruppenidentifikation unter partieller Information und untersuchen insbesondere die Probleme Possibly Qualified Individuals und Necessarily Qualified Individuals sowie Varianten dieser Probleme, bei denen jedes Individuum genau k Individuen qualifizieren muss.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2018-12-19</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2018</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-14389</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät III - Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Christian_Reger.pdf" ddb:fileSize="1638447"/>
+   <ddb:checksum ddb:type="MD5">d66a4873796b3c2f39a0625f8e5ce888</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1438/1/Dissertation_Christian_Reger.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1438</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

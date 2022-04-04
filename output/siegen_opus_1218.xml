@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1218">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Erzeugung von robusten magnetfeldabhängigen Qubitzuständen für hochpräzise Magnetometrie</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Baumgart, Ingo</displayForm>
+                        <namePart type="family">Baumgart</namePart>
+                        <namePart type="given">Ingo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In einer Paul-Falle gespeicherte Ionen konnen für die Quanteninformationsverarbeitung (QIV) als elementare Prozesseinheiten genutzt werden. Hierzu ist die Fähigkeit der Manipulation der lasergekühlten Ionen wichtig. Für viele Qubit-Operationen müssen die Ionen in den Schwingungsgrundzustand gekühlt werden. Mit der, in dieser Arbeit umgesetzten, Methode der Raman-Seitenbandkühlung konnte ein einzelnes Ion bis in den Schwingungsgrundzustand gekühlt werden. Im Vergleich zu Laserlicht bieten Mikrowellenfelder viele Vorteile im Hinblick auf Stabilisierung und Skalierung des Systems. Ein durchgeführter Randomized Benchmarking-Test unterstreicht das enorme Potential, das in der Manipulation von gespeicherten Ionen mit Mikrowellenfeldern liegt. Dabei wurde gezeigt, dass der Fehler pro Rechenschritt kleiner als 4 Â· 10 -4 ist. Die sehr kurzen Kohärenzzeiten T2, der mit den Mikrowellenfeldern genutzten magnetfeldabhängigen Qubits, limitieren die Umsetzung dieses Konzepts. Veränderungen der umgebenden elektro-magnetischen Felder führen zu Dephasierung und begrenzen die mogliche Zeit für Gatteroperationen. In dieser Arbeit wird eine Methode angewendet, die durch die Kombination von inneren atomaren Zuständen und Mikrowellenfeldern so genannte Dressed States erzeugt, die sehr widerstandsfähig gegen die Einflüsse der Umgebung sind. Ein Dressed States-Qubit erreicht im Vergleich zu atomaren magnetfeldabhängigen Qubits eine um mehrere Großenordnungen längere Kohärenzzeit von einigen Sekunden. Die Kohärenzzeit eines Sensors ist in der Quantentechnologie die ausschlaggebende Große, die die effektive und präzise Messung von Magnetfeldern begrenzt. Durch ein neues Magnetometrie-Protokoll kann für ein Dressed States-Qubit eine bisher nicht erreichte Magnetfeldsensitivität von 4,6 pT/√Hz bei 14 MHz erzielt werden, die im Bereich des Standard-Quanten-Limits liegt. Die Methode verbindet dabei die hohe Magnetfeldsensitivität mit einer Ortsauflosung im Nanometerbereich. Der Vorteil dieses neuen Schemas, gegenüber den gängigen Verfahren, ist, dass eine sehr hohe Empfindlichkeit für spektrale Komponenten des Magnetfeldes über einen sehr großen Frequenzbereich erreicht werden kann.</abstract>
+                    <abstract type="content" lang="eng">Traped ions can be used for quantum information processing (QIP) as elementary process units. For this purpose, the ability to manipulate the laser-cooled ions is essential. For many qubit operations, the ions have to be cooled to the ground state of their motion. The Raman sideband cooling method, which was used in this work, demonstrates that a single ion could be cooled to the fundamental vibrational state. Compared to laser light, microwave fields offer many advantages in stabilizing and scaling the system. In this thesis, a conducted Randomized Benchmarking test underlines the enormous potential of manipulating stored ions with microwave fields. It was shown that the error per processing step is less than 4 Â· 10 -4 . The very short coherence time T2 of the magnetic field dependent Qubits driven by microwave fields limit the implementation of this concept. Changes in the surrounding electro-magnetic fields lead to dephasing and limit the possible time for gate operations. In this thesis, a method is implemented that produces so-called Dressed States by the combination of internal atomic states with microwave fields, which are highly resistant to influences of the environment. For a Dressed States-Qubit the coherence time is extended by several orders of magnitude to a number of seconds compared to atomic magnetic field-dependent qubits. The coherence time of a sensor is the determining factor in quantum technology that limits the effective and precise measurement of magnetic fields. A new magnetometry protocol enables a Dressed States-Qubit an unprecedented magnetic field sensitivity of 4,6 pT/√Hz at 14 MHz located within the standard quantum limit. The method combines the high magnetic field sensitivity with a spatial resolution in the nanometer range. The advantage of this new approach compared to known conventional methods lies in the achievement of a very high sensitivity for spectral components of the magnetic field over a wide frequency range.</abstract>
+                    <subject>
+                        <topic>Qubit</topic>
+                        <topic>Ions</topic>
+                        <topic>Magnetic fields</topic>
+                        <topic>Coherent states</topic>
+                        <topic>Raman sideband cooling method</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-12182</identifier>
+                    <identifier type="sys">HT019484205</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1218</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2017-07-24</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1218">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1218/1/Dissertation_Ingo_Baumgart.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1218"
+            DMDID="DMD_siegen_opus_1218">
+            <mets:fptr FILEID="FILE0_siegen_opus_1218"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

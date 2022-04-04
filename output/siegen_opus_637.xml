@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_637">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Was ist Erziehung : eine Einführung in die Erziehungswissenschaft</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>What is education : an introduction</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Menck, Peter</displayForm>
+                        <namePart type="family">Menck</namePart>
+                        <namePart type="given">Peter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Das Buch führt propädeutisch in die Bereiche ein, die von der Erziehungs- und der Bildungswissenschaft bearbeitet werden. Dazu werden zunächst die Begriffe  &quot;Erziehung&quot; und &quot;Bildung&quot; definiert und die Voraussetzungen bestimmt, die Erziehung und Bildung möglich und notwendig machen. Dann wird in die so genannten &quot;Handlungsfelder&quot; erzieherischer Arbeit eingeführt: Familie, Vorschuleinrichtungen, Jugendhilfe sowie Schule und Unterricht, dazu die Ziele und Mittel der Erziehung und Bildung.  Darauf folgen Aspekte von &quot;Erziehung in der Gesellschaft&quot;: Sozialisation und Rolle, das Bildungssystem und die Bildungspolitik. Im Blick auf das Studium, dem das Buch dient, wird sodann &quot;Erziehung als Beruf&quot; thematisiert. Den Schluss bilden ein kurzer Ausblick auf die Erziehungswissenschaft als Wissenschaft und, als Anhang, eine Einladung zur Beschäftigung mit der Geschichte der Erziehung.</abstract>
+                    <subject>
+                        <topic>Pädagogik</topic>
+                        <topic>Erziehung</topic>
+                        <topic>Bildung</topic>
+                        <topic>Erziehungswissenschaft</topic>
+                        <topic>Bildungswissenschaft</topic>
+                        <topic>education</topic>
+                        <topic>educational science</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-6379</identifier>
+                    <identifier type="sys">HT017291331</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_637</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_637">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/637/1/Menck_Was_ist_Erziehung.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_637"
+            DMDID="DMD_siegen_opus_637">
+            <mets:fptr FILEID="FILE0_siegen_opus_637"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

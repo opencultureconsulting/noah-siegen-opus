@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_740">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Novel approaches for improved performance of inertial sensors and integrated navigation systems</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Edwan, Ezzaldeen</displayForm>
+                        <namePart type="family">Edwan</namePart>
+                        <namePart type="given">Ezzaldeen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Navigation is the science and art that answers the questions of knowing where you are at the current moment and where you will be in the next moment. Modern navigation systems are based mainly on satellite and inertial sensors. Inertial sensor systems are becoming very popular in navigation systems because they are self contained sensors. The goal of this research is to develop novel approaches for improving the performance of inertial sensor systems and their integration algorithms with external sensors such as global positioning system (GPS) and magnetometers. The standalone inertial navigation system (INS) is dependent on the inertial measurement unit (IMU). An IMU is traditionally composed of three orthogonal gyroscopes and three orthogonal accelerometers.
+In the inertial sensors side, we focus on the use of distributed accelerometers for inferring the angular motion from the angular information contained in their measurements. There exists a variety of reasons for conducting this research. In short, high quality gyros have high cost, high power consumption, large weight and large volume. On the other hand, accelerometers are less costly, easier to manufacture, have less power consumption and less weight than gyros. We developed different fusion approaches for benefiting from the angular information vector (AIV) resulting from the distributed accelerometers to form a gyro-free IMU (GF-IMU) or to aid the GF-IMU by conventional gyros. By improving the performance we mean reducing noise and bias level in the estimated inertial quantity.
+In the integrated navigation side, we present different approaches to implement the GPS/INS integration filters and the attitude and heading reference system (AHRS) algorithms. We use direction cosine matrix (DCM) based algorithms which implies estimating the elements of the DCM directly within the filter. The basis for this method is the ground alignment method for attitude and heading determination. The attitude update of the DCM is performed using angle rotation vector. The filter is able to detect the gyro bias vector and follow its variation and hence it fits low-cost sensors as well as high grade sensor. We validated the efficiency of the algorithms using proper simulations and real-time implementations.</abstract>
+                    <abstract type="content" lang="ger">Navigation ist eine Wissenschaft und Kunst, die auf die Fragen, wo Sie zum gegenwärtigen Zeitpunkt sind und wo Sie im nächsten Moment sein werden, antwortet. Moderne Navigationssysteme basieren hauptsächlich auf Satellitensystemen und Inertialsensoren. Inertialsensoren sind in Navigationssystemen beliebt, da sie in sich geschlossene Sensoren sind. Das Ziel dieser Arbeit ist die Entwicklung neuartiger Konzepte für die Verbesserung der Leistung der Inertialsensoren und zur Sensordatenfusion mit externen Sensoren wie zum Beispiel das Globale Positionsbestimmungssystem (GPS) und Magnetometer. Ein Inertialnavigationssystem (INS) beinhaltet ein Inertiales Meßsystem (IMU). Ein IMU besteht traditionell aus drei orthogonalen Gyroskopen und drei orthogonalen Beschleunigungssensoren. 
+Bei den Inertialsensoren konzentrieren wir uns auf die Verwendung von verteilten Beschleunigungssensoren zum Ableiten der Rotationsbewegung aus der Winkelinformationen, die in den Messungen enthalten ist. Es gibt eine Reihe von Gründen für die Durchführung dieser Forschung. Kurz gesagt, qualitativ hochwertige Gyroskope sind teuer und haben einen hohen Stromverbrauch sowie großes Gewicht und Volumen. Auf der anderen Seite, sind Beschleunigungssensoren weniger kostspielig, leichter herzustellen, und haben einen geringeren Stromverbrauch sowie ein geringeres Gewicht als Gyroskope. Wir entwickelten verschiedene Fusionsansätze um vom Winkelinformation Vektor (AIV) zu profitieren. Diese Information wird von den verteilten Beschleunigungssensoren geliefert und zu einer Gyroskop-freien IMU (GF-IMU) geführt, die gegebenenfalls mit konventionellen Gyroskopen gestützt werden kann. 
+Bei der integrierten Navigation präsentieren wir verschiedene Ansätze, um die GPS / INS-Integration-Filter und die &quot;Attitude and Heading Reference System (AHRS)&quot; Algorithmen zu implementieren. Wir verwenden die Richtungskosinusmatrix (DCM) in den Algorithmen. Die Elemente der DCM werden innerhalb des Filters bestimmt. Die Aktualisierung der DCM erfolgt mittels Winkel-Rotationsvektor. Das Filter ist in der Lage, den Gyroskope-offset zu erkennen und seine Abweichung zu verfolgen und somit passt es zu kostengünstigen als auch zu hochwertigen Sensoren. Die Leistungsfähigkeit der Algorithmen wurde unter Verwendung geeigneter Simulationen und Echtzeit- Implementierungen demonstriert.</abstract>
+                    <subject>
+                        <topic>GPS</topic>
+                        <topic>Navigation</topic>
+                        <topic>Navigation</topic>
+                        <topic>Kalman filter</topic>
+                        <topic>Gyroscope</topic>
+                        <topic>GF-IMU</topic>
+                        <topic>GPS/INS</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="NRW-Zentrum für Sensorsysteme (ZESS)"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-7403</identifier>
+                    <identifier type="sys">HT017637195</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_740</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2013-02-03</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_740">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/740/1/edwan.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_740"
+            DMDID="DMD_siegen_opus_740">
+            <mets:fptr FILEID="FILE0_siegen_opus_740"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

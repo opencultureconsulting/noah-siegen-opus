@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1306">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Constructive reverse mathematics : Habilitationsschrift</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Diener, Hannes</displayForm>
+                        <namePart type="family">Diener</namePart>
+                        <namePart type="given">Hannes</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">We give a comprehensive treatment of the area known as constructive reverse mathematics, which aims to classify, over intuitionistic logic, various theorems in intuitionistic, constructive recursive, and classical mathematics. Our work provides an overview of many known results, but also many new results, and new proofs of known results. We cover omniscience principles, Markov’s principle, Brouwer’s fan theorem(s), recursive principles, Ishihara’s boundedness principle BD-N, as well as minor principles, and separation techniques.</abstract>
+                    <abstract type="content" lang="ger">Diese Arbeit beschäftigt sich mit dem Gebiet der „konstruktiven reversen Mathematik“ („constructive reverse mathematics“), dessen Ziel es ist verschiedene Aussagen aus der intuitionistischen, der rekursiven und der klassischen Mathematik über intuitionistischer Logik zu klassifizieren. Es wird ein Überblick über bekannte Ergebnisse, aber auch viele neue Resultate und neue Beweise gegeben. Unter anderem werden „Allwissenheits“-Prinzipien, Markov’s Prinzip, die Brouwer’schen Fächersätze, Aussagen aus der rekursiven Mathematik und Ishiharas Beschränktheitsprinzip BD-N behandelt.</abstract>
+                    <subject>
+                        <topic>Intuitionism</topic>
+                        <topic>Constructive Analysis</topic>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-13064</identifier>
+                    <identifier type="sys">HT019696531</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1306</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaHabil</vl:doctype>
+                        <vl:defenseDate>2018-02-08</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1306">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1306/1/Habilitationsschrift_Hannes_Diener.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1306"
+            DMDID="DMD_siegen_opus_1306">
+            <mets:fptr FILEID="FILE0_siegen_opus_1306"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

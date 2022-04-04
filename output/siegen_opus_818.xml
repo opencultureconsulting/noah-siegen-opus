@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_818">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Regional to local assessment of extreme water levels : methods and application to the northern part of the German North Sea coastline</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Arns, Arne</displayForm>
+                        <namePart type="family">Arns</namePart>
+                        <namePart type="given">Arne</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">This thesis investigates the use of extreme value statistics to estimate both the heights (i.e. return levels) and occurrence probabilities (i.e. return periods) of extreme water levels, which can cause considerable loss of life and millions of dollars of damage (Cunnane, 1987). Over the past five decades, several approaches for estimating extreme water levels have been developed. Currently, different methods are applied not only on transnational, but also on national scales, resulting in a heterogeneous level of protection. Applying different statistical methods can yield significantly different estimates of return water levels, but even the use of the same technique can produce large discrepancies, because there is subjective parameter choice at several steps in the model setup. 
+In this thesis, the main direct methods (i.e. the block maxima method and the peaks over threshold method) to estimate return levels and periods are compared, considering a wide range of strategies to create the extreme value datasets and a range of different model setups. The focus is on testing the influence of the main factors, which can significantly affect the estimates of extreme value statistics. Finally, to provide guidance for coastal engineers and operators, an objective approach for setting up the model is recommended. If this is applied routinely around a country, it will help overcome the problem of heterogeneous levels of protection resulting from different methods and varying model setups. 
+However, these recommendations can often not be considered for practical applications as the availability of water level data is a limitation in many regions. For example, for the North Frisian part of the German North Sea there are only a few water level records available and these are currently too short to apply traditional extreme value analysis methods. As tidal characteristics in the German Bight are highly influenced by shallow water effects and the shape of the coastline, they can differ significantly between stations (see e.g. Jensen and Müller-Navarra, 2008). It is thus difficult to directly convey information about the likelihood of extreme hydrologic events from gauged to surrounding un-gauged sites. To transfer water level information measured at gauged sites to un-gauged sites in the study region, the regional frequency analysis (RFA) concept (which has been previously applied to a riverine setting) is adopted and adjusted for application to a coastal setting. The proposed method is based on a numerical multi-decadal model hindcast of water levels for the whole of the North Sea. Predicted water levels from the hindcast are bias-corrected using the information from the available tide gauge records. Hence, the simulated water levels agree well with the measured water levels at gauged sites. Combining the bias-corrected water levels and the recommendations that were made in the first part of this thesis provides a procedure to estimate return water levels suitable for coastal defence design conditions. The return levels are estimated continuously along the entire coastline of the study area, including the offshore islands. A similar methodology to that applied here could be used in other regions of the world.
+One of the most discussed aspects in coastal engineering at the moment is concerned with the possible impact of sea level rise (SLR) and the associated changes in extreme water levels on coastal defense structures. The methodologies presented above can be used to calculate present day design levels for coastal defenses but do not account for SLR and potential nonlinear changes in the tidal characteristics, which in turn may affect the results from extreme value statistics. This is why the impact of SLR on extreme water levels is investigated using a numerical model that covers the entire North Sea and has its highest spatial resolution in the northern part of the German Bight. At most locations, the model run highlights that storm surge and return water levels are significantly different from the changes in MSL alone, a finding somewhat different from former studies in that area having major implications for the design of coastal defenses.
+Furthermore, the analyses indicate that these increases in storm surge water levels are mainly caused by nonlinear changes in the tidal components which are spatially not coherent. The response of the tidal propagation to SLR is investigated based on the results from a tidal analysis of each individual event. These analyses point to changes in individual constituents, such as increases in the M2 amplitude and decreases in the amplitudes of frictional and overtides accompanied by less tidal wave energy dissipation. Attributed effects are changes in phase lags of individual constituents leading to a different tidal modulation, thus additionally increasing tidal water levels.</abstract>
+                    <abstract type="content" lang="ger">In dieser Dissertation wird die Verwendung extemwertstatistischer Verfahren zur Abschätzung der Höhen und Häufigkeiten von Sturmflutwasserständen untersucht. In den vergangenen Dekaden wurden hierzu verschiedene Ansätze entwickelt. Bisweilen konnte sich auf nationaler wie auch auf internationaler Ebene jedoch kein allgemein gültiges Verfahren etablieren, weshalb die aktuell existierenden Schutzstandards nicht vergleichbar sind. Denn sowohl die Verwendung unterschiedlicher Modelle, als auch die Verwendung unterschiedlicher Einstellungen bei ein und demselben Modell kann zu großen Differenzen in den Ergebnissen extremwertstatistischer Auswertungen führen.
+Im Rahmen der Dissertation werden die beiden primär verwendeten direkten Verfahren (d.h. die Block Maxima und die Peak Over Threshold Methode) zur Ermittlung der Höhen und Häufigkeiten von Sturmfluten unter Verwendung eines weiten Spektrums an Vorgehensweisen miteinander verglichen. Der Fokus liegt dabei auf der Ermittlung der Sensitivität der verwendeten Modelle gegenüber den bisweilen subjektiv zu wählenden Modelleinstellungen. Ausgehend von diesen Analysen werden Empfehlungen zur objektiven und vergleichbaren Verwendung extremwertstatistischer Modelle im Küsteningenieurwesen entwickelt. Werden diese Empfehlungen konsistent verwendet (auf nationaler sowie auf internationaler Ebene), kann hierdurch die Vergleichbarkeit der Schutzstandards an individuellen Küstenstandorten deutlich erhöht werden.
+Für die Verwendung der Empfehlungen werden Wasserstandsinformationen benötigt, die eine ausreichend lange Periode abdecken. In vielen Gebieten sind diese Informationen jedoch limitiert. So existieren in großen Teilen der nordfriesischen Nordseeküste (einschließlich der Inseln und Halligen) insgesamt nur wenige Pegelstationen, deren Aufzeichnungen gegenwärtig nur wenige Jahre abdecken. Im Hinblick auf extremwertstatistische Analysen sind diese Informationen i.d.R. nicht ausreichend. Da die Wasserstände in der Deutschen Bucht durch nichtlineare Effekte (z.B. Flachwassereffekt) beeinflusst werden, weisen selbst nahegelegene Aufzeichnungen oft stark unterschiedliche Charakteristika auf (siehe z.B. Jensen and Müller-Navarra, 2008). Aus diesem Grund ist es nur bedingt möglich, die Höhen und Häufigkeiten an unbepegelten Standorten direkt aus den umliegenden bepegelten Standorten abzuleiten. In der Dissertation wird daher eine Methodik zur Ermittlung extremer Wasserstände in unbepegelten Küstengebieten entwickelt. Die Vorgehensweise orientiert sich zunächst am Konzept der regionalen Frequenzanalyse (RFA), welche zuvor bereits im Bereich binnenhydrologischer Fragestellungen verwendet wurde. Aufbauend darauf wird eine neuartige Methodik entwickelt, welche auf numerisch simulierten Wasserständen der gesamten deutschen Nordseeküste basiert. Die simulierten Wasserstände werden mit Hilfe der Beobachtungsdaten korrigiert, so dass die simulierten und die beobachteten Wasserstände an den Pegelstationen vollständig übereinstimmen.  In Verbindung mit den oben genannten Empfehlungen werden diese Wasserstandsinformationen zur Ermittlung der Höhen und Häufigkeiten von extremen Wasserständen entlang der gesamten Küstenlinie des Untersuchungsbereiches verwendet. 
+Mit Hilfe der zuvor genannten Methoden lassen sich Aussagen zur Sturmflutgefährdung unter gegenwärtigen Bedingungen treffen. Potentielle Änderungen in den Randbedingungen, wie etwa ein Anstieg des mittleren Meeresspiegels (MSL), werden dabei vernachlässigt. Jedoch können durch solche Änderungen Effekte induziert werden, die zu nichtlinearen Änderungen in den höheren Wasserständen führen. Prognosen zur zukünftigen Entwicklung von Sturmflutwasserständen unterliegen somit gewissen Unsicherheiten. Aus diesem Grund wird der Einfluss des Anstieges im MSL auf Extremwasserstände an einem numerischen Modell untersucht. Das Modell umfasst die gesamte Nordsee sowie Teile des Nordatlantiks, weist jedoch im Bereich der Deutschen Bucht die höchste Auflösung auf. Die Untersuchungen zeigen für die meisten Standorte, dass die Änderungen in den extremen Wasserständen in weiten Teilen des Untersuchungsgebietes signifikant höher sind als der Anstieg des MSL. Hierbei zeigt sich räumlich jedoch kein einheitliches Bild. Darüberhinaus zeigen die Untersuchungen, dass die erhöhten Sturmflutwasserstände maßgeblich in der astronomisch induzierten Komponente (d.h. der Reaktion des Wasserkörpers auf die Gezeitenkräfte) begründet sind. So konnte z.B. eine Erhöhung der Amplitude der dominanten M2 Tide beobachtet werden, während in den Obertiden sowie den aus Reibung induzierten Tiden ein Amplitudenrückgang beobachtet wurde. Insbesondere für die Bemessung von Küstenschutzanlagen sind diese Ergebnisse von großer Bedeutung.</abstract>
+                    <subject>
+                        <topic>Deutsche Nordseeküste</topic>
+                        <topic>Halligen</topic>
+                        <topic>Wasserstand</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Forschungsinstitut Wasser und Umwelt"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-8186</identifier>
+                    <identifier type="sys">HT018386619</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_818</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2014-07-09</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_818">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/818/1/Dissertation_Arne_Arns_bearbeitet.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_818"
+            DMDID="DMD_siegen_opus_818">
+            <mets:fptr FILEID="FILE0_siegen_opus_818"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

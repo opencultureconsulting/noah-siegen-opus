@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_394">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Reconstruction of surface morphology from coherent scattering of &quot;white&quot; synchrotron radiation in hard x-ray regime</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Sant, Tushar</displayForm>
+                        <namePart type="family">Sant</namePart>
+                        <namePart type="given">Tushar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2009</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The present third generation synchrotron sources provide intense x-ray radiation in hard x-ray regime to perform coherent x-ray scattering experiments. In 90´s several attempts have been made in performing speckle experiments with x-ray radiation at various surfaces which can provide sub-nm spatial resolution. However, the method is not well established as a routine characterization technique. Several details of the experimental technique and data analysis are not solved.
+In this work I measured the coherent reflectivity data from various surfaces at EDR (Energy Dispersive Reflectometry) beamline at the bending magnet of BESSY II synchrotron. White x-rays in the useful energy range of 5</abstract>
+                    <abstract type="content" lang="ger">Die Methode zur Untersuchung von Oberflächenmorphologie Speckle statische Messungen mit Röntgenstrahlen bis heute nicht als Routine zur Charakterisierung von Oberflächen etablieren können. Die Gründe dafür sind unter Anderem verschiedene ungelöste Probleme dieser experimentellen Techniken und der Datenanalyse. Das Ziel dieser Doktorarbeit ist die Messung der statischen Speckle-Daten aus verschiedenen Test-Oberflächen und Rekonstruktion für den Oberflächenmorphologie von den gemessenen Daten. Nach der Einführung in die Problematik in Kapitel 1, Kapitel 2 werden einige grundlegende Eigenschaften der Interaktion Röntgenstrahlen mit Materie, die Kohärenz von Röntgenstrahlen und Unterschied zwischen kohärenten und inkohärenten Streuung. Die einzigartige experimentellen Bedingungen bei Energy Dispersive Reflektometry (EDR) Beamline bei BESSY II werden in Kapitel 3. Die statische Speckle-Messungen, die von mir aus verschiedenen Test-Oberflächen sind in den Kapitel 4. Kapitel 5 werden verschiedene Ansätze verwendet, so weit zu Rekonstruktion Oberflächenmorphologie. Ich veränderte die konventionelle GS Algorithmus und ER-Algorithmus unter Berücksichtigung der zusätzlichen Fresnelterm und Funktion in der Beleuchtung der Probe Position. Dies wird in Kapitel 5 weiter. Kapitel 6 stellt die Rekonstruktion der Oberflächenmorphologie der statischen Speckle-Daten, die die Phase-Retrieval-Algorithmus geändert durch mich. Ich habe darauf hingewiesen, die Vor-und Nachteile dieser Technik. Die Technik kann für eine schnelle Untersuchung der Probenoberfläche Profil für zeitaufgelöste Oberflächenuntersuchung eingesetzt zu werden.</abstract>
+                    <subject>
+                        <topic>PTB-Synchrotron</topic>
+                        <topic>Röntgenstrahl</topic>
+                        <topic>Kohärent</topic>
+                        <topic>Oberflächen</topic>
+                        <topic>x-ray</topic>
+                        <topic>synchrotron</topic>
+                        <topic>coherent</topic>
+                        <topic>surface</topic>
+                        <topic>scattering</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 7, Physik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-3945</identifier>
+                    <identifier type="sys">HT016049746</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_394</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2009-06-24</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_394">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/394/1/TusharSant.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_394"
+            DMDID="DMD_siegen_opus_394">
+            <mets:fptr FILEID="FILE0_siegen_opus_394"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

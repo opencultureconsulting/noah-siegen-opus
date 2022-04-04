@@ -1,0 +1,66 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>749</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Dynamics of continua with interfaces</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Die Dynamik von Kontinua mit Grenzflächen</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Christian</pc:foreName>
+            <pc:surName>Hesch</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Dynamik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Kontinuummechanik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Continuum mechanics is nowadays widely used to describe the material behavior of systems, which occupies a specific area in space. In contrast to atomistic and molecular models, which can be solved using molecular dynamics or Monte-Carlo simulations, we consider the system to exist as a continuum. Due to their different material behavior we distinguish between solid mechanics and fluid mechanics. The typical deformation of the former one allows us to follow the movement of each particle in space, whereas we can not do this for the latter one. This leads to different formulations, which will be presented here.&#13;
+&#13;
+Typically, we want to achieve a solution for the balance of linear momentum for the continuum mechanical system. Additionally, we will derive a pure mass transport problem to demonstrate the capabilities of the numerical framework we have developed to solve these kind of problems. Once we have introduced the continuum mechanical framework, we can extent this to include further physical effects. Moreover, we extent the solid mechanical system to include thermal contributions and apply an additional pressure field to enforce the incompressibility of the fluids in the case of low Mach numbers.&#13;
+&#13;
+Within the continuous setting, we can define various interfaces. Internal interfaces can be used to decompose bodies into different subsets, e.g. to define areas with different physical properties or, on a more technical level, to enable parallelization on modern cluster architectures. External interfaces on solids can be used to include contact between multiple bodies. Additionally we could establish an interface at the external boundary to transfer momentum between a solid and the surrounding fluid. To avoid technical problems in the case of large deformations of solids, embedded within a fluid, we employ continuum immersed strategies to include the effects of fluid-structure interaction. Finally, we want to use phase field models for the simulation of phase separation and coarsening in solder alloys. We obtain sharp interfaces between the phases using the well known Cahn-Hilliard model to represent the free energy of the phases as well as of the interface. Similar to the immersed strategies, we aim at the simulation of the whole domain, avoiding the explicit representation of interfaces.&#13;
+&#13;
+To solve the arising initial boundary value problem in space, we first apply the finite element method for all problems at hand. In particular, we introduce Lagrangian as well as NURBS based shape functions for the underlying approximation of the field equations, written in weak form. Furthermore, we show how to incorporate discrete interface models in an optimal sense with regard to the consistency error at the interface using the Mortar method. The application of Mortar methods to NURBS will be shown as well. Due to the higher continuity requirement of the Cahn-Hilliard equation, the use of NURBS seems to be natural for this kind of problems. Since we deal with initial boundary value problems, suitable time integration schemes have to be developed as well. In general, we use a common implicit integration scheme for all problems at hand, such that we could use various fields simultaneously in a consistent framework. If possible, we aim at the development of structure preserving integrators, since they provide enhanced numerical stability for large time steps. For the explicit interface representation we apply additional augmentation techniques to simplify the algebraic constraints and verify the underlying conservation properties.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Kontinuumsmechanische Ansätze werden heutzutage häufig zur Beschreibung des Materialverhaltens von Körpern verwendet. Im Gegensatz zu atomaren und molekularen Modellen, die via Molecular Dynamics oder Monte-Carlo Ansätzen simuliert werden können, betrachten wir das System als kontinuierlich. Aufgrund des unterschiedlichen Materialverhaltens unterscheiden wir hierbei zwischen Festkörper- und Fluidmechanik. Die typischen Deformationen von Festkörpern erlauben das verfolgen jedes einzelnen Partikels im Raum, was für die Fluidmechanik nicht möglich ist. Beide Formulierungen werden im Weiteren präsentiert.&#13;
+&#13;
+Das Ziel der verwendeten Ansätze ist die Lösung der Impulsbilanz für das kontinuumsmechanische System. Des Weiteren betrachten wir ein reines Massentransportsystem, um die Möglichkeiten des entwickelten numerischen Lösungsansatzes zu demonstrieren. Zusätzlich können weitere physikalische Effekte in das System mit eingebunden werden, so z.B. thermische Beiträge sowie Druckfelder um die Inkompressibilität von Fluiden bei niedrigen Machzahlen zu erfassen.&#13;
+&#13;
+Innerhalb der kontinuierlichen Darstellung können wir verschiedene Grenzflächen definieren. So können wir interne Zerlegungen von Körpern vorzunehmen, um z.B. Gebiete mit unterschiedlichen physikalischen Charakteristika zu definieren oder, auf einer mehr technischen Ebene, eine Parallelisierung auf modernen Rechnerarchitekturen zu ermöglichen. Externe Grenzflächen können für die Simulation von Kontaktvorgängen verwendet werden. Des Weiteren können wir externe Ränder für den Impulstransfer zwischen einem Körper und dem ihn umgebenen Fluid definieren. Zuletzt wird ein Phasen-Feld Modell für die Simulation einer Phasentrennung in Legierungen untersucht. Hierzu verwenden wir das bekannte Cahn-Hilliard Modell, um die freie Energie der Phasen als auch der Grenzflächen erfassen zu können. Wie zuvor für die Fluid-Struktur Interaktionen verwenden wir Ansätze die eine explizite Repräsentation der Grenzflächen vermeiden.&#13;
+&#13;
+Für die Lösung des Anfangs-Randwertproblems im Raum wenden wir eine Finite-Elemente Methode an. Hierzu kommen sowohl Lagrange als auch auf NURBS basierende Formfunktionen zur Anwendung. Für die Grenzflächen verwenden wir eine variationell konsistente Mortar-Methode. Die Anwendung von Mortar-Methoden für NURBS Funktionen wird ebenfalls gezeigt. Für die zeitliche Diskretisierung des Anfangs-Randwertproblems verwenden wir ein konsistentes Integrationsverfahren für alle vorkommenden Probleme. Soweit möglich, etablieren wir ein strukturerhaltendes Zeitintegrationsverfahren, was uns eine erhebliche Verbesserung der Stabilität bei Verwendung großer Zeitschritte erlaubt.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2013-05-23</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2013</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-7496</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dcterms:isPartOf xsi:type="ddb:noScheme">Schriftenreihe des Lehrstuhls für Numerische Mechanik;  7</dcterms:isPartOf>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.habilitation</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Mechanik und Regelungstechnik - Mechatronik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="hesch.pdf" ddb:fileSize="13493581"/>
+   <ddb:checksum ddb:type="MD5">3fe1d1742b8b88c002badc0c88bded7b</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/749/1/hesch.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/749</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_991">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Time domain identification of the mechanical system of a drive for the purpose of diagnostics</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Identifikation des mechanischen Systems eines Antriebs zur Diagnostik im Zeitbereich</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Perdomo Arvizu, Maria del Carmen</displayForm>
+                        <namePart type="family">Perdomo Arvizu</namePart>
+                        <namePart type="given">Maria del Carmen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The present work, is a contribution on the identification of mechanical parameters in time domain.  This dissertation is focused on the identification of drives possessing composed mechanisms that have periodical motion cycles.  From the point of view of control, such mechanisms can be described by the reduced moment of inertia, which is a function of the position of the actuator. The identification of this mechanical part was approached in this work by utilizing two different methods: a stochastic and a deterministic procedure. 
+A method for the detection of faults in bearings was outlined within the scope of this work. If the dynamic response of a drive is measured during the commissioning of the machine, this information can be considered the footprint of a healthy system and can be used to be compared with updated measurements during operation.</abstract>
+                    <subject>
+                        <topic>Elektroantrieb</topic>
+                        <topic>Trägheitsmoment</topic>
+                        <topic>Lastmoment</topic>
+                        <topic>Vorsteuerung</topic>
+                        <topic>Electric propulsion</topic>
+                        <topic>Condition monitoring</topic>
+                        <topic>Antifriction bearings</topic>
+                        <topic>Mechanics</topic>
+                        <topic>Diagnostics</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Automatisierungstechnik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-9912</identifier>
+                    <identifier type="sys">HT018939872</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_991</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2015-03-03</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_991">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/991/1/Dissertation_Maria_del_Carmen_Perdomo_Arvizu.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_991"
+            DMDID="DMD_siegen_opus_991">
+            <mets:fptr FILEID="FILE0_siegen_opus_991"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

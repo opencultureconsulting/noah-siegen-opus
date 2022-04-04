@@ -1,0 +1,88 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1734">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>System-wide, fault-tolerant state agreement protocol for time-triggered MPSoC</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Globale Adaptation kontrolliert durch ein interaktives Konsistenzprotokoll</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lenz, Alina</displayForm>
+                        <namePart type="family">Lenz</namePart>
+                        <namePart type="given">Alina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Obermaisser, Roman</displayForm>
+                        <namePart type="family">Obermaisser</namePart>
+                        <namePart type="given">Roman</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Adaptive time-triggered systems use a set of schedules that the system can switch into at runtime. All schedules and their changing conditions are connected in a graph which is traversed based on the system state. If a condition to trigger a schedule change is met at the associated schedule will be changed into. Each schedule is computed w.r.t. the optimal energy usage and fault mitigation under the condition of the observed system state. 
+Critical domains like avionics and railway to profit from the advantages of online system reconfiguration because the schedule changes, while optional as they are based on the system state, are still planned within the potential system states. As no unpredicted changes can occur, the system&apos;s runtime behavior is predetermined by the schedule and thus providing the safety guarantees needed for safety critical systems.  
+While locally adapting single cores is already common practice, this thesis shows that performing the adaptation on a global level provides more advantages w.r.t. energy savings and fault mitigation. We show that the global approach leads to higher energy savings as the exploitable system state can be used not only by the tile where it occurred but other tiles can also profit.    
+The adaptation is performed decentralized within the distributed network of tiles of the MPSoC, which is why a common view on the global state is paramount. Before a schedule change decision can be taken a global view must be agreed on. 
+After introducing the adaptive architecture needed to perform a global adaptation this thesis proposes an agreement protocol for a network on chip. We show how such a protocol can be implemented while keeping the energy and transmission overhead minimal. The challenge within a network on chip is the fact that broadcast protocols are not available and each message has to be sent individually. Given that all tiles need to inform all other tiles about their current state during an agreement, this can  to a heavy load on the network. The thesis shows that an additional and dedicated agreement network enables the system to run the agreement protocol without causing transmission delays on the normal network. We further show that by using such a protocol the adaptation can save up to 40\% of it&apos;s usual energy consumption. 
+In the second part of the thesis we will introduce a fault-tolerant version of the protocol. We introduce two fault tolerant architectures that enable the system to use the adaptation under the occurrence of a fault. 
+We will show that the fault-tolerant version of the protocol is able to cope with arbitrary hardware faults enabling the system to reconfigure itself. By providing the adaptation even if nodes fail, we can enable the system to enter specialized safe states, that can adapt to the specific fault that was observed. The functional system lifetime can be prolonged, as the fault can be handled by the rest of the system without having to enter a minimal functionality safe state.</abstract>
+                    <abstract type="content" lang="ger">Adaptive zeitgesteuerte Systeme nutzen eine Auswahl an Schedules aus denen Sie zur Laufzeit den aktuell besten anwenden können. Alle Schedules werden in einem Graphen gespeichert in welchen sie anhand ihrer Übergänge verbunden sind. Jeder Übergang gibt an, welche Bedingungen erfüllt sein müssen, um den Schedule nutzen zu können. Falls solch eine Bedingung zur Laufzeit beobachtet wird, kann der neue Schedule angewendet werden. Die Berechnung der einzelnen Schedules erfolgte unter der Zielsetzung einer optimalen Energienutzung und Fehlerreduzierung unter Berücksichtigung des Systemzustands.
+Kritische Bereiche, wie die Luftfahrt oder dem Zugverkehr, profitieren von der Re-Konfiguration. Schedule Änderungen bleiben, obwohl nur optional, vorhersagbar, da sie nur unter den richtigen Laufzeitbedingungen durchgeführt werden. Es werden keine unvorhergesehenen Zustände angenommen, so dass der Systemzustand zur Laufzeit immer durch den Schedule vorherbestimmt ist. Diese Vorhersagbarkeit ist somit eine Grundvorrausetzung für sicherheitskritische Systeme bei der Zertifizierung und wird mit der Re-Konfiguration erfüllt.
+Während es bereits gängige Praxis ist einzelne Kerne bei Laufzeit zu optimieren, zeigt diese Arbeit, dass die Anwendung der adaptiven Verfahren auf globaler Ebene größere Vorteile in Bezug auf Energiemanagement und Fehlertoleranz bringt als der lokale. Wir zeigen, dass der globale Ansatz mehr Energie spart, da der aktuellen Zustand eines Knotens nicht nur lokal, sondern zusätzlich auch an allen anderen Knoten des Netzwerkes genutzt werden kann. Ein Beispiel dafür ist dynamischer Slack, der bei Laufzeit entsteht. Bei einem globalen Energiemanagement können auch andere Knoten von dem lokalen Slack eines Knotens profitieren. Dadurch wird zu jedem Zeitpunkt die größtmögliche Energieeinsparung erreicht.
+Aufgrund der dezentralen Adaption für alle Knoten des Netzwerks muss ein zuverlässiger und einheitlicher Blick auf den Systemzustand gewährleistet sein. Vor jeder potenziellen Änderung des Schedules, muss daher ein global einheitlicher Zustand unter allen Teilnehmer des Netzwerks ausgetauscht werden.
+Diese Arbeit führt zunächst diesbezüglich eine adaptive Architektur ein, die notwendig ist, um eine global Adaption zu verwirklichen, um dann den Hauptfokus der Arbeit zu beschreiben: ein Protokoll zur Abstimmung eines globalen Zustandes für ein Network on Chip. Wir zeigen, wie dieses Protokoll implementiert werden kann, während der dadurch verursachte Energie- und Übertragungs-Overhead minimal bleibt. Die größte Herausforderung hierbei ist die Tatsache, dass das Network on Chip keine Broadcast-Protokolle unterstützt und daher alle Nachrichten einzeln gesendet werden müssen Bei dem Austausch dieser Nachrichten müssen alle Knoten die übrigen Teilnehmer des Netzwerks über ihren aktuellen Zustand informieren. Dadurch wird das Netzwerk stark belastet Das zusätzliche und dedizierte Protokoll-Netzwerk erlaubt es hingegen, dass sich alle Knoten in einem Netzwerk über ihren aktuellen Zustand informieren können. Eine globale Abstimmung über den Netzwerkzustand wir daher möglich, ohne den normalen Netzwerk Verkehr zu blockieren.
+Außerdem zeigen wir, dass durch das vorgestellte Protokoll eine Energieeinsparung von bis zu 40% im Gesamtsystem erreicht werden kann.
+Des Weiteren stellen wir stellen wir eine fehlertolerante Version des Protokolls vor. Wir erläutern verschiedene fehlertolerante Architekturen, die dem System erlauben, die Adaption auch unter dem Einfluss von Fehlern zu nutzen.
+Durch die fehlertolerante Version des Protokolls ist das System in der Lage beliebige Hardware Fehler zu verarbeiten und sich gemäß des Fehlerstatus neu zu konfigurieren. Im Fehlerfall kann sich das System dadurch sich in spezialisierte sichere Zustände begeben, welche für den eingetretenen Fehlerfall ideal sind. Die funktionale Lebenszeit des Systems kann damit verlängert werden, da sich das System nun eigenständig, um den Fehler neu konfigurieren kann, ohne die restlichen Knoten im Netzwerk zu beeinträchtigen.</abstract>
+                    <subject>
+                        <topic>Echtzeit</topic>
+                        <topic>Real-time</topic>
+                        <topic>Energy efficiency</topic>
+                        <topic>Network on chip</topic>
+                        <topic>Mixed criticality</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Department Elektrotechnik - Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-17343</identifier>
+                    <identifier type="sys">HT020633529</identifier>
+                    <accessCondition type="use and reproduction">CREATIVECOMMONS.ORG PUBLICDOMAIN ZERO 1.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1734</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2020-05-20</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1734">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1734/5/Dissertation_Alina_Lenz.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1734"
+            DMDID="DMD_siegen_opus_1734">
+            <mets:fptr FILEID="FILE0_siegen_opus_1734"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

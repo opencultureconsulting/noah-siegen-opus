@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1639">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Umfelder des Sprechens</title>
+                        <subTitle lang="ger">sprachtheoretische Versuche über das Gemeinte</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Knobloch, Clemens</displayForm>
+                        <namePart type="family">Knobloch</namePart>
+                        <namePart type="given">Clemens</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Im Alltag gehen wir davon aus, dass der Sprecher selbst am besten weiß, was er gemeint hat. Wir brauchen ihn nur zu fragen. Aber ist es wirklich der Sprecher, der entscheiden kann, was er gemeint hat? Das Gemeinte ist ein merkwürdiges Ding. So lange man uns nicht danach fragt, können wir damit umgehen. Wenn wir es aber explizieren oder definieren sollen, geraten wir in Schwierigkeiten. Die linguistische Semantik belehrt uns, dass es in keiner Sprache Zeichen gibt, die exakt den Zeichen einer anderen Sprache entsprechen. Sprachliche Bedeutungen sind es jedenfalls nicht, die wir meinen, sondern mit ihnen und durch sie hindurch immer etwas anderes, das selbst nicht zur Sprache gehört. Die Semantiker nennen es gern „Referenz“ und modellieren es als außersprachlichen Bezug der sprachlichen Kommunikation auf reale Dinge. Aber geht das Gemeinte wirklich auf in der Adresse eines singulären Objekts der Außenwelt? 
+Der Band versucht, die sprach- und kommunikationswissenschaftliche Frage nach dem Gemeinten in der Tradition einer „Linguistik des Sprechens“ zu beantworten.</abstract>
+                    <subject>
+                        <topic>Noetik</topic>
+                        <topic>Sprachtheorie</topic>
+                        <topic>das Gemeinte</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16391</identifier>
+                    <identifier type="sys">HT020627297</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1639</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1639">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1639/1/Knobloch_Umfelder.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1639"
+            DMDID="DMD_siegen_opus_1639">
+            <mets:fptr FILEID="FILE0_siegen_opus_1639"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

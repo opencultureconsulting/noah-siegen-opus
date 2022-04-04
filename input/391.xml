@@ -1,0 +1,125 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>391</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Frequency estimation for single-carrier and OFDM signals in communication and radar systems</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Pakorn</pc:foreName>
+            <pc:surName>Ubolkosold</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Kommunikationstechnik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Frequenzschaetzung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Frequenzschaetzer</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Frequency estimation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Frequency estimator</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">frequency offset</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Eine der klassischen Problemstellungen in der Signalverarbeitung&#13;
+ist die Schaetzung der Frequenz eines Signals, das von weissem&#13;
+Rauschen additiv ueberlagert ist. Diese bedeutende Aufgabe&#13;
+stellt sich in vielen verschiedenen Anwendungsbereichen wie der&#13;
+Kommunikationstechnik, beim Doppler-Radar, beim Radar mit&#13;
+synthetischer Apertur (SAR), beim Array Processing, bei&#13;
+Radio-Frequency-IDentification (RFID), bei Resonanz-Sensoren usw.&#13;
+&#13;
+Die Anforderungen bezueglich der Leistungsfaehigkeit des&#13;
+Frequenzschaetzers haengen von der Anwendung ab. Die&#13;
+Leistungsfaehigkeit ist dabei oft unter Beruecksichtigung&#13;
+der folgenden 4 Punkte definiert: i) Genauigkeit,&#13;
+Richtigkeit der Schaetzung, ii) Arbeitsbereich&#13;
+(estimation range), iii) Grenzwerte der Schaetzung (im&#13;
+Vergleich zu einer theoretisch moeglichen Schwelle) und&#13;
+iv) Komplexitaet der Implementierung. Diese&#13;
+Anforderungen koennen nicht unabhaengig voneinander&#13;
+betrachtet werden und stehen sich teilweise gegenueber.&#13;
+Beispielsweise erfordert die Erzielung von Ergebnissen nahe an der&#13;
+theoretisch moeglichen Schwelle eine hohe Komplexitaet.&#13;
+Ebenso kann ein Schaetz-ergebnis von hoher Genauigkeit oftmals&#13;
+nur fuer einen stark eingeschraenkten Arbeitsbereich erzielt&#13;
+werden. Die Frequenzschaetzung ist im Falle von durch Fading&#13;
+hervorgerufenem multiplikativem Rauschen noch herausfordernder. Es&#13;
+handelt sich dann um den allgemeinen Fall der&#13;
+Frequenzschaetzung. Bisher hat man bereits viel Arbeit in die&#13;
+Ableitung eines Schaetzers für diesen allgemeinen Fall&#13;
+investiert. Ein Schaetzer, der optimal bezueglich aller oben&#13;
+genannten Kriterien ist, duerfte allerdings nur schwer zu&#13;
+finden sein.&#13;
+&#13;
+In dieser Dissertation wird mit Blick auf Kommunikationstechnik&#13;
+und Radaranwendungen ein verallgemeinerter, in geschlossener Form&#13;
+vorliegender, Frequenzschaetzer eingefuehrt, der alle&#13;
+genannten Kriterien der Leistungs-faehigkeit&#13;
+beruecksichtigt. Die Herleitung des Schaetzers beruht auf&#13;
+dem Prinzip der kleinsten Fehlerquadrate fuer den nichtlinearen&#13;
+Fall in Verbindung mit der Abelschen partiellen Summation. Zudem&#13;
+werden verschiedene modifizierte Frequenzschaetzer vorgestellt,&#13;
+die sich fuer Faelle in denen kein Fading oder nur sehr&#13;
+geringes Fading auftritt, eignen.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Estimating the frequency of a signal embedded in additive white&#13;
+Gaussian noise is one of the classical problems in signal&#13;
+processing. It is of fundamental importance in various&#13;
+applications such as in communications, Doppler radar,&#13;
+synthetic aperture radar (SAR), array processing, radio&#13;
+frequency identification (RFID), resonance sensor, etc.&#13;
+&#13;
+The requirement on the performance of the frequency estimator&#13;
+varies with the application. The performance is often defined&#13;
+using four indexes: i). estimation accuracy, ii).&#13;
+estimation range, iii). estimation threshold, and&#13;
+iv). implementation complexity. These indexes may be in&#13;
+contrast with each other. For example, achieving a low threshold&#13;
+usually implies a high complexity. Likewise, good estimation&#13;
+accuracy is often obtained at the price of a narrow estimation&#13;
+range. The estimation becomes even more difficult in the presence&#13;
+of fading-induced multiplicative noise which is considered to be&#13;
+the general case of the frequency estimation problem. There have&#13;
+been a lot of efforts in deriving the estimator for the general&#13;
+case, however, a generalized estimator that fulfills all indexes&#13;
+can be hardly obtained.&#13;
+&#13;
+Focusing on communications and radar applications, this thesis&#13;
+proposes a new generalized closed-form frequency estimator that&#13;
+compromises all performance indexes. The derivation of the&#13;
+proposed estimator relies on the nonlinear least-squares principle&#13;
+in conjunction with the well known summation-by-parts formula. In&#13;
+addition to this, several modified frequency estimators suitable&#13;
+for non-fading or very slow fading scenarios, are also introduced&#13;
+in this thesis.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2009-04-14</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2009</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-3910</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>NRW-Zentrum für Sensorsysteme (ZESS)</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Ubolkosold.pdf" ddb:fileSize="1344536"/>
+   <ddb:checksum ddb:type="MD5">624413db52df8029ece25f4f2c311538</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/391/1/Ubolkosold.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/391</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

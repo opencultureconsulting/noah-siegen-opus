@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1333">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Real-time guarantees, dependability and self-configuration in future avionic networks</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Echtzeit-Garantien, Zuverlässigkeit und Selbstkonfiguration in zukünftigen Avionik-Netzwerken</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Heise, Peter</displayForm>
+                        <namePart type="family">Heise</namePart>
+                        <namePart type="given">Peter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Many of today’s applications are in need of a real-time communication infrastructure. Several commercially available solutions have been designed for this purpose, each with a different focus. To achieve low cost network services, a standardized solution featuring Ethernet compliance is currently being developed by the IEEE Time-Sensitive Networking Task Group (TSN). The main features of this standard are seamless redundancy through multiple disjunctive paths, low latency for high priority traffic through frame preemption and improved clock synchronization mechanisms as compared to existing standards. While the suitability of the mentioned standard for avionic purposes still has to be evaluated, neither of the standards help when deciding where to route which traffic or how to dimension the network in order to achieve optimal traffic and application distribution.
+Similarly, in avionics a trend towards a more modular and centralized cabin infrastructure can be seen, potentially improving reliability by having a higher fault tolerance and the removal of central servers to save weight. With more degrees of freedom, however, new means for configuring such a network are needed to speed up the assembly process. While topology discovery and address configuration algorithms are widely available, little focus has been paid to the special requirements needed in the avionic domain, like real-time behavior, fault isolation and seamless redundancy. In such a fully dynamic cabin, a cloud like service can be envisioned that allows for dynamic resource management in case of a failure, change in the configuration and initialization.
+The aim of this thesis is to find ways for a distributed, self-configuring network architecture that offers a plug and play service to its devices. Therefore, we evaluated currently existing real-time networks and showed their shortcomings. Based on a literature study we took the three most promising candidates in the design space and extended them to fulfill requirements of a future avionic network. The proposed concepts were implemented in proof of concept demonstrators and backed by mathematical models. We evaluated the demonstrators during failure scenarios and showed the existence of dependability features needed for a future avionic network, like seamless fail-over. Building on this network, this thesis extended current self-configuration mechanisms to allow for plug and play networks with deterministic guarantees while enabling and making full use of the network’s self-healing features. The mechanisms were implemented and tested with real-world scenarios. This thesis concludes with an outlook on open research points as well as missing items for the actual implementation in an aircraft.</abstract>
+                    <abstract type="content" lang="ger">In vielen modernen Anwendungen werden heutzutage Echtzeitnetzwerke benötigt. Verschiedene existierende Lösungen wurden zu diesem Zwecke entworfen, jeweils spezialisiert auf branchenspezifische Anforderungen und Rahmenbedingungen. Um ein wirklich günstiges Echtzeitnetzwerk zu bekommen, wird im Moment ein gemeinsamer Standard entwickelt, federführend von der IEEE Arbeitsgruppe Time Sensitive Networking (TSN). Die Hauptmerkmale dieses neuen Standards sind unterbrechungsfreie Redundanz durch die Verwendung mehrerer disjunkter Pfade, niedrige Paketverzögerung für hochprioren Datenverkehr sowie verbesserte Synchronisationsmechanismen. Trotz diesen guten Eigenschaften, welche für Avionik-Zwecke noch zu evaluieren sind, wird der Standard nicht helfen, ein Netzwerk optimal im Hinblick auf dessen Dimensionierung und der Platzierung des Datenverkehrs zu designen. 
+Gleichzeitig ist in der Luftfahrtindustrie ein Trend zu mehr modularen und dezentralisierten Kabinengeräten zu sehen, welcher potentiell die Verfügbarkeit der Kabinenfunktionen durch höhere Fehlertoleranz und der Vermeidung der zentralen Server zur Gewichtsreduktion erhöht. Mit mehr Freiheitsgraden werden aber auch neue Mechanismen erforderlich, um den Einbauvorgang zu beschleunigen. Während Topologieerkennungs- sowie Adresskonfigurationsalgorithmen weit verbreitet sind, wurde wenig Augenmerk auf die speziellen Anforderungen im Avionik Bereich gelegt, wie zum Beispiel Echtzeitverhalten, Fehlerisolation und unterbrechungsfreie Redundanz. In einer solchen volldynamischen Kabine ist ein Cloud-ähnlicher Service vorstellbar, welcher dynamische Ressourcenverwaltung im Falle eines Fehler, einer Konfigurationsänderung oder während der Initialisierung vornimmt.
+Das Ziel dieser Arbeit ist das Finden von Möglichkeiten zur Realisierung eines verteilten, selbstkonfigurierenden Netzwerks, welches diese Dienste als Plug &amp; Play Verfahren für seine Geräte anbietet. Demzufolge wurden existierende Echtzeit-Netzwerke auf dessen Schwächen untersucht. Basierend auf einer Literaturrecherche wurden die drei vielversprechendsten Kandidaten ausgewählt und um Konzepte zur Erfüllung der Anforderungen eines zukünftigen Avioniknetzwerkes erweitert. Die vorgeschlagenen Konzepte wurden prototypisch implementiert und durch mathematische Modelle abgesichert. Anschließend wurden die Prototypen im Normal- sowie Fehlerfall evaluiert und die Existenz und Funktion der Zuverlässigkeitsmechanismen gezeigt, wie beispielsweise unterbrechungsfreie Redundanz. Darauf basierend erweitert diese Thesis bestehende Selbstkonfigurations-Mechanismen um Plug &amp; Play Funktionen mit deterministischen Garantien zu ermöglichen und dabei die vollen Möglichkeiten der Netzwerk-Selbstheilung auszuschöpfen. Die Mechanismen wurden implementiert und mit Daten realer Szenarien getestet. Die Thesis schließt mit einem Ausblick auf offenen Forschungsfragen ab und benennt fehlende Punkte, welche für eine echte Implementierung in Flugzeugen fehlen.</abstract>
+                    <subject>
+                        <topic>Dienstgüte</topic>
+                        <topic>Real-time</topic>
+                        <topic>Ethernet</topic>
+                        <topic>Netzwerk</topic>
+                        <topic>Konfiguration</topic>
+                        <topic>Autokonfiguration</topic>
+                        <topic>OpenFlow</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Praktische und Technische Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-13335</identifier>
+                    <identifier type="sys">HT019732192</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1333</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2018-03-21</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1333">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1333/1/Dissertation_Peter_Heise.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1333"
+            DMDID="DMD_siegen_opus_1333">
+            <mets:fptr FILEID="FILE0_siegen_opus_1333"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

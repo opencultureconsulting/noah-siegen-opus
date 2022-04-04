@@ -1,0 +1,123 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_388">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Analysis of the charge collection process in solid state X-ray detectors</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Analyse des Ladungssammlungsvorgangs in Halbleiter-Röntgendetektoren</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kimmel, Nils</displayForm>
+                        <namePart type="family">Kimmel</namePart>
+                        <namePart type="given">Nils</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2008</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Physics with X-rays spans from observing large scales in X-ray
+astronomy down to small scales in material structure analyses with
+synchrotron radiation. Both fields of research require imaging detectors
+featuring spectroscopic resolution for X-rays in an energy range of
+0.1keV to 20.0keV. Originally driven by the need for an imaging
+spectrometer on ESA&apos;s X-ray astronomy satellite mission XMM-Newton,
+X-ray pnCCDs were developed at the semiconductor laboratory of the
+Max-Planck-Institute. The pnCCD is a pixel array detector
+made of silicon. It is sensitive over a wide band from near infrared-
+over optical- and UV-radiation up to X-rays.
+
+This thesis describes the dynamics of signal electrons from the moment
+after their generation until their collection in the potential minima of
+the pixel structure. Experimentally, a pinhole array was used to scan
+the pnCCD surface with high spatial resolution. Numerical simulations
+were used as a tool for the modeling of the electrical conditions inside
+the pnCCD. The results predicted by the simulations were compared with
+the measurements.
+
+Both, experiment and simulation, helped to establish a model for the
+signal charge dynamics in the energy range from 0.7keV to 5.5keV.
+More generally, the presented work has enhanced the understanding of the
+detector system on the basis of a physical model. The developed
+experimental and theoretical methods can be applied to any type of array
+detector which is based on the full depletion of a semiconductor
+substrate material.</abstract>
+                    <abstract type="content" lang="ger">Physik mit Röntgenstrahlen befasst sich sowohl mit grosskaligen
+Strukturen in der Röntgenastronomie, als auch mit kleinskaligen
+Phänomenen bei Strukturanalysen mit Synchrotronstrahlung. In beiden
+der genannten Bereiche werden bildgebende Sensoren benötigt, die
+zusätzlich als Spektrometer im Energiebereich von 0.1keV bis 20.0keV
+arbeiten. Ursprünglich wurden pnCCDs am Halbleiterlabor der
+Max-Planck-Institute für Physik und extraterrestrische Physik
+entwickelt, um ein bildgebendes Spektrometer für die
+Röntgenastronomiemission XMM-Newton der ESA bereitzustellen.
+Das pnCCD ist ein Detektor mit Pixelstruktur, der vom Infraroten über
+optische und UV-Strahlung bis hin zu Röntgenstrahlung empfindlich
+ist.
+
+Diese Arbeit beschreibt die Bewegung von Signalelektronen vom Zeitpunkt
+ihrer Erzeugung bis zur Sammlung in den Speicherzellen der
+Pixelstruktur. Zur experimentellen Untersuchung von pnCCDs wurde ein
+Lochraster eingesetzt, das deren Oberfläche mit hoher räumlicher
+Auflösung abtastet. Mit Hilfe von numerischen Bauelementesimulationen
+stand ein Werkzeug zur Modellierung der elektrischen Bedingungen in
+pnCCDs zur Verfügung.
+
+Durch die Kombination der durchgeführten Experimente und Simulationen
+konnte ein Modell für die Signalladungsdynamik im Energiebereich von
+0.7keV bis 5.5keV erstellt werden. Im allgemeineren Sinne hat die
+vorliegende Arbeit mittels eines physikalisches Modells das
+Verständnis von pnCCDs erweitert. Die dazu entwickelten
+experimentellen und theoretischen Methoden können auf jeden Detektor
+angewendet werden, der auf einem vollständig verarmten
+Halbleitersubstrat aufbaut.</abstract>
+                    <subject>
+                        <topic>Röntgenastronomie</topic>
+                        <topic>Bauelementephysik</topic>
+                        <topic>Beweglichkeit &lt;Physik&gt;</topic>
+                        <topic>Röntgenstrahlung</topic>
+                        <topic>Charge-Coupled-Device</topic>
+                        <topic>Radiation Detector</topic>
+                        <topic>X-ray Astronomy</topic>
+                        <topic>Synchrotron Radiation</topic>
+                        <topic>Electron Mobility</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 7, Physik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-3885</identifier>
+                    <identifier type="sys">HT016000124</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_388</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2009-02-11</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_388">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/388/1/kimmel.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_388"
+            DMDID="DMD_siegen_opus_388">
+            <mets:fptr FILEID="FILE0_siegen_opus_388"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

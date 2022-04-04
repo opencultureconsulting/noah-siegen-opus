@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1117">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Predictable transactional memory architecture for hierarchical mixed-criticality systems</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Owda, Zaher</displayForm>
+                        <namePart type="family">Owda</namePart>
+                        <namePart type="given">Zaher</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">A transactional memory simplifies the concurrency management in multicore systems by permitting sets of load and store instructions to be executed in an atomic way. The correct results for concurrent transactions and the execution time strongly depend on the coherency potentials, rollback capabilities and strategies of the transactional memory.
+A transactional memory can be implemented as a Hardware Transactional Memory (HTM), as a Software Transactional Memory (STM), or as a hybrid combination of both called Hybrid Transactional Memory (HyTM). STM is the most common implementation of the transactional memory models, which is slower but simpler and more flexible than hardware transactional memories. HyTM is an approach that combines both STM and HTM by using architectural support to accelerate particular algorithms of the STM or by allowing hardware and software transactions to operate in the same address space. Mixed-Criticality Systems (MCSs) combine applications and subsystems at different levels of criticality on multicore systems. The development of such a safety-critical architecture requires a transactional memory architecture that guarantees the predictability, fault isolation and heterogeneity of concurrent safety-critical subsystems. Available transactional memory architectures do not support mixed-criticality at the chip level. Additionally, existing memory solutions spanning from multi-core chips to the cluster level are missing. A hierarchical transactional memory protocol is required to provide hierarchical support at all levels of the system architecture.
+In this dissertation, two transactional memory architectures are proposed, namely a transactional memory for chip level architectures and a hierarchical transactional memory architecture for both multi-core chips and the cluster level. In case of the chip-level transactional memory architecture, the predictability of the memory operations is guaranteed based on a global time base and the interarrival times of transactions. Different roll-back strategies with selective committing/aborting of requests are introduced based on the criticality of the components. This requires additional functionalities of the transactional memory such as temporal and spatial partitioning. The hierarchical solution extends the previously mentioned properties and services to a hierarchical transactional memory protocol that guarantees the requirements for distributed MCSs. This architecture includes novel transactional memory extensions at cores, network interconnections, memory and network gateways.
+The proposed transactional memory architectures introduce and exploit novel transactional memory algorithms and protocols developed for MCSs. The applied scientific and technical methods include the definition of the system and memory architecture with novel conceptual models and algorithms. A trace-based simulation framework was implemented in systemC to simulate the chip-level architecture. Additionally, this framework was extended to a co-simulation framework combining systemC with AUTOSAR for the experimental evaluation of the models and algorithms of the proposed hierarchical transactional memory architecture. Use cases from the automotive area served for the evaluation. Better fault isolation at all levels of the chip and cluster components is obtained due to the proposed architectures. The presented solutions handle efficiently the temporal predictability at transaction level, interconnection level, memory gateway level and cluster level. For the first time, a hierarchical transactional memory–based architecture for MCS supporting chip and cluster level is presented. The proposed protocol concurrently manages the reliable execution of MCS transactions. Finally, the proposed protocol is technology independent and hides the heterogeneity of the components.</abstract>
+                    <abstract type="content" lang="ger">Ein transaktionaler Speicher vereinfacht das Nebenläufigkeitsmanagement in Mehrkernsystemen, indem Sätze von Lade- und Speicherbefehlen auf atomare Weise ausgeführt werden. Die korrekten Ergebnisse für gleichzeitige Transaktionen und die Ausführungszeiten hängen stark von den Kohärenzpotentialen, Rollback-Fähigkeiten und Strategien des transaktionalen Speichers ab. Ein transaktionaler Speicher kann als Hardware-Transaktionsspeicher implementiert werden (HTM), als Software-Transaktionsspeicher (STM) oder als Hybrid-Kombination von Hardware und Software (HyTM). STM ist die häufigste und flexibelste Implementierung, jedoch langsamer als ein Hardware-Transaktionsspeicher. HyTM ist ein Ansatz, der sowohl STM als auch HTM kombiniert, indem Architekturunterstützung verwendet wird, um bestimmte Algorithmen des STM zu beschleunigen oder Hardware- und Software-Transaktionen im gleichen Adressraum zu ermöglichen.
+Mixed-Criticality-Systeme (MCS) kombinieren Anwendungen und Subsysteme auf verschiedenen Ebenen der Kritikalität eines Multicore-Systems. Die Entwicklung einer solchen sicherheitskritischen Architektur erfordert eine transaktionale Speicherarchitektur, die die Vorhersagbarkeit, Fehlerisolierung und Heterogenität von gleichzeitigen sicherheitskritischen Subsystemen gewährleistet. Verfügbare Transaktionsspeicherarchitekturen unterstützen keine gemischte Kritikalität auf der Chipebene. Darüber hinaus fehlen vorhandene Speicherlösungen, die sich von Multi-Core-Chips bis auf die Cluster-Ebene erstrecken. Ein hierarchisches Transaktionsspeicherprotokoll ist erforderlich, um hierarchische Unterstützung auf allen Ebenen der Systemarchitektur bereitzustellen.
+In dieser Dissertation werden zwei transaktionale Speicherarchitekturen vorgeschlagen, nämlich ein Transaktionsspeicher für Chip-Level-Architekturen und eine hierarchische transaktionale Speicherarchitektur für Multi-Core-Chips und die Cluster-Ebene. Im Falle der transaktionalen Speicherarchitektur auf der Chip-Ebene wird die Vorhersagbarkeit der Speicheroperationen basierend auf einer globalen Zeitbasis und den Zwischenankunftszeiten von Transaktionen garantiert. Auf der Grundlage der Kritikalität der Komponenten werden unterschiedliche Roll-Back-Strategien mit selektivem Commit/Abort von Requests eingeführt. Dies erfordert zusätzliche Funktionalitäten des Transaktionsspeichers wie zeitliche und räumliche Partitionierung.
+Die hierarchische Lösung erweitert die zuvor erwähnten Eigenschaften und Dienste zur  Realisierung eines hierarchischen Transaktionsprotokolls, das die Anforderungen für verteilte MCS gewährleistet. Diese Architektur enthält neue Transaktionsspeichererweiterungen bei Prozessorkernen, beim Netzwerk, sowie bei Speicher- und Netzwerk-Gateways. 
+Die vorgeschlagenen Architekturen führen neuartige Transaktionsalgorithmen und Protokolle ein, die für MCSs entwickelt wurden. Die angewandten wissenschaftlichen und technischen Methoden umfassen die Definition der System- und Speicherarchitektur mit neuen konzeptuellen Modellen und Algorithmen. Eine trace-basierte Simulationsumgebung wurde in SystemC implementiert, um die Chip-Level-Architektur zu evaluieren. Darüber hinaus wurde dieses Framework auf eine Co-simulations Umgebung erweitert, die SystemC mit AUTOSAR kombiniertum die hierarchische transaktionale Speicherarchitektur zu evaluieren. 
+Ergebnisse umfassen einebessere Fehlerisolation auf allen Ebenen des Chips und der Cluster-Komponenten aufgrund der vorgeschlagenen Architekturen. Die vorgestellten Lösungen behandeln die zeitliche Vorhersagbarkeit auf der Transaktionsebene, der Netzwerkebene und der Speicher-Gateway-Ebene. Erstmals wird eine hierarchische transaktionsspeicherbasierte Architektur für MCS vorgestellt.</abstract>
+                    <subject>
+                        <topic>Transaktionaler Speicher</topic>
+                        <topic>Transactional memory</topic>
+                        <topic>Mixed-criticality systems</topic>
+                        <topic>Predictability</topic>
+                        <topic>Embedded systems</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Praktische und Technische Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11178</identifier>
+                    <identifier type="sys">HT019286279</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1117</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2017-03-13</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1117">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1117/1/Dissertation_Zaher_Owda.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1117"
+            DMDID="DMD_siegen_opus_1117">
+            <mets:fptr FILEID="FILE0_siegen_opus_1117"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

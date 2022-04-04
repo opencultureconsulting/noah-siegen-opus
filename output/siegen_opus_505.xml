@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_505">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Intensivpädagogische Erziehungshilfen im Ausland : Strukturen, Prozesse und Rahmenbedingungen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wendelin, Holger</displayForm>
+                        <namePart type="family">Wendelin</namePart>
+                        <namePart type="given">Holger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Um intensivpädagogische Hilfen im Ausland ranken sich seit vielen Jahren zahlreiche Mythen, die von &quot;Pädagogik unter Palmen&quot; bis zum &quot;Straflager in Sibirien&quot; reichen. Sie halten sich nicht nur beharrlich in den Medien und in der Öffentlichkeit, sondern auch in der Fachwelt. Die wissenschaftliche Betrachtung dieser besonderen Erziehungshilfen hat bislang zu wenig und nur partikulär stattgefunden. Diskurse werden daher oft auf Basis von Glaubenssätzen und Halbwissen geführt.
+Die vorliegende Arbeit setzt an diesem Forschungsdesiderat an und untersucht Konzepte, Strukturen, Prozesse, Rahmenbedingungen und die Alltagswelt in Auslandshilfen. 
+Es wurden über achtzig Hilfen in 13 Ländern von 19 verschiedenen Trägern durch teilnehmende Beobachtungen im Ausland untersucht. Durch ein komplexes Forschungsdesign ergibt sich ein breiter und differenzierter Einblick in die Konzeptionen und in die Praxis von Auslandshilfen. 
+Die Arbeit vermittelt einen facettenreichen Überblick über Potenziale, Stärken und Schwächen und über den Entwicklungsbedarf von intensivpädagogischen Auslandshilfen und trägt somit zu einer fachlichen und fachpolitischen Orientierung und Einordnung bei.</abstract>
+                    <subject>
+                        <topic>Jugendhilfe</topic>
+                        <topic>Erziehungshilfe</topic>
+                        <topic>Auslandshilfen</topic>
+                        <topic>Auslandsmaßnahmen</topic>
+                        <topic>intensivpädagogisch</topic>
+                        <topic>individualpädagogisch</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 2, Erziehungswissenschaft und Psychologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5052</identifier>
+                    <identifier type="sys">HT016787701</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_505</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2011-01-10</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_505">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/505/1/wendelin.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_505"
+            DMDID="DMD_siegen_opus_505">
+            <mets:fptr FILEID="FILE0_siegen_opus_505"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

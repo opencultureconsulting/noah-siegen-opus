@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1179">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Constructive category theory and applications to equivariant sheaves</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Posur, Sebastian</displayForm>
+                        <namePart type="family">Posur</namePart>
+                        <namePart type="given">Sebastian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">In this thesis we create a purely categorical framework for cohomology computations of G-equivariant coherent sheaves on projective space for a finite group G. For this, we develop three different sub-frameworks: First, we construct a skeletal tensor category SRep(G) equivalent to the representation category Rep(G) of G. Second, we design, in the context of an arbitrary abelian category, an algorithm for computing spectral sequences which is suitable for a direct computer implementation, i.e., it only uses categorical constructions
+provided by the axioms of an abelian category. Last, we describe how to internalize the exterior algebra E and its modules in a tensor category.
+Combining our three sub-frameworks yields an algorithm for computing spectral sequences within the category of E-modules internal to SRep(G). Thanks to an equivariant version of the famous BGG-correspondence, we can use such an algorithm for computing cohomology groups of G-equivariant sheaves on projective  space. Furthermore, this algorithm allows us to compute a new invariant called
+spectral cohomology table which in this thesis is proven to be stronger than the classical cohomology table.
+Since our framework can be described in purely categorical language, a software project in GAP facilitating the implementation of abstract categories and categorical algorithms was born during the writing of this thesis: Cap (Categories, Algorithms, Programming). The categorical framework along with all algorithms presented in this thesis is implemented in Cap.</abstract>
+                    <abstract type="content" lang="ger">In dieser Arbeit geben wir der Kohomologieberechnung G-äquivarianter Garben auf dem projektiven Raum für endliche Gruppen G einen konstruktiven kategoriellen Rahmen. Dazu gehen wir in drei Schritten vor: Wir konstruieren zuerst
+eine skeletale Tensorkategorie SRep(G), welche äquivalent zur Darstellungskategorie Rep(G) von G ist. Danach entwerfen wir einen ausschließlich auf den Axiomen einer abelschen Kategorie beruhenden Algorithmus zur Berechnung von Spektralsequenzen. Im Anschluss behandeln wir die äußere Algebra E und ihre Moduln intern in einer Tensorkategorie.
+Die Kombination dieser drei Schritte ergibt einen Algorithmus zur Berechnung
+von Spektralsequenzen innerhalb der Kategorie von E-Moduln intern in SRep(G).
+Dank der berühmten BGG-Korrespondenz kann dieser Algorithmus zur Bestimmung
+von Kohomologiegruppen G-äquivarianter Garben auf dem projektiven Raum genutzt werden. Darüber hinaus ermöglicht er die Berechnung von Spektral-Kohomologietabellen - eine neue Invariante, welche stärker ist als klassische Kohomologietabellen, wie in dieser Arbeit gezeigt wird.
+Durch die konstruktive Anwendung rein kategorieller Konzepte entstand während des Verfassens dieser Arbeit ein Software-Projekt in GAP zur Vereinfachung
+der Implementation abstrakter Kategorien und kategorieller Algorithmen: Cap (Categories, Algorithms, Programming). Alle Ergebnisse und Algorithmen dieser Arbeit wurden in Cap realisiert und implementiert.</abstract>
+                    <subject>
+                        <topic>Kohomologie</topic>
+                        <topic>Cohomology computations</topic>
+                        <topic>Homological algebra</topic>
+                        <topic>Algebraic geometry</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11798</identifier>
+                    <identifier type="sys">HT019386971</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1179</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2017-06-21</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1179">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1179/1/Dissertation_Sebastian_Posur.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1179"
+            DMDID="DMD_siegen_opus_1179">
+            <mets:fptr FILEID="FILE0_siegen_opus_1179"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

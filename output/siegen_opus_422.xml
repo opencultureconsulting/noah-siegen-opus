@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_422">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Entwicklung und Management von Wissen in Organisationen des öffentlichen Bildungswesens in Brasilien : Praxis-Lernen im schulischen Kontext von Macht und Bürokratie</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Fraga de Melo, Gilberto</displayForm>
+                        <namePart type="family">Fraga de Melo</namePart>
+                        <namePart type="given">Gilberto</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2009</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Das Bildungswesen, wie jede öffentliche Verwaltung, wird stark von einer technobürokratischen Logik geprägt. Die Bürokratie ist als Demokratisierungsfaktor für den Zugang zu öffentlichen Diensten entstanden; sie sollte eine Garantie für Gleichberechtigung sein und verlangte klare Normen und Regeln, um alle Individuen in gleicher Weise berücksichtigen zu können. Weil sie nicht unpersönlich bleiben konnte, wie es erforderlich war, sondern ihre Praxis immer persönlicher wurde, wurde daraus ein Machtinstrument, mit dem die Handlungsfelder der verschiedenen Organisationsebenen eingegrenzt, zugeordnet und ausgedehnt werden. Das brasilianische Bildungswesen - und insbesondere die Lehre - wird von einem breiten und komplexen Spektrum an Gesetzen, Verordnungen und normativen Richtlinien abgegrenzt, die über die Schulleiter und -lehrer in die pädagogische Praxis einfließen. So werden die Machtverhältnisse zum Teil des Schulalltags, und sie spiegeln sich letztlich in der Autorität der Lehrer über die Schulgemeinschaft (Eltern und Schüler) wider.
+Deshalb kann man nicht von Schule und Lehrerhandlungen reden, ohne die Macht zu erwähnen, die dort ausgeübt wird. Ebenso wenig darf man die Machtverhältnisse übersehen, die implizit und explizit in der Lehrpraxis zu finden sind, oder die bürokratische Struktur der Schule unberücksichtigt lassen. Zugleich sollte man bedenken, dass Organisationen nicht nur unser Verhalten beeinflussen, sondern selbst von uns beeinflusst werden. Schließlich darf man nicht vergessen, dass sie von Menschen produziert werden, wie die Neoinstitutionalisten betonen.</abstract>
+                    <subject>
+                        <topic>Öffentliche Erziehung</topic>
+                        <topic>Cuiabá</topic>
+                        <topic>Rio Branco</topic>
+                        <topic>Ministerium für Erziehung und Bildung</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 2, Erziehungswissenschaft und Psychologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4229</identifier>
+                    <identifier type="sys">HT016170690</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_422</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2009-12-06</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_422">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/422/1/fraga_de_melo.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_422"
+            DMDID="DMD_siegen_opus_422">
+            <mets:fptr FILEID="FILE0_siegen_opus_422"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

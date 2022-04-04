@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_420">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Watershed hydrological responses to changes in land use and land cover, and management practices at Hare watershed, Ethiopia</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mengistu, Kassa Tadele</displayForm>
+                        <namePart type="family">Mengistu</namePart>
+                        <namePart type="given">Kassa Tadele</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2009</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">This study investigates hydrological responses to changes in land use, land cover and management practices at Hare River watershed, Southern Rift Valley Lakes Basin, Ethiopia. It addresses methods that are required to better characterize impacts of land use and cover and climate change scenarios and understand the upstream-downstream linkages with respect to irrigation water allocation. Understanding how the changes in land use and cover influence streamflow and subsequently optimization of available water resources utilization can enhance the ability of planners, practitioners, researchers and farmers to formulate and implement sound policies to minimize undesirable future impacts and devise management alternatives. Three land use and cover maps were developed using aerial photographs and satellite image through visual interpretation of the aerial photographs and supervised classification of the satellite image. The rates of land use and land cover changes were identified for two periods at watershed and sub-watershed levels. Two physical-based, semi-distributed hydrological models, SWAT2005/ArcSWAT and HSPF, were utilized to simulate hydrological responses to land use and climatic changes. Streamflow data at the outlet of the watershed was utilized to analyze seasonal stream flow variability due to land use and land cover changes. The performances of the models have been evaluated through sensitivity analysis, calibration, validation and uncertainty analysis. Consequently, impacts of hypothetical land use and climate change scenarios were developed to analyze their impacts on downstream water users. Eventually, based on the results these scenario analyses a new optimal irrigation water allocation tool was developed to allocate available water resources among competing irrigation sites.
+The results of the land use and land cover change analysis identified that farmlands and settlements class has expanded during the past four decades. Detailed impacts of these changes were analyzed employing the SWAT2005. Sensitivity analysis using the SWAT2005 model has pointed out some crucial parameters that control the surface and subsurface hydrological processes of the studied watershed. Consequently, results of the models performances assessment illustrated that both SWAT2005 and HSPF have resulted acceptable outputs with some efforts of acquiring data in areas where there is limited available data. However, the SWAT2005 model performs slightly better than HSPF for monthly and seasonal streamflow analysis. As a result, streamflow variability during the dry and wet seasons was further analysed using this model based on pre-identified scenarios. Furthermore, uncertainty analyses were performed and discussed using ParaSol, SUNGLASSES, SUFI-2 and GLUE methods. On the other hand, results from the climate change scenario analysis using GCM for the period of 2010-2099 showed that an increase in future average annual precipitation and average temperature when compared to the baseline period. Similarly, analysis made on intervention of small scale irrigation in the upper and middle reach of the watershed resulted in substantial decrease in mean monthly discharge during the dry season, while increased discharge during the wet season. Consequently, an optimal tool was developed to allocate scarce water resources among three upstream and downstream demand sites with a prime objective of achieving equitable resources utilization while maintaining acceptable economic efficiency and environmental sustainability. The analysis revealed that a substantial volume of water can be saved through deficit irrigation principles. It is also noted that, in the face of intense competition among irrigation water users where there is a significant water shortage throughout a watershed, equitable and efficient utilization of water resources has always remained a social goal. The developed tool can be used in other watersheds too by decision makers and planners where there exist irrigation water allocation problems between competing upstream and downstream irrigation sites. However, it needs simulation outputs from SWAT2005 and needs to specify the exact sub-watersheds where the irrigation sites are located. In order to utilize outputs from other models, the tool needs some modification in the algorithm (visual basic) specifically on the declaration of the input files. Generally, the results highlighted that use of an integrated simulation-optimization approach has a paramount importance to investigate impacts of land use and cover and climate change on hydrological regime and consequently allocate limited available water resource in an equitable manner among competing sites.</abstract>
+                    <subject>
+                        <topic>Bodennutzung</topic>
+                        <topic>Hare Flusseinzugsgebiet</topic>
+                        <topic>Klimawandel</topic>
+                        <topic>Bewässerungsoptimierung</topic>
+                        <topic>Watershed Hydrological Responses</topic>
+                        <topic>Land Use</topic>
+                        <topic>Climate Change</topic>
+                        <topic>Irrigation optimization tool</topic>
+                        <topic>Ethiopia</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Forschungsinstitut Wasser und Umwelt"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4201</identifier>
+                    <identifier type="sys">HT016167935</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_420</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2009-11-04</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_420">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/420/1/mengistu.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_420"
+            DMDID="DMD_siegen_opus_420">
+            <mets:fptr FILEID="FILE0_siegen_opus_420"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

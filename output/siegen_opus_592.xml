@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_592">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Identification of unknown structural loads from dynamic measurements using robust observers</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Klinkov, Maksim</displayForm>
+                        <namePart type="family">Klinkov</namePart>
+                        <namePart type="given">Maksim</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The global trends in the construction of complex structures e.g. high buildings, wind turbines or airplanes&apos; tend to make the structures more intelligent by integrating sensing units together with evaluation algorithms which allow the check of structure integrity permanently. This process of structural integrity characterization strategy referred to as Structural Health Monitoring (SHM). Special SHM parameters like material properties and load characteristics are essential when assessment of fatigue life of a structure and its components is done. Therefore, the time history of an external load is an important quantity in the forecast of the remaining lifetime. Furthermore, the load localization problem becomes an important issue, especially in the case of impacts, since the aircraft industry started to use new composite materials more extensively where the impacts cause delaminations which are not detectable by visual inspections. In many practical applications, however, the measurement of external loads is limited or not possible due to sensor limitations or the unknown nature of the external forces. Therefore, indirect load history estimation is a subject of extensive studies in the last two decades. The estimation procedure leads to a so called inverse problem which is &apos;ill-posed&apos; in the mathematical sense so that the existence, uniqueness or stability of solution is violated.
+First of all, this work provides a closer investigation to a variety of existing algorithms of force history reconstruction and location estimation which have been established by mechanical engineers. Secondly, research is carried out for possible candidate methods among the other engineering disciplines. The main focus of the thesis is concentrated on comprehensive design analysis and further development of the qualified algorithms. In particular, model based robust observers are considered as candidates for the online loads and states reconstruction. The aspects of proper model building that allow releasing the sensor placement procedure (from collocated to non-collocated), while simultaneously reducing the model complexity are introduced for the observer design. An innovative model free passive technique for automatic impact location detection is elaborated and extended by incorporation of a fast robust load estimation method. In addition, a novel approach of rank deficiency compensation is proposed for the direct time deconvolution procedure in the non-collocated case. 
+Selected algorithms are grouped according to their ability to fulfill the load reconstruction requirements and tested either in simulation environment or on laboratory structures. The results are systemized in a form of strong and weak sides for every particular algorithm which might serve for the on-field application and future research in this area.</abstract>
+                    <subject>
+                        <topic>Beobachter &lt;Kybernetik&gt;</topic>
+                        <topic>load</topic>
+                        <topic>estimation</topic>
+                        <topic>observers</topic>
+                        <topic>inverse problem</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Mechanik und Regelungstechnik - Mechatronik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5927</identifier>
+                    <identifier type="sys">HT017101709</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_592</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2011-11-03</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_592">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/592/1/klinkov.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_592"
+            DMDID="DMD_siegen_opus_592">
+            <mets:fptr FILEID="FILE0_siegen_opus_592"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

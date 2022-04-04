@@ -1,0 +1,60 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1177</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Development of stable telecontrol and teleoperation of the AutoMerlin mobile robot</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Aamir</pc:foreName>
+            <pc:surName>Shahzad</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Mobiler Roboter</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Telecontrol</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Passivity control</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Mobile robotics</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Haptic device</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Fuzzy control</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Mobile robots have played a crucial role since their inception and the research in the field of mobile robotics is ever increasing day by day because they have vast applications. These robots have brought easiness and comfort to human’s life. There are different ways in which mobile robots navigate, e.g. some move autonomously while others have a human operator as their motion planner and executor. The involvement of a human operator gave rise to the idea of the development of teleoperated robots. Teleoperated robots have helped in planetary explorations, landmines clearance, and explosive materials handling in dangerous environments, e.g. they are actively involved in the radioactive material handling of the nuclear power plants. Telecontrol and teleoperation consist of a human operator, a control station, a communication medium, a slave robot, and the remote environment. Initially, a dedicated medium like a radio link was used as a communication link between the control station and the slave robot. The communication involved some delay in the data and signal transmission. The delay was constant and the control laws were modified according to the new scenario.&#13;
+The dedication of a specific link for the communication was costly and it could not attract many researchers. But with the advent of the Internet, the researchers started utilizing it for the development of teleoperated robots. The main advantage of the Internet is its availability and cost. But as the Internet is a shared medium, therefore, it has an inherent delay in it. This delay is random in nature. Apart from delay it also has other limitations like packet drops, duplication of data, out of order arrival of packets, etc. The design of a controller with such limitations was a challenging task. Therefore, different solutions have been proposed to develop a stable telecontrol of the mobile robot AutoMerlin. At first, the Event-based Control was implemented to limit the execution time of the input commands so that the robot remains stable even in the presence of a delay. After that fuzzy soft computing was employed to design a controller, which was immune to a network delay. It has two inputs, one input comes from the human operator and the other input comes from the sonar sensors which map the environment and calculate the distance to the obstacle and provide it to the speed controller for an appropriate output speed. An ancillary intelligence has been provided to avoid obstacles autonomously in case of connection loss between the human operator and the mobile robot. Finally, Time Domain Passivity Control has been implemented to design a bilateral controller. It is a non-model-based controller which doesn’t add any extra damping to the system and also there is no need to make any compromise on any parameter of the system. It is based on Two-port network. The controller has been designed with only one port active. Then, the work has been extended to design a bilateral controller with both ports active having a constant and stochastic delay and other network impediments using Time Delay Power Network approach. The force feedback has been rendered back to the human operator. Several experiments have been performed to test the performance and robustness of the controllers. The performance evaluation data has&#13;
+been plotted. Stable teleoperation has been achieved and it has been deployed to the mobile robot AutoMerlin. In the end, the Probabilistic Neuro-fuzzy and ANFIS have been used to design a leader-follower setup of multiple mobile robots. A simulation has been done to visualize the performance of the proposed algorithm and the Probabilistic Neuro-fuzzy has been implemented on the real robot.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Mobile Roboter haben seit ihrer Entwicklung eine entscheidende Rolle gespielt und die Forschung im Feld mobiler Robotik nimmt andauernd zu, da diese in vielen Anwendungen eingesetzt werden. Diese Roboter haben Leichtigkeit und Komfort in das Leben des Menschen gebracht. Es gibt verschiedene Arten in denen mobile Roboter navigieren. Manche bewegen sich autonom, während andere einen menschlichen Anwender zur Planung und Ausführung ihrer Bewegungen haben. Die Beteiligung eines menschlichen Anwenders förderte die Idee der Entwicklung von teleoperierten Robotern. Teleoperierte Roboter werden bereits bei planetarischen Erkundungen, bei der Landminen Beseitigung und dem Transport von explosivem Material in gefährlichen Umgebungen eingesetzt. Zum Beispiel werden sie aktiv zur Handhabung von radioaktiven Materialien in Kernkraftwerken eingesetzt. &#13;
+Zur Fernsteuerung und Tele-Operation wird ein menschlicher Anwender, eine Kontrollstation, eine Kommunikationsverbindung, ein Roboter und ein entferntes Einsatzgebiet benötigt. Anfangs wurde eine Radioverbindung als eine Kommunikationsverbindung zwischen dem Sender und dem Roboter verwendet. Die Kommunikation beinhaltete eine Verzögerung bei der Daten- und Signalübertragung. Die Verzögerung war konstant, und die Regelungsgesetze wurden entsprechend dem neuen Szenario modifiziert. Die Entwicklung einer spezifischen Kommunikationsverbindung war kostspielig und konnte nicht viele Forscher überzeugen. Mit dem Aufkommen des Internets begannen Forscher dieses in die Entwicklung von teleoperierten Robotern einzubinden. Der Hauptvorteil des Internets ist seine Verfügbarkeit und die geringen Kosten. Da das Internet ein geteiltes Kommunikationsmedium ist, hat es eine inhärente Verzögerung. Neben der Verzögerung können auch Informationspakete verloren gehen, doppelt ankommen oder zu einer anderen Zeit eingehen. &#13;
+Deshalb werden verschiedene Lösungen vorgeschlagen, um eine stabile Fernsteuerung vom mobilen Roboter AutoMerlin zu entwickeln. Zuerst wurde eine Ereignis basierte Regelung eingeführt, um die Ausführungszeit der Eingangsbefehle zu begrenzen , so dass der Roboter, trotz auftretender Verzögerungen in der Signalübertragung, stabil bleibt. Hiernach wurde Fuzzy-Logik verwendet um einen Regler zu entwerfen, welcher unabhängig von Netzverzögerungen funktioniert. Dieser hat zwei Eingänge. Ein ingangssignal kommt von dem menschlichen Anwender, während der andere Eingang von den Sonarsensoren kommt, die die Umgebung kartografisch darstellen, die Entfernung zum Hindernis berechnen und diese Information dem Geschwindigkeitsregler zur Verfügung stellen der eine angemessene Ausgangsgeschwindigkeit bestimmt. Um Hindernissen autonom im Falle von Verbindungsverlust zwischen dem menschlichen Anwender und dem mobilen Roboter auszuweichen, wurde eine untergeordnete Intelligenz implementiert. Zuletzt wurde Time Domain Passivity Control eingeführt, um einen bilateralen Regler zu entwerfen. Dabei handelt es sich um einen Nicht-modellbasierten Regler, der dem System keine zusätzliche Dämpfung zufügt. Ausserdem müssen keine Kompromisse bei den Parametern des Systems eingegangen werden. Dies basiert auf einem zwei-Kanal Netzwerk. Der Regler wurde mit nur einem aktiven Kanal entwickelt. Unter Verwendung des Time Delay Power Network Ansatzes wurde die Arbeit um einen bilateralen Regler mit zwei aktiven Kanälen, einer konstanten und stochastischen Verzögerung und anderen Netzwerk Beeinträchtigungen erweitert. Das Force Feedback wurde an den menschlichen Anwender zurückgeführt. Verschiedene Versuche zur Uberprüfung der Leistung und der Stabilität des Reglers wurden durchgeführt und dargestellt. Stabile Teleoperation wurde erreicht und an dem mobilen Roboter AutoMerlin eingesetzt. Zuletzt wurden der probabilistische Neuro-fuzzy und ANFIS eingesetzt, um ein leader-follower Setup von multiplen mobilen Robotern aufzubauen. Die Leistung des vorgestellten Algorithmus wurde in einer Simulation dargestellt. Der probabilistische Neuro-fuzzy wurde auf dem realen Roboter implementiert.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2017-06-01</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2017</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-11776</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Regelungs- und Steuerungstechnik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Aamir_Shahzad.pdf" ddb:fileSize="13513579"/>
+   <ddb:checksum ddb:type="MD5">1ec3be655b8c69cf540088319607e453</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1177/1/Dissertation_Aamir_Shahzad.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1177</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

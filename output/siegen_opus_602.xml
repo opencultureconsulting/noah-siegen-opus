@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_602">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Sinneswelten für Menschen mit Demenz in der stationären Altenhilfe : eine Lokalstudie</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>D&apos;Arrigo, Franca</displayForm>
+                        <namePart type="family">D&apos;Arrigo</namePart>
+                        <namePart type="given">Franca</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In der vorliegenden Lokalstudie steht die Institution &quot;Altenpflegeheim&quot; als Sinneswelt für Demenzkranke im Mittelpunkt. 
+Dabei wird die Institution des Alters als soziale Wirklichkeit eines demenzgerechten Pflege- und Betreuungssettigs für Menschen mit Demenz aus der Perspektive von innen heraus näher in den Blick genommen.
+Am Beispiel einer Lokalstudie wird in sechs stationären Pflegeheimen der für die Studie zu Grunde gelegten Leitfrage nach den Wechselwirkungen und Wirkungszusammenhängen einer Sinnneswelt für Demenzkranke nachgegangen. In einer Analyse der Grundstrukturen der sozialen Wirklichkeit werden verschiedene Perspektiven einer Sozialwelt für Demenzkranke in der stationären Altenhilfe aus einer erziehungs-und sozialwissenschaftlichen Sicht untersucht.</abstract>
+                    <subject>
+                        <topic>Stationäre Altenhilfe</topic>
+                    </subject>
+                    <classification authority="ddc">300</classification>
+                    <classification authority="ioo" displayLabel="Fakultät II (Bildung, Architektur, Künste)"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-6028</identifier>
+                    <identifier type="sys">HT017151145</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_602</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2012-02-01</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_602">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/602/1/d_arrigo.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_602"
+            DMDID="DMD_siegen_opus_602">
+            <mets:fptr FILEID="FILE0_siegen_opus_602"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

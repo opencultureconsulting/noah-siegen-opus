@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_459">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Interaction of femtosecond X-ray pulses with periodical multilayer structures</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ksenzov, Dmitriy</displayForm>
+                        <namePart type="family">Ksenzov</namePart>
+                        <namePart type="given">Dmitriy</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The VUV Free Electron Laser FLASH operates in soft X-ray range and produces high-intensive pulse trains with few tens femtoseconds duration. The transversely fully coherent beam will open new experiments in solid state physics which can not be studied with present radiation sources. 
+The study of the time dependent response of the multilayer to the X-ray pulse can provide insights into the process of interaction of highly intense FEL radiation with matter. To test the influence of electron excitation on the optical properties of boron carbide, the refractive index of B4C was measured near B K-edge by energy-resolved photon-in-photon-out method probing a Bragg reflection from periodical multilayers. The measured data clearly show that the variation of the fine structure of the K-absorption edges due to the chemical nature of the absorber element.
+The knowledge obtained from experiments with continuous radiation was used to design the respective experiments with pulse from the FEL. In my thesis, it is proposed that the geometrical setup, where the incident pulse arrives from the FEL under the angle close to the 1st order ML Bragg peak, provides the most valuable information. Preliminary simulation considering form factors of neutral and ionized boron showed that due to ionization, pronounced changes in the reflectivity curve are expected. The proposed scheme can be the powerful tool to study the various processes within the electronic sub-system of the FEL pulse interaction with matter. This type of investigations gives a deep understanding of the nature of the electronic excitation and the recombination at the femtosecond scale.</abstract>
+                    <abstract type="content" lang="ger">Der VUV Freie-Elektronenlaser FLASH arbeitet im weichen Röntgenbereich und produziert Wellenpulse mit zum Teil weniger als 10 Femtosekunden Dauer. Der transversal vollständig kohärente Strahl eröffnet neue Experimente in der Festkörperphysik, die mit bis dato verfügbaren Strahlungsquellen nicht durchgeführt werden konnten.
+Die Untersuchung der zeitabhängigen Antwort eines Multilayers auf einen Röntgenpuls gibt Aufschluss über die Interaktion der sehr intensiven FEL Strahlung mit der Materie. Dazu wurde der Brechungsindex von B4C in der Nähe der K-Absorptionskante von Bor  mit Hilfe einer energieaufgelösten photon-in-photon-out Methode gemessen. Dabei wurde die Braggbeugung eines periodischen Multilayers ausnutzt, um den Einfluss der Elektronenanregung auf die optischen Eigenschaften von B4C zu untersuchen. Die gemessenen Daten zeigen eine klare Variation der Feinstruktur der K-Absorptionskante, die die unterschiedlichen chemischen Eigenschaften des Absorberelements Bor in verschiedenen Multlayern wiederspigelt.
+ Das Wissen aus dem Experiment mit kontinuierlicher Strahlung wurde genutzt, um   ein entsprechendes Experiment mit dem FEL-Pulsen zu konzipieren. In meiner Arbeit schlage ich einen geometrischen Setup vor, bei welchem der einfallende Puls des FEL unter einem festen Winkel in der Nähe des Braggpeaks erster Ordnung des gekrümmten Multilayers einfällt, und die gestreute Intensität des gesamten Braggpeaks gleichzeitig gemessen werden kann.  Vorläufige Simulationen, die Formfaktoren von neutralem und ionisiertem Bor berücksichtigen, zeigen, dass durch Ionisation klare Änderungen in der Reflektivitätskurve erwartet werden können. Das vorgeschlagene Schema kann ein kraftvolles Instrument sein, um verschiedene Prozesse innerhalb des elektronischen sub-Systems der  Interaktion des FEL-Pulses mit Materie zu studieren. Diese Art von Untersuchung liefert ein tiefes Verständnis der Natur der elektronischen Anregung und der Rekombination auf der Femtosekundenskala.</abstract>
+                    <subject>
+                        <topic>Freie-Elektronen-Laser</topic>
+                        <topic>Multilayers</topic>
+                        <topic>FEL-Puls</topic>
+                        <topic>XFEL</topic>
+                        <topic>multilayers</topic>
+                        <topic>femtosecond X-ray pulses</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 7, Physik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4595</identifier>
+                    <identifier type="sys">HT016555784</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_459</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2010-06-23</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_459">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/459/1/ksenzov.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_459"
+            DMDID="DMD_siegen_opus_459">
+            <mets:fptr FILEID="FILE0_siegen_opus_459"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,87 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>2010</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Regelung des Werkstoffflusses zur Erhöhung der Bauteilqualität beim Rotationszugbiegen</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="eng">Control of the material flow to increase the component quality in rotary draw bending</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Linda</pc:foreName>
+            <pc:surName>Borchmann</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Rotationszugbiegen</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Rotationszubiegen</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">In-situ-Messsysteme</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Faltenbildung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Rissbildung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Prozessregelung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Erfahrungswissen</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Rüstprozess</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Faltenglätter</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Fuzzy-Logik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Rotary draw bending</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">In-situ measurement systems</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Wrinkle formation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Crack formation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Process control</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Experience knowledge</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Setup process</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Wiper die</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Fuzzy logic</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Das Rotationszugbiegen ist ein Profilbiegeverfahren, welches vorzugsweise bei geringen Wanddicken und kleinen Biegeradien verwendet wird. Durch Druckspannungen am Innenbogen können Falten verursacht werden. Die Verfahrensgrenze Faltenbildung ist eine Instabilität, die aufgrund der Vielfalt der Einflüsse nur begrenzt kalkulierbar ist. Bisher wird der Biegeprozess durch Einstellversuche erfahrener Maschinenbediener faltenfrei gestaltet. Bei Korrekturen zum Verhindern von Falten besteht die Gefahr, dass der Prozess zur Rissbildung geführt wird. In dieser Arbeit wird eine wissensbasierte Methode vorgestellt, welche die Faltenbildung während des Biegeprozesses selbstständig verhindert, ohne dass ein manuelles Eingreifen erforderlich ist. Die Umsetzung erfolgte über einen Fuzzy-Regler, der Parameterkorrekturen zur Faltenvermeidung unter Beachtung der Rissbildung ermöglicht. Gegenmaßnahmen zur Verhinderung der Falten werden so viel wie nötig und so wenig wie möglich eingeleitet. In-situ-Messsysteme erfassen die erste Falte in ihrer Entstehung. Ein Zustellen des Gegenhalters in Richtung des Rohres und eine Reduzierung der Vorschubgeschwindigkeit der Transporteinheit wirken den Falten entgegen und dienen als Aktoren. Erfahrungswissen wurde bei der Entwicklung der Regelung integriert. Das abgeleitete Prozessmodell kann neben dem System einer Regelung auf andere Problemlösungssysteme, wie Case-based reasoning-Systeme, übertragen werden. In praktischen Biegeversuchen zur Erprobung des Reglers wurden faltenfreie Rohrbögen hergestellt. Der in die Maschine integrierte und dauerhaft aktivierte Regler reagiert auf Schwankungen bspw. durch Temperaturänderungen, Chargenwechsel sowie Wechsel der Biegeaufgabe. Durch den Einsatz des Reglers entfallen zeit- und kostenintensive Einstellversuche und die Ausschussquote wird verringert. Durch die gezielte Prozessführung werden unnötig hohe Werkzeugkräfte vermieden, was den Werkzeugverschleiß reduzieren kann.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Rotary draw bending is a forming process used for bending tubular profiles with small wall thicknesses and small bending radii. Wrinkling as a process boundary is an instability that can only be calculated to a limited extent due to the variety of influences. Up to now, only experienced machine operators designed the bending process to be wrinkle-free by carrying out adjustment trials. If corrections are made to prevent wrinkles, there is a risk that the process will lead to cracking. In this work, a knowledge-based method is presented that automatically prevents wrinkling during the bending process. A fuzzy controller was implemented that allows dosed parameter corrections to prevent wrinkles while considering the risk of cracking. Countermeasures to prevent the wrinkles are introduced as much as necessary and as little as possible. In-situ measurement systems detect the first wrinkle as it forms. Both moving the pressure die toward the tube and reducing the feed rate of the transport unit counteract the wrinkles and serve as actuators of the controller. Experience-based knowledge was integrated in the development of the control system. The derived process model can be applied to other problem solving systems, such as case-based reasoning systems, in addition to the system of a closed-loop control. In practical bending tests to prove the controller, wrinkle-free tube bends were produced. The controller, which is integrated into the machine and permanently activated, reacts to fluctuations caused, for example, by temperature fluctuations, batch changes and changes in the bending task. The use of the controller eliminates time-consuming and cost-intensive adjustment trials and reduces the reject rate. The targeted process control avoids unnecessarily high tool forces, which can reduce tool wear.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution>
+         <cc:name>universi – Universitätsverlag Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Am Eichenhang 50, 57076 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Bernd</pc:foreName>
+            <pc:surName>Engel</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2021-09-27</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2021</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-20102</dc:identifier>
+   <dc:source xsi:type="ddb:ISBN">978-3-96182-109-9</dc:source>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dcterms:isPartOf xsi:type="ddb:noScheme">Forschungsberichte des Lehrstuhls für Umformtechnik;  14</dcterms:isPartOf>
+   <dc:rights xsi:type="dcterms:URI">http://creativecommons.org/licenses/by-sa/4.0/</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Produktionstechnik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="UTS_14_Borchmann.pdf" ddb:fileSize="28687262"/>
+   <ddb:checksum ddb:type="MD5">2f004cf65395dece62648ad863ba4b74</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/2010/3/UTS_14_Borchmann.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/2010</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

@@ -1,0 +1,70 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>620</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">A novel approach for generating digital chirp signals using FPGA technology for synthetic aperture radar applications</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Ashraf</pc:foreName>
+            <pc:surName>Samarah</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Digital Chirp signal</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">piecewise Parabolic-Polynomial Interpolation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Spurious harmonic distortion</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Parallelverarbeitungstechnik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">FPGA</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Digital Chirp signal</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">piecewise Parabolic-Polynomial Interpolation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Spurious harmonic distortion</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Parallel processing technique</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">FPGA</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">In this dissertation a novel digital chirp signal generator is proposed, analyzed, and realized. The new system generates digital chirp signals with the lowest level of spurious harmonic distortion, less memory size and low hardware complexity in comparison with other systems and techniques reported in the literature. &#13;
+In this improved digital chirp generator the start frequency and phase can be controlled by the initial content of the counter and the accumulator. Furthermore, the sweep rate can also be controlled by means of location and size of the address lines. The proposed system is a hybrid of the digital chirp generator and the system using the methodology of the piecewise polynomial interpolation based on the direct digital frequency synthesizer. Moreover, an optimization technique is applied to enhance the performance of this chirp generator and to avoid the attenuation in the speed of its operations.&#13;
+The new digital chirp generator uses a clock to trigger the counter (first integrator) and after that its output feeds the accumulator (second integrator), the decimal value of selected digital lines of the content of the accumulator, which represents the phase, is then used to calculate the value of the chirp sine using the interpolator. This interpolator uses predetermined interpolation coefficients to fit the sine wave from the calculated phase instead of using a predetermined waveform stored in a big size memory. This implies, that a smaller look-up table for sine and cosine functions is used in comparison with the previous techniques.&#13;
+A new improved parallel processing technique is proposed in order to increase the bandwidth of the chirp signal up to 320 MHz and more based on the used level of the parallelism.&#13;
+ As a comparison with the look-up table method, the size of the ROM in the new method is reduced by a factor of more than 128 when using 12 address lines, and Spurious Free Dynamic Range (SFDR) reaching 100.9 dBc.&#13;
+The system is realized using the Innovation Integration X5-TX platform with FPGA Xilinx VIRTEX-5 used with the parallel processing technique to generate a chirp signal with high bandwidth up to 320MHz using 200 MHz clock frequency.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">In dieser Dissertation wird ein neuartiger Chirp-Signal-Generator vorgeschlagen, analysiert und realisiert. Das neue System erzeugt digitale Chirp-Signale mit im Vergleich zu den aus der Literatur bekannten Systemen und Techniken geringsten harmonischen Verzerrungen, reduziertem Speicherbedarf und niedrigerem Hardware-Aufwand.&#13;
+Bei diesem verbesserten digitalen Chirp-Signal-Generator kann die Startfrequenz und Phase durch den initialen Inhalt des Zählers und des Akkumulators gesteuert werden. Darüber hinaus kann auch die Steigung der Frequenzrampe durch die Anzahl und die Beschaltung der Adressleitungen gesteuert werden. Das vorgeschlagene System ist ein Hybrid aus einem digitalen Chirp-Generator und einem System, das auf einem direkten digitalen Frequenzsynthesizer basiert und die Methode der stückweisen polynomialen Interpolation verwendet. Des Weiteren wird eine Optimierungstechnik angewandt, um die Leistung des Chirp-Generators zu verbessern und eine Verlangsamung der Rechengeschwindigkeit zu vermeiden.&#13;
+Der neue digitale Chirp-Generator verwendet einen, um einen Taktgenerator Zähler (ersten Integrator) zu takten, dessen Ausgang den Akkumulator (zweiten Integrator) speist. Der Dezimalwert ausgewählter digitaler Leitungen des Akkumulatorinhalts, welcher die Phase repräsentiert, wird dann verwendet, um den Wert des Chirp-Signals mittels des Interpolators zu berechnen. Dieser Interpolator verwendet im Voraus berechnete Interpolationskoeffizienten, um die Sinusfunktion aus der berechneten Phase zu erzeugen, anstatt eine vorgegebene, in einem großen Speicher abgelegte Wellenform zu verwenden. Dies hat zur Folge, dass im Vergleich zu den bisherigen Verfahren eine kleinere Look-Up-Tabelle für die Sinus- und Kosinusfunktionen verwendet wird.&#13;
+Eine neue, verbesserte parallele Verarbeitungstechnik wird vorgeschlagen, um die Bandbreite des Chirp-Signals auf bis zu 320 MHz und mehr (je nach Grad der Parallelisierung) zu vergrößern.&#13;
+Im Vergleich zur Methode mit Look-Up-Tabellen wird die Größe des Speichers durch die neue Methode um einen Faktor von mehr als 128 bei Verwendung von 12 Adressleitungen reduziert, und der störungsfreie dynamische Bereich (Spurious Free Dynamic Range, SFDR) erreicht einen Wert von 100,9 dBc.&#13;
+Das System wurde realisiert auf der Plattform "Innovation Integration X5-TX" mit einem Xilinx VIRTEX-5 FPGA. Verwendet wurde die parallele Verarbeitungstechnik, um mit einer Taktfrequenz von 200 MHz ein breitbandiges Chirp-Signal mit einer Bandbreite von bis zu 320 MHz zu erzeugen.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2012-05-06</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2012</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-6203</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>NRW-Zentrum für Sensorsysteme (ZESS)</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="samarah.pdf" ddb:fileSize="4364633"/>
+   <ddb:checksum ddb:type="MD5">68c8edf7e26bc41523dfbb992b6e1584</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/620/1/samarah.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/620</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_815">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Visualization and analysis of multispectral image data</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Visualisierung und Analyse multispektraler Bilddaten</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Labitzke, Björn</displayForm>
+                        <namePart type="family">Labitzke</namePart>
+                        <namePart type="given">Björn</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Multispectral imaging is applied in the context of various applications. Recent technological advances, like the development of low-cost and compact multispectral imaging cameras, show the ongoing popularity of this imaging technique. Because of this popularity, there is a high demand for generic solutions to enable a user to get access to relevant information, e.g. constituent spectra, for a large variety of application domains. But, due to the typically high-density of spectral information, usually the interpretation, on the one hand, is complex for humans and on the other hand, is time-consuming for computers. Thus, the challenging task of interpretation consequently requires efficient data analysis algorithms and intuitive visualization methods to support the understanding of the data and to finally make use out of them. 
+
+This thesis addresses the identified challenges mainly by the presentation of efficient, intuitive and generic visual analysis methods for both, multispectral image segmentation and linear spectral unmixing. The key function of these methods is the involvement of a user by visual feedback to enhance the guidance in the exploration. Based on the visual support, the user is enabled to explore and assess results of automatic analysis algorithms and to optimize them, if necessary. 
+
+In addition to the visual analysis methods and with the aim to provide a further understanding of the processing of multispectral image data, also more fundamental challenges and concepts of the processing are discussed.</abstract>
+                    <abstract type="content" lang="ger">Die multispektrale Bildgebung wird im Rahmen verschiedenster Anwendungsgebiete eingesetzt. Die neuesten technologischen Fortschritte, wie die Entwicklung von kostengünstigen und kompakten Multispektralkameras, zeigen die anhaltende Popularität dieses bildgebenden Verfahrens. Impliziert durch diese Popularität besteht ein großer Bedarf an generischen Lösungen mit denen Nutzer für eine Vielzahl von Anwendungsbereichen einen Zugang zu den relevanten Informationen eines Datensatzes erhalten können, z.B. zu den konstituierenden Spektren. Doch aufgrund der typischerweise hohen spektralen Informationsdichte ist die Interpretation der Daten zum einen komplex für den Nutzer und zum anderen zeitaufwendig für den Computer. Dementsprechend werden für die anspruchsvolle Interpretation der Daten effiziente Algorithmen und intuitive Visualisierungsmethoden zur Unterstützung benötigt, um das Verständnis für die Daten zu verbessern und letztlich einen Nutzen aus ihnen ziehen zu können.
+
+Diese Arbeit befasst sich mit den genannten Herausforderungen vor allem durch die Präsentation von effizienten, intuitiven und generischen visuellen Analysemethoden zum einen zur multispektralen Bildsegmentierung und zum anderen zur spektralen Mischungsanalyse. Die Schlüsselfunktion dieser Ansätze ist jeweils die Einbindung des Nutzers durch visuelles Feedback, was eine zielführende Exploration erlaubt. Basierend auf dieser visuellen Unterstützung, wird es dem Nutzer ermöglicht Ergebnisse von automatischen Analysemethoden zu explorieren, zu beurteilen und diese, falls erforderlich, auch zu modifizieren.
+
+Mit dem Ziel ein tiefergehendes Verständnis für die Verarbeitung von multispektralen Bilddaten zu schaffen, werden neben den visuellen Analysemethoden außerdem eher grundlegende Herausforderungen und Konzepte der Verarbeitung diskutiert.</abstract>
+                    <subject>
+                        <topic>Multispektraltechnik</topic>
+                        <topic>Analyse</topic>
+                        <topic>Multispektral</topic>
+                        <topic>Hyperspektral</topic>
+                        <topic>Visualization</topic>
+                        <topic>Analysis</topic>
+                        <topic>Multispectral</topic>
+                        <topic>Hyperspectral</topic>
+                        <topic>Image processing</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Bildinformatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-8156</identifier>
+                    <identifier type="sys">HT018450054</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_815</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2013-10-27</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_815">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/815/1/Dissertation_Bjoern_Labitzke_bearbeitet.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_815"
+            DMDID="DMD_siegen_opus_815">
+            <mets:fptr FILEID="FILE0_siegen_opus_815"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_565">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Verbessertes Modell zur Berechnung des Energiebedarfs zur energetischen Bewertung von Nichtwohngebäuden</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kempf, Heike</displayForm>
+                        <namePart type="family">Kempf</namePart>
+                        <namePart type="given">Heike</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Bei der DIN V 18599, die im Zusammenhang der Energieeinsparverordnung steht, handelt es sich um eine Norm zur energetischen Bewertung von Nichtwohngebäuden. Die DIN V 18599 ist mit ihren über 800 Seiten sehr umfangreich und komplex. Durch die komplexe Thematik der DIN V 18599 sind Abweichungen mit nicht zu unterschätzenden Differenzen im Gesamtergebnis möglich. Ein weiterer Schwachpunkt liegt im Bearbeitungsaufwand, der sich durch die Beschaffung und Ermittlung von Werten ergibt, die zur Berechnung notwendig sind. Der größte Bearbeitungsaufwand bei der energetischen Bewertung von Nichtwohngebäuden im Bestand, liegt in der Zonierung und der damit verbundenen Datenermittlung. Bevor ein Nichtwohngebäude energetisch bewertet werden kann, muss der Gebäudekörper in Bereiche gleicher Randbedingungen eingeteilt werden (Zonierung). 
+Die Zonierung ist ein elementarer Baustein innerhalb der Bilanzierung nach der DIN V 18599. Sie bildet, neben der Ermittlung der geometrischen Daten, die Ba-sis für die weiteren Berechnungen. Die energetische Bewertung von Nichtwohn-gebäuden erfolgt somit auf Grundlage des sogenannten Mehr-Zonen-Modells (MZMs) nach DIN V 18599. Die Zonierung, insbesondere die damit verbundenen Datenermittlungen, sind eine sehr aufwendige Aufgabe, da für jede einzelne Zone die entsprechenden Flächen und Volumina ermittelt werden müssen. Jedoch ist die Zonierung mit Blick auf die oft völlig unterschiedlich bereitzustellenden Nutz-energien unumgänglich. Um den Zeitaufwand zu reduzieren, wurde das Ein-Zonen-Modell (EZM) in die Energieeinsparverordnung eingeführt, welches unter gewissen Voraussetzungen Anwendung finden kann. Jedoch kommt es dort, im Vergleich zum Mehr-Zonen-Modell (MZM), zu Abweichungen im Ergebnis.
+Der Ansatz zur Behebung der Schwachstellen, d.h. der Zeit- und Ergebnisdiffe-renz, wird durch die Berechnung des Jahres-Primärenergiebedarfs auf Grundlage eines Verbesserten-Ein-Zonen-Modells (VEZMs) erreicht. Das Verbesserte-Ein-Zonen-Modell (VEZM) arbeitet mit gewichteten Nutzungswerten und bindet so-wohl Berechnungen des EZMs als auch das MZM mit ein. Der Vorteil des VEZMs gegenüber dem MZM liegt in der vereinfachten Datenermittlung im Be-reich der Zonierung. Der Vorteil des VEZM gegenüber dem EZM liegt in einer verringerten Abweichung in den Ergebnissen für den Jahres-Primärenergiebedarf.
+Das Grundprinzip des VEZMs beruht auf einer prozentualen Aufteilung der ein-zelnen Nutzungswerte bezüglich der Nettogrundfläche je Zone. Durch diese ge-wichteten Nutzungswerte wird die Bilanzierung nicht mehr anhand von verallge-meinerten Werten durch die Annahme einer vorrangig vorhandenen Zone bestimmt, sondern es ergibt sich ein ermittelter Durchschnittswert aller vorhande-nen Zonen. Die vorliegende Arbeit stellt das Verbesserte-Ein-Zonen-Modell für Schulgebäude im Bestand, unter Berücksichtigung der Zonierung, dar. Mit diesem Verfahren wird, mittels optimierter Nutzungswerte, ein relativ genaues Ergebnis bei geringem Zeitaufwand erreicht.</abstract>
+                    <subject>
+                        <topic>Deutschland / Energieeinsparverordnung</topic>
+                        <topic>Energetische Gebäudemodernisierung</topic>
+                        <topic>Bewertung von Gebäuden</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Konstruktiven Ingenieurbau - IKIB"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5659</identifier>
+                    <identifier type="sys">HT017031792</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_565</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2011-06-28</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_565">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/565/1/kempf.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_565"
+            DMDID="DMD_siegen_opus_565">
+            <mets:fptr FILEID="FILE0_siegen_opus_565"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

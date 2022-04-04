@@ -1,0 +1,75 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>855</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Neue Verarbeitungsverfahren von Along-Track Interferometrie Daten eines Radars mit synthetischer Apertur</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Oliver Wolfgang</pc:foreName>
+            <pc:surName>Hirsch</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Along-Track Interferometrie</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">SAR</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Synthetic aperture radar</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">SAR</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Diese Dissertation entstand im Rahmen des Fernerkundungsprojektes EURoPAK-B, welches&#13;
+zum Ziel die Entwicklung eines operationellen Fernerkundungsverfahren zur Bestimmung der&#13;
+Meeresoberflächenströmung und der Unterwasser-Bodentopographie von Küstengewässern&#13;
+hatte. Basis dafür waren Along-Track Interferometrie (ATI) Daten von einem flugzeugestützten&#13;
+Radar mit synthetischer Apertur. Im Gegensatz zu der Across-Track Interferometrie, mit der&#13;
+man Geländetopographien bestimmen kann, besteht mit der Along-Track Interferometrie die&#13;
+Möglichkeit, Geschwindigkeiten von Objekten, wie z.B. Meereströmungen zu ermitteln.&#13;
+Der zentrale Punkt dieser Dissertation besteht in der Entwicklung eines operationellen Verfahrens&#13;
+zur Kalibrierung von ATI Daten unter Berücksichtigung aller benötigten Korrekturen, die&#13;
+aufgrund von Ungenauigkeiten des Radarsystems und der Datenprozessierung benötigt werden.&#13;
+Das Hauptproblem dabei liegt in der Tatsache, dass bei einer ozeanographischen Anwendung&#13;
+nicht bei jeder Datendetektion dafür gesorgt werden kann, dass sich stationäre Objekte, wie Küstengebiete&#13;
+oder Inseln, im Untersuchungsgebiet zur manuellen Kalibrierung der ATI Daten befinden.&#13;
+Im Gegensatz zur Across-Track Interferometrie macht es wenig Sinn, Radarreflektoren,&#13;
+die zur Kalibrierung und zur Qualitätsprüfung eines Höhenmodells herangezogen werden, zu&#13;
+verwenden. Infolge dessen muß eine Methode entwickelt werden, mit der es möglich ist, auch&#13;
+Daten von reinen Meeresgebieten, in denen alles jederzeit in Bewegung ist, fehlerfrei zu prozessieren,&#13;
+damit sie für eine spätere Informationsextraktion nicht obsolet werden. Demnach gilt&#13;
+es die Theorie für eine interne Phasenkalibrierung zu entwickeln und ihre Konsistenz an experimentellen&#13;
+Daten zu überprüfen, um die optimale Along-Track SAR Konfiguration zu erhalten,&#13;
+mit der ein operationell nutzbares Fernerkundungsverfahren zur Bestimmung der Oberflächenströmungen&#13;
+und Unterwasser-Bodentopographien von Küstengewässern Realität werden kann.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The German remote sensing project EURoPAK-B is aimed at the development and the demonstration of a special remote sensing system for the measurement of ocean surface currents and the monitoring of underwater bottom topography in coastal waters on the basis of airborne along- track interferometric (ATI) synthetic aperture radar. In contrast to across-track interferometry ATI is directly sensitive to motions of the scatterers which have a radial velocity component. The ATI phase being directly proportional to the interferometric velocity contains not only contributions resulting from the effective ocean surface currents but also from effects like e. g. orbital motions of longer waves. Thus the actual surface ocean currents differ from the measured interferometric velocities. The processed ATI phase is the starting point for the determination of interferometric velocities and has to be handled accurately. Therefore some concepts concerning a very proper processing of ATI data have to be developed. This includes the correction of phase contributions resulting from the wave guide length at different channel frequencies. Another undesirable contribution to the phase results from the existing across-track component which depends on the squint angle during data acquisition. To minimize that effect the exact positions of the phase centres of both antennas have to be determined in a theoretical way. Also some other effects on the ATI data like the azimuthal displacement of moving targets have to be taken into account for a correct geolocation of the ATI data. This work gives also reasons why the ATI phase has to be unwrapped although the phase resulting from the ocean currents should be within the order of -π and +π. It will also been shown how phase unwrapping errors of the ATI phase can be removed. In this work these concepts for accurately processing ATI data are discussed and results are shown. Supplementary it points out the proposed remote sensing technique for accurate measurements of both ocean surface currents and underwater bottom topography in coastal waters generated by the University of Hamburg.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2002-07-02</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2002</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-58</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 12, Elektrotechnik und Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="hirsch.pdf" ddb:fileSize="59242426"/>
+   <ddb:checksum ddb:type="MD5">94568ea00251c55e3b1601957662b0ed</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/855/1/hirsch.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/855</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

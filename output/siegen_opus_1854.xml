@@ -1,0 +1,88 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1854">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>response of nonlinearly loaded antennas to repetitive HPEM excitations as obtained from equivalent circuit models</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <nonSort>The </nonSort>
+                        <title>Die Reaktion nichtlinear geladener Antennen auf sich wiederholende HPEM-Anregungen, wie sie aus Ersatzschaltbildmodellen erhalten werden</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gronwald, Frank</displayForm>
+                        <namePart type="family">Gronwald</namePart>
+                        <namePart type="given">Frank</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Palanivelu, Devanand Palur</displayForm>
+                        <namePart type="family">Palanivelu</namePart>
+                        <namePart type="given">Devanand Palur</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Michels, Robert</displayForm>
+                        <namePart type="family">Michels</namePart>
+                        <namePart type="given">Robert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kreitlow, Matthias</displayForm>
+                        <namePart type="family">Kreitlow</namePart>
+                        <namePart type="given">Matthias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In this contribution the effects of repetitive pulse excitations on linearly and nonlinearly loaded antennas are studied on the basis of equivalent circuit models. In the known linear case, repetitive pulses can lead to an increase of the amplitudes of oscillations. These oscillations decay, if realistic quality factors are assumed, comparatively quickly. In the considered nonlinear case the effects of repetitive pulses can add up and persist along much larger time scales. This remarkable effect has no equivalent in the linear case.</abstract>
+                    <subject>
+                        <topic>Antenne</topic>
+                        <topic>Antenna</topic>
+                        <topic>HPEM</topic>
+                    </subject>
+                    <classification authority="ddc">620</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-18546</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1854</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1854">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1854/3/The_response_of_nonlinearly_loaded_antennas.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1854"
+            DMDID="DMD_siegen_opus_1854">
+            <mets:fptr FILEID="FILE0_siegen_opus_1854"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

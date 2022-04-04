@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1645">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Das </nonSort>
+                        <title>Lehramt als politischer Beruf</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Heil, Matthias</displayForm>
+                        <namePart type="family">Heil</namePart>
+                        <namePart type="given">Matthias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Das Lehramt wurde schon immer politisch gedacht und politisch instrumentalisiert; es ist ein politischer Beruf. Das ermöglicht nicht nur die politisch-theoretische Analyse des Lehramts, sondern erlaubt es auch, ein normatives Ideal einer auf Reflexivität und Kritik basierenden Demokratieprofession Lehramt zu entwickeln. Ausgehend von einer empirischen Untersuchung der Einstellungen Heidelberger Lehramtsstudierender, die aufzeigt, dass diese zwar politisch motiviert sind, also Gesellschaft verändern und gestalten möchten, sich aber über ihre eigene Rolle in diesem Prozess, z.B. in Hinblick auf Neutralität unsicher sind, wird in dieser Arbeit diskutiert, wie die universitäre Lehrer*innenbildung zu einer Demokratieprofessionalisierung beitragen kann.</abstract>
+                    <subject>
+                        <topic>Lehrer</topic>
+                        <topic>Lehrerbildung</topic>
+                        <topic>Erziehungsphilosophie</topic>
+                        <topic>Studienmotivation</topic>
+                        <topic>Lehramt</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16457</identifier>
+                    <identifier type="sys">HT020573123</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1645</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1645">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1645/1/Heil_POLIS_I.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1645"
+            DMDID="DMD_siegen_opus_1645">
+            <mets:fptr FILEID="FILE0_siegen_opus_1645"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_473">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Calibration and real-time processing of time-of-flight range data</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Kalibrierung und Echtzeit-Verarbeitung von Time-of-Flight Distanz-Informationen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lindner, Marvin</displayForm>
+                        <namePart type="family">Lindner</namePart>
+                        <namePart type="given">Marvin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The presented thesis addresses a new technology for active range estimation, so-called time-of-flight (TOF) cameras. Based on the runtime principle, time-of-flight cameras allow the parallel acquisition of multiple distance information and thus enable, in contrast to other approaches, the acquisition of an entire scene in real-time. Consequently, TOF cameras are most suitable for many real-time systems in the area of automatization and interaction, where they are used for, i.a., object or gesture recognition. Due to their novelty, however, the accuracy of time-of-flight senors has been studied barely up to the present.
+
+Experiments in the context of presented thesis revealed error sources whose characteristics result in distance deviations of several centimeters. Those error sources therefore have significant impact onto the accuracy of acquired distance information and the results of vision systems as well. In addition, current TOF cameras are of low resolution compared to other range sensing approaches. Although this circumstance does not represent a real error source, it might have negative influence on the accuracy of automatization algorithms and therefore gives reasons for appropriate pre-processing of the acquired information.
+
+Dealing with basic research, the presented work covers the investigation of the accuracy of current camera models as well as the basic processing steps that are necessary for the enhancement of range images regarding further processing steps.
+
+In the context of camera accuracy, the thesis primary focuses on the systematical error characteristics and discusses the design of phenomenological calibration models covering demodulation- as well as intensity-related deviations. Furthermore, it deals with the compensation of TOF-specific motion artifacts and describes a compensation approach, which is based on optical motion estimation as well as an theoretical axial motion model.
+
+In the context of data processing, the presented thesis deals with the reduction of noise effects as well as the algorithmic refinement of distance information. Regarding distance refinement, two approaches are discussed: explicitly surface approximation using Moving Least Square surfaces as well as edge preservative data upscaling in image space. Furthermore, it covers the fusion of range images with supplementary information as provided by additional imaging sensors, in order to provide multi-modal data for sophisticated vision systems.</abstract>
+                    <abstract type="content" lang="ger">Die vorliegende Arbeit befasst sich mit einer neuartigen, kostengünstigen Technologie zur aktiven Entfernungsmessung, sogenannten Time-of-Flight (TOF) Kameras. Basierend auf dem Laufzeit-Prinzip, erlauben diese die parallele Aufnahme mehrerer Tiefeninformationen und ermöglichen somit, im Gegensatz zu bisherigen Technologien, die Akquisition einer kompletten Szene in Echtzeit. Infolgedessen, eignen sich TOF Kameras besonders gut für vielerlei Echtzeit-Systeme aus den Bereichen der Automatisierung und Interaktion, und finden dort ihren Einsatz u.a. zur Objekt- und Gestenerkennung. Aufgrund ihrer Neuheit, wurde die Genauigkeit von Time-of-Flight Kameras jedoch bisher kaum untersucht.
+
+Durchgeführte Untersuchungen im Rahmen der Arbeit haben Fehlerquellen aufgezeigt, die in ihrer Ausprägung zu signifikanten Abweichungen in den Tiefeninformationen von mehreren Zentimetern führen. Diese haben somit relevante Auswirkung auf die Ergebnisse von Vision-Systemen. Des Weiteren weisen aktuelle TOF Kameras, im Vergleich zu anderen Verfahren zur Entfernungsmessung, eine geringere Bildauflösung auf. Auch wenn dieser Sachverhalt im eigentlichen Sinn keine Fehlerquelle darstellt, kann er doch entscheidenden Einfluss auf die Genauigkeit von Automatisierungs-Algorithmen haben und rechtfertigt somit die algorithmische Verfeinerung von Tiefeninformationen.
+
+Im Rahmen von Grundlagenforschung, umfasst die Ausarbeitung sowohl die Untersuchung potentieller Fehlerquellen von TOF Kameras und deren Korrektur, als auch die grundlegenden Vorverarbeitungsschritte, die nötig sind um aufgenommene Tiefeninformationen für die weitere Verarbeitung zu verbessern.
+
+Im Kontext der Messgenauigkeit, werden primär die Charakteristiken systematisch auftretender Messfehler, sowie der Entwurf entsprechender, phänomenologischer Korrekturmodelle für Demodulations- und Intensitäts-abhängiger Abweichungen betrachtet. Darüber hinaus wird die Reduktion TOF Kamera spezifischer Bewegungsartefakte innerhalb dynamischer Szenen, basierend auf einer optischen Bewegungsschätzungen, sowie eines theoretischen axialen Bewegungsmodels behandelt.
+
+Im Bereich der Datenverarbeitung behandelt die Ausarbeitung zunächst die Reduktion von Rauscheinflüssen sowie die algorithmischen Verfeinerung von Tiefeninformationen. In diesem Zusammenhang werden zwei Verfahren zur Tiefenverfeinerung erörtert: explizite Oberflächen-Approximationen mittels Moving Least Square Oberflächen und kantenerhaltendes Upsampling im Bildraum. Ferner befasst sich die Ausarbeitung mit der grundlegenden Fragestellung zur Fusion von Tiefenbildern mit weiteren Informationen zusätzlicher, bildgebender Sensoren zur Erstellung multi-modaler Daten.</abstract>
+                    <subject>
+                        <topic>ToF-Kamera</topic>
+                        <topic>Wiggling-Korrektur</topic>
+                        <topic>Bewegungs-Kompensation</topic>
+                        <topic>Intensitäts-abhängiger Fehler</topic>
+                        <topic>Distanz-Verfeinerung</topic>
+                        <topic>Wiggling Correction</topic>
+                        <topic>Motion Compensation</topic>
+                        <topic>Intensity-Related Distance Error</topic>
+                        <topic>Distance Refinement</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Bildinformatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4730</identifier>
+                    <identifier type="sys">HT016622469</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_473</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2010-10-14</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_473">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/473/1/lindner.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_473"
+            DMDID="DMD_siegen_opus_473">
+            <mets:fptr FILEID="FILE0_siegen_opus_473"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

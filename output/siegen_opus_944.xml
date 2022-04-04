@@ -1,0 +1,59 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_944">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Gleichgeschlechtliche Paare als Pflegeeltern</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Jespersen, Andy</displayForm>
+                        <namePart type="family">Jespersen</namePart>
+                        <namePart type="given">Andy</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Gleichgeschlechtliche Paare mit Kinderwunsch können eine Pflegeelternschaft übernehmen. Wie andere Paare auch können sie als Pflegefamilien geeignete Lebensorte für Kinder bieten, die – aus welchen Gründen auch immer – nicht bei ihren Eltern aufwachsen können, und auf gute Entwicklungsbedingungen bei anderen Menschen angewiesen sind.
+Die vorliegende Arbeit gibt Überblicke zu den aktuellen Wissensbeständen zu gleichgeschlechtlichen Lebensformen in Deutschland und verortet gleichgeschlechtliche Pflegeeltern im Feld der Pflegekinderhilfe.</abstract>
+                    <subject>
+                        <topic>Regenbogenfamilie</topic>
+                        <topic>Pflegekinder</topic>
+                        <topic>gleichgeschlechtliche Elternschaft</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-9443</identifier>
+                    <identifier type="sys">HT018952848</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_944</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_944">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/944/1/jespersen_zpe37.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_944"
+            DMDID="DMD_siegen_opus_944">
+            <mets:fptr FILEID="FILE0_siegen_opus_944"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

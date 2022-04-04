@@ -1,0 +1,75 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1892</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Probabilistic freespace prediction in structured traffic environments for trajectory planning</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Probabilistische Freiraum Prädiktion in strukturierten Verkehrsumgebungen zur Planung von Trajektorien</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Julian David</pc:foreName>
+            <pc:surName>Schlechtriemen</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Trajektorie</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Automated Driving</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Prediction</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Machine Learning</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Trajectory Planning</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Intention Recognition</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">This thesis addresses the problem of providing a methodical framework for highly automated driving on highways, which allows an automated vehicle to execute a safe fallback behavior in case of a system failure. The thesis is however not focusing on the implementation of the whole system. Instead, it focuses on the missing functional components which are needed for the implementation of such kind of fallback system.&#13;
+Within the thesis a system architecture is presented, in which the methods developed in this thesis can be applied. The methods include algorithms for maneuver recognition, position prediction and trajectory planning. &#13;
+The main part of the thesis deals with the implementation of the functions which were identified in the system architecture and are needed for planning fallback trajectories. To do so, in a first step classification methods are developed for the recognition of driving maneuvers. The classification problem in the context is limited to the recognition of lane changing and lane following behavior. Extending the state of the art the situation context and possible influencing factors are analyzed systematically. &#13;
+To predict future positions of other traffic participants, a method is introduced which on the one hand considers the physical state of a vehicle and on the other hand also takes account of the situation context. The presented algorithm does not only deliver information about the future position, but a time dependent probability distribution of future whereabouts. &#13;
+In order to plan a fallback behavior, a novel method for trajectory planning is introduced. This method introduces a representation of the dynamic free space, which allows to sample a family of trajectories efficiently.&#13;
+Besides the theoretical investigations presented in this thesis, all methods have proven to be applicable in prototypical vehicles in real traffic.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">In der vorliegenden Arbeit wird ein methodisches Framework entwickelt, welches einem hochautomatisierten Fahrzeug auf Autobahnen im Fehlerfall die Ausführung eines sicheren Rückfallverhaltens ermöglicht. Der Schwerpunkt dieser Arbeit liegt jedoch nicht auf der Darstellung eines Gesamtsystems. Vielmehr wird auf die Entwicklung der fehlenden funktionalen Bausteine fokussiert, die zur Umsetzung eines solchen Rückfallsystems benötigt werden.&#13;
+In der Arbeit wird eine Systemarchitektur vorgestellt, in der die im Verlauf der Arbeit entwickelten Methoden eingesetzt werden können. Die Methoden umfassen dabei Verfahren zur Manövererkennung, Bewegungsprädiktion und Trajektorienplanung. &#13;
+Der Hauptteil der Arbeit beschäftigt sich mit der Umsetzung der in der Systemarchitektur identifizierten Funktionsbausteine, die zur Planung einer Rückfalltrajektorie benötigt werden. In einem ersten Schritt werden dazu Klassifikationsverfahren zur Prognose von Fahrmanövern entwickelt. Das Klassifikationsproblem beschränkt sich hierbei auf die Erkennung von Spurwechseln und Spurfolgeverhalten. Hierbei werden der Situationskontext und mögliche Einflussfaktoren systematisch analysiert. &#13;
+Für die Prognose zukünftiger Aufenthaltsorte anderer Verkehrsteilnehmer wird eine Methode vorgestellt, welche den physikalischen Bewegungsstatus und die Ergebnisse der Manöverklassifikation berücksichtigt. Die Methode liefert hierbei eine zeitabhängige Aufenthaltswahrscheinlichkeit der Verkehrsteilnehmer&#13;
+Zur Bestimmung einer Rückfalltrajektorie wird abschließend unter Nutzung der Bewegungsprognosen ein neuartiges Trajektorienplanungsverfahren vorgestellt. Hierzu wird eine Repräsentation des dynamischen Freiraums genutzt, die ein effizientes Sampling von Trajektorienscharen ermöglicht. &#13;
+Die Wirksamkeit der in der Arbeit vorgestellten Methoden wurde neben den theoretischen Untersuchungen auch im realen Fahrbetrieb nachgewiesen.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Klaus-Dieter</pc:foreName>
+            <pc:surName>Kuhnert</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2021-02-23</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2021</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-18922</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">http://creativecommons.org/licenses/by-sa/4.0/</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Echtzeit Lernsysteme (EZLS)</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Julian_David_Schlechtriemen.pdf" ddb:fileSize="11066347"/>
+   <ddb:checksum ddb:type="MD5">8be70d047984f618a7d99d118c0c7558</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1892/5/Dissertation_Julian_David_Schlechtriemen.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1892</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

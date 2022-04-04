@@ -1,0 +1,76 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1948</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Frequency-domain fatigue analysis of wind turbine structures and fatigue damage detection: performance evaluation of spectral-based methods against the rainflow counting algorithm</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Frequenzbereichs-Ermüdungsanalyse von Windturbinenstrukturen und Erkennung von Ermüdungsschäden: Leistungsbewertung spektralbasierter Methoden gegen den Rainflow-Zählalgorithmus</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Rannam</pc:foreName>
+            <pc:surName>Chaaban</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Materialermüdung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Spectral fatigue damage</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Fatigue analysis</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Frequency-domain</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Wind turbine</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Fatigue damage detection</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Spektrale Ermüdungsschädigung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Ermüdungsanalyse</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Frequenz-Domäne</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Windkraftanlage</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Ermüdungsschaden-Erkennung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Fatigue failure of metallic structures such as wind turbine towers is a problem that affects their remaining service life. Fatigue cracks are most likely to initiate in the structural hot spots such as holes or welded joints. The time-domain approach in dealing with the fatigue analysis problem is the industry standard of fatigue load certification and fatigue damage assessment on wind turbines systems. The time-domain approach is based on time domain cycle counting and a linear fatigue accumulation rule to estimate a cumulative fatigue damage index. By comparing this index to a reference value, fatigue failure prediction and fatigue life estimation are possible.&#13;
+The development of an equivalent formulation to the time-domain fatigue analysis problem has been an active topic of research in the past few years. This equivalent formulation is based on the random vibration fatigue theory where fatigue analysis is done in the frequency domain. The frequency-domain fatigue analysis has found it’s way into many applications subject to random loading. However, the frequency-domain fatigue analysis is developed under certain assumptions that are hard to meet in the case of wind turbine loading. This includes for example the stationarity of the loading, the assumption of zero-mean and the Gaussian amplitude distribution of the stochastic loading.&#13;
+This thesis sets three objectives. The first objective is to address systematically the assumptions required by the spectral fatigue analysis methods in order to be able to accept the obtained results. To achieve this objective, the theoretical basis of the spectral fatigue analysis is reviewed and the limitations of the frequency-domain methods are addressed. Furthermore, a new strategy that enables using the spectral methods for wind turbine fatigue analysis is developed.&#13;
+The second objective is the performance assessment of the equivalent formulations of fatigue analysis problem, the frequency-domain against the industry standard time-domain. This is achieved using two different data-sets: simulation and operational. The simulation-based dataset is generated using hi-fidelity wind turbine simulation tool and aims to replicate the integrated design process at early stages; while the operational data-set is obtained from tower loading measurements of an operating small and utility-scale wind turbines and used to evaluate the performance of different spectral fatigue analysis methods against the well-established rainflow cycle counting method in time domain.&#13;
+The third objective is to explore the potentials of using comparative sensor data approach in the early detection in structural failure. This approach is based on monitoring the linear correlation of the measured strain or estimated fatigue damage at pre-defined sensor locations.&#13;
+An experimental validation of this method is presented in this thesis, and the obtained results demonstrate the possibility of using this technique for structural failure detection.&#13;
+The proposed objectives aim to meet the challenges of optimizing wind turbine structures in terms of cost, fatigue damage and service life time by developing new approaches capable of saving time, computational effort, resources in addition to reducing cost of energy.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Claus-Peter</pc:foreName>
+            <pc:surName>Fritzen</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2021-02-26</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2021</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-19485</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dcterms:isPartOf xsi:type="ddb:noScheme">Schriftenreihe der Arbeitsgruppe für Technische Mechanik im Institut für Mechanik und Regelungstechnik - Mechatronik;  18</dcterms:isPartOf>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/lizenz.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Mechanik und Regelungstechnik - Mechatronik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Rannam_Chaaban.pdf" ddb:fileSize="25283479"/>
+   <ddb:checksum ddb:type="MD5">bb69815e61ba663375d1fb5db497e676</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1948/6/Dissertation_Rannam_Chaaban.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1948</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

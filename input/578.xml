@@ -1,0 +1,98 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>578</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">A two-level approach to ontology-based access control in pervasive personal servers</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Mohamed</pc:foreName>
+            <pc:surName>Bourimi</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Simon</pc:foreName>
+            <pc:surName>Scerri</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Marc</pc:foreName>
+            <pc:surName>Planaguma </pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Marcel</pc:foreName>
+            <pc:surName>Heupel</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Fatih</pc:foreName>
+            <pc:surName>Karatas</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Philipp</pc:foreName>
+            <pc:surName>Schwarte</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Authentifizier</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Authorizierung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Ontology-basierte Zugriffskontrolle</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Spring Security</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">OAuth Authorizierung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Authentication</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">(RBAC) Authorisation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Ontology-Based Access Control</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Ontology Trust and Privacy Modeling</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Spring Security</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">A new trend in pervasive personal server hosting is to enable&#13;
+the integration of a user's social spheres. Ideally, the design of access &#13;
+control to private data should be flexible and independent from the target&#13;
+host. Personal data should also remain independent from environmental&#13;
+constraints, e.g., in order to support easy migration to new deployment&#13;
+landscapes. Such information interoperability can be achieved by&#13;
+ontology-based personal information sphere management. In the digital.me&#13;
+project, personal data is modelled using an  ontology-based approach. In&#13;
+this paper we address the design and first implementation of the&#13;
+digital.me userware access control engine. Here, we introduce a two-level&#13;
+access control design in order to decouple the ontology based-semantic&#13;
+core from the hosting web container, while ensuring that personal data and&#13;
+the associated ontology-based access rights remain flexibly decoupled from&#13;
+the underlying environment.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2011</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">article</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-5789</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="two_level_approach_to_ontology_based_access_control.pdf" ddb:fileSize="848988"/>
+   <ddb:checksum ddb:type="MD5">38a11564254a3d315e2354b8186dd4ac</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/578/1/two_level_approach_to_ontology_based_access_control.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/578</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

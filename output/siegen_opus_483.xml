@@ -1,0 +1,89 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_483">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Enhancing usability of privacy-respecting authentication and authorization in mobile social settings by using Idemix : (in the context of the EU FP7 di.me Project)</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bourimi, Mohamed</displayForm>
+                        <namePart type="family">Bourimi</namePart>
+                        <namePart type="given">Mohamed</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Heupel, Marcel</displayForm>
+                        <namePart type="family">Heupel</namePart>
+                        <namePart type="given">Marcel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kesdogan, Dogan</displayForm>
+                        <namePart type="family">Kesdogan</namePart>
+                        <namePart type="given">Dogan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Fielenbach, Thomas</displayForm>
+                        <namePart type="family">Fielenbach</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Authentication and authorization are an essential part of any system allowing for information sharing and social interaction. Especially in such social settings 
+where mobile devices with restricted capabilities and new possibilities (e.g. screen size, ease of localization) are used, there is an increasing need for providing privacy-respecting integrity and access permission mechanisms  by considering trade-offs related to usability aspects. In this paper we show how the usability of authentication and authorization related interaction can be enhanced in mobile social settings. This is carried out in our case by using proof-based anonymous credential systems such as Idemix. The requirements analysis is based on various case studies in building collaborative systems and oriented to the needs of the upcoming EU FP7 funded project Di.Me. We also present the prototypic implementation and future work directions.</abstract>
+                    <subject>
+                        <topic>Identitätsmanagement</topic>
+                        <topic>Idemix</topic>
+                        <topic>Authentifizierung und Autorisierung</topic>
+                        <topic>Sicherheit vs. Usability, soziale Interaktion</topic>
+                        <topic>Identity management</topic>
+                        <topic>idemix</topic>
+                        <topic>authentication and authorization</topic>
+                        <topic>security vs. usability</topic>
+                        <topic>social interaction</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4839</identifier>
+                    <identifier type="sys">HT016716575</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_483</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_483">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/483/1/Enhancing_Usability_with_Idemix.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_483"
+            DMDID="DMD_siegen_opus_483">
+            <mets:fptr FILEID="FILE0_siegen_opus_483"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

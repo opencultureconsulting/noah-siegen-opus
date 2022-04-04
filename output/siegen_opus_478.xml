@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_478">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Zwischen Ausbildung und Arbeitsmarkt : regionale Unterschiede beim Übergang von der beruflichen Erstausbildung in Beschäftigung</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Between vocational training and the labour market : regional differences in transitions from initial training to employment</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wicht, Alexandra</displayForm>
+                        <namePart type="family">Wicht</namePart>
+                        <namePart type="given">Alexandra</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">masterThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Erwerbsbiografische Übergänge an der »zweiten Schwelle« sind in den letzten Jahrzehnten zunehmend schwieriger geworden; infolgedessen ist auch die Tragfähigkeit des dualen Berufsausbildungssystems in Kritik geraten. Anhand des Regionalfiles der IAB Beschäftigtenstichprobe (1975–2004) wird in Mehrebenen-Ereignisanalysen der Frage nachgegangen, inwiefern der regionale Arbeitsmarktkontext den Übergang von der Berufsausbildung in den Arbeitsmarkt strukturiert. Für den Zeitraum von 1996–2004 kann gezeigt werden, dass die zeitveränderliche regionale Gelegenheitsstruktur einen erheblichen Einfluss hat, sowohl auf das Risiko im Anschluss an eine duale Berufsausbildung arbeitslos zu werden als auch auf jenes in Arbeitslosigkeit zu verbleiben. Zudem lässt sich ein Interaktionseffekt zwischen der regionalen Arbeitsmarktlage und dem Bildungsniveau der Jugendlichen konstatieren: die Schließungsmechanismen des Arbeitsmarktes gegenüber gering qualifizierten Jugendlichen zeigen sich demnach umso stärker, je höher die regionale Arbeitslosenquote ausfällt.</abstract>
+                    <abstract type="content" lang="eng">Transitions from vocational training into the labour market have become increasingly difficult in Germany during the past decades; accordingly, the German dual system of vocational training has come under attack. Based on the IAB-employment sample (regional file 1975-2004) and using multilevel event history models, the present work investigates the extent to which the regional employment situation governs the transition from vocational training into the labour market. Concerning the years 1996 to 2004 it can be demonstrated that the time-dependent regional labour market situation exerts a considerable influence on the risk of becoming and remaining unemployed subsequent to vocational training in the dual system. Furthermore, regional employment opportunities interact with young people’s educational level: the exclusion of less qualified juveniles from the labour market is more likely the higher the regional unemployment rate is.</abstract>
+                    <subject>
+                        <topic>Berufsausbildung</topic>
+                        <topic>Zeitdiskrete Mehrebenen-Ereignisanalyse</topic>
+                        <topic>Regionale Arbeitslosigkeit</topic>
+                        <topic>Regionaler Arbeitsmarkt</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 1, Sozialwissenschaften - Philosophie - Theologie - Geschichte - Geographie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4785</identifier>
+                    <identifier type="sys">HT016652403</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_478</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaMasterThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_478">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/478/1/wicht.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_478"
+            DMDID="DMD_siegen_opus_478">
+            <mets:fptr FILEID="FILE0_siegen_opus_478"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

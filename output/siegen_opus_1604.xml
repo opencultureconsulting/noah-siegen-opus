@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1604">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Der </nonSort>
+                        <title>Vocabulary Spurt</title>
+                        <subTitle lang="ger">Erklärungsansätze der neueren Psycholinguistik</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Münch, Anja</displayForm>
+                        <namePart type="family">Münch</namePart>
+                        <namePart type="given">Anja</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2005</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Inhaltsverzeichnis
+1. Einleitung
+2. Vorüberlegungen
+2.1 Gegenstandsbereich: Der Wortschatzerwerb im kindlichen Erstspracherwerb - ein kurzer Abriss
+2.2 Der Vokabelspurt - Versuch einer Definition und Darstellung der Datenlage
+3. Mögliche Ursachen und Erklärungsversuche für das Phänomen „Vokabelspurt&quot;
+3.1 Externe Faktoren
+3.1.1 Sprachangebot
+3.1.2 Umwelteinflüsse und Kommunikationsformen/ -routinen
+3.1.3 Geburtsreihenfolge und hoher Nomenzuwachs
+3.1.4 Gender
+3.2 Kognitive Faktoren
+3.2.1 Spezifizitäts-Hypothese
+3.2.2 Kategorisierungsfähigkeit/sorting ability
+3.3 Lexikalische Beschränkungen
+3.3.1 Lexikalische constraints Theorien
+3.3.2 Einwände gegen constraints Theorien
+3.4 Benenneinsicht: Naming insight bei Goldfield &amp; Reznick
+3.5 Sprachimmanente Einflüsse
+3.5.1 Fortschritte phonologischer Fähigkeiten
+3.5.2 Syntaktische Entwicklungsprozesse
+3.5.3 Die &gt;critical mass hypothesis&lt;
+3.6 Dynamische Erklärungsansätze
+4. Kritische Stimmen und Diskussion
+Bibliografie</abstract>
+                    <subject>
+                        <topic>Psycholinguistik</topic>
+                        <topic>Kind, 1-2 Jahre</topic>
+                        <topic>Spracherwerb</topic>
+                        <topic>Wortschatz</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16043</identifier>
+                    <identifier type="sys">HT020634962</identifier>
+                    <accessCondition type="use and reproduction">CREATIVECOMMONS.ORG PUBLICDOMAIN ZERO 1.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1604</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1604">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1604/1/SPASS_Heft_15_2005.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1604"
+            DMDID="DMD_siegen_opus_1604">
+            <mets:fptr FILEID="FILE0_siegen_opus_1604"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

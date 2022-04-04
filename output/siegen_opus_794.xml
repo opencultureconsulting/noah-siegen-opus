@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_794">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Cooperative simultaneous localization and mapping framework</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Nasir, Ahmad Kamal</displayForm>
+                        <namePart type="family">Nasir</namePart>
+                        <namePart type="given">Ahmad Kamal</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">This research work is a contribution to develop a framework for cooperative simultaneous localization and mapping with multiple heterogeneous mobile robots. The presented research work contributes in two aspects of a team of heterogeneous mobile robots for cooperative map building. First it provides a mathematical framework for cooperative localization and geometric features based map building. Secondly it proposes a software framework for controlling, configuring and managing a team of heterogeneous mobile robots. Since mapping and pose estimation are very closely related to each other, therefore, two novel sensor data fusion techniques are also presented, furthermore, various state of the art localization and mapping techniques and mobile robot software frameworks are discussed for an overview of the current development in this research area.
+The mathematical cooperative SLAM formulation probabilistically solves the problem of estimating the robots state and the environment features using Kalman filter. The software framework is an effort toward the ongoing standardization process of the cooperative mobile robotics systems. To enhance the efficiency of a cooperative mobile robot system the proposed software framework addresses various issues such as different communication protocol structure for mobile robots, different sets of sensors for mobile robots, sensor data organization from different robots, monitoring and controlling robots from a single interface. 
+The present work can be applied to number of applications in various domains where a priori map of the environment is not available and it is not possible to use global positioning devices to find the accurate position of the mobile robot. Therefore the mobile robot(s) has to rely on building the map of its environment and using the same map to find its position and orientation relative to the environment. The exemplary areas for applying the proposed SLAM technique are Indoor environments such as warehouse management, factory floors for parts assembly line, mapping abandoned tunnels, disaster struck environment which are missing maps, under see pipeline inspection, ocean surveying, military applications, planet exploration and many others. These applications are some of many and are only limited by the imagination.</abstract>
+                    <abstract type="content" lang="ger">Diese Forschungsarbeit ist ein Beitrag zur Entwicklung eines Framework für kooperatives SLAM mit heterogenen, mobilen Robotern. Die präsentierte Forschungsarbeit trägt in zwei Aspekten  in einem Team von heterogenen, mobilen Robotern bei. Erstens stellt es einen mathematischen Framework für kooperative Lokalisierung und geometrisch basierende Kartengenerierung bereit. Zweitens schlägt es einen Softwareframework zur Steuerung, Konfiguration und Management einer Gruppe von heterogenen mobilen Robotern vor. Da Kartenerstellung und Poseschätzung miteinander stark verbunden sind, werden zwei neuartige Techniken zur Sensordatenfusion präsentiert. Weiterhin werden zum Stand der Technik verschiedene Techniken zur Lokalisierung und Kartengenerierung sowie Softwareframeworks für die mobile Robotik diskutiert um einen Überblick über die aktuelle Entwicklung in diesem Forschungsbereich zu geben.
+Die mathematische Formulierung des SLAM Problems löst das Problem der Roboterzustandsschätzung und der Umgebungmerkmale durch Benutzung eines Kalman filters. Der Softwareframework ist ein Beitrag zum anhaltenden Standardisierungsprozess von kooperativen, mobilen Robotern. Um die Effektivität eines kooperativen mobilen Robotersystems zu verbessern enthält der vorgeschlagene Softwareframework die Möglichkeit die Kommunikationsprotokolle flexibel zu ändern, mit verschiedenen Sensoren zu arbeiten sowie die Möglichkeit die Sensordaten verschieden zu organisieren und verschiedene Roboter von einem Interface aus zu steuern.
+Die präsentierte Arbeit kann in einer Vielzahl von Applikationen in verschiedenen Domänen benutzt werden, wo eine Karte der Umgebung nicht vorhanden ist und es nicht möglich ist GPS Daten zur präzisen Lokalisierung eines mobilen Roboters zu nutzen. Daher müssen die mobilen Roboter sich auf die selbsterstellte Karte verlassen und die selbe Karte zur Bestimmung von Position und Orientierung relativ zur Umgebung verwenden. Die exemplarischen Anwendungen der vorgeschlagenen SLAM Technik sind Innenraumumgebungen wie Lagermanagement, Fabrikgebäude mit Produktionsstätten, verlassene Tunnel, Katastrophengebiete ohne aktuelle Karte, Inspektion von Unterseepipelines, Ozeanvermessung, Militäranwendungen, Planetenerforschung und viele andere. Diese Anwendungen sind einige von vielen und sind nur durch die Vorstellungskraft limitiert.</abstract>
+                    <subject>
+                        <topic>SLAM-Verfahren</topic>
+                        <topic>Simultane Lokalisierung und Kartenherstellung</topic>
+                        <topic>kooperatives mobiles Robotersystem</topic>
+                        <topic>Extended Kalman Filter</topic>
+                        <topic>SLAM</topic>
+                        <topic>EKF</topic>
+                        <topic>Cooperative Mobile Robotics</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-7944</identifier>
+                    <identifier type="sys">HT018193096</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_794</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2014-02-18</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_794">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/794/1/nasir.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_794"
+            DMDID="DMD_siegen_opus_794">
+            <mets:fptr FILEID="FILE0_siegen_opus_794"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

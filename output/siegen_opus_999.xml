@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_999">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Zur Empirizität des „Ich denke“ in Kants Kritik der reinen Vernunft</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>On the empirical character of “Ich denke” in Kant’s Critique of Pure Reason</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kim, Hyeongjoo</displayForm>
+                        <namePart type="family">Kim</namePart>
+                        <namePart type="given">Hyeongjoo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Das Hauptziel dieser Arbeit besteht darin, die Bedeutung des kantischen Satzes ‚Ich  denke‘ als empirischer Satz zu erklären. Dafür analysiere und interpretiere ich eine Stelle aus B422 f. Anm. der Kritik der reinen Vernunft, in der die These, das ‚Ich denke‘ sei ein empirischer Satz, auftaucht. Für die Interpretation dieser Stelle werden zwei Lesarten, nämlich [L1: Das analytische Implikat der Denkhandlung] und [L2: Die Abhängigkeit des Satzes „Ich denke“ von der empirischen Vorstellung] vorgestellt. Die Kernaussage der ersten Lesart ([L1]) besagt, dass der Satz ‚Ich denke‘ deswegen ein empirischer Satz sei, weil er eine Wahrnehmung meiner selbst ausdrückt. Die zweite Lesart ([L2]) bedeutet: Erst wenn das Mannigfaltige in der Anschauung gegeben ist, ist das ,Ich denke‘ tätig. Und letztlich zeige ich, dass die beiden Lesart sich folgendermaßen vereinigen können: Der Satz ‚Ich denke‘ wird in dem Sinne als empirischer Satz betrachtet, dass die Handlung ‚Ich denke‘ immer mit den empirischen Vorstellungen stattfinden muss, wodurch das ‚Ich‘ sich im ,Ich bin‘ seiner selbst zugleich bewusst wird.</abstract>
+                    <abstract type="content" lang="eng">The main objective of this dissertation is to clarify the meaning of Kant’s empirical statement ‘I think.’ The difficulty of interpreting this ‘I think’ statement is already well-known in previous Kant-studies. In order to do this task, I analyze and interpret a passage from B422 note in Critique of Pure Reason where it is claimed that the ‘I think’ should be an empirical statement. For interpretation of this passage I propose two different approaches to it, namely grasping from it [L1: the analytic implication of thinking activity] or [L2: the dependence of the proposition ‘I think’ on empirical representations]. The former approach ([L1]) claims that the statement ‘I think’ should be an empirical statement, because it expresses a perception of my own self. The second approach ([L2]) rather implies: only when the manifold are given to intuition, the ‘I think’ will be activated. Finally, I show that these two approaches can be reconciled in the following way: the proposition ‘I think’ can be regarded as an empirical statement in the sense that the activity ‘I think’ should always arise together with empirical representations, whereby the ‘I’ cognizes itself simultaneously in its ‘I am.’</abstract>
+                    <subject>
+                        <topic>Kant, Immanuel</topic>
+                        <topic>Kant</topic>
+                        <topic>Descartes</topic>
+                        <topic>’Ich denke’</topic>
+                        <topic>’Ich bin’</topic>
+                        <topic>empirischer Satz</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät I Philosophische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-9995</identifier>
+                    <identifier type="sys">HT018949729</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_999</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2016-04-04</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_999">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/999/1/Dissertation_Hyeongjoo_Kim.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_999"
+            DMDID="DMD_siegen_opus_999">
+            <mets:fptr FILEID="FILE0_siegen_opus_999"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

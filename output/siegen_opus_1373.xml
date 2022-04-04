@@ -1,0 +1,100 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1373">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Grid points and generalized discrepancies on the d-dimensional ball</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ishtiaq, Amna</displayForm>
+                        <namePart type="family">Ishtiaq</namePart>
+                        <namePart type="given">Amna</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The problem of distributing points on a domain, like ball, plays a special
+role in the fields like geosciences and medical imaging. Therefore, we present
+an equidistribution theory with a focus on obtaining low-discrepancy point
+grids on a 3-dimensional ball.
+The connection of the discrepancy method and the quadrature points on a
+given domain is quite well known. We approximate the integral of a function
+given on a bounded domain by the sum of function values at a specific set of
+points together with some weights. The idea is to get the best approximation
+with the fewest possible function values. The ansatz is logical, if the chosen
+data set is well distributed on the whole domain. This perspective, with the
+ball as a domain, enables us to get nice configurations as well as suitable
+approximations to the integrals of functions on the ball.
+It is, for instance, important for choosing the centres of the radial basis
+functions as they are needed for regularization methods such as the RFMP
+algorithm and the ROFMP algorithm, developed by the Geomathematics
+Group at the University of Siegen for ill-posed inverse problems with particular
+focus on the sphere and the ball as domains of the unknown functions.
+Additionally, it is also important for computational purposes. For instance,
+for the wavelet methods with data given on the ball, where one needs to have
+an appropriate quadrature rule.</abstract>
+                    <abstract type="content" lang="ger">Das Problem, Punkte auf einem Bereich, wie einer Kugel, zu verteilen, spielt
+eine wichtige Rolle in den Geowissenschaften und der medizinischen Bildgebung.
+Deshalb präsentieren wir eine Gleichverteilungstheorie auf der 3DKugel
+in Bezug auf Minimum-Diskrepanz-Gitter. Der Zusammenhang zwischen
+Diskrepanz und Punktgittern für gegebene Bereiche ist wohlbekannt.
+Hierbei wird das Integral einer Funktion durch eine gewichtete Summe von
+Funktionswerten approximiert. Die Idee besteht darin, die beste Annäherung
+mit möglichst wenigen Funktionswerten zu erzielen. Der Ansatz ist klar,
+wenn die gewählten Punkte in dem gesamten Bereich gut verteilt sind. Diese
+Perspektive, mit dem Ball als Bereich, ermöglicht es uns, &quot;schöne&quot; Strukturen
+sowie geeignete Näherungen an die Integrale von Funktionen auf der
+Kugel zu erhalten. Zum Beispiel ist es wichtig, die Mittelpunkte der radialen
+Basisfunktionen auszuwählen, weil diese für Regularisierungsmethoden
+wie den RFMP-Algorithmus und den ROFMP-Algorithmus benötigt werden.
+Diese Algorithmen wurden von der AG Geomathematik der Universität
+Siegen für schlecht gestellte inverse Probleme mit besonderem Fokus auf die
+Sphäre und die Kugel als Definitionsbereiche entwickelt. Darüber hinaus
+sind solche Gitter auch für andere numerische Zwecke hilfreich, wie z.B. für
+Wavelet-Verfahren auf der Kugel, die ein Quadraturgitter brauchen.</abstract>
+                    <subject>
+                        <topic>Inverses Problem</topic>
+                        <topic>Inverse problems (Differential equations)</topic>
+                        <topic>Discrepancy method</topic>
+                        <topic>Quadrature points</topic>
+                        <topic>Sphere</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-13733</identifier>
+                    <identifier type="sys">HT019826656</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1373</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2018-09-07</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1373">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1373/1/Dissertation_Amna_Ishtiaq.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1373"
+            DMDID="DMD_siegen_opus_1373">
+            <mets:fptr FILEID="FILE0_siegen_opus_1373"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,86 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>310</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Sensorloser Betrieb einer geschalteten Reluktanzmaschine</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Joanna</pc:foreName>
+            <pc:surName>Bekiesch</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Rotorpositionsmessung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">switched reluctance machine</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">sensorless rotor position determination</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Das Ziel der vorliegenden Forschungsarbeit war es, Methoden zu entwickeln, um einen stabilen sensorlosen Betrieb der Geschalteten Reluktanzmaschine zu erreichen. Das heißt, dass die Maschine auf Winkelsensoren bei der Steuerung verzichtete kann. Mit Hilfe von praktischen Messergebissen sollte bestätigt werden, dass diese Methoden in der Praxis einsetzbar sind. &#13;
+&#13;
+Die Geschaltete Reluktanzmaschine ist bekannt wegen ihres einfachen Aufbaues, aber auch wegen ihres nichtlinearen magnetischen Verhaltens, welches die Maschinensteuerung und den sensorlosen Betrieb erschwert. Hierzu sind im Rahmen dieser Arbeit ein Stromregelverfahren und zwei Methoden zur Bestimmung der Rotorposition entwickelt worden, die auf Winkelsensoren bei der Regelung verzichten. &#13;
+&#13;
+Um dieses nichtlineare Verhalten bei der Realisierung von Stromregelung und sensorloser Bestimmung der Rotorposition sowie für die Simulation berücksichtigen zu können, wurden zuerst die Verläufe der Flussverkettung, der rotatorisch induzierte Spannung und des Drehmomentes unter Anwendung verschiedener Messverfahren bestimmt. &#13;
+&#13;
+Es wurde ein Verfahren zur Optimierung des Stromreglers vorgestellt, das trotz der Nichtlinearität und der Kopplungen, die in der Regelstrecke auftreten, eine stabile Regelung mit hoher Dynamik gewährleistet. Unter Anwendung der EMK-Kompensationsmethode im Stromregekreis ist der Regler fähig, mit der EMK zusammenhängende hoch dynamische Störungen auszuregeln. Zusätzlich sorgt das angewendete Gain Scheduling für eine Verringerung der Schwankung der Kreisverstärkung, die durch die stark nichtlineare Induktivität hervorgerufen wird. Damit kann die Kreisverstärkung auf einem konstanten hohen Wert gehalten werden, was zu gutem dynamischen Verhalten im vollständigen Betriebsbereich sorgt.&#13;
+Dieses Regelverfahren wird auch bei dem sensorlosen Betrieb der Maschine eingesetzt.&#13;
+Zum Erreichen eines sensorlosen Betriebes der SRM im gesamten Drehzahlbereich wurden zwei Methoden entwickelt: eine für die Bestimmung der Anfangsposition sowie für kleine Drehzahlen und eine zweite für höhere Drehzahlen. &#13;
+&#13;
+Die erste Methode basiert auf Spannungstestimpulsen, erzeugt durch den Stromrichter, mit welchen die Stränge erregt werden. Aus den gemessenen Stromwerten werden Verhältnisse gebildet, um ihre Abhängigkeit von der Zwischenkreisspannung zu eliminieren. Dieses Verfahren wurde einmal ohne und einmal mit Berücksichtigung der gegenseitigen Beeinflussung der Phasen vorgestellt. Für den höheren Drehzahlbereich wurde zusätzlich eine andere Methode verwendet. Diese basiert auf der Spannungsgleichung, die das Modell der Maschine beschreibt. &#13;
+&#13;
+Unter Verwendung dieser neuen Methoden lässt sich die Rotorposition von Stillstand bis zu hohen Drehzahlen ermitteln. Damit ist stabiler sensorloser Betriebe der Geschalteten Reluktanzmaschine im Motor- sowie Generatorbetrieb gewährleistet, was die Messergebnisse beweisen. Die Differenzen zwischen der so bestimmten und der Rotorposition vom Geber, welche an einigen Stellen auftreten, sind kleiner als ein Grad mechanisch, was keinen negative Einfluss auf den sensorlosen Betrieb der&#13;
+Maschine hat. Die Ursachen dieser Abweichungen wurden diskutiert und Hinweise zur Verbesserung gegeben. &#13;
+&#13;
+Die beiden Methoden zeigen Einfachheit, geringen Rechenaufwand und liefern die genaue sensorlose Rotorposition.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The work presented describes methods, which provide a stable sensorless operation of the Switched Reluctance Machine (SRM). These methods allow the elimination of the position encoder, which is usually necessary to control the SRM. Experimental results prove that these methods can be applied in practice.  &#13;
+&#13;
+The Switched Reluctance Machine is very well known due to its simple structure and also because of its nonlinear behaviour, which makes the control and the sensorless operation of the machine more difficult. To solve the task of the sensorless control in context of this work a current control method and two methods for the determination of the rotor position, which allow the control of the machine without the position sensor, were developed.  &#13;
+&#13;
+To consider the nonlinear behaviour in the practical realization of the current control and sensorless determination of the rotor position as well as for the simulation, the flux linkage, the back emf and the torque have been measured at first, utilising different measuring procedures.  &#13;
+&#13;
+In this work a method for improved digital current control for the Switched Reluctance Machine, which provides a stable control with high dynamics in spite of all the nonlinearities and the couplings, which occur in the control loop, is presented.  &#13;
+&#13;
+A PI current controller with back emf compensation has been applied to minimize the disturbances in the control loop, which are related to the back emf. Additionally, a PI controller with gain scheduling has been applied to compensate for the variation of the control gain caused by the strongly nonlinear inductance. With this it is possible, that the closed loop gain can be kept on a constant and high value, which allows a good dynamic behaviour in the whole operating range. This method for the current control is also utilised in the sensorless operation of the machine.  &#13;
+&#13;
+To achieve a stable operation of the SRM in the whole speed range a combination of two methods was developed: one method for the start-up as well as for the low speed range and a second one for the high speed range.  &#13;
+&#13;
+The first method is based on square wave voltage pulses produced by a converter. These voltage pulses are utilised to excite four phases of the machine during start up and three of four phases of the machine during operation. To eliminate the dependency of the measured currents on the variations of the DC-link voltage, the ratios between the values of the measured currents in two neighbouring phases have been calculated. This method was presented once without and once with consideration of the mutual influence of the phases.&#13;
+Additionally for the higher speed range another method was developed. This method is based on the voltage equation describing the model of the SRM.  &#13;
+&#13;
+Using these new methods the rotor position from start-up to rated speed can be determined. Thus they allow the sensorless control of the SRM and provide an achievement of stable work of the machine without the position sensor, in motor as well as in generator operation, which has been proved by the experimental results. The differences between the rotor position determined utilising the proposed method and the rotor position from the position encoder, which arise in some cases, are smaller than one mechanical degree, which does not have any negative influence on the sensorless operation of the machine.&#13;
+The causes of these deviations were discussed and hints for an improvement have been given.  &#13;
+&#13;
+The advantages of the proposed two methods are the simplicity, low computation time and they provide the accurate sensorless rotor position from start-up to rated speed for generator as well as for the motor operation.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2007-10-01</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2007</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-3108</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 12, Elektrotechnik und Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Bekiesch.pdf" ddb:fileSize="7187063"/>
+   <ddb:checksum ddb:type="MD5">f092c8df8542e6b146b2b0155166b030</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/310/1/Dissertation_Bekiesch.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/310</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

@@ -1,0 +1,62 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1131</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Architecture design for distributed mixed-criticality systems based on multi-core chips</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Mohammed</pc:foreName>
+            <pc:surName>Abuteir</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Netzwerktopologie</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Mixed-Criticality Systems</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Time-triggered</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Gateway</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">In vielen Anwendungsbereichen wie beispielsweise der Avionik, industriellen Kontrollsystemen und dem Gesundheitswesen gewinnen sogenannte Mixed-Criticality Systeme, in denen Anwendungen mit unterschiedlicher Wichtigkeit sowie unterschiedlichen sicherheitskritischen Anforderungen auf einer gemeinsamen Rechenplattform implementiert werden, immer größere Bedeutung. Die Hauptanforderung an solche Systeme ist ein modularer Sicherheitsnachweis, der eine unabhängige Zertifizierung von Anwendungen anhand der zugehörigen Sicherheitsebenen unterstützt. Um dieses Ziel zu erreichen fehlt im Stand der Technik jedoch eine Mixed-Criticality Architektur für vernetzte Multi-Core-Chips mit Echtzeitunterstützung, Fehlereingrenzung und Sicherheit. Die Dissertation befasst sich mit dieser Problematik und bietet einen Lösungsansatz auf Basis von Architekturmodellen,  selektiver Fehlertoleranz, Scheduling-Techniken und einer Simulationsarchitektur.&#13;
+Die Basis dieser Integration sind Mechanismen für die zeitliche und räumliche Partitionierung, die die Sicherheit der Anwendungen mit verschiedenen Kritikalitätsstufen sicherstellen, so dass keine gegenseitige Beeinflussung entsteht. Die zeitliche Partitionierung wird über den Einsatz von autonomer zeitlicher Kontrolle basierend auf einem zeitgesteuerten Schedule mit definierten Zeitpunkten aller Kommunikationsaktivitäten in Bezug auf eine globale Zeitbasis realisiert. Diese Zeitpunkte der periodischen Nachrichten verbessern die Vorhersehbarkeit und ermöglichen eine rigorose Fehlererkennung und Fehleranalyse.	&#13;
+Zeitgesteuerte Schedules erleichtern zudem die Beherrschung der Komplexität von Fehlertoleranzmechanismen und die Erstellung analytischer Zuverlässigkeitsmodelle. Ferner wird eine  Partitionierung der Netzwerkbandbreite verwendet um verschiedene Zeitmodelle (z.B. periodisch, sporadisch und aperiodisch) zu kombinieren.	&#13;
+Ein weiterer Beitrag dieser Arbeit ist die selektive Fehlertoleranz für Mixed-Criticality Systeme. Ein Hauptmerkmal der Fehlertoleranz in Kommunikationsprotokollen wie Time-Triggered Ethernet (TTEthernet) und ARINC 664 ist die Bereitstellung redundanter Kommunikationskanäle zwischen Netzwerkknoten über mehrere unabhängige Netzwerkkomponenten. Die Datenflüsse zwischen den Netzwerkknoten sind gegen Fehler der verschiedenen Netzwerkkomponenten, wie beispielsweise Links oder Switches, geschützt. Der Hauptnachteil replizierter Netzwerke in großen Systemen sind jedoch die zusätzlichen Kosten, insbesondere wenn die Netzwerke ihre Dienste für mehrere Subsysteme, nämlich nicht-sicherheitskritische und kritische Subsysteme, bereitstellen. Diese Arbeit stellt eine neuartige Systemarchitektur vor, welche die Redundanz in Mixed-Criticality Systemen basierend auf einer Ring-Topologie unterstützt. Diese Architektur erfüllt die Anforderung der sicherheitskritischen Systeme und ist gleichzeitig auch für nicht-sicherheitskritische Systeme wirtschaftlich einsetzbar. Das Hauptmerkmal der vorgeschlagenen Architektur ist die Fehlereingrenzung, so dass Fehler keinen Einfluss auf  Subsysteme mit höherer Kritikalität aufweisen. Außerdem garantiert die vorgeschlagene Architektur die Bereitstellung von Nachrichten mit begrenzten Verzögerungen und begrenztem Jitter.	&#13;
+Basierend auf den in dieser Arbeit vorgestellten Architekturansätzen werden effiziente Scheduling-Algorithmen für große Mixed-Criticality Systeme mit verschiedenen Zeitmodellen eingeführt. Die Architekturmodelle werden auch mit Hilfe eines Simulations-Frameworks evaluiert, welches hierarchische Mixed-Criticality Systeme mit vernetzten Multi-Core-Chips unterstützt. Ferner wird dieses Framework verwendet um die vorgeschlagenen Scheduling-Algorithmen zu verifizieren. Diese Evaluation wird zudem um analytische Modelle der End-to-End-Kommunikation für verschiedene Kritikalitätsstufen ergänzt.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">In many domains such as avionics, industrial control, or healthcare there is an increasing trend to mixed-criticality systems, where applications of different importance and criticality are implemented on a shared computing platform. The major requirement of such a system is a modular safety case where each application is certified to the respective assurance level. A mixed-criticality architecture for networked multi-core chips with real-time support, fault isolation and security is missing in the state-of-the-art. In this dissertation, we advance the state-of-the-art by providing solutions to research gaps towards such an architecture for networked multi-core chips, which include the architecture models, selective fault-tolerance concepts, scheduling techniques, and a simulation framework.&#13;
+The foundations for this integration are mechanisms for temporal and spatial partitioning, to ensure that applications of different criticality levels are protected so they cannot influence each other. We establish temporal partitioning using autonomous temporal control based on a time-triggered schedule containing the instants of all message exchanges with respect to a global time base. The predetermined instants of the periodic messages improve predictability and enable rigorous error detection and fault isolation. The time-triggered schedules facilitate managing the complexity of fault-tolerance and analytical dependability models. In addition, we use network bandwidth partitioning to support different timing models (i.e., periodic, sporadic and aperiodic traffic). We introduce an architectural model for mixed-criticality systems based on networked multi-core chips, which describes both the physical system structure as well as a logical system structure of the application.&#13;
+Another contribution of the dissertation is a selective fault-tolerance concept for mixed-criticality systems. One of the key features of existing fault-tolerant communication protocols such as ac{TTEthernet} and ARINC 664 is providing redundant channels for the communication between nodes over multiple independent network components. The data flows between the nodes are protected against the failure of any network component such as a link or a switch. However, the main drawback of replicated networks in large systems is the extra cost, in particular, if the networks provide their services for non safety-critical subsystems alongside with the critical subsystems. We introduce a novel system architecture supporting redundancy in mixed-criticality systems based on a ring topology, which fulfills the requirements of high-critical systems while also being economically suitable for low-critical systems. The main characteristic of the proposed architecture is fault isolation so that a failure of a low-critical subsystem cannot reach subsystems of higher criticality. Moreover, the proposed architecture supports the delivery of messages with bounded delays and bounded jitter.&#13;
+Based on these contributions, we address the scheduling algorithms for large scale mixed-criticality systems where different criticality levels of the subsystem as well as high numbers of nodes and applications lead to a steady increase of the complexity of scheduling the events associated with such systems.&#13;
+The architecture models have also been evaluated using a simulation framework. This simulation framework is established for hierarchical mixed-criticality systems based on networked multi-core chips. Additionally, this framework is used to verify the proposed scheduling algorithms. This evaluation is accompanied by analytical models of end-to-end communication for different criticality levels.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2017-05-04</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2017</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-11314</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV - Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Mohammed_Abuteir.pdf" ddb:fileSize="5998891"/>
+   <ddb:checksum ddb:type="MD5">c4045937fb9a782f6a56a1929b36530e</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1131/1/Dissertation_Mohammed_Abuteir.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1131</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

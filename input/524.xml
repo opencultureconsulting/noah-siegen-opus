@@ -1,0 +1,71 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>524</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Unique identification of elements in evolving models : towards fine-grained traceability in model-driven engineering</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Sven</pc:foreName>
+            <pc:surName>Wenzel</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Identifikation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Modellbasierte Entwicklung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Nachverfolgbarkeit</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Model-Driven Engineering</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Evolution</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Traceability</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Identification</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Configuration Management</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Model-driven engineering (MDE) is a widely accepted methodology in software engineering. At the same time, the ability to retrace the engineering process is an important success factor for software projects. In MDE, however, such traceability is often impeded by the inadequate management of model evolution. Although models have a very fine-grained structure, their different revisions and variants are prevalently managed as monoliths in a file-based software configuration management (SCM). This causes the identification problem: if the fine-grained elements are not assigned with globally unique identifiers, we cannot identify them over time. If such identifiers would be given, they can be misleading. As a consequence, we cannot comprehend the evolution of elements and traceability relationships among the elements cannot be managed sufficiently. &#13;
+&#13;
+This thesis presents a novel solution to the identification problem. It establishes a representation to describe the history of a model and its fine-grained elements inside. The key feature of the representation is a new kind of traceability relationship, called identification links. They allow us to identify elements of a given revision in other revisions or variants of the model. The identification is even applicable to anonymous elements and model fragments. It provides us with a broad spectrum of opportunities: e.g. management of fine-grained traceability links, evolution analysis, merging of development branches. Due to the expression of model evolution in the history representation, we are further able to capture the changes that have been applied to the traced elements.&#13;
+This thesis further presents an algorithm to infer the identification links automatically. The approach does not rely on persistent identifiers, but it utilizes a similarity-based model comparison technique to locate the model elements in&#13;
+other revisions. &#13;
+&#13;
+The algorithm and the history representation have been implemented in a prototype. It is metamodel and tool independent and can work with an arbitrary SCM. Existing modeling environments do not have to be modified. Traceability information and evolution information is accessible through a service interface and can thus be integrated in arbitrary tools. The evaluation of our approach by means of controlled experiments with data from real models attested excellent precision and recall values for the identification of model elements over time. Furthermore, different evolution analysis tools have already been built on our approach, which documents the practical applicability of our solution.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die modellgetriebene Entwicklung ist eine weit verbreitete Methode zur Softwareentwicklung. Die ungeeignete Versionierung von Modellen verhindert jedoch oftmals die Nachverfolgbarkeit des Entwicklungsprozesses. Trotz ihrer&#13;
+feinkörnigen Struktur werden Modelle oft monolithisch auf Basis dateibasierter Konfigurationsmanagementsysteme verwaltet. Modellelemente können in diesem Fall nicht über die Zeit hinweg identifiziert werden, weil globale Identifizierer entweder fehlen oder irreführend sein können. Aufgrund dieses Identifikationsproblems können Änderungen an Modellelementen nur sehr schwer nachvollzogen werden. Außerdem können Referenzen zur Nachverfolgbarkeit zwischen Elementen  verschiedener Revisionen nicht sinnvoll verwaltet werden.&#13;
+&#13;
+Diese Dissertation löst das Identifikationsproblem. Sie führt eine Repräsentation ein, mit der die Historie von Modellen und deren feinkörnigen Elementen abgebildet werden kann. Ein zentraler Bestandteil dieser Repräsentation sind Identifizierungslinks, die es ermöglichen ein gegebenes Element in anderen Revisionen oder Varianten des Modells wiederzufinden. Der Ansatz unterstützt auch anonyme Elemente und komplette Modellfragmente. Diese neuartige Identifizierung ermöglicht z.B. die Verwaltung von feinkörniger Nachverfolgbarkeitsinformation, die Analyse von Modellevolution oder das Mischen von Entwicklungszweigen. Da die Repräsentation auch die Evolution eines Modells&#13;
+abbilden kann, können die Veränderungen identifizierter Elemente besser erfasst werden. Zudem wird in dieser Dissertation ein Algorithmus entwickelt, mit dem Identifizierungslinks zwischen Modellelementen verschiedener Revisionen inferiert werden. Dieser stützt sich nicht auf persistente Identifizierer, sondern nutzt einen ähnlichkeitsbasierten&#13;
+Differenzalgorithmus, um Elemente in anderen Revisionen wiederzufinden.&#13;
+&#13;
+Der Algorithmus und die Historienrepräsentation wurden in einem modelltyp- und werkzeugunabhängigen Prototyp implementiert, der mit beliebigen Konfigurationsmanagementsystemen zusammenarbeitet, ohne dass diese angepasst werden müssen. Die Informationen zur Nachverfolgbarkeit und Evolution von Modellelementen sind über eine Programmierschnittstelle abfragbar, die sich in beliebigen Werkzeugen nutzen lässt. Der beschriebene Ansatz wurde mit kontrollierten Experimenten auf Basis realer Modellhistorien erfolgreich evaluiert. Darüber hinaus wurde seine praktische Anwendbarkeit durch verschiedene darauf aufbauende Werkzeuge zur Evolutionsanalyse belegt.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2011-03-03</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2010</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-5243</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 12, Elektrotechnik und Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="wenzel.pdf" ddb:fileSize="4545834"/>
+   <ddb:checksum ddb:type="MD5">b67c78d8f1ed5dfaa61a775b86f5afc7</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/524/1/wenzel.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/524</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

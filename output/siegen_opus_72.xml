@@ -1,0 +1,91 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_72">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>concept of energy in nonparametric statistics: Goodness-of-Fit problems and deconvolution</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Aslan, Berkan</displayForm>
+                        <namePart type="family">Aslan</namePart>
+                        <namePart type="given">Berkan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2004</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">In this thesis the concept of energy is introduced from physics into statistics.
+The energy of samples, which are drawn from statistical distributions, is defined in
+a similar way as for discrete charge density distributions in electrostatics.
+A system of two sets of point charges with opposite sign is in a state of minimum
+energy if they are equally distributed. This property is used to construct new
+nonparametric, multivariate Goodness-of-Fit tests, to check whether two samples
+belong to the same parent distribution and to deconvolute distributions distorted
+by measurement.
+The statistical minimum energy configuration does not depend on the application
+of the one-over-distance power law of the electrostatic potential. To increase the
+power of the new approach other monotonic decreasing distance functions may be
+chosen. We prove that the new energy technique is applicable to all distance functions
+which have positive Fourier transforms. The proposed approach is binning-free.
+It is especially powerfull in multidimensional applications and superior to most of
+the common statistical methods in many concrete situations.</abstract>
+                    <abstract type="content" lang="ger">In dieser Arbeit wird das Energiekonzept aus der Physik in die Statistik übertragen.
+Die Energie von Stichproben, die aus statistischen Verteilungen gezogen
+werden, wird in ähnlicher Weise definiert wie für elektrostatische Punktladungen.
+Ein System von zwei Punktladungsmengen mit entgegengesetztem Vorzeichen
+befindet sich im Zustand minimaler Energie, wenn sie der gleichen Verteilung folgen.
+Dieses Konzept wird zur Konstruktion von neuen nichtparametrischen, mehrdimensionalen
+Anpassungstests verwendet. Weiterhin wurde das Energieverfahren auf das
+Zwei-Stichproben Problem und die Entfaltung angewandt.
+Das statistische Minimum Konzept der Energie hängt nicht von der Abstandsfunktion
+des elektrostatischen Potentials ab. Um die Güte der entwickelten Methoden
+zu erhöhen, können andere monoton fallende Abstandsfunktionen gewählt werden.
+Wir zeigen, dass das Verfahren für alle Abstandsfunktionen anwendbar ist, die
+eine positive Fouriertransformierte haben. Die vorgeschlagene Methode benötigt
+keine Intervallbildung. Sie hat ihre Stärken bei mehrdimensionalen Problemstellungen
+und ist hier herkömmlichen Verfahren in vielen konkreten Anwendungen
+überlegen.</abstract>
+                    <subject>
+                        <topic>Goodness-of-Fit</topic>
+                        <topic>two-sample problem</topic>
+                        <topic>deconvolution</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 7, Physik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-727</identifier>
+                    <identifier type="sys">HT014116570</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_72</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2004-07-06</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_72">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/72/1/aslan.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_72"
+            DMDID="DMD_siegen_opus_72">
+            <mets:fptr FILEID="FILE0_siegen_opus_72"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

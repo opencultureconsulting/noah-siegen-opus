@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_104">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Water quality monitoring in Lake Abaya and Lake Chamo region : a research based on water resources of the Abaya-Chamo Basin - South Ethiopia</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Teklemariam Tiruneh, Ababu</displayForm>
+                        <namePart type="family">Teklemariam Tiruneh</namePart>
+                        <namePart type="given">Ababu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2005</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">This study is based on water quality monitoring work of water resources within the Abaya-Chamo basin. The methods, method validation and analysis results have been presented and discussed. Seansonal variation and trends as well as associated water quality management issues are discussed. A water quality monitoring system based on an integrated partial physical orthogonal model has been designed based on data generated within the water resources of the Abaya-Chamo drainage basin.
+Abstract common factors were extracted by the application of principal component and factor analysis. By overlaying real factors with abstract common factors the underlaying causes for the water quality variations hace been explained.
+Surface flow factors, sub surface flow factors, leaching flow factors, effects of soil matrix, rainfall magnitude and intensity, discharge, catchment area and slope, in stream pollution and point sources of pollution, evaporative storage and precipitation chemistry all showed up in such integrated model.
+This model can be extended by including further physical factors as well as natural and anthropogenic pollution sources and factors. This model can be extended to lakes and ground water sources as well. Design of water quality monitoring intervals was accomplished with the help of spectral analysis. Spatial monitoring spacing for lake water quality was determined after hierarchical cluster analysis.
+The possibility of modelling the various water quality parameters was investigated. Auto regressive modelling fits well variables that have seasonally evened variation. Variables with short-term fluctuation were modelled with spectral level regression. State-space method was satisfactorily applied for relating the time series between two sampling points located on different rivers. Discharge-base contaminant modelling was modified to compensate for error by establishing a pattern of relationship between calculated and observed contaminant loads.</abstract>
+                    <subject>
+                        <topic>water quality monitoring</topic>
+                        <topic>water quality modelling</topic>
+                        <topic>water quality management</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 8, Chemie - Biologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1040</identifier>
+                    <identifier type="sys">HT014373577</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_104</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2005-05-03</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_104">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/104/1/teklemariam.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_104"
+            DMDID="DMD_siegen_opus_104">
+            <mets:fptr FILEID="FILE0_siegen_opus_104"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

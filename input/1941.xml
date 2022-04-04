@@ -1,0 +1,132 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1941</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Transmitter and channel design for multi-chip communication interfaces</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Sender und Kanaldesign für Multi-Chip-Kommunikationsschnittstellen</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Muhammad Waqas</pc:foreName>
+            <pc:surName>Chaudhary</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Multichiptechnik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Multi-Chip-Module</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Chip-to-Chip</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Communication Interfaces</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Transmitter</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">2.5D Interposer</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Multi-Chip-Modul</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Sender</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Kanal</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Co-Design</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">2.5D-Silizium-Interposer</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">621</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The size of integrated circuit (IC) die has continuously increased due to Moore’s law&#13;
+in the last few decades. A large system on chip (SOC) contains many complex analog&#13;
+and digital blocks which must run at high clock rate to support the needs of today’s&#13;
+applications. These large SOCs suffer from global interconnect delay bottleneck and&#13;
+increased design complexity. In order to deal with this problem, the SOC can be&#13;
+divided into smaller chips which could be placed together in a multi-chip-module&#13;
+(MCM) or in a 2.5D interposer system. The chips must communicate with each&#13;
+other, which poses the challenges of transmitter and channel design along with&#13;
+system optimization.&#13;
+This work addresses the three challenges of multi-chip system design: (i) transmitter&#13;
+design for moderate speed unterminated signalling and high speed multi-Gb/s&#13;
+terminated signalling, (ii) channel analysis and design for minimum area usage while&#13;
+meeting the bandwidth and energy requirements of memory and high speed interfaces,&#13;
+(iii) design methodologies for transmitter and channel co-design, and design&#13;
+flow for optimum memory interface in multi-chip systems.&#13;
+This work tackles the transmitter design challenge for multi-chip systems by offering&#13;
+two types of transmitters: an unterminated low swing driver for moderate&#13;
+data rates, and a high speed terminated transmitter for multi-Gb/s communication&#13;
+interfaces. Both transmitters are designed in 22nm FDSOI technology and taped&#13;
+out. Channel analysis is done for various width, spacing and length of interconnects&#13;
+in 2.5D silicon interposer technology. The signal integrity analysis of memory and&#13;
+serial interfaces (SERDES) directs the designer to choose the right width and spacing&#13;
+of channel for optimum energy or area metrics. Two design methdologies are&#13;
+presented in this work: first is current mode logic (CML) differential driver and interposer&#13;
+co-design for minimum energy and area performance metric, second is a&#13;
+design flow for optimum memory interface design by choosing the right memory and&#13;
+integration technology based on given cost and bandwidth constraints. The proposed&#13;
+transmitters, channel analysis and suggested methodologies can be used by industry&#13;
+and research community to design energy and area efficient multi-chip interfaces.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die Größe der integrierten Schaltkreise (ICs) hat aufgrund des Mooreschen Gesetzes&#13;
+in den letzten Jahrzehnten kontinuierlich zugenommen. Dabei enthalten große System&#13;
+on Chip (SOC) Lösungen viele komplexe analoge und digitale Blöcke, die mit&#13;
+hoher Taktrate laufen müssen, um die Anforderungen der heutigen Anwendungen zu&#13;
+unterstützen. Die mitunter größten Herausforderungen derartiger SOCs sind die Verzögerungen&#13;
+aufgrund sehr langer Verbindungen und die erhöhte Design Komplexität.&#13;
+Um diese Probleme zu lösen, kann das SOC in kleinere Chips unterteilt werden, die&#13;
+zusammen in einem Multi-Chip-Modul (MCM) oder auf einem 2.5D-Interposer basierten&#13;
+System platziert werden können. Die notwendige Kommunikation der Chips&#13;
+impliziert neue Herausforderungen bzgl. des Sender- und Kanaldesigns und der Systemoptimierung.&#13;
+Diese Arbeit befasst sich mit den drei Herausforderungen des Multi-Chip-System&#13;
+designs: (i) Dem Design der Sender für nicht terminierte Signalübertragung bei mittlerer&#13;
+Geschwindigkeit und terminierte Signalübertragung bei hoher Geschwindigkeit&#13;
+mit mehreren Gb/s. (ii) Der Kanalanalyse und -gestaltung mit minimaler Flächennutzung&#13;
+unter Beachtung der Bandbreiten- und Energieanforderungen, welche vom&#13;
+Speicher und Hochgeschwindigkeitsschnittstellen an das System gestellt werden. (iii)&#13;
+Den Designmethoden für das Co-Design von Sendern und Kanal sowie dem Design-&#13;
+Flow für eine optimale Speicherschnittstelle in Multi-Chip-Systemen.&#13;
+Die vorliegende Arbeit geht auf die Herausforderungen im Senderdesing von&#13;
+Mulit-chip-Systemen durch zwei Arten von Sendern ein: Einen nicht terminierten&#13;
+Treiber mit geringer Schwingung für moderate Datenraten und einen terminierten&#13;
+Hochgeschwindigkeitssender für eine Kommunikationsschnittstelle mit mehreren&#13;
+Gb/s. Beide Sender wurden auf Basis der 22nm FDSOI-Technologie designt&#13;
+und gefertigt. Die Kanalanalyse umfasst verschiedene Breiten, Abstände und Längen&#13;
+der Verbindungen auf einem 2.5D-Silizium-Interposer. Die Signalintegritätsanalyse&#13;
+des Speichers und der seriellen Schnittstellen (SERDES) liefert die optimale&#13;
+Breite und den optimalen Abstand der Kanäle unter Berücksichtigung von Energieoder&#13;
+Flächenmetriken. In dieser Arbeit werden zwei Design-Flows vorgestellt: Erstens&#13;
+die Stromschaltlogik (Current Mode Logic; CML) für Differentialtreiber und das&#13;
+Interposer-Co-Design für minimale Energie und Flächenleistungsmetrik, zweitens ein&#13;
+Design-Flow für optimale Speicherschnittstellen bezüglich der Auswahl der richtigen&#13;
+Speicher und Integrationstechnologie auf Grundlage gegebener Kosten und Bandbreitenbeschränkungen.&#13;
+Die vorgeschlagenen Sender, die Kanalanalyse und die vorgeschlagenen&#13;
+Methoden können von Industrie und Forschungsgemeinschaften zum&#13;
+Entwurf energie- und flächeneffizienter Multi-Chip-Schnittstellen verwendet werden.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Bhaskar</pc:foreName>
+            <pc:surName>Choubey</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2021-02-25</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2020</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-19412</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">http://creativecommons.org/licenses/by-nc/4.0/</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Department Elektrotechnik - Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Muhammad_Waqas_Chaudhary.pdf" ddb:fileSize="17755159"/>
+   <ddb:checksum ddb:type="MD5">55c22014c126c1d731b3485bf06bda15</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1941/5/Dissertation_Muhammad_Waqas_Chaudhary.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1941</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

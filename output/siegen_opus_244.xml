@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_244">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Development of autonomous features and indoor localization techniques for car-like mobile robots</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ruangpayoongsak, Niramon</displayForm>
+                        <namePart type="family">Ruangpayoongsak</namePart>
+                        <namePart type="given">Niramon</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2006</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Intelligente autonome Navigation ist ein wesentliches Problem in der mobilen
+Robotik. Für einen modellbasierten Fahrzeug-ähnlichen mobilen Roboter ist das
+Steuerungskonzept ähnlich wie beim Auto.
+Autonome Feature erlauben Robotern eigene Bewegungen zu kontrollieren ohne
+menschliche Interaktion. Drei autonome Feature werden in diese Arbeit behandelt:
+Hindernisvermeidung, 180° Drehung in einem schmalen Flur und Pfadverfolgung. Weil die Hindernispositionen unbekannt sind, erfordert die Strategie nicht nur
+Hindernisvermeidung, sondern auch Bahnplanung und Roboterlokalisierung.
+Die Roboterlokalisierung kann in relative und absolute Lokalisierungen
+unterteilt werden. In dieser Arbeit soll die Entwicklung der modellbasierten relativen Lokalisierungstechnik und der absoluten Lokalisierung durch Landmarken untersucht werden.
+Die Entwicklung der modellbasierten relativen Lokalisierung wird durch ein
+nichtlineares dynamisches Automodell mit nachfolgendem Kalman Filter erreicht. Die Integration der Sensordaten des Entfernungsmessers, Trägheitsgyroskop-Sensors und der Kompass-Sensoren durch den Kalman Filter ermöglicht die Analyse der Leistung der drei Positionierungsmethoden; durch differentiellen Antrieb, Gyroskops- und Kompass-Abschätzung.
+Die absolute Lokalisierung wird durch den Einsatz einer 3D-Kamera und 3D-Landmarken erreicht und wird im Folgen der Positionskalibrierung genant. Drei Teile der Positionskalibrierung werden entwickelt: Das Design der Landmarken, die Erkennung der Landmarken sowie die Voraussage und die Aktualisierung der
+Roboterposition. Schließlich wird die Verbesserung der Auflösung der
+Positionskalibrierungstechnik durch 2D und 3D Bilder untersucht.</abstract>
+                    <abstract type="content" lang="eng">Intelligent autonomous navigation in a large-scale and unknown indoor environment is an important problem in mobile robotics. For a car-like mobile robot with a racing car platform, the movement control concept is similar to that of a car.
+The autonomous features enable robots to control own motion without human
+interference. Three autonomous features are addressed in this thesis; obstacle avoidance, doing 180° turns in a narrow corridor, and path following control. Since the obstacle positions are not known beforehand, the strategy requires not only the obstacle avoidance but also trajectory generation and robot localization.
+The robot localization can be broken down into relative and absolute localization. This thesis addresses the development of the model-based relative localization technique and the landmark-based absolute localization technique.
+The model-based relative localization is applied by the non-linear dynamic car model to the Kalman filter. The study of integrating sensor data from odometer, gyroscope and compass for the position and heading estimators provides a discussion of the performance of three localization methods; differential drive, gyroscope estimator, and compass estimator.
+The landmark-based absolute localization is applied by using the 3D camera and the 3D artificial landmark and is called the position calibration. Three parts of the position calibration are developed: The design of landmarks, the landmark recognition, and the robot position prediction and update. Lastly, the improvement for the resolution of the position calibration by using 2D and 3D images is studied.</abstract>
+                    <subject>
+                        <topic>Mobile Robotik</topic>
+                        <topic>Bahnplanung</topic>
+                        <topic>Roboterlokalisierung</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-2447</identifier>
+                    <identifier type="sys">HT014924479</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_244</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2006-08-09</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_244">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/244/1/ruangpayoongsak.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_244"
+            DMDID="DMD_siegen_opus_244">
+            <mets:fptr FILEID="FILE0_siegen_opus_244"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

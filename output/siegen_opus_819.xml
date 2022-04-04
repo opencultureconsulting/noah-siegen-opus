@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_819">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Eigenvalues of measure theoretic Laplacians on Cantor-like sets</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Eigenwerte von maßtheoretischen Laplace-Operatoren auf Cantor-artigen Mengen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Arzt, Peter</displayForm>
+                        <namePart type="family">Arzt</namePart>
+                        <namePart type="given">Peter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">We study the eigenvalues of the Laplacian Δ µ . Here, µ is a singular measure on a bounded interval with an irregular recursive structure, which include self-similar measures as a special case. The structure can also be randomly build. For this operator we determine the asymptotic growth behaviour of the eigenvalue counting function. Furthermore, in the case where µ is self-similar, we give a representation of the eigenvalues of Δ µ as zero points of generalized sine functions allowing, in particular, an explicit computation. Moreover, we use these functions to describe certain properties of the eigenfunctions.</abstract>
+                    <abstract type="content" lang="ger">Wir untersuchen die Eigenwerte des Laplaceoperators Δ µ . Hierbei ist µ ein singuläres Maß auf einem beschränkten Intervall mit einer irregulären rekursiven Struktur, was selbstähnliche Maße als Spezialfall enthält. Diese Struktur kann auch zufällig sein. Für diesen Operator bestimmen wir das asymptotische Wachstumsverhalten der Eigenwertzählfunktion. Weiterhin, im Fall eines selbstähnlichen Maßes, stellen wir die Eigenwerte von Δ µ als Nullstellen von verallgemeinerten Sinusfunktionen dar, was insbesondere eine explizite Berechnung erlaubt. Außerdem benutzen wir diese Funktionen um Eigenschaften der Eigenfunktionen zu beschreiben.</abstract>
+                    <subject>
+                        <topic>Eigenwert</topic>
+                        <topic>Eigenvalue</topic>
+                        <topic>Laplacian</topic>
+                        <topic>fractal</topic>
+                        <topic>asymptotic growth</topic>
+                        <topic>eigenfunction</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-8191</identifier>
+                    <identifier type="sys">HT018453393</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_819</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2014-07-03</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_819">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/819/1/Dissertation_Peter_Arzt_bearbeitet.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_819"
+            DMDID="DMD_siegen_opus_819">
+            <mets:fptr FILEID="FILE0_siegen_opus_819"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

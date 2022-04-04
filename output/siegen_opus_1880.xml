@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1880">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Academic writing</title>
+                        <subTitle lang="eng">guidelines for preparing a seminar paper with examples</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Tsatsenko, Natalia</displayForm>
+                        <namePart type="family">Tsatsenko</namePart>
+                        <namePart type="given">Natalia</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">Other</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">This work aims to help students get a common insight into the process of writing in Economics. At the different economic course, academic writing under the assignments including writing a seminar paper means that students focus on specific topics, review literature under this topic, analyze the existed literature, use economic methods, show their analytical thinking. This learning material deals with the stages of the writing process, the general structure of a seminar paper, how to make the logical scientific argumentation, how to search the scientific literature, and how to make a correct citation.</abstract>
+                    <subject>
+                        <topic>Wissenschaftliches Arbeiten</topic>
+                        <topic>Writing in Economics</topic>
+                        <topic>Writing Process</topic>
+                        <topic>Writing Skills</topic>
+                        <topic>Schreiben in der Wirtschaftswissenschaft</topic>
+                        <topic>Prozess des Schreibens</topic>
+                        <topic>Schreibfähigkeiten</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-18808</identifier>
+                    <identifier type="sys">HT020930877</identifier>
+                    <accessCondition type="use and reproduction">CREATIVECOMMONS.ORG PUBLICDOMAIN ZERO 1.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1880</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBdOther</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1880">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1880/5/Tsatsenko_Academic_Writing.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1880"
+            DMDID="DMD_siegen_opus_1880">
+            <mets:fptr FILEID="FILE0_siegen_opus_1880"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

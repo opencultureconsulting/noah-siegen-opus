@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1248">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Efficient range and image data processing - algorithms and software paradigms</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Effiziente Verarbeitung von Tiefen- und Bilddaten - Algorithmen und Software-Paradigmen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Högg, Thomas</displayForm>
+                        <namePart type="family">Högg</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die wachsende Nachfrage nach industrieller Automatisierung und autonomen Systemen erfordert flexiblere Techniken in verschiedenen, aber stark voneinander abhängigen Bereichen des Ingenieurwesens. Die vorliegende Arbeit beschäftigt sich mit zwei wichtigen Bereichen: Verbesserung der Time-of-Flight (ToF) Kameradaten (Algorithmen-Entwicklung) und den damit verbundenen modellgetriebene Engineering Techniken (Software-Entwicklung). In den letzten Jahrzehnten wurde ausgiebig in diesen Bereichen geforscht und es konnten zahlreiche Fortschritte erzielt werden.
+Der erste Teil dieser Arbeit beschäftigt sich mit den besonderen Herausforderungen der Datenqualitätsverbesserung von Time-of-Flight (ToF) Kameras. Es wird ein neues Verfahren zur schnellen Kompensation von Bewegungsartefakten von ToF Kameras vorgestellt und gezeigt, dass der Algorithmus gute Ergebnisse für simulierte sowie reale Daten in Echtzeitausführung erzielt. Der zweite vorgestellte Algorithmus befasst sich mit der automatischen Anpassung der Integrationszeit von ToF Kameras. Es wird ein Algorithmus entwickelt, mit dessen Hilfe die Integrationszeit des Sensors auf einer „pro Pixel“-Basis im Live-Betrieb automatisch angepasst werden kann. Der erste Teil der Dissertation schließt mit einem Industrie-Beispiel ab. Dabei wird gezeigt, wie Fahrzeuge in Echtzeit unter der Verwendung von drei PMD (Photonic Mixer Device) Kameras nach umfangreicher Datenvorverarbeitung in 3D rekonstruiert werden können. 
+Der zweite Teil dieser Arbeit befasst sich mit den Herausforderungen der modellgetriebenen Softwareentwicklung im Bereich Bild- und Datenverarbeitung. Im Rahmen dieser Arbeit wird die domänenspezifische GU-DSL mit zwei Daten- und Bildverarbeitung relevanten Erweiterungen entwickelt: GPGPU-Programmierung und GPGPU (General Purpose Computation on Graphics Processing Unit)-Programmierung und Component Based Software Engineering (CBSE). Die GPGPU Erweiterung verwendet dazu eine Kombination aus textueller und grafischer Modellierung. Die Entwicklung findet dabei datenfluss- und modellgetrieben statt. Mittels Code-Generator, kann der GU-DSL Code in C++ transformiert, anschließend kompiliert und ausgeführt werden. Alle GPU relevanten Funktionen sind dazu in ein C++ Heterogeneous Computing Framework gekapselt. Das GU-DSL CBSE System ist ein Konzept zum komponentenbasierten Software Engineering. Es werden neue Ansätze für Komponenten- und Komponenten-Instanz-Diagramme in Kombination mit Klassen- und Aktivitätsdiagrammen vorgeschlagen und umgesetzt. Mit Hilfe einer plugin-basierten Rich Client Platform, wird exemplarisch demonstriert wie diese neuen Konzepte in C++ umgesetzt werden können. Abschließend wird eine vereinfachte Verarbeitungspipeline implementiert, um die neuen Konzepte zu evaluieren.</abstract>
+                    <abstract type="content" lang="eng">The growing demand towards industrial automation and autonomous systems requires more flexible technologies in different but interdependent domains of engineering. This thesis introduces and discusses two important areas: Time-of-Flight (ToF) camera data improvement (algorithm development) and related model driven engineering techniques (software development). In the last decades, these areas have been extensively studied and important progress was made. 
+
+The first part of this thesis discusses the special challenges of data quality improvement on a very deep layer of ToF cameras. It deals with different challenges related to the working principle of this kind of sensor. A new method for a fast motion artifact compensation for ToF cameras is presented. It is shown that the algorithm gives good results for simulated as well as real data while providing real-time performance. The second proposed algorithm deals with the automatic integration time estimation of ToF cameras. An online integration time adaption algorithm that works on a per-pixel basis and uses knowledge gained from an extensive analysis of the underlying inherent sensor behavior is introduced. Finally, an industrial real-time 3D car reconstruction example is presented. It shows how the data of three PMD (Photonic Mixer Device) cameras has to be preprocessed and combined, using an extensive depth data processing and filtering pipeline.
+
+The second part of this thesis addresses the challenges of data related model driven software engineering. It introduces and contributes the new domain specific language GU-DSL and two data and image processing related extensions: GPGPU (General Purpose Computation on Graphics Processing Unit)-programming and CBSE (Component-Based Software Engineering) principles. The presented GU-DSL GPGPU extension contributes a convenient combination and mixture of textual and graphical model- and dataflow-driven design. Using a code generator, GU-DSL code can be transformed into C++, compiled and executed. All the GPU related features are encapsulated into a C++ Heterogeneous Computing framework. The GU-DSL CBSE system introduces a concept for component based software engineering in the domain of data- and image-processing. It proposes several new concepts for component- and component-instance-diagrams in combination with class- and activity-diagrams. Using a newly developed Rich Client Platform supporting a plugin based extension system, it shows how the GU-DSL CBSE concept can be realized and used in practice using C++. Exemplary, a simple processing pipeline is implemented to demonstrate the new concepts.</abstract>
+                    <subject>
+                        <topic>Bildverarbeitung</topic>
+                        <topic>Tiefendaten</topic>
+                        <topic>Domänenspezifische Sprachen</topic>
+                        <topic>PMD</topic>
+                        <topic>ToF</topic>
+                        <topic>DSL</topic>
+                        <topic>image-processing</topic>
+                        <topic>noise reduction</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Bildinformatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-12485</identifier>
+                    <identifier type="sys">HT019561874</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1248</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2017-10-18</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1248">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1248/1/Dissertation_Thomas_Hoegg.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1248"
+            DMDID="DMD_siegen_opus_1248">
+            <mets:fptr FILEID="FILE0_siegen_opus_1248"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

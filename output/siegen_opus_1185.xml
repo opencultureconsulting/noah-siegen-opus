@@ -1,0 +1,118 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1185">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Stand zur IT-Sicherheit deutscher Stromnetzbetreiber : technischer Bericht</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Dax, Julian</displayForm>
+                        <namePart type="family">Dax</namePart>
+                        <namePart type="given">Julian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ley, Benedikt</displayForm>
+                        <namePart type="family">Ley</namePart>
+                        <namePart type="given">Benedikt</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Pape, Sebastian</displayForm>
+                        <namePart type="family">Pape</namePart>
+                        <namePart type="given">Sebastian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Pipek, Volkmar</displayForm>
+                        <namePart type="family">Pipek</namePart>
+                        <namePart type="given">Volkmar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Rannenberg, Kai</displayForm>
+                        <namePart type="family">Rannenberg</namePart>
+                        <namePart type="given">Kai</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schmitz, Christopher</displayForm>
+                        <namePart type="family">Schmitz</namePart>
+                        <namePart type="given">Christopher</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sekulla, André</displayForm>
+                        <namePart type="family">Sekulla</namePart>
+                        <namePart type="given">André</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Innerhalb des Forschungsprojektes „Sichere Informationsnetze bei kleinen und mittleren
+Energieversorgern“ (SIDATE) wurde eine Umfrage zum Stand der IT-Sicherheit bei deutschen
+Stromnetzbetreibern durchgeführt. Das Projekt selbst beschäftigt sich mit der Informations-
+Sicherheit bei kleinen und mittleren Energieversorgern.
+Zur Durchführung der Umfrage wurden alle 881 im August 2016 bei der Bundesnetzagentur
+gelisteten Betreiber angeschrieben. In dem Umfragezeitraum vom 1. September 2016 bis
+zum 15. Oktober 2016 antworten 61 (6.9%) der Betreiber. Der Fragebogen fokussiert die
+Umsetzung der rechtlichen Anforderungen und die Implementierung eines
+Informationssicherheitsmanagementsystems (ISMS). Weiterhin wurden Fragen zu dem
+Leitsystem, Netzaufbau, Prozessen, organisatorischen Strukturen und der Büro-IT gestellt.</abstract>
+                    <subject>
+                        <topic>Trusted Computing</topic>
+                        <topic>Stromnetzbetreiber, IT-Sicherheit</topic>
+                        <topic>ISMS</topic>
+                        <topic>Information Security Management System</topic>
+                        <topic>electric utility</topic>
+                    </subject>
+                    <classification authority="ddc">620</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11852</identifier>
+                    <identifier type="sys">HT019482392</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1185</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1185">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1185/1/Technischer_Bericht_Stand_zur_IT_Sicherheit_deutscher_Stromnetzbetreiber.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1185"
+            DMDID="DMD_siegen_opus_1185">
+            <mets:fptr FILEID="FILE0_siegen_opus_1185"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

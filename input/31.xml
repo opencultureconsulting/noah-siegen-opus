@@ -1,0 +1,86 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>31</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Aufbau eines hochgenauen Laborthermostaten</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Michael</pc:foreName>
+            <pc:surName>Ney</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Präzisionsthermostat</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Temperaturstabilität</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">adaptive Regelung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">540</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Ziel der Arbeit war die Konstruktion eines Laborthermostaten zur hochgenauen Thermostatisierung&#13;
+von Messvorrichtungen. Die Temperaturstabilität sollte im Bereich eines&#13;
+Millikelvins oder darunter liegen. Dabei sollte eine gewisse Flexibilität gegeben sein,&#13;
+d.h. der Thermostat sollte nicht nur für eine bestimmte Apparatur ausgelegt werden,&#13;
+sondern bei verschiedenen Messzellen angewendet werden können. Dabei wurde&#13;
+versucht, die Regelung an die jeweiligen Verhältnisse der Regelstrecke in Hinsicht auf&#13;
+Tot- und Verzögerungszeiten anzupassen. Dazu wurden unterschiedliche empirische&#13;
+Verfahren getestet. Weiterhin wurde versucht, aufwendigere Adaptionsverfahren zur&#13;
+Optimierung der Parameter zu nutzen. Unter Verwendung von Simulationsprogrammen&#13;
+wie Scilab und des Mathematikprogramms Mathematica wurde versucht, ein Modell zu&#13;
+erstellen, mit dessen Hilfe z.B. Reaktionen des Thermostates auf Sollwertänderungen&#13;
+nachvollzogen werden können.&#13;
+An einer Apparatur zur Messung des Cotton-Mouton-Effektes wurde eine Messreihe&#13;
+über einen größeren Temperaturbereich aufgenommen, wobei der Thermostat zur&#13;
+Temperierung der Messzelle benutzt wurde. Es gelang auf diese Weise näher an den&#13;
+isotrop-nematischen Phasenübergang eines Flüssigkristalls heranzukommen, als es mit&#13;
+handelsüblichen Thermostaten möglich war.&#13;
+Die sehr große Temperaturabhängigkeit der Cotton-Mouton Konstante in der Nähe der&#13;
+Phasenumwandlung ist ein guter Indikator für die Temperaturstabilität eines Thermostaten.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The aim of this work was the development of a laboratory thermostat for the highly&#13;
+precise temperature control. The fluctuation of the temperature should be less than a&#13;
+millikelvin. The thermostat was designed to control the temperature of various measuring&#13;
+devices. To achieve this, the parameters of the controller had to be ajusted to&#13;
+different properties of the controlled system, such as various dead-times or delay-times.&#13;
+For this purpose, different empirical methods were tested. Further it was tried to optimise&#13;
+the parameters in a more theoretical way. This was attempted by using the simulation&#13;
+program Scilab and the mathematics program Mathematica. With the aid of those&#13;
+programs, a model could be developed wich allows e.g. to investigate reactions of the&#13;
+thermostat to changes in the nominal value of the temperature or external disturbances.&#13;
+The Cotton-Mouton-Effekt is very sensitive to changes in temperature near the&#13;
+isotropic- nematic phase-transition of a liquid crystal. So it can be used to test the&#13;
+performance of a thermostat.With an equipment for the measurement of the Cotton-&#13;
+Mouton effect a series of measurements was accomplished over a larger temperature&#13;
+range. It could be shown that it was possible to get closer to the phase transition, than it&#13;
+was possible with commercial thermostats.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2003-02-06</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2002</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-315</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 8, Chemie - Biologie</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="ney.pdf" ddb:fileSize="4192544"/>
+   <ddb:checksum ddb:type="MD5">8ab3bcd1f377fbbe30e14abb22879ea7</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/31/1/ney.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/31</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1461">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Reality and its twin : the thematic of conspiracy in political metaphysics</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Boltanski, Luc</displayForm>
+                        <namePart type="family">Boltanski</namePart>
+                        <namePart type="given">Luc</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">This paper focuses on the thematics of mystery, conspiracy and inquiry, a subject area explored in one of my more recent books, where I sought to understand the prominent place these thematics have occupied in the representation of reality since around the turn of the 20th century.</abstract>
+                    <subject>
+                        <topic>Kriminalliteratur</topic>
+                        <topic>mysteries</topic>
+                        <topic>conspiracies</topic>
+                        <topic>inquiries</topic>
+                        <topic>reality</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-14616</identifier>
+                    <identifier type="sys">HT020293436</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1461</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1461">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1461/3/WPS_07_Boltanski_Reality_and_its_twin.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1461"
+            DMDID="DMD_siegen_opus_1461">
+            <mets:fptr FILEID="FILE0_siegen_opus_1461"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

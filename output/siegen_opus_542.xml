@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_542">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Operator Scaling Stable Random Sheets with application to binary mixtures</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Operator skalierende stabile Zufallsblätter zur Simulation von Entmischungsvorgängen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hoffmann, Alexander</displayForm>
+                        <namePart type="family">Hoffmann</namePart>
+                        <namePart type="given">Alexander</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Zufallsfelder eignen sich gut zur Modellierung von Ereignissen aus den verschiedensten Fachgebieten. Sie werden z.B. zur Simulation von Naturphänomenen in der Physik, der Hydrologie oder der Geologie eingesetzt. Hierbei sind natürlich gewisse Eigenschaften erwünscht, welche die Zufallsfelder erfüllen sollten. Zur geeigneten Modellierung sind sehr häufig eine Selbstähnlichkeit bezüglich der Skalierung der Felder sowie gewisse anisotrope Strukturen notwendig. Kamont führte das erste Beispiel von anisotropen, selbstähnlichen Gauss&apos;schen Zufallsfeldern ein, das Fractional Brownian Sheet (FBS). Bei diesen Feldern können die einzelnen Achsen unabhängig voneinander skaliert werden. Ein anderes Konzept von anisotropen, selbstähnlichen Zufallsfeldern sind die Operator Scaling Stable Random Fields (OSSRF), welche von H. Biermé, M. Meerschaert und H.P. Scheffler eingeführt wurden. Diese Zufallsfelder weisen globale Abhängigkeitsstrukturen auf, wobei die Unterräume jedoch nicht mehr wie im Fall von FBS voneinander entkoppelt werden können. Die grundlegende Idee dieser Arbeit besteht nun darin, die Konzepte von FBS und OSSRF miteinander zu verbinden, um eine Klasse von Zufallsfeldern zu erhalten, welche eine sehr flexible Gestaltungsmöglichkeit bietet, indem man die gewünschten Eigenschaften beider Konzepte verbindet. Um aufzuzeigen, welchen entscheidenden Vorteil die Verknüpfung der beiden Konzepte bietet, wird zur Simulation von Entmischungsvorgängen ein geeignetes Zufallsfeld erzeugt, welches die bisherigen Simulationsergebnisse qualitativ deutlich verbessert.</abstract>
+                    <abstract type="content" lang="eng">Random fields are useful for modeling events from different subject areas. They are for example used for simulation of natural phenomena in physics, hydrology, or geology. In order to faithfully model these phenomena, the random fields need to have properties often observed in real data and experiments: scaling properties, also known as &apos;statistical&apos; self-similarity and anisotropy, that is different scaling in different directions. A. Kamont introduced the first example of anisotropic self-similar Gaussian random field, the fractional Brownian sheet (FBS). These fields scale independently and at possible different rates along the coordinate axes. Another concept of anisotropic self-similar random fields are the Operator Scaling Stable Random Fields (OSSRF) introduced by H. Biermé, M. Meerschaert, and H.-P. Scheffler. These random fields have global dependence structures, but the subspaces can not be decoupled as in the case of FBS. The basic idea of this work is to link the concepts of FBS and OSSRF to get a class of random fields, which offers very flexible design possibilities by connecting the characteristics of both concepts. To show the advantage of the combination of these two concepts, we simulate segregation processes driven by our random field which improve previous simulation results using isotropic fields, yielding results close to experimental data</abstract>
+                    <subject>
+                        <topic>Zufallsoperator</topic>
+                        <topic>Hölderregularität</topic>
+                        <topic>OSSRF</topic>
+                        <topic>Alpha Stable Random Fields</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5425</identifier>
+                    <identifier type="sys">HT016976873</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_542</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2011-09-04</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_542">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/542/1/hoffmann.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_542"
+            DMDID="DMD_siegen_opus_542">
+            <mets:fptr FILEID="FILE0_siegen_opus_542"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

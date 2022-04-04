@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1395">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Multi-qubit gates and quantum-enhanced deliberation for machine learning using a trapped-ion quantum processor</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Sriarunothai, Theeraphot</displayForm>
+                        <namePart type="family">Sriarunothai</namePart>
+                        <namePart type="given">Theeraphot</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">During last decades, the development of large-scale fault-tolerant quantum computers has been a central aim of research in quantum information processing. The availability of such a device could fundamentally impact not only a large number of research fields but also the whole of society. A quantum device could perform quantum-enhanced algorithms to solve problems, which are practically inaccessible using a classical machine. A key challenge lies in qualities of quantum logic gates and any errors occurring during their execution.
+In this work, the investigation and improvements on the quantum-gate fidelity of an ion-trap-based quantum computer are presented. This is a small-scale quantum processor based on laser-cooled ions in a macroscopic linear Paul trap. Quantum bits (qubits) are realized by the ions’ pseudo-spins using ionic hyperfine states in a static magnetic field gradient following the MAgnetic Gradient Induced Coupling (MAGIC) scheme. Quantum states of individual ions are manipulated using radio frequency (RF) radiation and addressing in frequency space.
+This work reports the investigation and improvement of the Bell-state fidelity, which is an essential ingredient of quantum gates, in several aspects. (i) We have achieved sideband cooling on a single ion near the motional ground state using RF radiation with a minimum motional excitation of 0.30(12). The cooling technique is also extended to a two-ion system. This realization shows sympathetic cooling using RF sideband cooling of an ion crystal. (ii) We have outlined and explored possible sources of qubit dephasing, which are limitations of qubit control, fluctuations of magnetic fields, fluctuations of electric fields, and consequences of ions being in motionally excited states. (iii) Using dynamical decoupling sequences to protect from qubit dephasing, we have explored the limitations of this technique in numerical simulations and experiments, in which we have achieved a Bell-state fidelity of 0.95(3). 
+The implementation of all these improvements allowed the proof-of-principle demonstration of a quantum-enhanced learning agent to speed up the deliberation process within the reinforcement learning paradigm -- a learning scheme in the field of machine learning. The deliberation time of the quantum learning agent has been quadratically improved with respect to its classical counterpart. We have demonstrated that the algorithm takes O(epsilon^-0.57(5)) steps instead of O(epsilon^-1), where epsilon represents a probability to sample an action in the probability distribution of the learning process. This demonstration highlights the potential of a quantum computer in the fields of machine learning and artificial intelligence, which have grown into fundamental components for modern autonomous machines. Furthermore, we have discussed some prerequisite elements for a static quantum register using four ions. In addition, preliminary demonstrations of quantum state transfer have been presented.</abstract>
+                    <abstract type="content" lang="ger">Die Entwicklung eines großmaßstäblichen, fehlertoleranten Quantencomputers ist ein zentrales Ziel der Forschung im Bereich der Quanteninformation. Die Verfügbarkeit eines solchen Gerätes könnte nicht nur eine große Zahl an Forschungsfeldern grundlegend beeinflussen, sondern auch die Gesellschaft insgesamt. Ein Quantencomputer könnte quantengestützte Algorithmen anwenden, um Probleme zu lösen, die mit einem klassischen Rechner nicht praktikabel zu bewältigen sind. Eine zentrale Herausforderung stellt die Qualität logischer Quantengatter dar, sowie mögliche Fehler, die währenddessen auftreten.
+In dieser Arbeit werden zunächst die Untersuchung und Verbesserung der Fidelity von Quantengattern in einem ionenfallenbasierten Quantencomputer vorgestellt. Dabei handelt es sich um einen Quantenprozessor in kleinem Maßstab, der auf lasergekühlten Ionen in einer makroskopischen linearen Paul-Falle basiert. Quantenbits (Qubits) werden durch Pseudospins der Ionen realisiert, indem atomare Hyperfeinzustände in einem Magnetfeldgradienten nach dem Schema Magnetfeldgradienten-induzierter Kopplung (MAGIC) genutzt werden. Quantenzustände einzelner Ionen werden mithilfe von Radiofrequenz (RF) - Feldern manipuliert, wobei die Adressierung im Frequenzraum erfolgt.
+Diese Arbeit beschreibt mehrere Aspekte der Untersuchung und Verbesserung der Fidelity von Bell-Zuständen, die ein essentieller Bestandteil von Quantengattern ist. (i) Wir haben Seitenbandkühlung eines einzelnen Ions bis nahe an den Bewegungsgrundzustand mit RF-Feldern erreicht, die minimale Bewegungsanregung lag bei 0.30(12) Phononen. Diese Technik zur Kühlung wird anschließend auf ein Zwei-Ionen-System ausgeweitet und durch die Realisierung wird die sympathetische Kühlung eines Ionenkristalls mittels RF Seitenbandkühlung gezeigt. (ii) Wir haben mögliche Ursachen für die Dephasierung der Qubits zusammengestellt und untersucht. Dies sind Limitierungen bei der Steuerung der Qubits, Fluktuationen magnetischer Felder, Fluktuationen elektrischer Felder und die Folgen, wenn sich Ionen in angeregten Bewegungszuständen befinden.  (iii) Unter Verwendung von Sequenzen zur dynamischen Entkopplung, die Qubits vor Dephasierung schützen, haben wir die Grenzen dieser Technik in numerischen Simulationen und mit Experimenten untersucht, bei denen wir für einen Bell-Zustand eine Fidelity von 0.95(3) erreicht haben. 
+Die Umsetzung all dieser Verbesserungen erlaubte den grundsätzlichen Nachweis eines quantengestützten Learning Agent, der den Entscheidungsprozess innerhalb des Reinforcement Learning Modells – ein Lernschema für maschinelles Lernen – beschleunigt. Die Entscheidungszeit des Quanten-Learning Agent konnte im Vergleich zum klassischen Pendant, quadratisch verbessert werden. Wir haben gezeigt, dass der Algorithmus O(epsilon^-0.57(5)) Schritte benötigt, anstelle von O(epsilon^-1), wobei epsilon die Wahrscheinlichkeit darstellt, aus der Wahrscheinlichkeitsverteilung des Lernprozesses eine Aktion zu erhalten. Diese Demonstration hebt das Potential eines Quantencomputers in den Bereichen maschinellen Lernens und der künstlichen Intelligenz hervor, die zu einer grundlegenden Komponente für moderne autonome Maschinen geworden sind. Weiterhin haben wir einige Voraussetzungen für ein statisches Quantenregister anhand eines Systems aus vier Ionen behandelt. Schließlich werden vorläufige Demonstrationen von Quantenzustandstransfer vorgestellt.</abstract>
+                    <subject>
+                        <topic>Paul-Falle</topic>
+                        <topic>Quantenphysik</topic>
+                        <topic>Quanteninformatik</topic>
+                        <topic>Ionenfalle</topic>
+                        <topic>Quantum information processing</topic>
+                        <topic>Trapped ions</topic>
+                        <topic>Quantum optics</topic>
+                        <topic>Artificial intelligence</topic>
+                        <topic>Reinforcement learning</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-13950</identifier>
+                    <identifier type="sys">HT019942619</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1395</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2018-11-13</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1395">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1395/1/Dissertation_Theeraphot_Sriarunothai.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1395"
+            DMDID="DMD_siegen_opus_1395">
+            <mets:fptr FILEID="FILE0_siegen_opus_1395"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

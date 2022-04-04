@@ -1,0 +1,134 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>936</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">An efficient inflation method for segmentation of medical 3D images</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Eine effiziente Inflationsmethode zur Segmentierung von medizinischen 3D Bildern</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Dženan</pc:foreName>
+            <pc:surName>Zukić</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Kernspintomografie</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">MRT</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Segmentation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">image analysis</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">spine</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">graphics</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">MRI</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The diagnosis of certain spine pathologies, such as scoliosis, spondylolisthesis&#13;
+and vertebral fractures, are part of the daily clinical routine. Very&#13;
+frequently, MRI data are used to diagnose these kinds of pathologies in&#13;
+order to avoid exposing patients to harmful radiation, like X-ray.&#13;
+&#13;
+Developing a segmentation system for an array of vertebrae is complex,&#13;
+so the method was first tested on brain tumors of types glioblastoma&#13;
+multiforme and pituitary adenoma. A small triangular surface mesh at&#13;
+the approximate center of the tumor is inflated towards the boundary&#13;
+using balloon force, keeping it approximately star-shaped. The boundary&#13;
+is implicitly binarized by the inflation rules, based on the minimum and&#13;
+maximum intensity from the initialization step. After the segmentation is&#13;
+finished, the tumor volume is calculated.&#13;
+&#13;
+The spine segmentation system uses a bottom-up approach for detecting&#13;
+vertebral bodies based on just one manual initialization. A subdivision&#13;
+surface hierarchy is introduced as an efficient global-to-local smoothness&#13;
+constraint, which can be thought of as an internal force. Together with&#13;
+intensities, low-high (LH) values were initially used to ease boundary&#13;
+finding, but the boundary estimation evolved into a multi-feature combiner.&#13;
+&#13;
+The final system utilizes a Viola-Jones detector to determine centers&#13;
+and approximate sizes of vertebral bodies. This gives the user a chance&#13;
+to manually correct detections, enables parallel feature calculation and&#13;
+segmentation, and is a basis for reliable diagnosis established at the end.&#13;
+&#13;
+The system was evaluated on 26 lumbar datasets containing 234 reference&#13;
+vertebrae. Vertebra detection has 7.1% false negatives and 1.3% false&#13;
+positives. The average Dice coefficient to manual reference is 79.3% and&#13;
+mean distance error is 1.77 mm. No severe case of the three addressed&#13;
+illnesses was missed, and false alarms occurred rarely – 0% for scoliosis,&#13;
+3.9% for spondylolisthesis and 2.6% for vertebral fractures.&#13;
+&#13;
+The main advantages of this system are high speed, robust handling&#13;
+of a large variety of routine clinical images, and simple and minimal user&#13;
+interaction.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die Diagnose von bestimmten Wirbelsäulenerkrankungen, wie z.B. Skoliose,&#13;
+Spondylolisthesis oder Wirbelbrüche, sind Teil des Klinikalltags. Häufig&#13;
+werden zur Diagnose dieser Art von Erkrankungen MRT-Daten benutzt,&#13;
+um zu vermeiden, dass Patienten schädlicher Strahlung, wie z.B. Röntgenstrahlung,&#13;
+ausgesetzt werden.&#13;
+&#13;
+Die Entwicklung eines Segmentierungssystems für eine Reihe von Wirbeln&#13;
+ist komplex. Deshalb wurde die Methode zuerst für zwei Typen von&#13;
+Gehirntumoren, Glioblastoma multiforme und Hypophysenadenom, getestet.&#13;
+Ein kleines Dreiecksnetz wird am ungefähren Zentrum des Tumors&#13;
+durch Ballon-Forces expandiert, wobei seine Struktur näherungsweise sternförmig&#13;
+gehalten wird. Der Datensatz wird durch diese Kräfte basierend&#13;
+auf den Minimum- und Maximumintensitäten beim Initialisierungsschritt&#13;
+implizit in ein inneres und ein äußeres Segment unterteilt. Nachdem die&#13;
+Segmentierung abgeschlossen ist, wird das Volumen des Tumors berechnet.&#13;
+&#13;
+Das Segmentierungssystem für die Wirbelsäule benutzt einen „Bottumup“-&#13;
+Ansatz zur Erkennung der Wirbel, der auf nur einer manuellen Initialisierung&#13;
+basiert. Als effiziente global-zu-lokal Glättungsbedingung&#13;
+wurde eine Oberflächenunterteilungshierarchie eingeführt, die man sich&#13;
+als interne Kraft vorstellen kann. Zu Beginn wurden Intensitätswerte zusammen&#13;
+mit „low-high“-Werten verwendet um die Ermittlung von Kanten&#13;
+zu erleichtern. Aber der Kantenschätzer entwickelte sich hin zu einem&#13;
+Multimerkmalsansatz.&#13;
+&#13;
+Das endgültige System benutzt einen Viola-Jones-Detektor um das Zentrum&#13;
+und die ungefähre Größe von Wirbeln zu bestimmen. Dieser Ansatz&#13;
+gibt dem Nutzer die Möglichkeit die Erkennung manuell zu korrigieren&#13;
+und ermöglicht eine parallele Berechnung der Merkmale und Segmentierung&#13;
+und stellt eine Basis für eine zuverlässige Diagnose dar.&#13;
+&#13;
+Das System wurde an 26 lumbalen Datensätzen evaluiert, welche 234&#13;
+Referenzwirbel beinhalteten. Die Wirbelerkennung hat 7.1% „false positives“&#13;
+und 1.3% „false negatives“. Der durchschnittliche Dice-Koeffizient im&#13;
+Vergleich zur Handsegmentierung ist 79.3% und der mittlere Abstandsfehler&#13;
+beträgt 1.77mm. Alle schlimmere Fälle der drei Erkrankungen wurde&#13;
+korrekt erkannt und Fehlalarme traten selten auf – 0% bei Skoliose, 3.9%&#13;
+bei Spondylolisthesis und 2.6% bei Wirbelfrakturen.&#13;
+&#13;
+Die Hauptvorteile dieses Systems sind die hohe Geschwindigkeit, die&#13;
+robuste Handhabung von alltäglichen klinischen Aufnahmen und die einfache&#13;
+als auch minimale Benutzerinteraktion.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2014-09-08</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2015</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-9365</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Bildinformatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Dzenan_Zukic.pdf" ddb:fileSize="24245837"/>
+   <ddb:checksum ddb:type="MD5">425c426353694201652ed305f069855f</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/936/1/Dissertation_Dzenan_Zukic.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/936</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

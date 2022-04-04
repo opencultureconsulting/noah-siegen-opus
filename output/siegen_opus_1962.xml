@@ -1,0 +1,90 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1962">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Das </nonSort>
+                        <title>Zeitalter des Populismus als normative Herausforderung jugendpolitischer Bildung / Die Demokratietheorie John Deweys und ihre Rezeption in der Demokratiepädagogik nach Gerhard Himmelmann</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Dornhöfer, Felix</displayForm>
+                        <namePart type="family">Dornhöfer</namePart>
+                        <namePart type="given">Felix</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Cetinyilmaz, Cancuma</displayForm>
+                        <namePart type="family">Cetinyilmaz</namePart>
+                        <namePart type="given">Cancuma</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wohnig, Alexander</displayForm>
+                        <namePart type="family">Wohnig</namePart>
+                        <namePart type="given">Alexander</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt␞edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Beyer, Gunter</displayForm>
+                        <namePart type="family">Beyer</namePart>
+                        <namePart type="given">Gunter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt␞edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Der zweite Band der Schriftenreihe POLIS – politische und soziologische Bildung versammelt zwei studentische Arbeiten, die sich mit Theorie und Praxis politischer und soziologischer Bildung auseinandersetzen. 
+Die Arbeit &quot;Das Zeitalter des Populismus als normative Herausforderung jugendpolitischer Bildung&quot; von Felix Dornhöfer beschäftigt sich mit dem aktuell kontrovers diskutierten Phänomen des Populismus. Mithilfe einer sozialwissenschaftlichen Rekonstruktion des Phänomens formuliert der Autor die Forderung, in der Jugendbildung vermehrt Räumen für eine vertiefte politische Diskussion zu schaffen, ohne in eine normative Verurteilung des politischen Gegenübers zu verfallen. 
+In der Arbeit &quot;Die Demokratietheorie John Deweys und ihre Rezeption in der Demokratiepädagogik&quot; nimmt Cancuma Cetinyilmaz eine kritische Analyse der Rezeption der Demokratietheorie des amerikanischen Philosophen und Pädagogen John Dewey durch die Demokratiepädagogik vor. Diese blende große Teile von Deweys demokratietheoretischen und gesamtgesellschaftlichen Vorstellungen aus und fokussiere sich auf das zu erziehende Individuum, das vor Gefahren geschützt und zu demokratischem Verhalten erzogen werden müsste. 
+Ausgehend von den Erkenntnissen der beiden Arbeiten können Auswirkungen einer kritischen Beschäftigung mit dem Gegenstand des Populismus sowie mit den gesellschaftspolitischen Überlegungen John Deweys auf die politisch-soziologische Bildungstheorie und -praxis diskutiert werden.</abstract>
+                    <subject>
+                        <topic>Politische Bildung</topic>
+                        <topic>Politische Bildung</topic>
+                        <topic>Soziologische Bildung</topic>
+                        <topic>Populismus</topic>
+                        <topic>Demokratiepädagogik</topic>
+                        <topic>John Dewey</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19621</identifier>
+                    <identifier type="sys">HT021087869</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1962</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1962">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1962/1/POLIS%20_2_Dornhoefer_Cetinyilmaz.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1962"
+            DMDID="DMD_siegen_opus_1962">
+            <mets:fptr FILEID="FILE0_siegen_opus_1962"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

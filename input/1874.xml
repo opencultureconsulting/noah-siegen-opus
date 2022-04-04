@@ -1,0 +1,125 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1874</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Framework for coupled simulation of electrodialysis processes</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Konzept und Umgebung für gekoppelte Simulationen von Elektrodialyse-Prozessen</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Kannan</pc:foreName>
+            <pc:surName>Masilamani</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Elektrodialyse</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Lattice-Boltzmann</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Multicomponent</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Electrodialysis</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Coupled simulations</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Mulitkomponentenströmung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Gekoppelte Simulationen</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Electrodialysis is an efficient process for seawater desalination that involves&#13;
+various interacting phenomena. In this process, ions are transported by&#13;
+flow, diffusion and an electric force and separated by selective membranes.&#13;
+For the optimization of this process, it is important to understand these&#13;
+interactions. This work presents rigorous mathematical models to describe&#13;
+the overall process and develops a numerical strategy for its simulation.&#13;
+With this approach it becomes possible to simulate the involved physical&#13;
+effects and their interactions in detail. To achieve this, the Maxwell-Stefan&#13;
+equations for mixtures are used. They take into account the electrical&#13;
+force and the multicomponent interactions with concentration dependent&#13;
+diffusivity coefficients and thermodynamic factors. Additionally, the usual&#13;
+assumption of local electroneutrality is not assumed to allow the nonideal&#13;
+effects in the electrical double layer near the membrane. For the numerical&#13;
+solution of these equations, the multicomponent lattice Boltzmann method&#13;
+(LBM) is developed and implemented in the solver Musubi. This model&#13;
+for the channel flow is coupled with an electric field and a model for the&#13;
+membranes. To obtain the electric field, the LBM that solves the Poisson’s&#13;
+equation is implemented in Musubi.&#13;
+The channels between the membranes are realized by spacers with&#13;
+complex geometry. A mesh generator (Seeder) on the basis of octrees is&#13;
+developed to ensure the appropriate discretization of the mesh for these&#13;
+channels. An essential part of this work is dedicated to the development&#13;
+of the parallel scaling coupling tool APESmate. APESmate is developed&#13;
+within the APES suite along with Seeder and Musubi on a central octree&#13;
+data structure that allows efficient handing of I/O on large scale distributed&#13;
+parallel computing systems.&#13;
+The developed software is used to compare the nonideal multicomponent&#13;
+model for various concentrations and surface potentials. The results show&#13;
+that nonideal effects increase with the concentration, especially in the&#13;
+electrical double layer. The spacers for various hydrodynamic angles and&#13;
+inflow velocities near and away from a sealed corner are investigated to&#13;
+find the design with reduced pressure drop and without low velocity zones.&#13;
+The highly resolved simulations show that the pressure drop increases&#13;
+with the hydrodynamic angle, while the extend of the low flow regions&#13;
+decreases.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Elektrodialyse ist ein effizientes Verfahren zur Meerwasserentsalzung, in&#13;
+dem verschiedene Phänomene zusammenwirken. Ionen werden dabei durch&#13;
+Strömung, Diffusion und eine elektrische Kraft transportiert und mittels&#13;
+selektiven Membranen getrennt. Für die Optimierung dieses Prozesses&#13;
+ist ein Verständnis der Interaktion dieser Effekte wichtig. Diese Arbeit&#13;
+präsentiert rigorose mathematische Modelle des Gesamtprozesses und erarbeitet&#13;
+eine numerische Strategie zur Simulation. Durch diesen Ansatz wird&#13;
+es möglich, die auftretenden Effekte mit ihren komplexen Interaktionen&#13;
+detailliert zu simulieren. Dazu werden die Maxwell-Stefan Gleichungen für&#13;
+Gemische verwendet, die auch die elektrische Kraft und Mehrkomponentenwechselwirkungen&#13;
+mit konzentrationsabhängigen Diffusions- und thermodynamischen&#13;
+Faktoren berücksichtigt. Darüber hinaus wird hier ebenfalls&#13;
+nicht die übliche Annahme der lokalen Elektroneutralität getroffen, um&#13;
+die Effekte in der elektrochemischen Doppelschicht an den Membranen zu&#13;
+ermöglichen. Für die numerische Behandlung dieser Gleichungen wird ein&#13;
+Lattice-Boltzmann (LBM) Verfahren im Löser Musubi implementiert. Das&#13;
+Modell der Kanaldurchströmung wird mit einem elektrischen Feld und&#13;
+einem Modell für die Membranen gekoppelt. Für das elektrische Feld wird&#13;
+in Musubi eine LBM zur Lösung der Poisson Gleichung implementiert.&#13;
+Die Kanäle zwischen den Membranen werden durch Abstandshalter mit&#13;
+komplexer Geometrie realisiert. Um eine passende Diskretisierung des&#13;
+Gitters für diese Kanäle zu gewährleisten wird ein Gittergenerator (Seeder)&#13;
+auf der Basis von Octrees entwickelt. Ein wesentlicher Teil dieser Arbeit ist&#13;
+der Entwicklung des parallel skalierbaren Kopplungswerkzeugs APESmate&#13;
+gewidmet. APESmate wird im Rahmen der APES-Suite neben Seeder&#13;
+und Musubi entwickelt und erlaubt die Interaktion verschiedener Löser&#13;
+auf Basis einer gemeinsamen zentralen Octree-Datenstruktur, die eine effiziente&#13;
+Handhabung der I/O auf großen verteilt parallelen Rechensystemen&#13;
+ermöglicht.&#13;
+Die entwickelte Software wird verwendet, um das nichtideale Mehrkomponentenmodell&#13;
+für verschiedene Konzentrationen und Oberflächenpotentiale&#13;
+zu vergleichen. Die Ergebnisse belegen, dass nichtideale Effekte, insbesondere&#13;
+in der elektrochemischen Doppelschicht, mit der Konzentration&#13;
+zunehmen. Die Abstandshalter werden mit mehreren hydrodynamischen&#13;
+Winkeln und Einströmgeschwindigkeiten nahe und fern einer Ecke untersucht,&#13;
+um die Auslegung mit minimalen Druckabfall und ohne Totwassergebiete&#13;
+zu bestimmen. Diese hochaufgelösten Simulationen zeigen, dass der&#13;
+Druckabfall mit dem hydrodynamischen Winkel zunimmt, während die&#13;
+Größe der Zonen mit geringer Durchströmung abnehmen.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution>
+         <cc:name>universi – Universitätsverlag Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Am Eichenhang 50, 57076 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2021</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">book</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-18741</dc:identifier>
+   <dc:source xsi:type="ddb:ISBN">978-3-96182-077-1</dc:source>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dcterms:isPartOf xsi:type="ddb:noScheme">Simulation techniques in Siegen - STS;  4</dcterms:isPartOf>
+   <dc:rights xsi:type="dcterms:URI">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Masilamani_Framework_for_coupled_simulation_STS 4.pdf" ddb:fileSize="33657398"/>
+   <ddb:checksum ddb:type="MD5">bd0a31916ab29a657f04d022f6692f8d</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1874/4/Masilamani_Framework_for_coupled_simulation_STS%204.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1874</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

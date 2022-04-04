@@ -1,0 +1,80 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1753">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Playful innovations</title>
+                        <subTitle lang="eng">emerging concepts in the context of multiplayer videogames</subTitle>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Spielerische Innovationen - Neue Konzepte im Kontext von Multiplayer-Videospielen</title>
+                        <subTitle lang="eng">emerging concepts in the context of multiplayer videogames</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bastian, Kordyaka</displayForm>
+                        <namePart type="family">Bastian</namePart>
+                        <namePart type="given">Kordyaka</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Niehaves, Björn</displayForm>
+                        <namePart type="family">Niehaves</namePart>
+                        <namePart type="given">Björn</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The cumulative dissertation (title: “Playful Innovations - Emerging Concepts in the Context of Multiplayer Videogames”) deals with relevant concepts of the widespread dissemination and economic success of an emerging class of digital technologies, so-called multiplayer video games (including League of Legends, Fortnite, PlayerUnknown&apos;s Battlegrounds). Whereby, the dissertation combines aspects of business informatics, business administration and psychology in an innovative way. The dissertation consists of a total of nineteen already published research articles that focus on new forms of player experience and consumer behavior. The publications are distributed among internationally recognized journals (Internet Research, International Journal on Media Management) and leading conferences in informations systems (International Conference on Information Systems, European Conference on Information Systems) and digital games with an excellent reputation (The Annual Symposium on Computer- Human Interaction in Play, Digital Games Research Association Conference).</abstract>
+                    <abstract type="content" lang="ger">Die kumulative Dissertation (Titel: „Playful Innovations - Emerging Concepts in the Context of Multiplayer Videogames”) beschäftigt sich mit relevanten Konzepten der weiten Verbreitung und des ökonomischen Erfolgs einer aufstrebenden Klasse digitaler Technologien, sogenannten Mehrspieler Videospielen (u.a. League of Legends, Fortnite, PlayerUnknown&apos;s Battlegrounds). Dabei vereint die Dissertation Aspekte der Wirtschaftsinformatik, Betriebswirtschaftslehre und Psychologie in einer innovativen Art und Weise. Die Dissertation besteht aus insgesamt neunzehn bereits publizierten Forschungsartikeln. Ein besonderer Fokus liegt hierbei auf neuartigen Formen der Player Experience und dem Verhalten von Konsumenten. Die Publikationen verteilen sich dabei auf international anerkannte Zeitschriften (Internet Research, International Journal on Media Management) und führende Konferenzen der Wirtschaftsinformatik (International Conference on Information Systems, European Conference on Information Systems) sowie digitaler Spiele mit ausgezeichnetem Ruf (The Annual Symposium on Computer-Human Interaction in Play, Digital Games Research Association Conference).</abstract>
+                    <subject>
+                        <topic>E-Sport</topic>
+                        <topic>Multiplayer Video Games</topic>
+                        <topic>Player Experience</topic>
+                        <topic>Digital Consumer Behavior</topic>
+                        <topic>eSports</topic>
+                        <topic>Multiplayer-Videospiele</topic>
+                        <topic>Spielerlebnis</topic>
+                        <topic>Digitales Verbraucherverhalten</topic>
+                        <topic>eSports</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät III - Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-17531</identifier>
+                    <identifier type="sys">HT020675914</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1753</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2020-11-24</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1753">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1753/3/Dissertation_Bastian_Kordyaka.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1753"
+            DMDID="DMD_siegen_opus_1753">
+            <mets:fptr FILEID="FILE0_siegen_opus_1753"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

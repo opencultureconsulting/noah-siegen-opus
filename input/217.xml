@@ -1,0 +1,110 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>217</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Ein lokal autokompensierender Bildsensor</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Nils</pc:foreName>
+            <pc:surName>Friedrich</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">lokal autokompensierender Bildsensor</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">LACS</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">CMOS-Bildsensor</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die vorliegende Dissertation beschreibt die Entwicklung und Implementierung des lokal&#13;
+autokompensierenden Bildsensors LACS ( L ocally A uto C ompensating I mage S ensor).&#13;
+&#13;
+Eine der größten Herausforderungen beim Entwurf von CMOS-Bildsensoren ist prinzipiell&#13;
+die Kombination einer hohen Empfindlichkeit mit einem weiten Dynamikbereich.&#13;
+Beide Attribute sind Voraussetzungen für die Detektion schwacher Lichtsignale in der&#13;
+Umgebung starker optischer Störsignale, die daher zu widersprüchlichen Anforderungen&#13;
+an einen Bildsensor führen. Detaillierte Untersuchungen verschiedener hochdynamischer&#13;
+Sensorsysteme zeigen, daß zusätzliche Rauschbeiträge die erzielte Dynamikerweiterung&#13;
+stark einschränken.&#13;
+&#13;
+Der intelligente Bildsensor LACS blendet auftretende Störbeleuchtung aus, indem der&#13;
+entsprechende Anteil des Photostroms pixelweise automatisch kompensiert wird. Auf&#13;
+diese Weise steht eine hohe Empfindlichkeit zur Verfügung, ohne daß der Dynamikumfang&#13;
+reduziert wird. Die Eigenschaften der Pixel- sowie Peripherieelektronik des LACS&#13;
+werden mit Hilfe von numerischen Simulationen und analytischen Modellen beschrieben.&#13;
+Die Untersuchung von zeitlichem und örtlichem Rauschen sowie die Analyse von&#13;
+Nichtidealitäten des LACS-Pixels stehen dabei im Vordergrund. Während sich das Photonenrauschen&#13;
+als dominante Quelle zeitlichen Rauschens herausstellt, bestimmen die&#13;
+räumlichen Schwankungen des Kompensationsstroms die physikalischen Grenzen des&#13;
+Sensors.&#13;
+&#13;
+Die mit der ersten lokal autokompensierenden Kamera aufgenommenen Bilder bestätigen&#13;
+die Funktionalität des autokompensierenden Konzepts sowie die Ergebnisse der&#13;
+theoretischen Betrachtungen. Die Kamera generiert die erforderlichen Steuersignale und&#13;
+transferiert die aufgenommenen Bildsignale an einen Rechner. Der LACS-Prototyp wurde&#13;
+in einem 0,35 µm-CMOS-Prozeß realisiert und besteht aus 32 × 32 Pixeln. Die Pixelelektronik&#13;
+umfaßt neun Transistoren und zwei Kapazitäten. Die Pixelfläche beträgt&#13;
+insgesamt (38 µm) 2 . Die Peripherieelektronik des LACS verfügt über eine Schaltung zur&#13;
+korrelierten Doppelabtastung ( C orrelated D ouble S ampling, CDS), die eine Reduzierung&#13;
+von Fixed Pattern Noise (FPN) ermöglicht.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">This Ph.D. thesis describes the development and implementation of the image sensor&#13;
+LACS ( L ocally A uto C ompensating I mage S ensor).&#13;
+&#13;
+One of the most challenging problems in designing CMOS image sensors is the combination&#13;
+of high sensitivity and wide dynamic range. Both are required for the detection&#13;
+of weak optical signals that are surrounded by bright ambient light, which principally&#13;
+leads to contradictory demands on the image sensor design. Various dynamic range enhancing&#13;
+concepts are analysed. It can be shown, that the apparently achieved dynamic&#13;
+range enhancement is largely limited by additional noise contributions.&#13;
+&#13;
+The intelligent image sensor LACS suppresses ambient light by automatically compensating&#13;
+the corresponding part of the photo current. Thus, a high sensitivity is provided&#13;
+for the detection of weak signals without limiting the dynamic range of the captured&#13;
+scene.&#13;
+&#13;
+The characteristics of the LACS-pixel and the sensor’s periphery are described using&#13;
+numerical simulations and analytical models. Emphasis is placed on the analysis of noise&#13;
+and fixed pattern noise (FPN) as well as the deviation of the compensating current from&#13;
+ideal behaviour. While photon shot noise turns out to be the dominant noise source, the&#13;
+sensor’s performance is mainly determined by the FPN of the compensation current.&#13;
+&#13;
+Sample images taken by the first autocompensating camera validate the functionality&#13;
+of the locally autocompensating concept as well as the results from calculations and&#13;
+simulations. The camera provides the control signals and transfers the achieved data&#13;
+to a computer. The LACS-prototype was realized using a 0.35 µm-CMOS process and&#13;
+consists of 32 × 32 pixels. Each pixel measures (38 µm) 2 and includes nine transistors&#13;
+and two capacitances. Random access is provided as well as correlated double sampling&#13;
+(CDS) to reduce fixed pattern noise.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2006-05-02</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2006</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-2172</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 12, Elektrotechnik und Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="friedrich.pdf" ddb:fileSize="6986061"/>
+   <ddb:checksum ddb:type="MD5">a8c60646b37b5091f653b42bc393509d</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/217/1/friedrich.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/217</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

@@ -1,0 +1,103 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1799">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Ein </nonSort>
+                        <title>Serious Game mit lernenden- und objektzentrierter Aufgabengestaltung als digitale Lösung beim Übergang zur universitären Ingenieurausbildung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Müller, Thomas</displayForm>
+                        <namePart type="family">Müller</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Seidel, Anna</displayForm>
+                        <namePart type="family">Seidel</namePart>
+                        <namePart type="given">Anna</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Weidle, Franziska</displayForm>
+                        <namePart type="family">Weidle</namePart>
+                        <namePart type="given">Franziska</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Dubrau, Marlen</displayForm>
+                        <namePart type="family">Dubrau</namePart>
+                        <namePart type="given">Marlen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Börner, Claudia</displayForm>
+                        <namePart type="family">Börner</namePart>
+                        <namePart type="given">Claudia</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Prof. Dr. Ralph Dreher, Universität Siegen</displayForm>
+                        <namePart type="family">Prof. Dr. Ralph Dreher</namePart>
+                        <namePart type="given">Universität Siegen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Studierende der Ingenieurwissenschaften sehen sich großen Barrieren zum Studienbeginn konfrontiert. Dabei nimmt das Grundlagenfach der Technischen Mechanik durch die abstrakten und technischen Inhalte eine besondere Rolle ein. Das im Projekt Learn&amp;Play entwickelte Serious Game adressiert inhaltliche und motivationale Lernschwierigkeiten, indem das Lösen technischer Aufgaben mithilfe spielerischer Elemente unterstützt wird. Der in drei Ebenen aufgeteilte Aufgabenraum – Real-, Lösungs- und Ergebnis- bzw. Feedbackebene – fokussiert individuelle Wissenslücken und liefert eine Antwort auf die Frage, wie das Erlernen mathematisch-physikalischen Fachwissens erleichtert sowie motivational unterstützt
+werden kann, um abstrakte Problemstellungen der technischen Mechanik zu lösen.</abstract>
+                    <subject>
+                        <topic>Technische Mechanik</topic>
+                        <topic>Technische Mechanik</topic>
+                        <topic>Fachdidaktik</topic>
+                        <topic>Motivation</topic>
+                        <topic>Serious Game</topic>
+                        <topic>GBL</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-17992</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1799</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1799">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1799/4/Ein_Serious_Game.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1799"
+            DMDID="DMD_siegen_opus_1799">
+            <mets:fptr FILEID="FILE0_siegen_opus_1799"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

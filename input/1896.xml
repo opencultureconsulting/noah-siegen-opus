@@ -1,0 +1,65 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1896</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">List scheduling algorithms for open distributed real-time embedded systems</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Listenscheduling-Algorithmen für offene verteilte Echtzeitsysteme</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Sarah</pc:foreName>
+            <pc:surName>Amin</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Echtzeitsystem</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">List scheduling</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Incremental scheduling</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">ODRE systems</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Real-time systems</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Fault detection and diagnosis</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">In den letzten Jahren hat sich der Bereich der eingebetteten Systeme zu Anwendungsbereichen entwickelt, die strenge Echtzeitbeschränkungen, Zuverlässigkeitsanforderungenund  die  Notwendigkeit  einer  Open-World-Annahme  vereinen. Solche Systeme werdenals Open Distributed Real-time Embedded (ODRE) Systeme bezeichnet. Diese Systeme basieren auf einer Open-World-Annahme, bei der neue Komponenten zur Laufzeitauftreten, um neu entstehende Dienste dynamisch zu realisieren. Gleichzeitig sind ein zuverlässiger Betrieb und die Unterstützung von strengen Echtzeitanforderungen für die Unterstützung von geschlossenen Regelkreisen und garantierten Reaktionszeiten unerlässlich. In solchen Systemen sorgt ein zeitgesteuertes Scheduling der Dienste vor der Ausführungauf dem System für das korrekte zeitliche Verhalten der Anwendungen und garantiert die Unterstützung von strengen Echtzeitbedingungen.  Das Scheduling einer Echtzeitanwendung in einem ODRE-System ist jedoch aufgrund seiner dynamischen Natur kompliziert. Die Struktur des ODRE-Systemsändert sich ständig, was bedeutet, dass ein zur Designzeitgenerierter fester Zeitplan nichtüber die gesamte Lebensdauer des Systems verwendet werden kann. Die Ausführungszeiten gängiger Scheduling-Algorithmen, z.B. evolutionäre Algorithmen, gemischt-ganzzahlige lineare Programmierung, Satisfiablity-Modulo-Theorien, sind für die Verwendung zur Laufzeit nicht geeignet.  Darüber hinaus machen diese Algorithmen restriktive Annahmen, z.B. die Annahme eines busbasierten Kommunikationsnetzes  anstelle  von  Multi-Hop-Kommunikationsnetzen  oder  die  Berücksichtigung  dergleichen  Periode  für  alle  Anwendungsaufgaben,  die  für  die  Echtzeitanforderungen  von ODRE-Systemen  unrealistisch  sind. Daher  besteht  ein  Bedarf  an  einem  Scheduling-Algorithmus,  der zur Laufzeit einen realisierbaren Zeitplan für ODRE-Systeme berechnet,  wenn  es Änderungen  im  System  gibt. Diese  Arbeit  schlägt  Listen-Scheduling-Algorithmen vor, die sowohl strenge Zetbedingungen als auch die Offenheit des ODRE-Systems berücksichtigen, während sie einen Zeitplan mit kurzer Planungsverzögerung zur Laufzeit berechnen. Die vorgeschlagenen Algorithmen sind generisch und unterstützendie Berechnung eines zeitgesteuerten Zeitplans für verschiedene Systemanwendungenauf einem ODRE-System. Darüber hinaus werden in dieser Arbeit die Modelle und Algorithmen für das Scheduling von Diagnosediensten zur Fehlererkennung und Diagnose in ODRE-Systemen demonstriert. Die Scheduling-Algorithmen werden auf der Basis verschiedener Parameter, wie z.B. der Größe der Systemanwendung, der Anzahl derverfügbaren Ressourcen, der im System verwendeten Netzwerktopologie, der Anzahl der Änderungen in der geplanten Anwendung und der Rekonfigurationskosten des Systems, bewertet. Die Ergebnisse zeigen, dass die Algorithmen einen korrekten Zeitplan berechnen können, sofern genügend Ressourcen im System vorhanden sind. Die Ergebnisse fürden vorgeschlagenen inkrementellen Scheduling-Algorithmus zeigen, dass die berechneten Zeitpläne auf Änderungen im System skalierbar sind und der Aufwand für die Revalidierung durch Minimierung der Änderungen in der bereits eingeplanten Anwendung reduziert werden kann. Darüber hinaus zeigt die Analyse der Zeitkomplexität und derbeobachteten Laufzeit der Algorithmen, dass sie zur Laufzeit aufgerufen werden können, wenn der Scheduler durch eine Änderung der Systemkonfiguration ausgelöst wird.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">In recent years, the field of embedded systems has evolved towards application areas that combine stringent real-time constraints, reliability requirements and a need for an open-world assumption. Such systems are called Open Distributed Real-time Embedded (ODRE) systems. These systems are based on an open-world assumption where new components enter at runtime to dynamically realise emerging services. At the same time, reliable operation and support for stringent real-time requirements are essential to support closed-loop control and guaranteed response times. In such systems, time-triggered scheduling of the services before executing them on the system ensures the correct temporal behaviour of the applications and guarantees support for stringent real-time constraints. However, scheduling a real-time application in an ODRE system is complicated because of its dynamic nature. The structure of the ODRE system is continuously changing, which means that a fixed schedule generated at the design time cannot be used throughout the lifetime of the system. The execution times of prevalent scheduling algorithms, e.g, evolutionary algorithms, mixed integer linear programming, satisfiablity modulo theories, are not suitable for invocation at runtime. Moreover, these algorithms make assumptions, e.g., assuming a bus-based communication network instead of multi-hop communication networks or considering the same period for all the application tasks, that are unrealistic for the stringent real-time requirements of ODRE systems. Therefore, there is a need for a scheduling algorithm that computes a feasible schedule for ODRE systems at runtime whenever there are changes in the system. This thesis proposes list scheduling algorithms that consider both stringent timing constraints and openness of the ODRE system while computing a feasible schedule with short scheduling delay at runtime. The proposed algorithms are generic and support the computation of a time-triggered schedule for any system application on an ODRE system. In addition, this thesis demonstrates the models and algorithms for scheduling diagnostic services for fault detection and diagnosis in ODRE systems. The scheduling algorithms are evaluated based on different parameters such as, the size of the system application, the number of available resources, the network topology used in the system, the number of modifications in the scheduled application, and reconfiguration cost of the system. The results show that the algorithms can compute a feasible schedule provided that there are enough resources in the system. The results for the proposed incremental scheduling algorithm show that the computed schedules are scalable to changes in the system and the revalidation efforts can be reduced by minimising the changes in the already scheduled application. Furthermore, the time complexity and the observed runtime of the algorithms shows that they can be invoked during runtime when the scheduler is triggered by a change in the system configuration.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Roman</pc:foreName>
+            <pc:surName>Obermaisser</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2020-05-20</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2020</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-18964</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/lizenz.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Department Elektrotechnik - Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Sarah_Amin.pdf" ddb:fileSize="1514979"/>
+   <ddb:checksum ddb:type="MD5">6ebd2a578c58a542ff6d2e12a5527903</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1896/3/Dissertation_Sarah_Amin.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1896</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

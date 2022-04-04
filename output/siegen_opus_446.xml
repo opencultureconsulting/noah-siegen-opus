@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_446">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Integrative Auswertung von Multi-Omics-Daten aus dem Zentralstoffwechsel von Corynebacterium glutamicum</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Integrative evaluation of Multi-Omics data of the central metabolism of Corynebacterium glutamicum</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Noack, Stephan</displayForm>
+                        <namePart type="family">Noack</namePart>
+                        <namePart type="given">Stephan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2009</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Eine wesentliche Zielsetzung im Bereich der Systembiologie besteht in der Untersuchung der regulatorischen Prozesse einer Zelle unter Berücksichtigung der Hierarchie-Ebenen Genom, Transkriptom, Proteom, Metabolom und Fluxom. Aufgrund der rasch fortschreitenden Entwicklung experimenteller und analytischer Technologien ist es möglich, die hierfür benötigten quantitativen Multi-Omics-Daten bereitzustellen. Den ersten Schwerpunkt der vorliegenden Arbeit bildet die Untersuchung zweier verschiedener Ansätze zur 13C-Stoffflussanalyse. Hierbei wird der  Organismus C. glutamicum erstmalig im Rahmen eines isotopisch instationären Markierungsexperiments im Fed-Batch-Ansatz untersucht. Auf  diese Weise werden sowohl isotopisch transiente als auch stationäre Markierungsanreicherungen von Zentralstoffwechselmetaboliten erzeugt. Die somit generierten Rohdaten werden auf der Basis von isotopisch  stationären und instationären Modellierungsansätzen unter Verwendung verschiedener Netzwerk- und Messkonfigurationen ausgewertet. Eine anschließende Verifizierung und Interpretation der erhaltenen quantitativen Stoffflussdaten erfolgt auf Grundlage von Flussbilanzanalysen in einem weiterentwickelten genomweiten Stofffwechselmodell für C. glutamicum. Die modellgestützte Auswertung von Multi-Omics-Daten bildet den zweiten Schwerpunkt innerhalb dieser Arbeit. Dabei wird ein neuartiges Modellierungskonzept entwickelt, welches auf einem vertikalen mechanistischen Netzwerkansatz basiert. Dieser ist entlang der Regulationsebenen einer Zelle (Genom, Proteom,  Metabolom) formuliert. Mit der Fokussierung auf den Zitratzyklus und der Anaplerose von C. glutamicum kann unter Einbezug des aktuellen Wissensstandes dieses Stoffwechselweges insbesondere auf metabolischer Ebene ein detailliertes Regulationsnetzwerk aufgebaut werden. Die Implementierung des vertikalen Netzwerkmodells erfolgt mit Hilfe der Modellierungssprache Modelica. Zu diesem Zweck wird eine geeignete Komponentenbibliothek entwickelt, mit deren Hilfe biochemische Netzwerke unter Nutzung der Objektorientiertheit dieser Sprache modelliert werden können. Die im Zuge kontinuierlicher Kultivierungen bereitgestellten umfassenden quantitativen Multi-Omics-Datensätze bilden schließlich die Grundlage zur Validierung des vertikalen Netzwerkmodells.</abstract>
+                    <subject>
+                        <topic>Mathematische Modellierung</topic>
+                        <topic>13C-Stoffflussanalyse</topic>
+                        <topic>Multi-Omics</topic>
+                        <topic>metabolische Regulation</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 11, Maschinenbau"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4469</identifier>
+                    <identifier type="sys">HT016903524</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_446</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2009-11-25</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_446">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/446/1/noack.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_446"
+            DMDID="DMD_siegen_opus_446">
+            <mets:fptr FILEID="FILE0_siegen_opus_446"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

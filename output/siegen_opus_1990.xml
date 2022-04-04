@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1990">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Mixed FE-models for variational inequalities</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Gemischte FE-Modelle für variationele Ungleichungen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Garanza, Andrej</displayForm>
+                        <namePart type="family">Garanza</namePart>
+                        <namePart type="given">Andrej</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Suttmeier, Franz-Theo</displayForm>
+                        <namePart type="family">Suttmeier</namePart>
+                        <namePart type="given">Franz-Theo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">In this work we deepen our studies on the numerical FE-treatment of systems of partial differential equations, where the solution is subjected to inequality constraints. Especially we focus on Lagrange-settings, which can be employed to handle the given constraints. In this way additional auxiliary variables are introduced which are determined simultaneously to the original primal solution within a so-called mixed system.
+On this basis efficient solution processes for the mixed systems are constructed by eliminating inequality constraints yielding nonlinear equation systems. These can easily be solved by (non-smooth) Newton-type schemes. Furthermore concepts for a posteriori error control are reviewed and refined.</abstract>
+                    <abstract type="content" lang="ger">In dieser Arbeit werden Systeme partieller Differentialgleichungen mit Ungleichungsnebenbedingungen behandelt.
+Genauer geht es um die numerische Analyse mit Finite-Element-Methoden (FEM). Besonderes Augenmerk liegt hierbei auf dem Einsatz von Lagrange-Techniken. Die dadurch eingeführten Hilfsvariablen werden simultan zur primalen Lösung im Rahmen eines sogenannten gemischten Systems bestimmt.
+Auf der Basis von Projektionstechniken können die Ungleichungsnebenbedingungen eliminiert werden. Die dann entstehenden nicht-linearen Probleme werden dann mit nicht-glatten Verfahren vom Newton-Typ effizient gelöst.
+Darüber hinaus werden Techniken zur a posteriori Fehlerkontrolle verfeinert und auf die vorliegende neue Situation erweitert.</abstract>
+                    <subject>
+                        <topic>Finite-Elemente-Methode</topic>
+                        <topic>Numerical FE-treatment</topic>
+                        <topic>Partial differential equations</topic>
+                        <topic>Inequality constraints</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Department Mathematik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19907</identifier>
+                    <identifier type="sys">HT021114169</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1990</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2020-10-20</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1990">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1990/5/Dissertation_Andrej_Garanza.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1990"
+            DMDID="DMD_siegen_opus_1990">
+            <mets:fptr FILEID="FILE0_siegen_opus_1990"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

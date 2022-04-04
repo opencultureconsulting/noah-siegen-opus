@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1640">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Combining the virtual reality with biofeedback – state of research in nutrition</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ressing, Caroline</displayForm>
+                        <namePart type="family">Ressing</namePart>
+                        <namePart type="given">Caroline</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The digitalization of the health care system promises to improve care through the use of technologies that work with virtual reality (VR). In the field of nutrition research, various settings have taken place. But the research designs known so far were not supported by physiological values. Based on this gap and to structure current and future scientific work in this field I conduct a literature review. A selection of known biofeedback systems will be presented and checked whether they appear at all in the literature in connection with nutrition and VR. Results: The fact that only six papers have shown a sufficient relationship could be used to identify a deficiency. I conclude that VR-related technologies seem to be a promising approach that is worth theoretical and empirical research with increasing physiological parameters to improve nutritional behavior.</abstract>
+                    <subject>
+                        <topic>Virtuelle Realität</topic>
+                        <topic>Virtual Reality</topic>
+                        <topic>Biofeedback and Physiological Parameter</topic>
+                        <topic>Literature Review</topic>
+                        <topic>Nutritional Behavior</topic>
+                        <topic>Biofeedback und physiologische Parameter</topic>
+                        <topic>Literaturübersicht</topic>
+                        <topic>Ernährungsverhalten</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16402</identifier>
+                    <identifier type="sys">HT020642462</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1640</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1640">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1640/5/Combining_the_Virtual_Reality_with_Biofeedback.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1640"
+            DMDID="DMD_siegen_opus_1640">
+            <mets:fptr FILEID="FILE0_siegen_opus_1640"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_950">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Ausnahmezustand im Sicherheits- und Krisendiskurs : eine diskurstheoretische Studie mit Fallanalysen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Dießelmann, Anna-Lena</displayForm>
+                        <namePart type="family">Dießelmann</namePart>
+                        <namePart type="given">Anna-Lena</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Diese Arbeit untersucht die Proteste gegen den G8-Gipfel 2007 in Heiligendamm. In den Wochen vor dem Großereignis wurde in Deutschland nicht nur diskursiv ein Ausnahmezustand vorbereitet, sondern in dem Wettstreit um hegemoniale Positionen meldeten sich Gerichte, Politiker*innen, Sicherheitsexperten, internationale Medien und nicht zuletzt die Protestierenden selbst zu Wort. Die Studie rekonstruiert den diskursiven Kampf um Legitimität, der auch die Definition von „normalem“ und „legitimem“ Protest neu verhandelte. Durch die Ausnahmesituation ließen sich vor allem Sonderregeln für den Normalfall etablieren.</abstract>
+                    <abstract type="content" lang="eng">This study focuses on the protests against the G8 summit in Heiligendamm, 
+Germany, in 2007. In the weeks preceding the event, Germany was preparing for a state of emergency. This discourse was created by legal authorities, politicians, security experts, the international media and the protestors alike. The study reconstructs the struggle for legitimacy and hegemonic supremacy. During this process the definition of what was considered a &quot;normal&quot; protest and what a “transgression” shifted. Results are the gradual establishment of emergency laws for the normal case.</abstract>
+                    <subject>
+                        <topic>Diskursanalyse</topic>
+                        <topic>Normalismus</topic>
+                        <topic>Rechtsstaat</topic>
+                        <topic>Protest</topic>
+                        <topic>Sicherheit</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät I Philosophische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-9500</identifier>
+                    <identifier type="sys">HT018735181</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_950</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2015-04-13</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_950">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/950/1/Dissertation_Anna_Lena_DieAelmann.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_950"
+            DMDID="DMD_siegen_opus_950">
+            <mets:fptr FILEID="FILE0_siegen_opus_950"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,80 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1886">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Positive work practices. Opportunities and challenges in designing meaningful work-related technology</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Laschke, Matthias</displayForm>
+                        <namePart type="family">Laschke</namePart>
+                        <namePart type="given">Matthias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Uhde, Alarith</displayForm>
+                        <namePart type="family">Uhde</namePart>
+                        <namePart type="given">Alarith</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hassenzahl, Marc</displayForm>
+                        <namePart type="family">Hassenzahl</namePart>
+                        <namePart type="given">Marc</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">Other</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Work is a rich source of meaning. However, beyond organizational changes, most approaches in the research field of Meaningful Work neglected the power of work-related technology to increase meaning. Using two cases as examples, this paper proposes a wellbeing-driven approach to the design of work-related technology. Despite the positive results of our cases, we argue that the use of technology as a means of increasing meaning in the workplace is still in its infancy.</abstract>
+                    <subject>
+                        <topic>Technologie</topic>
+                        <topic>Wellbeing-driven design</topic>
+                        <topic>Job design</topic>
+                        <topic>Technology at work</topic>
+                        <topic>Practice-based</topic>
+                        <topic>Wohlbefindensorientiertes Design</topic>
+                        <topic>Arbeitsplatzgestaltung</topic>
+                        <topic>Technologie am Arbeitsplatz</topic>
+                        <topic>Praxisbezogen</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-18864</identifier>
+                    <identifier type="sys">HT020961541</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1886</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBdOther</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1886">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1886/3/Positive_work_practices.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1886"
+            DMDID="DMD_siegen_opus_1886">
+            <mets:fptr FILEID="FILE0_siegen_opus_1886"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

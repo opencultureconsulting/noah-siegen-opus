@@ -1,0 +1,67 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1347</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Track reconstruction for InGrid chips for a Time Projection Chamber</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Amir</pc:foreName>
+            <pc:surName>Noori Shirazi</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Mustererkennung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">International Linear Collider</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Time Projection Chamber</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Track reconstruction</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Pattern recognition</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Timepix Chip</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">530</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The International Linear Collider (ILC) is one of the best candidates for the future of the high energy physics to explore many unknown phenomena such as dark matter and the physics beyond the Standard Model. The ILC has two detectors. The International Large Detector (ILD) is one of these detectors and a Time Projection Chamber (TPC) is a tracker detector foreseen for the ILD. The main goal of the TPC is to measure the momentum of tracks and the energy loss of charged particles in order to reach high precision physics observables. Many different technologies are considered for this purpose.&#13;
+GridPix, i.e. a combination of a micropattern gaseous detector and pixelized&#13;
+readout, one of the candidate readouts for the ILD TPC, is under investigation in this thesis. The result of this combination is that there are many hits along a track causing a better spatial resolution compared with other readout systems. This property is essential to measure the momentum more precisely. In addition, the huge amount of the hits along a track improves the energy loss measurement. However, the pattern recognition (track finding) for the GridPix is very challenging due to a large number of hits and diffusion effects in the TPC in addition to the noise in the readout system.&#13;
+A novel algorithm for the track finding has been developed to solve this difficulty. This algorithm first tries to find a segment of a track in a small area, called tracklet, based on the Hough Transform and using a bivariate normal distribution to improve collecting relevant hits of a tracklet. After finding all tracklets in all regions, the relevant tracklets are merged in order to have the full track. A successful performance of this algorithm for both simulated and experimental data shows that it is promising for the future.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Der International Linear Collider (ILC) ist einer der besten Kandidaten für die Zukunft der Hochenergiephysik, um viele unbekannte Phänomene wie Dunkle Materie&#13;
+und die Physik jenseits des Standardmodells zu erforschen. Der ILC hat zwei Detektoren.&#13;
+Der International Large Detector (ILD) ist einer dieser Detektoren, für den&#13;
+eine Time Projection Chamber (TPC) als Spurdetektor vorgesehen ist. Das Hauptziel einer TPC ist es, gleichzeitig den Impuls und den Energieverlust geladener Teilchen anhand ihrer Spuren zu messen, um hochpräzise physikalische Observablen zu erhalten.&#13;
+Zu diesem Zweck werden viele verschiedene Technologien in Betracht gezogen.&#13;
+GridPix, d.h. die Kombination eines Mikrostruktur-Gasdetektors und eines Pixel-&#13;
+Auslesesystems, ist ein Kandidat für die Auslesetechnologie der TPC und wird in&#13;
+dieser Arbeit untersucht. Das Ergebnis dieser Kombination ist, dass es viele Treffer entlang einer Spur gibt, die zusammen eine bessere räumliche Auflösung im Vergleich zu anderen Auslesesystemen bewirken. Diese Eigenschaft ist für eine präzisere Messung des Impulses wesentlich. Darüber hinaus verbessert die große Anzahl an Treffern entlang einer Spur die Messung des Energieverlusts. Die Mustererkennung (Spurbestimmung) für GridPix ist allerdings sehr schwierig aufgrund der großen Zahl an Treffern und Diffusionseffekten in der TPC zusätzlich zum elektronischen Rauschen im Auslesesystem.&#13;
+Es wurde ein neuer Algorithmus zur Spurbestimmung entwickelt, um diese Schwierigkeiten aufzulösen. Der Algorithmus versucht zuerst, auf der Grundlage der Hough-Transformation ein Spursegment (Tracklet) zu finden, wobei zur besseren Identifikation für das Tracklet relevanter Treffer eine bivariate Normalverteilung verwendet wird. Nachdem alle Tracklets in allen Regionen gefunden wurden, werden die relevanten Tracklets zur vollständigen Spur zusammengefügt. Die erfolgreiche Anwendung dieses Algorithmus sowohl auf simulierte als auch auf experimentelle Daten zeigt, dass er für die Zukunft vielversprechend ist.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2018-07-09</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2018</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-13471</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV - Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Amir_Noori_Shirazi.pdf" ddb:fileSize="12562965"/>
+   <ddb:checksum ddb:type="MD5">0eb8aa7102e3a26638f69bc8a7302382</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1347/1/Dissertation_Amir_Noori_Shirazi.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1347</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

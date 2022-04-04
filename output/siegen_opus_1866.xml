@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1866">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Being accommodated, well then? ‘Scalar narratives’ on urban transformation and asylum seekers’ integration in mid-sized cities</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Gut untergebracht, und dann? „Skalare Erzählungen“ zu urbaner Transformation und Integration von Asylbewerbern in mittelgroßen Städten</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Meier, Sabine</displayForm>
+                        <namePart type="family">Meier</namePart>
+                        <namePart type="given">Sabine</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">This article deals with the interplay between the rescaling processes of cities and pathways of asylum seekers’ integration. Building on scale theory and employing a downscaled mid-sized city in the Netherlands as a unit of analysis, two research questions are answered. Firstly, what kind of urban planning strategies do urban authorities of downscaled, midsized cities develop to rescale their cities? Secondly, how are these strategies related to the imagined pathways of asylum seeker integration? Here, the term ‘scale’ does not refer to an absolute ‘spatial object’ that is able to affect social reality. Rather, scales are socially produced through negotiation processes which are contested and heterogeneous. It is argued that Dutch urban authorities and housing corporations take a normative view of ‘pathways of integration’ and standardise these in terms of space, time and financing. By these socially produced scale processes, asylum seekers’ accommodation is well-managed, keeping the residents regulated and ‘in place’. Urban authorities utilise ‘scalar narratives’ to legitimate their interactions with asylum seekers and the way in which disadvantaged neighbourhoods in mid-sized cities are transformed. Using the Dutch mid-sized city Kerkrade as the case study, it is illustrated that local opportunity structures for integration are confined by (1) urban planning strategies mainly based on residential and tourism economies, (2) the perception of successful integration via a small-scale social mix within neighbourhoods, and (3) the neglect of public representation of cultural diversity.</abstract>
+                    <subject>
+                        <topic>Kerkrade</topic>
+                        <topic>Asylum seekers</topic>
+                        <topic>Downscaled cities</topic>
+                        <topic>Netherlands</topic>
+                        <topic>Mid-sized cities</topic>
+                        <topic>Multiscalar approach</topic>
+                        <topic>Urban transformation</topic>
+                        <topic>Kerkrade</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-18663</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1866</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1866">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1866/4/Meier_Being_accommodated.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1866"
+            DMDID="DMD_siegen_opus_1866">
+            <mets:fptr FILEID="FILE0_siegen_opus_1866"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

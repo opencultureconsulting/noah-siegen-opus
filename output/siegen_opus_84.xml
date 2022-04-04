@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_84">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Vielzellenwiderstandsauslese für zweidimensionale Röntgenabbildungen : Optimierung der Abbildungseigenschaften bei Anwendungen mit schneller Bildfolge</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wagner, Hendrik</displayForm>
+                        <namePart type="family">Wagner</namePart>
+                        <namePart type="given">Hendrik</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2004</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die hohen Photonenflüsse, welche bei modernen Synchrotronstrahlungsquellen zur Verfügung stehen, haben neue Moglichkeiten auf dem Gebiet zeitaufgeloster Messungen, z.B. für Anwendungen in der Grundlagenforschung oder für technische Applikationen, eroffnet. In Bezug auf den Photonennachweis stellen diese Experimente jedoch hohe Anforderungen, welche von kommerziell erhältlichen Rontgendetektoren nicht erfüllt werden konnen. Neben einer guten Zeitauflosung und Hochratenverträglichkeit muss der Detektor eine angemessene Ortsauflosung und eine moglichst große empfindliche Fläche bei vorgegebenen Kosten bieten. Die vorliegende Arbeit enthält detaillierte Studien eines neuartigen, gasbasierten Einzelphotonzählers mit Gasverstärkung durch Mikrostrukturen und einer interpolierenden Positionsbestimmung durch eine echt zweidimensionale Auslese einer auf Ladungsteilung basierenden widerstandsbeschichteten Anode. Dieses Konzept ermoglicht eine starke Reduktion der Anzahl elektronischer Kanäle im Vergleich zu reinen Pixeldetektoren, erfordert jedoch aufwendige Methoden der Positionsrekonstruktion. Um räumliche Verzerrungen zu vermeiden und eine optimale Ortsauflosung zu erreichen, werden verschiedene lineare Algorithmen miteinander kombiniert. Der Einfluss der Rekonstruktionsalgorithmen und der Ladungsdiffusion auf der Anodenstruktur auf die Totzeit werden abgeschätzt. Um von der Moglichkeit der asynchronen und parallelen Auslese zu profitieren, wird die auf der Auslesestruktur lokal eingeschlossene Ladungsinformation durch eine neu entwickelte Elektronik mit geringer Totzeit ausgelesen. Das Prototypsystem bietet eine Ortsauflosung von 2 bei lediglich 64 elektronischen Kanälen. Die erzielbare Zeitauflosung liegt in der Großenordnung von 100 ns. Die Ratenverträglichkeit beläuft sich auf &gt; 2 Â· 10 5 Photonen cm −2 s −1 , welche sogar 10 6 Photonen s −1 für räumlich kollimierte Photonenstrahlen erreichen kann.</abstract>
+                    <abstract type="content" lang="eng">The high photon fluxes provided by modern synchrotron radiation facilities have opened up new possibilities in the field of time resolved measurements e.g. for applications in fundamental research or technical applications. Concerning the photon detection the requirements of these experiments can not be satisfied by commercially available X-ray detectors. Besides a good time resolution combined with a good high rate behaviour the detector has also to provide a fair spatial resolution and a sensitive area as large as possible at given costs. This thesis describes detailed studies of a novel gaseous micro pattern single photon counter with position encoding by a truly two-dimensional interpolating readout of a resistive anode based on charge division. This concept provides a large reduction of the number of electronic channels compared to pure pixel devices. However, this readout design demands for sophisticated position reconstruction methods. To avoid spatial distortions and to optimise the position resolution different linear algorithms are combined. The influence of the reconstruction algorithm and of the charge diffusion at the anode structure on the dead time are estimated. In order to fully exploit the asynchronous and parallel readout capability, the locally confined charge information of the resistive structure is read out selectively by newly developed low dead time electronics. The prototype system provides a position resolution of 2 with only 64 electronic channels. The achievable time resolution is of the order of 100 ns. The rate capability amounts to &gt; 2 Â· 105 photons cm −2 s −1 which can even reach 106 photons s −1 in spatially collimated photon spots.</abstract>
+                    <subject>
+                        <topic>Bildgebender Gasdetektor</topic>
+                        <topic>Zeitauflösung</topic>
+                        <topic>Algorithmen zur Positionsrekonstruktion</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 7, Physik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-842</identifier>
+                    <identifier type="sys">HT014157637</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_84</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2004-10-12</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_84">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/84/1/wagner.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_84"
+            DMDID="DMD_siegen_opus_84">
+            <mets:fptr FILEID="FILE0_siegen_opus_84"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

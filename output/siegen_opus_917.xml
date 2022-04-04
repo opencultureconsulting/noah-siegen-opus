@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_917">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Felix Kleins &quot;Elementarmathematik vom höheren Standpunkte aus&quot; : eine Analyse aus historischer und mathematikdidaktischer Sicht</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Felix Kleins &quot;Elementary mathematics from an advanced standpoint&quot; : an analysis from a historical and mathematics didactical point of view</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Allmendinger, Henrike</displayForm>
+                        <namePart type="family">Allmendinger</namePart>
+                        <namePart type="given">Henrike</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Das Streben nach einem &quot;lehramtsgerechten&quot; Mathematikstudium reicht bis in das 19. Jahrhundert zurück. An den frühen Entwicklungen war Felix Klein unter anderem durch seine Vorlesungsreihe &quot;Elementarmathematik vom höheren Standpunkte aus&quot; maßgeblich beteiligt. 
+Die vorliegende Arbeit befragt Kleins Vorlesungsreihe auf ihre Intention, die innere Struktur sowie ihren Beitrag zu einem lehramtsgerechten Fachstudium, analysiert sie im Kontext der damaligen Situation und interpretiert sie mit Mitteln heutiger mathematikdidakischer Denkweisen:
+Im Haupteil werden einerseits der Vorlesung zugrunde liegenden Prinzipien herausgearbeitet. Es kann dargelegt werden, dass Klein die Prinzipien bewusst einsetzt. Komplementär zu den Prinzipien werden andererseits von Klein eingenommene Perspektiven identifiziert, die den bei Klein angestrebten höheren Standpunkt spezifizieren.
+Insgesamt lassen sich zwei Ausrichtungen der Vorlesung erkennen: Klein betrachtet sowohl &quot;Elementarmathematik vom höheren Standpunkt&quot; als auch &quot;höhere Mathematik vom elementaren Standpunkt&quot;.
+Durch den Vergleich mit alternativen zeitgenössischen Konzepten elementarmathematischer Vorlesungen wird Kleins Vorlesung einer Reflexion bezüglich ihrer Tragfähigkeit unterzogen. Die Kleinschen Prinzipien und Perspektiven erweisen sich zudem als geeignetes Analyseinstrument für einen systematischen Vergleich lehramtsspezifischer, elementarmathematischer Vorlesungen.</abstract>
+                    <abstract type="content" lang="eng">In the early 20th century, there arouse a demand for a course of university studies considering the special needs of future teachers. One of the well known representatives of this movement is Felix Klein. Inter alia, he held lectures in &quot;Elementary mathematics from an advanced standpoint&quot;. In the work at hand, the lecture’s manuscripts are analysed concerning the underlying intention and inner structure, in order to adjudicate on the relevance of Klein’s lectures for the present teacher’s education. 
+The results show, that Klein adheres closely to several principles, such as the principle of mathematical interconnectedness, the principle of intuition (&quot;Primat der Anschauung&quot;), the principle of application-orientation and the genetic principle. Those principles contribute to the development of Klein’s advanced standpoint to a large amount. In addition, Klein conveys a multitude of perspectives, that broaden this advanced point of view: a mathematical perspective, a historical perspective as well as a didactical perspective on the discussed mathematical contents. As a result, in the lectures two different orientations can be declared: Klein regards &quot;elementary mathematics from an advanced standpoint&quot; as well as &quot;higher mathematics from an elementary standpoint&quot;.
+By contrasting Klein’s lectures with alternative contemporary concepts, 
+they are reassessed concerning their sustainability. In the course of this, Klein’s principles and perspectives prove of use for a systematical comparison of lectures on elementary mathematics.</abstract>
+                    <subject>
+                        <topic>Klein, Felix</topic>
+                        <topic>Wissenschaftsgeschichte &lt;Mathematik&gt;</topic>
+                        <topic>Elementary mathematics from an advanced standpoint</topic>
+                        <topic>history of mathematics</topic>
+                        <topic>didactics</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-9172</identifier>
+                    <identifier type="sys">HT018642314</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_917</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2014-04-25</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_917">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/917/1/Dissertation_Henrike_Allmendinger.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_917"
+            DMDID="DMD_siegen_opus_917">
+            <mets:fptr FILEID="FILE0_siegen_opus_917"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_2090">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Solutions to homesickness</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Lösungen gegen Heimweh</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Andrianov, Katriina</displayForm>
+                        <namePart type="family">Andrianov</namePart>
+                        <namePart type="given">Katriina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Der folgende Beitrag beschreibt eine künstlerische Arbeit – eine Straßenperformance, in der meine Lieblingspuppe aus der Kindheit zu einem ausdrucksstarken Objekt wurde, einer animierten Figur, die mir half, theoretische Ideen für meine Doktorarbeit zu entwickeln. Ich wusste nie, wie man mit Puppen spielt, bis ich diese Puppe mit auf die Straße nahm und sie als Mit-Spielerin einbezog. Neben der Beschreibung dieser Performance enthält der Text eine Analyse der Animation dieser Puppe auf der Grundlage der für meine Doktorarbeit entwickelten Theorie mit ihren Hauptkomponenten (mode, location, aspect).</abstract>
+                    <abstract type="content" lang="eng">The following contribution is a description of an artistic work – a street performance in which my dearest doll from childhood became an expressive object, an animated figure that helped me to elaborate theoretical ideas for my doctoral research. I never knew how to play with dolls until I took this doll with me to the street and treated her as co-actor. In addition to the description of this performance the text includes an analysis of animating this doll based on the theory with its main components (mode, location, aspect) developed for my thesis.</abstract>
+                    <subject>
+                        <topic>Ausdrucksstarke Objekte</topic>
+                        <topic>Animisierung</topic>
+                        <topic>Bühnenanimation</topic>
+                        <topic>Straßenperformance</topic>
+                        <topic>Expressive objects</topic>
+                        <topic>Animisation</topic>
+                        <topic>Stage animation</topic>
+                        <topic>Street performance</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-20908</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_2090</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_2090">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/2090/1/Adrianov_Solutions_Dedo4.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_2090"
+            DMDID="DMD_siegen_opus_2090">
+            <mets:fptr FILEID="FILE0_siegen_opus_2090"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

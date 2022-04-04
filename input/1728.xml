@@ -1,0 +1,76 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1728</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Distributed co-simulation framework for hardware- and software-in-the-loop testing of networked embedded real-time systems</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Verteiltes Co-Simulations-Framework für Hardware- und Software-In-The-Loop Testen vernetzter eingebetteter Echtzeitsysteme</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Tobias</pc:foreName>
+            <pc:surName>Pieper</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Distributed Co-Simulation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Hardware-In-The-Loop Testing</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Software-In-The-Loop Testing</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Networked Embedded Systems</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Real-Time Systems</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Heutige komplexe Steuerungssysteme wie Züge, Flugzeuge oder Autos bestehen in der Regel aus mehreren vernetzten Komponenten, die von geografisch verteilten Herstellern entwickelt werden. Während ihres Entwicklungsprozesses sind die Integration und das Testen der Komponenten zentrale Schritte. Die Standorte der Hersteller erschweren jedoch den Prozess, da die Komponenten an einen Ort geliefert werden müssen und Intellectual Property geschützt werden muss. Die Verwendung eines verteilten Co-Simulations-Frameworks, das Software- und Hardware-in-the-Loop (SIL/HIL) Tests unterstützt, kann diese Probleme lösen. Es ermöglicht eine virtuelle Integration sowie das Testen der Komponenten über das Internet und schützt Intellectual Property, wenn es auf einer netzwerkzentrischen Abstraktionsebene arbeitet. In diesem Fall konzentriert es sich auf den Datenaustausch zwischen den Komponenten und Kenntnisse über ihre interne Implementierung sind nicht erforderlich.&#13;
+&#13;
+Nach dem heutigen Stand der Technik ist ein Framework, das auf einer netzwerkzentrischen Abstraktionsebene arbeitet und Co-Simulation, SIL- und HIL-Tests unterstützt, noch nicht verfügbar. Außerdem werden beim HIL-Test Hardware-Geräte mit Echtzeitanforderungen eingesetzt. Wenn diese Geräte über öffentliche Wide Area Networks wie das Internet miteinander verbunden werden, ist die Genauigkeit verteilter HIL-Tests durch den Determinismus der Netzwerklatenzen begrenzt. Die verfügbaren Frameworks basieren hauptsächlich auf Quality of Service Mechanismen wie z.B. Differentiated Services. Die Kommunikationszyklen des Systems Under Test (SUT) können jedoch kleiner als die garantierten Latenzen sein, was zu Deadline-Überschreitungen führt. Daher sind Mechanismen zur Verwaltung von Verzögerungen erforderlich, die eine rechtzeitige Weiterleitung der Eingangspakete gewährleisten.&#13;
+&#13;
+Diese Dissertation schlägt ein verteiltes Co-Simulations-Framework vor, das auf einer netzwerkzentrischen Abstraktionsebene arbeitet und die oben genannten Techniken unterstützt. Es synchronisiert die Komponenten des SUT, koordiniert ihren Datenaustausch und beinhaltet Fehlerinjektionsmechanismen zur Validierung der Zuverlässigkeit. Durch die Bereitstellung einer generischen Komponentenschnittstelle werden heterogene Simulationswerkzeuge und physikalische Geräte unterstützt. Die wichtigsten Beiträge dieser Dissertation sind zwei Mechanismen zur Verwaltung von Verzögerungen, die auf State-Estimation und spekulativer Ausführung basieren. Der erste Mechanismus leitet vorhergesagte Pakete an die Komponente weiter, wenn (I) empfangene Pakete verzögert werden oder (II) als zusätzliche Pakete zwischen den Empfangenen. Dadurch wird der Nachrichtenaustausch innerhalb des Frameworks reduziert. Der zweite Mechanismus teilt die Simulation in mehrere Untergruppen auf. Diese Untergruppen führen unabhängige Tasks im Voraus aus, um Daten rechtzeitig an Echtzeitgeräte weiterzuleiten. Mit Hilfe der Mechanismen ist das Framework in der Lage, Simulationen, Software-Algorithmen und reale Hardware über öffentliche Kommunikationsnetze zu verbinden und gleichzeitig die Echtzeitanforderungen des SUTs zu erfüllen. Es ist daher nicht notwendig, alle Simulationsmodelle oder physikalische Prototypen zentral zur Verfügung zu stellen. &#13;
+&#13;
+Die Auswertung mit einer verteilten Steuerungsanwendung demonstriert die Skalierbarkeit des Frameworks. Die Zeit für die Ausführung einer Simulation steigt linear mit der simulierten Zeit und ist durch das Wachstum der Anzahl der Komponenten in größeren Setups begrenzt. Darüber hinaus zeigt die Auswertung die Vorteile des Verzögerungsmanagements für verteilte Echtzeittests. Nach der Bestimmung einer geeigneten Echtzeitkonfiguration des Simulations-PCs kann der State-Estimation-Mechanismus für eine rechtzeitige Weiterleitung von Paketen an die Komponenten verwendet werden. Die Verwendung von zusätzlichen Paketen zwischen den Empfangenen verbessert die Genauigkeit von verteilten Echtzeittests und macht sie unabhängig von den Verzögerungen im Netzwerk. Während die spekulative Ausführung Echtzeittests lokal und in Local Area Networks ermöglicht, erfordern Netzwerke mit größeren Verzögerungen (z.B. das Internet) weniger strikte zeitliche Anforderungen an das SUT. Aus Performance-Sicht erreichen beide Mechanismen je nach Größe des Setups, der Netzwerktopologie und der Kommunikationsperiode erhebliche Speedups.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Today's complex control systems such as trains, aircraft or cars are typically composed of multiple networked components which are developed by geographically distributed manufacturers. During their development process, integrating and testing the components are central steps. However, the manufacturers' locations complicate the process since the components must be shipped to a central place and intellectual property must be protected. Using a distributed co-simulation framework which supports Software- and Hardware-In-The-Loop (SIL/HIL) testing can solve these issues. It enables a virtual integration and testing of the components via the Internet and protects intellectual property if it operates on a network-centric abstraction level. In this case, it focuses on the data exchange between the components and knowledge about their internal implementation is not required.&#13;
+&#13;
+In today's state-of-the-art, a framework that operates on a network-centric abstraction level and supports co-simulation, SIL and HIL testing together is not available yet. Besides that, HIL testing involves hardware devices with real-time requirements. Connecting those devices via public wide area networks such as the Internet, the accuracy of distributed HIL tests is limited by the determinism of the network’s communication delays. The available frameworks are mainly based on Quality of Service mechanisms such as differentiated services. However, the communication cycles of the System Under Test (SUT) might be smaller than the guaranteed latencies which leads to deadline misses. Hence, delay-management mechanisms are required which ensure a timely forwarding of input data.&#13;
+&#13;
+This thesis proposes a distributed co-simulation framework which operates on a network-centric abstraction level and supports the above mentioned techniques. It synchronizes the components of the SUT, coordinates their data exchange and includes fault-injection to validate the dependability. By providing a generic component interface, heterogeneous simulation tools and physical devices are supported. The main contributions of the thesis are two delay-management mechanisms based on state-estimation and speculative execution. The first mechanism forwards estimated inputs to the component if (I) received inputs are delayed or (II) as intermediary inputs. This reduces the number of communication activities inside the framework. The second mechanism divides a simulation setup into several subsets. Those subsets execute independent tasks in advance to forward data to real-time devices in time. Using the mechanisms, the framework is able to connect simulations, software algorithms and real hardware via public communication networks while maintaining the SUT's real-time requirements. Hence, there is no need to make all simulation models or physical prototypes centrally available. &#13;
+&#13;
+The evaluation using a distributed control application demonstrates the scalability of the framework. The time to execute a simulation setup increases linearly with the simulated time and is bounded by the growth of the component's number in larger setups. Furthermore, the evaluation shows the advantages of the delay-management mechanisms for distributed real-time tests. After determining a proper real-time configuration of the simulation host, the state-estimation mechanism can be used for a timely forwarding of inputs to the components. Using intermediary packets improves the accuracy of distributed real-time tests and makes it independent from the network delays. While the speculative execution enables real-time tests locally and in Local Area Networks, networks with larger delays (e.g., the Internet) require less stringent temporal requirements of the SUT. From a performance point of view, both mechanisms achieve significant speedups depending on the setup's size, the network topology and the communication period.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Roman</pc:foreName>
+            <pc:surName>Obermaisser</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2020-10-05</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2020</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-17287</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Praktische und Technische Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Tobias_Pieper.pdf" ddb:fileSize="1772882"/>
+   <ddb:checksum ddb:type="MD5">a726ef6c7b64b33625b6829dafab44bf</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1728/4/Dissertation_Tobias_Pieper.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1728</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

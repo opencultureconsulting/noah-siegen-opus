@@ -1,0 +1,131 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_64">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Confidentiality of XML documents by pool encryption</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Geuer-Pollmann, Christian</displayForm>
+                        <namePart type="family">Geuer-Pollmann</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2004</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The eXtensible Markup Language (XML) is a widely adopted format for documents
+containing structured information. Structured information contains
+both the content (words, images etc.) and the ‘markup’ which indicates the
+role of the content, e.g. ‘section’ or ‘price’.
+XML is the foundation for a huge variety of existing and emerging applications,
+including user applications like vector imaging formats, web pages,
+enterprise application integration, database interfaces or network protocols.
+Parallel to the increasing use of XML, the level of security provisions for these
+XML based systems rises. The World Wide Web Consortium (W3C) addressed
+these issues by creating the “XML Signature Syntax and Processing” and “XML
+Encryption Syntax and Processing” recommendations. These standards define
+authentication, integrity and confidentiality mechanisms for XML documents.
+The XML Signature recommendation defines a method for digitally signing
+arbitrary portions (nodes) of an XML document. XML Signature can sign both
+tree structures and arbitrary sets of nodes of an XML document.
+The XML Encryption recommendation specifies a method for encrypting tree
+structures in an XML document. The XML Encryption recommendation is constrained
+to protect full tree structures, i.e. there is no mechanism to protect
+the confidentiality of a single node in a document without affecting the
+descendants of that node.
+The access control community transformed access control models originating
+in database systems to be available for XML based databases. These access
+control systems offer fine-grained access control enforcement on the node
+level, similar to the node level integrity protection of XML Signature. For
+example, XML Access Control systems can restrict the read access to a particular
+node in an XML tree while allowing access to its child nodes.
+This thesis is focused on the development of a cryptography based system
+which can protect the confidentiality of arbitrary nodes in an XML tree. This
+goal is reached by combining a tree addressing scheme of databases with
+cryptographic mechanisms. This system is called “XML Pool Encryption”.
+To verify the results of this thesis, XML Pool Encryption has been implemented
+using the Java programming language.</abstract>
+                    <abstract type="content" lang="ger">Die eXtensible Markup Language (XML) ist ein weit verbreitetes Format für
+Dokumente, die strukturierte Information enthalten. Strukturierte Information
+umfasst sowohl den eigentlichen Inhalt (z.B. Wörter, Bilder, etc.) sowie
+Auszeichnungsinformation, um die Rolle der Inhalte zu umschreiben, z.B.
+“Überschrift” oder “Preis”.
+XML bildet die Grundlage für eine große Anzahl existierender und im Entstehen
+begriffener Anwendungen, wie z.B. Vektorgrafik-Formate, Web Seiten,
+Enterprise Application Integration Systeme, Datenbank Schnittstellen oder
+Netzwerkprotokolle.
+Parallel zur steigenden Verbreitung von XML werden immer mehr Vorkehrungen
+zum Schutz der auf XML basierenden Systeme notwendig. Das World
+Wide Web Consortium (W3C) hat sich dieser Notwendigkeit angenommen,
+indem die “XML Signature Syntax and Processing” und die “XML Encryption
+Syntax and Processing” Empfehlungen verabschiedet wurden. Diese Standards
+definieren Mechanismen für Authentisierung, Integrität und Vertraulichkeit
+von XML Dokumenten.
+Die XML Signature Recommendation definiert einen Mechanismus, um beliebige
+Teile eines XML Dokumentes (Nodes) digital zu signieren. XML Signature
+kann sowohl Baumstrukturen als auch beliebig geformte Knotenmengen eines
+XML Baumes schützen.
+Die XML Encryption Recommendation definiert einen Mechanismus für das
+Verschlüsseln von Baumstrukturen innerhalb eines XML Dokumentes. W3C
+XML Encryption ist hierbei auf die Verschlüsselung kompletter Baumstrukturen
+beschränkt, d.h. es existiert keine Möglichkeit, die Vertraulichkeit für einzelne
+Knoten im Dokument zu gewährleisten, ohne dass die Kinder dieser
+Knoten ebenfalls geschützt werden.
+Für die Zugriffskontrolle von XML basierten Daten wurden Zugriffsschutzmodelle
+aus dem Datenbankbereich überarbeitet. Diese Systeme bieten die
+Durchsetzung fein granularer Zugriffskontrolle auf Knotenebene, ähnlich dem
+Integritätsschutz beliebiger Knoten bei XML Signature. So ist es beispielsweise
+möglich, den Lesezugriff auf einen Knoten zu verweigern, während die Kinder
+dieses Knotens weiterhin lesbar bleiben.
+Im Mittelpunkt dieser Arbeit steht die Entwicklung eines auf kryptografischen
+Verfahren basierenden Systems, welches die Vertraulichkeit für beliebige Knoten
+eines XML Baumes gewährleistet. Dieses Ziel wurde durch die Kombination
+eines Schemas für die Adressierung von Baumstrukturen mit
+kryptografischen Verfahren erreicht. Dieses System wird “XML Pool Encryption”
+genannt.
+Zur Überprüfung der Resultate dieser Arbeit wurde XML Pool Encryption in
+Java implementiert.</abstract>
+                    <subject>
+                        <topic>XML security</topic>
+                        <topic>Encryption</topic>
+                        <topic>Pool Encryption</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-647</identifier>
+                    <identifier type="sys">HT014092567</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_64</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2003-07-28</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_64">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/64/1/geuer.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_64"
+            DMDID="DMD_siegen_opus_64">
+            <mets:fptr FILEID="FILE0_siegen_opus_64"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

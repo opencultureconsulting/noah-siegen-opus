@@ -1,0 +1,176 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_412">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Real-time particle systems and their application to flow visualization</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Echtzeit-Partikelsysteme und deren Anwendung auf Strömungsvisualisierung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Cuntz, Nicolas</displayForm>
+                        <namePart type="family">Cuntz</namePart>
+                        <namePart type="given">Nicolas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2009</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Both visualization and simulation tasks make high demands on
+accuracy and interactivity. The former is an evident requisite of
+any tool focusing on quality, the latter stands for a responsive
+system in which the user has real-time control. A permanent
+trade-off between both demands can be observed, since high
+accuracy is usually time-consuming. 
+
+The graphics processing unit (GPU), which evolved to a powerful
+general purpose coprocessor during the last decade, is undoubtedly
+becoming an ideal instrument for performing visualization and
+simulation tasks accurately and in real-time.
+
+One of the main challenges in the context of geometric flow
+visualization and fluid dynamics is the representation of motion.
+In both fields, particle systems and grid-based structures
+constitute basic models describing the objects to which the motion
+is applied.
+
+This work is dedicated to the development of GPU-based particle
+techniques and their combination with grids in order to improve
+the efficiency of fluid simulation and geometric flow
+visualization techniques. All resulting algorithms are
+characterized by their parallel nature and by being entirely
+executable on graphics hardware.
+
+The first aim is to provide an efficient solution to particle
+coupling in the context of fluids based on smoothed particle
+hydrodynamics. A parallel processing using graphics hardware is
+achieved by providing a grid-based mechanism for the efficient
+processing of particle neighborhoods.
+
+The second aim is to provide a set of algorithms for various
+geometric flow visualization techniques including flow particles,
+flow lines and flow surfaces/volumes. The accuracy is explicitly
+addressed in all cases. Accordingly, a method for generating
+time-adaptive stream and path lines and a special refinement
+scheme for streak lines is presented. 
+
+The flow volumes, including time surfaces, path and streak
+volumes, are based on a parallel reinterpretation of the particle
+level set (PLS) method. This reinterpretation is based on a method
+for grid-particle interchange which is similar to the one proposed
+for particle coupling. Combining a grid and a particle set takes
+the advantages from both models: the grid representation is robust
+w.r.t. deformations and topological changes, and the particles are
+used to reduce numerical diffusion. For the reinitialization of
+the level set function, which is the most time-consuming step of
+the PLS algorithm, a hierarchical method for computing distance
+transforms is proposed. It turns out that the use of a distance
+transform is advantageous for realizing a GPU-based PLS framework.</abstract>
+                    <abstract type="content" lang="ger">Sowohl Visualisierungen als auch Simulationen setzen hohe
+Ansprüche an Genauigkeit und Interaktivität. Erstere ist eine
+offensichtliche Voraussetzung für Werkzeuge, bei denen die
+Qualität im Vordergrund steht, letztere steht für ein System, das
+in Echtzeit auf Benutzereingaben reagiert. Beide Aspekte liegen in
+permanenter Konkurrenz zueinander, denn eine hohe Genauigkeit ist
+i.A. zeitaufwändig.
+
+Moderne Graphikprozessoren (engl. Graphics Processing Units bzw.
+kurz GPU&apos;s) haben sich im Laufe des letzten Jahrzehnts zu
+universal einsatzfähigen Recheneinheiten weiterentwickelt. Die GPU
+als Coprozessor ist unzweifelhaft ein ideales Werkzeug geworden,
+um Visualisierungs- und Simulationsaufgaben in hoher Genauigkeit
+und in Echtzeit zu lösen.
+
+Eine der größten Herausforderungen im Kontext geometrischer
+Strömungsvisualisierung und der Simulation von Fluiden ist die
+Repräsentation von Bewegungen und Verformungen. In beiden
+Disziplinen bilden Partikelsysteme und gitterbasierte Strukturen
+grundlegende Modelle zur Beschreibung der veränderlichen Objekte.
+
+Diese Arbeit widmet sich der Weiterentwicklung GPU-basierter
+Partikelsysteme und deren Kombination mit Gitterstrukturen, um die
+Effizienz von Techniken in den beiden zuvor genannten Disziplinen
+zu verbessern. Alle resultierenden Algorithmen sind gekennzeichnet
+durch Ihren parallelen Aufbau, und dadurch, dass sie vollständig
+auf Graphik-Hardware ausführbar sind.
+
+Die erste Zielsetzung besteht darin, eine effiziente
+Partikelkopplung im Kontext von Fluiden zu ermöglichen, die auf
+den SPH-Ansatz (Smoothed Particle Hydrodynamics) basieren. Eine
+parallele Verarbeitung mittels der Graphik-Hardware wird erreicht
+durch einen Mechanismus zur effizienten gitterbasierten
+Verarbeitung von Partikelnachbarschaften.
+
+Die zweite Zielsetzung besteht darin, einen Satz von Algorithmen
+für unterschiedliche geometrische
+Strömungsvisualisierungstechniken bereitzustellen, welche die
+folgenden Primitive nutzen: Partikel, Linien, Oberflächen und
+Volumina. Die Genauigkeit wird in allen Fällen explizit
+thematisiert. Dementsprechend wird eine Methode zur Generierung
+zeitadaptiver Stream- und Path-Lines und ein Schema zur adaptiven
+Verfeinerung von Streak-Lines präsentiert.
+
+Die dritte Kategorie von Primitiven besteht aus Time-Surfaces,
+Path- und Streak-Volumes. Diese werden aufgrund einer
+Neuinterpretation der PLS-Methode (Particle Level Set)
+beschrieben. Diese Neuinterpretation basiert auf einem Schema zum
+Gitter-Partikel-Austausch, das dem zuvor für die Partikelkopplung
+vorgeschlagenen ähnelt. Die Kombination beider Strukturen, der
+Partikelmenge und des Gitters, vereinigt die Vorteile beider
+Modelle: Die Gitterrepräsentation ist robust gegenüber
+Deformationen und topologischen Veränderungen, und die Partikel
+können verwendet werden, um die numerische Diffusion zu
+verringern. Für die Reinitialisierung der Level-Set-Funktion,
+welche den aufwändigsten Schritt im PLS-Algorithmus bildet, wird
+eine hierarchische Methode zur Berechnung eines
+Distance-Transforms vorgeschlagen. Es stellt sich heraus, dass die
+Nutzung eines Distance-Transforms vorteilhaft bei der Realisierung
+eines GPU-basierten PLS-Frameworks.
+
+Alle präsentierten Strömungsvisualisierungstechniken werden auf
+ein reales Beispiel im Kontext der Klimaforschung angewandt. Die
+Evaluation zeigt, dass das interaktive System die effiziente
+Exploration von komplexen Strömungsdatensätzen erleichtert.</abstract>
+                    <subject>
+                        <topic>Visualisierung</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <classification authority="ioo" displayLabel="Institut für Bildinformatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4126</identifier>
+                    <identifier type="sys">HT016136385</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_412</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2009-09-27</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_412">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/412/1/cuntz.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_412"
+            DMDID="DMD_siegen_opus_412">
+            <mets:fptr FILEID="FILE0_siegen_opus_412"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

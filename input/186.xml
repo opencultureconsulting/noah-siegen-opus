@@ -1,0 +1,59 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>186</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Call path sensitive interprocedural alias analysis of C programs</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Dirk</pc:foreName>
+            <pc:surName>Schmidt</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Alias Analyse</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">interprozedurale Analyse</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">statistische Analyse</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">This work presents a new approach to detect may-aliases within ANSI-C programs. A may-alias occurs if two variables (or more complex expressions) use the same memory location. Aliases may be created by call-by-reference function calls or by pointer usage. In the context of C programs alias analysis becomes very complex because of the extensive pointer usage and the very few restrictions concerning pointer manipulations.  &#13;
+Within this work it is described how the effects of a program can be summarised by so-called function interface graphs which are a static representation of the memory locations and the values stored at these locations. Based on standard techniques (function call and return statement normalisation, control flow graphs, static single assignment form), the intraprocedural step creates a function interface graph for each function individually by computing and merging the information for all its basic blocks according to the CFG structure. Afterwards these graphs will be reduced to their externally visible effects. This reduces the size of these graphs and will hence allow the following computations to be carried out more efficiently. Within the next step the reduced graphs will be merged according to the corresponding functions and their calls (interprocedural analysis). This is done by ignoring indirect function calls (through function pointers) first, and processing these calls only if a function that could be called by one of these calls is detected. In case functions are called by more than a single function call, the calling context will be taken into account as far as possible.  &#13;
+A major benefit of our algorithm is that it can be applied to real ANSI-C programs since it makes only a few restrictions, i.e. effects of assembler code, interrupts, volatile attributes and I/O-based aliases. It deals with structures and unions, arbitrary pointer usage, type casts and function pointers. Under these circumstances, the algorithm cannot benefit from type information and, hence, the function interface graphs are based on a low-level memory &#13;
+representation. The algorithm was implemented using the SUIF compiler, and it has been successfully applied to a set of non-toy C programs.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Das Thema dieser Arbeit ist ein neuer Ansatz zur Bestimmung von may-alias-Beziehungen im Rahmen von ANSI-C-Programmen. Von einem may-alias spricht man, wenn zwei verschiedene Variablen (oder auch komplexere Ausdrücke) ein und dieselbe Speicherstelle verwenden. Aliase entstehen durch die Verwendung von call-by-reference-Parametern oder Zeigern. Im Rahmen von C-Programmen entstehen hier besonders schwerwiegende Probleme, da C-Programme in der Regel intensiven Gebrauch von Zeigern machen und darüber hinaus nur sehr wenige Restriktionen für den Einsatz von Zeigern existieren. &#13;
+Im Rahmen dieser Arbeit wird ein Verfahren beschrieben, daß die Zusammenfassung der für die Alias-Analyse relevanten Effekte mit Hilfe von Graphen (function interface graphs) realisiert. Diese Graphen stellen eine statische Repräsentation der von einem Programm benutzten Speicherstellen, sowie der darin enthaltenen Werte dar. Basierend auf einer Reihe von Standard-Verfahren (Normalisierung der Aufrufe und Rückgabewerte einer Funktion, Kontrollflußgraphen, Static-Single-Assignment-Form) wird während der intraprozeduralen Phase zunächst für jede Funktion ein Graph gebildet, der ihre Effekte zusammenfaßt. Hierzu werden einzelne Graphen für die rein sequentiellen Blöcke (basic blocks) einer Funktion berechnet, die dann nachher unter Zuhilfenahme des Kontrollflußgraphen vereinigt werden. Nachdem die Graphen für einzelne Funktionen erzeugt worden sind, werden anschließend&#13;
+die Teile der Graphen entfernt, die nicht zur Repräsentation der von außen sichtbaren Effekten dienen. Die eine Funktion repräsentierenden Graphen werden auf diese Weise deutlich kleiner, was zu einer Effizienssteigerung für die nachfolgenden Schritte fü;hrt. Die reduzierten Graphen werden dann gemäß; der existierenden Funktionsaufrufe miteinander vereinigt (interprozedurale Analyse). Hierbei werden indirekte Funktionsaufrufe (über Zeiger auf Funktionen) zunächst ignoriert. Erst wenn im Rahmen der Analyse festgestellt wird welche Funktionen ein solcher Aufruf aufrufen könnte, werden auch die zu diesem Aufruf gehörenden Graphen vereinigt. Funktionen die an mehreren Stellen aufgerufen werden, werden hierbei solange wie möglich unter Berücksichtigung des jeweiligen Aufruf-Kontext betrachtet. &#13;
+Ein wesentlicher Vorteil dieses Algorithmus besteht darin, daß; er füt viele reale ANSI-C-Programme verwendet werden kann, da nur sehr wenige Einschränkungen notwendig waren (Assembler-Code, Interrupt-Handling, volatile-Attribute und I/O-basierte Aliase). Der Algorithmus behandelt die Effekte von Strukturen und Unions, beliebiger Verwendung von Zeigern, Typ-Umwandlungen und Zeigern auf Funktionen. Da dies dazu führt, daß sich der Algorithmus nicht auf die vorhanden Typ-Informationen stützen kann, basieren die erzeugten Graphen auf einem Speichermodell auf niedriger Ebene. Der Algorithmus wurde mit Hilfe des SUIF-Compilers implementiert und erfolgreich mit einer Reihe von realen Programmen getestet.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">1999-04-27</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">1999</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-1864</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 12, Elektrotechnik und Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>3</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="schmidt.pdf" ddb:fileSize="1101304"/>
+   <ddb:fileProperties ddb:fileName="abstract.pdf" ddb:fileSize="19359"/>
+   <ddb:fileProperties ddb:fileName="abst_ger.pdf" ddb:fileSize="25660"/>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/186</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

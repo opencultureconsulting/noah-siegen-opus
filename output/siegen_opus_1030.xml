@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1030">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Zur Analytizität der Grundlegung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schönecker, Dieter</displayForm>
+                        <namePart type="family">Schönecker</namePart>
+                        <namePart type="given">Dieter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">1996</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Im letzten Absatz der Vorrede beschreibt Kant die „Methode&quot; (392,17)1, die er
+in der GMS verwendet hat. So scheint es jedenfalls, und stets wurde die Stelle so
+interpretiert, als zeichne Kant damit zugleich den „Weg&quot; (392,22) nach, den er „in
+dieser Schrift&quot; (392,17) eingeschlagen habe. Ein Weg, der auf der ersten Strecke
+„analytisch&quot; (392,19), auf der zweiten „synthetisch&quot; (392,21) verlaufe, so daß also
+die GMS zwar drei Abschnitte, aber zwei Verfahrensweisen zu kennen scheint, eben
+eine analytische (GMSI und II) und eine synthetische (GMS III</abstract>
+                    <subject>
+                        <topic>Kant, Immanuel</topic>
+                    </subject>
+                    <classification authority="ddc">100</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-10302</identifier>
+                    <identifier type="sys">HT019078865</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1030</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1030">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1030/1/Zur_AnalytizitAt_der_Grundlegung_Schoenecker.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1030"
+            DMDID="DMD_siegen_opus_1030">
+            <mets:fptr FILEID="FILE0_siegen_opus_1030"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

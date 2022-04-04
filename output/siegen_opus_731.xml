@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_731">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Energie-Entropie-konsistente Zeitintegratoren für die nichtlineare Thermoviskoelastodynamik</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Energy-entropy-consistent time-integrators for nonlinear thermo-viscoelasticity</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Krüger, Melanie</displayForm>
+                        <namePart type="family">Krüger</namePart>
+                        <namePart type="given">Melanie</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Diese Arbeit befasst sich mit der Energie-Entropie-konsistenten Simulation eines thermoviskoelastischen Modellproblems und Kontinuums. Beide Systeme werden durch Poissonsche Variablen (Impuls, Konfiguration, Entropie und interne Variable) beschrieben. Durch den Impuls und die Konfiguration als eigenständige Variablen sind die Bewegungsgleichungen als Differentialgleichungen erster Ordnung gegeben. Die thermische Gleichung wird aus dem zweiten Hauptsatz der Thermodynamik hergeleitet. Dabei ist der Wärmefluss durch das Fouriersche Gesetz beschrieben. Die Bewegungsgleichungen und die thermische Evolutionsgleichung werden durch das konstitutive Gesetz der inneren Energie gekoppelt. Zur Beschreibung des viskosen Deformationsverhaltens wird als vierte Gleichung eine viskose Evolutiongleichung eingeführt. Diese Gleichung basiert auf einer deformationswertigen internen Variablen und einem vierstufigen Nachgiebigkeitstensor, der für das Modellproblem auf den eindimensionalen Fall reduziert wird. Die innere Dissipation wird als quadratische Form der viskosen Mandel-Spannung dargestellt.
+
+Die vier Differentialgleichungen erster Ordnung werden durch das weiterentwickelte General Equation for Non-Equilibrium Reversible-Irreversible Coupling (GENERIC) Format in eine Matrix-Vektor Schreibweise umgeformt. Im Weiteren wird dies erweitertes GENERIC Format genannt. Das erweiterte GENERIC Format liefert durch die zugehörigen Degenerationsbedingungen für isolierte Systeme spezielle strukturerhaltende Eigenschaften. Ein isoliertes System ist in diesem Fall definiert als ein adiabtes System, das keine mechanische Arbeit verrichtet. Eigenschaften eines isolierten Systems sind neben einem konstanten Impuls und Drehimpuls, eine konstante Gesamtenergie, eine zunehmende Entropie und eine abfallende Lyapunov-Funktion. Die Lyapunov-Funktion stellt ein weiteres Stabilitätskriterium für thermoviskoelastische Systeme dar.
+
+Neu ist auch das konsistente Einbinden von externen mechanischen und thermischen Lasten. Die externen Lasten stören die zuvor beschriebenen Erhaltungseigenschaften für isolierte Systeme. In diesem Fall werden die zugehörigen Bilanzgleichungen des Systems (Konsistenzeigenschaften) betrachtet.
+
+Die Diskretisierung in der Zeit wird für das Modellproblem und das Kontinuum mit zwei verschiedenen Integratoren durchgeführt. Zum einen wird die Mittelpunktsregel und zum anderen der erweiterte TC (Thermodynamically Consistent) Integrator verwendet. Der erweiterte TC Integrator wird dabei so konstruiert, dass das zugrundeliegende, erweiterte GENERIC Format die algorithmischen Erhaltungseigenschaften nach der zeitlichen Diskretisierung für ein isoliertes System wiedergibt. Für das Kontinuum muss zusätzlich eine räumliche Diskretisierung erfolgen, welche durch die Finite-Elemente-Methode beschrieben wird. Um eine energiekonsistente Diskretisierung zu erhalten, muss für die räumliche Diskretisierung eine Projektion der Testfunktion der thermischen Evolutionsgleichung durchgeführt werden. Weiterhin wird deutlich, dass die Energiekonsistenz lediglich durch den erweiterten TC Integrator gewährleistet werden kann, der eine ausgezeichnete Stabilität bewirkt.
+
+Die externen mechanischen und thermischen Lasten werden durch Festlagerungen, externe mechanische Lasten, thermische Zwangsbedingungen und externe thermische Lasten in das System eingebracht. Um die thermischen Zwangsbedingungen zu erfüllen, wird das Prinzip der Lagrangeschen Multiplikatoren verwendet. Bekannt geworden sind die Lagrangeschen Multiplikatoren durch die Bewegung eines Systems mit Zwangsbedingungen.
+
+Für das Modellproblem wird das erweiterte GENERIC Format nach der Diskretisierung durch einen additiven Term der externen Lasten erweitert. Im Gegensatz dazu beinhaltet das erweiterte GENERIC Format des Kontinuums, welches hier auf die starken Formen angewendet wird, bereits die externen Lasten und liefert die nötigen schwachen Formen zur Lösung des Systems.
+
+Die Konsistenzeigenschaften werden durch ausgewählte Simulationsbeispiele verdeutlicht, die verschiedenen Randbedingungen unterworfen werden.
+
+Da das System von den Poissonschen Variablen nichtlinear abhängig ist, wird die monolithische Lösung mit Hilfe des Newton-Raphson-Verfahrens ermittelt. Hierbei werden zwei Newton-Raphson-Verfahren benötigt. Das eine Verfahren dient der Ermittlung der viskosen internen Variable auf lokaler Ebene bzw. auf Elementebene. Ein weiteres Verfahren wird verwendet, um das Residuum der Bewegungsgleichungen, der thermischen Evolutionsgleichung und gegebenenfalls der Projektionsgleichung auf globaler Ebene zu lösen. Dies wird auch mehrstufiges Newton-Raphson-Verfahren genannt.</abstract>
+                    <abstract type="content" lang="eng">This work deals with an energy-entropy-consistent simulation of a thermoviscoelastic model problem and continuum. Both systems are described by the Poissonian variables - linear momentum, configuration, entropy and internal variable. The linear momentum and the configuration as independent variables lead to the equations of motion as differential equations of first order. The thermal evolution equation is derived by the second law of thermodynamics. The heat flux is described by Fourier&apos;s law. The equations of motion and the thermal evolution equation are linked through the constitutive equation of the internal energy. A viscous evolution equation, as fourth equation, is necessary to describe the viscous deformation behavior. This equation is based on deformation-like internal variables and a fourth order compliance tensor, which is restricted to the one-dimensional case for the model problem. The internal dissipation is given by a quadratic form of the viscous Mandel stress.
+
+The four differential equations of first order are transformed by the refined General Equation for Non-Equilibrium Reversible-Irreversible Coupling (GENERIC) format into a matrix-vector notation. This format is called in the following enhanced GENERIC format. The enhanced GENERIC format yields with the related degeneracy conditions structure preservation properties for an isolated system. An isolated system is defined as an adiabatic system, which does not do mechanical work. These properties are in addition to a constant linear and angular momentum, the constant total energy, an increasing total entropy and a decreasing Lyapunov function. The last one is a stability criterion for thermoviscoelastic systems.
+
+New is furthermore the consistent embedding of external mechanical and thermal loads. These external loads affect the aforementioned preservation properties of isolated systems. In this case the related balance equations of the system (consistency properties) are considered.
+
+The discretization in time is done for the model problem and the continuum with two different integrators. On the one hand the midpoint-rule and on the other hand the enhanced TC (Thermodynamically Consistent) integrator is used. The enhanced TC integrator is constructed such, that the underlying enhanced GENERIC format reflects the algorithmic properties after the discretization in time, for an isolated system. For a continuum a discretization in space is necessary, which is given by the Finite-Element-Method. A projection of the test function of the thermal evolution equation is necessary for an energy consistent discretization. Furthermore the energy consistency can only be guaranteed using the enhanced TC integrator, which leads to enhanced stability.
+
+The external mechanical and thermal loads are included with fixed bearings, external mechanical loads, thermal constraints and external thermal loads. The Lagrangian multipliers are used to fulfill the thermal constraint. These Lagrangian multipliers are well known for constraining the motion of a system.
+
+The enhanced GENERIC format will be extended for the model problem after the discretization with the external loads. In contrast to that, the enhanced GENERIC format for the continuum, which is here given in the strong evolution equations, contains the external loads. This yields the necessary weak evolution equations for the solution of the system.
+
+The consistency properties are shown for representative numerical examples with different boundary conditions.
+
+The coupled mechanical system under consideration is formulated in terms of the Poissonian variables. This leads to a monolithic solution with the Newton-Raphson method. Therefore, two Newton-Raphson methods are necessary, one to resolve the viscous internal variable on local (element) level and another one to resolve the equations of motion, the thermal evolution equation and if applicable the equation of projection on global level. This is called a multi-level Newton-Raphson method.</abstract>
+                    <subject>
+                        <topic>erweitertes GENERIC</topic>
+                        <topic>erweiterter TC Integrator</topic>
+                        <topic>Randbedingungen</topic>
+                        <topic>Lagrangescher Multiplikator</topic>
+                        <topic>interne Variable</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Mechanik und Regelungstechnik - Mechatronik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-7312</identifier>
+                    <identifier type="sys">HT017653320</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_731</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2013-03-25</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_731">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/731/1/melanie_krueger.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_731"
+            DMDID="DMD_siegen_opus_731">
+            <mets:fptr FILEID="FILE0_siegen_opus_731"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

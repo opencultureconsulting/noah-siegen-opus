@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_435">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>POLYCHAR 18, World Forum on Advanced Polymeric Materials : synthesis, properties, characterisation ; April 7 - 10, 2010 in Siegen, Germany</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mormann, Werner</displayForm>
+                        <namePart type="family">Mormann</namePart>
+                        <namePart type="given">Werner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt␞edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schönherr, Holger</displayForm>
+                        <namePart type="family">Schönherr</namePart>
+                        <namePart type="given">Holger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt␞edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die internationale Konferenz Polychar 18, World Forum on Advanced Polymeric Materials (Synthesis, Properties, Characterisation) wird vom 6. (Shortcourse on characterization) bis 9.4. 2010 (Exkursion 10.4.2010) in Siegen abgehalten. Diese jährlich an verschiedenen Orten stattfindende Konferenz befasst sich mit neuen Entwicklungen und Ergebnissen in den genannten Bereichen. Einige Schwerpunkte werden ionische Flüssigkeiten als Medium für die Synthese und Modifizierung von Polymeren sein, Biopolymer basierte Materialien, Polymere und Life Sciences sowie moderne Charakterisierungsmethoden von polymeren Materialien. Alle Beiträge der Konferenz sind im Book of Abstracts zusammengefasst.</abstract>
+                    <abstract type="content" lang="eng">The international conference Polychar 18, World Forum on Advanced Polymeric Materials (Synthesis, Properties, Characterisation) took place from April 6th 2010 (short course on characterization) to April 9th 2010 (excursion April 10th) in Siegen. This annual meeting was devoted to the newest developments and results in the areas mentioned. Special attention was given among others to the topics of ionic liquids as medium for polymer synthesis and modification, biopolymer based materials, polymers and life sciences as well as modern characterization methods of macromolecular materials. All contributions presented at the conference are collected in the Book of Abstracts.</abstract>
+                    <subject>
+                        <topic>Biopolymere</topic>
+                        <topic>Polymercharacterisierung</topic>
+                        <topic>Nanostrukturierte und intelligente Materialien</topic>
+                        <topic>Oberflächen, Grenzflächen und Tribologie</topic>
+                        <topic>Struktur-Eigenschaftsbeziehungen</topic>
+                        <topic>Synthese polymerer Materialien</topic>
+                        <topic>Polymer Characterization</topic>
+                        <topic>Nanomaterials and Smart Materials</topic>
+                        <topic>Surfaces, Interfaces &amp; Tribology</topic>
+                        <topic>Structure-Property Relationships</topic>
+                        <topic>Materials Synthesis</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4354</identifier>
+                    <identifier type="sys">HT016476835</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_435</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_435">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/435/1/POLYCHAR18.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_435"
+            DMDID="DMD_siegen_opus_435">
+            <mets:fptr FILEID="FILE0_siegen_opus_435"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

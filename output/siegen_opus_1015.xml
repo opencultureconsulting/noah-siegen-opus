@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1015">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Kooperative autonome Exploration in der Außenbereichsrobotik</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Cooperative autonomous exploration in outdoor robotics</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kuhnert, Lars</displayForm>
+                        <namePart type="family">Kuhnert</namePart>
+                        <namePart type="given">Lars</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Autonome Exploration in der Außenbereichsrobotik ist eine komplexe Aufgabenstellung, die sich mit Navigation und Kartierung in vorab unbekannten Außenbereichsarealen befasst. Motiviert durch die Möglichkeit, Gegenden automatisch zu erkunden, zu denen Menschen keinen Zugang haben oder deren äußere Umweltbedingungen ein zu großes Begehungsrisiko für Menschen darstellen, ist der Nutzen von Robotern, die Explorationsaufgaben bewältigen können, äußerst hoch einzuschätzen. Erkundung von Weltraum, Tiefsee oder Polarregionen sind nur einige ausgewählte prominente Anwendungsszenarien solcher Systeme. In semi- oder unstrukturiertem Gelände stellt eine große Vielfalt an Hindernisformen, Terraintypen und äußeren Störeinflüssen dabei jedoch eine erhebliche Herausforderung für robotische Explorationssysteme dar. Weiter erschwert wird die Aufgabe, wenn die Roboter während der Exploration vollständig autonom agieren sollen. Dabei sind eine Vielzahl an Themenkomplexen zu bearbeiten und schließlich in einem integrierten, robotischen System zusammenzuführen, die für sich genommen bereits eigene Forschungsfelder darstellen.
+Die vorliegende Arbeit nimmt sich dieser umfangreichen Aufgabe an und beschreibt ein integriertes System zur Lösung des Problems der autonomen Exploration im unstrukturierten Außenbereichsszenario. Dabei wird ein Team aus Boden- und Flugroboter eingesetzt: AMOR und PSYCHE. Der Flugroboter folgt stets dem Bodenroboter und dient als externe Sensorplattform. Die so entstehende zusätzliche Betrachtung der aktuellen lokalen Szene aus einem fundamental anderen Blickwinkel ermöglicht vollkommen neue Lösungsansätze. Die wissenschaftlichen Innovationen in dieser Arbeit konzentrieren sich neben der Konzeption und Implementierung eines funktionierenden, realen Gesamtsystems auf drei essenzielle Teilkomponenten: Lokalisierung, Umgebungsmodellierung und Pfadplanung.
+Für die Lokalisierung des Roboters im erdfesten Koordinatensystem werden zwei neue Verfahren eingeführt, die ohne die zwar etablierte, aber teilweise unzuverlässige GPS-Technologie auskommen. Zum einen wird ein probabilistischer Algorithmus vorgestellt, der eine Schätzung der aktuellen Pose des Roboters ausschließlich auf der Basis von Daten aus Koppelnavigation und metrisch-topologischen Kartendaten ermittelt. Zum anderen wird eine Registrierung des Live-Luftbilds des kooperierenden Flugroboters mit einem georegistrierten Kartenausschnitt aus einer Kartendatenbank durchgeführt, um eine präzise Lokalisierung des im Live-Luftbild sichtbaren Bodenroboters zu erreichen.
+Die Umgebungsmodellierung des Roboterteams wird durch Fusion von Daten aus multiplen, sowohl redundanten als auch komplementären, Sensorquellen erreicht, darunter mehrere aktiv bewegte Laserscanner und verschiedene Kameras. Das Ergebnis der Modellierung ist nicht wie häufig üblich eine Punktwolke, sondern ein Dreiecksnetz, das die geometrische Beschaffenheit der Umwelt nicht als ungeordnete Menge von Punkten, sondern als Oberfläche beschreibt. Zusätzlich angereichert wird das geometrische Modell mit visuellen Informationen. Dabei kommen Kameras mit entozentrischem und katadioptrischem Objektiv auf dem Bodenroboter sowie eine Luftbildkamera auf dem Flugroboter zum Einsatz, wobei die Nutzung von Luftbilddaten eines Flugroboters in Echtzeit eine innovative Erweiterung des Stands der Technik darstellt. Das resultierende Modell kann zur Lösung von Problemen herangezogen werden, die mit einem rein geometrischen Modell nicht lösbar gewesen wären, wie etwa die Unterscheidung ebener Teilflächen, die verschiedenen Untergrundformen entsprechen.
+Bezogen auf die Pfadplanung eines autonomen Roboters bedeutet Exploration, dass kollisionsfreie Pfade geplant werden, die den Roboter aus der bekannten Umgebung ausbrechen lassen und ins Unbekannte führen. Aufgrund der meist vorherrschenden Start-Ziel-Planungsdirektive sind explorationsgetriebene Algorithmen jedoch unterrepräsentiert. Aus diesem Grund wird in dieser Arbeit eine neue Methode zur explorativen lokalen Pfadplanung auf der Basis von Rapidly Exploring Random Trees eingeführt. Dabei liegt das Hauptaugenmerk auf einer effizienten Ermittlung aller sogenannten Explorationspfade. Die explorative Pfadplanung wird dabei sowohl von klassischen geometrischen Merkmalen als auch von visuellen Merkmalen im zuvor registrierten Luftbild geleitet.
+Die entwickelten Verfahren werden experimentell in einer ganzen Reihe von Situationen unter realen Bedingungen im Außenbereich mit dem vollständig autonom operierenden Roboterteam verifiziert und quantifiziert.</abstract>
+                    <abstract type="content" lang="eng">Autonomous exploration is a complex task for outdoor robots which is concerned with navigation in and mapping of previously unknown outdoor areas. Motivated by the possibility of automatically exploring parts of the world that are inaccessible to or too dangerous for humans, it has to be stated that the value of robots that can handle exploration tasks is very high. Space, deep sea or polar region exploration are just a few prominent of the many examples of such systems. Complex obstacle configurations and terrain types encountered in semi- or unstructured environments present significant challenges for robotic exploration systems. Demanding complete autonomy of the operating robots increases the difficulty of the task even further. A large variety of topics, each being a separate field of research, has to be dealt with, when building a fully integrated robotic system in this context.
+This thesis proposes a solution to this complex undertaking and describes an integrated system, which is able to execute the task of autonomous exploration in an unstructured outdoor environment. A cooperating team consisting of a ground and an aerial robot, AMOR and PSYCHE, is designed to tackle the problem at hand. The aerial robot acts as an external sensor platform for the ground robot, while always following the ground robot. The additional and fundamentally different angle of view on the current scene provided by the aerial robot allows for completely new approaches to solving the posed problems. The scientific innovations presented in this work are focused on the three essential research topics: localization, environment modelling, and path planning. Additionally the conception and implementation of a fully functional, integrated robotic system is addressed.
+Two new approaches for solving the task of localizing robotic systems in an earth fixed coordinate system are introduced, which do not build on the well-established yet sometimes unreliable GPS technology. The first approach a probabilistic algorithm for estimating the current pose of the ground robot is developed, which makes exclusive use of data data from a dead-reckoning sensor and metric-topological map data. The second approach realizes a registration of live aerial imagery of the cooperating flying robot with a geo-registered orthophoto from a geo-database to achieve a precise localization of the ground robot by identifying its position in the live aerial image.
+Environment modelling is achieved by fusing data of multiple redundant as well as complementary sensors. Actuated laserscanners are used to create a description of the geometric structure of the environment in form of a triangle mesh, which is an advancement to the common approach of using unstructured point clouds for this task. The geometric model is additionally enhanced with visual information originating from different visual sensor sources. Beside cameras with entocentric and catadipotric lenses mounted on the ground robot, an airborne camera mounted on the aerial robot is used, which constitutes an innovative evolution of the current state-of-the-art in this context. The resulting model of the environment can be used to solve problems that could not be solved by using a strictly geometric model previously. Distinguishing between traversable and non-traversable planar surfaces is only one of many examples that underline the benefit of a visually enriched geometric model for outdoor robotics.
+Path planning in the context of an exploring autonomous robot stands for the planning of collision-free paths that enable the robot to escape from the known environment and lead it into the unknown. Unfortunately algorithms focusing on exploration are underrepresented among the currently available path planning algorithms, which often focus on the classical concept of start-goal-planning. Due to this shortcoming a novel method for local explorative path planning based on the concept of Rapidly Exploring Random Trees is proposed in this thesis. It focuses on the efficient determination of all so-called exploration paths. The new method of local explorative path planning uses classical geometrical features as well as visual features to guide the path planning process.
+The developed algorithms have been experimentally evaluated in several real-world situations with the fully autonomous robot team described in this thesis.</abstract>
+                    <subject>
+                        <topic>Robotik</topic>
+                        <topic>Exploration</topic>
+                        <topic>Außenbereich</topic>
+                        <topic>Robotics</topic>
+                        <topic>Cooperation</topic>
+                        <topic>Autonomy</topic>
+                        <topic>Exploration</topic>
+                        <topic>Outdoor</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Bildinformatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-10151</identifier>
+                    <identifier type="sys">HT019044263</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1015</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2016-04-28</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1015">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1015/1/Dissertation_Lars_Kuhnert.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1015"
+            DMDID="DMD_siegen_opus_1015">
+            <mets:fptr FILEID="FILE0_siegen_opus_1015"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

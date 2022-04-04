@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1212">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Ein </nonSort>
+                        <title>Jahrhundert der Verunsicherung : medienkomparatistische Analysen</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <nonSort>Ein </nonSort>
+                        <title>A century of insecurity and uncertainty : comparative media analysis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Erstić, Marijana</displayForm>
+                        <namePart type="family">Erstić</namePart>
+                        <namePart type="given">Marijana</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Den Worten Susan Sontags zufolge ist das 20. Jahrhundert in Sarajevo ”geboren worden und verstarb dort auch“. Nach den beiden Weltkriegen, dem Kalten Krieg und dem Jugoslawienkrieg scheint dieser Tatbestand für ganz Europa relevant. Er schlägt sich häufig in der Ästhetik des Schreckens nieder. Im Buch werden vorrangig Werke des Alpen-Adria-Raumes analysiert, die diese Ästhetik als Antizipation, als Erklärung, als Warnung, als Appell benutzen (Werke von Stefan Zweig, Gabriele d´Annunzio, Miroslav KrleÅ¾a, Thomas Mann, Roman Polanski, Władysław Szpilman, Pier Paolo Pasolini, Michelangelo Antonioni, Rainer Werner Fassbinder, Tarsem Singh, Derek Jarman, Giuseppe Tornatore, Ferdinand von Schirach, Slavenka Drakulić, Jasmila Å½banić, Danis Tanović, Oliviero Toscani, U2). Sie entlarven das 20. Jahrhundert als einen Nachfolger des 16. Jahrhunderts, als ein Jahrhundert der Verunsicherung.</abstract>
+                    <abstract type="content" lang="eng">According to Susan Sontag, the 20th century ”was born and died in Sarajevo“. After the two World Wars, the Cold War and the Yugoslav War, this fact seems to be relevant through the whole of Europe. It shows its implications in the aesthetics of terror. The book primarily analyses works from the Alps-Adriatic region, which use these aesthetics as an anticipation, as an explanation, as a warning, as an appeal (works by Stefan Zweig, Gabriele d´Annunzio, Miroslav KrleÅ¾a, Thomas Mann, Roman Polanski, Władysław Szpilman, Pier Paolo Pasolini, Michelangelo Antonioni, Rainer Werner Fassbinder, Tarsem Singh, Derek Jarman, Giuseppe Tornatore, Ferdinand von Schirach, Slavenka Drakulić, Jasmila Å½banić, Danis Tanović, Oliviero Toscani, U2). These various works unmask the 20th century as a successor to the 16th century, as a century of insecurity and uncertainty.</abstract>
+                    <subject>
+                        <topic>Intermedialität</topic>
+                        <topic>Komparatistik</topic>
+                    </subject>
+                    <classification authority="ddc">302</classification>
+                    <classification authority="ioo" displayLabel="Fakultät I Philosophische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-12129</identifier>
+                    <identifier type="sys">HT019468922</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1212</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaHabil</vl:doctype>
+                        <vl:defenseDate>2016-11-23</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1212">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1212/1/Habilitationsschrift_Marijana_Erstic.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1212"
+            DMDID="DMD_siegen_opus_1212">
+            <mets:fptr FILEID="FILE0_siegen_opus_1212"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

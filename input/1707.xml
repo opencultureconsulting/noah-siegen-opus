@@ -1,0 +1,74 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1707</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Online dictionary learning for classification of antipersonnel landmines using ground penetrating radar</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Online Dictionary Learning für die Klassifikation von Antipersonenminen mit Ground Penetrating Radar</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Fabio</pc:foreName>
+            <pc:surName>Giovanneschi</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Elektromagnetische Reflexionsmethode</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">ground penetrating radar</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">online dictionary learning</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">adaptive radar</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">deep learning</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">radar target classification</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">sparse decomposition</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">621</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">The contamination of Antipersonnel Landmines (APM) all over the world has been a serious threat to mankind since many decades. Starting from 1999, when the Landmine Monitor organization was founded, there have been more that 110,000 registered  casualties while 2018 marked one of the highest percentage of civilians affected (being 87\% with 47\% of them being children). APMs are relatively small (for instance, ca. 10cm of diameter and 5cm of height), generally activated by light pressure hence designed to kill (or maim) in their close proximity. &#13;
+Being many APMs almost entirely made of plastic (with the exception from their ignition device and other small parts) they often cannot be recognized using metal detectors.\\&#13;
+A promising alternative consists in the use of the Ground Penetrating Radar (GPR). GPRs are sensible to dielectric contrast, hence they can distinguish non-metallic buried targets from the background soil only due to their different dielectric properties. To obtain the necessary resolution to resolve APMs, a GPR for landmine recognition has to work with  high frequencies and bandwidth (being both around 1-2 GHz). In these situations there are many unwanted backscattered contributions that can mask the actual target response.\\&#13;
+Classification approaches are often employed to recognize between landmines and natural or man-made clutter sources; in order to do that, a database of target signatures from known APMs is usually employed to train the classifier of choice. However, classification techniques typically require a collection of data representing all possible targets and soil characteristics; to create such a general database remains a cumbersome task. It is often preferable to extract discriminative features (which will remain robust to the variation of the scenario conditions) from a smaller (but representative) database; the features chosen for this work are sparse representation coefficients.\\&#13;
+Sparse Representation (SR) shares its framework of techniques with Compressive Sensing theory (CS). However, while CS goal is to recover the signal of interest by using less of its samples, SR deals with the problem of represent a signal with a minimum number of coefficients in a certain base or dictionary. These few coefficients can be characteristic of a certain class of target (in our case different types of mines or clutter) if the chosen dictionary contains sufficient examples of all classes in the considered dataset. \\&#13;
+The selection of the dictionary is crucial; instead of choosing it, one can learn it from a representative set of signals, namely a training set. Dictionary Learning (DL) techniques aim to generate a dictionary which can represent different classes of targets with a minimum number of non-zero coefficients. Popular DL techniques (such as K-SVD) deal with the entire training set in each iteration, making the learning process slow for high dimensional datasets; this approach is called batch Dictionary Learning. Online-DL techniques deal with the training set by considering one element at a time or in mini batches, making the processing of learning faster than batch-DL and adaptive to variations.\\&#13;
+In this work we anaylize a selection of state-of-the-art Online-DL approaches for sparse representation based classification of buried landmines using GPR range profiles (or A-Scans). A detailed description on the development of a novel Online-Dl algorithm, the Drop-Off Mini-Batch Online Dictionary Learning (DOMINODL), is also presented. The development of this algorithm is one of the main contribution of this thesis. For the validation, we use range profiles from an experimental GPR dataset which includes different classes of landmine simulants, buried in a sandy and highly inhomogeneous soil. \\&#13;
+The proposed strategy initially consists in using a collection of carefully selected range profiles as a training set for different Online and Batch DL strategies (K-SVD, LRSDL, ODL, CBWLSU and DOMINODL). DL algorithms are very sensitive to input parameters (such as number of iterations, number of learned atoms, etc.); in order to assure an optimal selection of parameters combination, we performed an exhaustive evaluation which relies on statistical metrics such as Kolmogorov-Smirnoff test distance and Dvoretzky-Kiefer-Wolfowitz inequality. The sparse coefficients obtained with the learned dictionaries are finally employed as features for a Support Vector Machine Classifier. \\&#13;
+Online-DL strategy demonstrated to be much faster than their batch counterparts. In particular, DOMINODL is the fastest, being capable of learning the dictionary in just 1.75 seconds (3 times faster than ODL and 15 faster than K-SVD). When using optimal input parameters for DL, we observe that bigger mines (PMN and PMA2 types) are classified with excellent accuracy ($P_{cc}=98\%$), and so it is for clutter ($P_{cc}=90\%$). Medium sized mines (a standard test target provided by ERA technologies, we simply call them ERA) are not always correctly classified but the declarations around their ground truth always correspond to a class of landmine. Classification accuracy for smaller landmines (Type-72) is higher with respect to ERA targets, despite being the smallest mines in the set.  Online DL methods show higher $P_{CC}$ for the ERA and Type-72 targets with respect to K-SVD and LRSDL. As an additional comparison with a state-of-the art classification algorithm, we use a Convolutional Neural Network (CNN) trained with the same training set used for our DL-based approach. Classification results with CNN are poorer in general, especially for ERA and T72 ($P_{cc}$ degrades by more than $27\%$). Our final evaluation consisted in assessing the classification accuracy when reducing the original samples of the GPR range profiles to 25\% 50\% and 75\%. While CNN classification accuracy reduces drastically even when the reduction is only 25\%, DL-based approaches are definitely more robust to the sample reduction.\\&#13;
+The proposed approach is not limited to GPR dataset and can be tested on other radar applications as well. Due to the extremely fast learning time of Online-DL strategies (especially DOMINODL), real time learning of a constantly varying training set (updating it with new measurements) it is also envisioned, paving the way for a fully cognitive classification approach.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Joachim</pc:foreName>
+            <pc:surName>Ender</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2020-07-09</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2020</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-17071</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">http://creativecommons.org/publicdomain/zero/1.0/</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Department Elektrotechnik - Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Fabio_Giovanneschi.pdf" ddb:fileSize="7489472"/>
+   <ddb:checksum ddb:type="MD5">5f17bf024646dd7597b4a1dcde85615a</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1707/5/Dissertation_Fabio_Giovanneschi.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1707</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

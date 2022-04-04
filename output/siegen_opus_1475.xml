@@ -1,0 +1,82 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1475">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Automatic 3D face reconstruction and feature transfer</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Piotraschke, Marcel</displayForm>
+                        <namePart type="family">Piotraschke</namePart>
+                        <namePart type="given">Marcel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Blanz, Volker</displayForm>
+                        <namePart type="family">Blanz</namePart>
+                        <namePart type="given">Volker</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The 3D Morphable Model (3DMM) by Blanz and Vetter is likewise the basis and the initial motivation of this dissertation. It is based on a data set of 3D scans of example faces which are in dense point-to-point correspondence to each other. This correspondence can be used to apply a morphing between individual faces. Accordingly, it is possible to create a continuous transition between different facial shapes and textures.
+The new methods which have been developed and are presented in this dissertation rely strongly on the dense point-to-point correspondence and the associated ability to morph between individual faces. Furthermore, the support of non-rigid transformations (various facial expressions) leads to a substantial advantage when comparing the 3DMM to geometry-based methods. Altogether, this enables to analyze facial attributes, including variations caused by facial expressions or aging of a specific person, as well as the transfer of these attributes between several individuals.
+So far it has not been possible to reconstruct facial details like pores or facial hair when fitting a 3DMM to blurred or low-resolution input images as they exceed the level of detail captured by the 3DMM. By making use of a new hallucination approach, these missing, high spatial frequencies can be inferred from a dataset of high-resolution photos of faces. For this purpose, a search for matching candidates is performed individually for each facial region of the face in the input image. Then the additional details of all regions are combined to generate a plausible high-resolution facial texture based on a low-resolution input image.
+Another new approach, which is presented in this dissertation, makes it unnecessary to manually select facial landmarks like the position of the nose, mouth, eyes, etc. when fitting the 3DMM to an input image. This new fully automated method provides the basis for analyzing large photo databases. Additionally, it creates a simplified and much more intuitive workflow, which enables even non-professionals to use the 3DMM for 3D face reconstructions. Following this, it is shown how an approach, that creates realistic lighting situations based on coarse sketches on the face in an input image, can be used to change the lighting and shading of an arbitrary face without having knowledge about the real face geometry or the underlying 3D face reconstruction method.
+Finally, a novel method is introduced which extracts and combines facial information based on several images of the same person. When compared to existing multi-fitting techniques, the resulting 3D facial reconstructions are more robust and superior with respect to overall quality, especially if the processed photos contain distinct facial expressions, non-frontal poses and complex lighting.</abstract>
+                    <abstract type="content" lang="ger">Als Grundlage und zugleich als initiale Motivation dieser Dissertation dient das 3D Morphable Model (3DMM) von Blanz und Vetter. Das 3DMM basiert auf 3D Scans von Beispielgesichtern, zwischen denen eine enge Punkt-zu-Punkt-Korrespondenz hergestellt worden ist. Diese Korrespondenz kann dazu genutzt werden ein Morphing zwischen den Gesichtsformen und -texturen unterschiedlicher Gesichter durchzuführen.
+Die im Rahmen dieser Dissertation entwickelten Verfahren machen sich vor allem die Punkt-zu-Punkt-Korrespondenz und das damit verbundene Morphing zwischen unterschiedlichen Gesichtern zu nutze. Aufgrund der Unterstützung nicht rigider Transformationen (unterschiedliche Gesichtsausdrücke) durch das 3DMM ergibt sich ein entscheidender Vorteil gegenüber geometriebasierten Verfahren. So lassen sich personenübergreifende Analysen von Gesichtseigenschaften durchführen. Dazu zählen die Variationen aufgrund von Gesichtsausdrücken oder Alterung einer bestimmten Person, aber auch der Transfer dieser Attribute zwischen unterschiedlichen Personen.
+Beim Fitting des 3DMM an unscharfe oder sehr niedrig aufgelöste Eingabebilder war es bislang nicht möglich feine Haar- oder Hautstrukturen wiederherzustellen, welche über den vom 3DMM repräsentierten Detailgrad hinausgehen. Mit Hilfe eines neuen Halluzinationsansatzes werden nun die fehlenden, hohen Ortsfrequenzen aus einer Datenbasis mit hochaufgelösten Fotos von Gesichtern abgeleitet. Dazu werden für jede Gesichtspartie individuelle Kandidaten gesucht, die bestmöglich zum Eingangsbild passen. Deren Details werden nahtlos zusammengefügt und dazu genutzt, aus dem ursprünglich niedrig aufgelösten Eingabebild eine passende, hochaufgelöste Gesichtstextur zu generieren.
+Im Zusammenhang mit dem Fitting des 3DMM an Bilder wird in dieser Dissertation ein neu entwickelter Ansatz vorgestellt, welcher die manuelle Selektion von Landmarken (Position von Nase, Mund, Augen, etc.) im Eingabebild obsolet macht. Dieses vollautomatische Verfahren stellt die Grundlage zur Analyse großer Fotodatenbanken dar. Zugleich entsteht dadurch ein stark vereinfachter und intuitiverer Workflow, welcher es auch Laien erlaubt das 3DMM zur 3D Gesichtsrekonstruktion einzusetzen. So wird in dieser Arbeit gezeigt, wie sich auf Basis grober Skizzen realistische Beleuchtungssituationen erzeugen und auf Fotos von Gesichtern anwenden lassen, ohne Wissen über die 3D Gesichtsform oder Details des zugrundeliegenden 3D Rekonstruktionsverfahrens besitzen zu müssen.
+Des Weiteren wird ein neues Verfahren vorgestellt, welches die Gesichtsinformationen einer Person aus mehreren Bildern extrahiert und kombiniert. Die resultierenden Gesichtsrekonstruktionen übertreffen dabei die visuelle Qualität existierender Multifittingansätze und sind zugleich robuster in Bezug auf extreme Gesichtsausdrücke, Posen und Beleuchtungssituationen.</abstract>
+                    <subject>
+                        <topic>Maschinelles Sehen</topic>
+                        <topic>Analyse-durch-Synthese</topic>
+                        <topic>Gesichtsrekonstruktion</topic>
+                        <topic>Image processing</topic>
+                        <topic>Morphable model</topic>
+                        <topic>Face reconstruction</topic>
+                        <topic>Feature transfer</topic>
+                        <topic>Face detection</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Bildinformatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-14754</identifier>
+                    <identifier type="sys">HT020231153</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1475</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2019-06-04</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1475">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1475/2/Dissertation_Marcel_Piotraschke.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1475"
+            DMDID="DMD_siegen_opus_1475">
+            <mets:fptr FILEID="FILE0_siegen_opus_1475"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

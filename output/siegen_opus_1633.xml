@@ -1,0 +1,103 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1633">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>From technology adoption to organizational resilience: A current research perspective</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Syed, Hussain Abid</displayForm>
+                        <namePart type="family">Syed</namePart>
+                        <namePart type="given">Hussain Abid</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schorch, Marén</displayForm>
+                        <namePart type="family">Schorch</namePart>
+                        <namePart type="given">Marén</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hassan, Sohaib S.</displayForm>
+                        <namePart type="family">Hassan</namePart>
+                        <namePart type="given">Sohaib S.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Skudelny, Sascha</displayForm>
+                        <namePart type="family">Skudelny</namePart>
+                        <namePart type="given">Sascha</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Grinko, Margarita</displayForm>
+                        <namePart type="family">Grinko</namePart>
+                        <namePart type="given">Margarita</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Pipek, Volkmar</displayForm>
+                        <namePart type="family">Pipek</namePart>
+                        <namePart type="given">Volkmar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Digitalization is an ever-increasing phenomenon and is being focused in all prominent research communities around the world. When it comes to businesses, the concept of digitalization can have its far-reaching impacts due to the diverseness of business and distinctiveness of their capabilities. Small and medium enterprises (SMEs) are of dire importance in this research arena, due to their immense share in global economy and organizational characteristics. The concept of digitalization needs special attention for these business specimens. Technology adoption models need to be built which can transcend the utility of digitalization and digital technologies in SMEs. We propose a hypothetical technology adoption model for increasing the digital maturity in small and medium business organizations and further proposing that matured digitalization will lead to centralized business continuity infrastructure which can boost the organizational resilience.</abstract>
+                    <subject>
+                        <topic>Resilienz</topic>
+                        <topic>Digitalisierung</topic>
+                        <topic>Organisationale Resilienz</topic>
+                        <topic>SME</topic>
+                        <topic>Digitalization</topic>
+                        <topic>Organizational Resilience</topic>
+                        <topic>SME</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16332</identifier>
+                    <identifier type="sys">HT021015994</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1633</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1633">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1633/5/From%20Technology_Adoption_to_Organizational_Resilience.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1633"
+            DMDID="DMD_siegen_opus_1633">
+            <mets:fptr FILEID="FILE0_siegen_opus_1633"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

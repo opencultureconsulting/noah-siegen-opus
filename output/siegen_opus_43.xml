@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_43">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Der </nonSort>
+                        <title>Photomischdetektor zur schnellen 3D-Vermessung für Sicherheitssysteme und zur Informationsübertragung im Automobil</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schneider, Bernd</displayForm>
+                        <namePart type="family">Schneider</namePart>
+                        <namePart type="given">Bernd</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2003</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die vorliegende Dissertation beschreibt sowohl simulative als auch experimentelle Untersuchungen zur innovativen PMD-Technologie (Photomischdetektor) und die damit verknüpften Anwendungen in zukünftigen Automobilen. Allgemein stellt der Photomischdetektor ein optoelektronisches Halbleiterbauelement dar, welches die Onchip-Korrelation eines amplitudenmodulierten optischen Signals mit einem elektrischen Referenzsignal ermoglicht. Diese Funktionalität ist die Basis zum einen für die Entfernungsmessung nach dem Phasenlaufzeitverfahren und zum anderen für die optische Datenübertragung. Auf dem Gebiet der Entfernungsmessung befasst sich diese Arbeit zunächst mit der Modellierung eines kompletten PMD-Kamerasystems unter Matlab/Simulink. Das Ergebnis dieses Ansatzes stellt ein geeignetes Simulationstool dar mit dem die Performance von PMD-Sensoren in verschiedenen 3D-Anwendungen analysiert werden kann. Ein weiterer Schwerpunkt dieser Arbeit umfasst fahrzeugspeziﬁsche PMD-Anwendungen im Innen- und Außenraum. In Bezug auf den Insassenschutz ist die intelligente Airbagauslosung von zentralem Interesse. In diesem Zusammenhang beschäftigt sich die Arbeit mit den Aspekten der Bildverarbeitung von 3D-Szenen mit Hilfe von neuronalen Netzen sowie Polynomklassiﬁkatoren zur Mustererkennung von verschiedenen simulierten Beifahrersituationen. In Bezug auf Kfz-Außenraumanwendungen im Bereich Sicherheit und Komfort behandelt diese Doktorarbeit die Precrash-Detektion und automatisiertes Stop&amp;Go. Dazu wurde ein Modulationsverfahren für den Außenraum entwickelt welches einerseits die generellen Randbedingungen einer aktiven Infrarotsensorik berücksichtigt, z.B. die Lasersicherheitsbestimmungen, und andererseits eine ungestorte Entfernungsauswertung unabhängig von äquivalenten Systemen in der Nähe ermoglicht. Auf dem Gebiet der optischen Datenübertragung liefert die auf MSM-Dioden angewandte PMD-Technologie einen Korrelationsempfänger für schnelle Multiple-Access Übertragungsverfahren. Verschiedene experimentelle Ergebnisse belegen, dass mit Hilfe der PMD-MSM-Technologie sowohl ein Phasen-Multiplexverfahren als auch ein Frequenz- Multiplexverfahren ermoglicht wird. Abschließend wird anhand von simulativen Untersuchungen demonstriert, dass mit Hilfe der PMD-Technologie sogar ein kombiniertes Phasen-Amplitudenmultiplexverfahren ermoglicht wird, bei dem sich die verschiedenen Übertragungskanäle gegenseitig nicht storen.</abstract>
+                    <abstract type="content" lang="eng">The present doctoral thesis describes simulative and experimental investigations of the innovative photonic mixer device (PMD) technology and associated applications in future automobiles. Generally speaking the photonic mixer device is an optoelectronic component which enables the onchip correlation of an amplitude-modulated optical signal with an electrical reference signal. This functionality is the basic of both distance measurement based on the time-of-flight principle and optical data transmission. Concerning the field of multi-dimensional ranging application this work shows at first a possible way to model a complete PMD-camera system with Matlab/Simulink. The result of this approach is a powerful simulation tool which allows the performance analysis of PMD-cameras in certain 3D-vision applications. Another focus of this work lies on PMD-applications in the interior and the exterior of automobiles. Regarding interior protection for occupants the major task is an intelligent airbag deployment. In this context the present thesis deals with the aspects of 3D-image processing with neural networks and polynomial classificators for pattern recognition of various simulated passenger seat configurations.
+Relating to exterior applications in the range of security and convenience, this thesis is primarily concerned with precrash-detection and automated stop&amp;go. Thereby the major task was to develop an applicative modulation procedure which considers on the one hand the general boundary conditions of an active infrared sensor, e.g. the laser safety rules, and on the other hand the non-ambiguous distance evaluation independent from the influence of other equivalent sensors nearby. In the field of optical communication the PMD-technology applied to MSM-diodes provides a correlated mixer device for fast multi-access applications. Several experimental results confirm that both a phase multiplex procedure and an orthogonal frequency division multiple access scheme are enabled by using the PMD-MSM-technology. Finally simulation results demonstrate that with the add of the PMD-Technologie even a combination of phase shifting and amplitude multiplex techniques is possible, without interfering of the different transmission channels.</abstract>
+                    <subject>
+                        <topic>photoelectronic mixing device</topic>
+                        <topic>3D-imaging</topic>
+                        <topic>spatial variables measurement</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-435</identifier>
+                    <identifier type="sys">HT013957065</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_43</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2003-07-15</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_43">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/43/1/schneider_b_1.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_43"
+            DMDID="DMD_siegen_opus_43">
+            <mets:fptr FILEID="FILE0_siegen_opus_43"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

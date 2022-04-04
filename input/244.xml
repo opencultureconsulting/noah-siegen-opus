@@ -1,0 +1,71 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>244</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Development of autonomous features and indoor localization techniques for car-like mobile robots</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Niramon</pc:foreName>
+            <pc:surName>Ruangpayoongsak</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Mobile Robotik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Bahnplanung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Roboterlokalisierung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Intelligente autonome Navigation ist ein wesentliches Problem in der mobilen&#13;
+Robotik. Für einen modellbasierten Fahrzeug-ähnlichen mobilen Roboter ist das&#13;
+Steuerungskonzept ähnlich wie beim Auto.&#13;
+Autonome Feature erlauben Robotern eigene Bewegungen zu kontrollieren ohne&#13;
+menschliche Interaktion. Drei autonome Feature werden in diese Arbeit behandelt:&#13;
+Hindernisvermeidung, 180° Drehung in einem schmalen Flur und Pfadverfolgung. Weil die Hindernispositionen unbekannt sind, erfordert die Strategie nicht nur&#13;
+Hindernisvermeidung, sondern auch Bahnplanung und Roboterlokalisierung.&#13;
+Die Roboterlokalisierung kann in relative und absolute Lokalisierungen&#13;
+unterteilt werden. In dieser Arbeit soll die Entwicklung der modellbasierten relativen Lokalisierungstechnik und der absoluten Lokalisierung durch Landmarken untersucht werden.&#13;
+Die Entwicklung der modellbasierten relativen Lokalisierung wird durch ein&#13;
+nichtlineares dynamisches Automodell mit nachfolgendem Kalman Filter erreicht. Die Integration der Sensordaten des Entfernungsmessers, Trägheitsgyroskop-Sensors und der Kompass-Sensoren durch den Kalman Filter ermöglicht die Analyse der Leistung der drei Positionierungsmethoden; durch differentiellen Antrieb, Gyroskops- und Kompass-Abschätzung.&#13;
+Die absolute Lokalisierung wird durch den Einsatz einer 3D-Kamera und 3D-Landmarken erreicht und wird im Folgen der Positionskalibrierung genant. Drei Teile der Positionskalibrierung werden entwickelt: Das Design der Landmarken, die Erkennung der Landmarken sowie die Voraussage und die Aktualisierung der&#13;
+Roboterposition. Schließlich wird die Verbesserung der Auflösung der&#13;
+Positionskalibrierungstechnik durch 2D und 3D Bilder untersucht.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Intelligent autonomous navigation in a large-scale and unknown indoor environment is an important problem in mobile robotics. For a car-like mobile robot with a racing car platform, the movement control concept is similar to that of a car.&#13;
+The autonomous features enable robots to control own motion without human&#13;
+interference. Three autonomous features are addressed in this thesis; obstacle avoidance, doing 180° turns in a narrow corridor, and path following control. Since the obstacle positions are not known beforehand, the strategy requires not only the obstacle avoidance but also trajectory generation and robot localization.&#13;
+The robot localization can be broken down into relative and absolute localization. This thesis addresses the development of the model-based relative localization technique and the landmark-based absolute localization technique.&#13;
+The model-based relative localization is applied by the non-linear dynamic car model to the Kalman filter. The study of integrating sensor data from odometer, gyroscope and compass for the position and heading estimators provides a discussion of the performance of three localization methods; differential drive, gyroscope estimator, and compass estimator.&#13;
+The landmark-based absolute localization is applied by using the 3D camera and the 3D artificial landmark and is called the position calibration. Three parts of the position calibration are developed: The design of landmarks, the landmark recognition, and the robot position prediction and update. Lastly, the improvement for the resolution of the position calibration by using 2D and 3D images is studied.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2006-08-09</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2006</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-2447</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 12, Elektrotechnik und Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="ruangpayoongsak.pdf" ddb:fileSize="3358042"/>
+   <ddb:checksum ddb:type="MD5">b81f063328fe422dff12afea142b60c1</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/244/1/ruangpayoongsak.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/244</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

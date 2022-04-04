@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_86">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Design-flow-Management mit Web-Services in der Mikrotechnik</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schumer, Christian</displayForm>
+                        <namePart type="family">Schumer</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2004</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">MEMS industry in Europe is characterized by small and medium sized enterprises (SMEs) specialized on products to solve problems in specific domains like
+medicine, automotive sensor technology, etc. In this field of business the technology driven design approach known from micro electronics is not appropriate. Instead each design problem aims at its own, specific technology to be used for the solution. The variety of technologies at hand, like Si-surface, Si-bulk, LIGA, laser, precision engineering requires a huge set of different design tools to be available. No single SME can afford to hold licenses for all these tools. This calls for a new and exible way of designing, implementing and distributing design software.
+The key to the development of successful tools for micro electronic design has
+been the use of models of the design process that define precisely the steps to be taken, their constraints, their sequence and their parameters in order to turn a product specification into a technical realization. The famous Y-chart of Gajski and Kuhn [WT85] is a good example for the extent and impact of design models. Driven by the success of the Y-chart model a dedicated design model for MEMS design is presented in this thesis. As a basis, a so-called circle-model is used, which describes a new design methodology for MEMS. This includes a class
+of design services to solve specific MEMS design problems and an innovative
+approach for developing design flows.
+Based on the requirements of SMEs a novel service oriented design scenario
+(SODS) is presented. It contains a work flow for implementing customer specific
+design flows and defines the required software elements. In this context the Internet as one of today&apos;s most important communication media provides support
+on the basis of web services. The technology of web services is used to offer a
+new generation of exible, semi-autonomous software systems via the Internet,
+so-called design assistants. A design assistant guides the human expert through
+the design flow and makes sure that the fabrication specification is complete
+and correct. Assistants are built dynamically depending on the requirements
+of the respective MEMS design process at hand. To achieve this, a design flow
+integrated development environment (IDE) helps to build up assistants fast and
+easily.
+Circle-model, design services and SODS are part of the new discipline design flow management for MEMS. The discipline shows SMEs how to reduce costs
+for design tool installation, operation and integration and produces a faster
+design flow execution with a better result.</abstract>
+                    <subject>
+                        <topic>Service-orientiertes Entwurfsszenario</topic>
+                        <topic>Kreismodell</topic>
+                        <topic>design flow management</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-862</identifier>
+                    <identifier type="sys">HT014201880</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_86</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2004-10-10</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_86">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/86/1/schumer.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_86"
+            DMDID="DMD_siegen_opus_86">
+            <mets:fptr FILEID="FILE0_siegen_opus_86"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

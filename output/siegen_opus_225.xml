@@ -1,0 +1,81 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_225">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Quantitative Bewertung realer Investitionshandlungen im Ausland</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wiersdorf, Björn D.</displayForm>
+                        <namePart type="family">Wiersdorf</namePart>
+                        <namePart type="given">Björn D.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2006</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In den letzten Jahren haben grenzüberschreitende Transaktionen
+erheblich an Bedeutung gewonnen. Vor diesem Hintergrund verwundert
+es nicht, daß reale Investitionshandlungen inländischer
+(ausländischer) Wirtschaftssubjekte im Ausland (Inland) sowohl
+in der Betriebswirtschaftslehre als auch in der Volkswirtschaftslehre
+einen immer bedeutenderen Untersuchungsgegenstand repräsentieren.
+Betrachtet man beide Teildisziplinen der Wirtschaftswissenschaften
+zusammen, können positive und normative Ansätze unterschieden
+werden, wobei erstere bezüglich der Anzahl veröffentlichter
+wissenschaftlicher Beiträge letztere dominieren. Insofern ist es
+nicht ratsam, dieses Mißverhältnis noch weiter in die Richtung positiver
+Ansätze zu verschieben. Diesem Gedanken Rechnung tragend,
+stellt die quantitative Bewertung realer Auslandsinvestitionen das
+Untersuchungsobjekt der vorliegenden Arbeit dar, wobei von nachstehender
+Zielsetzung ausgegangen wird: Entwicklung eines theoretisch
+fundierten, in sich widerspruchsfreien Vorschlags zur marktobjektivierten,
+von den subjektiven Zeit- und Risikopräferenzen
+des Entscheidungsträgers unabhängigen Bewertung realer Investitionshandlungen
+im Ausland, wenn mit letzteren im einfachsten
+Fall keine und in einem komplizierteren Fall sehr wohl zusätzliche
+Wahl- und Handlungsmöglichkeiten im Sinne von Realoptionen
+verbunden sind.</abstract>
+                    <subject>
+                        <topic>Direktinvestition</topic>
+                        <topic>neoklassische Kapitalmarkttheorie</topic>
+                        <topic>Realoption</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 5, Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-2256</identifier>
+                    <identifier type="sys">HT014809660</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_225</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2006-07-09</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_225">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/225/1/wiersdorf.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_225"
+            DMDID="DMD_siegen_opus_225">
+            <mets:fptr FILEID="FILE0_siegen_opus_225"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

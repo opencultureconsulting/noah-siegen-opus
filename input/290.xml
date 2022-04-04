@@ -1,0 +1,68 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>290</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Identifikationsmethoden für die automatisierte Inbetriebnahme und Zustandsüberwachung elektrischer Antriebe</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="eng">Identification methods for the automated commissioning and condition monitoring of electrical drives</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Sebastian</pc:foreName>
+            <pc:surName>Villwock</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Identifikation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">identification</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">drives</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">modelling</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">condition monitoring</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">mechanics</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die vorliegende Arbeit behandelt die automatisierte Inbetriebnahme und Zustandsüberwachung elektrischer Antriebe. Sie konzentriert sich ausschließlich auf das mechanische System. Es werden mit Blick auf wirtschaftliche Aspekte bewusst ausschließlich die üblichen Sensoren verwendet. Zusätzliche Messwertaufnehmer, wie beispielsweise ein lastseitiger Geber oder ein Beschleunigungssensor, werden nicht eingesetzt.&#13;
+&#13;
+Der erste Teil dieser Arbeit widmet sich der Identifikation losefreier, elastischer Systeme. Dabei wird die Mechanik als Zwei- und Dreimassensystem modelliert. Der Antrieb darf nicht mit dessen Resonanzfrequenz angeregt werden, da sonst Beschädigungen bis hin zur Zerstörung der Anlage zu befürchten sind. Aus diesem und anderen Gründen erfolgt die Systemanregung nicht mit harmonischen Funktionen, sondern mittels pseudo stochastischer Binärsignale. Da die einstellbaren Eigenschaften des Testsignals einen besonders großen Einfluss auf das Identifikationsergebnis haben, kommt der Parametrierung des Testsignalgenerators im Rahmen dieser Arbeit sowohl bei den theoretischen Überlegungen als auch bei den experimentellen Untersuchungen große Bedeutung zu.&#13;
+Die Identifikationsprozedur gliedert sich in zwei Schritte: Zuerst wird mit Hilfe der Welch-Methode anhand der gemessenen Zeitsignale der Frequenzgang der Mechanik berechnet. Die verarbeiteten Signale sind die drehmomentbildende Komponente des Statorstroms und die Motordrehzahl. Die Welch-Methode wird mit den klassischen Korrelationsverfahren verglichen. Hier wird deutlich, dass die Welch-Methode insbesondere dann, wenn keine a priori Kenntnis über die Periode der Signale vorliegt, zu wesentlich besseren Ergebnissen führt. An die digitale Signalverarbeitung schließt sich die Bestimmung der Anlagenparameter unter Verwendung der Frequenzgangdaten mit Hilfe des numerischen Verfahrens von Levenberg und Marquardt an.&#13;
+Anhand digitaler Simulationen sowie umfangreicher experimenteller Untersuchungen an einer Laboranlage mit unterschiedlichen mechanischen Aufbauten wird die Zuverlässigkeit und Flexibilität der vorgestellten Methode deutlich herausgearbeitet. Die Durchführung der Identifikation kann sowohl im offenen als auch im geschlossenen Regelkreis und im laufenden Betrieb der Anlage erfolgen.&#13;
+&#13;
+Der Gegenstand des zweiten Teils der Dissertation ist die Fehlerdiagnose und Zustandsüberwachung von verschleißbehafteten Maschinenelementen. Die Untersuchungen konzentrieren sich auf losebehaftete Elemente und schadhafte Wälzlager.&#13;
+Zur Diagnose von Lagerfehlern findet die Methode der Frequenzgangmessung erneut Verwendung. Es werden sowohl breitbandige Beschädigungen, die beispielsweise durch Verschmutzung oder mangelhafte Schmierung entstehen, als auch singuläre Beschädigungen von äußerem und innerem Laufring der Lager untersucht. Breitbandige Beschädigungen haben nicht vorhersagbare Änderungen über einen weiten Frequenz-bereich im Spektrum der Messsignale zur Folge. Im Gegensatz dazu rufen singuläre Defekte charakteristische Fehlerfrequenzen hervor. Experimentelle Ergebnisse für die verschiedenen Lagerfehler zeigen, dass die Frequenzganganalyse zur Erkennung von Lagerschäden gut geeignet ist. Das defekte Wälzlager wurde sowohl auf der Motor- als auch auf der Lastseite des Zweimassenschwingers installiert. Mit Hilfe der Analyse eines Beschleunigungsmesssystems wurde der Grad der künstlich realisierten Beschädigung eingestuft. Der Beschleunigungssensor wurde jeweils direkt am defekten Lager montiert. &#13;
+&#13;
+Bei der Lose handelt es sich um eine strukturumschaltende Nichtlinearität. Die Frequenzgangmessung wird auch für die Untersuchung losebehafteter Mechanik eingesetzt, obwohl dieses Verfahren ausschließlich für lineare Systeme erklärt ist. Die Grundidee besteht darin, die die Identifikation beeinträchtigende nichtlineare Eigenschaft der Lose als Indikator für das Vorhandensein einer dominanten Lose zu nutzen. Im Zuge der praktischen Arbeiten an einer Laboranlage hat sich herausgestellt, dass die Frequenzgangmessung nicht gelingt, wenn die Lose im Antrieb größer als 1° ist. Für die Durchführung der experimentellen Arbeiten zu losebehafteten Systemen wurde ein geeigneter Prüfstand entworfen und realisiert. Das Herzstück dieser Anlage ist eine Klauenkupplung, die die Einstellung der Loseweite ermöglicht. Die aus der Frequenzgangmessung gewonnene Information kann bei der Entwicklung einer Zustandsüberwachungseinrichtung als wertvoller Indikator für das Wachsen der Lose dienen. Die exakte Bestimmung der Loseweite ist auf diese Weise jedoch nicht möglich. Daher wird zusätzlich ein deterministisches Zeitbereichsverfahren zur Identifikation der Lose vorgestellt, das die Lose bis zu einer Weite von 0,5° gut identifiziert. Einschränkend ist hierzu zu bemerken, dass diese Methode nicht während des laufenden Betriebs der Anlage zum Einsatz kommen kann.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The present work deals with the automatic commissioning and condition monitoring of the mechanical system of electrical drives and consists of two main parts.  &#13;
+In the first part an identification method is developed, which is applied to two- and three-mass-systems without backlash. The identification is carried out in two steps: First the frequency response is calculated by processing the measured signals. For do-ing so, the Welch-method, which is known from the field of communications engineer-ing, is applied. The system is excited by pseudo random binary signals (PRBS). As the adjustable characteristics of this test signal have an enormous influence on the identifi-cation result, great emphasis is put on the adequate parameterization of the test signal generator. The second step leads to the parametric model of the system. The parame-ters are computed on basis of the beforehand obtained frequency response data by &#13;
+utilizing the Levenberg-Marquardt-algorithm.&#13;
+&#13;
+The second part of this research work addresses the condition monitoring and fault diagnosis by making use of the proposed identification method. The identification process can be accomplished during normal operation of the plant. This is important for cyclic condition monitoring. The investigations concentrate on drives with back-lash and rolling bearing faults. Different bearing damages are analyzed. Even though the frequency response is only defined for linear systems, the presented identification strategy yields information about changes of the mechanical characteristics caused by bearing faults and backlash. As the gear play itself cannot be determined in this way, a time domain identification method is presented for this purpose.&#13;
+&#13;
+Experimental results are given in order to confirm the presented identification method. Furthermore, the experimental investigations point out that this method is suitable for detecting bearing faults and dominant backlash in drives.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2007-09-17</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2007</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-2905</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="villwock.pdf" ddb:fileSize="8276402"/>
+   <ddb:checksum ddb:type="MD5">1578df5e2a02840cd98260f411dbbaba</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/290/1/villwock.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/290</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

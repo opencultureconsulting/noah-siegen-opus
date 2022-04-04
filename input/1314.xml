@@ -1,0 +1,78 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1314</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Model-based estimation of missing facial structures in 2D and 3D</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Modellbasierte Rekonstruktion von verdeckten Strukturen in Gesichtern in 2D und 3D Daten</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Matthaeus</pc:foreName>
+            <pc:surName>Schumacher</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Bildverarbeitung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Analyse-durch-Synthese</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Image Processing</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Morphable Model</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Occlusion Handling</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Canonical Correlation Analysis</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Deblurring</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The 3D Morphable Model of faces (3DMM) is a known method for calculating a 3D face model from a 2D input image by using an analysis-by-synthesis approach. Surveillance or detection as well as investigation of criminal offenses by law enforcement authorities, for instance, are common application scenarios for the 3DMM. In the majority of these fields the reconstruction algorithm must deal with a wide-ranging quality of input data. Since the influence of image degradation on the 3DMM has not been studied yet, the exploration of image artifacts and their impact on the reconstruction quality is one focus of this thesis. Therefore, relevant degradation factors are determined and methods for incorporating the sources in the analysis-by-synthesis algorithm to revert the effect are presented. Especially details lost in the input images due to blur, low resolution or occlusions, are considered in this thesis. By leveraging class-specific knowledge, this restoration process goes beyond what image operations such as deblurring or inpainting can achieve.&#13;
+&#13;
+Another advantage of the 3DMM is its application to any pose and illumination, unlike image-based methods. However, only with the here presented algorithm the 3DMM can compute realistic face models from severely degraded images. The new method includes the blurring or downsampling operator explicitly into the analysis-by-synthesis approach. In this context, the plausibility of the added information by the 3DMM is another important factor. An application of the model for forensic tasks can only be helpful and supportive if it is ensured that the added data are in line with human expectation and do not lead to wrong cues, thus misleading the investigation.&#13;
+&#13;
+Besides the validation of added information by the 3DMM, the concept can be used further to explore the human visual system (HVS). The Morphable Model enables a plausible modification of faces and thus a virtual generation of stimuli for perceptual experiments. Hence, the investigation if and how humans use face-specific knowledge to infer non-visible information is addressed in this thesis. In psycho-physical experiments, the inference of facial profiles from the frontal view is examined. The results indicate that humans use the information from the front view, and not just rely on the plausibility of the profiles per se. All findings are consistent with the correlation-based inference of the 3DMM. The results also verify that the 3D reconstructions are congruous with human expectation, since they are chosen to be the true profile as equally often as the ground truth profiles in the experiments.&#13;
+&#13;
+However, the correlations on which the HVS and many example-based algorithms rely on are implicit and diffcult to visualize. According to these findings, the thesis explores further which facial attributes and characteristics humans or algorithms use to infer information. This is done by identifying and visualizing the most reliable correlations using a canonical correlation analysis (CCA) of faces.&#13;
+&#13;
+These correlations are used to fill in missing information, e.g. occluded regions, in the 3D face models. Afterwards, the results are compared to the PCA-based approach of the 3DMM by a subsequent assessment of perceived similarity. It is shown that the PCA-based 3DMM captures correlations sufficiently and is not affected by spurious random correlations in the limited training set.&#13;
+&#13;
+Finally, the findings and methods of this thesis are transferred to a forensic application scenario as part of the BMBF research project INBEKI.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Das dreidimensionale Morphable Model (3DMM) ist ein bekanntes Verfahren, das 3D-Modelle von Gesichtern durch einen Analyse-durch-Synthese-Ansatz aus 2D-Aufnahmen rekonstruiert. Diese Gesichtsrekonstruktion findet Anwendung unter anderem in der Überwachung und Erkennung von Gesichtern sowie der Ermittlung von Straftaten durch Strafverfolgungsbehörden. Da in diesen Anwendungsbereichen die Qualität der vorliegenden Bilder stark schwankt und der Einfluss von Störfaktoren auf das 3DMM bisher noch nicht untersucht worden ist, liegt ein Schwerpunkt der vorliegenden Arbeit auf der Untersuchung von Bildartefakten und deren Einfluss auf die Rekonstruktionsqualität des 3D-Modells. Hierzu werden zunächst relevante Artefakte ermittelt und Verfahren dargestellt, um den Einfluss auf das 3DMM zu vermindern beziehungsweise die Erzeugung der Artefaktursprünge innerhalb des Analysedurch-Synthese-Verfahrens zu integrieren. Ein besonderer Fokus liegt hierbei auf der Rekonstruktion von Details, die im Eingangsbild durch Unschärfe beziehungsweise niedrige Auflösung sowie Teil-Verdeckungen im Aufnahmeprozess verloren gegangen sind. Durch die Einbeziehung von klassenspezifischem Wissen geht dieser Wiederherstellungsprozess über das hinaus, was allgemeine Bildoperationen wie Deblurring oder Image Inpainting erreichen können.&#13;
+&#13;
+Ein weiterer Vorteil des 3DMM gegenüber diesen Verfahren ist die Unabhängigkeit von Pose und Beleuchtung. Durch den in dieser Arbeit vorgestellten Algorithmus können realistische Gesichter aus stark verschlechterten Bildern mittels eines erweiterten 3DMM erzeugt werden. Dabei integriert die neue Methode den Unschärfe- oder Downsampling-Operator explizit in den Analyse-durch-Synthese-Algorithmus. In diesem Zusammenhang ist ein weiterer wichtiger Faktor die Plausibilität der hinzugefügten Informationen durch das 3DMM. Eine Anwendung des Modells, beispielsweise im kriminaltechnische Bereich, kann nur hilfreich und nützlich sein, wenn sichergestellt ist, dass die rekonstruierten Daten sowohl korrekt sind als auch mit der menschlichen Erwartung übereinstimmen und so den Betrachter nicht in die Irre führen.&#13;
+&#13;
+In diesem Rahmen ermöglicht das 3DMM nicht nur eine Validierung der hinzugefügten Informationen, sondern darüber hinaus eine geeignete Methode, das menschliche visuelle Wahrnehmungssystem zu untersuchen, da das Modell eine einfache Modifikation von Gesichtern und damit die Erzeugung von Stimuli für Wahrnehmungsexperimente erlaubt. Aus diesem Grund liegt ein weiteres Augenmerk dieser Arbeit auf der Ermittlung, ob und in welcher Form Menschen gesichtsspezifisches Vorwissen verwenden, um unbekannte Informationen zu schlussfolgern. In psychophysischen Wahrnehmungsexperimenten wird das Erschließen von Gesichtsprofilen aus der Frontalansicht untersucht. Die Ergebnisse zeigen, dass Menschen die Informationen aus der Frontansicht nutzen und sich nicht nur auf die Plausibilität der Profile an sich verlassen. Alle gewonnenen Erkenntnisse stimmen mit der korrelationsbasierten Inferenz des 3DMM überein. Weiterhin bestätigen die Resultate, dass die 3D-Rekonstruktionen der Erwartung des menschlichen Wahrnehmungssystems entsprechen, da sie und die Original-Profile gleichermaßen oft in den durchgeführten Wahrnehmungsversuchen gewählt wurden.&#13;
+&#13;
+Die Korrelationen, auf denen sowohl das menschliche visuelle System als auch viele Algorithmen beruhen, sind allerdings implizit und schwer zu visualisieren. Entsprechend dieser Erkenntnisse wird im weiteren Verlauf der Arbeit untersucht, welche Attribute und Merkmale von Gesichtern Menschen beziehungsweise Algorithmen Schlussfolgerungen ermöglichen, indem die zuverlässigsten Korrelationen anhand einer Korrelationsanalyse (CCA) von Gesichtern bestimmt sowie intrinsische Korrelationen von zufälligen Korrelationen in den Trainingsdaten getrennt werden.&#13;
+&#13;
+Die so ermittelten Korrelationen werden verwendet, um fehlende Informationen in Gesichtsmodellen zu rekonstruieren. Die Ergebnisse werden anschließend mit den PCA-basierten Methoden des 3DMM anhand der wahrgenommenen Ähnlichkeit verglichen. Dabei zeigt sich, dass das 3DMM die Korrelationen ausreichend erfasst und nicht durch falsche oder zufällige Zusammenhänge in den begrenzten Trainingsdaten beeinflusst wird.&#13;
+&#13;
+Abschließend werden die ermittelten Erkenntnisse und Methoden dieser Arbeit als Teil des BMBF-Forschungsprojektes INBEKI auf ein forensisches Anwendungsszenario übertragen.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2017-11-03</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2017</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-13148</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Bildinformatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Matthaeus_Schumacher.pdf" ddb:fileSize="44193426"/>
+   <ddb:checksum ddb:type="MD5">fdbfaab85e0cb87930fbd4e5b21d5212</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1314/1/Dissertation_Matthaeus_Schumacher.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1314</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

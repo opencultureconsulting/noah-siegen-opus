@@ -1,0 +1,74 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_2106">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Licht, Luft und Freiheit</title>
+                        <subTitle lang="ger">die Werke Brinkman &amp; Van der Vlugts im Kontext ideeller Denkweisen</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Marx, Katja</displayForm>
+                        <namePart type="family">Marx</namePart>
+                        <namePart type="given">Katja</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lohmann, Petra</displayForm>
+                        <namePart type="family">Lohmann</namePart>
+                        <namePart type="given">Petra</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Kombination der baulichen Gegebenheiten, des menschlichen Vermögens, der Zeitbezug und die ideelle Haltung bilden die Grundlage der Architektur von (Johannes Andreas) Jan Brinkman und (Cornelius Leendert) Leen Van der Vlugt in den 1920er und 30er Jahren, bei der über die bauteilorientierte Ebene hinausgedacht wird. Um dies aufzuzeigen, werden drei ihrer Bauwerke konstruktiv und strukturell untersucht. Es zeigt sich, dass das Huis Sonneveld, die Van Nelle Fabrik und das Sommerhaus in Ommen auf einer architektonischen Konzeption mit viel Licht und Luft basiert, welche durch die Schlüsselbegriffe Vernetzung, Entmaterialisierung und Individualisierung belegbar ist. Vor allem Bauteilsysteme und Bewegungsabläufe nehmen einen hohen Stellenwert ein, wodurch in der innen- wie außenräumlichen Raumkonzeption wechselseitige Bezüge entstehen, die verdeutlichen, dass sich diese Architektur von den Ansprüchen reiner Funktionalität abhebt. Die Begründung hierfür findet sich in der sozioökonomisch wie theosophisch geprägten Haltung von Bauherr und Baumeister durch John Stuart Mill und Jiddu Krishnamurti. Das Resultat ist eine Architektur, in der die bauliche Ebene nicht von der Empfindungsebene des Nutzers getrennt wird und diesem dadurch ein Gefühl von persönlicher wie sozialer Freiheit im gebauten Raum zu Teil wird.</abstract>
+                    <abstract type="content" lang="ger">The combination of the structural conditions, the human capacity, the time reference and the idealistic attitude form the basis of architecture of (Johannes Andreas) Jan Brinkman und (Cornelius Leendert) Leen Van der Vlugt in the 1920s and 30s, thinking beyond the componentoriented level. To demonstrate this, three of their buildings are examined constructively and structurally. It is shown that the Huis Sonneveld, the Van Nelle Factory and the Summer House in Ommen are based on an architectural conception with a lot of light and air, which can be substantiated by the key concepts of networking, dematerialization and individualization. Above all, component systems and movement sequences take on a high significance, whereby reciprocal references arise in the interior as well as exterior spatial conception, which make it clear that this architecture stands apart from the demands of pure functionality. The reason for this can be found in the socio-economically as well as theosophically influenced attitude of client and builder by John Stuart Mill and Jiddu Krishnamurti. The result is an architecture in which the constructional level is not separated from the sensory level of the user, thus giving him a feeling of personal and social freedom in the built space.</abstract>
+                    <subject>
+                        <topic>Van Nelle Fabrik</topic>
+                        <topic>Huis Sonneveld</topic>
+                        <topic>Star Camp Ommen</topic>
+                        <topic>Brinkman &amp; Van der Vlugt</topic>
+                        <topic>Niederländische Moderne</topic>
+                        <topic>Sachlichkeit</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Department Architektur"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-21069</identifier>
+                    <identifier type="sys">HT021211102</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_2106</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2021-05-05</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_2106">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/2106/5/Dissertation_Marx_Katja.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_2106"
+            DMDID="DMD_siegen_opus_2106">
+            <mets:fptr FILEID="FILE0_siegen_opus_2106"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,59 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1201">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Der </nonSort>
+                        <title>Künstler Otto Pankok und ‚Das wilde Heinefeld’ als Ort städtebaulicher und kultureller Freiheit</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Scheffler, Ina</displayForm>
+                        <namePart type="family">Scheffler</namePart>
+                        <namePart type="given">Ina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Im Heinefeld im Düsseldorfer Norden entstand in den 1920er Jahren eine informelle Siedlung. Aus dieser entwickelte sich schrittweise ein reguläres Wohnviertel, ausgestattet mit Infrastruktur und eingebunden in die Stadtlandschaft. Heute sind die dramatischen Entwicklungen, welche die Struktur des Stadtteils Unterrath grundlegend veränderten, im Stadtbild nicht mehr nachzuvollziehen. An diesem besonderen Ort jedoch entstand nicht nur Wohnraum für viele Menschen, er wurde auch zu einem Platz für besondere kulturelle Entwicklungen. Die Gegebenheiten vor Ort wurden Anlass für Begegnungen, gegenseitiges Kennenlernen und für die Schaffung neuer Räume. Im Kontext der Siedlung entstanden kulturelle Leistungen, in einer Situation bitterster Armut schufen die Menschen Situationen, die als schöpferisch und konstruktiv beschrieben werden können.</abstract>
+                    <subject>
+                        <topic>Düsseldorf</topic>
+                        <topic>Roma</topic>
+                    </subject>
+                    <classification authority="ddc">720</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-12015</identifier>
+                    <identifier type="sys">HT020642370</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1201</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1201">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1201/1/Scheffler_Der_Kuenstler_Otto_Pankok.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1201"
+            DMDID="DMD_siegen_opus_1201">
+            <mets:fptr FILEID="FILE0_siegen_opus_1201"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

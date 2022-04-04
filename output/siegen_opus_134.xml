@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_134">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Untersuchung und Evaluierung von Bildqualitätsverlusten nach verlustbehafteter Bilddatenkompression</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kalthoff, Oliver</displayForm>
+                        <namePart type="family">Kalthoff</namePart>
+                        <namePart type="given">Oliver</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">1999</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The advantages of digitizing medical radiographs are twofold. First, they can be transmitted via networks, second, they may be archived on appropriate storage devices. Modern equipment for medical imaging already provides digital images, therefore post-digitization can be discarded. Depending on medical investigation the amount of image data to be stored can be very large. As a consequence digital image compression schemes have been developed in order to reduce
+transmission times on networks and seizure on digital storage media. One distinguishes between lossless and lossy compression methods. In the first case a compressed/decompressed radiograph differs in no detail from the original radiograph whereas the second method introduces a loss of image quality and/or information. Lossless image compression is limited by a maximum compression factor of roughly 2.5. In lossy image compression the compression factor is
+unlimited but one can observe a degradation in image quality dependent on the compression factor. This might result in a wrong diagnosis. 
+In order to profit from lossy image compression without introducing smearing or blurring in radiographs resulting in a wrong diagnosis one has to establish quantitative image quality measures. These measures should objectively keep track of image degradation during lossy image data reduction. They should help the user estimating the highest compression factor for which a safe and error-free diagnosis is still possible. An optimization between tolerable image quality losses and a sufficiently high compression factor can be achieved. 
+The present work introduces a method for calculating image quality parameters in a specialized field of medical imaging: coronary arteriography. In order to avoid calculating global image quality measures (like the mean squared error MSE) three different algorithms are used to subdivide an image into its diagnostically relevant parts. These are vessel regions, their boundaries and edge brim points. Thereafter image quality parameters are calculated in the
+diagnostically relevant image regions. The subdivision of the coronary arteriographs and the following calculation of image quality parameters allows to study the effects of lossy image compression in the diagnostically image regions separately. The parameters are dependent on the compression factor and consider image noise.  With quantitative and reproducible image quality measures one is able to calculate image quality degradations in arbitrary coronary arteriographs. Cumbersome re-investigations on image quality losses after the application of a new (i.e. another) lossy compression algorithm can be avoided.
+The compression algorithm used is based on Daubechies-4 Scaling- and Wavelet-functions. It was chosen since it introduces small objective image degradations although the compression factor can be chosen quite high. Diagnostically relevant image regions are preserved during lossy compression. This can be proven by the image quality parameters. The effects of lossy image
+compression on diagnostically relevant image regions in coronary arteriography are shown in three examples. As a conclusion the benefits and limitations of the introduced method are presented.</abstract>
+                    <subject>
+                        <topic>coronary arteriography</topic>
+                        <topic>lossy image compression</topic>
+                        <topic>image quality measures</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 7, Physik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1342</identifier>
+                    <identifier type="sys">HT011166480</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_134</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>1999-08-19</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_134">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/134/1/kalthoff.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_134"
+            DMDID="DMD_siegen_opus_134">
+            <mets:fptr FILEID="FILE0_siegen_opus_134"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

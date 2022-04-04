@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_285">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Neuartige DEPFET-RNDR-Detektoren im experimentellen Betrieb</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wölfel, Stefan</displayForm>
+                        <namePart type="family">Wölfel</namePart>
+                        <namePart type="given">Stefan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2007</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Gegenstand dieser Arbeit ist die experimentelle Untersuchung von halbleiterbasierten Strahlungsdetektoren, die auf dem Konzept des DEPFETs aufbauen. Der DEPFET ist das zentrale aktive Element eines Detektorsystems, mit dem geringste Ladungsmengen indirekt und sehr rauscharm gemessen werden können. Die Analyse der physikalischen Mechanismen im dynamischen Detektorbetrieb stellt dabei den Forschungsschwerpunkt dar. Beispiele dieser Mechanismen sind z.B. die Abläufe bei der Ladungsmessung, die Abhängigkeiten der detektorintrinsischen Verstärkung oder das Einsetzten von Stoß-Ionisation.
+Der Hauptteil der Arbeit befasst sich mit Simulationen und Messungen an DEPFET-RNDR-Strukturen. Bei dieser neuartigen DEPFET-Variante wird die Möglichkeit der indirekten Auslese ausgenutzt, um eine gesammelte Ladungsmenge beliebig oft auszulesen. Durch eine Mittelwertbildung der dabei gewonnenen Messwerte wird die statistische Unsicherheit der Ladungsmessung verringert. Mit dieser Methode ist eine Reduzierung des
+Rauschens bis in den Sub-Elektronen-Bereich möglich, wodurch der Nachweis diskreter Elektronenanzahlen erreicht wird. Die Stärke dieses Auslesekonzepts zeigt sich in der Verwendung als optischer Photonendetektor. Hierbei kann die Menge einzelner Photonen, die den Detektor erreicht, derart präzise bestimmt werden, dass damit eine exakte Messung der tatsächlichen Anzahl möglich ist. Experimentell kann dies für eine Menge bis ca. 500 Photonen gezeigt werden.</abstract>
+                    <abstract type="content" lang="eng">Topic of this thesis is the experimental investigation on semiconductor radiation-detectors, which are based on the DEPFET-concept. The DEPFET is the active element of a detectorsystem, which is is able to determine the amounts of charges indirect and with a very low noise value. The main topic is the analysis of the detector&apos;s physical mechanisms in dynamical operating modes. Such mechanisms are, for example, the process of the charge measurement, the dependencies of the detector-intrinsic amplification or the investigations on impact-ionization.
+The main part of the work deals with simulations and measurements on DEPFET-RNDR-structures. By using this novel DEPFET-variant the indirect readout is used to measure collected charge arbitrarily often. Taking the mean-value all of these measurements the statistical uncertainty of the overall charge measurement is reduced. With the method a sub-electron noise value can be reached, so that discrete numbers of collected electrons can be determined. The big advantage of the concept shows up, by using it as an optical photon-detector. By this means the amount of singe optical photons, which interacted in the detector, can be measured that precise, that the exact number of photons can be determined. This was experimentally proven for numbers of photons as high as 500.</abstract>
+                    <subject>
+                        <topic>Detektor-Array</topic>
+                        <topic>DEPFET</topic>
+                        <topic>optischer Einzelphotonen-Nachweis</topic>
+                        <topic>RNDR-Detektor</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 7, Physik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-2853</identifier>
+                    <identifier type="sys">HT015312303</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_285</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2007-07-25</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_285">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/285/1/woelfel.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_285"
+            DMDID="DMD_siegen_opus_285">
+            <mets:fptr FILEID="FILE0_siegen_opus_285"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

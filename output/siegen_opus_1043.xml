@@ -1,0 +1,58 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1043">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Die </nonSort>
+                        <title>Methode der Grundlegung und der Übergang von der gemeinen sittlichen zur philosophischen Vernunfterkenntnis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schönecker, Dieter</displayForm>
+                        <namePart type="family">Schönecker</namePart>
+                        <namePart type="given">Dieter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bookPart</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">1997</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Hans Wagner hat in seinem Beitrag über „Hilflose Belesenheit und hilfreiche Textanalyse“ davor gewarnt, sich von gleichen oder ähnlichen Wörtern, Ausdrücken und Formulierungen dazu verleiten zu lassen, allzu vorschnell auf sachliche Gleichheiten oder Ähnlichkeiten zu schließen. Natürlich kann die Hilflosigkeit mancher anderer mangelhaften Textanalysen in der Kantliteratur auch ganz andere Gründe haben. Einer dieser Gründe besteht, banal genug, in der fehlenden Bereitschaft zu wirklicher, und das heißt: detailbesessener, unzufrieden bleibender und sich von Interpretationsparadigmen lösender Analyse Kantischer Texte und damit Kantischer Theorien.</abstract>
+                    <subject>
+                        <topic>Kant, Immanuel</topic>
+                    </subject>
+                    <classification authority="ddc">100</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-10436</identifier>
+                    <identifier type="sys">HT019124135</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1043</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBookPart</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1043">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1043/1/Die_Methode_der_Grundlegung_und_der_Uebergang_von_der_gemeinen_sittlichen_zur_philosophischen_Vernunfterkenntnis_Schoenecker.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1043"
+            DMDID="DMD_siegen_opus_1043">
+            <mets:fptr FILEID="FILE0_siegen_opus_1043"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

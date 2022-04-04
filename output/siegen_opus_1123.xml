@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1123">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Algorithmusunterstützte Multisensorintegration zur langzeitstabilen Objektverfolgung und Bewegungserkennung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kamil, Mustafa</displayForm>
+                        <namePart type="family">Kamil</namePart>
+                        <namePart type="given">Mustafa</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die für die inertiale low-cost Navigation verwendete, sehr kleine, leichte und hochverfügbare Hardware erlaubt die Nutzung MEMS-basierter inertialer Sensoren, die eine besonders kostengünstige und flexible Realisierbarkeit einer breiten Fülle industrieller, medizinischer oder konsumorientierter Anwendungen bieten. Die Anwendbarkeit dieser Sensoren wurde bislang allerdings aufgrund ihrer Leistungsfähigkeit lediglich auf einfache, nichtintelligente Anwendungen in Smartphones, Tablet-PCs, etc. begrenzt, beispielsweise zur Schockerkennung, zur Vibrations¬messung oder zur orientierungsabhängigen Rotation der Bildschirmanzeige.
+Die Motivation der vorliegenden Arbeit liegt in der Erweiterung der aktuell verfügbaren Anwendungsbandbreite kostengünstiger inertialer Navigationssysteme (auch: INS) um intelligente Applikationen der langzeitstabilen Objektverfolgung und Bewegungserkennung. 
+Bei der Objektverfolgung wird eine Sensordatenfusion zwischen einem Low-cost INS und einem GPS-Referenznavigationssystem auf Basis einer indirekten Kalman-Filterung realisiert. Dabei wird das Potential der Zweifilterglättung validiert, die während möglicher Ausfälle der Referenznavigation schnell anwachsenden Fehler der inertialen Navigation zu reduzieren. Eine Vereinfachungsmethode wird angewandt, um die Berechnung inverser Kovarianzmatrizen bei der Glättung zu vermeiden, sodass numerischen Instabilitäten vorgebeugt und die algorithmische Effizienz gesteigert werden können.
+Mit dem Ziel der Entwicklung einer zuverlässigen und einfachen Möglichkeit einer computergestützten Bewegungsanalyse und –validierung als einer Schlüsseltechnologie zur Optimierung von Bewegungsabläufen stellt die vorliegende Arbeit eine algorithmische Grundlage zur referenzlosen Bewegungserkennung unter Nutzung kosten-günstiger inertialer Sensoren zur Verfügung. Der vorgestellte Ansatz basiert auf der Theorie der Hidden-Markov-Modelle sowie auf der stochastischen Modellierung inertial messbarer Bewegungsprofile mit Hilfe von Markov-Ketten.
+Die Ergebnisse der Arbeit werden durch eine Reihe von Experimenten hinsichtlich der Zuverlässigkeit und der Stabilität der vorgestellten Ansätze validiert. Die finalen Lösungen arbeiten eigenständig, sind kostengünstig, klein, leicht und lassen dabei eine unbeschränkte Langzeitanwendung zu.</abstract>
+                    <abstract type="content" lang="eng">Since the required hardware for low-cost inertial navigation is very small, low-weight and widely available in the market, using MEMS-based sensors promises various industrial, medical or consumer entertainment applications to be realized at very low manufacturing costs. Due to the performance these sensors have shown, their applicability such as shaking detection, vibration measurement or orientation-dependent screen view rotation, has been limited to just simple, non-intelligent tasks in smart phones, tablets etc. 
+The present research is motivated by enhancing the currently available applicability of low-cost inertial navigation systems (also: INS), towards intelligent applications of long-term object tracking and motion recognition. 
+The object tracking makes use of a loose coupling integration method based on Kalman-filtering in order to realize a sensor fusion between low-cost INS and GPS reference navigation. This work shows the performance of two-filter-smoothing to reduce the growth of errors during potential outages of the reference navigation. A simplification technique is applied to avoid the calculation of inverse covariance matrices for the smoothing, which reduces the possibility of numerical instabilities while increasing the algorithms’ efficiency. 
+Aiming towards a reliable and simple possibility of computer-assisted motion analysis and validation as a key for motion optimization, the present work provides an algo-rithmic framework for reference-less motion analysis and validation using low-cost inertial sensors. The developed algorithms are based on the theory of Hidden-Markov-Models and on stochastical modelling of inertially measurable motion profiles using Markov-chains. 
+The research results are validated by a series of experiments in order to verify the reliability and the stability of the present approaches. The final solutions are stand-alone, low-cost, miniature-size and low-weight, while being capable of unlimited long-term operation.</abstract>
+                    <subject>
+                        <topic>Inertialvermessung</topic>
+                        <topic>Inertiale Navigation</topic>
+                        <topic>Multisensorintegration</topic>
+                        <topic>Estimationstheorie</topic>
+                        <topic>Inertial navigation</topic>
+                        <topic>Estimation theory</topic>
+                        <topic>Pattern Recognition</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="NRW-Zentrum für Sensorsysteme (ZESS)"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11237</identifier>
+                    <identifier type="sys">HT019309593</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1123</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2017-01-16</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1123">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1123/1/Dissertation_Mustafa_Kamil.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1123"
+            DMDID="DMD_siegen_opus_1123">
+            <mets:fptr FILEID="FILE0_siegen_opus_1123"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

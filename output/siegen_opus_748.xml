@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_748">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Vorhersage des Einsatzhärtungsergebnisses aus dem Aufkohlungsprofil und den Abschreck- und Anlassbedingungen</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Prediction of the case hardening result from the carbon depth distribution and the quenching and tempering conditions</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kaffenberger, Marco</displayForm>
+                        <namePart type="family">Kaffenberger</namePart>
+                        <namePart type="given">Marco</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In der vorliegenden Arbeit wird die Entwicklung der Software SimCarb QuenchTemp für das computergestützte Einsatzhärten beschrieben, die die Simulationsaufgabe löst, in welcher Weise sich eine bestimmte, nach dem Aufkohlen erreichte Kohlenstofftiefenverteilung material-, werkstück- und prozessabhängig auf die nach dem Abschrecken bzw. weiteren Anlassen resultierenden Härteprofile und die Gefügezusammensetzung überträgt. Hierfür werden ein empirisches und ein thermophysikalisches Modell formuliert und implementiert.
+Im empirischen Modell werden Jominy-Stirnabschreckkurven mit einer in der Literatur vorgeschlagenen Formel anhand der chemischen Zusammensetzung und der Austenitkorngröße des verwendeten Stahls berechnet. Die Auswertung dieser Stirnabschreckkurven findet am maßgeblichen Stirnflächenabstand statt. Die Werkstückgeometrie wird durch einen repräsentativen Zylinderdurchmesser charakterisiert. Die Kühlwirkung des Abschreckmittels beschreibt der Grossman’sche Abschreckintensitätsfaktor. Zur Berechnung der Anlass- aus der Abschreckhärte werden von der Kohlenstoffkonzentration abhängige Abminderungsfaktoren verwendet.
+Im thermophysikalischen Modell wird eine zeitliche Temperaturverteilung für die unendlich lange Vollzylinderprobe während des Abschreckprozesses simuliert. Hierzu wird eine modifizierte Fourier’sche Temperaturleitungsgleichung mithilfe einer expliziten Finite-Differenzen-Methode gelöst. Bei der Simulation werden temperaturabhängige Wärmeübergangs- und Wärmeleitkoeffizienten angewendet. Zur Bestimmung der tiefenabhängigen Gefügeausbildung und Härteverteilung werden die betreffenden Abkühlkurven der simulierten Temperaturverteilung mit Abkühlkurven aus kontinuierlichen Zeit-Temperatur-Umwandlungsschaubildern verglichen. Diese Abkühlkurven werden zuvor für handelsübliche Einsatzstähle berechnet und in SimCarb QuenchTemp programmiert. Die Anlasshärte wird im thermophysikalischen Modell abhängig von der Abschreckhärte aus Hollomon-Jaffe-Parametern berechnet.</abstract>
+                    <abstract type="content" lang="eng">In the present thesis, the development of the software SimCarb QuenchTemp for computer aided case hardening is described that solves the simulation task, in which way a certain carbon depth distribution obtained by carburizing is transferred to the resulting hardness profile and microstructure composition respectively after quenching and subsequent tempering, depending on the material, workpiece and process. For this purpose, an empirical and a thermophysical model are formulated and implemented.
+In the empirical model, Jominy end quench curves are calculated from a formula proposed in the literature by means of the chemical composition and the austenite grain size of the used steel. The evaluation of these end quench curves occurs at the applicable distance from the end face. The workpiece geometry is characterized by a representative cylinder diameter. The cooling capability of the quenchant is described by the Grossman quench severity. For the calculation of the tempering from the quenching hardness, diminution factors depending on the carbon concentration are applied.
+in the thermophysical model, a time distribution of the temperature is simulated for the infinitely long solid cylinder during the quenching process. For this purpose, a modified Fourier temperature conduction equation is solved by means of an explicit finite difference method. Temperature dependent coefficients of heat transfer and conduction are used in the simulation. To determine the depth dependent microstructure development and hardness distribution, the relevant cooling curves of the simulated temperature distribution are compared with cooling curves of continuous cooling transformation diagrams. Theses cooling curves are computed beforehand for customary case hardening steels and programmed in SimCarb QuenchTemp. Depending on the quenching hardness, the tempering hardness is calculated from Hollomon-Jaffe parameters in the thermophysical model.</abstract>
+                    <subject>
+                        <topic>Einsatzhärten</topic>
+                        <topic>Härtesimulation</topic>
+                        <topic>Abschrecken</topic>
+                        <topic>Anlassen</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Werkstofftechnik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-7485</identifier>
+                    <identifier type="sys">HT017667132</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_748</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2013-05-09</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_748">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/748/1/kaffenberger.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_748"
+            DMDID="DMD_siegen_opus_748">
+            <mets:fptr FILEID="FILE0_siegen_opus_748"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

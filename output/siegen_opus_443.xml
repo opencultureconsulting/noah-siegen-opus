@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_443">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Konzeption und Diskussion zu E-Learning für Internetworking in der beruflichen Bildung unter Weiterentwicklung des Didaktischen Systems</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schwidrowski, Kirstin</displayForm>
+                        <namePart type="family">Schwidrowski</namePart>
+                        <namePart type="given">Kirstin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In dieser Dissertationsschrift wird ein fachdidaktisch fundiertes E-Learning-Modell für die berufliche Weiterbildung entwickelt. Ziel ist es, die abwechslungsreiche und nachhaltige Gestaltung von Lehr-Lernprozessen zum Thema Internet zu unterstützen.
+Das E-Learning-Modell berücksichtigt Erkenntnisse aus Fachdidaktik, E-Learning-Forschung und beruflicher Weiterbildung. Bei der Gestaltung von Lehr-Lernprozessen betont es insbesondere die Aspekte
+· Förderung von Schlüsselkompetenzen,
+· Aneignung der Fachsprache und
+· selbstgesteuertes Lernen.
+Als theoretische Basis dient das fachdidaktische Konzept der didaktischen Systeme. Die bildungstheoretische Perspektive wird ergänzt um Rückkopplung aus der Praxis.</abstract>
+                    <subject>
+                        <topic>Fachdidaktik</topic>
+                        <topic>Didaktisches System</topic>
+                        <topic>E-Learning-Modell</topic>
+                        <topic>Internetworking</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Praktische und Technische Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4432</identifier>
+                    <identifier type="sys">HT016392082</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_443</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2010-05-24</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_443">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/443/1/schwidrowski.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_443"
+            DMDID="DMD_siegen_opus_443">
+            <mets:fptr FILEID="FILE0_siegen_opus_443"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

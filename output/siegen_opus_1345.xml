@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1345">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Remote and on-site laboratory system for low-power digital circuit design</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>AbuShanab, Shatha</displayForm>
+                        <namePart type="family">AbuShanab</namePart>
+                        <namePart type="given">Shatha</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The design of an efficient digital circuit in term of low-power has become a very challenging issue. For this reason, low-power digital circuit design is a topic addressed in electrical and computer engineering curricula, but it also requires practical experiments in a laboratory. This PhD research investigates a novel approach, the low-power design laboratory system by developing a new technical and pedagogical system. The low-power design laboratory system is composed of two types of laboratories: the on-site (hands-on) laboratory and the remote laboratory. It has been developed at the Bonn-Rhine-Sieg University of Applied Sciences to teach low-power techniques in the laboratory. Additionally, this thesis contributes a suggestion on how the learning objectives can be complemented by developing a remote system in order to improve the teaching process of the low-power digital circuit design. This laboratory system enables online experiments that can be performed using physical instruments and obtaining real data via the internet. The laboratory experiments use a Field Programmable Gate Array (FPGA) as a design platform for circuit implementation by students and use image processing as an application for teaching low-power techniques.
+This thesis presents the instructions for the low-power design experiments which use a top-down hierarchical design methodology. The engineering student designs his/her algorithm with a high level of abstraction and the experimental results are obtained and measured at a low level (hardware) so that more information is available to correctly estimate the power dissipation such as specification, latency, thermal effect, and technology used. Power dissipation of the digital system is influenced by specification, design, technology used, as well as operating temperature. Digital circuit designers can observe the most influential factors in power dissipation during the laboratory exercises in the on-site system and then use the remote system to supplement investigating the other factors. Furthermore, the remote system has obvious benefits such as developing learning outcomes, facilitating new teaching methods, reducing costs and maintenance, cost-saving by reducing the numbers of instructors, saving instructor time and simplifying their tasks, facilitating equipment sharing, improving reliability, and finally providing flexibility of usage the laboratories.
+The assessment section of this thesis describes teaching activities performed during the four years spent designing and developing the low-power design on-site and remote systems. The on-site system and the remote system were used by Electrical Engineering students at the Bonn-Rhine-Sieg University of Applied Sciences. The low-power design laboratory system is the first system for low-power education and the remote system is one of only a few available laboratories in Germany. Teaching activities performed during the Summer Semester 2015 were concerned with teaching low-power techniques in the hands-on laboratory using only the on-site system, and during the Summer Semester 2016 focused on teaching the low-power design laboratory using the on-site system and the remote system. The assessment in Summer Semester 2015 evaluates the effectivity of using the laboratory system in teaching the concepts of low-power design in order to further improve and develop the system. The aim of assessment for the Summer Semester 2015, as well as Summer Semester 2016, is to study the achieved learning objectives, the laboratory reports with and without the support of the remote system, and to analyse the students’ use of the remote system by the students. The assessment and the students’ opinions provide positive feedback on this approach and verify that the low-power design on-site and remote laboratory system is indeed a successful and motivating learning tool, and also the remote system is a positive and effective complementary tool for remotely reusing the on-site system and achieving additional learning objectives that cover most conceptual theories in low-power digital circuit design.</abstract>
+                    <abstract type="content" lang="ger">In den Studiengängen Elektrotechnik und Informatik stellt der Entwurf energieeffizienter digitaler Schaltkreise Studierende vor große Herausforderungen. Daher wird dieses Thema in den jeweiligen Lehrplänen nicht nur theoretisch behandelt, sondern auch in Form praktischer Versuche im Labor aufgegriffen. Um Studierenden die praktischen Low-Power Techniken im Labor im Präsenzlabor zu vermitteln, wurde dazu an der Hochschule Bonn-Rhein-Sieg EduPow, ein Low-Power Design System, entwickelt. In dieser Dissertation wird diskutiert, wie das Erreichen der Lernziele durch ein Remote-System ergänzend unterstützt werden kann, um die Vermittlung digitaler Low-Power Schaltkreise zu verbessern. Diese Arbeit untersucht den methodischen Zugang des Low-Power Laborsystems als neues technisches und didaktisches Konzept. Das Low-Power Laborsystem stellt Online-Experimente zur Verfügung, die über das Internet mit existierender Hardware durchgeführt werden und somit reale Ergebnisse liefern. Die Studierenden erwerben Kenntnisse zu Low-Power Techniken am Beispiel von Bildverarbeitungsalgorithmen. Zur Implementierung der Schaltkreise wird als Designplattform ein FPGA(Field Programmable Gate Array)-System eingesetzt.
+Diese Dissertation stellt die Versuchsanleitungen für Low-Power Experimente vor. Dabei wird eine hierarchischen Top-Down-Design-Methodologie verfolgt: Die Studierenden der Ingenieurwissenschaften entwerfen Algorithmen auf einer hohen Abstraktionsebene; die Versuchsdaten werden auf einem niedrigen (Hardware-)Niveau erhoben und gemessen, um mehr Informationen zur korrekten Abschätzung des Energieverlustes zur Verfügung zu haben. Der Energieverlust eines digitalen Systems wird durch Spezifikation, Design, verwendete Technologie sowie Betriebstemperatur beeinflusst. Nahezu alle diese Faktoren können in Laborübungen sowohl im Low-Power System im Präsenzlabor wie auch im Remote-System beobachtet bzw. bereitgestellt werden. Darüber hinaus hat das Low-Power Remote System offensichtliche Vorteile, wie die Entwicklung von Lernzielen, die Ermöglichung neuer Lehrmethoden, die Reduzierung von Kosten und Wartung, Kostenersparnis durch eine Verringerung der Anzahl von Lehrpersonen, Ersparnisse bei der Lehrzeit der Dozenten und Arbeitserleichterung, erleichterte gemeinsame Nutzung von Ausstattung, eine Verbesserung der Verlässlichkeit und schließlich eine flexible Nutzung der Labore.
+Im Abschnitt „Assessment“ dieser Dissertation werden die Lehrtätigkeiten beschrieben, die über einen Zeitraum von drei Jahren zu Design und  Entwicklung des Low-Power Systems im Präsenzlabor und des Low-Power Remote Systems vollzogen wurden. Das Low-Power System im Präsenzlabor und das Low-Power Remote System wurden von Studierenden der Elektrotechnik an der Hochschule Bonn-Rhein-Sieg genutzt. Dieses Low-Power Remote System ist eines von wenigen in Deutschland. Die Lehre von Low-Power Techniken im Sommersemester 2015 erfolgte ausschließlich in den Low-Power System-Laboren im Präsenzlabor; im Sommersemester 2016 wurde sowohl in den Laboren im Präsenzlabor wie auch im Low-Power Remote System gelehrt. Die Evaluation im Sommersemester 2015 zielte darauf ab, die Effektivität der Nutzung eines Low-Power Designsystems in der Lehre zu erheben, um das System zu verbessern und weiterzuentwickeln. Das Ziel im Sommersemester 2015 und 2016 war es, die erreichten Lernziele und die Laborberichte mit und ohne Unterstützung des Remote-System zu untersuchen, wie auch die Nutzung des Low-Power Remote Systems durch die Studierenden zu analysieren. Der Evaluationsprozess und die sehr positiven Rückmeldungen der Studierenden zu diesem Ansatz deuten darauf hin, dass Low-Power Systeme im Präsenzlabor wie auch Low-Power Remote Systeme erfolgreiche und motivierende Lernwerkzeuge sind.</abstract>
+                    <subject>
+                        <topic>Field programmable gate array</topic>
+                        <topic>FPGA</topic>
+                        <topic>Remote laboratory</topic>
+                        <topic>Digital design</topic>
+                        <topic>Low-power design</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-13459</identifier>
+                    <identifier type="sys">HT019787374</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1345</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2018-08-07</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1345">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1345/1/Dissertation_Shatha_Sail_AbuShanab.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1345"
+            DMDID="DMD_siegen_opus_1345">
+            <mets:fptr FILEID="FILE0_siegen_opus_1345"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

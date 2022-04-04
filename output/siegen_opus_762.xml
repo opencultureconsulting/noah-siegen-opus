@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_762">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Stereo vision for facet type cameras</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Jiang, Tao</displayForm>
+                        <namePart type="family">Jiang</namePart>
+                        <namePart type="given">Tao</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Ausgehend von den Facettenaugen der Insekten haben Wissenschaftler seit 10 Jahren viele künstliche Facettenaugensysteme erstellt, die auf der Multi-Apertur-Optik basieren. Im Vergleich zu den auf Single-Apertur-Optik basierenden Systemen sind diese Systeme kleiner und leichter. Außerdem haben solche Systeme ein großes Sichtfeld und eine hohe Empfindlichkeit. Das eCley (Electronic cluster eye) ist ein neues künstliches Facettenaugensystem, das Bilder mit Super-Pixel-Auflösung erstellen kann, welches vom Sehsystem der parasitären Wespe „Xenos Peckii“ inspiriert ist. Wegen seiner ausgezeichneten Fähigkeiten sind eCley-Systeme in den Bereichen ärztliche Untersuchung, Identitätsauthentifizierung, Roboternavigation und Flugkörperlenkung angewendet worden. Aber solche Anwendungen basieren nur auf der Datenverarbeitung im 2D-Bereich. Wenn jedoch mit einem eCley-System räumliche 3D-Daten erzeugt werden können, kann man nur mit eCley 3D-Rekonstruktion, Lokalisierung und Entfernungsmessung erledigen, die man vorher mit anderen Geräten durchführen musste.
+Zwar können je zwei horizontal benachbarte Mikrokameras im eCley als ein Stereo-Sehsystem genutzt werden, aber es ist nicht leicht, die räumlichen Informationen durch so kleine Kameras zu erhalten. Die von der Mikrokamera gemachten Fotos haben nur eine ziemlich niedrige Auflösung. Außerdem ist die Tiefenveränderung der Szene kleiner als 1 Pixel, wenn die Entfernung größer als 86mm ist, d.h. dass viele verbreitete Algorithmen zum Stereosehen mit eCley nicht gut funktionieren können.
+Um die verbreiteten Stereosehalgorithmen mit dem eCley besser anwenden zu können, wurde eine neue Methode dafür im Bereich des Subpixel-Stereosehen erstellt. Diese Methode basiert auf der positiven Eigenschaft des eCleys, dass die Kanten des Ziels im eCley sehr gut behalten werden können. Im Übergang zwischen Bilder benachbarter Mikrokameras gibt es zahlreiche Tiefeninformationen. Mit diesen Tiefeninformationen kann der entsprechende Subpixelabstand ausgerechnet werden. Danach kann die Entfernung des Ziels mit dem Subpixelabstand berechnet werden. Aufgrund der Struktur des eCleys haben wir in dieser Doktorarbeit ein mathematisches Modell des Stereosehens für eCley abgeleitet. Dazu werden die optische Ausrichtung und die geometrische Korrektur, die die Voraussetzungen zur präzisen Messung sind,  diskutiert. Zum Schluss haben wir die Subpixel-Baseline-Methode, die auf der Helligkeit und den Gradienten basiert, und die Echtzeit-Messung für den Subpixelabstand, die auf der Eigenschaft der Kanten basiert, entwickelt. 
+Um unsere Methode zu überprüfen, haben wir viele künstliche und reale Szenenbilder angewendet. Das Ergebnis zeigt, dass unsere Methode die Messung zum Subpixelabstand für Stereopixelpaare ausgezeichnet realisiert hat. Außerdem funktioniert diese Methode in vielen komplexen Umgebungen robust. Das bedeutet, dass die Methode die Fähigkeit des eCleys verbessert hat, die 3D-Umgebung zu erkennen. Das eCley kann daher in verschiedenen 3D-Anwendungsbereichen eingesetzt werden.</abstract>
+                    <abstract type="content" lang="eng">In the last decade, scientists have put forth many artificial compound eye systems, inspired by the compound eyes of all kinds of insects. These systems, employing multi-aperture optical systems instead of single-aperture optical systems, provide many specific characteristics, such as small volume, light weight, large view, and high sensitivity. Electronic cluster eye (eCley) is a state-of-the-art artificial superposition compound eye with super resolution, which is inspired by a wasp parasite called the Xenos Peckii. Thanks to the inherent characteristics of eCley, it has successfully been applied to aspects of medical inspection, personal identification, bank safety, robot navigation, and missile guidance. However, all these applications only involve a two-dimensional image space, i.e., no three-dimensional (3D) information is provided. Conceiving of the ability of detecting 3D space information using eCley, the performances of 3D reconstruction, object position, and distance measurement will be obtained easily from the single eCley rather than requiring extra depth information devices. In practice, there is a big challenge to implementing 3D space information detection in the minimized eCley, although structures similar to stereo vision exist in each pair of adjacent channels. In the case of an imaging channel with short focal length and low resolution, the determination of the depth information not only is an ill-posed problem but also varies in the range of one pixel from quite near distance (≥86 mm), which restricts the applicability of popular stereo matching algorithms to eCley. Taking aim at this limitation, and with the goal of satisfying the real demands of applications in eCley, this thesis mainly studies a novel method of subpixel stereo vision for eCley. This method utilizes the significant property of object edges still retained in eCley, i.e., the transitional areas of edges contain rich information including the depths or distances of objects, to determine subpixel distances of the corresponding pixel pairs in the adjacent channels, to further obtain the objects&apos; depth information by employing the triangle relationship. In the whole thesis, I mainly deduce the mathematical model of stereo vision in eCley theoretically based on its special structure, discuss the optical correction and geometric calibration that are essential to high precision measurement, study the implementation of methods of the subpixel baselines for each pixel pair based on intensity information and gradient information in transitional areas, and eventually implement real-time subpixel distance measurement for objects through these edge features. To verify the various methods adopted, and to analyze the precision of these methods, I employ an artificial synthetical stereo channel image and a large number of real images captured in diverse scenes in my experiments. The results from either a process or the whole method prove that the proposed methods efficiently implement stereo vision in eCley and the measurement of the subpixel distance of stereo pixel pairs. Through a sensitivity analysis with respect to illumination, object distances, and pixel positions, I verify that the proposed method also performs robustly in many scenes. This stereo vision method extends the ability of perceiving 3D information in eCley, and makes it applicable to more comprehensive fields such as 3D object position, distance measurement, and 3D reconstruction.</abstract>
+                    <subject>
+                        <topic>stereosehen</topic>
+                        <topic>künstliche Facettenaugensysteme</topic>
+                        <topic>subpixel</topic>
+                        <topic>Fassette</topic>
+                        <topic>eCley</topic>
+                        <topic>stereo vision</topic>
+                        <topic>artificial compound eye</topic>
+                        <topic>subpixel</topic>
+                        <topic>facet</topic>
+                        <topic>eCley</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Bildinformatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-7624</identifier>
+                    <identifier type="sys">HT017832106</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_762</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2013-09-26</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_762">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/762/1/jiang.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_762"
+            DMDID="DMD_siegen_opus_762">
+            <mets:fptr FILEID="FILE0_siegen_opus_762"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

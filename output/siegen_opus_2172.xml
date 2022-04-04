@@ -1,0 +1,83 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_2172">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Spatially adaptive Smoothed Particle Hydrodynamics</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Räumlich adaptive Smoothed Particle Hydrodynamics</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Winchenbach, Rene</displayForm>
+                        <namePart type="family">Winchenbach</namePart>
+                        <namePart type="given">Rene</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kolb, Andreas</displayForm>
+                        <namePart type="family">Kolb</namePart>
+                        <namePart type="given">Andreas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Heutzutage ist die Strömungsmechanik ein wichtiges Forschungsgebiet in vielen Bereichen, z. B. bei Spezialeffekten in Filmen, bei der Planung von Küstenstrukturen im Ingenieurwesen oder bei der Simulation astrophysikalischer Phänomene. Obwohl jedes dieser Probleme sehr unterschiedliche Szenarien beinhaltet, verwenden sie alle dasselbe zugrunde liegende physikalische Modell für Flüssigkeitsströmungen, und daher sind auch die Simulationsansätze, die zur Simulation des Modells in jedem Problem verwendet werden, identisch. Ein häufig verwendeter Ansatz ist die Methode der Smoothed Particle Hydrodynamics (SPH), ein Lagrangescher Ansatz zur Lösung der Navier-Stokes-Gleichungen. 
+Idealerweise sollte die Auflösung der Simulation so hoch wie möglich sein, jedoch sind globale Auflösungserhöhungen nicht praktikabel, während vorherige Methoden zur lokalen Auflösungsänderung nicht praktisch nutzbar waren. In dieser Dissertation werden Forschungsarbeiten zu räumlich adaptiven SPH Methoden vorgestellt, die sich mit diesen Einschränkungen befassen, inklusive grundlegender und praktischer Probleme. Die vorgestellten Methdeon erlauben Simulationen mit um Größenordnungen höheren Adaptivitäten als in früheren Ansätzen.
+Der Schwerpunkt der Forschung in dieser Dissertation liegt auf dem Prozess der Aufteilung eines einzelnen Partikels mit niedriger Auflösung in mehrere Partikel mit höherer Auflösung. Durch die Einführung eines kontinuierlichen adaptiven Prozesses mit einem neuartigen zeitlichen Blending und einem neuen Konzept der Umverteilung der Auflösung, wurden Simulationen mit einer um vier Größenordnungen höheren Adaptivität als bisher möglich. Diese Prozesse wurden weiter verbessert indem eine neuartige Optimierungsstrategie für die Verfeinerung verwendet wurde, welche a priori und auch während der Simulation selbst durchgeführt werden kann sowie ein verbessertes zeitliches Blending. Die verbesserten Prozesse stabilisieren die räumlich adaptiven Simulationen erheblich und ermöglichen praktischere und zuverlässigere Simulationen.
+Ein weiterer wichtiger Schwerpunkt der vorgestellten Forschungsarbeiten ist die Behandlung von Rändern bei räumlich adaptiven Simulationen. Unter der Annahme dass die lokalen Grenzen planar sind, wurde eine analytische Lösung für planare Grenzgeometrien verwendet um einen skaleninvarianten Ansatz für die Behandlung von Grenzen zu entwickeln, der für räumlich adaptive Simulationen verwendet werden kann. Die Randbehandlung für nicht-adaptive Simulationen wurde durch diesen Ansatz ebenfalls erheblich verbessert, da dieser genauere Interaktionen mit Randmerkmalen unterhalb der Partikelauflösung ermöglicht.
+Zuletzt werden Verfahren zu GPU-basierten Beschleunigungsstrukturen und Algorithmen erforscht, die die effiziente Implementierung und das Rendern von räumlich adaptiven SPH Simulation ermöglichen. Außerdem werden Methoden für anisotropes Rendering und zur Reduktion vom Speicherverbrauch vorgestellt.</abstract>
+                    <abstract type="content" lang="eng">Fluid mechanics is an important area of research in many fields, e.g., special effects in movies, coastal structure design in engineering or the simulation of astrophysical phenomena. While each of these problems involve very different scenarios, they all use the same underlying physical model for fluid flows, and the simulation approaches used to simulate the fluid in each problem are also the same. One commonly used approach is the Smoothed Particle Hydrodynamics method, which is a Lagrangian approach to solving the Navier-Stokes equations. 
+To obtain better computational performance and more detailed simulations, the achievable resolution of the simulation should be made as high as possible. Uniform, global increases in resolution are however computationally prohibitive, whereas existing methods utilizing local changes in resolution suffer from various issues. This dissertation presents research on spatially adaptive Smoothed Particle Hydrodynamics to address many of these issues, including fundamental problems, e.g., simulation stability, and practical problems, e.g., computational performance. The findings presented in this dissertation allow simulations to have adaptivity orders of magnitudes higher than that in prior work.
+The primary focus of the research in this dissertation is on the process of splitting a single particle with low resolution into many particles with higher resolution. By introducing a continuous adaptive process with a novel temporal blending process and a new concept of resolution sharing, simulations were shown to have adaptivity three orders of magnitude higher than what was previously possible. These processes were then further improved using a novel optimization strategy for refinement that can be carried out a priori and also during the simulation itself, with the latter utilizing evolutionary optimization, as well as an enhanced temporal blending scheme. The improved methods significantly stabilize spatially adaptive simulations, allowing for more practical and reliable simulations.
+Another important focus of the presented research is on boundary handling for spatially adaptive simulations. By assuming the local boundaries are flat, an analytic solution for flat boundary geometries was used to develop a scale-invariant boundary handling approach that can readily be utilized for spatially adaptive simulations. Boundary handling for non-adaptive simulations was also significantly improved by this approach as it allows for more accurate interactions with boundary features below particle resolution.
+Finally, this dissertation also covers research on GPU-based acceleration structures and algorithms that enable the efficient implementation and on-the-fly rendering of spatially adaptive fluids. Mechanisms to both handle anisotropic Smoothed Particle Hydrodynamics simulations and to significantly reduce the memory usage of both adaptive and non-adaptive simulations are also presented.</abstract>
+                    <subject>
+                        <topic>Computersimulation</topic>
+                        <topic>Fluidsimulation</topic>
+                        <topic>Datenstrukturen für GPUs</topic>
+                        <topic>Computer Animation</topic>
+                        <topic>Smoothed Particle Hydrodynamics</topic>
+                        <topic>GPU Datastructures</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Department Elektrotechnik - Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-21725</identifier>
+                    <identifier type="sys">HT021283066</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_2172</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2022-02-16</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_2172">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/2172/3/Dissertation_Rene_Winchenbach.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_2172"
+            DMDID="DMD_siegen_opus_2172">
+            <mets:fptr FILEID="FILE0_siegen_opus_2172"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

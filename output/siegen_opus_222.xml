@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_222">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Diplom-Pädagogen im Arbeitsfeld der Kinder- und Jugendpsychiatrie</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Höfig, Astrid</displayForm>
+                        <namePart type="family">Höfig</namePart>
+                        <namePart type="given">Astrid</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2006</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die vorliegende Dissertation untersucht die Professionalisierung der Berufsgruppe der Diplom-
+Pädagogen in Bezug auf das Arbeitsgebiet der Kinder- und Jugendpsychiatrie sowie den
+Studiengang der Diplom-Pädagogik aus bildungshistorischer Sicht mit den Veränderungen des
+Hochschulrahmengesetzes von 1998.
+Das medizinisch und psychotherapeutisch orientierte Berufsfeld der Kinder- und Jugendpsychiatrie
+wird unter der Forderung nach mehr Pädagogisierung in der Arbeit mit den Kindern und
+Jugendlichen sowie deren Umfeld betrachtet. Es werden pädagogische Aufgaben in dem
+Arbeitskontext beschrieben, die sich von anderen Professionen in dem Tätigkeitsgebiet
+unterscheiden und eine sinnvolle Ergänzung darstellen.
+Die Verknüpfung von Praxis und Wissenschaft ist zwingend erforderlich, um Anforderungsprofile
+für wissenschaftlich ausgebildete Pädagogen erstellen zu können, aber auch um die
+Erziehungswissenschaft als eine vollwertige Wissenschaft in der Arbeit mit psychisch kranken
+Kindern und Jugendlichen sowie deren Familien und Systemen zu akzeptieren.
+Zusätzlich wird die Zukunft des Studiengangs „Diplom-Pädagogik“ in der veränderten
+Hochschullandschaft und unter der Einführung der Studienabschlüsse Master und Bachelor
+betrachtet. Der Studiengang der „Diplom-Pädagogik“ wird zu einer Episode in der deutschen
+Bildungspolitik.</abstract>
+                    <subject>
+                        <topic>Kinderpsychiatrie</topic>
+                        <topic>Jugendpsychiatrie</topic>
+                        <topic>Arbeitsfeld</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 2, Erziehungswissenschaft und Psychologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-2225</identifier>
+                    <identifier type="sys">HT014794834</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_222</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2006-06-11</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_222">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/222/1/hoefig.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_222"
+            DMDID="DMD_siegen_opus_222">
+            <mets:fptr FILEID="FILE0_siegen_opus_222"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

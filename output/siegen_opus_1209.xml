@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1209">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Der </nonSort>
+                        <title>Z-Umrichter in Systemen der regenerativen Energieerzeugung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Steinbring, Manuel</displayForm>
+                        <namePart type="family">Steinbring</namePart>
+                        <namePart type="given">Manuel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In dieser Arbeit steht der Z-Umrichter (ZSI) im Mittelpunkt. Er wird untersucht im Kontext der verteilten Erzeugung elektrischer Energie aus regenerativen Quellen in kleinen Leistungsbereich geeignet für entlegene Regionen. Dabei steht er in Konkurrenz zu anderen bekannten und erprobten Konzepten der Leistungs-elektronik. Die grundsätzliche Aufgabenstellung ist es, die zur Verfügung stehende Leistung nutzbar zu machen. Egal von welcher regenerativen Quelle der Umrichter gespeist wird, unterliegt sie einer unterschiedlich starken Schwankung. Je nach Wasserstand, Sonneneinstrahlung oder Windverhältnissen schwankt die Eingangsspannung und ist so nicht direkt nutzbar. Die Aufgabe der Leistungselektronik ist es, diese schwankende Spannung in geeigneter Weise in eine Wechsel- oder Drehspannung mit konstanter Spannung und konstanter Frequenz umzuwandeln. Der ZSI bietet dabei den besonderen Vorteil, dass er mit variablen Eingangsspannungen, wie sie sich aus regenerativen Quellen oft ergeben, betrieben werden kann. Er ist in der Lage, die Eingangsspannung sowohl hoch als auch herunter zu setzten. Des Weiteren stellt ein Brückenkurzschluss keine Gefahr dar. Er ist vielmehr Teil des Funktionsprinzips und ermöglicht erst die Spannungsverstärkung des ZSI.
+Im Rahmen dieser Arbeit wurden als regenerative Energiequellen Wasserturbinen im Leistungsbereich P</abstract>
+                    <abstract type="content" lang="eng">The present doctoral investigation focuses on the Z-Source Inverter (ZSI) and its application in distributed generation of electrical energy out of renewable sources. The range of low powers is especially considered as it is important for the energy supply in remote and rural regions. The ZSI is considered here as a feasible alternative to other well-known and proven concepts of power electronic systems for the energy conversion.  The basic task for the power generation system is to harvest the available energy under the special conditions imposed by the renewable source. Depending on the water level, sunlight or wind conditions the voltage of the primary source has fluctuations and is not directly usable. Therefore, the power electronics has to convert the fluctuating voltage in an alternating voltage with constant amplitude and frequency. The ZSI seems to be especially suitable for this purpose as it allows an operation with variable input –as it is often the case in renewable sources- and constant output voltage. In addition, it offers an inherent robustness since a shoot through in the power bridge is not dangerous, it is rather part of the functional principle and allows the voltage boosting of the ZSI.
+The research was concentrated to the water turbines in the power range P</abstract>
+                    <subject>
+                        <topic>Wechselrichter</topic>
+                        <topic>Z-Umrichter</topic>
+                        <topic>ZSI</topic>
+                        <topic>Energieerzeugung</topic>
+                        <topic>Z-source inverter</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-12099</identifier>
+                    <identifier type="sys">HT019463454</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1209</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2017-03-20</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1209">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1209/1/Dissertation_Manuel_Steinbring.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1209"
+            DMDID="DMD_siegen_opus_1209">
+            <mets:fptr FILEID="FILE0_siegen_opus_1209"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1027">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Kant über Menschenliebe als moralische Gemütsanlage</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schönecker, Dieter</displayForm>
+                        <namePart type="family">Schönecker</namePart>
+                        <namePart type="given">Dieter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Das am stärksten rezipierte ethische Werk Kants ist, noch vor der Kritik der
+praktischen Vernunft, gewiss die Grundlegung zur Metaphysik der Sitten.1
+Dagegen gehört die Tugendlehre (der zweite Teil von Kants Metaphysik der
+Sitten) traditionell zu den recht stiefmütterlich behandelten Texten des
+Kantischen Werkes. Das gilt für das Buch als Ganzes, aber auch für einzelne
+Elemente daraus (mit Ausnahme vielleicht der berühmten Unterscheidung
+von Wille und Willkür, die allerdings zur generellen Einleitung in die Metaphysik der Sitten gehört). Obwohl der Tugendlehre und in ihr auch der Rolle
+des Gefühls in letzter Zeit etwas mehr Aufmerksamkeit geschenkt wurde,
+ist es daher vielleicht nicht überraschend, wenn auch nicht akzeptabel, dass
+es nach wie vor weder eine gründliche Analyse der moralischen Gemütsanlagen
+in Kants Tugendlehre gibt noch eine solche Analyse zur Menschenliebe
+als eine dieser Gemütsanlagen.</abstract>
+                    <subject>
+                        <topic>Kant, Immanuel</topic>
+                        <topic>Tugendlehre</topic>
+                    </subject>
+                    <classification authority="ddc">100</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-10278</identifier>
+                    <identifier type="sys">HT019098671</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1027</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1027">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1027/1/Kant_ueber_Menschenliebe_als_moralische_Gemuetsanlage_Schoenecker.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1027"
+            DMDID="DMD_siegen_opus_1027">
+            <mets:fptr FILEID="FILE0_siegen_opus_1027"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

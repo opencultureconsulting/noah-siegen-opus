@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_180">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Sicherheits- und Verfügbarkeitsanalyse komplexer Kfz-Systeme</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Safety- and availability-analysis of complex automotive systems</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mahmoud, Rachad</displayForm>
+                        <namePart type="family">Mahmoud</namePart>
+                        <namePart type="given">Rachad</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2000</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In der vorliegenden Arbeit wird eine Methodik zur geschlossenen Bewertung der F ehlerhäufigkeit, V erfügbarkeit, S icherheit und W irtschaftlichkeit (F/V/S/W) komplexer sicherheitsrelevanter Kfz-Systeme entwickelt und anhand von Beispielen veranschaulicht. Diese Methodik fußt auf einer Fusion von Fehlerbäumen und Markov-Ketten zu hierarchischen Modellen. 
+Die hierarchische Modellierung erlaubt es, sowohl eine qualitative wie auch quantitative Systemaussage mit vertretbarem Analyseaufwand zu generieren. Modifikationen innerhalb des Entwicklungsstandes können mit geringem Aufwand in die Systembetrachtungen integriert werden. 
+Um die Leistungsfähigkeit der hierarchischen Modellierung zu verifizieren, wurde das noch im Forschungsstadium befindliche Fahrdynamikstabilisierungssystem D rive- b y- W ire (D-b-W) auf seine F/V/S/W hin untersucht. Wie sich zeigte, erwiesen sich Fehler der Raddrehzahlsensorik als kritischer Pfad hinsichtlich der Sicherheit des Systems. 
+Aus diesem Grund wurden Redundanzkonzepte entwickelt, die zur Toleranz gegen obige kritischen Fehler führen. Abschließend wurden die Auswirkungen der verschiedenen Redundanzkonzepte auf die Fehlerhäufigkeit, Verfügbarkeit, Sicherheit und Wirtschaftlichkeit des Systems D-b-W mittels der hierarchischen Modellierung bewertet.</abstract>
+                    <abstract type="content" lang="eng">In the dissertation-thesis in hand a methodology is developed, which allows to determine the failure-probability, availability, safety and economy of complex safety-relevant automotive systems in a closed model. This methodology is based on the fusion of fault-trees and Markov-chains to a hierarchical model. 
+The hierarchical modelling generates a qualitative as well as quantitative prediction of the above mentioned system-quality-parameters. Modifications during the development-process of a complex system can be integrated in the analysis with small effort. 
+In order to demonstrate the potentials of the hierarchical modelling, it was applied to determine the failure-probability, availability, safety and economy of a driving-stability-control-system. This system, which is called Drive-by-Wire was in the early research-phase, when the first safety and availability-analysis had been performed. As it turned-out, failures of the wheel-speed-sensors are mainly responsible for the unsafety of this system. 
+Therefore redundancy concepts were developed which yield tolerance against above
+mentioned critical failures. Finally the influence of different redundancy concepts on the failure-probability, availability, safety and economy of Drive-by-Wire was determined by the hierarchical modelling.</abstract>
+                    <subject>
+                        <topic>Sicherheitsanalyse</topic>
+                        <topic>Verfügbarkeit</topic>
+                        <topic>Kraftfahrzeugelektronik</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1805</identifier>
+                    <identifier type="sys">HT011249787</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_180</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2000-01-09</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_180">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/180/1/mahmoud.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_180"
+            DMDID="DMD_siegen_opus_180">
+            <mets:fptr FILEID="FILE0_siegen_opus_180"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

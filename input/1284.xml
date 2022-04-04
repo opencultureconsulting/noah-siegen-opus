@@ -1,0 +1,63 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1284</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Numerische Simulation der inneren Korrosion bei hohen Temperaturen</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Katrin</pc:foreName>
+            <pc:surName>Jahns</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Werkstoffschädigung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Innere Korrosion</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Zellulare Automaten</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Modellierung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Das Ziel der Arbeit war die Entwicklung einer Simulationssoftware zur numerischen Modellierung der inneren Korrosion bei hohen Temperaturen. Das dabei verwendete Modell auf Basis der Methode des zellularen Automaten wurde anhand von experimentellen Ergebnissen an Nickelbasis-Modelllegierungen verifiziert und auf komplexe Szenarien angewendet.&#13;
+&#13;
+Generell ist Hochtemperaturkorrosion ein Schädigungsmechanismus, der an der Oberfläche von technischen Komponenten stattfindet. Im Falle der inneren Korrosion dringen korrosive Spezies in das Material ein, so dass sich innere Ausscheidungen wie Oxide (Oxidation), Nitride (Nitrierung) und Karbide (Aufkohlung) bilden. Für fast alle metallischen und keramischen Werkstoffe sind diffusionskontrollierte Ausscheidungsprozesse von besonderer Bedeutung. Neben einem signifikanten Massetransport durch Diffusion finden bei hohen Temperaturen chemische Reaktionen und Phasenübergänge statt. &#13;
+Letztendlich führt die Korrosion zu einer deutlichen Verschlechterung der Eigenschaften eines Materials, zum Beispiel zur oberflächennahen Versprödung oder der Auflösung von härtenden Phasen.&#13;
+&#13;
+Im Rahmen dieser Arbeit wurde ein numerisches Werkzeug auf Basis der Methode des zellularen Automaten entwickelt, um Hochtemperaturkorrosionsprozesse zu beschreiben und vorherzusagen. Innerhalb des Modells wird das Diffusionsgebiet in ein System aus Zellen unterteilt, die mit unterschiedlichen Zuständen belegt werden. Mit jedem Iterationsschritt können diese Zustände in andere Zustände transformiert werden. Diese Transformationen sind abhängig von der Wechselwirkung mit den Nachbarzellen und damit verknüpften Übergangsregeln. Durch die Definition von physikalisch aussagekräftigen Zuständen und den besagten Übergangsregeln können so auch komplexe Szenarien beschrieben, auf reale Experimente angewendet und diskutiert werden. Ausgehend von einem einfachen Ansatz zur Beschreibung der Diffusion wurde das Modell sukzessive aufgebaut und erweitert. Durch das entwickelte Modell werden Diffusions- und Keimbildungsprozesse, Schichtbildung, Ausscheidungskinetiken und Korngrenzendiffusion durch die Übergangsregeln abgebildet. Zur Verifikation wurden Parameterstudien anhand der Nitrierung von einfachen Nickelbasis-Modelllegierungen durchgeführt. Außerdem wurde das Modell auf komplexe Materialien, wie zum Beispiel auf die Nickelbasislegierungen Alloy 80a und Inconel 625 Si oder den Rohrstahl X60, angewendet. Die Ergebnisse des zellularen Automaten wurden außerdem mit den Simulationsergebnissen anderer numerischer Verfahren verglichen, kritisch betrachtet und die Limitierungen diskutiert. Den Abschluss der Arbeit bildet ein Ausblick auf mögliche Erweiterungen und Optimierungen des Modells.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Aim of this thesis was the development of a simulation software for numerical modelling of internal corrosion at high temperature. The used model based on the cellular automata approach was validated by experimental results on nickel-based model-alloys and applied to complex systems.&#13;
+&#13;
+Generally, high temperature corrosion is a material degradation process occurring at the surface of engineering components. Considering internal corrosion, the corrosive species penetrates into the material by solid-state diffusion leading to the formation of internal precipitates, e.g., oxides (internal oxidation), nitrides (internal nitridation), and carbides (carburization). For nearly all metallic and ceramic materials, diffusion-controlled precipitation processes are of particular importance. Besides a significant mass transport by diffusion, chemical reactions and phase transformations are occurring at elevated temperatures. &#13;
+After all, corrosion results in a strong deterioration of the properties of a material, i.e., near-surface embrittlement or the dissolution of strengthening phases.&#13;
+In the framework of this thesis, a numerical tool based on the cellular automata approach for the description and prediction of high temperature corrosion processes was evaluated. Herefore, the diffusion area is subdivided into a system of cells which are assigned with different states. With every iteration step, these states may change according to transformation rules which depend on the interaction with the neighbouring cells. By a meaningful definition of the states and the transformation rules, it becomes possible to transfer diffusion processes to practical relevant complex situations. Starting with simple diffusion processes, the model was consequently evaluated and expanded. Up to now, it considers diffusion, nucleation and growth, the transition from internal to external scale formation, internal precipitation kinetics and grain-boundary diffusion. For verification, parameter studies on the nitridation of simple nickel-based model alloys were performed. In addition, the model was applied to complex materials such as the nickel-based superalloys Alloy 80a and Inconel 625 Si as well as the low alloy steel X60. Furthermore, the simulation results of the cellular automata were compared to those of other numerical approaches, critically regarded and the limitations were discussed. Finally, an outlook of possible enhancements and improvements of the model is presented.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2017-10-12</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2016</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-12844</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Werkstofftechnik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Katrin_Jahns.pdf" ddb:fileSize="4668817"/>
+   <ddb:checksum ddb:type="MD5">c3dc26c259ca82265a1c25828c3d2520</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1284/1/Dissertation_Katrin_Jahns.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1284</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

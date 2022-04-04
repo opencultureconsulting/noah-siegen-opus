@@ -1,0 +1,59 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1389</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Super-resolution compressed sensing for resolving time-of-flight multipath interferences</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Super-resolution Compressed Sensing für die Lösung von Time-of-Flight Mehrwegsinterferenz-Problem</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Xuan Vinh</pc:foreName>
+            <pc:surName>Nguyen</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Komprimierte Abtastung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Mehrweginterferenzen</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Super-Resolution</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Compressed sensing</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Time-of-flight</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Multipath interferences</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Super-resolution</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Reconstruction algorithm</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Nowadays, time-of-flight (TOF) cameras have become more popular in many practical applications, e.g., robot navigation, 3D reconstruction. Typically, they produce depth map of the entire scene through a low-cost and high-frame-rate system. Nevertheless, there exist many TOF problems, e.g., linearity errors, ambiguity range, multipath interferences (MPIs). Especially, MPIs which are usually caused by transparent object imaging or broaden illumination influence negatively on depth reconstruction results of the traditional phase-stepping method. For this reason, this thesis aims to resolve the MPI problem by carrying out multiple-frequency TOF (MFT) acquisition. According to the compressed sensing (CS) theory, since the amount of MPIs in real-life scenes is small, only a few MFT measurements are required to estimate the sparse time profile of the MPIs. However, this CS-MFT model suffers from hardware design limitation. To be concrete, under the Rayleigh resolution theorem, the low-frequency modulation of a commercial TOF camera leads to poor depth accuracy and low range resolution of the CS-MFT model. Whereas, increasing the modulation frequency is a significantly complicated task. Thus, our solution approach is to construct a super-resolution CS-MFT model with a large refinement factor. From this model, super-resolution CS techniques can reduce mismatch model errors but simultaneously cause poor sparse reconstruction performance with a highly coherent sensing matrix. This thesis introduces a variety of CS techniques to improve these reconstruction results as well as to maintain high-processing speed. They include exploring new CS reconstruction algorithms and optimizing the superresolution CS-MFT sensing matrix structure. Besides, an alternative relaxed metric with a tolerance offset is introduced for gauging the quality of spike recovery in a more accurate way. The results achieved through numerical and practical experiments show a significant improvement in accuracy and resolution of the MPI time profile reconstruction.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Heutzutage ist die Time-of-flight-Kamera (TOF-Kamera) in vielen praktischen Anwendungen sehr populär geworden, z.B., bei der Roboternavigation oder der 3DRekonstruktion. Sie erzeugt ein Tiefenbild der gesamten Szene ohne einen aufwendigen Scanvorgang. Daher sind die meisten der kommerziell erhältlichen TOF-Kameras kostengünstige Systeme, die mit der heute üblichen Videorate arbeiten. Dennoch gibt es weiterhin viele TOF-spezifische Probleme, wie z.B. Linearitätsfehler, Mehrdeutigkeitsbereiche und Mehrwegsinterferenzen (MPIs). Insbesondere MPIs, die durch eine transparente Objektabbildung oder eine überlappende Beleuchtung verursacht werden können, beeinflussen die Tiefenrekonstruktionsergebnisse des herkömmlichen Phasenschrittverfahrens negativ. Aus diesem Grund zielt diese Arbeit darauf ab, das MPI-Problem zu lösen, indem Mehrfrequenz-TOF (MFT)-Messungen durchgeführt werden. Unter der Annahmen, dass die Anzahl der MPIs in realen Szenen gering ist, sind gemäß der Theorie der komprimierten Erfassung (Compressed Sensing, CS) nur wenige MFT-Messungen erforderlich, um das dünnbesetztes Zeitprofil der MPIs abzuschätzen. Ein solches CS-MFT-Modell leidet jedoch unter Hardwarebeschränkungen. Konkret führt die Modulation bei den niedrigen Frequenzen einer kommerziellen TOF-Kamera unter dem Rayleigh-Auflösungssatz zu einer schlechten Tiefengenauigkeit und niedrigen Bereichsauflösung bei Anwendung des CS-MFT Modells. Die nötige Erhöhung der Modulationsfrequenz ist dagegen nicht einfach möglich und ist meist nicht realisierbar. Unser Lösungsansatz besteht daher darin, das CS-MFT-Modell durch Superresolution-Techniken mit hohen Verfeinerungsfaktoren zu verbessern. Diese Superresolution-CS-Technik kann Fehlanpassungen des Modellsreduzieren, liefert aber gleichzeitig aufgrund der im hohen Maße kohärenten Messmatrix eine sehr schlechte Rekonstruktion. Wir schlagen in dieser Arbeit einige CS-Techniken vor, um diese Rekonstruktionsergebnisse zu verbessern und trotzdem eine hohe Verarbeitungsgeschwindigkeit beizubehalten. Sie umfassen die Erforschung neuer CS-Rekonstruktionsalgorithmen und die Optimierung des Designs der Superresolution-CS-MFT-Messmatrix. Außerdem wird eine alternative Metrik mit einem Toleranzausgleich eingeführt, um die Qualität der Rekonstruktion besonders bei heterogenen Szenen (Absätze, Sprünge) zu verbessern. Die erzielten Ergebnisse, die durch numerische und praktische Experimente demonstriert wurden, zeigen eine signifikante Verbesserung der Genauigkeit und Auflösung der MPI-Zeitprofilrekonstruktion.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2018-08-30</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2017</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-13890</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>NRW-Zentrum für Sensorsysteme (ZESS)</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Xuan_Vinh_Nguyen.pdf" ddb:fileSize="18726102"/>
+   <ddb:checksum ddb:type="MD5">1f1e4d698e0531581a33c1f40016d66e</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1389/1/Dissertation_Xuan_Vinh_Nguyen.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1389</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

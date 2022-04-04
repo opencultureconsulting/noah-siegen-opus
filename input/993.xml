@@ -1,0 +1,68 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>993</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Multichannel analysis of medium grazing angle sea clutter for airborne microwave radar systems</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Mehrkanalige Analyse von Seeclutter für fluggetragene Radarsysteme im Mikrowellenbereich mit mittlerem Streifwinkel</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Valeria</pc:foreName>
+            <pc:surName>Gracheva</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Spitzen-Signal-Rausch-Abstand</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Eigenwertanalyse</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Peak-signal-to-noise ratio</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">radar</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Space-Time signal processing</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">simulation methods</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Piracy, smuggling and illegal fishery threaten the overall security on oceans and seas. These threats typically arise from small and agile boats and are distributed over large areas. To control them, small maritime targets have to be detected and observed. Maritime airborne radar systems are capable of monitoring large areas and are therefore suitable to accomplish this challenge. The detection of small boats, however, is still an unresolved task due to the small radar cross section (RCS) of these boats. Additionally, the RCS of&#13;
+sea clutter rises for high altitude platforms due to the higher grazing angle, hence targets with low signal-to-clutter plus noise ratios (SCNR) have to be&#13;
+detected. &#13;
+In order to investigate the appropriate processing to detect small boats from airborne radars, data from experiments over the North Sea with the multichannel radar system PAMIR and a small cooperative boat is evaluated in this thesis. This analysis demonstrates on one hand that traditional processing is not sufficient to detect these maritime targets, and on the other hand that with space-time adaptive processing (STAP) superior detection performance is achieved.&#13;
+To apply STAP to a maritime airborne radar system, it is desirable to know its performance in advance. To accomplish this, the multichannel characteristics of sea clutter have to be understood. This thesis derives theoretical and simulation multichannel models by analyzing the spectral density matrix, the space-time filter and the channel correlation of sea clutter. Different multichannel properties for sea clutter compared to land clutter are demonstrated, which are due to the varying motion of sea echoes and due to different sea scattering types. An important implication of this difference is the broadening of the space-time filter notch in dependence on the sea condition. &#13;
+To confirm the predicted properties, three measurement campaigns with the airborne radar system PAMIR were performed, where real multichannel sea data was acquired for different swell directions, two different grazing angles and significantly varying sea states. This thesis demonstrates the reproducibility of sea clutter multichannel characteristics of real data for different sea conditions with the help of calculations and simulations, which are introduced in this analysis.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Piraterie, Schmuggel und illegale Fischerei gefährden die allgemeine Sicherheit auf Ozeanen und Meeren. Um diese Bedrohungen einzudämmen, müssen kleine Boote auf ausgedehnten Gebieten entdeckt und beobachtet werden. Flugzeuggetragene Radarsysteme können große Flächen überwachen und sind dieser Herausforderung daher gewachsen. Aufgrund der niedrigen Radarquerschnittsfläche (RCS) der kleinen Boote, ist die Detektion dieser Ziele jedoch immer noch ein ungelöstes Problem. Zusätzlich wird bei höher fliegenden Plattformen durch den steigenden Streifwinkel mehr Leistung von der Rückstreuung des Wassers, dem sogenannten Seeclutter, empfangen. Es müssen somit Ziele mit einem niedrigen Signal-zu-Clutter plus Rausch Verhältnis (SCNR) detektiert werden.&#13;
+&#13;
+Um ein geeignetes Verfahren zur Detektion von kleinen Booten mit flugzeuggetragenen Radarsystemen zu finden, wurden in dieser Arbeit reale Messdaten verarbeitet. Diese wurden während mehrerer Experimente über der Nordsee mit dem mehrkanaligen Radarsystem PAMIR und einem kleinen kooperativen Boot aufgenommen. Die Analyse dieser Daten zeigt zum einen, dass traditionelle Signalverarbeitungsmethoden nicht ausreichen, um das Ziel zu entdecken. Zum anderen wird demonstriert, dass mit dem sogenannten space-time adaptive processing (STAP) eine deutlich bessere Detektionsfähigkeit erreicht werden kann.&#13;
+Es ist wünschenswert die zu erreichbare Detektionsleistung bei Anwendung von STAP auf maritime flugzeuggetragene Radarsysteme im Voraus zu kennen. Da für diese Berechnung aber die mehrkanaligen Eigenschaften des Seeclutters bekannt sein müssen, wird in dieser Arbeit ein theoretisches und ein Simulationsmodell hergeleitet. Zusätzlich werden die Spektraldichtematrix, das Raum-Zeit-Filter und die Kanalkorrelation des Seeclutters analysiert. Es wird verdeutlicht, dass durch die Bewegung des Wassers und durch mehrere Streuerarten die mehrkanaligen Eigenschaften von Land- und Seedaten unterschiedlich sind.  Eine wichtige Auswirkung ist die Verbreiterung der Kerbe des Raum-Zeit-Filters bei Seedaten in Abhängigkeit vom Seegang.&#13;
+Um die hergeleiteten Eigenschaften zu validieren, wurden insgesamt drei Messkampagnen mit dem flugzeuggetragenen Radarsystem PAMIR durchgeführt, wobei reale mehrkanalige Seedaten für unterschiedliche Dünnungsrichtungen, bei zwei unterschiedlichen Streifwinkeln und  bei deutlich unterschiedlichen Wetterbedingungen gesammelt wurden. In dieser Arbeit wurden Berechnungen und Simulationen hergeleitet, die die Reproduzierbarkeit der realen mehrkanaligen Eigenschaften des Seeclutters bei verschiedenen Seegängen demonstrieren.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2016-01-18</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2015</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-9936</dc:identifier>
+   <dc:source xsi:type="ddb:ISBN">978-3-8396-0984-2</dc:source>
+   <dc:source xsi:type="ddb:noScheme">Zugl. ersch.: Stuttgart : Fraunhofer Verlag, 2016 ISBN 978-3-8396-0984-2</dc:source>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>NRW-Zentrum für Sensorsysteme (ZESS)</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Valeria_Gracheva.pdf" ddb:fileSize="10279836"/>
+   <ddb:checksum ddb:type="MD5">e8a2875944f58ab50b06865e94ea629d</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/993/1/Dissertation_Valeria_Gracheva.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/993</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

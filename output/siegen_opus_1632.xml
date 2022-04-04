@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1632">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>design journey: Towards a virtual reality simulation and training application</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Weigel, Andreas</displayForm>
+                        <namePart type="family">Weigel</namePart>
+                        <namePart type="given">Andreas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Through digital transformation and new technologies such as virtual reality (VR), employees can benefit from enormous advantages within the corporate context. In industrial computer-aided design (CAD), there are complex workflows that have a great influence on the maintenance processes. However, designers may not be fully aware of potential benefits of these influences. To sharpen this awareness, for such scenarios the demonstration of CAD objects in VR can be a solution. Virtual testing of a design is inexpensive and can be realized quickly. In addition, maintenance can already be trained virtual in detail on the VR image of the machines. This topic is taken up representatively and implemented in an information system (IS) based on VR and a design science research approach. The needs of the employees are strongly considered in this study and the developed software can be applied to a broad class of related problems. Finally, the demonstrator and the underlying processes will be evaluated to gain insights and knowledge about the design of a VR system.</abstract>
+                    <subject>
+                        <topic>Virtuelle Realität</topic>
+                        <topic>Digitale Transformation</topic>
+                        <topic>Virtual Reality</topic>
+                        <topic>Digital Transformation</topic>
+                        <topic>Virtual Reality</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16324</identifier>
+                    <identifier type="sys">HT021015989</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1632</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1632">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1632/5/A_Design_Journey.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1632"
+            DMDID="DMD_siegen_opus_1632">
+            <mets:fptr FILEID="FILE0_siegen_opus_1632"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

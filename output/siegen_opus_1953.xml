@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1953">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Approaches for the prediction of lead times in an engineer to order environment - a systematic review</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Burggräf, Peter</displayForm>
+                        <namePart type="family">Burggräf</namePart>
+                        <namePart type="given">Peter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wagner, Johannes</displayForm>
+                        <namePart type="family">Wagner</namePart>
+                        <namePart type="given">Johannes</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Koke, Benjamin</displayForm>
+                        <namePart type="family">Koke</namePart>
+                        <namePart type="given">Benjamin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Steinberg, Fabian</displayForm>
+                        <namePart type="family">Steinberg</namePart>
+                        <namePart type="given">Fabian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The interest of manufacturing companies in a sufficient prediction of lead times is continuouslyincreasing - especially in engineer to order environments with typically a large number of individual parts andcomplex production processes. A multitude of approaches have been proposed in the literature for predictinglead times considering different data and methods or algorithms from operations research (OR) and machinelearning (ML). In order to provide guidance at setting up prediction models and developing new approaches,a systematic review of the available approaches for predicting lead times is presented in this paper. Forty-twopublications were analyzed and synthetized: Based on a developed framework considering the used dataclass (e.g. product data or system status), the data origin (master data or real data) and the used methodand algorithm from OR and ML, the publications are classified. Based on the classification, a descriptiveanalysis is performed to identify common approaches in the existing literature as well as implications forfurther research. One result is, that mostly order data and the status of the production system are used forpredicting lead times whereas material data are used seldom. Additionally, ML approaches primarily useartificial neural networks and regression models for predicting lead times, while OR approaches use mainlycombinatorial optimization or heuristics. Furthermore, with increasing model complexity the use of realdata decreased. Thus, we identified as an implication for further research to set up a complex data modelconsidering material data, which uses real data as data origin.</abstract>
+                    <subject>
+                        <topic>Maschinelles Lernen</topic>
+                        <topic>Durchlaufzeitverkürzung</topic>
+                        <topic>Maschinelles Lernen</topic>
+                        <topic>Operations Research</topic>
+                        <topic>Vorhersagemethoden</topic>
+                        <topic>Lead time reduction</topic>
+                        <topic>Machine learning</topic>
+                        <topic>Operations research</topic>
+                        <topic>Prediction methods</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19536</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1953</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1953">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1953/3/Approaches_for_the_prediction_of_lead_times.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1953"
+            DMDID="DMD_siegen_opus_1953">
+            <mets:fptr FILEID="FILE0_siegen_opus_1953"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

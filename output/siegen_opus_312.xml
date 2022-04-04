@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_312">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Die </nonSort>
+                        <title>Globalisierung und ihre Ursprünge sowie Folgen</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <nonSort>Die </nonSort>
+                        <title>Globalization and its causes and consequences</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bellers, Jürgen</displayForm>
+                        <namePart type="family">Bellers</namePart>
+                        <namePart type="given">Jürgen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2007</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Geschichte der Globalisierung</abstract>
+                    <abstract type="content" lang="eng">History of foreign economic policy</abstract>
+                    <subject>
+                        <topic>World Trade Organization</topic>
+                        <topic>Außenpolitik</topic>
+                        <topic>G8</topic>
+                        <topic>IWF</topic>
+                        <topic>Weltwirtschaft</topic>
+                        <topic>world economy</topic>
+                        <topic>IMF</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-3124</identifier>
+                    <identifier type="sys">HT015424778</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_312</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_312">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/312/1/Die_Globalisierung_und_ihre_Urspruenge_sowie_Folgen.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_312"
+            DMDID="DMD_siegen_opus_312">
+            <mets:fptr FILEID="FILE0_siegen_opus_312"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

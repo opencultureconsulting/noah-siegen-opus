@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_452">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Odysseus auf dem Weg nach Ithaka und die Irrfahrt eines linksstehenden Menschen innerhalb eines &quot;linken&quot; Systems - Die Exilsituation bei Mircea Eliade und Ion Caraion</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Langenfeld, Andrea-Dana</displayForm>
+                        <namePart type="family">Langenfeld</namePart>
+                        <namePart type="given">Andrea-Dana</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">masterThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Das heutige Rumänien als kleine Region an der Schnittstelle von Orient und Okzident weist vielfältige kulturelle Einflüsse auf. Seit seiner Besiedlung war es meist Spielball politischer Machtinteressen und konnte somit nur schwer eine kulturelle Identität herausbilden. Das Ergebnis ist eine &quot;kleine Kultur&quot;, deren Spezifikum einer Suche nach einem souveränen Identitätsmodell sowohl Literatur als auch Politik in ihren Dienst stellt. Daraus ergibt sich eine enge Verflechtung dieser gesellschaftlichen Bereiche, die in diesem Werk auf künstlerischer Ebene reflektiert wird. Unter der Annahme, dass rumänische Literatur vorwiegend durch Exilkünstler außerhalb des Landes wahrgenommen wird, werden zwei Exilschriftsteller vorgestellt: Der als phantastischer Romancier und Religionswissenschaftler international bekannte konservative Kulturphilosoph Mircea Eliade und der außerhalb rumänischer Landesgrenzen weitestgehend unbekannte avantgardistische Lyriker Ion Caraion. In ihrer Verankerung in gegensätzlichen rumänischen Kulturtraditionen bilden sie einen Querschnitt der rumänischen Kulturgeschichte ab. Die Arbeit untersucht daher, inwiefern sich die jeweilige gesellschaftspolitische Weltanschauung sowie der damit verbundene Ethos in der Ästhetik des literarischen Werkes vor und nach dem Gang des jeweiligen Schriftstellers ins Exil niederschlagen. Die Exilsituation wird dabei als existentielle Daseinsform des Künstlers betrachtet, die das Profil von Künstlerpersönlichkeit und Werk prägnant hervortreten lässt. Es wird das komplexe Geflecht dargestellt, dem moderne Künstler aus Osteuropa auf dem globalen literarischen Feld in politischen Systemen unterworfen sind. Am Beispiel von zwei Schriftstellern wird die ästhetische Verarbeitung dessen exemplarisch aufgezeigt.</abstract>
+                    <subject>
+                        <topic>Eliade, Mircea</topic>
+                        <topic>Rumänische Literatur</topic>
+                        <topic>Literatur und Diktatur</topic>
+                        <topic>Rumänische Kultur</topic>
+                        <topic>Exilzeitschrift</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 3, Sprach-, Literatur- und Medienwissenschaften"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4526</identifier>
+                    <identifier type="sys">HT016511699</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_452</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaMasterThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_452">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/452/1/langenfeld.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_452"
+            DMDID="DMD_siegen_opus_452">
+            <mets:fptr FILEID="FILE0_siegen_opus_452"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

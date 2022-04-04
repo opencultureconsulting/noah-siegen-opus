@@ -1,0 +1,71 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1285</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Bidirectional job matching through unsupervised feature learning</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Sisay Adugna</pc:foreName>
+            <pc:surName>Chala</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Maschinelles Lernen</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Arbeitssuchende</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Stellenangebote</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Kontext-sensitiver DTF-Algorithmus</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Bidirectional</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Job</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Matching</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Unsupervised</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Vacancy</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Job matching is a process that involves decision to whether a job vacancy is relevant, given the profile of job seeker and vice versa. It requires thorough understanding of job seeker and vacancy in order to match them bidirectionally. Bidirectional matching through measuring the degree of semantic similarity of job descriptions in vacancies and candidate job seekers has been a challenging task in the job recruitment industry. The challenges are associated with i) lack of information due to job seeker inability or resistance to provide sufficient data, ii) difficulty in modeling job seekers and/or vacancies and iii) the complexity of matching process itself.&#13;
+Fortunately, the Internet and advancement of information technology provide opportunities that help deal with these challenges. Availability of huge online data about job descriptions which has been entered by job seekers and job holders can be utilized to understand job seekers. Large volume of online vacancy data can be exploited to portray the current demand of the job market. Prevalence of technological advancements to handle the size of big data and the complexities of the matching process makes job matching feasible to address.&#13;
+Understanding the job seeker presupposes obtaining more information about the job seeker directly from himself, i.e., through resumé and web survey, or through others, i.e., from social network. This research investigates tools and techniques, and implements a web-based user interface, i.e., a context-aware Dynamic Text Field (DTF), that allows users to enter data of their choice but with guidance using autocompletion. Moreover, this study identifies methods that measure the skills, expertise and experience of a job seeker and investigates the importance of using social networking data as input to user modeling that determines the strength of skills to be used for recommending matching job vacancies.&#13;
+In addition to job seekers, job matching requires understanding and modeling of vacancies. Though online vacancies are publicly available, due to overwhelming volume of data, job seekers are not able to easily find relevant vacancy for their skill or are unable to analyze the requirements to estimate its relevance. Analyzing vacancies as well as optimizing the matching process, on one hand, and exploiting the available opportunities of big data and technological advancement, on the other hand, are of paramount importance to pursue a novel approach of job matching.&#13;
+This research employs solutions that learn from data (as opposed to rules) because they perform better at handling job seekers and vacancy data in the ever changing market. One of the methods to address these challenges is applying Machine Learning – data-intensive techniques to model job seekers and&#13;
+vacancies – and get a better matching. It explores matching job vacancies with job seekers using data from online vacancies, occupational standards, resumés, job seeker’s self-assessment, and social network data. Deep unsupervised feature learning, which is a kind of machine learning, is applied to develop&#13;
+a novel bidirectional matching of job seeker and vacancy through modeling the former using data from self-assessment, resumé parsing and social network, and the latter using vacancy parsing and enriching it via occupational standards. The choice of the data is based on its suitability to model different aspects of job seeker and vacancy. Machine learning is chosen because of the dynamics of job market, i.e, the jobs change so frequently that developing rules is practically infeasible, whereas learning from data is feasible with the availability of large online data, and robust computational resources.&#13;
+The results of this endeavor are i) development of algorithm for context-aware DTF for user profile survey; ii) a new technique to measure skill relevance using social network-enhanced job seeker modeling; iii) improved relevance ranking of job vacancies through feature enriching by job titles and descriptions from standard occupations.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Job-Matching ist ein Prozess der angesichts des Profils eines Arbeitsuchenden überprüft inwiefern eine Stellenausschreibung maßgeblich ist und umgekehrt. Bidirektionales Matching durch Messung der semantischen Ähnlichkeit von Berufsbeschreibungen in Stellenangeboten und Bewerberprofilen ist eine fortlaufende Herausforderung für Arbeitsvermittlungseinrichtungen. Diese Herausforderungen sind i)der Mangel an Informationen aufgrund der Unfähigkeit oder dem Widerstand des Arbeitssuchenden ausreichende Daten zur Verfügung zu stellen, ii)Schwierigkeiten bei der Modellierung von Arbeitsuchenden und Stellenangeboten und iii)mit der Komplexität des Matching-Prozesses selbst assoziiert.&#13;
+Glücklicherweise bieten das Internet und die Weiterentwicklung der Informationstechnologie Möglichkeiten mit diesen Herausforderungen umzugehen. Ein großes Volumen an Online-Stellenangeboten kann zudem genutzt werden, um den aktuellen Bedarf des Arbeitsmarktes darzustellen.&#13;
+Das Verständnis über den Arbeitssuchenden setzt voraus, dass weitergehende Informationen direkt von oder über diesen ermittelt werden, zum Beispiel durch dessen Lebenslauf, eine Suche im Web, oder durch andere Kanäle wie etwa soziale Netzwerke. Die vorgelegte Arbeit untersucht Werkzeuge und Techniken zur Ermittlung und Erfassung weiterer Informationen und implementiert hierzu eine webbasierte Benutzeroberfläche in Form eines kontextbezogenen dynamischen Textfelds (DTF), in welches Benutzer Daten ihrer Wahl eintragen können und dabei durch Funktionen zur Autovervollständigung unterstützt werden. Außerdem identifiziert die vorgelegte Dissertation Methoden die die Fähigkeiten, Fachkenntnisse und Erfahrungen eines Arbeitssuchenden messen. Des Weiteren wird die Bedeutung der Verwendung von Daten aus Sozialen Netzwerken als Input für die Benutzer-Modellierung untersucht, um davon abhängig die Stärke der Fähigkeiten zu bestimmen und diese letztendlich für die Empfehlung passender Stellenangebote zu verwenden.&#13;
+Zusätzlich zu dem Verständnis über den Arbeitsuchenden, erfordert der Job-Matching Prozess das Verständnis von Stellenangeboten und deren Strukturierung bzw. Modellierung. Obwohl Online-Stellenangebote öffentlich zugänglich sind, sind diese aufgrund der überwältigenden Datenmengen unüberschaubar, so dass die Arbeitsuchenden nur schwierig in der Lage die passende Stelle für ihre Fähigkeiten zu ermitteln und zu bewerten. Gerade die Analyse von Stellenangeboten sowie die Optimierung des Matching-Prozesses einerseits aber auch die Nutzung der vorhandenen Chancen von Big Data und technologischer Weiterentwicklungen andererseits sind von größter Bedeutung, um einen neuartigen Ansatz im Job-Matching zu verfolgen.&#13;
+Die vorgelegte Dissertation setzt Lösungen ein, die aus Daten (im Gegensatz zu Regeln) lernen, um auf diese Weise besser auf einen sich ständig ändernden Arbeitsmarkt hinsichtlich der Zusammenführung von Arbeitssuchenden und offenen Stellenangeboten reagieren zu können. Angewendete Methoden um diese Herausforderungen zu bewältigen sind Techniken aus dem Bereich des Maschinellen Lernens, welche eine Analyse und Verarbeitung von datenintensiven Sammlungen realisieren und ein besseres Matching zwischen Arbeitsuchenden und Anforderungen in Stellenangeboten ermöglichen. Hierzu wurde erforscht wie Daten aus Online-Stellenausschreibungen, Beschreibungen von Berufsbildern, Lebensläufen, Selbsteinschätzung des Arbeitssuchenden und Daten aus sozialen Netzwerken analysiert und für ein besseres Matching zwischen Stellenangeboten und Arbeitsuchenden eingesetzt werden können. Eine Form des maschinellen Lernens ist die Methode des „Deep Unsupervised Feature Learning“. Diese wurde dazu eingesetzt ein neuartiges bidirektionales Matching von Arbeitsuchenden und Stellenangeboten zu entwickeln, indem es ein Modell mit Hilfe von Daten aus Selbsteinschätzung, Resumé-Parsing und sozialen Netzwerken modelliert. Zusätzlich erfolgt ein Parsing der Stellenbeschreibungen und eine Anreicherung mit allgemeinen Anforderungen auf Basis der Berufsbilder. Die Wahl der Daten beruht auf ihrer Eignung verschiedene Aspekte des Arbeitsuchenden und der offenen Stellen zu modellieren. Maschinelles Lernen als Analysemethode wird u.a. aufgrund der Dynamik des Arbeitsmarktes gewählt, da sich Arbeitsanforderungen so häufig ändern, dass die Entwicklung von Regeln praktisch unmöglich ist, während das Lernen aus Daten durch die Verfügbarkeit von großen Online-Datensammlungen und robusten Rechenressourcen möglich ist.&#13;
+Die Ergebnisse der Forschungsfragen sind i)die Entwicklung eines kontext-sensitiven DTF-Algorithmus für Benutzerprofil-Umfragen; ii)eine neue Technik zur Messung der Qualifikationsrelevanz durch die Modellierung von Arbeitssuchenden mit Hilfe von Daten sozialer Netzwerke; iii)ein verbessertes Relevanz-Ranking von offenen Stellen durch eine Feature-Anreicherung mittels Berufsbezeichnung und Beschreibungen aus Berufsbildern.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2018-01-15</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2017</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-12858</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Wissensbasierte Systeme und Wissensmanagement</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Sisay_Adugna_Chala.pdf" ddb:fileSize="3589524"/>
+   <ddb:checksum ddb:type="MD5">cdaaafc3265b71e6fee2ac3b7882e792</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1285/1/Dissertation_Sisay_Adugna_Chala.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1285</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

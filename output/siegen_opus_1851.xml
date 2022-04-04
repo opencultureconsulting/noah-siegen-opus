@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1851">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>bayest: an R-package for effect-size targeted Bayesian two-sample t-tests</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kelter, Riko</displayForm>
+                        <namePart type="family">Kelter</namePart>
+                        <namePart type="given">Riko</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Typical situations in research include the comparison of two groups regarding a metric variable, in which case usually the two-sample t-test is applied. While common frequentist two-sample t-tests focus on the difference of means of both groups via a p-value, the quantity of interest in applied research most often is the effect size. Existing Bayesian alternatives of the two-sample t-test replace frequentist significance thresholds like the p-value with the Bayes factor, taking the same testing stance. The R package bayest implements a Markov-Chain-Monte-Carlo algorithm to conduct a Bayesian two-sample t-test which estimates the effect size between two groups, while also providing detailed visualization and analysis of all parameters of interest. Because of its focus on the ease of use and interpretability, clinicians and other users can run this t-test within a few lines of code and find out if differences between two groups are scientifically meaningful, instead of significant.</abstract>
+                    <subject>
+                        <topic>t-Test</topic>
+                        <topic>Two-sample t-test</topic>
+                        <topic>Effect size</topic>
+                        <topic>Treatment effect between two groups</topic>
+                        <topic>Markov-Chain-Monte-Carlo</topic>
+                        <topic>Bayesian statistics</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-18511</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1851</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1851">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1851/3/Kelter_bayest.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1851"
+            DMDID="DMD_siegen_opus_1851">
+            <mets:fptr FILEID="FILE0_siegen_opus_1851"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

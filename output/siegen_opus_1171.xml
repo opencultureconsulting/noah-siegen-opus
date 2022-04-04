@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1171">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Novel scheduling strategies for future NoC and MPSoC architectures</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Neue Scheduling Strategien für zukünftige NoC und MPSoC Architekturen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schöler, Christian</displayForm>
+                        <namePart type="family">Schöler</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Time-Triggered Network-on-Chip (TTNoC) and Multi-Processor-System on a Chip (MPSoC) are networking concepts aiming at providing both predictable and high-throughput communication for modern multiprocessor systems. Time-triggered networks play an important role in safety-critical systems, where their inherent properties such as temporal predictability, fault tolerance and composability improve safety and reduce certification costs. Time-triggered networks use timeplans, which define the points in time of all message exchanges with respect to a global time base. In multi-cluster time-triggered systems of large embedded systems (e.g. automotive, avionics), conflict-free paths along switches and endsystems are defined for each message. The conflict-free temporal and spatial allocation of communication resources in combination with an intelligent communication network (e.g. local and central guardians) prevents interference between messages from different components upon integration and in the presence of faults.
+Therefore message scheduling in TTNoCs is one of the major challenges, where the points in time for the transmission of a message with conflict-free paths through the switches are determined. As the scheduling problem is NP-complete this work introduces a novel scheduling framework based on the latest advancements of theorem solvers such as Satisfiability Modulo Theories (SMT) techniques which have successfully been applied to problem instances of this complexity class.
+In addition this work also investigates different concepts to partition the problem instances allowing the application of parallel computing to further accelerate the proposed scheduling framework.
+MPSoC architectures and their specific architectural properties will require scheduling tools capable of dealing with the increasing complexity of the systems. To meet these challenges we will outline how the proposed scheduling framework performs after it has been ported to an MPSoC emulating target system. We compare its performance to state-of-the-art schedulers based on CPLEX.  Furthermore we will analyze how the proposed scheduling framework can be deployed to recover from faults by re-scheduling the system under consideration at runtime.</abstract>
+                    <abstract type="content" lang="ger">Zur Erfüllung steigender Anforderungen hinsichtlich Sicherheit, Komfort und Effizienz an Mobilitätssysteme spielt die Elektronik eine immer größere Rolle. Dem daraus resultierenden Mehrbedarf an Performanz sowie der Reduzierung von Energieverbrauch, Größe und Gewicht können nur Multicoresysteme gerecht werden. Der Einsatz solcher Systeme in sicherheitskritischen Mobilitätsbereichen bringt allerdings noch viele offene Fragen mit sich:
+Mit den steigenden Anforderungen an die Verfügbarkeit von Funktionen speziell in Zukunftsthemen wie (teil-)automatisiertem Fahren oder Internet of Things, müssen neue Architekturpattern, sogenannte Multi-Processor-Systems on a Chip (MPSoCs), entwickelt werden. Diese Pattern sollen eine hochgradige Verfügbarkeit von Funktionen sicherstellen und gleichzeitig kostengünstig umgesetzt werden. 
+Eine der zentralen Fragestellungen für moderne Mehrkernarchitekturen ist eine effektive Umsetzung der internen Kommunikationsprozesse. Die vorliegende Arbeit präsentiert einen Scheduler, der optimale Zeitpläne berechnen kann und auch auf einem eingebetteten System mit eingeschränkter Rechenkapazität eingesetzt werden kann. Darüber hinaus diskutieren wir Strategien, um diesen Scheduler effizient einzusetzen. Als Grundlage für die Berechnung von optimalen Schedules  nutzen wir moderne Tools aus der automatisierten Verifikationstheorie, da das optimale Scheduling Problem aus der Komplexitätklasse der NP-vollständigen Probleme stammt. Wir erläutern, warum Verifikationstools aus diesem Gebiet geeignet sind, um optimale Schedules für zeitgesteuerten Systemen, sogenannten TTNoCs, zu berechnen.
+Der Einsatz dieser Programme bietet zwei zentrale Vorteilen gegenüber der  herkömmlichen Berechnung mit Multi-Integer-Linear-Programming (MILP) basierten Schedulern: Zum einen können wir die Laufzeit und den Speicherbedarf reduzieren und auf der anderen Seite unser Scheduling Framework auch direkt auf dem MPSoC verwenden. Neben dem Einsatz auf dem Zielsystem evaluieren wir, wie unser Scheduler zur Laufzeit eingesetzt werden kann und die Fehlertoleranz des betrachteten Zielsystems verbessert. Dabei analysieren wir insbesondere die Performance unseres Schedulers im Vergleich zu einem weit verbreiteten heuristischen Ansatz.</abstract>
+                    <subject>
+                        <topic>Netzwerktopologie</topic>
+                        <topic>MPSoC</topic>
+                        <topic>SAT</topic>
+                        <topic>SMT</topic>
+                        <topic>NP-complete</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11710</identifier>
+                    <identifier type="sys">HT019373861</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1171</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2017-06-06</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1171">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1171/1/Dissertation_Christian_Schoeler.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1171"
+            DMDID="DMD_siegen_opus_1171">
+            <mets:fptr FILEID="FILE0_siegen_opus_1171"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

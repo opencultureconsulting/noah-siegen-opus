@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_783">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Measurement of the reference channel B+/- -&gt; J/psi K+/- for the rare decay Bs -&gt; mu+mu- with the ATLAS experiment</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gaur, Bakul</displayForm>
+                        <namePart type="family">Gaur</namePart>
+                        <namePart type="given">Bakul</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Das ATLAS Experiment ist eines der vier großen Experimente des Large Hadron Collider (LHC) am CERN, Genf. Mit diesem Experiment sollen die noch offenen Fragen der Teilchenphysik geklärt werden.
+Der Zerfall des Bs Mesons in zwei Myonen ist ein stark unterdrückter Zerfallskanal des Standard Modells (SM). Es ist ein seltener Zerfall mit einem erwartetem Verzweigungsverhältnis von 3.56 x 10^-9.
+Das Bs -&gt; mu+mu- -Verzweigungsverhältnis wird relativ zum Referenzkanal B+/- -&gt; J/psi K+/- gemessen. Das Thema diese Arbeit ist die Messung der B+/- -Ausbeute. Die Grundlage der Analyse sind 4.9/fb der ATLAS Daten, welche im Jahr 2011 bei einer Schwerpunktsenergie von 7 TeV aufgenommen wurden. Die Auswahl der B+/- -Ereignisse wurde unter Verwendung einer multivariaten Datenanalyse (MVA) durchgeführt. Die Ausbeute wird mittels eines zweidimensionalen ungebinten Maximum-Likelihood-Fits abgeschätzt, welcher die Pro-Ereignis-Unsicherheiten berücksichtigt. Mit Hilfe der Ergebnisse wird die obere Grenze auf das Bs -&gt; mu+mu- -Verzweigungsverhältnis berechnet, welche von der ATLAS-Kollaboration veröffentlicht wurde [1,2].</abstract>
+                    <abstract type="content" lang="eng">The ATLAS experiment is one of the four major experiments at the Large Hadron Collider (LHC) of CERN, Geneva. The experiment addresses the open questions of particle physics.
+The decay of the Bs meson to two muons is strongly suppressed in the Standard Model (SM). It is a rare decay with an expected branching fraction of 3.56 x 10^-9.
+The Bs -&gt; mu+mu- branching fraction is measured relative to a reference channel, B+/- -&gt; J/psi K+/-. The subject of this thesis is the measurement of the B+/- yield. The analysis uses 4.9/fb of ATLAS data collected in the year 2011 at 7 TeV center-of-mass energy. The B+/- candidate selection is performed using a multivariate (MVA) technique. The yield is estimated using a two-dimensional unbinned maximum likelihood fit that accounts for the per-event uncertainties. The result is used for the computation of the upper limit on the Bs -&gt; mu+mu- branching fraction published by the ATLAS collaboration [1,2].</abstract>
+                    <subject>
+                        <topic>Atlas &lt;Teilchendetektor&gt;</topic>
+                        <topic>B-Physics</topic>
+                        <topic>Bsmumu</topic>
+                        <topic>Bplus meson</topic>
+                        <topic>ATLAS</topic>
+                        <topic>LHC</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-7836</identifier>
+                    <identifier type="sys">HT018164850</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_783</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2013-10-22</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_783">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/783/1/gaur.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_783"
+            DMDID="DMD_siegen_opus_783">
+            <mets:fptr FILEID="FILE0_siegen_opus_783"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

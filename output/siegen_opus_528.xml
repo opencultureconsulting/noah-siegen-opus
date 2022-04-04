@@ -1,0 +1,59 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_528">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Migration und Religiosität : afrikanische Kirchen und die gesellschaftliche Integration ihrer Mitglieder in Deutschland</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ndahayo, Emmanuel</displayForm>
+                        <namePart type="family">Ndahayo</namePart>
+                        <namePart type="given">Emmanuel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">masterThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Pfingstlerische Bewegung kommt ursprünglich aus den USA und aufgrund der zunehmenden Globalisierung und der daran angeschlossenen Migration verbreitet er sich in viele Gebiete der Welt, auch in Europa. Viele afrikanische Migranten in Europa, u.a. auch in Deutschland, verlassen die traditionellen Kirchen und gründen ihre eigenen Kirchengemeinden. Der die Mitglieder der neu gegründeten &quot;afrikanischen Kirchen&quot; prägende Pfingstglaube scheint die Quelle einer &quot;besonderen&quot; moralischen und psychologischen Kraft zu sein und hilft den Gläubigen dabei, schwierige Situationen besser auszuhalten. Afrikanische Kirchengemeinden in Deutschland spielen eine große Rolle im Leben ihrer Mitglieder und helfen ihnen dabei, sich in ihrer neuen Gesellschaft zurechtzufinden.</abstract>
+                    <subject>
+                        <topic>Religion</topic>
+                        <topic>Afrikanische Migranten</topic>
+                    </subject>
+                    <classification authority="ddc">300</classification>
+                    <classification authority="ioo" displayLabel="Fachbereich 1, Sozialwissenschaften - Philosophie - Theologie - Geschichte - Geographie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5289</identifier>
+                    <identifier type="sys">HT016905613</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_528</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaMasterThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_528">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/528/1/ndahayo.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_528"
+            DMDID="DMD_siegen_opus_528">
+            <mets:fptr FILEID="FILE0_siegen_opus_528"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,61 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>794</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Cooperative simultaneous localization and mapping framework</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Ahmad Kamal</pc:foreName>
+            <pc:surName>Nasir</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">SLAM-Verfahren</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Simultane Lokalisierung und Kartenherstellung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">kooperatives mobiles Robotersystem</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Extended Kalman Filter</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">SLAM</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">EKF</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Cooperative Mobile Robotics</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">621</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">This research work is a contribution to develop a framework for cooperative simultaneous localization and mapping with multiple heterogeneous mobile robots. The presented research work contributes in two aspects of a team of heterogeneous mobile robots for cooperative map building. First it provides a mathematical framework for cooperative localization and geometric features based map building. Secondly it proposes a software framework for controlling, configuring and managing a team of heterogeneous mobile robots. Since mapping and pose estimation are very closely related to each other, therefore, two novel sensor data fusion techniques are also presented, furthermore, various state of the art localization and mapping techniques and mobile robot software frameworks are discussed for an overview of the current development in this research area.&#13;
+The mathematical cooperative SLAM formulation probabilistically solves the problem of estimating the robots state and the environment features using Kalman filter. The software framework is an effort toward the ongoing standardization process of the cooperative mobile robotics systems. To enhance the efficiency of a cooperative mobile robot system the proposed software framework addresses various issues such as different communication protocol structure for mobile robots, different sets of sensors for mobile robots, sensor data organization from different robots, monitoring and controlling robots from a single interface. &#13;
+The present work can be applied to number of applications in various domains where a priori map of the environment is not available and it is not possible to use global positioning devices to find the accurate position of the mobile robot. Therefore the mobile robot(s) has to rely on building the map of its environment and using the same map to find its position and orientation relative to the environment. The exemplary areas for applying the proposed SLAM technique are Indoor environments such as warehouse management, factory floors for parts assembly line, mapping abandoned tunnels, disaster struck environment which are missing maps, under see pipeline inspection, ocean surveying, military applications, planet exploration and many others. These applications are some of many and are only limited by the imagination.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Diese Forschungsarbeit ist ein Beitrag zur Entwicklung eines Framework für kooperatives SLAM mit heterogenen, mobilen Robotern. Die präsentierte Forschungsarbeit trägt in zwei Aspekten  in einem Team von heterogenen, mobilen Robotern bei. Erstens stellt es einen mathematischen Framework für kooperative Lokalisierung und geometrisch basierende Kartengenerierung bereit. Zweitens schlägt es einen Softwareframework zur Steuerung, Konfiguration und Management einer Gruppe von heterogenen mobilen Robotern vor. Da Kartenerstellung und Poseschätzung miteinander stark verbunden sind, werden zwei neuartige Techniken zur Sensordatenfusion präsentiert. Weiterhin werden zum Stand der Technik verschiedene Techniken zur Lokalisierung und Kartengenerierung sowie Softwareframeworks für die mobile Robotik diskutiert um einen Überblick über die aktuelle Entwicklung in diesem Forschungsbereich zu geben.&#13;
+Die mathematische Formulierung des SLAM Problems löst das Problem der Roboterzustandsschätzung und der Umgebungmerkmale durch Benutzung eines Kalman filters. Der Softwareframework ist ein Beitrag zum anhaltenden Standardisierungsprozess von kooperativen, mobilen Robotern. Um die Effektivität eines kooperativen mobilen Robotersystems zu verbessern enthält der vorgeschlagene Softwareframework die Möglichkeit die Kommunikationsprotokolle flexibel zu ändern, mit verschiedenen Sensoren zu arbeiten sowie die Möglichkeit die Sensordaten verschieden zu organisieren und verschiedene Roboter von einem Interface aus zu steuern.&#13;
+Die präsentierte Arbeit kann in einer Vielzahl von Applikationen in verschiedenen Domänen benutzt werden, wo eine Karte der Umgebung nicht vorhanden ist und es nicht möglich ist GPS Daten zur präzisen Lokalisierung eines mobilen Roboters zu nutzen. Daher müssen die mobilen Roboter sich auf die selbsterstellte Karte verlassen und die selbe Karte zur Bestimmung von Position und Orientierung relativ zur Umgebung verwenden. Die exemplarischen Anwendungen der vorgeschlagenen SLAM Technik sind Innenraumumgebungen wie Lagermanagement, Fabrikgebäude mit Produktionsstätten, verlassene Tunnel, Katastrophengebiete ohne aktuelle Karte, Inspektion von Unterseepipelines, Ozeanvermessung, Militäranwendungen, Planetenerforschung und viele andere. Diese Anwendungen sind einige von vielen und sind nur durch die Vorstellungskraft limitiert.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2014-02-18</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2014</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-7944</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV - Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="nasir.pdf" ddb:fileSize="6488902"/>
+   <ddb:checksum ddb:type="MD5">cb61887ffb89eb61c91a6338f9666fff</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/794/1/nasir.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/794</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

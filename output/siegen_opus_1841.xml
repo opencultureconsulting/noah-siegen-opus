@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1841">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Ethnomethodological media ethnography</title>
+                        <subTitle lang="eng">exploring everyday digital practices in families with young children</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Eisenmann, Clemens</displayForm>
+                        <namePart type="family">Eisenmann</namePart>
+                        <namePart type="given">Clemens</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Peter, Jan</displayForm>
+                        <namePart type="family">Peter</namePart>
+                        <namePart type="given">Jan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wittbusch, Erik</displayForm>
+                        <namePart type="family">Wittbusch</namePart>
+                        <namePart type="given">Erik</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">New media have become an integral part of everyday life. In our research, we explore how media practices are employed in the mutual accomplishment of families and in the way young children grow up. This article considers the particularities of doing ethnography in this context: How can ethnographic research be conducted in a private setting and to what extent are family media practices related to practices of observing researchers? Revisiting our research process, we discuss challenges of establishing the field and maintaining relationships. Further, we focus on our media use in the field as well as briefly after fieldwork. We show how everyday family life involves ethnographers in various ways and how media practices in the field and in research interrelate and are cooperatively achieved. Rather than ignoring or correcting for these forms of involvement, our position is that they allow a better understanding of both everyday family life and media ethnography.</abstract>
+                    <subject>
+                        <topic>Media ethnography</topic>
+                        <topic>Digital practice theory</topic>
+                        <topic>Ethnomethodology</topic>
+                        <topic>Early childhood</topic>
+                        <topic>Everyday family life</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-18412</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1841</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1841">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1841/4/Eisenmann_Peter_Wittbusch_Ethnomethodological.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1841"
+            DMDID="DMD_siegen_opus_1841">
+            <mets:fptr FILEID="FILE0_siegen_opus_1841"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

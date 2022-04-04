@@ -1,0 +1,113 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1935">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>In the spirit of addition: taking a &apos;Practice+&apos; approach to studying media</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Götz, Magdalena</displayForm>
+                        <namePart type="family">Götz</namePart>
+                        <namePart type="given">Magdalena</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hind, Sam</displayForm>
+                        <namePart type="family">Hind</namePart>
+                        <namePart type="given">Sam</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lämmerhirt, Danny</displayForm>
+                        <namePart type="family">Lämmerhirt</namePart>
+                        <namePart type="given">Danny</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Neumann, Hannah</displayForm>
+                        <namePart type="family">Neumann</namePart>
+                        <namePart type="given">Hannah</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Och, Anastasia-Patricia</displayForm>
+                        <namePart type="family">Och</namePart>
+                        <namePart type="given">Anastasia-Patricia</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Randerath, Sebastian</displayForm>
+                        <namePart type="family">Randerath</namePart>
+                        <namePart type="given">Sebastian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Seitz, Tatjana</displayForm>
+                        <namePart type="family">Seitz</namePart>
+                        <namePart type="given">Tatjana</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">This collection of articles considers the possibility of taking an “additive” approach to studying media, which the con- tributors to the collection refer to as a “practice+” approach. In this spirit the collection attempts to establish novel connections that potentially bring new life to the study of practice, by explo- ring new concepts, thinkers, energies, methodologies, and disci- plinary traditions. These additional engagements, it is argued, are intended to augment and supplement (rather than displace or replace) popular practice approaches offered through, and found within, ethnomethodology, organizational studies, workplace studies and similar. The articles explore how practices are vari- ously constituted in, and through, contemporary media such as video platforms, collaborative text editors, enterprise software, social media APIs, automotive navigation systems, and health data apps. In these cases not only does one find a welter of va- ried, interconnected, multi-scalar, differentially located practices but in the process of their articulation, one also discovers new vocabularies with which to document and articulate them. The contributions, thus, gesture towards how relations between me- dia and their practices can be alternatively and fruitfully approa- ched, evidencing new lines of thinking and doing in the study of practice.</abstract>
+                    <subject>
+                        <topic>Praxeologie</topic>
+                        <topic>Practice</topic>
+                        <topic>Practice+</topic>
+                        <topic>Praxeology</topic>
+                        <topic>Platforms</topic>
+                        <topic>Collaboration</topic>
+                        <topic>Data</topic>
+                        <topic>Media Studies</topic>
+                        <topic>Methodology</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19351</identifier>
+                    <identifier type="sys">HT020960862</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1935</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1935">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1935/4/WPS_18_Practice%2b.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1935"
+            DMDID="DMD_siegen_opus_1935">
+            <mets:fptr FILEID="FILE0_siegen_opus_1935"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

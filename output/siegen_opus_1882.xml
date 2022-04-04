@@ -1,0 +1,80 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1882">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Highly precise MEMS gyroscopes for fully automated driving</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Hochpräzise MEMS Drehratensensoren für vollautomatisiertes Fahren</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hiller, Tobias</displayForm>
+                        <namePart type="family">Hiller</namePart>
+                        <namePart type="given">Tobias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Roth, Hubert</displayForm>
+                        <namePart type="family">Roth</namePart>
+                        <namePart type="given">Hubert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Future, fully automated vehicles pose strict requirements on the performance of inertial sensors. Achievable accuracies of micro-electromechanical (MEMS) gyroscopes are however challenged by a number of non-idealities and long-term drift effects like bias instability. This dissertation analyzes the effect of bias instability on purely inertial navigation in comparison with other noise effects. It is shown, that bias instability becomes the dominant error component during navigation periods as short as ten seconds. At the core of the dissertation, origins and mechanisms of bias instability in triaxial, mode-matched, force-feedback MEMS gyroscopes are examined. Results gain credibility through a combination of analytical investigation, model-based simulation and extensive experimental analysis on real-world, next-generation sensor prototypes. It is found, that a combination of flicker noise on the frequency tuning voltage ensuring mode-matching together with certain types of rate offsets form a dominant source of bias instability. Feedback control on the frequency tuning voltage using pilot tones leads to an improvement of up to a factor of ten for the z-axis. Bias instabilities of lower than 0.1 dph are reached, which is an unprecedented value for automotive-type MEMS gyroscopes. The out-of-plane sensing x- and y-axes are shown to experience an additional, yet-unknown contribution of bias instability and could not be improved by frequency tuning control. For the first time, scale-factor instability was described and analyzed in detail. This effect produces an increase in signal drift with higher measured angular rates. Lastly, a novel measure for mode-matching was devised, which, contrarily to the pilot tone scheme, only uses the existing noise in the gyroscope’s force-feedback structure to estimate the sense mode’s detuning and scale-factor.</abstract>
+                    <abstract type="content" lang="ger">Zukünftige, vollautomatisierte Fahrzeuge stellen strenge Anforderungen an die verwendete Inertialsensorik. Die Genauigkeit von MEMS Drehratensensoren wird durch eine Vielzahl an Nichtidealitäten und langsamen Drifteffekten wie Biasinstabilität begrenzt. Diese Dissertation befasst sich mit dem Einfluss von Biasinstabilität auf die Genauigkeit von rein inertialer Navigation im Vergleich zu anderen Rauschtypen. Es wird aufgezeigt, dass sich Biasinstabilität bereits bei Navigationsdauern über zehn Sekunden als größter Fehleranteil erweist. Im Hauptteil der Arbeit werden Ursprünge und Mechanismen von Biasinstabilität in dreiachsigen MEMS Drehratensensoren mit identischen Antriebs- und Detektionsmodenfrequenzen und Kraftrückkopplung untersucht. Dies findet unter Einbeziehung von analytischen Berechnungen, ausführlicher Systemmodellierung und -simulation sowie experimentellen Untersuchungen an aktuellen Prototypen statt. Es wird gezeigt, dass eine Kombination aus Flickerrauschen auf der Frequenztuningspannung der Detektionsmode sowie gewissen Offsets die dominante Quelle für Biasinstabilität in den z-Achsen darstellt. Wird die Frequenztuningspannung geregelt und damit die Resonanzfrequenz der Detektionsmode in Relation zur Antriebsmode konstant gehalten, kann die Biasinstabilität um bis zu einem Faktor zehn auf unter 0.1 deg/h verbessert werden. Hierbei findet die Messung der Resonanzfrequenz der Detektionsmode unter Verwendung von sogenannten Pilottönen statt. Für die senkrecht zur Sensorebene messenden x- und y-Achsen besteht eine weitere, unbekannte Ursache von Biasinstabilität. Eine Reduktion mittels der genannten Methode ist hierbei nicht möglich. Darüber hinaus wird zum ersten Mal in der Literatur ein Effekt der Empfindlichkeitsinstabilität detailliert beschrieben, welcher als ein Anwachsen von Drift bei größeren gemessenen Drehraten auftritt. Zuletzt wird eine neuartige Methode entwickelt, die eine Identifikation von Detektionsmodenfrequenz und Sensorempfindlichkeit im Betrieb allein aufgrund des Rauschens in der Kraftrückkopplung ermöglicht. Im Gegensatz zum Pilottonverfahren benötigt diese Methode keine Injektion von zusätzlichen Signalen in den Regelkreis.</abstract>
+                    <subject>
+                        <topic>Autonomes Fahrzeug</topic>
+                        <topic>MEMS gyroscopes</topic>
+                        <topic>Automated driving</topic>
+                        <topic>Bias instability</topic>
+                        <topic>Allan variance</topic>
+                        <topic>Inertial sensors</topic>
+                        <topic>MEMS-Gyroskope</topic>
+                        <topic>Automatisiertes Fahren</topic>
+                        <topic>Bias-Instabilität</topic>
+                        <topic>Allan-Varianz</topic>
+                        <topic>Inertial-Sensoren</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Regelungs- und Steuerungstechnik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-18822</identifier>
+                    <identifier type="sys">HT020906061</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1882</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2021-02-01</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1882">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1882/3/Dissertation_Tobias_Hiller.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1882"
+            DMDID="DMD_siegen_opus_1882">
+            <mets:fptr FILEID="FILE0_siegen_opus_1882"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

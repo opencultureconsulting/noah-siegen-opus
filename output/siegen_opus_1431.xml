@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1431">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Werkstoffmodellierung und Kennwertermittlung für die Simulation spanabhebender Fertigungsprozesse</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Thimm, Benedikt</displayForm>
+                        <namePart type="family">Thimm</namePart>
+                        <namePart type="given">Benedikt</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Finite Elemente Simulationen spanabhebender Fertigungsprozesse ermöglichen eine anforderungsgerechte Werkzeug- und Prozessgestaltung. Simulationsmethoden werden eingesetzt, um Zerspanversuche an Werkzeugmaschinen zu reduzieren, Entwicklungszeiten zu verkürzen und Kosten einzusparen. Den physikalischen Eingangsdaten der Simulation kommt eine besondere Bedeutung zu, da sie die Abbildungsgüte maßgeblich beeinflussen. Insbesondere das Materialgesetz und die Materialkennwerte zur Approximation der Fließspannung sind entscheidende Größen. In der vorliegenden Arbeit wird eine neue Methodik für die Kennwertbestimmung entwickelt, die auf linear-orthogonalen Zerspanversuchen basiert. Durch die Anwendung optischer Hochgeschwindigkeitsmessungen in der Zone der Spanbildung werden die Scherdehnraten im Werkstoff auf Basis eines digitalen Bildkorrelationsverfahrens (DIC) bestimmt. Zusammen mit den Prozesskräften werden die Daten genutzt, um Materialkennwerte invers zu bestimmen. Durch Split-Hopkinson- und Zylinderstauchversuche werden ergänzende Kennwertsätze bestimmt sowie das Werkstoffverhalten bei höheren Dehnraten und Temperaturen bewertet. Auf Basis der Ergebnisse wird ein modifiziertes Materialgesetz entwickelt, das Besonderheiten in den thermischen Entfestigungsverläufen der untersuchten Stahlwerkstoffe berücksichtigt. Die Kennwertsätze und Modelle werden in Simulationen eingesetzt und mit den Ergebnissen aus Zerspanversuchen verglichen.</abstract>
+                    <abstract type="content" lang="eng">Finite element simulation of machining processes enable cutting tool and process design for specific requirements of cutting applications. Applying simulation techniques leads to a reduction of real cutting experiments, development times and costs. The physical input data of a simulation is of special importance, since it significantly affects the simulation quality. Especially the material law and the material data for the approximation of the flow stress are important factors. In the research of this thesis a new method for the determination of material data, based on linear-orthogonal cutting tests, is developed. Applying optical high-speed measurements in the chip formation zone the shear strain rate in the material is determined by Digital Image Correlation (DIC). Together with the cutting forces this data is used to determine material data sets via an inverse approach. Split-Hopkinson as well as compression tests provide additional material data sets, the data is also used to evaluate the material behavior at increased strain rates and temperatures. Based on these results, a modified material law is presented, considering specific characteristics in the thermal softening curve of the steel material investigated. The material data sets and the material laws are applied in simulations and the results are compared with measurements from real cutting tests.</abstract>
+                    <subject>
+                        <topic>Materialmodell</topic>
+                        <topic>Constitutive Model</topic>
+                        <topic>Simulation</topic>
+                        <topic>Machining</topic>
+                        <topic>Material Data</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Werkstofftechnik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-14319</identifier>
+                    <identifier type="sys">HT020071615</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1431</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2019-02-13</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1431">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1431/1/Dissertation_Benedikt_Thimm.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1431"
+            DMDID="DMD_siegen_opus_1431">
+            <mets:fptr FILEID="FILE0_siegen_opus_1431"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

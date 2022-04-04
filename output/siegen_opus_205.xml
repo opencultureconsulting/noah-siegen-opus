@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_205">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Zeichenschichten und Kräfteströme : visuelle Medien, zeitgenössische Raumgestaltung und die Ästhetisierung des Urbanen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ernst, Roland</displayForm>
+                        <namePart type="family">Ernst</namePart>
+                        <namePart type="given">Roland</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2005</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In den Thesen zu den Einbindungen des elektronischer Bildes in den räumlichen Entwurf werden diese
+Raumgestaltungen vorwiegend als Annäherungen an den virtuellen Raum gedeutet. Die Dissertation
+hingegen belegt, dass die aktuellen medialen Raumgestaltungen eher als Ästhetisierung des Urbanen zu
+begreifen sind. Es ist der urbane, nicht der virtuelle Raum, der als dominantes Motiv in aktuellen Theorien
+erscheint und der die gestalterischen Lösungen der Gegenwart in erster Line beeinfusst.
+
+Nach einer Zusammenfassung des Forschungsstandes widmet sich die Untersuchung den Arbeiten Robert
+Venturis und Archigrams und behandelt sie als historische Positionen. Die darauf folgende Analyse der
+Stadträume des Times Squares und Tokios belegt sowohl die Nähe des Raumkonzeptes Archigrams zu
+heutigen Konditionen des Urbanen als auch ihre Vorläuferschaft zu aktuellen Konzepten. Die medialen
+Raumgestaltungen von Toyo Ito, Christian Möller, Bernard Tschumi, Coop Himmelb(l)au, Jean Nouvel,
+Stephen Perella und Asymptote werden in den Schriften ihrer Urhebern selbst mit zwei Faktoren des
+urbanen Raumes in Beziehung gesetzt, die auch bei Archigram wesentlich sind: die visuelle Komplexität der
+urbanen Zeichenschicht sowie die Auffassung der Stadt als Ansammlung von Immaterialitäten. Nach der
+Untersuchung der zeitgenössischen Projekte und Positionen greift die Arbeit abschließend den Begriff des
+Atmosphärischen auf und überträgt ihn auf die behandelten Raumgestaltungen.</abstract>
+                    <subject>
+                        <topic>Architektur</topic>
+                        <topic>Urbanismus</topic>
+                        <topic>visuelle Medien</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 3, Sprach-, Literatur- und Medienwissenschaften"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-2054</identifier>
+                    <identifier type="sys">HT014766917</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_205</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2005-11-10</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_205">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/205/1/ernst.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_205"
+            DMDID="DMD_siegen_opus_205">
+            <mets:fptr FILEID="FILE0_siegen_opus_205"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

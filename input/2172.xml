@@ -1,0 +1,73 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>2172</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Spatially adaptive Smoothed Particle Hydrodynamics</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Räumlich adaptive Smoothed Particle Hydrodynamics</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Rene</pc:foreName>
+            <pc:surName>Winchenbach</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Computersimulation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Fluidsimulation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Datenstrukturen für GPUs</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Computer Animation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Smoothed Particle Hydrodynamics</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">GPU Datastructures</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Heutzutage ist die Strömungsmechanik ein wichtiges Forschungsgebiet in vielen Bereichen, z. B. bei Spezialeffekten in Filmen, bei der Planung von Küstenstrukturen im Ingenieurwesen oder bei der Simulation astrophysikalischer Phänomene. Obwohl jedes dieser Probleme sehr unterschiedliche Szenarien beinhaltet, verwenden sie alle dasselbe zugrunde liegende physikalische Modell für Flüssigkeitsströmungen, und daher sind auch die Simulationsansätze, die zur Simulation des Modells in jedem Problem verwendet werden, identisch. Ein häufig verwendeter Ansatz ist die Methode der Smoothed Particle Hydrodynamics (SPH), ein Lagrangescher Ansatz zur Lösung der Navier-Stokes-Gleichungen. &#13;
+Idealerweise sollte die Auflösung der Simulation so hoch wie möglich sein, jedoch sind globale Auflösungserhöhungen nicht praktikabel, während vorherige Methoden zur lokalen Auflösungsänderung nicht praktisch nutzbar waren. In dieser Dissertation werden Forschungsarbeiten zu räumlich adaptiven SPH Methoden vorgestellt, die sich mit diesen Einschränkungen befassen, inklusive grundlegender und praktischer Probleme. Die vorgestellten Methdeon erlauben Simulationen mit um Größenordnungen höheren Adaptivitäten als in früheren Ansätzen.&#13;
+Der Schwerpunkt der Forschung in dieser Dissertation liegt auf dem Prozess der Aufteilung eines einzelnen Partikels mit niedriger Auflösung in mehrere Partikel mit höherer Auflösung. Durch die Einführung eines kontinuierlichen adaptiven Prozesses mit einem neuartigen zeitlichen Blending und einem neuen Konzept der Umverteilung der Auflösung, wurden Simulationen mit einer um vier Größenordnungen höheren Adaptivität als bisher möglich. Diese Prozesse wurden weiter verbessert indem eine neuartige Optimierungsstrategie für die Verfeinerung verwendet wurde, welche a priori und auch während der Simulation selbst durchgeführt werden kann sowie ein verbessertes zeitliches Blending. Die verbesserten Prozesse stabilisieren die räumlich adaptiven Simulationen erheblich und ermöglichen praktischere und zuverlässigere Simulationen.&#13;
+Ein weiterer wichtiger Schwerpunkt der vorgestellten Forschungsarbeiten ist die Behandlung von Rändern bei räumlich adaptiven Simulationen. Unter der Annahme dass die lokalen Grenzen planar sind, wurde eine analytische Lösung für planare Grenzgeometrien verwendet um einen skaleninvarianten Ansatz für die Behandlung von Grenzen zu entwickeln, der für räumlich adaptive Simulationen verwendet werden kann. Die Randbehandlung für nicht-adaptive Simulationen wurde durch diesen Ansatz ebenfalls erheblich verbessert, da dieser genauere Interaktionen mit Randmerkmalen unterhalb der Partikelauflösung ermöglicht.&#13;
+Zuletzt werden Verfahren zu GPU-basierten Beschleunigungsstrukturen und Algorithmen erforscht, die die effiziente Implementierung und das Rendern von räumlich adaptiven SPH Simulation ermöglichen. Außerdem werden Methoden für anisotropes Rendering und zur Reduktion vom Speicherverbrauch vorgestellt.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Fluid mechanics is an important area of research in many fields, e.g., special effects in movies, coastal structure design in engineering or the simulation of astrophysical phenomena. While each of these problems involve very different scenarios, they all use the same underlying physical model for fluid flows, and the simulation approaches used to simulate the fluid in each problem are also the same. One commonly used approach is the Smoothed Particle Hydrodynamics method, which is a Lagrangian approach to solving the Navier-Stokes equations. &#13;
+To obtain better computational performance and more detailed simulations, the achievable resolution of the simulation should be made as high as possible. Uniform, global increases in resolution are however computationally prohibitive, whereas existing methods utilizing local changes in resolution suffer from various issues. This dissertation presents research on spatially adaptive Smoothed Particle Hydrodynamics to address many of these issues, including fundamental problems, e.g., simulation stability, and practical problems, e.g., computational performance. The findings presented in this dissertation allow simulations to have adaptivity orders of magnitudes higher than that in prior work.&#13;
+The primary focus of the research in this dissertation is on the process of splitting a single particle with low resolution into many particles with higher resolution. By introducing a continuous adaptive process with a novel temporal blending process and a new concept of resolution sharing, simulations were shown to have adaptivity three orders of magnitude higher than what was previously possible. These processes were then further improved using a novel optimization strategy for refinement that can be carried out a priori and also during the simulation itself, with the latter utilizing evolutionary optimization, as well as an enhanced temporal blending scheme. The improved methods significantly stabilize spatially adaptive simulations, allowing for more practical and reliable simulations.&#13;
+Another important focus of the presented research is on boundary handling for spatially adaptive simulations. By assuming the local boundaries are flat, an analytic solution for flat boundary geometries was used to develop a scale-invariant boundary handling approach that can readily be utilized for spatially adaptive simulations. Boundary handling for non-adaptive simulations was also significantly improved by this approach as it allows for more accurate interactions with boundary features below particle resolution.&#13;
+Finally, this dissertation also covers research on GPU-based acceleration structures and algorithms that enable the efficient implementation and on-the-fly rendering of spatially adaptive fluids. Mechanisms to both handle anisotropic Smoothed Particle Hydrodynamics simulations and to significantly reduce the memory usage of both adaptive and non-adaptive simulations are also presented.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Andreas</pc:foreName>
+            <pc:surName>Kolb</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2022-02-16</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2021</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-21725</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/lizenz.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Department Elektrotechnik - Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Rene_Winchenbach.pdf" ddb:fileSize="131864378"/>
+   <ddb:checksum ddb:type="MD5">e5836694cd0adae0c5a57a5389028bc7</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/2172/3/Dissertation_Rene_Winchenbach.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/2172</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

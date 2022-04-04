@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_153">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Two-dimensional structures of self-assembled alkyl substituted polyphenylene dendrimers on graphite</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Loi, Simona</displayForm>
+                        <namePart type="family">Loi</namePart>
+                        <namePart type="given">Simona</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2001</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The self-assembly of molecules yields well-defined structures in thin films over large areas. For this reason self-assembly can be an alternative to the lithographic techniques in order to produce new materials. The atomic force microscope (AFM) is a versatile method for characterisation of polymer surfaces and thin films. It provides a topographic map of the polymer surface with high spatial resolution, in a non-invasive way and without additional sample treatments. The aim of this work was the analysis of self-assembly of alkyl substituted polyphenylene dendrimers on graphite with an AFM. The AFM experiments showed that the substrate influences the three-dimensional structure of these dendrimers and that they are able to form complex supramolecular arrays. The formation of complex structures was not expected since polymers adsorbed on surface usually show amorphous layers. In particular, the spontaneous rod formation of approximately spherical or circular macromolecules was not observed before. The shape of the molecules, the concentration of the applied solution, and the adsorption energy determine which structure is formed.
+Keywords Atomic force microscope, self-assembly, dendrimer.</abstract>
+                    <subject>
+                        <topic>atomic force microscope</topic>
+                        <topic>self-assembly</topic>
+                        <topic>dendrimer</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 8, Chemie - Biologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1534</identifier>
+                    <identifier type="sys">HT013287063</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_153</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2001-12-06</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_153">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/153/1/loi.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_153"
+            DMDID="DMD_siegen_opus_153">
+            <mets:fptr FILEID="FILE0_siegen_opus_153"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_308">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Grundlegende Ideen und Mathematikunterricht : ein Fallbeispiel zur empirischen Lösungsweganalyse</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Vohns, Andreas</displayForm>
+                        <namePart type="family">Vohns</namePart>
+                        <namePart type="given">Andreas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2007</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">&quot;Grundlegende Ideen&quot; (bzw. &quot;fundamentale Ideen&quot; etc.) werden in der Mathematikdidaktik seit etwa 40 Jahren diskutiert. In diesem Aufsatz wird die These vertreten, dass dieser Begriff nur dann erfolgreich angewandt werden kann, wenn er als Kategorie zur Analyse konkreter mathematischer Problemstellungen genutzt wird. Diese These wird anhand der Analyse einer Beispielaufgabe aus den österreichischen Bildungsstandards konkretisiert. In diesem Beispiel werden grundlegende Ideen als Kategorie einer didaktisch orientierten Sachanalyse genutzt, die Lösungsansätze von Lehramtsstudierenden zu dieser Aufgabe als Ausgangspunkt für die Konzeption einer potenziell produktiven Lernumgebung zur Trigonometrie begreift.
+Erweitertes Vortragsmanuskript des auf der 40. GDM-Tagung vom 06.-10. März 2006 in Osnabrück unter dem Titel &quot;Fallbezogene Rekonstruktion grundlegender Ideen in der Geometrie&quot; gehaltenen Vortrags.</abstract>
+                    <subject>
+                        <topic>Mathematikunterricht</topic>
+                        <topic>Fachdidaktik</topic>
+                        <topic>teaching mathematics</topic>
+                        <topic>geometry</topic>
+                        <topic>didactics of mathematics</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-3082</identifier>
+                    <identifier type="sys">HT015380689</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_308</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_308">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/308/1/vohns.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_308"
+            DMDID="DMD_siegen_opus_308">
+            <mets:fptr FILEID="FILE0_siegen_opus_308"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

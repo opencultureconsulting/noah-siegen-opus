@@ -1,0 +1,119 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_217">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Ein </nonSort>
+                        <title>lokal autokompensierender Bildsensor</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Friedrich, Nils</displayForm>
+                        <namePart type="family">Friedrich</namePart>
+                        <namePart type="given">Nils</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2006</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die vorliegende Dissertation beschreibt die Entwicklung und Implementierung des lokal
+autokompensierenden Bildsensors LACS ( L ocally A uto C ompensating I mage S ensor).
+
+Eine der größten Herausforderungen beim Entwurf von CMOS-Bildsensoren ist prinzipiell
+die Kombination einer hohen Empfindlichkeit mit einem weiten Dynamikbereich.
+Beide Attribute sind Voraussetzungen für die Detektion schwacher Lichtsignale in der
+Umgebung starker optischer Störsignale, die daher zu widersprüchlichen Anforderungen
+an einen Bildsensor führen. Detaillierte Untersuchungen verschiedener hochdynamischer
+Sensorsysteme zeigen, daß zusätzliche Rauschbeiträge die erzielte Dynamikerweiterung
+stark einschränken.
+
+Der intelligente Bildsensor LACS blendet auftretende Störbeleuchtung aus, indem der
+entsprechende Anteil des Photostroms pixelweise automatisch kompensiert wird. Auf
+diese Weise steht eine hohe Empfindlichkeit zur Verfügung, ohne daß der Dynamikumfang
+reduziert wird. Die Eigenschaften der Pixel- sowie Peripherieelektronik des LACS
+werden mit Hilfe von numerischen Simulationen und analytischen Modellen beschrieben.
+Die Untersuchung von zeitlichem und örtlichem Rauschen sowie die Analyse von
+Nichtidealitäten des LACS-Pixels stehen dabei im Vordergrund. Während sich das Photonenrauschen
+als dominante Quelle zeitlichen Rauschens herausstellt, bestimmen die
+räumlichen Schwankungen des Kompensationsstroms die physikalischen Grenzen des
+Sensors.
+
+Die mit der ersten lokal autokompensierenden Kamera aufgenommenen Bilder bestätigen
+die Funktionalität des autokompensierenden Konzepts sowie die Ergebnisse der
+theoretischen Betrachtungen. Die Kamera generiert die erforderlichen Steuersignale und
+transferiert die aufgenommenen Bildsignale an einen Rechner. Der LACS-Prototyp wurde
+in einem 0,35 µm-CMOS-Prozeß realisiert und besteht aus 32 × 32 Pixeln. Die Pixelelektronik
+umfaßt neun Transistoren und zwei Kapazitäten. Die Pixelfläche beträgt
+insgesamt (38 µm) 2 . Die Peripherieelektronik des LACS verfügt über eine Schaltung zur
+korrelierten Doppelabtastung ( C orrelated D ouble S ampling, CDS), die eine Reduzierung
+von Fixed Pattern Noise (FPN) ermöglicht.</abstract>
+                    <abstract type="content" lang="eng">This Ph.D. thesis describes the development and implementation of the image sensor
+LACS ( L ocally A uto C ompensating I mage S ensor).
+
+One of the most challenging problems in designing CMOS image sensors is the combination
+of high sensitivity and wide dynamic range. Both are required for the detection
+of weak optical signals that are surrounded by bright ambient light, which principally
+leads to contradictory demands on the image sensor design. Various dynamic range enhancing
+concepts are analysed. It can be shown, that the apparently achieved dynamic
+range enhancement is largely limited by additional noise contributions.
+
+The intelligent image sensor LACS suppresses ambient light by automatically compensating
+the corresponding part of the photo current. Thus, a high sensitivity is provided
+for the detection of weak signals without limiting the dynamic range of the captured
+scene.
+
+The characteristics of the LACS-pixel and the sensor’s periphery are described using
+numerical simulations and analytical models. Emphasis is placed on the analysis of noise
+and fixed pattern noise (FPN) as well as the deviation of the compensating current from
+ideal behaviour. While photon shot noise turns out to be the dominant noise source, the
+sensor’s performance is mainly determined by the FPN of the compensation current.
+
+Sample images taken by the first autocompensating camera validate the functionality
+of the locally autocompensating concept as well as the results from calculations and
+simulations. The camera provides the control signals and transfers the achieved data
+to a computer. The LACS-prototype was realized using a 0.35 µm-CMOS process and
+consists of 32 × 32 pixels. Each pixel measures (38 µm) 2 and includes nine transistors
+and two capacitances. Random access is provided as well as correlated double sampling
+(CDS) to reduce fixed pattern noise.</abstract>
+                    <subject>
+                        <topic>lokal autokompensierender Bildsensor</topic>
+                        <topic>LACS</topic>
+                        <topic>CMOS-Bildsensor</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-2172</identifier>
+                    <identifier type="sys">HT014766985</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_217</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2006-05-02</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_217">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/217/1/friedrich.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_217"
+            DMDID="DMD_siegen_opus_217">
+            <mets:fptr FILEID="FILE0_siegen_opus_217"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

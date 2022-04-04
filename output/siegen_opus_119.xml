@@ -1,0 +1,74 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_119">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Rationalitätskritik als Kulturkritik : zum Voraussetzungssystem in Siegfried Kracauers Schriften bis 1933</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bäumer, Rolf-Michael</displayForm>
+                        <namePart type="family">Bäumer</namePart>
+                        <namePart type="given">Rolf-Michael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">1992</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Bedeutung von Siegfried Kracauers Schriften als zentrale Beiträge zur
+Entzifferung der Kultur der “entzauberten” Moderne ist immer wieder in ihrem
+scheinbar antisystematischen Zugriff auf die massenkulturellen Phänomene und die
+Alltagswelten der Moderne gesehen worden. Die vorliegende Arbeit versucht dagegen
+am scheinbar Heterogenen von Kracauers Arbeiten den impliziten systematischen
+Rahmen seiner Kulturkritk und die Kontinuitätslinien innerhalb der Modifikationen
+von Kracauers Arbeiten zu rekonstruieren. Kracauers Schriften sind mit ihren
+philosophischen, ästhetischen und literarischen Bezügen in einem
+theoriegeschichtlichen Kontext zeittypischer Modelle der “Entzauberung” und
+“Entmythologisierung” verortet, deren Problemhorizonte sie allerdings durch eine
+spezifische Verbindung von Rationalitätskritik und Kulturkritik erweitern. Kracauers
+Reflexionen des Ephemeren, des scheinbar Disparaten und der kulturellen
+“Oberflächenerscheinungen” werden in der vorliegenden Arbeit als Versuche gelesen,
+den Zerfall geschlossener Sinnsysteme durch die Rettung des Phänomenalen und des
+Einzelnen kulturkritisch zu kompensieren.</abstract>
+                    <subject>
+                        <topic>Kulturkritik</topic>
+                        <topic>Vernunftkritik</topic>
+                        <topic>Weimarer Republik</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 3, Sprach-, Literatur- und Medienwissenschaften"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1199</identifier>
+                    <identifier type="sys">HT012018902</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_119</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>1992-07-21</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_119">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/119/1/baeumer_rolf.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_119"
+            DMDID="DMD_siegen_opus_119">
+            <mets:fptr FILEID="FILE0_siegen_opus_119"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

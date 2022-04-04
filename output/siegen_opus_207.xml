@@ -1,0 +1,130 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_207">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Metabolische Stimulus-Response-Experimente : Werkzeuge zur Modellierung, Simulation und Auswertung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Haunschild, Marc Daniel</displayForm>
+                        <namePart type="family">Haunschild</namePart>
+                        <namePart type="given">Marc Daniel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2006</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Modellbildung metabolischer Systeme wurde in den letzten Jahren zu
+einem der Hauptarbeitsgebiete im Metabolic Engineering, um die komplexen
+Regelmechanismen einer lebenden Zelle zu verstehen. In dieser Arbeit wurde
+ein vielseitiges Werkzeug entwickelt, um Modellierer bei der Erstellung
+und Überarbeitung von Modellen zu unterstützen, die auf Messdaten aus
+einem Stimulus-Response-Experiment aufbauen.  Im Verlauf der Modellbildung
+ist der Modellierer meist nicht nur mit einem einzigen Modell beschäftigt,
+sondern mit Sequenzen, Alternativen und strukturellen Varianten von
+Modellen. Für die Unterstützung der Modellbildung dynamischer
+biochemischer Netzwerke, die auf in-vivo Daten basieren, ist daher mehr
+als nur Simulation erforderlich. In dieser Arbeit wurde ein neues Konzept
+für Modellfamilien spezifiziert und implementiert. Mit diesem Konzept
+können eine Vielzahl von ähnlichen Modellen in einer einzigen Beschreibung
+gespeichert werden, mit der Hilfe von Netzwerk und kinetischen Varianten.
+Dadurch wird ein automatisches Navigieren im Raum der Modellvarianten
+möglich, in dem biologisch unsinnige Modelle auf der Basis einer
+Elementarmodenanalyse ausgeschlossen werden können.
+
+Das Einbeziehen von Messdaten wird durch die Möglichkeit unterstützt,
+Splines an Stelle von Zustandsvariablen zu verwenden. Anschließend werden
+leistungsfähige automatische Methoden benötigt, die den Modellierer bei
+der Modellbildung, Organisation und Auswertung alternativer Modelle
+unterstützen.
+
+Dieses Werkzeug wurde als Rechenkern entworfen, der in eine Kette von
+Werkzeugen eingebaut werden soll. Durch automatische Codegenerierung,
+automatische Differentiation zur Sensitivitätsanalyse und Grid-Computing
+Technologie wird eine Hochleistungsrechenumgebung erstellt. Sie
+unterstützt die Modellspezifikation in XML und bietet mehrere
+Softwareschnittstellen.
+
+Die Leistungsfähigkeit und Nutzbarkeit des Softwarewerkzeugs dieser 
+Arbeit wird an mehreren Beispielen von laufenden Forschungsprojekten
+gezeigt. Darüber hinaus wurde ein Optimierungsalgorithmus entwickelt, der
+dem Softwarewerkzeug ermöglicht die Aufgabe der Modellvariantensuche und
+Parameteranpassung zu übernehmen. Das Ergebnis der Berechnung ist ein
+Ranking der Modellvarianten, die die Messdaten am besten reproduziert
+haben.</abstract>
+                    <abstract type="content" lang="eng">Metabolic modeling has become a major activity in metabolic engineering in
+recent years, in order to understand the complex regulation phenomena in a
+living cell. In this thesis, a versatile tool has been developed to
+support a modeler with the setup and refining of a model, that simulates
+the data extracted from a rapidly sampled stimulus response experiment.
+
+In the course of the modeling process, the modeler is typically not only
+concerned with a single model but with sequences, alternatives and
+structural variants of models. Supporting the modeling process of dynamic
+biochemical networks based on sampled in vivo data requires more than just
+simulation. For this purpose, the new concept of model families is
+specified and implemented in this thesis. With this concept, a multitude
+of similar models can be formulated in a single description by using
+network and kinetic variants The concept allows to automatically navigate
+in the space of models and to exclude biologically meaningless models on
+the basis of elementary flux mode analysis.
+
+An incremental usage of the measured data is supported by using splined
+data instead of state variables. Powerful automatic methods are then
+required to assist the modeler in the organization and evaluation of
+alternative models. This tool has been developed as a computational
+engine, intended to be built into a tool chain. By the use of automatic
+code generation, automatic differentiation for sensitivity analysis, and
+Grid computing technology, a high performance computing environment is
+achieved. It supplies XML model specification and several software
+interfaces.
+
+The performance and usability of the tool of this thesis is illustrated by
+several examples from ongoing research projects. An optimization algorithm
+was developed, enabling the software tool to automatically carry through
+the tasks of model variant switching and parameter fitting. The
+computation results into a ranking of models variants fitting best to the
+experimental data.</abstract>
+                    <subject>
+                        <topic>System Biologie</topic>
+                        <topic>Simulationstechnik</topic>
+                        <topic>Source Code Generation</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-2077</identifier>
+                    <identifier type="sys">HT014700655</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_207</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2006-01-12</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_207">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/207/1/haunschild.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_207"
+            DMDID="DMD_siegen_opus_207">
+            <mets:fptr FILEID="FILE0_siegen_opus_207"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

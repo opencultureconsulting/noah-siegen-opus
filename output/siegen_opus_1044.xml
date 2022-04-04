@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1044">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Den </nonSort>
+                        <title>Kopf geschüttelt oder gelacht - Unklarheiten und Widersprüche der dialogischen Theorie</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schönecker, Dieter</displayForm>
+                        <namePart type="family">Schönecker</namePart>
+                        <namePart type="given">Dieter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">1999</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Es fällt schwer, eine Theorie zu kritisieren, die einem, ganz pragmatisch gesehen, sympathisch ist - wer mag schon bezweifeln, daß verschiedene Theorien über denselben Gegenstand sich möglichst intensiv auf einen kritischen Dialog einlassen sollten? Abgesehen von diesem grundsätzlichen Sympathiewert erscheint mit aber fast alles an Zimas Beitrag ungenau, verworren oder falsch. Ich muß mich hier auf zwei Punkte beschränken: Erstens will ich zeigen, daß Zima relativistischer und unreflektierter ist, als er uns weismachen möchte; zweitens, daß die Philosophie dialogischer ist, als Zima sie charakterisiert.</abstract>
+                    <subject>
+                        <topic>Zima, Peter V.</topic>
+                        <topic>Perspektivismus</topic>
+                        <topic>Postmoderne</topic>
+                        <topic>Dialogische Theorie</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-10449</identifier>
+                    <identifier type="sys">HT019124152</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1044</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1044">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1044/1/Den_Kopf_geschuettelt_oder_gelacht_Schoenecker.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1044"
+            DMDID="DMD_siegen_opus_1044">
+            <mets:fptr FILEID="FILE0_siegen_opus_1044"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

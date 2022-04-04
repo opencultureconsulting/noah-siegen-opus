@@ -1,0 +1,98 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1912">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Gender differences in blood transfusion strategy for patients with hip fractures - a retrospective analysis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Soost, Christian</displayForm>
+                        <namePart type="family">Soost</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Daginnus, Alina</displayForm>
+                        <namePart type="family">Daginnus</namePart>
+                        <namePart type="given">Alina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Burchard, Rene</displayForm>
+                        <namePart type="family">Burchard</namePart>
+                        <namePart type="given">Rene</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schmitt, Jan</displayForm>
+                        <namePart type="family">Schmitt</namePart>
+                        <namePart type="given">Jan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Graw, Jan</displayForm>
+                        <namePart type="family">Graw</namePart>
+                        <namePart type="given">Jan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Background: In the last decades, transfusion therapy with allogenic blood has progressively shifted to a more restrictive approach. The current study analyzed the transfusion practice and transfusion-associated factors in a regional trauma center over the course of five years.
+
+Methods: Retrospective analysis of all patients undergoing surgery for hip fractures in a level 1 trauma center of an academic teaching hospital from 2010 to 2014 (n=650). The number of transfused packed red blood cells (PRBCs), preoperative Hb concentrations, and intensive care unit (ICU) and hospital length of stay (LOS) were analyzed. A logistic regression analysis was performed to evaluate transfusion and ICU LOS-associated risk factors. (Ethical Review Board approval: 2015-497-f-S).
+
+Results: From 2010 to 2014 the average number of PRBCs transfused per patient decreased continuously despite similar preoperative Hb levels. During the same period, ICU LOS increased while hospital LOS decreased. Advanced patient age, preoperative Hb concentrations, surgical complications, and ICU LOS were associated with increased transfusion requirements. Although preoperative Hb levels were lower, females received fewer PRBCs compared to males.
+
+Conclusion: Over the course of five years, a restrictive transfusion strategy was implemented within clinical practice in patients undergoing surgery for hip fractures. In parallel, a significant reduction in the hospital LOS and an increased ICU LOS was noted. Whether there is an association between increased ICU LOS and decreasing hospital LOS and whether there is a gender effect on transfusion requirements in patients with surgery for hip fractures should be subject to further research.</abstract>
+                    <subject>
+                        <topic>Oberschenkelbruch</topic>
+                        <topic>Hip fracture</topic>
+                        <topic>Blood transfusion</topic>
+                        <topic>Transfusion practice</topic>
+                        <topic>Intensive care unit length of stay</topic>
+                    </subject>
+                    <classification authority="ddc">610</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19126</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1912</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1912">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1912/4/Gender_differences_in_blood_transfusion_strategy.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1912"
+            DMDID="DMD_siegen_opus_1912">
+            <mets:fptr FILEID="FILE0_siegen_opus_1912"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

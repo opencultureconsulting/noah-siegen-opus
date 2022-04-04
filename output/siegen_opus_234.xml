@@ -1,0 +1,91 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_234">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Internationalismen : Konzeption einer interlexikologischen Theorie ; dargestellt am Beispiel der Ergebnisse einer empirischen Auswertung von türkischen Zeitungstexten</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Özen, Ümit</displayForm>
+                        <namePart type="family">Özen</namePart>
+                        <namePart type="given">Ümit</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2000</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Für die noch in den Anfängen steckenden Internationalismusforschung
+stellen die theoretischen und methodischen Überlegungen von Schaeder und
+Volmert eine theoretische Basis dar, die sich für die Untersuchungen
+innerhalb des Forschungsbereichs zur Erprobung anbieten.
+
+Das Interesse der vorliegenden Arbeit gilt vor allem den folgenden zwei
+Fragen:
+- Kann man mit Hilfe der von Schaeder und Volmert vorgelegten
+lexikologischen Konzeption Internationalismen in einer Sprache ermitteln;
+- Läßt sich eine Grenze feststellen, wo Wörter (insbesondere im Hinblick
+auf ihre Form) aufhören, als Internationalismen zu gelten.
+
+Hinsichtlich der ersten Frage bietet sich gerade das Türkische zur
+Untersuchung an, weil sein Internationalismenbestand noch unbekannt ist
+und weil es in der Türkei gegenwärtig eine Diskussion über
+Internationalismen und &quot;Fremdwörter&quot; im Gange ist. Art und Umfang der
+Internationalismen im Türkischen festzustellen, kann zur Regelung der seit
+der Gründung der Türkischen Republik sehr aktuellen Fremdwortproblematik
+einen Beitrag leisten.
+
+Bei der letzteren Frage bedarf es eines Wechsels von der Lexem-Ebene auf
+die Morphem-Ebene: Es empfiehlt sich, als Untersuchungseinheiten nicht
+Interlexeme, sondern Intermorpheme anzusetzen, um auf diese Weise
+Kongruenzprobleme zu mildern, die sich beim interlingualen Vergleich
+insbesondere im Bereich der gebundenen Morpheme (Affixe und Endungen)
+ergeben. Kongruenzprobleme entstehen vor allem durch die
+Graphem-Phonem-Korrespondenzen bzw. Schreibkonventionen einzelner
+Sprachen. Dabei handelt es sich im allgemeinen um die Abweichungen der
+Vergleichssprachen, die systematisch vorkommen und/oder die auf
+Inter-Langue-Ebene miteinander korrespondieren. Die Feststellung dieser
+Korrespondenzen führt zu richtungsweisenden Vorschlägen bezüglich der
+Kongruenzprobleme.</abstract>
+                    <subject>
+                        <topic>Sprachvergleich</topic>
+                        <topic>Lexikologie</topic>
+                        <topic>Internationalismen</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 3, Sprach-, Literatur- und Medienwissenschaften"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-2349</identifier>
+                    <identifier type="sys">HT012756547</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_234</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>1999-06-16</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_234">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/234/1/oezen_uemit.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_234"
+            DMDID="DMD_siegen_opus_234">
+            <mets:fptr FILEID="FILE0_siegen_opus_234"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

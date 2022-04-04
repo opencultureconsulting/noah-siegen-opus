@@ -1,0 +1,53 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>135</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Aufbau eines Spurtriggers bei HERA-B mit GEM-MSGC-Detektoren</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Stefan</pc:foreName>
+            <pc:surName>Keller</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Spürdetektor</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Trigger-Elektronik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">CP-Verletzung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">530</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">In der ersten Triggerstufe des Experiments HERA-B werden zur Unterdrückung des erheblichen hadronischen Untergrundes Ereignisse mit Di-Leptonpaaren aus J/Ψ-Zerfällen selektiert. Das Innere Spurkammersystem (ITR) liefert Spurinformationen zur Hardware-Logik der ersten Triggerstufe. In dieser Arbeit wurde der Spurtrigger des ITR getestet und optimiert. Der ITR besteht aus 184 Mikrostreifen-Gasdetektoren (MSGCs) mit einer internen Vorverstärkung (GEM-Folie) im Gasraum. Die Kammern des ITR sind auf 10 Stationen entlang des Strahlrohrs verteilt und besitzen insgesamt etwa 120.000 Auslesestreifen. Die Triggersignale des ITR werden von analogen Auslesechips, den HELIXChips, generiert. Dazu sind auf den HELIX-Chips Komparatorschaltungen integriert, die digitale Informationen von jeweils vier veroderten Eingangskanälen an die Triggerausgänge der Chips weiterleiten. Die Triggerdaten werden gemultiplext und mit einer Rate von 1 GBit/s über optische Verbindungen zur ersten Triggerstufe gesendet. Bei der ersten Inbetriebnahme des ITR Triggers traten Oszillationen der Chips auf, wodurch die Komparatoreffizienz auf 45 % beschränkt war. Mit Hilfe umfangreicher Messungen am Teststrahl des Paul-Scherrer-Instituts, im Labor und bei HERA-B konnten durch Änderungen an der Erdung und an den Chips die Oszillationen vollständig unterdrückt werden. Die Komparatoreffizienz pro Einzelkammer wurde auf mehr als 95 % gesteigert. Im Laufe des Jahres 2001 wird der ITR mit der optimierten Trigger-Elektronik ausgerüstet. Durch den ITR wird die Triggereffizienz des Experiments um etwa 60 % erhoht.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">To suppress the substantial hadronic background, the first level trigger of HERA-B experiment selects events with di-lepton pairs of the J/Ψ-decay. The Inner Tracker (ITR) supplies track information to the hardware logic of the first level trigger. During my thesis the performance of the ITR trigger was tested and optimized. The ITR consists of 184 microstrip gas chambers (MSGCs) with an internal pre-amplification (GEM foil) in the gas volume. The chambers of the ITR form 10 stations along the beam pipe with altogether about 120,000 readout channels. The trigger signals of the ITR are derived from the HELIX front-end amplifier. Comparator circuits are integrated in the HELIX chips which generate digital information derived from four ORed readout channels and transmit it to the trigger outputs of the chip. The trigger data are multiplexed and transfered by 1 GHz optical links to the first level trigger. During the first operation tests of the ITR trigger oscillations of the chips occurred, which limited the comparator efficiency to 45 %. Based on extensive measurements at the test beam of the Paul Scherrer institute, in the laboratory and at HERA-B, the oscillations could be completely suppressed due to modifications of the grounding and of the chips. The comparator efficiency of single chambers could be increased to more than 95 %. In the course of the year 2001 the ITR will be equipped with optimized trigger electronics. The ITR trigger will increase the trigger efficiency of the experiment by about 60 %.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2001-06-12</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2001</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-1356</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 7, Physik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>3</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="keller.pdf" ddb:fileSize="2898289"/>
+   <ddb:fileProperties ddb:fileName="abstract.pdf" ddb:fileSize="22426"/>
+   <ddb:fileProperties ddb:fileName="abst_ger.pdf" ddb:fileSize="23805"/>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/135</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

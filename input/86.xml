@@ -1,0 +1,71 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>86</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Design-flow-Management mit Web-Services in der Mikrotechnik</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Christian</pc:foreName>
+            <pc:surName>Schumer</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Service-orientiertes Entwurfsszenario</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Kreismodell</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">design flow management</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">MEMS industry in Europe is characterized by small and medium sized enterprises (SMEs) specialized on products to solve problems in specific domains like&#13;
+medicine, automotive sensor technology, etc. In this field of business the technology driven design approach known from micro electronics is not appropriate. Instead each design problem aims at its own, specific technology to be used for the solution. The variety of technologies at hand, like Si-surface, Si-bulk, LIGA, laser, precision engineering requires a huge set of different design tools to be available. No single SME can afford to hold licenses for all these tools. This calls for a new and exible way of designing, implementing and distributing design software.&#13;
+The key to the development of successful tools for micro electronic design has&#13;
+been the use of models of the design process that define precisely the steps to be taken, their constraints, their sequence and their parameters in order to turn a product specification into a technical realization. The famous Y-chart of Gajski and Kuhn [WT85] is a good example for the extent and impact of design models. Driven by the success of the Y-chart model a dedicated design model for MEMS design is presented in this thesis. As a basis, a so-called circle-model is used, which describes a new design methodology for MEMS. This includes a class&#13;
+of design services to solve specific MEMS design problems and an innovative&#13;
+approach for developing design flows.&#13;
+Based on the requirements of SMEs a novel service oriented design scenario&#13;
+(SODS) is presented. It contains a work flow for implementing customer specific&#13;
+design flows and defines the required software elements. In this context the Internet as one of today's most important communication media provides support&#13;
+on the basis of web services. The technology of web services is used to offer a&#13;
+new generation of exible, semi-autonomous software systems via the Internet,&#13;
+so-called design assistants. A design assistant guides the human expert through&#13;
+the design flow and makes sure that the fabrication specification is complete&#13;
+and correct. Assistants are built dynamically depending on the requirements&#13;
+of the respective MEMS design process at hand. To achieve this, a design flow&#13;
+integrated development environment (IDE) helps to build up assistants fast and&#13;
+easily.&#13;
+Circle-model, design services and SODS are part of the new discipline design flow management for MEMS. The discipline shows SMEs how to reduce costs&#13;
+for design tool installation, operation and integration and produces a faster&#13;
+design flow execution with a better result.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2004-10-10</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2004</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-862</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 12, Elektrotechnik und Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="schumer.pdf" ddb:fileSize="5894057"/>
+   <ddb:checksum ddb:type="MD5">eb6bde98ff60d2eac684927edcb03a7d</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/86/1/schumer.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/86</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

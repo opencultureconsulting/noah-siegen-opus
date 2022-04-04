@@ -1,0 +1,61 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>825</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Analysis of adjoint based optimal control applied to noise reduction of plane jets</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Analyse adjungiertenbasierter optimaler Kontrolle angewendet auf die Schallreduktion planarer Freistrahlen</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Daniel</pc:foreName>
+            <pc:surName>Marinc</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Strömungsakustik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Adjungiertenverfahren</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Schallreduktion</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">adjoint method</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Many gradient based optimization methods can be found in the literature. If the input parameters of a cost function are subject to implicit constraints the adjoint method is often the preferred method to obtain the gradient. The adjoint method provides an efficient way for the computation of the gradient, where the computational time is independent of the number of control variables of the cost function.&#13;
+&#13;
+In this work the noise of a three dimensional turbulent subsonic jet is minimized. The cost function is defined as an integral over the pressure fluctuations in the farfield and thus gives an estimate for noise emission. The simulations are based on the compressible Navier-Stokes equations, which act as implicit constraints for the minimization problem. The adjoint variables are computed using different approximations of the adjoint equations and the resulting gradient accuracy is investigated. Among other aspect the continuous and discrete adjoint methods are compared in terms of accuracy. Furthermore, the efficiency and effectivity of the optimization procedure is investigated in terms of gradient accuracy and numeric resolution.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">In der Literatur kann eine Vielzahl an Methoden zur gradientenbasierten numerischen Optimierung gefunden werden. Für den Fall, dass die Parameter einer Kostenfunktion impliziten Bedingungen unterliegen, wird häufig die Adjungiertenmethode zur Berechnung des Gradienten herangezogen. Die Adjungiertenmethode erlaubt auch bei impliziten Bedingungen eine effiziente Berechnung des Gradienten, wobei die benötigte Rechenzeit unabhängig von der Anzahl der Parameter der Kostenfunktion ist.&#13;
+&#13;
+Im Rahmen dieser Arbeit wird der Schall eines dreidimensionalen turbulenten unterschall Freistrahles minimiert.&#13;
+Die Kostenfunktion wird definiert als ein Integral über die Druckfluktuationen im Fernfeld und ist somit ein Maß für die Lautstärke des Freistrahles. Die zugrundeliegenden Bewegungsgleichungen sind die kompressiblen Navier-Stokes-Gleichungen, welche implizite Bedingungen aus Sicht des Optimierungsprozesses sind. Die Adjungierte wird auf unterschiedliche Arten berechnet und die Genauigkeit des daraus resultierenden Gradienten untersucht werden. Ein besonderes Augenmerk liegt hierbei auf Vergleichen zwischen der sogenannten diskreten und kontinuierlichen Adjungierten. Systems nach beziehungsweise vor der diskretisierung vorgenommen wird. Desweiteren wird die Effizienz und Effektivität der Optimierung in Abhängigkeit der Genauigkeit des Gradienten und der numerischen Auflösung betrachtet.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2014-06-23</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2014</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-8252</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dcterms:isPartOf xsi:type="ddb:noScheme">Schriftenreihe des Lehrstuhls für Strömungsmechanik;  1</dcterms:isPartOf>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Fluid- und Thermodynamik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Daniel_Marinc_bearbeitet.pdf" ddb:fileSize="1545809"/>
+   <ddb:checksum ddb:type="MD5">6f251d2e9a7fcbef0d693d81b14ca85f</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/825/1/Dissertation_Daniel_Marinc_bearbeitet.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/825</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

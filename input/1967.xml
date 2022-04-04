@@ -1,0 +1,138 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1967</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">The interplay between quantum entanglement, coherence, and convex optimization</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Das Zusammenspiel zwischen Quantenverschränkung, Kohärenz und konvexer Optimierung</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Timo Yannick</pc:foreName>
+            <pc:surName>Simnacher</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Quanteninformation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Quantum information</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Entanglement</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Convex optimization</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Semidefinite programming</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Coherence</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">530</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">In this thesis, we strive to advance the knowledge of relations between convex optimization&#13;
+and the quantum phenomena entanglement and coherence. The main research&#13;
+areas we explore are rank-constrained semidefinite programming, the quantum&#13;
+pure-state marginal problem and the existence of AME states as well as quantum&#13;
+codes, entanglement detection, and the certification of quantum memories with coherence.&#13;
+&#13;
+First, we start with real and complex rank-constraint semidefinite optimization problems&#13;
+and rephrase them as an optimization over separable two-copy states. This reformulation&#13;
+allows to approach the problem through a hierarchy of efficiently solvable&#13;
+semidefinite programs that provide better and better certified bounds. We apply the&#13;
+new technique to various problems in quantum information theory and beyond, such&#13;
+as the optimization over pure states or unitary channels and the well-known maximum&#13;
+cut problem. Furthermore, we describe an inherent symmetry in our formulation that&#13;
+significantly improves the performance.&#13;
+&#13;
+Second, we consider the application of our method to the quantum pure-state marginal&#13;
+problem. In particular, we prove that the existence of n-partite absolutely maximally&#13;
+entangled states with local dimension d is equivalent to the bipartite separability of a&#13;
+certain state of 2n particles, and we compute that state explicitly. This application is a&#13;
+striking example of how symmetries can simplify semidefinite programs and we use&#13;
+them to compute high orders of our hierarchy despite the rapidly increasing dimension.&#13;
+Moreover, we rewrite the existence problem of quantum error-correcting codes&#13;
+as a marginal problem making our method also applicable to this area of research.&#13;
+&#13;
+Third, since entanglement is not only a theoretically interesting phenomenon, but also&#13;
+a vital resource for quantum information protocols, we investigate entanglement detection&#13;
+in practical experiments. We examine scrambled data, a scenario in which the&#13;
+mapping between outcomes and their respective probabilities is lost. Furthermore, we&#13;
+use the joint numerical range of observables to find measurements that allow entanglement&#13;
+detection even when the confidence region due to statistical and systematic&#13;
+errors is large.&#13;
+&#13;
+Finally, we introduce a quality measure for quantum memories that quantifies the&#13;
+performance based on the memory’s ability to preserve coherence. Remarkably, this&#13;
+measure also distinguishes entanglement-breaking channels from genuine quantum&#13;
+memories. For the case of single-qubit channels, we find various theoretical bounds&#13;
+and a simple measurement scheme to approximate our performance measure.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Mit dieser Dissertation wollen wir das Verständnis der Zusammenhänge zwischen&#13;
+konvexer Optimierung und der Quantenphänomene Verschränkung und Kohärenz&#13;
+erweitern. Die Hauptforschungsgebiete, die wir erkunden, sind rangbeschränkte semidefinite&#13;
+Programmierung, das Marginalproblem reiner Quantenzustände und die&#13;
+Existenz von AME-Zuständen sowie Quantencodes, Verschränkungsdetektion und die&#13;
+Zertifizierung von Quantenspeichern mittels Kohärenz.&#13;
+&#13;
+Als erstes beschäftigen wir uns mit reellen und komplexen rangbeschränkten semidefiniten&#13;
+Optimierungsproblemen und formulieren diese als Optimierung über separierbare&#13;
+Zwei-Kopien-Zustände um. Das erlaubt es, mittels einer Hierarchie effizient lösbarer&#13;
+semidefiniter Programme immer bessere zertifizierte Schranken zu berechnen.&#13;
+Wir wenden die Methode auf verschiedene Probleme in der Quanteninformationstheorie&#13;
+an, wie etwa die Optimierung über reine Zustände oder unitäre Kanäle und&#13;
+das Problem des maximalen Schnitts eines Graphen. Außerdem beschreiben wir eine&#13;
+inhärente Symmetrie unserer Formulierung, die die Komplexität erheblich verringert.&#13;
+&#13;
+Dann wenden wir unsere Methode auf das Marginalproblem reiner Quantenzustände&#13;
+an. Insbesondere beweisen wir, dass die Existenz n-partiter absolut maximal verschränkter&#13;
+Zustände mit lokaler Dimension d äquivalent zu der bipartiten Separierbarkeit&#13;
+eines bestimmten 2n-Teilchenzustands ist, den wir explizit berechnen. Das zeigt&#13;
+eindrucksvoll, wie Symmetrien semidefinite Programme vereinfachen können, sodass&#13;
+hohe Ordnungen unserer Hierarchie trotz rasch steigender Dimension berechenbar&#13;
+sind. Ferner formulieren wir das Existenzproblem von Quantenfehlerkorrekturcodes&#13;
+als Marginalproblem, sodass unsere Methode auch hierfür anwendbar wird.&#13;
+&#13;
+Da Verschränkung nicht nur theoretisch interessant ist, sondern auch eine essentielle&#13;
+Ressource für Quanteninformationsprotokolle, erforschen wir anschließend deren&#13;
+Detektion in der Praxis. Wir untersuchen ein Szenario, bei dem die Zuordnung von&#13;
+Messergebnissen zu den entsprechenden Wahrscheinlichkeiten unklar ist. Außerdem&#13;
+nutzen wir das gemeinsame numerische Bild von Observablen, um Messungen zu&#13;
+finden, die Verschränkungsdetektion selbst dann ermöglichen, wenn die Konfidenzregion&#13;
+aufgrund statistischer und systematischer Fehler relativ groß ist.&#13;
+&#13;
+Abschließend stellen wir ein Qualitätsmaß für Quantenspeicher vor, das die Leistungsfähigkeit&#13;
+auf Basis von Kohärenzerhaltung misst. Bemerkenswerterweise differenziert&#13;
+das Maß auch zwischen verschränkungszerstörenden Kanälen und echten Quantenspeichern.&#13;
+Für Ein-Qubit-Kanäle beschreiben wir theoretische Schranken und einfache&#13;
+Messungen, um das Maß näherungsweise zu bestimmen.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Otfried</pc:foreName>
+            <pc:surName>Gühne</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2021-07-22</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2021</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-19677</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/lizenz.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Department Physik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Timo_Simnacher.pdf" ddb:fileSize="3391444"/>
+   <ddb:checksum ddb:type="MD5">6f9f580a5a3e019b01ba7579cf4c4f3b</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1967/4/Dissertation_Timo_Simnacher.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1967</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

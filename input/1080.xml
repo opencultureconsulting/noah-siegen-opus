@@ -1,0 +1,96 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1080</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Robust vehicle state and parameter observation : adaptive filtering concept with enhanced robustness by usage of Markov chains</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Robuste Beobachtung von Fahrzeugzuständen und Parametern</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Matthias</pc:foreName>
+            <pc:surName>Korte</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Fahrerassistenzsystem</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Vehicle State Observation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Kalman Filtering</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Parameter Estimation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Vehicle Dynamics</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Vehicle Model</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The work presented here should fulfil the requirements for the granting of the degree of&#13;
+Doctor of Engineering at the University Siegen. It was completed within the EU funded&#13;
+project eFuture with the company Intedis. The goal of the project was to create an&#13;
+efficient and safe electric vehicle on the basis of a Tata eVista with help of a complete&#13;
+new architecture.&#13;
+A novel robust vehicle observer was designed for an optimal support of the integrated&#13;
+driver assistance systems. The concept for the observer is based upon an extended&#13;
+Kalman Filter using a non-linear vehicle model and the Dugoff tire model.&#13;
+Moreover, a parameter estimation and a plausibility check of the sensor signals were&#13;
+developed to increase the robustness of the observer. The estimation of the vehicle&#13;
+mass, the effective tire radii and the road adhesion were designed with an event-seeking&#13;
+characteristic in order to minimise the computational load. In the plausibility check&#13;
+delayed or faulty sensor signals are detected and corrected. Here the newly designed&#13;
+replacement of delayed or missing sensor signals by the concept of Markov Chains is&#13;
+pointed out. By this, the correctness of the output signals and the safety of the vehicle&#13;
+can be guaranteed for a defined time. Additionally, the evaluation of the stability limits&#13;
+and the driven distance of the vehicle are computed under the use of quantities that&#13;
+were calculated before. After the model based design the software was integrated on the&#13;
+hardware of the prototype. The functionality of this concept is given by results during&#13;
+dynamic test drives</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die hier vorgestellte Arbeit soll die Anforderungen zur Verleihung des Doktortitels an der&#13;
+Universität Siegen erfüllen. Sie wurde im Rahmen des EU geförderten Projekts eFuture&#13;
+bei der Firma Intedis in Würzburg abgeleistet, in welchem ein sicheres und effizientes&#13;
+Elektrofahrzeug auf Basis eines Tata eVista dank eines neuen Konzeptes aufgebaut wurde.&#13;
+Ein neuartiger robuster Fahrzeugbeobachter wurde entwickelt um die integrierten Fahrerassistenzsysteme&#13;
+optimal zu unterstützen. Das Konzept des Beobachters basiert auf&#13;
+einem erweiterten Kalman Filter unter Verwendung eines nichtlinearen Fahrzeugmodells&#13;
+und des Dugoff Reifenmodells.&#13;
+Zusätzlich wurde eine Parameterschätzung sowie ein Plausibilitätscheck der Sensorsignale&#13;
+integriert, um die Robustheit des Beobachters zu erhöhen. Die Parameterschätzung&#13;
+von Fahrzeugmasse, effektiven Reifenradien und Haftreibung wurde mit Hinblick auf die&#13;
+Berechnungslast ereignisbasierend aufgebaut. Im Plausibilitätscheck werden sowohl fehlerhafte&#13;
+oder verzögerte Signale detektiert als auch korrigiert. Hier ist das neu entworfene&#13;
+Ersetzen von verzögerten oder fehlenden Sensorsignalen auf Basis der Theorie der Markov&#13;
+Ketten hervorzuheben. So kann auch bei einem Sensorausfall die Korrektheit der&#13;
+Ausgangssignale für einen gewissen Zeitraum und dadurch auch die Sicherheit des Fahrzeugs&#13;
+unter Assistenzkontrolle garantiert werden. Die Evaluierung der Stabilitätsgrenzen&#13;
+für das Fahrzeug sowie die Berechnung der gefahrenen Strecke für das Kombiinstrument&#13;
+werden mit den zuvor ermittelten Größen durchgeführt. Nach der modellbasierten Entwicklung&#13;
+wurde die Software auf der Hardware des Prototypen integriert. Ergebnisse bei&#13;
+dynamischen Testfahrten zeigen die Funktionalität dieses Konzepts.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2016-06-06</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2016</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-10802</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Regelungs- und Steuerungstechnik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Matthias_Korte.pdf" ddb:fileSize="4685223"/>
+   <ddb:checksum ddb:type="MD5">cc2737b69bc38d67d5607b5b639640a9</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1080/1/Dissertation_Matthias_Korte.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1080</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

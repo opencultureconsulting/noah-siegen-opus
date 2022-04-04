@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_923">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Revenue management models for hotel business</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Optimierungsmodelle im Hotel Revenue Management</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bandalouski, Andrei M.</displayForm>
+                        <namePart type="family">Bandalouski</namePart>
+                        <namePart type="given">Andrei M.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Competition and macroeconomic changes stimulate hoteliers to find ways to improve business. Hotel Revenue Management (HRM) techniques evolve and their beneficial results attract more and more hotel owners. Solutions of hotel revenue management approaches support managers in decision-making and increase revenues.
+
+In order to contribute to HRM theory and practice the following two problems of revenue management in hotel business have been studied: 1) problem P-Pricing, which is a dynamic and uncertain problem of determining prices of rooms of different categories such that the total profit of room sales based on the forecasted demand is maximized, assuming that the demand is price sensitive, and 2) problem P-Select, which is a static and deterministic problem of selecting a subset of room requests from a given set of room requests such that the selected requests can be assigned to physically different rooms or the same room in different time slots and the total value of these requests is maximized.
+
+In problem P-Pricing specific historical forecasting methods are used to predict values of coefficients of linear demand function.  Revenue maximization of a hotel is gained via solving mathematical programming problem with concave quadratic objective function and linear constraints. A typical example of a practical situation where problem P-Pricing appears is the reservation of hotel rooms via an Internet service, which immediately accepts a request if it can be satisfied.
+
+Problem P-Select is modeled as a Fixed Interval Scheduling Problem on parallel machines. Its relation to the Maximum Weight Clique Problem of graph theory is established. Optimal and heuristic solution approaches are developed and computer tested. A typical example of a practical situation where problem P-Select appears is renting of private apartments and cottages, when the owner collects requests during a certain period of time and then decides which of them to accept. It also appears in hotel business in special cases such as world sporting events, when requests for rooms come much in advance, demand is usually exaggerated and hotel managers have the possibility to consider requests during a certain period of time.</abstract>
+                    <abstract type="content" lang="ger">Der zunehmende Wettbewerb im Hotelgewerbe zwingt Hoteliers zum Einsatz von Entscheidungsunterstützungssoftware, die eine flexiblere, nachfrageorientiertere Preispolitik auf Basis der bei Flugbuchungen bekannten Methoden des Revenue Managements erfordert.
+
+Diese Dissertation betrachtet die beiden Probleme der Bestimmung des geeigneten Zimmerpreises jeder Zimmerkategorie, bei zu großer, auf Vergangenheitsdaten basierter, prognostizierter Nachfrage (P-Pricing), sowie das Problem der Auswahl von Nachfragen (Hotelbuchungen) bei vorliegender Überbuchung (P-Select). P-Pricing ist ein dynamisches, auf unsicheren Daten basierendes Gewinnmaximierungsproblem bei preiselastischer Nachfrage. P-Select ist ein deterministisches Problem zur gewinnmaximalen Auswahl von Zimmernachfragen, die sich auf entweder unterschiedliche Zeiträume für gleiche Zimmer oder gleiche Zeiträume für unterschiedliche Zimmer beziehen.
+
+P-Pricing wird als mathematisches Programmierungsproblem mit konkaver, quadratischer Zielfunktion und linearen Restriktionen modelliert. Die zu erwartende Nachfrage wird über die vorliegenden Vergangenheitswerte prognostiziert. Beispielhaft ist hier etwa die Buchen eines Hotelzimmers über ein Internetportal, das eine Nachfrage sofort akzeptiert, sofern sie befriedigt werden kann. Eine Preisanpassung findet dann unmittelbar statt.
+P-Select wird als Intervall Scheduling Problem auf parallelen Maschinen mit festen Intervallen formuliert und läuft darauf hinaus, in einem Graphen maximale, gewichtete Cliquen zu bestimmen. Exakte und heuristische Verfahren werden vorgestellt und getestet. 
+
+Beispielhaft für Problem P-Select steht die Vermietung von privaten Wohnungen. Der Besitzer sammelt für einen gewissen Zeitraum alle eingehenden Anfrage und wählt anschließend die für Ihn geeignetsten aus.
+Die Situation tritt im Hotelgewerbe eher dann auf, wenn aufgrund von Großveranstaltungen auf knappe Hotelressourcen zurückgegriffen wird, die bereits frühzeitig angefragt werden. 
+Der Arbeit liegen reale Daten zugrunde.</abstract>
+                    <subject>
+                        <topic>Revenue Management</topic>
+                        <topic>Revenue Management</topic>
+                    </subject>
+                    <classification authority="ddc">650</classification>
+                    <classification authority="ioo" displayLabel="Fakultät III - Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-9235</identifier>
+                    <identifier type="sys">HT018636138</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_923</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2015-04-30</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_923">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/923/1/Bandalouski_revenue_management_for_hotel_business.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_923"
+            DMDID="DMD_siegen_opus_923">
+            <mets:fptr FILEID="FILE0_siegen_opus_923"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

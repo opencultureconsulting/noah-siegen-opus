@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1628">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Methodological implications of research on technology use by healthcare professionals: A short introduction to multidimensional scaling</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Knop, Michael</displayForm>
+                        <namePart type="family">Knop</namePart>
+                        <namePart type="given">Michael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Healthcare professionals currently face different challenges in an ongoing
+reconstruction of care. Digitization and the use of healthcare-related technologies
+promise both an improvement in quality of care and an increase of treatment
+efficacy. Especially telemedicine systems seem to be capable to overcome current
+spatial and temporal limitations of care. As telemedicine appears to be a non-uniform
+term describing a variety of technological characteristics, the explanatory power of
+entrenched models for technology use varies across different contexts of use. To
+explore important contextual factors in the field of healthcare technology research
+and to enrich the methodological diversity in Information Systems research, this
+paper provides a short introduction to Multidimensional Scaling. Being able to
+visualize underlying dimensions of subjective perceptions, Multidimensional
+Scaling shows complementary applicability and use with regard to elaborated
+methods and a high integrability into holistic research strategies.</abstract>
+                    <subject>
+                        <topic>Gesundheitstelematik</topic>
+                        <topic>Informations- und Kommunikationstechnologie (IKT)</topic>
+                        <topic>Telemedizin</topic>
+                        <topic>Information and Communication Technologies (ICT)</topic>
+                        <topic>Telemedicine</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16283</identifier>
+                    <identifier type="sys">HT021015942</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1628</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1628">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1628/5/Methodological_Implications_of_Research.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1628"
+            DMDID="DMD_siegen_opus_1628">
+            <mets:fptr FILEID="FILE0_siegen_opus_1628"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

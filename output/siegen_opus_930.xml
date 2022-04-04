@@ -1,0 +1,84 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_930">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Ermittlung zentraler Konzepte der Systemarchitektur eingebetteter Systeme anhand eines fachdidaktisch begründeten Kriterienkataloges</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Evaluation of central concepts in embedded system development based on a didactical criteria catalog</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Büchner, Steffen</displayForm>
+                        <namePart type="family">Büchner</namePart>
+                        <namePart type="given">Steffen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die vorliegende Arbeit stellt ein Konzept zur Ermittlung zentraler Methoden und Sichtweisen für die Entwicklung eingebetteter Systeme vor. Ein solcher Beitrag ist notwendig, da eingebettete Systeme ein technologisch schnelllebiges Anwendungsgebiet darstellen, für das die Auswahl langfristig relevanter Lerninhalte schwierig ist.
+
+Die Basis der Forschungsmethodik bildet zum einen das DFG-Projekt &quot;Kompetenzentwicklung mit eingebetteten Mikro- und Nanosystemen&quot; (KOMINA), in dem ein Kompetenzstrukturmodell für den Anwendungsbereich erstellt wurde, und zum anderen die von Schwill vorgestellte Methodik der &quot;fundamentalen Ideen der Informatik&quot;. Kern des Vorgehens ist es, nicht mehr eine spezifische Technik, sondern die mit ihr verbundene Idee an die Studierenden zu vermitteln. Die Fundamentalität jeder dieser Ideen kann durch fachdidaktisch begründete Kriterien geprüft werden. Alle bisherigen Arbeiten zur Ermittlung fundamentaler Ideen entstanden mit Fokus auf ein schulisches Bildungsniveau, weswegen der
+Kriterienkatalog in der vorliegenden Arbeit auf die Eignung im Hochschulkontext überprüft, angepasst und erweitert wurde. Daraus resultiert eine Sammlung von fünf Kriterien, mit denen sich prüfen lässt, ob eine Idee fundamental für die Entwicklung eingebetteter Systeme ist. Das Horizontalkriterium sichert die breite Anwendbarkeit der Idee und ihren Bezug zu den Ebenen des Entwicklungsvorgehens. Im Fortbildungskriterium wird analysiert, inwiefern die Vermittlung der Idee auf Bachelorebene möglich ist und welche Grundlage sie für andere Ideen bereitstellt. Das Zeitkriterium überprüft, wie lange eine Idee im Anwendungsbereich auch in der Vergangenheit beobachtbar war und welche Tendenz sich daraus für die kommenden Jahre ableiten lässt. Da Studierende nach ihrer Fachausbildung entweder im industriellen oder im wissenschaftlichen Bereich arbeiten werden, analysiert das Sinnkriterium die Relevanz der Idee für diese beiden Berufswege. Das Varianzkriterium greift als neues Kriterium die Bezüge zwischen anderen Ideen auf und analysiert, inwiefern eine Idee bereits in
+anderen Konzepten vorhanden ist. 
+
+Anstatt einer subjektive Zusammenfassung des Anwendungsgebietes als Ausgangslage für die Ideenanalyse wurde in dieser Arbeit eine Sammlung wissenschaftlicher Fragestellungen und Forschungsgebiete normativ ausgewertet. Hierzu wurden die ACM &quot;Transactions on Embedded Computing&quot; über den Zeitraum der letzten fünf Jahre analysiert und insgesamt zehn fundamentale Ideen ermittelt. Neben formalisierten Beurteilungsrichtlinien für jedes Kriterium wurde die Anwendbarkeit der fundamentalen Ideen durch die Ableitung einer
+Veranstaltungsstruktur verdeutlicht. Dabei geben die Kriterien eine logische Ordnung für die inhaltliche Organisation der Veranstaltungsstruktur vor, die direkt aus der Analyse eines Themengebietes ermittelt werden kann. Erstmalig ist das Konzept somit nicht nur auf Curriculaebene, sondern auch auf Veranstaltungsniveau theoretisch fundiert. Exemplarisch wurde eine Veranstaltung nach diesem Vorbild für die fundamentale Idee der rekonfigurierbaren Architekturen beschrieben.</abstract>
+                    <abstract type="content" lang="eng">This thesis proposes a research concept to determine essential methods and points of views for the development of embedded systems. This contribution is necessary because embedded system development is affected by a fast-paced technology change which makes the selection of long lasting learning content difficult.
+
+The DFG-funded project &quot;competence development with embedded micro- and nanosystems&quot; (KOMINA) in which a competence structure model has been proposed, as well as Schwill’s research on fundamental ideas of informatics provide the basis of this thesis. The latter focuses on the ideas behind a technology rather than the ideas’ specific application in order to determine learning topics which are in particular long lasting. A set of criteria is needed to distinguish fundamental from non-fundamental ideas. All previous research
+approaches which used the concept of fundamental ideas focused on primary and secondary education instead of higher education. Thus, every criterion had to be reviewed and adapted for this research project resulting in five criteria which describe fundamental characteristics of embedded system development.  The horizontal criterion checks the ideas’ broad applicability and its relation to
+the different steps in the development process. In order to satisfy the advanced training criterion, an idea has to be teachable to undergraduates and it has to be a foundation for further learning topics. The criterion of time requires that an idea has been of importance for embedded system development in the past and thus, will arguably be so in the future. Furthermore, the ideas are analyzed in terms of practical and theoretical relevance for embedded system
+development by the criterion of sense because two typical career paths for students include working in a research facility or in a company. The criterion of variance highlights the relationship between ideas and verifies that they have certain aspects which distinguish them from each other.
+
+Instead of building on a subjective summary of the field of application, the approach used in this thesis centers around a normative analysis of scientific research areas. The ACM &quot;Transactions on Embedded Computing&quot; have therefore been analyzed over the last five years, resulting in ten fundamental ideas for the development of embedded systems.
+
+Besides objective review guidelines for every criterion, this thesis also enhances the applicability of the fundamental ideas by proposing a course structure which can be directly derived from the analysis process. For the first time, the methodology of the fundamental ideas is therefore not only targeted at curricula creation but at the creation of lectures, too. This thesis gives an example on how such a course concept can be conceptualized for the idea of reconfigurable architectures.</abstract>
+                    <subject>
+                        <topic>Hochschuldidaktik</topic>
+                        <topic>Eingebettete Systeme</topic>
+                        <topic>Cyber-Physical Systems</topic>
+                        <topic>Hochschulbildung</topic>
+                        <topic>Embedded Systems</topic>
+                        <topic>Cyber-Physical Systems</topic>
+                        <topic>Higher Education</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Praktische und Technische Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-9304</identifier>
+                    <identifier type="sys">HT018681322</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_930</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2015-02-20</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_930">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/930/1/Dissertation_Steffen_Buechner.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_930"
+            DMDID="DMD_siegen_opus_930">
+            <mets:fptr FILEID="FILE0_siegen_opus_930"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

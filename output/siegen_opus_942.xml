@@ -1,0 +1,59 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_942">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Eltern. Kind. Herausnahme. : zur Erlebensperspektive von Eltern in den Hilfen zur Erziehung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wilde, Christina-Elisa</displayForm>
+                        <namePart type="family">Wilde</namePart>
+                        <namePart type="given">Christina-Elisa</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Wie erleben Eltern die Herausnahme ihres Kindes, seine Unterbringung in einer Pflegefamilie und die Zeit, die ihr Kind in der anderen Familie erlebt? Wie diese Prozesse aus der Wahrnehmungsperspektive der Eltern erscheinen wird beispielhaft an der Perspektive einer Mutter und eines Vaters veranschaulicht.</abstract>
+                    <subject>
+                        <topic>Pflegekind</topic>
+                        <topic>Trennung</topic>
+                        <topic>Pflegekinder</topic>
+                        <topic>Elternsichtweise</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-9426</identifier>
+                    <identifier type="sys">HT019174563</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_942</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_942">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/942/1/ZPE_Nr_35_Christina_Elisa_Wilde.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_942"
+            DMDID="DMD_siegen_opus_942">
+            <mets:fptr FILEID="FILE0_siegen_opus_942"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

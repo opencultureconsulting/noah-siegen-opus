@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1273">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Drehgeberlose Identifikation schwingungsfähiger Mehrmassensysteme und Diagnose von Lagerfehlern im Antriebsstrang durch Frequenzgangmessung</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Encoderless identification of oscillating multi-mass-systems and rolling bearing fault diagnosis in drive sections by frequency response calculation</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zoubek, Henning</displayForm>
+                        <namePart type="family">Zoubek</namePart>
+                        <namePart type="given">Henning</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Aufgrund von wirtschaftlichen Erwägungen und zur Erhöhung der Zuverlässigkeit von Antriebssystemen haben drehgeberlose Regelungsverfahren für drehzahlveränderliche Antriebe großen Anklang in Wissenschaft und Industrie gefunden. Die erarbeiteten Methoden ohne Einsatz eines Drehgebers sind vielfältig einsetzbar, setzen allerdings ein starres mechanisches System zur modellbasierten Bestimmung der Maschinendrehzahl voraus. Für schwingungsfähige Mehr-Massen-Systeme im Antriebsstrang sind jedoch bisher keine speziellen sensorlosen Verfahren zur Drehzahlschätzung bekannt, die die besonderen dynamischen Eigenschaften dieser Systeme berücksichtigen.
+In der vorliegenden Arbeit wird daher ein neues Verfahren zur drehgeberlosen Identifikation von Zwei-Massen-Systemen vorgestellt, das durch zwei Identifikationsschritte per Frequenzgangbestimmung eine zuverlässige Möglichkeit eröffnet, exaktere Drehzahlschätzung für das schwingungsfähige System zu erhalten. Die betrachtete Methode bedient sich im ersten Schritt einer klassischen Beobachterstruktur zur Drehzahlschätzung, die lediglich Kenntnis über die leicht zu bestimmenden Massenträgheiten des Systems voraussetzt. Stellt sich das reale System durch die tordierenden Eigenschaften der Antriebswelle als Zwei-Massen-System dar, so wird im sensorlos ermittelten Frequenzgang die mechanische Resonanzfrequenz des Antriebsstranges sicher identifiziert. Auf Basis dieser Information kann die eingesetzte Beobachterstruktur zur Drehzahlschätzung um ein mechanisches Modell derart erweitert werden, dass der zweite geberlose Identifikationsschritt zuverlässig den Systemfrequenzgang mit den gesamten 
+charakteristischen Eigenschaften einschließlich der Anti-Resonanzstelle ermittelt. Somit ist durch die neue Methode eine Möglichkeit gegeben, die Maschinendrehzahl unter Berücksichtigung der besonderen Systemdynamik dieses  Mehr-Massen-Systems exakter als mit den bekannten Verfahren ohne Einsatz eines Drehgebers zu bestimmen. Dies bildet zudem die Voraussetzung für die weitere Anwendungsmöglichkeit von speziellen Regelungsverfahren zur Erzielung hochdynamischer Antriebe für schwingungsfähige Mechaniken im drehgeberlosen Betrieb. Hierfür ist zwingend während der Inbetriebnahme des geberlosen Antriebsstranges Kenntnis über das Verhalten und die Parameter des mechanischen Systems zu erlangen, wofür die vorgestellte Methode die notwendigen Informationen durch das Identifikationsverfahren bereitstellen kann.
+Neben den theoretisch erarbeiteten Teilen zu dieser Identifikationsmethode von Zwei-Massen-Systemen durch drehgeberlose Frequenzgangbestimmung unterstreichen die experimentellen Untersuchungen in dieser Arbeit die Zuverlässigkeit des neuen Verfahrens. Die sensorlose Identifikationsroutine wird an unterschiedlichen Mechaniken und unter vielfältigen Betriebsbedingungen validiert. Parameterstudien zeigen zudem eine breite Palette an möglichen Einstellungen der Signalverarbeitung und der erweiterten Beobachterstruktur auf, unter denen der mechanische Frequenzgang sicher bestimmt werden kann.
+Des Weiteren gestattet das dargestellte Verfahren, Veränderungen am mechanischen System zu erkennen und zu diagnostizieren. So können variierende mechanische Parameter wie z.B. eine veränderliche lastseitige Massenträgheit über einen Vergleich mit der Referenzkurve aus der Inbetriebnahme bestimmt und abgeglichen werden. Eine mögliche Zustandsüberwachung der eingesetzten Lagerungen auf etwaige Lagerschäden ist ebenfalls theoretisch und experimentell Untersuchungsgegenstand der vorliegenden Ausarbeitung. Bedingt durch den Einfluss auf die Maschinenströme kann das sensorlose Identifikationsverfahren als Diagnosewerkzeug für Fehler am Außenring Anwendung finden, da sich die spezifischen Veränderungen zur Referenzkurve an den charakteristischen Fehlerfrequenzstellen für diese Schadensart sicher detektieren lassen. Zwar kann die mögliche Diagnose von Innenringfehlern an den Lagern durch die  Frequenzgangmessung ohne Drehgeber experimentell nicht bestätigt werden, da die schwierige Detektion der Schadensimpulse für diesen Fehlerfall allein durch die einkanalige Signalverarbeitung der Maschinenströme keine erkennbaren Schadensmuster im Frequenzgang erkennen lässt. Für den weiten Bereich der breitbandigen Lagerschäden jedoch konnte der mögliche Einsatz des Verfahrens als Diagnosewerkzeug in der Simulation und am Prüfstand im Labor durch den breitbandigen Einfluss auf den geberlos identifizierten Frequenzgang nachgewiesen werden.</abstract>
+                    <abstract type="content" lang="eng">Economic reasons and the potential increase in reliability of drive systems has led to a strong interest in encoderless control technologies for speed-variable driven plants in academia and industry. The currently developed control techniques, without the use of speed measurement equipment, are applicable to many different applications, but imply rigid mechanical systems for the model-based speed estimation process. In the case of non-rigid mechanical setups that can oscillate in the torsional direction, such as two-mass-systems, there is currently no sensorless speed identification technique that considers the specific dynamic behavior of these mechanical systems.
+Therefore, this thesis focusses on the development of a new sensorless identification method that provides a reliable two-step-solution for more accurate speed evaluation of two-inertia-systems, based on frequency response calculation. Within the first identification step, a standard model-based speed adaptive observer serves for the speed estimation, only under the pre-condition that the easy to identify inertias of the mechanical system are known. If the mechanical system shows a non-rigid two-mass-characteristic, the resulting identified frequency response will reveal the resonant frequency as a reliable indication for the multi-inertia behavior. Based on this knowledge the adaptive observer topology can be extended, by means of a mechanical model, in a way that the full dynamic characteristic of the two-mass-system can be reliably identified within the second identification step including information about the anti-resonant frequency. Hence, the new encoderless strategy provides the possibility for more accurate speed estimation than with the established methods, taking into account the special dynamic characteristic of the multi-mass-plant. This technique is also a valuable pre-condition for the application of specialized controller designs to allow high dynamic encoderless control performance of two-mass-systems. For a functional implementation of these controller structures, the reliable identification of the mechanical parameters is a fundamental cornerstone that must be executed during the commissioning of the plant. For this, the presented encoderless method is able to provide the required information.
+Based on the theoretical derivations in this thesis, multiple experimental investigations underline the reliability of the new proposal for encoderless speed estimation and identification. The presented sensorless identification strategy confirms its stable applicability for different mechanical setups and under varying operating conditions. Parameter studies prove a wide range of possible adjustments for the signal processing method as well as for the extended observer structure, that allow a dependable identification of the mechanical characteristics of the system by frequency response computation.
+Further studies in the thesis reveal the capability of the proposed identification method to serve as a diagnosis tool for alterations in the mechanical system characteristics. With the measured curves from the commissioning of the system as reference, a change of the mechanical structure, such as varying load side inertias, can be detected and adjusted. Also, the possibility to uncover functional degradation of mechanical elements in rolling bearings is under investigation theoretically and in practical experiments. The results for outer race bearing faults accentuate that the encoderless identification strategy is capable of identifying the bearing damage from the measured frequency response, due to the imposed impacts on the machine currents. Deviations from the reference curve at the characteristic fault frequencies clearly indicate the presence of the outer race bearing fault in the system. In case of an inner race bearing fault, the encoderless identification strategy cannot reveal an affirmative diagnosis result in the different experimental studies as the varying impact magnitude for this kind of fault does not sufficiently reflect onto the one-channel signal processing based on frequency response calculation of the machine currents. For the varied area of broadband bearing faults, positive fault diagnosis capability is proved in the simulation studies and under experimental conditions where a broadband impact on the frequency response is clearly visible during the presence of the fault.</abstract>
+                    <subject>
+                        <topic>Mechanische Schwingung</topic>
+                        <topic>Identifikation von Mehrmassensystemen</topic>
+                        <topic>Drehgeberlose Regelung</topic>
+                        <topic>Sensorlose Regelung</topic>
+                        <topic>Diagnose von Lagerschäden</topic>
+                        <topic>Drehzahladaptiver Beobachter</topic>
+                        <topic>Identification of multi-mass-systems</topic>
+                        <topic>Encoderless control</topic>
+                        <topic>Sensorless control</topic>
+                        <topic>Diagnosis of bearing faults</topic>
+                        <topic>Speed-adaptive observer</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-12733</identifier>
+                    <identifier type="sys">HT019581139</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1273</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2017-07-10</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1273">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1273/1/Dissertation_Henning_Zoubek.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1273"
+            DMDID="DMD_siegen_opus_1273">
+            <mets:fptr FILEID="FILE0_siegen_opus_1273"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

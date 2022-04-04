@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_802">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Beitrag zur Bestimmung der Tragfähigkeit bestehender Stahlbetonkonstruktionen auf Grundlage der Systemzuverlässigkeit</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Contribution to determination of the bearing capacity of existing reinforced concrete structures based on system reliability</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Voigt, Jana</displayForm>
+                        <namePart type="family">Voigt</namePart>
+                        <namePart type="given">Jana</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Möglichkeiten zur Umnutzung bestehender Stahlbetontragwerke sind wesentlich von der vorhandenen Tragfähigkeit abhängig. Diese Arbeit behandelt Tragfähigkeitsreserven und -defizite bestehender Hochbauwerke. Die Beurteilung erfolgt auf Grundlage der Zuverlässigkeitstheorie. Differenzen der vorhandenen Zuverlässigkeit zum Zielwert werden unter Berücksichtigung stochastischer Eigenschaften der Einwirkungs- und Widerstandsparameter mit probabilistischen Verfahren ermittelt. Ausgleich möglicher Reserven und Defizite kann durch modifizierte Teilsicherheitsbeiwerte für den semi-probabilistischen Nachweis erfolgen. Bisherige Vorschläge zur Modifikation von Teilsicherheitsbeiwerten beziehen sich auf einzelne Elemente. Definierte Zuverlässigkeitsziele gelten für ein System als Ganzes. Das bedingt für Systeme mit mehreren Versagensmechanismen höhere erforderliche Zuverlässigkeiten je Grenzzustand. Unter Berücksichtigung des Systemzusammenhangs werden modifizierte Teilsicherheitsbeiwerte für den Elementnachweis hergeleitet. Hierzu wird das Versagen durchlaufender Platten und Balken in logischen Systemen modelliert und die Systemzuverlässigkeit sowie wesentliche Versagenseinflüsse ermittelt. Die Bewertung erfolgt für bestandsspezifische Materialkombinationen und verschiedene Nutzungen. In einem Optimierungsverfahren werden Teilsicherheitsbeiwerte bestimmt, welche die Zuverlässigkeitsdifferenzen ausgleichen. Zuverlässigkeitsreserven führen zu reduzierten Teilsicherheitsbeiwerten, Defizite erfordern erhöhte Beiwerte. In Verbindung mit Reserven aus verbesserten Bemessungsverfahren sind in Einzelfällen nennenswerte Nutzlaststeigerungen möglich.</abstract>
+                    <abstract type="content" lang="eng">Opportunities for the conversion of existing structures are significantly dependent on the bearing capacity. This thesis deals with capacity reserves and deficits of existing structural concrete systems. The assessment is based on reliability theory. Differences between calculated reliability and target value are determined by probabilistic methods taking into account stochastic properties of load and resistance parameters. Compensation of possible reserves and deficits can be reached by modifying partial safety factors for the semi probabilistic proof. Previous proposals for modification of the partial safety coefficients refer to componential reliability. Reliability targets in structural codes are defined for a system as a whole. For systems with multiple failure modes this may require higher reliabilities for each elementary limit state. Taking into account the system context, modified partial safety factors for element proofs are inferred. For this purpose the failure of continuous slabs and beams is modeled in logical systems and system reliability is determined as well as essential failure influences. The assessment is carried out for specific material combinations of existing structures and different types of life loads. Partial safety factors are determined in an optimization process which leads to minimization of reliability differences. Reliability reserves result in reduced partial safety factors, deficits require higher coefficients. Significant increases of life loads are possible in combination with reserves due to improved design procedures in individual cases.</abstract>
+                    <subject>
+                        <topic>Zuverlässigkeitstheorie</topic>
+                        <topic>Systemzuverlässigkeit</topic>
+                        <topic>Versagenswahrscheinlichkeit</topic>
+                        <topic>structural concrete system</topic>
+                        <topic>reliability theory</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Konstruktiven Ingenieurbau - IKIB"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-8022</identifier>
+                    <identifier type="sys">HT018311207</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_802</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2014-02-27</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_802">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/802/1/20140517_JanaVoigt_Diss_bearbeitet.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_802"
+            DMDID="DMD_siegen_opus_802">
+            <mets:fptr FILEID="FILE0_siegen_opus_802"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,93 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_597">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Jacobi forms, finite quadratic modules and Weil representations over number fields</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Jacobiformen, endliche quadratische Moduln und Weil-Darstellungen über Zahlkörpern</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Boylan, Hatice</displayForm>
+                        <namePart type="family">Boylan</namePart>
+                        <namePart type="given">Hatice</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">In analogy to the theory of classical Jacobi forms which has proven to
+have various important applications ranging from number theory to
+physics, we develop in this thesis a theory of Jacobi forms over
+arbitrary totally real number fields.  For this end we need to
+develop, first of all, a theory of finite quadratic modules over
+number fields and their associated Weil representations.  As a main
+application of our theory, we are able to describe explicitly all
+singular Jacobi forms over arbitrary totally real number fields whose
+indices have rank 1. We expect that these singular Jacobi forms play
+a similar important role in this new founded theory of Jacobi forms
+over number fields as the Weierstrass sigma function does in the
+classical theory of Jacobi forms.</abstract>
+                    <abstract type="content" lang="ger">In Analogie zur klassischen Theorie der Jacobiformen, die viele
+wichtige Anwendungen in der Zahlentheorie bis hin zur Physik hat,
+entwickeln wir in der vorliegenden Arbeit eine Theorie der
+Jacobiformen über total reellen Zahlkörpern. Hierzu müssen wir
+zunächst eine Theorie endlich quadratischer Moduln über Zahlkörpern
+und ihrer zugehörigen Weil-Darstellungen entwickeln. Als eine
+Hauptanwendung der hier entwickelten Theorie sind wir in der Lage,
+alle singulären Jacobiformen über beliebigen total reellen
+Zahlkörpern, deren Indizes Gitter vom Rang 1 sind, explizit zu
+beschreiben. Wir gehen davon aus, dass diese singulären Jacobiformen
+eine ähnlich wichtige Rolle in der hier begründeten Theorie der
+Jacobiformen über Zahlkörpern spielen werden wie es von der
+Weierstaßschen sigma-Funktion in der klassischen Theorie der
+Jacobiformen her bekannt ist.</abstract>
+                    <subject>
+                        <topic>Jacobi-Form</topic>
+                        <topic>singuläre Jacobiformen</topic>
+                        <topic>Jacobiformen über Zahlkörpern</topic>
+                        <topic>Theta Reihen</topic>
+                        <topic>Weil Darstellungen</topic>
+                        <topic>Jacobi forms over number fields</topic>
+                        <topic>theta series</topic>
+                        <topic>Weil representations</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5970</identifier>
+                    <identifier type="sys">HT017100857</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_597</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2011-11-27</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_597">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/597/1/boylan.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_597"
+            DMDID="DMD_siegen_opus_597">
+            <mets:fptr FILEID="FILE0_siegen_opus_597"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

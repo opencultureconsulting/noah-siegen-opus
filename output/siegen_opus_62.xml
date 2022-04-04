@@ -1,0 +1,58 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_62">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Institutionenökonomische Analyse der schwedischen Radio- und Fernsehanstalt in den 1950/60er Jahren</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Franke, Christian</displayForm>
+                        <namePart type="family">Franke</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2001</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Seit den späten 1980er Jahren befindet sich die europäische Rundfunklandschaft in einem permanenten Wandlungsprozess. Öffentliche Rundfunkmonopole werden seither in fast jedem Staat Europas geschleift, ohne dabei die lizenzfinanzierten ehemaligen Monopolunternehmen konsequent in den Wettbewerb zu entlassen. Um die Hintergründe dieser Entwicklung zu beleuchten, beschäftigt sich die Arbeit am Beispiel Schwedens mit der Frage, wie und mit welcher Intention der Rundfunk in den 1950/60er Jahren organisiert wurde und welche Folgen sich daraus für den Rundfunkbetrieb ergaben. In methodischer Hinsicht wird dabei auf das Instrumentarium der Neuen Institutionenökonomik zurückgegriffen. Der Verfasser kommt u.a. zu dem Ergebnis, dass die Organisationsstruktur der schwedischen Rundfunkanstalt ‚Sveriges Radio’ zwar kostenintensiv war. Doch war dies durchaus ein akzeptabler Preis, um ein Rundfunkprogramm zu produzieren, welches einen politisch erwünschten kulturell-ideologischen Programmauftrag erfüllte und sich inhaltlich eben nicht wie ein Wirtschaftsgut nach den marktlichen Gesetzen von Angebot und Nachfrage richten sollte.</abstract>
+                    <subject>
+                        <topic>Schwedische Rundfunkgeschichte</topic>
+                        <topic>Institutionenökonomik</topic>
+                        <topic>Rundfunkunternehmen</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-625</identifier>
+                    <identifier type="sys">HT014448456</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_62</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_62">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/62/1/franke.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_62"
+            DMDID="DMD_siegen_opus_62">
+            <mets:fptr FILEID="FILE0_siegen_opus_62"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

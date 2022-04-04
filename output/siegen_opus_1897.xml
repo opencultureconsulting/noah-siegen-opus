@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1897">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Modern optimization techniques in computer vision</title>
+                        <subTitle lang="eng">from variational models to machine learning security</subTitle>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Moderne Optimierungstechniken in der Computer Vision : von variationellen Modellen bis hin zu Sicherheit im Machine Learning</title>
+                        <subTitle lang="eng">from variational models to machine learning security</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Geiping, Jonas</displayForm>
+                        <namePart type="family">Geiping</namePart>
+                        <namePart type="given">Jonas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Möller, Michael</displayForm>
+                        <namePart type="family">Möller</namePart>
+                        <namePart type="given">Michael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">This thesis presents research into multiple optimization topics in computer vision with a conceptual focus on composite optimization problems such as bilevel optimization. The optimal graph-based discretization of variational problems in minimal partitions, the theoretical analysis of nonconvex composite optimization by nonconvex majorizers, the bilevel problem of learning energy models by nonconvex majorizers, and the machine learning security applications of bilevel optimization in privacy analysis of federated learning and dataset poisoning of general image classiﬁcation are featured in this cumulative work.</abstract>
+                    <abstract type="content" lang="ger">Diese Arbeit präsentiert Forschungsergebnisse in mehreren Problemstellungen aus dem Feld des maschinellen Sehens und diskutiert generalisierte Optimierungsstrategien für solche mit einem konzeptuellen Fokus auf kompositionellen Optimierungsstrategien wie Bi-Level Optimierung. Die optimale Graph-basierte Diskretisierung von Variationsproblemen in Rahmen von Minimalen Partitionen, die theoretische Analyse von kompositioneller Optimierung durch nichtkonvexe Majorisierer, die Aufgabe des Lernens von Energiemodellen durch nichtkonvexe Majorisierer, und die Anwendungen dieser Bilevel-Optimierung im Rahmen der Sicherheitsanalyse von maschinellem Lernen beim Datenschutz in föderierten Lernverfahren und potentiellen Verfälschungen von Bilddaten für Bildklassiﬁkation, sind Themen dieser kumulativen Arbeit.</abstract>
+                    <subject>
+                        <topic>Optimierung</topic>
+                        <topic>Optimization Theory</topic>
+                        <topic>Machine Learning</topic>
+                        <topic>Bilevel Optimization</topic>
+                        <topic>Computer Vision</topic>
+                        <topic>Security</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Department Elektrotechnik - Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-18976</identifier>
+                    <identifier type="sys">HT020922205</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1897</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2021-04-09</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1897">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1897/4/Dissertation_Jonas_Geiping.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1897"
+            DMDID="DMD_siegen_opus_1897">
+            <mets:fptr FILEID="FILE0_siegen_opus_1897"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,58 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1332">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Availability of a hybrid FSO/RF link while using the link’s diversity for packet scheduling</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Grigoriu, Liliana</displayForm>
+                        <namePart type="family">Grigoriu</namePart>
+                        <namePart type="given">Liliana</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Hybrid-free space optical and radio frequency wireless links are a way of providing reliable transport of real-time traffic in outdoor wireless environments. We consider a link layer protocol that assigns packets to each physical channel of such a hybrid link, which first attempts to send each packet over one of the links (the main link) and, if unsuccessful, sends the packet over the other link (the backup link). The hybrid link processes high-priority traffic by using the link layer protocol and additional (background) traffic at low priority over the backup link. In this setting, high-priority traffic can be transmitted at a rate as high as the maximum capacity of the main link, assuming that the backup link can compensate for main link capacity deterioration, with no need for reconfigurations aimed at adapting to changes in weather conditions, which is an advantage over other approaches. From the perspective of link availability for high-priority traffic, we compare our approach to using another protocol that does not require reconfigurations, which could be employed if the backup link is expected to have a constant transmission rate during the time interval of interest. For situations where both links can be represented by finite-state Markov models with states corresponding to channel bit error rates, as has been done in previous literature for radio frequency links and for free space optical links affected by strong atmospheric turbulence and Gaussian noise, we give a way to provide probabilistic quality of service guarantees for background traffic assuming that the high-priority traffic is insured to not exceed a given constant rate.</abstract>
+                    <subject>
+                        <topic>Dienstgüte</topic>
+                        <topic>Free space optical links</topic>
+                        <topic>Radio frequency wireless links</topic>
+                        <topic>Quality of service, Link layer protocol</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-13327</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1332</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1332">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1332/1/Grigoriu_Availability_of_a_hybrid.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1332"
+            DMDID="DMD_siegen_opus_1332">
+            <mets:fptr FILEID="FILE0_siegen_opus_1332"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

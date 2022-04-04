@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_496">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Beitrag zur Verformungsberechnung im Stahlbetonbau mit kritischer Bewertung bestehender Regelungen</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Calculation of deformation of reinforced concrete structures with a critical evaluation of existing technical standards</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Strohbusch, Jens</displayForm>
+                        <namePart type="family">Strohbusch</namePart>
+                        <namePart type="given">Jens</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In der vorliegenden Arbeit werden Verformungen von Stahlbetonbauteilen im Grenzzustand der Gebrauchstauglichkeit untersucht. Da insbesondere bei Plattentragwerken eine ausreichende Verformungsbegrenzung häufig den maßgebenden Einfluss auf die Dimensionierung hat, ist eine ausreichend genaue Bestimmung der Durchbiegung notwendig, um wirtschaftliche und schadensfreie Konstruktionen zu erhalten. Wegen des nichtlinearen Verhaltens von Stahlbeton und den streuenden und zeitabhängigen Materialeigenschaften ist eine genauere Durchbiegungsberechung mit einem großen Rechenaufwand verbunden ist, so dass in der Praxis gerne auf Konstruktionsregeln (Nachweis der &quot;Biegeschlankheit&quot;) zurückgegriffen wird. 
+Die derzeit bestehenden Regelungen werden in der Arbeit kritisch überprüft. Dabei ist zum einen festzustellen, dass die Ergebnisse der verschiedenen Nachweisverfahren zum Teil erhebliche Unterschiede liefern. Ursache dafür ist insbesondere, dass bei einigen Verfahren wichtige Eingangsgrößen wie bspw. Betonfestigkeit und Belastung unberücksichtigt bleiben.
+Für eine differenziertere Betrachtung wird zunächst ein eigenes Berechnungsverfahren entwickelt, so dass wesentliche Einflussfaktoren herausgearbeitet werden können. Besondere  Schwerpunkte sind dabei die Modellierung der Langzeiteinflüsse (Kriechen und Schwinden), das Erfassen der Rissbildung über die Zug- und Biegezugfestigkeit des Betons und das Zusammenwirken von Bewehrung und Beton über den Verbund. 
+Die Berechnung mit Nettoquerschnittswerten ist möglich. Durch Untersuchungen an verschiedenen Querschnitten aus Normalbeton kann nachgewiesen werden, dass der Einfluss von Nettoquerschnittswerten für übliche Betonfestigkeitsklassen vernachlässigbar klein ist.
+Außerdem wird die Teilfertigung mit einer Ortbetonergänzung berücksichtigt. Es werden für einige Varianten Berechnungsmethoden erstellt und in eine EDV-Anwendung implementiert. Es werden die zeitabhängigen Spannungsumlagerungen beim Kriechen und Schwinden sowohl zwischen Beton und Bewehrung als auch zwischen Fertigteil und Ortbetonergänzung berücksichtigt.
+Mit dem entwickelten Berechnungsverfahren können bereits bestehende Nachweisverfahren kritisch überprüft werden. Schwerpunkt liegt hier auf die sog. Biegeschlankheitsnachweise - insbes. auch in DIN 1045-1:2008 -, die sich in der Praxis wegen der einfachen Handhabbarkeit großer Beliebtheit erfreuen. Es kann gezeigt werden, dass die gängigen Verfahren nur bedingt geeignet sind, Anforderungen an eine Durchbiegungsbegrenzung zu erfüllen. Das gilt insbesondere für den in DIN 1045-1 enthaltene Nachweis, der sich trotz technischer Veränderungen in der Bemessung und der Konstruktion noch auf Untersuchungen aus den 60er Jahre bezieht. 
+Abschließend wird ein Näherungsverfahren vorgestellt, dass auf der Basis des bekannten Biegeschlankheitsnachweises weiter entwickelt wird. Es können weitere maßgebende Parameter berücksichtigt werden und so die Qualität des bisherigen Verfahrens deutlich verbessert werden.</abstract>
+                    <subject>
+                        <topic>Stahlbetonbauteil</topic>
+                        <topic>Biegeschlankheit</topic>
+                        <topic>Gebrauchstauglichkeit</topic>
+                        <topic>Berechnungsverfahren</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 10, Bauingenieurwesen"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4960</identifier>
+                    <identifier type="sys">HT016727587</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_496</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2010-06-14</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_496">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/496/1/strohbusch.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_496"
+            DMDID="DMD_siegen_opus_496">
+            <mets:fptr FILEID="FILE0_siegen_opus_496"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

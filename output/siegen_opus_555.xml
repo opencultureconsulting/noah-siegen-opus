@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_555">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Managing diversity</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Metz-Göckel, Sigrid</displayForm>
+                        <namePart type="family">Metz-Göckel</namePart>
+                        <namePart type="given">Sigrid</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schönborn, Anette</displayForm>
+                        <namePart type="family">Schönborn</namePart>
+                        <namePart type="given">Anette</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Diversity Management - zum Hintergrund
+Die Wurzeln des Diversity Managements gehen auf die Human-Rights-Bewegung in den USA der fünfziger und sechziger Jahre zurück. Die US-amerikanische Bürgerrechtsbewegung protestierte gegen vorherrschende Diskriminierungen und setzte sich für mehr Gerechtigkeit ein. Neben ethisch-moralischen Aspekten führten in den 1980er Jahren in den USA auch gesetzliche Verpflichtungen zu mehr Chancengleichheit, insbesondere auf dem Arbeitsmarkt. In diese Zeit fällt auch die Entwicklung von Diversity-Management-Konzepten, die inzwischen nicht nur in den USA verbreitet sind und in unterschiedliche gesellschaftliche Sektoren Einzug gehalten haben. 
+
+In Deutschland wurde der Diversity Management Ansatz ab 
+Mitte der 1990er Jahre im wissenschaftlichen Diskurs aufgegriffen. Gleichzeitig wurden erste Beratungen im Rahmen der Personal- und Organisationsentwicklung angeboten und Diversity Management in einigen großen Unternehmen umgesetzt. Für die Zukunft wird insbesondere aufgrund des demographischen Wandels und der zunehmenden Internationalisierung von einer Bedeutungszunahme des Diversity Managements ausgegangen.</abstract>
+                    <subject>
+                        <topic>Managing Diversity</topic>
+                    </subject>
+                    <classification authority="ddc">000</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5553</identifier>
+                    <identifier type="sys">HT017121079</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_555</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_555">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/555/1/HSD_Werkstattbericht_Managing_Diversity.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_555"
+            DMDID="DMD_siegen_opus_555">
+            <mets:fptr FILEID="FILE0_siegen_opus_555"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

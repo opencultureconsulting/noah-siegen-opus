@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_959">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Aufbau eines Experimentes zur Speicherung von Yb+ in einer mikrostrukturierten Paul-Falle</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Setup of an experiment for storing Yb+ in a microstructured Paul trap</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Collath, Thomas</displayForm>
+                        <namePart type="family">Collath</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">An in Paul-Fallen gespeicherten Ionen lassen sich quantenmechanische Effekte untersuchen. Hierzu werden die internen Zustände der Ionen manipuliert und anschließend durch Fluoreszenzmessungen detektiert. Diese Experimente können für Anwendungen in der Quanteninformationsverarbeitung genutzt werden, Ziele hierbei sind beispielsweise die Simulation von Quantensystemen und die Verwirklichung eines Quantencomputers. Im Rahmen dieser Arbeit wird als Apparatur zum Speichern von Ytterbium-Ionen eine mikrostrukturierte segmentierte Paul-Falle verwendet. Durch den in die Falle integrierten Elektromagneten ist es möglich, die Ionen zu koppeln (Magnetic Gradient Induced Coupling - MAGIC) und mittels Mikrowellenstrahlung zu adressieren. Durch die segmentierten Elektroden können die Ionen innerhalb der Falle kontrolliert bewegt werden und es lässt sich deren Wechselwirkung einstellen. Ein mit Dickschichttechnik bedruckter Keramikblock dient als kompakte Vakuumdurchführung der über siebzig elektrischen Signale, die für den Betrieb der Falle benötigt werden. Alle weiteren für die Versuchsapparatur benötigten Komponenten wie der Vakuumrezipient und die Laserstrahlquellen wurden aufgebaut. Für die Erzeugung von Laserstrahlung bei 369 nm durch Frequenzverdopplung wird erstmals ein Bismuth-Triborat-Kristall genutzt. An den gespeicherten Ionen werden kohärente Rabi- und Ramsey-Messungen durchgeführt. Durch Messung der Energiedifferenz der einzelnen Zeeman-Niveaus lässt sich das Magnetfeld am Ort des Ions mit einer relativen Unsicherheit von einem ppm bestimmen.</abstract>
+                    <abstract type="content" lang="eng">Ions trapped in a Paul trap make an ideal system to investigate quantum mechanical effects. To this end the initial states of the ions are manipulated and fluorescence measurements are used for detection. Such experiments have applications in quantum information processing, in particular in the simulation of quantum systems or the realization of a quantum computer. The Paul trap used to trap ytterbium ions in this thesis is a microstructured segmented trap. Electromagnets are integrated into this trap with which individual ions can be coupled to one another (Magnetic Gradient Induced Coupling - MAGIC) and addressed using microwave radiation. Controlled movement of the trapped ions and adjusting the coupling constant between the ions is possible using the segmented electrode structure. A compact vacuum feed through system is realised using a thick film technique printed onto a ceramic block. More than seventy electric signals are used to control the trap using this feed through. Furthermore, the experiment requires a vacuum chamber and laser sources, all of which were constructed and installed during the course of this work. For the first time a bismuth triborate crystal is used for the generation of laser radiation at 369 nm by frequency doubling. First coherent measurements in the form of Rabi and Ramsey measurements are carried out on the trapped ytterbium ions. Measurement of the energy difference between individual Zeeman levels, allow to determine the ions local magnetic field with a relative uncertainty of one ppm.</abstract>
+                    <subject>
+                        <topic>Paul-Falle</topic>
+                        <topic>Frequenzverdopplung</topic>
+                        <topic>Paul trap</topic>
+                        <topic>coherent measurements</topic>
+                        <topic>quantum computer</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-9597</identifier>
+                    <identifier type="sys">HT018809983</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_959</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2015-07-03</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_959">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/959/1/Dissertation_Thomas_Collath.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_959"
+            DMDID="DMD_siegen_opus_959">
+            <mets:fptr FILEID="FILE0_siegen_opus_959"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

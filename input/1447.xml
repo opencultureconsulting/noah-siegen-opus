@@ -1,0 +1,65 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1447</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Semantic description and communication of going around in a simulated world</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Nazeer T.</pc:foreName>
+            <pc:surName>Mohammed Saeed</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Semantik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Robotics</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Semantic Web</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Human-robot communication</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Robot-robot communication</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Semantic environment description</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">In recent years, mobile robots have helped to link predictions, imaginations, and expectations to human life. The tsunami of research on mobile robots mirrors their importance in various fields, such as production, agriculture and medicine. Alongside the innovations in sensory solutions, we are witnessing more intelligent mobile robots performing more challenging tasks by using the massive amount of data gathered from various sensors. The excess of the sensory data increases the demand for processing sensory inputs in an understandable form for both - humans and robots. One approach for developing understandable processing and exchange is the use of semantic technology. Semantic technology is a major technology for building semantic knowledge bases in machine-readable form, with ontologies as a mature, flexible and well researched implementation.&#13;
+A considerable amount of research shows the existing impact of ontologies in the field of robotics. However, there is still a lack of work in regard to the real-time semantic knowledge acquisition from sensory outputs of different sensors for mobile robots and the use of sensory data for real-time ontology population and consequently natural language communication between humans and robots. This work employs semantic technology in the field of robotics to acquire a better understanding of an environment, navigated and sensed by a mobile robot and to continuously produce semantic information to facilitate communication between other robots and human beings.&#13;
+In this research, the Resource Description Framework (RDF), which is a semantic web standard, is utilized for the instant creation of semantic information from sensory outputs during navigation with a mobile robot. A novel approach for modeling complex RDF relations has been introduced; it uses a combination of sensory data from various sensors of a mobile robot to model single complex RDF-statements that represent inter-object relations between detected landmarks while exploring the environment with a mobile robot in a way that humans would express it. These statements are then collected and stored in an ontology, hence, a novel, efficient ontology is then designed for the real-time, online population; this is then tested in real-time. The proposed concept utilizes a natural language communication interface to facilitate real-time human-robot communication regarding the navigation and environment that has been explored.&#13;
+To evaluate the system, a mobile robot has been simulated and equipped with different sensors and placed in a simulated environment to navigate and explore the environment. While exploring, sensory data is collected and processed to model semantic information representing its tour and vision of its environment. The ontology is then populated with this information in real-time and is used by the system to facilitate natural language communication with the robot regarding its tour and the explored environment.&#13;
+The results show the real-time population of the ontology with RDF-statements created from sensory outputs representing the tour of the mobile robots and the environment in a semantic representation. The efficiency of the system in transforming sensory data into semantic information, the ability of the mobile robot to describe the real-world environment semantically, and also its ability to answer natural language questions regarding its tour and the environment are proof of the soundness of the proposed system.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">In den letzten Jahren hat sich die Verbindung mobiler Roboter mit diversen menschlichen Aktivitäten deutlich intensiviert und sie beginnen die in sie gesetzten Erwartungen und Vorstellungen zunehmend zu erfüllen. Die tsunamiartig wachsende Zahl an Forschungsarbeiten im Bereich der mobiler Robotik spiegelt ihre Bedeutung in verschiedenen Bereichen wider, z. B. in der Industrie, der Landwirtschaft und der Medizin. Zusammen mit neuen Entwicklungen in der Sensorik erleben wir, wie immer intelligentere mobile Roboter anspruchsvolle Aufgaben lösen, indem sie große Mengen an Daten verarbeiten, die von verschiedenen Sensoren erfasst werden. Die Flut der Sensordaten erhöht die Notwendigkeit der Verarbeitung sensorischer Eingaben in einer für Mensch und Roboter verständlichen Form. Ein Ansatz für eine verständliche Weiterverarbeitung der Sensordaten ist die Verwendung von semantischer Technologie. Die semantische Technologie spielt eine zentrale Rolle beim Aufbau semantischer Wissensbasen in maschinengeeigneter Form. Für diesen Zweck sind Ontologien eine ausgereifte, flexible und wohluntersuchte Form der Realisierung.&#13;
+Eine beträchtliche Anzahl an Untersuchungen zeigt den Einfluss von Ontologien auf dem Gebiet der Robotik. Es fehlt jedoch immer noch an Arbeiten, die sich mit der semantischen Echtzeit-Wissenserfassung gespeist aus den Sensoren mobiler Roboter befassen. Ebensowenig ist es bisher üblich Ontologien in Echtzeit aus Sensordaten zu erzeugen bzw. sie mit solchen zu befüllen und damit letztendlich eine Kommunikation zwischen Mensch und Roboter in natürlicher Sprache zu ermöglichen.&#13;
+Diese Arbeit wendet semantische Methoden auf die mobile Robotik an. Dies dient dem besseren Verständnis der Umgebung, die durch Sensoren und Navigation im Roboter abgebildet wird, und der mitlaufenden Erzeugung semantischer Informationen aus diesen Daten, um mit anderen Robotern und Menschen zu kommunizieren.&#13;
+In dieser Studie wird das Resource Description Framework (RDF), ein semantischer Web-Standard, für die sofortige Erzeugung semantischer Informationen aus den sensorischen Daten während der Navigation mit einem mobilen Roboter verwendet. Ein neuer Ansatz für die Modellierung komplexer RDF-Beziehungen wird vorgestellt. Verschiedene Sensordaten des mobilen Roboters werden kombiniert, um damit komplexe RDF-Aussagen zu erzeugen. Diese repräsentieren Inter-Objekt-Relationen zwischen Orientierungspunkten in einer Art und Weise, wie Sie ein Mensch aufstellen würde, während sich der Roboter in der Umgebung bewegt. Diese Aussagen werden gesammelt und in einer Ontologie gespeichert. Infolgedessen wird eine neuartige, effiziente Ontologie geschaffen, die in Echtzeit besetzt und getestet wird. Das hier entwickelte Konzept beinhaltet eine natürlich sprachliche Schnittstelle, die es Menschen erlaubt in gewohnter Weise mit Robotern über räumliche Vorgänge zu "sprechen".&#13;
+Um das System zu evaluieren, wurde ein mobiler Roboter simuliert und mit verschiedenen Sensoren ausgestattet. Dieser Roboter wurde in einer simulierten Umgebung platziert, um in dieser zu navigieren und diese zu erforschen. Während der Navigation werden Sensordaten gesammelt und verarbeitet, um semantische Informationen zu erzeugen, welche die Strecke und die Wahrnehmung der Umgebung repräsentieren. Die vordefinierte Ontologie wird dann mit diesen Informationen in Echtzeit gefüllt. Sie wird vom System verwendet, um die Kommunikation mit dem Roboter bezüglich seiner Umgebung zu erleichtern.&#13;
+Die in Echtzeit aufgebaute Ontologie -zumeist bestehend aus in RDF-Aussagen gegossene Sensordaten- beschreibt die gefahrene Strecke des mobilen Roboters und die zugehörige Umgebung. Die Effizienz des Systems, Sensordaten in semantische Informationen zu transformieren, die Fähigkeit des mobilen Roboters, seine reale Umgebung semantisch zu beschreiben und die Fähigkeit, Fragen über die Strecke und die Umgebung in natürlicher Sprache zu beantworten, sind Beweis für die Funktionalität des hier vorgestellten Systems.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2019-05-07</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2019</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-14476</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Echtzeit Lernsysteme (EZLS)</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Nazeer_T_Mohammed_Saeed.pdf" ddb:fileSize="14264961"/>
+   <ddb:checksum ddb:type="MD5">5fc91506d6639ea714eab9555e82ebd4</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1447/1/Dissertation_Nazeer_T_Mohammed_Saeed.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1447</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

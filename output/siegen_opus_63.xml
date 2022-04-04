@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_63">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>In-vitro-Untersuchung einzelner fluoreszierender Proteine mit spektral und zeitlich aufgelöster Fluoreszenzspektroskopie</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Blum, Christian</displayForm>
+                        <namePart type="family">Blum</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2004</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Im Rahmen der hier vorgelegten Arbeit wurden die Varianten EYFP und EGFP des grün fluoreszierenden Proteins (GFP) aus der Qualle Aequorea victoria, sowie das aus der Steinkoralle Discosoma stammende rot fluoreszierende Protein DsRed und weitere vier DsRed Varianten mit spektroskopischen Methoden untersucht. Neben einigen ensemblespektroskopischen Untersuchungen wurde die Fluoreszenz einer großen Anzahl einzelner fluoreszierender Proteine und Proteinoligomere, zeitlich und spektral aufgelöst, auf Einzelmolekülebene bei Raumtemperatur in-vitro untersucht.
+Bei Beobachtung auf Einzelmolekülebene zeigen die Proteine eine erstaunliche intrinsische Vielgestaltigkeit und Dynamik der Fluoreszenz. Es wurde gezeigt, dass die Breite der Verteilung der Lage des Emissionsmaximums eine für jede Variante spezifische Größe ist, die sich direkt aus der Einbettung des Chromophors in die charakteristische Proteinumgebung ergibt. Außerdem konnten zum Teil bisher unbekannte, sich in ihrer Fluoreszenz unterscheidende Formen der Proteine identifiziert und Übergänge zwischen verschiedenen Formen spektral verfolgt werden.
+Für DsRed und alle DsRed Varianten wurde unter den typischen Bedingungen der Einzelmolekülspektroskopie bei Beobachtung des gereiften Chromophors fast ausschließlich die sog. super rote Form des Chromophors detektiert, die sich durch die hohen Anregungsleistungen schnell bildet. Außerdem wurden bei allen DsRed Varianten gemischte Oligomere aus Proteinen mit ungereiftem und gereiftem Chromophor beobachtet, und es konnte gezeigt werden, dass die unterschiedlichen Chromophore innerhalb eines Oligomers kein hocheffizientes FRET System bilden.</abstract>
+                    <abstract type="content" lang="eng">This work presents spectroscopic analyses of the EGFP and EYFP variants of the Aequorea green fluorescent protein (GFP) and of the red fluorescing protein DsRed and four of its variants from the coral Discosoma. In addition to ensemble spectroscopy, the fluorescence of a large number of single fluorescing proteins and protein oligomers was temporally- and spectrally- resolved at the single molecule level in vitro at room temperature.
+These analyses reveal that at the single molecule level these proteins exhibit a striking intrinsic versatility and dynamics of the emission. It was shown that the spread of the distribution of the emission maximum positions is characteristic for each variant and directly reflects the specific nature of the embedding of the chromophore into its neighbouring protein environment. It was further possible to identify different emitting forms of the proteins, some not observed until now, and to follow transitions between the forms by spectrally resolving the single molecule emission.
+The typical conditions for single molecule detection employed in these experiments, especially the high excitation power, caused an extremely rapid transition of the matured chromophore of DsRed and all of the tested variants into a ‘super-red’ emitting form. Mixed fluorescence of the immature and the mature chromophore was detected for all DsRed variants, yielding evidence of the existence of mixed oligomers of proteins with mature and immature chromophores. Finally it was possible to show that the different chromophores within an oligomer do not form a efficient FRET system.</abstract>
+                    <subject>
+                        <topic>Fluoreszierende Proteine</topic>
+                        <topic>Spektroskopie</topic>
+                        <topic>Einzelmoleküldetektion</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 8, Chemie - Biologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-633</identifier>
+                    <identifier type="sys">HT014089931</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_63</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2004-05-09</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_63">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/63/1/blum.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_63"
+            DMDID="DMD_siegen_opus_63">
+            <mets:fptr FILEID="FILE0_siegen_opus_63"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

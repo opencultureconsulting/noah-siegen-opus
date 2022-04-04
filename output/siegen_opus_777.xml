@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_777">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Vegetation detection and terrain classification for autonomous navigation</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Nguyen, Duong-Van</displayForm>
+                        <namePart type="family">Nguyen</namePart>
+                        <namePart type="given">Duong-Van</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Diese Arbeit beleuchtet sieben neuartige Ansätze aus zwei Bereichen der maschinellen Wahrnehmung: Erkennung von Vegetation und Klassifizierung von Gelände. Diese Elemente bilden den Kern eines jeden Steuerungssystems für effiziente, autonome Navigation im Außenbereich. Bezüglich der Vegetationserkennung, wird zuerst ein auf Indizierung basierender Ansatz beschrieben (1), der die reflektierenden und absorbierenden Eigenschaften von Pflanzen im Bezug auf sichtbares und nah-infrarotes Licht auswertet. Zweitens wird eine Fusionmethode von 2D/3D Merkmalen untersucht (2), die das menschliche System der Vegetationserkennung nachbildet. Zusätzlich wird ein integriertes System vorgeschlagen (3), welches die visuelle Wahrnehmung mit multi-spektralen Methoden ko mbiniert. Aufbauend auf detaillierten Studien zu Farb- und Textureigenschaften von Vegetation wird ein adaptiver selbstlernender Algorithmus eingeführt der robust und schnell Pflanzen(bewuchs) erkennt (4). Komplettiert wird die Vegetationserkennung durch einen Algorithmus zur Befahrbarkeitseinschätzung von Vegetation, der die Verformbarkeit von Pflanzen erkennt. Je leichter sich Pflanzen bewegen lassen, umso größer ist ihre Befahrbarkeit. Bezüglich der Geländeklassifizierung wird eine struktur-basierte Methode vorgestellt (6), welche die 3D Strukturdaten einer Umgebung durch die statistische Analyse lokaler Punkte von LiDAR Daten unterstützt. Zuletzt wird eine auf Klassifizierung basierende Methode (7) beschrieben, die LiDAR und Kamera-Daten kombiniert, um eine 3D Szene zu rekonstruieren. Basierend auf den Vorteilen der vorgestellten Algorithmen im Bezug auf die maschinelle Wahrnehmung, hoffen wir, dass diese Arbeit als Ausgangspunkt für weitere Entwicklung en von zuverlässigen Erkennungsmethoden dient.</abstract>
+                    <abstract type="content" lang="eng">This thesis introduces seven novel contributions for two perception tasks: vegetation detection and terrain classification, that are at the core of any control system for efficient autonomous navigation in outdoor environments. Regarding vegetation detection, we first describe a vegetation index-based method (1), which relies on the absorption and reflectance properties of vegetation to visual light and near-infrared light, respectively. Second, a 2D/3D feature fusion (2), which imitates the human visual system in vegetation interpretation, is investigated. Alternatively, an integrated vision system (3) is proposed to realise our greedy ambition in combining visual perception-based and multi-spectral methods by only using a unit device. A depth study on colour and texture features of vegetation has been carried out, which leads to a robust and fast vegetation detection through an adaptive learning algorithm (4). In addition, a double-check of passable vegetation detection (5) is realised, relying on the compressibility of vegetation. The lower degree of resistance vegetation has, the more traversable it is. Regarding terrain classification, we introduce a structure-based method (6) to capture the world scene by inferring its 3D structures through a local point statistic analysis on LiDAR data. Finally, a classification-based method (7), which combines the LiDAR data and visual information to reconstruct 3D scenes, is presented. Whereby, object representation is described more details, thus enabling an ability to classify more object types. Based on the success of the proposed perceptual inference methods in the environmental sensing tasks, we hope that this thesis will really serve as a key point for further development of highly reliable perceptual inference methods.</abstract>
+                    <subject>
+                        <topic>Vegetation Erkennung</topic>
+                        <topic>Terrain-Klassifizierung</topic>
+                        <topic>Autonome Navigation</topic>
+                        <topic>2D3D Feature-Fusion</topic>
+                        <topic>Mobile-Outdoor-Roboter</topic>
+                        <topic>Vegetation Detection</topic>
+                        <topic>Terrain Classification</topic>
+                        <topic>Autonomous Navigation</topic>
+                        <topic>2D3D Feature Fusion</topic>
+                        <topic>Mobile Outdoor Robot</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Bildinformatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-7772</identifier>
+                    <identifier type="sys">HT018110754</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_777</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2013-12-05</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_777">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/777/1/nguyen.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_777"
+            DMDID="DMD_siegen_opus_777">
+            <mets:fptr FILEID="FILE0_siegen_opus_777"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

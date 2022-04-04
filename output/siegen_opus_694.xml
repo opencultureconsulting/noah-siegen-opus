@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_694">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Terahertz-Bildgebung mit demodulierendem Detektorarray</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Terahertz-imaging with demodulating detector array</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Spickermann, Gunnar</displayForm>
+                        <namePart type="family">Spickermann</namePart>
+                        <namePart type="given">Gunnar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Diese Dissertation beschäftigt sich mit Bildgebung im Terahertz-Frequenz-bereich, der im Spektrum der elektromagnetischen Strahlung zwischen den Radiowellen und dem Licht angesiedelt ist. Der elektrooptische Detektionsmechanismus ist besonders dazu geeignet, einen großen Frequenzbereich (rund 4 Oktaven) und gleichzeitig eine Vielzahl von Messpunkten in nur einer Messung abzudecken. Die Spektral- und Bildinformation wird dabei in einem Detektorkristall vom Terahertz-Strahl auf einen optischen, nahinfraroten Laserstrahl übertragen und dann in eine Intensitätsmodulation desselben übersetzt. Um die sehr gering ausfallende Modulationstiefe erfolgreich vom unerwünschten Hintergrund zu trennen, wird die PMD-Kamera (Photonic Mixing Device) als demodulierendes Detektorarray eingesetzt. Sie bestimmt dabei ortsaufgelöst die Amplitude der Intensitätsmodulation, von der sich auf die elektrische Feldstärke des THz-Pulses im Detektorkristall zu einem sub-ps Zeitpunkt schließen lässt. Durch einen Scan im Zeitbereich kann so der gesamte Terahertz-Puls an 3072 Orten parallel rekonstruiert werden, wodurch Bildgebung im sub-ps-Zeitbereich und im Terahertz-Frequenzbereich ermöglicht wird. Nach diesem Prinzip sind zwei verschiedene Aufbauten realisiert und eingehend charakterisiert worden. Beispielmessungen belegen, dass nun Multipixel-Terahertz-Bildgebung auch ohne die Notwendigkeit von Verstärkerlasern möglich ist und machen die erreichte Optimierung deutlich.</abstract>
+                    <abstract type="content" lang="eng">This dissertation is about imaging in the domain of terahertz-frequencies which is located between radio waves and light in the electromagnetic spectrum. Electrooptic detection is especially convenient to cover a wide spectrum (approximately 4 octaves) while at the same time enabling for parallel measurements at many points. Using a detector crystal, the spectral and spatial information in the terahertz beam is being transferred to the (optical) laser beam and then converted into an intensity modulation. At this point the PMD-Camera (Photonic Mixing Device) is used as a demodulating sensor array to seperate the resulting very small intensity modulation successfully from the unwanted huge background. It determines laterally resolved the amplitude of the intensity modulation, from which the electrical field magnitude of the terahertz pulse in the crystal at a sub-picosecond instant of time can be derived. While scanning in time domain the whole THz pulse can be reconstructed for 3072 different pixels in parallel enabling imaging with sub-picosecond resolution in time domain and in the region of THz frequencies. Two different imaging setups using this scheme were realized and exhaustively characterized. Exemplary measurements show that multipixel terahertz imaging now is possible without the need for an amplified pulse laser system and they illustrate the achieved optimization.</abstract>
+                    <subject>
+                        <topic>Elektrooptik</topic>
+                        <topic>Terahertz</topic>
+                        <topic>PMD</topic>
+                        <topic>Terahertz</topic>
+                        <topic>PMD</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Kommunikations- und Informationstechnik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-6947</identifier>
+                    <identifier type="sys">HT017560208</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_694</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2012-12-17</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_694">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/694/1/spickermann.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_694"
+            DMDID="DMD_siegen_opus_694">
+            <mets:fptr FILEID="FILE0_siegen_opus_694"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

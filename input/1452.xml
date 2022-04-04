@@ -1,0 +1,66 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1452</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Fighting the curse of dimensionality with local model networks</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Bekämpfung des Fluchs der Dimensionalität mit lokalen Modellnetzen</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Julian</pc:foreName>
+            <pc:surName>Belz</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Nichtlineare Systemidentifikation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Lokale Modellnetze</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Eingangsselektion</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Versuchsplanung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Nonlinear system identification</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Local model networks</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Input selection</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Design of experiments</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Das Themengebiet der vorliegenden Arbeit ist die datenbasierte Modellbildung (Identifikation). Das Hauptaugenmerk liegt auf Verfahren der Eingangsselektion und der Versuchsplanung, die dazu dienen, Effekte des Fluchs der Dimensionlität abzuschwächen, indem sie spezielle Eigenschaften lokaler Modellnetze ausnutzen.&#13;
+Der Modelltyp der lokalen Modellnetze ermöglicht die Aufteilung des Eingangsraums in die sogenannten Regelprämissen und -konklusionen. In dieser Arbeit entwickelte Verfahren im Bereich der Eingangsselektion nutzen diese einzigartige Eigenschaft lokaler Modellnetze aus. Potentielle Eingangsgrößen können individuell den Regelprämissen oder -konklusionen zugeteilt werden. Es wird gezeigt, dass sich ein besserer Bias/Varianz-Kompromiss durch die Ausnutzung dieser individuellen Zuordnung finden lässt. Des Weiteren eröffnen sich zusätzliche Interpretationsmöglichkeiten, da einer der beiden Eingangsräume direkt mit den Modellnichtlinearitäten verknüpft ist.&#13;
+Der Beitrag der vorliegenden Arbeit im Bereich der Versuchsplanung betrifft sowohl aktive als auch passive Lernverfahren. Im Rahmen der passiven Lernverfahren werden Empfehlungen auf die folgenden drei Fragestellungen gegeben. Sollten (alle) Ecken im Versuchsraum vermessen werden? Welcher raumfüllende Versuchsplan führt voraussichtlich zur höchsten Modellgüte? Welche Reihenfolge sollte beim Vermessen eines Versuchsplans eingehalten werden? Der Beitrag im Bereich aktiver Lernverfahren umfasst eine Erweiterung des bereits bestehenden Algorithmus „Hierarchical Local Model Tree for Design of Experiments“ (HilomotDoE). Drei Schlüsselaspekte der experimentellen Modellbildung werden dabei adressiert: (I) Optimalität, (II) geringer Bias- und (III) Varianzfehler.&#13;
+Die entwickelten Methoden zeigen anhand ausgewählter Anwendungsbeispiele ihre Stärken. Dazu zählen: Die Vorhersage des Verbrauchs von Kraftfahrzeugen, die Modellierung des Luftmassenstroms für Verbrennungsmotoren, die Metamodellierung für Ventilatoren und die Erzeugung eines dynamischen Modells zur Regelung eines Heizungs-, Lüftungs- und Klimatisierungssystems.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">This thesis is settled in the field of data-based modeling (identification) and specifically focuses on the weakening of the effects of the curse of dimensionality with local model networks (LMNs). The methods for fighting the curse of dimensionality originate from the fields of input selection and design of experiments (DoE).&#13;
+The model type of LMNs allows the distinction in two input spaces - the rule premises input space and the rule consequents input space. The developed input selection techniques exploit this unique property of LMNs and the possibility to assign potential inputs to each input space individually. It is shown that this additional freedom enables input selection methods using LMNs to find a better bias/variance trade-off. Furthermore, one of the two arising input spaces is directly connected to the nonlinear effects of the model, which allows for more detailed interpretations.&#13;
+The DoE contributions of this thesis concern passive and active learning schemes. Recommendations for passive experimental designs are given based on extensive simulation studies with the help of a function generator. The following three questions are addressed. Should corners (vertices) be measured? Which space-filling experimental design is likely to yield the best model accuracy? What order of experimentation leads to the best model quality in early stages of the measurement process? Eventually, the contribution regarding active learning is an extension of the already existing hierarchical local model tree for design of experiments (Hilomot-DoE), addressing three important issues of modeling simultaneously: (I) optimality, (II) model bias, and (III) model variance.&#13;
+All developed methods demonstrate their abilities on selected application examples, including the prediction of the fuel consumption of cars, the data-based modeling of the air-mass flow of combustion engines, the metamodeling of fans, and the generation of a dynamic model of a heating, ventilating, and air conditioning system for control design.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2018-11-21</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2018</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-14524</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dcterms:isPartOf xsi:type="ddb:noScheme">Schriftenreihe der Arbeitsgruppe Mess- und  Regelungstechnik - Mechatronik, Department Maschinenbau;  3</dcterms:isPartOf>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Mechanik und Regelungstechnik - Mechatronik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Julian_Belz.pdf" ddb:fileSize="15593061"/>
+   <ddb:checksum ddb:type="MD5">404d4f3949763a67fd9dc91ad59e73ce</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1452/1/Dissertation_Julian_Belz.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1452</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

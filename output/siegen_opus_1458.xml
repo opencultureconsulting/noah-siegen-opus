@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1458">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Production scheduling in small and medium sized companies with additional setup operator constraints</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Produktionsplanung in kleinen und mittleren Unternehmen unter Berücksichtung von Rüstoperatoren</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schnitzler, Daniel</displayForm>
+                        <namePart type="family">Schnitzler</namePart>
+                        <namePart type="given">Daniel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The general aim of this work is to link methods from the area of operations
+research to real world problems in SME in production planning, as this has not been done yet, to the best of our knowledge. Therefore, we investigate if it is possible to apply standard algorithms from the area of operations research, which have been shown to provide good solutions in production planning to real-life cases from SMEs. As the problem structure differs and the size of input varies, we compare and analyse the performance of the algorithms to make a more general statement about further problem contexts.</abstract>
+                    <abstract type="content" lang="ger">Das Ziel dieser Arbeit ist die Verbindung von Methoden aus dem Bereich des Operations Research mit realen Produktionsplanungsproblemen in kleinen und mittleren Unternehmen, da dieses bislang gänzlich nicht beachtet wurde. Aus diesem Grund wird untersucht ob Standard Algorithmen aus dem Gebiet des Operations Research, welche generell für gute Lösungen bekannt sind, auch bei realen Problemen im Bereich der Produktionsplanung in kleinen und mittleren Unternehmen funktionieren. Da die Problemstruktur und die Größe der Input Daten unterschiedlich ist, wird die Performance der Algorithmen über die Problemstruktur und Input Daten hinweg verglichen.</abstract>
+                    <subject>
+                        <topic>Produktionsplanung</topic>
+                        <topic>Produktionsplanung</topic>
+                        <topic>Fertigungsplanung</topic>
+                        <topic>Feinplanung</topic>
+                        <topic>Rüstoperatoren</topic>
+                        <topic>Scheduling</topic>
+                        <topic>Setup Operators</topic>
+                        <topic>Metaheuristics</topic>
+                        <topic>Production Plannung</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät III Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-14587</identifier>
+                    <identifier type="sys">HT020134935</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1458</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2017-09-04</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1458">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1458/1/Dissertation_Daniel_Schnitzler.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1458"
+            DMDID="DMD_siegen_opus_1458">
+            <mets:fptr FILEID="FILE0_siegen_opus_1458"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1001">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Pflegekinder in verschiedenen Familienkulturen : Belastungen und Entwicklungschancen im Übergang</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Reimer, Daniela</displayForm>
+                        <namePart type="family">Reimer</namePart>
+                        <namePart type="given">Daniela</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2008</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Bei unseren ausführlichen biografischen Interviews mit ehemaligen Pflegekindern wurde deutlich, dass der Übergang in die Pflegefamilie für Pflegekinder ein zentrales Erlebnis in ihrer Biografie ist. Sie sind mit Fremdem konfrontiert und müssen eine neue Familie und deren Kultur kennen lernen. Wie Kinder den Übergang bewerkstelligen, welchen Belastungen sie währenddessen ausgesetzt sind, aber auch welche Chancen der Übergang für die Entwicklung bietet, wie die aufnehmenden Familien ihren Beitrag zur Bewältigung des Übergangs leisten und welche Prozesse in Wechselwirkung miteinander treten, wird in diesem Buch anhand von drei Fallgeschichten thematisiert.</abstract>
+                    <subject>
+                        <topic>Pflegekind</topic>
+                        <topic>Narrative Interviews</topic>
+                        <topic>Familienkultur</topic>
+                        <topic>Pflegekinderhilfe</topic>
+                        <topic>Pflegekinderforschung</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-10018</identifier>
+                    <identifier type="sys">HT018996541</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1001</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1001">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1001/1/Daniela_Reimer_Pflegekinder_in_verschiedenen_Familienkulturen.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1001"
+            DMDID="DMD_siegen_opus_1001">
+            <mets:fptr FILEID="FILE0_siegen_opus_1001"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

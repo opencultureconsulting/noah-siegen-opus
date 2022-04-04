@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_761">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Performance-Steigerung multispektraler Systeme durch eine analytische Auswahl der Spektralbänder am Beispiel von a-Si:H Photodioden</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Increasing performance of multispectral systems by an analytical selection of spectral bands using an example of a-Si:H photodiodes</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Merfort, Christian</displayForm>
+                        <namePart type="family">Merfort</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Ziel der vorliegenden Dissertation ist die Steigerung der Messgenauigkeit und Performance der zerstorungsfreien Charakterisierung von Materialien anhand des Reflexionsverhaltens. Die Arbeit beschreibt die Entwicklung eines analytischen Verfahrens zur Separation derjenigen spektralen Bänder, die eine hohe Informationsdichte aufweisen. Basis für die Charakterisierung ist das von einem Material reflektierte bzw. absorbierte Licht, das dadurch eine eindeutige spektrale Signatur erhält. Durch die analytische Separation ist es moglich, mit einer minimalen Anzahl an spektralen Bändern vergleichbare Messergebnisse zu erzielen, wie bei den komplexeren hyperspektralen Verfahren. Bei den hyperspektralen Verfahren werden für jede Messung immer mehrere Hundert Bänder aufgenommen, da die Merkmalsextraktion erst nach der Messung auf der Basis von empirisch und probabilistisch gewonnener Informationen erfolgt. Die Arbeit dokumentiert die verschiedenen Entwicklungsstufen, in denen Parameter definiert und ein Algorithmus zur automatischen Separation implementiert wurde. Den Ausgangspunkt bilden die am Institut entwickelten spannungsgesteuert durchstimmbaren multispektralen Photodioden mit einer dynamisch veränderbaren Informationsdichte pro Pixel. Die mit diesem Detektortyp erzielbaren Ergebnisse lassen sich in Bezug auf die Anzahl der realisierbaren spektralen Bänder nicht mehr mit den gängigen trichromatischen Methoden aus der Farbmetrik analysieren. Ausgehend von der allgemeinen Anforderung an die externe Separation eines Sensors wurde der Parameter ΔCL definiert. Für einen Sensor mit einer beliebigen Anzahl an spektralen Bändern bei einer gegebenen Stoffdatenbank unter einer Beleuchtungsart liefert die Funktion für ΔCL einen Wert zurück, der dimensionsunabhängig ein Maß für die externe Separation ist. Da aber eine hohe externe Separation noch keine Aussage darüber liefert, mit welcher Zuverlässigkeit die Messung erfolgte, wurde in Anlehnung an die Zugehorigkeitsfunktion aus dem Bereich der Fuzzy Mengen der zweite Parameter μ(P) definiert. Über μ(P) kann bestimmt werden, mit welcher Wahrscheinlichkeit es sich bei der gemessenen Probe P um ein Material aus der Stoffdatenbank handelt oder ob die Probe unbekannt ist. Die Entwicklung der Parameter und dem daraus resultierenden analytischen Verfahren wurde begleitet von experimentellen Messungen zur Unterscheidbarkeit von weißlichen Pulverproben. Ein besonderes Augenmerk wurde dabei auf den Aufbau einer Datenbank gelegt, die neben den spektralen Reflexionskurven der Pulverproben auch die spektrale Bestrahlungsstärke diverser realer und Norm-Lichtquellen sowie die spektrale Empfindlichkeit diverser Sensoren beinhaltet. Damit wurde die Moglichkeit eroffnet, neben real gemessenen Werten auch auf simulierte Werte zurückgreifen zu konnen, welche als Basis für eine breit angelegte multivariate Analyse für das Reengineering der Dioden betrachtet werden sollen. Besondere Bedeutung erhält die Entwicklung solcher vollständig in Planartechnik gefertigten und durch eine intelligente Auswahl der Bänder optimierten Multispektral-Dioden im Hinblick auf die hyperspektrale Bildgebung für die Fernerkundung, auf das Umweltmonitoring und auf die berührungslose und zerstorungsfreie Analyse von Materialien. Bei den etablierten hyperspektralen Systemen führt die dem Sensor vorgeschaltete Optik zur spektralen Aufteilung des einfallenden Lichts oft zu unhandlichen und teuren Geräten. Dieser Umstand verhinderte bislang die Verbreitung solcher Meßsysteme. Mit der Implementierung eines analytischen Verfahrens zur Separation derjenigen spektralen Bänder, die eine hohe Informationsdichte aufweisen, konnte ein Verfahren realisiert werden, das ohne weiteres Expertenwissen als Output die beste Kombination an spektralen Bändern liefert. Nicht zuletzt diese Eigenschaft belegt, dass die Reduzierung der spektralen Bänder durch eine intelligente Auswahl den Weg für eine neue Generation von hyperspektralen Systemen mit vielfältigen Anwendungsfeldern ebnet.</abstract>
+                    <abstract type="content" lang="eng">The objective of this present dissertation is to increase the measurement precision and performance of the non-destructive characterization of materials by means of their reflective properties. The paper describes the development of an analytical procedure for separating those specific spectral bands exhibiting a high information density. The basis for such characterization is the light that is reflected or absorbed by a material and which thereby acquires an unequivocal spectral signature. Analytic separation enables similar measurement results to be obtained with a minimal amount of spectral bands as compared to the more complex hyperspectral procedures. As is invariably the case in such hyperspectral procedures, several hundred bands are recorded for each measurement, since characteristic extraction does not take place until after the measurement is taken based on information acquired through empirical and probabilistic means. The paper documents the various stages of development in which parameters are defined and an algorithm implemented for automatic separation. It all starts with the voltage-tunable multispectral photodiodes that were developed at the institute, which have a dynamically changeable information density per pixel. The results that are obtainable with this detector type with respect to the number of spectral bands that can be achieved cannot be analyzed with current trichromatic methods used in colorimetry. The parameter ΔCL was defined based on the general requirement of the external separation. In the case of a sensor with an arbitrary number of spectral bands for a given database of materials and under a certain type of lighting, the function returns a value for ΔCL that is an independent dimension for external separation. Since, however, even an extremely high degree of separation does not provide any certainty with regard to how reliably the measurement was done, the second parameter μ(P) was defined according to the membership function from the area of fuzzy sets. μ(P) can be used to determine with what probability the measured sample P involves a material from the database of materials or whether the sample is unknown. In tandem with the development of the parameters and the analytic procedures resulting from them were experimental measurements for the purpose of being able to distinguish between whitish powder samples. The process of setting up a database in this regard received special attention, which - along with the powder samples´ spectral reflection curves - also involves the spectral irradiance of diverse real and standard light sources as well as the spectral sensitivity of diverse sensors. This allows for the possibility of resorting to simulated values in addition to actually measured values to provide a basis for widely applied, multivariate analysis in order to reengineer the diodes. Special significance is given to the development of such multispectral diodes that have been produced entirely with planar technology and optimized by shrewdly selecting the bands in conjunction with hyperspectral imaging for remote sensing, environmental monitoring, and touch-free and non-destructive material analysis. In established hyperspectral systems, the optics, which are upstream of the sensor and whose purpose is to spectrally separate the incident light, lead to unwieldy and expensive equipment. This situation has so far prevented such measurement systems from being widely distributed. By implementing an analytic procedure for separating spectral bands that exhibit high information density, a procedure was able to be devised that - even without expert knowledge - produces the best combination of spectral bands as output. Not least, this property proves that reducing the spectral bands by shrewdly selecting them paves the way for a new generation of hyperspectral systems with a broad range of fields of application.</abstract>
+                    <subject>
+                        <topic>Farbmetrik</topic>
+                        <topic>Multivariat</topic>
+                        <topic>Multispektral</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Mikrosystemtechnik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-7617</identifier>
+                    <identifier type="sys">HT017832923</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_761</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2013-09-15</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_761">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/761/1/merfort.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_761"
+            DMDID="DMD_siegen_opus_761">
+            <mets:fptr FILEID="FILE0_siegen_opus_761"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

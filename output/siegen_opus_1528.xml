@@ -1,0 +1,133 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1528">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Lösungsstrategien für dünnbesetzte inverse Probleme im Bereich der Strukturüberwachung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ginsberg, Daniel</displayForm>
+                        <namePart type="family">Ginsberg</namePart>
+                        <namePart type="given">Daniel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Fritzen, Claus-Peter</displayForm>
+                        <namePart type="family">Fritzen</namePart>
+                        <namePart type="given">Claus-Peter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Der Fokus dieser Forschungsarbeit liegt auf der Analyse inverser Probleme der schwingungsbasierten Strukturüberwachung. Strukturüberwachungssysteme helfen u.a. dabei
+die Integrität einer Struktur beurteilen zu können oder eine Vorhersage der Restlebensdauer
+zu treffen. Im Rahmen dieser Arbeit werden neuartige Überwachungsstrategien
+entwickelt und untersucht. Die Ergebnisse zeigen das große Potential von Lösungsansätzen
+für dünnbesetzte inverse Probleme in diesem Bereich. Von dünnbesetzten Problemen
+spricht man, falls ein Lösungsvektor existiert, welcher nur sehr wenig Elemente ungleich
+null besitzt. Solche Lösungsstrategien helfen dabei die benötigte Messinformation zu reduzieren
+und die Rekonstruktionsqualität zu steigern bzw. beizubehalten.
+Für eine kontinuierliche Strukturüberwachung werden Sensoren permanent an der
+mechanischen Struktur angebracht. So könnnen die mechanischen Schwingungen dauerhaft
+gemessen werden. Geeignete Algorithmen müssen dann diese Messdaten verarbeiten,
+um das gewünschte Überwachungsergebnis zu erzielen. Allerdings spiegeln die
+Schwingungsmessungen lediglich die Wirkung einer meist unbekannten Ursache wider.
+Zur Überwachung ist daher eine Invertierung des Ursache-Wirkungsprinzips erforderlich.
+Das bedeutet, dass die Überwachungsalgorithmen in der Lage sein müssen diese inverse
+Problemstellung zu lösen.
+Zur Lösung inverser Probleme ist es zweckmäßig Vorkenntnisse der gesuchten Größen
+zu berücksichtigen, um mechanisch sinnvolle Ergebnisse zu erhalten. Die charakteristischen
+Eigenschaften der Strukturanregung und der Schädensmuster können dazu genutzt
+werden, die jeweils auftretende inverse Problemstellung in ein dünnbesetztes Gleichungssystem
+zu überführen. Die Lösung solcher Gleichungssysteme kann mittels der
+L1-Regularisierung sehr effizient generiert werden.
+Speziell für Lastrekonstruktionsverfahren ist durch die Anwendung von L1-minimierenden
+Algorithmen eine Lokalisation und eine Kraftverlaufsrekonstruktion mit einer deutlich
+geringeren Anzahl an Sensoren als bislang möglich. Die Stabilität der Rekonstruktionsalgorithmen ist auch bei verrauschten Messdaten und Modellabweichungen gegeben.
+Für Schadensidentifikationsalgorithmen sind Lösungsstrategien für dünnbesetzte Probleme
+ebenfalls gewinnbringend im Hinblick auf die benötigte Messinformation und die
+erreichbare Schadensidentifikationsqualität. Dies gilt sowohl für Verfahren im Frequenzbereich,
+als auch für Methoden im Zeitbereich. Mit Hilfe von Lösungsstrategien für dünnbesetzte
+inverse Probleme ist es außerdem möglich Ansätze für die kombinierte Identifikation
+von Strukturschäden und externen Lasten zu realisieren.
+Alle untersuchten Rekonstruktionsalgorithmen erreichen eine Reduktion der benötigten
+Messinformation, wodurch u.a. ein Beitrag zur günstigeren und praxistauglicheren
+Anwendung von Strukturüberwachungssystemen geleistet werden kann.</abstract>
+                    <abstract type="content" lang="ger">This research study focuses on the analysis of vibration-based inverse problems in the
+context of structural monitoring. Structural monitoring systems enable e.g. to judge the
+structure integrity or to predict the useful remaining lifetime. In this thesis novel reconstruction
+algorithms are developed and investigated. The results show the great potential
+of sparse solutions strategies for solving inverse problems. Sparse solutions are characterized
+by a solution vector with only a very few nonzero elements. Such solutions methods
+leads to a reduction of the required measurement information, while maintaining the
+reconstruction quality.
+For continuous structural monitoring, sensors are attached to the mechanical structure
+to permanently measure mechanical vibrations. In order to achieve the desired monitoring
+result, these measurement data have to be processed by suitable algorithms.
+However, the vibration measurements only reflect the effect of a mostly unknown cause.
+Therefore structural monitoring requires an inversion of the cause-effect principle. This
+means that the monitoring algorithms need to solve this inverse problem.
+To solve inverse problems, using prior information about the desired values is advisable
+for obtaining meaningful solutions. The characteristic properties of the structure
+excitation and damage can be used to transform the inverse problem into a sparse equation
+system. The solution of such equation systems can very efficiently be generated by
+means of L1-regularization.
+In terms of load-reconstruction methods using L1-minimizing algorithms allow a localization
+and a force history reconstruction with a significantly lower number of sensors.
+The stability of the reconstruction algorithms is also given in the case of noisy measurement
+data and model deviations.
+For damage identification algorithms, sparse solution strategies are also advantageous
+in terms of the required measurement information and the achievable damage identification
+quality. This applies both to frequency and to time domain methods. With the help of sparse solution algorithms, it is also possible to identify structural damage and
+external loads, simultaneously.
+All proposed reconstruction algorithms achieve a reduction of the required measurement
+information. This contributes to a more profitable and more practicable use of
+structural monitoring systems.</abstract>
+                    <subject>
+                        <topic>Strukturüberwachung</topic>
+                        <topic>Inverse Probleme</topic>
+                        <topic>Lösungsstrategien für dünnbesetzte Probleme</topic>
+                        <topic>Lastüberwachung</topic>
+                        <topic>Schadenserkennung</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Mechanik und Regelungstechnik - Mechatronik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-15289</identifier>
+                    <identifier type="sys">HT020312488</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1528</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2019-10-18</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1528">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1528/2/Dissertation_Daniel_Ginsberg.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1528"
+            DMDID="DMD_siegen_opus_1528">
+            <mets:fptr FILEID="FILE0_siegen_opus_1528"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

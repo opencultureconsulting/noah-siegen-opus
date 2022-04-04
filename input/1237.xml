@@ -1,0 +1,61 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1237</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Lattice-Boltzmann-Methoden zur Simulation inkompressibler Wirbelströmungen</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Andreas</pc:foreName>
+            <pc:surName>Krämer</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Turbulenz</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Lattice-Boltzmann</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Strömungssimulation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Semi-Lagrange-Verfahren</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Irreguläre Gitter</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Lattice Boltzmann</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Computational Fluid Dynamics</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Semi-Lagrangian Methods</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Turbulence</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Irregular Grids</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">In dieser Arbeit werden neuartige methodische Erweiterungen der Lattice-Boltzmann-Methode (LBM) entwickelt, die effizientere Simulationen inkompressibler Wirbelströmungen ermöglichen. Diese Erweiterungen beheben zwei Hauptprobleme der Standard-LBM: ihre Instabilität in unteraufgelösten turbulenten Simulationen und ihre Beschränkung auf reguläre Rechengitter. Dazu wird zunächst eine Pseudo-Entropische Stabilisierung (PES) entwickelt. Diese kombiniert Ansätze der Multiple-Relaxation-Time (MRT)-Modelle und der Entropischen LBM zu einem expliziten, lokalen und flexiblen Stabilisierungsoperator. Diese Modifikation des Kollisionsschritts erlaubt selbst auf stark unteraufgelösten Gittern stabile und qualitativ korrekte Simulationen. Zur Erweiterung der LBM auf irreguläre Rechengitter wird zunächst eine moderne Discontinuous-Galerkin-LBM untersucht und um stabilere Zeitintegratoren ergänzt. Diese Studie demonstriert die drastischen Schwächen existierender LBMAnsätze auf irregulären Gittern. Basierend auf den gewonnenen Erkenntnissen gelingt die Formulierung einer neuartigen Semi-Lagrangeschen LBM (SLLBM). Diese ermöglicht in einzigartigerWeise sowohl die Verwendung irregulärer Gitter und großer Zeitschritte als auch eine hohe räumliche Konvergenzordnung. Anhand von Beispielsimulationen wird demonstriert, wieso dieser Ansatz anderen aktuellen Off-Lattice-Boltzmann-Methoden (OLBMs) in Effizienz und Genauigkeit überlegen ist. Weitere neuartige Aspekte dieser Arbeit sind die Entwicklung eines modularen Off-Lattice-Boltzmann-Codes und die Erweiterung der LBM um implizite Mehrschrittverfahren, mit denen eine Erhöhung der zeitlichen Konvergenzordnung gelingt.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The present work develops novel methodological extensions to the lattice Boltzmann method (LBM). These extensions enable the method to efficiently simulate incompressible vortical flows. They cure two major drawbacks of the standard LBM: its instability in under-resolved turbulence and its restriction to regular computational grids. At first, a pseudo-entropic stabilizer (PES) is developed, which combines ideas from multiple-relaxation-time (MRT) models and entropic models. The new PES is local, explicit, and flexible. It modifies the collision step in a way that enables stable simulations and produces qualitatively matching results, even on strongly underresolved grids. To extend the LBM towards simulations on irregular grids, a recent discontinuous Galerkin lattice Boltzmann method is studied and enhanced by more stable time integrators. This study illustrates the severe shortcomings of existing off-lattice Boltzmann methods (OLBMs). Based on these findings, the present work succeeds in developing a semi-Lagrangian lattice Boltzmann method (SLLBM). This novel approach allows unstructured grids, large time steps, and high-order accurate representations of the solution to be used in a unique way. Applications to exemplary flows demonstrate how and why the new method outperforms other recent OLBMs in both efficiency and accuracy. Additionally, this work describes the development of a modular off-lattice Boltzmann code and shows that the method’s convergence order can be increased by implicit multistep methods.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2017-10-12</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2017</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-12372</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dcterms:isPartOf xsi:type="ddb:noScheme">Schriftenreihe des Lehrstuhls für Strömungs- und Thermodynamik;  3</dcterms:isPartOf>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Fluid- und Thermodynamik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Andreas_Kraemer.pdf" ddb:fileSize="6511398"/>
+   <ddb:checksum ddb:type="MD5">39ac0b53e1a4d1d55b7da688bc016f9d</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1237/1/Dissertation_Andreas_Kraemer.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1237</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

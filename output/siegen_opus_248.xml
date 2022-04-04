@@ -1,0 +1,54 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_248">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Aktionstag Neue Medien in der Lehre</title>
+                    </titleInfo>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">1999</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Verschiedene Beiträge zum Thema aus allen Fachbereichen der Universität Siegen.
+
+Der Aktionstag fand am 16.4.1999 in der Universität Siegen statt.</abstract>
+                    <subject>
+                        <topic>Neue Medien</topic>
+                        <topic>Lehre</topic>
+                        <topic>Universität</topic>
+                        <topic>Hochschule</topic>
+                        <topic>computerunterstütztes Lernen</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-2485</identifier>
+                    <identifier type="sys">HT015010930</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_248</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_248">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/248/1/Aktionstag_Neue_Medien_1999.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_248"
+            DMDID="DMD_siegen_opus_248">
+            <mets:fptr FILEID="FILE0_siegen_opus_248"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

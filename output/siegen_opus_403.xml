@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_403">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Untersuchungen zur Ermittlung von hydrologischen Bemessungsgrößen mit Verfahren der instationären Extremwertstatistik : Methoden und Anwendungen auf Pegelwasserstände an der Deutschen Nord- und Ostseeküste</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Determination of hydrological design values by the use of non-stationary extreme value analysis : methods and applications to tide gauge data on the German North- and Baltic Sea coastline</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mudersbach, Christoph</displayForm>
+                        <namePart type="family">Mudersbach</namePart>
+                        <namePart type="given">Christoph</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2009</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Viele Küstenregionen sind potenziell durch die Auswirkungen des globalen Klimawandels gefährdet, der sich im Anstieg des Meeresspiegels sowie teilweise in der Zunahme der Sturmfluthäufigkeit und -intensität zeigt. 
+Die Bemessung von Küstenschutzanlagen basiert in vielen Fällen auf Wasserständen, denen Eintrittswahrscheinlichkeiten bzw. Jährlichkeiten zugeordnet werden. Heute gebräuchlich sind Bemessungswerte mit Jährlichkeiten zwischen 100 und 10.000 Jahren. Die Eintrittswahrscheinlichkeiten werden aus beobachteten Wasserstandsdaten mit Verfahren der Extremwertstatistik abgeleitet, wobei nicht nur Aussagen zu heutigen Zuständen, sondern auch zu zukünftigen Zeithorizonten getroffen werden müssen. Die klassischen statistischen Verfahren setzen voraus, dass die Zeitreihe der Wasserstände stationär (über die Zeit konstant) ist. Die Annahme von stationären Wasserstandszeitreihen kann im Zuge des Klimawandels unzutreffend sein. Liegt ein signifikantes instationäres Verhalten einer Zeitreihe vor, so können die klassischen stationären Methoden der Extremwertstatistik nicht verwendet werden. Entweder müssen die Instationaritäten aus den Zeitreihen entfernt werden, oder die Verfahren müssen auf einen instationären Ansatz erweitert werden. Die vorliegende Arbeit stellt eine Methodik zur Ermittlung von möglichen zukünftigen Änderungen in den Eintrittswahrscheinlichkeiten von Wasserständen vor, bei der Trends in den Zeitreihen direkt bei der Ermittlung der Bemessungswerte berücksichtigt werden. 
+Die Abschätzung zukünftiger Eintrittswahrscheinlichkeiten ist mit einem instationären Ansatz der Allgemeinen Extremwertverteilung (GEV) möglich, wobei ein parametrischer Ansatz gewählt werden muss, um die Ergebnisse bis zu einem zukünftigen Zeithorizont extrapolieren zu können. Die Parameterschätzung erfolgt hierbei mit Hilfe einer zeitfensterbasierten Schätzung der L-Momente. Die L-Momente werden durch funktionale Zusammenhänge (linear oder nichtlinear) beschrieben und in die Zukunft extrapoliert. Dies wird als parametrischer Ansatz bezeichnet. Durch die vorgestellte Methodik können zu jedem beliebigen Zeitpunkt t die Eintrittswahrscheinlichkeiten von Wasserständen angegeben werden.
+Anwendungen des instationären Extremwertansatzes auf die Pegel Cuxhaven (Nordsee) und Travemünde (Ostsee) zeigen, dass die Lageparameter der untersuchten jährlichen Extremwertzeitreihen in der Regel einen steigenden Trend aufweisen. An beiden Pegeln wird mittels des instationären Extremwertansatzes die Veränderung des 100-jährlichen Wasserstandes bis zum Jahr 2100 abgeschätzt. Zusätzlich wurden die Auswirkungen von möglichen Klimaszenarien auf zukünftige Bemessungswasserstände analysiert.
+Grundsätzlich wird aufgrund der Ergebnisse der vorliegenden Arbeit empfohlen, die vorgestellte instationäre Extremwertmethode für die Abschätzung von zukünftigen Bemessungswerten zu verwenden.</abstract>
+                    <abstract type="content" lang="eng">Many coastal regions are faced with the global climate change, which has effects on sea level rise and partially on increasing storm surge frequency and heights. 
+The design of coastal defence structures is mainly based upon water levels to which a certain occurrence probability (return period) is assigned. Nowadays, design levels with a return period between 100 and 10,000 years are common. The determination of the occurrence probabilities is done by an analysis of observed water level data based upon extreme value statistics. Thereby, not only statements of the actual occurrence probabilities are required, but also for future time horizons. The common statistical methods postulate a stationary behaviour (no changes through time) of the water level data, which needs to be analysed. However, in the context of climate change, it is possible, that this assumption would no longer hold and the results become doubtful. If a significant non-stationary behaviour of the water level data exists, the common statistical stationary methods may not be used any more. Either the non-stationarities have to be removed or the non-stationarities need to be integrated directly into the extreme value analysis. The present study introduces a method, where trends in the observed data can be integrated directly into the extreme value analysis, in order to determine future design water levels.
+The projection of future design water levels can be realised by using a non-stationary approach of the Generalized Extreme Value (GEV) distribution. Thereby, a parametric approach for the parameter estimation have been applied in order to extrapolate the results to future time horizons. The parameter estimation has been realised by L-moments, based on time windows. The non-parametric processes of the L-moments have been described by functional relations in order to extrapolate them. This is called a parametric approach. By use of the introduced method it is possible to specify a T-year design level at any point of time.
+Applications of the non-stationary method to the gauges Cuxhaven (North Sea) and Travemünde (Baltic Sea) show, that the location parameters of the analysed water level time series have a significant increasing trend. For both gauges the 100-year design levels have been calculated up to the time horizon 2100 by using the introduced non-stationary extreme value approach. Additionally, effects of projected climate scenarios on future design water levels have been analysed.
+On basis of the presented results, the non-stationary extreme value approach may be recommended to determine future design water levels.</abstract>
+                    <subject>
+                        <topic>Extremwertstatistik</topic>
+                        <topic>Wasserstand</topic>
+                        <topic>Wasserbau</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Forschungsinstitut Wasser und Umwelt"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4035</identifier>
+                    <identifier type="sys">HT016095147</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_403</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2009-07-15</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_403">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/403/1/mudersbach.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_403"
+            DMDID="DMD_siegen_opus_403">
+            <mets:fptr FILEID="FILE0_siegen_opus_403"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

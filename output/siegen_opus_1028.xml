@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1028">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>How is a categorical imperative possible? : Kant’s deduction of the categorical imperative (GMS, III,4)</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schönecker, Dieter</displayForm>
+                        <namePart type="family">Schönecker</namePart>
+                        <namePart type="given">Dieter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bookPart</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2006</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Kant’s deduction of the categorical imperative is the answer to the following
+question: “How is a categorical imperative possible?” The answer
+is given in subsection 4 (Sec. 4) of chapter three of the Groundwork.
+It is impossible to understand this answer, and hence impossible
+to understand Kant’s deduction of the moral law, without taking into
+account the overall context of Groundwork III (GMS III). However,
+here I can only sketch the overall structure of GMS III, and therefore
+only present a sketch of what I call Kant’s thesis of analyticity.1 This
+thesis is developed in Sec. 1 of GMS III; however, it appears time and
+again in GMS III, and it deserves special attention (part 1). Part 2,
+then, offers a close reading and analysis of Kant’s deduction.</abstract>
+                    <subject>
+                        <topic>Kant, Immanuel</topic>
+                    </subject>
+                    <classification authority="ddc">100</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-10288</identifier>
+                    <identifier type="sys">HT019098893</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1028</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBookPart</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1028">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1028/1/How_is_a_categorical_imperative_possible_Schoenecker.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1028"
+            DMDID="DMD_siegen_opus_1028">
+            <mets:fptr FILEID="FILE0_siegen_opus_1028"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_532">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Schadensdiagnoseverfahren für die Zustandsüberwachung von Offshore-Windenergieanlagen</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Damage diagnosis approaches for structural health and condition monitoring of offshore wind energy plants</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kraemer, Peter</displayForm>
+                        <namePart type="family">Kraemer</namePart>
+                        <namePart type="given">Peter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Schadensdiagnose auf der Basis von Schwingungsmessdaten ist ein vielversprechender Ansatz zur Überwachung unterschiedlicher Struktur- und Maschinenkomponenten von &quot;vibrationsfreudigen&quot; Offshore-Windenergieanlagen während des laufenden Betriebs. Die kontinuierliche Überwachung soll die Anzahl der geplanten Instandhaltungsaktionen verringern, welche besonders im Offshore-Bereich sehr kostenintensiv sind. Gleichzeitig soll eine automatisierte Schadensdiagnose auch bei wetterbedingt schlechter Erreichbarkeit der Anlagen dem Anlagenbetreiber Informationen über den Zustand der Anlage liefern und gegebenenfalls einen entsprechend dem Anlagenzustand schonenden Betrieb einleiten.
+Der Fokus dieser Arbeit liegt in der Methodenentwicklung für ein Überwachungssystem hinsichtlich der Schadensfrüherkennung an Offshore-Windenergieanlagen und insbesondere in der Zustandsüberwachung von Turm, Fundament und Maschinenkomponenten der Anlage. Die Methodenentwicklung baut auf der Erweiterung und Kombination unterschiedlicher Ansätze der Datenanalyse aus Strukturdynamik, Mustererkennung, Informationstheorie und Signalanalyse auf, damit diese den spezifischen Anforderungen für den Einsatz an Offshore-Windenergieanlagen gerecht werden.
+Somit wird in dieser Arbeit ein Konzept zur Strukturüberwachung mit Hilfe von gemessenen Schwingungsdaten entwickelt und implementiert. Dieses besteht aus Algorithmen zur Strukturschadensdetektion unter Berücksichtigung veränderlicher Umgebungs- und Betriebs-zustände der Anlage, modellgestützter Schadenslokalisation mit Hilfe von Modaldaten und einer Sensorfehleridentifikation. Zur Maschinenüberwachung werden weitere Ansätze zur Auswertung gemessener Signale im Triebstrang von Windenergieanlagen erweitert und implementiert. Diese bestehen aus der Kombination unterschiedlicher Signalanalysemethoden im Frequenzbereich und dienen dazu, Schäden in Lagern und langsam laufenden Planetenge-trieben in einem früheren Stadium als mit den bislang angewendeten Ansätzen zu entdecken.
+Die entwickelten und angewendeten Methoden zur Strukturüberwachung werden mit Hilfe von Simulationsmodellen, mit Messdaten unterschiedlicher Laborstrukturen sowie Messdaten aus einem Langzeitmonitoring einer 5MW-Offshore-Prototypanlage (Areva-Multibrid M5000-2) getestet. Die Methoden zur Maschinenüberwachung werden mit Hilfe von gemessenen Signalen an unterschiedlichen Windenergieanlagen validiert.</abstract>
+                    <abstract type="content" lang="eng">Vibration-based damage diagnosis is a promising approach for monitoring different structural and machine components of offshore wind energy plants. The aim of continuous monitoring is to reduce the inspection intervals, which especially offshore, are very time and cost consuming. At the same time an automatic damage diagnosis system provides the operator with necessary and reliable information about the plant&apos;s state, which allows the initiation of maintenance actions also if the plant is unreachable due to bad weather condition. 
+This work is focused on the development of new methods which are included in one monitoring system performing damage diagnosis for different component of offshore wind energy plants, such as: tower, foundation and drive train. The development is based on the extension and combination of different signal analysis approaches in structural dynamics, pattern recognition and information theory.
+On this base a structural health monitoring concept dealing with measured data was developed and implemented. This includes structural damage detection algorithms in the presence of changing environmental and operational conditions, model-based damage localization by means of modal data and sensor fault identification. For condition monitoring purposes different approaches for signal analysis of measured time data belonging to the drive train components are extended and implemented. The applied algorithms combine different frequency domain approaches. These are used to detect damages in rolling bearings and planetary gears in an earlier stage compared to the established condition monitoring algorithms.
+The developed and applied methods in structural health monitoring are validated by means of simulation models, measured signals from different laboratory structures and measured data from a long time monitoring of the 5MW prototype wind energy plant built by Areva-Multibrid. The condition monitoring methods are validated by means of measured signals from different wind energy plants.</abstract>
+                    <subject>
+                        <topic>Offshore-Windenergieanlagen</topic>
+                        <topic>Schadensdiagnose</topic>
+                        <topic>Signalanalyse</topic>
+                        <topic>Sensorfehleridentifikation</topic>
+                        <topic>modellgestützte Schadenslokalisation</topic>
+                        <topic>Offshore Wind Energy Plants</topic>
+                        <topic>Damage Diagnosis</topic>
+                        <topic>Signal Analysis</topic>
+                        <topic>Sensor Fault Identification</topic>
+                        <topic>Model-based Damage Localization</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5323</identifier>
+                    <identifier type="sys">HT016917099</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_532</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2011-07-14</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_532">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/532/1/kraemer.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_532"
+            DMDID="DMD_siegen_opus_532">
+            <mets:fptr FILEID="FILE0_siegen_opus_532"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

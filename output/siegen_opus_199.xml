@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_199">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Parameterabhängige dünne Überdeckungen konvexer Körper</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Thin parametric coverings of convex bodies</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Meyer, Martin</displayForm>
+                        <namePart type="family">Meyer</namePart>
+                        <namePart type="given">Martin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">1999</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Arbeit beschäftigt sich mit Überdeckungen durch Translate eines zentralsymmetrischen, konvexen Korpers K im d -dimensionalen Euklidischen Raum E d . Eine Punktmenge C n ⊂ E d mit n Elementen heißt Überdeckungskonfiguration bzgl. K , falls conv C n ⊂ C n + K gilt. Bezüglich der parametrischen Dichte ϑ ( K, C n , ρ ) = n ⋅ V ( K )/ V (conv C n + ρK ) werden hier optimale (dünnste) Überdeckungskonfigurationen untersucht, also solche Konfigurationen, in denen ϑ ( K, C n , ρ ) minimal wird. In der Euklidischen Ebene zeigt sich zunächst, dass für kleine Parameter ρ die optimalen Konfigurationen volldimensional sind, während man für hinreichend große Parameter nahezu eindimensionale Anordnungen erhält. Die letzte Aussage läßt sich für strikt konvexe Korper auf beliebige Dimensionen d ≥ 2 erweitern. Die dabei betrachteten optimalen, &quot;fast&quot; eindimensionalen Konfigurationen nennt man Knochenkonfigurationen. Sie werden hier ausführlich behandelt. Desweiteren beschäftigt sich die Arbeit mit gitterformigen Überdeckungen. Dabei werden nur Konfigurationen zugelassen, die zu einem Überdeckungsgitter von K gehoren. Für strikt konvexe Korper K lassen sich in der Ebene für alle Parameter ρ die dünnsten Anordnungen bestimmen. Dabei erweisen sich in Abhängigkeit von ρ eindimensionale Konfigurationen, sogenannte Doppelwürste oder volldimensionale Konfigurationen als optimal. Schließlich werden für die d -dimensionale Einheitskugel ( d ≥ 2) die Überdeckungsgitter charakterisiert, für die für große Parameter die optimalen Anordnungen eindimensional sind.</abstract>
+                    <abstract type="content" lang="eng">The work deals with coverings of translates of centrally symmetric convex bodies in the d -dimensional euclidean space E d . A pointset C n ⊂ E d with n elements is called covering configuration (arrangement) with respect to K if conv C n ⊂ C n + K . With respect to the parametric density ϑ ( K, C n , ρ ) = n ⋅ V ( K )/ V (conv C n + ρK ) optimal (thin) covering configurations are considered, i.e. configurations with minimal density. In the euclidean plane such optimal configurations are fulldimensional for small parameter ρ , while large parameter lead to nearly one dimensional arrangements. For strictly convex bodies the last statement can be extended to arbitrary dimensions d ≥ 2. Those nearly one dimensional optimal configurations are called bones and will be treated detailed. Finally the last chapter deals with covering arrangements which belong to lattice coverings with respect to K . In this case for d = 2 and strictly convex K the optimal configurations can be characterized for all parameter ρ . They are either one dimensional, socalled doublesausages or fulldimensional, depending on the parameter. In the end for the euclidean d -ball the lattices are characterized, for which the optimal arrangement is one dimensional, for large parameter.</abstract>
+                    <subject>
+                        <topic>parametrische Dichte</topic>
+                        <topic>Überdeckungen</topic>
+                        <topic>Knochen</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 6, Mathematik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1996</identifier>
+                    <identifier type="sys">HT011080856</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_199</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>1999-08-31</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_199">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/199/1/meyer.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_199"
+            DMDID="DMD_siegen_opus_199">
+            <mets:fptr FILEID="FILE0_siegen_opus_199"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

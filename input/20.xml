@@ -1,0 +1,58 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>20</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Rauschen von a-Si:H-pin-Dioden für TFA-Bildsensorarrays</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Frank</pc:foreName>
+            <pc:surName>Blecher</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Rauschen</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Bildsensor</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">a-Si (amorphes Silicium)</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">TFA (Thin Film on ASIC) -Bildsensoren kombinieren Fotodetektoren auf der Basis amorphen Siliziums mit integrierten Schaltungen in Standard-ASIC (Application Specific Integrated Circuit) –Technologie. Üblicherweise werden a-Si:H-pin-Dioden als Fotodetektoren eingesetzt.&#13;
+Die Qualität des Bildsignals wird grundsätzlich durch das Rauschen der Fotodetektoren sowie durch das Rauschen der integrierten Schaltkreise begrenzt.&#13;
+Die analytische Berechnung aller am Eingang des Pixelverstärkers auftretenden Rauschkomponenten und die Begrenzung von DR und SNR werden als Funktion von Pixelfläche, Dunkel- und Fotostrom sowie Integrationszeit beschrieben und für verschiedene TFABildsensoren vorgestellt. Es wird eine Prognose der Entwicklung von DR und SNR bei zukünftigen Generationen von TFA-Bildsensoren mit reduzierten CMOS-Strukturgrößen vorgestellt. Der Anstieg aller Rauschkomponenten und die Verringerung der maximalen Signalspannung tragen bei der Skalierung zur Reduzierung von SNR und DR bei. Dabei nimmt das thermisch bedingte Rauschen stärker zu als das Rauschen des Fotostromes, so dass der Abstand zwischen SNR und DR abnimmt.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">TFA (Thin Film on ASIC) -imagers combine photodetectors based on amorphous Silicon with integrated circuits in standard ASIC (Application Specific Integrated Circuit) –technology.&#13;
+Usually a-Si:H p-i-n diodes are employed as photodetectors. The quality of the video signal is on principle limited by the noise of the photodetectors and the noise of the integrated circuits.&#13;
+The analytic calculation of all noise components at the input of the pixel amplifier and the limitation of DR and SNR are described as a function of pixel area, dark current, photocurrent as well as integration time and presented for various TFA-imagers. An estimation of the trend of DR and SNR for future generations of TFA-imagers with reduced CMOS feature sizes is presented. The increase of all noise components and the increase of the signal voltage with&#13;
+downscaling contribute to the reduction of DR und SNR. With the scaling the thermal noise increases stronger than the noise of the photocurrent so that the deviation between DR and SNR decreases.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2002-12-12</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2002</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-207</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 12, Elektrotechnik und Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="blecher.pdf" ddb:fileSize="1434062"/>
+   <ddb:checksum ddb:type="MD5">348e0398b832eee8b4a0e67e83676116</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/20/1/blecher.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/20</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

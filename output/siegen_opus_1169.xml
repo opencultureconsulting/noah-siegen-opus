@@ -1,0 +1,59 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1169">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Nachhaltig Handeln lernen im Sachunterricht : Beitragsdokumentation zur Tagung am 5. Oktober 2016 an der Universität Siegen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gröger, Martin</displayForm>
+                        <namePart type="family">Gröger</namePart>
+                        <namePart type="given">Martin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Bildung zu Nachhaltiger Entwicklung (BNE) kann ohne interdisziplinäres Wissen und Kompetenz zu vernetztem Denken nicht gelingen. Im vorliegenden Band sind Vorträge, Poster und Workshops der Tagung „Nachhaltig Handeln lernen im Sachunterricht“ vom 5. Oktober 2016 an der Universität Siegen zusammengefasst.
+Mit der Veröffentlichung dieses Tagungsbandes möchten die Herausgeber einen Beitrag zur weiteren Diskussion über die didaktischen Möglichkeiten der Thematisierung von Nachhaltigkeit im Sachunterricht leisten sowie konkrete Hinweise zur Gestaltung von Unterrichtsprojekten geben.</abstract>
+                    <subject>
+                        <topic>Nachhaltigkeit</topic>
+                        <topic>Tagungsband  </topic>
+                    </subject>
+                    <classification authority="ddc">370</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11690</identifier>
+                    <identifier type="sys">HT019360498</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1169</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1169">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1169/1/Groeger_Nachhaltig_Handeln_lernen_im_Sachunterricht.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1169"
+            DMDID="DMD_siegen_opus_1169">
+            <mets:fptr FILEID="FILE0_siegen_opus_1169"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

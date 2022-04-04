@@ -1,0 +1,59 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1546">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Common sense knowledge of social structures (1959) : a paper distributed at the session on the Sociology of Knowledge,  Fourth World Congress of Sociology, Stresa, Italy, September 12, 1959</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Garfinkel, Harold</displayForm>
+                        <namePart type="family">Garfinkel</namePart>
+                        <namePart type="given">Harold</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">The text presented here was written by Harold Garfinkel for the Fourth World Congress of Sociology in Stresa (Italy) in 1959, where Garfinkel participated in the Section on the Sociology of Knowledge organized by Kurt Wolff. The &quot;General Theme&quot; of the Fourth World Congress of Sociology was &quot;Society and Sociological Knowledge / La Société et la Connaissance Sociologique&quot;. Garfinkel&apos;s original Stresa paper had to be &quot;heavily abridged&quot; for publication (Garfinkel 1961).</abstract>
+                    <subject>
+                        <topic>Garfinkel, Harold</topic>
+                        <topic>Garfinkel</topic>
+                    </subject>
+                    <classification authority="ddc">300</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-15467</identifier>
+                    <identifier type="sys">HT020409104</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1546</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1546">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1546/3/WPS_11_Garfinkel_Common_Sense_Knowledge.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1546"
+            DMDID="DMD_siegen_opus_1546">
+            <mets:fptr FILEID="FILE0_siegen_opus_1546"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

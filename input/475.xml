@@ -1,0 +1,83 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>475</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Efficient and high quality clustering</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Effiziente und hochqualitative Clusterbildung</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Iurie</pc:foreName>
+            <pc:surName>Chiosa</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Cluster-Analyse</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Polygonnetze</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Clusterbildung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Computer graphics</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">parallel processing</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">clustering methods</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">computational geometry</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">programmable graphics hardware</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Clustering, as a process of partitioning data elements with similar properties, is an essential task in many application areas. Due to technological advances, the amount as well as the dimensionality of data sets in general is steadily growing. This is especially the case for large polygonal surface meshes since existing 3D geometry acquisition systems can nowadays provide models with up to several million triangles. Thus, fast and high-quality data and polygonal mesh processing becomes more demanding.&#13;
+&#13;
+To deal with such a huge and diverse heap of clustering problems efficient algorithms are required. At the same time the resulting clustering quality is of highest importance in almost all situations. Thus, identifying an optimal tradeoff between efficiency and quality is crucial in many clustering tasks.&#13;
+&#13;
+For data clustering tasks in general as well as mesh clustering applications in particular, k-means like techniques or hierarchical methods are used most often. Nonetheless, these approaches are deficient in many respects thus a considerable amount of work is still required to improve them.&#13;
+&#13;
+This dissertation describes new feasible solutions for efficient and high quality mesh and data clustering. It addresses both the algorithm and the theoretical part of many clustering problems, and new clustering strategies are proposed to overcome inherent problems of the standard algorithms.&#13;
+&#13;
+With the advent of general-purpose computing on Graphics Processing Units (GPU), which allows the usage of a highly parallel processing power, new tendencies emerged to solve clustering tasks on the GPU.&#13;
+&#13;
+In this work, a first GPU-based mesh clustering approach, which employs mesh connectivity in the clustering process, is described. The technique is designed as parallel algorithm and it is solely based on the GPU resources. It is free from any global data structure, thus allowing an efficient GPU implementation and a further step in parallelization.&#13;
+&#13;
+Based on the original concepts a GPU-based data clustering framework is also proposed. The formulation uses the spatial coherence present in the cluster optimization and in the hierarchical merging of clusters to significantly reduce the number of comparisons in both parts. The approach solves the problem of the missing topological information, which is inherent to the general data clustering, by performing a dynamic cluster neighborhood tracking. Compared to classical approaches, our techniques generate results with at least the same clustering quality. Furthermore, our technique proofs to scale very well, currently being limited only by the available amount of graphics memory.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Clusterbildung, als Prozess der Gruppierung von Datenelementen mit ähnlichen Eigenschaften, ist eine grundlegende Aufgabe in vielen Anwendungsbereichen. Aufgrund technologischer Fortschritte nimmt die Menge sowie die Dimensionalität der Daten stetig zu. Dies ist insbesondere für große Polygonnetze der Fall, da aktuelle 3D-Scanner Modelle mit bis zu mehreren Millionen Dreiecken liefern können. Entsprechend steigt die Nachfrage nach einer schnellen und hochqualitativen Verarbeitung von Daten und Polygonnetzen.&#13;
+&#13;
+Um die große Menge an vielfältigen Problemen im Bereich der Clusterbildung lösen zu können, sind effiziente Algorithmen erforderlich. In den meisten Fällen ist hierbei die Qualität der Ergebnisse sehr wichtig. Für viele Anwendungen ist es daher entscheidend, den optimalen Kompromiss zwischen Geschwindigkeit und Qualität zu finden.&#13;
+&#13;
+Für Daten-Clusterbildung im Allgemeinen sowie für Polygonnetz-Clusterbildung im Speziellen, wurden bisher primär k-means-ähnliche sowie hierarchische Ansätze verwendet. In vielen Fällen sind die Ergebnisse dieser Methoden jedoch unzureichend.&#13;
+&#13;
+Die vorliegende Dissertation beschreibt neue Ansätze zur effizienten und hochqualitativen Clusterbildung von Polygonnetzen und allgemeinen Daten. Sie befasst sich sowohl mit dem algorithmischen als auch mit dem theoretischen Hintergrund von Clusterbildungsproblemen und stellt neue Ansätze zur Überwindung der Nachteile klassischer Verfahren vor.&#13;
+&#13;
+Mit der Einführung moderner Grafik-Hardware, welche die massiv-parallele Verarbeitung von Daten ermöglicht, zeichnet sich ein neuer Trend zur Lösung von Clusterbildungsproblemen auf Grafikprozessoren (Graphics Processing Units, GPU) ab.&#13;
+&#13;
+In dieser Arbeit wird der erste GPU-basierte Clusterbildungsansatz für Polygonnetze beschrieben, der die Konnektivität des Polygonnetzes berücksichtigt. Das Verfahren läuft dabei ausschließlich auf der GPU und verzichtet gleichzeitig auf jegliche globale Datenstruktur.&#13;
+&#13;
+Basierend auf dem zuvor vorgestellten Verfahren, wird weiterhin ein GPU-basiertes Daten-Clusterbildungs-Framework vorgeschlagen. Dieses nutzt die räumliche Kohärenz im Kontext der Clusteroptimierung und des hierarchischen Mergings zur signifikanten Reduktion nötiger Vergleiche. Gleichzeitig umgeht der Ansatz das Problem der fehlenden Topologie-Information durch dynamisches Tracking von Nachbarschaften. Im Vergleich zu klassischen Verfahren erzielt das vorgestellte Verfahren Ergebnisse mit mindestens gleicher Qualität, skaliert dabei sehr gut und ist derzeit nur durch die verfügbare Menge an Grafikspeicher begrenzt.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2010-09-22</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2010</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-4759</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Bildinformatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="chiosa.pdf" ddb:fileSize="3638416"/>
+   <ddb:checksum ddb:type="MD5">c97af086d93e5ec22f6260491e22aed8</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/475/1/chiosa.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/475</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

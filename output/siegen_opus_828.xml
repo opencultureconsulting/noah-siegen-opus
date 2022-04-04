@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_828">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Response of high resolution silicon photodetectors coupled to CsI(Tl) or LaBr3(Ce)</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Antwort von hochauflösenden Silizium Photodetektoren gekoppelt an CsI(Tl) oder LaBr3(Ce)</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schlosser, Dieter Michael</displayForm>
+                        <namePart type="family">Schlosser</namePart>
+                        <namePart type="given">Dieter Michael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The intention of this work is to analyze the detector response and the participating processes of a X- and γ-ray detector consisting of a single Silicon Drift Detector (SDD) cell coupled to a CsI(Tl) or LaBr3(Ce) scintillator and a SDD array or pn-Charged Coupled Device (pnCCD) coupled to a CsI(Tl) scintillator in order to define limitations of the detector performance and possibilities to improve it. For the system, SDD / pnCCD + CsI(Tl) or LaBr3(Ce) scintillator, the relevant contributions to the energy and spatial resolution are investigated and their values are determined from results of measurements, calculations and simulations, which have not been presented in literature yet. Results indicate, that the main contribution to the energy resolution for a single SDD cell coupled to CsI(Tl) or LaBr3(Ce) originates from the so called scintillator non-proportionality. Simulations show that the light and charge collection efficiency inside the system generate only a minor contribution to the energy resolution, if CsI(Tl) is used as scintillator. These and the remaining contributions are presented for incident γ-rays in the range from 6 keV to 662 keV. A γ-camera consisting of a SDD array with 77 hexagonal cells and an active area of 29 x 26 mm2, which is coupled to a 5 mm thick CsI(Tl) scintillator, has been investigated with respect to the spatial and energy resolution for γ-rays with an energy of 60 keV and 122 keV. These detectors have been developed for medical applications, e.g. emission tomography for small animals, with a sub millimeter spatial resolution in the energy range of interest. The spatial resolution reaches values of 1.1 mm for 60 keV and 0.5 mm for 122 keV photons. The relative energy resolution has a value of about 0.37. Results from simulation reproduce these results and indicate that the main contributions to the energy resolution originate from a high data acquisition threshold, due to the increased electronic noise and the dependence of the number of signal electrons on the generation depth of the scintillation photons inside the scintillator. A reduction of the scintillator thickness and especially the decrease of the electronic noise, which enables a lowering of the data acquisition threshold, improves the spatial and energy resolution. The combination of a pnCCD with a pixel size of 75 x 300 μm2 or 300 x 300 μm2 and a CsI(Tl) scintillator of 0.7 mm or 1 mm thickness respectively were investigated by simulations for their suitability as a γ-camera in the energy range of 1 keV - 150 keV. In particular the application as a detector for X and γ-ray diffraction pattern analysis with sufficient spatial and energy resolution was of interest. By coupling a scintillator onto the pnCCD a higher quantum efficiency of the system is reached. The coupled system will be irradiated from the pnCCD side to utilize the good performance of the pnCCD in the low X-ray energy range up to several 10 keV. The pnCCD is almost transparent for hard X- and γ-ray photons, which generate scintillation photons inside the scintillator. Results from simulations indicate that the detector, pnCCD + CsI(Tl), is suitable to detect diffraction patterns in the energy range 1 keV - 150 keV, if detector parameters are chosen and set properly.</abstract>
+                    <abstract type="content" lang="ger">Das Ziel der vorliegenden Arbeit ist es, die Detektorantwort und die zugrundeliegenden Prozesse eines Rontgen- und γ-Detektors, bestehend aus einer SDD (Silizium Drift Detektor) Zelle gekoppelt an einen CsI(Tl) bzw. einen LaBr3(Ce) Szintillator und einem SDD Array bzw. einem pnCCD (pn Charged Coupled Device) gekoppelt an einen CsI(Tl) Szintillator zu analysieren, um die Grenzen und Verbesserungsmoglichkeiten für Spektroskopie- und Bildgebungsanwendungen aufzuzeigen. Für das System SDD / pnCCD + Szintillator fehlt bisher eine Systembeschreibung, die die relevanten Beiträge zur Energie- und Ortsauflosung auflistet und deren Werte angibt. Ergebnisse aus Berechnungen und Simulationen deuten darauf hin, dass für den einzelligen SDD + Scintillator der Hauptbeitrag zur Energieauflosung von der nicht proportionalen Bildung von Szintillationsphotonen in Abhängigkeit zur deponierten Energiedichte herrührt. Die Inhomogenität und die Effizienz der Licht- und Ladungssammlung erzeugen nach Ergebnissen aus Simulationen für die gewählten Detektorparameter nur einen kleinen Beitrag zur Energieauflosung, falls ein CsI(Tl) Szintillator verwendet wird. Diese und die restlichen Beiträge werden für γ-Energien in dem Bereich 6 keV - 662 keV presentiert. γ-Kameras bestehend aus einem SDD array mit 77 hexagonalen Zellen mit einer Fläche von 8.7 mm2 pro Zelle, gekoppelt an einen 5 mm dicken CsI(Tl) Szintillator wurden in Bezug auf ihre Orts- und Energieauflosung für γ-Photonen mit Energien von 60 keV und 122 keV untersucht. Diese Kameras wurden für potentielle Anwendungen im medizinischen Bereich wie zum Beispiel die Emissionstomographie bei Kleintieren entwickelt. Die intrinsische Ortsauflosung erreicht Werte von 1.1 mm (60 keV) und 0.5 mm (122 keV) und eine relative Energieauflosung von ca. 0.37. Ergebnisse aus Simulationen reproduzieren die Messwerte und deuten darauf hin, dass die Hauptbeiträge zur Energieauflosung durch den geringen Abstand des Signals zum Schwellenwert der Datenerfassung und durch die Abhängigkeit der Signalhohe von der Erzeugungstiefe der Szintillationsphotonen im Szintillator bestimmt werden. Die Simulationen zeigen, dass eine Reduzierung der Szintillatordicke und insbesondere des elektronischen Rauschens, was auch eine Verringerung des derzeitigen Schwellenwertes der Datenerfassung ermoglicht, die Energie und Ortsauflosung verbessern. Die Kombination eines pnCCDs mit einer Pixelgroße von 75 x 300 μm2 bzw. 300 x 300 μm2 gekoppelt an einen 0.7 mm bzw. 1 mm dicken CsI(Tl) Szintillator als γ-Detektor für den Energiebereich von 1 keV - 150 keV wurde mittels Simulationen untersucht, um dessen Eignung als Detektor mit einer ausreichenden Energie und Ortsauflosung für Strukturanalysen an Materialien mit Hilfe von Rontgenbeugung zu prüfen. Die Quanteneffizienz von pnCCDs, die zu Energien großer als 10 keV exponentiell abnimmt, wird durch die Ankopplung eines Szintillators an den pnCCD wieder vergroßert. Das gekoppelte System wird von der pnCCD Seite her bestrahlt, um weiterhin die sehr gute Energie und Ortsauflosung des pnCCDs bei niedrigeren Energien auszunutzen. Hoherenergetische Photonen durchdringen den pnCCD und generieren im Szintillator Photonen. Die Ergebnisse aus den Simulationen deuten darauf hin, dass der Detektor, bestehend aus pnCCD + CsI(Tl), bei passender Wahl der Detektorparameter geeignet ist, Rontgenbeugungsmuster in ausreichender Energie- und Ortsauflosung im Energiebereich von 1 keV - 150 keV darzustellen.</abstract>
+                    <subject>
+                        <topic>Cäsiumiodid</topic>
+                        <topic>Silizium Drift Detektor</topic>
+                        <topic>Photodetektor</topic>
+                        <topic>CsI(Tl)</topic>
+                        <topic>LaBr3(Ce)</topic>
+                        <topic>Simulation</topic>
+                        <topic>silicon drift detector</topic>
+                        <topic>photodetector</topic>
+                        <topic>CsI(Tl)</topic>
+                        <topic>LaBr3(Ce)</topic>
+                        <topic>simulation</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-8281</identifier>
+                    <identifier type="sys">HT018455590</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_828</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2014-07-07</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_828">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/828/1/Dissertation_Dieter_Michael_Schlosser.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_828"
+            DMDID="DMD_siegen_opus_828">
+            <mets:fptr FILEID="FILE0_siegen_opus_828"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

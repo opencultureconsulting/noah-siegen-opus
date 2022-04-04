@@ -1,0 +1,83 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1378">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Entwicklung von modellbasierten Methoden zur Bestimmung von Materialeigenschaften im THz-Bereich</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Development of model-based methods for the determination of material parameters in the THz-range</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Stock, Daniel</displayForm>
+                        <namePart type="family">Stock</namePart>
+                        <namePart type="given">Daniel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Bestimmung spezifischer Materialeigenschaften bildet die Grundlage für eine Vielzahl wissenschaftlicher, industrieller und technischer Verfahren, die zur Material- und Materialerkennung von Probensubstanz eingesetzt werden. Anhand dieser charakteristischen Eigenschaften kann sowohl der Vergleich und die Einordnung der Substanzen durchgeführt werden, als auch die Ableitung zugrunde liegender physikalischer Mechanismen und weiterer Materialgrößen erfolgen. Dabei bringt die Extraktion derartiger Materialeigenschaften aus spektroskopischen Untersuchungen im Terahertz(THz)-Bereich verschiedene Vorteile mit sich. Viele für die Materialanalyse relevante Stoffe weisen in diesem spektralen Bereich, zwischen den Abschnitten der IR- und Mikrowellenstrahlung, spezifische Absorptionscharakteristika auf. Weiterhin wird THz-Strahlung von typischen Verpackungsmaterialien wie Textilien, Kunststoffen oder Papier nur geringfügig absorbiert, während diese im Optischen undurchsichtig sind. Somit lassen sich auch Verbundsysteme aus diesen Materialien untersuchen und eingeschlossene Substanzen können erfassen werden, ohne dabei auf ionisierende Strahlung zurückgreifen zu müssen. Die THz-Zeitbereichs-Spektroskopie ist dabei eine weit verbreitete Messmethode, aus deren Spektraldaten die Materialeigenschaften, wie etwa dem komplexen Brechungsindex oder der komplexen Leitfähigkeit, extrahiert werden können. Diese Systeme ermöglichen die Messung von Amplituden- und Phaseninformation, nicht nur von Intensitäten, und decken dabei gleichzeitig einen breiten Frequenzbereich ab.
+Durch die kontinuierliche Entwicklung von neuartigen Materialien, Kompositwerkstoffen und Fertigungstechniken, sowie der stetigen Evolution der THz-Systeme, ergeben sich immer wieder neue Anwendungsgebiete für die Ermittlung von Materialeigenschaften im THz-Bereich. Gleichzeitig zeigt sich dabei auch, dass die klassischen, dem Stand der Technik entsprechenden Verfahren zur Handhabung und Bestimmung dieser Eigenschaften aus spektroskopischen Messungen zunehmend an ihre Grenzen stoßen und vermehrt fehlerhaft arbeiten, wodurch sie nicht mehr uneingeschränkt einsetzbar sind.
+In dieser Arbeit werden vier solcher Szenarien behandelt. Die bestehenden Verfahren werden im Kontext des jeweiligen Anwendungsfalls untersucht und die Ursache für deren Einschränkungen ermittelt. Darauf basierend werden entsprechend neue und erweiterte Methoden zur Bestimmung und Verarbeitung von Materialeigenschaften entwickelt, validiert und bewertet.
+Im ersten Fall wird gezeigt, dass mit dem entworfenen rekursiven Propagationsmodell die Beschreibung und Analyse von mehrschichtigen Probensystemen beliebiger Schichtdicken ermöglicht werden. Demgegenüber versagen die klassischen Ansätze bei ausschließlich dünnen Schichten und der Kombination dünner und dicker Schichten, da sie die Mehrfachreflexionen innerhalb dieser Schichtsysteme, im Gegensatz zu dem rekursiven Ansatz, nicht korrekt abbilden können. 
+Anhand des zweiten Falls wird demonstriert, dass sich die Modellierung von Materialeigenschaften nicht nur zur Prognose der THz-Eigenschaften eignet. Unter Verwendung des vorgestellten Verfahrens kann diese Modellierung auch zur Bestimmung der Messsystemanforderungen, die zur Analyse derartiger Probe notwendig sind, genutzt werden.
+Die Bestimmung der Leitfähigkeit dünner Schichten, etwa Graphen, wird als drittes Anwendungsszenario untersucht. Die Verwendung der erarbeiteten erweiterten Dünnfilmnäherung ermöglicht es dabei, die systematischen Fehler, die bei der Nutzung der klassichen Näherung eingebracht werden, zu vermeiden. Als Konsequenz können damit auch die aus der Schichtleitfähigkeit ableitbaren Materialgrößen, wie die Relaxationszeit und das chemische Potential, ohne die Einflüsse dieser Fehler bestimmt werden. 
+Im vierten Fall wird die Anwendung von materialmodellbasierten Methoden zur Bestimmung der Materialeigenschaften von Substanzen mit starken Absorptionscharakteristika demonstriert. Es wird gezeigt, dass durch die Verwendung des entwickelten modellbasierten Zeitbereichsverfahrens, gegenüber dem entsprechenden Ansatz im Frequenzbereich und dem klassischen Verfahren ohne Materialmodel, Materialeigenschaften mit einem um drei Größenordnungen geringeren mittleren quadratischen Fehler bestimmt werden können. Dabei wird weiterhin deutlich, dass diese Robustheit des Zeitbereichsansatzes auch dann erhalten bleibt, wenn weite Abschnitte der Absorptionslinien unterhalb des Grundrauschen liegen.
+Die erarbeiteten Verfahren ermöglichen es somit, verschiedene bestehende Limitierungen in den Standardansätzen zur Bestimmung und Auswertung von Materialeigenschaften im THz-Bereich zu überwinden, wodurch zuvor nicht auswertbare Szenarien untersucht werden können. Auch für zukünftige Anwendungsgebiete der THz-Analyse kann damit auf eine vielseitigere Auswahl an Verfahren und Vorgehensweisen zurückgegriffen und aufgebaut werden.</abstract>
+                    <abstract type="content" lang="eng">The determination of the specific material parameters for a sample-substance is the foundation of many scientific, industrial and engineering techniques used for material analysis and recognition. Based on these characteristic features, the comparison and classification of substances can be performed, as well as the derivation of the underlying physical mechanisms and further material properties. The extraction of these material parameters from spectroscopic investigations in the terahertz (THz)-range provides several advantages. Many substances relevant to material analysis display unique absorption characteristics in this frequency-range, which lies between the sections of infrared and microwave radiation in the electromagnetic spectrum. Furthermore, THz-radiation is weakly absorbed by typical packaging materials like textiles, plastics or paper, which are mostly opaque in the optical range of the spectrum. This enables the analysis of substances encapsulated in those materials and of respective composite systems, without relying on measurement techniques that employ ionizing radiation (e.g. x-rays). THz time-domain spectroscopy is one of the most common measurement methods that provides the spectral data from which the material parameters, such as the complex refractive index or complex conductivity, can be extracted. Those systems provide amplitude and phase information, unlike techniques based on power detection that only offer intensities, and at the same time enable broadband measurements. 
+With the continuous development of novel materials and composites, improved fabrication techniques and the steady evolution of THz-systems, new fields of application for the investigation of material parameters in the THz-range frequently arise. At the same time, it becomes apparent that many classical state of the art methods used for handling and extracting material parameters from the spectral measurement are reaching their limitations. They operate increasingly erroneous and can therefore not be applied unconditionally anymore.
+Four of these scenarios are discussed in this work. The existing methods are evaluated in the context of the particular application and the reasons for their restrictions are determined. Based on these findings new and enhanced methods for the determination and processing of material parameters are developed, validated and assessed.
+For the first application case it is shown, that the designed recursive propagation model allows the description and analysis of multilayered sample systems of arbitrary thicknesses. In contrast to this, the classical approaches fail in instances of solely thin layers or combinations of thin and thick layers, since they cannot correctly represent the multiple internal reflection inside the layered structures.
+In the second case it is demonstrated, that the modelling of material parameters is not limited to predict the transmission properties of different material samples. Using the introduced technique, they can also be utilized to determine the system requirements that are necessary to analyze such samples. 
+The evaluation of the conductivity of thin layers, e.g. of graphene, is the third application scenario. Here, the utilization of the developed expanded thin-film approximation avoids the systematic errors that are introduced into the calculated sheet conductivities by the typical form of the approximation. Consequently, the material parameters derivable from this sheet conductivity, like the relaxation time and the chemical potential, can be determined without the effects of these errors as well.
+In the fourth case, the determination of material parameters from samples with strong absorption characteristics by model-based methods is demonstrated. It is shown that material parameters with a three orders of magnitude lower mean square error, compared to the respective frequency-domain approach and the classical concept without a material-model, can be achieved by the utilization of the developed material-model-based time-domain method. Furthermore, it becomes apparent that this robustness of the time-domain method could be maintained, even if wide segments of the absorption features lie bellow the noise-floor.
+The developed methods thereby allow overcoming the various existing limitations of the standard approaches used for the determination and evaluation of material parameters in the THz-range. Hence, the investigation of sample scenarios that were previously not accessible becomes feasible. Moreover, future fields of application of the THz-material analysis can thereby also draw on, and be built upon a more versatile set of methods and procedures.</abstract>
+                    <subject>
+                        <topic>FIR-Spektroskopie</topic>
+                        <topic>THz</topic>
+                        <topic>Materialeigenschaften</topic>
+                        <topic>modellbasiert</topic>
+                        <topic>Terahertz</topic>
+                        <topic>Spectroscopy</topic>
+                        <topic>Material parameters</topic>
+                        <topic>Model-based</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Kommunikations- und Informationstechnik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-13781</identifier>
+                    <identifier type="sys">HT019886171</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1378</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2018-08-27</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1378">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1378/1/Dissertation_Daniel_Stock.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1378"
+            DMDID="DMD_siegen_opus_1378">
+            <mets:fptr FILEID="FILE0_siegen_opus_1378"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

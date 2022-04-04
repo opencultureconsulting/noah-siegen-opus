@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_173">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Auswertung direkter Brennrauminformationen am Verbrennungsmotor mit estimationstheoretischen Methoden</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hart, Martin</displayForm>
+                        <namePart type="family">Hart</namePart>
+                        <namePart type="given">Martin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">1999</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Luftmasse im Zylinder ist eine der wichtigsten Größen eines Verbrennungsmotors, um ein
+definiertes Gemisch für den Katalysator einzustellen und somit die Emissionen auf ein Minimum
+zu beschränken. Geschieht die Bestimmung dieser Prozeßgröße mittels des Brennraumdrucksensorsignals,
+müssen dessen Störeinflüsse eliminiert werden. Hierzu wurde ein lineares
+Kalman-Filter zur Bestimmung des absoluten Brennraumdruckwerts entwickelt. Der Algorithmus
+ist in der Lage, während der Laufzeit das Brennraumdrucksignal zu filtern und einen
+variablen Offset, hervorgerufen durch den Thermoschockeinfluß, zu bestimmen. Dieses Verfahren
+wurde am ungekühlten Brennraumdrucksensor getestet und mit den Werten eines wassergekühlten Sensors verglichen. Das Filter schwingt im Fahrzeug auf jeden beliebigen Offset von Arbeitsspiel zu Arbeitsspiel ein und folgt auch instationär einer deutlichen Verschiebung, hervorgerufen durch einen Betriebspunktwechsel. 
+Mittels einer Sensitivitätsanalyse des physikalischen Modells zur Bestimmung der Luftmasse wurde die Frischgastemperatur als der Parameter identifiziert, dessen Fehler sich am deutlichsten auf das Schätzergebnis auswirken, und der sich nur schwer abschätzen läßt. Aus diesem Grunde wurde ein adaptives Kalman-Filter hergeleitet, das die zylinderindividuelle Luftmasse aus gemessenen Brennraumdrucksignalen schätzt und die Frischgastemperatur stationär über
+die Lambdasonde adaptiert. Dieses Filter wurde in den Prototypenrechner eines Fahrzeugs integriert, an gemessenen Fahrzeugdaten getestet und ausführlich diskutiert. 
+Die Vorteile einer Lasterfassung auf Basis gemessener Brennraumdrucksignale sind in der zylinderindividuellen Bestimmung der Luftmasse, dem Ausschließen konventioneller Lasterfassungsfehler wie Leckluft oder Stellerfehler und der hohen Redundanz für Sicherheits- und Diagnosekonzepte zu sehen. Zusätzlich erübrigt sich die Beschreibung des Saugverhaltens des Motors, und es ergeben sich enorme Möglichkeiten zur Realisierung weiterer zylinderindividueller
+Motorfunktionen.</abstract>
+                    <abstract type="content" lang="eng">The estimation of the air mass in the cylinder of a spark ignition (SI) engine is crucial in order to regulate the exact air fuel (A/F) ratio for the catalyst and thus minimize the emissions. In this work, new sensors, which provide cylinder individual information are investigated and the air mass in each individual cylinder is calculated with adaptive, model based algorithms. 
+When the estimation of the air mass in the cylinder is performed by a combustion pressure signal there is a necessity to eliminate the disturbances in the pressure signal. Therefore, a linear Kalman-Filter for the determination of the absolute cylinder pressure value has been developed. The algorithm is able to filter the combustion pressure signal during runtime and to determine the variable offset provoked by the thermal shock. 
+Through a sensitivity analysis of the parameters of the physically based model, the temperature of the A/F mixture has been identified as the parameter which influences mainly the estimation result and is difficult to determine. As a result, an adaptive Kalman-Filter algorithm has been derived that estimates the cylinder individual air mass from measured cylinder pressure and adapts the temperature of the A/F mixture through the lambda-sensor signal. 
+The algorithm has been tested with measured vehicle data, implemented in a prototype engine control unit with the following results. The deviation in the lambda-sensor signal is in the size of the mass electronic control unit and even better. This has been achieved with a pure model based algorithm without calibration on the testbed or in the vehicle. 
+The advantage of the estimation of the air mass on the basis of measured cylinder pressure signals can be seen in the cylinder individual determination of the air mass, the exclusion of conventional faults like air leakage and throttle faults, the high redundancy for reliability and diagnostic concepts and by rendering the determination of the volumetric efficiency superfluous.
+In addition, there are enormous possibilities for the realisation of cylinder individual engine functions such as knock and spark angle control.</abstract>
+                    <subject>
+                        <topic>Brennraumdrucksensor</topic>
+                        <topic>adaptive Kalman-Filter</topic>
+                        <topic>Luftmassenbestimmung</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1733</identifier>
+                    <identifier type="sys">HT010849219</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_173</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>1999-04-15</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_173">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/173/1/hart.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_173"
+            DMDID="DMD_siegen_opus_173">
+            <mets:fptr FILEID="FILE0_siegen_opus_173"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

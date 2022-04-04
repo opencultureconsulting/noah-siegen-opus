@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_238">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Control of molecular Spontaneous Emission in an optical lambda/2-microresonator</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Steiner, Mathias</displayForm>
+                        <namePart type="family">Steiner</namePart>
+                        <namePart type="given">Mathias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2006</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Control of molecular Spontaneous Emission in an optical λ/2-microresonator In this thesis, the influence of a planar optical λ/2-microresonator on the Spontaneous Emission rate of embedded molecules and the implications on the microresonator-controlled emission is investigated by means of scanning confocal optical microscopy and spectroscopy. The experimental results obtained for molecular ensembles as well as for single molecules are compared with calculations and computer simulations based on existing theoretical models.</abstract>
+                    <abstract type="content" lang="ger">In dieser Arbeit wird der Einfluss eines planaren optischen λ/2-Mikroresonators auf die Spontane Emissionsrate von eingebetteten Molekülen und die daraus resultierenden Modifikationen der molekularen Emission untersucht. Die Experimente wurden unter Verwendung von konfokaler optischer Mikroskopie und Spektroskopie sowohl an molekularen Ensembles als auch an einzelnen Molekülen durchgeführt. Die dabei erzielten Resultate werden mit den Ergebnissen von Rechnungen und Computersimulationen verglichen, die auf der Grundlage von bekannten theoretischen Ansätzen gewonnen wurden.</abstract>
+                    <subject>
+                        <topic>einzelne Moleküle</topic>
+                        <topic>Nanooptik</topic>
+                        <topic>Fluoreszenz</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 8, Chemie - Biologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-2381</identifier>
+                    <identifier type="sys">HT014893220</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_238</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2006-08-07</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_238">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/238/1/steiner.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_238"
+            DMDID="DMD_siegen_opus_238">
+            <mets:fptr FILEID="FILE0_siegen_opus_238"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

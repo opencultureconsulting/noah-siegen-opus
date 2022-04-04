@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1427">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Normative Orientierungen im Digitalzeitalter : Antrittsvorlesung Universität Siegen am 14. November 2018</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Rusche, Thomas</displayForm>
+                        <namePart type="family">Rusche</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">Other</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="und">Die Aspekte der Digitalisierungsdynamik werden im Lichte unterschiedlicher philosophischer Paradigmen untersucht. Gefragt wird nach der Möglichkeit normativer Orientierung im Digitalzeitalter aus der Perspektive von Zweckrationalität, Wertrationalität und ethischer Rationalität. Menschenwürde und Zukunftsverantwortung bilden dabei den moral point of view.</abstract>
+                    <subject>
+                        <topic>Norm &lt;Ethik&gt;</topic>
+                        <topic>Digitalzeitalter</topic>
+                        <topic>Ethik</topic>
+                        <topic>Ethics</topic>
+                        <topic>Digitization</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-14276</identifier>
+                    <identifier type="sys">HT020000916</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1427</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBdOther</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1427">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1427/1/Rusche_Normative_Orientierungen_im_Digitalzeitalter.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1427"
+            DMDID="DMD_siegen_opus_1427">
+            <mets:fptr FILEID="FILE0_siegen_opus_1427"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

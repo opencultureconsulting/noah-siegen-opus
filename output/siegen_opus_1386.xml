@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1386">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Ermittlung von Materialkennwerten für additiv gefertigte Bauteile im Kreuzverbund nach dem FDM-Verfahren zur numerischen Berechnung der Festigkeitseigenschaften</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Determination of material parameters for additively manufactured components in the cross-composite according to the FDM method for the numerical calculation of the strength properties</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lohr, Wolfgang</displayForm>
+                        <namePart type="family">Lohr</namePart>
+                        <namePart type="given">Wolfgang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Härtel, Alexander</displayForm>
+                        <namePart type="family">Härtel</namePart>
+                        <namePart type="given">Alexander</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Reinicke, Tamara</displayForm>
+                        <namePart type="family">Reinicke</namePart>
+                        <namePart type="given">Tamara</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Additiv gefertigte Bauteile finden immer stärkeren Einzug in Produktionsprozesse. Es ist daher unerlässlich im Vorfeld eine Aussage zu deren Festigkeitseigenschaften treffen zu können. Üblicherweise werden Aussagen zum Festigkeitsverhalten von Bauteilen mit beliebiger Geometrie mit Hilfe von FEM-Analysen gewonnen. Hierfür werden Elastizitätsgrößen und Materialgesetze als Eingangsparameter für die durchzuführende Analyse benötigt. In den vorliegenden Untersuchungen wird gezeigt, welches Materialgesetz sich für die Beschreibung eines Bauteils eignet, dass mit Hilfe des FDM-Verfahrens im Kreuzverbund generiert wird. Weiterhin wird gezeigt, wie die benötigten Elastizitätsgrößen einfach messtechnisch mit einem alternativen Verfahren zum klassischen Zugversuch ermittelt werden können.</abstract>
+                    <subject>
+                        <topic>Additive Fertigung</topic>
+                        <topic>FDM-Verfahren</topic>
+                        <topic>Materialeigenschaften</topic>
+                        <topic>FEM</topic>
+                        <topic>Optisches Messverfahren</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-13868</identifier>
+                    <identifier type="sys">HT019881344</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1386</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1386">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1386/1/Ermittlung_von_Materialkennwerten.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1386"
+            DMDID="DMD_siegen_opus_1386">
+            <mets:fptr FILEID="FILE0_siegen_opus_1386"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

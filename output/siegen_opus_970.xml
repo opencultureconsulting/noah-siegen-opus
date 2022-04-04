@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_970">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Perturbative corrections to hadronic amplitudes with heavy quarks</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Perturbative Korrekturen für hadronische Amplituden mit schweren Quarks</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Rosenthal, Denis</displayForm>
+                        <namePart type="family">Rosenthal</namePart>
+                        <namePart type="given">Denis</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Heavy meson decays are of significant importance for testing the Standard Model of particle physics. They provide possibilities to determine its parameters from experimental data and give hints to physics beyond the Standard Model. In order to exploit the provided data, a deep theoretical understanding of these decays is mandatory. The thesis is devoted to a thorough theoretical analysis of selected aspects of heavy meson flavor physics with the focus on the perturbative QCD effects.
+
+The first part of the thesis is dedicated to the evaluation of leptonic decay constants. Decay constants constitute hadronic quantities, which parametrize transitions of a single meson to the QCD vacuum that are mediated by a local flavor current. They contain the only hadronic information in leptonic weak decays and enter as input parameters into the description of non-leptonic heavy meson decays and mixing processes. We apply the method of QCD sum rules to estimate the decay constants of vector and pseudoscalar heavy-light mesons in their ground state. This method includes the operator product expansion (OPE), which allows for a systematic implementation of perturbative corrections. We calculate perturbative QCD corrections to the leading term of the OPE with next-to-leading order accuracy. To this end, we construct a computation routine for one- and two-loop topologies and present the computational techniques in detail. The effects of SU(3)-flavor violation are also taken into account by including corrections of the strange quark mass. Our results gain highest precision within this approach by including all known perturbative contributions and new corrections to the quark-condensate contribution in the vector-meson channel for the first time.
+
+In the second part we extend the QCD sum rule method, in which, in addition to the ground state contribution, excited states are also included. We present a statistical analysis to determine the decay constants of the first radially excited states of heavy-light mesons.
+
+The final part of the thesis discusses inclusive weak decays of heavy hadrons. We apply the OPE within the heavy quark effective theory (HQET) to determine the total decay rate of such decays. We compute the radiative correction to the coefficient function of the power-suppressed chromomagnetic operator with next-to-leading accuracy. This correction is computed analytically and was up to now unknown. For this purpose, we perform a QCD-HQET-matching calculation and build a computational environment for on-shell two- and three-loop Feynman graphs. For phenomenological applications we also present moments of differential distributions. As a final statement, the influence on the CKM matrix entry |Vcb| due to the new correction term is estimated.</abstract>
+                    <abstract type="content" lang="ger">Die Zerfälle von schweren Mesonen stellen einen wichtigen Bestandteil zur Verifikation des Standardmodells der Teilchenphysik dar. Mit diesen Zerfällen lassen sich bestimmte Parameter des Standardmodells experimentell überprüfen und können damit Hinweise auf Phänomene jenseits des Standardmodells geben. Zur Auswertung der experimentellen Daten ist ein grundlegendes Verständnis der betrachteten Zerfälle notwendig. In dieser Arbeit werden ausgewählte Aspekte der Flavourphysik mit schweren Mesonen betrachtet, wobei die theoretische Analyse von perturbativen QCD-Effekten im Vordergrund steht.
+
+Der erste Teil dieser Arbeit widmet sich der Bestimmung von leptonischen Zerfallskonstanten. Diese sind hadronische Matrixelemente, welche durch einen lokalen Flavourstrom Übergänge zwischen einem Mesonen und dem QCD-Vakuum vermitteln. Für leptonische Zerfälle beschreiben die Zerfallskonstanten hadronische Effekte. Sie finden ebenso Anwendung bei der Beschreibung von nicht-leptonischen Zerfällen und hadronischen Mischungsprozessen. Um die Zerfallskonstanten von vektoriellen und pseudoskalaren Mesonen in ihrem Grundzustand zu bestimmen, wird die Methode der QCD Summenregeln angewendet. Diese Methode ermöglicht eine systematische Implementierung von perturbativen Korrekturen mit Hilfe der Operatorproduktentwicklung (OPE). In dieser Arbeit wird eine Berechnungsroutine für Ein- und Zweischleifenintegrale verwendet, um den führenden Term der OPE und die nächstführende Ordnung um die starke Kopplung zu berechnen. Des Weiteren werden Korrekturen betrachtet, welche von der Masse des Strange Quarks abhängen. Diese führen zur Brechung der 
+SU(3)-Flavoursymmetrie. Im Rahmen der Methode werden Zerfallskonstanten mit der derzeit höchsten Präzision bestimmt, da alle bekannten perturbativen Beiträge und neue Korrekturen zum Quarkkondensat für Vektormesonen mitberücksichtigt werden.
+
+Im zweiten Teil wird die Methode der QCD Summenregeln erweitert, um Aussagen jenseits der Grundzustandsmesonen treffen zu können. Zu diesem Zweck wird eine statistische Analyse verwendet um die Zerfallskonstanten der radial angeregten Zustände von schweren Mesonen zu bestimmen.
+
+Im letzten Teil werden inklusive Zerfälle von schweren Hadronen betrachtet. Dazu
+dient die OPE im Rahmen der Heavy Quark Effective Theory (HQET) als mathematisches Konstrukt zur Parametrisierung der totalen Zerfallsbreiten solcher Zerfälle. In dieser Arbeit wird die Strahlungskorrektur als Koeffizientenfunktion des zugehörigen massenunterdrückten chromomagnetischen Operators bestimmt und die Korrektur in analytischer Form in nächstführender Ordnung um die starke Kopplung zum ersten Mal berechnet. Die Berechnung wird mit Hilfe eines QCD-HQET-Vergleich (Matching) durchgeführt. Hierfür wurde ein Berechnungschema zur Bestimmung von Zwei- und Dreischleifen-Feynmandiagrammen mit dem externen Impuls auf der Massenschale entwickelt. Als Ergebnis werden die totalen Zerfallsbreiten sowie die Momente der differentiellen Zerfallsbreiten angegeben, welche für phenomenologische Anwendungen interessant sind. Diese Korrekturen haben Auswirkungen auf den Wert des CKM-Matrixelements |Vcb|, die abschließend diskutiert werden.</abstract>
+                    <subject>
+                        <topic>D-Meson</topic>
+                        <topic>Quantenchromodynamik</topic>
+                        <topic>Schwache Wechselwirkung</topic>
+                        <topic>Flavourphysik</topic>
+                        <topic>QCD-Summenregel</topic>
+                        <topic>Inklusive Zerfälle</topic>
+                        <topic>Flavour Physics</topic>
+                        <topic>QCD Sum Rules</topic>
+                        <topic>Decay Constants</topic>
+                        <topic>Heavy Mesons</topic>
+                        <topic>Inclusive Decays</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-9706</identifier>
+                    <identifier type="sys">HT018833283</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_970</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2015-11-06</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_970">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/970/1/Dissertation_Denis_Rosenthal.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_970"
+            DMDID="DMD_siegen_opus_970">
+            <mets:fptr FILEID="FILE0_siegen_opus_970"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

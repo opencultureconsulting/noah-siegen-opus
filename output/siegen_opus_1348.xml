@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1348">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>High End im Hochmittelalter : Untersuchungen zur Geometrie des Grundrisses der Siegener Nikolaikirche</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kiem, Karl</displayForm>
+                        <namePart type="family">Kiem</namePart>
+                        <namePart type="given">Karl</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Der Grundriss der Siegener Nikolaikirche (2. V. 13. Jh.)  weicht mit verschiedenen Unregelmäßigkeiten signifikant von den üblichen mittelalterlichen Zentralbauten ab. Deshalb waren für die Forschung bisher sowohl die Faktoren zum Zustandekommen des Entwurfs als auch seine typologische Einordnung ein Rätsel. Die vorliegende Untersuchung klärt die entsprechenden Fragen auf der Basis einer formgerechten Bauaufnahme und mit der Methode der mathematisch-geometrischen Analyse. Danach wird deutlich, dass es sich bei dem Grundriss der Siegener Nikolaikirche um einen hochkomplexen und doch klar gegliederten Entwurf handelt, der für die Zeit des Hohen Mittelalters eine unerreichte Integration von Zeichensprache und Funktion aufweist. Es darf angenommen werden, dass der Architekt dieses Grundriss aus dem Umkreis des in Süditalien lebenden Kaisers Friedrich II. von Hohenstaufen stammt.</abstract>
+                    <subject>
+                        <topic>mathematisch-geometrische Analyse</topic>
+                        <topic>Zentralbauten</topic>
+                        <topic>Sakralbauten</topic>
+                        <topic>tachymetrische Bauaufnahme</topic>
+                        <topic>Knauth’sches Dreieck</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-13489</identifier>
+                    <identifier type="sys">HT019796511</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1348</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1348">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1348/1/Karl_Kiem_High_End_im_Hochmittelalter.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1348"
+            DMDID="DMD_siegen_opus_1348">
+            <mets:fptr FILEID="FILE0_siegen_opus_1348"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

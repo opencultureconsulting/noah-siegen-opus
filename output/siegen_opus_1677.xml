@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1677">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Geteilte Aufmerksamkeit, Referenz, sympraktischer Sprachgebrauch</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Pohl, Bastian</displayForm>
+                        <namePart type="family">Pohl</namePart>
+                        <namePart type="given">Bastian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2005</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Inhalt
+1. Einleitende Anekdote oder: &quot;Wie man Selbstverständlichkeiten theoretisiert&quot;
+2. Vorsprachliche Interaktion zwischen Kind und Betreuungsperson: Voraussetzungen für den Spracherwerb
+a. Geteilte Aufmerksamkeit und Interaktion
+b. &quot;Ein erstes (vor-)sprachliches Zwischenergebnis&quot;
+3. &quot;Neunmonatsrevolution&quot;, &quot;Triangulation&quot; und die Bedeutung von Formaten für den Spracherwerb
+a. Vorbemerkungen
+b. &quot;Neunmonatsrevolution&quot; / Triangulation
+c. Die Struktur von (Spiel-)Formaten
+4. &quot;Rückblickender Ausblick&quot;
+a. &quot;Rückblickendes&quot;
+b. Ausblick
+5. Literatur</abstract>
+                    <subject>
+                        <topic>Spracherwerb</topic>
+                        <topic>Eltern</topic>
+                        <topic>Kleinstkind</topic>
+                        <topic>Spracherwerb</topic>
+                        <topic>Interaktion</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16779</identifier>
+                    <identifier type="sys">HT020634960</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1677</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1677">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1677/1/SPASS_14_2005_Pohl.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1677"
+            DMDID="DMD_siegen_opus_1677">
+            <mets:fptr FILEID="FILE0_siegen_opus_1677"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

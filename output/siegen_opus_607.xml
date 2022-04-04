@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_607">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Integration von 3D-&quot;Time of Flight&quot;-Kameras in Applikationen zur sicheren Steuerung autonomer Roboter</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bernshausen, Jens</displayForm>
+                        <namePart type="family">Bernshausen</namePart>
+                        <namePart type="given">Jens</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Optische Sensoren sind heutzutage aus den Bereichen mobile Robotik und Industrierobotik nicht mehr wegzudenken. Laserscanner und Stereovisionsysteme dienen hauptsächlich zur Erfassung des Roboterumfelds. Hierbei werden diese Sensoren größtenteils in Kombination verwendet, um die Schwächen der einzelnen Systeme zu kompensieren. Dies hat einen nicht unerheblichen Aufwand zur Sensorfusion und zur Integration in die Robotersysteme zur Folge. Die PMD-Technik, welche in den letzten Jahren eine enorme Entwicklung bezüglich der erreichbaren Messgenauigkeit vollzogen hat, verspricht in diesem Umfeld eine hervorragende, kostengünstige und leicht zu integrierende Alternative zu sein.
+Die Arbeit beschäftigt sich mit der Untersuchung der Leistungsfähigkeit der PMD-Kameratechnik in dem Gebiet der Kollisionsvermeidung durch Überwachung des Roboterumfeldes bei Handhabungsrobotern  und für mobile Robotersysteme. Diese wird anhand von zwei verschiedenen Beispielapplikationen untersucht. Im Bereich der mobilen Robotik wird ein fahrerloses Transportsystem aufgebaut, welches allein auf Grundlage der 3D PMD-Bilder die autonome Navigation in einer nur teilweise bekannten Umgebung beherrscht. Hierzu wurden PMD basierte Algorithmen zur Selbstlokalisierung, Hinderniserkennung sowie reaktiven Bahnplanung entworfen. Die zweite Applikation befasst sich mit der Überwachung von Roboterarbeitsräumen im Gebiet der Handhabungsrobotik. Spezielle auf die PMD-Kamera angepasste Algorithmen gewährleisten das Erkennen von Fremdobjekten und Personen in der Roboterzelle. Dies ermöglicht dem Roboter  entsprechend zu reagieren und alternative kollisionsfreie Trajektorien zu finden. Auf die Installation von Sicherheitszäunen, die  heutzutage im industriellen Umfeld noch Standard sind, kann aufgrund dessen verzichtet werden, so dass zum Beispiel die Option zu einer Mensch-Roboter-Kooperation geschaffen wird. Zudem bietet die PMD basierte Bahnplanung von Robotertrajektorien den Vorteil, dass zeitintensive Teach-In-Prozesse zum Einlernen von Trajektorien entfallen und Roboterzellen schneller in Betrieb genommen werden können.</abstract>
+                    <subject>
+                        <topic>Lokalisierung &lt;Robotik&gt;</topic>
+                        <topic>mobile Robotik</topic>
+                        <topic>Handhabungsrobotik</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-6075</identifier>
+                    <identifier type="sys">HT017188900</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_607</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2011-01-13</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_607">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/607/1/bernshausen_jens.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_607"
+            DMDID="DMD_siegen_opus_607">
+            <mets:fptr FILEID="FILE0_siegen_opus_607"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1635">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Reflective practice in the digital age</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Klein, Hans Christian</displayForm>
+                        <namePart type="family">Klein</namePart>
+                        <namePart type="given">Hans Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The digital transformation, in the form of rapid changes, increasing uncertainties and unique situations, poses new challenges to all industries. As a result, there is tremendous use of new techniques and methodologies in order to enable “non-designer” to design. However, professionals of the “non-designers”-fields do not have the same requirements as designers have to do design thinking. With this short paper we aim to set out a preliminary conceptual framework of reflective practice in design context. To answer the question we go back to the roots of the actual design thinking discourse and set out a preliminary conceptual framework on basis of “Reflective Practitioner – How professionals think in action” as common denominator.</abstract>
+                    <subject>
+                        <topic>Design Thinking</topic>
+                        <topic>Design Thinking</topic>
+                        <topic>reflexive Praxis</topic>
+                        <topic>Design Thinking</topic>
+                        <topic>Reflective Practice</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16351</identifier>
+                    <identifier type="sys">HT021016014</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1635</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1635">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1635/5/Reflective_Practice_in_the_Digital_Age.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1635"
+            DMDID="DMD_siegen_opus_1635">
+            <mets:fptr FILEID="FILE0_siegen_opus_1635"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

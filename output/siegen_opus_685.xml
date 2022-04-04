@@ -1,0 +1,82 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_685">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Regularization-based fictitious domain methods</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Regularisierungs-basierte Fictitious Domain Methoden</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Krüger, Torsten</displayForm>
+                        <namePart type="family">Krüger</namePart>
+                        <namePart type="given">Torsten</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The work at hand is addressed to methods from the fictitious domain context, combined with the finite element method.
+Fictitious domain techniques are suitable in case partial differential equations have to be solved on a geometrically complex or time-dependent domain.
+Own suggestions based on penalization and regularization, utilizing variants of Nitsches method in order to impose boundary conditions in a weak sense, are introduced and analyzed. The techniques presented are generalizations of methods due to Glowinski et al.
+The underlying model equations of order two are non-linear reaction-diffusion-convection equations of rather general type, able to describe a lot of real-world situations. In addition, incompressible Stokes and Navier-Stokes systems are introduced, being special cases of the original model equations in some sense. 
+The numerical analysis is carried out with respect to linearized versions of the original model equations. Within this process, symmetrical reaction-diffusion, diffusion-convection-reaction and a version of the Oseen equations are treated separately, in order to deal with different typical problems appearing in each case adequately.
+Following that, besides symmetrical problems, tasks like dominant convection, as well as the circumvention of a discrete inf-sup condition in case the Oseen problem are discussed. Streamline diffusion/Galerkin least squares techniques playing a key role in that matter. 
+For implicit description of the embedded boundary the well established level set method is used, describing the boundary as a zero level set of suitable functions. This allows for an easy and flexible handling of the geometrical aspects.
+Algorithmic tasks are addressed, followed by tests regarding numerical accuracy. In the end, several applications are presented in order to show the potential of the new methods: examples regarding plain flow problems, including one with moving boundary, and the Boussinesq equations on complex multi-connected domains.</abstract>
+                    <abstract type="content" lang="ger">Die vorliegende Arbeit befasst sich mit Methoden aus dem Bereich der sogenannten Fictitious Domain (FD) Techniken bei gleichzeitiger Verwendung von Finiten Elementen. Fictitious Domain Techniken eigenen sich gut, falls das Gebiet, auf dem eine partielle Differenzialgleichung gelöst werden soll, geometrisch komplex oder auch zeitabhängig ist. 
+Eigene Vorschläge, welche auf Straf- und Regularisierungstechniken basieren, werden vorgestellt und analysiert. Varianten der bekannten Nitsche-Methode zur Aufprägung von Randbedingungen kommen zum Einsatz. Dies wird kombiniert mit Verfahren einer regularisierungs-basierenden FD Methode, ursprünglich erdacht von Glowinski et al.
+Die zugrunde liegenden Modellgleichungen zweiter Ordnung sind dabei von nichtlinearer und recht allgemeiner Natur.  Eine numerische Analyse findet in Bezug auf die linearisierten Gleichungen statt. 
+So wird neben den resultierenden symmetrischen Problemen insbesondere auch auf Aspekte hinsichtlich dominanter Konvektion eingegangen, sowie auf die Umgehung einer diskreten Inf-Sup-Bedingung im Falle
+des Oseen-Problems. Der Nutzung von Streamline-Diffusion/Galerkin-Least-Squares Techniken kommt dabei die Schlüsselrolle zu.
+Die erforderliche implizite Beschreibung der ursprünglichen Geometrie erfolgt über die Level Set Methode. Dabei wird der eingebettete Rand als Nullmenge einer geeigneten Funktion beschrieben, was eine bequeme und flexible Handhabung der Geometrie erlaubt.
+Der Darstellung von zugrunde liegenden algorithmischen Aspekten und einer allgemeinen Überprüfung hinsichtlich der Genauigkeit der neuen Methoden anhand von verschiedenen Beispielen mit
+bekannter analytischer Lösung wird Platz eingeräumt. Teil der Arbeit ist zudem die Präsentation verschiedener Anwendungen, um das Potenzial der neuen Methoden auf verschiedenen Gebieten auszuloten. 
+Dazu werden Beispiele aus dem Bereich der planaren stationären und instationären Strömungsprobleme, inklusive einem Beispiel mit bewegtem Rand, sowie die Boussinesq-Gleichungen auf komplexen, mehrfach zusammenhängenden Gebieten, behandelt.</abstract>
+                    <subject>
+                        <topic>Finite-Elemente-Methode</topic>
+                        <topic>Finite Elements</topic>
+                        <topic>Fictitious Domain</topic>
+                        <topic>Nitsche Method</topic>
+                        <topic>Level Set Method</topic>
+                        <topic>Streamline Diffusion</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-6857</identifier>
+                    <identifier type="sys">HT017503393</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_685</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2012-10-30</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_685">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/685/1/krueger.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_685"
+            DMDID="DMD_siegen_opus_685">
+            <mets:fptr FILEID="FILE0_siegen_opus_685"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

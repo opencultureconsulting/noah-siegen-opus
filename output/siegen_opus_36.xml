@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_36">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Routingalgorithmen für infrastrukturlose Paketfunknetze mit kooperativen mobilen Stationen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Jansen, Ralph</displayForm>
+                        <namePart type="family">Jansen</namePart>
+                        <namePart type="given">Ralph</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2002</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Dissertation beschreibt die Funktionsweise von Routingalgorithmen und deren Einsatz für sogenannte Ad-hoc Funknetzwerke. Diese Netzwerke erfordern keine Infrastruktur, die beteiligten Stationen bilden selbständig ein Kommunikationsnetz, sie kooperieren und leiten dabei Daten anderer Stationen weiter. Durch mobile Stationen und fehleranfällige Funkverbindungen sind spezielle Algorithmen nötig, um Routing in diesen Netzen zu ermöglichen.
+Die Arbeit beginnt mit einem Überblick der gängigen Standardalgorithmen, daran schliesst sich eine Übersicht und eine Klassifizierung bereits existierender Algorithmen für Ad-hoc Netzwerke an. Anschliessend wird die zentrale Neuentwicklung der Arbeit beschrieben: der “Tree Exchange Routing Algorithm” (TERA), welcher sich durch effiziente Routenverwaltung auszeichnet.
+Zur weiteren Verbesserung der Bandbreiteneffizienz wird zusätzlich eine Erweiterung von TERA spezifiziert, die eine Neuberechnung von Routen nur bei grossen Netzveränderungen zulässt. Die durchgeführten Simulationen zeigen, dass dadurch die Anzahl von Routingbotschaften halbiert werden kann.
+Weiterhin wird gezeigt, wie die Belastung einzelner Stationen in Ad-hoc Netzwerken mittels Zufallsverteilungen deutlich verringert werden kann. Ausserdem werden Verfahren zur Anbindung von Ad-hoc Netzwerken an das Internet vorgestellt. Dabei werden Sicherheitsprobleme diskutiert und Protokollanpassungen erläutert, die für eine erfolgreiche Kooperation von Adhoc
+Routing mit dem Festnetzrouting nötig sind.</abstract>
+                    <abstract type="content" lang="eng">This dissertatiom introduces some improvements in ad hoc network routing. This kind of networking does not require any kind of infrastructure, all participating hosts have to cooperate to build up a self organizing communication network. Host mobility and error-prone wireless links require special routing algorithms for this environment.
+The dissertation starts with an introduction to standard routing algorithms and continues with a description and a classification of existing ad hoc routing algorithms. After that, a new algorithm called the “Tree Exchange Routing Algorithm (TERA)” is presented, which offers a highly efficient path calculation method. A further improvement in bandwidth efficiency is achieved by extending TERA with restricted route optimization. This extension limits new route calculations to major topology changes of the network. Simulations show that these improvments allow a reduction of routing messages up to 50 %.
+An additional chapter explains the implementation of load distribution in TERA to reduce the network load of single hosts by randomizing the data flow. After that, some advanced methods for connecting ad hoc networks to the internet are described. This includes a discussion of security problems and a description of necessary protocol adaptations to enable interaction between ad hoc and internet routing.</abstract>
+                    <subject>
+                        <topic>routing algorithms</topic>
+                        <topic>wireless networks</topic>
+                        <topic>ad hoc networks</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-366</identifier>
+                    <identifier type="sys">HT013625676</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_36</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2002-04-10</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_36">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/36/1/jansen.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_36"
+            DMDID="DMD_siegen_opus_36">
+            <mets:fptr FILEID="FILE0_siegen_opus_36"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

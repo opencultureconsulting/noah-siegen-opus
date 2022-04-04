@@ -1,0 +1,74 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1956">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Scheduling flexible job shops under workforce constraints</title>
+                    </titleInfo>
+                    <titleInfo lang="und" type="translated">
+                        <title>Ablaufplanung in Flexible Job Shops unter Berücksichtigung von Personalrestriktionen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Müller, David</displayForm>
+                        <namePart type="family">Müller</namePart>
+                        <namePart type="given">David</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kreß, Dominik</displayForm>
+                        <namePart type="family">Kreß</namePart>
+                        <namePart type="given">Dominik</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Scheduling problems are of high relevance in various application areas, especially in production and logistic environments. A well-known problem setting is the job shop scheduling problem that occurs in traditional manufacturing systems. Modern manufacturing systems, however, are usually more complex and feature multi-purpose machines that allow to process different types of manufacturing operations. This is taken account of in the flexible job shop scheduling problem, which generalizes the job shop scheduling problem, by assuming that each operation must be processed by exactly one machine out of a given set of eligible machines. Moreover, in real-world manufacturing systems, the incorporation of setup times plays an important role and the workforce planning must be integrated, especially when having to consider a set of employees with differing skills. In the face of the growing automatization of manufacturing processes, the need for applicable solution approaches that promise a good trade-off between computational time and solution quality is becoming more important. Against this background, this cumulative thesis investigates various flexible job shop scheduling problems incorporating workforce constraints that are of practical relevance as well as presents novel exact and heuristic solution approaches for scheduling the respective problem variants.</abstract>
+                    <subject>
+                        <topic>Produktionsplanung</topic>
+                        <topic>Production</topic>
+                        <topic>Manufacturing systems</topic>
+                        <topic>Scheduling</topic>
+                        <topic>Flexible job shop</topic>
+                        <topic>Workforce constraints</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät III - Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19569</identifier>
+                    <identifier type="sys">HT021002733</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1956</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2021-07-16</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1956">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1956/4/Dissertation_David_Mueller.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1956"
+            DMDID="DMD_siegen_opus_1956">
+            <mets:fptr FILEID="FILE0_siegen_opus_1956"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

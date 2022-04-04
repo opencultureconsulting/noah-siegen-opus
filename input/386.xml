@@ -1,0 +1,133 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>386</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Real-time rendering and acquisition of spherical light fields</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Echtzeit-Rendering und Akquisition sphärischer Lichtfelder</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Severin Sönke</pc:foreName>
+            <pc:surName>Todt</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Bildbasiertes Rendering</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Image-based rendering techniques have proven to be a powerful&#13;
+alternative to traditional polygon-based computer graphics.&#13;
+This thesis presents a novel light field rendering technique&#13;
+which performs per-pixel depth correction of rays for&#13;
+high-quality light field reconstruction. The technique stores&#13;
+combined RGB and depth values in a parabolic 2D texture for&#13;
+every light field sample being acquired at discrete positions&#13;
+in a uniform spherical setup. Image synthesis is implemented on&#13;
+the graphics processing unit within a customized fragment program which extracts the&#13;
+correct image information from adjacent cameras for each&#13;
+fragment by applying per-pixel depth correction of rays.&#13;
+&#13;
+This dissertation demonstrates that the presented image-based&#13;
+rendering technique provides a significant improvement compared&#13;
+to previous approaches. Two different rendering implementations&#13;
+are explained which make use of the uniform parametrization to&#13;
+minimize disparity problems and ensure full six degrees of&#13;
+freedom for virtual view synthesis. While one rendering&#13;
+algorithm implements an iterative refinement approach for&#13;
+rendering light fields with per-pixel depth correction, the&#13;
+other approach employs a raycaster which provides superior&#13;
+rendering quality at moderate frame rates.&#13;
+&#13;
+Graphics processing unit based per-fragment depth correction of rays, used in both&#13;
+implementations, helps reducing ghosting artifacts to a non&#13;
+noticeable amount and provides a rendering technique that&#13;
+performs without exhaustive pre-processing for 3D object&#13;
+reconstruction.&#13;
+&#13;
+The presented light field techniques open up for the&#13;
+implementation of efficient and flexible rendering approaches.&#13;
+This work presents an efficient level of detail rendering&#13;
+approach for light fields and introduces a flexible rendering&#13;
+technique for remote access to light field representation in a&#13;
+web-based client-server application.&#13;
+&#13;
+For the acquisition of spherical light fields with per-pixel&#13;
+depth a new acquisition system is presented which makes use of&#13;
+recent advances in 3D sensor technology to acquire combined RGB&#13;
+and depth images directly.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Kurze Inhaltszusammenfassung in einer weiteren Sprache (deutsch) &#13;
+Bildbasierte Renderingmethoden haben sich in der Vergangenheit&#13;
+als effiziente Alternative zu traditionellen Renderingmethoden&#13;
+auf Polygonbasis erwiesen. Diese Doktorarbeit präsentiert&#13;
+eine neue Lichtfeld-Renderingmethode die unter Ausnutzung von&#13;
+pro Pixel Tiefenwerten eine hochqualitative Bildsynthese in&#13;
+Echtzeit ermöglicht. Für einen diskreten Satz an&#13;
+gleichmässig auf der Oberfläche einer Kugelrepräsentation&#13;
+angeordneter Samplepositionen speichert die Technik kombinierte&#13;
+RGB und Tiefenwerte in einer gemeinsamen parabolischen Textur.&#13;
+Die Bildsynthese erfolgt auf dem Grafikprozessor und ist in einem&#13;
+angepassten Fragment Program umgesetzt, das zur Bestimmung der&#13;
+Fragment Farbe korrekte Bildinformationen aus benachbarten&#13;
+Samplepositionen extrahiert.&#13;
+&#13;
+Im Vergleich zu denen in der Vergangenheit vorgestellten&#13;
+Lichtfeldverfahren stellt die in dieser Arbeit präsentierte&#13;
+Technik eine signifikante Verbesserung dar. Es werden zwei&#13;
+unterschiedliche Renderingverfahren dargestellt, die beide die&#13;
+gleichmässige Samplingstruktur nutzen, um&#13;
+Disparitätsprobleme zu vermeiden und virtuelle Ansichten mit&#13;
+sechs Freiheitsgraden zu ermöglichen. Während das eine der&#13;
+Verfahren einen iterativen Ansatz zum Rendering von&#13;
+Lichtfeldern mit Tiefenkorrektur implementiert, verfolgt das&#13;
+andere einen Raycasting Ansatz und erzielt im Vergleich zum&#13;
+erst genannten Verfahren deutlich bessere Ergebnisse. Mit Hilfe&#13;
+der in beiden Verfahren zur Anwendung kommenden pro Pixel&#13;
+Tiefenkorrektur werden bei gleichzeitigem Verzicht auf&#13;
+umfangreiche Geometrieverarbeitung Ghosting Artefakte&#13;
+signifikant reduziert.&#13;
+&#13;
+Die präsentierten Lichtfeld-Renderingverfahren ermöglichen&#13;
+die Umsetzung weiterer effizienter und flexibler&#13;
+Renderingmethoden. Diese Doktorarbeit demonstriert einen&#13;
+effizienten Level of Detail Ansatz für die Synthese von&#13;
+Lichtfeldern und stellt ein neues flexibles Verfahren für den&#13;
+Remote Zugriff auf Lichtfeldrepräsentationen auf Basis einer&#13;
+Web basierten Client-Server Anwendung dar.&#13;
+&#13;
+Für die Akquisition sphärischer Lichtfelder wird im Rahmen&#13;
+dieser Arbeit ein Verfahren vorgestellt, das neueste 3D&#13;
+Sensorsysteme nutzt, um kombinierte Farb- und Tiefendaten direkt&#13;
+zu akquirieren.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2009-06-15</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2009</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-3865</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Bildinformatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="todt.pdf" ddb:fileSize="7182882"/>
+   <ddb:checksum ddb:type="MD5">42bed5730ccea4cafa0bc9dc709a529e</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/386/1/todt.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/386</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

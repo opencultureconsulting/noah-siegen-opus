@@ -1,0 +1,85 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>99</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Fertigungsnahe Entwurfsunterstützung für die Mikrosystemtechnik</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="eng">Technology driven design support for microsystem technology</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Andreas</pc:foreName>
+            <pc:surName>Wagener</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Prozessverwaltung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Verifikation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Simulation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Der Entwurf von Mikrosystemen, hier speziell der von siliziumbasierten nichtelektronischen&#13;
+Systemen, zeichnet sich dadurch aus, dass alle Phasen des Entwurfs durch die angestrebte&#13;
+Fertigungsanweisung beeinflusst werden. Erschwerend kommt hinzu, dass, im Gegensatz zur&#13;
+Mikroelektronik, beinahe jedes Mikrosystem eine eigene Fertigungsanweisung benötigt. Eine&#13;
+Abstraktion auf Basis von Masken und Entwurfsregeln ist nicht möglich. Aus diesem Grund&#13;
+beschränken sich die meisten Softwarewerkzeuge für die Mikrosystemtechnik auf die sehr&#13;
+frühen Phasen des Entwurfs und Einzelprozesssimulationen.&#13;
+Unter Berücksichtigung der Methoden in der Mikroelektronik und der Mechanik wird in&#13;
+dieser Arbeit eine Methodik vorgestellt, die als Basis für eine durchgängige&#13;
+Entwurfsunterstützung speziell im technologienahen Bereich dienen kann. Basierend auf eben&#13;
+dieser Methodik und neuen Konzepten der Datenhaltung wird eine Entwicklungsumgebung&#13;
+vorgestellt, die es ermöglicht, Prozessinformationen einheitlich abzulegen, zu verwalten und&#13;
+wieder zur Verfügung zu stellen. Die Entwicklungsumgebung gibt weiterhin die Möglichkeit&#13;
+auf Basis der abgelegten Prozessinformationen, Fertigungsanweisungen zu erstellen und&#13;
+automatisch auf Fertigbarkeit zu prüfen. Die Simulation der Fertigungsfolge wird durch eine&#13;
+hierarchische Anordnung der Simulationsmodelle unterstützt bzw. erst möglich gemacht.&#13;
+Abschließend werden mögliche Erweiterungen diskutiert.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">In microsystem technology, especially in the area of silicon-based nonelectronic devices, the&#13;
+design is dominated by the fabrication of the devices. That is not only true for the technologydriven&#13;
+and physical design phases but also for the more abstract phases in the beginning of the&#13;
+design. In contrast to micro electronics there is no Mead/Conway-abstraction possible. That is&#13;
+why available design frameworks are limited to the behavioural-driven and more abstract&#13;
+design.&#13;
+A new concept of an integrated design support for microsystem technology and a&#13;
+prototypically realisation of that concept is presented. Designing Microsystems with this tool&#13;
+the designer need not longer to be technology expert.&#13;
+Basing on design methodology in micro electronics and mechanics as well considerations on&#13;
+the design in microsystem technology are discussed. A new methodology for technologydriven&#13;
+design is presented and by the means of a prototype realised. This prototype allows the&#13;
+management of process data as well as the design of fabrication process flows. Also the&#13;
+manufacturability of these flows can be checked. The concept of hierarchical ordered&#13;
+simulation models is introduced to guarantee at least a rough simulation of process flows,&#13;
+even if there is no model for one or more fabrication steps available.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2005-02-09</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2005</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-994</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 12, Elektrotechnik und Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="wagener.pdf" ddb:fileSize="12657186"/>
+   <ddb:checksum ddb:type="MD5">559bfd4aaebcdb99ff328459d79696a8</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/99/1/wagener.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/99</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

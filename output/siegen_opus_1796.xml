@@ -1,0 +1,85 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1796">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Facility Management lehren mit augmentierter und virtueller Realität – eine Bedingungsanalyse</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Klein-Wiele, Judit</displayForm>
+                        <namePart type="family">Klein-Wiele</namePart>
+                        <namePart type="given">Judit</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Privenau, Jacqueline</displayForm>
+                        <namePart type="family">Privenau</namePart>
+                        <namePart type="given">Jacqueline</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Raab, Lisa</displayForm>
+                        <namePart type="family">Raab</namePart>
+                        <namePart type="given">Lisa</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Prof. Dr. Ralph Dreher, Universität Siegen</displayForm>
+                        <namePart type="family">Prof. Dr. Ralph Dreher</namePart>
+                        <namePart type="given">Universität Siegen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In diesem Beitrag wird eine Bedingungsanalyse zum Fortbildungsbedarf für Lehrende des Facility Managements an der Dualen Hochschule Baden-Württemberg (DHBW) Stuttgart zum Thema augmentierte und virtuelle Realität (AR und VR) in der Lehre vorgenommen. Folgende Erkenntnisse konnten durch eine Erhebung gewonnen werden: „Aufgrund mangelnder Lehr-/Lernszenarien und technischer Ausstattung existiert eine hohe Hemmschwelle bei Lehrenden sich mit AR und VR auseinanderzusetzen“ und „Es ist unklar, welche Auswirkungen ein engerer Austausch zwischen Industrie und Wissenschaft auf die Entwicklung eines zielgerichteten AR/VR-Angebote und den Nutzen für die Lehre hat“.</abstract>
+                    <subject>
+                        <topic>Erweiterte Realität &lt;Informatik&gt;</topic>
+                        <topic>Facility Management</topic>
+                        <topic>AR</topic>
+                        <topic>VR</topic>
+                        <topic>Bedingungsanalyse</topic>
+                        <topic>Lehrende</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-17968</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1796</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1796">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1796/4/Facility_Management_lehren.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1796"
+            DMDID="DMD_siegen_opus_1796">
+            <mets:fptr FILEID="FILE0_siegen_opus_1796"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

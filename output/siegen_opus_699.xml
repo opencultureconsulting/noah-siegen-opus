@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_699">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Blödigkeit : Beschreibungen des Individuums im 18. Jahrhundert</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Stanitzek, Georg</displayForm>
+                        <namePart type="family">Stanitzek</namePart>
+                        <namePart type="given">Georg</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">1989</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Der Terminus &quot;Blödigkeit&quot; hat erstaunliche Bedeutung für die Beschreibung und Selbstbeschreibung von Individuen im Übergang zur Moderne. Als &quot;blöde&quot; erscheint und begreift sich das Individuum in jenem Prozess, der es aus dem Gehäuse heraustreten lässt, als das die Ordnungen der alten Gesellschaft zu denken waren. Die Bedeutungsentwicklung des Begriffs registriert die ereignisreiche Geschichte von Versuchen, die Situation desjenigen zu erfassen, der auf die Sicherheiten Verzicht leistet, die ein ständisch geordneter Kosmos von Konversationsverhältnissen ihm gewährte.
+Zunächst ein Konzept der alteuropäischen Anthropologie, Ordnungsmetaphysik und Konversationspragmatik, bezeichnet Blödigkeit in der Folge die unsichere Reflexion des Einzelnen, der sich mit den Chancen und Risiken einer Herkunft und Zukunft entzweienden Moderne konfrontiert sieht. Ihn beobachtet -- in methodischer Engführung von Begriffs-, Sozial- und Literaturgeschichte -- diese Untersuchung. Sie zeigt ihn aus der Perspektive der &quot;Privatpolitik&quot; in der einsamen Reflexion am Rande der Melancholie; sie zeigt ihn beim &quot;empfindsamen&quot; Versuch, durch moralische Restriktionen die Sicherheit wiederzugewinnen, die verloren ist; und sie zeigt ihn schließlich auf der &quot;genialen&quot; Flucht in die Literatur als autonome Kunst.
+Vor diesem Hintergrund wird eine erhellende Lektüre von Friedrich Hölderlins änigmatischem späten Gedicht &quot;Blödigkeit&quot; möglich.</abstract>
+                    <subject>
+                        <topic>Deutsch</topic>
+                        <topic>Geschichte 1690-1830</topic>
+                    </subject>
+                    <classification authority="ddc">830</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-6996</identifier>
+                    <identifier type="sys">HT017523948</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_699</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_699">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/699/1/Stanitzek_Bloedigkeit.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_699"
+            DMDID="DMD_siegen_opus_699">
+            <mets:fptr FILEID="FILE0_siegen_opus_699"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

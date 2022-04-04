@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_344">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Theorie der Marken-Kommunikation : tradierte und konstruktivistische Erkenntnisse</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kothen, Wolfgang</displayForm>
+                        <namePart type="family">Kothen</namePart>
+                        <namePart type="given">Wolfgang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2007</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Im Zentrum der Arbeit stehen die Begriffe Marke und Kommunikation. Da im klassischen Marketing explizit zwischen diesen Kategorien differenziert wird, gibt der Autor einen separaten Einblick hierzu. So erfolgt eine umfassende Darstellung und kritische Reflexion der tradierten Ansätze zur Modellierung von Marken. Anschließend werden die tradierten Ansätze zum Management und zur Wirkung kommunikativer Maßnahmen detailliert dargestellt und kritisch hinterfragt. Den tradierten Ansätzen wird aufgrund der herausgestellten Defizite eine konstruktivistische Modellierung von Marken gegenübergestellt. Die damit verbundene Erkenntnis, daß Marken vorwiegend das Ergebnis kommunikativer Maßnahmen sind und somit soziale Systeme verkörpern, ist zwar nicht neu, allerdings existiert bisher keine fundierte systemtheoretisch-konstruktivistische Modellierung von Marken. Aus diesem Grunde erfolgt nach der Kennzeichnung von Marken als sozialen Systemen und der Beschreibung der dazu konstitutiven Kommunikationsprozesse – unter Einsatz, Verknüpfung und Modifizierung unterschiedlicher system- und handlungstheoretischer Ansätze – die Erarbeitung eines eigenständigen, systemtheoretisch-konstruktivistischen Modells der Marke, das als ganzheitliches theoretisches Fundament für die angewandte Forschung und die Deduktion systemisch geprägter Handlungsempfehlungen hinsichtlich der Marken-Kommunikation fungieren kann. Anschließend werden anhand formaler und inhaltlicher Beurteilungskriterien die Potentiale und Restriktionen des konstruktivistischen Ansatzes herausgearbeitet.</abstract>
+                    <subject>
+                        <topic>Werbung</topic>
+                        <topic>Markentheorie</topic>
+                        <topic>Werbetheorie</topic>
+                        <topic>Marken-Kommunikation</topic>
+                        <topic>Marke</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 5, Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-3444</identifier>
+                    <identifier type="sys">HT015482993</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_344</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2008-01-27</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_344">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/344/1/kothen.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_344"
+            DMDID="DMD_siegen_opus_344">
+            <mets:fptr FILEID="FILE0_siegen_opus_344"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

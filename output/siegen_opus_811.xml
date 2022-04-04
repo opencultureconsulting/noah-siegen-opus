@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_811">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Spatial content understanding of very high resolution synthetic aperture radar images</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Singh, Jagmal</displayForm>
+                        <namePart type="family">Singh</namePart>
+                        <namePart type="given">Jagmal</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Availability of large amounts of very high resolution (metric-resolution) remote sensing images from the last generation synthetic aperture radar (SAR) satellites is attracting new studies. In order to search and retrieve relevant images from large-scale databases, new techniques for automatically analyzing, interpreting and indexing SAR images are required. The methods developed for this purposes in the past were based on the understanding speckle characteristics in SAR images. The focus has been generally on the model-based textural parameter estimation in the amplitude-envelope of SAR images, such as parametric Gibbs-based methods in the Bayesian framework. Such methods were largely successful under the assumption of stationarity of the signal in an analyzing window of convenient size on images with resolution of the order of tens of meters.
+ 
+The challenge we encounter in metric-resolution SAR images is the presence of a very high order of details encapsulating a non-stationarity, where model-based parameter estimation becomes inaccurate. This constraint encourages us to focus on nonparametric strategies while employing phase information to transform SAR images in a suitable space. Demonstrating the advantages and relevance of the phase information embedded in complex-valued SAR images over the use of the mere amplitude-envelope for such strategies is an underlying contribution of this thesis.
+
+The importance of phase information is advocated with a proposed method of multiple sublook decomposition (MSLD). This method generates hyper-images from the spectral analysis of complex valued SAR images enabling the visual exploration of targets. Subsequently, a chirplet-derived transform- the fractional Fourier transform (FrFT) has been found to be a true SAR relevant multi-scale approach, where scaling is carried out in the phase. A proposed non-parametric feature descriptor based on the use of second-kind statistical measures (logarithmic-cumulants) estimated over the amplitude-envelope of the FrFT coefficients exhibits enhanced feature space separability for improved indexing.
+
+An experimental benchmarking database is generated on single look complex (SLC) spotlight mode TerraSAR-X images for the validation of the proposed FrFT-based nonparametric technique in comparison to the existing methods. A robust methodological classification framework has been proposed for the evaluation and comparison of the studied algorithms.</abstract>
+                    <abstract type="content" lang="ger">Die Verfügbarkeit von großen Mengen von Fernerkundungsbildern mit einer Auflösung im Meterbereich, wie sie die neueste Generation von Radar-Satelliten mit synthetischer Apertur (SAR) erzeugt, bedingt auch neue Untersuchungen. Um zutreffende Bilder in großen Datenbanken zu suchen und daraus abzurufen, werden neue Verfahren zur automatischen Analyse, Interpretation und Indexierung von SAR Bildern benötigt. Die bisher dazu entwickelten Methoden basieren auf dem Verstehen der Speckle Eigenschaften in SAR-Bildern. Der Schwerpunkt liegt dabei auf der modellbasierten Schätzung von Texturparametern im Amplitudenraum von SAR-Bildern, wie zum Beispiel bei parametrischen Gibbs basierten Methoden in einem Bayes-Modell. Diese Methoden haben sich als sehr erfolgreich erwiesen für SAR-Bilder mit einer Auflösung im Bereich von 10-50 Metern unter der Annahme von stationären Signalen in einem Suchfenster mit passender Größe. 
+
+Die Herausforderung bei SAR-Bildern mit einer Auflösung im Meterbereich liegt im Vorhandensein von sehr vielen isoliert instationären Details, wo eine modellbasierte Parameterschätzung ungenaue Ergebnisse liefert. Diese Einschränkung führt uns zur Hinwendung auf nicht-parametrische Strategien mit Nutzung der Phaseninformation zur Transformation von SAR-Bildern in einen geeigneten Raum. Ein grundlegender Beitrag dieser Arbeit ist die Darstellung der Vorteile und der Bedeutung der Phaseninformation in komplex-wertigen SAR-Bildern gegenüber der Verwendung des reinen Amplitudenraums für solche Strategien.
+
+Wir untermauern die Bedeutung der Phaseninformation mit einem Vorschlag für eine Methode zur Zerlegung von Bildern in mehrere Sub-Looks (MSLD). Diese Methode erzeugt Hyperbilder aus der spektralen Analyse von komplex-wertigen SAR Bildern und erlaubt die visuelle Untersuchung von Objekten. Darauf aufbauend wird gezeigt, dass eine aus Chirplets abgeleitete Transformation die gebrochene Fourier-Transformation (FrFT) - einen echten und für SAR bedeutsamen Multiskalenansatz darstellt, bei der die Skalierung in der Phase durchgeführt wird. Ein vorgeschlagener nicht parametrischer Deskriptor zur Merkmalsbeschreibung, der auf statistischen Masen zweiter Ordnung (logarithmischen Kumulanten) beruht und durch die Größe des Amplitudenraums der FrFT-Koeffizienten geschätzt wird, zeigt im Merkmalsraum eine erhöhte Trennbarkeit für eine verbesserte Indexierung.
+
+Zur Validierung des vorgeschlagenen nicht-parametrischen Verfahrens auf Grundlage der FrFT wurde zum Vergleich mit bereits existierenden Methoden eine experimentelle Datenbasis für Leistungstests mit Single Look Complex (SLC) TerraSAR-X- Bildern im Spotlight-Modus generiert. Zur Beurteilung und zum Vergleich der untersuchten Algorithmen schlagen wir eine robuste methodologische Klassifizierungs-Umgebung vor.</abstract>
+                    <subject>
+                        <topic>SAR</topic>
+                        <topic>Gibbs-basierten Methoden</topic>
+                        <topic>Chirplets  abgeleitete Transformation</topic>
+                        <topic>Radar mit Synthetischer Apertur</topic>
+                        <topic>synthetic aperture radar</topic>
+                        <topic>speckle characteristics</topic>
+                        <topic>method of multiple sublook decomposition</topic>
+                        <topic>chirplet-derived transform</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="NRW-Zentrum für Sensorsysteme (ZESS)"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-8113</identifier>
+                    <identifier type="sys">HT018321751</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_811</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2014-05-29</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_811">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/811/1/Ph.D._Dissertation_Singh_Jagmal_bearbeitet.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_811"
+            DMDID="DMD_siegen_opus_811">
+            <mets:fptr FILEID="FILE0_siegen_opus_811"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

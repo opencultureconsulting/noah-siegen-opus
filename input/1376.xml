@@ -1,0 +1,71 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1376</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Enhancement of the control and diagnosis of mechanical failures of a drive by using load cycle identification</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Identifikation des zyklischen Lastprofils eines Antriebs zur Verbesserung der Regelung und der Diagnose von mechanischen Fehlern</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Van Trang</pc:foreName>
+            <pc:surName>Phung</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Regelung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Identifikation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Sensorlose Regelung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Geberlose Regelung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Diagnostik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Kugellagerschäden</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Identification</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Sensorless Control</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Diagnostic</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Bearing Faults</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">621</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">This work proposes a new method for the estimation of the load torque in mechatronics systems that are equipped with electrical drives and are characterized by repetitive mechanical cycles. The procedure examined in this research allows an enhancement of the control quality by using a feedforward controller based on the estimated load torque. A harmonic speed controller is also used for improving the velocity control. Its structure can also be integrated in the procedure for the identification of the torque. A second important contribution of this research is the utilization of the estimated load torque for the detection of failures in rolling bearings.&#13;
+As the demanded load torque in many production machines is repetitive, and as such a periodic function of the shaft angle of the driven machine, it can be represented in terms of Fourier series. Hence, the estimation of the load torque can also be carried out through the calculation of the Fourier coefficients by using either a phenomenological approach or an empirical one. After sufficient online learning on the running mechatronics system at different operating speeds, sets of Fourier coefficients can be obtained by using a sliding-window method. The two methods allow the load torque estimation to be continuously conducted within the whole operational range of the repetitive mechanical system.&#13;
+The estimated load torque is used for two purposes. First, it is utilized as a compensation signal in a feedforward control scheme to improve the quality of the velocity control by canceling speed oscillations originated from the angle-dependent load torque. Second, it is adapted in a diagnostic procedure for the detection of bearing faults. Since a faulty bearing causes changes on the load torque, its spectrum contains information related to the bearing failures. A diagnostic procedure is proposed that does not require any additional sensors than the usually installed in an electrical drive, and it is capable of detecting the two most commonly found types of bearing faults including single-point defects and generalized roughness fault.&#13;
+Another approach examined in the frame of this work aims the enhancement of the control quality. This approach relies on the harmonic speed control. For this purpose, two structures for the speed control are proposed. One is known as harmonic speed control, where each harmonic in the spectrum of the speed error is regulated by a proportional-integral (PI) controller. As previously mentioned, the proposed control structure can also be used for the online calculation of Fourier coefficients in the aforementioned load torque estimation procedure.&#13;
+The second scheme is called PI-R speed controller, where the conventional PI speed controller is augmented by resonant (R) parts to control specific harmonics of the speed error.  As the proposed speed controller separately manipulates harmonics of the speed error, it ensures a good dynamic tracking response of the speed control loop. &#13;
+An implementation of the control scheme without mechanical encoder, a so called sensorless control scheme, complements the proposed methods. In this way the estimation of the load torque, the detection of the bearing faults, and the harmonic speed control can be carried out without mechanical encoder. A signal injection technique and an enhanced voltage model are used to estimate the rotor position of the driven machine. The utilized machine is a permanent magnet synchronous machine (PMSM) that can be operated in the sensorless field-oriented control scheme in the low-speed as well as in the high-speed regions. A combined angle estimator which is based on the signal injection technique and on the enhanced voltage model was developed for obtaining a smooth speed transition between the two speed regions.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">In dieser Arbeit wird eine neue Methode zur online Schätzung des Momentanwertes des Lastmomentes in mechatronischen Systemen vorgestellt. Das Verfahren lässt sich bei-Systemen anwenden, die mit elektrischen Antrieben ausgestattet sind und sich durch periodische mechanische Arbeitszyklen auszeichnen, wie sie in vielen Produktionsmaschinen vorzufinden sind.&#13;
+Das im Rahmen dieser Arbeit untersuchte Verfahren ermöglicht eine Verbesserung der Regelgüte mithilfe von einer Störgrößenaufschaltung oder einer harmonischen Regelung. Ein zweiter wichtiger Beitrag dieser Forschung ist die Nutzung des geschätzten Lastmoments für die Erkennung von Fehlern bei Wälzlagern. Da das geforderte Lastdrehmoment in vielen Produktionsmaschinen repetitiv ist und deshalb als eine periodische Funktion der Winkelposition von der Antriebsmaschine dargestellt werden kann, ist seine Darstellung als Fourier-Reihe naheliegend. Daher erfolgt die Schätzung des Lastmoments durch die Berechnung der entsprechenden Fourier-Koeffizienten, die entweder nach einem phänomenologischen oder nach einem empirischen Ansatz gewonnen werden können. Nach genügenden online-Messungen bei verschiedenen Arbeitsgeschwindigkeiten des laufenden mechatronischen Systems erhält man Sätze von Fourier-Koeffizienten, die mit Hilfe einer Fensterintegration ermittelt werden. Die beiden Methoden erlauben die Schätzung des Lastmomentes kontinuierlich im gesamten Betriebsbereich des sich wiederholenden mechanischen Systems.&#13;
+Das geschätzte Lastmoment dient zwei Zwecken: Erstens,  kann es als Kompensationssignal in einer Störgrößenaufschaltung zur Verbesserung der Qualität der Geschwindigkeitsregelung verwendet werden. Auf diese Weise wird die durch die pulsierende Last hervorgerufene Welligkeit der Geschwindigkeit unterdrückt. Zweitens, kann es auch in einem Diagnoseverfahren zur Erkennung von Lagerfehlern genutzt werden. Da eine fehlerhafte Lagerung zu Veränderungen des Lastmomentes führt, enthält das Spektrum vom Drehmoment Informationen zu den Lagerschäden. Das vorgeschlagene Diagnoseverfahren erfordert keine zusätzlichen Sensoren, als die ohnehin in einem elektrischen Antrieb Installierten,  und  ist in der Lage, die zwei am häufigsten  anzutreffenden Arten von Lagerfehlern einschließlich singulärer und breitbandiger  Fehler zu erkennen.&#13;
+Ein weiterer im Rahmen dieser Arbeit untersuchter Ansatz zielt auf die Verbesserung der Regelgüte, allerdings nicht mit Hilfe einer Störgrößenaufschaltung sondern vielmehr mit Verwendung einer harmonischen Drehzahlregelung. Zu diesem Zweck werden zwei Strukturen für die Drehzahlregelung vorgeschlagen. Eine, bekannt als harmonische Drehzahlregelung, wo jede Harmonische im Spektrum des Geschwindigkeitssignals mittels eines Proportional-Integral (PI) Reglers unterdrückt wird. Wie die vorgeschlagene Struktur kann ebenfalls für die online-Berechnung, der für die Lastmomentidentifikation notwendigen, Fourier-Koeffizienten verwendet werden.&#13;
+Die zweite Struktur verwendet einen PI-R Regler, wo bei der herkömmliche PI-Regler durch einen Resonanten (R) Teil ergänzt wird, um die spezifischen Oberschwingungen des Fehlersignals  auszuregeln. Da in der Regelstruktur die vorgeschlagenen Drehzahlregler einzelne Oberschwingung separat behandeln, kann der Antrieb dem vorgegebenen Drehzahlprofil sehr gut folgen. &#13;
+Eine Implementierung der feldorientierten Antriebsregelung ohne Verwendung eines mechanischen Winkelgebers, eine sogenannte sensorlose Regelung ergänzt die vorgeschlagenen Methoden. Auf diese Weise kann die Schätzung des Lastmomentes, die Erkennung von Lagerfehlern und die harmonische Regelung ohne Verwendung eines mechanischen Gebers erfolgen. Eine Signal-Injektionstechnik und ein verbessertes Spannungsmodell werden verwendet, um die Rotorposition der Antriebsmaschine zu ermitteln. Die eingesetzte Maschine ist eine permanenterregte- Synchronmaschine (PMSM), die ohne mechanischen Geber, sowohl im unteren als auch im oberen Geschwindigkeitsbereich, feldorientiert geregelt betrieben werden kann. Eine kombinierte Winkelschätzung anhand der Injektionstechnik und des verbesserten Spannungsmodells wurde entwickelt, sodass ein reibungsloser Übergang zwischen den zwei Bereichen möglich wird.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2017-12-15</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2017</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-13762</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV - Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Van_Trang_Phung.pdf" ddb:fileSize="5450279"/>
+   <ddb:checksum ddb:type="MD5">4ccc1d0bc96c4297c33c326c3cc1d326</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1376/1/Dissertation_Van_Trang_Phung.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1376</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

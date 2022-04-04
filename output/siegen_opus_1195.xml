@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1195">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Die </nonSort>
+                        <title>Prekarisierung der Gesellschaft : Anmerkungen zu einem neuen soziologischen Schlüsselkonzept</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Meyer, Thomas</displayForm>
+                        <namePart type="family">Meyer</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Gesellschaftsdiagnosen gehören zu den zentralen Referenzfolien, in deren Rahmen sich bewusst oder auch unbewusst Theorie und Praxis der Sozialen Arbeit entfalten. In diesem Artikel soll das Gesellschaftsbild, welches der sozialwissenschaftlichen Prekarisierungsdebatte zugrunde liegt und sich vor allem Impulsen aus der französischen Soziologie verdankt, präsentiert werden. Es handelt sich um ein gerade auch für die Soziale Arbeit hochbelangvolles Reflexionsangebot, und dies gleich in doppelter Hinsicht. Zum einen verbirgt sich hinter dem Begriffsbündel Prekarisierung/Prekarität/Prekariat ein neues Paradigma der Soziologie, das zentrale Mechanismen der aktuellen Ungleichheitsproduktion bloßlegt. Zum anderen kann Prekarisierung in einem weitergefassten Verständnis als Begriff soziologischer Zeitdiagnostik bezeichnet werden, der die einschneidenden Wandlungsprozesse der Erwerbsarbeit im Anschluss an Pierre Bourdieu und Robert Castel als beunruhigende Prozesse sozialer „Entsicherung“ und Desintegration beschreibt, dessen Folgen die Soziale Arbeit und ihre Handlungsfelder empfindlich tangieren.</abstract>
+                    <subject>
+                        <topic>Prekariat</topic>
+                        <topic>Normalarbeit</topic>
+                        <topic>prekäre Beschäftigung</topic>
+                        <topic>Soziale Marktwirtschaft</topic>
+                        <topic>Kapitalismus</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11958</identifier>
+                    <identifier type="sys">HT020893055</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1195</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1195">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1195/1/Meyer_Die_Prekarisierung_der_Gesellschaft.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1195"
+            DMDID="DMD_siegen_opus_1195">
+            <mets:fptr FILEID="FILE0_siegen_opus_1195"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

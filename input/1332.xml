@@ -1,0 +1,41 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1332</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Availability of a hybrid FSO/RF link while using the link’s diversity for packet scheduling</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Liliana</pc:foreName>
+            <pc:surName>Grigoriu</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Dienstgüte</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Free space optical links</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Radio frequency wireless links</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Quality of service, Link layer protocol</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Hybrid-free space optical and radio frequency wireless links are a way of providing reliable transport of real-time traffic in outdoor wireless environments. We consider a link layer protocol that assigns packets to each physical channel of such a hybrid link, which first attempts to send each packet over one of the links (the main link) and, if unsuccessful, sends the packet over the other link (the backup link). The hybrid link processes high-priority traffic by using the link layer protocol and additional (background) traffic at low priority over the backup link. In this setting, high-priority traffic can be transmitted at a rate as high as the maximum capacity of the main link, assuming that the backup link can compensate for main link capacity deterioration, with no need for reconfigurations aimed at adapting to changes in weather conditions, which is an advantage over other approaches. From the perspective of link availability for high-priority traffic, we compare our approach to using another protocol that does not require reconfigurations, which could be employed if the backup link is expected to have a constant transmission rate during the time interval of interest. For situations where both links can be represented by finite-state Markov models with states corresponding to channel bit error rates, as has been done in previous literature for radio frequency links and for free space optical links affected by strong atmospheric turbulence and Gaussian noise, we give a way to provide probabilistic quality of service guarantees for background traffic assuming that the high-priority traffic is insured to not exceed a given constant rate.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2018</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">article</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-13327</dc:identifier>
+   <dc:source xsi:type="dcterms:URI">https://doi.org/10.1155/2018/7320989</dc:source>
+   <dc:source xsi:type="ddb:noScheme">Wireless communications and mobile computing ; Volume 2018, Article ID 7320989. - DOI: 10.1155/2018/7320989</dc:source>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Grigoriu_Availability_of_a_hybrid.pdf" ddb:fileSize="1538097"/>
+   <ddb:checksum ddb:type="MD5">37ff25203d03789a838b56874d42b1fb</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1332/1/Grigoriu_Availability_of_a_hybrid.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1332</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

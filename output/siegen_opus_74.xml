@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_74">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Polymergesteuerte Kristallisation von Calciumhydroxid und Calciumsilicathydrat</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Arnold, Markus</displayForm>
+                        <namePart type="family">Arnold</namePart>
+                        <namePart type="given">Markus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2004</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Im Rahmen dieser Arbeit wurde der Einfluss von organischen Additiven auf die
+Kristallisation von Calciumhydroxid und Calciumsilicathydrat untersucht. Die Mineralphasen Calciumhydroxid und Calciumsilicathydrat bilden die Hauptmineralphasen von in der Bauindustrie eingesetzten Werkstoffen und haben einen wesentlichen Einfluss auf die mechanischen Eigenschaften der Baustoffe. Die beiden Mineralphasen wurden in dieser Arbeit über unterschiedliche Synthesewege hergestellt. Zu den Synthesen wurden organische Additive, die in ihrer Grundstruktur den in der Praxis eingesetzten ähneln, zugegeben. Mit Hilfe von Rasterelektronenmikroskop-Aufnahmen konnten bei den erhaltenen Kristallen
+Modifikationen in der Oberflächenmorphologie in Abhängigkeit der Additivkonzentration festgestellt werden. Über thermogravimetrische Analysen konnte ermittelt werden, dass die Zusatzstoffe nicht in das Kristallgitter der Kristalle eingebaut werden und aus Festkörper- NMR-Spektren konnte geschlossen werden, dass die innere Struktur von Calciumhydroxid keine Veränderungen erfährt, jedoch der Kondensationsgrad der Silicattetraeder bei Calciumsilicathydrat durch die Additive beeinflusst wird. Mit der Bestimmung des
+elektrokinetischen Oberflächenpotentials der Kristalle konnte eine Aussage über die Wirkungsweise der eingesetzten Additive an der Kristalloberfläche getroffen werden. Durch das Anlagern der Additive an bestimmte Kristallflächen kommt es zu einer Hinderung des Wachstums und damit zu einer Modifikation der Oberflächenmorphologie. Bei der Diffusionssynthese von Calciumhydroxid wurde eine bisher unbekannte nadelförmige Mineralphase entdeckt. Es handelt sich hierbei um Calciumchloridhydroxidhydrat.</abstract>
+                    <abstract type="content" lang="eng">The aim of this work was to investigate the influence of organic additives in the
+crystallization of calcium hydroxide and calcium silicate hydrate. The mineral phases calcium
+hydroxide and calcium silicate hydrate represent the major mineral phases used as building
+materials in construction industry and have an important influence on the mechanical properties of these materials. In this work, these mineral phases were synthesized in different ways. Organic additives, which have a similar basic structure as the ones used in practice were added to the synthesis. By scanning electron microscopy-images of the obtained crystals
+modifications of the surface morphology due to the additive concentration could be determined. By thermo gravimetric analysis it could be shown that the additives are not incorporated in the crystal structures and from solid state NMR-analysis it could be demonstrated that there are no changes in the crystal structure of calcium hydroxide but that the condensation degree of the silicon tetrahedra in calcium silicate hydrate changes. With the determination of the electro kinetic surface potential of the crystals a conclusion about the mode of action of the additives at the crystal surface was be developed. The accumulation of the additives at certain crystal faces causes hindering of the crystal growth and yields a modification of the surface morphology. In the diffusion synthesis of calcium hydroxide a so far unknown crystal phase has been detected. The phase is calcium chloride hydroxide hydrate.</abstract>
+                    <subject>
+                        <topic>calcium silicate hydrate</topic>
+                        <topic>calcium hydroxide</topic>
+                        <topic>polymer-driven crystal growth</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 8, Chemie - Biologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-745</identifier>
+                    <identifier type="sys">HT014631378</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_74</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2004-09-15</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_74">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/74/1/arnold.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_74"
+            DMDID="DMD_siegen_opus_74">
+            <mets:fptr FILEID="FILE0_siegen_opus_74"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

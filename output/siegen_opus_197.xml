@@ -1,0 +1,104 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_197">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Echtzeitprognose des Schmiedemaßes an hydraulischen Freiformpressen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Nötzel, Ralf</displayForm>
+                        <namePart type="family">Nötzel</namePart>
+                        <namePart type="given">Ralf</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2005</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Hydraulische Freiformschmiedepressen sind bei der Umformung von
+großen Stahlwerkstücken im industriellen Produktionsprozeß weit
+verbreitet. Die verfahrenstechnisch auftretende Forderung, ein
+bestimmtes vorgegebenes Umformmaß (Schmiedemaß) einzuhalten,
+wird dabei mit einfachen iterativ korrigierenden Schätzalgorithmen
+realisiert. Systembedingt führt dies zu größeren Abweichungen bei den
+ersten Pressenhüben.
+
+Im Rahmen der vorliegenden Dissertation wird ein Verfahren vorgestellt,
+welches diesen Nachteil vermeidet.
+
+Durch Messung der Verläufe des Umformweges und des
+Pressendruckes, während des aktuellen Umformvorganges, ist es
+möglich, mit einem in Echtzeit arbeitenden Parameterschätzverfahren,
+die zeitlichen Verläufe dieser Größen zu prognostizieren. Ein
+Prädiktionsmodell berechnet zyklisch das zum aktuellen Zeitpunkt
+erreichbare Schmiedemaß. Hat die Presse die vom Modell ermittelte
+Position erreicht, wird mit der Entlastung des Arbeitszylinders begonnen.
+Der benötigte optimale Verlauf der Ansteuerfunktion für das
+Schmiedeventil wird dabei während des aktuellen Pressenhubes
+berechnet.
+
+Die theoretisch gefundenen Ergebnisse konnten in einer Modellrechnung
+und mit Untersuchungen an einer Versuchsanlage bestätigt werden.</abstract>
+                    <abstract type="content" lang="eng">Hydraulic open-die forging presses are widely used in industrial production
+processes for the forming of large steel workpieces. The process
+demand of achieving a given forming dimension (forging dimension) is
+satisfied here using simple iterative correcting approximation algorithms.
+This system, however, results in relatively large deviations in the initial
+press strokes.
+
+The present dissertation describes a process that enables this disadvantage
+to be eliminated.
+
+By measuring the curves of the forming stroke and press pressure during
+the momentary forming process, it is possible to predict the curves of
+these parameters over time using a real-time parameter approximation
+process. A prediction model calculates cyclically the forging dimension
+that can be achieved at the present time. When the press reaches the
+position calculated by the model, relief of the working cylinder starts. The
+optimum curve of the control function for the forging valve required is
+thereby calculated during the momentary press stroke.
+
+The theoretically calculated results have already been validated by
+means of a model calculation and in tests on a trial press plant.</abstract>
+                    <subject>
+                        <topic>Hydraulik</topic>
+                        <topic>Schmieden</topic>
+                        <topic>Prädiktion</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1972</identifier>
+                    <identifier type="sys">HT014821875</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_197</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2005-11-28</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_197">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/197/1/noetzel.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_197"
+            DMDID="DMD_siegen_opus_197">
+            <mets:fptr FILEID="FILE0_siegen_opus_197"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

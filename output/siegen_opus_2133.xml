@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_2133">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Are lovers ever one? Reconstructing the union theory of love</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schmidt, Elke Elisabeth</displayForm>
+                        <namePart type="family">Schmidt</namePart>
+                        <namePart type="given">Elke Elisabeth</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Current analytical philosophies of romantic love tend to identify the essence of such love with one specific element, such as concern for the beloved person, valuing the beloved person or the union between the lovers. This paper will deal with different forms of the union theory of love which takes love to be the physical, psychic or ontological union of two persons. Prima facie, this theory might appear to be implausible because it has several contra-intuitive implications, and yet, I submit, it is more coherent and attractive than it seems to be. I shall distinguish three specific models and thereby offer a differentiated account of the union theory which has not previously been provided in the literature (1). I will claim that two of these models (the strong ontological model and the striving model) should be rejected (2). I shall then defend the third model (the moderate ontological model) against certain possible objections (3); but nevertheless, I shall conclude by showing how this model, too, faces further significant objections which ultimately expose the limits of the union theory of love (4). In conclusion, I will sketch the outlines of a non-reductive cluster theory of love.</abstract>
+                    <subject>
+                        <topic>Romantische Liebe</topic>
+                        <topic>Love</topic>
+                        <topic>Emotion</topic>
+                        <topic>Union</topic>
+                        <topic>Ontology</topic>
+                        <topic>Definition</topic>
+                        <topic>Cluster</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-21335</identifier>
+                    <accessCondition type="use and reproduction">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_2133</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_2133">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/2133/1/Schmidt_Are_lovers_ever_one.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_2133"
+            DMDID="DMD_siegen_opus_2133">
+            <mets:fptr FILEID="FILE0_siegen_opus_2133"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

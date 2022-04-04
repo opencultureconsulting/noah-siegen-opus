@@ -1,0 +1,65 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>724</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">On GPS based attitude determination</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">GPS-basierte Lagebestimmung</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Zhen</pc:foreName>
+            <pc:surName>Dai</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">GPS</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Lagebestimmung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Kalman-Filter</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Mehrantennensystem</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Global positioning system</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">attitude determination</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Kalman filter</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">multi-antenne system</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">621</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Das TerraSAR-X/PAMIR Experiment ist ein Raum- und Luftfahrt basiertes bistatisches Synthetisches-Apertur-Radar (SAR) Experiment, in welchem der deutsche Erdbeobachtungssatellit TerraSAR-X als Sender und das Fraunhofer-FHR Flugradarsystem PAMIR als Empfänger fungieren. Durch den unabhängigen Betrieb von Sender und Empfänger bildet die hochgenaue Bestimmung der Position, Geschwindigkeit und Lage insbesondere des Empfängers auf dem Flugzeug eine zwingend notwendige Vorraussetzung für die Synchronisierung, als auch für die nachfolgende Radarbildererstellung. Die genannten Parameter können unter Nutzung von GPS (Global Positioning System) bestimmt werden. Diese Dissertation beschäftigt sich mit der Lagebestimmung durch ein GPS-Mehrantennensystem unter der zusätzlichen Verwendung eines konstanten Drehratenmodells. &#13;
+Die trägerphasenbasierte differenzielle Positionierung stellt ein typisches Verfahren zur hochgenauen Positionierung dar. Eine Vorraussetzung für die Verwendung von Trägerphasendaten ist die Erkennung und Korrektur von Cycle-Slips. Basierend auf einer Analyse von traditionellen Zweifrequenz-Ansätzen wurde in dieser Arbeit ein neuartiger Algorithmus für die Cycle-Slip Erkennung, Bestimmung und Validierung für ein Dreifrequenz-GPS entwickelt.  &#13;
+Die differentielle Positionierung kann für die Lagebestimmung mit einem GPS-Mehrantennensystem erweitert werden. Hierfür wurde eine Software für die Postprozessierung von GPS Rohdaten entwickelt. Um die, aufgrund eines relativ kleinen Antennenabstandes auf dem Flugzeugrumpf, eingeschränkte Genauigkeit zu erhöhen, kann das GPS Mehrantennensystem zusammen mit einem konstanten Drehratenmodell innerhalb eines Kalman-Filters integriert werden. Nach Vergleich unterschiedlicher nichtlinearer Kalman-Filter in Bezug auf Genauigkeit und Rechenlast, wurde das erweiterte Kalman-Filter als geeignete Methode für diese Anwendung ausgewählt. Allerdings kann die Approximation der realen Dynamik durch ein konstantes Drehratenmodell zu Fehlern führen. Daher wird ein adaptiver Interaktiv-Multiple-Modell-Ansatz vorgeschlagen, um die von Modellübergängen verursachten Fehler zu reduzieren und das Prozessrauschen autonom zu optimieren. &#13;
+Die Genauigkeit der Positions-, Lage- und Geschwindigkeitsparameter aus GPS wird bestimmt, um die Fortpflanzung dieser Fehler auf die Parameter der Radar-Bewegungskompensation zu analysieren. Basierend auf einer geometrischen Darstellung des Radar-Antennen-Phasenzentrum (APC) in Bewegungs-/ und Querrichtungen wurde eine Reihe von Fehleranalysen durchgeführt, um die potentiellen Fehler der Dopplermittelfrequenz und des APC Positionsfehler abzuleiten.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The TerraSAR-X/PAMIR experiment is a spaceborne/airborne hybrid bistatic synthetic aperture radar (SAR) experiment using the German earth-observation satellite TerraSAR-X as transmitter and the Fraunhofer-FHR's airborne radar system PAMIR as receiver. Due to the independent operation of the transmitter and receiver, accurate position, attitude and velocity parameters of the airborne platform serve as necessary parameters for the synchronization procedure and the subsequent generation of radar images. All these parameters can be obtained by using Global Positioning System (GPS) system. This thesis highlights the attitude determination technique using GPS multi-antenna system augmented by a constant angular rate model.&#13;
+Differential positioning technique with carrier phase data is usually applied for accurate positioning. Cycle-slip detection and repair are prerequisites for processing the carrier phase data. By analyzing and refining the traditional dual-frequency approaches, a novel algorithm is elaborated for cycle-slip detection, determination and validation in triple-frequency GPS. &#13;
+The differential positioning technique can be expanded onto the multiple GPS antennas for attitude determination. Regarding to this technique, a software package is developed and presented to process the GPS raw data in a post-processing. In order to improve the accuracy limited by the short antenna space on the airplane fuselage, the GPS multi-antenna system can be incorporated with a constant angular rate model through Kalman filters for less-maneuvering airplanes. By comparing different nonlinear Kalman filters in terms of the estimation accuracy and the computational burden, the extended Kalman filter is identified as a proper choice for this application. However, approximating the real dynamics by a constant angular rate model might lead to mismodeling errors. An adaptive interacting multiple-model approach is proposed to reduce the model transition errors as well as to tune the process noise online for an improved accuracy. &#13;
+The precision of position, attitude and velocity parameters obtained from GPS is calculated first in order to analyze the error propagation from GPS measurements to the parameters for radar motion compensation. Based on a geometric representation of the radar Antenna Phase Center (APC) in the along/cross-track frame, a series of error analysis is carried out to derive the potential errors on the Doppler centroid frequency and the positioning error of the APC.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2013-01-31</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2013</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-7248</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>NRW-Zentrum für Sensorsysteme (ZESS)</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="dai_diss_2013.pdf" ddb:fileSize="4447858"/>
+   <ddb:checksum ddb:type="MD5">d852b2bb17fd74ea0f7a209fec93a395</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/724/1/dai_diss_2013.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/724</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

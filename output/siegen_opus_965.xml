@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_965">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Zur Ermittlung von hydrologischen Bemessungsgrößen an Flussmündungen mit Verfahren der multivariaten Statistik</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Deriving hydrological design parameters at river confluences with the application of multivariate statistical methods</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bender, Jens</displayForm>
+                        <namePart type="family">Bender</namePart>
+                        <namePart type="given">Jens</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Bemessung von Hochwasserschutzbauwerken am Zusammenfluss von Gewässern stellt Ingenieure vor besondere Herausforderungen, da die gängigen univariaten statistischen Verfahren zur Ermittlung der Belastungsparameter nicht angewendet werden können. Dennoch besteht auch in Mündungsbereichen die Notwendigkeit eines sicheren und wirtschaftlichen Hochwasserschutzes. Diese Dissertation befasst sich mit der Ermittlung von Bemessungsgrößen für die Dimensionierung solcher Bauwerke unter Verwendung multivariater statistischer Verfahren. Zunächst werden in dieser Arbeit grundlegende Einflussfaktoren untersucht, die bei der statistischen Ermittlung von hydrologischen Bemessungsgrößen eine Rolle spielen. Dies ist zum einen die Diskretisierungszeitspanne der verwendeten Abflusszeitreihen und zum anderen mögliche Instationaritäten in den zu untersuchenden Parametern. Für die Ermittlung der hydrologischen und hydraulischen Belastungszustände im direkten Bereich des Zusammenflusses zweier Gewässer wird ein methodischer Ansatz entwickelt, der unter Verwendung von Copula-Funktionen auf der Überlagerung von Quantil-Isolinien beruht, wodurch es möglich ist, das zeitgleiche oder auch zeitlich versetzte Auftreten von Extremereignissen in den statistischen Untersuchungen zu berücksichtigen. Weiterhin wird auf Basis einer breiten Datengrundlage ein Ansatz erarbeitet, mit dem die kombinierte Hochwasser-wahrscheinlichkeit an Gewässermündungen bestimmt werden kann, an denen keine langjährigen Abflussbeobachtungen vorhanden sind. Diese Arbeit liefert somit einen bedeutenden Beitrag für die verlässliche Ermittlung von bemessungsrelevanten Hochwasserabflüssen zur Bemessung von Schutzbauwerken.</abstract>
+                    <abstract type="content" lang="eng">The design of flood protection structures in the direct reach of river confluences is exceptionally challenging for engineers. This is mainly because commonly applied univariate statistical methods are not valid to derive the hydrological design parameters. In this thesis various aspects are investigated to determine hydrologic and hydraulic parameters for the design of flood protection structures in the direct reach of river confluences to meet safety and economic requirements. First, general aspects influencing statistical analyses of hydrological time series are investigated. Therefore, the influence of different discretisation time spans of discharge time series as well as non-stationarities of the univariate parameters on statistically derived design values are explored. The main focus of the thesis is on estimating design events for flood protection structures in the direct reach of river confluences. A new methodology is introduced for cases where long discharge time series are available at both rivers the main stream and the tributary. The approach uses Copula functions and is based on overlapping quantile-isolines for the derivation of bivariate design events if the variables to be modeled not necessarily occur simultaneously. For river confluences where no discharge time series are available, a general approach is developed to estimate the discharge combinations of both streams in the context of joint occurrence. This thesis provides a significant contribution to the reliable identification of design relevant flood discharges at river confluences.</abstract>
+                    <subject>
+                        <topic>Mündung</topic>
+                        <topic>Copulas</topic>
+                    </subject>
+                    <classification authority="ddc">624</classification>
+                    <classification authority="ioo" displayLabel="Forschungsinstitut Wasser und Umwelt"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-9655</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_965</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2015-09-03</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_965">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/965/1/Dissertation_Jens_Bender.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_965"
+            DMDID="DMD_siegen_opus_965">
+            <mets:fptr FILEID="FILE0_siegen_opus_965"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,98 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_733">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Einsatz der PMD-Kamera in der mobilen Robotik für die Hinderniserkennung und -vermeidung sowie für die Selbstlokalisierung</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Use of the PMD camera in mobile robotics for obstacle detection and obstacle avoidance as well as for self-localization</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Prusak, Alexander</displayForm>
+                        <namePart type="family">Prusak</namePart>
+                        <namePart type="given">Alexander</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Diese Arbeit befasst sich mit der Hindernis- und Fahrwegerkennung, der Hindernisvermeidung sowie mit der Selbstlokalisierung eines mobilen Fahrzeugs. Während dafür bisher 2D-Laserscanner, 3D-Laserscanner oder Stereovision eingesetzt wurden, wird hier die Anwendung der PMD-Kamera gezeigt.
+
+Als Experimentierplattform wurde ein mobiler Roboter mit Differentialantrieb (Tom3D) und ein weiterer mobiler Roboter mit Ackermannantrieb (Merlin3D) vorgestellt. Beide mobilen Fahrzeuge sind mit der gleichen Systemarchitektur ausgestattet und besitzen je einen Embedded-PC für Sensordatenverarbeitung, Bildverarbeitung und Kommunikation sowie einen Mikrocontroller C167 für Geschwindigkeitsregelung und Hindernisvermeidung. Für die Geschwindigkeitsregelung und für die grobe Selbstlokalisierung kommen Rad-Encoder zum Einsatz. GPS- und Inklinations-sensoren dienen zur Unterstützung der Selbstlokalisierung. Der Zugriff auf das mobile Fahrzeug durch den Operator ist einerseits als manuelle Steuerung möglich oder kann andererseits per Wireless-LAN (WLAN) realisiert werden. Eine Telepräsenz bzw. Telemetrie via Mobilfunk oder Satellitenfunk ist denkbar.
+
+Eine PMD-Kamera zusammen mit einer 2D-Kamera wurde mit einem definierten Neigungswinkel in das mobile Fahrzeug integriert. Dabei wurden der Eindeutigkeitsbereich (7,5 m), der optische Öffnungswinkel und die Montagehöhe der PMD-Kamera berücksichtigt. Aus dieser Perspektive nimmt die PMD-Kamera stets Hindernisse und Fahrweg des Frontbereichs des mobilen Fahrzeugs insgesamt auf. Eine Unterscheidung zwischen Hindernissen und Fahrweg innerhalb des PMD-Videobildes ist notwendig. Auch muss zwischen sog. negativen und positiven Hindernissen differenziert werden. Für eine echtzeitfähige Separierung von Fahrweg, negativen und positiven Hindernissen müssen bei jedem PMD-Videobild der Neigungswinkel der PMD-Kamera sowie der Pitch- und der Roll-Winkel des mobilen Fahrzeugs berücksichtigt werden.
+
+Nach erfolgter Extrahierung der negativen und positiven Hindernisse wird das PMD-Videobild in gleich große vertikale Segmente unterteilt. Daraus wird das Segment (Segment-Nummer) ermittelt, welches die kleinste Distanz inne hat. Die Segment-Nummer und der minimale Distanzwert stellen die linguistischen Eingangsvariablen zweier Fuzzy-Logic-Reger dar. Nach der Fuzzifizierung folgt die Fuzzy-Inferenz, in der die Fahrmanöver zur Hindernisvermeidung linguistisch formuliert sind. Die daraus resultierenden Ergebnisse werden in der Defuzzifizierung schließlich in konkrete Motorsteuerungssignale umgesetzt. Mit Hilfe dieser Schritte ist eine Navigation ohne Umgebungskarte und ohne Pfad- bzw. Bahnregelung realisierbar. Das mobile Fahrzeug kann damit bereits für ungesteuertes Fahren bzw. Zufallsfahren für Explorationsaufgaben genutzt werden.
+
+Erst mit der Verfügbarkeit einer Selbstlokalisierung, hier speziell der relativen Selbst-lokalisierung und Koppelnavigation, sind Pfad- / Bahnfahren und Kartengenerierung möglich. Fahrbewegungen eines mobilen Fahrzeugs können durch Lageänderungen von Objekten bzw. deren markanten Merkmalen innerhalb der PMD-Videobildfolge einer PMD-Kamera beobachtet werden. Diese Lageänderungen gilt es stets innerhalb zweier aufeinander folgender PMD-Videobilder zu bestimmen. Proble-matisch dabei ist jedoch, die markanten Merkmale des ersten PMD-Videobildes im zweiten PMD-Videobild wieder zu finden und einander zuzuordnen. Aus diesen Lageänderungen können dann Translationsvektor und Rotationsmatrix bzw. die Poseänderung (Position und Orientierung) des mobilen Fahrzeugs errechnet werden.
+
+Markante Merkmale innerhalb der beteiligten PMD-Videobilder lassen sich u.a. mit Hilfe des sog. Moravec- bzw. Interest-Operators extrahieren. Die Korrespondenz-bildung zwischen beiden Merkmalspunktmengen kann nun mit Hilfe der Euklidischen Distanz bzw. der Euklidischen Norm erfolgen. Auf Basis dieser Paarbildungen können mittels der Einheitsquaternionen-Methode für 3D-Bewegungen oder mittels der HAYAI (Highspeed And Yet Accurate Indoor/outdoor-tracking) -Methode für 2D-Bewegungen nun die gesuchte Rotationsmatrix und anschließend der Translationsvektor bestimmt werden. Translationsvektor und Rotationsmatrix weisen Fehler auf, die mit Hilfe der ICP (Iterative Closest/Corresponding Points) -Methode iterativ verringert werden können.
+
+Einfache Fahrmanöver, Hinderniserkennung und -vermeidung, Selbstlokalisation, Pfad- / Bahnfahren, usw. lassen sich miteinander kombinieren und somit teilautonome Funktionen kreieren. Eine hierarchische Zusammenstellung zeigt den Übergang von reiner Fernsteuerung, über teilautonome und autonome Funktionen bis hin zu brauchbaren Dienstleistungen eines mobilen Fahrzeugs.</abstract>
+                    <abstract type="content" lang="eng">The subject of this thesis is the obstacle and driveway recognition, the obstacle avoidance and the self-localization of a mobile vehicle. In the past therefore were used 2D, 3D laser scanner and stereo vision. This thesis shows the application of the PMD camera.
+
+As experimental platform was presented a mobile vehicle with differential drive (Tom3D) and another vehicle with Ackermann-drive (Merlin3D). Both mobile vehicles are equipped with the same system architecture, and each has an embedded PC for sensor data processing, image processing and communications, as well as a C167 microcontroller for speed control and obstacle avoidance. For the speed control and for a rough estimate of self-localization there are used wheel encoders. GPS and inclination sensors provide the self-localization. The access to such a mobile vehicle by the operator is possible as a manual control or can be realized by Wireless-LAN (WLAN). A tele-presence respectively telemetry is conceivable via mobile radio or satellite radio.
+
+A PMD camera and a 2D camera were integrated with a defined inclination angle onto the mobile vehicle. The unambiguity interval of 7.5 m, the optical field of view and the mounting height of the PMD-camera were considered. From this perspective, the PMD camera always records obstacles and driveway together in the front area of the mobile vehicle. There must be a differentiation between obstacles and the driveway within the PMD-video image. It also applies to differentiate between so-called negative and positive obstacles. For a real-time separation of driveway, negative and positive obstacles at every PMD video image must consider the inclination angle of the PMD-camera, as well as pitch and roll angle of the mobile vehicle.
+
+After successful extraction of the driveway and negative and positive obstacles inside the PMD-video image, it is divided into equal vertical segments. The segment (segment number) with the smallest distance will be selected.
+
+The segment number and the minimum distance value are the linguistic input variables for the Fuzzy-Logic-Controller. After the fuzzification of these values follows the fuzzy-inference, in this are the driving manoeuvres linguistically formulated for obstacle avoidance. Finally within the defuzzification the result data are converted into concrete motor control signals. With the help of these steps navigation is realizable without environment map and without path or driveway control. The mobile vehicle thereby can be already used for uncontrolled driving or random driving for tasks of exploration.
+
+Only with the availability of a self-localization, here specifically the relative self-localization, path driving and map generation are possible. Movements of a mobile vehicle can be observed by position changes of objects or their significant features within the continuous PMD image sequence of a PMD camera. These position changes must be determined within two sequential PMD video images. The problem is, however, to find the significant features of the first PMD video image again in the second PMD video image and assign them to each other. From these position changes the translation vector and rotation matrix respectively the pose change (position and orientation) of the mobile vehicle can be calculated.
+
+Significant features within the participating PMD-video images can be extracted with the help of the so-called Moravec- respectively Interest-operator. Now the correspondence between two feature point sets can be done by using the Euclidean distance respectively Euclidean norm. Based on these pairings, and by using the Unit-Quaternion-Method for 3D movements or by using the HAYAI-Method for 2D movements can be determined the desired rotation matrix and thereafter the translation vector. Translation vector and rotation matrix still have errors, which can be reduced iteratively by using the ICP-Method.
+
+Simple manoeuvres, obstacle detection, obstacle avoidance, self-localization, path driving, etc. can be combined with each other and thus create semi-autonomous functions. A hierarchical compilation will show the transition from pure remote control, via semi-autonomous and autonomous functions to useful services with the help of a mobile vehicle.</abstract>
+                    <subject>
+                        <topic>Mobiler Roboter</topic>
+                        <topic>Mobiler Roboter</topic>
+                        <topic>Navigation</topic>
+                        <topic>PMD-Kamera</topic>
+                        <topic>3D-Bildverarbeitung</topic>
+                        <topic>Quaternion</topic>
+                        <topic>Mobile robots</topic>
+                        <topic>navigation</topic>
+                        <topic>PMD camera</topic>
+                        <topic>3D image processing</topic>
+                        <topic>quaternion</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-7330</identifier>
+                    <identifier type="sys">HT017628427</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_733</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2012-11-20</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_733">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/733/1/prusak.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_733"
+            DMDID="DMD_siegen_opus_733">
+            <mets:fptr FILEID="FILE0_siegen_opus_733"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

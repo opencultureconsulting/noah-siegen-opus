@@ -1,0 +1,181 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_401">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Concepts elaboration and system architectures for mining very large image archives</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Konzeptanfertigung und Systemarchitekturen für Mining sehr grosser Bilddateien</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gómez Muñoz, Inés María</displayForm>
+                        <namePart type="family">Gómez Muñoz</namePart>
+                        <namePart type="given">Inés María</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2009</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">During the last decades, satellite technology has been outstandingly
+improved, providing huge amounts of Earth Observation (EO) data to
+be processed and stored. The availability of very high resolution
+sensors has encouraged the birth of new domains for remote sensing
+applications. Relatively new fields in this frame are Image
+Information Mining (IIM) and Content Based Image Retrieval (CBIR).
+These fields are born to provide solutions for querying very large
+EO archives by content. This dissertation tries to contribute on the
+IIM domain, providing new image processing algorithms and
+optimization processes for mining image databases.
+
+The study of an IIM system can be focused on signal processing
+methods, data compression, semantic knowledge discovery,
+human-machine interaction or system architecture design. Thus, the
+system can be divided in three modules: on one hand, we have the
+off-line tasks, consisting of signal and image processing methods.
+The extracted information of these algorithms is based on a
+hierarchical Bayesian representation, and usually, is very time
+consuming. On the other hand, we explore the on-line actions that
+are performed at real time through an interaction with the user.
+Finally, an optimal software architecture where all these concepts
+are merged has to be studied. In this thesis, contributions on these
+three modules are provided.
+
+We begin studying multi temporal high resolution image analysis
+under different illumination conditions and strong background
+clutter. The aim is to build a target detection map through a
+synergy of image processing methods. However, we can be faced with a
+common problem while extracting information from EO data, which is
+the estimation of parameters. Often the accuracy of the methods is
+strongly dependent on the selection of parameters and it is
+difficult to a priori know the optimum one. This is the motivation
+for the second contribution that deals with this problem. To cope
+with it, we implement an algorithm based on clustering features that
+uses information and rate distortion theories to help in the
+assessment of parameters.
+
+One of the main characteristics of an IIM system, is its potential
+to learn though human interaction. The user provides some examples
+of his interests, and based on them, the system learns his
+preferences, searches for them in large archives, and returns
+similar contents to the user provided ones. In this framework, we
+developed a multiple classifier, that enables the user to provide
+more than one example type. Thus, the system will be queried for
+different features, refining the query results and search accuracy.
+
+In order to be an operable and useful system, all new features
+proposed in this dissertation have to be accomplished in a modular
+system architecture. The system, from the software design point of
+view, must be opened, standard compliant and accessible though
+Internet. The software architecture design of the IIM system is the
+last contribution of this thesis. For building the system, we have
+to consider the following aspects:
+  - how to manage the large data volume of original and processed
+images;
+  - the automatization of tasks as loading new data, extracting features
+or generation of thematic maps;
+  - how to adapt the system to the user knowledge, that is, the image
+interpretation has to be adapted to the symbols the users are able
+to recognize and to the specific semantics of their domains;
+  - how to perform the man-machine communication through a continuous
+interaction and exchange of knowledge.</abstract>
+                    <abstract type="content" lang="ger">Die Studie von einem IIM System enthält verschiedene Module:
+Prozesssignale, Daten-komprimierung, semantische Kenntnissuche,
+Mensch-Maschine Interaktion oder Aufbau der Systemarchitektur. Somit
+kann das System in drei Komponenten aufgeteilt werden: auf einer
+Seite haben wir die offline-Aufgaben, das sind Methoden zur Signal-
+und Bildverarbeitung. Die mit diesen Methoden extrahierte
+Information ist auf einer Bayesschen hierarchischen Darstellung
+basiert, und diese Algorithmen sind normalerweise sehr
+zeitaufwendig. Auf der anderen Seite, untersuchen wir die
+Online-Aufgaben, die in Echtzeit durch ein benutzerinteraktives
+Lernen ablaufen. Zuletzt muss eine optimale Softwarearchitektur, wo
+alle die Konzepte integriert sind, studiert werden. Beiträge zu
+diesen drei Modulen sind im Rahmen dieser Doktorarbeit geleistet.
+
+Wir fangen mit der Implementierung neuer Algorithmen für Erkennung
+des Targets durch Änderungsanalyse von Mehrzeit- hyperspektralen
+Hochauflösungsbilder unter verschiedenen Lichtbedingungen und
+starken Hintergrundstördaten an. Unser Ziel ist es, eine
+Zielerkennungskarte durch die Synergie von Bildanalysealgorithmen zu
+bilden. Wenn wir Eigenschaften von Fernerkundungsdateien
+extrahieren, werden wir allerdings das Problem der
+Parameterabschätzung auflösen müssen. Die Genauigkeit der
+Methoden ist oft von der Parameterauswahl stark abhängig, und
+normalerweise ist es sehr kompliziert, von vornherein die optimale
+Parameterkombination zu kennen. Das ist die Motivation für den
+zweiten Beitrag dieses Dissertation: wir implementieren einen
+Algorithmus, der durch Informations- und Rate Distortionstheorie die
+Parameterqualität auswerten kann.
+
+Eine der Haupteigenschaften eines IIM Systems ist seine Fähigkeit,
+über Benutzerinteraktion zu lernen. Der Benutzer liefert Beispiele
+seiner Interessen und das System lernt die Benutzerbevorzugungen,
+sucht nach Bildern mit ähnlichem Inhalt auf der Datenbank. In
+diesem Rahmen, steht die Entwicklung eines neuen
+Mehrfach-klassifizierers, die es dem Benutzer erlaubt, mehr als
+einen Beispielstyp in das System einzugeben. Das System wird
+dementsprechend über unterschiedliche Eigenschaften abgefragt, was
+die Ergebnisse der Abfrage und die Suchgenauigkeit erheblich
+verbessert. Das bildet den dritten Beitrag dieser Doktorarbeit.
+
+Um ein betriebsbereites und anwendbares System zu bilden, sind die
+obengenannten Beiträge in eine modulare Systemarchitektur zusammen
+zu bringen. Das System muss von dem Standpunkt des Software Design
+offen, standardkonform und über das Internet zugänglich sein.
+Das Design der Softwarearchitektur des IIM Systems ist der letzte
+Beitrag dieser Dissertation. Um das System erfolgreich aufzubauen,
+müssen wir folgendes beachten:
+  - wie riesige Datenmengen von originalen und prozessierten Bilddaten
+zu verwalten sind;
+  - wie die Automatisierung der Aufgaben, z.B. das Aufladen einer neuen
+Datei, die Eigenschaftenextraktion oder die Erzeugung  von
+thematischen Karten zu verwirklichen ist;
+  - wie das Systemanpassung an der Benutzerkenntnis ermöglicht wird
+(d.h. die Bildinterpretation muss an den Systemsymbolen angepasst
+werden, die der Benutzer erkennt, und an der spezifischen Semantik
+seines Bereiches);
+  - wie die Mensch-Maschine Kommunikation durch eine duchgehende
+Interaktion und Kenntnisaustausch durchgeführt wird.</abstract>
+                    <subject>
+                        <topic>Data Mining</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <classification authority="ioo" displayLabel="NRW-Zentrum für Sensorsysteme (ZESS)"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4012</identifier>
+                    <identifier type="sys">HT016075632</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_401</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2009-07-07</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_401">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/401/1/gomez.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_401"
+            DMDID="DMD_siegen_opus_401">
+            <mets:fptr FILEID="FILE0_siegen_opus_401"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

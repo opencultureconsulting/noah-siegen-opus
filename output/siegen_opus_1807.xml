@@ -1,0 +1,57 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1807">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Infrastructural media and public media</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schüttpelz, Erhard</displayForm>
+                        <namePart type="family">Schüttpelz</namePart>
+                        <namePart type="given">Erhard</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The first issue starts with a programmatic article by Erhard Schüttpelz about Infrastructural Media and Public Media in which he addresses some basic ideas of the Collaborative Research Center Media of Cooperation. He points out that practice theory cannot be reduced to the study of practices. Instead the theoretical program of practice theory demands to give practice priority to all other theoretical entities. With reference to research in social informatics and the concept of “boundary objects” by Susan Leigh Star, cooperation can be defined as mutual making of joint goals, means, and processes with or without consensus. Infrastructural media are made by and for cooperative work procedures and are the sources of public media that give rise to anonymous and private communication. Thus the analytical division of media production, distribution, and reception has to give way to an approach that historicizes them together. Digital media are an unprecedented fusion of administrative and public media. Against the background of a revised historiography current digital linked media and digital media practices appear much more plausible, and their prospective potential can be estimated in a better way.</abstract>
+                    <subject>
+                        <topic>Infrastructural media</topic>
+                    </subject>
+                    <classification authority="ddc">302</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-18075</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1807</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1807">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1807/4/Sch%c3%bcttpelz_Infrastructural_media.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1807"
+            DMDID="DMD_siegen_opus_1807">
+            <mets:fptr FILEID="FILE0_siegen_opus_1807"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

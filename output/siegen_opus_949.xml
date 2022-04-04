@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_949">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Nach Hause? : Rückkehrprozesse von Pflegekindern in ihre Herkunftsfamilie</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schäfer, Dirk</displayForm>
+                        <namePart type="family">Schäfer</namePart>
+                        <namePart type="given">Dirk</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Petri, Corinna</displayForm>
+                        <namePart type="family">Petri</namePart>
+                        <namePart type="given">Corinna</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Pierlings, Judith</displayForm>
+                        <namePart type="family">Pierlings</namePart>
+                        <namePart type="given">Judith</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Der Rückkehrprozess von Pflegekindern in ihre Herkunftsfamilien beschreibt einen besonders komplexen Vorgang, der auch die Zeit vor und nach einer Rückkehr umfasst. Ein Rückkehrprozess löst große Veränderungen aus: in der Pflegefamilie und in der Herkunftsfamilie. Er stellt Kinder und Erwachsene vor erhebliche Herausforderungen. Der vorliegende Abschlussbericht fasst die Ergebnisse aus dem Praxisforschungsprojekt &quot;Rückkehrprozesse von Pflegekindern in ihre Herkunftsfamilie&quot; zusammen.</abstract>
+                    <subject>
+                        <topic>Pflegekind</topic>
+                        <topic>Pflegekinder</topic>
+                        <topic>Rückkehr</topic>
+                        <topic>Fallanalysen</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-9499</identifier>
+                    <identifier type="sys">HT018801146</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_949</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_949">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/949/1/Dirk_SchAfer_Corinna_Petri_Judith_Pierlings.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_949"
+            DMDID="DMD_siegen_opus_949">
+            <mets:fptr FILEID="FILE0_siegen_opus_949"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_993">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Multichannel analysis of medium grazing angle sea clutter for airborne microwave radar systems</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Mehrkanalige Analyse von Seeclutter für fluggetragene Radarsysteme im Mikrowellenbereich mit mittlerem Streifwinkel</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gracheva, Valeria</displayForm>
+                        <namePart type="family">Gracheva</namePart>
+                        <namePart type="given">Valeria</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Piracy, smuggling and illegal fishery threaten the overall security on oceans and seas. These threats typically arise from small and agile boats and are distributed over large areas. To control them, small maritime targets have to be detected and observed. Maritime airborne radar systems are capable of monitoring large areas and are therefore suitable to accomplish this challenge. The detection of small boats, however, is still an unresolved task due to the small radar cross section (RCS) of these boats. Additionally, the RCS of
+sea clutter rises for high altitude platforms due to the higher grazing angle, hence targets with low signal-to-clutter plus noise ratios (SCNR) have to be
+detected. 
+In order to investigate the appropriate processing to detect small boats from airborne radars, data from experiments over the North Sea with the multichannel radar system PAMIR and a small cooperative boat is evaluated in this thesis. This analysis demonstrates on one hand that traditional processing is not sufficient to detect these maritime targets, and on the other hand that with space-time adaptive processing (STAP) superior detection performance is achieved.
+To apply STAP to a maritime airborne radar system, it is desirable to know its performance in advance. To accomplish this, the multichannel characteristics of sea clutter have to be understood. This thesis derives theoretical and simulation multichannel models by analyzing the spectral density matrix, the space-time filter and the channel correlation of sea clutter. Different multichannel properties for sea clutter compared to land clutter are demonstrated, which are due to the varying motion of sea echoes and due to different sea scattering types. An important implication of this difference is the broadening of the space-time filter notch in dependence on the sea condition. 
+To confirm the predicted properties, three measurement campaigns with the airborne radar system PAMIR were performed, where real multichannel sea data was acquired for different swell directions, two different grazing angles and significantly varying sea states. This thesis demonstrates the reproducibility of sea clutter multichannel characteristics of real data for different sea conditions with the help of calculations and simulations, which are introduced in this analysis.</abstract>
+                    <abstract type="content" lang="ger">Piraterie, Schmuggel und illegale Fischerei gefährden die allgemeine Sicherheit auf Ozeanen und Meeren. Um diese Bedrohungen einzudämmen, müssen kleine Boote auf ausgedehnten Gebieten entdeckt und beobachtet werden. Flugzeuggetragene Radarsysteme können große Flächen überwachen und sind dieser Herausforderung daher gewachsen. Aufgrund der niedrigen Radarquerschnittsfläche (RCS) der kleinen Boote, ist die Detektion dieser Ziele jedoch immer noch ein ungelöstes Problem. Zusätzlich wird bei höher fliegenden Plattformen durch den steigenden Streifwinkel mehr Leistung von der Rückstreuung des Wassers, dem sogenannten Seeclutter, empfangen. Es müssen somit Ziele mit einem niedrigen Signal-zu-Clutter plus Rausch Verhältnis (SCNR) detektiert werden.
+
+Um ein geeignetes Verfahren zur Detektion von kleinen Booten mit flugzeuggetragenen Radarsystemen zu finden, wurden in dieser Arbeit reale Messdaten verarbeitet. Diese wurden während mehrerer Experimente über der Nordsee mit dem mehrkanaligen Radarsystem PAMIR und einem kleinen kooperativen Boot aufgenommen. Die Analyse dieser Daten zeigt zum einen, dass traditionelle Signalverarbeitungsmethoden nicht ausreichen, um das Ziel zu entdecken. Zum anderen wird demonstriert, dass mit dem sogenannten space-time adaptive processing (STAP) eine deutlich bessere Detektionsfähigkeit erreicht werden kann.
+Es ist wünschenswert die zu erreichbare Detektionsleistung bei Anwendung von STAP auf maritime flugzeuggetragene Radarsysteme im Voraus zu kennen. Da für diese Berechnung aber die mehrkanaligen Eigenschaften des Seeclutters bekannt sein müssen, wird in dieser Arbeit ein theoretisches und ein Simulationsmodell hergeleitet. Zusätzlich werden die Spektraldichtematrix, das Raum-Zeit-Filter und die Kanalkorrelation des Seeclutters analysiert. Es wird verdeutlicht, dass durch die Bewegung des Wassers und durch mehrere Streuerarten die mehrkanaligen Eigenschaften von Land- und Seedaten unterschiedlich sind.  Eine wichtige Auswirkung ist die Verbreiterung der Kerbe des Raum-Zeit-Filters bei Seedaten in Abhängigkeit vom Seegang.
+Um die hergeleiteten Eigenschaften zu validieren, wurden insgesamt drei Messkampagnen mit dem flugzeuggetragenen Radarsystem PAMIR durchgeführt, wobei reale mehrkanalige Seedaten für unterschiedliche Dünnungsrichtungen, bei zwei unterschiedlichen Streifwinkeln und  bei deutlich unterschiedlichen Wetterbedingungen gesammelt wurden. In dieser Arbeit wurden Berechnungen und Simulationen hergeleitet, die die Reproduzierbarkeit der realen mehrkanaligen Eigenschaften des Seeclutters bei verschiedenen Seegängen demonstrieren.</abstract>
+                    <subject>
+                        <topic>Spitzen-Signal-Rausch-Abstand</topic>
+                        <topic>Eigenwertanalyse</topic>
+                        <topic>Peak-signal-to-noise ratio</topic>
+                        <topic>radar</topic>
+                        <topic>Space-Time signal processing</topic>
+                        <topic>simulation methods</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="NRW-Zentrum für Sensorsysteme (ZESS)"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-9936</identifier>
+                    <identifier type="sys">HT018934023</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_993</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2016-01-18</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_993">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/993/1/Dissertation_Valeria_Gracheva.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_993"
+            DMDID="DMD_siegen_opus_993">
+            <mets:fptr FILEID="FILE0_siegen_opus_993"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

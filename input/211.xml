@@ -1,0 +1,53 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>211</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Data acquisition, event building and signal reconstruction for Compton camera imaging</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Kivanc</pc:foreName>
+            <pc:surName>Nurdan</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">DQE</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">FPGA</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Compton camera</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Nurdan, KıvanÃ§ Die Compton-Camera ist ein neues Detektorsystem zur bildlichen Darstellung von radioaktiven Markierungssubstanzen im Bereich der Gammastrahlung, das prinzipiell eine besonders gute Ortsauflosung und hohe Empfindlichkeit liefern kann. Die ist von grosser Bedeutung für die moderne bio-medizinische Forschung oder für darauf basierende diagnostische Verfahren. Dafür ist ein neues Konzept einer software-basierten Koinzidenzmessung entwickelt worden, das auf den bereits vorhandenen Datenaufnahmesystemen der Hochenergiephysik aufbaut, bei denen die Information von mehreren Tausend Kanälen von verschiedenen Detektortypen zusammengefügt werden. Auf der Basis der Digitalisierung analoger Signale durch FADCs (flash analog to digital converters), einer modernen Struktur einer ersten Stufe von Prozessoreinheiten, realisiert durch FPGAs (field programmable gate arrays) und einer erweiterbaren schnellen Busstruktur, wurde ein System aufgebaut, bei dem die Signale von einem 19-kanaligen Streudetektor und einem Absorptionsdetektor (Anger-Camera) eindeutig zusammengefügt werden konnten. Die Verwendung von Zeitmarkierungen spielte dabei eine zentrale Rolle, um die Zuordnung der Signale der Detektorkomponenten von der asynchronen Erzeugung in den synchronen Teil der weiteren Verarbeitung zu erhalten. Mit diesem Datenaufnahmesystem ist es erstmals gelungen, Signale von Silizium-Drift Detektoren, die durch Compton-Elektronen erzeugt wurden, und Signale des gestreuten Gamma-Quanten, die in dem zweiten Absorptionsdetektor erzeugt werden, zu Paaren zusammenzusetzen und damit die Streuereignisse zu rekonstruieren, wobei eine Winkelgenauigkeit von etwa 1° erreicht wurde. Diese Genauigkeit liegt nahe an dem theoretisch erwarteten Wert. Bisher gab es keine Anhaltspunkte über den Einfluss eines Prozessors auf die erzielte Qualität bei einer Bildaufnahme. Der übliche Weg über die Beschreibung einer "Detective Quantum Efficiency" (DQE) wurde daher auf diesen Prozess erweitert. Dazu wurden mit Hilfe des Monte-Carlo-Verfahrens Simulationen mit Zeitmarken über das Totzeitverhalten dieses "software"-basierten Koinzidenzsystems durchgeführt. Es konnte gezeigt werden, dass das neue System sich im Wesentlichen so verhält, als würde es durch eine "paralysierende" Totzeit bei hoheren Raten limitiert. Genauere Untersuchungen zeigen, dass dafür die Zeitdauer zur Verarbeitung eines Ereignisses in dem Prozessor und die Tiefe des Puffers massgebend sind , was für spätere Echtzeitanwendungen und Weiterentwicklungen von Bedeutung ist. Die zur Zeit verfügbare neuester Generation von Prozessoren sind aber durchaus in der Lage ohne allzu grosse Verluste den Anforderungen eines komplexen Detektors zu genügen.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Nurdan, KıvanÃ§ The Compton camera is a new detector system for imaging radioactively labeled nuclides in the range of γ-rays that can in principle provide extremely good resolution and high sensitivity. This is invaluable for the modern bio-medicine research or diagnostic studies based on it. For this system a new concept of software based coincidence measurements has been developed; inspired by the data acquisition systems built for high energy physics, where the information from thousands of channels of various detectors has to be merged. A data acquisition system based on digitizing analog signals with FADCs (flash analog to digital converters) has been built consisting of a modern structure of first level processor unit realized with FPGAs (Field Programmable Gate Arrays) and an extendable fast data bus. The developed data acquisition system is capable of collecting the signals from a 19-channel scatter detector and an absorption detector (Anger camera) unambiguously. Here the usage of time stamping plays a central role in order to attribute the asynchronous signals of detector components to synchronous event fragments for further processing. With this data acquisition system it is shown for the first time that the signals from the silicon drift detector that are generated through Compton electrons and signals of scattered gamma quants produced in the second absorption detector can be put in pairs to reconstruct scattering events where an angular resolution of approximately 1° is achieved. This precision is close to the theoretically expected value. There has been no clue on the influence of a processor on the quality of the image acquisition till now. The usual way of defining "Detective Quantum Efficiency" (DQE) has been enhanced to this process. For this purpose, Monte Carlo simulations with time stamps over the deadtime relation of this software based coincidence system have been performed. It could be shown that this new system behaves as if it was limited with a paralyzable deadtime at high rates. More detailed analysis shows that the duration of processing an event in the processor and the depth of the buffers are decisive parameters that are for future real-time applications and further development essential. However, today's available newest generation processors have the performance of fulfilling the requirements of complex detectors without considerable losses.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2006-02-15</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2006</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-2115</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 12, Elektrotechnik und Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>3</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="nurdan.pdf" ddb:fileSize="11362454"/>
+   <ddb:fileProperties ddb:fileName="abstract.pdf" ddb:fileSize="63099"/>
+   <ddb:fileProperties ddb:fileName="abst_ger.pdf" ddb:fileSize="45192"/>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/211</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

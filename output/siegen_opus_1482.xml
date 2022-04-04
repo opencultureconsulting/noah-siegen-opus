@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1482">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Pseudopotentialbasierte Lattice-Boltzmann-Verfahren für Mehrphasenströmungen</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Pseudopotential-based lattice Boltzmann methods for multiphase flows</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Küllmer, Knut</displayForm>
+                        <namePart type="family">Küllmer</namePart>
+                        <namePart type="given">Knut</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Pseudopotential (PP)-basierte Lattice-Boltzmann-Methoden werden zunehmend für die Simulation von Mehrphasenströmungen eingesetzt. Da sie auf einem phänomenologischen Ansatz basieren, ist ihr Einsatz mit einem hohen Modellierungsaufwand verbunden. Zudem entstehen an den Phasengrenzen sogenannte Scheingeschwindigkeiten, welche Genauigkeit und numerische Stabilität beeinträchtigen. Daher werden PP-Modelle in dieser Arbeit um drei neue Aspekte erweitert. Erstens wird gezeigt, dass bei der Modellierung unterschiedlicher Kontaktwinkel mit gängigen Methoden in Kombination mit verbesserten Kräfteschemata Scheintröpfchen entstehen. Diese werden durch einen neuartigen Ansatz eliminiert, der auf zusätzlichen Randbedingungen für alle Wechselwirkungskräfte basiert. Diese Technik verhindert nicht nur das Auftreten der Scheintröpfchen, sondern erhöht auch die Stabilität in wandgebundenen Strömungen. Zweitens wird ein neuartiges Verfahren zur Reduktion von Scheingeschwindigkeiten eingeführt. Dabei wird die Diskretisierung der Interaktionskräfte erweitert und die zusätzlichen, freien Koeffizienten in Simulationen statischer Tropfen numerisch optimiert. Die resultierende Diskretisierung wurde in Simulationen stationärer und dynamischer Testfälle validiert, wobei Scheingeschwindigkeiten deutlich reduziert werden konnten. Drittens und letztens wurden die Diffusionseigenschaften in Mehrstoffsystemen detailliert untersucht, wobei eine kritische Abhängigkeit zwischen den makroskopischen Diffusionskoeffizienten und dem Kräfteschema aufgezeigt wird. Diese Analyse bildet die Grundlage für den Vergleich und die zukünftige Entwicklung neuer Potentialfunktionen (für Mehrstoffsysteme) und reduziert den Modellierungsaufwand.</abstract>
+                    <abstract type="content" lang="eng">Pseudopotential (PP)-based lattice Boltzmann methods are widely used to simulate multiphase flows. As they ground on a phenomenological approach, their usage involves a high modelling effort and, additionally, they suffer from so-called spurious velocities that compromise numerical stability and accuracy. Therefore, this work advances PP-models by three novel aspects. First, the PP-model is shown to develop spurious droplets when contact angles are modelled with common approaches in combination with enhanced forcing schemes. These droplets are eliminated by a novel approach that relies on additional boundary conditions for all interaction forces. This not only prevents the spurious droplets from emerging but also increases the stability in wallbound flows. Second, a novel procedure to reduce spurious velocities is introduced. Therefore, the discretization of the interaction forces is extended and the additional free coefficients are optimized numerically using static droplet simulations. The resulting scheme is shown to greatly reduce spurious velocities and is successfully validated in stationary and transient testcases. Third and final, the diffusion characteristics in multicomponent systems are investigated in detail, revealing a critical dependency between the macroscopic diffusion coefficients and the forcing scheme. This analysis forms the basis for the comparison and development of new potential functions (in multicomponent systems) and reduces the modeling effort.</abstract>
+                    <subject>
+                        <topic>Mehrphasenströmungen</topic>
+                        <topic>Gitter-Boltzmann-Methode</topic>
+                        <topic>Shan-Chen</topic>
+                        <topic>Benetzbarkeit</topic>
+                        <topic>Phasenübergang</topic>
+                        <topic>Kontaktwinkel</topic>
+                        <topic>Lattice Boltzmann method</topic>
+                        <topic>Shan-Chen</topic>
+                        <topic>Wettability</topic>
+                        <topic>Phasetransition</topic>
+                        <topic>Contact angle</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Fluid- und Thermodynamik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-14822</identifier>
+                    <identifier type="sys">HT020159785</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1482</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2019-07-01</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1482">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1482/1/Dissertation_Knut_Kuellmer.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1482"
+            DMDID="DMD_siegen_opus_1482">
+            <mets:fptr FILEID="FILE0_siegen_opus_1482"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

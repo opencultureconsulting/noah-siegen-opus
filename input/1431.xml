@@ -1,0 +1,57 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1431</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Werkstoffmodellierung und Kennwertermittlung für die Simulation spanabhebender Fertigungsprozesse</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Benedikt</pc:foreName>
+            <pc:surName>Thimm</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Materialmodell</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Constitutive Model</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Simulation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Machining</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Material Data</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Finite Elemente Simulationen spanabhebender Fertigungsprozesse ermöglichen eine anforderungsgerechte Werkzeug- und Prozessgestaltung. Simulationsmethoden werden eingesetzt, um Zerspanversuche an Werkzeugmaschinen zu reduzieren, Entwicklungszeiten zu verkürzen und Kosten einzusparen. Den physikalischen Eingangsdaten der Simulation kommt eine besondere Bedeutung zu, da sie die Abbildungsgüte maßgeblich beeinflussen. Insbesondere das Materialgesetz und die Materialkennwerte zur Approximation der Fließspannung sind entscheidende Größen. In der vorliegenden Arbeit wird eine neue Methodik für die Kennwertbestimmung entwickelt, die auf linear-orthogonalen Zerspanversuchen basiert. Durch die Anwendung optischer Hochgeschwindigkeitsmessungen in der Zone der Spanbildung werden die Scherdehnraten im Werkstoff auf Basis eines digitalen Bildkorrelationsverfahrens (DIC) bestimmt. Zusammen mit den Prozesskräften werden die Daten genutzt, um Materialkennwerte invers zu bestimmen. Durch Split-Hopkinson- und Zylinderstauchversuche werden ergänzende Kennwertsätze bestimmt sowie das Werkstoffverhalten bei höheren Dehnraten und Temperaturen bewertet. Auf Basis der Ergebnisse wird ein modifiziertes Materialgesetz entwickelt, das Besonderheiten in den thermischen Entfestigungsverläufen der untersuchten Stahlwerkstoffe berücksichtigt. Die Kennwertsätze und Modelle werden in Simulationen eingesetzt und mit den Ergebnissen aus Zerspanversuchen verglichen.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Finite element simulation of machining processes enable cutting tool and process design for specific requirements of cutting applications. Applying simulation techniques leads to a reduction of real cutting experiments, development times and costs. The physical input data of a simulation is of special importance, since it significantly affects the simulation quality. Especially the material law and the material data for the approximation of the flow stress are important factors. In the research of this thesis a new method for the determination of material data, based on linear-orthogonal cutting tests, is developed. Applying optical high-speed measurements in the chip formation zone the shear strain rate in the material is determined by Digital Image Correlation (DIC). Together with the cutting forces this data is used to determine material data sets via an inverse approach. Split-Hopkinson as well as compression tests provide additional material data sets, the data is also used to evaluate the material behavior at increased strain rates and temperatures. Based on these results, a modified material law is presented, considering specific characteristics in the thermal softening curve of the steel material investigated. The material data sets and the material laws are applied in simulations and the results are compared with measurements from real cutting tests.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2019-02-13</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2018</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-14319</dc:identifier>
+   <dc:source xsi:type="ddb:ISBN">978-3-00-062167-3</dc:source>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dcterms:isPartOf xsi:type="ddb:noScheme">Siegener werkstoffkundliche Berichte;  21</dcterms:isPartOf>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Werkstofftechnik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Benedikt_Thimm.pdf" ddb:fileSize="39016342"/>
+   <ddb:checksum ddb:type="MD5">46a307ff76492269226091b5bab289ef</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1431/1/Dissertation_Benedikt_Thimm.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1431</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_926">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Informatikdidaktische Diskussion über das Design eingebetteter Systeme</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Jaschke, Steffen</displayForm>
+                        <namePart type="family">Jaschke</namePart>
+                        <namePart type="given">Steffen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Ausbildung künftiger Entwickler eingebetteter Systeme ist heute geprägt von einer subjektiven, kulturspezifischen Gestaltung von Lehr-Lernprozessen, welche die Ergebnisse der Kompetenzforschung zumeist nicht berücksichtigen. Es besteht Konsens, dass in Kompetenzmodellen strukturierte Kompetenzen –kognitive Fähigkeiten und Fertigkeiten, um bestimmte Probleme zu lösen –notwendig sind, um zwischen abstrakten Bildungszielen und konkreten Lehr-Lernprozessen zu vermitteln. Damit stellen die Erforschung von Kompetenzmodellen und Pfaden der Kompetenzaneignung grundlegende Forschungsbedarfe zur Hochschuldidaktik der technischen Informatik dar. In dieser Arbeit werden Konzepte zur theoretischen Fundierung von Laborpraktika der technischen Informatik entwickelt, welche auf Ergebnissen des von der Deutschen Forschungsgemeinschaft geförderten Projektes Kompetenzentwicklung mit eingebetteten Mikro- und Nanosystemen (KOMINA) aufbauen.
+
+In der vorliegenden Arbeit wird das Verständnis von eingebetteten Systemen als Teil informatischer Curricula insofern erweitert, als dass sich diese Systeme als Lerngegenstand eignen, um Kompetenzen verschiedener Informatikdisziplinen zu fördern und damit nicht auf die technische Informatik beschränkt sind. Eine Taxonomie zur Vergleichbarkeit fachdidaktischer Publikationen zu eingebetteten Systemen wird weiterentwickelt und angewandt, um institutionelle Besonderheiten sowie die Vielseitigkeit des Praxisfeldes zu erfassen. Forschungsgegenstand ist das im Rahmen von KOMINA entwickelte Entwurfs- und Anwendungspraktikum für eingebettete Systeme. Zielgruppe sind Studierende der Informatik. Es werden typische Lernhürden identifiziert, wodurch neue Erkenntnisse, über die formative Evaluation des unter Beteiligung des Autors entwickelten und durchgeführten Praktikums hinaus, gewonnen werden. Diese Erkenntnisse begründen die Notwendigkeit neuer didaktischer Konzepte und lernförderlicher Software unter Berücksichtigung institutioneller Besonderheiten sowie zielgruppenspezifischer Vorkenntnisse.
+
+Kognitive Strukturen als Komponente didaktischer Systeme werden in diesem Forschungsprojekt erforscht. Sie dienen als Basis für die informatikdidaktische Verfeinerung des in KOMINA empirisch evaluierten Kompetenzstrukturmodells für das Entwickeln eingebetteter Mikro- und Nanosysteme. Bislang wurden Erarbeitungsreihenfolgen informatorischer Fachkonzepte in didaktischen Systemen betrachtet, welche drei Funktionen besitzen. Die Orientierung der Lernenden im Fachgebiet, die Organisation zur Planung von Lehr-Lernprozessen sowie die Diskussion didaktischer Entscheidungen. In diesem Beitrag zur Grundlagenforschung zur Hochschuldidaktik der technischen Informatik steht die Diskussion didaktischer Entscheidungen bei der Gestaltung von Lehr-Lernprozessen und Pfaden der Kompetenzaneignung im Vordergrund. Deshalb werden die Anforderungen an die Darstellung kognitiver Strukturen – Ausdrucksstärke, Übersichtlichkeit und Nachvollziehbarkeit – zugunsten der Diskussion didaktischer Entscheidungen angepasst.
+
+Der Autor stellt Forschern zur Hochschuldidaktik der technischen Informatik Konzepte bereit, die es ermöglichen Fachkonzepte und Lehr-Lernprozesse zu analysieren sowie durch Anpassung an institutionelle Besonderheiten theoretisch fundiert zu gestalten. Dies sind insbesondere eine Taxonomie zur Identifikation von Lernhürden, die Methodik zur Ausdifferenzierung von Kompetenzen mit Bezug zu den identifizierten Lernhürden, die Visualisierung kognitiver Strukturen mit diesen Kompetenzen im Zentrum sowie die in der Hauptverantwortung des Autors entwickelte lernunterstützende Software Explorative Learning and Visualization Environment. Diese dient als Beispiel für den Einsatz von Simulationen in Laborpraktika der technischen Informatik. Es wird damit exemplarisch gezeigt, wie die informatikdidaktische Verfeinerung des Kompetenzstrukturmodells in Verbindung mit kognitiven Strukturen und lernförderlicher Software zur Überwindung der mithilfe der entwickelten Taxonomie identifizierten Lernhürden eingesetzt werden können.</abstract>
+                    <abstract type="content" lang="eng">Today, the education of future developers of embedded systems is characterized by a subjective, culture-specific design of teaching and learning processes. This design, mostly, does not take the results of research on competences into account. There is a consensus that competences – cognitive abilities and skills used to solve specific problems – and competence models are needed to mediate between abstract and concrete educational goals of teaching and learning processes. Therewith, the exploration of competence models and paths of competence acquisition are fundamental research needs for didactics of computer engineering at university.
+
+Within this work, based on the results of the project competence development with embedded micro- and nanosystems (KOMINA) funded by the German Research Foundation, approaches for a theoretical foundation of laboratory courses of computer engineering have been developed. Within this thesis, the understanding of embedded systems as a part of computer science curricula has been broadened since it is not limited to computer engineering. While these systems are also suitable as learning objects to promote competences within various computer science disciplines. A taxonomy to foster the comparability of research on didactics of computer engineering is further developed and applied in order to conceive institutional particularities and the versatility of the practice field. The design and application laboratory for embedded systems, developed in the context of KOMINA, is the object of research. Students of computer science are the target group. In addition to the formative evaluation of the developed laboratory the taxonomy enables the identification of typical learning barriers. These findings justify the need for new educational concepts as well as learning software, taking institutional particularities and target group specific knowledge into account.
+
+Cognitive structures as a component of Didactic Systems are investigated. As they serve as a basis for the refinement of the empirically evaluated competence structure model for the development of embedded micro- and nanosystems. So far, the sequences of teaching units have been considered in Didactic Systems, which posses three functions. The orientation of the learner in the topic, the organization of the planning of teaching and learning processes as well as the discussion of didactic decisions. In this work, regarding the contribution to basic research on didactics of computer engineering at university, the discussion of didactic decisions in the design of educational processes and paths of competence acquisition has priority. Therefore, the demands on the representation of cognitive structures – expressiveness, clarity and comprehensibility – are adjusted in favor of the discussion of didactic decisions.
+
+The author provides concepts which allow researchers to analyze technical concepts as well as to develop educational processes in a theoretically established manner. These are, in particular, a taxonomy to identify learning barriers, the methodology for the differentiation of competences related to the identified learning hurdles, and the visualization of cognitive structures with these competences at center. Additionally, the learning software Exploratory Learning and Visualization Environment, that has been developed with the author’s responsibility, is presented. This software serves as an example for the use of simulations in laboratory courses of computer engineering. Thus, the combination of the refinement of the competence structure model in conjunction with cognitive structures in addition to learning software, which can be applied to overcome the identified learning hurdles, is shown as an example.</abstract>
+                    <subject>
+                        <topic>Hochschuldidaktik</topic>
+                        <topic>Eingebettete Systeme</topic>
+                        <topic>Kompetenzmodell</topic>
+                        <topic>Entwickler</topic>
+                        <topic>embedded systems</topic>
+                        <topic>competence models</topic>
+                        <topic>didactics of computer engineering (university)</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-9260</identifier>
+                    <identifier type="sys">HT018652636</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_926</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2015-02-20</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_926">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/926/1/Dissertation_Steffen_Jaschke.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_926"
+            DMDID="DMD_siegen_opus_926">
+            <mets:fptr FILEID="FILE0_siegen_opus_926"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

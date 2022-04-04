@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1569">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Vater-los : die Partizipation von Vätern in den stationären Hilfen zur Erziehung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ruchholz, Ina</displayForm>
+                        <namePart type="family">Ruchholz</namePart>
+                        <namePart type="given">Ina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In den letzten Jahren ist die Zusammenarbeit mit Eltern und ihre Partizipation in Hilfeprozessen weiter in den Fokus der Praxis- und Fachdebatte gerückt. Es lässt sich eine Veränderung der Sichtweisen auf den Einbezug von Eltern erkennen, die sich in der Präsenz des Themas in aktuellen Diskursen und Konzeptionen zeigt. Die Bedeutung von Partizipation scheint grundsätzlich unbestritten. Inwieweit sie jedoch umgesetzt und Eltern am Hilfeprozess beteiligt werden (sollten), wird unterschiedlich eingeschätzt.
+Doch wer ist eigentlich gemeint, wenn von Eltern gesprochen wird? Ausgehend von der Annahme, dass Väter in der Praxis sowie im Kontext von Forschungsprojekten und Fachliteratur eher im Hintergrund stehen, wird in der vorliegenden Untersuchung der Blick auf Väter gerichtet, deren Kinder in Pflegefamilien und in der Heimerziehung leben. Anhand der eindrücklichen Beschreibungen von drei Vätern wird deutlich, wie sie ihre Beteiligung am Hilfeprozess und im Leben ihrer Kinder erleben. 
+In dieser Arbeit wird ein Einblick in die Perspektive von Vätern und ihren Erfahrungen in der Zusammenarbeit mit Fachkräften und Pflegeeltern gegeben. Es wird darüber hinaus sichtbar, wie (fehlende) Partizipation und die Bewältigungsversuche der Väter wechselseitig in Verbindung stehen und welche Auswirkungen durch gelungene oder verwehrte Partizipation hervorgebracht werden können.</abstract>
+                    <subject>
+                        <topic>Heimerziehung</topic>
+                        <topic>Zusammenarbeit mit Eltern</topic>
+                        <topic>Pflegekinderhilfe</topic>
+                        <topic>Heimerziehung</topic>
+                        <topic>Fürsorgeerziehung</topic>
+                        <topic>Partizipation</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-15698</identifier>
+                    <identifier type="sys">HT020451813</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1569</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1569">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1569/1/Ruchholz_Vater-los_ZPE_53.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1569"
+            DMDID="DMD_siegen_opus_1569">
+            <mets:fptr FILEID="FILE0_siegen_opus_1569"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

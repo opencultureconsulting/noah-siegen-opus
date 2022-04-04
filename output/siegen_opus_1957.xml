@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1957">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Analysis and simulation of multivariate and spatial extremes</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Analyse und Simulation von multivariaten und räumlichen Extremwerten</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Oesting, Marco</displayForm>
+                        <namePart type="family">Oesting</namePart>
+                        <namePart type="given">Marco</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The thesis consists of eight articles that have been published recently in various scientific journals. It contains contributions to the theory and statistics of max-stable processes including their representation (Chapter 2), likelihood-based inference (Chapter 3), unconditional simulation (Chapters 4, 5 and 6) and conditional simulation with applications to downscaling and statistical post-processing (Chapters 7. 8 and 9). Brief overviews over the main results in these areas and the author&apos;s contributions will be given in an introductory chapter.</abstract>
+                    <abstract type="content" lang="ger">Die kumulative Habilitationsschrift besteht aus acht Artikeln, die kürzlich in verschiedenen Fachzeitschriften veröffentlicht wurden. Sie enthält Beiträge zur Theorie und Statistik von max-stabilen Prozessen einschließlich ihrer Darstellung (Kapitel 2), likelihood-basierter Inferenz (Kapitel 3), unbedingter Simulation (Kapitel 4, 5 und 6) und bedingter Simulation mit Anwendungen für Downscaling und statistisches Post-Processing (Kapitel 7. 8 und 9). Eine kurze Übersicht über die wichtigsten Ergebnisse in diesen Bereichen und die Beiträge des Autors werden in einem einleitenden Kapitel gegeben.</abstract>
+                    <subject>
+                        <topic>Bayes-Inferenz</topic>
+                        <topic>Bayesian inference</topic>
+                        <topic>Conditional simulation</topic>
+                        <topic>Max-stable process</topic>
+                        <topic>Spectral representation</topic>
+                        <topic>Statistical post-processing</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Department Mathematik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19573</identifier>
+                    <identifier type="sys">HT021075613</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1957</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaHabil</vl:doctype>
+                        <vl:defenseDate>2020-08-13</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1957">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1957/3/Habilitationsschrift_Marco_Oesting.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1957"
+            DMDID="DMD_siegen_opus_1957">
+            <mets:fptr FILEID="FILE0_siegen_opus_1957"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

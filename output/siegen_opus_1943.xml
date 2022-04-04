@@ -1,0 +1,85 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1943">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Relationship of sensation seeking with the neural correlates of appetitive conditioning</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Tapia León, Isabell</displayForm>
+                        <namePart type="family">Tapia León</namePart>
+                        <namePart type="given">Isabell</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kramer, Onno</displayForm>
+                        <namePart type="family">Kramer</namePart>
+                        <namePart type="given">Onno</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Stark, Rudolf</displayForm>
+                        <namePart type="family">Stark</namePart>
+                        <namePart type="given">Rudolf</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Klucken, Tim</displayForm>
+                        <namePart type="family">Klucken</namePart>
+                        <namePart type="given">Tim</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Previous research has linked sensation seeking with a heightened risk for drug abuse and other risk-taking behavior. As appetitive conditioning presents a model for the etiology and maintenance of addictive behavior, investigating sensation seeking in a classical conditioning paradigm might elucidate possible pathways toward addiction within this model. Furthermore, the theoretical concept underlying sensation seeking proposes a negative relationship between reward processing and sensation seeking in only moderately arousing situations, which has been neglected by previous research.
+This study aimed to investigate this inverse relationship in moderately stimulating situations entailing reward processing using functional magnetic resonance imaging. Subjects (N = 38) participated in a classical conditioning paradigm in which a neutral stimulus (CS+) was repeatedly paired with a monetary reward, while another neutral stimulus (CS−) was not.
+Imaging results revealed a negative relationship between sensation seeking and neural responses in the insula, amygdala and nucleus accumbens during the early phase and in the dorsal anterior cingulate cortex during the late phase of conditioning. These findings suggest reduced reward learning and consequently diminished processing of outcome expectancy in appetitive conditioning in subjects with high sensation seeking scores. The results are discussed with respect to clinical implications.</abstract>
+                    <subject>
+                        <topic>Klassische Konditionierung</topic>
+                        <topic>Classical conditioning</topic>
+                        <topic>fMRI</topic>
+                        <topic>Reward</topic>
+                        <topic>Sensation seeking</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19436</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1943</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1943">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1943/3/Relationship_of_sensation_seeking.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1943"
+            DMDID="DMD_siegen_opus_1943">
+            <mets:fptr FILEID="FILE0_siegen_opus_1943"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,88 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_2118">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Machine learning with finite impulse response models</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Maschinelles Lernen mit endlichen Impulsantwortmodellen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Münker, Tobias</displayForm>
+                        <namePart type="family">Münker</namePart>
+                        <namePart type="given">Tobias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Nelles, Oliver</displayForm>
+                        <namePart type="family">Nelles</namePart>
+                        <namePart type="given">Oliver</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Ein genaues und zuverlässiges Modell ist die Grundlage für Analyse, Auslegung und Regelung von modernen Automatisierungssystemen. Es ist häufig zu kompliziert, zu teuer oder zu ungenau, diese Modelle basierend auf physikalischen Gleichungen zu entwickeln. Innerhalb der letzten Jahre hat maschinelles Lernen deutliche Fortschritte bei der Verwendung von Daten zur Erstellung dieser Modelle gemacht. Ein wesentlicher Nachteil dieser Methoden ist, dass Stabilität der identifizierten Modelle nicht garantiert ist. Daher werden in dieser Arbeit Methoden zur Identifikation basierend auf FIR Modellen untersucht. Diese enthalten keine Rückkopplung und garantieren deshalb strukturbedingt Stabilität.
+Lineare FIR Systeme bieten signifikante Vorteile aufgrund der einfachen Interpretierbarkeit ihrer Impulsantwort sowie ihrer inherenten Stabilität. In der jüngeren Literatur wurden neue Verfahren zur Vermeidung hoher Parametervarianz durch Wahl einer speziellen Tikhonov-Regularisierung vorgestellt. In dieser Arbeit werden diese Ansätze erweitert, um ein gezieltes Einbringen von Vorwissen zu ermöglichen. Die entwickelte Methode ist sowohl für Gray-Box-Identifikationsverfahren als auch für Ordnungsselektionsverfahren nutzbar. Die Anwendbarkeit wird anhand eines Laborsystems demonstriert.
+Lokale Modellnetze ermöglichen die Erweiterung linearer Identifikationsverfahren auf nichtlineare Systeme. Hierbei wird der Regularisierungsmechanismus, der im Rahmen der linearen Verfahren angewendet wird, zur Identifikation der lokalen FIR Modelle genutzt. Besonders für Identifikationsprobleme mit schlechtem Signal-Rausch-Verhältnis zeigt die Methode deutlich bessere Ergebnisse als lokale Modelle mit Rückkopplung des Ausgangs.
+Schließlich wird das maschinelle Lernen mit convolutional neural networks untersucht. Das Verhältnis zwischen diesen und blockorientierten nichtlinearen Systemen wird analysiert. Es wird eine spezifische Struktur von tiefen neuronalen Netzen basierend auf FIR Modellen als Netzbestandteilen vorgeschlagen. Bei der Identifikation des neuronalen Netzes wird der gleiche Regularisierungsansatz wie zur Identifikation linearer FIR Modelle verwendet. Es wird gezeigt, dass der Bias-Varianz-Tradeoff dadurch vorteilhaft beeinflust wird und der Ansatz auf einem aktuellen Benchmarkproblem mit den Ergebnissen von Methoden, die dem aktuellen Stand der Forschung entsprechen, verglichen. Hierbei werden vergleichbare Ergebnisse erzielt und zusätzlich glattere interne Impulsantworten und die Stabilität des Systems garantiert.</abstract>
+                    <abstract type="content" lang="eng">An accurate and reliable model is the foundation for analysis, design, and control of a modern automation system. It is often too complicated, too expensive, or too inaccurate to develop these models based on first principles. In recent years, machine learning has made tremendous progress through the usage of data to generate models. Nevertheless, a key drawback is that for the identified models there is no stability guarantee. Thus, within this thesis, methods for identifying both linear and nonlinear systems based on finite impulse response (FIR) models are investigated. These avoid feedback and thus ensure stability.
+Linear FIR models offer a compelling advantage due to the interpretability of the impulse response and inherent stability. Recently, novel methods for regularization based on a specifically designed Tikhonov regularization have been proposed. In this contribution these approaches are extended to allow for a better incorporation of existing prior knowledge. The developed method can be employed for order selection and gray-box identification. Its feasibility is demonstrated on numerical benchmarks and on a laboratory example.
+Local model networks allow for the extension of linear identification methods to nonlinear systems. Here, the regularization mechanism applied to linear systems is employed to identify local FIR models. Especially for identification problems with a low signal to noise ratio, the method performs significantly better than local model networks with feedback of the output.
+Finally, machine learning with convolutional neural networks is investigated. The relation between these and block-oriented nonlinear systems is analyzed. Then, a specific structure of a deep neural network containing FIR models as building blocks is proposed. This structure is equipped with a regularization scheme adopted from linear FIR models for the impulse responses comprised in the neural network. It is shown that the bias-variance trade-off is influenced positively on a benchmark example and achieves state-of-the-art results while additionally the internal impulse responses are smoothed and the stability of the system is guaranteed.</abstract>
+                    <subject>
+                        <topic>Systemidentifikation</topic>
+                        <topic>Systemidentifikation</topic>
+                        <topic>Maschinelles Lernen</topic>
+                        <topic>Endliche Impulsantwort</topic>
+                        <topic>LOLIMOT</topic>
+                        <topic>Neuronale Netze</topic>
+                        <topic>Identifikation</topic>
+                        <topic>Regelungstechnik</topic>
+                        <topic>Modell</topic>
+                        <topic>Neural Network</topic>
+                        <topic>System Identification</topic>
+                        <topic>Machine Learning</topic>
+                        <topic>Finite Impulse Response</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Mechanik und Regelungstechnik - Mechatronik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-21182</identifier>
+                    <identifier type="sys">HT021269643</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_2118</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2021-03-09</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_2118">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/2118/3/Dissertation_Tobias_Muenker.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_2118"
+            DMDID="DMD_siegen_opus_2118">
+            <mets:fptr FILEID="FILE0_siegen_opus_2118"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1234">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Hilfe zur Selbsthilfe? : kommunale Sozialpolitik als Korrektiv des Sozialversicherungsstaates</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Strünck, Christoph</displayForm>
+                        <namePart type="family">Strünck</namePart>
+                        <namePart type="given">Christoph</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Der deutsche Sozialstaat gilt als „Sozialversicherungsstaat“. Im Zentrum stehen die sozialen Sicherungssysteme, die sich auf die Risiken von Krankheit, Armut und Arbeitslosigkeit konzentrieren. Sie sind weniger aus sozialen, denn aus politischen Gründen im 19. Jahrhundert eingeführt worden: Um der Arbeiterbewegung den Wind aus den Segeln zu nehmen, wollten Bismarck und andere Vertreter der Obrigkeit der Arbeiterklasse etwas anbieten, um Loyalität gegenüber dem Staat zu erzeugen. Sozialpolitik war daher in erster Linie „Arbeiterpolitik“. Noch heute sind die großen, beitragsfinanzierten Sozialversicherungen eben keine Bürgerversicherungen, sondern schützen in erster Linie Arbeitnehmerinnen und Arbeitnehmer. Im Vergleich dazu liegen die Wurzeln der kommunalen Sozialpolitik in der „Armenpolitik“. Die steuerfinanzierte Sozialhilfe nach dem Fürsorgeprinzip wie auch die sozialen Dienstleistungen vor Ort beziehen alle Bürgerinnen und Bürger mit ein. Der Universalismus, ansonsten kein Strukturprinzip des deutschen Sozialstaats, findet sich also noch am ehesten in der kommunalen Sozialpolitik. Trotz schrumpfender finanzieller Spielräume sind die Kommunen auch ein viel größeres Experimentierfeld als die großen, weitgehend standardisierten Sozialversicherungen.</abstract>
+                    <subject>
+                        <topic>Deutschland</topic>
+                        <topic>Soziale Arbeit</topic>
+                        <topic>Sozialversicherung</topic>
+                        <topic>Kommunen</topic>
+                        <topic>Sozialpolitik</topic>
+                        <topic>Sozialleistungen</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-12346</identifier>
+                    <identifier type="sys">HT019893276</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1234</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1234">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1234/1/Struenck_Hilfe_zur_Selbsthilfe.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1234"
+            DMDID="DMD_siegen_opus_1234">
+            <mets:fptr FILEID="FILE0_siegen_opus_1234"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

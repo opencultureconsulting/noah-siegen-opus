@@ -1,0 +1,57 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1180">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Why there is no fact of reason in the Groundwork : three arguments</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schönecker, Dieter</displayForm>
+                        <namePart type="family">Schönecker</namePart>
+                        <namePart type="given">Dieter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bookPart</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Endless disagreements as to whether Kant defends this or that particular claim in this or that particular text have accompanied the work of Kant interpretation from the very beginning. Would one have to be regarded as disreputable and ill-disposed to think that these disagreements simply spring from the nature of the texts themselves? I think so. For while we cannot deny that there are different opinions about the question, for example, of whether Kant is already claiming the existence of a “fact of reason” in the Groundwork of the Metaphysics of Morals (GMS) before he explicidy makes this claim in the Critique of Practical Reason (KpV), it would be a genetic fallacy to conclude from this that the question is unanswerable and simply arises from the unfathomable character of the texts.</abstract>
+                    <subject>
+                        <topic>Kant, Immanuel</topic>
+                    </subject>
+                    <classification authority="ddc">100</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11809</identifier>
+                    <identifier type="sys">HT019475786</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1180</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBookPart</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1180">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1180/1/Schoenecker_Why_There_Is_No_Fact_of_Reason_in_the_Groundwork.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1180"
+            DMDID="DMD_siegen_opus_1180">
+            <mets:fptr FILEID="FILE0_siegen_opus_1180"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

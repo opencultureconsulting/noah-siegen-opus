@@ -1,0 +1,58 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1814">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>And postal services?</title>
+                        <subTitle lang="eng">The Universal Postal Union and the digitisation of communication in the 1980s</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Henrich-Franke, Christian</displayForm>
+                        <namePart type="family">Henrich-Franke</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">This paper focusses on how the postal administrations and their international organisations responded to the digitisation of communication and to electronic mail services in particular. In the 1980s, on the one hand digital data processing became part of the letter mail infrastructures in the form of automatic letter sorting systems and on the other hand electronic mail services evolved as a potential future competitor. The paper shifts emphasis from the computer and telecommunications sector to the monopolists for physical mail (letter mail). In doing so, it will show that the digitisation of communication is not only a process of permanent technological progress, but also of alignment, examination and competition by and between different forms of communication such as physical mail. The physical postal services are an interesting example of a traditional form of communication which has had to find its way into the digital era.</abstract>
+                    <subject>
+                        <topic>Postal services</topic>
+                    </subject>
+                    <classification authority="ddc">302</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-18145</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1814</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1814">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1814/4/Henrich_Franke_And_postal_services.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1814"
+            DMDID="DMD_siegen_opus_1814">
+            <mets:fptr FILEID="FILE0_siegen_opus_1814"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

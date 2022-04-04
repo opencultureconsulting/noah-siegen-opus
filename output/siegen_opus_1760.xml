@@ -1,0 +1,84 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1760">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Realization of low dose XPCS experiments for the investigation of protein dynamics</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Realisierung von XPCS-Experimenten mit niedriger Dosis für die Untersuchung der Proteindynamik</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Rahmann, Hendrik</displayForm>
+                        <namePart type="family">Rahmann</namePart>
+                        <namePart type="given">Hendrik</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Gutt, Christian</displayForm>
+                        <namePart type="family">Gutt</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Im Zytoplasma der Zelle sind Proteine von Wasser und einer Menge von Makromolekülen umgeben. Für ein quantitatives Verständnis des zellulären Systems ist die Kenntnis der dynamischen Prozesse in dieser gedrängten Umgebung von zentraler Bedeutung. Die reversible Bildung von Proteinkondensaten garantiert lebenswichtige Funktionen. Irreversible Proteinaggregationsprozesse sind für Proteinkondensationskrankheiten wie die Sichelzellanämie verantwortlich. Darüber hinaus ist die Proteindynamik in konzentrierten Lösungen relevant für die Entwicklung zukünftiger Medikamente und wichtig in der Lebensmittelindustrie. Bislang sind die statischen Eigenschaften von Proteinen in überfüllten Umgebungen gut untersucht, aber über ihre Dynamik ist wenig bekannt. 
+Die Röntgenkorrelationsspektroskopie (XPCS) ermöglicht den gleichzeitigen Zugriff auf die räumlichen und zeitlichen Eigenschaften der Probe. Mit neuen Röntgenquellen, wie Speicherringen der vierten Generation, werden XPCS-Experimente auf Zeitskalen von Femtosekunden bis Stunden möglich sein. Der hochintensive Röntgenstrahl ist jedoch auch die Ursache von Strahlenschäden, was die Entwicklung und Umsetzung neuer Wege für XPCS-Experimente mit niedrigen Dosen erforderlich macht.
+Diese Arbeit zeigt die Machbarkeit von Bio-XPCS-Messungen zur Untersuchung der Proteindynamik während einer Flüssig-Flüssig-Phasentrennung auf einer Hierarchie von Längenskalen von Tröpfchengrößen im Bereich von Mikrometern bis hinunter zur Längenskala eines einzelnen Proteins im Nanometerbereich. Etablierte Strategien zur Abschwächung von Strahlenschäden, wie z.B. die Cyro-Kühlung, sind für die Untersuchung der Proteindynamik nicht durchführbar. Deshalb haben wir die Strahlgröße vergrößert, was zu einer verringerten Photonendichte auf der Probe führt. Um das Signal-Rausch-Verhältnis zu optimieren, setzten wir einen großen Proben-Detektor-Abstand im USAXS-Setup an der Beamline P10 an PETRA III ein, um die Speckles auflösen zu können.
+Die Experimente, die am Deutschen Elektronen-Synchrotron (DESY) durchgeführt wurden, zeigten die Dynamik während der Flüssig-Flüssig-Phasentrennung (LLPS) eines Protein-Modellsystems, das aus dem Antikörper IgG in Gegenwart von Polyethylenglykol (PEG) besteht. Auf der Protein-Tröpfchenskala wurden Dynamiken identifiziert, die durch die Grenzflächenbildung der LLPS verursacht werden, gefolgt von heterogener ballistischer Bewegung der Proteindomänen aufgrund von Coarsening. Darüber hinaus wurde eine sehr heterogene Dynamik auf der Längenskala von Nanometern gefunden, die mit Bewegung von Partikelclustern innerhalb der proteinreichen Domänen assoziiert ist.
+Die weitere Erforschung von Protein-Kondensationskrankheiten und die Entwicklung zu- künftiger Protein-Medikamente wird von den in dieser Arbeit entwickelten Methoden profitieren, indem Bio-XPCS-Experimente an den neuen Röntgenquellen durchführbar geworden sind.</abstract>
+                    <abstract type="content" lang="eng">In the cell cytoplasm proteins are surrounded by water and a crowd of macromolecules. For a quantitative understanding of the cellular system knowledge of the dynamic processes in this crowded environment is of key importance. Reversible formation of protein condensates guarantee vitally essential functions. Irreversible protein aggregation processes are responsible for protein condensation diseases such as sickle cell anemia. Furthermore protein dynamics in concentrated solutions are relevant for the design of future drugs and important in the food industry. Up to now, static properties of proteins in crowded environments are well investigated, but little is known about their dynamics. 
+X-ray photon correlation spectroscopy (XPCS) provides access to both the spatial and temporal properties of the sample simultaneously. Using new X-ray sources such as forth generation storage rings, XPCS experiments on time scales from femtoseconds to hours will be feasible. However, the highly intense X-ray beam is also the cause of radiation damage which requires to develop and implement new avenues of low dose XPCS experiments. 
+This thesis demonstrates the feasibility of Bio-XPCS measurements to investigate protein dynamics during a liquid-liquid phase separation on a hierarchy of length scales from droplet sizes in the region of micrometers down to the single protein length scale at nanometers. Established strategies to mitigate radiation damage, such as cyro-cooling, are not feasible for investigating protein dynamics. Therefore we increased the beam size leading to a reduced photon density on the sample. To optimize the signal-to-noise ratio we employed a large sample-to-detector distance in the USAXS setup at the P10 Coherence Application Beamline at PETRA III to resolve the speckles.
+The experiments, performed at the Deutsches Elektronen-Synchrotron (DESY), revealed the dynamics of a protein model system composed of the antibody IgG in presence of polyethylene glycol (PEG) during the liquid-liquid phase separation (LLPS). On the protein droplet scale dynamics caused by the interface formation of the LLPS followed by heterogeneous ballistic motion of the protein domains due to interfacial coarsening were identified. Furthermore highly heterogeneous dynamics associated with particle clusters inside the protein rich domains were found on the length scale of nanometers.
+Further research regarding protein condensation diseases and the design of future protein drugs will benefit from the methods developed in this thesis by making Bio-XPCS experiments at the new X-ray sources feasible.</abstract>
+                    <subject>
+                        <topic>Röntgenspektroskopie</topic>
+                        <topic>XPCS</topic>
+                        <topic>Protein dynamics</topic>
+                        <topic>Liquid-liquid phase separation</topic>
+                        <topic>X-ray scattering</topic>
+                        <topic>Radiation damage</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Department Physik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-17605</identifier>
+                    <identifier type="sys">HT020684893</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1760</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2020-12-08</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1760">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1760/4/Dissertation_Hendrik_Rahmann.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1760"
+            DMDID="DMD_siegen_opus_1760">
+            <mets:fptr FILEID="FILE0_siegen_opus_1760"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

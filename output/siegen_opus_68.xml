@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_68">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Eine </nonSort>
+                        <title>Client/Server-Architektur für statistische Visualisierungen und Analyse von Finanzdaten</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Spillmann, Torsten</displayForm>
+                        <namePart type="family">Spillmann</namePart>
+                        <namePart type="given">Torsten</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2004</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Statistische Visualisierungen bilden ein wichtiges Instrument der Daten-Analyse. In
+dieser Arbeit wird eine Client/Server-Architektur für die Ausgabe dieser vorgestellt.
+Die Architektur basiert auf drei Komponenten, wobei zwei Teile eine Grafikbibliothek
+für statistischen Visualisierungen enthalten. Es werden die Aufgaben jeder Komponente
+vorgestellt und deren Kommunikation miteinander erläutert. Der in dieser Arbeit vorgestellte
+Prototyp kann aufWebseiten, insbesondere im Bereich E-Learning, eingesetzt
+werden. Die Kommunikation erfolgt über die Middleware CORBA. Die Komponenten
+wurden in C++ und JAVA implementiert.
+Im zweiten Teil der Arbeit werden Modell zur Analyse von Finanzdaten basieren
+auf einer Studentschen Verteilung vorgestellt. Im Univariaten eine Studentsche Zeitreihe
+eingeführt. Im Multivariaten wird die Modellierung über Copulas vorgestellt. Es
+werden Copulas definiert, Schätzer und Simulationsalgorithmen angegeben. Besonders
+wird auf die Fragestellung:
+”Welches ist die richtige Copula?“ eingegangen.</abstract>
+                    <abstract type="content" lang="eng">Statistical visualizations form an important instrument of the data analysis. In this thesis
+a client/server-architecture for these visualizations is introduced. The architecture is
+based on the components, whereby two of them contain a graphic-library for statistical
+visualizations. The functions of each component are presented and their communication
+is described. The prototype introduced in this work can be used on web pages,
+in particular e-learning. The communication is made by the middleware CORBA. The
+components were implemented in C++ and JAVA.
+In the second part of the thesis models for analysis of finance data with student
+t-distributions, especially a timeseries, are introduced. In the multivariate case models
+depending on Copulas are presented. Copulas are defined, Estimators and simulationsalgorithms
+are given. Particularly the question
+”Which copula is the right one?“is discussed.</abstract>
+                    <subject>
+                        <topic>statistische Visualisierungen</topic>
+                        <topic>Finanzdatenanalyse</topic>
+                        <topic>Client/Server-Architektur</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 6, Mathematik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-689</identifier>
+                    <identifier type="sys">HT014258582</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_68</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2004-10-27</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_68">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/68/1/spillmann.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_68"
+            DMDID="DMD_siegen_opus_68">
+            <mets:fptr FILEID="FILE0_siegen_opus_68"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

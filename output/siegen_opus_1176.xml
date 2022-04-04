@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1176">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Cascaded H-bridge multilevel converter topology for hybrid photovoltaic-wind turbine systems</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Taha, Othman Abdulhadi</displayForm>
+                        <namePart type="family">Taha</namePart>
+                        <namePart type="given">Othman Abdulhadi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">In recent years, the energy generation with regenerative sources such as wind energy, photovoltaic, etc. has increased rapidly. The connection of such energy sources to the grid requires power electronics conversion systems. In the present work a new approach for the hybrid connection of solar panels and wind turbines is proposed. The system examined in the research work utilizes a 5-Level Cascaded H-bridge Voltage Source Inverter (5L-CHB-VSI) for this purpose and features advantages regarding the cost, the maintenance, and, especially, the availability of energy generation under changing weather conditions. The flexibility of the hybrid system allows different modes of operation depending on the available PV or wind power, which are considered in all details in the frame of the work. It is expected to be a good solution for the grid integration of small generation systems in rural or remote areas in developing countries.
+Each phase of the 5L-CHB-VSI consists of two single-phase H-bridges, fed by separate DC-links. Therefore, a hybrid operation is possible by feeding the DC-links out of different energy sources. In the examined case the bridges are connected either to a photovoltaic (PV) string or to a rectifier, fed by an electrical generator that is driven by a wind turbine (WT). The grid connection was performed by using a voltage oriented control scheme with additional feedforward modulation index compensation (FFMIC). The proposed scheme controls the active and reactive power in the point of connection. 
+Two types of the feedforward compensation methods are presented, aiming at two targets. The first one, which is based on the injection of a zero-sequence signal, leads to balanced transfer of the power to the grid in case of unsymmetrical energy production among phases, due to fault degradation, model mismatch, partial shading at the PV string or weather conditions. The second one deals with the maximum power point tracking for each connected energy source without using the additional DC-DC converters that are necessary in conventional approaches.
+The proposed control scheme - including feedforward modulation index compensation - was realized by using a single DSP. Furthermore, phase-shifted Pulse Width Modulation (PS-PWM) as well as Space Phasor Modulation (SPM) techniques were implemented to control the inverter. Experimental results on a laboratory setup confirm the theoretical considerations. The PV panels were emulated in the laboratory by using programmable DC supplies, while the wind turbines were emulated using permanent magnet synchronous generators. The results show the flexible operation of the system due to the individual MPPT operation for each H-bridge cell and the balanced injection of the power, even under unsymmetrical generation conditions. The possibility to switch between star- and delta-configuration of the inverter topology was proposed and analyzed in order to enhance the performance of the grid integration and the efficiency of conversion.</abstract>
+                    <abstract type="content" lang="ger">Die Energieerzeugung aus regenerativen Quellen wie Windenergie, Photovoltaik usw. hat in den letzten Jahren eine enorme Bedeutung gewonnen. Der Anschluss von dezentralen Energieerzeugungssystemen aus regenerativen Energiequellen an das öffentliche Netz ist jedoch nicht möglich ohne geeignete, leistungselektronische Umwandlungssysteme. In der vorliegenden Arbeit wird dieses Thema in Angriff genommen und ein neuer Ansatz für den hybriden Anschluss von Photovoltaik- und Windenergieanlagen über einen einzelnen Umrichter vorgeschlagen. Das in den Forschungsarbeiten untersuchte System nutzt dazu einen Mehrstufen-Wechselrichter mit in Reihe geschalteten H-Brücken (5L-CHB-VSI) und bietet Vorteile bei Kosten, Wartung und insbesondere bei der Verfügbarkeit der Energieerzeugung unter wechselnden Witterungsbedingungen. Die Flexibilität des Hybridsystems ermöglicht, je nach Verfügbarkeit der PV- oder Windenergie, verschiedene Betriebsarten, die im Rahmen der Arbeit in allen Details berücksichtigt werden. Das vorgeschlagene und untersuchte System stellt eine gute Lösung für die Netzintegration von kleinen Erzeugungssystemen, in ländlichen oder abgelegenen Gebieten in Entwicklungsländern, dar.
+Jede Phase des 5L-CHB-VSI besteht aus zwei in Reihe geschalteten einphasigen H-Brücken, die über getrennte DC-Zwischenkreise gespeist werden. Daher ist ein Hybridbetrieb möglich, indem die Gleichspannungseingänge aus verschiedenen Energiequellen gespeist werden. Im betrachteten Fall sind die H-Brücken entweder mit einem PV-String oder einem Gleichrichter verbunden, der von einem an einer Windturbine gekoppelten Generator gespeist wird. Die Netzanbindung wurde unter Verwendung einer spannungsorientierten Regelung mit einer zusätzlichen Vorsteuerung durchgeführt. Das vorgeschlagene Verfahren kann die Wirk- und die Blindleistung am Anschlusspunkt getrennt regeln.
+Es werden zwei Arten der Vorsteuerungen mit unterschiedlichen Zielen vorgestellt. Die erste basiert auf der Addition eines Nullspannungssystems und symmetriert  die eingespeisten Ströme im Fall einer unsymmetrischen Spannungserzeugung,   die z. B. durch Modellfehlanpassung, partielle Verschattung an der PV, wechselnde Wetterbedingungen entstehen kann. Die zweite befasst sich mit der Umverteilung der generierten Leistung zwischen den einzelnen Zellen einer Phase. Diese Vorsteuerung wird durch die Einstellung des Betriebspunktes mit der maximalen Leistungsabgabe (MPP) für jede der angeschlossenen Energiequelle beeinflusst, welche hier ohne Verwendung von zusätzlichen DC-DC-Wandlern, die in herkömmlichen Ansätzen notwendig sind, ausgeführt ist.
+Das vorgeschlagene Regelverfahren - einschließlich einer der Vorsteuerung vom Modulationsindex  - wurde unter Verwendung eines einzelnen DSP realisiert. Darüber hinaus wurden im selben DSP die verwendeten Arten der Pulsweitenmodulation  (PS-PWM) sowie (SPM) implementiert. Experimentelle Ergebnisse gewonnen an einem Laboraufbau bestätigen die theoretischen Überlegungen. Die PV-Module wurden im Labor mit Hilfe von programmierbaren Gleichstromquellen und die Windturbinen mit Permanentmagnet-Synchrongeneratoren emuliert. Die Ergebnisse zeigen den flexiblen Betrieb des Systems durch den einzelnen MPPT-Betrieb für jede H-Brückenzelle und die symmetrische Injektion der Leistung auch unter unsymmetrischen Bedingungen. Die Möglichkeit, zwischen Stern- und Delta- Konfiguration der Wechselrichtertopologie umzuschalten, wurde vorgeschlagen und analysiert, um die Leistungsfähigkeit der Netzintegration und die Effizienz der Umwandlung zu erhöhen.</abstract>
+                    <subject>
+                        <topic>Wechselrichter</topic>
+                        <topic>Multilevel Converter</topic>
+                        <topic>Cascaded H-Bridge</topic>
+                        <topic>Hybrid System</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11762</identifier>
+                    <identifier type="sys">HT019370628</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1176</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2016-12-14</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1176">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1176/1/Dissertation_Othman_Taha.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1176"
+            DMDID="DMD_siegen_opus_1176">
+            <mets:fptr FILEID="FILE0_siegen_opus_1176"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

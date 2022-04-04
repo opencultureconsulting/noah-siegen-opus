@@ -1,0 +1,74 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_957">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Development of cooperation between flying robot, ground robot and ground station with fuzzy logic and image processing</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Al-Jarrah, Rami</displayForm>
+                        <namePart type="family">Al-Jarrah</namePart>
+                        <namePart type="given">Rami</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Flugroboter repräsentieren ein interessantes und weites Gebiet für Forschungen, da sie sehr vielseitig einsetzbar sind, um komplexe Aufgaben zu erfüllen, wie Bildaufnahmen in schwer zugänglichen Gebieten, Lokalisierung und Verfolgung von Zielen. Bei der En twicklung eines Luftschiff-Systems, das in einer Vielzahl von Szenarien eingesetzt werden kann, ist eine intelligente Steuerung mit hoher Autonomie von Nöten. Folglich ist die Hauptherausforderung
+im Kontext des Designs und Navigation die Kombination zwischen einem intelligenten Steuerungssystem und einer kleinen und leichten Hardware. Deshalb entwickeln wir einen Luftschiffroboter basierend auf einem eingebetteten System, dann präsentieren wir verschiedene Fuzzy-Modelle die Probleme der autonomen Navigation und Zielverfolgung lösen.
+Diese Modelle sind empirisch durch die Kombination von Wahrscheinlichkeitsverteilungen mit Theorien der Fuzzylogik erstellt worden. Andererseits wird durch die Verwendung von kooperativen Robotersystemen die Leistung, Effizienz und Zuverlässigkeit drastisch gesteigert.
+Die Entwicklung eines solchen kooperativen Robotersystems ist eines der anspruchsvollsten Ziele bei der Erforschung künstlicher Intelligenzen und dabei sind die größten Herausforderungen Lokalisierung und Zielverfolgung. Somit adressiert diese Dissertation das Problem der parallelen Verfolgung von Robotern durch das Erreichen von kooperativen Verhalten basierend auf Bildverarbeitung und Künstlicher Intelligenz, um die Leistung und Effizienz eines solchen Systems zu verbessern. Darüber hinaus betrachtet diese Arbeit, ob Systeme zur Bildverarbeitung bei der Navigation und Zielverfolgung eingesetzt werden können.
+Dieses System wurde entwickelt um Bodenroboter oder 3D Luftobjekte zu erkennen und zu verfolgen. Außerdem wird eine Methode zur Positionsschätzung von multiplen Zielen mit Hilfe eines drahtlosen Sensornetzwerkes präsentiert. Schließlich wurden die oben erwähnten Ansätze der Arbeit auf ein reales Luftschiff angewendet und getestet. Umfangreiche Experimente wurden durchgeführt, analysiert, um die Fähigkeiten und Eigenschaften des
+entwickelten Systems und der entwickelten und verwendeten Algorithmen zu validieren.</abstract>
+                    <abstract type="content" lang="eng">The aerial robots represent an interested and rich area of research because they are very useful to perform complex tasks such as image acquisition of unreachable areas, localization and tracking targets. To develop blimp system that is appropriate in diversity scenarios, an intelligent control with high autonomy degree is required. Thus, the main challenge in context
+of designing and navigation is the combination between intelligent control framework and small-light hardware components. Therefore, we design blimp robot based on embedded system; then, we present several fuzzy sets models that should deal with autonomous,navigation and visual tracking problems. These models are empirically designed by combining the possibilities distributions theory with fuzzy logic.
+On the other hand, the use of cooperative robots system dramatically increases since it is appropriate solution in relation to performance, efficiency and reliability. The development of such cooperation system is one of the most demanding goals in artificial intelligence research and the most challenging issues here are the localization and tracking targets. Thus, this
+dissertation addresses the problem of tracking robots in parallel with achieving the cooperative behavior based on computer vision system and artificial intelligent control to improve the performance and efficiency of such system. Moreover, the thesis considers the use of computer vision system that can be applied to navigation and tracking missions. This system has been
+designed to detect and track either ground robots or 3D aerial object. In addition, considering use of wireless sensor network for estimation multi-targets locations and the distances between them is presented. Finally, the approaches that were developed in the thesis have been carried out and evaluated on the blimp robot. The extensive experiments have been done to demonstrate, analyze and validate the capabilities of such system as well as the properties of the proposed algorithms.</abstract>
+                    <subject>
+                        <topic>Fuzzy-Logik</topic>
+                        <topic>Flugroboter</topic>
+                        <topic>Robotersysteme</topic>
+                        <topic>Fuzzy Logic</topic>
+                        <topic>Fly Robot</topic>
+                        <topic>Robot System</topic>
+                        <topic>Cooperation</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Mechanik und Regelungstechnik - Mechatronik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-9571</identifier>
+                    <identifier type="sys">HT018755225</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_957</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2015-04-23</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_957">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/957/1/al_jarrah.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_957"
+            DMDID="DMD_siegen_opus_957">
+            <mets:fptr FILEID="FILE0_siegen_opus_957"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

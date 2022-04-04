@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1012">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Überwindung von Armut durch Bildung : das Schul- und Bildungswerk des Hilfsvereins der Deutschen Juden (1901 - 1937/1938) ; [die Geschichte des Schulwerks des Hilfsvereins der Deutschen Juden (1901 - 1938)]</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Burkard, Edmund</displayForm>
+                        <namePart type="family">Burkard</namePart>
+                        <namePart type="given">Edmund</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Das Hauptziel der Arbeit liegt darin, dieses große, erfolgreiche jüdisch-humanitäre Hilfswerk und die in dieser philanthropischen Organisation tätigen Menschen dem Vergessen zu entreißen, wobei der Fokus hier auf das Schul- und Bildungswerk des Hilfsvereins der Deutschen Juden gerichtet ist.
+Das Schul- und Bildungswerk ist zwar ein Schwerpunkt des Hilfsvereins gewesen, insgesamt ist das Aufgabenfeld  in der Gründungssatzung von 1901 aber breiter angelegt gewesen:
+§ 1. Der Hilfsverein der Deutschen Juden setzt sich – unter Ausschluss jeder gewinnbringenden Tätigkeit – das humanitäre Ziel, die sittliche, geistige und wirtschaftliche Entwicklung der Glaubensgenossen zu fördern.
+§ 2. Der Hilfsverein will seine Tätigkeit insbesondere den Glaubensgenossen im östlichen Europa und in Asien zuwenden.
+Durch die antijüdischen Pogrome in Osteuropa zu Beginn des 20. Jahrhunderts sah sich der Hilfsverein herausgefordert, neben dem Bildungswerk vor allem zur Emigration von Flüchtlingen nach Deutschland oder durch Deutschland in die Vereinigten Staaten beizutragen. 
+Der Titel meiner Arbeit „Überwindung von Armut durch Bildung“ ist einem Text von Paul Nathan entnommen, der zu den maßgeblichen Gründern des Hilfsvereins gehörte und bis zu seinem Tode 1927 der ‚geistige Vater‘ und Motor des Vorhabens war. Der Hilfsverein wollte nicht nur Fürsorge für Notleidende leisten, sondern die Ursachen für Armut innerhalb der jüdischen Bevölkerung -  außerhalb des Deutschen Reiches – zu bekämpfen, welche neben antisemitisch motivierten Marginalisierungsprozessen auch in der mangelnden Bildung, vor allem aber in der begrenzten Berufsausbildung gelegen haben. Bildung und Ausbildung sollten ein Fundament für ein unabhängiges Leben außerhalb von Armut gewährleisten.
+Vorwiegend auf Initiative Paul Nathans hat der Hilfsverein in großem Umfang Schul- und Bildungseinrichtungen in Osteuropa und in Palästina gegründet, unterhalten und/oder subventioniert. In der Blütezeit seines Schulwerks betrieb der Hilfsverein über 50 Kindergärten, Lehrer- und Rabbinerseminare sowie ein ‚Technikum‘, die jährlich von rund 6.500 Schülerinnen und Schülern besucht wurden. Trotz dieser Erfolge gab es von Seiten zionistischer Gruppierungen erhebliche Kritik an diesen ‚deutschen‘ Gründungen, die in dem sog. ‚Sprachenstreit‘ kulminierte. Zur fast vollständigen Schließung des Schul-und Bildungswerks in Palästina kam es aber erst 1918 am Ende des Ersten Weltkriegs auf Anordnung der Engländer.</abstract>
+                    <subject>
+                        <topic>Juden</topic>
+                        <topic>Jüdisches Schulsystem in Palästina</topic>
+                        <topic>Technikum in Haifa</topic>
+                        <topic>Jüdisches Lehrerseminar in Jerusalem</topic>
+                        <topic>Kindergärten nach Pestalozzi-Fröbel-Methode im Orient</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät II (Bildung, Architektur, Künste)"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-10124</identifier>
+                    <identifier type="sys">HT019001634</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1012</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2016-05-31</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1012">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1012/1/Dissertation_Edmund_Burkard.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1012"
+            DMDID="DMD_siegen_opus_1012">
+            <mets:fptr FILEID="FILE0_siegen_opus_1012"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

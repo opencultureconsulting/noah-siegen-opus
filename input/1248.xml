@@ -1,0 +1,65 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1248</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Efficient range and image data processing - algorithms and software paradigms</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Effiziente Verarbeitung von Tiefen- und Bilddaten - Algorithmen und Software-Paradigmen</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Thomas</pc:foreName>
+            <pc:surName>Högg</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Bildverarbeitung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Tiefendaten</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Domänenspezifische Sprachen</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">PMD</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">ToF</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">DSL</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">image-processing</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">noise reduction</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die wachsende Nachfrage nach industrieller Automatisierung und autonomen Systemen erfordert flexiblere Techniken in verschiedenen, aber stark voneinander abhängigen Bereichen des Ingenieurwesens. Die vorliegende Arbeit beschäftigt sich mit zwei wichtigen Bereichen: Verbesserung der Time-of-Flight (ToF) Kameradaten (Algorithmen-Entwicklung) und den damit verbundenen modellgetriebene Engineering Techniken (Software-Entwicklung). In den letzten Jahrzehnten wurde ausgiebig in diesen Bereichen geforscht und es konnten zahlreiche Fortschritte erzielt werden.&#13;
+Der erste Teil dieser Arbeit beschäftigt sich mit den besonderen Herausforderungen der Datenqualitätsverbesserung von Time-of-Flight (ToF) Kameras. Es wird ein neues Verfahren zur schnellen Kompensation von Bewegungsartefakten von ToF Kameras vorgestellt und gezeigt, dass der Algorithmus gute Ergebnisse für simulierte sowie reale Daten in Echtzeitausführung erzielt. Der zweite vorgestellte Algorithmus befasst sich mit der automatischen Anpassung der Integrationszeit von ToF Kameras. Es wird ein Algorithmus entwickelt, mit dessen Hilfe die Integrationszeit des Sensors auf einer „pro Pixel“-Basis im Live-Betrieb automatisch angepasst werden kann. Der erste Teil der Dissertation schließt mit einem Industrie-Beispiel ab. Dabei wird gezeigt, wie Fahrzeuge in Echtzeit unter der Verwendung von drei PMD (Photonic Mixer Device) Kameras nach umfangreicher Datenvorverarbeitung in 3D rekonstruiert werden können. &#13;
+Der zweite Teil dieser Arbeit befasst sich mit den Herausforderungen der modellgetriebenen Softwareentwicklung im Bereich Bild- und Datenverarbeitung. Im Rahmen dieser Arbeit wird die domänenspezifische GU-DSL mit zwei Daten- und Bildverarbeitung relevanten Erweiterungen entwickelt: GPGPU-Programmierung und GPGPU (General Purpose Computation on Graphics Processing Unit)-Programmierung und Component Based Software Engineering (CBSE). Die GPGPU Erweiterung verwendet dazu eine Kombination aus textueller und grafischer Modellierung. Die Entwicklung findet dabei datenfluss- und modellgetrieben statt. Mittels Code-Generator, kann der GU-DSL Code in C++ transformiert, anschließend kompiliert und ausgeführt werden. Alle GPU relevanten Funktionen sind dazu in ein C++ Heterogeneous Computing Framework gekapselt. Das GU-DSL CBSE System ist ein Konzept zum komponentenbasierten Software Engineering. Es werden neue Ansätze für Komponenten- und Komponenten-Instanz-Diagramme in Kombination mit Klassen- und Aktivitätsdiagrammen vorgeschlagen und umgesetzt. Mit Hilfe einer plugin-basierten Rich Client Platform, wird exemplarisch demonstriert wie diese neuen Konzepte in C++ umgesetzt werden können. Abschließend wird eine vereinfachte Verarbeitungspipeline implementiert, um die neuen Konzepte zu evaluieren.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The growing demand towards industrial automation and autonomous systems requires more flexible technologies in different but interdependent domains of engineering. This thesis introduces and discusses two important areas: Time-of-Flight (ToF) camera data improvement (algorithm development) and related model driven engineering techniques (software development). In the last decades, these areas have been extensively studied and important progress was made. &#13;
+&#13;
+The first part of this thesis discusses the special challenges of data quality improvement on a very deep layer of ToF cameras. It deals with different challenges related to the working principle of this kind of sensor. A new method for a fast motion artifact compensation for ToF cameras is presented. It is shown that the algorithm gives good results for simulated as well as real data while providing real-time performance. The second proposed algorithm deals with the automatic integration time estimation of ToF cameras. An online integration time adaption algorithm that works on a per-pixel basis and uses knowledge gained from an extensive analysis of the underlying inherent sensor behavior is introduced. Finally, an industrial real-time 3D car reconstruction example is presented. It shows how the data of three PMD (Photonic Mixer Device) cameras has to be preprocessed and combined, using an extensive depth data processing and filtering pipeline.&#13;
+&#13;
+The second part of this thesis addresses the challenges of data related model driven software engineering. It introduces and contributes the new domain specific language GU-DSL and two data and image processing related extensions: GPGPU (General Purpose Computation on Graphics Processing Unit)-programming and CBSE (Component-Based Software Engineering) principles. The presented GU-DSL GPGPU extension contributes a convenient combination and mixture of textual and graphical model- and dataflow-driven design. Using a code generator, GU-DSL code can be transformed into C++, compiled and executed. All the GPU related features are encapsulated into a C++ Heterogeneous Computing framework. The GU-DSL CBSE system introduces a concept for component based software engineering in the domain of data- and image-processing. It proposes several new concepts for component- and component-instance-diagrams in combination with class- and activity-diagrams. Using a newly developed Rich Client Platform supporting a plugin based extension system, it shows how the GU-DSL CBSE concept can be realized and used in practice using C++. Exemplary, a simple processing pipeline is implemented to demonstrate the new concepts.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2017-10-18</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2017</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-12485</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Bildinformatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Thomas_Hoegg.pdf" ddb:fileSize="18610926"/>
+   <ddb:checksum ddb:type="MD5">a70e315bd96d4ad81e991d0ebdfcaaa5</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1248/1/Dissertation_Thomas_Hoegg.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1248</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1991">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Differential cross-section measurements of the associated production of top quarks with a photon at 13 TeV with the ATLAS detector</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Differentiale Wirkungsquerschnitte der assoziierten Produktion von Top-Quarks mit einem Photon bei 13 TeV mit dem ATLAS-Detektor</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Meshreki, John</displayForm>
+                        <namePart type="family">Meshreki</namePart>
+                        <namePart type="given">John</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Fleck, Ivor</displayForm>
+                        <namePart type="family">Fleck</namePart>
+                        <namePart type="given">Ivor</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Absolute and normalised differential cross-sections for the associated production of top quarks with a photon are measured in proton-proton collisions data at a centre-of-mass energy of 13 TeV. The data were collected by the ATLAS detector during the full Run 2 of the LHC with an integrated luminosity of 139 fb^{-1}. The measurements are performed in the electron-muon decay channel in a fiducial phase space at parton level. The signal region is characterised by events with exactly one hard photon, one electron and one muon of opposite charge, at least two jets, among which at least one is b-tagged, and missing transverse energy. The differential cross-sections are measured as functions of photon kinematic observables, the minimum angular distance between the photon and the leptons, and angular separations between the two leptons. The results are compared to the most recent theory prediction at next-to-leading-order accuracy in QCD and state-of-the-art Monte Carlo simulations. The measurements are found to be in agreement with the Standard Model predictions within uncertainties.</abstract>
+                    <abstract type="content" lang="ger">Absolute und normalisierte differentielle Wirkungsquerschnitte für die assoziierte Produktion von Top-Quarks mit einem Photon bei Proton-Proton-Kollisionen mit einer Schwerpunktsenergie von 13 TeV werden gemessen. Die Daten wurden vom ATLAS-Detektor während des gesamten Laufs 2 des LHC mit einer integrierten Luminosität von 139 fb^{-1} aufgezeichnet. Die Messungen werden im Elektron-Muon-Zerfallskanal in einem wohldefinierten Phasenraum auf Partonenebene durchgeführt. Der Signalbereich ist charakterisiert durch ein hochenergetisches Photon, ein Elektron und ein Myon mit entgegengesetzter Ladung, mindestens zwei Jets, von denen mindestens einer b-tagged ist, und fehlenden transversalen Impuls. Die differentiellen Wirkungsquerschnitte werden als Funktionen kinematischer Observablen des Photons, des minimalen Winkelabstands zwischen dem Photon und den Leptonen, und Winkelabstände zwischen den beiden Leptonen gemessen. Die Ergebnisse werden mit der neuesten Theorievorhersage mit NLO-Genauigkeit in QCD und dem Stand der Technik entsprechenden Monte-Carlo-Simulationen verglichen. Die Messungen sind in Übereinstimmung mit den Vorhersagen des Standardmodells im Rahmen der Unsicherheiten.</abstract>
+                    <subject>
+                        <topic>Standardmodell &lt;Elementarteilchenphysik&gt;</topic>
+                        <topic>Experimental particle physics</topic>
+                        <topic>Differential cross sections</topic>
+                        <topic>Top photon</topic>
+                        <topic>Unfolding</topic>
+                        <topic>Top-quark pair production</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Department Physik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19914</identifier>
+                    <identifier type="sys">HT021114152</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1991</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2021-06-15</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1991">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1991/93/Dissertation_John_Meshreki.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1991"
+            DMDID="DMD_siegen_opus_1991">
+            <mets:fptr FILEID="FILE0_siegen_opus_1991"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_859">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Economic theory of culture : a dynamic approach</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Cheng, Sao-Wen</displayForm>
+                        <namePart type="family">Cheng</namePart>
+                        <namePart type="given">Sao-Wen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2005</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Cultural capital is assumed to benefit all members of society. It is accumulated through the
+consumption of cultural services and is diminished through depreciation. Using the stock of
+cultural goods (e.g. cultural heritage, works of arts, literature and music), cultural services are
+provided by the cultural services industry; the stock of cultural goods is enlarged by the flow
+of new cultural goods created by individuals who are both consumers and creators of culture
+and whose utility is positively affected by the cultural goods they created. In the no-policy
+market economy, individuals tend to ignore the positive external effects of their cultural
+services consumption and creation of cultural goods on other individuals via augmenting
+cultural capital and cultural-goods stock. Consequently, less cultural capital and culturalgoods
+stock will be accumulated. The efficient allocation can be restored by introducing an
+appropriate subsidy that stimulates the consumers’ demand for cultural services, and the
+creation of new cultural goods, promotes the accumulation of cultural capital and cultural
+goods.</abstract>
+                    <subject>
+                        <topic>öffentliches Gut</topic>
+                        <topic>Verteilungstheorie</topic>
+                        <topic>Kultur/Wirtschaftsmodell</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 5, Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-93</identifier>
+                    <identifier type="sys">HT014572248</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_859</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2004-12-21</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_859">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/859/1/cheng.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_859"
+            DMDID="DMD_siegen_opus_859">
+            <mets:fptr FILEID="FILE0_siegen_opus_859"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

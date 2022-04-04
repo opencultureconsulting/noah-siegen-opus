@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1812">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Who is leading innovation?</title>
+                        <subTitle lang="eng">German computer policies, the ‘American Challenge’ and the technological race of the 1960s and 1970s</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Homberg, Michael</displayForm>
+                        <namePart type="family">Homberg</namePart>
+                        <namePart type="given">Michael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The ‘American Challenge’ predominantly shaped the Eastern and Western European innovation cultures of the 1960s and 1970s. In both German states, national IT policies aimed at reducing the technological gap between their local computer industries and the leading US hardware manufacturers. While European initiatives to promote computer technology started to gain traction, the persistence of national data policies, which were in conflict with the standardisation of the organisational, technical and institutional requirements of computerisation, remained efficacious. During the Cold War, national data policies neutralised the best laid plans of technocrats. In the 1960s, the technological arms race between the FRG and the GDR reached the computer sector. As both German states entered the information age, the promotion of computer science and data processing was carried out with similarly ambitious research programmes, huge financial and personal resources, and initially comparable innovation cycles. However, in the end, fatal political decisions, bureaucratic planning obstacles, conflicts within collaboration, but above all the lack of funds for investment impeded the process, especially behind the iron curtain.</abstract>
+                    <subject>
+                        <topic>Computer Policies</topic>
+                        <topic>IT-Industry (FRG/GDR)</topic>
+                        <topic>Cold War</topic>
+                        <topic>Technological gap</topic>
+                        <topic>American Challenge</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-18123</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1812</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1812">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1812/4/Homberg_Who_is_leading.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1812"
+            DMDID="DMD_siegen_opus_1812">
+            <mets:fptr FILEID="FILE0_siegen_opus_1812"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

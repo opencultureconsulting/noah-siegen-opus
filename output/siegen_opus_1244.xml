@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1244">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Religion and the British welfare state</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Khalilov, Vugar</displayForm>
+                        <namePart type="family">Khalilov</namePart>
+                        <namePart type="given">Vugar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">masterThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Historically, religion has played a crucial role in the development of the welfare state. The current Master’s thesis focuses on the role of religion in the formation of the British welfare state on two - macro institutional and micro normative - levels. By referring to the crucial theories of the field, the master’s thesis emphasizes the impact of Reformed Protestantism on the development of the British welfare state until 1914. Furthermore, the master’s thesis illustrates how Calvinism and Reformed Protestant denominations shaped the nature of political parties and the political system in total, which were important factors in the development of the British welfare state.</abstract>
+                    <subject>
+                        <topic>Großbritannien</topic>
+                        <topic>Religion</topic>
+                        <topic>British welfare states</topic>
+                        <topic>Protestantism</topic>
+                        <topic>class coalitions</topic>
+                        <topic>social doctrines</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät I Philosophische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-12444</identifier>
+                    <identifier type="sys">HT019528811</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1244</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaMasterThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1244">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1244/1/Masterarbeit_Vugar_Khalilov.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1244"
+            DMDID="DMD_siegen_opus_1244">
+            <mets:fptr FILEID="FILE0_siegen_opus_1244"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

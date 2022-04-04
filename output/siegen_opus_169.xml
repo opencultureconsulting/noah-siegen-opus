@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_169">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Design von Baustoffen am Beispiel eines Putzes und eines Betons mit Glaszuschlag</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Warianka, Ewa</displayForm>
+                        <namePart type="family">Warianka</namePart>
+                        <namePart type="given">Ewa</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2000</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Arbeit gliedert sich in zwei Teile. Die beide Teile beschäftigen sich mit verschiedenen Baustoffsystemen, werden andererseits durch das Thema der gezielten Entwicklung eines Baustoffes für eine bestimmte Anforderung verbunden. 
+Im Rahmen des ersten Teils wurde ein geeigneter Fassadenputz zur Sanierung von
+Ziegelmauerwerk entwickelt. Für die Restaurierputze wurden zwei Bindemittelsysteme, zum einen hydraulischer Kalk mit Hochofenzement, zum anderen Weißkalkhydrat mit Hochofenzement untersucht. Zusätzlich wurden Hydrophobierer, Kunststoffdispersion und Methylcellulose eingesetzt, um die Dauerhaftigkeit und Resistenz gegen Umwelteinflüsse zu erreichen, aber auch um die Verarbeitbarkeit zu verbessern. Der systematische Einsatz der verschiedenen Zusätze erlaubt Aussagen über deren Einfluss auf die Mörteleigenschaften. 
+Im zweiten Teil der Arbeit wurde zur optischen Gestaltung von Sichtbeton farbiger Glasbruch als Betonzuschlag eingesetzt. Da eine Reaktion zwischen Glas und Zementstein im Beton bekannt ist, war es erforderlich, die Eignung dieses Zuschlags, seinen Einfluss auf die Betoneigenschaften sowie mögliche Schädigungen der Betonteile zu untersuchen. 
+Es wurde der Einfluss von Zusatzmitteln wie Hydrophobierer, Fließmittel, Kunststoffdispersion, Glasmehl, Mikrosilica und Luftporenbildner auf Ausmaß und Art der entstehenden Schädigung unter verschiedenen Umweltbedingungen untersucht. Mit der Verwendung von drei unterschiedlichen Glasarten und verschiedener Glasgehalte wurde der Einfluss der im Glas befindlichen Alkalien auf die Reaktion beobachtet werden.</abstract>
+                    <subject>
+                        <topic>Glaszuschlag</topic>
+                        <topic>Putzentwicklung</topic>
+                        <topic>Mörteladditive</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 8, Chemie - Biologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1694</identifier>
+                    <identifier type="sys">HT012860945</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_169</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2000-07-05</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_169">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/169/1/warianka.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_169"
+            DMDID="DMD_siegen_opus_169">
+            <mets:fptr FILEID="FILE0_siegen_opus_169"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

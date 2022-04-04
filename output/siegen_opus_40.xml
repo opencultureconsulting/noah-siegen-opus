@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_40">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Klassentreffen - eine biografische (Gruppen-)Reise : eine empirische Untersuchung über Biografisierungsprozesse im Rahmen von Klassentreffen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Maschke, Sabine</displayForm>
+                        <namePart type="family">Maschke</namePart>
+                        <namePart type="given">Sabine</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2003</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Klassentreffen sind ein weit verbreitetes Phänomen. Aus der Perspektive der Ehemaligen bedeutet das Klassentreffen neben dem Wiedersehen mit den ehemaligen Klassenkameraden auch eine Selbst-Begegnung – mit der eigenen Vergangenheit, mit Erfolgen und Misserfolgen im Leben, kurz: eine Begegnung mit der eigenen Biografie. Bei dieser Selbst-Begegnung und Biografisierung übernehmen die Ehemaligen wichtige Funktionen – als Zeugen und Rekonstrukteure der Vergangenheit, als Vergleichsfolie für den eigenen Lebensverlauf etc.
+Die Selbst-Begegnung findet ihren Ausdruck in unterschiedlichen Biografisierungsmodi: in der Suche nach Selbstgewissheit, Bilanzierung, Selbst-Integration und biografischer Wandlung. Das Klassentreffen ist in diesem Sinne eine biografische (Gruppen-)Reise.
+Die Forschungsrichtung ist zwischen der Ethnografie- und Biografieforschung angesiedelt; dementsprechend vielfältig sind die methodischen Zugangswege: von der teilnehmenden Beobachtung bis hin zu qualitativen biografischen Interviews mit BesucherInnen von Klassentreffen.
+Den theoretischen Rahmen bilden neben dem Begriff der Biografisierung Kategorien wie Gedächtnis, Erinnerung und Generation. Das kollektive Gedächtnis ist der Mittelpunkt der Wir-Gemeinschaft und bildet die Basis für Biografisierungen. Die gemeinsame Rekonstruktion bzw. Erinnerungsarbeit im Kreise der Ehemaligen ist dabei ein wichtiges Mittel zur Kohäsion.
+Die generationale Zugehörigkeit meint die Suche nach einem generationalen Wir, das sich in überschaubaren Generationseinheiten – als Generationen von SchülerInnen – zeigt.</abstract>
+                    <subject>
+                        <topic>Klassentreffen</topic>
+                        <topic>biographische Methode</topic>
+                        <topic>Erinnerung</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 2, Erziehungswissenschaft und Psychologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-409</identifier>
+                    <identifier type="sys">HT013861361</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_40</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2003-07-24</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_40">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/40/1/maschke.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_40"
+            DMDID="DMD_siegen_opus_40">
+            <mets:fptr FILEID="FILE0_siegen_opus_40"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

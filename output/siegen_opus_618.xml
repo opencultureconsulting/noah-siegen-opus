@@ -1,0 +1,102 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_618">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>High definition cinema</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schröter, Jens</displayForm>
+                        <namePart type="family">Schröter</namePart>
+                        <namePart type="given">Jens</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Stiglegger, Marcus</displayForm>
+                        <namePart type="family">Stiglegger</namePart>
+                        <namePart type="given">Marcus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schanze, Helmut</displayForm>
+                        <namePart type="family">Schanze</namePart>
+                        <namePart type="given">Helmut</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ritzer, Ivo</displayForm>
+                        <namePart type="family">Ritzer</namePart>
+                        <namePart type="given">Ivo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>von Brincken, Jörg</displayForm>
+                        <namePart type="family">von Brincken</namePart>
+                        <namePart type="given">Jörg</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Beil, Benjamin</displayForm>
+                        <namePart type="family">Beil</namePart>
+                        <namePart type="given">Benjamin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">PeriodicalPart</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Das vorliegende Heft widmet sich einem Thema, das in den letzten Jahren zunehmend relevanter wird: der Umrüstung des Kinobetriebes von Zelluloidprojektion auf High Definition Videoprojektion. Was vor einigen Jahren noch wie ein spezieller Sonderweg gewirkt haben mag, ist heute bereits Realität geworden. Umso erstaunlicher mutet der Umstand an, dass es zwar eine Menge an Publikationen zum Phänomen der Digitalisierungen, des &quot;digital roll-out&quot;, gibt, nicht jedoch eingehende Analysen der langsamen Veränderung filmischer Ästhetik in der letzten Dekade. Die vorliegende Ausgabe von Navigationen möchte diese Lücke nachhaltig schließen.
+
+Mit dem Jahrgang 2011 geht die Zeitschrift &quot;Navigationen&quot;, die von 2005-2010 vom DFG-Forschungskolleg 615 &quot;Medienumbrüche&quot; herausgegeben wurde, wieder zurück an das medienwissenschaftliche Seminar der Fakultät 1 der Universität Siegen. Die Navigationen soll wie bisher zweimal im Jahr erscheinen. Aktuelle Forschungen aus dem Team Medienwissenschaft, sei es von Professoren, Mitarbeitern oder aus studentischen Projekten, werden veröffentlicht und zur Diskussion gestellt. Auf diese Weise wird die lebendige Diskussions- und Forschungskultur der Siegener Medienwissenschaft der Öffentlichkeit zugänglich gemacht.</abstract>
+                    <subject>
+                        <topic>HDTV</topic>
+                        <topic>High Definition Cinema</topic>
+                        <topic>Game Studies</topic>
+                        <topic>Michael Mann</topic>
+                    </subject>
+                    <classification authority="ddc">300</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-6188</identifier>
+                    <identifier type="sys">HT017303903</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_618</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>journal issue</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_618">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/618/1/Navigationen_11_1.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_618"
+            DMDID="DMD_siegen_opus_618">
+            <mets:fptr FILEID="FILE0_siegen_opus_618"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

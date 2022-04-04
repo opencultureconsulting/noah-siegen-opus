@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1892">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Probabilistic freespace prediction in structured traffic environments for trajectory planning</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Probabilistische Freiraum Prädiktion in strukturierten Verkehrsumgebungen zur Planung von Trajektorien</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schlechtriemen, Julian David</displayForm>
+                        <namePart type="family">Schlechtriemen</namePart>
+                        <namePart type="given">Julian David</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kuhnert, Klaus-Dieter</displayForm>
+                        <namePart type="family">Kuhnert</namePart>
+                        <namePart type="given">Klaus-Dieter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">This thesis addresses the problem of providing a methodical framework for highly automated driving on highways, which allows an automated vehicle to execute a safe fallback behavior in case of a system failure. The thesis is however not focusing on the implementation of the whole system. Instead, it focuses on the missing functional components which are needed for the implementation of such kind of fallback system.
+Within the thesis a system architecture is presented, in which the methods developed in this thesis can be applied. The methods include algorithms for maneuver recognition, position prediction and trajectory planning. 
+The main part of the thesis deals with the implementation of the functions which were identified in the system architecture and are needed for planning fallback trajectories. To do so, in a first step classification methods are developed for the recognition of driving maneuvers. The classification problem in the context is limited to the recognition of lane changing and lane following behavior. Extending the state of the art the situation context and possible influencing factors are analyzed systematically. 
+To predict future positions of other traffic participants, a method is introduced which on the one hand considers the physical state of a vehicle and on the other hand also takes account of the situation context. The presented algorithm does not only deliver information about the future position, but a time dependent probability distribution of future whereabouts. 
+In order to plan a fallback behavior, a novel method for trajectory planning is introduced. This method introduces a representation of the dynamic free space, which allows to sample a family of trajectories efficiently.
+Besides the theoretical investigations presented in this thesis, all methods have proven to be applicable in prototypical vehicles in real traffic.</abstract>
+                    <abstract type="content" lang="ger">In der vorliegenden Arbeit wird ein methodisches Framework entwickelt, welches einem hochautomatisierten Fahrzeug auf Autobahnen im Fehlerfall die Ausführung eines sicheren Rückfallverhaltens ermöglicht. Der Schwerpunkt dieser Arbeit liegt jedoch nicht auf der Darstellung eines Gesamtsystems. Vielmehr wird auf die Entwicklung der fehlenden funktionalen Bausteine fokussiert, die zur Umsetzung eines solchen Rückfallsystems benötigt werden.
+In der Arbeit wird eine Systemarchitektur vorgestellt, in der die im Verlauf der Arbeit entwickelten Methoden eingesetzt werden können. Die Methoden umfassen dabei Verfahren zur Manövererkennung, Bewegungsprädiktion und Trajektorienplanung. 
+Der Hauptteil der Arbeit beschäftigt sich mit der Umsetzung der in der Systemarchitektur identifizierten Funktionsbausteine, die zur Planung einer Rückfalltrajektorie benötigt werden. In einem ersten Schritt werden dazu Klassifikationsverfahren zur Prognose von Fahrmanövern entwickelt. Das Klassifikationsproblem beschränkt sich hierbei auf die Erkennung von Spurwechseln und Spurfolgeverhalten. Hierbei werden der Situationskontext und mögliche Einflussfaktoren systematisch analysiert. 
+Für die Prognose zukünftiger Aufenthaltsorte anderer Verkehrsteilnehmer wird eine Methode vorgestellt, welche den physikalischen Bewegungsstatus und die Ergebnisse der Manöverklassifikation berücksichtigt. Die Methode liefert hierbei eine zeitabhängige Aufenthaltswahrscheinlichkeit der Verkehrsteilnehmer
+Zur Bestimmung einer Rückfalltrajektorie wird abschließend unter Nutzung der Bewegungsprognosen ein neuartiges Trajektorienplanungsverfahren vorgestellt. Hierzu wird eine Repräsentation des dynamischen Freiraums genutzt, die ein effizientes Sampling von Trajektorienscharen ermöglicht. 
+Die Wirksamkeit der in der Arbeit vorgestellten Methoden wurde neben den theoretischen Untersuchungen auch im realen Fahrbetrieb nachgewiesen.</abstract>
+                    <subject>
+                        <topic>Trajektorie</topic>
+                        <topic>Automated Driving</topic>
+                        <topic>Prediction</topic>
+                        <topic>Machine Learning</topic>
+                        <topic>Trajectory Planning</topic>
+                        <topic>Intention Recognition</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Echtzeit Lernsysteme (EZLS)"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-18922</identifier>
+                    <identifier type="sys">HT020960656</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1892</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2021-02-23</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1892">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1892/5/Dissertation_Julian_David_Schlechtriemen.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1892"
+            DMDID="DMD_siegen_opus_1892">
+            <mets:fptr FILEID="FILE0_siegen_opus_1892"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_749">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Dynamics of continua with interfaces</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Die Dynamik von Kontinua mit Grenzflächen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hesch, Christian</displayForm>
+                        <namePart type="family">Hesch</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Continuum mechanics is nowadays widely used to describe the material behavior of systems, which occupies a specific area in space. In contrast to atomistic and molecular models, which can be solved using molecular dynamics or Monte-Carlo simulations, we consider the system to exist as a continuum. Due to their different material behavior we distinguish between solid mechanics and fluid mechanics. The typical deformation of the former one allows us to follow the movement of each particle in space, whereas we can not do this for the latter one. This leads to different formulations, which will be presented here.
+
+Typically, we want to achieve a solution for the balance of linear momentum for the continuum mechanical system. Additionally, we will derive a pure mass transport problem to demonstrate the capabilities of the numerical framework we have developed to solve these kind of problems. Once we have introduced the continuum mechanical framework, we can extent this to include further physical effects. Moreover, we extent the solid mechanical system to include thermal contributions and apply an additional pressure field to enforce the incompressibility of the fluids in the case of low Mach numbers.
+
+Within the continuous setting, we can define various interfaces. Internal interfaces can be used to decompose bodies into different subsets, e.g. to define areas with different physical properties or, on a more technical level, to enable parallelization on modern cluster architectures. External interfaces on solids can be used to include contact between multiple bodies. Additionally we could establish an interface at the external boundary to transfer momentum between a solid and the surrounding fluid. To avoid technical problems in the case of large deformations of solids, embedded within a fluid, we employ continuum immersed strategies to include the effects of fluid-structure interaction. Finally, we want to use phase field models for the simulation of phase separation and coarsening in solder alloys. We obtain sharp interfaces between the phases using the well known Cahn-Hilliard model to represent the free energy of the phases as well as of the interface. Similar to the immersed strategies, we aim at the simulation of the whole domain, avoiding the explicit representation of interfaces.
+
+To solve the arising initial boundary value problem in space, we first apply the finite element method for all problems at hand. In particular, we introduce Lagrangian as well as NURBS based shape functions for the underlying approximation of the field equations, written in weak form. Furthermore, we show how to incorporate discrete interface models in an optimal sense with regard to the consistency error at the interface using the Mortar method. The application of Mortar methods to NURBS will be shown as well. Due to the higher continuity requirement of the Cahn-Hilliard equation, the use of NURBS seems to be natural for this kind of problems. Since we deal with initial boundary value problems, suitable time integration schemes have to be developed as well. In general, we use a common implicit integration scheme for all problems at hand, such that we could use various fields simultaneously in a consistent framework. If possible, we aim at the development of structure preserving integrators, since they provide enhanced numerical stability for large time steps. For the explicit interface representation we apply additional augmentation techniques to simplify the algebraic constraints and verify the underlying conservation properties.</abstract>
+                    <abstract type="content" lang="ger">Kontinuumsmechanische Ansätze werden heutzutage häufig zur Beschreibung des Materialverhaltens von Körpern verwendet. Im Gegensatz zu atomaren und molekularen Modellen, die via Molecular Dynamics oder Monte-Carlo Ansätzen simuliert werden können, betrachten wir das System als kontinuierlich. Aufgrund des unterschiedlichen Materialverhaltens unterscheiden wir hierbei zwischen Festkörper- und Fluidmechanik. Die typischen Deformationen von Festkörpern erlauben das verfolgen jedes einzelnen Partikels im Raum, was für die Fluidmechanik nicht möglich ist. Beide Formulierungen werden im Weiteren präsentiert.
+
+Das Ziel der verwendeten Ansätze ist die Lösung der Impulsbilanz für das kontinuumsmechanische System. Des Weiteren betrachten wir ein reines Massentransportsystem, um die Möglichkeiten des entwickelten numerischen Lösungsansatzes zu demonstrieren. Zusätzlich können weitere physikalische Effekte in das System mit eingebunden werden, so z.B. thermische Beiträge sowie Druckfelder um die Inkompressibilität von Fluiden bei niedrigen Machzahlen zu erfassen.
+
+Innerhalb der kontinuierlichen Darstellung können wir verschiedene Grenzflächen definieren. So können wir interne Zerlegungen von Körpern vorzunehmen, um z.B. Gebiete mit unterschiedlichen physikalischen Charakteristika zu definieren oder, auf einer mehr technischen Ebene, eine Parallelisierung auf modernen Rechnerarchitekturen zu ermöglichen. Externe Grenzflächen können für die Simulation von Kontaktvorgängen verwendet werden. Des Weiteren können wir externe Ränder für den Impulstransfer zwischen einem Körper und dem ihn umgebenen Fluid definieren. Zuletzt wird ein Phasen-Feld Modell für die Simulation einer Phasentrennung in Legierungen untersucht. Hierzu verwenden wir das bekannte Cahn-Hilliard Modell, um die freie Energie der Phasen als auch der Grenzflächen erfassen zu können. Wie zuvor für die Fluid-Struktur Interaktionen verwenden wir Ansätze die eine explizite Repräsentation der Grenzflächen vermeiden.
+
+Für die Lösung des Anfangs-Randwertproblems im Raum wenden wir eine Finite-Elemente Methode an. Hierzu kommen sowohl Lagrange als auch auf NURBS basierende Formfunktionen zur Anwendung. Für die Grenzflächen verwenden wir eine variationell konsistente Mortar-Methode. Die Anwendung von Mortar-Methoden für NURBS Funktionen wird ebenfalls gezeigt. Für die zeitliche Diskretisierung des Anfangs-Randwertproblems verwenden wir ein konsistentes Integrationsverfahren für alle vorkommenden Probleme. Soweit möglich, etablieren wir ein strukturerhaltendes Zeitintegrationsverfahren, was uns eine erhebliche Verbesserung der Stabilität bei Verwendung großer Zeitschritte erlaubt.</abstract>
+                    <subject>
+                        <topic>Dynamik</topic>
+                        <topic>Kontinuummechanik</topic>
+                    </subject>
+                    <classification authority="ddc">620</classification>
+                    <classification authority="ioo" displayLabel="Institut für Mechanik und Regelungstechnik - Mechatronik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-7496</identifier>
+                    <identifier type="sys">HT017675723</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_749</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaHabil</vl:doctype>
+                        <vl:defenseDate>2013-05-23</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_749">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/749/1/hesch.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_749"
+            DMDID="DMD_siegen_opus_749">
+            <mets:fptr FILEID="FILE0_siegen_opus_749"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

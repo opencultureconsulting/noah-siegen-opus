@@ -1,0 +1,84 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_786">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Lokale Modellnetze zur Identifikation und Versuchsplanung nichtlinearer Systeme</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Local model networks for identification and experimental design of nonlinear systems</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hartmann, Benjamin</displayForm>
+                        <namePart type="family">Hartmann</namePart>
+                        <namePart type="given">Benjamin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In der vorliegenden Arbeit werden neue Verfahren zur experimentellen, datenbasierten Modellbildung (Identifikation) und zur Versuchsplanung nichtlinearer Systeme mit Hilfe von lokalen Modellnetzen vorgestellt.
+
+Die aus dieser Arbeit hervorgehenden Algorithmen basieren einerseits auf einer detaillierten Analyse und Weiterentwicklung der linearen Optimierung lokal gewichteter, polynomialer Modelle hinsichtlich Parameterschätzung, Regularisierung, Validierung und Strukturselektion. Andererseits bedarf es nichtlinearer Optimierungsverfahren, um die Gültigkeitsgebiete der lokalen Modelle an den nichtlinearen Prozess anzupassen. Dazu werden geeignete, heuristische Partitionierungsstrategien entwickelt, die durch sukzessive Unterteilung des Eingangsraums in der Lage sind, lokale Modellnetze effizient an die zugrunde liegenden Prozessdaten anzupassen. Dazu bedienen sich die untersuchten Verfahren achsenschräger Teilungsstrategien, welche sich durch eine flexible Partitionierung insbesondere für höherdimensionale Probleme eignen. Zudem wird eine Strategie vorgestellt, bei der automatisch eine Abwägung stattfindet, ob das Modell entweder mit einer achsenschrägen Teilung flexibilisiert oder ob die Anzahl der zu selektierenden Regressoren der Teilmodelle erhöht werden soll. Die Partitionierung und die lokale Selektion der signifikanten Polynomterme erfolgen hierbei simultan. 
+
+Darüber hinaus bietet die Umsetzung des neu entwickelten &quot;Hierarchical Local Model Tree&quot;-Algorithmus’ (HILOMOT) als statistisches Versuchsplanungsverfahren neue Möglichkeiten für praktische Anwendungen. Neben einer Offline-Versuchsplanung können nichtlineare Prozesse, für die kein a priori-Wissen zur Verfügung steht, mit dem Algorithmus aktiv gelernt werden. Das aktive Lernverfahren ist in der Lage, online mit dem Prozess zu interagieren und den Anforderungen entsprechend die Messpunkte effizient zu platzieren.
+
+Die vorgestellten Algorithmen werden durch die Anwendung an realen Systemen verifiziert und deren Leistungsfähigkeit unter Beweis gestellt. Dazu zählt die Modellierung des Verbrauchs und der Emissionskenngrößen eines modernen Dieselmotors, die aktive Versuchsplanung im Rahmen eines Structural Health Monitoring-Systems und die adaptive Online-Versuchsplanung am Motorenprüfstand zur Kalibrierung eines Dieselmotors.</abstract>
+                    <abstract type="content" lang="eng">This thesis proposes new approaches for experimental, data-based modeling (identification) and for experimental design of nonlinear systems based on local model networks.
+
+On the one hand, the proposed algorithms are based on a detailed analysis and further development of the linear optimization for locally weighted, polynomial models. This concerns parameter estimation, regularization, validation and subset selection. On the other hand, nonlinear optimization methods are required in order to adapt the validity regions of the local models to the underlying nonlinear process. This is achieved by the development of heuristic partitioning strategies that incrementally subdivide the input space. These methods enable an efficient adaptation of local model networks to the given data. The basic idea of the investigated approaches is the application of flexible axes-oblique partitioning strategies that are well-suited for higher-dimensional problems. In addition, a strategy is proposed that applies a structure trade-off where the model is improved either by performing an axes-oblique split or by increasing the number of regressors to be selected for the local sub-models. The partitioning as well as the local selection of the significant polynomial terms are carried out simultaneously.
+
+Furthermore, the newly developed &quot;hierarchical local model tree&quot; (HILOMOT) algorithm is extended for the application as an experimental design approach. Next to an offline strategy for design of experiments (DoE) the algorithm is enhanced with active learning strategies in order to perform online measurements of processes where no prior knowledge is available. The active learning algorithm is able to interact with the process and can meet the requirements to efficiently place the measurement points.
+
+The proposed algorithms are verified on real system applications where their performance has been demonstrated. That incorporates the modeling of the fuel consumption and emissions of a modern diesel engine as well as the active learning of damage locations in the framework of a structural health monitoring system. Moreover, an adaptive online experimental design is implemented on an engine test bed for the calibration of a diesel engine.</abstract>
+                    <subject>
+                        <topic>Systemidentifikation</topic>
+                        <topic>Nichtlineare Systemidentifikation</topic>
+                        <topic>Lokale Modellnetze</topic>
+                        <topic>Inkrementelle Baumkonstruktion</topic>
+                        <topic>Achsenschräge Partitionierung</topic>
+                        <topic>Aktives Lernen</topic>
+                        <topic>nonlinear system identification</topic>
+                        <topic>local model networks</topic>
+                        <topic>incremental tree-construction</topic>
+                        <topic>axes-oblique partitioning</topic>
+                        <topic>design of experiments</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Mechanik und Regelungstechnik - Mechatronik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-7865</identifier>
+                    <identifier type="sys">HT018232698</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_786</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2014-01-23</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_786">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/786/1/Dissertation_Hartmann.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_786"
+            DMDID="DMD_siegen_opus_786">
+            <mets:fptr FILEID="FILE0_siegen_opus_786"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

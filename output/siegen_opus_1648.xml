@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1648">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Populismus 2.0?</title>
+                        <subTitle lang="ger">eine Diskursanalyse der politischen Polarisierung auf Twitter</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Froböse, Lars</displayForm>
+                        <namePart type="family">Froböse</namePart>
+                        <namePart type="given">Lars</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In Zeiten von twitternden US-Präsidenten, Shitstorms, Cybermobbing und Fake-News, verbreitet über die beinahe omnipräsenten sozialen Medien, fällt die politische Meinungsbildung zunehmend schwerer. Erst recht, wenn Politiker die neuen Möglichkeiten ungefilterter, beliebig skalierbarer Online-Kommunikation für populistische Agitation nutzen.
+Die vorliegende Publikation geht der Frage nach, ob soziale Medien Populismus befördern und damit die Polarisierung politischer Diskurse begünstigen. Dafür wird die Twitter-Kommunikation aller Bundestagsabgeordneten im Vorfeld der Europawahl 2019 mittels kritischer Diskursanalyse nach Siegfried Jäger (2012) untersucht, wobei das Untersuchungsinstrument um ein neu entwickeltes, auf soziale Medien zugeschnittenes Analyseinstrument zur Erkennung von Elementen des populistischen Diskurses erweitert wird.</abstract>
+                    <subject>
+                        <topic>Populismus</topic>
+                        <topic>Social Media</topic>
+                        <topic>Populismus</topic>
+                        <topic>Twitter</topic>
+                        <topic>Diskursanalyse</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16481</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1648</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1648">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1648/4/Medienwissenschaften_20_Froboese.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1648"
+            DMDID="DMD_siegen_opus_1648">
+            <mets:fptr FILEID="FILE0_siegen_opus_1648"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_144">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Untersuchung des Cotton-Mouton-Effektes in der isotropen Phase flüssigkristalliner Substanzen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Blachnik, Hasan-Nuri</displayForm>
+                        <namePart type="family">Blachnik</namePart>
+                        <namePart type="given">Hasan-Nuri</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">1999</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Nach einer kurzen Beschreibung der theoretischen Grundlagen von flüssigkristallinen Phasen, des Cotton-Mouton-Effekts, der kritischen Gesetze und der Landau-de Gennes-Theorie, wird im zweiten Teil der Aufbau und die funktionsweise einer Apparatur vorgestellt, die eine sehr genaue Bestimmung der magnetisch induzierten Doppelbrechung (Cotton-Mouton (CM) -Konstante) in der isotropen Phase erlauben. Im dritten Teil werden die damit durchgeführten  Messungen der CM-Konstanten an einer größeren Zahl flüssigkristalliner Substanzen vorgestellt. Schließlich werden die Meßwerte verwendet, um bestehende Theorien, die Vorumwandlungserscheinungen in Flüssigkristallen beschreiben, zu testen.
+
+Es wird festgestellt, daß zur Zeit keine Theorie existiert, die die Phasenumwandlung isotrop-flüssigkristallin mit Vorumwandlungserscheinung korrekt beschreibt.</abstract>
+                    <abstract type="content" lang="eng">In the first part of the thesis a short description of the theory of liquid crystaline phases, of the Cotton-Mouton effect, critical laws and the Landau-de Gennes theory is given. In the second part a device is described, which allows the very exact determination of the magnetically induced birefringence (Cotton-Mouton (CM) constant) in the isotropic phase. Measurements of the CM constants of a larger number of liquid crystaline substances are presented. These values are used to discuss existing theories on pretransition effects in liquid crystals.
+
+In this work the conclusion is drawn that at the moment no theory exists which describes the pretransition phenomena at the phase transition isotropic-liquid crystalline correctly.</abstract>
+                    <subject>
+                        <topic>Flüssigkristalle</topic>
+                        <topic>Cotton-Mouton-Effekt</topic>
+                        <topic>Vorumwandlungserscheinung</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 8, Chemie - Biologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1449</identifier>
+                    <identifier type="sys">HT010849269</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_144</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>1999-05-10</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_144">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/144/1/blachnik.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_144"
+            DMDID="DMD_siegen_opus_144">
+            <mets:fptr FILEID="FILE0_siegen_opus_144"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

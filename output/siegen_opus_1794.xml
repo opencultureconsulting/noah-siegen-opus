@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1794">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Lernkatalysatoren und konvergierende Objekte</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ahrens, Volker</displayForm>
+                        <namePart type="family">Ahrens</namePart>
+                        <namePart type="given">Volker</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hieronymus, Martin</displayForm>
+                        <namePart type="family">Hieronymus</namePart>
+                        <namePart type="given">Martin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Prof. Dr. Ralph Dreher, Universität Siegen</displayForm>
+                        <namePart type="family">Prof. Dr. Ralph Dreher</namePart>
+                        <namePart type="given">Universität Siegen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Objekte können im sozialen Prozess des Lernens eine zentrale Rolle spielen. Dazu müssen sie jedoch bestimmte Eigenschaften aufweisen und gezielt eingesetzt werden. Im Kontext der Theorie sozialer Systeme bieten spezifische Theorien wie die Akteur-Netzwerk-Theorie (ANT), der Symbolische Interaktio-nismus oder die Affordanztheorie dazu Ansatzpunkte. Am Beispiel einer konkreten Lehrveranstaltung wird demonstriert, wie diese in der akademischen Lehre wirksam umgesetzt werden können.</abstract>
+                    <subject>
+                        <topic>Lehre</topic>
+                        <topic>Kompetenzorientierte Lehre</topic>
+                        <topic>Lernkatalysatoren</topic>
+                        <topic>Konvertierende Objekte</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-17942</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1794</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1794">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1794/4/Lernkatalysatoren_und_konvergierende_Objekte.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1794"
+            DMDID="DMD_siegen_opus_1794">
+            <mets:fptr FILEID="FILE0_siegen_opus_1794"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

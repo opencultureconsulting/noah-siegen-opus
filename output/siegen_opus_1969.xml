@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1969">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Nina Weger : &quot;Kindern vertrauen und etwas zutrauen&quot;</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mikota, Jana</displayForm>
+                        <namePart type="family">Mikota</namePart>
+                        <namePart type="given">Jana</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Oehme, Viola</displayForm>
+                        <namePart type="family">Oehme</namePart>
+                        <namePart type="given">Viola</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schmidt, Nadine J.</displayForm>
+                        <namePart type="family">Schmidt</namePart>
+                        <namePart type="given">Nadine J.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Nina Weger (Jg. 1970) gehört zu den spannendsten Stimmen der gegenwärtigen Kinderliteratur. Im Sommersemester 2021 hat die Autorin mit Studierenden nicht nur über ihre Werke, sondern auch über die Bedeutung und das Schreiben für Kinder diskutiert und auch für das vorliegende Werkstattgespräch zur Verfügung gestanden.
+Obwohl Nina Wegers Schaffen vielfältig ist und mit Preisen bedacht wurde, finden die Autorin und ihr Werk in der Forschungsliteratur noch recht wenig Beachtung. Umso wichtiger ist das mit diesem Heft verfolgte Anliegen, Nina Weger und insbesondere ihr Schreiben für Kinder und Jugendliche vorzustellen sowie literaturwissenschaftlich einzuordnen. 
+Sie selbst sagt: &quot;Mir ist es wichtig, den Kindern durch meine Geschichten zu sagen: &apos;He, du bist nie ganz allein mit deinem Problem. Irgendwo auf der Welt hat noch jemand dieses Problem, was heißt, dass es irgendwo auf der Welt auch jemanden gibt, der versteht, was da gerade bei dir los ist.&apos; Dabei ist es mir immer ganz wichtig, eine Perspektive zu geben. Das muss nicht immer ein Happy End sein, aber vielleicht so etwas wie ‚ein Weg raus‘.&quot;
+Nina Wegers literarische Texte markieren teilweise den Übergang zum Jugendroman und entziehen sich literaturwissenschaftlichen Genrezuweisungen. Ihre Romane changieren zwischen den drei Untergattungen des modernen Kinderromans – problemorientiert, psychologisch, komisch.</abstract>
+                    <subject>
+                        <topic>Kinderliteratur</topic>
+                        <topic>Kinderliteratur</topic>
+                    </subject>
+                    <classification authority="ddc">830</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19694</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1969</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1969">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1969/1/Werkstattgespraech_8_1_Weger.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1969"
+            DMDID="DMD_siegen_opus_1969">
+            <mets:fptr FILEID="FILE0_siegen_opus_1969"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

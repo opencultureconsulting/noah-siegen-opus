@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_279">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Regelung dynamischer Systeme mit stochastischer Zeitverzögerung durch ein Kommunikationsnetzwerk</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Rösch, Otto Jürgen</displayForm>
+                        <namePart type="family">Rösch</namePart>
+                        <namePart type="given">Otto Jürgen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2007</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In der Automatisierungstechnik sind Kommunikationsnetzwerke zur Datenübertragung innerhalb begrenzter Umgebungen weit verbreitet. Zum Einsatz kommen dafür speziell konzipierte Bussysteme, die eine gewisse Echtzeitfähigkeit liefern und somit für eine Regelung von dynamischen Systemen anwendbar sind. Regeleinrichtungen, Aktoren und Sensoren lassen sich auf diese Weise in großen Anlagen direkt über Datenbusleitungen verbinden. Die Integration von Kommunikationsnetzwerken in Regelungssystemen ist im Allgemeinen billiger, reduziert Gewicht und Leistung, ist einfacher zu installieren, wartungsfreundlicher und hat eine höhere Zuverlässigkeit im Vergleich zu klassischen Punkt-zu-Punkt-Verbindungen. Bei derart vernetzten Anlagen können die Datenleitungen auch mit anderen Anwendungen geteilt werden. Die größte vernetzte Anlage ist das Internet. Bei großen Entfernungen kommen bestehende Internetverbindungen zum Einsatz, da spezielle Netzwerk-Systeme zu teuer oder gar nicht realisierbar wären, wie z.B. transatlantische Verbindungen.
+Durch eine enorm gestiegene Datenübertragungsrate und Reaktionsgeschwindigkeit von Kommunikationsnetzwerken ist nicht nur die Fernsteuerung oder Fernwartung, sondern auch die Regelung von Systemen über große Entfernungen ermöglicht worden. Ein steigendes Interesse ist dabei nicht nur in der Forschung, sondern auch bei industriellen Anwendungen zu vermerken. So lassen sich an das bestehende IP-Netzwerk verschiedene Geräte wie Sensoren, Aktuatoren, Regeleinrichtungen aber auch Überwachungs- und Steuergeräte direkt anschließen.
+Bei der Verwendung des Internets sind diese Datenleitungen meist schon vorhanden. Folglich ist kein zusätzlicher Installationsaufwand mehr notwendig. Zu beachten ist, dass bei einer Regelung über das Internet stochastische Verzögerungszeiten in der Signalübertragung auftreten, welche zu unerwünschtem Systemverhalten führen können und daher beim Regelungsentwurf unbedingt zu berücksichtigen sind. In Abhängigkeit des verwendeten Netzwerkprotokolls können bei einer Datenübertragung mit hoher Netzauslastung Pakete verzögert oder sogar vollständig verloren gehen.  
+Bei einer Regelung von Systemen über das Internet ist grundlegend zu unterscheiden, ob das Netzwerk als Kommunikationsmedium mit im Regelkreis integriert ist oder ob nur eine Fernsteuerung vorliegt. Läuft die eigentliche Regelung lokal vor Ort ab, also ohne problematische Zeitverzögerung im Regelkreis, so kann das System über das Internet nur gestartet  bzw. Parameter verändert werden wie bei einer Fernsteuerung. Um eine Regelung mit stochastischer Zeitverzögerung im Regelkreis stabil betreiben zu können, sind neue Regelungskonzepte zu erforschen. Dabei ist neben der Stabilität auch die Güte der Regelung eine wesentlich zu betrachtende Eigenschaft, welche nicht zu stark von der Qualität des Netzwerkes (Verzögerung, Bandbreite) abhängen darf.</abstract>
+                    <abstract type="content" lang="eng">Communication networks are commonly used in the automation technology for the wiring of large plant. Special designed bus systems are generally used which support a real-time capability and are usable for control purposes of dynamic systems. Actuators, sensors and control units can directly be connected by such bus systems. The integration of communication-networks for large machines is in general cheaper, reduces weight and power, easier to install and maintain and has a higher reliability in comparison to classical point-to-point connections. The bus system can be shared by different applications of such connected plants. The largest cross-linked network itself is the internet. Existing networks like the internet are used for large distance connections, because the installation of special networks might be too expensive, e.g. a transatlantic connection.
+
+The increased data transfer rate and reaction time of communication networks enables remote control of plants through the internet. The industry shows an increasing usage of control applications through communication networks. Sensors and actuators with TCP/IP interfaces were developed, to directly integrate it into networks. By using the internet, the infrastructure is in general already available and no additional installation is necessary. But it has to be considered, that the real-time performance with control through the internet is bad and stochastical time delays appear. These delays could result in unwanted system behaviour and must be considered in the controller design. 
+
+When controlling a dynamical system over the internet it must be distinguished whether the data network is integrated in the control loop, or if it is only used for a remote system start with the possibility of editing control parameters (e.g. the desired value or some controller gain-values) where the control loop itself runs locally. If only a local control loop exists, no delay problems occur by using the network. But if the internet is integrated in the control loop, stochastical time delays appear through the network connection. 
+
+New controller designs are neccesarry for a stable control of dynamical systems with stochastically varying time delays in the control loop. The following work points out different approaches for the design of controllers for input delay systems with stochastically varying time delays. Static and adaptive control laws are considered in the further work.</abstract>
+                    <subject>
+                        <topic>Elektrische Regelungstechnik</topic>
+                        <topic>Regelung über Kommunikationsnetzwerke</topic>
+                        <topic>Time-delay-Control</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-2797</identifier>
+                    <identifier type="sys">HT015118946</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_279</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2006-05-23</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_279">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/279/1/roesch.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_279"
+            DMDID="DMD_siegen_opus_279">
+            <mets:fptr FILEID="FILE0_siegen_opus_279"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

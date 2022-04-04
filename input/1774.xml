@@ -1,0 +1,71 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1774</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Understanding images via visual similarity and deep feature representations</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Über das Verständis von Bildern durch visuelle Similaritäten und tiefgehende Merkmalsrepräsentationen</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Mai Lan</pc:foreName>
+            <pc:surName>Ha</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Ähnlichkeit / Sehen</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Visual similarity</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Visual perception</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Image understanding</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Deep feature representations</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Deep learning</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Machine Learning and Computer Vision are often thought to relate only to machines, involving the development of algorithms and teaching computers to perform various tasks. However, human vision and perception are hidden aspects that influence how an algorithm should function, or how we would want a computer to "see". The two goals of this thesis are the study of perceptual visual similarity and that of feature representations from Deep Convolutional Neural Networks (DCNNs).&#13;
+Assessing visual similarity in-the-wild, a core ability of the human visual system is a challenging problem for Computer Vision because of its subjective nature and its ambiguity in the problem definition. Therefore, the first goal of the thesis is to study the fundamental problems of visual similarity. We raise the question if we could break down different aspects of similarity that make their study more tractable and computationally feasible. We study color composition similarity in-depth, from human evaluation to its modeling using DCNNs. We apply the models to create a new global color similarity descriptor and color transfer method. We then couple color composition and category similarities to define a new model for visual similarity. The combination leads to better results in fine-grained image retrieval. Our approach is a proof of concept, showing that we can make subjective phenomena scientifically tractable. We also developed a perceptual-inspired metric to evaluate intrinsic imaging methods resulting in a fairer evaluation compared to previous metrics.&#13;
+The second goal of the thesis focuses on investigating what features are embedded in different parts of a DCNN, how we could use them efficiently, and how we can improve these features. On the one hand, the low to mid-level features, ranging from image pixels to different layers of convolutional responses in a DCNN, are used in perceptual metrics and visual similarity. On the other hand, we discover shape information "hidden" in the high-level features of a DCNN trained for classification. The shapes extracted from the DCNN are used to perform weakly supervised semantic segmentation that works well beyond the classes on which the DCNN was trained. We also find a way to improve the discriminative ability of deep classification features by incorporating Linear Discriminant Analysis objectives into a DCNN training optimization. Our proposed optimization method leads to better classification results, especially for fine-grained classification, which is challenging even for non-expert humans.&#13;
+The studies on perceptual visual similarity and deep feature representations in the thesis shed new light on image understanding, which covers different aspects of images such as color, shape, and category.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Maschinelles Lernen und Sehen werden oft so verstanden, als beträfen sie nur Maschinen und die Entwicklung von Algorithmen, welche einem Computer verschiedenste Aufgaben ermöglichen. Jedoch haben auch das menschliche Sehen und die menschliche Wahrnehmung einen Einfluss auf die Zielvorgaben, wie solche Algorithmen funktionieren sollen und wie ein Computer "sehen" soll. Die zwei Ziele dieser Dissertation sind daher die Untersuchung von visueller Ähnlichkeit (visual similarity) nach Gesichtspunkten menschlicher Warnehmung und die Untersuchung von Feature-Darstellungen in tiefen Faltungsnetzwerken (DCNNs).&#13;
+Die Bewertung von visueller Ähnlichkeit zwischen Bildern ist zwar eine Kernaufgabe der menschlichen Wahrnehmung, aber eine große Herausforderung für Maschinelles Sehen in echten Anwendungen, aufgrund der Subjektivität und Mehrdeutigkeit der Problemdefinition. Daher ist das erste Ziel dieser Arbeit eine grundlegende Studie von visueller Ähnlichkeit. Wir untersuchen eine Abgrenzung verschiedener Aspekte von Ähnlichkeit, die eine handhabbare und realisierbare Untersuchung ermöglicht. Wir diskutieren Ähnlichkeit auf Basis von Farbkomposition im Detail, anfangend bei menschlicher Evaluierung, bis hin zur Modellierung mithilfe von DCNNs. Wir benutzen diese Modelle zur Schaffung sowohl einer neuer Metrik für global Farbähnlichkeit als auch eines Farbtransfermodells. Weiterhin verknüpfen wir Farbkomposition und Objektähnlichkeit, um ein neues Modell für visuelle Ähnlichkeit zu definieren. Diese Kombination führt in der Anwendung, etwa im Bereich der Bildsuche auf einer feineren Unterscheidungsebene (fine-grained image retrieval) zu verbesserten Ergebnissen. Unser Ansatz ist ein Prototyp, der zeigt, wie subjektive Wahrnehmung, für Maschinen greifbar gemacht werden kann. Schliesslich entwickeln wir auch ein wahrnehmungs-inspirierte Metrik zur Evaluierung von intrinsischen bildgebenden Verfahren, die im Gegensatz zu besherigen Metriken, genauere Methodikvergleiche ermöglicht.&#13;
+Das zweite Ziel dieser Dissertation bildet die Untersuchung von Merkmalsrepräsentationen in verschiedenen Teilbereichen eines DCNNs, und stellt die Frage, wie diese Merkmale verstanden, effizient benutzt und verändert werden können. Merkmale aus den unteren und mittleren Schichten eines DCNNS, angefangen bei den Bildpixeln hin zu den Faltungsergebnissen der frühen Schichten, können gut als Metriken für Wahrnehmung und visuelle Ähnlichkeit verwendet werden. Bei Analyse der späteren Schichten eines DCNNS für Klassifizierung finden wir jedoch heraus, dass in diesen Gestaltsinformationen "versteckt" sind. Die Extraktion dieser Informationen führt uns zu einer schwach beaufsichtigten (weakly-supervised) Segmentierungsmethodik, die sogar jenseits der Klassen funktioniert, mit denen das DCNN trainiert wurde. Außerdem betrachten wir die diskriminativen Fähigkeiten dieser späteren Klassifikationsmerkmale und diskutieren eine Verbesserung der Separation durch Verwendung von Methoden der linearen Diskriminationsanalyse während des Trainings. Unsere vorgeschlagene Optimierungsmethode führt zu verbesserten Klassifikationsergebnissen, besonders bei der Klassifikation auf einer feineren Unterscheidungsebene, die sogar für menschliche Experten schwierig ist. &#13;
+Diese Untersuchungen von visueller Ähnlichkeit und von tiefen Merkmalsrepräsentationen in DCNNs zeigen neue Wege zu einer Theorie von Bildverständnis auf, die verschiedenste Aspekte von Bildern, wie Farben, Gestalt und Kategorien einschließt.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Volker</pc:foreName>
+            <pc:surName>Blanz</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2020-08-18</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2020</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-17743</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Department Elektrotechnik - Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Mai_Lan_Ha.pdf" ddb:fileSize="44223724"/>
+   <ddb:checksum ddb:type="MD5">ca2e494a2005d52b79123a0ba8acf5fa</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1774/5/Dissertation_Mai_Lan_Ha.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1774</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

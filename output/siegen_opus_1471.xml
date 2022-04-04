@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1471">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Scenario-based meta-scheduling for energy-efficient, robust and adaptive time-triggered multi-core architectures</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Sorkhpour, Babak</displayForm>
+                        <namePart type="family">Sorkhpour</namePart>
+                        <namePart type="given">Babak</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In vielen sicherheitskritischen Anwendungen (z.B. Luft- und Raumfahrt, Automotive, Kernkraftwerke) kommen komplexe elektronische Systeme zum Einsatz, für die Zertifizierungsnormen den Einsatz von sicheren Konstruktionsmethoden und -tools vorschreiben. Die Szenario-basierte Meta-Planung (SBMeS) ist eine Möglichkeit, die Komplexität von adaptiven Systemen über vorhersehbare Verhaltensmuster zu steuern, die durch statische Planungsalgorithmen festgelegt werden. SBMeS ist sehr bedeutsam für das Internet der Dinge (IoT) und Echtzeitsysteme. Echtzeitsysteme basieren oft auf zeitgesteuerten Betriebssystemen und Netzwerken und können von SBMeS für mehr Energieeffizienz, Flexibilität und Zuverlässigkeit profitieren.
+Diese Abhandlung stellt einen SBMeS-Algorithmus vor, der einen individuellen Zeitplan für jede relevante Kombination von Ereignissen wie dynamische Schlupfereignisse berechnet. Die dynamische Frequenzskalierung von Prozessorkernen und Routern dient der Verbesserung der Energieeffizienz unter Beibehaltung der zeitlichen Korrektheit von zeitgesteuerten Berechnungs- und Kommunikationsaktivitäten (z.B. Kollisionsvermeidung, Echtzeitfähigkeit). Mit Hilfe von Modellen von Anwendungen, Plattformen und Kontexten werden Planungswerkzeuge eingesetzt, um Reaktionen auf Ereignisse vorzubereiten und Meta-Planungen zu generieren. 
+Im Rahmen dieser Arbeit werden Techniken und Werkzeuge entwickelt, um eine Reihe von Berechnungen und Nachrichten auf Network-On-Chip (NoC)-Architekturen zu planen, mit dem Ziel, den Gesamtenergieverbrauch unter Berücksichtigung von Zeitvorgaben und einstellbaren Frequenzen zu minimieren. Der Algorithmus unterstützt sicherheitskritische adaptive zeitgesteuerte Systeme und kann die Anforderungen hinsichtlich der Fehlertoleranz abdecken. Er kann auch dazu beitragen auf Störungsfälle zu reagieren, indem er das System wiederherstellt. Außerdem stellen wir ein Meta-Planungstool (MeSViz) zur Visualisierung von zeitgesteuerten Plänen vor. 
+Wir analysieren und bewerten die Energieeffizienz der Pläne experimentell für Prozessorkerne und Router. Darüber hinaus wird das Zeitverhalten anhand von statischen und dynamischen Schlupfereignissen analytisch bewertet. Simulationsergebnisse zeigen, dass unser dynamischer Schlupfalgorithmus im Durchschnitt eine Energieeinsparung von 64,4% in einem einzigen Zeitplan und 41,61% Energieeinsparung für NoCs erbringt. Durch die Komprimierung der Zeitpläne kann der Speicherverbrauch um mehr als 61% reduziert werden.</abstract>
+                    <abstract type="content" lang="eng">Complex electronic systems are used in many safety-critical applications (e.g., aerospace, automotive, nuclear stations), for which certification standards demand the use of assured design methods and tools. Scenario-based meta-scheduling (SBMeS) is a way of managing the complexity of adaptive systems via predictable behavioral patterns established by static scheduling algorithms. SBMeS is highly relevant to the internet of things (IoT) and real-time systems. Real-time systems are often based on time-triggered operating systems and networks and can benefit from SBMeS for improved energy-efficiency, flexibility and dependability.
+This thesis introduces an SBMeS algorithm that computes an individual schedule for each relevant combination of events such as dynamic slack occurrences. Dynamic frequency scaling of cores and routers is used to improve energy efficiency while preserving the temporal correctness of time-triggered computation and communication activities (e.g., collision avoidance, timeliness). Models of applications, platforms and context are used by scheduling tools to prepare reactions to events and to generate meta-schedules. 
+In this work, techniques and tools are developed to schedule a set of tasks and messages on Network-on-chip (NoC) architectures to minimize total energy consumption, considering time constraints and adjustable frequencies. This algorithm is intended for mixed-criticality and safety-critical adaptive time-triggered systems and can cover fault-tolerance requirements. It can also help to react to fault events by recovering the system. We also introduce a meta-scheduling visualization tool (MeSViz) for visualizing schedules. We also introduce a meta-scheduling visualization tool (MeSViz) for visualizing schedules. 
+We experimentally and analytically evaluate the schedules’ energy-efficiency for cores and routers. In addition, the timing is analytically evaluated, based on static slack and dynamic slack events. Simulation results show that our dynamic slack algorithm produces, on average, an energy reduction of 64.4% in a single schedule and 41.61% energy reduction for NoCs. By compressing the schedule graphs the memory consumption can be reduced by more than 61%.</abstract>
+                    <subject>
+                        <topic>Sicherheitskritisches System</topic>
+                        <topic>Meta-scheduling</topic>
+                        <topic>MIQP</topic>
+                        <topic>Time-Triggered</topic>
+                        <topic>Energy-Efficient</topic>
+                        <topic>Multi-Core Architectures</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-14715</identifier>
+                    <identifier type="sys">HT020145558</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1471</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2019-07-09</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1471">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1471/1/Dissertation_Babak_Sorkhpour.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1471"
+            DMDID="DMD_siegen_opus_1471">
+            <mets:fptr FILEID="FILE0_siegen_opus_1471"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

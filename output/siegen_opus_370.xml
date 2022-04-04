@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_370">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Ein </nonSort>
+                        <title>Framework für echtzeitfähige Ethernet-Netzwerke in der Automatisierungstechnik mit variabler Kompatibilität zu Standard-Ethernet</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <nonSort>Ein </nonSort>
+                        <title>A framework for industrial realtime Ethernet-networks with variable compatibility to common Ethernet networks</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Dopatka, Frank</displayForm>
+                        <namePart type="family">Dopatka</namePart>
+                        <namePart type="given">Frank</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2008</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Im Umfeld der Automatisierungstechnik ist bereits seit einigen Jahren der Trend zu beobachten, etablierte Feldbusse durch echtzeitfähiges Ethernet zu ersetzen oder zu ergänzen. Das Ziel liegt darin, eine einzige Netzwerkinfrastruktur von der Leitebene im Bürobereich bis hin zu Feldgeräten wie Sensoren, Aktoren und Bedienpulten in industriellen Produktionshallen zu schaffen. Dieser Trend wird als vertikale Integration bezeichnet. Ein Hauptproblem liegt dabei darin, dass die weit verbreiteten Standard-Ethernet Netzwerke nicht den Anforderungen der industriellen Echtzeit genügen. Andererseits soll der Ethernet- Standard aber auch auf der Feldebene eingehalten werden, da ansonsten wiederum separate Feldbusse entstehen. Das Hauptziel dieser Arbeit besteht in der Entwicklung eines formal fundierten Frameworks, mit dessen Hilfe zwischen der Kompatibilität zum verbreiteten Standard-Ethernet und der Einhaltung von konkreten Echtzeitanforderungen einer automatisierten Anlage variiert werden kann.
+Dabei erfolgt zunächst eine Übersicht und Klassifizierung der existierenden echtzeitfähigen Ethernet-Lösungen. Diese haben zum größten Teil gemeinsam, dass sie Subnetze bilden, in denen ausschließlich echtzeitfähige Geräte erlaubt sind. Es ist zwar asynchroner Datenverkehr möglich, ein angeschlossener Rechner ohne Kenntnis des Echtzeitprotokolls beeinträchtigt jedoch die Echtzeitfähigkeit des Netzes. Geräte auf der Basis von Standard-
+Ethernet können lediglich über Gateways angeschlossen werden. In diesen Fällen kann jedoch gleichermassen ein Feldbus mit Ethernet-Gateway zum Einsatz kommen. Des Weiteren basieren viele existierende Lösungen auf einem Master/Slave-Kommunikationsmodell. Sie beachten nicht konsequent den Trend zu dezentraler Peripherie, bei der unabhängige parallele Übertragungen im Netzwerk statt finden.
+Im Rahmen dieser Arbeit wird durch das Framework eine neue Sichtweise auf echtzeitfähige Netzwerke der Automatisierungstechnik auf Ethernet-Basis erarbeitet. Zusätzlich dazu wird ein neuartiger Ansatz beschrieben, der auf einem TDMA-Zugriffsverfahren basiert und keine strikte Subnetz-Bildung erzwingt. Geräte wie Laptops oder Standard-PCs
+können transparent in das echtzeitfähige Netzwerk hinzugefügt und wieder entfernt werden. Sie können asynchrone Daten senden und empfangen, ohne das Echtzeitverhalten des Netzwerkes zu beeinflussen. Zur Realisierung des TDMA-Verfahrens werden auf Basis der im Vorfeld bekannten Echtzeit-Übertragungen Schedules berechnet. Des Weiteren wird die Fragestellung erörtert, an welcher Stelle des Netzwerkes die Schedules umgesetzt werden. Dabei wird ein zentraler Scheduler ebenso betrachtet wie dezentrale Schedules in den Switches sowie aktiv sendende und passive Geräte. Abschließend wird die Entwicklung eines
+neuartigen Switches skizziert, welcher Frames mit hohen Echtzeitanforderungen schneller als cut-through Switches deterministisch weiterleiten kann.</abstract>
+                    <abstract type="content" lang="eng">Within the scope of automation technology, a trend to substitute established fieldbuses with realtime Ethernet networks or to integrate Ethernet frames into a fieldbus infrastructure can be observed since several years. The aim is to use a single network from the office area to the field devices like sensors, actuators or user-panels. This trend is characterized as vertical integration. A central issue is that widespread Standard-Ethernet networks do not satisfy the demands of industrial realtime in automation technology. However, the Ethernet standard ought to be observed in the field area as well. Otherwise, separate field bus infrastructures would arise again. The main objective of this work is the development of a formal profounded framework, which allows to vary between compability to the widespread
+Ethernet standard on the one hand, and the compliance with concrete realtime demands of an automated plant on the other hand.
+First of all, an overview and classification of existing realtime Ethernet solutions is given. These solutions mostly build subnets consisting exclusively of realtime devices. Though it is possible to transfer data in an asynchronous manner, a connected personal computer without knowledge about the realtime protocol would impact the realtime capabilities of the network. Standard Ethernet devices can only be connected via gateways. However, in this case a common fieldbus with Ethernet gateway can be used in the same manner. Furthermore, many existing solutions are based on a master/slave communication model. They do not consequently follow the trend towards decentral periphery, which allows concurrent communication in the network.
+Within the scope of this work, the developed framework allows a new perspective on realtime networks for automation technology based on Ethernet. In addition to this, a new approach is depicted, which is based on a TDMA access method without enforcing strict subnets. Devices like laptops or personal computers can be added to the network and removed from the network seamlessly. They can transmit and receive asynchronous data without influencing the realtime capabilities of the network. In order to realise the TDMA access method, offline schedules are calculated with regard to the well known realtime communication requirements. Furthermore, the location for implementing the schedules in the network is discussed. In this context, a central scheduler is considered as well as decentral schedules inside the switches. Active transmitting devices are included as well as passive devices. Finally, the design of a new switching hardware is outlined. This switch will be able to transmit Ethernet frames with high realtime requirements deterministically and even faster than cut-through switches.</abstract>
+                    <subject>
+                        <topic>Ethernet</topic>
+                        <topic>Echtzeit</topic>
+                        <topic>Framework</topic>
+                        <topic>Ethernet</topic>
+                        <topic>Automation Technology</topic>
+                        <topic>Realtime</topic>
+                        <topic>Framework</topic>
+                        <topic>Model</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachgruppe Betriebssysteme und verteilte Systeme"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-3700</identifier>
+                    <identifier type="sys">HT015735543</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_370</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2008-09-11</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_370">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/370/1/dopatka.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_370"
+            DMDID="DMD_siegen_opus_370">
+            <mets:fptr FILEID="FILE0_siegen_opus_370"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

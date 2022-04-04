@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1821">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Transformative works and German copyright law as matters of boundary work</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kempfert, Kamila</displayForm>
+                        <namePart type="family">Kempfert</namePart>
+                        <namePart type="given">Kamila</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Reißmann, Wolfgang</displayForm>
+                        <namePart type="family">Reißmann</namePart>
+                        <namePart type="given">Wolfgang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Drawing on the basic assumptions and mechanisms of German Copyright law and the main problems concerning transformative works, Kamila Kempfert and Wolfgang Reißmann introduce “boundary work” as a praxeological perspective to grasp translations and transformations of copyright law within different social worlds. Using the example of fan fiction practices and the lawsuit of “Metall auf Metall“, they attempt to approach law-in-practice and demonstrate different modes and forms of boundary work. In the case of fan fiction authors, boundary work consists of (unconsciously) translating elements of basic assumptions of copyright law to their own works as well as distancing themselves from commercial exploitation, while simultaneously almost ignoring the factual legal situation. In the “Metall auf Metall” lawsuit, boundary work was performed by changing the balance between ancillary copyright law and artistic freedom and by emphasizing commercial effects as important evaluation criteria. The different boundary works partly converge, partly they are contradictious.</abstract>
+                    <subject>
+                        <topic>Copyright</topic>
+                        <topic>Fan fiction</topic>
+                        <topic>Transformative works</topic>
+                        <topic>Boundary work</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-18214</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1821</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1821">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1821/4/Kempfert_Rei%c3%9fmann_Transformative_works.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1821"
+            DMDID="DMD_siegen_opus_1821">
+            <mets:fptr FILEID="FILE0_siegen_opus_1821"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

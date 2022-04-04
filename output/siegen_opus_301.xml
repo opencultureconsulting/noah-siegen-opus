@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_301">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Empfang und Auswertung intensitätsmodulierter optischer Signale mittels Photonic-Mixer-Device (PMD) in Applikationen der Messtechnik und Kommunikation</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Heß, Holger</displayForm>
+                        <namePart type="family">Heß</namePart>
+                        <namePart type="given">Holger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2007</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The human thinking is based on three successive fundamental steps: perception, abstraction and interpretation. One of the most interesting subjects in the field of human perception and the scientific world is definitively the spatial sense, which is illustrated by many papers, from the ancient world till this day in all different sciences. In nature two different principles are known: ultrasonic distance measurement and stereo vision. The first measures the time of a travelling signal, starting from the emitting animal to the reflecting objects in his environment back to animal&apos;s receiver. The second uses the triangulation effect between two spatial different sensors, which allows an estimation of the distance to the environmental objects. After a general introduction (Chapter 2 - 3) the first main part of this Dissertation is engaged in the comprehensive theme of the technical realisation of depth perception (Chapter 4). The second main part (Chapter 5) works on another interesting field in research and technology: the optical spread spectrum communication. Both topics seem
+to have little relation, but they are merged in their multidimensional approach and their underlying principle of correlation reception. A more detailed overview is given in the following: After the introduction to the both subjects in Chapter 1, the fundamental terms of space and time are discussed at the beginning of Chapter 2, comparing the opinions and interpretations of the most important scientists in history. Afterwards some elementary principles of modern signal and system theory are illustrated to provide the understanding of the presented work. Chapter 3 gives a survey of the components which are utilisable in optical time of flight measurement systems. Particular attention is drawn to the novel photonic mixer device, which fuses the receiving and processing of optical signals into a smart device. Therein a mixing of the optical signal and a reference takes place during the electro-optical generation of electrons. Based on this unique feature the principle of a correlation reception is declared. Chapter 4 gives detailed facts of the presented distance measurement system, which is known as optical time of flight measurement. Therein a lot of technical problems in electro-optical correlation reception are discussed in detail, starting from lasers as one of the most effective light sources over the novel unique optical receiver named PMD to the optimisation of distance calculation algorithms. Based on the one-dimensional TOF-distancemeasurement a new 3D-camera is presented and discussed in comparison to approaches using the similarities in several conventional 2D-pictures. Finally a second application similar to the distance measurement is presented shortly: the fluorescent lifetime measurement. After that the suggested spread-spectrum communication is explained in Chapter 5. This multiple access system bases on the use of chirp signals, which allows an effective management of the resource bandwith. A discussion of all chirp parameters in the time and frequency domain demonstrates their efficiency. After that an experimental setup, also using the novel optical receiver PMD, is presented with first results. At least a summery of the main points of this work and future aspects of the PMD technology in 3D-camera systems and optical communication is given in Chapter 6.</abstract>
+                    <subject>
+                        <topic>Elektrooptische Entfernungsmessung</topic>
+                        <topic>PMD</topic>
+                        <topic>Photomischdetektor</topic>
+                        <topic>Korrelationsempfang</topic>
+                        <topic>Photonic Mixer Device</topic>
+                        <topic>PMD</topic>
+                        <topic>correlation reception</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-3014</identifier>
+                    <identifier type="sys">HT015332916</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_301</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2006-12-19</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_301">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/301/1/Dissertation_Holger_Hess.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_301"
+            DMDID="DMD_siegen_opus_301">
+            <mets:fptr FILEID="FILE0_siegen_opus_301"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

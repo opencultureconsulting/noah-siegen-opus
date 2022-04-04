@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_766">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>‘Gothical’ : on the emergence of a hybrid genre</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zenz, Svenja Elena</displayForm>
+                        <namePart type="family">Zenz</namePart>
+                        <namePart type="given">Svenja Elena</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">masterThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">&quot;The ‘Gothical’ – On the Emergence of a Hybrid Genre&quot; illuminates the contemporary phenomenon of ‘genre hybridity’ – the combination of differing genres. This study takes a close look at the amalgamation of two established genres, Gothic films and Musicals, and explores how their dominant characteristics mix in the new genre ‘Gothical.’ The contrasting features of Gothic films and Musicals clash and intervine, juggle and emphasize each other and result in a creative summit of social criticism. 
+
+Within this Master’s thesis, three films are in focus: &quot;The Rocky Horror Picture Show&quot; (1975), &quot;Sweeney Todd – The Demon Barber of Fleet Street&quot; (2007), and &quot;REPO! The Genetic Opera&quot; (2008). An in-depth analysis of selected scenes of these specimens illustrates the cross-fertilization of the Gothic and Musical genre.</abstract>
+                    <subject>
+                        <topic>gothic</topic>
+                        <topic>genrefication</topic>
+                        <topic>hybridity</topic>
+                        <topic>social criticism</topic>
+                        <topic>contemporary</topic>
+                        <topic>intermediality</topic>
+                        <topic>The Rocky Horror Picture Show</topic>
+                        <topic>REPO! The Genetic Opera</topic>
+                        <topic>Sweeney Todd The Demon Barber of Fleet Street</topic>
+                        <topic>denaturalization</topic>
+                        <topic>contextualization</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät I Philosophische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-7665</identifier>
+                    <identifier type="sys">HT018093401</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_766</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaMasterThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_766">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/766/1/zenz.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_766"
+            DMDID="DMD_siegen_opus_766">
+            <mets:fptr FILEID="FILE0_siegen_opus_766"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,59 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1337">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Finding a story for the history of computing</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Haigh, Thomas</displayForm>
+                        <namePart type="family">Haigh</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Thomas Haigh is working with Paul Ceruzzi of the National Air and Space Museum in Washington, DC on an expanded and completely reorganized version of Ceruzzi’s classic monograph A History of Modern Computing. Haigh discusses the challenges involved in producing a one volume history of a uniquely flexible technology. Since the first edition of the book was published twenty years ago our sense of what the computer is for has shifted utterly, to encompass media consumption, personal communication, and shopping as well as the traditional activities of business administration and scientific number crunching. To reflect this, Ceruzzi and Haigh are adopting a new structure, in which each chapter of the book tells the story of how “the computer” becomes something different through its interaction with a particular set of users and applications. Haigh connects this structure to the work of historian Michael S. Mahoney, and his discussion of the “Histories of Computing(s).” He ponders the particular difficulty of avoiding a simplistic narrative of historical progress, often called a “whig history,” in summarizing the evolution of a technology whose spectacular technical improvement has come to define our idea of modernity. Haigh also discusses Ceruzzi’s text in relation to other comprehensive histories of computing, the production process of the new edition, and some of the editorial choices involved in a project of this kind.</abstract>
+                    <subject>
+                        <topic>Mahoney, Michael K.</topic>
+                        <topic>History of Computing</topic>
+                        <topic>Media History</topic>
+                        <topic>Internet History</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-13377</identifier>
+                    <identifier type="sys">HT019805217</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1337</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1337">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1337/1/Haigh_Finding_a_story.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1337"
+            DMDID="DMD_siegen_opus_1337">
+            <mets:fptr FILEID="FILE0_siegen_opus_1337"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

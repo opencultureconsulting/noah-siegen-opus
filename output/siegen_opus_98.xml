@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_98">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Development of a readout electronic for a Si-pixeldetector for application in a Compton camera</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ibragimov, Iskander</displayForm>
+                        <namePart type="family">Ibragimov</namePart>
+                        <namePart type="given">Iskander</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2004</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Compton cameras are very promising gamma-ray imaging systems, which have already found their application in astrophysics. Their use in nuclear medicine could offer higher sensitivity and better spatial resolution than existing mechanically-collimated gamma cameras, leading to a reduction of the radiation dose given to a patient. A Comp- ton camera consists basically of two detectors: a scatter detector, where Compton scatter- ing takes place, and a photoabsorber, where the scattered photons are absorbed. Silicon pixel detectors are the best choice for a scatter medium since they provide good position resolution, good energy resolution at room temperature and a relatively small Doppler broadening effect. Scintillation detectors are preferred for the use as a photoabsorber because of their greater stopping power. In the present work a low noise readout electronic for Si-pixeldetectors with 200µmÃ  200µm pixel size has been developed in CMOS technology. The electronic is self-triggering and delivers also a timestamp for the use in coincidences. Bonded to a Si-pixeldetector the readout circuit has been tested with gamma-ray sources; an electronic noise of about 49e − was obtained. A pixellated CsI detector read out by a Si PIN photodiode array has been studied as a photoabsorber.</abstract>
+                    <abstract type="content" lang="ger">Compton-Kameras sind sehr vielversprechende Gamma-Bildgebungssysteme, die bereits ihre Anwendung in der Astrophysik gefunden haben. Ihr Einsatz in der Nuklearmedizin konnte hohere Empfindlichkeit und bessere Ortsauflosung ermoglichen als vorhandene mechanisch-kollimierte Gammakameras. Dadurch kann die einem Patienten verabreichte Strahlendosis vermindert werden. Eine Compton-Kamera besteht grundsätzlich aus zwei Detektoren: einem Streuungsdetektor, wo die Compton-Streuung stattfindet, und einem Photoabsorber, wo die gestreuten Photonen absorbiert werden. Silizium-Pixeldetektoren sind die beste Wahl für ein Streuungsmedium, da sie gute Ortsauflosung, gute Energieauflosung bei Raumtemperatur und relativ kleine Dopplerverbreitung bieten. Szintillationsdetektoren werden für den Einsatz als Photoabsorber wegen ihres großeren Strahlungsbremsvermogens bevorzugt. In Rahmen dieser Arbeit wurde eine rauscharme Ausleseelektronik für Si-Pixeldetektoren mit einer Pixel-Große von 200µm Ã  200µm in der CMOS Technologie entwickelt. Die Auslese ist selbsttriggernd und liefert außerdem eine Zeitmarke zur Verwendung in Koinzidenzen. Gebondet an einem Si-Pixeldetector wurde die Ausleseelektronik mit Gammaquellen getestet; elektronisches Rauschen von ungefähr 49e − wurde gemessen. Außerdem wurde ein pixelierter CsI Detektor mit Photodiodenauslese auf moglichen Einsatz als Photoabsorber untersucht.</abstract>
+                    <subject>
+                        <topic>ASIC</topic>
+                        <topic>Compton camera</topic>
+                        <topic>Pixel detector</topic>
+                        <topic>ASIC</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 7, Physik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-982</identifier>
+                    <identifier type="sys">HT014329859</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_98</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2005-01-25</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_98">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/98/1/ibragimov.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_98"
+            DMDID="DMD_siegen_opus_98">
+            <mets:fptr FILEID="FILE0_siegen_opus_98"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

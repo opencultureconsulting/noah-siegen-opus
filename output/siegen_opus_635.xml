@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_635">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Der </nonSort>
+                        <title>Inhalt des Unterrichts : über die Konstruktion von Bildern der Welt im Unterricht</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <nonSort>Der </nonSort>
+                        <title>Content of instruction : on the construction of world images in the classroom</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Menck, Peter</displayForm>
+                        <namePart type="family">Menck</namePart>
+                        <namePart type="given">Peter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Im Alltag der Schule ist der Begriff &quot;Unterrichtsinhalt&quot; geläufig. Im Rahmen der didaktischen Tradition und der Unterrichtsforschung entfaltet der Autor, was darin enthalten ist. Das geschieht in einem Wechsel von begrifflicher Erörterung und zunehmend präziserer Erfassung der Realität von Unterricht. Am Ende steht eine Methode, die es erlaubt, den Unterricht und seine Inhalte im Zusammenhang mit Fachwissenschaft, Lehrerausbildung, Schule und Lehrplan zu interpretieren. Der Gedankengang wird durchgängig an einem Unterrichtsbeispiel illustriert und durch drei Fallstudien zusätzlich veranschaulicht. - Der Autor plädiert dafür, dass die Inhalte der Arbeit im Unterricht stärker beachtet werden, als das durchweg der Fall ist. Denn sie zielt auf verlässliche Bilder von der Welt, in der die Schüler leben und leben werden.</abstract>
+                    <abstract type="content" lang="eng">Though a significant amount of classroom research has been done in Germany, and even more in the Anglo-American world, the content of instruction was not being questioned as thoroughly as e. g. methodology or classroom management. What is the &quot;content of instruction?&quot; The author breaks this large question down into the following more simple questions: What opportunities for pedagogical action become accessible for teachers when they perceive &quot;instruction content&quot; as more than just something prescribed in the syllabus which is to be transferred to the heads of the students? What can a particular content signify to the students who deal with it in their lessons and classes?  He argues that classroom work aims at the construction of valid pictures ff the world the students live in and have to live in in their future lives.</abstract>
+                    <subject>
+                        <topic>Unterrichtstheorie</topic>
+                        <topic>Unterrichtsinhalt</topic>
+                        <topic>Didaktik</topic>
+                        <topic>Unterricht</topic>
+                        <topic>education</topic>
+                        <topic>classroom</topic>
+                        <topic>instruction</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-6356</identifier>
+                    <identifier type="sys">HT017256396</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_635</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_635">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/635/1/MenckUnterrichtsinhalt.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_635"
+            DMDID="DMD_siegen_opus_635">
+            <mets:fptr FILEID="FILE0_siegen_opus_635"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

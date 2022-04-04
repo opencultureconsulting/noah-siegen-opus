@@ -1,0 +1,170 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>401</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Concepts elaboration and system architectures for mining very large image archives</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Konzeptanfertigung und Systemarchitekturen für Mining sehr grosser Bilddateien</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Inés María</pc:foreName>
+            <pc:surName>Gómez Muñoz</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Data Mining</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">During the last decades, satellite technology has been outstandingly&#13;
+improved, providing huge amounts of Earth Observation (EO) data to&#13;
+be processed and stored. The availability of very high resolution&#13;
+sensors has encouraged the birth of new domains for remote sensing&#13;
+applications. Relatively new fields in this frame are Image&#13;
+Information Mining (IIM) and Content Based Image Retrieval (CBIR).&#13;
+These fields are born to provide solutions for querying very large&#13;
+EO archives by content. This dissertation tries to contribute on the&#13;
+IIM domain, providing new image processing algorithms and&#13;
+optimization processes for mining image databases.&#13;
+&#13;
+The study of an IIM system can be focused on signal processing&#13;
+methods, data compression, semantic knowledge discovery,&#13;
+human-machine interaction or system architecture design. Thus, the&#13;
+system can be divided in three modules: on one hand, we have the&#13;
+off-line tasks, consisting of signal and image processing methods.&#13;
+The extracted information of these algorithms is based on a&#13;
+hierarchical Bayesian representation, and usually, is very time&#13;
+consuming. On the other hand, we explore the on-line actions that&#13;
+are performed at real time through an interaction with the user.&#13;
+Finally, an optimal software architecture where all these concepts&#13;
+are merged has to be studied. In this thesis, contributions on these&#13;
+three modules are provided.&#13;
+&#13;
+We begin studying multi temporal high resolution image analysis&#13;
+under different illumination conditions and strong background&#13;
+clutter. The aim is to build a target detection map through a&#13;
+synergy of image processing methods. However, we can be faced with a&#13;
+common problem while extracting information from EO data, which is&#13;
+the estimation of parameters. Often the accuracy of the methods is&#13;
+strongly dependent on the selection of parameters and it is&#13;
+difficult to a priori know the optimum one. This is the motivation&#13;
+for the second contribution that deals with this problem. To cope&#13;
+with it, we implement an algorithm based on clustering features that&#13;
+uses information and rate distortion theories to help in the&#13;
+assessment of parameters.&#13;
+&#13;
+One of the main characteristics of an IIM system, is its potential&#13;
+to learn though human interaction. The user provides some examples&#13;
+of his interests, and based on them, the system learns his&#13;
+preferences, searches for them in large archives, and returns&#13;
+similar contents to the user provided ones. In this framework, we&#13;
+developed a multiple classifier, that enables the user to provide&#13;
+more than one example type. Thus, the system will be queried for&#13;
+different features, refining the query results and search accuracy.&#13;
+&#13;
+In order to be an operable and useful system, all new features&#13;
+proposed in this dissertation have to be accomplished in a modular&#13;
+system architecture. The system, from the software design point of&#13;
+view, must be opened, standard compliant and accessible though&#13;
+Internet. The software architecture design of the IIM system is the&#13;
+last contribution of this thesis. For building the system, we have&#13;
+to consider the following aspects:&#13;
+  - how to manage the large data volume of original and processed&#13;
+images;&#13;
+  - the automatization of tasks as loading new data, extracting features&#13;
+or generation of thematic maps;&#13;
+  - how to adapt the system to the user knowledge, that is, the image&#13;
+interpretation has to be adapted to the symbols the users are able&#13;
+to recognize and to the specific semantics of their domains;&#13;
+  - how to perform the man-machine communication through a continuous&#13;
+interaction and exchange of knowledge.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die Studie von einem IIM System enthält verschiedene Module:&#13;
+Prozesssignale, Daten-komprimierung, semantische Kenntnissuche,&#13;
+Mensch-Maschine Interaktion oder Aufbau der Systemarchitektur. Somit&#13;
+kann das System in drei Komponenten aufgeteilt werden: auf einer&#13;
+Seite haben wir die offline-Aufgaben, das sind Methoden zur Signal-&#13;
+und Bildverarbeitung. Die mit diesen Methoden extrahierte&#13;
+Information ist auf einer Bayesschen hierarchischen Darstellung&#13;
+basiert, und diese Algorithmen sind normalerweise sehr&#13;
+zeitaufwendig. Auf der anderen Seite, untersuchen wir die&#13;
+Online-Aufgaben, die in Echtzeit durch ein benutzerinteraktives&#13;
+Lernen ablaufen. Zuletzt muss eine optimale Softwarearchitektur, wo&#13;
+alle die Konzepte integriert sind, studiert werden. Beiträge zu&#13;
+diesen drei Modulen sind im Rahmen dieser Doktorarbeit geleistet.&#13;
+&#13;
+Wir fangen mit der Implementierung neuer Algorithmen für Erkennung&#13;
+des Targets durch Änderungsanalyse von Mehrzeit- hyperspektralen&#13;
+Hochauflösungsbilder unter verschiedenen Lichtbedingungen und&#13;
+starken Hintergrundstördaten an. Unser Ziel ist es, eine&#13;
+Zielerkennungskarte durch die Synergie von Bildanalysealgorithmen zu&#13;
+bilden. Wenn wir Eigenschaften von Fernerkundungsdateien&#13;
+extrahieren, werden wir allerdings das Problem der&#13;
+Parameterabschätzung auflösen müssen. Die Genauigkeit der&#13;
+Methoden ist oft von der Parameterauswahl stark abhängig, und&#13;
+normalerweise ist es sehr kompliziert, von vornherein die optimale&#13;
+Parameterkombination zu kennen. Das ist die Motivation für den&#13;
+zweiten Beitrag dieses Dissertation: wir implementieren einen&#13;
+Algorithmus, der durch Informations- und Rate Distortionstheorie die&#13;
+Parameterqualität auswerten kann.&#13;
+&#13;
+Eine der Haupteigenschaften eines IIM Systems ist seine Fähigkeit,&#13;
+über Benutzerinteraktion zu lernen. Der Benutzer liefert Beispiele&#13;
+seiner Interessen und das System lernt die Benutzerbevorzugungen,&#13;
+sucht nach Bildern mit ähnlichem Inhalt auf der Datenbank. In&#13;
+diesem Rahmen, steht die Entwicklung eines neuen&#13;
+Mehrfach-klassifizierers, die es dem Benutzer erlaubt, mehr als&#13;
+einen Beispielstyp in das System einzugeben. Das System wird&#13;
+dementsprechend über unterschiedliche Eigenschaften abgefragt, was&#13;
+die Ergebnisse der Abfrage und die Suchgenauigkeit erheblich&#13;
+verbessert. Das bildet den dritten Beitrag dieser Doktorarbeit.&#13;
+&#13;
+Um ein betriebsbereites und anwendbares System zu bilden, sind die&#13;
+obengenannten Beiträge in eine modulare Systemarchitektur zusammen&#13;
+zu bringen. Das System muss von dem Standpunkt des Software Design&#13;
+offen, standardkonform und über das Internet zugänglich sein.&#13;
+Das Design der Softwarearchitektur des IIM Systems ist der letzte&#13;
+Beitrag dieser Dissertation. Um das System erfolgreich aufzubauen,&#13;
+müssen wir folgendes beachten:&#13;
+  - wie riesige Datenmengen von originalen und prozessierten Bilddaten&#13;
+zu verwalten sind;&#13;
+  - wie die Automatisierung der Aufgaben, z.B. das Aufladen einer neuen&#13;
+Datei, die Eigenschaftenextraktion oder die Erzeugung  von&#13;
+thematischen Karten zu verwirklichen ist;&#13;
+  - wie das Systemanpassung an der Benutzerkenntnis ermöglicht wird&#13;
+(d.h. die Bildinterpretation muss an den Systemsymbolen angepasst&#13;
+werden, die der Benutzer erkennt, und an der spezifischen Semantik&#13;
+seines Bereiches);&#13;
+  - wie die Mensch-Maschine Kommunikation durch eine duchgehende&#13;
+Interaktion und Kenntnisaustausch durchgeführt wird.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2009-07-07</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2009</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-4012</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>NRW-Zentrum für Sensorsysteme (ZESS)</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="gomez.pdf" ddb:fileSize="13439633"/>
+   <ddb:checksum ddb:type="MD5">f2800e63460ffe6ca26cdff29506514f</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/401/1/gomez.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/401</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

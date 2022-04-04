@@ -1,0 +1,89 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1964">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Referenzfreies ultraschallbasiertes Verfahren zur Zustandsüberwachung rotierender Bauteile - Anwendung auf Radsätze von Schienenfahrzeugen</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Baseline-free ultrasonic-based method for condition monitoring of rotating components - Application to wheelsets of rail vehicles</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Reitz, Tobias</displayForm>
+                        <namePart type="family">Reitz</namePart>
+                        <namePart type="given">Tobias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Fritzen, Claus-Peter</displayForm>
+                        <namePart type="family">Fritzen</namePart>
+                        <namePart type="given">Claus-Peter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In dieser Forschungsarbeit wird ein referenzfreies ultraschallbasiertes „Structural Health Monitoring“-Verfahren (SHM-Verfahren) für rotierende und mechanisch belastete Bauteile entwickelt, welches zur permanenten Zustandsüberwachung von Radsatzwellen in Schienenfahrzeugen angewendet werden kann. Das neuartige Verfahren der „Dynamischen Referenz“ basiert auf dem Unterschied in der Ultraschallwellenausbreitung infolge des Rissatmens während der Rotation eines mechanisch belasteten Bauteils. 
+
+Ultraschallwellen interagieren aufgrund ihrer physikalischen Eigenschaften einer elastischen Festkörperwelle mit Diskontinuitäten im Material und eignen sich daher besonders zur permanenten Zustandsüberwachung. Um die Unterschiede infolge eines Schadens zu detektieren, werden für die meisten SHM-Verfahren Referenzmessungen („Baselines“) im ungeschädigten Zustand aufgenommen und mit Hilfe von Techniken zur Signalanalyse mit dem aktuellen Zustand verglichen. In der realen Anwendung sind Strukturen ständig sich ändernden Umgebungs- und Betriebsbedingungen („Environmental and Operational Conditions“ (EOCs)) ausgesetzt. Untersuchungen bzgl. der Stabilität und der Beeinflussung von EOCs auf ultraschallbasierte SHM-Verfahren, die eine zuvor aufgenommene Referenzmessung nutzen, haben gezeigt, dass diese zu Fehlern in den Ergebnissen der Zustandsüberwachung führen. Dies ist auf die schwierige oder nicht mögliche Unterscheidbarkeit der Beeinflussungen durch EOCs von denen infolge eines Schadens zurückzuführen. Es erscheint daher nicht wirtschaftlich und teilweise nicht möglich, Daten unter sämtlichen verschiedenen Kombinationen von EOCs für jede zu untersuchende Struktur zu erfassen und daraus den Referenzzustand des SHM-Verfahrens zu bilden. Daher erscheint die Entwicklung eines referenzfreien SHM-Verfahrens zwingend erforderlich und wird in dieser Arbeit fokussiert. 
+
+Die Ergebnisse der Zustandsüberwachung während der Rissinitiierung und des Rissfortschritts in Radsatzwellen zeigen die Funktionsfähigkeit des entwickelten SHM-Verfahrens hinsichtlich einer referenzfreien Rissdetektion, einer Risslokalisation in Umfangsrichtung und einer automatisierten Überwachung des Rissfortschritts. Zudem wird nachgewiesen, dass das eingeführte Verfahren in der Lage ist, einen realen Ermüdungsriss während Messfahrten auf einem Rollenprüfstand für Schienenfahrzeuge referenzfrei zu detektieren. 
+
+Das entwickelte referenzfreie SHM-Verfahren könnte zur Komplettierung der Sicherheitsebene der in festgelegten Inspektionsintervallen durchgeführten zerstörungsfreien Prüfungen beim Betrieb von Radsatzwellen dienen, da durch die permanente Zustandsüberwachung unabsehbare Schadensfälle vermieden werden. Diese Innovation kann durch eine Steigerung der Akzeptanz des Schienenverkehrs zur klimaschonenden Mobilität der Zukunft beitragen.</abstract>
+                    <abstract type="content" lang="eng">In this research work a baseline-free method for Acousto-Ultrasonics (AU)-based Structural Health Monitoring (SHM) of mechanically loaded and rotating axles is proposed, which can be used for condition monitoring of wheelset axles of railway vehicles. The novel “Dynamic Reference Method” utilizes the difference that is generated in the ultrasonic wave propagation due to the crack breathing mechanism of a mechanically loaded and rotating axle.
+
+Due to their physical properties, ultrasonic waves can propagate through a structure and interact with discontinuities within the material, making them particularly suitable for permanent condition monitoring with SHM methods. In order to extract the changes due to damage, most SHM systems first need to collect data from the structure in healthy condition to build the so-called baseline. With the help of signal processing and feature extraction, the structural health condition is assessed through the comparison of the baseline and the newly acquired data. In real operation, structures are exposed to varying Environmental and Operational Conditions (EOCs), especially wheelset axles of railway vehicles, which are considered in this thesis. Different studies on the stability and the influence of EOCs on AU-based SHM methods using a previously collected baseline have shown that these lead to errors in the results of condition monitoring. This is due to the fact that it is difficult or impossible to distinguish the effects due to EOCs from the effects of structural damages. It is in some cases not economically feasible to collect data and to construct a baseline model for each combination of all possible EOCs for each structure. In consideration of such a practical limit, the development of a baseline-free SHM method is necessary and is focused in this thesis.
+
+The results of the condition monitoring during the crack initiation and propagation in wheelset axles of railway vehicles demonstrate the effectiveness of the proposed baseline-free SHM method. Cracks can be detected, the crack propagation can be observed during fatigue tests and the approximate circumferential position of the crack can be localized by the proposed method. In addition, it is proved that the introduced SHM method is able to detect a fatigue crack during measurement runs on a full-scale roller test rig for railway vehicles without a previously collected baseline.
+
+The proposed baseline-free SHM method could be used to complete the safety level of the periodically performed non-destructive inspections during the operation of wheelset axles, as the permanent condition monitoring prevents unforeseeable damages. This innovative technology contributes to the climate-friendly mobility of the future by increasing the acceptance of rail transport.</abstract>
+                    <subject>
+                        <topic>Schienenfahrzeug</topic>
+                        <topic>Schienenfahrzeuge</topic>
+                        <topic>Radsatz</topic>
+                        <topic>permanente Zustandsüberwachung</topic>
+                        <topic>Rail vehicles</topic>
+                        <topic>Wheelset</topic>
+                        <topic>permanent condition monitoring</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Mechanik und Regelungstechnik - Mechatronik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19646</identifier>
+                    <identifier type="sys">HT021110061</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1964</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2021-07-15</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1964">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1964/3/Dissertation_Tobias_Reitz.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1964"
+            DMDID="DMD_siegen_opus_1964">
+            <mets:fptr FILEID="FILE0_siegen_opus_1964"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

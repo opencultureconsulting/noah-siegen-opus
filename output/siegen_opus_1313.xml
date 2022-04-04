@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1313">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Technologische Unterstützung der Wissensvermittlung in Vorlesungen : informatische Entwicklung und empirische Erforschung der Wirkung und Wirksamkeit digitaler Lernobjekte</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kollmann, Fritjof</displayForm>
+                        <namePart type="family">Kollmann</namePart>
+                        <namePart type="given">Fritjof</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Vorlesung ist die weltweit etablierte Lehrform an Hochschulen zur effizienten Vermittlung von Wissen und gleichzeitig in ihrer Kernfunktion Gegenstand existenzieller Kritik. Um auch in der konventionellen Vorlesung einen Shift from Teaching to Learning zu erreichen, werden den Studierenden fachspezifische interaktive Übungen über mobile Endgeräten bereitgestellt. Durch eine implementierte Begleitstudie wird nachgewiesen, dass durch die technologische Intervention spezifische positive Effekte im Bereich der Wirkung und Wirksamkeit erreicht werden können.</abstract>
+                    <subject>
+                        <topic>Vorlesung</topic>
+                        <topic>Digitale Lernobjekte</topic>
+                        <topic>Interaktive Vorlesung</topic>
+                        <topic>Mobile Learning</topic>
+                        <topic>Instruktionspsychologie</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Zentrum für ökonomische Bildung in Siegen ZöBiS"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-13136</identifier>
+                    <identifier type="sys">HT019688391</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1313</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2018-04-12</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1313">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1313/1/Dissertation_Fritjof_Kollmann.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1313"
+            DMDID="DMD_siegen_opus_1313">
+            <mets:fptr FILEID="FILE0_siegen_opus_1313"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

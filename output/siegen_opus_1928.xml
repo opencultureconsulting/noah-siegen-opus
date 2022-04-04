@@ -1,0 +1,93 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1928">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Routing for multi-hop device-to-device (D2D) networks</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Routing für Multi-hop Device-to-Device (D2D) Netzwerke</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Shaikh, Farrukh Salim</displayForm>
+                        <namePart type="family">Shaikh</namePart>
+                        <namePart type="given">Farrukh Salim</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wismüller, Roland</displayForm>
+                        <namePart type="family">Wismüller</namePart>
+                        <namePart type="given">Roland</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">In recent years, device-to-device (D2D) communication has attained significant attention in the research community which enables the users to exchange data directly with each other without the intervention of Base Station (BS). The advantages of D2D communication can be fully realized in multi-hop communication scenario. Establishing a multi-hop D2D route is crucial whenever the two nodes which want to communicate are not in the transmission range of each other. Routing in such multi-hop cellular D2D networks is a critical issue, since the multi-hop network can perform worse than a traditional cellular network if wrong routing decisions are made. This is because routing in these multi-hop networks needs to consider the challenges of node mobility, dynamic network topology, and network fragmentation, which are not major concerns for traditional cellular network. 
+
+This thesis mainly focuses on routing in multi-hop D2D networks and provides three main contributions as follows:
+
+In first contribution, firstly, a discussion of various implementations, performance improvements and incentive mechanisms to support D2D communications is provided. Secondly, a detailed derivation and explanation of taxonomy of state-of-the-art routing algorithms for D2D networks is provided. It is worth mentioning that there are numerous works over the past two decades on routing for D2D networks with different naming conventions other than D2D communications. Thus, to the best of the knowledge, the provided taxonomy encompasses all possible routing algorithms. Each routing scheme consists of two main parts: routing metric, and route discovery mechanism. This work contributes in both parts by proposing a routing metric, MIIS, in second contribution and reactive and proactive centralize route discovery mechanisms in third contribution.
+
+In second contribution, a novel routing metric, MIIS (Metric for Interference Impact and SINR) is proposed. Interference is an important parameter to consider in D2D communication, therefore, interference together with signal-to-interference-plus-noise-ratio (SINR) are considered in the proposed routing metric, MIIS. The MIIS selects routes having higher SINR while being conscious about lower interference at the same time. The performance of MIIS is evaluated in a distributed D2D network implemented in OMNeT++ network simulator. Different MIIS variants are compared with two state-of-the-art schemes in terms of average hop count, routing overhead, packet loss ratio and end-to-end delay. The simulation results showed that all MIIS variants outperform the state-of-the-art schemes under various network topologies with varying number of nodes, nodes mobility and traffic load. 
+
+In third contribution, a novel route discovery mechanism of reactive centralized routing is proposed that takes the advantage of the presence of BS for establishing the D2D routes in which the route calculation and decision are taken by the BS for a given cell. The BS makes route decisions by gathering the information from all the nodes and constructs the network topology graph. The reactive centralized routing is also extended to proactive centralized routing. Both centralized routing schemes (i.e., reactive and proactive) significantly reduce the routing overhead as compared to distributed routing schemes by avoiding the flooding of route requests. The performance of reactive and proactive centralized routing have been evaluated through simulations by using MIIS and comparing with existing schemes in terms of varying number of nodes, nodes mobility and traffic load. The centralized routing schemes achieves much lower routing overhead, packet loss ratio and end-to-end delay.</abstract>
+                    <abstract type="content" lang="ger">In den letzten Jahren hat die Device-to-Device (D2D)-Kommunikation in der Forschungsgemeinschaft erhebliche Aufmerksamkeit erlangt, die es den Benutzern ermöglicht, Daten direkt miteinander auszutauschen, ohne dass eine Basisstation (BS) eingreifen muss. Die Vorteile der D2D-Kommunikation können in einem Multi-Hop-Kommunikationsszenario voll ausgeschöpft werden. Die Etablierung einer Multi-Hop-D2D-Route ist immer dann entscheidend, wenn die beiden Knoten, die miteinander kommunizieren wollen, nicht im Sendebereich des jeweils anderen liegen. Das Routing in solchen zellularen Multi-Hop-D2D-Netzwerken ist ein kritisches Thema, da das Multi-Hop-Netzwerk bei falschen Routing-Entscheidungen eine schlechtere Leistung als ein traditionelles zellulares Netzwerk aufweisen kann. Dies liegt daran, dass das Routing in diesen Multi-Hop-Netzwerken die Herausforderungen der Knotenmobilität, der dynamischen Netzwerktopologie und der Netzwerkfragmentierung berücksichtigen muss, was bei traditionellen zellularen Netzwerken nicht der Fall ist. 
+
+Diese Arbeit konzentriert sich hauptsächlich auf das Routing in Multi-Hop D2D-Netzwerken und liefert drei Hauptbeiträge wie folgt:
+
+Im ersten Beitrag wird erstens eine Diskussion verschiedener Implementierungen, Leistungsverbesserungen und Anreizmechanismen zur Unterstützung der D2D-Kommunikation geliefert. Zweitens wird eine detaillierte Herleitung und Erläuterung der Taxonomie von State-of-the-Art-Routing-Algorithmen für D2D-Netzwerke bereitgestellt. Es ist erwähnenswert, dass es in den letzten zwei Jahrzehnten zahlreiche Arbeiten zum Thema Routing für D2D-Netzwerke mit unterschiedlichen Namenskonventionen gibt, die sich nicht auf D2D-Kommunikation beziehen. Daher umfasst die bereitgestellte Taxonomie nach bestem Wissen und Gewissen alle möglichen Routing-Algorithmen. Jedes Routing-Schema besteht aus zwei Hauptteilen: der Routing-Metrik und dem Mechanismus zur Routenfindung. Diese Arbeit trägt zu beiden Teilen bei, indem sie im zweiten Beitrag eine Routing-Metrik, MIIS, und im dritten Beitrag reaktive und proaktive zentralisierte Routenfindungsmechanismen vorschlägt.
+
+
+Im zweiten Beitrag wird eine neuartige Routing-Metrik, MIIS (Metric for Interference Impact and SINR), vorgeschlagen. Interferenz ist ein wichtiger Parameter, der in der D2D-Kommunikation berücksichtigt werden muss. Daher werden in der vorgeschlagenen Routing-Metrik MIIS Interferenzen zusammen mit dem Signal-zu-Interferenz-plus-Rausch-Verhältnis (SINR) berücksichtigt. MIIS wählt Routen aus, die ein höheres SINR aufweisen, während gleichzeitig eine geringere Interferenz berücksichtigt wird. Die Leistung von MIIS wird in einem verteilten D2D-Netzwerk evaluiert, das im OMNeT++-Netzwerksimulator implementiert wurde. Verschiedene MIIS-Varianten werden mit zwei State-of-the-Art-Schemata in Bezug auf die durchschnittliche Hop-Zahl, den Routing-Overhead, die Paketverlustrate und die End-to-End-Verzögerung verglichen. Die Simulationsergebnisse zeigen, dass alle MIIS-Varianten die State-of-the-Art-Schemata unter verschiedenen Netzwerktopologien mit unterschiedlicher Knotenanzahl, Knotenmobilität und Verkehrslast übertreffen. 
+
+Im dritten Beitrag wird ein neuartiger Routenfindungsmechanismus für reaktives zentralisiertes Routing vorgeschlagen, der den Vorteil des Vorhandenseins von BS für die Einrichtung der D2D-Routen nutzt, wobei die Routenberechnung und -entscheidung von der BS für eine bestimmte Zelle übernommen wird. Die BS trifft Routenentscheidungen, indem sie die Informationen von allen Knoten sammelt und den Netzwerktopologiegraphen konstruiert. Das reaktive zentralisierte Routing wird auch zum proaktiven zentralisierten Routing erweitert. Beide zentralisierten Routing-Schemata (d. h. reaktiv und proaktiv) reduzieren den Routing-Overhead im Vergleich zu verteilten Routing-Schemata erheblich, indem sie das Flooding von Routenanfragen vermeiden. Die Leistung von reaktivem und proaktivem zentralisiertem Routing wurde durch Simulationen unter Verwendung von MIIS evaluiert und mit bestehenden Schemata in Bezug auf unterschiedliche Knotenanzahl, Knotenmobilität und Verkehrslast verglichen. Die zentralisierten Routing-Schemata erreichen einen wesentlich geringeren Routing-Overhead, eine geringere Paketverlustquote und eine geringere Ende-zu-Ende-Verzögerung.</abstract>
+                    <subject>
+                        <topic>Routing</topic>
+                        <topic>Centralized Routing</topic>
+                        <topic>Distributed Routing</topic>
+                        <topic>Device-to-Device Communication</topic>
+                        <topic>Interference-aware Routing</topic>
+                        <topic>Multi-hop Routing</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Department Elektrotechnik - Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19286</identifier>
+                    <identifier type="sys">HT020944033</identifier>
+                    <accessCondition type="use and reproduction">CREATIVECOMMONS.ORG PUBLICDOMAIN ZERO 1.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1928</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2021-04-22</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1928">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1928/6/Dissertation_Farrukh_Salim_Shaikh.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1928"
+            DMDID="DMD_siegen_opus_1928">
+            <mets:fptr FILEID="FILE0_siegen_opus_1928"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

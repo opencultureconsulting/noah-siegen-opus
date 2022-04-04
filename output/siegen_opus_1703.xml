@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1703">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>&quot;There is nothing new under the sun. It has all been done before.&quot;</title>
+                        <subTitle lang="eng">Sherlock Holmes in contemporary film and television adaptations</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Brück, Yannic</displayForm>
+                        <namePart type="family">Brück</namePart>
+                        <namePart type="given">Yannic</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Sherlock Holmes, the famous fictional detective from Baker Street, was originally invented by the Scottish writer Sir Arthur Conan Doyle in the late 19th century. Over the years he has appeared in different mass media formats and been portrayed on screen by several different actors. A 21st century renaissance of the character and his stories has helped to reintroduce Conan Doyle’s work to new audiences, but adaptation and appropriation processes have also shaped the reinterpretation(s) of Sherlock Holmes. Thus, especially films and television series have portrayed a slightly changed version of Sherlock Holmes in the 21st century in comparison to its 19th century prototype. This book provides an analysis of the character features of the iconic detective on the basis of Conan Doyle’s tales, the contemporary BBC and CBS television series &quot;Sherlock&quot; and &quot;Elementary&quot;, as well as the Warner Bros movies &quot;Sherlock Holmes&quot; and &quot;Sherlock Holmes: A Game of Shadows&quot; and tries to identify character feature shifts, changes and alterations. By employing prototype theory and creating Character Features Models for each Holmes incarnation, a potential 21st century Sherlock Holmes prototype is identified as an outcome of this work.</abstract>
+                    <subject>
+                        <topic>Doyle, Arthur Conan</topic>
+                        <topic>Sherlock Holmes</topic>
+                        <topic>Film</topic>
+                        <topic>Television Adaptations</topic>
+                        <topic>Character Features Models</topic>
+                        <topic>Arthur Conan Doyle</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-17033</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1703</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1703">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1703/3/muk199_Br%c3%bcck_Sherlock%20Holmes.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1703"
+            DMDID="DMD_siegen_opus_1703">
+            <mets:fptr FILEID="FILE0_siegen_opus_1703"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

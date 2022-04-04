@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1452">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Fighting the curse of dimensionality with local model networks</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Bekämpfung des Fluchs der Dimensionalität mit lokalen Modellnetzen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Belz, Julian</displayForm>
+                        <namePart type="family">Belz</namePart>
+                        <namePart type="given">Julian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Das Themengebiet der vorliegenden Arbeit ist die datenbasierte Modellbildung (Identifikation). Das Hauptaugenmerk liegt auf Verfahren der Eingangsselektion und der Versuchsplanung, die dazu dienen, Effekte des Fluchs der Dimensionlität abzuschwächen, indem sie spezielle Eigenschaften lokaler Modellnetze ausnutzen.
+Der Modelltyp der lokalen Modellnetze ermöglicht die Aufteilung des Eingangsraums in die sogenannten Regelprämissen und -konklusionen. In dieser Arbeit entwickelte Verfahren im Bereich der Eingangsselektion nutzen diese einzigartige Eigenschaft lokaler Modellnetze aus. Potentielle Eingangsgrößen können individuell den Regelprämissen oder -konklusionen zugeteilt werden. Es wird gezeigt, dass sich ein besserer Bias/Varianz-Kompromiss durch die Ausnutzung dieser individuellen Zuordnung finden lässt. Des Weiteren eröffnen sich zusätzliche Interpretationsmöglichkeiten, da einer der beiden Eingangsräume direkt mit den Modellnichtlinearitäten verknüpft ist.
+Der Beitrag der vorliegenden Arbeit im Bereich der Versuchsplanung betrifft sowohl aktive als auch passive Lernverfahren. Im Rahmen der passiven Lernverfahren werden Empfehlungen auf die folgenden drei Fragestellungen gegeben. Sollten (alle) Ecken im Versuchsraum vermessen werden? Welcher raumfüllende Versuchsplan führt voraussichtlich zur höchsten Modellgüte? Welche Reihenfolge sollte beim Vermessen eines Versuchsplans eingehalten werden? Der Beitrag im Bereich aktiver Lernverfahren umfasst eine Erweiterung des bereits bestehenden Algorithmus „Hierarchical Local Model Tree for Design of Experiments“ (HilomotDoE). Drei Schlüsselaspekte der experimentellen Modellbildung werden dabei adressiert: (I) Optimalität, (II) geringer Bias- und (III) Varianzfehler.
+Die entwickelten Methoden zeigen anhand ausgewählter Anwendungsbeispiele ihre Stärken. Dazu zählen: Die Vorhersage des Verbrauchs von Kraftfahrzeugen, die Modellierung des Luftmassenstroms für Verbrennungsmotoren, die Metamodellierung für Ventilatoren und die Erzeugung eines dynamischen Modells zur Regelung eines Heizungs-, Lüftungs- und Klimatisierungssystems.</abstract>
+                    <abstract type="content" lang="eng">This thesis is settled in the field of data-based modeling (identification) and specifically focuses on the weakening of the effects of the curse of dimensionality with local model networks (LMNs). The methods for fighting the curse of dimensionality originate from the fields of input selection and design of experiments (DoE).
+The model type of LMNs allows the distinction in two input spaces - the rule premises input space and the rule consequents input space. The developed input selection techniques exploit this unique property of LMNs and the possibility to assign potential inputs to each input space individually. It is shown that this additional freedom enables input selection methods using LMNs to find a better bias/variance trade-off. Furthermore, one of the two arising input spaces is directly connected to the nonlinear effects of the model, which allows for more detailed interpretations.
+The DoE contributions of this thesis concern passive and active learning schemes. Recommendations for passive experimental designs are given based on extensive simulation studies with the help of a function generator. The following three questions are addressed. Should corners (vertices) be measured? Which space-filling experimental design is likely to yield the best model accuracy? What order of experimentation leads to the best model quality in early stages of the measurement process? Eventually, the contribution regarding active learning is an extension of the already existing hierarchical local model tree for design of experiments (Hilomot-DoE), addressing three important issues of modeling simultaneously: (I) optimality, (II) model bias, and (III) model variance.
+All developed methods demonstrate their abilities on selected application examples, including the prediction of the fuel consumption of cars, the data-based modeling of the air-mass flow of combustion engines, the metamodeling of fans, and the generation of a dynamic model of a heating, ventilating, and air conditioning system for control design.</abstract>
+                    <subject>
+                        <topic>Nichtlineare Systemidentifikation</topic>
+                        <topic>Lokale Modellnetze</topic>
+                        <topic>Eingangsselektion</topic>
+                        <topic>Versuchsplanung</topic>
+                        <topic>Nonlinear system identification</topic>
+                        <topic>Local model networks</topic>
+                        <topic>Input selection</topic>
+                        <topic>Design of experiments</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Mechanik und Regelungstechnik - Mechatronik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-14524</identifier>
+                    <identifier type="sys">HT020079369</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1452</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2018-11-21</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1452">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1452/1/Dissertation_Julian_Belz.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1452"
+            DMDID="DMD_siegen_opus_1452">
+            <mets:fptr FILEID="FILE0_siegen_opus_1452"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

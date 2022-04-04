@@ -1,0 +1,57 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_257">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Untersuchung zur Einstellung von Studierenden des Fachbereichs Sozialwissenschaften der Universität Siegen zum Zusammenhang von Unterhaltung, Freizeit, Politik und Medien</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Petri, Mario</displayForm>
+                        <namePart type="family">Petri</namePart>
+                        <namePart type="given">Mario</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2004</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <subject>
+                        <topic>Studierende</topic>
+                        <topic>Universität Siegen</topic>
+                        <topic>Einstellungsuntersuchung</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-2570</identifier>
+                    <identifier type="sys">HT014966134</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_257</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_257">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/257/1/untersuchung.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_257"
+            DMDID="DMD_siegen_opus_257">
+            <mets:fptr FILEID="FILE0_siegen_opus_257"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

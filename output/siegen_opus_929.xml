@@ -1,0 +1,118 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_929">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="und">
+                        <title>Medien der Kooperation</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schüttpelz, Erhard</displayForm>
+                        <namePart type="family">Schüttpelz</namePart>
+                        <namePart type="given">Erhard</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Gießmann, Sebastian</displayForm>
+                        <namePart type="family">Gießmann</namePart>
+                        <namePart type="given">Sebastian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Star, Susan Leigh</displayForm>
+                        <namePart type="family">Star</namePart>
+                        <namePart type="given">Susan Leigh</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bosse, Heinrich</displayForm>
+                        <namePart type="family">Bosse</namePart>
+                        <namePart type="given">Heinrich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schmidt, Kjeld</displayForm>
+                        <namePart type="family">Schmidt</namePart>
+                        <namePart type="given">Kjeld</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Dang-Anh, Mark</displayForm>
+                        <namePart type="family">Dang-Anh</namePart>
+                        <namePart type="given">Mark</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Huynh, Ilham</displayForm>
+                        <namePart type="family">Huynh</namePart>
+                        <namePart type="given">Ilham</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Meiler, Matthias</displayForm>
+                        <namePart type="family">Meiler</namePart>
+                        <namePart type="given">Matthias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">PeriodicalPart</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">und</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die digital-vernetzten Medien erfordern neue Analysen, Theorien und Geschichten. Sie verändern unseren Blick auf die Geschichte von Infrastrukturen,
+Öffentlichkeiten und Medienpraktiken. Was wären Ansätze für eine Medientheorie, die praktischen „skills“ des Mediengebrauchs,seiner soziotechnischen Materialität und den bürokratischen wie epistemischen Qualitäten der Medien gerecht wird? Die vorliegende Ausgabe 1/2015 der Navigationen widmet sich Medien als kooperativ
+bewerkstelligten Kooperationsbedingungen. Sie erbringen, so die These,
+konstitutive Vermittlungsleistungen zwischen der Organisation von Arbeit, Praktiken des Infrastrukturierens und der Genese von Öffentlichkeiten in wechselseitiger Interaktion.</abstract>
+                    <subject>
+                        <topic>Medientheorie</topic>
+                        <topic>Bildschirmmedien</topic>
+                        <topic>Kooperation</topic>
+                        <topic>Mediale Infrastrukturen</topic>
+                    </subject>
+                    <classification authority="ddc">302</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-9293</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_929</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>journal issue</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_929">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/929/1/Navigationen_Medien_der_Kooperation.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_929"
+            DMDID="DMD_siegen_opus_929">
+            <mets:fptr FILEID="FILE0_siegen_opus_929"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

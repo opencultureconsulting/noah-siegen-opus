@@ -1,0 +1,101 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_411">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Modellierung des Online-Steerings von Gridjobs als Zugriffe auf verteilten gemeinsamen Speicher</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Modeling online steering of Gridjobs as accesses to distributed shared memory</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lorenz, Daniel</displayForm>
+                        <namePart type="family">Lorenz</namePart>
+                        <namePart type="given">Daniel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2009</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Diese Arbeit beschäftigt sich mit dem Online-Steering von Gridjobs. Das Online-Steering wird in vier Teilaufgaben zerlegt: Die Kommunikation, die Datenkonsistenz, automatisierte Auswertungen und Optimierungen und der Datenzugriff. 
+
+Der Schwerpunkt dieser Arbeit liegt in der Teilaufgabe, die sich mit der Datenkonsistenz beschäftigt. Hierfür wird ein neues Konzept vorgestellt, das Online-Steering als Zugriffe auf Daten in einem virtuellen verteilten gemeinsamen Speicher betrachtet. Es werden die Intra-Prozess und die Inter-Prozess Bedingung identifiziert, die Regeln für den Datenaustausch definieren, die die Integrität der Daten sichern sollen. Je nach Anwendung müssen dafür beide Bedingungen erfüllt werden oder es reicht die Erfüllung der Intra-\Prozess Bedingung.
+
+Ausgehend von den Integritätsbedingungen werden die Spezielle Schwache Konsistenz und die Verzögerte Schwache Konsistenz definiert, die die Intra-Prozess Bedingung erfüllen. Ferner wird, basierend auf einem CUMULVS-Algorithmus, die Zeitplan-Konsistenz definiert, die beide Bedingungen erfüllt. Zusätzlich kann es Daten geben, für die keine der beiden Bedingungen erfüllt sein muss. Bei der Speziellen Schwachen Konsistenz und der Verzögerten Schwachen Konsistenz müssen jeweils nur ein Steering-Prozess und ein Anwendungsprozess miteinander kommunizieren. Für beide Konsistenzmodelle wurde je ein Aktualisierungsprotokoll und ein Invalidierungsprotokoll entworfen und implementiert. Zusätzlich wurden auch ein Aktualisierungsprotokoll und ein Invalidierngsprotokoll für die PRAM-Konsistenz implementiert. Anhand dieser Implementierungen wurde das Laufzeitverhalten der Protokolle untersucht. 
+
+Bei der Evaluation wurde festgestellt, dass die Protokolle der Speziellen Schwachen Konsistenz, aufgrund der strengen Ordnung der Synchronisationspunkte, langsamer als die Protokolle der Verzögerten Schwachen Konsistenz sind. Dieser Unterschied verstärkt sich, wenn die Round-Trip-Zeit im Netzwerk wächst. 
+
+Um Online-Steering mit Gridjobs zu ermöglichen, muss mit dem Gridjob kommuniziert werden können. Es wurde in dieser Arbeit eine Kommunikationsschicht entwickelt, die eine sichere Kommunikation zum Gridjob aufbauen kann. Dabei sollte das Sicherheitskonzept der Site aufrecht erhalten werden können. Es wurden daher mehrere Szenarien entwickelt, die je nach Konfiguration der Site zum Einsatz kommen. Das zu verwendende Szenario kann dabei dynamisch ermittelt werden.
+
+Der Durchsatz und die Round-Trip-Zeit der Kommunikationsschicht bei verschiedenen Szenarien und Sicherheitsstufen wird evaluiert. 
+Das Verhalten der Kommunikationsschicht kann mit einer Pipeline modelliert werden. Der Durchsatz wird von der Pipelinestufe mit dem geringsten Durchsatz bestimmt. Bei Netzwerken, wie sie zwischen den deutschen LCG-Sites bestehen, führt die Verwendung von Verschlüsselung zu einer Limitierung des Durchsatzes durch die Rechenzeit auf den sendenden und empfangenden Rechnern. Bei der Verwendung einer zweiten Sicherheitsschicht ohne Verschlüsselung, war bei eindirektionalem Datentransfer die Bandbreite limitierend. Wenn in beide Richtungen gleichzeitig gesendet wird, wird die Rechenzeit an den Endpunkten kritisch, da bei voll-duplex Netzwerken die Übermittlung von Daten mit maximaler Bandbreite in beiden Richtungen gleichzeitig erfolgen kann, während die Rechenzeit zum Ein- und Auspacken der Nachrichten sich addiert.
+
+Zu der Round-Trip-Zeit fügt jede Komponente einen additiven Bestandteil bei. In Anbetracht der Round-Trip-Zeit zwischen zwei Sites sind die zusätzlichen Zeiten für einen Verbindungsdienst und die Sicherheitsschichten vernachlässigbar.
+
+Die Optimierung und der Datenzugriff werden in wesentlich geringerem Umfang behandelt als die Datenkonsistenz und die Kommunikation. Die Optimierungsidee basierte auf der Annahme, dass die Netzwerkbandbreite den Durchsatz limitiert. Es soll zwischen dem Aktualisierungprotokoll und dem Invalidierungsprotokoll, dasjenige gewählt werden, dass die beste Perfromance bietet.
+
+Bei dem Datenzugriff geht es darum, Datenzugriffe der Anwendung abzufangen und Methoden des Steering-Systems aufzurufen, so dass das Steering-System auf die Datenzugriffe reagieren kann. Hierbei werden zunächst einige Klassifizierungen vorgenommen, die sich darauf auswirken, wie das Steering-System auf diese Datenzugriffe reagieren kann oder soll. 
+
+Mit der Implementierung in RMOST können Jobs des ATLAS Experiments gesteuert werden.</abstract>
+                    <abstract type="content" lang="eng">In this work, four tasks for online steering are distinguished: Communication, data consistency, automated evaluation and optimization, and data access. 
+
+The focus of this work is on the data consistency task. For this task, a new model is presented, which views online steering as accesses to data in a virtual distributed shared memory. To ensure the consistency of the data, the intra-process condition and the inter-process condition are identified. Both define rules for the data exchange. Dependent on the requirements of the application, both conditions must be satisfied or only the intra-process condition must be satisfied. 
+
+Two consistency models are defined which satisfy the intra-process condition which are named special weak consistency and delayed weak consistency. Based on an algorithm from CUMULVS, the schedule consistency is defined which satisfies both conditions. Furthermore, data objects may exist for which none of the conditions must be fullfilled.
+
+When using the special weak consistency or the delayed weak consistency, only pairs consisting of one application process and one steering process communicate. For both models, an update protocol and an invalidate protocol are developed and implemented. Additionally, an update protocol and an invalidate protocol for the PRAM consistency are implemented. With the implementations the behavior of the protocol was evaluated. Hereby, it was detected that the protocols of the special weak consistency were slower than the protocols of the delayed weak consistency. The performance difference increases if the round trip time in the network increases. 
+
+For online steering of Gridjobs, a possibility must exist to communicate with a Gridjob. In this work, a communication channel is developed which allow to establish a secure communication connection to a Gridjob without compromising the security of the site. Several scenarios are developed for establishing a communication channel, depending on the site&apos;s configuration. The appropriate scenario can be automatically detected. 
+
+The throughput and the round trip time of the communication channel are evaluated using different scenarios and security levels. The behavior of the communication channel can be modeled with a pipeline. The throughput is limited by the slowest pipeline stage. When using encryption, the throughput between German LCG-sites is limited by the computing time for encryption/decryption on the endpoints of the communication. When using two security levels without encryption, the bandwidth limits the throughput for one-directional data transfer. In the case of two-directional data transfer, the computing time at the endpoints can limit the throughput.
+
+Every component adds a constant to the round trip time. Compared to the round trip time between sites, the additional contributions are negligible. 
+
+Optimization and data access are not discussed in the same level of detail than data consistency and communication. The presented optimization approaches are based on the assumption that the bandwidth are limiting the performance. The optimization selects the invalidate or update protocol based on predictions of their performance.
+
+The goal of the data access task is, to intercept data accesses to steered date objects and call methods of the steering system in order to allow the steering system to react on data accesses. Hereby, classifications are made which discern the possibilities of the steering system to react on the data accesses.
+
+With the implementation of the steering model in RMOST, jobs of the ATLAS experiment can be steered.</abstract>
+                    <subject>
+                        <topic>Verteilter Speicher</topic>
+                        <topic>Online Steering</topic>
+                        <topic>online steering</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachgruppe Betriebssysteme und verteilte Systeme"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4111</identifier>
+                    <identifier type="sys">HT016158507</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_411</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2009-07-14</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_411">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/411/1/lorenz.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_411"
+            DMDID="DMD_siegen_opus_411">
+            <mets:fptr FILEID="FILE0_siegen_opus_411"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

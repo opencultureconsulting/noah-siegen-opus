@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1329">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Radio frequency characterization of superconductors for particle accelerators</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Charakterisierung der Hochfrequenzeigenschaften von Supraleitern für Teilchenbeschleuniger</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kleindienst, Raphael</displayForm>
+                        <namePart type="family">Kleindienst</namePart>
+                        <namePart type="given">Raphael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Superconducting RF cavities are used in modern particle accelerators to supply large accelerating gradients to high current beams at moderate power requirements. The material used for these cavities is of key importance, as power consumption and maximum accelerating gradient are determined by the material properties surface resistance and critical RF-field.
+Currently, bulk niobium is used as the cavity material of choice - compound superconductors such as Nb3Sn, NbN and MgB2 have greater theoretical potential however. Experiments to test the relevant superconducting material properties for small flat samples are in high demand by the community, as coating entire cavities is difficult and expensive. Furthermore being able to test the RF properties as a function of field, temperature, frequency and ambient magnetic field is important from a theoretical perspective. 
+Within this work, the design, production and commissioning of an optimized Quadrupole Resonator is presented. A detailed characterization is shown for two niobium samples, demonstrating the measurement capabilities of the setup. Measurements at higher RF fields than previously achieved in comparable experiments are used to test two non-linear models describing the field dependent surface resistance.</abstract>
+                    <abstract type="content" lang="ger">Supraleitende Hohlraumresonatoren (auch Kavitäten genannt) werden in Hochstrom - Teilchenbeschleunigern eingesetzt, um hohe Beschleunigungsgradienten bei moderatem Energieverbrauch zu erzeugen. Das Material aus welchem diese Resonatoren hergestellt werden ist von entscheidender Bedeutung, da der Energiebedarf von dem Oberflächenwiderstand und die erreichbare Höchstspannung von dem kritischen Feld des Materials abhängt.  
+Derzeit werden supraleitende Hohlraumresonatren aus Niob hergestellt. Andere Supraleiter wie  Nb3Sn, NbN und MgB2 haben von den supraleitenden Kenngrössen her ein höheres Potential, welches mit den derzeitigen Dünnschichttechniken noch nicht realisiert werden kann. Um diese Entwicklung zu Begleiten bietet sich eine Bestimmung der supraleitenden Hochfrequenzeigenschaften mittels kompakter Proben an, welche  gegenüber der Messung mit Kavitäten den Vorteil besitzt, dass die Beschichtung weniger zeit- und kostenintensiv ist. Zudem eignet sich die Vermessung des Oberflächenwiderstandes als Funktion von Hochfrequenzfeld, Temperatur, Frequenz und statischem Magnetfeld, um verschiedene Verlustmodelle zu prüfen. 
+In dieser Arbeit werden die Planung, Herstellung und Inbetriebnahme eines Quadrupol Resonators vorgestellt. Es folgt eine umfangreiche Charakterisierung von zwei  Niob Proben mit unterschiedlicher Oberflächenbehandlung. Das letzte Kapitel widmet sich dem feldabhängigen Oberflächenwiderstand, welcher bei hohen Feldstärken bis 110 mT gemessen werden konnte.</abstract>
+                    <subject>
+                        <topic>Supraleiter</topic>
+                        <topic>Superconductivity</topic>
+                        <topic>Cavity resonator</topic>
+                        <topic>Particle accelerator</topic>
+                        <topic>Surface resistance</topic>
+                        <topic>Radio frequency</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-13292</identifier>
+                    <identifier type="sys">HT019734764</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1329</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2017-09-28</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1329">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1329/1/Dissertation_Raphael_Kleindienst.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1329"
+            DMDID="DMD_siegen_opus_1329">
+            <mets:fptr FILEID="FILE0_siegen_opus_1329"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

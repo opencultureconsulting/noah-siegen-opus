@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_193">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Der </nonSort>
+                        <title>US-amerikanische Export als Gegenstand der internationalen Steuerplanung eines deutschen internationalen Konzerns</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Metzner, Bernd</displayForm>
+                        <namePart type="family">Metzner</namePart>
+                        <namePart type="given">Bernd</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">1999</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Als Organisationsform für die Ausfuhr aus den USA bietet das US-Steuerrecht den US-Exporteuren grundsätzlich an, ihre Exportvorgänge ohne oder mit Zwischenschaltung einer priviligierten Vertriebsgesellschaft als Basisgesellschaft, insbesondere der sog. Foreign Sales Corporation, zu gestalten.
+Neben der Darstellung der zugrundeliegenden US-Steuerrechtsnormen werden in der Monographie die Steuerwirkungen der fiskalischen US-Exportanreize in Abhängigkeit von der gewählten Organisationsform aufgezeigt und themenbezogene Überlegungen zur internationalen Steuerplanung angestellt. Hinsichtlich des deutschen Steuerrechts zielt dabei die Abhandlung im wesentlichen darauf ab, aufzudecken, wie den deutschen Maßnahmen zur Vermeidung einer Mindestbesteuerung ausgewichen werden kann, damit einem deutschen Konzern mit entsprechenden Aktivitäten in den USA die Steuervergünstigungen von bis zu 50% der &quot;normalen&quot; US-Steuerbelastung nicht verloren gehen.
+Neben den einzelwirtschaftlichen Aspekten setzt sich diese Arbeit aber auch mit der gesamtwirtschaftlich bedeutsamen Frage auseinander, ob die diskutierten Exportvorschriften der USA nicht illegale ertragsteuerliche Exportsubventionen im Sinne der World Trade Organization darstellen und die USA so den Rahmen des erlaubten Wettbewerbs der nationalen Steuerordnung überschreiten.</abstract>
+                    <subject>
+                        <topic>internationale Steuerplanung</topic>
+                        <topic>Exportsubvention</topic>
+                        <topic>FSC</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 5, Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1936</identifier>
+                    <identifier type="sys">HT011088837</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_193</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>1999-06-28</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_193">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/193/1/metzner.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_193"
+            DMDID="DMD_siegen_opus_193">
+            <mets:fptr FILEID="FILE0_siegen_opus_193"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

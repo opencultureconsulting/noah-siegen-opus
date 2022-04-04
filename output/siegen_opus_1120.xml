@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1120">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>study of the charge collection, storage and processing in pixelated semiconductor detectors</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schmidt, Julia</displayForm>
+                        <namePart type="family">Schmidt</namePart>
+                        <namePart type="given">Julia</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die neue Generation beschleunigerbasierter Röntgenquellen, die sogenannten Freien-Elektronen-Laser (FEL), erzeugen ultra-brillante, kohärente Röntgenpulse, welche völlig neue experimentelle Möglichkeiten wie beispielsweise die Untersuchung von Nanostrukturen oder das Auflösen struktureller Details von Reaktionsmechanismen eröffnen. Um die Möglichkeiten, die diese neuen Strahlungsquellen bieten, voll ausnutzen zu können, benötigt man Detektoren, die die enormen Kontraste, die bei FEL-Experimenten auftreten, auflösen können. Bei manchen Experimenten reicht der dynamische Bereich von einzelnen Photonen bis hin zu  100 000 Photonen mit einer Energie von 12 keV pro Pixel und Röntgenpuls. pnCCDs erfüllen die Anforderungen, die diese neuen Röntgenquellen an das Detektorsystem stellen, da sie große Signalladungsmengen mit hoher Geschwindigkeit verarbeiten können. Extrem hohe Photonenintensitäten, können jedoch zu einer Sättigung der Pixel und zum Überlaufen von Signalladung in benachbarte Pixel führen. Aufgrund dieses sogenannten Blooming-Effekts geht ein Teil der räumlichen Information bei Beugungsexperimenten verloren und die Probenstrukturen können nicht mehr zuverlässig rekonstruiert werden.
+In dieser Arbeit wird die Sammlung, Speicherung und Verarbeitung von Signalladung in pixelierten Halbleiterdetektoren vom Typ pnCCD untersucht. Für die experimentellen Untersuchungen wurde ein Laseraufbau konstruiert, der es ermöglicht gezielt unterschiedliche Mengen an Signalladungen in die einzelnen Pixel einzubringen und die Pixelstruktur mit hoher Ortsauflösung abzurastern. Mit Hilfe numerischer Bauelementesimulationen wurden die elektrischen Potentialverhältnisse im Detektor während der Ladungsspeicherung, -sammlung und dem -transfer untersucht. Basierend auf den experimentellen Daten und den Simulationsergebnissen wurde ein physikalisches Modell für die Ladungssammlungskapazität volldepletierter, pixelierter Halbleiterdetektoren aufgestellt. Aufgrund der Ergebnisse konnte die Ladungssammlungskapazität und damit der dynamische Bereich der pnCCDs deutlich erhöht werden.
+Des Weiteren wurde untersucht, wie sich überschüssige Ladungen aus der Pixelstruktur entfernen lassen, bevor diese in die Nachbarpixel überlaufen. Da pnCCDs keine geschlossene Oxidschicht auf der Registerseite haben, steht ein direkter Zugang zum Halbleiter zur Verfügung, über den überschüssige Ladungen aus dem Bauelement entfernt werden können. Es wird untersucht, ob es möglich ist Ladungssenken im elektrischen Potential der pnCCDs durch Anlegen geeigneter Betriebsspannungen zu erzeugen, ohne die Pixelstruktur oder den Herstellungsprozess zu verändern. Dieser neuartige Betriebsmodus eröffnet ein neues Feld im Bereich der Bildgebung mit Photonen, aber auch mit Elektronen und anderen geladenen Teilchen mit hohen Intensitäten.</abstract>
+                    <abstract type="content" lang="eng">The new generation of accelerator-based X-ray sources, the so-called free electron lasers (FEL), generate extremely intense, coherent and ultra-brilliant radiation in femtosecond pulses that allow to study nano-structures and ultra-fast processes which were previously inaccessable. In order push the limits of the new radiation sources, detectors are needed that can resolve the enormous contrasts in the experimental data reaching from single photons to 100 000 photons with an energy of 12 keV per pixel per pulse. The pnCCD (pn-junction Charge-Coupled Device) meets the challenges of the new light sources since it can handle high radiation intensities at high readout speeds. However, extremely high photon intensities can result in pixel saturation and charge spilling into neighboring pixels. This charge blooming effect reduces the spatial information for FEL diffraction experiments preventing a reliable image reconstruction.
+In this thesis, the collection, storage and processing of signal charges in the pixelated pnCCD semiconductor detector was studied. Experimentally, a laser setup was designed and built to inject different amounts of charges in individual pixels and to scan the pixel structure with high spatial resolution. Numerical device simulations were used to model the electric conditions inside the detector during charge collection, storage and transfer. The simulation results were compared with the experimental data and both were used to establish a physical model for the charge handling capacity of pixelated detectors based on the full depletion of the semiconductor substrate. The results enabled a significant increase of the charge handling capacity and therefore, the dynamic range of the pnCCDs.
+Furthermore, it was studied how to remove excess charges from the pixel structure before they spill into neighboring pixels. Since pnCCDs have no closed oxide layer at the register side, there is a direct electric acccess to the semiconductor that allows surplus charges to drain from the device. It was analyzed, if it is possible to establish charge drains in the electric potential of the pnCCD by applying the appropriate operation conditions without modifying the pixel layout or fabrication process. This novel mode of operation opens up a new field in imaging with photons but also with electrons and other charged particles with high intensities.</abstract>
+                    <subject>
+                        <topic>Strahlungsdetektor</topic>
+                        <topic>Dynamischer Bereich</topic>
+                        <topic>Ladungssammlungskapazität</topic>
+                        <topic>pnCCD</topic>
+                        <topic>Dynamic Range</topic>
+                        <topic>Charge Handling Capacity</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11201</identifier>
+                    <identifier type="sys">HT019297336</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1120</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2017-03-20</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1120">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1120/1/Dissertation_Julia_Schmidt.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1120"
+            DMDID="DMD_siegen_opus_1120">
+            <mets:fptr FILEID="FILE0_siegen_opus_1120"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

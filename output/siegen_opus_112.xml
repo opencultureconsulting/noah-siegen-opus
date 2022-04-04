@@ -1,0 +1,97 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_112">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Fluoreszenz basierte Methoden und neue Fluoreszenz-Farbstoffe zum Nachweis von Analyten in Lösung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Püschl, René J.</displayForm>
+                        <namePart type="family">Püschl</namePart>
+                        <namePart type="given">René J.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2005</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Im Rahmen dieser Arbeit wurde die seit Jahrzehnten etablierte Kapillarelektrophorese mit
+der relativ jungen Methode der Einzelmoleküldetektion kombiniert. Das Ziel, Analytgemische
+auf Einzelmolekül-Ebene elektrophoretisch aufzutrennen und zu detektieren, konnte durch
+den Einsatz geeigneter, geladener Fluoreszenzfarbstoffe erreicht werden. Als experimenteller
+Aufbau wurde dabei ein konfokales Mikroskop eingesetzt, als Anregungslichtquelle wurde
+eine Laserdiode verwendet. Die registrierte Fluoreszenz der Farbstoffe wurde dabei über die
+zeitkorrelierten Einzelphotonenzählung ausgewertet. Unter Zuhilfenahme der Kapillarelektrophorese
+konnten im Verlauf dieser Arbeit unterschiedliche Proben, die verschiedene
+Fluoreszenzfarbstoffmoleküle als Analyten enthielten, anhand ihrer Fluoreszenz nachgewiesen
+werden. Dabei war die erreichte Empfindlichkeit der Apparatur so hoch, dass selbst
+einzelne Analytmoleküle nachgewiesen und anhand ihrer Fluoreszenzabklingdauer
+identifiziert werden konnten.
+Ein weiteres Ziel dieser Arbeit bestand darin, neue öllösliche Fluoreszenzfarbstoffe und
+-konzentrate zu entwickeln. In der Farbstoffklasse der Pyrromethene wurde eine Substanzgruppe
+gefunden, die durch Modifikation der Edukte zu einer sehr hohen Öllöslichkeit des
+Produkts führt. Neben der Darstellung höchst öllöslicher Fluoreszenzfarbstoff konnten ebenso
+Konzentrate auf Pyrromethen-Basis entwickelt werden. Diese Konzentrate wurden dabei so
+hoch konzentriert, dass deren Fluoreszenz noch bei einer Verdünnung um einen Faktor 2000
+mit bloßem Auge zu erkennen waren.
+Für einen eventuellen kommerziellen Einsatz wurde die Synthese so optimiert, dass die
+Farbstoffe ohne Isolierung der Zwischenstufen hergestellt werden können.
+Durch die Verwendung von unterschiedlichen Pyrrol-Derivaten konnte gezeigt werden,
+dass eine große Anzahl an Fluoreszenzfarbstoffen durch die Pyrromethene zu erschließen
+sind.</abstract>
+                    <abstract type="content" lang="eng">In the thesis at hand a combination of capillary electrophoresis with the technique of single
+molecule detection is studied. In that context separation of different analyte molecules could
+be demonstrated on the single molecule level by using charged analyte molecules. Moreover
+different analytes solved in a single sample were identified by their migration time as well as
+by their fluorescence decay time. For this purpose fluorescent dyes were used as analyte
+molecules. The optical set-up based on a confocal microscope with a laser diode as excitation
+source. To determine the fluorescence decay time of the analyte molecules the technique of
+time-correlated single-photon counting was used. The achieved sensitivity of the entire set-up
+was high enough to detect and identify even individual molecules.
+In the second part of this thesis new highly oil soluble fluorescent dyes and concentrates
+were developed. The achieved solubility of the new fluorescent concentrates was as high, that
+the fluorescence of a 2,000 times diluted sample could be seen with the naked eye. For
+commercial purposes an optimized process could be designed so that the new compounds
+could be synthesized in a single vessel.</abstract>
+                    <subject>
+                        <topic>Einzelmoleküldetektion</topic>
+                        <topic>Kapillarelektrophorese</topic>
+                        <topic>Pyrromethensynthese</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 8, Chemie - Biologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1120</identifier>
+                    <identifier type="sys">HT014488964</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_112</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2005-07-27</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_112">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/112/1/pueschl.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_112"
+            DMDID="DMD_siegen_opus_112">
+            <mets:fptr FILEID="FILE0_siegen_opus_112"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

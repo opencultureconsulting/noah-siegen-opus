@@ -1,0 +1,144 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_936">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>An efficient inflation method for segmentation of medical 3D images</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Eine effiziente Inflationsmethode zur Segmentierung von medizinischen 3D Bildern</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zukić, Dženan</displayForm>
+                        <namePart type="family">Zukić</namePart>
+                        <namePart type="given">Dženan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The diagnosis of certain spine pathologies, such as scoliosis, spondylolisthesis
+and vertebral fractures, are part of the daily clinical routine. Very
+frequently, MRI data are used to diagnose these kinds of pathologies in
+order to avoid exposing patients to harmful radiation, like X-ray.
+
+Developing a segmentation system for an array of vertebrae is complex,
+so the method was first tested on brain tumors of types glioblastoma
+multiforme and pituitary adenoma. A small triangular surface mesh at
+the approximate center of the tumor is inflated towards the boundary
+using balloon force, keeping it approximately star-shaped. The boundary
+is implicitly binarized by the inflation rules, based on the minimum and
+maximum intensity from the initialization step. After the segmentation is
+finished, the tumor volume is calculated.
+
+The spine segmentation system uses a bottom-up approach for detecting
+vertebral bodies based on just one manual initialization. A subdivision
+surface hierarchy is introduced as an efficient global-to-local smoothness
+constraint, which can be thought of as an internal force. Together with
+intensities, low-high (LH) values were initially used to ease boundary
+finding, but the boundary estimation evolved into a multi-feature combiner.
+
+The final system utilizes a Viola-Jones detector to determine centers
+and approximate sizes of vertebral bodies. This gives the user a chance
+to manually correct detections, enables parallel feature calculation and
+segmentation, and is a basis for reliable diagnosis established at the end.
+
+The system was evaluated on 26 lumbar datasets containing 234 reference
+vertebrae. Vertebra detection has 7.1% false negatives and 1.3% false
+positives. The average Dice coefficient to manual reference is 79.3% and
+mean distance error is 1.77 mm. No severe case of the three addressed
+illnesses was missed, and false alarms occurred rarely – 0% for scoliosis,
+3.9% for spondylolisthesis and 2.6% for vertebral fractures.
+
+The main advantages of this system are high speed, robust handling
+of a large variety of routine clinical images, and simple and minimal user
+interaction.</abstract>
+                    <abstract type="content" lang="ger">Die Diagnose von bestimmten Wirbelsäulenerkrankungen, wie z.B. Skoliose,
+Spondylolisthesis oder Wirbelbrüche, sind Teil des Klinikalltags. Häufig
+werden zur Diagnose dieser Art von Erkrankungen MRT-Daten benutzt,
+um zu vermeiden, dass Patienten schädlicher Strahlung, wie z.B. Röntgenstrahlung,
+ausgesetzt werden.
+
+Die Entwicklung eines Segmentierungssystems für eine Reihe von Wirbeln
+ist komplex. Deshalb wurde die Methode zuerst für zwei Typen von
+Gehirntumoren, Glioblastoma multiforme und Hypophysenadenom, getestet.
+Ein kleines Dreiecksnetz wird am ungefähren Zentrum des Tumors
+durch Ballon-Forces expandiert, wobei seine Struktur näherungsweise sternförmig
+gehalten wird. Der Datensatz wird durch diese Kräfte basierend
+auf den Minimum- und Maximumintensitäten beim Initialisierungsschritt
+implizit in ein inneres und ein äußeres Segment unterteilt. Nachdem die
+Segmentierung abgeschlossen ist, wird das Volumen des Tumors berechnet.
+
+Das Segmentierungssystem für die Wirbelsäule benutzt einen „Bottumup“-
+Ansatz zur Erkennung der Wirbel, der auf nur einer manuellen Initialisierung
+basiert. Als effiziente global-zu-lokal Glättungsbedingung
+wurde eine Oberflächenunterteilungshierarchie eingeführt, die man sich
+als interne Kraft vorstellen kann. Zu Beginn wurden Intensitätswerte zusammen
+mit „low-high“-Werten verwendet um die Ermittlung von Kanten
+zu erleichtern. Aber der Kantenschätzer entwickelte sich hin zu einem
+Multimerkmalsansatz.
+
+Das endgültige System benutzt einen Viola-Jones-Detektor um das Zentrum
+und die ungefähre Größe von Wirbeln zu bestimmen. Dieser Ansatz
+gibt dem Nutzer die Möglichkeit die Erkennung manuell zu korrigieren
+und ermöglicht eine parallele Berechnung der Merkmale und Segmentierung
+und stellt eine Basis für eine zuverlässige Diagnose dar.
+
+Das System wurde an 26 lumbalen Datensätzen evaluiert, welche 234
+Referenzwirbel beinhalteten. Die Wirbelerkennung hat 7.1% „false positives“
+und 1.3% „false negatives“. Der durchschnittliche Dice-Koeffizient im
+Vergleich zur Handsegmentierung ist 79.3% und der mittlere Abstandsfehler
+beträgt 1.77mm. Alle schlimmere Fälle der drei Erkrankungen wurde
+korrekt erkannt und Fehlalarme traten selten auf – 0% bei Skoliose, 3.9%
+bei Spondylolisthesis und 2.6% bei Wirbelfrakturen.
+
+Die Hauptvorteile dieses Systems sind die hohe Geschwindigkeit, die
+robuste Handhabung von alltäglichen klinischen Aufnahmen und die einfache
+als auch minimale Benutzerinteraktion.</abstract>
+                    <subject>
+                        <topic>Kernspintomografie</topic>
+                        <topic>MRT</topic>
+                        <topic>Segmentation</topic>
+                        <topic>image analysis</topic>
+                        <topic>spine</topic>
+                        <topic>graphics</topic>
+                        <topic>MRI</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Bildinformatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-9365</identifier>
+                    <identifier type="sys">HT018720834</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_936</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2014-09-08</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_936">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/936/1/Dissertation_Dzenan_Zukic.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_936"
+            DMDID="DMD_siegen_opus_936">
+            <mets:fptr FILEID="FILE0_siegen_opus_936"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

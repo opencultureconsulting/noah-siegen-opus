@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1401">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>SiC-VSI with sinusoidal voltages for an enhanced sensorless control of the induction machine</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Optimierung der sensorlosen Regelung der Asynchronmaschine durch Verwendung eines Spannungszwischenkreisumrichters mit SiC-Schaltern</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Al-Badrani, Harith</displayForm>
+                        <namePart type="family">Al-Badrani</namePart>
+                        <namePart type="given">Harith</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">In the last few years, intensive research within the field of advance control schemes for AC drives has been conducted worldwide. With the currently available control schemes, power electronic converters and signal processing the realization of motor drives featuring excellent properties in a wide speed and torque range is possible. An operation of the motor drives without restrictions demand the measurement of the angular position of the shaft. As optical high resolution encoders are sensitive to environmental influences, like dust, vibration and temperature, they are prone to failure. They also demand additional cables and interfaces. Therefore, in the last decades a worldwide extensive research in industry and academia has led to several tech-niques pertaining the operation of a drive without the utilization of mechanical encoders. The so called ‘sensorless’ or &quot;encoderless&quot; control schemes have been en-hanced in multiple research works to achieve a high dynamic performance for stand-ard electrical AC- machines.
+The present work deals with the sensorless control of the asynchronous machines by using the so-called fundamental wave models of the machine. It is well-known that a sensorless control can be achieved with good performance that can be developed based on the terminal voltages and currents of the machine without any measurement of the rotor position. Unfortunately, this method fails at low stator frequencies, and therefore the sensorless operation is only possible at medium or high speed. In addi-tion the model utilized for the control is not fed with the stator voltages since they are usually not measured. Moreover the terminal voltages are reconstructed out of their reference values which are calculated by the controller. For this reason the con-trol task becomes more complex because the imperfections and nonlinearity of the inverter have to be considered.
+Power electronics inverters equipped with SiC switches for feeding the AC machines can be operated at higher switching frequencies, many research groups have been working with such system aiming better performance, a higher efficiency and some featuring sinusoidal output voltages. Nevertheless the objective of the current research is a different one, namely to obtain smooth terminal voltages that can be easily measured in order to enhance the classical fundamental-wave, sensorless control schemes as well as of other methods like the natural field orientation (NFO) and the control with an model reference adaptive system (MRAS).</abstract>
+                    <abstract type="content" lang="ger">In den letzten Jahren ist weltweit eine intensive Forschung auf dem Gebiet der Steue-rung und Regelung von Drehstrommaschinen erfolgt. Die bekannten Regelverfahren in Verbindung mit  den verfügbaren leistungselektronischen Umrichtern  sowie mit Hilfe der sehr weit entwickelten, schnellen,  elektronischen Signalverarbeitung, ermöglichte die Realisierung von elektrischen Antrieben mit hervorragenden Eigen-schaften in einem weiten Drehzahl- und Drehmomentbereich. Ein geregelter Betrieb der Asynchronmaschine ohne Einschränkungen im Drehzahlstellbereich verlangt allerdings die Messung der Winkelposition des Rotors. Allerdings sind optische hochauflösende Encoder empfindlich gegen Umwelteinflüsse, wie Staub, Vibration und Temperatur, und reduzieren folglich die Systemzuverlässigkeit. Weiterhin erfordern sie zusätzliche Kabel und Schnittstellen. Daher hat man sich in den letzten Jahrzehnten, sowohl in der akademischen Welt als auch in der Industrie, mit der Entwicklung von Regelverfahren befasst, die ohne die Verwendung von mechanischen Drehgebern (Encodern) funktionieren.  Diese sogenannten &quot;sensorlosen&quot; oder &quot;geberlosen&quot; Regelungen wurden in vielen Forschungsarbeiten intensiv untersucht und ständig verbessert, um eine hohe Dynamik mit Standard-Asynchronmotoren in einem weiten Drehzahlbereich zu erzielen.
+Es ist bekannt, dass eine Regelung der Asynchronmaschine mit alleiniger Verwendung der Klemmengrößen (Statorstrom und –spannung) ohne Messung der Rotorposition möglich ist. Leider versagen solche Methoden bei sehr kleinen Statorfrequenzen und finden deshalb nur bei höheren Drehgeschwindigkeiten Verwendung. Darüber hinaus, wird in solchen Verfahren die Messung der Klemmenspannungen vermieden und anstatt dessen die von der Regelung errechneten Sollgrößen verwendet. Die Realisierung wird deshalb komplexer, denn etwaige Nichtlinearitäten und Unzulänglichkeiten des Wechselrichters müssen im Modell berücksichtigt werden.
+Für die Speisung der Asynchronmaschine können auch mit SiC-Schaltern ausgestattete Wechselrichter verwendet und mit sehr hohen Schaltfrequenzen betrieben werden. In einigen Forschungsarbeiten wurden solche Systeme im Hinblick auf eine bessere Effizienz und Dynamik sowie auf die Glättung der Klemmenspannung untersucht. Die Vorliegende Arbeit verfolgt allerdings ein anderes Ziel, nämlich die Messung der nahezu sinusförmigen Statorspannungen zur Verbesserung der bekannten sensorlosen Regelverfahren sowie die Untersuchung  der &quot;Natürlichen Feldorientierten Regelung&quot; und die Modell-Referenz-Regelung bei Speisung mit gemessenen Spannungen.</abstract>
+                    <subject>
+                        <topic>Zwischenkreisumrichter</topic>
+                        <topic>Spannungszwischenkreisumrichter</topic>
+                        <topic>SiC-Umrichter</topic>
+                        <topic>Sensorlose Regelung</topic>
+                        <topic>Geberlose Regelung</topic>
+                        <topic>SiC-Inverter</topic>
+                        <topic>Sensorless Control</topic>
+                        <topic>Motor Drives</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-14012</identifier>
+                    <identifier type="sys">HT019949463</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1401</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2018-12-18</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1401">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1401/1/Dissertation_Harith_Al_Badrani.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1401"
+            DMDID="DMD_siegen_opus_1401">
+            <mets:fptr FILEID="FILE0_siegen_opus_1401"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

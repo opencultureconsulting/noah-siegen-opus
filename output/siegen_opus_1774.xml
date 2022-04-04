@@ -1,0 +1,82 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1774">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Understanding images via visual similarity and deep feature representations</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Über das Verständis von Bildern durch visuelle Similaritäten und tiefgehende Merkmalsrepräsentationen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ha, Mai Lan</displayForm>
+                        <namePart type="family">Ha</namePart>
+                        <namePart type="given">Mai Lan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Blanz, Volker</displayForm>
+                        <namePart type="family">Blanz</namePart>
+                        <namePart type="given">Volker</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Machine Learning and Computer Vision are often thought to relate only to machines, involving the development of algorithms and teaching computers to perform various tasks. However, human vision and perception are hidden aspects that influence how an algorithm should function, or how we would want a computer to &quot;see&quot;. The two goals of this thesis are the study of perceptual visual similarity and that of feature representations from Deep Convolutional Neural Networks (DCNNs).
+Assessing visual similarity in-the-wild, a core ability of the human visual system is a challenging problem for Computer Vision because of its subjective nature and its ambiguity in the problem definition. Therefore, the first goal of the thesis is to study the fundamental problems of visual similarity. We raise the question if we could break down different aspects of similarity that make their study more tractable and computationally feasible. We study color composition similarity in-depth, from human evaluation to its modeling using DCNNs. We apply the models to create a new global color similarity descriptor and color transfer method. We then couple color composition and category similarities to define a new model for visual similarity. The combination leads to better results in fine-grained image retrieval. Our approach is a proof of concept, showing that we can make subjective phenomena scientifically tractable. We also developed a perceptual-inspired metric to evaluate intrinsic imaging methods resulting in a fairer evaluation compared to previous metrics.
+The second goal of the thesis focuses on investigating what features are embedded in different parts of a DCNN, how we could use them efficiently, and how we can improve these features. On the one hand, the low to mid-level features, ranging from image pixels to different layers of convolutional responses in a DCNN, are used in perceptual metrics and visual similarity. On the other hand, we discover shape information &quot;hidden&quot; in the high-level features of a DCNN trained for classification. The shapes extracted from the DCNN are used to perform weakly supervised semantic segmentation that works well beyond the classes on which the DCNN was trained. We also find a way to improve the discriminative ability of deep classification features by incorporating Linear Discriminant Analysis objectives into a DCNN training optimization. Our proposed optimization method leads to better classification results, especially for fine-grained classification, which is challenging even for non-expert humans.
+The studies on perceptual visual similarity and deep feature representations in the thesis shed new light on image understanding, which covers different aspects of images such as color, shape, and category.</abstract>
+                    <abstract type="content" lang="ger">Maschinelles Lernen und Sehen werden oft so verstanden, als beträfen sie nur Maschinen und die Entwicklung von Algorithmen, welche einem Computer verschiedenste Aufgaben ermöglichen. Jedoch haben auch das menschliche Sehen und die menschliche Wahrnehmung einen Einfluss auf die Zielvorgaben, wie solche Algorithmen funktionieren sollen und wie ein Computer &quot;sehen&quot; soll. Die zwei Ziele dieser Dissertation sind daher die Untersuchung von visueller Ähnlichkeit (visual similarity) nach Gesichtspunkten menschlicher Warnehmung und die Untersuchung von Feature-Darstellungen in tiefen Faltungsnetzwerken (DCNNs).
+Die Bewertung von visueller Ähnlichkeit zwischen Bildern ist zwar eine Kernaufgabe der menschlichen Wahrnehmung, aber eine große Herausforderung für Maschinelles Sehen in echten Anwendungen, aufgrund der Subjektivität und Mehrdeutigkeit der Problemdefinition. Daher ist das erste Ziel dieser Arbeit eine grundlegende Studie von visueller Ähnlichkeit. Wir untersuchen eine Abgrenzung verschiedener Aspekte von Ähnlichkeit, die eine handhabbare und realisierbare Untersuchung ermöglicht. Wir diskutieren Ähnlichkeit auf Basis von Farbkomposition im Detail, anfangend bei menschlicher Evaluierung, bis hin zur Modellierung mithilfe von DCNNs. Wir benutzen diese Modelle zur Schaffung sowohl einer neuer Metrik für global Farbähnlichkeit als auch eines Farbtransfermodells. Weiterhin verknüpfen wir Farbkomposition und Objektähnlichkeit, um ein neues Modell für visuelle Ähnlichkeit zu definieren. Diese Kombination führt in der Anwendung, etwa im Bereich der Bildsuche auf einer feineren Unterscheidungsebene (fine-grained image retrieval) zu verbesserten Ergebnissen. Unser Ansatz ist ein Prototyp, der zeigt, wie subjektive Wahrnehmung, für Maschinen greifbar gemacht werden kann. Schliesslich entwickeln wir auch ein wahrnehmungs-inspirierte Metrik zur Evaluierung von intrinsischen bildgebenden Verfahren, die im Gegensatz zu besherigen Metriken, genauere Methodikvergleiche ermöglicht.
+Das zweite Ziel dieser Dissertation bildet die Untersuchung von Merkmalsrepräsentationen in verschiedenen Teilbereichen eines DCNNs, und stellt die Frage, wie diese Merkmale verstanden, effizient benutzt und verändert werden können. Merkmale aus den unteren und mittleren Schichten eines DCNNS, angefangen bei den Bildpixeln hin zu den Faltungsergebnissen der frühen Schichten, können gut als Metriken für Wahrnehmung und visuelle Ähnlichkeit verwendet werden. Bei Analyse der späteren Schichten eines DCNNS für Klassifizierung finden wir jedoch heraus, dass in diesen Gestaltsinformationen &quot;versteckt&quot; sind. Die Extraktion dieser Informationen führt uns zu einer schwach beaufsichtigten (weakly-supervised) Segmentierungsmethodik, die sogar jenseits der Klassen funktioniert, mit denen das DCNN trainiert wurde. Außerdem betrachten wir die diskriminativen Fähigkeiten dieser späteren Klassifikationsmerkmale und diskutieren eine Verbesserung der Separation durch Verwendung von Methoden der linearen Diskriminationsanalyse während des Trainings. Unsere vorgeschlagene Optimierungsmethode führt zu verbesserten Klassifikationsergebnissen, besonders bei der Klassifikation auf einer feineren Unterscheidungsebene, die sogar für menschliche Experten schwierig ist. 
+Diese Untersuchungen von visueller Ähnlichkeit und von tiefen Merkmalsrepräsentationen in DCNNs zeigen neue Wege zu einer Theorie von Bildverständnis auf, die verschiedenste Aspekte von Bildern, wie Farben, Gestalt und Kategorien einschließt.</abstract>
+                    <subject>
+                        <topic>Ähnlichkeit / Sehen</topic>
+                        <topic>Visual similarity</topic>
+                        <topic>Visual perception</topic>
+                        <topic>Image understanding</topic>
+                        <topic>Deep feature representations</topic>
+                        <topic>Deep learning</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Department Elektrotechnik - Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-17743</identifier>
+                    <identifier type="sys">HT020830425</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1774</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2020-08-18</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1774">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1774/5/Dissertation_Mai_Lan_Ha.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1774"
+            DMDID="DMD_siegen_opus_1774">
+            <mets:fptr FILEID="FILE0_siegen_opus_1774"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

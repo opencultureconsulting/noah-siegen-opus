@@ -1,0 +1,61 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>593</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Sensor placement methods and evaluation criteria in structural health monitoring</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Dongsheng</pc:foreName>
+            <pc:surName>Li</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Vibrationssensor</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Zustandsüberwachung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Zerstörungsfreie Werkstoffprüfung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Sensortechnik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">sensor placement method</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">sensor placement evaluation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">structural health monitoring</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">load dependent sensor placement method</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The objective of the current work is to deepen the understanding of existing influential sensor placement methods and their interrelationship and to develop an effective method to deploy accelerometers suitable for structural health monitoring. Furthermore, we aim to find a sufficient evaluation criterion to judge which topology configuration of sensors outperforms than others. &#13;
+Three major contributions are made in the dissertation. The connection of the influential Modal Kinetic Energy method and the Effective Independence method is derived and a fast algorithm for computing the Effective Independence method is developed. Furthermore, existing influential sensor placement methods are critically reviewed and discussed. An extended MinMAC algorithm is also proposed.&#13;
+Secondly, five influential evaluation criteria for sensor placement are treated from a mathematical point of view to reveal their connections and interrelationship. Based on this, an almost unbiasedness criterion is proposed, which is found to be a more general criterion and can be regarded as step-by-step approximate to the Fisher information criterion used by the Effective Independence method. &#13;
+Finally, a loading dependent sensor placement method is specially developed to incorporate the influences of the structural characteristics and that of actual loading conditions with the aid of the proposed representative least squares method. Three computational approaches to find the solution for the representative least squares method and also for the loading dependent sensor placement method are examined. A six-story truss model structure is built and used to validate the idea of loading dependent sensor placement method proposed in the dissertation. Sensor positions should be changed when a structure is subjected to various loading conditions and the essential idea of ‘load dependence’ in the field of sensor placement is established.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2011-12-07</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2011</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-5932</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dcterms:isPartOf xsi:type="ddb:noScheme">Schriftenreihe der Arbeitsgruppe für Technische Mechanik im Institut für Mechanik und Regelungstechnik - Mechatronik;  5</dcterms:isPartOf>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Mechanik und Regelungstechnik - Mechatronik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="li.pdf" ddb:fileSize="7018322"/>
+   <ddb:checksum ddb:type="MD5">85315689d086eecbe16bae728a2800e7</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/593/1/li.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/593</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

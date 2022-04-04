@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_987">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Was ist Erziehung? : Eine Einführung in die Erziehungswissenschaft</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Menck, Peter</displayForm>
+                        <namePart type="family">Menck</namePart>
+                        <namePart type="given">Peter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Anknüpfen, an das, was Studienanfänger unter ›Erziehung‹ und ›Bildung‹ verstehen, einen Überblick über das geben, was sie im weiteren Studium des Faches erwartet und Grundlagen vermitteln - das ist das Ziel der überarbeiteten dritten Auflage dieser Einführung des Siegener Erziehungswissenschaftlers Peter Menck.
+Adressaten des Buches sind angehende Berufserzieher, insbesondere Lehrer, die ein an der Wissenschaft orientiertes Studium beginnen. Es soll einen tragfähigen Begriff von ›Erziehung‹ und seinem Inhalt vermitteln: Familie und die Einrichtungen, die sie ergänzen bzw. ersetzen, und zwar die Schule mit dem Unterricht, Vorschuleinrichtungen und die Jugendhilfe.</abstract>
+                    <subject>
+                        <topic>Pädagogik</topic>
+                        <topic>Jugendhilfe</topic>
+                        <topic>Familienformen</topic>
+                        <topic>Erziehung</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-9875</identifier>
+                    <identifier type="sys">HT019023745</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_987</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_987">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/987/1/Menck_Was_ist_Erziehung_3_Aufl.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_987"
+            DMDID="DMD_siegen_opus_987">
+            <mets:fptr FILEID="FILE0_siegen_opus_987"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

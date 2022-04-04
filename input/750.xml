@@ -1,0 +1,58 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>750</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Low-cost MEMS-INS/GPS integration using nonlinear filtering approaches</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Junchuan</pc:foreName>
+            <pc:surName>Zhou</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">INS/GPS</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Quaternionen</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Partikel-Filter</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">sequenzielle Verarbeitung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">INS/GPS</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Quaternions</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Particle filter</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Sequential processing</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">621</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Some important key issues in GNSS/INS integration mainly arise in the field of creating and developing low-cost, robust and at the same time highly accurate navigation systems, putting a focus of interest onto powerful sensor fusion algorithms. The so-called tightly-coupled integration is one of the most promising approaches to fuse the GNSS (global navigation satellite systems) data with INS (inertial navigation system) measurements. However, when modeling the underlying problem, the system process and observation models turn out to be nonlinear, and the GNSS stochastic measurement errors are often non-Gaussian distributed (e.g., due to multipath effects). Among other estimation approaches, the so-called particle filter (PF) as a nonlinear/non-Gaussian estimation method is especially theoretically attractive to be used in this field. However, its large computational burden usually limits its practical usage. In order to reduce the computational burden without degrading the system estimation accuracy, recently, an unscented particle filter (UPF) has been proposed, which combines the PF with the unscented Kalman filter (UKF). In this thesis, only one UKF is used in the algorithm, and the re-sampling step is not required anymore. Thus, the number of particles can be largely reduced, and the implementation of the PF on a hardware platform turns out to be feasible.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Aktuelle Entwicklungen auf dem Gebiet der Fusion von inertialer Navigation und satellitengestützten Positionierungsverfahren zielen klar auf kosteneffiziente, robuste und gleichzeitig hochpräzise Lösungen ab. Leistungsfähige Sensordatenfusionsansätze spielen hier eine Schlüsselrolle, wobei die sogenannte "Tightly Coupled Integration" zur Fusion der satellitengestützten Navigationsdaten mit den Messdaten eines inertialen Systems besonders vielversprechend erscheint. Als erschwerender Umstand ergeben sich hier allerdings nichtlineare Prozess- und Beobachtungsmodelle, die in Verbindung mit nicht länger gaußverteilten Beobachtungsfehlern, beispielsweise aufgrund von Mehrwegeausbreitung, nichtlineare, möglichst optimale Datenfusionsverfahren, wie beispielsweise Partikelfilter-Ansätze erfordern. Theoretisch elegant und leistungsfähig auf der einen Seite, benötigen diese Ansätze in der praktischen Realisierung vielfach eine ungemein hohe Anzahl von einzelnen "Partikeln", so dass der hierdurch verursachte Berechnungsaufwand die praktische Einsatzfähigkeit unter Echtzeitbedingungen vielfach entweder im Hinblick auf die Filterperformance oder auf die Taktzeit limitiert. Ein Ansatz zur Lösung dieser Problematik besteht in der Kombination eines Partikelfilters mit einem Unscented Kalman Filter. Hierbei wird der sonst bei Partikelfiltern übliche, aber zeitaufwändige, Resampling Schritt nicht mehr benötigt. Auch die Anzahl der benötigten Partikel kann stark reduziert werden, so dass eine Realisierung auf einer Signalprozessorplattform möglich wird.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2013-04-17</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2013</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-7500</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>NRW-Zentrum für Sensorsysteme (ZESS)</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="zhou.pdf" ddb:fileSize="6103115"/>
+   <ddb:checksum ddb:type="MD5">7cccbcf55e50180eb443d3b829966725</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/750/1/zhou.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/750</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

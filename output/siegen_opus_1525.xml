@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1525">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Simulation sowie experimentelle Untersuchung von Materialschädigungen bei Umformprozessen</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Simulation and experimental verification of material damage during forming processes</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wick, Dominik</displayForm>
+                        <namePart type="family">Wick</namePart>
+                        <namePart type="given">Dominik</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Christ, Hans-Jürgen</displayForm>
+                        <namePart type="family">Christ</namePart>
+                        <namePart type="given">Hans-Jürgen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die in der Regel auf Flachbackenwalzmaschinen hergestellten Gewinde weisen oftmals Überwalzungen, Risse, Falten und Hohlwalzungen auf, welche zu Kundenreklamationen, Produktivitätsverlusten und Ausschusskosten führen. Bislang fehlt das grundlegende Verständnis des Walzprozesses, sodass in dieser Arbeit systematisch experimentelle und simulative Untersuchungen durchgeführt wurden. Für die Beschreibung des Fließverhaltens des Vergütungsstahls 23MnB4 wurde ein Materialmodell aus Zug- und Druckversuchen entwickelt. In einem nächsten Schritt erfolgte die Erstellung eines geeigneten Reibmodells, welches auf Basis des Gleitstauchversuchs kalibriert wurde. Die Schädigungsmodellierung fokussierte sich auf ein makromechanisches Modell nach Cockcroft und Latham und ein mikromechanisches nach Lemaitre. Auf Grundlage der Ergebnisse aus Material-, Reib- und Schädigungsmodell konnte die Simulation mit der Software SIMUFACT.FORMING aufgebaut werden. Erstmals ist es gelungen, einen derartig komplexen Gewindewalzprozess in einer 3D-Simulation vollständig abzubilden. Die Übertragbarkeit des erstellten Simulationsmodells auf ähnliche Werkzeuggeometrien konnte erfolgreich an zwei Anwendungsbeispielen getestet werden. Abschließend erfolgte die Untersuchung des Ermüdungsverhaltens von Schrauben mit starken und weniger stark ausgeprägten Materialschädigungen. Die Arbeit wird mit TEM-Untersuchungen von den einzelnen Schritten im Lebenszyklus einer Schraube, beginnend vom Drahtabschnitt, über den Press- und Walzrohling hinzu Schrauben im Dauerschwingversuch abgerundet.</abstract>
+                    <abstract type="content" lang="eng">Threads that are typically produced on flat thread rolling machines often have seams, cracks, closes wrinkles and hollow spaces leading to customer complaints, productivity losses and scrap costs. So far, the fundamental understanding of the thread rolling process is missing, so that in this work systematic experimental and simulation-based investigations were carried out. For the description of the material flow behavior of the steel 23MnB4, a material model of tensile and compression tests was developed. In a next step, a suitable friction model was created, which was calibrated by a slide upsetting test. The focus of damage modeling was on a macro-mechanical model proposed by Cockcroft and Latham and a micro-mechanical model was based on Lemaitre. Employing the findings of material, friction and damage modeling, the simulations could be set up with the software SIMUFACT.FORMING. For the first time, it was possible to simulate such a complex thread rolling process in a 3D setting. The application of this simulation model to similar tool geometries was successfully tested on two examples that are relevant in practice. Finally, the fatigue behavior of screws with strong and less pronounced material damage was investigated. The work is completed with TEM investigations of all individual steps in a life cycle of a screw, starting from the cut-off, over the press and rolling blank up to screws subject to fatigue tests.</abstract>
+                    <subject>
+                        <topic>Gewindewalzen</topic>
+                        <topic>Materialschädigungen</topic>
+                        <topic>Cockcroft&amp;Latham</topic>
+                        <topic>Lemaitre</topic>
+                        <topic>Phasenfeldansatz</topic>
+                        <topic>thread rolling</topic>
+                        <topic>material damage</topic>
+                        <topic>Cockcroft&amp;Latham</topic>
+                        <topic>Lemaitre</topic>
+                        <topic>phase field</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Werkstofftechnik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-15259</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1525</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2019-04-05</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1525">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1525/4/Dissertation_Dominik_Wick.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1525"
+            DMDID="DMD_siegen_opus_1525">
+            <mets:fptr FILEID="FILE0_siegen_opus_1525"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

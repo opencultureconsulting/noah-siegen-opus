@@ -1,0 +1,61 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>55</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Innovative Softwareunterstützung für die Wissensvermittlung in Ingenieurwissenschaften</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Andreas</pc:foreName>
+            <pc:surName>Priebe</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Wissenstransfer</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Mikrotechnik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">E-Learning</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Für die Vermittlung von Wissen in Ingenieurwissenschaften ist ein Konzept erforderlich, dass den Anforderungen speziell innovativer Forschungsgebiete wie der Mikrosystemtechnik Rechnung trägt. Durch Bücher sind Informationen oft nicht zeitnah genug zu vermitteln, CBT-Tools konnten sich aufgrund verschiedener Nachteile wie z.B. eingeschränkter Flexibilität oder hohem Preis nicht durchsetzen.&#13;
+In dieser Arbeit wird ein solches Konzept vorgestellt und implementiert. Basis ist die Nutzung verschiedener Medien, je nach Zielsetzung. Verwendet werden Druckmedien, CD/DVDROMs und ein Web-basiertes Softwaresystem. Es wird untersucht, welche Arten von Inhalten und Benutzern zu berücksichtigen sind und wie man die Erfordernisse abdecken kann.&#13;
+Besonderes Augenmerk wird darauf gelegt, dass alle Benutzergruppen optimal unterstützt werden, ohne vorher umfangreiche Software-Kenntnisse erwerben zu müssen. Da das System auch an Universitäten einsetzbar sein soll, ist darauf geachtet worden, die Kosten für Anschaffung und Betrieb niedrig zu halten. Es wurden vorhandene Tools untersucht und wenn möglich verwendet.&#13;
+Die Implementierung erfolgte zunächst im Rahmen des EU-Projektes „TRANSTEC“ und&#13;
+anschließend am Lehrstuhl für Mikrosystemtechnik der Universität Siegen. Mehrfache erfolgreiche Evaluierungen bestätigen, dass das System eine Lücke füllt, die von anderen System auf dem Markt so nicht gefüllt werden kann.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">For the transfer of knowledge in engineering we need a concept that meets the special requirements of highly innovative areas like micro system technology. Books tend to be outdated before they are published, and CBT tools are not well accepted due to little flexibility and high cost.&#13;
+In this thesis an advanced knowledge transfer concept is presented. The key point is the integration of different media types into the education process: print media, CD/DVD, and a web based software system. First, correlation between prospective users, their requirements and the different media type is analysed. A second point is the requirement of using public domain or, concerning costs, equivalent tools, because the system is addressing Universities with their&#13;
+continuous lack of funding. Available tools have been analysed and used as far as possible.&#13;
+The implementation of the system was done at Siegen University, Institute of Micro System Technology. The initial phase was funded by the European project 'TRANSTEC'.&#13;
+Various successful evaluations of learning environments showed that the system presented here fills a gap, which at this time cannot be covered by commercial tools on the market.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2004-03-03</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2004</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-555</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 12, Elektrotechnik und Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="priebe.pdf" ddb:fileSize="6969445"/>
+   <ddb:checksum ddb:type="MD5">50665652cbea418bfc12b178b5267194</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/55/1/priebe.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/55</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

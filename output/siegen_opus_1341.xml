@@ -1,0 +1,99 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1341">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Store, interface, package, connection : methods and propositions for multi-situated app studies</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Dieter, Michael</displayForm>
+                        <namePart type="family">Dieter</namePart>
+                        <namePart type="given">Michael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Gerlitz, Carolin</displayForm>
+                        <namePart type="family">Gerlitz</namePart>
+                        <namePart type="given">Carolin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Helmond, Anne</displayForm>
+                        <namePart type="family">Helmond</namePart>
+                        <namePart type="given">Anne</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Tkacz, Nathaniel</displayForm>
+                        <namePart type="family">Tkacz</namePart>
+                        <namePart type="given">Nathaniel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Vlist, Fernando van der</displayForm>
+                        <namePart type="family">Vlist</namePart>
+                        <namePart type="given">Fernando van der</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Weltevrede, Esther</displayForm>
+                        <namePart type="family">Weltevrede</namePart>
+                        <namePart type="given">Esther</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">This paper discusses methodological approaches to app studies, focussing on their embeddedness and situatedness within multiple infrastructural settings. Our approach arises by paying close attention to the multivalent affordances of apps as software packages, particularly their capacity to enter into diverse groupings and relations depending on different infrastructural situations. The changing situations they evoke and participate in, accordingly, makes apps visible and accountable in a variety of unique ways. Engaging with and even staging these situations, therefore, allows for political-economic, social and cultural dynamics associated with apps and their infrastructures can be investigated through a style of research we describe as multi-situated app studies. The piece offers an overview of four different entry points of enquiry that are exemplary of this overarching framework, focussing on app stores, app interfaces, app packages and app connections. We conclude with nine propositions that develop out of these studies as prompts for further research.</abstract>
+                    <subject>
+                        <topic>App &lt;Programm&gt;</topic>
+                        <topic>Mobile computing</topic>
+                        <topic>Application Software</topic>
+                    </subject>
+                    <classification authority="ddc">302</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-13410</identifier>
+                    <identifier type="sys">HT019863801</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1341</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1341">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1341/1/Store_interface_package_connection.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1341"
+            DMDID="DMD_siegen_opus_1341">
+            <mets:fptr FILEID="FILE0_siegen_opus_1341"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

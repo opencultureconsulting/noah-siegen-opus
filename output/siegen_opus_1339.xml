@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1339">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Is technical innovation serving socially inclusive business?</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Rusche, Thomas</displayForm>
+                        <namePart type="family">Rusche</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The rise of artificial intelligence (AI) is the driving force of technical innovations, which reinforce each other. Increasing computing power, the interoperability of machines and humans and a combination of technology as digitalization, robotics, nanotechnology, biotech and neuro science characterize the New Things (rerum novarum) of today.
+Rapid technological innovation leads to huge business opportunities. How can Catholic Social Teaching (CST) help to direct technological innovations, e.g. AI in a way that they are serving socially (inclusive business)? The goal of CST is to assure human dignity and to increase the common good worldwide. How can this order of ethics be grounded and applied to situations and challenges of our digital transformed world?</abstract>
+                    <subject>
+                        <topic>Digitalisierung</topic>
+                        <topic>Christliche Sozialethik</topic>
+                        <topic>Digitalization</topic>
+                        <topic>Artificial Intelligence</topic>
+                        <topic>Catholic Social Ethics</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-13390</identifier>
+                    <identifier type="sys">HT019758611</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1339</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1339">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1339/1/Rusche_Technical_Innovation.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1339"
+            DMDID="DMD_siegen_opus_1339">
+            <mets:fptr FILEID="FILE0_siegen_opus_1339"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

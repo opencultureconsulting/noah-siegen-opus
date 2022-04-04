@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_188">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Konzeption, Entwicklung und Aufbau einer FADC-basierten Ausleseelektronik für das MAGIC-Teleskop</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Stiehler, Ralf</displayForm>
+                        <namePart type="family">Stiehler</namePart>
+                        <namePart type="given">Ralf</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2001</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Thema dieser Arbeit ist die Enwickling eines Auslesesystems für die Kamera des MAGIC-Teleskops. MAGIC ist eine Abkürzung für Major Atmosphere Gamma Imaging Cherenkov-Telescope.  
+Bildgebende atmosphärische Cherenkov-Telekope (englisch IACTs) sind erdgebundene
+Teleskope zur Detektierung von hochenergetischen Teilchen, insbesondere von
+Gammastrahlung. Diese kosmischen Teilchen werden indirekt über Cherenkov-Licht
+detektiert, welches durch Teilchenshower primärer Teilchen im oberen Bereich der
+Atmosphäre erzeugt wird. Die am Teleskop eintreffenden Lichtpulse sind von extrem kurzer Dauer und können nur durch sehr schnell abtastende A-D-Wandler registriert werden. Beim MAGIC-Experiment ist eine parallele Abtastunng aller 640 Kamerapixel-Ausgangssignale mit 300 MHz FADCs vorgesehen. Bei Entwicklung und Test wurde besonderer Wert darauf gelegt, dass ein sehr hoher Datenfluss bis 80 MByte/s und eine synchrone Clockverteilung mit einer Genauigkeit im Bereich weniger Pikosekunden ermöglicht wird.  
+Im Rahmen der vorliegenden Arbeit wurde ein 32-Kanal-Teilsystem, das alle Komponenten des endgültigen Aufbaus beinhaltet, aufgebaut und erfolgreich getestet. Dieses Prototypensystem kann als Kern der 640-Kanal-Auslese angesehen werden, welches am Bestimmungsstandort des Teleskops im Laufe des Jahres 2002 aufgebaut wird.</abstract>
+                    <abstract type="content" lang="eng">The subject of this thesis is the development of a readout system for the camera of the MAGIC telescope. MAGIC is an acronym for Major Atmosphere Gamma Imaging
+Cherenkov-Telescope.  
+Imaging Atmosphere Cherenkov-Telescopes (IACTs) are ground-based telescopes for the detection of very high energy particles, in particular gamma rays. Such cosmic particles are indirectly detected by the Cherenkov light which is produced by particles of a shower induced by primary cosmics in the high atmosphere. The light pulses arriving at the telescope are extremely short and can only be registered by digitizing with a high sampling frequency. For
+the MAGIC experiment a parallel sampling of all 640 camera pixel output signals with 300 MHz FADCs is foreseen. The design and testing has been carried out particularly with regard to enable a relatively high data flux of up to 80 MByte/s and to facilitate a highly synchronous clock distribution with a precision in the order of a few picoseconds.  
+Within the scope of the present work, a first 32 channel subsystem containing all components of the final system has been developed and tested successfully. This prototype system can be considered as a nucleus for the 640 channel system, which will be implemented at the MAGIC experiment site throughout the year 2002.</abstract>
+                    <subject>
+                        <topic>FADC</topic>
+                        <topic>Magic-Teleskop</topic>
+                        <topic>Cherenkov-Teleskop</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1887</identifier>
+                    <identifier type="sys">HT013276438</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_188</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2001-12-02</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_188">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/188/1/stiehler.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_188"
+            DMDID="DMD_siegen_opus_188">
+            <mets:fptr FILEID="FILE0_siegen_opus_188"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

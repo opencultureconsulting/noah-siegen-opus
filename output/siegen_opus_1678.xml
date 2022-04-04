@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1678">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Lena Hach : „Gute Leseerfahrung trägt wie ein dickgewebter Teppich“</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mikota, Jana</displayForm>
+                        <namePart type="family">Mikota</namePart>
+                        <namePart type="given">Jana</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Oehme, Viola</displayForm>
+                        <namePart type="family">Oehme</namePart>
+                        <namePart type="given">Viola</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Lena Hachs Arbeiten reichen von Theaterstücken über Hörspiele, Kolumnen, Geschichten für Erwachsene, Romane für Kinder und Jugendliche bis hin zu einem Bilderbuch. Als Vertreterin einer jüngeren AutorInnen-Generation, lässt sie sich nicht leicht in Kategorien einordnen. Ihre mediale Sozialisation fließt ebenso in ihre Werke wie ihre globale, bewusste und selbstbewusste Lebensweise.
+Lena Hachs Kinder- und Jugendbücher folgen auf den ersten Blick inzwischen schon tradierten Gattungsmustern und Themen des modernen Kinder- und Jugendromans. Die Themen, Konstellationen und Figuren sowie Sprache und Erzählweise greifen aktuelle Lebenswelten und Probleme auf, nehmen kindliche und jugendliche Leserinnen/Leser ernst, erzählen altersgemäß und zugleich narratologisch anspruchsvoll. Lena Hachs Bücher überraschen aber auch mit Neuem und Ungewohntem und sorgen manchmal einfach nur für jede Menge unbelasteten Lesespaß. Insbesondere in ihren Jugendromanen findet sich der Sound der seit einiger Zeit erfolgreich auftretenden neuen Generation von Autorinnen/Autoren (wie Tamara Bach, Finn-Ole Heinrich oder Antonia Michaelis), die die Gefühls- und Gedankenwelt ihrer Figuren genial in Sprache überführen.
+Das vorliegende Werkstattgespräch enthält wie immer neben einer ausführlichen Einführung in das literarische Werk, ein Interview mit der Autorin sowie eine ausführliche Bibliografie.</abstract>
+                    <subject>
+                        <topic>Kinderbuchautorin</topic>
+                        <topic>Lena Hach</topic>
+                        <topic>Werkstattgespräche</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16784</identifier>
+                    <identifier type="sys">HT020635410</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1678</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1678">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1678/1/Werkstattgespraeche_2019_Hach.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1678"
+            DMDID="DMD_siegen_opus_1678">
+            <mets:fptr FILEID="FILE0_siegen_opus_1678"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

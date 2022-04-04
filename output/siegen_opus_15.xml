@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_15">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Parameteridentifikation mit estimationstheoretischen Methoden am Beispiel der dynamischen Gemischbildung eines Ottomotors</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ziegler, Michael</displayForm>
+                        <namePart type="family">Ziegler</namePart>
+                        <namePart type="given">Michael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2002</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Der Einsatz dynamischer Modelle mit physikalischem Systemwissen zur Darstellung des Systemverhaltens setzt sich zunehmend bei der Entwicklung neuer Steuerungs- und Regelungskonzepte füur Verbrennungskraftmaschinen durch. In der Bestimmung der unbekannten Modellparameter liegt ein nicht unerheblicher Aufwand für den Entwicklungsingenieur.
+Durch eine Automatisierung der Bestimmung der unbekannten Parameter der dynamischen Modelle kann der Entwicklungsingenieur unterstützt und der Entwicklungsprozeß optimiert werden.
+Aus diesem Grund verfolgt die Arbeit das Ziel, eine geschlossene Darstellung estimationstheoretischen Verfahren für die Parameteridentifikation linearer und nichtlinearer Modelle zu liefern und deren Leistungsfähigkeit für eine automatisierte Parameteridentifikation aufzuzeigen.
+Am Beispiel der dynamischen Gemischbildung eines Ottomotors sind reine Parameterschätzverfahren und Parameter- und Zustandsschätzverfahren untersucht worden. Bei den reinen Parameterschätzverfahren werden die Verfahren Recursive Least-Square und Maximum-Likelihood sowie ein Kalman-Filter untersucht. Zur gleichzeitigen Parameter- und Zustandsschätzung sind ein Extended Kalman-Filter und ein adaptives Kalman-Filter mit überlagertem Ansatz nach Maximum-Likelihood verwendet worden.</abstract>
+                    <abstract type="content" lang="eng">The need for dynamic models with physical system knowledge is steadily increasing with the development of new control concepts of combustion engines. The identification of the unknown parameters results in a not insignificant additional workload for the development engineer. Therefore, the automation of the identification supports the development engineer and optimizes the development process.
+The goal of this thesis is to provide a complete presentation of estimation methods for the parameter identification of linear and nonlinear models and to show the power of an automated parameter identification procedure.
+Pure parameter estimation methods and combined parameter and state estimation methods are examined with the example of the dynamic air and fuel ratio of a gasoline combustion engine. The parameter estimation methods tested are the Recursive Least Square, the Maximum Likelihood and the Kalman Filter. The Extended Kalman Filter and an adapted Kalman Filter with an additional Maximum Likelihood approach are used for the simultaneous parameter and state estimation methods.</abstract>
+                    <subject>
+                        <topic>Otto engine</topic>
+                        <topic>dynamic carburetion</topic>
+                        <topic>parameter identification</topic>
+                        <topic>Kalman filters</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-151</identifier>
+                    <identifier type="sys">HT013655837</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_15</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2002-10-27</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_15">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/15/1/ziegler.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_15"
+            DMDID="DMD_siegen_opus_15">
+            <mets:fptr FILEID="FILE0_siegen_opus_15"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

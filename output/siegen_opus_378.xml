@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_378">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Hydrological drought analysis- occurrence, severity, risks : the case of Wabi Shebele River Basin, Ethiopia</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Awass, Adane Abebe</displayForm>
+                        <namePart type="family">Awass</namePart>
+                        <namePart type="given">Adane Abebe</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2009</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">This study analyses hydrological drought with due emphasis to ungauged catchments. Identification of hydrological drought and methods of unveiling its intrinsic multi-variate characteristics are investigated. The severity of drought has been examined using a multitude of methodologies. Quite often, absence of recorded long time streamflow data hinders a reliable drought analysis and understanding of the phenomenon in the past. Signatures of water stress are imprinted on tree rings. In this study streamflow reconstruction is achieved by coalescing proxy data from riparian tree rings and climatic indices. The generated data are used for extracting the multivariate features of this extreme hydrological event. The case study is demonstrated in Wabi Shebele river basin in Ethiopia. The methods proposed here are applicable to other similar river basins.
+
+Extracting hydrological drought entailed defining a possible threshold level. Threshold levels of low exceedance probability are found to be appropriate unlike the commonly used higher exceedance probabilities in temperate climate. It was corroborated that the frequency of some notable recent droughts as revealed with data generated from proxy records well matches that of instrumental data. Stochastic simulation of hydrological drought is done using SARIMA models from time series of instrumental monthly streamflow records in the study area. The nonlinear dependency between severity and duration of hydrological drought is studied using copula models. Different copula families and parameter estimation techniques are evaluated. Joint and conditional probabilities of severity and duration of drought in the area is specified from the derived relationship to provide empirical insight on the nature of the extreme events. It is demonstrated that droughts have distinct spatial patterns regarding temporal evolution and variability in the study area in which the geographic and climatic characteristics have a high degree of diversity. The relative strengths in association between the climatic, morphometric and geologic features of the catchment to the base flow estimates are weighted and a plausible relationship is produced. However, in view of the tremendous spatio-temporal heterogeneity of climatic and landscape properties extrapolation of response information or knowledge from gauged to ungauged basins remains fraught with considerable difficulties and uncertainties.  Catchment characteristics can be related to low flows thus are used to delineate hydrologically homogeneous pools. Severity-area-frequency analysis of drought in the area using nonparametric kernels shows high variability of drought events within the pools formed. Associated relative risks of drought are also scrutinized using multicriteria analysis. No single variable is sufficient to portray the complexity of the vulnerability of an area to drought.</abstract>
+                    <subject>
+                        <topic>Äthiopien</topic>
+                        <topic>Hydrological drought</topic>
+                        <topic>Dendrohydrology</topic>
+                        <topic>Stochastic</topic>
+                        <topic>Copula</topic>
+                        <topic>Risks</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Forschungsinstitut Wasser und Umwelt"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-3781</identifier>
+                    <identifier type="sys">HT015884951</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_378</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2009-01-15</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_378">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/378/1/awass.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_378"
+            DMDID="DMD_siegen_opus_378">
+            <mets:fptr FILEID="FILE0_siegen_opus_378"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

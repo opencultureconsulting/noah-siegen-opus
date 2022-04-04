@@ -1,0 +1,64 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>140</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Aufbau einer Triggerelektronik zur Messung der CP-Verletzung in B-Zerfällen bei HERA-B</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Dirk</pc:foreName>
+            <pc:surName>Stieler</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">HERA-B</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">zentraler Spurdetektor</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">inneres Spurkammersystem</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">530</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Bei dem Experiment HERA-B am DESY, dem Deutschen Elektronen Synchrotron&#13;
+in Hamburg, soll unter anderem die CP -Verletzung beim Zerfall des neutralen B 0 -Mesons untersucht werden. Der dabei untersuchte Zerfallskanal wird von einem etwa 10 11 mal größeren Untergrund überdeckt, so daß ein effektives, mehrstufiges Triggersystem zur Selektion der relevanten Ereignisse notwendig ist. Das Innere Spurkammersystem ist ein Subdetektor, der zur ersten dieser Triggerstufen einen Beitrag leistet. Diese Arbeit beschreibt die Komponenten, die die Datenübertragung vom Inneren Spurkammersystem zur ersten Triggerstufe realisieren. &#13;
+Aufgrund zahlreicher, unvereinbarer Anforderungen an diese Übertragungsstrecke wurde ein zweistufiges System entwickelt. Die erste Stufe unmittelbar am Detektor zeichnet sich durch Strahlungshärte und geringen Platzbedarf aus, die zweite Stufe übernimmt komplexere Datenformatierungen und überträgt die Daten schließlich über optische 1 GHz Datenleitungen. &#13;
+Die Steuerung- und Überwachung dieser Elektronik wird von einem konventionellen Personal Computer, auf dem das Betriebsystem Linux installiert ist, übernommen. Ein auf dem JTAG-Standard aufbauendes Datenprotokoll ermöglicht dabei komplexe Konfigurations- und Ausleseaufgaben. &#13;
+Schließlich wird mit Hilfe von Monte-Carlo-Simulationen der Beitrag des Inneren&#13;
+Spurkammersystems zur ersten Triggerstufe sowie der Einfluß verschiedener&#13;
+Detektorkonfigurationen auf die Triggereffizienz untersucht.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The HERA-B - experiment at the german electron synchrotron DESY in Hamburg is primary built to investigate the CP -violation in the decay of B 0 -mesons. The investigated decay channel is here covered by an about 10 11 times larger background, so that an effective, multi-level trigger system is necessary for the selection of the relevant events. Among others the Inner Tracker subdetector makes a contribution to the first of these trigger levels. Here the components which implement the data communication of this Inner-Tracker system to the First-Level-Trigger are described. &#13;
+Due to numerous, incompatible requests to the data transmission facilities a&#13;
+two-stage system was developed. The first level is located directly at the detector and is characterised by its radiation hardness and small space requirement. The second level performes the more complex data formatting and finally transmits the output data using 1 GHz optical data lines. &#13;
+Controlling and monitoring of the electronics is done by a conventional personnel computer, which runs under control of the Linux operating system. A data protocol based on the JTAG standard facilitates complex configuration and readout functions. &#13;
+Finally the contribution of the Inner-Tracker system to the First-Level-Trigger&#13;
+as well as the influence of different detector configurations on the trigger efficiency are examined by monte carlo simulations.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2001-11-26</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2001</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-1407</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 7, Physik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>3</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="stieler.pdf" ddb:fileSize="1298798"/>
+   <ddb:fileProperties ddb:fileName="abstract.pdf" ddb:fileSize="15091"/>
+   <ddb:fileProperties ddb:fileName="abst_ger.pdf" ddb:fileSize="15115"/>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/140</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

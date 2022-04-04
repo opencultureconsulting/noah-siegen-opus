@@ -1,0 +1,96 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_124">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Literatur auf dem Rechner</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kamphusmann, Thomas</displayForm>
+                        <namePart type="family">Kamphusmann</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2000</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Im Zentrum dieser literaturwissenschaftlichen Studie stehen computerbasierte
+Literatur und algorithmisch generierte Texte. Ausgangspunkt ist das offensichtliche
+Ungenügen literatur– aber auch medienwissenschaftlicher Kategorien für
+die Klassifikation und Analyse dieses Gegenstandsbereichs.
+Die leitende These ist, daß die einschlägigen Methoden und Theorien wesentlich
+aber weitgehend unreflektiert auf eine bestimmte Medientechnik rekurrieren:
+das gebundene Buch. Dementsprechend setzt diese Arbeit die informatischen
+Grundbegriffe des Speicherns, Übertragens und Berechnens als
+fundamentale Kategorien für die Analyse computerbasierter Texte und Literatur
+zugrunde.
+Im Kapitel „Funktionen“ werden diese Begriffe technisch expliziert und zu
+den Funktionen des traditionellen, um das Buch zentrierten Literatursystems
+in Beziehung gesetzt. Das Kapitel „Formen“ überprüft die Mächtigkeit dieser
+Dreiteilung für eine formale Kategorisierung einer Reihe ausgewählter Beispiele.
+Vorgestellt werden nicht nur aktuelle Hypertexte, sondern auch Literatur–
+CDs und textgenerierende Programme. Das „Theorien“ sichtet beispielhaft
+traditionelle Literaturtheorien (Hermeneutik, Strukturalismus und Rezeptionsästhetik)
+sowohl was ihre spezifischen Defizite mit den im zweiten Kapitel beschriebenen
+Arbeiten angeht wie auch hinsichtlich ihrer spezifischen Affinitäten
+zu den informatischen Grundkategorien. Ein diskursanalytisch geprägter
+vermittelnder Ausblick beschließt die Arbeit.</abstract>
+                    <abstract type="content" lang="eng">This study centers around computer–based literature and texts that are generated
+by algorithmic means. It originates from the obvious deficiencies of the
+categories used by literary and media scientists to classify and analyze the
+object in question.
+The leading thesis is that current methods and theories substantially rely
+on but scarcly reflect a certain media–technology: the book. According to
+this the study starts with the fundamental terms of computer science: storage,
+transmission and computation as the basic categories for analysing computer
+based texts and literature.
+The chapter &quot;‘Funktionen&quot;’ explains these terms technically and correlates
+them with functions within the traditional “book–based” literary system. The
+chapter &quot;‘Formen&quot;’ checks their scope concerning formal categorisation of selected
+examples. Presented are not only current hypertexts but also literary
+CD–ROMs and text generating programs. The chapter &quot;‘Theorien&quot;’ looks on
+well established literary theories and describes specific deficiencies as well as
+affinities to the basic terms of computer science.</abstract>
+                    <subject>
+                        <topic>Literaturtheorie</topic>
+                        <topic>interaktive Literatur</topic>
+                        <topic>computerbasierte Literatur</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 3, Sprach-, Literatur- und Medienwissenschaften"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1245</identifier>
+                    <identifier type="sys">HT012737108</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_124</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2000-02-08</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_124">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/124/1/kamphusmann.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_124"
+            DMDID="DMD_siegen_opus_124">
+            <mets:fptr FILEID="FILE0_siegen_opus_124"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

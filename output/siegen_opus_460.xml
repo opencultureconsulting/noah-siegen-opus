@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_460">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Extremal discriminant analysis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Manjunath, Bangalore G.</displayForm>
+                        <namePart type="family">Manjunath</namePart>
+                        <namePart type="given">Bangalore G.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Das Hauptziel der vorliegenden Dissertation ist die Einführung von Extremwertmodellen in der Diskriminanzanalyse. Die klassische Diskriminanzanalyse konzentriert sich auf Normalverteilungs und nichtparametrische Modelle, bei denen im zweiten Fall die unbekannten Dichten durch Kerndichten ersetzt werden, die auf der Lernstichprobe basieren. Im Folgenden nimmt man an, dass es genügt die Klassifizierung auf Basis von Überschreitungen über einer Schranke vorzunehmen. Diese Überschreitungen können als Beobachtungen im bedingten Rahmen interpretiert werden. Daher ist lediglich die statistische Modellierung von abgeschnitten Verteilungen erforderlich. In diesem Zusammenhang ist eine nichtparametrische Modellierung nicht adäquat, da die Methode bezüglich der Kerndichte im Bereich der oberen Flanke nicht exakt ist. Dennoch kann eine abgeschnittene Verteilung wie die Normalverteilung verwendet werden. Es ist das primäre Ziel, abgeschnittene Normalverteilungen durch geeignete verallgemeinerte Pareto-Verteilungen zu ersetzen und Eigenschaften und die Beziehung der Diskriminanzfunktionen in beiden Modellen zu untersuchen. Anders als beim klassischen Vorgehen in der Diskriminanzanalyse wird auch die Konvergenz der klassischen Diskriminanzfunktionen untersucht.</abstract>
+                    <abstract type="content" lang="eng">The main goal of this dissertation is to introduce an extreme value model to discriminant analysis.  A  classical discriminant analysis focuses on Gaussian and nonparametric models where in the second case, the unknown densities are replaced by kernel densities based on the training sample. In the present text we assume that it suffices to base the classification on exceedances above higher thresholds, which can be interpreted as observations in a conditional framework. Therefore, the statistical modeling of truncated distributions is  merely required. In this context, a nonparametric modeling is not adequate because the kernel method is inaccurate in the upper tail region. Yet one may deal with truncated parametric distributions like the Gaussian ones. The primary aim is to replace truncated Gaussian distributions by appropriate generalized Pareto distributions and to explore properties and the relationship of discriminant functions in both models.  Different to the classical work on discriminant analysis, we are also interested in the convergence of the classical discriminant function.</abstract>
+                    <subject>
+                        <topic>Diskriminanzanalyse</topic>
+                        <topic>Diskriminanzanalyse</topic>
+                        <topic>Extremwertmodell</topic>
+                        <topic>Discriminant analysis</topic>
+                        <topic>Gaussian model</topic>
+                        <topic>Truncation</topic>
+                        <topic>Generalized Pareto distributions</topic>
+                        <topic>HÃ¼sler-Reiss triangular arrays</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Statistik, Risikoanalyse &amp; Computing"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4609</identifier>
+                    <identifier type="sys">HT016597696</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_460</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2010-10-12</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_460">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/460/1/manjunath.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_460"
+            DMDID="DMD_siegen_opus_460">
+            <mets:fptr FILEID="FILE0_siegen_opus_460"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

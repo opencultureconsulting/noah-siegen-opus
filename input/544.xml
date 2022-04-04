@@ -1,0 +1,67 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>544</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Sparse regularization of a joint inversion of gravitational data and normal mode anomalies</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Kombinierte Inversion von Gravitationsdaten und Normal-Mode-Anomalien mittels Sparse Regularization</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Doreen</pc:foreName>
+            <pc:surName>Fischer</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Inverses Problem</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Regularisierung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">inverse problem</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">regularization</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">gravimetry</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">gravity anomaly</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">geodesy</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">510</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">To recover the density of the Earth we invert Newton's gravitational potential. It is a well-known fact that this problem is ill-posed. Thus, we need to develop a regularization method to solve it appropriately.&#13;
+We apply the idea of a Matching Pursuit (see Mallat and Zhang 1993) to recover a solution stepwise. At every step, the next expansion function and the corresponding weight are selected to best match the data structure.&#13;
+One big advantage of this method is that all kinds of different functions may be taken into account to improve the solution stepwise and, thus, the sparsity of the solution may be controlled directly. Moreover, this new approach generates models with a resolution that is adapted to the data density as well as the detail density of the solution.&#13;
+In the numerical part of this work, we reconstruct the density distribution of the Earth.&#13;
+For the area of South America, we perform an extensive case study to investigate the performance and behavior of the new algorithm. Furthermore, we research the mass transport in the area of the Amazon where the proposed method shows great potential for further ecological studies, i.e. to reconstruct the mass loss of Greenland or Antarctica.&#13;
+However, from gravitational data alone it is only possible to recover the harmonic part of the density. To get information about the anharmonic part as well, we need to be able to include other data types, e.g. seismic data in the form of normal mode anomalies. In this work, we will perform such an inversion and present a new model of the density distribution of the whole Earth.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Zur Bestimmung der Dichte der Erde invertieren wir Newtons Gravitationspotential. Da dieses Problem bekanntlich schlecht gestellt ist, entwickeln wir ein geeignetes Regularisierungsverfahren um es zu lösen.&#13;
+Wir wenden die Idee eines Matching Pursuits (siehe Mallat und Zhang 1993) an. Das heißt, wir bestimmen, der Datenstruktur bestmöglich entsprechend, die Entwicklungsfunktion und den zugehörigen Koeffizienten schrittweise. Vorteilhaft ist, dass die unterschiedlichsten Funktionen zur Entwicklung der Lösung beitragen können. Des weiteren erhalten wir Modelle, deren Auflösung an die Datendichte und die Detailstruktur der exakten Lösung angepasst ist. &#13;
+Wir wenden die Methode auf die Rekonstruktion der Dichteverteilung der Erde (mit Erdinnerem) an.&#13;
+Für das Gebiet um Südamerika führen wir eine Fallstudie durch, in der wir die Güte und das Verhalten der Methode ausführlich studieren. Des weiteren untersuchen wir den Massentransport im Amazonasgebiet. Die Ergebnisse lassen erwarten, dass die Methode auch für andere ökologisch relevante Problemstellungen, wie die Untersuchung des Massenverlustes in Grönland und der Antarktis, geeignet ist. &#13;
+Allerdings kann man aus Gravitationsdaten nur den harmonischen Anteil der Dichte rekonstruieren. Das Einbeziehen von seismischen Daten, wie Normal Mode Anomalies, erlaubt es, auch Informationen über den anharmonischen Anteil zu erhalten. In der vorliegenden Arbeit wird das Ergebnis einer solchen Inversion als neues Modell für die gesamte Erde vorgestellt.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2011-07-20</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2011</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-5448</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV - Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="fischer_doreen.pdf" ddb:fileSize="9191349"/>
+   <ddb:checksum ddb:type="MD5">46c811e274f6f74dd9a2b5cf354160a6</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/544/1/fischer_doreen.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/544</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

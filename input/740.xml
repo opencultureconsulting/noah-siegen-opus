@@ -1,0 +1,61 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>740</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Novel approaches for improved performance of inertial sensors and integrated navigation systems</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Ezzaldeen</pc:foreName>
+            <pc:surName>Edwan</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">GPS</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Navigation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Navigation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Kalman filter</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Gyroscope</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">GF-IMU</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">GPS/INS</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">621</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Navigation is the science and art that answers the questions of knowing where you are at the current moment and where you will be in the next moment. Modern navigation systems are based mainly on satellite and inertial sensors. Inertial sensor systems are becoming very popular in navigation systems because they are self contained sensors. The goal of this research is to develop novel approaches for improving the performance of inertial sensor systems and their integration algorithms with external sensors such as global positioning system (GPS) and magnetometers. The standalone inertial navigation system (INS) is dependent on the inertial measurement unit (IMU). An IMU is traditionally composed of three orthogonal gyroscopes and three orthogonal accelerometers.&#13;
+In the inertial sensors side, we focus on the use of distributed accelerometers for inferring the angular motion from the angular information contained in their measurements. There exists a variety of reasons for conducting this research. In short, high quality gyros have high cost, high power consumption, large weight and large volume. On the other hand, accelerometers are less costly, easier to manufacture, have less power consumption and less weight than gyros. We developed different fusion approaches for benefiting from the angular information vector (AIV) resulting from the distributed accelerometers to form a gyro-free IMU (GF-IMU) or to aid the GF-IMU by conventional gyros. By improving the performance we mean reducing noise and bias level in the estimated inertial quantity.&#13;
+In the integrated navigation side, we present different approaches to implement the GPS/INS integration filters and the attitude and heading reference system (AHRS) algorithms. We use direction cosine matrix (DCM) based algorithms which implies estimating the elements of the DCM directly within the filter. The basis for this method is the ground alignment method for attitude and heading determination. The attitude update of the DCM is performed using angle rotation vector. The filter is able to detect the gyro bias vector and follow its variation and hence it fits low-cost sensors as well as high grade sensor. We validated the efficiency of the algorithms using proper simulations and real-time implementations.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Navigation ist eine Wissenschaft und Kunst, die auf die Fragen, wo Sie zum gegenwärtigen Zeitpunkt sind und wo Sie im nächsten Moment sein werden, antwortet. Moderne Navigationssysteme basieren hauptsächlich auf Satellitensystemen und Inertialsensoren. Inertialsensoren sind in Navigationssystemen beliebt, da sie in sich geschlossene Sensoren sind. Das Ziel dieser Arbeit ist die Entwicklung neuartiger Konzepte für die Verbesserung der Leistung der Inertialsensoren und zur Sensordatenfusion mit externen Sensoren wie zum Beispiel das Globale Positionsbestimmungssystem (GPS) und Magnetometer. Ein Inertialnavigationssystem (INS) beinhaltet ein Inertiales Meßsystem (IMU). Ein IMU besteht traditionell aus drei orthogonalen Gyroskopen und drei orthogonalen Beschleunigungssensoren. &#13;
+Bei den Inertialsensoren konzentrieren wir uns auf die Verwendung von verteilten Beschleunigungssensoren zum Ableiten der Rotationsbewegung aus der Winkelinformationen, die in den Messungen enthalten ist. Es gibt eine Reihe von Gründen für die Durchführung dieser Forschung. Kurz gesagt, qualitativ hochwertige Gyroskope sind teuer und haben einen hohen Stromverbrauch sowie großes Gewicht und Volumen. Auf der anderen Seite, sind Beschleunigungssensoren weniger kostspielig, leichter herzustellen, und haben einen geringeren Stromverbrauch sowie ein geringeres Gewicht als Gyroskope. Wir entwickelten verschiedene Fusionsansätze um vom Winkelinformation Vektor (AIV) zu profitieren. Diese Information wird von den verteilten Beschleunigungssensoren geliefert und zu einer Gyroskop-freien IMU (GF-IMU) geführt, die gegebenenfalls mit konventionellen Gyroskopen gestützt werden kann. &#13;
+Bei der integrierten Navigation präsentieren wir verschiedene Ansätze, um die GPS / INS-Integration-Filter und die "Attitude and Heading Reference System (AHRS)" Algorithmen zu implementieren. Wir verwenden die Richtungskosinusmatrix (DCM) in den Algorithmen. Die Elemente der DCM werden innerhalb des Filters bestimmt. Die Aktualisierung der DCM erfolgt mittels Winkel-Rotationsvektor. Das Filter ist in der Lage, den Gyroskope-offset zu erkennen und seine Abweichung zu verfolgen und somit passt es zu kostengünstigen als auch zu hochwertigen Sensoren. Die Leistungsfähigkeit der Algorithmen wurde unter Verwendung geeigneter Simulationen und Echtzeit- Implementierungen demonstriert.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2013-02-03</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2013</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-7403</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>NRW-Zentrum für Sensorsysteme (ZESS)</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="edwan.pdf" ddb:fileSize="4102575"/>
+   <ddb:checksum ddb:type="MD5">f01d66a27bc36bacaa322ed5fc9816e6</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/740/1/edwan.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/740</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

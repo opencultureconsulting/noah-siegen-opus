@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1997">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Windkraft in Nordrhein-Westfalen: Einstellungen zu Akzeptanz, Beteiligung und Konfliktlösung</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Wind power in North Rhine-Westphalia: public&apos;s attitudes and preferences toward acceptance, participation and conflict resolution : results of a representative survey</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Ergebnisse einer repräsentativen Umfrage</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Radtke, Jörg</displayForm>
+                        <namePart type="family">Radtke</namePart>
+                        <namePart type="given">Jörg</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Saßmannshausen, Sheree May</displayForm>
+                        <namePart type="family">Saßmannshausen</namePart>
+                        <namePart type="given">Sheree May</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bohn, Nino</displayForm>
+                        <namePart type="family">Bohn</namePart>
+                        <namePart type="given">Nino</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">Other</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In diesem Working Report werden Ergebnisse einer Umfrage in Nordrhein-Westfalen präsentiert, die Einstellungen der Bevölkerung zur Windenergie widerspiegeln. Die Abfragen zeigen, dass Klimaschutz-Maßnahmen, die Energiewende und der Ausbau der Windkraft große Zustimmung bei der Bevölkerung finden. Bei der Windenergie wird ein Nutzen für die lokale Gemeinschaft präferiert, bestenfalls durch direkten Bezug günstigen Stroms. Im Falle der Planung neuer Windparks werden detaillierte Informationen gewünscht, wobei wissenschaftlichen Informationsquellen am stärksten vertraut wird. Klassische Informationsveranstaltungen werden überwiegend bevorzugt, sehr viel weniger Online-Formate. Die Hälfte der Befragten würde eine Visualisierungs-App für das Smartphone benutzen. Finanzielle Beteiligung wird zwar stark von monetären Anreizen oder einem vergünstigen Stromtarif abhängig gemacht, wird aber auch durch Klimaschutz-Einstellungen beeinflusst. Planungskonflikte sollten durch Bürgerentscheide, Experten oder Bürgerversammlungen gelöst werden. Damit unterstreichen die Ergebnisse die Bedeutung von qualitätsvoller Informierung, Beteiligung und Neutralität für die Akzeptanz von Windenergie.</abstract>
+                    <abstract type="content" lang="eng">This Working Report presents results of a survey in North Rhine-Westphalia reflecting attitudes of the population towards wind energy. The survey shows that climate protection measures, the Energiewende and the expansion of wind power meet with great approval among the population. In the case of wind energy, a benefit for the local community is preferred, at best through direct purchase of cheap electricity. In the case of planning new wind farms, detailed information is desired, with scientific information sources being trusted most. Typical information events are preferred, much less online formats. Half of the respondents would use a visualization app for smartphones. Financial participation, while strongly dependent on monetary incentives or a discounted electricity tariff, is also influenced by climate protection attitudes. Planning conflicts should be resolved through citizens&apos; decisions, experts or town hall meetings. The results underline the importance of high-quality information, participation and neutrality for the acceptance of wind energy.</abstract>
+                    <subject>
+                        <topic>Windenergie</topic>
+                        <topic>Öffentlichkeitsbeteiligung</topic>
+                        <topic>Konflikte</topic>
+                        <topic>Online-Beteiligung</topic>
+                        <topic>Wind energy</topic>
+                        <topic>Renewable energy</topic>
+                        <topic>Citizens&apos; participation</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19979</identifier>
+                    <identifier type="sys">HT021148355</identifier>
+                    <accessCondition type="use and reproduction">CC BY-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1997</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBdOther</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1997">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1997/5/Working_Report_Windkraft_in_Nordrhein-Westfalen.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1997"
+            DMDID="DMD_siegen_opus_1997">
+            <mets:fptr FILEID="FILE0_siegen_opus_1997"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

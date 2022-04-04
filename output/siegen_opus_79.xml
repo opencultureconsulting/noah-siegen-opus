@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_79">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Projektilfragmentation von 36 Ar und 40 Ar Schwerionen bei 400 MeV/Nukleon</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Iancu, Gheorghe</displayForm>
+                        <namePart type="family">Iancu</namePart>
+                        <namePart type="given">Gheorghe</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2004</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Projektilfragmentation von 36 Ar und 40 Ar Schwerionen bei 400 MeV/Nukleon
+
+Das Ziel dieser Arbeit ist die Untersuchung der Fragmentationsmechanismen für
+36 Ar- und 40 Ar-Projektilkerne im Energiebereich bei 400 MeV/Nukleon in Kollisionen mit folgenden
+Targetkernen: H, C, Al, Cu, Ag und Pb. wobei die Untersuchung der partiellen und
+totalen ladungsändernden Wirkungsquerschnitte in Abhängigkeit von der Fragmentladungszahl und der Energie sowie die Überprüfung der in Siegen entwickelten Parametrisierung WQHI im Vordergrund stand. Die relativen Abweichungen der Vorhersagen dieser Parametrisierung zu den experimentellen Daten haben eine Standardabweichung von 16%. Das ist eine deutliche Verbesserung im Vergleich zur Parametrisierung NUCNUC von Silberberg und Tsao, für welche die Varianz 27% beträgt. 
+Messungen von Fragmentationswirkungsquerschnitten wurden mit dieser experimentellen Technik in Siegen bereits für unterschiedliche Projektil-Ionen und bei unterschiedlicher Energie durchgeführt. In diesem Experiment erfolgten erstmals Messungen für zwei unterschiedliche Isotope als Beamteilchen. 
+Die gemessenen partiellen Wirkungsquerschnitte zeigen für alle Targets für Fragmente mit gerader Ladungszahl einen relativ zu den benachbarten ungeraden Ladungen erhöhten Wert (Gerade-Ungerade-Effekt). Dieses Verhalten ist für 36 Ar-Projektil ausgeprägter. Die experimentellen Daten dieser Arbeit bestätigen damit die Annahme von Kox et al., dass der Gerade-Ungerade-Effekt eine Abhängigkeit vom Projektilisospin sowie auch von der Struktur des Fragmentes aufweist. Ein Vergleich zwischen den Daten der 36 Ar- und 40 Ar-Projektile zeigt eine deutliche Vergrößerung der partiellen Wirkungsquerschnittswerte für die geraden Fragmentladungen und 36 Ar-Projektile.</abstract>
+                    <subject>
+                        <topic>Kosmische Strahlung</topic>
+                        <topic>Schwerionenstrahlung</topic>
+                        <topic>Projektilfragmentation</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 7, Physik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-796</identifier>
+                    <identifier type="sys">HT014219503</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_79</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2004-08-25</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_79">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/79/1/iancu.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_79"
+            DMDID="DMD_siegen_opus_79">
+            <mets:fptr FILEID="FILE0_siegen_opus_79"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

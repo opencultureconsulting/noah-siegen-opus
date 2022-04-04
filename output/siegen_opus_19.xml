@@ -1,0 +1,80 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_19">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Wandel und Annäherung : Hintergründe und Entwicklungen im deutsch-deutschen Einigungsprozeß am Beispiel des Berufsfeldes Leitung in Kindertageseinrichtungen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lill, Gerlinde</displayForm>
+                        <namePart type="family">Lill</namePart>
+                        <namePart type="given">Gerlinde</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sauerborn-Hell, Jutta</displayForm>
+                        <namePart type="family">Sauerborn-Hell</namePart>
+                        <namePart type="given">Jutta</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">1997</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Gegenstand der Dissertation sind die Veränderungsprozesse in Deutschland nach 1989 und deren Auswirkungen am Beispiel des Berufsfeldes Kindertagesstätten.
+Der Fokus richtet sich auf die Leiterinnen der Einrichtungen, deren berufliche Bedingungen vor und nach der Wende sowie das jeweilige Berufsbild und Berufsrollenverständnis. Erkenntnis leitendes Interesse sind die Unterschiede und Gemeinsamkeiten zwischen Ost und West sowie die Wege der Annäherung zwischen beiden nach 1989.
+Kernstück der Arbeit bilden die Ergebnisse einer empirischen Untersuchung in Ost- und Westberlin.
+In einer zweijährigen quantitativen und qualitativen Forschung (1991 bis 1993) wurden 381 Fragebögen und 23 Interviews ausgewertet. Im Mittelpunkt dieser Forschung stand das Leitungs- und Führungsverständnis vor dem Hintergrund vollkommen unterschiedlicher Menschenbilder, Erziehungsprinzipien und Strukturbedingungen in den beiden deutschen Staaten.
+In einer kleineren Nacherhebung 1995 wurden die weiteren Entwicklungen im Berufsfeld und im Selbstverständnis der Leiterinnen sowie deren Bewertungen der gesellschaftlichen und persönlichen Veränderungsprozesse erfragt. Dabei wurden 34 Fragebögen und 2 Gruppeninterviews mit insgesamt 17 Leiterinnen aus Ost- und Westberlin ausgewertet.
+Die Arbeit gliedert sich in folgende Teilbereiche:
+- Bedeutung öffentlicher Erziehung in der BRD und der DDR
+- Professionelle Erziehungsarbeit - ein Beruf für Frauen
+- Frauen und Führung in den beiden deutschen Staaten
+- Überblick über die Kindertagesstättenentwicklung in Ostberlin von 1990 bis 1992
+- Empirische Untersuchung 1992/93 und Interpretation der Daten
+- Entwicklungen im Bereich Kindertagesbetreuung in Berlin - Nacherhebung 1995
+- Tendenzen und Perspektiven im Annäherungsprozeß zwischen Ost und West</abstract>
+                    <subject>
+                        <topic>Deutschland / öffentliche Erziehung</topic>
+                        <topic>Wandel und Annäherung nach 1989</topic>
+                        <topic>Kinderbetreuungseinrichtungen</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 1, Sozialwissenschaften - Philosophie - Theologie - Geschichte - Geographie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-190</identifier>
+                    <identifier type="sys">HT013628491</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_19</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2002-10-20</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_19">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/19/1/lill.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_19"
+            DMDID="DMD_siegen_opus_19">
+            <mets:fptr FILEID="FILE0_siegen_opus_19"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

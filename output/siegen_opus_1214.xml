@@ -1,0 +1,127 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1214">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>IT security status of German energy providers : technical report</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Dax, Julian</displayForm>
+                        <namePart type="family">Dax</namePart>
+                        <namePart type="given">Julian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ivan, Ana</displayForm>
+                        <namePart type="family">Ivan</namePart>
+                        <namePart type="given">Ana</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ley, Benedikt</displayForm>
+                        <namePart type="family">Ley</namePart>
+                        <namePart type="given">Benedikt</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Pape, Sebastian</displayForm>
+                        <namePart type="family">Pape</namePart>
+                        <namePart type="given">Sebastian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Pipek, Volkmar</displayForm>
+                        <namePart type="family">Pipek</namePart>
+                        <namePart type="given">Volkmar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Rannenberg, Kai</displayForm>
+                        <namePart type="family">Rannenberg</namePart>
+                        <namePart type="given">Kai</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schmitz, Christopher</displayForm>
+                        <namePart type="family">Schmitz</namePart>
+                        <namePart type="given">Christopher</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sekulla, André</displayForm>
+                        <namePart type="family">Sekulla</namePart>
+                        <namePart type="given">André</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">As part of the research project “Secure information networks of small- and medium-sized
+energy providers” (SIDATE), a survey about the IT security status of German energy
+providers was conducted. The project itself is focused on the IT security of small- and
+medium-sized energy providers.
+In August 2016, 881 companies listed by the Federal Network Agency were approached.
+Between, September 1st 2016 and October 15th 2016, 61 (6.9%) of the companies replied.
+The questionnaire focuses on the implementation of the regulatory requirements and on the
+implementation of an information security management system (ISMS). Additionally,
+questions about the energy control system, the network structure, processes, organisational
+structures, and the IT department were asked. Questions were asked in German, so all
+questions and answers are translated for this report.</abstract>
+                    <subject>
+                        <topic>Trusted Computing</topic>
+                        <topic>Stromnetzbetreiber, IT-Sicherheit</topic>
+                        <topic>ISMS</topic>
+                        <topic>Information Security Management System</topic>
+                        <topic>electric utility</topic>
+                    </subject>
+                    <classification authority="ddc">621</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-12141</identifier>
+                    <identifier type="sys">HT019482445</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1214</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1214">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1214/1/IT_security_status_of_German_energy_providers.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1214"
+            DMDID="DMD_siegen_opus_1214">
+            <mets:fptr FILEID="FILE0_siegen_opus_1214"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

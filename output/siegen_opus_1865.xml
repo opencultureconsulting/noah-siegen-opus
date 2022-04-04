@@ -1,0 +1,81 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1865">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Scheduling problems in rail transshipment yards and industrial production</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Ablaufplanungsprobleme an Umschlagbahnhöfen und in der industriellen Fertigung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Li, Xiyu</displayForm>
+                        <namePart type="family">Li</namePart>
+                        <namePart type="given">Xiyu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Pesch, Erwin</displayForm>
+                        <namePart type="family">Pesch</namePart>
+                        <namePart type="given">Erwin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">This cumulative dissertation focuses on the design of optimization methods for planning problems, and consists of three papers focusing on two topics.
+In the first paper we propose a two-way bounded dynamic programming (TBDP) approach to deal with situations, when it takes a long time to evaluate the value function in the state graph of dynamic programming. TBDP provides sharp bounds early in the solution process and identifies critical subproblems, i.e., states and transition arcs, for which the value function has to be estimated. Based on the TBDP framework, we develop a heuristic and an exact algorithm for the static crane scheduling problem (SCSP). The SCSP refers to simultaneous yard partitioning into single-crane areas and job sequencing at railway container transshipment yards, where both rail-rail and rail-road transshipments are present and rail-rail moves are short. The designed exact solution algorithm solves instances of practically relevant size within acceptable time limits. The proposed heuristic finds optimal solutions in 90% of the cases. We recommend using the heuristic algorithm for planning very large transshipment yards, with more than five tracks and a large number of container moves per crane.
+The second paper considers single-crane scheduling at rail transshipment yards, in which gantry cranes move containers between trains, trucks and a storage area. The single-crane scheduling problem arises at single-crane transshipment terminals and as a subproblem of the multiple-crane scheduling problem. We consider a makespan objective function, which is equivalent to minimizing the train dwell time in the yard, and introduce time windows for container moves, for example, as a customer service promise. Our proposed decomposition algorithm with integrated dynamic branch-and-cut or dynamic programming solves practically relevant instances within short time limits.
+The last paper investigates product sequencing in multiple-piece-flow assembly lines. Modern markets demand mass customization, that is, the manufacture of customized products at low cost. Mass customization represents a major challenge for the organization of assembly lines, which were originally designed for the manufacture of homogeneous products. The multiple-piece-flow assembly line is an organizational innovation that can address this challenge. Here, several customized workpieces, each associated with a separate customer order and, hence, a separate due date, are handled simultaneously in one cycle. Consequently, the idle times decrease as do the manufacturing costs. Multiple-piece-flow assembly lines are used, for instance, in manufacturing industrial equipment. We formalize the underlying planning problem, establish a mixed-integer model, examine its relation to several classic optimization problems, and describe useful problem properties. We leverage these properties to design an effective iterative variable neighborhood heuristic (IVNH). A detailed simulation based on real-world data and the rolling-horizon planning framework confirms that the IVNH is well suited for practical use. Furthermore, extensive computational experiments on well-structured randomly generated data sets show that the IVNH identifies optimal or near-optimal solutions within short run times. It outperformed an off-the-shelf optimization software, and in certain practice settings, the IVNH was even able to substantially reduce average order delays.</abstract>
+                    <subject>
+                        <topic>Logistik</topic>
+                        <topic>Operations research</topic>
+                        <topic>Crane scheduling</topic>
+                        <topic>Transshipment yards</topic>
+                        <topic>Assembly line</topic>
+                        <topic>Sequencing</topic>
+                        <topic>Krandisposition</topic>
+                        <topic>Umschlagplätze</topic>
+                        <topic>Fließband</topic>
+                        <topic>Sequenzierung</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät III - Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-18652</identifier>
+                    <identifier type="sys">HT020905621</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1865</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2021-02-26</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1865">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1865/4/Dissertation_Xiyu_Li.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1865"
+            DMDID="DMD_siegen_opus_1865">
+            <mets:fptr FILEID="FILE0_siegen_opus_1865"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

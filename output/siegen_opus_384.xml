@@ -1,0 +1,57 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_384">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="und">
+                        <title>Didaktik der Informatik in Theorie und Praxis : 12. GI-Fachtagung &quot;Informatik und Schule - INFOS 2007&quot;, 19. - 21. September 2007 an der Universität Siegen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schubert, Sigrid</displayForm>
+                        <namePart type="family">Schubert</namePart>
+                        <namePart type="given">Sigrid</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2007</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">und</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Dieser Tagungsband enthält vier eingeladene Vorträge und 23 Beiträge, die vom Programmkomitee aus 46 eingereichten Beiträgen nach einem wissenschaftlichen Begutachtungsprozess ausgewählt wurden. Diese Beiträge beleuchten die folgenden Schwerpunkte der Tagung aus unterschiedlichen Perspektiven: Studium und Fortbildung, Informatiksysteme als Unterrichtsmittel, Forschungsansätze, Fundamentale Ideen in der Unterrichtspraxis, Anwendungsorientierter Informatikunterricht, Qualitätsentwicklung und Qualitätssicherung im Informatikunterricht. Eine Abrundung erfährt der Tagungsband durch acht zweiseitige Kurzbeiträge und die Vorträge des 7. Workshops &quot;Didaktik der Informatik aktuelle Forschungsergebnisse&quot;. Im Rahmen der Konferenz finden außerdem 26 weitere Workshops und drei thematische Fortbildungen statt.</abstract>
+                    <subject>
+                        <topic>Didaktik</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-3843</identifier>
+                    <identifier type="sys">HT015992167</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_384</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_384">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/384/1/didaktik_der_informatik_2007.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_384"
+            DMDID="DMD_siegen_opus_384">
+            <mets:fptr FILEID="FILE0_siegen_opus_384"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

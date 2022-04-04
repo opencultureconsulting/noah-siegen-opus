@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1934">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Aktuelle Kriminalromane für ein junges Lesepublikum</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mikota, Jana</displayForm>
+                        <namePart type="family">Mikota</namePart>
+                        <namePart type="given">Jana</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schmidt, Nadine Jessica</displayForm>
+                        <namePart type="family">Schmidt</namePart>
+                        <namePart type="given">Nadine Jessica</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Wie Kriminalliteratur für Erwachsene ist auch die Kriminalliteratur für Kinder und Jugendliche heterogen und der Markt erscheint schier unübersichtlich. Die Intention des vorliegenden Bandes ist es, im Sinne einer nachhaltigen Leseförderung unterschiedliche Kriminalromane für Kinder vorzustellen, die Spannung und Abenteuer mit literarästhetischer Qualität verbinden.
+Ausgewählt wurden für den Band insgesamt zehn Kriminalromane für verschiedene Jahrgangsstufen. Neben Klassikern werden aber vor allem neuere Bücher vorgestellt, die es zu entdecken gilt und die sich für den Einsatz im Literaturunterricht besonders eignen.</abstract>
+                    <subject>
+                        <topic>Kriminalroman</topic>
+                        <topic>Kriminalliteratur</topic>
+                        <topic>Kinder</topic>
+                        <topic>Jugendliche</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19343</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1934</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1934">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1934/3/Nachhaltigkeit_1_Kriminalromane.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1934"
+            DMDID="DMD_siegen_opus_1934">
+            <mets:fptr FILEID="FILE0_siegen_opus_1934"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

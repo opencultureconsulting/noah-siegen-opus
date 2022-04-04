@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_580">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Hochtemperaturoxidationsuntersuchungen an Co-Re-Modelllegierungen zur Entwicklung einer technischen Legierung der ersten Generation</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gorr, Bronislava</displayForm>
+                        <namePart type="family">Gorr</namePart>
+                        <namePart type="given">Bronislava</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In dieser Arbeit wurde das Hochtemperaturoxidationsverhalten der für einen Einsatz jenseits von 1200°C neu entwickelten Co-Re-Basislegierungen experimentell detailliert charakterisiert und modellmäßig beschrieben. Parallel dazu wurden die zu erwartenden Phasen anhand thermodynamischer Gleichgewichtsberechnungen zur experimentellen Verifizierung theoretisch abgeschätzt. Die gewonnenen Erkenntnisse wurden für die Verbesserung der Oxidationsresistenz von Co-Re-Basislegierungen sowohl in sauerstoffarmer Atmosphäre als auch bei normalen Sauerstoffaktivitäten verwendet. Um den Einfluss von einzelnen Legierungselementen und deren Konzentration auf das Hochtemperaturoxidationsverhalten von Co-Re-Basislegierungen aufzuklären, wurden folgende Modelllegierungen ausgewählt: (i) ein binäres Co-Re-System, (ii) zwei ternäre Co-Re-Cr-Systeme, (iii) zwei quaternäre Co-Re-Cr-C-Systeme und (iv) vier quaternäre Co-Re-Cr-Si-Systeme. Die Legierungen der Systeme Co-Re, Co-Re-Cr und Co-Re-Cr-C zeigten eingeschränkte Oxidationsbeständigkeit in Luft bei hohen Temperaturen, ausgelöst durch massiven Masseverlust infolge der Abdampfung von Re-Oxiden. Während auf  der Oberfläche der Co-17Re-Legierung eine poröse, nicht schützende CoO-Schicht vorliegt, bildet sich unter einer Co-Cr-O und einer CoO-Schicht auf der Oberfläche der ternären Co-Re-Cr- und quaternären Co-Re-Cr-C-Legierungen eine diskontinuierliche Chromoxidschicht. Zwar war die Chromoxidschicht bei einem höheren Chromgehalt von 30 At.% in ternären und quaternären Legierungen kontinuierlich ausgeprägter, aber nicht vollständig dicht und bat somit keinen Schutz gegen Hochtemperaturoxidation. Die Zugabe von Kohlenstoff zu den ternären Co-Re-Cr-Legierungen zeigte keinen signifikanten Einfluss auf das Oxidationsverhalten dieser Legierungssysteme.
+
+Die entscheidende Verbesserung bei der Steigerung des Oxidationswiderstandes wurde durch legierungstechnische Maßnahme in Form einer Zugabe von Silizium erzielt. Zwar wurde ein starker, durch Si ausgelöster, positiver Effekt bei der Legierung Co-17Re-23Cr eindeutig nachgewiesen, dieser verlor aber mit zunehmender Oxidationszeit an Einfluss. Eine Steigerung der Cr-Konzentration von 23 At.% auf 30 At.% verstärkte die positive Wirkung von 2 At.% Silizium. So zeigte die Legierung Co-17Re-30Cr-2Si sowohl in Luft als auch in sauerstoffarmer Atmosphäre eine ausgezeichnete Oxidationsbeständigkeit, welche sie der Ausbildung einer dichten Chromoxidschicht und Siliziumoxidausscheidungen verdankt.</abstract>
+                    <subject>
+                        <topic>Hochtemperaturwerkstoff</topic>
+                        <topic>high temperature corrosion</topic>
+                        <topic>refractory</topic>
+                        <topic>cobalt-rhenium base alloy</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Werkstofftechnik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5809</identifier>
+                    <identifier type="sys">HT017093687</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_580</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2011-11-09</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_580">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/580/1/gorr.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_580"
+            DMDID="DMD_siegen_opus_580">
+            <mets:fptr FILEID="FILE0_siegen_opus_580"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,91 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1911">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Performance optimization of a Kirsten–Boeing turbine by a metamodel based on neural networks coupled with CFD</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Küppers, Jan-Philipp</displayForm>
+                        <namePart type="family">Küppers</namePart>
+                        <namePart type="given">Jan-Philipp</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Metzger, Jens</displayForm>
+                        <namePart type="family">Metzger</namePart>
+                        <namePart type="given">Jens</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Jensen, Jürgen</displayForm>
+                        <namePart type="family">Jensen</namePart>
+                        <namePart type="given">Jürgen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Reinicke, Prof. Dr.-Ing. Tamara</displayForm>
+                        <namePart type="family">Reinicke</namePart>
+                        <namePart type="given">Prof. Dr.-Ing. Tamara</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The supply of energy is sustainable only if it is predominantly based on renewable or regenerative energies. For this reason, the use of micro-hydropower plants on rivers and streams is considered recently. This is a particular challenge for the preservation of ecologically permeable streams, so that no dams or similar structures can be considered. While the axial turbine design has prevailed in wind power, there is still no consensus for the generation of energy in free water flow conditions. In this work, an existing prototype of an unusual vertical axis Kirsten–Boeing turbine was investigated. A multivariate optimization process was created, in which all important machine parameters were checked and improved. By using neural networks as a metamodel coupled with flow simulations in ANSYS CFX, a broadly applicable optimization strategy is presented that yielded a blade design that is 36% more efficient than its predecessor in experiments. During the process, it was shown how to set up a complex sliding mesh problem with ANSYS expressions while evaluating a free surface problem.</abstract>
+                    <subject>
+                        <topic>Wasserkraftwerk</topic>
+                        <topic>Kirsten-Boeing</topic>
+                        <topic>Turbine mit vertikaler Achse</topic>
+                        <topic>Tensorflow</topic>
+                        <topic>ANSYS CFX</topic>
+                        <topic>Metamodellierung</topic>
+                        <topic>Kirsten-Boeing</topic>
+                        <topic>Vertical axis turbine</topic>
+                        <topic>Tensorflow</topic>
+                        <topic>ANSYS CFX</topic>
+                        <topic>Metamodeling</topic>
+                        <topic>Neural nets</topic>
+                        <topic>Optimization</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19114</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1911</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1911">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1911/4/Performance_optimization.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1911"
+            DMDID="DMD_siegen_opus_1911">
+            <mets:fptr FILEID="FILE0_siegen_opus_1911"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

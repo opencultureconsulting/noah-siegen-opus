@@ -1,0 +1,57 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>592</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Identification of unknown structural loads from dynamic measurements using robust observers</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Maksim</pc:foreName>
+            <pc:surName>Klinkov</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Beobachter &lt;Kybernetik&gt;</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">load</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">estimation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">observers</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">inverse problem</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The global trends in the construction of complex structures e.g. high buildings, wind turbines or airplanes' tend to make the structures more intelligent by integrating sensing units together with evaluation algorithms which allow the check of structure integrity permanently. This process of structural integrity characterization strategy referred to as Structural Health Monitoring (SHM). Special SHM parameters like material properties and load characteristics are essential when assessment of fatigue life of a structure and its components is done. Therefore, the time history of an external load is an important quantity in the forecast of the remaining lifetime. Furthermore, the load localization problem becomes an important issue, especially in the case of impacts, since the aircraft industry started to use new composite materials more extensively where the impacts cause delaminations which are not detectable by visual inspections. In many practical applications, however, the measurement of external loads is limited or not possible due to sensor limitations or the unknown nature of the external forces. Therefore, indirect load history estimation is a subject of extensive studies in the last two decades. The estimation procedure leads to a so called inverse problem which is 'ill-posed' in the mathematical sense so that the existence, uniqueness or stability of solution is violated.&#13;
+First of all, this work provides a closer investigation to a variety of existing algorithms of force history reconstruction and location estimation which have been established by mechanical engineers. Secondly, research is carried out for possible candidate methods among the other engineering disciplines. The main focus of the thesis is concentrated on comprehensive design analysis and further development of the qualified algorithms. In particular, model based robust observers are considered as candidates for the online loads and states reconstruction. The aspects of proper model building that allow releasing the sensor placement procedure (from collocated to non-collocated), while simultaneously reducing the model complexity are introduced for the observer design. An innovative model free passive technique for automatic impact location detection is elaborated and extended by incorporation of a fast robust load estimation method. In addition, a novel approach of rank deficiency compensation is proposed for the direct time deconvolution procedure in the non-collocated case. &#13;
+Selected algorithms are grouped according to their ability to fulfill the load reconstruction requirements and tested either in simulation environment or on laboratory structures. The results are systemized in a form of strong and weak sides for every particular algorithm which might serve for the on-field application and future research in this area.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2011-11-03</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2011</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-5927</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dcterms:isPartOf xsi:type="ddb:noScheme">Schriftenreihe der Arbeitsgruppe für Technische Mechanik im Institut für Mechanik und Regelungstechnik - Mechatronik;  4</dcterms:isPartOf>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Mechanik und Regelungstechnik - Mechatronik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="klinkov.pdf" ddb:fileSize="9285970"/>
+   <ddb:checksum ddb:type="MD5">f7d0e015b4509e00cff74ca0c4ed688b</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/592/1/klinkov.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/592</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

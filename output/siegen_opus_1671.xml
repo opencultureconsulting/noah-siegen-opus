@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1671">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>comparative analysis of the UK and Germany in civil pleadings</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <nonSort>The </nonSort>
+                        <title>Die zivilprozessuale Wahrheitspflicht in England und Deutschland - eine rechtsvergleichende Untersuchung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Weidt, Christopher</displayForm>
+                        <namePart type="family">Weidt</namePart>
+                        <namePart type="given">Christopher</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Rechtsvergleichende Untersuchung zum deutschen und englischen Zivilprozessrecht bzgl. der prozessualen Wahrheitspflicht. Verglichen werden (1) die Reichweite der Wahrheitspflicht und (2) Konsequenzen bei Verstößen. In England gibt es hierfür insbesondere die Sanktion des zivilrechtlichen &quot;contempt of court&quot; während in Deutschland lediglich ein (versuchter) Prozessbetrug in Betracht kommt. Beide Sanktionen werden jedoch sehr restriktiv gehandhabt, obwohl gerade die englische Rechtslage einfach handhabbare Maßnahmen bereithält, die auch für Deutschland überdacht werden sollten.</abstract>
+                    <subject>
+                        <topic>Privatrecht</topic>
+                        <topic>Comparative analysis</topic>
+                        <topic>United Kingdom</topic>
+                        <topic>Germany</topic>
+                        <topic>Civil pleadings</topic>
+                        <topic>Vergleichende Analyse</topic>
+                        <topic>Vereinigtes Königreich</topic>
+                        <topic>Zivilrechtliche Schriftsätze</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16712</identifier>
+                    <identifier type="sys">HT020562758</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1671</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1671">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1671/3/Weidt_The_comparative_analysis_of_the_UK_and_Germany_in_civil_pleadings.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1671"
+            DMDID="DMD_siegen_opus_1671">
+            <mets:fptr FILEID="FILE0_siegen_opus_1671"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

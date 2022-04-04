@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1396">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>inverse magneto-electroencephalography problem for the spherical multiple-shell model : theoretical investigations and numerical aspects</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Leweke, Sarah</displayForm>
+                        <namePart type="family">Leweke</namePart>
+                        <namePart type="given">Sarah</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The reconstruction of the neuronal current inside the human brain from magnetic flux density (MEG) and electric potential (EEG) measurements is an important tool for understanding the functioning of the brain and for diagnosing brain diseases, such as epilepsy. One partly unanswered question, which is extensively discussed in the literature, is about the non-uniqueness of the related inverse problems. 
+We investigate this question in the context of the multiple-shell model, which assumes nested spherical geometries. We derive novel integral equations describing the inverse problems, which require less a-priori assumptions on the current than former approaches and map the entire vector-valued current onto the data instead of certain scalar functions. A novel decomposition of the current based on an orthonormal basis system is presented, which yields singular value decompositions of the integral operators with exponentially fast decreasing singular values. 
+Therewith, we complete the existing non-uniqueness considerations, which includes a characterization of the measurable radial part of the neuronal current: only the harmonic solenoidal part of the current can be measured via the MEG and EEG devices.
+For the numerical solution of these severely ill-posed problems, regularization methods are required. We use the regularized Ritz method, scalar splines, novel vector reproducing kernel based splines, and the regularized (orthogonal) functional matching pursuit (ROFMP) algorithm, which was developed by the Geomathematics Group Siegen within the last years. We improve convergence results of the RFMP and introduce novel Sobolev norms as penalty terms.
+The good and stable numerical results of the vector spline method are outperformed by the ROFMP in non-noisy and noisy synthetic test cases. Finally, we apply the ROFMP to real measurement data.</abstract>
+                    <abstract type="content" lang="ger">Die Rekonstruktion des menschlichen Hirnstroms aus Messungen der magnetischen Fluss-dichte (MEG) und des elektrischen Potentials (EEG) ist ein wichtiges Mittel, um die Arbeitsweise des Gehirns zu verstehen und um Krankheiten wie Epilepsie zu diagnostizieren. Die Frage nach der Nichteindeutigkeit des zugehörigen inversen Problems ist nicht vollständig beantwortet, obwohl sie ausgiebig diskutiert wird.
+Diese Frage wird im Rahmen des Mehrschalenmodells untersucht, welches aus konzentrisch angeordneten sphärischen Schalen besteht. Wir leiten neue Integralgleichungen für das Modell her, die weniger A-priori-Voraussetzungen benötigen als bisherige Ansätze. Anstatt nur gewisser skalarer Anteile, bilden diese den kompletten vektoriellen Hirnstrom auf die Daten ab. Wir stellen eine neue Entwicklung des Hirnstroms basierend auf einem orthonormalen Basissystem vor, die zu einer Singulärwertzerlegung mit exponentiell schnell abfallenden Singulärwerten führt. Damit kann die Frage der Nichteindeutigkeit wie auch die Frage nach dem messbaren Anteil der Radialkomponente des Stroms vollständig beantwortet werden.
+Nur der solenoidale und harmonische Anteil des Hirnstroms kann aus MEG- und EEG-Daten rekonstruiert werden. Um beide exponentiell schlecht gestellten Probleme numerisch zu lösen, sind Regularisierungsverfahren notwendig. Neben dem regularisierten Ritz-Verfahren, einer skalaren Spline Methode und einem speziell für das EEG-Problem auf Basis von reproduzierenden Kernen entwickelten vektoriellen Spline-Verfahren testen wir den in den letzten Jahren von der Arbeitsgruppe Geomathematik der Universität Siegen entwickelten regularized functional matching pursuit (RFMP) und seine Weiterentwicklung, den regularized orthgonal functional matching pursuit (ROFMP). Wir verbessern die Konvergenzresultate des RFMP und führen neue Sobolevnormen als Strafterm ein. Mittels vektorieller Splines können gute und stabile numerische Ergebnisse erzielt werden, die vom ROFMP sowohl bei unverrauschten als auch bei verrauschten synthetischen Tests übertroffen werden. Abschließend wird der ROFMP für die Inversion realer Datensätze verwendet.</abstract>
+                    <subject>
+                        <topic>Inverses Problem</topic>
+                        <topic>Schlechtgestelltheit</topic>
+                        <topic>Inverse problems</topic>
+                        <topic>Magneto-electroencephalography</topic>
+                        <topic>Ill-posedness</topic>
+                        <topic>Singular value decomposition</topic>
+                        <topic>Fredholm integral equation</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-13967</identifier>
+                    <identifier type="sys">HT019963670</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1396</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2018-09-26</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1396">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1396/1/Dissertation_Sarah_Leweke.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1396"
+            DMDID="DMD_siegen_opus_1396">
+            <mets:fptr FILEID="FILE0_siegen_opus_1396"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

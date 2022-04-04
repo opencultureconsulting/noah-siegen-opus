@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_282">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Measurement of the momentum spectrum of cosmic ray muons at a depth of 320 mwe</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hashim, Nadir Omar</displayForm>
+                        <namePart type="family">Hashim</namePart>
+                        <namePart type="given">Nadir Omar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2007</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Cosmic ray muons are produced  through interactions of primary cosmic radiation in the atmosphere. They are a component of
+extensive air showers which can also be measured underground. The CosmoALEPH experiment used the ALEPH detector at the
+European Centre for Particle Physics, CERN, to measure cosmic ray muon events at a depth of 320 mwe underground.
+Measurements of the momentum spectrum and charge ratio of the cosmic ray muons are presented in this work.
+The results are compared with the expectations from MC simulations based on different hadronic interaction models.</abstract>
+                    <subject>
+                        <topic>kosmische Myonen</topic>
+                        <topic>ALEPH (Detektor)</topic>
+                        <topic>CosmoALEPH</topic>
+                        <topic>cosmic muons</topic>
+                        <topic>ALEPH</topic>
+                        <topic>CosmoALEPH</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 7, Physik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-2829</identifier>
+                    <identifier type="sys">HT015214488</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_282</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2007-06-21</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_282">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/282/1/hashim.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_282"
+            DMDID="DMD_siegen_opus_282">
+            <mets:fptr FILEID="FILE0_siegen_opus_282"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

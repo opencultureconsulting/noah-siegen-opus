@@ -1,0 +1,70 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1543</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Multi-sensor based indoor vehicle and pedestrian navigation</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Wennan</pc:foreName>
+            <pc:surName>Chai</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Terrestrische Navigation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Indoor Positioning</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Wi-Fi Fingerprinting</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Kalman Filter</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Pedestrian Dead Reckoning</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Visual Gyroscope</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">621</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Bei den Positionierungstechniken in Innenräumen ist der auf der Nutzung von Wi-Fi basierende Ansatz attraktiv. Durch den Ansatz wird erwartet, eine kostengünstige und leicht zugängliche Lösung einzubringen. Die meisten Wi-Fi-Lokalisierungsmethoden sind auf Messungen der empfangenen Signalstärke (RSS) angewiesen. In dieser Arbeit werden verschiedene, auf Wi-Fi RSS basierende Algorithmen für die Positionierung erforscht. Die Leistung von jedem Ansatz wird mit experimentellen Ergebnissen gezeigt. &#13;
+In Anbetracht des komplementären Charakters der Wi-Fi-Positionierung und des Trägheitsnavigationssystems (INS) ergibt die Kombination der beiden Systeme einen synergetischen, zu höheren Leistungen führenden Effekt. Für die Fahrzeugsnavigation im Innenraum lässt sich die Leistung des INS/Wi-Fi integrierten Systems ohne Änderung der Hardware verbessern. Eine verbesserte Integration, die die adaptive Kalman-Filterung (AKF) in verbindung mit Fahrzeugeinschränkungen verwendet, wird vorgestellt. Die experimentellen Ergebnisse zeigen, dass das verbesserte integrierte System eine höhere Navigationsgenauigkeit bietet, im Vergleich zur Verwendung der Wi-Fi-Positionierung und der konventionellen INS/Wi-Fi-Integration.&#13;
+Für persönliche Navigationsanwendungen wird die Fußgänger-Koppelnavigation (PDR) eingesetzt. Mit einer am Fuß montierten IMU sind das Null-Geschwindigkeit-Update (ZUPT) und das Nullwinkelrate-Update (ZARU) Methoden anzuwenden, um die IMU neu zu kalibrieren, dadurch können die Driftfehler vom INS reduziert werden. Für persönliche Navigation mit der in dem tragbaren Gerät eingebetteten IMU wird die angepasste PDR auf Basis der Klassifizierung vom Geräteplatzierungsmodus vorgestellt. Drei typische Platzierungsmodi werden diskutiert. Die Leistungen der Klassifizierung mit verschiedenen Klassifikatoren werden mit echten Testergebnissen gezeigt. Die angepasste PDR wird weiter mit der Wi-Fi-Positionierung kombiniert. Die Versuchsergebnisse zeigen, dass das integrierte System die allein operierenden Navigationssysteme leistungsmäßig übertrifft. &#13;
+Die Schätzung der Orientierung ist eine Herausforderung für die Indoor-Navigation. Die visuelle, auf Kamera basierende Technik des Gyroskops kann die aus Bilder generierte Information in die Rotation der Kamera verwandeln. Anders als das Gyroskop in einer IMU leidet der visuelle Kreisel mit Fluchtpunkten nicht unter Driftfehlern. In dieser Arbeit wird eine Integration des INS und des visuellen Kreisels, die die auf Richtungskosinusmatrix (DCM) basierenden Modelle anwendet, vorgestellt. Im Vergleich zu den herkömmlichen Modellen des Eulerwinkels kann die Verwendung von DCM lineare systemmodelle bereitstellen und die Probleme der Singularität vermeiden. Die Leistung der Einstellung und der Schätzung der Kreiselabweichung unter Verwendung des integrierten Systems werden mit experimentellen Testergebnissen gezeigt.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Among the positioning techniques in indoor environments, the approach on the basis of exploiting Wi-Fi is attractive, which is expected to yield a cost-effective and easily accessible solution. Most Wi-Fi localization methodologies rely on the received signal strength (RSS) measurements. In this work, different Wi-Fi RSS based positioning algorithms are explored. The performance of each approach is shown with experimental results.&#13;
+Considering the complementary nature of Wi-Fi positioning and inertial navigation system (INS), the combination of both systems yields a synergetic effect resulting in higher performance. For indoor vehicle navigation, the performance of the INS/Wi-Fi integrated system can be further improved without hardware change. An enhanced integration, which employs adaptive Kalman filtering (AKF) and vehicle constraints, is presented. The experimental results show that the enhanced integrated system provides higher navigation accuracy, compared to using Wi-Fi positioning and conventional INS/Wi-Fi integration.&#13;
+For personal navigation applications, the pedestrian dead reckoning (PDR) system is employed. With a foot mounted IMU, zero velocity update (ZUPT) and zero angular rate update (ZARU) methodologies can be applied to re-calibrate the IMU, which can reduce the INS drift errors. For personal navigation with the IMU embedded in the portable device, the adapted PDR based on device placement mode classification is presented. Three typical placement modes are discussed. The classification performances with different classifiers are shown with real test results. The adapted PDR is further combined with Wi-Fi positioning. The experimental results show that the integrated system outperforms the standalone navigation systems.&#13;
+Attitude estimation is a challenging topic for indoor navigation. The camera based visual gyroscope technique can transform information found from images into the camera rotation. Unlike the rate gyroscope in an IMU, the visual-gyro using vanishing points does not suffer from drift errors. In this work, an INS/visual-gyro integration using direction cosine matrix (DCM) based models is presented. Compared to the conventional Euler angle models, the usage of DCM can provide linear system models and avoid singularity problems. The performance of attitude and gyro bias estimation using the integrated system is shown with turntable test and experimental results.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Otmar</pc:foreName>
+            <pc:surName>Loffeld</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2019-12-13</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2019</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-15433</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/lizenz.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV - Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Wennan_Chai.pdf" ddb:fileSize="3740734"/>
+   <ddb:checksum ddb:type="MD5">66a13853911bd0ea6ab968cc34ee1287</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1543/4/Dissertation_Wennan_Chai.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1543</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

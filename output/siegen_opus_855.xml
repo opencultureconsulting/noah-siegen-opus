@@ -1,0 +1,83 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_855">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Neue Verarbeitungsverfahren von Along-Track Interferometrie Daten eines Radars mit synthetischer Apertur</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hirsch, Oliver Wolfgang</displayForm>
+                        <namePart type="family">Hirsch</namePart>
+                        <namePart type="given">Oliver Wolfgang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2002</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Diese Dissertation entstand im Rahmen des Fernerkundungsprojektes EURoPAK-B, welches
+zum Ziel die Entwicklung eines operationellen Fernerkundungsverfahren zur Bestimmung der
+Meeresoberflächenströmung und der Unterwasser-Bodentopographie von Küstengewässern
+hatte. Basis dafür waren Along-Track Interferometrie (ATI) Daten von einem flugzeugestützten
+Radar mit synthetischer Apertur. Im Gegensatz zu der Across-Track Interferometrie, mit der
+man Geländetopographien bestimmen kann, besteht mit der Along-Track Interferometrie die
+Möglichkeit, Geschwindigkeiten von Objekten, wie z.B. Meereströmungen zu ermitteln.
+Der zentrale Punkt dieser Dissertation besteht in der Entwicklung eines operationellen Verfahrens
+zur Kalibrierung von ATI Daten unter Berücksichtigung aller benötigten Korrekturen, die
+aufgrund von Ungenauigkeiten des Radarsystems und der Datenprozessierung benötigt werden.
+Das Hauptproblem dabei liegt in der Tatsache, dass bei einer ozeanographischen Anwendung
+nicht bei jeder Datendetektion dafür gesorgt werden kann, dass sich stationäre Objekte, wie Küstengebiete
+oder Inseln, im Untersuchungsgebiet zur manuellen Kalibrierung der ATI Daten befinden.
+Im Gegensatz zur Across-Track Interferometrie macht es wenig Sinn, Radarreflektoren,
+die zur Kalibrierung und zur Qualitätsprüfung eines Höhenmodells herangezogen werden, zu
+verwenden. Infolge dessen muß eine Methode entwickelt werden, mit der es möglich ist, auch
+Daten von reinen Meeresgebieten, in denen alles jederzeit in Bewegung ist, fehlerfrei zu prozessieren,
+damit sie für eine spätere Informationsextraktion nicht obsolet werden. Demnach gilt
+es die Theorie für eine interne Phasenkalibrierung zu entwickeln und ihre Konsistenz an experimentellen
+Daten zu überprüfen, um die optimale Along-Track SAR Konfiguration zu erhalten,
+mit der ein operationell nutzbares Fernerkundungsverfahren zur Bestimmung der Oberflächenströmungen
+und Unterwasser-Bodentopographien von Küstengewässern Realität werden kann.</abstract>
+                    <abstract type="content" lang="eng">The German remote sensing project EURoPAK-B is aimed at the development and the demonstration of a special remote sensing system for the measurement of ocean surface currents and the monitoring of underwater bottom topography in coastal waters on the basis of airborne along- track interferometric (ATI) synthetic aperture radar. In contrast to across-track interferometry ATI is directly sensitive to motions of the scatterers which have a radial velocity component. The ATI phase being directly proportional to the interferometric velocity contains not only contributions resulting from the effective ocean surface currents but also from effects like e. g. orbital motions of longer waves. Thus the actual surface ocean currents differ from the measured interferometric velocities. The processed ATI phase is the starting point for the determination of interferometric velocities and has to be handled accurately. Therefore some concepts concerning a very proper processing of ATI data have to be developed. This includes the correction of phase contributions resulting from the wave guide length at different channel frequencies. Another undesirable contribution to the phase results from the existing across-track component which depends on the squint angle during data acquisition. To minimize that effect the exact positions of the phase centres of both antennas have to be determined in a theoretical way. Also some other effects on the ATI data like the azimuthal displacement of moving targets have to be taken into account for a correct geolocation of the ATI data. This work gives also reasons why the ATI phase has to be unwrapped although the phase resulting from the ocean currents should be within the order of -π and +π. It will also been shown how phase unwrapping errors of the ATI phase can be removed. In this work these concepts for accurately processing ATI data are discussed and results are shown. Supplementary it points out the proposed remote sensing technique for accurate measurements of both ocean surface currents and underwater bottom topography in coastal waters generated by the University of Hamburg.</abstract>
+                    <subject>
+                        <topic>Along-Track Interferometrie</topic>
+                        <topic>SAR</topic>
+                        <topic>Synthetic aperture radar</topic>
+                        <topic>SAR</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-58</identifier>
+                    <identifier type="sys">HT013433887</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_855</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2002-07-02</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_855">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/855/1/hirsch.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_855"
+            DMDID="DMD_siegen_opus_855">
+            <mets:fptr FILEID="FILE0_siegen_opus_855"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_573">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Simulation and estimation of operator scaling stable random fields</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Simulation und Schätzung von operatorskalierenden stabilen Zufallsfeldern</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kegel, Tobias</displayForm>
+                        <namePart type="family">Kegel</namePart>
+                        <namePart type="given">Tobias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Operator-scaling stable random fields are stochastic models which can describe spacial dependencies. Thereby dependencies of different intensities and in different, not necessarily orthogonal, directions are allowed, resulting in anisotropic fields which are used, e.g. in hydrology to represent porous media, or to describe fractal surfaces in physics. In the year 2006, H. Biermé, M. M. Meerschaert and H.-P. Scheffler presented models for operator-scaling stable random fields in harmonizable and in moving average representation, and showed some important properties of these fields. 
+In order to use these fields for practical application, procedures for their numeric simulation are needed, and also methods for the statistical analysis (e.g. parameter estimation) of observed realizations of OSSRFs. The present thesis presents numeric approximations of OSSRFs and examines their deviation from the original OSSRFs. Algorithms for the calculation of these approximations have been also developed and are described in the thesis. For the cases of two- and three-dimensional fields, which are relevant for practical applications, these algorithms for the simulation of OSSRFs have been implemented in the programming languages Matlab and Java. Finally, we present also a method for the estimation of several parameters of a two-dimensional harmonizable OSSRF, and its implementation in Matlab.</abstract>
+                    <abstract type="content" lang="ger">Operatorskalierende stabile Zufallsfelder (engl. Operator scaling stable random fields, kurz: OSSRFs) sind stochastische Modelle, die räumliche Abhängigkeiten beschreiben können. Dabei sind Abhängigkeiten unterschiedlicher Stärke und in verschiedenen, nicht notwendigerweise zueinander senkrechten, Richtungen zugelassen. Die resultierenden anisotropen Felder werden z.B. zur Beschreibung poröser Medien in der Hydrologie oder fraktaler Oberflächen in der Physik verwendet. Im Jahr 2006 präsentierten H. Biermé, M. M. Meerschaert und H.-P. Scheffler Modelle für operator-skalierende stabile Zufallsfelder in harmonizable und in moving-average Darstellungen, und zeigten einige wichtige Eigenschaften dieser Felder. 
+Um diese OSSRFs in praktischen Anwendungen einsetzen zu können, werden Methoden für die numerische Simulation und für die statistische Analyse (z.B. Parameterschätzung) solcher Felder benötigt. In der vorliegenden Arbeit werden numerische Approximationen von OSSRFs präsentiert und ihre Abweichungen von den ursprünglichen Feldern untersucht. Algorithmen für die Berechnung dieser Approximationen wurden ebenfalls entwickelt und in dieser Arbeit vorgestellt. Für die in der Praxis relevanten Fälle von zwei- und drei-dimensionalen Feldern wurden diese Algorithmen in den Programmiersprachen Matlab und Java implementiert. Schliesslich stellen wir auch eine Methode für die Schätzung mehrerer Parameter eines harmonizable OSSRF sowie ihre Implementierung in Matlab vor.</abstract>
+                    <subject>
+                        <topic>Zufälliges Feld</topic>
+                        <topic>OSSRF</topic>
+                        <topic>Stable Random Field</topic>
+                        <topic>Discrete Approximation</topic>
+                        <topic>Parameter Estimation</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5739</identifier>
+                    <identifier type="sys">HT017103679</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_573</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2011-10-13</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_573">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/573/1/kegel.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_573"
+            DMDID="DMD_siegen_opus_573">
+            <mets:fptr FILEID="FILE0_siegen_opus_573"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

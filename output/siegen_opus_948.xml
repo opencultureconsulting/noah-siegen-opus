@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_948">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>&quot;Woher hat er die Idee?&quot; : selbstbestimmte Teilhabe von Menschen mit Lernschwierigkeiten durch Mediennutzung ; Abschlussbericht der Begleitforschung im PIKSL-Labor</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mayerle, Michael</displayForm>
+                        <namePart type="family">Mayerle</namePart>
+                        <namePart type="given">Michael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Im PIKSL-Projekt geht es um das Potenzial neuer Informations- und Kommunikationstechnologien (zum Beispiel Desktop-Computer, Smartphones und Tablet-PC) für die selbstbestimmte Teilhabe von Menschen mit Lernschwierigkeiten. Das vorliegende Buch ist der Abschlussbericht der dreijährigen Modellphase des PIKSL-Labors.
+PIKSL steht für ’Personenzentrierte Interaktion und Kommunikation für mehr Selbstbestimmung im Leben’. Begleitet wurde die Modellphase vom Zentrum für Planung und Evaluation Sozialer Dienste der Universität Siegen. 
+Die Ergebnisse zeigen, wie eine sozialpädagogisch begleitete Mediennutzung einen bedeutenden Beitrag zur Persönlichkeitsentwicklung der Menschen und zu gesellschaftlicher Teilhabe leisten kann.</abstract>
+                    <subject>
+                        <topic>Neue Medien</topic>
+                        <topic>Menschen mit Beeinträchtigungen</topic>
+                        <topic>Digitale Teilhabe</topic>
+                        <topic>Begleitforschung</topic>
+                        <topic>digital media</topic>
+                        <topic>disabilities</topic>
+                        <topic>participation</topic>
+                        <topic>accompanying research</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-9484</identifier>
+                    <identifier type="sys">HT018801462</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_948</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_948">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/948/1/Michael_Mayerle.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_948"
+            DMDID="DMD_siegen_opus_948">
+            <mets:fptr FILEID="FILE0_siegen_opus_948"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,60 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>777</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Vegetation detection and terrain classification for autonomous navigation</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Duong-Van</pc:foreName>
+            <pc:surName>Nguyen</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Vegetation Erkennung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Terrain-Klassifizierung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Autonome Navigation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">2D3D Feature-Fusion</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Mobile-Outdoor-Roboter</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Vegetation Detection</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Terrain Classification</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Autonomous Navigation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">2D3D Feature Fusion</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Mobile Outdoor Robot</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Diese Arbeit beleuchtet sieben neuartige Ansätze aus zwei Bereichen der maschinellen Wahrnehmung: Erkennung von Vegetation und Klassifizierung von Gelände. Diese Elemente bilden den Kern eines jeden Steuerungssystems für effiziente, autonome Navigation im Außenbereich. Bezüglich der Vegetationserkennung, wird zuerst ein auf Indizierung basierender Ansatz beschrieben (1), der die reflektierenden und absorbierenden Eigenschaften von Pflanzen im Bezug auf sichtbares und nah-infrarotes Licht auswertet. Zweitens wird eine Fusionmethode von 2D/3D Merkmalen untersucht (2), die das menschliche System der Vegetationserkennung nachbildet. Zusätzlich wird ein integriertes System vorgeschlagen (3), welches die visuelle Wahrnehmung mit multi-spektralen Methoden ko mbiniert. Aufbauend auf detaillierten Studien zu Farb- und Textureigenschaften von Vegetation wird ein adaptiver selbstlernender Algorithmus eingeführt der robust und schnell Pflanzen(bewuchs) erkennt (4). Komplettiert wird die Vegetationserkennung durch einen Algorithmus zur Befahrbarkeitseinschätzung von Vegetation, der die Verformbarkeit von Pflanzen erkennt. Je leichter sich Pflanzen bewegen lassen, umso größer ist ihre Befahrbarkeit. Bezüglich der Geländeklassifizierung wird eine struktur-basierte Methode vorgestellt (6), welche die 3D Strukturdaten einer Umgebung durch die statistische Analyse lokaler Punkte von LiDAR Daten unterstützt. Zuletzt wird eine auf Klassifizierung basierende Methode (7) beschrieben, die LiDAR und Kamera-Daten kombiniert, um eine 3D Szene zu rekonstruieren. Basierend auf den Vorteilen der vorgestellten Algorithmen im Bezug auf die maschinelle Wahrnehmung, hoffen wir, dass diese Arbeit als Ausgangspunkt für weitere Entwicklung en von zuverlässigen Erkennungsmethoden dient.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">This thesis introduces seven novel contributions for two perception tasks: vegetation detection and terrain classification, that are at the core of any control system for efficient autonomous navigation in outdoor environments. Regarding vegetation detection, we first describe a vegetation index-based method (1), which relies on the absorption and reflectance properties of vegetation to visual light and near-infrared light, respectively. Second, a 2D/3D feature fusion (2), which imitates the human visual system in vegetation interpretation, is investigated. Alternatively, an integrated vision system (3) is proposed to realise our greedy ambition in combining visual perception-based and multi-spectral methods by only using a unit device. A depth study on colour and texture features of vegetation has been carried out, which leads to a robust and fast vegetation detection through an adaptive learning algorithm (4). In addition, a double-check of passable vegetation detection (5) is realised, relying on the compressibility of vegetation. The lower degree of resistance vegetation has, the more traversable it is. Regarding terrain classification, we introduce a structure-based method (6) to capture the world scene by inferring its 3D structures through a local point statistic analysis on LiDAR data. Finally, a classification-based method (7), which combines the LiDAR data and visual information to reconstruct 3D scenes, is presented. Whereby, object representation is described more details, thus enabling an ability to classify more object types. Based on the success of the proposed perceptual inference methods in the environmental sensing tasks, we hope that this thesis will really serve as a key point for further development of highly reliable perceptual inference methods.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2013-12-05</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2013</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-7772</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Bildinformatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="nguyen.pdf" ddb:fileSize="6891276"/>
+   <ddb:checksum ddb:type="MD5">a66819f0b3c3387abe05d199b3643044</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/777/1/nguyen.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/777</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

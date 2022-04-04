@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1643">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Digital technology in health education? – opportunities for new mothers in Mexican public healthcare services</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Harder, Jamie Lee</displayForm>
+                        <namePart type="family">Harder</namePart>
+                        <namePart type="given">Jamie Lee</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Gutierrez Chavez, Andrea Sarahi</displayForm>
+                        <namePart type="family">Gutierrez Chavez</namePart>
+                        <namePart type="given">Andrea Sarahi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The Mexican healthcare system deals with several challenges such as a high level of fragmentation, low investments by the state and remaining high out-of-pocket payments. The socioeconomic status of each family decides which access to healthcare is granted due to the form of health insurance provided. Health literacy rates depend highly on the educational level, correlate with health inequalities and influence health-related decisions such as breastfeeding strongly. This study presents first findings of problem-centered interviews (N=9) from a case-study in Guadalajara, Mexico. It shows a possible starting point to integrate the usage of digital devices in the Mexican public health sector to interact with new mothers who are hospitalized after having given birth. Findings suggest that the use of digital technology could help to raise the health literacy in the specific decision of breastfeeding.</abstract>
+                    <subject>
+                        <topic>Gesundheitstelematik</topic>
+                        <topic>Breastfeeding</topic>
+                        <topic>Healthcare</topic>
+                        <topic>Inequality</topic>
+                        <topic>Mexico</topic>
+                        <topic>Technology</topic>
+                        <topic>Stillen</topic>
+                        <topic>Gesundheitswesen</topic>
+                        <topic>Ungleichheit</topic>
+                        <topic>Mexiko</topic>
+                        <topic>Technologie</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16432</identifier>
+                    <identifier type="sys">HT020642439</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1643</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1643">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1643/5/Digital_Technology_in_Health_Education.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1643"
+            DMDID="DMD_siegen_opus_1643">
+            <mets:fptr FILEID="FILE0_siegen_opus_1643"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

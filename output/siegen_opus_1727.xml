@@ -1,0 +1,81 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1727">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Fault injection framework for time-triggered systems</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Framework zur Fehlereinstreuung in zeitgesteuerten Systemen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Onwuchekwa, Daniel</displayForm>
+                        <namePart type="family">Onwuchekwa</namePart>
+                        <namePart type="given">Daniel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Obermaisser, Roman</displayForm>
+                        <namePart type="family">Obermaisser</namePart>
+                        <namePart type="given">Roman</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">This thesis presents a methodology and tool for verifying and validating the integrated system behaviour of time-triggered Ethernet networks. The determinism and sufficient bandwidth provided by time-triggered Ethernet network make it appealing for building safety-critical systems in different domains such as railway, aviation, health, and automobile. Many applications in these domains impose stringent dependability requirements. Therefore, verification and validation are often required at most stages of the development process when designing these systems.
+      
+    Due to the complexity of time-triggered network protocols, design engineers mostly employ formal methods and simulations as the verification and validation techniques. However, these methods mainly verify and validate only certain functions of the time-triggered protocol and not the integrated system behaviour. The reasons stem from the downsides of these approaches. The formal method suffers from a state-space explosion when modelling complex systems, and simulators do not sufficiently model certain complex functionality.  Simulators also require cross-verification from a physical network to gain better confidence. Since evaluating the physical realisation of time-triggered Ethernet networks results in the best confidence levels, this work then focuses on the use of fault injection on physical devices for this purpose.
+ 
+    This work proposes a novel and topology independent cut-through fault injection framework that can be used to evaluate the integrated system behaviour of time-triggered Ethernet networks. This work also describes a technique that can be used for failure detection in time-triggered networks during the synchronisation startup before the establishment of global time. It furthermore presents a discussion of experimental procedure(s) and results that demonstrate the use of the fault injection framework for the evaluation of a selection of different use cases. The Experiments carried out herein confirms how the novel fault injection framework surpasses other time-triggered Ethernet frameworks by satisfying a set of collective requirements which mainly include low-intrusiveness, portability, and the abstraction of fault injection component from the network under test.</abstract>
+                    <abstract type="content" lang="ger">In dieser Dissertation wird eine Methodik zur Verifizierung und Validierung des Verhaltens von integrierten System vorgestellt, die auf zeitgesteuerten Ethernet-Netzwerken basieren. Der Determinismus und die ausreichende Bandbreite, die durch ein zeitgesteuertes Ethernet-Netzwerk bereitgestellt werden, ermöglichen die Konstruktion sicherheitskritischer Systeme in verschiedenen Bereichen wie Eisenbahn, Luftfahrt, Gesundheit und Automobil. Viele Anwendungen in diesen Bereichen stellen hohe Anforderungen an die Zuverlässigkeit. Deshalb sind Verifizierung und Validierung in den meisten Phasen des Entwicklungsprozesses sicherheitskritischer Systeme erforderlich.
+      
+    Aufgrund der Komplexität von zeitgesteuerten Netzwerkprotokollen verwenden Entwickler meist formale Methoden und Simulationen als Verifikations- und Validierungstechniken. Allerdings  verifizieren und validieren diese Methoden hauptsächlich bestimmte Funktionen der zeitgesteuerten Protokolle und nicht das Verhalten des integrierten Systems. Die Gründe dafür liegen in den Nachteilen dieser Ansätze. Die Modellierung komplexer Systeme führt bei der Benutzung formaler Methoden zu einer Explosion des Zustandsraums und Simulatoren modellieren bestimmte komplexe Funktionen nicht ausreichend.  Des Weiteren erfordern Simulatoren eine zusätzliche Verifizierung durch ein physikalisches Netzwerk, um die Aussagekräftigkeit zu verbessern. Da die Evaluierung der physikalischen Realisierung von zeitgesteuerten Ethernet-Netzwerken zu den besten Ergebnissen führt, konzentriert sich diese Arbeit auf die Anwendung der Fehlerinjektion auf physikalische Geräte.
+ 
+    Diese Dissertation schlägt ein neuartiges und topologieunabhängiges Cut-Through-Fehler- injektions-Framework vor, welches das integrierte Systemverhalten von zeitgesteuerten Ethernet-Netzwerken auswerten kann. Sie bietet zudem eine Lösung für die Fehlererkennung in zeitgesteuerten Netzwerken während des Synchronisationsstarts, bevor eine globale Zeit festgelegt wird. Darüber hinaus werden experimentelle Verfahren und Ergebnisse diskutiert, die die Verwendung des Fehlerinjektions-Frameworks für die Bewertung einer Auswahl verschiedener Anwendungsfälle demonstrieren. Die hier durchgeführten Experimente bestätigen, wie das neuartige Framework andere zeitgesteuerte Ethernet-Frameworks übertrifft, indem es die kollektiven Anforderungen erfüllt. Hierzu gehören geringe Störanfälligkeit, Portabilität und die Abstraktion der Fehlerinjektionskomponente aus dem zu testenden Netzwerk.</abstract>
+                    <subject>
+                        <topic>Fault Injection</topic>
+                        <topic>Time Sensitive Networking</topic>
+                        <topic>TTEthernet</topic>
+                        <topic>Dependability Evaluation</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Department Elektrotechnik - Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-17270</identifier>
+                    <identifier type="sys">HT020620672</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1727</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2020-10-09</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1727">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1727/3/Dissertation_Daniel_Lucky_Onwuchekwa.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1727"
+            DMDID="DMD_siegen_opus_1727">
+            <mets:fptr FILEID="FILE0_siegen_opus_1727"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

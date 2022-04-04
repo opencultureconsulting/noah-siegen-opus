@@ -1,0 +1,104 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_442">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Diagnose von Leistungstransformatoren durch Rückkehrspannungs- und Teilentladungsmessungen - Neue Methoden zur Auswertung der Messdaten</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Diagnosis of power transformers using return voltage and partial discharge measurements - New methods for measurement data evaluation</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Menzel, Johannes</displayForm>
+                        <namePart type="family">Menzel</namePart>
+                        <namePart type="given">Johannes</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2009</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Zur Diagnose des Isoliersystems von Leistungstransformatoren kommt eine Vielzahl unterschiedlicher elektrischer und nicht-elektrischer Verfahren zum Einsatz. Jedes dieser Verfahren kann Aufschluss über eine oder mehrere bestimmte Komponenten des komplexen Systems Transformatorisolierung geben. Ein einzelnes Verfahren, das eine Diagnose des Gesamtobjekts zulässt, ist aufgrund der Komplexität des Systems nicht verfügbar. Für eine Beurteilung des Gesamtsystems ist grundsätzlich eine Analyse mit mehreren unterschiedlichen Verfahren erforderlich.
+
+Im Rahmen der vorliegenden Arbeit wurden speziell zwei Verfahren untersucht: Rückkehrspannungsmessungen und Teilentladungsmessungen in Transformatoröl. Die Rückkehrspannungsmessung als dielektrisches Diagnoseverfahren, bisher hauptsächlich aus der Kabeldiagnose bekannt, liefert ein integrales Abbild der dielektrischen Eigenschaften der gesamten Transformatorisolierung, während die Teilentladungsdiagnose des Isolieröls zunächst nur Rückschlüsse auf die Ölqualität zulässt, die aber in großem Maße den Zustand des Gesamtsystems widerspiegelt.
+
+Beide Verfahren haben gemeinsam, dass die eigentliche Messtechnik mit vergleichsweise einfachen Mitteln aufzubauen ist. Speziell die Rückkehrspannungsmessung ist relativ störsicher, während Teilentladungsmessungen oft unter Laborbedingungen durchgeführt werden. In den letzten Jahren hat allerdings auch die softwaregestützte Störunterdrückung erheblich an Bedeutung gewonnen, wobei durch spezielle Algorithmen Störsignale von Nutzsignalen getrennt werden können.
+
+Gegenstand der vorliegenden Arbeit ist in erster Linie die Vorstellung neuer Möglichkeiten zur Auswertung der genannten Verfahren unter Ausnutzung der dargelegten physikalischen Zusammenhänge. Dadurch ist es möglich, aus mit den herkömmlichen Messverfahren gewonnenen Daten zusätzliche Informationen zu erhalten.
+
+Speziell im Fall der Rückkehrspannungsmessung, die unter der Bezeichnung &quot;Recovery Voltage Method&quot; bzw. &quot;Polarisationsspektrum&quot; seit längerem von vielen Autoren als für die Transformatordiagnose ungeeignet dargestellt wird, ist eine eingehendere Betrachtung der physikalischen Hintergründe des Verfahrens sinnvoll, da die in der Literatur angezweifelten Messergebnisse in erster Linie auf eine Fehlinterpretation der Messdaten anhand einer ungeeigneten Modellbildung zurückzuführen sind.
+
+Teilentladungsmessungen in Isolieröl mit geeigneten inhomogenen Elektrodenanordnungen sollen Rückschlüsse auf die Ölqualität, speziell zumindest qualitativ auf den Gehalt an kurzkettigen Abbauprodukten, ermöglichen. Das Fernziel der Untersuchungen ist die Entwicklung einer Messanordnung zum Einbau in Transformatoren, mit der eine Online-Ölüberwachung durchgeführt werden kann. Zu diesem Zweck werden Parameter gesucht, die eine automatische Auswertung gestatten.
+
+Die Arbeit präsentiert zunächst die Theorie und Modellvorstellungen, die den Verfahren zugrunde liegen. Die theoretischen Überlegungen werden anschließend anhand von realen Messergebnissen näher erörtert. Des weiteren werden Vergleiche mit Simulationen und Berechnungen vorgenommen.</abstract>
+                    <abstract type="content" lang="eng">With the increase of required lifetime of power transformers, diagnostics become more and more important to monitor the condition of the insulation system. There are numerous methods existing for the analysis of different components or parts of the insulation and their electrical and chemical properties. The results of all these methods together should give a complete overview of the condition of the sample.
+
+This thesis presents new approaches in measurement data evaluation for two diagnostic methods, the Return Voltage Measurement (RVM) - also known as Recovery Voltage Measurement - and the Partial Discharge (PD) Measurement in the insulating oil. The Return Voltage Measurement is an integral method that is influenced by both the solid and the liquid component of the insulation. In contrast to this, the PD Measurement in transformer oil basically reveals information about the condition of the liquid component.
+
+Especially the Return Voltage Measurement is often criticized as not being suitable for transformer diagnostics due to a lack of useful evaluation methods. Most methods that have been known for many years - i.e. especially the Polarisation Spectrum as the most well-known one - do not take the physically relevant processes inside a multi-layer insulation into account and thus give insufficient or even wrong interpretation of the data.
+
+The basic mechanism in oil-cellulose insulation systems is the boundary polarization which is the only polarization mechanism - maybe only except charge carrier trapping or space charge processes - that can produce time constants in the range of up to several hundreds of seconds. For the description of boundary polarization processes in a two-component system, the Maxwell equivalent circuit can be used. For this equivalent circuit it is possible to calculate all relevant parameters analytically, even with an additional resistance - e.g. the finite input resistance of the measuring equipment - and capacitance in parallel.
+
+The goal of this work is to show that an evaluation of RVM data according to the Maxwell equivalent circuit may reveal additional information about the condition of the insulation - especially that of the cellulose component - that cannot be gained by interpretation based on the commonly used formal equivalent circuit.
+
+For the analysis of the condition of the liquid component of the insulation - i.e. in this case the transformer oil - different methods exist that in many cases are relatively intricate and expensive. The simpler methods like e.g. the electric breakdown strength testing often do not reveal much information about the actual overall condition of the oil. 
+
+The present work compares the partial discharge behavior of transformer oils in different conditions and with different histories of ageing in order to find correlations to the presence of certain degradation products that do not necessarily directly affect the electrical strength of the oil - and that consequently cannot be detected by simple dielectric strength measurements, e.g. a breakdown test - but that may reveal information about the overall condition of the insulation system. 
+
+Usually those substances can only be detected e.g. by gas chromatography or similar procedures. The basic idea behind the experiments was to find at least a qualitative influence of these substances on partial discharge parameters. In some cases the results could be compared to the results of standard analyses like the Dissolved Gas Analysis. The influence of the concentration of water in the oil was evaluated as well.
+
+The partial discharge measurements were performed using a low frequency wide-band band pass filter system as detector. For the evaluation of the partial discharge data, recently developed methods were applied that mainly analyze the shape of the signals generated by the partial discharge detector (Pulse Shape Analysis). The shape of these impulse responses is influenced by short-time sequences of partial discharge events in the range of a few microseconds.
+
+The final goal of the experiments was to find methods that allow a quick (maybe even on-line) low-cost analysis that allows a relatively prompt reaction to critical states of the insulation system. The low cost aspect is particularly interesting for smaller and/or less important equipment, where other on-line monitoring methods would be too costly and consequently are usually not applied.
+
+The intention is not to replace the standard methods like e.g. the DGA, but rather as a complementary pre-analysis that - in case of the detection of a critical condition - may lead to a warning and subsequently to a further analysis using standard methods.</abstract>
+                    <subject>
+                        <topic>Elektrisches Betriebsmittel</topic>
+                        <topic>Betriebsmitteldiagnostik</topic>
+                        <topic>Rückkehrspannung</topic>
+                        <topic>Isolierflüssigkeit</topic>
+                        <topic>Flüssige Isolierstoffe</topic>
+                        <topic>Dielektrische Diagnostik</topic>
+                        <topic>Transformer Diagnostics</topic>
+                        <topic>Insulating Liquid</topic>
+                        <topic>Return Voltage</topic>
+                        <topic>Partial Discharge</topic>
+                        <topic>Dielectrics</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Werkstoffe der Elektrotechnik und Diagnostik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4423</identifier>
+                    <identifier type="sys">HT016382404</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_442</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2009-11-26</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_442">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/442/1/menzel.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_442"
+            DMDID="DMD_siegen_opus_442">
+            <mets:fptr FILEID="FILE0_siegen_opus_442"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

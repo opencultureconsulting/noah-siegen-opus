@@ -1,0 +1,102 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1331">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Failure to replicate the association between fractional anisotropy and the serotonin transporter gene (5-HTTLPR, rs25531)</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Klucken, Tim</displayForm>
+                        <namePart type="family">Klucken</namePart>
+                        <namePart type="given">Tim</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Tapia León, Isabell</displayForm>
+                        <namePart type="family">Tapia León</namePart>
+                        <namePart type="given">Isabell</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Blecker, Carlo</displayForm>
+                        <namePart type="family">Blecker</namePart>
+                        <namePart type="given">Carlo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kruse, Onno</displayForm>
+                        <namePart type="family">Kruse</namePart>
+                        <namePart type="given">Onno</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Stalder, Tobias</displayForm>
+                        <namePart type="family">Stalder</namePart>
+                        <namePart type="given">Tobias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Stark, Rudolf</displayForm>
+                        <namePart type="family">Stark</namePart>
+                        <namePart type="given">Rudolf</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Recent work underlines the importance of alterations in white matter (e.g., measured by fractional anisotropy (FA)) as a neural vulnerability marker for psychiatric disorders. In this context, the uncinate fasciculus (UF), which connects the limbic system with prefrontal areas, has repeatedly been linked to psychiatric disorders, fear processing, and anxietyrelated traits. Individual differences in FA may partly be genetically determined. Variation in the promoter region of the serotonin transporter gene (serotonin transporter-linked polymorphic region [5-HTTLPR]) is a particularly promising candidate in this context, which has been linked to psychiatric disorders as well as to limbic and prefrontal reactivity. However, findings on the association between the 5-HTTLPR and FA within the UF-tract have been heterogeneous. The present study investigated this relationship and extended previous work by considering different genetic classification approaches as well as sex effects in a human sample (n = 114). All participants were genotyped for the 5-HTTLPR and the rs25531 polymorphism. As a main result, we did not find any significant relationship between the 5-HTTLPR and FA in the UF-tract although power analyses showed an adequate power. In addition, genotype effects were neither found when different classification approaches were used nor when analyses were carried out in males or females only. The present findings suggest that the association of the 5-HTTLPR and FA seems to be a more labile phenomenon than previously assumed.
+Possible explanations and limitations are discussed.</abstract>
+                    <subject>
+                        <topic>Substantia alba</topic>
+                        <topic>White matter microstructure integrity</topic>
+                        <topic>Diffusion tensor imaging</topic>
+                        <topic>Serotonin</topic>
+                        <topic>Connectivity</topic>
+                        <topic>Uncinate fasciculus</topic>
+                    </subject>
+                    <classification authority="ddc">150</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-13311</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1331</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1331">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1331/1/Klucken_Failure_to_Replicate.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1331"
+            DMDID="DMD_siegen_opus_1331">
+            <mets:fptr FILEID="FILE0_siegen_opus_1331"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

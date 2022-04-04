@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_506">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Die </nonSort>
+                        <title>Spuren der Schule von Porto Alegre in den Erinnerungen ihrer ehemaligen Schüler : die neue Funktion der Schule im Kontext der direkten Demokratie der Stadt</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ramos de Macedo, Eneida Maria</displayForm>
+                        <namePart type="family">Ramos de Macedo</namePart>
+                        <namePart type="given">Eneida Maria</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Ausgehend von den Erinnerungen ehemaliger Schüler, ehemaliger Lehrer und Lehrerinnen, der Autorin sowie zahlreicher Dokumente wird analysiert, wie im politischen Rahmen der &quot;Direkten Demokratie&quot; in Porto Alegre/Brasilien das Pädagogische Projekt &quot;Schule des Citoyen&quot; am Beispiel der Schule Aramy Silva umgesetzt wurde. Im Rahmen einer Fallstudie wird über die Methode Trinagulation gezeigt, inwiefern das Projekt &quot;Schule des Citoyen&quot; eine demakratische Schule realisiert und dabei die traditionellen Muster der Institution Schule, ihrer Organisation und ihres Curriculumns überwindet.</abstract>
+                    <subject>
+                        <topic>Direkte Demokratie</topic>
+                        <topic>Schule des Citoyen</topic>
+                        <topic>Thematische Komplexe</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät II (Bildung, Architektur, Künste)"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5063</identifier>
+                    <identifier type="sys">HT016774644</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_506</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2011-04-03</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_506">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/506/1/macedo.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_506"
+            DMDID="DMD_siegen_opus_506">
+            <mets:fptr FILEID="FILE0_siegen_opus_506"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

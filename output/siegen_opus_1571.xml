@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1571">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Minimizing the makespan of diagnostic multi-query graphs in embedded real time systems</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Tabassam, Nadra</displayForm>
+                        <namePart type="family">Tabassam</namePart>
+                        <namePart type="given">Nadra</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Obermaisser, Roman</displayForm>
+                        <namePart type="family">Obermaisser</namePart>
+                        <namePart type="given">Roman</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In den letzten Jahren wurden zahlreiche Steuerungssysteme entwickelt. Eingesetzt mit sicherheitskritischen Komponenten, die aus eingebetteten Echtzeitsystemen bestehen. Diese Systeme verfügen über elektronische Steuergeräte, die über Netzwerke, Sensoren und Aktoren miteinander verbunden sind. Diese Systeme erfordern ein hohes Maß an Zuverlässigkeit und unterliegen insbesondere im Fehlerfall strengen Zeitvorgaben. Eine Methode, um diese Zuverlässigkeit zu erreichen, ist die Einführung einer kontinuierlichen Überwachung und aktiven Diagnose im System. Für die Implementierung der aktiven Diagnose in Echtzeitsysteme muss die Verarbeitung von  Diagnoseabfragen die strengen zeitlichen Grenzen erfüllen. Unsere Optimierungsalgorithmen minimieren die Gesamtreichweite von Diagnostic Mutli-Query Graphs (DMG), um die Timing-Grenzen einzuhalten. Die Gesamtdauer des DMG wird durch den Einsatz von Techniken zur Abfrageoptimierung und Diagrammoptimierung minimiert. Die Query-Optimierung wird auf die Fault Diagnostic Queries (FDQs) angewendet, die Teil jedes Knotens des DMG sind. Für die Optimierung von FDQs werden die besten Zugriffsmethoden und besten Query-Ausführungspläne ausgewählt. Die Graphenoptimierung wird auch auf unser DMG angewendet, ohne die Semantik von FDQs zu beeinflussen. Die vorgeschlagenen Techniken werden mit verschiedenen Arten von Parametern getestet, darunter (i). FDQs, (ii). Linker Deep Tree (LDT) und Bushy Tree (BT) und (iii) Netzwerktopologien. Die vorgeschlagenen Techniken werden im Rahmen von zwei Bereichen getestet, darunter (i) Fahrzeuge und (ii) Heizungs-, Lüftungs- und Klimaanlagen (HVAC). Diese vorgeschlagenen Methoden zeigen eine signifikante Reduzierung der Markenbreite und liefern überzeugende Ergebnisse mit verschiedenen Parametern.</abstract>
+                    <abstract type="content" lang="eng">In recent years numerous control systems were deployed with safety-critical components comprised of real time embedded systems. These systems have electronic control units connected by networks, sensors and actuators. These systems demand high levels of reliability and have strict timing constraints especially in case of fault occurrence. One method to achieve this reliability is to introduce continuous monitoring and active diagnosis in the system. For implementing the active diagnosis in real-time systems, processing of diagnostic queries needs to satisfy the strict timing bounds. Our optimization algorithms minimize the overall makespan of Diagnostic Mutli-Query Graphs (DMG) in order to meet timing bounds. The overall makespan of the DMG is minimized by applying query optimization and graph optimization techniques. Query optimization is applied to the Fault Diagnostic Queries (FDQs) that are the part of each node of the DMG. The best access methods and best query execution plans are selected for the optimization of FDQs. The graph optimization is also applied to our DMG without affecting the semantics of FDQs. The proposed techniques are tested with different types of parameters including (i). FDQs, (ii). Left Deep Tree (LDT) and Bushy Tree (BT) and (iii) network topologies. The proposed techniques are tested in the context of two domains including (i) vehicles and (ii) Heating Ventilation and Air Conditioning System (HVAC). These proposed methodologies show a significant reduction of the makespan and give convincing results with different parameters.</abstract>
+                    <subject>
+                        <topic>Echtzeitsystem</topic>
+                        <topic>Real time systems</topic>
+                        <topic>Fault detection and diagnosis</topic>
+                        <topic>Fault diagnostic queries</topic>
+                        <topic>Worst case execution time</topic>
+                        <topic>Diagnostic multi-query graphs</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Department Elektrotechnik - Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-15714</identifier>
+                    <identifier type="sys">HT020379999</identifier>
+                    <accessCondition type="use and reproduction">CREATIVECOMMONS.ORG PUBLICDOMAIN ZERO 1.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1571</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2020-01-27</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1571">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1571/4/Dissertation_Nadra_Tabassam.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1571"
+            DMDID="DMD_siegen_opus_1571">
+            <mets:fptr FILEID="FILE0_siegen_opus_1571"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

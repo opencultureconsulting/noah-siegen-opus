@@ -1,0 +1,68 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>969</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">A modelling framework for systems-of-systems with real-time and reliability requirements</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Modellierungsframework für System-of-Systems mit Echtzeit- und Zuverlässigkeitsanforderungen</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Imad</pc:foreName>
+            <pc:surName>Sanduka</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Komplexes System</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">System-of-Systems</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Zuverlässigkeit</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Modellierung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Architecture frameworks</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">System-of-Systems</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Methodology</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Patterns</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Reliability</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The design and development of large and complex systems, such as System of Systems (SoS) with autonomous constituent systems is gaining increasing importance in many application domains (e.g., medical, aerospace, military and transportation). The wide scale and huge number of interactions involved in SoS makes it difficult to model and analyse the SoS architecture through state-of-the-art techniques for modelling, architecture development and analysis of monolithic systems. SoS are large-scale concurrent and distributed systems that are comprised of autonomous constituent systems with operational and managerial independence. The characteristics of SoS result in various challenges during the system design. It is necessary to consider emergent behaviour, an evolutionary development process, and an increased state space. In particular, these challenges are unsolved when moving form directed SoS, where the system has central control, towards virtual SoS with no central management and no common purpose ascribed to the constituent systems. &#13;
+In addition to meeting functional requirements, a major challenge is the design space exploration and optimisation of non-functional properties among heterogeneous constituent systems such as reliability, timeliness, safety and security. Many SoS are real-time systems where timing requirements are central to the development process. The failure in meeting these requirements in the late stages of the SoS development can be avoided by introducing them already in the architecture development. Likewise, many SoS represent critical infrastructures that provide safety-relevant services to the users and the environment. Therefore, the specified reliability of the SoS must be guaranteed despite failures of individual constituent systems using fault-tolerance mechanisms. &#13;
+The state-of-the-art modelling approaches describe the SoS using architecture frameworks such as the US Department of Defence Architecture Framework (DoDAF), British Ministry of Defence Architecture Framework (MODAF) and NATO Architecture Framework (NAF). However, these frameworks do not offer a precise connection between the different views of the SoS, which is needed to enable design exploration technologies, reusability and design automation using integrated tool chains. In addition, significant non-functional system properties (e.g., real time, reliability) are not addressed in the state-of-the-art modelling frameworks. &#13;
+This thesis addresses the research gap by establishing a modelling framework that extends the current SoS frameworks to link the different views, and to satisfy real-time and reliability requirements. We provide a methodology that uses design exploration techniques and tools for SoS architecture optimization. The use of architecture patterns is introduced to enhance the model re-usability and facilitate the model evolution.  &#13;
+Scientific contributions beyond the state-of-the-art include a Model Based System Engineering (MBSE) methodology for SoS architecting based on the Unified Profile for DoDAF and MODAF (UPDM) with extensions to support significant SoS properties such as timing requirements and reliability. The methodology supports an architecture optimisation process based on Mixed Integer Linear Programming (MILP) connected to architecture patterns that enhance the model reusability. The developed modelling language and design methods are evaluated using simulations and example scenarios.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Systems-of-Systems (SoS) stellen große, komplexe Systeme dar, die in zahlreichen Anwendungsgebieten zunehmend an Bedeutung gewinnen (z.B. Medizin, Raumfahrt, Militär, Transportsysteme). Der große Umfang sowie die hohe Anzahl an Interaktionen in SoS erschweren deren Modellierung und die Analyse mit Verfahren des Stands der Technik aus monolithischen Systemen. SoS sind großangelegte, parallele verteilte Systeme, deren autonome Teilsysteme operativ und administrativ unabhängig sind. Diese Besonderheit führt zu vielfältigen Herausforderungen beim Entwurf dieser Systeme. Emergentes Verhalten, ein evolutionärer Entwicklungsprozess sowie ein vergrößerter Zustandsraum müssen berücksichtigt werden. Diese Herausforderungen sind insbesondere in virtuellen SoS ungelöst, bei denen für die Teilsysteme kein zentrales Management und kein gemeinsames Ziel vorgesehen ist.  &#13;
+Zusätzlich zur Erfüllung funktionaler Anforderungen besteht eine große Herausforderung bei der Optimierung des Entwurfsraums bezüglich der nichtfunktionalen Eigenschaften der heterogenen Teilsysteme (z.B. Zuverlässigkeit, Echtzeitfähigkeit und Sicherheit). Viele SoS sind Echtzeitsysteme, bei denen die zeitlichen Anforderungen ein zentraler Bestandteil des Entwicklungsprozesses sind. Die kostspielige Nichterfüllung dieser Anforderungen in späten Phasen der Entwicklung kann durch die frühzeitige Einbeziehung der Echtzeitanforderungen in die Architekturentwicklung vermieden werden. Häufig sind SoS auch kritische Infrastrukturen für sicherheitsrelevante Dienste. Daher muss die spezifizierte Zuverlässigkeit des SoS unabhängig von der Zuverlässigkeit der einzelnen Teilsysteme durch Fehlertoleranzmechanismen gewährleistet werden. &#13;
+Bei den Modellierungsansätzen im Stand der Technik werden SoS durch Architekturframeworks wie das US Department of Defence Architecture Framework (DoDAF), das British Ministry of Defence Architecture Framework (MODAF) und das NATO Architecture Framework (NAF) beschrieben. Diese Frameworks bieten jedoch keine präzise Verbindungen zwischen verschiedenen Ansichten eines SoS, welche notwendig wären um Techniken für Design-Exploration, Wiederverwendbarkeit und Designautomatisierung durch integrierte Werkzeugketten zu ermöglichen. Des Weiteren werden wesentliche nichtfunktionale Systemeigenschaften wie Echtzeitfähigkeit und Zuverlässigkeit nicht adressiert. &#13;
+Diese Doktorarbeit adressiert jene Forschungslücke durch die Entwicklung eines Modellierungsframeworks, welches die derzeitigen SoS-Frameworks erweitert. Das Framework stellt eine Verbindung zwischen verschiedenen Ansichten her und unterstützt Echtzeit- und Zuverlässigkeitsanforderungen. Zudem werden Techniken für Design-Exploration und Werkzeuge für die Optimierung von SoS-Architekturen eingeführt. Architekturmuster erleichtern die Wiederverwendbarkeit der Modelle und verbessern die Evolution der Modelle. &#13;
+Die wissenschaftlichen Beiträge über den Stand der Technik hinaus beinhalten modellbasierte SystemsEngineering Methoden für die Erstellung von SoS-Architekturen basierend auf dem Unified Profile für DoDAF und MODAF (UPDM) mit Erweiterungen zur Unterstützung von Echtzeitfähigkeit und Zuverlässigkeit. Die Methodik unterstützt einen Architekturoptimierungsprozess basierend auf Mixed Integer Linear Programming (MILP) in Verbindung mit Architekturmustern. Die entwickelte Modellierungssprache und die Designmethoden wurden mithilfe von Simulationen und Beispielsszenarien evaluiert.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2015-10-01</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2015</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-9695</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Praktische und Technische Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Imad_Sanduka.pdf" ddb:fileSize="12668182"/>
+   <ddb:checksum ddb:type="MD5">1e6d1f5d8097305085536c76afbe0f3a</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/969/1/Dissertation_Imad_Sanduka.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/969</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

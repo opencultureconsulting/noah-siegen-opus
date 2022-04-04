@@ -1,0 +1,77 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>2116</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Time-triggered architecture for online diagnosis in resource-constrained systems with compressed data streams</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Zeitgesteuerte Architektur für Online-Diagnose in ressourcenbeschränkten Systemen mit komprimierten Datenströmen</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Simon Julius</pc:foreName>
+            <pc:surName>Meckel</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Echtzeitsystem</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Distributed real-time systems</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Online fault diagnosis</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Data compression</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Verteilte Echtzeitsysteme</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Online-Fehlerdiagnose</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Coping with limited communication resources in distributed real-time systems is a major challenge nowadays. With regard to high-dependable and safety-critical systems (e.g., flight control systems and advanced driver assistance systems) the use of a time-triggered architecture is advantageous, since the periodic task executions and message exchanges according to a static schedule maximize the predictability compared to event-triggered systems. These systems efficiently realize fault tolerance by means of online and active fault diagnosis that enables redundancy-based fault-specific recovery or degradation strategies, e.g., system reconfigurations. In this way, they are able to overcome a failure or malfunction of some of their constituent components and continue to operate. As many systems are becoming more and more complex, there is an ever-growing amount of network traffic for monitoring and diagnostic purposes. In many cases, this causes the communication network to become the limiting resource, which can negatively impact the lengths of schedules, i.e., lead to longer overall service times, and reduce the maximum level of integration of different services in one system.&#13;
+&#13;
+The use of data compression can help to reduce network traffic. However, due to the specific requirements and constraints of both time-triggered systems and diagnostic applications, some of which are contradictory, classical data compression algorithms cannot be straightforwardly applied. The difficulty lies in reconciling the needs for guaranteed data quality as well as temporal guarantees regarding information delivery. Lossless data compression does not support a certain worst-case compression ratio on short input sequences, but produces variable-length outputs. Therefore, it is difficult to guarantee the amount of information that will be encoded into a time-triggered message or, in turn, to guarantee the number of messages needed to transmit a certain amount of information. In lossy data compression, fixed-length outputs can be produced, but the quality of the reconstructed data might degrade. With respect to fault diagnosis, both incomplete or delayed data transmissions and reduced data quality lead to inaccurate fault identifications, which subsequently affects the fault recovery capabilities.&#13;
+&#13;
+This thesis addresses the challenge of handling an increasing amount of network traffic within distributed time-triggered systems, with a particular focus on the data needed for diagnostic analyses. The thesis first presents a time-triggered architecture definition, including a compression model, that enables a systemwide coordination of data compression. Algorithms are then presented that go beyond the state of the art and realize online data compression in time-triggered systems. Specifically, the design of the novel algorithms allows the redundancy between multiple data streams to be exploited for compression by encoding the data simultaneously as tuples in a dynamic multidimensional product space. Correlated data streams are found as characteristic patterns in a low-dimensional subspace, which the compression algorithm covers by dynamically maintained dictionaries. This design also enables compressed data streams to be directly merged and split at arbitrary nodes within distributed systems, thus providing superior compression performance when the sources (or destinations) of multiple data streams are different. As key features, the presented data compression algorithms provide real-time capability through short worst-case compression and decompression times and, in addition, a worst-case compression ratio on short input sequences and a mechanism that guarantees a desired data quality with respect to the application.&#13;
+&#13;
+The experimental evaluations show the advantages of compressed messages in resource-constrained real-time systems. Considering the trade-off between the reduction of communication times and the overhead in terms of computation times for compression, the analyses highlight the reduction potential in the response times of a time-triggered system. Compression allows to guarantee shorter deadlines and a higher integration of different services in one system. Providing a worst-case compression ratio on short input sequences, the online compression algorithms are not completely lossless, so the impact of degraded data quality is evaluated using a fault diagnosis use case and multiple test datasets that allow generalized conclusions. Especially with respect to the ability of the algorithms to compress multiple correlated data streams simultaneously, the evaluations show the scalability of the compression benefits for large systems. Savings from 40% up to 56% of the bits are observed in the analyzed scenarios. A comparison with other compression techniques highlights the advantages of the developed online data compression algorithms.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Der Umgang mit begrenzten Kommunikationsressourcen in verteilten Echtzeitsystemen ist heutzutage eine große Herausforderung. Im Hinblick auf hochzuverlässige und sicherheitskritische Systeme (z. B. Flugsteuerungssysteme und moderne Fahrerassistenzsysteme) ist die Verwendung einer zeitgesteuerten Architektur von Vorteil, da durch die periodischen Task-Ausführungen und den Nachrichtenaustausch nach einem statischen Zeitplan die Vorhersagbarkeit im Vergleich zu ereignisgesteuerten Systemen maximiert ist. Fehlertoleranz wird in diesen Systemen effizient durch Online- und aktive Fehlerdiagnose realisiert, die redundanzbasierte fehlerspezifische Wiederherstellungs- oder Degradationsstrategien, z. B. Systemrekonfigurationen, ermöglicht. Somit sind sie in der Lage, einen Ausfall oder eine Fehlfunktion einiger ihrer Komponenten zu kompensieren und weiterzuarbeiten. In immer komplexer werdenden Systemen entsteht ein ständig wachsender Netzwerkverkehr für Überwachungs- und Diagnosezwecke. Dies führt in vielen Fällen dazu, dass das Kommunikationsnetzwerk zur begrenzenden Ressource wird, was sich negativ auf die zeitlichen Ablaufpläne auswirken kann, d. h. zu längeren Ausführungszeiten der Dienste insgesamt führt, sowie die maximal mögliche Integration verschiedener Dienste in einem System verringert.&#13;
+&#13;
+Der Einsatz von Datenkompression kann zur Reduzierung des Netzwerkverkehrs beitragen. Aufgrund der spezifischen Anforderungen von zeitgesteuerten Systemen einerseits sowie Diagnoseanwendungen andererseits, die sich zum Teil widersprechen, können klassische Datenkompressionsalgorithmen nicht ohne Weiteres angewendet werden. Die Schwierigkeit liegt in der Vereinbarung der Anforderungen an eine garantierte Datenqualität mit zeitlichen Garantien bezüglich der Informationsübermittlung. Verlustfreie Datenkompression unterstützt kein bestimmtes Worst-Case-Kompressionsverhältnis auf kurzen Eingangssequenzen, sondern erzeugt Ausgaben variabler Länge. Daher ist es schwierig zu garantieren, wie viel Information in eine zeitgesteuerte Nachricht kodiert werden kann, bzw. die Anzahl an Nachrichten zu garantieren, die zur Übermittlung einer bestimmten Informationsmenge benötigt werden. Bei der verlustbehafteten Datenkompression können Ausgaben mit fester Länge erzeugt werden, jedoch kann die Qualität der rekonstruierten Daten vermindert sein. Im Hinblick auf Fehlerdiagnose führen sowohl unvollständige oder verzögerte Datenübertragungen als auch eine verminderte Datenqualität zu ungenauen Fehleridentifikationen, was sich wiederum auf die Möglichkeiten zur Fehlerbehandlung auswirkt.&#13;
+&#13;
+Diese Arbeit befasst sich mit der Herausforderung, den zunehmenden Netzwerkverkehr in verteilten, zeitgesteuerten Systemen zu bewältigen. Ein besonderer Schwerpunkt liegt dabei auf für Diagnoseanalysen benötigten Daten. Die Arbeit stellt zunächst eine zeitgesteuerte Architekturdefinition, einschließlich eines Kompressionsmodells, vor, die eine systemweite Koordination von Datenkompression ermöglicht. Anschließend werden über den Stand der Technik hinausgehende Algorithmen vorgestellt, die eine Online-Datenkompression in zeitgesteuerten Systemen realisieren. Insbesondere ermöglicht das Design der neuartigen Algorithmen die Ausnutzung von Redundanz zwischen mehreren Datenströmen für die Kompression, indem die Daten in einem dynamischen multidimensionalen Produktraum gleichzeitig als Tupel kodiert werden. Korrelierte Datenströme werden als charakteristische Muster in einem niedrigdimensionalen Unterraum erkannt, die der Kompressionsalgorithmus durch dynamisch verwaltete Wörterbücher abdeckt. Dieses Design ermöglicht es zudem, komprimierte Datenströme an beliebigen Knoten innerhalb eines verteilten Systems direkt zusammenzuführen und aufzuteilen, was eine überlegene Kompressionsperformance ermöglicht, wenn die Quellen (bzw. Senken) mehrerer Datenströme unterschiedlich sind. Als wesentliche Merkmale bieten die vorgestellten Datenkompressionsalgorithmen Echtzeitfähigkeit durch kurze Worst-Case-Kompressions- und Dekompressionszeiten sowie zusätzlich eine Worst-Case-Kompressionsrate auf kurzen Eingangssequenzen und einen Mechanismus, der eine gewünschte Datenqualität im Hinblick auf die Anwendung garantiert.&#13;
+&#13;
+Die experimentellen Auswertungen zeigen die Vorteile von komprimierten Nachrichten in ressourcenbeschränkten Echtzeitsystemen. Unter Berücksichtigung des Trade-offs zwischen der Reduktion von Kommunikationszeiten und dem Overhead in Form von Rechenzeiten für die Kompression verdeutlichen die Analysen das Reduktionspotenzial bei den Reaktionszeiten eines zeitgesteuerten Systems. Durch eine Datenkompression lassen sich kürzere Antwortzeiten garantieren sowie eine höhere Integration von verschiedenen Diensten in einem System realisieren. Da die Online-Kompressionsalgorithmen eine Worst-Case-Kompressionsrate auf kurzen Eingabesequenzen aufweisen, sind sie nicht vollständig verlustfrei, sodass die Auswirkungen einer verminderten Datenqualität anhand eines Diagnose-Anwendungsfalls und mehrerer Testdatensätze evaluiert werden, die verallgemeinernde Schlussfolgerungen erlauben. Insbesondere im Hinblick auf die Fähigkeit der Algorithmen, mehrere korrelierte Datenströme gleichzeitig zu komprimieren, zeigen die Auswertungen die Skalierbarkeit der Kompressionsvorteile für große Systeme. Einsparungen von 40 % bis zu 56 % der Bits werden in den analysierten Szenarien erreicht. Ein Vergleich mit anderen Kompressionsverfahren unterstreicht die Vorteile der entwickelten Online-Datenkompressionsalgorithmen.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Roman</pc:foreName>
+            <pc:surName>Obermaisser</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2021-09-27</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2021</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-21164</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Department Elektrotechnik - Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Simon_Julius_Meckel.pdf" ddb:fileSize="2276777"/>
+   <ddb:checksum ddb:type="MD5">080ba04e6ae901397dc6d050235ebd79</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/2116/4/Dissertation_Simon_Julius_Meckel.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/2116</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

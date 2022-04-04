@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1315">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Paragone 1900 : Studien zum Futurismus</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Erstić, Marijana</displayForm>
+                        <namePart type="family">Erstić</namePart>
+                        <namePart type="given">Marijana</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Das 20. Jahrhundert kann als ein neues Jahrhundert der Verunsicherung definiert werden. Aus medienwissenschaftlicher Sicht wird oftmals von einer Krise der Gestik und der Bewegung in Bildern und Texten zu Beginn des 20. Jahrhunderts gesprochen, die einhergeht mit der Entwicklung neuer Medien.  Diese verweist auf einen neuen Paragone als einen Vergleich zwischen den alten Künsten und den neuen Medien, wie er im Rahmen des Ersten italienischen Futurismus (1909–1918) zu beobachten ist: Die damals neuen Medien Photographie und Film stehen in einem Wettstreit mit den wesentlich älteren Künsten Malerei und Skulptur. Die Autorin analysiert die technisch-medialen Erneuerungen als Veränderung der Wahrnehmungsmuster im italienischen Futurismus und in dessen künstlerischer Nachfolge im Rahmen einer intermedial sowie komparatistisch ausgerichteten Studie.</abstract>
+                    <abstract type="content" lang="eng">The twentieth century can be defined as a new century of insecurity and uncertainty. Within media studies, people often speak about a crisis of gestures and movement in pictures and texts at the beginning of the 20th century, which accompanies the development of the new media. This refers to a new paragone, a comparison of the old arts and the new media, as can be observed in the First Italian Futurism (1909–1918). The new media photography and film compete with the much older arts painting and sculpture. In this intermedial and comparative study, the author analyzes the new technical and medial developments as a change in perceptual patterns in Italian Futurism and in the artistic developments which followed.</abstract>
+                    <subject>
+                        <topic>Warburg, Aby Moritz 1866-1929</topic>
+                        <topic>Erster Futurismus</topic>
+                        <topic>Zweiter Futurismus</topic>
+                        <topic>Intermedialität</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät I Philosophische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-13150</identifier>
+                    <identifier type="sys">HT019700986</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1315</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaHabil</vl:doctype>
+                        <vl:defenseDate>2016-11-23</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1315">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1315/1/Habilitationsschrift_Marijana_Erstic_2.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1315"
+            DMDID="DMD_siegen_opus_1315">
+            <mets:fptr FILEID="FILE0_siegen_opus_1315"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

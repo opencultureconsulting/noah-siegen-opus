@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1233">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Perspektiven der Psychologie auf die Soziale Arbeit</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Heck, Manfred</displayForm>
+                        <namePart type="family">Heck</namePart>
+                        <namePart type="given">Manfred</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Angesichts der vielen Facetten, welche die beiden Wissenschaftsdisziplinen „Psychologie“ und „Soziale Arbeit“ abdecken, kann ein Blick über den „Gartenzaun“ des einen Faches hinüber in den Garten des Nachbarn notwendig nur pointilistisch einige Aspekte aufgreifen. Ein solcher Blick hin zum Nachbarn dient meist der Orientierung, ob und inwieweit man friedlich nebeneinander leben kann, ob man sich gegenseitig etwas zu sagen und zu geben hat oder ob man vom Anderen gar Ungutes zu erwarten hätte. Um sich also ein Bild von ihm zu machen, erscheint es als eine sinnvolle Strategie, zunächst von der Selbstbeschreibung des Anderen auszugehen. Der Dachverband International Federation of Social Workers (IFSW), International Association of Schools of Social Work, definiert seinen Gegenstandsbereich wie folgt: „Soziale Arbeit als Beruf fördert den sozialen Wandel und die Lösung von Problemen in zwischenmenschlichen Beziehungen, und sie befähigt die Menschen, in freier Entscheidung ihr Leben besser zu gestalten. Gestützt auf wissenschaftliche Erkenntnisse über menschliches Verhalten und soziale Systeme greift soziale Arbeit dort ein, wo Menschen mit ihrer Umwelt in Interaktion treten. Grundlagen der Sozialen Arbeit sind die Prinzipien der Menschenrechte und der sozialen Gerechtigkeit“ (DBSH 2012).</abstract>
+                    <subject>
+                        <topic>Psychologie</topic>
+                        <topic>IFSW</topic>
+                        <topic>DBSH</topic>
+                        <topic>psycho-soziale Beratung</topic>
+                        <topic>Sozialtherapie</topic>
+                        <topic>Case-Management</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-12335</identifier>
+                    <identifier type="sys">HT019893253</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1233</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1233">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1233/1/Heck_Perspektiven_der_Psychologie.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1233"
+            DMDID="DMD_siegen_opus_1233">
+            <mets:fptr FILEID="FILE0_siegen_opus_1233"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

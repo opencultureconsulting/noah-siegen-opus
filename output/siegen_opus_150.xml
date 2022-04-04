@@ -1,0 +1,98 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_150">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Measurement of surface forces of adsorbed layers on smooth substrates</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Franz, Volker</displayForm>
+                        <namePart type="family">Franz</namePart>
+                        <namePart type="given">Volker</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2001</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The forces between surfaces determine the properties of many biological systems. This
+makes them an important field of study. With an atomic force microscope (AFM) such
+surface forces can be measured easily. In such measurements the AFM tip and the sample
+are approached and the force on the tip is recorded. It was the objective of this work
+to investigate the ubiquitous jumps of the tip towards the substrate both theoretically
+and experimentally. It is known that jumps occur if the gradient of an attractive force
+exceeds the spring constant of the cantilever. In this work a nucleation theory was developed
+that describes the jumps on a two-dimensional liquid film on a surface. These
+jumps correspond to the penetration of the tip through the liquid layer. The penetration
+is thermally activated. Theory predicts that the force at which the penetration occurs
+increases if the approach velocity between AFM tip and substrate increases. Parameters
+of the theory are the jump rate of the tip and an activated volume. Two different systems
+were investigated experimentally. A thermally activated jump was found for double
+layers of two model lipids, adsorbed on mica in electrolyte solution. Contrastingly,
+for the interaction between AFM tip and mica and graphite, both immersed in nalcohols
+with 2 to 8 carbon atoms, a periodic force profile was found. This force leads
+to a jump that is not thermally activated. Models for the structure of the alcohol molecules
+on the substrates are proposed that are based on the force profile.</abstract>
+                    <abstract type="content" lang="ger">Mit dem Rasterkraftmikroskop (RKM) können Oberflächenkräfte experimentell
+einfach gemessen werden. Bei diesen Messungen nähern sich RKM-Spitze und Probe
+an, während die Kraft auf die Spitze aufgezeichnet wird. Die vorliegende Arbeit
+beleuchtet die dabei häufig beobachteten Einsprünge der Spitze des
+Rasterkraftmikroskops in Richtung des Substrats sowohl theoretisch als auch
+experimentell. Bekannt war, daß Einsprünge auftreten, wenn der Gradient einer
+attraktiven Oberflächenkraft die Federkonstante des RKM-Feder übersteigt. In dieser
+Arbeit wurde eine Nukleationstheorie entwickelt, die Einsprünge von RKM-Spitzen auf
+einem zweidimensionalen flüssigen Film auf einer Oberfläche beschreibt. Die
+Einsprünge entsprechen einem Durchbruch der Spitze durch den Film und sind
+thermisch aktiviert. Die Theorie sagt voraus, daß die Einsprungkraft mit steigender
+Annäherungsgeschwindigkeit der RKM-Spitze an das Substrat zunimmt. Parameter der
+Theorie sind die Anzahl der Durchstöße pro Sekunde der RKM-Spitze durch den
+flüssigen Film und ein aktiviertes Volumen. Experimentell werden zwei
+unterschiedliche Systeme untersucht. Ein thermisch aktivierter Einsprung wurde an
+Doppelschichten aus zwei Modell-Lipiden gefunden, die in Elektrolytlösung auf
+Glimmer adsorbiert sind. Für die Wechselwirkung zwischen RKM-Spitze und Glimmer
+beziehungsweise Graphit in n-Alkoholen mit zwei bis acht Kohlenstoffatomen wurde
+hingegen ein oszillierendes Kraftprofil nachgewiesen. Dieses Kraftprofil führt zu einem
+Einsprung, der nicht thermisch aktiviert ist. Aufgrund des Kraftprofils wurden Modelle
+für die Struktur der Alkoholmoleküle auf beiden Substraten entwickelt.</abstract>
+                    <subject>
+                        <topic>Rasterkraftmikroskopie</topic>
+                        <topic>Lipiddoppelschichten</topic>
+                        <topic>Solvatationskräfte</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 8, Chemie - Biologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1504</identifier>
+                    <identifier type="sys">HT013280522</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_150</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2002-01-31</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_150">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/150/1/franz.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_150"
+            DMDID="DMD_siegen_opus_150">
+            <mets:fptr FILEID="FILE0_siegen_opus_150"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

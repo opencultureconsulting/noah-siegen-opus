@@ -1,0 +1,119 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1536</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Grammar-based compression for strings and trees</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Grammatik-basierte Kompression von Wörtern und Bäumen</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Danny</pc:foreName>
+            <pc:surName>Hucke</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Datenkompression</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Kompression</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Bäume</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Grammar-based compression</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">strings</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Das Ziel grammatik-basierter Datenkompression ist es ein Wort (oder einen&#13;
+Text) durch eine kontextfreie Grammatik darzustellen, die ausschließlich dieses&#13;
+Wort erzeugt. Eine kontextfreie Grammatik mit dieser Eigenschaft wird als&#13;
+Straight-line Program (SLP) bezeichnet. Grammatik-basierte Kompression ist&#13;
+ein nützliches Werkzeug um Daten zu komprimieren und verschiedene Anfragen&#13;
+effizient mit Hilfe der komprimierten Repräsentation zu beantworten ohne diese&#13;
+vorher zu dekomprimieren. Im ersten Teil dieser Arbeit werden die grammatikbasierten&#13;
+Kompressoren LZ78, BiSection, RePair, Greedy und LongestMatch untersucht,&#13;
+die zu den bekanntesten Algorithmen in diesem Bereich zählen. In der&#13;
+bedeutenden Veröffentlichung "The smallest grammar problem" von Charikar et&#13;
+al. wurden untere und obere Schranken für die Approximationsgüte verschiedenster&#13;
+grammatik-basierter Kompressoren gezeigt, darunter die oben genannten.&#13;
+Leider besteht für jeden Algorithmus eine Lücke zwischen der unteren und oberen&#13;
+Schranke. In dieser Arbeit werden diese Lücken für die Kompressoren LZ78 und&#13;
+BiSection geschlossen. Des Weiteren werd für RePair und für Greedy die unteren Schranken verbessert.&#13;
+Ein weiteres Ergebnis dieser Arbeit verbessert&#13;
+ein Resultat von Arpe und Reischuk, welches grammatik-basierte Kompression&#13;
+ über beliebigen Alphabeten und binären Alphabeten verbindet.&#13;
+Im zweiten Teil dieser Arbeit betrachten wir grammatik-basierte Kompression&#13;
+für Bäume. Das Prinzip ist ähnlich, da in diesem Kontext ein Baum durch eine&#13;
+lineare, kontextfreie Baumgrammatik erzeugt wird. Eine solche Grammatik&#13;
+wird Tree Straight-line Program (TSLP) genannt. Als Hauptresultat in diesem&#13;
+Zusammenhang werden zwei Algorithmen präsentiert, die für einen Baum mit n&#13;
+Knoten und konstant vielen verschiedenen Beschriftungen der Knoten ein TSLP der Gr öße&#13;
+O(n/log n) generieren. Zusätzlich wird erreicht, dass das TSLP logarithmische&#13;
+Tiefe hat. Diese Eigenschaften können in logarithmischen Platz oder alternativ&#13;
+in linearer Zeit erreicht werden. Entsprechende Resultate für grammatik-basierte&#13;
+Kompression von Wörtern sind wohl bekannt.&#13;
+Es werden zusätzlich zwei Anwendungen präsentiert: Zuerst werden TSLPs&#13;
+für die Umwandlung von arithmetischen Formeln zu arithmetischen Schaltkreisen&#13;
+der Größe O((n*log m)/log n) und Tiefe O(log n) genutzt, wobei n die Größe&#13;
+der Formel und m die Anzahl verschiedener Variablen in der Formel ist. Als&#13;
+zweite Anwendung wird eine binäre Kodierung von unbeschrifteten Binärbäumen&#13;
+auf der Basis von grammatik-basierter Baumkompression präsentiert. Es wird&#13;
+gezeigt, dass diese Kodierung unter gewissen Voraussetzungen asymptotisch&#13;
+optimal ist.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The goal of grammar-based compression is to represent a string by a small context-free grammar that produces only this string.&#13;
+Such a grammar is called a straight-line program (SLP).&#13;
+Grammar-based compression is a powerful tool to efficiently store data and process the compressed representation without decompressing it.&#13;
+In the first part of this work, we study the grammar-based compressors LZ78, BiSection, Repair, Greedy and LongestMatch, which are among the most popular compressors in this area.&#13;
+In the seminal work "The smallest grammar problem" by Charikar et al., the authors derived lower and upper bounds on the approximation ratios of several grammar-based compressors including the algorithms mentioned above.&#13;
+Unfortunately, for none of the compressors the presented bounds matched.&#13;
+Here, we close the gaps for LZ78 and BiSection.&#13;
+For RePair and Greedy we improve the lower bounds.&#13;
+Moreover, we improve a result of Arpe and Reischuk which relates grammar-based compression for arbitrary alphabets and binary alphabets.&#13;
+In the second part of this work, we consider grammar-based compression for trees.&#13;
+The main principle is similar, because the goal is to represent a tree by a small linear context-free tree grammar that produces only this tree.&#13;
+Such a tree grammar is called a tree straight-line program (TSLP).&#13;
+As a main contribution, we present two algorithms that produce a TSLP of size O(n/log n) for any given tree with n nodes and a constant set of node labels, where we assume that the maximal number of children of a node in the tree is also bounded by a constant.&#13;
+Additionally, the obtained TSLP has logarithmic depth.&#13;
+We show that those properties can be achieved in logarithmic space, or alternatively, in linear time.&#13;
+Similar results on the worst-case size of SLPs are well known.&#13;
+&#13;
+We use our constructions for two applications: First, we apply TSLPs to the problem of transforming arithmetical formulas&#13;
+into equivalent circuits of size O((n*log m)/log n) and depth O(log n), where n is the size of the formula and m is number of different variables occurring in the formula.&#13;
+As a second application, we present a binary encoding of unlabeled binary trees based on grammar-based tree compression.&#13;
+We prove that this encoding is worst-case universal and thus asymptotically optimal for certain tree sources.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Markus</pc:foreName>
+            <pc:surName>Lohrey</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2019-11-25</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2019</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-15361</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">http://creativecommons.org/publicdomain/zero/1.0/</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Theoretische Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Danny_Hucke.pdf" ddb:fileSize="1212154"/>
+   <ddb:checksum ddb:type="MD5">1d2aa511f86d5efb2e013aab1022231b</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1536/4/Dissertation_Danny_Hucke.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1536</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

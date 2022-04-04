@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_601">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Ökonomische Grundbildung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schlösser, Hans Jürgen</displayForm>
+                        <namePart type="family">Schlösser</namePart>
+                        <namePart type="given">Hans Jürgen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schuhen, Michael</displayForm>
+                        <namePart type="family">Schuhen</namePart>
+                        <namePart type="given">Michael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Ökonomische Grundbildung für Erwachsene wurde in der Forschung über Jahre hinweg nicht diskutiert. Angestoßen durch einen Dienstleistungsauftrag des Bundeministeriums für Bildung und Forschung rückte das Thema in den Fokus der Wissenschaft, ohne dass eine grundlegende Auseinandersetzung mit der Begrifflichkeit, der Zielgruppe und den Bildungszielen erfolgte.</abstract>
+                    <abstract type="content" lang="eng">Basic economics education for adults was not discussed in research over years. Triggered by a service contract of the German Federal Ministry of Education and Research the topic has been moved into the focus of science, without a fundamental discussion of the concept, the educational objectives and the target groups had been initiliazed.</abstract>
+                    <subject>
+                        <topic>Grundbildung</topic>
+                        <topic>Erwachsene</topic>
+                        <topic>Literacy</topic>
+                        <topic>Economic Literacy</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-6018</identifier>
+                    <identifier type="sys">HT017140853</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_601</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_601">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/601/1/Oekonomische_Grundbildung.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_601"
+            DMDID="DMD_siegen_opus_601">
+            <mets:fptr FILEID="FILE0_siegen_opus_601"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_770">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Concept, system design, evaluation and safety requirements for a multispectral sensor</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Konzept, Systemdesign, Evaluation und Sicherheitsanforderungen eines multispektralen Sensors</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schwaneberg, Oliver</displayForm>
+                        <namePart type="family">Schwaneberg</namePart>
+                        <namePart type="given">Oliver</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The use of manually fed machines (e.g. table saws) bares risks of injury that are clearly above the average level of other high risk workplaces.
+The wide use of such machines causes severe problems for occupational safety and implies high costs for medical treatments and accident annuities.
+
+This thesis presents a new concept of a multispectral sensor to monitor an area in front of a danger zone to detect the user’s limbs and trigger safeguarding measures to prevent an accident in time.
+The sensor concept realizes a contact-free material classification, which comprises the development of a system design and specific safety requirements with respect to international safety standards.
+Furthermore, a prototypical implementation using four wavebands, which were determined for skin detection through an analysis of reflectance spectra acquired specifically for this purpose, was built.
+
+This sensor comprises an embedded system which is able to perform a material classification within a few milliseconds.
+To achieve this, several algorithms were researched and developed to process the raw sensor readings.
+An evaluation of the presented methods on both real and synthesized sensor data as well as on the prototypical implementation was performed.
+The evaluation yields that the prototype implementing the presented methods can detect human skin reliably within a wide range of measurement conditions, including the presence of interference sources.</abstract>
+                    <abstract type="content" lang="ger">Die Arbeit mit handbeschickten Maschinen (wie z.B. Kreissägen) birgt deutlich höhere Verletzungsrisiken als vergleichbare Arbeitsplätze mit hohem Risikopotential.
+Die weite Verbreitung solcher Maschinen führt zu schwerwiegenden Problemen für den Arbeitsschutz und hohen Kosten für medizinische Behandlungen sowie Unfallrenten.
+
+In dieser Arbeit wird ein neues Konzept eines multispektralen Sensors vorgestellt, welcher den Bereich vor der Gefahrenzone einer Maschine überwachen soll, um Gliedmaßen des Benutzers zu erkennen.
+Ziel ist, rechtzeitig Schutzmaßnahmen einzuleiten, um einen drohenden Unfall zu verhindern.
+
+Das Sensorkonzept ermöglicht eine berührungslose Materialklassifikation.
+Ein entsprechendes Systemdesign und spezielle Sicherheitsanforderungen unter Berücksichtigung internationaler Sicherheitsstandards wurden entwickelt.
+Darüber hinaus wurde ein Prototyp implementiert, welcher vier Wellenlängenbänder verwendet.
+Diese wurden durch eine Analyse von Reflexionsspektren ermittelt, die eigens für diesen Zweck erhoben wurden.
+
+Der Sensor beinhaltet ein Embedded System, welches eine Materialklassifikation innerhalb weniger Millisekunden durchführt.
+Um dies zu erreichen, wurden mehrere Methoden zur Verarbeitung der Sensordaten erforscht und entwickelt.
+Die dargestellten Methoden wurden mit gemessenen und synthetisierten Sensordaten evaluiert. Ebenfalls erfolgte eine Evaluierung der Prototypen, welche die dargestellten Methoden implementieren.
+Die Ergebnisse zeigen, dass menschliche Haut unter verschiedensten Messbedingungen, auch unter Störeinflüssen, verlässlich erkannt wird.</abstract>
+                    <subject>
+                        <topic>Sicherheitstechnik</topic>
+                        <topic>Sensorik</topic>
+                        <topic>Detektionstechnologie</topic>
+                        <topic>DIN EN 61496</topic>
+                        <topic>Nahinfrarot</topic>
+                        <topic>Multispectral sensors</topic>
+                        <topic>skin detection</topic>
+                        <topic>near-infrared</topic>
+                        <topic>contact-free detection</topic>
+                        <topic>IEC 61496</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Bildinformatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-7704</identifier>
+                    <identifier type="sys">HT018107765</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_770</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2013-09-25</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_770">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/770/1/schwaneberg.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_770"
+            DMDID="DMD_siegen_opus_770">
+            <mets:fptr FILEID="FILE0_siegen_opus_770"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

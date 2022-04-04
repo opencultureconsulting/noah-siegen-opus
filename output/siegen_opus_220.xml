@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_220">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Modellierung und optimale Steuerung piezoelektrisch aktuierter Einspritzventile</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mehlfeldt, Dirk</displayForm>
+                        <namePart type="family">Mehlfeldt</namePart>
+                        <namePart type="given">Dirk</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2006</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">In current concepts for fuel injection valves, the importance of piezoelectric elements as actuating devices is steadily increasing. These actuators allow valves to open and to close in less than 200µs while providing beneﬁts in the metering accuracy. However, the resulting accelerations of the injector mechanics usually go together with high amplitudes of the occuring forces. Especially tensile stresses may damage the fragile ceramic and bouncing of contiguous constructive elements has a negative impact on the durability of the valve. Additionally, common injector control implementations do not consider the induced mechanical vibrations which adversely aﬀect the fueling shape. This thesis addresses problems which arise from shortened opening and closing phases and presents measures to reduce these. Chapter 2 compares diﬀerent mathematical approaches to model the nonlinear behaviour of piezoelectric actuators. Special attention is paid to the usability of the models for both actuating and sensing capabilities of the electromechanical transformers. In chapter 3, the actuator equations are incorporated into several mathematical models of the whole injector with lumped and distributed parameters. The models with distributed parameters achieve an acceptable representation of the behaviour of real injectors and provide a detailed insight into the mechanical processes during the injection. Thereby these models can be used to evaluate control strategies. The developed mathematical models of the injectors form the basis for the design of a state space observer in chapter 4 which yields state information of the valve´s mechanics that otherwise would have to be provided by additional cost expensive sensors. Having access not only to the electrical signals but also to the mechanical state, a static optimization of the injector control parameters results in opening and closing processes with minimal strain on the injector and increased acceptability of the fueling shape. In the ﬁnal chapter, measurements validate the derived algorithms and prove the eﬀectivity of the presented control strategy.</abstract>
+                    <subject>
+                        <topic>Piezoaktor</topic>
+                        <topic>Einspritzventil</topic>
+                        <topic>fuel injection valves</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-2209</identifier>
+                    <identifier type="sys">HT014768873</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_220</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2006-06-08</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_220">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/220/1/mehlfeldt.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_220"
+            DMDID="DMD_siegen_opus_220">
+            <mets:fptr FILEID="FILE0_siegen_opus_220"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

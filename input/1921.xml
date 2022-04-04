@@ -1,0 +1,78 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1921</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">A clustering approach for topic filtering within systematic literature reviews</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Peter</pc:foreName>
+            <pc:surName>Burggräf</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Tim</pc:foreName>
+            <pc:surName>Weißer</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Till Moritz</pc:foreName>
+            <pc:surName>Saßmannshausen</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Dennis</pc:foreName>
+            <pc:surName>Ohrndorf</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Johannes</pc:foreName>
+            <pc:surName>Wagner</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Literaturrecherche [vorwiegend nach inhaltlichen Kriterien]</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Systematische Literaturrecherche</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Natürliche Sprachverarbeitung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Systematic literature review</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Natural language processing</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Within a systematic literature review (SLR), researchers are confronted with vast amounts of articles from scientific databases, which have to be manually evaluated regarding their relevance for a certain field of observation. The evaluation and filtering phase of prevalent SLR methodologies is therefore time consuming and hardly expressible to the intended audience. The proposed method applies natural language processing (NLP) on article meta data and a k-means clustering algorithm to automatically convert large article corpora into a distribution of focal topics. This allows efficient filtering as well as objectifying the process through the discussion of the clustering results. Beyond that, it allows to quickly identify scientific communities and therefore provides an iterative perspective for the so far linear SLR methodology.&#13;
+•    NLP and k-means clustering to filter large article corpora during systematic literature reviews.&#13;
+•    Automated clustering allows filtering very efficiently as well as effectively compared to manual selection.&#13;
+•    Presentation and discussion of the clustering results helps to objectify the nontransparent filtering step in systematic literature reviews.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2020</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">article</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-19213</dc:identifier>
+   <dc:source xsi:type="ddb:ISSN">2215-0161</dc:source>
+   <dc:source xsi:type="dcterms:URI">https://doi.org/10.1016/j.mex.2020.100831</dc:source>
+   <dc:source xsi:type="ddb:noScheme">MethodsX ; Volume 7, 100831. - https://doi.org/10.1016/j.mex.2020.100831</dc:source>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/lizenz.txt</dc:rights>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="A_clustering_approach_for_topic_filtering.pdf" ddb:fileSize="1501263"/>
+   <ddb:checksum ddb:type="MD5">ef880d76ac309d5c3ca626206479fb04</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1921/4/A_clustering_approach_for_topic_filtering.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1921</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

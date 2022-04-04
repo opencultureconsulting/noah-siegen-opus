@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_973">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Finite set model predictive control of the PMSM with sine-wave filter</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Prädiktive Regelung einer permanenterregten Synchronmaschine mit Sinusfilter</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Pozo Palma, Paul Marcelo</displayForm>
+                        <namePart type="family">Pozo Palma</namePart>
+                        <namePart type="given">Paul Marcelo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die vorliegende Arbeit befasst sich mit der prädiktiven Regelung einer permanenterregten Synchron Maschine mit Sinusfilter, um die Maschine mit sinusförmigen Größen zu speisen. Das entwickelte Konzept verwendet einen virtuellen mehrstufigen Umrichter, der auf einer konventionellen PWM aufbaut. Zunächst wird eine Schätzung des Spannungsraumzeigers durchgeführt, der mithilfe des Umrichters erzeugt werden soll. Die Berechnung erfolgt auf Grundlage der Gleichungen des mathematischen Models des Systems unter Verwendung eines Luenberger Beobachters und den gemessenen Umrichterströme sowie der Winkelposition. Die Schaltmuster werden berechnet, unter der Annahme, dass der virtuelle mehrstufige Umrichter eine beliebig hohe Anzahl an Stufen hat. Die Kostenfunktion der prädiktiven Regelung wird minimiert, indem ein Netz aus Maschen definiert wird. Dabei entsprechen die Knoten der Maschen den natürlichen Spannungsraumzeigern des virtuellen mehrstufigen Umrichters. Das Zentrum dieses Maschennetzes, das unendlich viele Elemente enthält, korrespondiert mit dem zuvor berechneten Spannungsraumzeiger. Zur Minimierung der Kostenfunktion werden nur diejenigen Werte herangezogen, die dem Maschennetz zugeordnet sind. Nur der Raumzeiger, der bei dieser Optimierung gewählt wird, wird zur Berechnung der Schaltimpulse verwendet. Zur Generierung dieses Raumzeigers kommt eine konventionelle Pulsweitenmodulation (PWM) und einen realer, handelsüblicher Zweipunktwechselrichter zum Einsatz. Das vorgestellte Regelungskonzept ist einfach zu implementieren und liefert eine hohe Dynamik im Drehmoment. Um eine Konvergenz der digitalen Implementierung sicher zu stellen, wird das Runge-Kutta-Verfahren verwendet. Der vorgestellte prädiktive Regler wird komplettiert durch die Verwendung einer sensorlosen Regelung sowie einer Echtzeitidentifikation und -adaption. Das Verfahren erkennt die Maschinenparameter Statorwiderstand und permanent erregter Fluss und passt sie selbstständig an. So ist das Verfahren auch geeignet für hoch dynamische, industrielle Anwendungen.</abstract>
+                    <abstract type="content" lang="eng">In the frame of this work a predictive control for a permanent magnet synchronous machine with LC-Filter aiming sinusoidal voltage at the machine terminals is presented. The proposed scheme assumes a virtual multilevel inverter for the optimization of the cost function and utilizes a conventional pulse width modulator (PWM) thus being a finite control set predictive control scheme. A first estimation of the voltage space phasor, that has to be synthesized by the inverter, is computed by using the equations of the mathematical model of the system enhanced by a Luenberger observer and based on measured inverter currents and the shaft position. The switching patterns are calculated by assuming that the &quot;virtual&quot; inverter has an arbitrary high number of levels. The cost function in a predictive control scheme is minimized by defining a mesh of voltage space phasors that corresponds to the output states of the “virtual” multilevel inverter. The center of this mesh with a finite number of elements corresponds to the first calculated value of the reference voltage. For the minimization only the points belonging to the mesh are considered and the voltage space phasor chosen in this way is then used for the calculation of the switching signals in a conventional space phasor modulator and sent to the real two-level inverter. The proposed scheme results in an easy implementation and delivers good dynamics in the torque behavior. To ensure the convergence on the digital implementation, the Runge-Kutta method is used in each integration step. The proposed predictive controller is complemented by means of sensorless control as well as on-line identification and adaptive parameter tuning, both based on the voltage model method of the machine and working at the same time. This method identifies and adapts all machine parameters simultaneously (resistance and flux) and it is applicable to high-dynamic drives.</abstract>
+                    <subject>
+                        <topic>Prädiktive Regelung</topic>
+                        <topic>Predictive control</topic>
+                        <topic>Permanent magnet machines</topic>
+                        <topic>Observers</topic>
+                        <topic>Convergence of numerical methods</topic>
+                        <topic>Variable speed drives</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Automatisierungstechnik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-9733</identifier>
+                    <identifier type="sys">HT018854486</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_973</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2015-03-13</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_973">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/973/1/Dissertation_PaAl_Marcelo_Pozo_Palma.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_973"
+            DMDID="DMD_siegen_opus_973">
+            <mets:fptr FILEID="FILE0_siegen_opus_973"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

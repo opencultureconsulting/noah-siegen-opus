@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_426">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Methods for the reconstruction of large scale anisotropies of the cosmic ray flux</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Methoden zur Rekonstruktion großräumiger Anisotropien des Flusses der kosmischen Strahlung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Over, Sven</displayForm>
+                        <namePart type="family">Over</namePart>
+                        <namePart type="given">Sven</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2009</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">In cosmic ray experiments the arrival directions, among other properties, of cosmic ray particles from detected air shower events are reconstructed. The question of uniformity in the distribution of arrival directions is of large importance for models that try to explain cosmic radiation. In this thesis, methods for the reconstruction of parameters of a dipole-like flux distribution of cosmic rays from a set of recorded air shower events are studied. Different methods are presented and examined by means of detailed Monte Carlo simulations. Particular focus is put on the implications of spurious experimental effects. Modifications of existing methods and new methods are proposed. The main goal of this thesis is the development of the horizontal Rayleigh analysis method. Unlike other methods, this method is based on the analysis of local viewing directions instead of global sidereal directions. As a result, the symmetries of the experimental setup can be better utilised. The calculation of the sky coverage (exposure function) is not necessary in this analysis. The performance of the method is tested by means of further Monte Carlo simulations. The new method performs similarly good or only marginally worse than established methods in case of ideal measurement conditions. However, the simulation of certain experimental effects can cause substantial misestimations of the dipole parameters by the established methods, whereas the new method produces no systematic deviations. The invulnerability to certain effects offers additional advantages, as certain data selection cuts become dispensable.</abstract>
+                    <abstract type="content" lang="ger">In Experimenten zur kosmischen Strahlung werden, neben anderen Eigenschaften, die Ankunftsrichtungen von Teilchen der kosmischen Strahlung von detektierten Luftschauer-Ereignissen rekonstruiert. Die Frage der Gleichverteilung der Ankunftsrichtungen ist von entscheidender Bedeutung für die Modelle zur Erklärung kosmischer Strahlung. Gegenstand dieser Arbeit sind Methoden zur Rekonstruktion von Parametern einer dipolartigen Flussverteilung kosmischer Strahlung aus einem Satz aufgezeichneter Luftschauer-Ereignisse. Verschiedene Methoden werden vorgestellt und mittels detailierter Monte Carlo Simulationsstudien untersucht. Besonderes Augenmerk wird auf die Auswirkungen störender experimenteller Effekte gerichtet. Es werden Modifikationen der existierenden Methoden und neue Methoden vorgeschlagen. Das Hauptziel dieser Arbeit ist die Entwicklung der horizontalen Rayleigh Analysemethode. Im Gegensatz zu anderen Methoden basiert diese Methode auf der Analyse lokaler Blickrichtungen anstatt globaler siderischer Richtungen. Dadurch können die Symmetrien des Experimentaufbaus besser ausgenutzt werden. Eine Berechnung der Himmelsabdeckung ist zur Durchführung dieser Analyse nicht erforderlich. Anhand weiterer Monte Carlo Simulationen wird die Leistungsfähigkeit der neuen Methode erprobt. Im Falle idealer Messbedingungen ist die neue Methode ähnlich gut oder nur unwesentlich schlechter als etablierte Analysemethoden. Die Simulation bestimmter experimenteller Effekte kann jedoch massive Fehler bei der Einschätzung der Dipolparameter durch die etablierten Methoden hervorrufen, wohingegen die neue Methode keine systematischen Abweichungen hervorruft. Die fehlende Anfälligkeit für bestimmte Effekte bringt weitere Vorteile mit sich. So kann bei der Analyse auf bestimmte Datenschnitte verzichtet werden.</abstract>
+                    <subject>
+                        <topic>Kosmische Strahlung</topic>
+                        <topic>cosmic rays</topic>
+                        <topic>anisotropy</topic>
+                        <topic>data analysis</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 7, Physik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4268</identifier>
+                    <identifier type="sys">HT016236771</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_426</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2010-01-14</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_426">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/426/1/over.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_426"
+            DMDID="DMD_siegen_opus_426">
+            <mets:fptr FILEID="FILE0_siegen_opus_426"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

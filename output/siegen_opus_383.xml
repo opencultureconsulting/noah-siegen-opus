@@ -1,0 +1,81 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_383">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="und">
+                        <title>DeLFI 2007 : die 5. e-Learning Fachtagung Informatik, 17. - 20. September 2007 an der Universität Siegen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Eibl, Christian</displayForm>
+                        <namePart type="family">Eibl</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt␞edt␞edt␞edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Magenheim, Johannes</displayForm>
+                        <namePart type="family">Magenheim</namePart>
+                        <namePart type="given">Johannes</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt␞edt␞edt␞edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schubert, Sigrid</displayForm>
+                        <namePart type="family">Schubert</namePart>
+                        <namePart type="given">Sigrid</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt␞edt␞edt␞edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wessner, Martin</displayForm>
+                        <namePart type="family">Wessner</namePart>
+                        <namePart type="given">Martin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt␞edt␞edt␞edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2007</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">und</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Dieser Tagungsband enthält einen der zwei eingeladenen Vorträge und 23 Beiträge, die vom Programmkomitee aus 46 eingereichten Beiträgen nach einem wissenschaftlichen Begutachtungsprozess ausgewählt wurden. Diese Beiträge beleuchten die folgenden Schwerpunkte der Tagung aus unterschiedlichen Perspektiven: Didaktik des E-Learning, Content-Engineering, Fallstudien &amp; Erfahrungsberichte, Infrastrukturen &amp; Mobilität und Kollaboration. Eine Abrundung erfährt der Tagungsband durch acht zweiseitige Kurzbeiträge, die aktuelle Entwicklungen aufgreifen. Im Rahmen der Konferenz finden drei Workshops mit eigenen Publikationen statt: Web 2.0 and Social Software in Technology enhanced Learning, Rechnerunterstütztes Selbststudium in der Informatik, E-Learning und Literatur.</abstract>
+                    <subject>
+                        <topic>E-Learning</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-3830</identifier>
+                    <identifier type="sys">HT015985168</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_383</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_383">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/383/1/DeLFI_2007.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_383"
+            DMDID="DMD_siegen_opus_383">
+            <mets:fptr FILEID="FILE0_siegen_opus_383"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

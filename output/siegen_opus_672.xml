@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_672">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Quantum gates with trapped ions using magnetic gradient induced coupling</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Khromova, Anastasiya</displayForm>
+                        <namePart type="family">Khromova</namePart>
+                        <namePart type="given">Anastasiya</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Since the original proposal from Cirac and Zoller in 1995 to use trapped ions as a quantum computer and couple a chain of ions through their collective quantize motion, most of the experimental efforts to couple trapped ions have been performed with the use of laser light.  To achieve a high fidelity of the implemented quantum gates, the lasers&apos; frequency, intensity, phase, beam quality, pointing stability and diffraction must be controlled. Additionally, spontaneous emission affects the gate operation. In 2001 a method was proposed to use long-wavelength radiation, such as microwaves or radio-waves, to implement the quantum gates. In practice, an additional inhomogeneous magnetic field is applied to the cooled chain of trapped ions and in this way the ions can be individually addressed in frequency space. Furthermore, the gradient induces a coupling between the ions&apos; internal and motional states and the Ising-type spin-spin coupling (J-coupling) between the ions internal states. We call this method Magnetic Gradient Induced Coupling, MAGIC. By employing MAGIC, it is possible to use microwave radiation instead of optical light, avoiding the fundamental technical limitations mentioned above.
+
+In this thesis a new experimental setup to implement MAGIC is described. Initially, the setup was characterized and then different experiments have been performed that evidenced the spin-spin coupling. The coupling constants have been measured for a two and three ion chain. The measured values are in good agreement with the calculated dependence J propto b^2/vz^2, where b is the magnetic field gradient and vz is the axial trap frequency of the common mode. The measurements demonstrated that the coupling constants can be varied by adjusting the axial trapping potential.
+
+Spin-spin coupling can be used to implement controlled-NOT (CNOT) gates. First, a CNOT gate between two neighboring ions has been performed to demonstrate that the MAGIC method can be used for conditional dynamics. Furthermore, the CNOT gate has been implemented between non-neighboring ions in a three-ion chain as a proof-of principle of a quantum bus employing the ion chain. This has been done here for the first time using the MAGIC method. The quantum nature of a conditional gate is verified via creation of a bipartite entangled Bell state with a fidelity that exceeds the Bell limit and thus proves the existence of entanglement.</abstract>
+                    <abstract type="content" lang="ger">Im Jahr 1995 machten Ignacio Cirac und Peter Zoller den Vorschlag, Ketten von gespeicherten Ionen für den Bau eines Quantencomputers zu nutzen. Dieser Vorschlag wurde experimentell zumeist realisiert, indem die einzelnen Ionen einer Kette mit Hilfe von Laserlicht miteinander verschränkt wurden. Um mit dieser Methode eine hohe Fidelity der implementierten Quantengatter zu erreichen, müssen Frequenz, Intensität und Phase des benutzten Laserlichtes und außerdem das Strahlprofil und die Strahlbeugung sehr stabil und gut einstellbar sein. Zudem beeinflussen spontane Emissionen die Gatteroperationen. Eine Methode, diese fundamentalen technischen Einschränkungen zu umgehen, wurde im Jahr 2001 veröffentlicht. Bei dieser Methode nutzt man langwellige Strahlung wie Mikrowellen oder Radiowellen statt des kurzwelligen Laserlichtes, um Quantengatter zu implementieren. Dafür wird ein zusätzliches inhomogenes Magnetfeld am Ort der Ionenkette angelegt. Dieser Magnetfeldgradient ermöglicht eine Adressierung der einzelnen Ionen der Kette im Frequenzraum. Zudem wird durch den Gradienten eine Kopplung zwischen den inneren und äußeren Zuständen der Ionen erzeugt, es entsteht eine Isingmodell-artige Spin-Spin Kopplung (J-Kopplung) zwischen den Ionen. Diese Methode wird als magnetfeldgradientinduzierte Kopplung, kurz MAGIC (Magnetic Gradient Induced Coupling), bezeichnet.
+
+In der vorliegenden Arbeit wird ein neuartiger experimenteller Aufbau zur Umsetzung des MAGIC-Schemas beschrieben. Zunächst wurde der Aufbau charakterisiert und verschiedene Experimente für eine Evidenz der Spin-Spin Kopplung durchgeführt. An Ionenketten mit zwei bzw. drei Ionen wurden die Kopplungskonstanten vermessen. Die Ergebnisse aus diesen Messungen sind in guter Übereinstimmung mit dem berechneten Zusammenhang J propto b^2/vz^2 (b ist dabei der Magnetfeldgradient, vz die axiale Fallenfrequenz der Normalmode). Mit Hilfe dieser Messungen wurde demonstriert, dass die Kopplungskonstanten durch Variation des axialen Fallenpotentials eingestellt werden können. 
+
+Spin-Spin Kopplung kann dazu genutzt werden, Kontrollierte-Nicht-(CNOT-) Gatter umzusetzen. Im Rahmen dieser Arbeit wurde zunächst ein CNOT-Gatter zwischen zwei benachbarten Ionen ausgeführt und so gezeigt, dass die MAGIC-Methode für die bedingte Dynamik eingesetzt werden kann. Zudem wurde mit der MAGIC-Methode erstmalig ein CNOT-Gatter zwischen zwei nicht benachbarten Ionen einer drei-Ionen-Kette umgesetzt, was der Implementation eines Quantenbusses entspricht. Die Quantennatur der bedingten Gatter wurde gezeigt, indem ein verschränkter Bellzustand mit zwei Ionen erzeugt wurde. Dabei übersteigt die Fidelity das Bell-Limit, eineVerschränkung der Teilchen ist somit bewiesen.</abstract>
+                    <subject>
+                        <topic>Quantenspinsystem</topic>
+                        <topic>gefangene Ionen</topic>
+                        <topic>Quantengatter</topic>
+                        <topic>MAGIC-Methode</topic>
+                        <topic>Spin-Spin Kopplung</topic>
+                        <topic>Magnetfeldgradient induzierte Kopplung</topic>
+                        <topic>linear Paul trap</topic>
+                        <topic>quantum computer</topic>
+                        <topic>quantum information</topic>
+                        <topic>MAGIC method</topic>
+                        <topic>spin-spin coupling</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-6724</identifier>
+                    <identifier type="sys">HT017447182</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_672</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2012-08-09</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_672">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/672/1/khromova.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_672"
+            DMDID="DMD_siegen_opus_672">
+            <mets:fptr FILEID="FILE0_siegen_opus_672"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

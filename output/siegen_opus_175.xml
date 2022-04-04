@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_175">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Schnelle 3D-Objektvermessung mittels PMD/CMOS-Kombizeilensensor und Signalkompressions-Hardware</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hußmann, Stephan</displayForm>
+                        <namePart type="family">Hußmann</namePart>
+                        <namePart type="given">Stephan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2000</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">One of the main topics in the automation and safety engineering is the fast and precise measurement of objects, object dimensions and their spatial position. In the quality control, identification, navigation and monitoring of danger areas the fast and contactless 3D-object measurement plays a major roll. Until now there is no system available solving this task fast, flexible, robust and for an economical price. 
+Common optical sensors sensing only the illumination of points, 1D- and 2D-images. For getting the desired 3D-information a new generation of smart pixel sensors has been developed. They are called photonic mixer devices (PMD). Every PMD-pixel is a complete receiver unit with on-chip signal processing. It not only detects the intensity of the light but also measures the echo propagation time from a modulated light source to a object surface and back to the sensor. With that information it is possible to calculate the image spot position and by it the space coordinate. 
+This thesis presents a sensor system including a sensor chip with a combination of those new smart pixels and a common CMOS linear sensor. That means two different sensor types are implemented on one chip with the same system of coordinates. The standard CMOS line delivers an intensity value with a high spatial resolution and the PMD line delivers the distance values. Therefore for example faulty object dimension measurements caused by contrast differences (Black / White transition) can be avoided by the additional distance values. There are many other application thinkable as well. 
+The less pixel number of the CMOS-line can quasi be increased by an pixel interpolation algorithm. There exist many standard interpolation algorithms. In this work a new algorithm based on chirp signal is proved. First it is simulated on a PC and afterwards it is tried to realized it in practical operation. 
+The electro-optical properties of the new chip are determined. Therefore the measurement behavior of the sensor system can be better predicted. The spectral response e.g. makes it possible to find the best illumination source for the sensor system. 
+The system design is laid out for high-speed processing of the CMOS-line. A FPGA not only generates the trigger signals but also is responsible for signal filtering and processing. For that reason you will get a very high data compression and data output rate. 
+At the end of that thesis the sensor system will be described and some application examples shows the advantages of the new sensor concept.</abstract>
+                    <subject>
+                        <topic>smart optical sensor</topic>
+                        <topic>photonic mixer device (PMD)</topic>
+                        <topic>industrial automation</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1751</identifier>
+                    <identifier type="sys">HT012864795</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_175</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2000-10-16</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_175">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/175/1/hussmann.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_175"
+            DMDID="DMD_siegen_opus_175">
+            <mets:fptr FILEID="FILE0_siegen_opus_175"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

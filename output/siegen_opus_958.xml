@@ -1,0 +1,228 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_958">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Statistical analysis and simulation of design models evolution</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Shariat Yazdi, Hamed</displayForm>
+                        <namePart type="family">Shariat Yazdi</namePart>
+                        <namePart type="given">Hamed</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Tools, algorithms and methods in the context of
+Model-Driven Engineering (MDE) have to be assessed,
+evaluated and tested with regard to different aspects
+such as correctness, quality, scalability and efficiency.
+  Unfortunately, appropriate test models are scarcely
+available and those which are accessible often lack
+desired properties.
+ Therefore, one needs to resort to artificially generated
+test models in practice.
+
+ Many services and features of model versioning systems are 
+motivated from the collaborative development paradigm.
+ Testing such services does not require single models, but
+rather pairs of models, one being derived from the other
+one by applying a known sequence of edit steps.
+ The edit operations used to modify the models should be
+the same as in usual development
+environments, e.g. adding, deleting and changing of
+model elements in visual model editors.
+  Existing model generators are motivated from the
+testing of model transformation engines,
+they do not consider the true nature of evolution
+in which models are evolved through iterative editing steps.
+  They provide no or very little control over the
+generation process and they can generate only single models
+rather than model histories.
+  Moreover, the generation of stochastic and other properties
+of interest also are not supported in the existing approaches.
+
+  Furthermore, blindly generating models through random
+application of edit operations does not yield useful models,
+since the generated models are not (stochastically) realistic
+and do not reflect true properties of evolution in real software
+systems.
+  Unfortunately, little is known about how models of
+real software systems evolve over time, what are the properties
+and characteristics of evolution, how one can mathematically formulate
+the evolution and simulate it.
+
+  To address the previous problems, we introduce a new general
+approach which facilitates generating (stochastically) realistic
+test models for model differencing tools and tools for analyzing 
+model histories.
+  We propose a model generator which addresses
+the above deficiencies and generates or modifies models by
+applying proper edit operations.
+  Fine control mechanisms for the generation process
+are devised and the generator supports stochastic and other
+properties of interest in the generated models.
+  It also can generate histories, i.e. related sequences,
+of models.
+  Moreover, in our approach we provide a methodological framework for 
+capturing, mathematically representing and simulating the evolution
+of real design models.
+  The proposed framework is able to capture the evolution in terms of
+edit operations applied between revisions.
+  Mathematically, the representation of evolution is based on
+different statistical distributions as well as different
+time series models.
+  Forecasting, simulation and generation of stochastically realistic 
+test models are discussed in detail.
+  As an application, the framework is applied to the evolution of design 
+models obtained from sample a set of carefully selected Java systems.
+
+  In order to study the the evolution of design models, 
+we analyzed 9 major Java projects which have at least 100 revisions.
+ We reverse engineered the design models from the Java source code
+and compared consecutive revisions of the design models.
+ The observed changes were expressed in terms of two
+sets of edit operations.
+  The first set consists of 
+75 low-level graph edit operations, e.g. add, delete, etc.
+of nodes and edges of the abstract syntax graph of the models.
+  The second set consists of
+188 high-level (user-level) edit operations which are
+more meaningful from a developer’s point of view and
+are frequently found in visual model editors.
+  A high-level operation typically comprises several
+low-level operations and is considered as one user action.
+
+  In our approach, we mathematically formulated the pairwise evolution,
+i.e. changes between each two subsequent revisions,
+using statistical models (distributions).
+  In this regard, we initially considered many distributions
+which could be promising in modeling the frequencies of the 
+observed low-level and high-level changes.
+  Six distributions were very successful in modeling the changes
+and able to model the evolution with very good rates of success.
+   To simulate the pairwise evolution, we studied random variate
+generation algorithms of our successful distributions
+in detail.
+  For four of our distributions which no tailored algorithms
+existed, we indirectly generated their random variates.
+
+  The chronological (historical) evolution of design models
+was modeled using three kinds of time series models,
+namely ARMA, GARCH and mixed ARMA-GARCH.
+  The comparative performance of the time series models for
+handling the dynamics of evolution as well as accuracies of their
+forecasts was deeply studied.
+  Roughly speaking, our studies show that mixed ARMA-GARCH
+models are superior to other models.
+  Moreover, we discuss the simulation aspects of
+our proposed time series models in detail.
+
+  The knowledge gained through statistical analysis
+of the evolution was then used in our test model generator
+in order to generate more realistic test models for
+model differencing, model versioning, history analysis tools,
+etc.</abstract>
+                    <abstract type="content" lang="ger">Im Kontext der modellgetriebenen Entwicklung müssen Werkzeuge, Algorithmen und Methoden bewertet, evaluiert und getestet werden. Dabei spielen verschiedene Aspekte wie Korrektheit, Qualität, Skalierbarkeit und Effizienz eine grosse Rolle. Problematisch dabei ist, dass geeignete Testmodelle nur spärlich verfügbar sind. Verfügbare Modelle weisen darüber hinaus die für Evaluationszwecke gewünschten Eigenschaften oft nicht auf. Aus diesem Grund muss in der Praxis auf künstlich erzeugte Testmodelle zurückgegriffen werden.
+
+Viele der Funktionalitäten von Modellversionierungssystemen sind motiviert von den Paradigmen der kollaborativen (Software) Entwicklung. Für das Testen derartiger Funktionalitäten braucht man keine einzelnen Modelle, sondern Paare von Modellen, bei denen das Zweite durch Anwendungen einer bekannten Sequenz von Editierschritten auf das Erste erzeugt wird. Die genutzten Editieroperationen sollten dabei die gleichen sein, die bei den typischen Entwicklungsumgebungen angewendet werden, beispielsweise das Hinzufügen, Löschen oder Verändern von Modellelementen in visuellen Editoren. Derzeit existierende Modellgeneratoren sind motiviert durch das Testen von Modelltransformationsumgebungen. Dabei berücksichtigen sie nicht die wahre Natur der (Software) Evolution, bei der die Modelle iterativ durch die kontrollierte Anwendung einzelner Editierschritte verändert werden. Dabei bieten sie nur wenig Kontrolle über den Prozess der Generierung und sie können nur einzelne Modelle, 
+aber keine Modellhistorien, erzeugen. Darüber hinaus werden gewünschte Eigenschaften, beispielsweise eine stochastisch kontrollierte Erzeugung, von den derzeit existierenden Ansätzen nicht unterstützt.
+
+Aufgrund der (blinden) zufallsgesteuerten Anwendungen von
+Editieroperationen werden keine brauchbaren, (stochastisch)
+realistischen Modelle generiert. Dadurch repräsentieren
+sie keine Eigenschaften von Evolutionen in echten Systemen.
+Leider gibt es wenig wissenschaftliche Erkenntnis darüber,
+wie Modelle in realen Systemen evolvieren,
+was die Eigenschaften und Charakteristika einer solchen
+Evolution sind und wie man diese mathematisch formulieren und
+simulieren kann.
+
+Um die zuvor genannten Probleme zu adressieren, stellen wir
+einen allgemeinen Ansatz zur (stochastischen) Generierung
+realer Testmodelle zur Verwendung in Differenzwerkzeugen und
+Historienanalysen vor. Unser Generator generiert oder
+modifiziert Modelle durch geeignete Anwendung
+von Editieroperationen. Sowohl feine Kontrollmechanismen für
+den Generierungsprozess als auch die Unterstützung von
+stochastischen und anderen interessanten Eigenschaften
+in den generierten Modellen zeichnen den Generator aus.
+Zusätzlich kann dieser Historien, d.h. abhängige/zusammenhängende
+Änderungssequenzen, von Modellen generieren. Unser Ansatz
+bietet eine methodische Umgebung für das Aufzeichnen,
+die mathematische Repräsentation als auch das Simulieren
+von Evolutionen realer Modelle. Die vorgestellte Umgebung
+kann die Evolution in Form von Editieroperationen, angewandt
+zwischen Revisionen, erfassen. Die mathematische
+Repräsentation der Evolution basiert sowohl auf verschiedenen
+stochastischen Verteilungen als auch unterschiedlichen
+Modellen von Zeitreihen. Das Vorhersagen, Simulieren und Generieren
+von stochastisch realistischen Testmodellen wird im Detail
+diskutiert. Als praktische Anwendung setzen wir unsere
+Umgebung im Rahmen einer Modellevolution
+von sorgfältig ausgewählten Java-Systemen ein.
+
+
+Im Rahmen dieser Arbeit wurde die Evolution von Design Modellen auf Basis von neun Open-Source Java Projekten analysiert. Für jedes Projekt lagen mindestens 100 Revisionen vor, aus deren Quelltexten Design Modelle nachkonstruiert wurden. Die dabei gefunden Änderungen konnten anhand zwei verschiedener Mengen von Editieroperationen beschrieben werden. Die erste Menge besteht aus 75 einfachen Graph-Operationen. Beispiele dafür sind das Hinzufügen, Löschen, etc. einzelner Knoten und Kanten im abstrakten Syntax-Graphen der Modelle. Die zweite Menge enthält 188 komplexe Editieroperationen. Komplexe Editieroperationen haben für Entwickler eine höhere Aussagekraft, da sie auf dem gewohnten Abstraktionsniveau des Entwicklers angesiedelt und oftmals in visuellen Modelleditoren zu finden sind. Typischerweise besteht eine komplexe Editieroperation dabei aus mehreren einfachen Operationen, wobei die Ausführung der komplexen Operation immer als eine einzelne Aktion angesehen wird.
+Um die schrittweise Evolution, also die Veränderung aufeinanderfolgender Revisionen, zu analysieren betrachteten wir verschiedene statistische Modelle (Distributionen). Von allen betrachteten Distributionen erwiesen sich sechs als sehr erfolgreich dabei die beobachteten Veränderungen und die Evolution der Modelle auf Basis einfacher und komplexer Editieroperationen zu beschreiben. Um die Evolution weiter simulieren zu können, betrachteten wir Algorithmen für die Erstellung von Zufallsvariaten der erfolgreichen Distributionen. Für vier der Distributionen, für die keine derartigen Algorithmen verfügbar waren, wurden die Zufallsvariate indirekt abgeleitet.
+
+Die chronologische (historische) Evolution von Modellen wurde
+auf Basis von drei Zeitreihen nachgebildet, konkret ARMA, GARCH und einer Mischung
+aus ARMA-GARCH. Sowohl deren Leistungsfähigkeit, Evolutionsdynamik darstellen zu können, als auch
+die Genauigkeit von Vorhersagen wurden im Detail analysiert und gegenübergestellt. Grob gesagt zeigen unsere
+Ergebnisse, dass ARMA-GARCH Modelle besser als die übrigen geeignet sind. Zusätzlich diskutieren wir ausführlich
+die Simulationsmöglichkeiten aller vorgestellten Zeitreihen.
+
+Die Ergebnisse unserer statistischen Analysen der Evolution
+haben wir dann in unserem Testmodell Generator eingesetzt. So konnten wir realistische
+Testmodelle generieren, die für Modelldifferenz-, Versionierungs- und Historienanalysewerkzeuge
+u.s.w. verwendet werden können.</abstract>
+                    <subject>
+                        <topic>Zeitreihenanalyse</topic>
+                        <topic>modellbasierte Entwicklung</topic>
+                        <topic>Testmodell Generierung</topic>
+                        <topic>Statistical Analysis</topic>
+                        <topic>Time Series Analysis</topic>
+                        <topic>Model Driven Development</topic>
+                        <topic>Test Model Generation</topic>
+                        <topic>Simulation</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Praktische und Technische Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-9589</identifier>
+                    <identifier type="sys">HT018755201</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_958</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2015-08-21</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_958">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/958/1/Shariat_Yazdi.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_958"
+            DMDID="DMD_siegen_opus_958">
+            <mets:fptr FILEID="FILE0_siegen_opus_958"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

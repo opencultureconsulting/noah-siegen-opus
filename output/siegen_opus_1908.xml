@@ -1,0 +1,97 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1908">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Synthesis and characterization of methylammonium phosphates as crystalline approximants for anhydrous, low melting phosphate glasses</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schmedt auf der Günne, Jörn</displayForm>
+                        <namePart type="family">Schmedt auf der Günne</namePart>
+                        <namePart type="given">Jörn</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mangstl, Martin</displayForm>
+                        <namePart type="family">Mangstl</namePart>
+                        <namePart type="given">Martin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wied, Jan Konrad</displayForm>
+                        <namePart type="family">Wied</namePart>
+                        <namePart type="given">Jan Konrad</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Weber, Johannes</displayForm>
+                        <namePart type="family">Weber</namePart>
+                        <namePart type="given">Johannes</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Pritzel, Christian</displayForm>
+                        <namePart type="family">Pritzel</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Trettin, Reinhard</displayForm>
+                        <namePart type="family">Trettin</namePart>
+                        <namePart type="given">Reinhard</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Low-melting methylammonium phosphate glasses are synthesized from crystalline starting agents. To this end crystalline tris(methylammonium) cyclotriphosphate [CH3NH3]3P3O9, was synthesized by a novel and simple synthesis route from P4O10 and N-methylformamide. It, undergoes an irreversible phase transition to methylammonium catena-polyphosphate [CH3NH3]PO3. The crystal structure of the catena-polyphosphate was solved and refined from X-ray powder diffraction data by the Rietveld method using constraints obtained by solid-state 31P and 1H NMR spectroscopy. This compound crystallizes in a triclinic space group with a = 13.2236(9), b = 7.8924(6), c = 4.6553(2) Å, α = 91.068(4), β = 87.840(5) and γ = 106.550(3)°. Quantum chemical calculations confirm that the obtained structure lies at an energetic minimum. Finally the reaction of tris(methylammonium) cyclotriphosphate and P4O10 into methylammonium phosphate glass is presented. The synthesized, water-free phosphate glass shows a very low glass transition temperature Tg of 33 °C, which was verified by dynamic scanning calorimetry and NMR. The chain-like crystal structure of the high-temperature methylammoniumphosphate [CH3NH3]PO3 serves as an approximation for the short-range order of the glass.</abstract>
+                    <subject>
+                        <topic>Phosphatglas</topic>
+                        <topic>Phosphate glasses</topic>
+                    </subject>
+                    <classification authority="ddc">540</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19087</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1908</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1908">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1908/4/Synthesis_and_characterization_of_methylammonium_phosphates.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1908"
+            DMDID="DMD_siegen_opus_1908">
+            <mets:fptr FILEID="FILE0_siegen_opus_1908"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

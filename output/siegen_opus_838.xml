@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_838">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Development of a GEM based time projection chamber prototype using a pixelized readout system</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Entwicklung einer GEM basierten Zeitprojektionskammer mit Pixelauslese-System</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Shahid, Saiqa</displayForm>
+                        <namePart type="family">Shahid</namePart>
+                        <namePart type="given">Saiqa</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">A Time Projection Chamber (TPC) is an ideal candidate for the tracking system in experiments of particle physics as it has a low material budget and a large number of possible track points. Gas Electron Multipliers (GEMs) in combination with a highly segmented readout device give the possibility to achieve a very good performance in track reconstruction by getting good spatial and momentum resolutions. A TPC prototype with a drift length of 30 cm, using a triple GEM stack for amplification and a CMOS chip (Timepix chip) as a readout has been successfully operated at the University of Siegen. The Timepix chip consists of 256 x 256 identical elements, which can measure either time or charge of a particle track through the TPC. Each one of these pixels has a size of 55 µm x 55 µm. In order to avoid charging up effects of the used GEMs and to maintain a costant gain during time, GEMs coated with a carbon layer, which is supposed to have a thickness of approx. 0.1 µm, have been used. The resistivity of the diamond like carbon is in the range of 10 15 Ωm. The gain of the GEMs can be also increased by reducing the spark production between both GEM sides, so that higher electric fields can be applied.</abstract>
+                    <abstract type="content" lang="ger">Die geringe Materialbelegung und die große Anzahl an Messpunkten zur Spurrekonstruktion machen eine Zeitprojektionskammer (TPC) zum idealen Kandidaten für die Verwendung in Teilchendetektoren. Gas-Electron-Multipliers (GEMs) in Verbindung mit einem hochauflosenden Auselesesystem sorgen für eine hohe Effizienz des Detektors, was eine gute Orts- und Impulsauflosung moglich macht. Eine TPC mit einer Länge von 30 cm und der Verwendung eines Stapels bestehend aus drei GEMs in Verbindung mit einem CMOS Chip (Timepix Chip) als Auslesesystem konnte an der Universität Siegen erfolgreich in Betrieb genommen werden. Der Timepix Chip besteht aus 256 x 256 identischen Elementen, die entweder die Ankunftszeit oder die Ladung einer Teilchenspur messen konnen. Jeder dieser Pixel hat eine Große von 55 µm x 55 µm. Um Effekte wie das elektrische Aufladen der Plastikschicht (Kaptonschicht) in GEMs zu vermeiden und eine zeitlich stabile Gasverstärkung zu erzielen, wurden GEMs verwendet, die mit einer dünnen Karbonschicht überzogen wurden, welche eine Schichtdicke von etwa 0,1 µm besitzen sollte. Der spezifische Widerstand dieser Karbonschicht beträgt etwa 10 15 Ωm. Durch die Reduzierung von elektrischen Entladungen zwischen der Ober- und Unterseite von GEMs kann die maximale Verstärkung erhoht werden, da in diesem Fall hohere elektrische Feldstärken in den GEMs erzeugt werden konnen.</abstract>
+                    <subject>
+                        <topic>Zeitprojektionskammer</topic>
+                        <topic>time projection chamber</topic>
+                        <topic>Gas Electron Multiplier</topic>
+                        <topic>Standard Model (Particle Physics)</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-8385</identifier>
+                    <identifier type="sys">HT018530521</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_838</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2014-09-23</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_838">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/838/1/Dissertation_Saiqa_Shahid.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_838"
+            DMDID="DMD_siegen_opus_838">
+            <mets:fptr FILEID="FILE0_siegen_opus_838"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

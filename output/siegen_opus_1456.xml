@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1456">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Zusammenhang von Twitter-Stimmung und DAX : DAX-Vorhersage mit Twitter?</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schröter, Julian</displayForm>
+                        <namePart type="family">Schröter</namePart>
+                        <namePart type="given">Julian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Arbeit sagt den DAX mit deutschen und englischen Twitter-Nutzerstimmungen voraus. Hierfür wird ein neues Modell zur Kursvorhersage entwickelt, welches Nutzerstimmungen auswählt. Die Vorhersage der ausgewählten Nutzerstimmungen ist durch Kombination statistischer Methoden bei einem Vorlauf von sechs Tagen zu 80% genau. Die Vorhersage auf Nutzerebene ist der auf Gesamt- und Themenebene überlegen.</abstract>
+                    <abstract type="content" lang="eng">This work predicts the DAX with German and English Twitter user sentiments. A new model is 80% accurate when predicting the DAX with a lag of 6 days. This is accomplished by selecting user sentiments by combining statistical methods. The prediction with user sentiments is superior to the prediction with total sentiments of all users and even to topic-based sentiment prediction.</abstract>
+                    <subject>
+                        <topic>DAX</topic>
+                        <topic>Vorhersage</topic>
+                        <topic>Twitter</topic>
+                        <topic>Zusammenhang</topic>
+                        <topic>Neuronales Netz</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät III Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-14567</identifier>
+                    <identifier type="sys">HT020105710</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1456</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2019-04-02</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1456">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1456/1/Dissertation_Julian_Schroeter.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1456"
+            DMDID="DMD_siegen_opus_1456">
+            <mets:fptr FILEID="FILE0_siegen_opus_1456"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

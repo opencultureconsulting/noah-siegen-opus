@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_951">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Andreas Steinhöfel : &quot;Mein Credo: Kein Kind stirbt an einem Nebensatz&quot;</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mikota, Jana</displayForm>
+                        <namePart type="family">Mikota</namePart>
+                        <namePart type="given">Jana</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Oehme, Viola</displayForm>
+                        <namePart type="family">Oehme</namePart>
+                        <namePart type="given">Viola</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Andreas Steinhöfel las im Mai 2010 in der Bertha von Suttner-Gesamtschule aus seinem Roman &quot;Rico, Oskar und die Tieferschatten&quot; vor.
+Im Anschluss war er dankenswerter Weise bereit, Mitarbeiterinnen der Universität Siegen einige Fragen zu seinem Werk und zu seinem Schaffen zu beantworten. Der vorliegende Band I (2014) der &quot;Werkstattgespräche&quot; ist das Resultat dieses Austauschs. Zudem enthält er umfangreiche Bibliographien zu Primär-, Sekundär- und Forschungsliteratur sowie ein Verzeichnis der Würdigungen und Auszeichnungen von Andreas Steinhöfel.</abstract>
+                    <subject>
+                        <topic>Kinderliteratur</topic>
+                        <topic>Kinderbuchautor</topic>
+                        <topic>Kinderbuch</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-9519</identifier>
+                    <identifier type="sys">HT018801176</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_951</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_951">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/951/1/werkstattgespraeche_2014_1.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_951"
+            DMDID="DMD_siegen_opus_951">
+            <mets:fptr FILEID="FILE0_siegen_opus_951"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

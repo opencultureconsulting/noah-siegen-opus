@@ -1,0 +1,71 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1465</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Parallel adaptive Monte Carlo integration and vector-boson scattering at the Large Hadron Collider</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Parallele, adaptive Monte-Carlo-Integration und Vektor-Boson-Streuung am Large Hadron Collider</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Simon</pc:foreName>
+            <pc:surName>Braß</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Parallelisierung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Adaptive Integration</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Multi-Channel-Integration</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Standardmodell-Effektive-Theorie</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Unitarisierung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Neue-Physik-Vorhersage</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Adaptive Integration</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Multi-Channel Integration</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Standard-Model Effective Theorie (SMEFT)</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">New-Physics Prediction</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">530</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Das Standard-Modell der Teilchenphysik hat sich als verlässliche Theorie für die Beschreibung der Wechselwirkung zwischen elementaren Teilchen erwiesen. Mit der Entdeckung des Higgs-Bosons am Large Hadron Collider (LHC) sind alle heoretisch-vorhergesagten Teilchen des Standard-Modells beobachtet worden. Damit sieht sich die Teilchenphysik neuen Herausforderungen gegenübergestellt, wie die weitere Validierung des Standard-Modells voranzutreiben oder nach neuer Physik jenseits des Standard-Modells zu suchen. Beides ist durch präzisere und umfangreichere Messungen und experimentelle Daten-Analysen am LHC oder anderen zukünftigen Kollider-Experimenten möglich.&#13;
+Monte-Carlo–Event-Generatoren sind ein wichtiges Werkzeug für Messungen und experimentelle Daten-Analysen, sowie für theoretische Vorhersagen für Kollider-Experimente. Sie basieren auf der “acceptance-rejection”-Methode für die Event-Erzeugung mit einer vorgegebenen Wahrscheinlichkeitsverteilung im Konfigurationsraum. Diese wird ergänzt durch die Methoden der Monte-Carlo–Integration desd-dimensionalen Phasenraumes mit d = 3n - 4 Freiheitsgraden eines n-Teilchen Endzustands, wofür die Anwendung von klassischen, numerischen Integrationsregeln bei großen n &gt; 4 von Nachteil sind. Dabei sind Monte-Carlo–Integration und Event-Erzeugung durch das sogenannte „importance sampling“ eng miteinander verbunden. Die Anwendung von iterativen und adaptiven Monte-Carlo–Algorithmen für numerischen Integration erlaubt es uns die Effizienz der Event-Erzeugung mit einer vorhergehenden Monte Carlo-Integration zu optimieren.&#13;
+Wir stellen die Parallelisierung des doppelt-adaptiven Monte-Carlo–Algorithmus Vamp unter der Benutzung der Paradigmen aus OpenMP und MPI vor, mit Rücksichtnahme auf die Minimierung des Kommunikationsbedarfs und einer Methode der Effizienz-Verbesserung der Parallelisierung durch einen statischen Last- und Arbeitsverteiler. Wir haben eine neue Implementation dieses doppelt-adaptiven Algorithmus, Vamp2, für die adaptive Monte Carlo-Integration und Event-Erzeugung geschrieben, welcher als Teil des Monte Carlo Event-Generators Whizard verfügbar ist. Ingesamt können wir eine Verbesserung der Integrationslaufzeit für typische Anwendungsfälle an Kollider-Experimenten im Rahmen von Whizard um die Ordnung 10 erreichen, sodass sich die Rechenzeit von Tagen oder Wochen auf Stunden reduziert.&#13;
+Wir verwenden die parallelisierte Integration in einer ersten Anwendung im elektroschwachen und Higgs-Bereich des Standard-Modells für hohe Energien an der TeV-Skala, welche am LHC erreichbar sind. Hierzu betrachten wir die Rolle von transversal-polarisierten Eichbosonen und dem Higgs-Boson in Vektorboson-Streuung (VBS), dass heißt, der Streuung von W und Z Boson in Paaren zu W, Z und Higgs.&#13;
+In einem “bottom-up”-Ansatz der effektiven Feldtheorie des Standard-Modells können wir auf modell-unabhängige Weise anomale Beiträge durch mögliche neue Physik mit dimension-acht Operatoren modellieren. Dabei stellen wir Relationen für die dimension-acht Operatoren für verschiedene Darstellungen des Higgs-Feldes auf, um Vergleiche zwischen unseren Resultaten und existierenden Studien zu ermöglichen.&#13;
+Es zeigt sich, dass eine Beschreibung der VBS-Prozesse bei diesen hohen Energie durch die effektiven Feldtheorie die Unitarität der Streumatrix verletzt. Durch die Anwendung des “T-matrix” Unitaritätsverfahren können wir die Unitarität der Theorie und damit das verletzte Grundprinzip der Quantenfeldtheorie wiederherstellen. Die dadurch definierten vereinfachten Modelle erlauben uns quantitative Aussagen über (typische) Szenarien neuer Physik zu studieren und mögliche zusätzliche Event-Raten über die Standard-Modell Vorhersagen hinaus durch Obergrenzen abzuschätzen. Davon können wir die Sensitvität auf Resultate für neue Physik am LHC abstecken.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The Standard Model of particle physics has proved to be a reliable theory for the description of the interaction between elementary particles. With the discovery of the Higgs boson at the LHC, all predicted particles of the Standard Model have been observed. As a result, particle physics faces new challenges such as further validation of the Standard Model or the search for New Physics beyond the Standard Model. More precise and more comprehensive measurements and experimental data analyses at the LHC or other future collider will shed light on this.&#13;
+Monte Carlo event generators are an indispensable tool for measurements and experimental data analyses, as well as for theoretical predictions at collider experiments. They are based on the acceptance-rejection method for event generation with a given probability distribution in configuration space. This is supplemented by the methods of Monte Carlo integration of the d -dimensional phase space with d = 3n - 4 degrees of freedom of an n-particle final state, for which the application of classical, numerical integration rules for large n &gt; 4 are disadvantageous. In particular, Monte Carlo integration and event generation are closely linked by the so-called importance sampling. The application of iterative and adaptive Monte Carlo algorithms for numerical integration allows us to optimize the efficiency of event generation with a previous Monte Carlo integration.&#13;
+We present the parallelization of the doubly-adaptive Monte Carlo algorithm Vamp using the OpenMP and MPI paradigms, under special consideration of minimizing communication needs and a method to improve the efficiency of parallelization by a static load balancer. We have written a new implementation of the doubly-adaptive algorithm, Vamp2, for adaptive Monte Carlo integration and event generation, which is available as part of the Monte Carlo event generator Whizard. We reached an overall improvement of the integration run-time of Whizard for typical use cases at collider experiments by order 10, reducing possible computation times from days or weeks to hours.&#13;
+In a first application, we employ the parallelized integration in the electroweak and Higgs sector of the Standard Model for high energies at the TeV scale accessible by the LHC. For this purpose, we consider the role of transverse-polarized gauge bosons and the Higgs boson in vector boson scattering (VBS), that is, the scattering of W and Z bosons in pairs to W, Z, and Higgs.&#13;
+In a bottom-up approach of the effective field theory of the Standard Model, we model anomalous contributions by possible new physics in a model-independently way with dimension-eight operators. We provide relations for the dimension-eight operators for different representations of the Higgs field to allow comparisons between our results and existing studies.&#13;
+A description of the VBS processes by the effective field theory at such high energies violates the unitarity of the scattering matrix. By applying the T-matrix unitarity projection we can restore the unitarity of the theory and thus the first principles of quantum field theory. The simplified models, defined in this way, allow us to study quantitative statements about (typical) scenarios of New Physics and estimate possible event rates beyond the standard model predictions by upper limits. From this we can pinpoint the sensitivity on results for New Physics at the LHC.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2019-06-05</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2019</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-14658</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Simon_Brass.pdf" ddb:fileSize="1492249"/>
+   <ddb:checksum ddb:type="MD5">559a5de804b82c62fbbda394c15ffce3</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1465/1/Dissertation_Simon_Brass.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1465</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

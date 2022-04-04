@@ -1,0 +1,66 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>737</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Mehrfache partonische Wechselwirkungen bei hadronischen Streuungen</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Hans-Werner</pc:foreName>
+            <pc:surName>Boschmann</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Quantenchromodynamik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">QCD</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Large Hadron Collider</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">proton-proton scattering</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">530</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Das etablierte Modell zur Simulation von hadronischen Streuereignissen kombiniert eine perturbative Beschreibung der härtesten partonischen Wechselwirkung mit messbaren Strukturfunktionen, die nicht perturbativ beschreibbare Eigenschaften der Hadronen wiedergeben. Dabei wird explizit angenommen, dass genau ein Parton aus jedem Hadron an der Wechselwirkung teilnimmt. &#13;
+&#13;
+Analysen von Proton-Antiproton Streuungen des Tevatron und erste Analysen von Proton-Proton Streuungen des LHC zeigen Abweichungen von diesen Simulationen, die auf die Teilnahme mehrerer Partonen eines Hadrons an einem Streuereignis hinweisen. Für die Simulation solcher mehrfacher Wechselwirkungen liegen uns aber keine entsprechenden mehrfachen Strukturfunktionen vor.&#13;
+&#13;
+In dieser Dissertation werden zwei Ansätze zur Faktorisierung mehrfacher Streuungen mittels Approximation durch einfache Strukturfunktionen vorgestellt. Vertiefend wird ein Verfahren vorgestellt, dass eine simultane Entwicklung der Faktorisierungsskala von mehrfachen Streuungen sowie von Initial State Radiation bei Monte Carlo Simulationen von Streuereignissen erlaubt.&#13;
+&#13;
+Abschließend wird detailliert eine effiziente Implementierung dieser simultanen Entwicklung als Monte Carlo Generator unter Berücksichtigung endlicher Ressourcen ausgearbeitet. Mehrfache partonische Wechselwirkungen werden dabei als QCD-Korrektur zur härtesten partonischen Wechselwirkung betrachtet.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The common approach for simulation of hadronic scattering events is to combine a perturbative description of the hardest partonic interaction with measurable structure functions which reflect non-perturbative properties of hadrons. At present this approach requires exactly one parton of each hadron to enter this interaction.&#13;
+&#13;
+Analyses of proton-antiproton scattering at Tevatron and first analyses of proton-proton scattering at LHC show deviations from this simulations, which seam to indicate multiple partons of a single hadron entering a scattering event. Yet for simulation of such events there are no appropriate multiple parton structure functions available.&#13;
+&#13;
+We introduce two different approaches for factorization of multiple parton scattering which approximate multiple structure functions by single structure functions. Furthermore we introduce a procedure which allows a simultaneous evolution of the factorization scale of both multiple parton interactions and initial state radiation.&#13;
+&#13;
+Finally we elaborate an efficient implementation of a Monte Carlo generator for this simultaneous evolution, considering limitations of finite memory and CPU power. In this framework we treat multiple parton interactions as QCD correction to the hardest interaction.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2012-03-27</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2011</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-7374</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV - Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="boschmann.pdf" ddb:fileSize="967109"/>
+   <ddb:checksum ddb:type="MD5">f1ccfe77174d2a90b6d0db5dbec72e6b</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/737/1/boschmann.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/737</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

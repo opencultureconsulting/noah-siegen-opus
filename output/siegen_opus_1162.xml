@@ -1,0 +1,57 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1162">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Erlebniswelt Museum : zur Zukunft der kulturellen Teilhabe von Menschen mit Lernschwierigkeiten</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Eggeling, Antonia</displayForm>
+                        <namePart type="family">Eggeling</namePart>
+                        <namePart type="given">Antonia</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die allgemeine Auseinandersetzung mit dem Begriff ‚geistige Behinderung‘ sowie den Leitideen Inklusion und Barrierefreiheit bildet die Grundlage der Bachelor-Arbeit zu aktiven Partizipationsmöglichkeiten von Menschen mit Behinderung in gesellschaftlichen und kulturellen Kontexten. In dem Artikel stellt eine Design-Absolventin der Folkwang Universität der Künste (Essen) ihren Beitrag zur inklusiven Museumsarbeit vor.</abstract>
+                    <subject>
+                        <topic>Medienpädagogik</topic>
+                    </subject>
+                    <classification authority="ddc">700</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11620</identifier>
+                    <identifier type="sys">HT019573851</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1162</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1162">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1162/1/Eggeling_Erlebniswelt_Museum.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1162"
+            DMDID="DMD_siegen_opus_1162">
+            <mets:fptr FILEID="FILE0_siegen_opus_1162"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_825">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Analysis of adjoint based optimal control applied to noise reduction of plane jets</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Analyse adjungiertenbasierter optimaler Kontrolle angewendet auf die Schallreduktion planarer Freistrahlen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Marinc, Daniel</displayForm>
+                        <namePart type="family">Marinc</namePart>
+                        <namePart type="given">Daniel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Many gradient based optimization methods can be found in the literature. If the input parameters of a cost function are subject to implicit constraints the adjoint method is often the preferred method to obtain the gradient. The adjoint method provides an efficient way for the computation of the gradient, where the computational time is independent of the number of control variables of the cost function.
+
+In this work the noise of a three dimensional turbulent subsonic jet is minimized. The cost function is defined as an integral over the pressure fluctuations in the farfield and thus gives an estimate for noise emission. The simulations are based on the compressible Navier-Stokes equations, which act as implicit constraints for the minimization problem. The adjoint variables are computed using different approximations of the adjoint equations and the resulting gradient accuracy is investigated. Among other aspect the continuous and discrete adjoint methods are compared in terms of accuracy. Furthermore, the efficiency and effectivity of the optimization procedure is investigated in terms of gradient accuracy and numeric resolution.</abstract>
+                    <abstract type="content" lang="ger">In der Literatur kann eine Vielzahl an Methoden zur gradientenbasierten numerischen Optimierung gefunden werden. Für den Fall, dass die Parameter einer Kostenfunktion impliziten Bedingungen unterliegen, wird häufig die Adjungiertenmethode zur Berechnung des Gradienten herangezogen. Die Adjungiertenmethode erlaubt auch bei impliziten Bedingungen eine effiziente Berechnung des Gradienten, wobei die benötigte Rechenzeit unabhängig von der Anzahl der Parameter der Kostenfunktion ist.
+
+Im Rahmen dieser Arbeit wird der Schall eines dreidimensionalen turbulenten unterschall Freistrahles minimiert.
+Die Kostenfunktion wird definiert als ein Integral über die Druckfluktuationen im Fernfeld und ist somit ein Maß für die Lautstärke des Freistrahles. Die zugrundeliegenden Bewegungsgleichungen sind die kompressiblen Navier-Stokes-Gleichungen, welche implizite Bedingungen aus Sicht des Optimierungsprozesses sind. Die Adjungierte wird auf unterschiedliche Arten berechnet und die Genauigkeit des daraus resultierenden Gradienten untersucht werden. Ein besonderes Augenmerk liegt hierbei auf Vergleichen zwischen der sogenannten diskreten und kontinuierlichen Adjungierten. Systems nach beziehungsweise vor der diskretisierung vorgenommen wird. Desweiteren wird die Effizienz und Effektivität der Optimierung in Abhängigkeit der Genauigkeit des Gradienten und der numerischen Auflösung betrachtet.</abstract>
+                    <subject>
+                        <topic>Strömungsakustik</topic>
+                        <topic>Adjungiertenverfahren</topic>
+                        <topic>Schallreduktion</topic>
+                        <topic>adjoint method</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Fluid- und Thermodynamik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-8252</identifier>
+                    <identifier type="sys">HT018522784</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_825</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2014-06-23</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_825">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/825/1/Dissertation_Daniel_Marinc_bearbeitet.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_825"
+            DMDID="DMD_siegen_opus_825">
+            <mets:fptr FILEID="FILE0_siegen_opus_825"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

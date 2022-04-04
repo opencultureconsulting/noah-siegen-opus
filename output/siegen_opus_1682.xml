@@ -1,0 +1,91 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1682">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Das </nonSort>
+                        <title>Inklusionskataster NRW unter der Lupe</title>
+                        <subTitle lang="ger">Bericht zur 2. Projektphase (2018–2020)</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Geese, Natalie</displayForm>
+                        <namePart type="family">Geese</namePart>
+                        <namePart type="given">Natalie</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kaminski, Anna</displayForm>
+                        <namePart type="family">Kaminski</namePart>
+                        <namePart type="given">Anna</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bertelmann, Lena</displayForm>
+                        <namePart type="family">Bertelmann</namePart>
+                        <namePart type="given">Lena</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Rohrmann, Albrecht</displayForm>
+                        <namePart type="family">Rohrmann</namePart>
+                        <namePart type="given">Albrecht</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Das Inklusionskataster NRW ist eine Internetplattform, die mit Beispielen guter inklusiver Praxis Verantwortliche für inklusive Aktivitäten in nordrhein-westfälischen Kommunen anregen soll, inklusive Gemeinwesen zu gestalten.
+Von 2015 bis 2020 wurde das Inklusionskataster NRW im Auftrag des Ministeriums für Arbeit, Gesundheit und Soziales (MAGS) des Landes Nordrhein-Westfalen vom Zentrum für Planung und Evaluation Sozialer Dienste (ZPE) der Universität Siegen aufgebaut und betrieben.
+In Vorbereitung auf die Verstetigung des Inklusionskatasters NRW wurde das Inklusionskataster unter die Lupe genommen. Welche Angebote und Abläufe haben sich in den vergangenen Jahren bewährt? Welche Angebote sollten umgestaltet werden, damit sie ihre Potenziale besser entfalten können? Welche Angebote könnten neu ins Inklusionskataster aufgenommen werden?
+Der vorliegende Bericht stellt das Inklusionskataster NRW sowie die durchgeführte Evaluation und ihre Ergebnisse vor. Er möchte die Weiterentwicklung des Inklusionskatasters anregen und damit das Anliegen der Unterstützung von lokalen Akteuren bei der Entfaltung inklusiver Aktivitäten unterstützen.</abstract>
+                    <subject>
+                        <topic>Nordrhein-Westfalen</topic>
+                        <topic>Nordrhein-Westfalen</topic>
+                        <topic>Inklusion, Soziologie</topic>
+                        <topic>Portal, Internet</topic>
+                        <topic>Projekt</topic>
+                        <topic>Geschichte 2018-2020</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16827</identifier>
+                    <identifier type="sys">HT020615808</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1682</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1682">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1682/1/ZPE_56_Inklusionskataster.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1682"
+            DMDID="DMD_siegen_opus_1682">
+            <mets:fptr FILEID="FILE0_siegen_opus_1682"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

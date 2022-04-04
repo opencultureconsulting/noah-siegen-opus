@@ -1,0 +1,85 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_2132">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Machine learning in predicting mechanical behavior of additively manufactured parts</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Nasiri, Sara</displayForm>
+                        <namePart type="family">Nasiri</namePart>
+                        <namePart type="given">Sara</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Khosravani, Mohammad Reza</displayForm>
+                        <namePart type="family">Khosravani</namePart>
+                        <namePart type="given">Mohammad Reza</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Although applications of additive manufacturing (AM) have been significantly increased in
+recent years, its broad application in several industries is still under progress. AM also
+known as three-dimensional (3D) printing is layer by layer manufacturing process which
+can be used for fabrication of geometrically complex customized functional end-use
+products. Since AM processing parameters have significant effects on the performance of
+the printed parts, it is necessary to tune these parameters which is a difficult task. Today,
+different artificial intelligence techniques have been utilized to optimize AM parameters
+and predict mechanical behavior of 3D-printed components. In the present study, applications
+of machine learning (ML) in prediction of structural performance and fracture of
+additively manufactured components has been presented. This study first outlines an
+overview of ML and then summarizes its applications in AM. The main part of this review,
+focuses on applications of ML in prediction of mechanical behavior and fracture of 3Dprinted
+parts. To this aim, previous research works which investigated application of ML in
+characterization of polymeric and metallic 3D-printed parts have been reviewed and discussed.
+Moreover, the review and analysis indicate limitations, challenges, and perspectives
+for industrial applications of ML in the field of AM. Considering advantages of ML
+increase in applications of ML in optimization of 3D printing parameters, prediction of
+mechanical performance, and evaluation of 3D-printed products is expected.</abstract>
+                    <subject>
+                        <topic>Rapid Prototyping &lt;Fertigung&gt;</topic>
+                        <topic>Desktop Manufacturing</topic>
+                        <topic>Layer Manufacturing</topic>
+                        <topic>Additive Manufacturing</topic>
+                        <topic>3D Print</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-21324</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_2132</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_2132">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/2132/1/Machine_learning_in_predicting_mechanical_behavior.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_2132"
+            DMDID="DMD_siegen_opus_2132">
+            <mets:fptr FILEID="FILE0_siegen_opus_2132"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

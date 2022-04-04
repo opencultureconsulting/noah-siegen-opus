@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_208">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Analyse der steuerlichen Einflußfaktoren grenzüberschreitender Vertriebsalternativen inländischer Kapitalgesellschaften</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wassermeyer, Steffen</displayForm>
+                        <namePart type="family">Wassermeyer</namePart>
+                        <namePart type="given">Steffen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2005</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Möglichkeiten der Gestaltung des Vertriebs waren in den letzten Jahren einem erheblichen
+Wandel unterworfen. Die starre Orientierung an Landesgrenzen ist durch die Entwicklung des
+Mediums Internet sowie der gestiegenen Kommunikationsmöglichkeiten obsolet geworden. Mit
+der damit einhergehenden Änderung der Vertriebsstrukturen erhöhen sich auch die zwischen den
+Konzerngesellschaften erbrachten Transaktionen.
+Im Rahmen dieser Monographie werden die steuerlichen Implikationen der Änderungen im Vertriebsbereich
+untersucht. Zunächst werden die Anknüpfungspunkte einer Besteuerung im Bereich
+des Vertriebs diskutiert, bevor im weiteren Verlauf das Problem der Gewinnabgrenzung anhand
+des Fremdvergleichsgrundsatzes einer kritischen Prüfung unterzogen wird. In diesem Zusammenhang
+wird auch auf die geänderten gesetzlichen Rahmenbedingungen hinsichtlich der Dokumentation
+sowie auf die Möglichkeit der Verwendung von Datenbankanalysen zur Bestimmung
+von Verrechnungspreisen im Vertriebsbereich eingegangen.</abstract>
+                    <subject>
+                        <topic>Konzern</topic>
+                        <topic>Vertrieb</topic>
+                        <topic>Steuerplanung</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 5, Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-2088</identifier>
+                    <identifier type="sys">HT014684539</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_208</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2005-10-03</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_208">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/208/1/wassermeyer.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_208"
+            DMDID="DMD_siegen_opus_208">
+            <mets:fptr FILEID="FILE0_siegen_opus_208"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

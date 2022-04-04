@@ -1,0 +1,69 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1086</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Inspection of piezoelectric transducers used for structural health monitoring systems</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Inka</pc:foreName>
+            <pc:surName>Mueller</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Impedanz</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Schädigungen von Piezoelectric Wafer Active Sensors (PWAS)</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Elektromechanische Impedanz (EMI)</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Acousto-Ultrasonics (AU)</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Geführte Wellen</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Defects of piezoelectric wafer active sensors (PWAS)</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Electro-mechanical impedance (EMI)</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Acousto-ultrasonics (AU)</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Guided waves</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">MAPOD</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">This contribution focuses on a detailed analysis of piezoelectric wafer active sensors, aiming to develop and evaluate inspection methodologies. Piezoelectric wafer active sensors are commonly used for active structural health monitoring systems. With the piezoelectric effect they can generate and sense waves, which can interact with the structure and with possible defects in the structure. The method of using these effects is known as acousto-ultrasonics. To enable a self-check of an active structural health monitoring system, an inspection of the piezoelectric wafer active sensors is necessary. Their different possible defects could cause a malfunction of a structural health monitoring system. Either damage of the structure is not detected or an undamaged structure is classified as damaged and false alarm is reported by the structural health monitoring system.&#13;
+An analysis of the effects of defect piezoelectric wafer active sensors on the generated wave field is presented. It shows that the defects change the wave field in a non-negligible way. This change depends on defect type, defect severity and type of transducer. It has a significant influence on the results of the structural health monitoring system.&#13;
+In this contribution the electro-mechanical impedance is carefully selected as a physical quantity, which enables to draw conclusions on possible sensor faults. A physical model is developed to show the impact of geometric and material parameters on the electro-mechanical impedance. A numerical model is constructed to calculate the electro-mechanical impedance and the generated wave field with the same model. Moreover, different types of defects are simulated. Experimental studies are set up to validate the models and quantify realistic parameter deviations for different application scenarios. Based on this knowledge, different new model-based and model-free methods for inspecting piezoelectric wafer active transducers are developed. &#13;
+A novel approach to evaluate the merit of these methods is another focal point of this contribution. Based on statistical methods the performance is measured by combining the output of an inspection method with the effect of a defect on the result of the structural health monitoring system. When the application of this approach is carried out with numerical methods, the concept of model-assisted probability of detection is used. With the numerical model the electro-mechanical impedance as well as the generated wave field are simulated. The approach allows an application-based statement about the inspection method, used for a self-check.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Der Fokus dieser Arbeit liegt in der detaillierten Analyse piezoelektrischer Sensoren, die als dünne Scheibe ausgeführt sind und auch aktiv angeregt werden können. Diese Sensoren werden als PWAS (Piezoelectric Wafer Active Sensors) bezeichnet. Es werden im Rahmen dieser Arbeit Methoden zur Überprüfung von PWAS entwickelt und getestet. &#13;
+PWAS werden häufig für aktive Structural Health Monitoring (SHM) Systeme eingesetzt. Mithilfe des piezoelektrischen Effekts können sie geführte Wellen anregen und empfangen. Diese geführten Wellen interagieren bei ihrer Ausbreitung mit der Struktur und möglichen Schäden der Struktur. Die Möglichkeit der Nutzung dieser Wellen und Sensoren, Schäden zu detektieren, wird als Acousto-Ultrasonics bezeichnet. &#13;
+Um eine Systemüberprüfung eines aktiven SHM Systems zu ermöglichen, ist eine Überprüfung der PWAS unabdingbar. Schädigungen verschiedener Art führen zu einer Verschlechterung der Zustandsüberwachungsmöglichkeiten des SHM Systems. Ein geschädigter PWAS kann sowohl dazu führen, dass ein Strukturschaden unentdeckt bleibt, als auch einen falschen Alarm auslösen. Bei einem solchen falschen Alarm wird vom SHM System fälschlicher Weise ein Strukturschaden gemeldet, obwohl nicht die Struktur, sondern ein Teil des SHM Systems, hier ein PWAS, defekt ist. &#13;
+Die Effekte, die verschiedenartig geschädigte PWAS auf das von ihnen in die Struktur eingebrachte Wellenfeld haben, werden in dieser Arbeit aufgezeigt und analysiert. Die Analyse zeigt, dass der Einfluss auf das Wellenfeld nicht vernachlässigbar ist. Die resultierenden Änderungen sind dabei von der Art und der Größe des Schadens sowie des PWAS Typs abhängig. Das Ergebnis, das von einem SHM System ausgegeben wird, kann durch das geänderte Wellenfeld signifikant beeinflusst werden.&#13;
+Die elektromechanische Impedanz wird als mögliche physikalische Kenngröße, die zur Überprüfung von PWAS genutzt werden kann, ausgemacht. Im Rahmen der Arbeit erfolgt eine detaillierte Analyse und die Entwicklung von Methoden zur Überprüfung von PWAS, basierend auf dieser Größe. Ein physikalisch basiertes Modell wird aufgestellt, um den Einfluss von Geometrie- und Materialparametern auf die elektromechanische Impedanz zu untersuchen. Die Verwendung numerischer Methoden zur Modellierung des applizierten PWAS ermöglicht die Analyse des Wellenfeldes und der elektromechanischen Impedanz in einem Modell. Des Weiteren kann eine Modellierung von Schadensfällen verwirklicht werden. Mithilfe experimenteller Daten werden die Modelle validiert und realistische Streubreiten für die analysierten Größen identifiziert. Basierend auf diesen Erkenntnissen erfolgt die Entwicklung neuer modellbasierter und datenbasierter Methoden zur Überprüfung von PWAS.&#13;
+Die Entwicklung eines neuen innovativen Ansatzes zur Bewertung der Leistungsfähigkeit von PWAS-Überwachungsmethoden stellt einen weiteren Schwerpunkt dieser Arbeit da. Basierend auf statistischen Methoden wird die Güte einer Überwachungsmethode durch die Kombination der Ergebnisse der Methode und der Auswirkungen eines PWAS-Defekts auf das Wellenfeld ermittelt. Wird dieser Ansatz basierend auf numerisch erzeugten Ergebnissen für das Wellenfeld und die elektromechanische Impedanz genutzt, so handelt es sich hierbei um eine modellbasierte Bestimmung der Entdeckungswahrscheinlichkeit für einen PWAS-Fehler (MAPOD - model-assisted probability of detection). Der Ansatz zur Bewertung der Leistungsfähigkeit ermöglicht eine anwendungsbezogene Aussage über den Einsatz der Methode zur PWAS Selbstdiagnose in einem definierten SHM System.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2016-12-22</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2016</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-10862</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dcterms:isPartOf xsi:type="ddb:noScheme">Schriftenreihe der Arbeitsgruppe für Technische Mechanik im Institut für Mechanik und Regelungstechnik - Mechatronik;  11</dcterms:isPartOf>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Mechanik und Regelungstechnik - Mechatronik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Inka_Mueller.pdf" ddb:fileSize="14399523"/>
+   <ddb:checksum ddb:type="MD5">0e92f6cb13ad0b8b0b9d8cce6d69362d</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1086/1/Dissertation_Inka_Mueller.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1086</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

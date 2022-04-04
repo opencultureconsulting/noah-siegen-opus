@@ -1,0 +1,74 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_737">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Mehrfache partonische Wechselwirkungen bei hadronischen Streuungen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Boschmann, Hans-Werner</displayForm>
+                        <namePart type="family">Boschmann</namePart>
+                        <namePart type="given">Hans-Werner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Das etablierte Modell zur Simulation von hadronischen Streuereignissen kombiniert eine perturbative Beschreibung der härtesten partonischen Wechselwirkung mit messbaren Strukturfunktionen, die nicht perturbativ beschreibbare Eigenschaften der Hadronen wiedergeben. Dabei wird explizit angenommen, dass genau ein Parton aus jedem Hadron an der Wechselwirkung teilnimmt. 
+
+Analysen von Proton-Antiproton Streuungen des Tevatron und erste Analysen von Proton-Proton Streuungen des LHC zeigen Abweichungen von diesen Simulationen, die auf die Teilnahme mehrerer Partonen eines Hadrons an einem Streuereignis hinweisen. Für die Simulation solcher mehrfacher Wechselwirkungen liegen uns aber keine entsprechenden mehrfachen Strukturfunktionen vor.
+
+In dieser Dissertation werden zwei Ansätze zur Faktorisierung mehrfacher Streuungen mittels Approximation durch einfache Strukturfunktionen vorgestellt. Vertiefend wird ein Verfahren vorgestellt, dass eine simultane Entwicklung der Faktorisierungsskala von mehrfachen Streuungen sowie von Initial State Radiation bei Monte Carlo Simulationen von Streuereignissen erlaubt.
+
+Abschließend wird detailliert eine effiziente Implementierung dieser simultanen Entwicklung als Monte Carlo Generator unter Berücksichtigung endlicher Ressourcen ausgearbeitet. Mehrfache partonische Wechselwirkungen werden dabei als QCD-Korrektur zur härtesten partonischen Wechselwirkung betrachtet.</abstract>
+                    <abstract type="content" lang="eng">The common approach for simulation of hadronic scattering events is to combine a perturbative description of the hardest partonic interaction with measurable structure functions which reflect non-perturbative properties of hadrons. At present this approach requires exactly one parton of each hadron to enter this interaction.
+
+Analyses of proton-antiproton scattering at Tevatron and first analyses of proton-proton scattering at LHC show deviations from this simulations, which seam to indicate multiple partons of a single hadron entering a scattering event. Yet for simulation of such events there are no appropriate multiple parton structure functions available.
+
+We introduce two different approaches for factorization of multiple parton scattering which approximate multiple structure functions by single structure functions. Furthermore we introduce a procedure which allows a simultaneous evolution of the factorization scale of both multiple parton interactions and initial state radiation.
+
+Finally we elaborate an efficient implementation of a Monte Carlo generator for this simultaneous evolution, considering limitations of finite memory and CPU power. In this framework we treat multiple parton interactions as QCD correction to the hardest interaction.</abstract>
+                    <subject>
+                        <topic>Quantenchromodynamik</topic>
+                        <topic>QCD</topic>
+                        <topic>Large Hadron Collider</topic>
+                        <topic>proton-proton scattering</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-7374</identifier>
+                    <identifier type="sys">HT017654383</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_737</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2012-03-27</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_737">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/737/1/boschmann.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_737"
+            DMDID="DMD_siegen_opus_737">
+            <mets:fptr FILEID="FILE0_siegen_opus_737"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

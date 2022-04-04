@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_192">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Standardisierungsanreize bei technischen Systemen : eine wirtschaftstheoretische Analyse am Beispiel des digitalen Fernsehmarktes</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Johannes, Heike</displayForm>
+                        <namePart type="family">Johannes</namePart>
+                        <namePart type="given">Heike</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2000</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Arbeit gibt zunächst einen ausgewählten Überblick über wichtige Beiträge zur
+ökonomischen Theorie der Standardisierung und stellt dann kurz die Entwicklungen auf dem Markt für digitales Entgeltfernsehen in Deutschland dar. Dieser Markt hat das zentrale Thema der ‘Standardisierungsanreize‘ motiviert, die Analyse ist aber aufgrund ihres hohen Abstraktionsgrades auf eine Vielzahl technischer Systeme anwendbar.
+In drei verschiedenen spieltheoretischen Modellen werden die Anreize der Anbieter untersucht, eine standardisierte Hardwarekomponente zu verwenden, um so die für die Konsumenten vorteilhafte Kompatibilität herzustellen. Die beiden ersten Modelle sind statisch und unterscheiden sich in erster Linie in den Annahmen über die Konsumentenpräferenzen. In diesen Modellen legen sich die Anbieter auf eine anbieterspezifische oder auf eine standardisierte Technologie fest, bevor sie in einen Preiswettbewerb auf dem Markt für digitales Entgeltfernsehen eintreten. In den (nichtkooperativen) Gleichgewichtslösungen beider Modelle entscheiden sich die Anbieter für eine standardisierte Technologie. Die Anreizwirkungen ergeben sich aus der Bereitschaft der
+Konsumenten, mehr für die angebotenen Programme zu zahlen, wenn es nicht erforderlich ist, verschiedene Hardwarekomponenten für jedes Programm zu erwerben. Der Vergleich der Modellergebnisse zeigt, dass sich die optimalen Preisstrategien der Anbieter bei standardisierter Hardware umso weniger von dem bei nicht-standardisierter Hardware unterscheiden und dass der Standardisierungsvorteil für die Anbieter umso größer ist, je unterschiedlicher die Präferenzen der Konsumenten für die Komplementärgüter sind. Das dritte Modell ist ein dynamisches Markteintrittsspiel, in dem ein bereits im Markt etablierter Anbieter unvollständig über die Markteintrittskosten seines potentiellen Konkurrenten informiert ist. Als wichtigstes Ergebnis zeigt sich hier, dass eine Entscheidung für kompatible Standards zwar nach wie vor im Interesse der Anbieter liegt, dass aber unter bestimmten Bedingungen die effiziente kompatible Lösung aufgrund der unvollständigen Information nicht erreicht wird.</abstract>
+                    <abstract type="content" lang="eng">The study offers first a selected survey of major contributions to the economic theory of standardization and then briefly characterizes the emerging German market for digital paytelevision. This market motivated the study’s central theme of ‘incentives of standardization‘. But owing to the high degree of abstraction, the analysis is applicable to a great variety of other technical systems.
+The different game theoretic models are investigated focussing on the suppliers‘ incentives for using a standardized hardware component to secure compatibility for the consumers‘ benefit. The first two models are static and they differ mainly in their asumptions on consumer preferences. In these models two suppliers commit themselves to either a specific or a standardized technology before competing in prices in the market for digital pay-TV. In the (noncooperative) equilibrium of both models the suppliers turn out to opt for a
+standardized technology. The underlying incentives arise from consumers‘ willingness-to-pay more for the programs offered when they do not need to purchase a different hardware component for each program. Comparing the outcome of the first two models reveals that the more divergent consumers‘ preferences are, the less differ the optimal pricing strategies in case of standardized or non-standardized hardware and the greater is the suppliers‘ advantage from standardization. The third model is a dynamic market entry game in which the
+incumbent is incompletely informed about the newcomer’s entry costs. The main result is that choosing compatible standards tends to be in the suppliers‘ interest but under certain conditions the efficient compatible solution may fail to emerge as a cost of incomplete information.</abstract>
+                    <subject>
+                        <topic>Standardisierung</topic>
+                        <topic>Medienökonomie</topic>
+                        <topic>technische Systeme</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 5, Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1929</identifier>
+                    <identifier type="sys">HT011261939</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_192</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2000-02-15</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_192">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/192/1/johannes_heike.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_192"
+            DMDID="DMD_siegen_opus_192">
+            <mets:fptr FILEID="FILE0_siegen_opus_192"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

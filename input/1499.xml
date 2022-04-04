@@ -1,0 +1,72 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1499</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Energy management system for automated driving</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Kirill</pc:foreName>
+            <pc:surName>Gorelik</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Energiemanagement</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Energy Management</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Powernet</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Powertrain</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Fail-Operational</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Optimal Control</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">With increasing levels of driving automation, the responsibility for the vehicle control and passengers’ safety is shifted from the driver towards the automation system. This results in increased reliability and safety requirements for the subsystems involved in the automated vehicle motion. In case of a safety-critical failure, an automated transition to a vehicle standstill must be executed without any driver interaction and supervision for high and full driving automation. Therefore, in addition to the functionality of the safety-critical subsystems, also their reliable power supply for the duration of the transition to the standstill must be guaranteed by the vehicle powernet.&#13;
+&#13;
+According to the functional safety norm ISO 26262, all safety-critical subsystems must be designed with an appropriate automotive safety integrity level (ASIL). Since reliable power supply is one of the prerequisites for their correct functionality, it becomes safety-critical itself. The need for new fail-operational powernet topologies and appropriate control strategies fulfilling the increased reliability and availability requirements arises. The work presented in this dissertation proposes a new generic energy management system for the safety-based range extension, supporting the optimization of the powernet and powertrain control for arrival at the safest possible location for the passengers.&#13;
+&#13;
+The key element of the proposed energy management system is the online energy distribution optimization with an integrated degradation concept. Using the predicted values for the available energy resources and for the energy required to complete a driving mission, the control strategy automatically adapts the energy flows within the vehicle powernet. Furthermore, it estimates appropriate degradation step for the comfort loads, driving profile and driving destination with the goal to reach the safest destination with a maximum of comfort in a minimum of time under consideration of the available energy resources. With this approach, also the fault reactions of the functional safety concept, required by ISO 26262 for all safety-critical functions, are automated and optimized. In this way, the energy management system finds autonomously the best suited fault reactions for achieving the defined control goal.&#13;
+&#13;
+The energy demand required for the completion of a driving mission depends on the velocity profile, road slope and stops on the way to the destination. Using the electronic horizon, a driving trajectory from the current vehicle position to the destination is approximated online, which is then used for the route based estimation of the required propulsion energy. In powertrain topologies with multiple traction motors, the overall driving efficiency and hereby also the driving range can be increased significantly with an appropriate strategy for the torque distribution between individual motors. Therefore, a torque distribution profile is estimated online based on the theory of optimal control for the entire driving mission, enabling an accurate and realistic prediction of the propulsion energy required for the safety based range extension. In addition to the driving efficiency increase also symmetrical discharge of independent traction batteries, required for approximately the same driving range in case of a breakdown of one battery, is incorporated in the control strategy. Furthermore, also the balancing of the energy losses in powertrain components is considered for the torque distribution, which is required to avoid their overheating possibly leading to faster aging and wear.  &#13;
+&#13;
+The application of the generic framework for the energy management system is exemplified on two different powernet and powertrain topologies with a single and multiple traction motors. The benefits are verified using simulation results for both, fault-free and failure case operation. With the proposed torque distribution strategy a decrease in the energy losses of up to 12 % for the given use case was achieved. Also the optimization of the fault reactions shows the ability of the energy management system to achieve the control goals despite multiple faults. In addition to the concepts presented in this dissertation, also runtime optimized algorithms are proposed, implemented and validated by means of simulation. By enhancing the reliability of the power supply and fail-operability of the powertrain, the work presented in this dissertation contributes to the establishment of the evolving automated driving technology and provides a generic framework for model predictive energy management for future implementation in automated vehicles.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Mit dem steigenden Grad der Fahrautomatisierung geht die Zuständigkeit für die Fahrzeugführung und Sicherheit der Passagiere immer mehr vom Fahrer auf das Automatisierungssystem über. Dies führt zu erhöhten Anforderungen an die Zuverlässigkeit und Verfügbarkeit der Teilsysteme, die in die automatisierte Fahrzeugführung eingebunden sind. Beim Auftritt eines sicherheitskritischen Fehlers muss ein hoch- und vollautomatisiertes Fahrzeug ohne jeglichen Eingriff und Überwachung des Fahrers in den Stillstand überführt werden. Daher muss zusätzlich zu der eigentlichen Funktionalität dieser Teilsysteme auch deren zuverlässige Energieversorgung für die Dauer des Übergangs in den Stillstand von dem Energiebordnetz eines Fahrzeugs sichergestellt werden.&#13;
+&#13;
+Entsprechend der Norm ISO 26262 für die funktionale Sicherheit müssen alle sicherheitskritische Teilsysteme mit einem entsprechenden Grad der Ausfallsicherheit (ASIL) entwickelt werden. Da zuverlässige Energieversorgung eine der Grundvoraussetzung für deren Funktionalität ist, wird es selbst sicherheitskritisch. Zur Erfüllung dieser erhöhten Zuverlässigkeits- und Verfügbarkeitsanforderungen werden daher neue fehlertolerante Bordnetze und zugehörige Betriebsstrategien benötigt. Die vorliegende Dissertation stellt ein neuartiges und generisches Energiemanagementkonzept für sicherheitsbasierte Reichweitensteigerung vor. Eine Optimierung der Steuerung vom Bordnetz und Antriebsstrang zur  Ankunft an einem für die Passagiere sichersten Ort liegt diesem Konzept zugrunde. &#13;
+&#13;
+Den Kern des vorgeschlagenen Energiemanagementsystems bildet eine zur Laufzeit ausgeführte Optimierung der Energieverteilung mit einem integrierten Degradationskonzept. Anhand prädiktiv ermittelter Werte für die verfügbaren Energieressourcen sowie den bis zum Ende der Fahrt benötigten Energieverbrauch passt die Betriebsstrategie die Energieflüsse an den Zustand des Bordnetzes an. Das Hauptziel der Steuerung ist dabei die Ankunft an einem aus der Sicht der Passagiere möglichst sicheren Ort zu ermöglichen. Zusätzlich wird unter Berücksichtigung der verfügbaren Ressourcen eine entsprechende Degradationsstufe für die Komfortlasten, das Fahrprofil sowie das Fahrziel festgelegt, mit dem Ziel an einem möglichst sicheren Ort mit Maximum an Komfort und Minimum an Fahrzeit anzukommen. Mit diesem Ansatz können auch die Fehlerreaktionen von dem funktionalen Sicherheitskonzept, das von der ISO 26262 für alle sicherheitskritischen Teilsysteme geforderte wird, automatisiert und optimiert werden. Auf diese Weise findet das Energiemanagementsystem automatisch die geeignetsten Fehlerreaktionen zum Erreichen des definierten Steuerungsziels. &#13;
+&#13;
+Der zum Durchführen einer Fahrt benötigte Energieverbrauch hängt stark von dem Geschwindigkeitsprofil, Straßensteigung sowie den Haltepunkten auf dem Weg zum Fahrtziel ab. Mithilfe des elektronischen Horizonts kann eine Fahrtrajektorie ausgehend von der aktuellen Fahrzeugposition bis zum Fahrtziel zur Laufzeit approximiert werden und anschließend zur streckenbasierten Prädiktion der benötigten Antriebsenergie verwendet werden. In Antriebsstrangtopologien mit mehreren Traktionsmotoren kann die Gesamtfahreffizienz und somit auch die Reichweite mit einer geeigneten Betriebsstrategie zur Drehmomentverteilung zwischen den einzelnen Motoren signifikant erhöht werden. Aus diesem Grund wird zur Laufzeit ein Profil der Drehmomentverteilung unter Anwendung der Theorie der optimalen Steuerung berechnet. Dadurch wird eine präzise und realistische Prädiktion der Antriebsenergie ermöglicht, was wiederum für die sicherheitsbasierte Reichweitensteigerung notwendig ist. Zusätzlich zur Steigerung der Fahreffizienz berücksichtigt die Strategie zur Drehmomentverteilung auch das symmetrische Entladen der unabhängigen Traktionsbatterien, was zur Sicherstellung einer nahezu gleichen Reichweite trotz des Ausfalls einer Batterie notwendig ist. Des Weiteren werden die Energieverluste in den Komponenten des Antriebsstranges ausbalanciert, sodass deren Überhitzen und somit eine mögliche schnellere Alterung und Abnutzung vermieden wird.  &#13;
+&#13;
+Die Anwendung des generischen Energiemanagementsystems wird anhand zwei unterschiedlicher Bordnetz- und Antriebsstrangtopologien mit jeweils einem und mehreren Traktionsmotoren veranschaulicht. Der Nutzen wird mithilfe der Simulationsergebnisse im fehlerfreien und fehlerbehafteten Zustand aufgezeigt. Mit der vorgeschlagen Strategie zur Drehmomentenverteilung konnte eine Verkleinerung der Energieverluste um ca. 12 % im gegebenen Anwendungsfall erreicht werden. Auch die Optimierung der Fehlerreaktionen zeigt die Fähigkeit des Energiemanagementsystems die Steuerziele trotz mehrerer Fehler zu erreichen. Neben den in dieser Dissertation vorgestellten Konzepten werden auch Implementierungsalgorithmen vorgeschlagen, die für Laufzeitausführung optimiert wurden. Durch die Steigerung der Zuverlässigkeit der Energieversorgung sowie der Funktionsfähigkeit des Antriebsstranges auch im Fehlerfall trägt diese Arbeit zur Etablierung der ständig wachsenden Technologie für automatisiertes Fahren bei und schlägt ein generisches modellprädiktives Energiemanagementsystem zur Implementierung in künftigen automatisierten Fahrzeugen vor.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2019-06-19</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2019</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-14991</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Kirill_Gorelik.pdf" ddb:fileSize="8303720"/>
+   <ddb:checksum ddb:type="MD5">fd0681a6f5047349a0f1fbdb14d275a8</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1499/1/Dissertation_Kirill_Gorelik.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1499</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

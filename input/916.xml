@@ -1,0 +1,74 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>916</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Ground moving target tracking with space-time adaptive radar</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Bodenzielverfolgung mit Raum-Zeit adaptiver Signalverarbeitung</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Robert</pc:foreName>
+            <pc:surName>Kohlleppel</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Raum-Zeit-Signalverarbeitung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Bodenzielverfolgung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Raum-Zeit adaptive Signalverarbeitung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Richtungsschätzung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Gaussian mixture probability hypothesis density</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">ground moving target indication</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">ground target tracking</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">space time adaptive processing</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">621</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Ground moving target tracking by airborne radar provides situational awareness of vehicle movements in the supervised region. Vehicles are detected by applying space time adaptive processing to the received multi channel radar data. The detections are then fed to a tracking algorithm that processes them to tracks. &#13;
+In literature, radar signal processing and ground target tracking are treated as two separate topics and results are not validated by experimental data. The first objective of this thesis is to provide a closer link between these fields. The second objective is to show that tracking performance can be improved by providing additional data from the radar signal processing to the tracking step. The third objective is to validate the algorithm and the performance improvement using experimental data. &#13;
+&#13;
+As a result this thesis presents a unified treatment of ground moving target tracking from radar raw data to established tracks. A complete reference algorithm for ground moving target tracking based on the Gaussian mixture probability hypothesis density filter is presented. In particular, Jacobians of the observation process are derived. They are presented in such a form that immediate implementation in a programming language is possible. &#13;
+&#13;
+In the course of this thesis a measurement campaign with the experimental radar PAMIR of Fraunhofer FHR was conducted. The experiment included two GPS equipped reference vehicles and a multitude of targets of opportunity. Tracking results obtained with this experimental data and the reference tracking algorithm of this thesis are shown. &#13;
+&#13;
+The thesis also enhances the reference target tracking algorithm by a parameter that characterizes the variance of the direction of arrival measurement of the target signal. This parameter is determined adaptively depending on the estimated signal strength and the clutter background. The major contribution with regard to this enhancement is a thorough experimental validation: Firstly, a comparison between GPS based measurements and radar based measurements of the direction of arrival shows that this variance captures the distribution of measurement errors excellently. Secondly, tracking results are compared to the GPS tracks of the ground truth vehicles. It is found that the enhanced algorithm yields superior track quality with respect to both track accuracy and track continuity.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Bodenzielverfolgung mit luftgestütztem Radar liefert das Lagebild von Fahrzeug­bewegungen innerhalb des beobachteten Gebiets. Fahrzeuge werden durch die Anwendung von Raum-Zeit adaptiver Signalverarbeitung (STAP) entdeckt. Die Entdeckungen werden dann von einem Zielverfolgungsalgorithmus zu Zielspuren verarbeitet. &#13;
+&#13;
+In der Literatur werden Radarsignalverarbeitung und Zielverfolgung als zwei getrennte Forschungsfelder behandelt und die Bodenzielverfolgung wird nicht anhand von Realdaten validiert. Das erste Ziel dieser Arbeit ist, eine engere Verbindung zwischen beiden Feldern herzustellen. Das zweite Ziel ist zu zeigen, dass die Qualität der Zielverfolgung durch das Verwenden zusätzlicher, durch die Radarsignalverarbeitung gewonnene Information verbessert werden kann. Das dritte Ziel ist, die Funktionalität der Zielverfolgung und die Verbesserung der Leistung durch experimentelle Realdaten zu belegen. &#13;
+&#13;
+Somit stellt diese Arbeit eine Gesamtbehandlung der Bodenzielverfolgung von den Radar-Rohdaten bis zu Zielspuren dar. Es wird ein vollständiger, auf dem Gaussian Mixture Probability Hypothesis Density Filter basierender Referenzalgorithmus für die Bodenzielverfolgung entwickelt. Insbesondere werden Jacobimatrizen der Beobachtungsfunktion hergeleitet. Sie werden in der Arbeit so dargestellt, dass sie direkt in einer Programmiersprache implementiert werden können. &#13;
+&#13;
+Im Zuge dieser Arbeit wurde ein Zielverfolgungs-Experiment mit dem Experimentalsystem PAMIR des Fraunhofer FHR durchgeführt. In dem Experiment wurden neben einer Vielzahl von Gelegenheitszielen zwei mit GPS-Geräten ausgerüstete Fahrzeuge von dem Radar beobachtet. Auf Basis dieses Experiments und des Referenzalgorithmus werden Zielverfolgungsergebnisse vorgestellt. &#13;
+&#13;
+Darüber hinaus erweitert diese Arbeit den Referenzalgorithmus um einen Parameter, der die Varianz der Richtungsschätzung des Zielsignals charakterisiert. Dieser Parameter wird adaptiv anhand der geschätzten Signalstärke und der Stärke störender Bodenrückstreuungen festgelegt. Der wesentliche Beitrag dieser Arbeit in Bezug auf diese Erweiterung ist eine gründliche experimentelle Validierung. Erstens zeigt der Vergleich von GPS- und Radar-basierten Richtungsschätzungen, dass dieser Parameter die Verteilung des Messfehlers exzellent beschreibt. Zweitens werden Zielverfolgungsergebnisse mit den GPS-Spuren verglichen. Es zeigt sich, dass der erweiterte Algorithmus sowohl in Bezug auf die Spurgenauigkeit als auch in Bezug auf die Spurkontinuität die Zielverfolgung verbessert.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2015-03-23</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2014</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-9164</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV - Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Robert_Kohlleppel.pdf" ddb:fileSize="22197191"/>
+   <ddb:checksum ddb:type="MD5">e934bdca2358ffe4f9d11211db39e4d1</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/916/1/Dissertation_Robert_Kohlleppel.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/916</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

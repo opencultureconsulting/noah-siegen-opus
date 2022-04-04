@@ -1,0 +1,74 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_54">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Regelungstechnische und verfahrenstechnische Maßnahmen zur Leistungssteigerung kommunaler Abwasserreinigungsanlagen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schönberger, Dirk</displayForm>
+                        <namePart type="family">Schönberger</namePart>
+                        <namePart type="given">Dirk</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2004</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Von 1996 bis 2001 wurden vom Zentrum für Sensorsysteme ZESS der Universität Siegen auf der Kläranlage Netphen mehrere F&amp;E-Projekte durchgeführt. Die Kläranlage Netphen war in der Ausbaustufe von 1996 nicht in der Lage, zum 1.7.2001 gültig werdende Überwachungswerte sicher einzuhalten. Insbesondere die Messgrößen Ammoniumstickstoff (NH 4 -N) und Gesamtstickstoff (N ges ) waren kritisch.
+Üblicherweise wird die Leistungssteigerung einer Abwasserreinigungsanlage durch
+Neubau oder bauliche Erweiterung realisiert. Wie in dieser Arbeit beschrieben, können diese sehr kostenintensiven Maßnahmen häufig durch den Einsatz von preiswerteren regelungstechnischen oder verfahrenstechnischen Methoden vermieden werden.
+Der verfahrenstechnische Ansatz, der Installation eines Lamellenabscheiders im
+Belebungsbecken der Anlage bewirkt eine Feststoffvorabscheidung bereits dort und
+erlaubt die Erhöhung der Mikroorganismenkonzentration im Belebungsbecken und somit grundsätzlich eine Leistungssteigerung der Anlage ohne gleichzeitig die Nachklärung zu überlasten.
+In Zusammenarbeit mit Industriepartnern wurden mehrere Regelungsstrategien getestet. Unzulänglichkeiten der angewandten Methoden führten zur Entwicklung neuer, auf Fuzzy-Logik basierender Strategien zur Bestimmung einer zeitvariablen Führungsgröße für die Gelöstsauerstoffkonzentration im Belebungsbecken. Als leistungsfähigste Variante stellte sich eine Methode mit einem strukturumschaltbaren Fuzzy-Regler in der überlagerten Schleife einer zweischleifigen Regelkreisstruktur heraus. Sie berücksichtigt explizit die wichtigsten Zustandsgrößen des Prozesses (NH 4 -N- and Nges-Konzentration
+im Belebungsbecken).
+Die sichere Einhaltung der Überwachungswerte konnte erreicht werden und das
+entwickelte System wurde im Herbst 2001 permanent auf der Kläranlage Netphen
+installiert. Ein größerer Umbau oder gar Neubau der Anlage konnte dadurch vermieden werden.</abstract>
+                    <abstract type="content" lang="eng">From 1996 to 2001, the Zentrum für Sensorsysteme ZESS of the University of Siegen conducted several R&amp;D projects at the Municipal Wastewater Treatment Plant of Netphen.
+With the technical setup of 1996 or earlier the plant was unable to meet lowered threshold values, which went into effect on 1 st of July 2001. In particular, the parameters ammonianitrogen (NH 4 -N) and total nitrogen (N ges ) turned out to be critical. Conventionally, performance enhancement in wastewater treatment is achieved either by building a new plant or by the constructional extension of an existing one. However, these very cost-intensive approaches could often be avoided by applying less expensive control and process engineering methods, as described in this thesis.
+The process engineering method of installing lamella separators inside the activated sludge tank of the plant allows the pre-sedimentation of solid matter. Hence, a bigger number of pollutant-decomposing microorganisms are detained in the aeration tank, increasing the plant’s purification capacity without overloading the sedimentation tank.
+In cooperation with associate partners, several control strategies were tested. Insufficiencies of the applied concepts induced the development of control strategies, using fuzzy logic for the determination of a time-variable O 2 -setpoint. The most powerful approach turned out to be a method featuring a fuzzy-controller with a variable structure for O 2 -setpoint generation. It explicitly recognises the most important state variables (NH 4 -N- and N ges -concentration inside the aeration tank). Save compliance with all threshold values has been achieved and the developed system was permanently implemented at the Municipal Wastewater Treatment Plant of Netphen in autumn of 2001. Thus, reconstruction or rebuilding of the plant could be avoided.</abstract>
+                    <subject>
+                        <topic>Regelungstechnik</topic>
+                        <topic>Abwasserreinigung</topic>
+                        <topic>Leistungssteigerung</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 11, Maschinenbau"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-540</identifier>
+                    <identifier type="sys">HT013958186</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_54</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2003-07-24</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_54">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/54/1/schoenberger.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_54"
+            DMDID="DMD_siegen_opus_54">
+            <mets:fptr FILEID="FILE0_siegen_opus_54"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

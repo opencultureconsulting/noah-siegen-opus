@@ -1,0 +1,78 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1999</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">On the algorithmic synthesis of fluid and thermofluid systems</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Über die algorithmische Synthese von Fluid- und Thermofluidsystemen</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Jonas Benjamin</pc:foreName>
+            <pc:surName>Weber</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Fluidtechnik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Technical Operations Research</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">System Synthesis Problem</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Thermofluid System</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Technisches Operations Research</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">System-Synthese-Problem</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Thermofluid-System</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Individual technical components are usually well optimized. However, the design process of entire technical systems, particularly  in its early stages, is still dominated by the practical experience of system designers. Especially the interaction of the individual system components at varying conditions leads to a high level of design complexity. In this context, the application of modern algorithmic optimization methods offers the potential to reduce costs and at the same time increase energy efficiency. The overarching vision is therefore the widespread use of these methods to support the human-driven design process of technical systems. As a contribution to this, the algorithmic system synthesis of fluid and thermofluid systems using mathematical programming techniques is examined in this thesis. For this task, the objective is to select and combine individual components with defined characteristics from a set of available options in order to obtain an optimal overall system capable of covering a given collective of varying loads at minimum cost.&#13;
+&#13;
+The starting point is the presentation of an optimization model for the synthesis of fluid systems. Based on this, model extensions and algorithmic methods are developed that aim at an optimal synthesis of systems on a practice-oriented scale. For fluid systems, an approach is proposed that exploits domain-specific properties and is able to outperform commercial standard solvers. Simulated Annealing is used to generate good initial solutions for the approach, whereupon a domain-specific relaxation procedure is used to identify strong bounds for evaluating the obtained solutions. In a subsequent step, globally optimal solutions can be obtained using the Branch-and-Bound method. This approach is then further analyzed for the application example of booster stations. Furthermore, it is demonstrated how the resilience of existing systems can be increased with respect to the failure of individual components by using quantified programming.&#13;
+&#13;
+Moreover, a model extension is presented to extend the consideration to thermofluid systems. These systems are assumed to comprise fluid systems with superimposed heat transfer, which ensures compatibility with the basic fluid system model. However, while the previous considerations exclude dynamic behavior that results, inter alia, from the coupling of adjacent points in time by storage components, two time representations suitable for this application are presented and discussed.  One of these two representations is a more traditional discrete-time approach and the other is a novel continuous-time approach based on the consideration of variable time intervals. &#13;
+&#13;
+Overall, this thesis is intended to provide a foundation for further research in the field of algorithmic synthesis of technical systems and its transfer to engineering practice.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Einzelne technische Komponenten sind in der Regel bereits sehr weit ausgereift. Der Entwurfsprozess ganzer technischer Systeme ist jedoch, insbesondere in seinen frühen Phasen, immer noch stark von der praktischen Erfahrung von Anlagenplanern geprägt. Gerade das Zusammenspiel der einzelnen Systemkomponenten unter variierenden Bedingungen führt zu einer hohen Entwurfskomplexität. Die Anwendung moderner algorithmischer Optimierungsverfahren bietet hierbei das Potenzial, Kosten zu senken und gleichzeitig die Energieeffizienz zu steigern. Die übergeordnete Vision ist daher der verstärkte Einsatz dieser Methoden zur Unterstützung des Entwurfsprozesses technischer Systeme. Als Beitrag hierzu wird die algorithmische Systemsynthese von Fluid- und Thermofluidsystemen untersucht. Ziel ist es, aus verfügbaren Optionen einzelne Komponenten auszuwählen und zu kombinieren, um ein optimales Gesamtsystem zu erhalten, das in der Lage ist, ein definiertes Kollektiv unterschiedlicher Lasten mit minimalen Kosten abzudecken.&#13;
+&#13;
+Ausgangspunkt hierfür ist die Vorstellung eines Optimierungsmodells für die Synthese von Fluidsystemen. Darauf aufbauend werden Modellerweiterungen und algorithmische Methoden entwickelt, die auf eine optimale Synthese von Systemen im praxisrelevanten Maßstab abzielen. Für Fluidsysteme wird ein Verfahren vorgeschlagen, das anwendungsspezifische Eigenschaften ausnutzt und in der Lage ist, die Leistungsfähigkeit kommerzieller Standardsoftware zu übertreffen. Hierbei wird der Simulated Annealing Algorithmus verwendet, um gute Anfangslösungen für das Verfahren zu generieren, woraufhin ein anwendungsspezifisches Relaxationsverfahren vorgestellt wird, um starke Schranken für die Bewertung der gefundenen Lösungen zu identifizieren. Im Anschluss können dann mit Hilfe der Branch-and-Bound Methode global optimale Lösungen ermittelt werden. Um die entwickelte Methodik zu testen, werden Druckerhöhungsanlagen als Anwendungsbeispiel herangezogen. Weiterhin wird ein Ansatz gezeigt, wie die Resilienz der erzeugten Systeme in Hinsicht auf den Ausfall einzelner Komponenten erhöht werden kann.&#13;
+&#13;
+Außerdem wird eine mit dem Fluidsystemmodell kompatible Modellerweiterung für die Betrachtung von Thermofluidsystemen vorgestellt. Während diese Betrachtung dynamisches Verhalten ausklammert, das sich aus der Kopplung benachbarter Zeitpunkte durch Speicherkomponenten ergibt, werden daran anschließend zwei geeignete Ansätze hierfür vorgestellt. Dabei handelt es sich zum einen um einen traditionellen, zeitdiskreten Ansatz und zum anderen um einen neuartigen, zeitkontinuierlichen Ansatz, der auf der Betrachtung variabler Zeitintervalle basiert. &#13;
+&#13;
+Die vorliegende Arbeit soll somit einen Ausgangspunkt für weitere Forschung auf dem Gebiet der algorithmischen Synthese technischer Systeme und deren Transfer in die Praxis bilden.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Ulf</pc:foreName>
+            <pc:surName>Lorenz</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2021-09-16</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2021</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-19992</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/lizenz.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Department Maschinenbau</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Jonas_Benjamin_Weber.pdf" ddb:fileSize="1142558"/>
+   <ddb:checksum ddb:type="MD5">65d42f419ff9c749e31a8710b946ab70</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1999/4/Dissertation_Jonas_Benjamin_Weber.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1999</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_507">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Strukturdiagnose mit Ultraschallwellen durch Verwendung von piezoelektrischen Sensoren und Aktoren</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Moll, Jochen</displayForm>
+                        <namePart type="family">Moll</namePart>
+                        <namePart type="given">Jochen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Zu den wichtigsten Eigenschaften bei der Auslegung von technischen Strukturen zählt die Gewährleistung der Betriebssicherheit. Die früheren Entwicklungen im klassischen Maschinenbau bzw. im klassischen Bauwesen gingen nach damaligem Kenntnisstand von konservativen Auslegungsstrategien aus, den so genannten safe-life Konzepten. Die Vorgehensweise bestand darin, die Bauteile so zu dimensionieren, dass der Versagensfall praktisch nicht eintreten konnte. Dies führte in vielen Fällen zu einer Überdimensionierung, was mit einem hohen Strukturgewicht einherging. Mit dem Aufkommen des Leichtbaus und einem neuen ökologischen Bewusstsein, musste dieses klassische Konzept überdacht werden. Aus diesem Grund entwickelte man das fail-safe Konzept. Hierbei wird nun so ausgelegt, dass auch bei einer Anfangsschädigung oder dem Komplettausfall einer Komponente die Gesamtstruktur noch sicher funktioniert und die Betriebssicherheit gewährleistet ist. Bei diesem Auslegungskonzept spielen Überwachungssysteme eine wichtige Rolle, die unter den Oberbegriffen Structural Health Monitoring (SHM) und Non-Destructive Testing (NDT) zusammengefasst sind.
+
+In der Vergangenheit hat sich gezeigt, dass sich geführte Ultraschallwellen sehr gut für die Überwachung von dünnwandigen Strukturen eignen. Angeregt durch piezoelektrische Aktoren breiten sich die Wellen über eine relativ große Distanz aus und interagieren dabei sensitiv mit verschiedenen Schadenstypen, wie z.B. Rissen, Delaminationen oder Korrosionsschäden. Der Fokus dieser Arbeit liegt auf der Entwicklung und experimentellen Realisierung eines autonomen, wellenbasierten SHM-Konzepts für isotrope und anisotrope Werkstoffe. Hierbei ist die Elimination des Temperatureffekts für die Schadensdiagnose von entscheidender Bedeutung. Mit Hilfe eines Schadensindikators und statistischen Schwellwerten kann ein Schaden zunächst automatisch detektiert und im Anschluss mittels einer Laufzeitanalyse lokalisiert werden. Nach der erfolgreichen Bestimmung des Schadensortes können gezielte Wartungsmaßnahmen eingeleitet werden, so dass die Betriebssicherheit der Struktur erhalten bleibt. Die Validierung des vorgestellten Überwachungskonzepts erfolgt mit Hilfe umfangreicher experimenteller Untersuchungen an isotropen wie auch anisotropen Platten bei unterschiedlichen Schädigungstypen. 
+
+Weiterhin dokumentiert diese Arbeit die Formulierung von zwei neuen Signalverarbeitungsverfahren, die zu einer Verbesserung der Schadensvisualisierung beitragen: das zeitveränderliche inverse Filter und das in Kooperation mit der Arbeitsgruppe von Prof. Nelles (Universität Siegen) entwickelte statistische Versuchsplanungsverfahren HilomotDoE.</abstract>
+                    <subject>
+                        <topic>Signalverarbeitung</topic>
+                        <topic>Strukturüberwachung</topic>
+                        <topic>Ultraschallwellen</topic>
+                        <topic>Monitoring</topic>
+                        <topic>Schadensdetektion</topic>
+                        <topic>Schadenslokalisation</topic>
+                        <topic>structural health monitoring</topic>
+                        <topic>guided ultrasonic waves</topic>
+                        <topic>damage detection</topic>
+                        <topic>damage localization</topic>
+                        <topic>signal processing</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Mechanik und Regelungstechnik - Mechatronik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5071</identifier>
+                    <identifier type="sys">HT016823220</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_507</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2011-03-31</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_507">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/507/1/moll.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_507"
+            DMDID="DMD_siegen_opus_507">
+            <mets:fptr FILEID="FILE0_siegen_opus_507"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

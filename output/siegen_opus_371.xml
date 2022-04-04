@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_371">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Zwei-Photon-Beiträge zur elastischen Elektron-Nukleon-Streuung im Skyrme-Modell</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Two-photon contributions to the elastic electron-nucleon scattering in the Skyrme model</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kuhn, Markus</displayForm>
+                        <namePart type="family">Kuhn</namePart>
+                        <namePart type="given">Markus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2008</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Das maßgebliche Ziel dieser Arbeit ist die Berechnung des Anteils der QCD Anomalie an der elastischen Elektron-Proton-Streuung. Auf der Grundlage des Skyrme-Modells werden die Protonen als Solitonlösungen verstanden und quantisiert. Der Beitrag zum Wirkungsquerschnitt entspricht in niedrigster Ordnung der Interferenz des Ein-Photon-Austausches mit dem Zwei-Photon-Austausch. Letzterer weist eine ultraviolette Divergenz auf, die durch die Hinzunahme eines effektiven Counterterms renormiert wird. Der Counterterm trägt zur Breite des Zerfalls des neutralen Pions in ein Elektron-Positron-Paar bei und wird dadurch bestimmt. Die Auswirkung der Anomalie auf die Rosenbluth-Extraktion der elektromagnetischen Formfaktoren und die Diskrepanz zur Messung der Polarisationsobservablen wird ausgiebig diskutiert. Zusätzlich zum Beitrag der Anomalie wird die zu erwartende Korrektur aufgrund der effektiven Zwei-Photon-Kopplung des nicht-linearen-sigma-Modells abgeschätzt.</abstract>
+                    <abstract type="content" lang="eng">The most important goal of this work is the calculation of the contribution arising from the anomaly of QCD to the inelastic electron-proton scattering. Based on the Skryme model the protons are realized as soliton solutions in effective chiral theories. The next to leading order contribution to the cross section is given by the interference between the one- and two-photon exchange. The latter contains an ultraviolet divergence, which is renormalized by a local effective counterterm. This counterterm contributes to the width of the neutral pion decay which determines the finite part of the counterterm coefficient. The affect of the anomaly to the Rosenbluth separation of the electromagnetic form factors as well as the discrepance regarding the polarization measurements is extensively discussed within the Skyrme model. In addition, the correction as expected from the effective two-photon coupling of the non-linear-sigma model is estimated.</abstract>
+                    <subject>
+                        <topic>Anomalie &lt;Quantenfeldtheorie&gt;</topic>
+                        <topic>Wess-Zumino-Term</topic>
+                        <topic>Elektromagnetische Formfaktoren</topic>
+                        <topic>Zwei-Photon-Austausch</topic>
+                        <topic>Zwei-Photon-Beiträge</topic>
+                        <topic>Wess-Zumino term</topic>
+                        <topic>electromagnetic form factors</topic>
+                        <topic>two-photon exchange</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 7, Physik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-3714</identifier>
+                    <identifier type="sys">HT015737384</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_371</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2008-09-22</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_371">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/371/1/kuhn.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_371"
+            DMDID="DMD_siegen_opus_371">
+            <mets:fptr FILEID="FILE0_siegen_opus_371"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

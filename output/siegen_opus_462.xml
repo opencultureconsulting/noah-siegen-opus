@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_462">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Macroscopic and microscopic deformation of the piezoelectric Li 2 SO 4 ·H 2 O, Li 2 SeO 4 ·H 2 O and BiB 3 O 6 crystals under an external electric field</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schmidt, Oleg</displayForm>
+                        <namePart type="family">Schmidt</namePart>
+                        <namePart type="given">Oleg</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Within the scope of this work the piezoelectric response of the crystals Li2SO4H2O, Li2SeO4H2O and BiB3O6 to a periodically applied external electric perturbation both on the macroscopic and microscopic scale was investigated. It was shown that the bond-selective distortion observed within these crystals is dependent on the strength of a chemical bond and the charges of the respective pseudoatoms bonded to each other. The electric-field-induced much greater average Li-O bond deformation in Li2SeO4H2O compared to that measured in Li2SO4H2O was referred to the larger vacancies in the structure of the lithium ion conducting Li2SeO4H2O crystal. In addition, a novel concept of an X-ray diffraction experiment for the time-resolved measurements of the strains generated in piezoelectric crystals based on the detector pulse processing with a 100 MHz FPGA chip was realized. By reducing the switching time between different HV states to fast 200 ns within the modulation of the basic HV period applied to Li2SO4H2O crystal plates, superimposed vibrational modes of the plates could be excited, the properties of which were studied by performing X-ray measurements of diffraction curves with a time resolution of 100 ns. In contrast, the induced internal redistribution of atoms within the unit cell of Li2SO4H2O was negligibly small. This effect is accounted for by the low pressure in the range of MPa exerted on the atoms within the crystal by its elastic deformations.</abstract>
+                    <subject>
+                        <topic>Piezoelektrizität</topic>
+                        <topic>Elektronendichtebestimmung</topic>
+                        <topic>piezielectricity</topic>
+                        <topic>x-ray diffraction</topic>
+                        <topic>mono-crystal</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 7, Physik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4628</identifier>
+                    <identifier type="sys">HT016598573</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_462</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2010-09-23</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_462">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/462/1/schmidt_oleg.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_462"
+            DMDID="DMD_siegen_opus_462">
+            <mets:fptr FILEID="FILE0_siegen_opus_462"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

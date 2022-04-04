@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_520">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Die </nonSort>
+                        <title>Aufgaben von kommunalen Behindertenbeauftragten in Bezug auf die Umsetzung der UN-Behindertenrechtskonvention</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Middel, Stefanie</displayForm>
+                        <namePart type="family">Middel</namePart>
+                        <namePart type="given">Stefanie</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bachelorThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In der vorliegenden Arbeit geht es um die Aufgaben von kommunalen Behindertenbeauftragten in Bezug auf die Umsetzung der UN-Behindertenrechtskonvention am Beispiel der Stadt Iserlohn (Märkischer Kreis). Zunächst wird die Entwicklung der Interessenvertretung von Menschen mit Behinderung in der Bundesrepublik Deutschland seit Beginn des 20. Jahrhunderts beschrieben. Anschließend werden die Aufgaben der Behindertenbeauftragten auf verschiedenen Ebenen - Bund, Land und Kommune - dargestellt. Anschließend wird Bezug auf den geschichtlichen Hintergrund und den Inhalt der UN-Behindertenrechtskonvention genommen. Im weiteren Verlauf werden die Behindertenhilfe und die Behindertenpolitik in der Kommune Iserlohn beschrieben. Hierbei wird auf die Tradition der Behindertenpolitik vor Ort und die Merkmale und Angebote der Behindertenhilfe in der Kommune eingegangen. Hierauf folgt eine Darstellung des konkreten Tätigkeitsprofils des Koordinators der Behindertenhilfe in Iserlohn. Danach wird die Bedeutung der UN-Behindertenrechtskonvention für die Arbeit des Koordinators der Behindertenhilfe erläutert. Behandelt werden die Bedeutung der Konvention allgemein auf die Arbeit in der Kommune, sowie die Bedeutung ausgewählter Artikel.</abstract>
+                    <subject>
+                        <topic>Behindertenrechtskonvention</topic>
+                        <topic>Behindertenbeauftragte</topic>
+                    </subject>
+                    <classification authority="ddc">360</classification>
+                    <classification authority="ioo" displayLabel="Zentrum für Planung und Evaluation Sozialer Dienste (ZPE)"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5207</identifier>
+                    <identifier type="sys">HT016883679</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_520</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBachelorThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_520">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/520/1/middel.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_520"
+            DMDID="DMD_siegen_opus_520">
+            <mets:fptr FILEID="FILE0_siegen_opus_520"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

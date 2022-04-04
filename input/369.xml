@@ -1,0 +1,65 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>369</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Bistatic processing - analysis and verification</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Bistatische Prozessierung - Analyse und Verifizierung</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Koba</pc:foreName>
+            <pc:surName>Natroshvili</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Bistatisches Radar</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Bistatisches Punktziel- Referenzspektrum</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Bistatic SAR</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Synthetic Aperture Radar</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Inverse Scaling</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Bistatic Point Target Reference Spectrum</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Bistatic Processing</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Interest in Bistatic and Multistatic SAR (Synthetic Aperture Radar) systems has grown in the last decade. They bring additional benefits to conventional monostatic SAR systems, such as flexibility, cost reduction, reduced vulnerability, etc. At the same time, processing complexity for bistatic configurations is much higher than for conventional monostatic processors. Until now only some numerical and intuitive solutions were given in this respect. No analytical solution is available.&#13;
+In this work we will focus on bistatic SAR processing problems. The algorithms we will develop are based on a point target reference spectrum derived at our research institute. In the beginning we will derive the bistatic formula itself, which contains quite lengthy and complex mathematical expressions. In the derivation, some approximations are used. We will therefore consider the constraints of validity. Later, we will demonstrate the performance of the bistatic formula with simulation by focusing the single and group of point targets.&#13;
+In the very general arbitrary configuration, the processing is range and azimuth time dependent. We will focus on increased complexity configurations. In this respect, we will first consider the Tandem case and the translationally invariant case. Later, we will extend the focusing task to the general case, which is the most challenging bistatic configuration. This will be accomplished by compensating the scaling in both range and azimuth directions. Here, transmitter and receiver are moving on non-parallel trajectories with non-equal velocities. We will see that azimuth time variance causes additional scaling of Doppler frequency. As the first approximation, the focusing of the general bistatic SAR will be solved by separating the scaling in range and azimuth frequency directions. &#13;
+Some modules of our current bistatic algorithm will be substituted later by a truly 2D scaling approach. We will derive the 2D Inverse Scaling approach and show some focusing results obtained from simulated raw data.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Das Interesse an bi- und multistatischen SAR (Synthetic Aperture Radar) Systemen ist im letztem Jahrzehnt stark angewachsen. Diese neuartigen SAR-Systeme, bei denen sich Sender und Empfänger an unterschiedlichen Positionen befinden, weisen bezüglich konventioneller monostatischer Systeme zusätzliche Vorteile auf, wie beispielsweise höhere Flexibilität, Kostenreduktion, höhere Ausfallsicherheit, etc.&#13;
+Gleichzeitig ist die Komplexität der SAR-Prozessierung für bistatische Anordnungen weit aus größer als es für die gängigen monostatischen Prozessoren der Fall ist. Bisher sind in diesem Zusammenhang nur einige numerische und intuitive Lösung bekannt. Es steht keine analytische Lösung zur Verfügung.&#13;
+Der Schwerpunkt dieser Arbeit liegt auf den Problemen der bistatischen SAR-Verarbeitung. Die entwickelten Algorithmen basieren auf dem bistatischen Punktziel-Referenzspektrum, welches im Zentrum für Sensorsysteme (ZESS) hergeleitet wurde. Zuerst wird die bistatische Formel hergeleitet, welche einige längliche und mathematisch komplexe Ausdrücke aufweist. Diese Herleitung enthält einige Näherungen, so dass auch Gültigkeitskriterien für allgemeine bistatische Anordnungen berücksichtigt und erfüllt werden müssen. Später wird die Leistungsfähigkeit der bistatischen Formel durch die Fokussierung einzelner und gruppierten Punktzielen simulativ überprüft.&#13;
+Im allgemeinen Fall (ungleicher Geschwindigkeitsvektoren für Sender und Empfänger) ist die bistatische Prozessierung Entfernungs- und Azimutzeitabhängig. Die Prozessierung solcher höher komplexen Anordnungen ist ebenfalls Teil dieser Arbeit. Beginnend mit Anordnungen mit konstantem Differenzvektor zwischen Sender und Empfänger wird der Fokussierungsalgorithmus auf den allgemeinen Fall erweitert. Es zeigt sich, dass die Azimutzeitvarianz eine zusätzliche Dopplerfrequenzskalierung hervorruft, so dass bei dem allgemeinen bistatischen Fall eine Reskalierung in Richtung beider Frequenzachsen erfolgen muss. &#13;
+Als ein erster Ansatz zur Fokussierung von bistatischen SAR-Daten wird eine getrennte Skalierung in Entfernung- und Azimutfrequenzrichtung durchgeführt. Einige  Module des bistatischen Algorithmus werden später durch einen 2D-Skalierungsansatz ersetzt. Dabei wird der 2D-Inverse-Scaling-Ansatz hergeleitet und einige Fokussierungsergebnisse, welche durch simulierte Rohdaten gewonnen wurden, gezeigt.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2007-12-20</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2007</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-3696</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>NRW-Zentrum für Sensorsysteme (ZESS)</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="dissertation_natroshvili.pdf" ddb:fileSize="4613746"/>
+   <ddb:checksum ddb:type="MD5">22d26a87e799ca6af40f96e5ae7d1d7e</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/369/1/dissertation_natroshvili.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/369</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

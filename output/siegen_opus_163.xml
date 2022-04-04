@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_163">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Verbesserung der Dichtigkeit und Festigkeit von Mörtel/Beton durch Polymere</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Reinschmidt, Anke</displayForm>
+                        <namePart type="family">Reinschmidt</namePart>
+                        <namePart type="given">Anke</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2000</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Ziel der im Rahmen der Dissertation durchgeführten Untersuchungen war die Entwicklung eines Fließmittels bzw. Betonverflüssigers auf Polyurethanbasis. Im ersten Schritt, der Screening-Phase, erfolgte eine systematische Optimierung der chemischen Struktur der Polymere im Hinblick auf eine gute verflüssigende Wirkung sowie praxisgerechte Verarbeitungseigenschaften. Dazu wurden Normmörtel mit 2 M.-% Kunststoff vergütet (DIN EN 196), auf die gleiche Ausgangskonsistenz eingestellt und der Wasseranspruch bestimmt. Weiterhin wurden die Frischmörteleigenschaften und mechanische Kennwerte wie Biegezug- und
+Druckfestigkeiten, dynamische E-Moduln und Porositäten bis zu einer Hydratationsdauer von 28 Tagen ermittelt. Der zweite Untersuchungsabschnitt diente dazu, die Einflüsse von verschiedenen Zementen, von Zusatzstoffen und verschiedenen Polymerkonzentrationen im Mörtel zu untersuchen. Dabei wurden die Mahlfeinheit und die chemische Zusammensetzung der Zemente variiert. Als Zusatzstoffe kamen Mikrosilica, Nanosilica, Steinkohlenflugasche, Glas-, Kalkstein- und Basaltmehl zum Einsatz. Die Zugabemenge des Polymers
+reichte von 0.5 bis 6 M.-%. Diese Ergebnisse wurden im dritten Teil der Arbeit, in dem es um praktische Anwendungen der Polyurethane ging, auf die Rezeptierung von Hochleistungs und Dränbeton übertragen. Die Festigkeit und Dichtigkeit der modifizierten Betone konnte durch den niedrigeren Wasserbedarf deutlich erhöht werden, wie u.a Eindringversuche mit verschiedenen organischen Lösungsmitteln und die Prüfung des Frosttausalzwiderstandes belegen. Die entwickelten Dränbetone, haufwerksporige Betone mit einem offenporige Gefüge, die als Straßenbelag zur Lärmminderung eingesetzt werden, erfüllten die Anforderungen
+bzgl. Hohlraumgehalt und Festigkeitsentwicklung.</abstract>
+                    <subject>
+                        <topic>Hochleistungsbeton</topic>
+                        <topic>Polyurethane</topic>
+                        <topic>Baustoffdichtigkeit</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 8, Chemie - Biologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1633</identifier>
+                    <identifier type="sys">HT012866479</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_163</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2000-11-13</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_163">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/163/1/reinschmidt.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_163"
+            DMDID="DMD_siegen_opus_163">
+            <mets:fptr FILEID="FILE0_siegen_opus_163"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

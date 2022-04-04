@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_648">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Space charge effect measurements for a multi-channel ionization chamber used for synchrotron radiation</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Nasr, Amgad</displayForm>
+                        <namePart type="family">Nasr</namePart>
+                        <namePart type="given">Amgad</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">A new Multi-channel ionization chamber which can be filled with noble gasses N2, Ar and Xe with controlled inner pressure up to 30 bar is build. The detector is a part of the experimental setup used in the k-edge digital subtraction angiography project, which will be used for correcting the angiography images taken by another detector at the same time.
+In this work the space charge effect is measured with very high synchrotron photons intensity from EDR beam line at BESSYII.
+Time response measurement is carried out by filling the chamber with different gasses pressure of argon methane mixture of (90%:10%) and pure nitrogen gas, using a lead slit chopper for pulsating the incoming synchrotron beam. The output current signal is measured with tuning the applied high voltage from recombination regime up to saturation regime.
+The numerical simulation is applied to understand the effect of the space charge, recombination effects and the charge dynamics behavior inside the ionization chamber.</abstract>
+                    <subject>
+                        <topic>Angiographie</topic>
+                        <topic>Gas detectors</topic>
+                        <topic>x-ray detectors</topic>
+                        <topic>beam monitor</topic>
+                        <topic>space charge effect</topic>
+                        <topic>time response measurement</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-6481</identifier>
+                    <identifier type="sys">HT017388219</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_648</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2012-07-17</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_648">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/648/1/nasr.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_648"
+            DMDID="DMD_siegen_opus_648">
+            <mets:fptr FILEID="FILE0_siegen_opus_648"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

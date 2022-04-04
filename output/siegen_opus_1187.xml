@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1187">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>&quot;Arm, erziehungsunfähig und bildungsfeindlich&quot;? : Essay über gesellschaftliche und politische Bedingungen von ambulanten Erziehungshilfen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Coelen, Thomas</displayForm>
+                        <namePart type="family">Coelen</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Wenn man Akten von Jugendämtern auswertet, so lassen sich die häufigsten Gründe für Erziehungshilfen herausarbeiten: 1. Verhaltensauffälligkeiten und Erziehungsschwierigkeiten, also Schwierigkeiten von einzelnen Subjekten 2. Wohnverhältnisse und Armut/Schulden, also Probleme durch gesellschaftliche Strukturen Vor allem für Alleinerziehende, die unter der Klientel von Erziehungshilfen zahlreich sind, spielen materielle Probleme eine große Rolle; auch insgesamt sind arme Menschen in der Kinder- und Jugendhilfe überrepräsentiert.</abstract>
+                    <subject>
+                        <topic>Erziehungshilfe</topic>
+                        <topic>Armut</topic>
+                        <topic>Bildung</topic>
+                        <topic>Erziehungshilfe</topic>
+                        <topic>Exklusion</topic>
+                        <topic>Teilhabe</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11871</identifier>
+                    <identifier type="sys">HT019573912</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1187</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1187">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1187/1/Coelen_Arm_erziehungsunfaehig_und_bildungsfeindlich.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1187"
+            DMDID="DMD_siegen_opus_1187">
+            <mets:fptr FILEID="FILE0_siegen_opus_1187"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

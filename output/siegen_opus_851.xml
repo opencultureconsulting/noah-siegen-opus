@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_851">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Innovative Sensorkonzepte und Signalverarbeitungsstrategien zur Bewegungserkennung und Präsenzkontrolle von Personen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Krieger, Thomas P. U.</displayForm>
+                        <namePart type="family">Krieger</namePart>
+                        <namePart type="given">Thomas P. U.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2002</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Sensoren zur Bewegungs- und Anwesenheitserkennung sind ein wesentlicher Bestandteil moderner Gebäudeautomatisierungskonzepte. Insbesondere die preiswerten Passiv-Infrarot-Bewegungsmelder ermöglichen die bedarfsgerechte Steuerung zentraler Gebäudefunktionen und gewährleisten einen wirtschaftlichen Umgang mit den zur Verfügung stehenden Ressourcen.
+Speziell zur Anwesenheitskontrolle sind sehr hohe Bereichsauflösungen erforderlich. Diese lassen sich mit konventionellen CCD-Kameras erzielen, allerdings ist der Systemaufwand im Vergleich zu den niedriger auflösenden Passiv-Infrarot-Meldern höher. Mittlerweile bieten sich auch CMOS-Bildsensoren zur Präsenzkontrolle an. Im Rahmen dieser Arbeit werden Voruntersuchungen zur Realisierung eines CMOS-Bildwächters und zur Verbesserung des Schaltverhaltens von Passiv-Infrarot-Bewegungsmeldern präsentiert. Beide Sensorkonzepte können separat, aber auch gemeinsam in einem Multisensorsystem verwendet werden.
+Langjährige Erfahrungen beim Design optischer Sensoren im Zentrum für Sensorsysteme und gezielte Untersuchungen zu geeigneten Signalverarbeitungsstrategien führten zu einem hochwertigen Bewegungsmelder. Digitale Signalverarbeitungsalgorithmen reduzieren dabei die Fehlalarmanfälligkeit durch eine sehr spezielle Bewertung signalspezifischer Eigenschaften.
+Für zukünftige Verbesserungen wurde außerdem eine neuartiges Signalverarbeitungskonzept entwickelt, dass auf den Grundlagen der Estimationstheorie basiert. Dieser Ansatz verwendet ein zeitdiskretes lineares Zustandsraummodell des realen Prozesses und führt auf einen linearen optimalen Estimationsalgorithmus, der nach seinem Entdecker “Kalman-Filter“ genannt wird. Das Kalman-Filter wird zur Störungsunterdrückung eingesetzt. Abweichungen des prädizierten und des beobachteten Systemverhaltens dienen zur Bewegungserkennung, woraus eine erhöhte Detektionsempfindlichkeit bei gleichzeitig reduzierter Fehlalarmrate resultiert.</abstract>
+                    <abstract type="content" lang="eng">Motion observers and presence controllers are essential parts of modern concepts for building automation and energy management. Especially the low-cost passive infrared sensors, based on the pyroelectric effect, are suitable for reducing the overall power consumption by providing information about the presence or absence of persons.
+Particularly in indoor applications, conventional motion observers suffer from the low resolution of commercially available pyroelectric detectors. On the other hand, CCD cameras for the visible and near infrared region of light provide extremely high resultions, but for comparatively high cost. Newer developments in CMOS imager technology enable the design of low cost camera sensors. In the scope of this work, preleminary investigations on both, the
+CMOS camera and the motion observer with pyroelectric detectors, are presented. Both parts can be realized as separate sensor systems or in combination.
+Many years of experience in optical sensor design at the Center of Sensor Systems and closer investigations on signal processing strategies for motion detection culminated in a new superior motion observer. Digital signal processing algorithms reduce the susceptibility to false alarms through a very special evaluation of signal-specific characteristics.
+For future improvements, a new evaluation strategy for motion observers was developed, which is based on the foundations of estimation theory. This approach uses a discrete-time linear state space model of the real world process and leads to a linear, optimum estimation algorithm, which is called “Kalman-filter” according to its explorer. The Kalman-filter serves as suppressor for unwanted background signals. Deviations between the predicted behaviour and the behaviour observed at the real system are used for motion detection. This procedure
+yields into an increased sensitivity with simultaneously improved false alarm immunity.</abstract>
+                    <subject>
+                        <topic>PIR-Bewegungsmelder</topic>
+                        <topic>CMOS-Bildwächter</topic>
+                        <topic>Kalman-Filter</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-12</identifier>
+                    <identifier type="sys">HT013498214</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_851</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2002-06-10</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_851">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/851/1/krieger.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_851"
+            DMDID="DMD_siegen_opus_851">
+            <mets:fptr FILEID="FILE0_siegen_opus_851"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

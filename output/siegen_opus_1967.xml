@@ -1,0 +1,150 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1967">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>interplay between quantum entanglement, coherence, and convex optimization</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <nonSort>The </nonSort>
+                        <title>Das Zusammenspiel zwischen Quantenverschränkung, Kohärenz und konvexer Optimierung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Simnacher, Timo Yannick</displayForm>
+                        <namePart type="family">Simnacher</namePart>
+                        <namePart type="given">Timo Yannick</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Gühne, Otfried</displayForm>
+                        <namePart type="family">Gühne</namePart>
+                        <namePart type="given">Otfried</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">In this thesis, we strive to advance the knowledge of relations between convex optimization
+and the quantum phenomena entanglement and coherence. The main research
+areas we explore are rank-constrained semidefinite programming, the quantum
+pure-state marginal problem and the existence of AME states as well as quantum
+codes, entanglement detection, and the certification of quantum memories with coherence.
+
+First, we start with real and complex rank-constraint semidefinite optimization problems
+and rephrase them as an optimization over separable two-copy states. This reformulation
+allows to approach the problem through a hierarchy of efficiently solvable
+semidefinite programs that provide better and better certified bounds. We apply the
+new technique to various problems in quantum information theory and beyond, such
+as the optimization over pure states or unitary channels and the well-known maximum
+cut problem. Furthermore, we describe an inherent symmetry in our formulation that
+significantly improves the performance.
+
+Second, we consider the application of our method to the quantum pure-state marginal
+problem. In particular, we prove that the existence of n-partite absolutely maximally
+entangled states with local dimension d is equivalent to the bipartite separability of a
+certain state of 2n particles, and we compute that state explicitly. This application is a
+striking example of how symmetries can simplify semidefinite programs and we use
+them to compute high orders of our hierarchy despite the rapidly increasing dimension.
+Moreover, we rewrite the existence problem of quantum error-correcting codes
+as a marginal problem making our method also applicable to this area of research.
+
+Third, since entanglement is not only a theoretically interesting phenomenon, but also
+a vital resource for quantum information protocols, we investigate entanglement detection
+in practical experiments. We examine scrambled data, a scenario in which the
+mapping between outcomes and their respective probabilities is lost. Furthermore, we
+use the joint numerical range of observables to find measurements that allow entanglement
+detection even when the confidence region due to statistical and systematic
+errors is large.
+
+Finally, we introduce a quality measure for quantum memories that quantifies the
+performance based on the memory’s ability to preserve coherence. Remarkably, this
+measure also distinguishes entanglement-breaking channels from genuine quantum
+memories. For the case of single-qubit channels, we find various theoretical bounds
+and a simple measurement scheme to approximate our performance measure.</abstract>
+                    <abstract type="content" lang="ger">Mit dieser Dissertation wollen wir das Verständnis der Zusammenhänge zwischen
+konvexer Optimierung und der Quantenphänomene Verschränkung und Kohärenz
+erweitern. Die Hauptforschungsgebiete, die wir erkunden, sind rangbeschränkte semidefinite
+Programmierung, das Marginalproblem reiner Quantenzustände und die
+Existenz von AME-Zuständen sowie Quantencodes, Verschränkungsdetektion und die
+Zertifizierung von Quantenspeichern mittels Kohärenz.
+
+Als erstes beschäftigen wir uns mit reellen und komplexen rangbeschränkten semidefiniten
+Optimierungsproblemen und formulieren diese als Optimierung über separierbare
+Zwei-Kopien-Zustände um. Das erlaubt es, mittels einer Hierarchie effizient lösbarer
+semidefiniter Programme immer bessere zertifizierte Schranken zu berechnen.
+Wir wenden die Methode auf verschiedene Probleme in der Quanteninformationstheorie
+an, wie etwa die Optimierung über reine Zustände oder unitäre Kanäle und
+das Problem des maximalen Schnitts eines Graphen. Außerdem beschreiben wir eine
+inhärente Symmetrie unserer Formulierung, die die Komplexität erheblich verringert.
+
+Dann wenden wir unsere Methode auf das Marginalproblem reiner Quantenzustände
+an. Insbesondere beweisen wir, dass die Existenz n-partiter absolut maximal verschränkter
+Zustände mit lokaler Dimension d äquivalent zu der bipartiten Separierbarkeit
+eines bestimmten 2n-Teilchenzustands ist, den wir explizit berechnen. Das zeigt
+eindrucksvoll, wie Symmetrien semidefinite Programme vereinfachen können, sodass
+hohe Ordnungen unserer Hierarchie trotz rasch steigender Dimension berechenbar
+sind. Ferner formulieren wir das Existenzproblem von Quantenfehlerkorrekturcodes
+als Marginalproblem, sodass unsere Methode auch hierfür anwendbar wird.
+
+Da Verschränkung nicht nur theoretisch interessant ist, sondern auch eine essentielle
+Ressource für Quanteninformationsprotokolle, erforschen wir anschließend deren
+Detektion in der Praxis. Wir untersuchen ein Szenario, bei dem die Zuordnung von
+Messergebnissen zu den entsprechenden Wahrscheinlichkeiten unklar ist. Außerdem
+nutzen wir das gemeinsame numerische Bild von Observablen, um Messungen zu
+finden, die Verschränkungsdetektion selbst dann ermöglichen, wenn die Konfidenzregion
+aufgrund statistischer und systematischer Fehler relativ groß ist.
+
+Abschließend stellen wir ein Qualitätsmaß für Quantenspeicher vor, das die Leistungsfähigkeit
+auf Basis von Kohärenzerhaltung misst. Bemerkenswerterweise differenziert
+das Maß auch zwischen verschränkungszerstörenden Kanälen und echten Quantenspeichern.
+Für Ein-Qubit-Kanäle beschreiben wir theoretische Schranken und einfache
+Messungen, um das Maß näherungsweise zu bestimmen.</abstract>
+                    <subject>
+                        <topic>Quanteninformation</topic>
+                        <topic>Quantum information</topic>
+                        <topic>Entanglement</topic>
+                        <topic>Convex optimization</topic>
+                        <topic>Semidefinite programming</topic>
+                        <topic>Coherence</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Department Physik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19677</identifier>
+                    <identifier type="sys">HT021086741</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1967</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2021-07-22</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1967">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1967/4/Dissertation_Timo_Simnacher.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1967"
+            DMDID="DMD_siegen_opus_1967">
+            <mets:fptr FILEID="FILE0_siegen_opus_1967"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

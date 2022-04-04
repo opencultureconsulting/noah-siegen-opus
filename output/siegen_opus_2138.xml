@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_2138">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Essays in macroeconomics using scanner price data</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Essays in Makroökonomie basierend auf Scannerdaten</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zabelina, Natalia</displayForm>
+                        <namePart type="family">Zabelina</namePart>
+                        <namePart type="given">Natalia</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Beck, Günter W.</displayForm>
+                        <namePart type="family">Beck</namePart>
+                        <namePart type="given">Günter W.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">This dissertation consists of three studies in macroeconomics that were conducted utilizing scanner price data for European countries. The first study, “Price gaps at the border: evidence from multi-country household scanner data”, investigates whether consumer goods markets in three highly integrated European countries are segmented or integrated, and to what extent does a national border generate additional transaction costs. The second study, “Regional inflation rates: measurement and biases”, examines the question of regional inflation measurement and quantifies the biases caused by unaccounted product turnover and substitution of goods due to the changes in relative prices or consumer valuation. The third study, “Regional inflation rates and local economic conditions”, explores the relationship between different measures of regional inflation and local economic conditions.</abstract>
+                    <subject>
+                        <topic>Preisdiskriminierung</topic>
+                        <topic>Regionale Inflation</topic>
+                        <topic>Substitutionsverzerrung</topic>
+                        <topic>Grenzüberschreitendes Einkaufen</topic>
+                        <topic>Preisdiskriminierung</topic>
+                        <topic>regional inflation</topic>
+                        <topic>substitution bias</topic>
+                        <topic>cross-border shopping</topic>
+                        <topic>price discrimination</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät III - Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-21380</identifier>
+                    <identifier type="sys">HT021214738</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_2138</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2021-12-10</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_2138">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/2138/3/Dissertation_Natalia_Zabelina.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_2138"
+            DMDID="DMD_siegen_opus_2138">
+            <mets:fptr FILEID="FILE0_siegen_opus_2138"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

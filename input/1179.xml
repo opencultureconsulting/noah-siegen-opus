@@ -1,0 +1,65 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1179</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Constructive category theory and applications to equivariant sheaves</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Sebastian</pc:foreName>
+            <pc:surName>Posur</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Kohomologie</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Cohomology computations</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Homological algebra</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Algebraic geometry</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">510</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">In this thesis we create a purely categorical framework for cohomology computations of G-equivariant coherent sheaves on projective space for a finite group G. For this, we develop three different sub-frameworks: First, we construct a skeletal tensor category SRep(G) equivalent to the representation category Rep(G) of G. Second, we design, in the context of an arbitrary abelian category, an algorithm for computing spectral sequences which is suitable for a direct computer implementation, i.e., it only uses categorical constructions&#13;
+provided by the axioms of an abelian category. Last, we describe how to internalize the exterior algebra E and its modules in a tensor category.&#13;
+Combining our three sub-frameworks yields an algorithm for computing spectral sequences within the category of E-modules internal to SRep(G). Thanks to an equivariant version of the famous BGG-correspondence, we can use such an algorithm for computing cohomology groups of G-equivariant sheaves on projective  space. Furthermore, this algorithm allows us to compute a new invariant called&#13;
+spectral cohomology table which in this thesis is proven to be stronger than the classical cohomology table.&#13;
+Since our framework can be described in purely categorical language, a software project in GAP facilitating the implementation of abstract categories and categorical algorithms was born during the writing of this thesis: Cap (Categories, Algorithms, Programming). The categorical framework along with all algorithms presented in this thesis is implemented in Cap.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">In dieser Arbeit geben wir der Kohomologieberechnung G-äquivarianter Garben auf dem projektiven Raum für endliche Gruppen G einen konstruktiven kategoriellen Rahmen. Dazu gehen wir in drei Schritten vor: Wir konstruieren zuerst&#13;
+eine skeletale Tensorkategorie SRep(G), welche äquivalent zur Darstellungskategorie Rep(G) von G ist. Danach entwerfen wir einen ausschließlich auf den Axiomen einer abelschen Kategorie beruhenden Algorithmus zur Berechnung von Spektralsequenzen. Im Anschluss behandeln wir die äußere Algebra E und ihre Moduln intern in einer Tensorkategorie.&#13;
+Die Kombination dieser drei Schritte ergibt einen Algorithmus zur Berechnung&#13;
+von Spektralsequenzen innerhalb der Kategorie von E-Moduln intern in SRep(G).&#13;
+Dank der berühmten BGG-Korrespondenz kann dieser Algorithmus zur Bestimmung&#13;
+von Kohomologiegruppen G-äquivarianter Garben auf dem projektiven Raum genutzt werden. Darüber hinaus ermöglicht er die Berechnung von Spektral-Kohomologietabellen - eine neue Invariante, welche stärker ist als klassische Kohomologietabellen, wie in dieser Arbeit gezeigt wird.&#13;
+Durch die konstruktive Anwendung rein kategorieller Konzepte entstand während des Verfassens dieser Arbeit ein Software-Projekt in GAP zur Vereinfachung&#13;
+der Implementation abstrakter Kategorien und kategorieller Algorithmen: Cap (Categories, Algorithms, Programming). Alle Ergebnisse und Algorithmen dieser Arbeit wurden in Cap realisiert und implementiert.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2017-06-21</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2017</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-11798</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV - Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Sebastian_Posur.pdf" ddb:fileSize="1473048"/>
+   <ddb:checksum ddb:type="MD5">a66abf880e8d4715706170c86b6f35a4</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1179/1/Dissertation_Sebastian_Posur.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1179</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

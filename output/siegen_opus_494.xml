@@ -1,0 +1,59 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_494">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Didaktik + Schnelleinführung für die Politik : für die, die das nicht für so wichtig halten ; Übersichten + Grafiken ; (auch Lehrplan für den Politikunterricht für alle Schulstufen, in Übersichten und Grafiken)</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bellers, Jürgen</displayForm>
+                        <namePart type="family">Bellers</namePart>
+                        <namePart type="given">Jürgen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Lehrplan für den Politikunterricht.</abstract>
+                    <abstract type="content" lang="eng">Curriculum for teaching in politics.</abstract>
+                    <subject>
+                        <topic>Lehrplan</topic>
+                        <topic>Politikdidaktik</topic>
+                        <topic>Schnelleinführung</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4942</identifier>
+                    <identifier type="sys">HT016722601</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_494</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_494">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/494/1/didaktikpolitik_1.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_494"
+            DMDID="DMD_siegen_opus_494">
+            <mets:fptr FILEID="FILE0_siegen_opus_494"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

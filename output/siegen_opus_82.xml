@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_82">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Strömungsorientierung und Vorumwandlungserscheinungen in der isotropen Phase thermotroper Flüssigkristalle</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Birlenbach, Lars</displayForm>
+                        <namePart type="family">Birlenbach</namePart>
+                        <namePart type="given">Lars</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2004</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Eine Apparatur zur Messung der Stromungsdoppelbrechung flüssiger Substanzen wurde konstruiert. Bei der Konstruktion sind gute Thermostatisierbarkeit und Genauigkeit bei der Messung der Scherrate vorrangig behandelt worden. Eine Thermostatisierung ist auf ±0,01K moglich. Die Detektion der optische Anisotropie ist bis ∆n = 10 −9 moglich. Um die Messungen zu vereinfachen ist eine Rechnersteuerung aufgebaut worden. Eine homologe Reihe von sechs Flüssigkristallen und drei weitere, einzelne Flüssigkristalle wurden vermessen. Dabei wurde bei Annäherung an den Klärpunkt eine Divergenz der Maxwellschen Konstante festgestellt. Die neben der Messung der Stromungsdoppelbrechung zur Auswertung benotigten Daten von Dichte, kinematischer Viskosität und Brechungsindex wurden bestimmt. Die erhaltenen Meßwerte für die Stromungsdoppelbrechung und Maxwellsche Konstante der Flüssigkristalle sind angegeben; an die Daten der Hilfsmessungen wurden Funktionen angefittet. Funktionen und Parameter sind ebenfalls angegeben. Es wurden zwei homologe Reihen nicht mesogener Substanzen vermessen: die n-Alkansäuren von C 6 bis C 12 , sowie der jeweilige Ethylester der Verbindung. Die Messungen in der isotropen Phase der flüssigen Kristalle wurden im Rahmen der Landau-de Gennes-Theorie ausgewertet. Dazu wurde die Auswertung nach einer Mean-Field-Theorie mit einem kritischen Exponenten von 1 sowie nach einer erweiterten Gleichung mit einem kritischen Exponenten ungleich 1 durchgeführt und die Ergebnisse verglichen. Die Mean-Field-Theorie beschreibt die erhaltenen Ergebnisse nur grob, während durch einen kritischen Exponenten &lt; 1 eine bessere Beschreibung der Daten erhalten wird.</abstract>
+                    <abstract type="content" lang="eng">An apparatus was constructed for the measurement of the flow birefringence in liquids. In the construction good control of the temperature and accuracy in the determination of the rate of flow were treated with priority. The temperature can be adjusted to Â±0,01 K. The optical anisotropy can be measured down to ∆n = 10 −9 . To simplify the measurements an computer aided control system has been implemented. A homologous series of six liquid crystals has been measured, as well as three other liquid crystals. A divergence of the Maxwell Constant is observed as the phase transition is approached. In addition to the flow birefringence, the density, kinematic viscosity and refraction index have been measured. The values of the flow birefringence and the Maxwell constant of the liquid crystals are presented in tables. Appropriate functions have been fitted to the values of the auxiliary measurements, the functions and parameters are given in tables as well. Two homologous series of nonmesogenic compounds have been measured: the n-alcanoic acids from C 6 to C 12 , and the corresponding ethyl esters. The measurements in the isotropic phase of the liquid crystals have been evaluated in the framework of the Landau-de Gennes theory, using a simple mean-field approach with a critical exponent of 1 and an extended equation with an adjusted critical exponent. The results have been compared. The mean-field approach describes the results insufficently. A better description is achieved with a critical exponent &lt; 1.</abstract>
+                    <subject>
+                        <topic>Strömungsorientierung</topic>
+                        <topic>Vorumwandlungserscheinungen</topic>
+                        <topic>Flüssigkristalle</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 8, Chemie - Biologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-829</identifier>
+                    <identifier type="sys">HT014154486</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_82</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2004-09-19</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_82">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/82/1/birlenbach.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_82"
+            DMDID="DMD_siegen_opus_82">
+            <mets:fptr FILEID="FILE0_siegen_opus_82"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

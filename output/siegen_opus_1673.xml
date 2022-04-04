@@ -1,0 +1,82 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1673">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Erfassung der Strukturintegrität durch Messung der zeitabhängigen Vorspannkraft in Schraubenverbindungen</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Capturing of structural integrity by measuring the timedependent preload force in bolted joints</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Dümpelmann, Christopher</displayForm>
+                        <namePart type="family">Dümpelmann</namePart>
+                        <namePart type="given">Christopher</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Friedrich, Christoph</displayForm>
+                        <namePart type="family">Friedrich</namePart>
+                        <namePart type="given">Christoph</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Schraubenverbindungen werden seit Jahrhunderten erfolgreich eingesetzt. Trotz anerkannter Auslegungs- und Montageverfahren kommt es immer wieder zu schadhaften Schraubenverbindungen, die im Extremfall zu Unfällen führen. Dies gilt es mit Hilfe der Zustandsüberwachung zu vermeiden.
+Die vorliegende Dissertation zielt darauf ab, mittels Sensorschrauben die Strukturintegrität zu erfassen und Schäden der Verbindung sowie der Struktur zu detektieren. Zusätzlich wird der Begriff des Bolt-Condition-Monitorings (BCM) eingeführt und definiert. Einleitend werden die empirisch ermittelten Eigenschaften der Sensorschraube unter Standardlastfällen dargestellt. Dann wird mittels verschiedener Prüfaufbauten die Detektion der einzelnen Schadensmechanismen von Schraubenverbindungen untersucht. Die anschließende Behandlung von Strukturschäden erfolgt an einem Windenergieanlagenturmmodell sowie an Flanschverbindungen. Abschließend wird das Betriebslastverhalten anhand eines Feldversuchs geprüft.
+Die Ergebnisse zeigen, dass durch die Wahl eines geeigneten Schädigungsindikators Schäden in Schraubenverbindungen und Strukturen frühzeitig erkannt werden können. Die dazu notwendige Methodik sowie das nötige Vorgehen wird illustriert und erläutert.</abstract>
+                    <abstract type="content" lang="ger">Bolted joints haven been used successfully for centuries and have not yet reached the end of their development. Despite standards, simulations and new methods of assembly, defects in bolted joints still occur repeatedly, which in the worst case can lead to serious accidents. Condition monitoring aims to prevent these risks as well as avoiding production downtimes, serious damage to machines and danger to humans as well as the environment.
+By using proved and tested measurement technology to upgrade common bolts, the prevailing bolt load can be transmitted; and the bolt itself functions as a sensor. This thesis aims to use sensor bolts in order to measure structural integrity and detect damage of the connection as well as of the structure. Furthermore, the term bolt-condition-monitoring (BCM) is introduced and defined. The thesis is addressed to interested engineers and researchers in the fields of connection and measurement technology as well as condition monitoring.
+The empirically determined properties of the sensor bolts in cases of standard loads will be presented first. They serve as a valid basis for further investigations. Subsequently, the detection of the individual damage mechanisms of bolted joints is examined by means of various testing setups. The following treatment of structural damage is examined on the model of a wind turbine tower and flange connections. Finally, the operating load behavior is tested by means of a field trial.
+The results of these studies show that damages in bolted joints and structures can be detected at an early stage by selecting a suitable damage indicator and in certain cases in combination with a BCM function. This thesis shows and explains the required methods and processes.</abstract>
+                    <subject>
+                        <topic>Schraube</topic>
+                        <topic>Schrauben</topic>
+                        <topic>Zustandsüberwachung</topic>
+                        <topic>Vorspannkraftmessung</topic>
+                        <topic>Bolt-Condition-Monitoring (BCM)</topic>
+                        <topic>bolted joints</topic>
+                        <topic>predictive maintenance</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Konstruktion"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16730</identifier>
+                    <identifier type="sys">HT020622029</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1673</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2020-02-27</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1673">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1673/3/Diss_Duempelmann.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1673"
+            DMDID="DMD_siegen_opus_1673">
+            <mets:fptr FILEID="FILE0_siegen_opus_1673"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

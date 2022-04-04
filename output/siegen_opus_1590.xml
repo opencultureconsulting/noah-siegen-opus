@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1590">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Business founders aged over 50 years: between necessity and opportunity</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Stadler, Nina Sophie</displayForm>
+                        <namePart type="family">Stadler</namePart>
+                        <namePart type="given">Nina Sophie</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Es wurden in drei deutschen Regionen Interviews mit Gründern über 50 Jahren durchgeführt.
+Die Daten dieser Regionen ergaben einen Überblick über die typischen deutschen
+Wirtschaftsstrukturen (Agrar- Industrie- und Dienstleistungssektor). Die Perspektive des
+Bankensektors, die Perspektive des Beratungssektors und die Perspektive der Seniorengründer
+selbst sind evaluiert worden. In den Interviews wurden Risikoneigung, Finanzierungsprobleme,
+Motivation, Selbstverwirklichung, Zeitmanagement, Hindernisse bei der
+Gründung sowie Gründungsmethoden und Innovationsfähigkeit älterer Gründer behandelt.
+Die Untersuchung zeigt die Vielfalt älterer Gründertypen und gibt Hinweise darauf, wie ältere
+Gründer unterstützt werden können.</abstract>
+                    <abstract type="content" lang="eng">We have conducted a series of interviews in three German regions. The data from these
+regions provided an overview of typical economic structures in Germany (industrial, service,
+and agriculture regions). The bank perspective, the consultant perspective, and the founder
+perspective have been evaluated. The interviews concerned risk and insurance, financing,
+motivation and self-realization, satisfaction, time management, chances and obstacles,
+products, ideas, and sectors, red and blue ocean strategies, and founding methods. The investigation reveals a very large range of founder types and their special opportunities and
+problems and may indicate ways to promote the founding activities of the elderly.</abstract>
+                    <subject>
+                        <topic>Unternehmensgründung</topic>
+                        <topic>Älterer Arbeitnehmer</topic>
+                        <topic>Bildungswesen</topic>
+                        <topic>Wirtschaft</topic>
+                        <topic>Volkswirtschaft</topic>
+                        <topic>Foundation</topic>
+                        <topic>best agers</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-15907</identifier>
+                    <identifier type="sys">HT020450627</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1590</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1590">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1590/4/Business_Founders_Aged_over_50_Years.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1590"
+            DMDID="DMD_siegen_opus_1590">
+            <mets:fptr FILEID="FILE0_siegen_opus_1590"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,54 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>446</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Integrative Auswertung von Multi-Omics-Daten aus dem Zentralstoffwechsel von Corynebacterium glutamicum</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="eng">Integrative evaluation of Multi-Omics data of the central metabolism of Corynebacterium glutamicum</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Stephan</pc:foreName>
+            <pc:surName>Noack</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Mathematische Modellierung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">13C-Stoffflussanalyse</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Multi-Omics</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">metabolische Regulation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Eine wesentliche Zielsetzung im Bereich der Systembiologie besteht in der Untersuchung der regulatorischen Prozesse einer Zelle unter Berücksichtigung der Hierarchie-Ebenen Genom, Transkriptom, Proteom, Metabolom und Fluxom. Aufgrund der rasch fortschreitenden Entwicklung experimenteller und analytischer Technologien ist es möglich, die hierfür benötigten quantitativen Multi-Omics-Daten bereitzustellen. Den ersten Schwerpunkt der vorliegenden Arbeit bildet die Untersuchung zweier verschiedener Ansätze zur 13C-Stoffflussanalyse. Hierbei wird der  Organismus C. glutamicum erstmalig im Rahmen eines isotopisch instationären Markierungsexperiments im Fed-Batch-Ansatz untersucht. Auf  diese Weise werden sowohl isotopisch transiente als auch stationäre Markierungsanreicherungen von Zentralstoffwechselmetaboliten erzeugt. Die somit generierten Rohdaten werden auf der Basis von isotopisch  stationären und instationären Modellierungsansätzen unter Verwendung verschiedener Netzwerk- und Messkonfigurationen ausgewertet. Eine anschließende Verifizierung und Interpretation der erhaltenen quantitativen Stoffflussdaten erfolgt auf Grundlage von Flussbilanzanalysen in einem weiterentwickelten genomweiten Stofffwechselmodell für C. glutamicum. Die modellgestützte Auswertung von Multi-Omics-Daten bildet den zweiten Schwerpunkt innerhalb dieser Arbeit. Dabei wird ein neuartiges Modellierungskonzept entwickelt, welches auf einem vertikalen mechanistischen Netzwerkansatz basiert. Dieser ist entlang der Regulationsebenen einer Zelle (Genom, Proteom,  Metabolom) formuliert. Mit der Fokussierung auf den Zitratzyklus und der Anaplerose von C. glutamicum kann unter Einbezug des aktuellen Wissensstandes dieses Stoffwechselweges insbesondere auf metabolischer Ebene ein detailliertes Regulationsnetzwerk aufgebaut werden. Die Implementierung des vertikalen Netzwerkmodells erfolgt mit Hilfe der Modellierungssprache Modelica. Zu diesem Zweck wird eine geeignete Komponentenbibliothek entwickelt, mit deren Hilfe biochemische Netzwerke unter Nutzung der Objektorientiertheit dieser Sprache modelliert werden können. Die im Zuge kontinuierlicher Kultivierungen bereitgestellten umfassenden quantitativen Multi-Omics-Datensätze bilden schließlich die Grundlage zur Validierung des vertikalen Netzwerkmodells.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2009-11-25</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2009</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-4469</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 11, Maschinenbau</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="noack.pdf" ddb:fileSize="7904024"/>
+   <ddb:checksum ddb:type="MD5">a748bfd028e4dad0fd1f0e6ae8d32add</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/446/1/noack.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/446</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

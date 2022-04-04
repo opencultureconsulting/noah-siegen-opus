@@ -1,0 +1,64 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1480</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Single particle ICP-MS : capabilities of microsecond time resolution and coupling to capillary electrophoresis</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Einzelpartikel-ICP-MS : Möglichkeiten der Mikrosekunden-Zeitauflösung und der Kopplung an die Kapillarelektrophorese</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Darya</pc:foreName>
+            <pc:surName>Mozhayeva</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">ICP-Massenspektrometrie</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Einzelpartikel-ICP-MS</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Silbernanopartikel</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">nanoparticle</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">spICP-MS</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">SP-ICP-MS</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">CE</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">540</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Single particle inductively coupled plasma mass spectrometry (SP-ICP-MS) is a method that allows to obtain size, size distribution, and particle number concentration of nanoparticles (NPs) in suspensions only after few minutes of measurement. However, several challenges of commercially available SP-ICP-MS instruments currently exist that limit the analytical performance of the method. This thesis reports novel developments and improvements of SP-ICP-MS with the ultimate goal to be able to use it as a routine NP analysis method in the future.&#13;
+First, the state-of-the-art in SP-ICP-MS is reviewed on a step-by-step basis, from the sample introduction system to the detector. Applications of the method for the analysis of nanomaterials are critically discussed and current challenges are highlighted. Necessary improvements and directions for further developments are identified. &#13;
+Second, capillary electrophoresis (CE) is coupled to SP-ICP-MS and used for the first time with a data aquistion system (DAQ) that provides microsecond time resolution (5 µs dwell time, µsDAQ) for the separation and characterization of mixtures of Ag NPs. An online preconcentration approach is implemented to decrease the detection limits to the sub-microgram-per-liter range. In addition, it is demonstrated for the first time that the optimized CE-SP-ICP-MS method can be successfully used to separate NPs with similar sizes but different surface coatings. Each component in a complex mixture of 20 nm, 40 nm, 60 nm sized citrate-coated and 40 nm, 60 nm sized PVP-coated Ag NPs can be distinguished. &#13;
+Finally, a novel data processing algorithm for SP-ICP-MS with the µsDAQ is developed to extract NP signals from a continuous background signal. The method is based on Poisson statistics and allows to distinguish and quantify both NPs and dissolved elements. It is demonstrated that Ag NPs (20 nm – 100 nm) can be identified on a particle-by-particle level even in the presence of a significant concentration of ionic background (Ag+ up to 7.5 µg L-1, 107Ag+ up to 1 000 000 counts per second).</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die Massenspektrometrie mit induktiv gekoppeltem Plasma im Einzelpartikel-Modus (SP-ICP-MS) ist eine Methode, mit der sich die Größe, die Größenverteilung und die Partikelkonzentration von Nanopartikeln (NP) in Suspensionen innerhalb von wenigen Minuten bestimmen lassen. Obwohl die SP-ICP-MS kommerziell erhältlich ist, gibt es zahlreiche Herausforderungen, die die analytischen Leistungskenndaten und die Anwendbarkeit der Methode für die Nanomaterialanalytik beschränken. Die vorliegende Arbeit beschäftigt sich mit der Entwicklung und Optimierung von neuen Ansätzen in der SP-ICP-MS, um diese in der Zukunft noch besser als Analysemethode für die Nanomaterialanalytik einsetzen zu können.&#13;
+Zunächst wird der Stand der Technik auf dem Gebiet der SP-ICP-MS schrittweise vom Probeneinführungssystem bis zum Detektor kritisch diskutiert. Wichtige Anwendungen werden rezensiert und notwendige methodische und apparative Verbesserungen werden identifiziert. &#13;
+Im Ergebnisteil der Arbeit wird eine neuartige Methode vorgestellt, die auf der Kopplung von Kapillarelektrophorese (CE) mit SP-ICP-MS beruht, mit einem kontinuierlichen Datenerfassungsystem mit Mikrosekundenzeitauflösung (5 µs Integrationszeit) arbeitet und erfolgreich für die Charakterisierung von Ag NP eingesetzt wird. Ebenso wird eine Methode zur Online-Aufkonzentration implementiert, um die Nachweisgrenzen zu verbessern (µg L-1 – Bereich). Schließlich wird die CE-SP-ICP-MS zur Trennung von NP mit ähnlichen Größen, jedoch unterschiedlichen Oberflächenbeschichtungen verwendet. Jede Komponente in einer komplexen Mischung, welche 20 nm, 40 nm und 60 nm große Citrat-beschichtete Ag NP, sowie 40 nm und 60 nm große PVP-beschichtete Ag NP enthielt, kann unterschieden werden.&#13;
+Zum Schluss wird ein Datenverarbeitungsalgorithmus für die SP-ICP-MS mit µsDAQ vorgestellt. Die entwickelte Methode basiert auf der Poisson-Statistik und ermöglicht die Unterscheidung und Quantifizierung von NP und gelösten Elementen. Das Verfahren ermöglicht den Nachweis von Ag NP (von 20 nm bis 100 nm) in Anwesenheit einer signifikanten Konzentration an ionischem Hintergrund (Ag+ bis zu 7.5 µg L-1, 107Ag+ bis zu 1 000 000 Anzahl von Impulsen pro Sekunde).</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2019-07-12</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2019</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-14800</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Darya_Mozhayeva.pdf" ddb:fileSize="5476448"/>
+   <ddb:checksum ddb:type="MD5">69d4107147367f27ded2fb2914f002d4</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1480/1/Dissertation_Darya_Mozhayeva.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1480</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

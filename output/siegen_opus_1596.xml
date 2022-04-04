@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1596">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Entwicklung und Anwendung eines virtuellen Mehrzwecklabors zur Untersuchung und Optimierung multifunktionaler Wandstrukturen</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Development and application of a virtual multi-purpose laboratory for the analysis and optimization of multifunctional wall structures</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Perras, Elias</displayForm>
+                        <namePart type="family">Perras</namePart>
+                        <namePart type="given">Elias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Zhang, Chuanzeng</displayForm>
+                        <namePart type="family">Zhang</namePart>
+                        <namePart type="given">Chuanzeng</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Zum Schutz vor Lärmeinwirkungen und hinsichtlich eines möglichst geringen Energieverbrauchs müssen im Bauwesen verwendete Wandstrukturen sowohl über eine gute Schalldämmung als auch über eine effiziente Wärmedämmung verfügen. Um diese beiden Vorgaben bestmöglich zu erfüllen, werden zur Optimierung der Schall- und Wärmedämmeigenschaften von Wandstrukturen üblicherweise experimentelle Messungen sowie analytische und numerische Untersuchungen durchgeführt. Während umfangreiche Messreihen teuer und zeitaufwändig sind, müssen für analytische Methoden starke Vereinfachungen bezüglich der möglichen Randbedingungen und dem geometrischen Aufbau vorgenommen werden. Durch die Anwendung geeigneter numerischer Näherungsverfahren können hingegen fast alle relevanten physikalischen Phänomene in der Berechnung berücksichtigt werden. In der vorliegenden Arbeit wird ein virtuelles Mehrzwecklabor entwickelt, das in der Lage ist, die Schall- und Wärmedämmeigenschaften von geometrisch beliebigen Wandstrukturen zu ermitteln und zu optimieren. Zur Bestimmung der Schalldämmeigenschaften wird ein vollständig gekoppeltes Fluid-Struktur-Interaktionsproblem (FSI) im Frequenzbereich gelöst, wobei sich die numerische Näherungsrechnung am prinzipiellen Vorgehen bei einer Messung im Labor orientiert. Die im virtuellen Mehrzwecklabor berechneten Kennwerte der Schalldämmung sind daher gut mit experimentellen Versuchsergebnissen vergleichbar. Durch Lösung der Wärmeleitungsgleichung werden die Wärmedämmeigenschaften bestimmt. Für luftgefüllte Spalte und Hohlräume innerhalb der Struktur wird dazu ein äquivalenter Wärmeleitkoeffizient verwendet. Das virtuelle Mehrzwecklabor soll die Kennwerte der Schall- und Wärmedämmung für eine große Anzahl an Geometrieparametern der Wandstrukturen ermitteln. Um eine genaue und zeiteffiziente Berechnung zu gewährleisten, wird die Spektral-Elemente-Methode (SEM), eine fortschrittliche Variante der Finite-Elemente-Methode (FEM), verwendet. Die Effizienz der entwickelten SEM wird anhand von Konvergenzstudien diskutiert. Die im virtuellen Mehrzwecklabor ermittelten Kennwerte der Schall- und Wärmedämmung werden mit experimentellen Daten validiert und mit anderen Näherungsverfahren verglichen. Die Anwendung des virtuellen Labors zur Optimierung von Wandstrukturen wird für ausgewählte Beispiele demonstriert.</abstract>
+                    <abstract type="content" lang="eng">A wall construction, used in civil engineering, requires not only good acoustic insulation to protect people from the harmful impact of noise exposure, but also efficient thermal insulation to minimize energy consumption. Experimental, analytical and numerical studies are usually conducted to analyze and optimize the acoustic and thermal properties of a wall structure. In general, experimental measurements are time-consuming and expensive, while analytical studies suffer from restrictions of the boundary conditions and geometry of the problem. By using appropriate numerical methods, however, all relevant physical phenomena can be included. The present work develops a virtual multipurpose laboratory, which is capable to determine the acoustic and thermal insulation of a geometrically complex wall construction. A strongly coupled fluid-structure interaction problem (FSI) in the frequency domain is solved to determine the acoustic insulation. The simulation follows the conditions of an experimental setup. Therefore, the characteristic values for the sound insulation calculated by the virtual multipurpose laboratory are comparable to experimental measurements. The heat equation is solved to estimate the thermal insulation. In the case of structures including cavities and gaps filled with air, an equivalent thermal conductivity is used. The virtual multipurpose laboratory calculates the characteristic values of the acoustic and the thermal insulation for a large number of geometry parameters of the wall structure. To increase the accuracy and speed of the calculation, the spectral element method (SEM), which is an advanced finite element method (FEM), is used. Convergence studies are conducted to analyze the efficiency of the developed SEM. The characteristic values for the acoustic and thermal insulation, which are calculated in the virtual multipurpose laboratory are verified by experimental data and compared to the characteristic values derived by other estimation methods. Examples for the use of the virtual multipurpose laboratory in the optimization procedure of wall structures are given.</abstract>
+                    <subject>
+                        <topic>Wärmeschutz</topic>
+                        <topic>FEM</topic>
+                        <topic>Wall</topic>
+                        <topic>Sound insulation</topic>
+                        <topic>Thermal insulation</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Lehrstuhl für Baustatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-15968</identifier>
+                    <identifier type="sys">HT020529936</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1596</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2020-03-03</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1596">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1596/5/Dissertation_Elias_Perras.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1596"
+            DMDID="DMD_siegen_opus_1596">
+            <mets:fptr FILEID="FILE0_siegen_opus_1596"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

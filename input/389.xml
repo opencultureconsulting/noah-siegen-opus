@@ -1,0 +1,64 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>389</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Higher-order accurate and energy-momentum consistent discretisation of dynamic finite deformation thermo-viscoelasticity</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Energie-Impuls-konsistente Diskretisierung höherer Genauigkeitsordnung dynamischer finiter Thermo-Viskoelastizität</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Michael</pc:foreName>
+            <pc:surName>Groß</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Multi-physikalische Problemstellungen</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Raum-Zeit-Finite-Elemente-Methode</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Zeitschrittverfahren</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Energie-Impuls-Konsistenz</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Multi-Physics Problems</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Space-Time Finite Element Methods</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Timle-Stepping Agorithms</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Energy-Momentum Consistency</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">This paper is concerned with the energy consistent simulation of motions of a viscoelastic continuum body, under inclusion of the coupling of thermal and mechanical fields. The corresponding algorithm is based on a four-field formulation in the Lagrangian description, in which the deformation mapping, the velocity field, the temperature field and a strain-like viscous internal variable field are independent unknowns. Hence, the equations of motion are formulated in first-order form. The Lagrangian temperature field is determined by the first-order entropy evolution equation, associated with Fourier's law of heat conduction. The first-order viscous evolution equation is derived from an internal dissipation being quadratic in a nonlinear viscous strain-rate tensor. This coupled system of nonlinear differential equations is discretised by a new space-time finite element method, consisting of continuous as well as discontinuous finite element approximations in time. Owing to particular time approximations in the constitutive laws, beside the total linear momentum as well as the total angular momentum balance, a nonlinear stability estimate with respect to a relative energy function is exactly fulfilled in the fully discrete case as well.&#13;
+Hence, the resulting time integration algorithm is long-time nonlinear stable also when changing the time step size. The obtained coupled system of nonlinear algebraic equations is solved by a monolithic solution strategy. The corresponding Newton-Raphson methods on the global and the element level are based on a consistent linearisation. The new convergence criteria used for these iterative solution procedures take the energy consistency into account, and is free of the scaling in the independent variables. Representative numerical simulations with various boundary conditions show the higher-order accuracy and the superior stability of the new time integration algorithm.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Diese Arbeit behandelt die energiekonsistente Simulation von Bewegungen eines viskoelastischen kontinuierlichen Körpers, unter Einbezug der Kopplung von thermischen und mechanischen Feldern. Der verwendete Algorithmus basiert auf einer Vier-Feld-Formulierung in Lagrangescher Darstellung, in der die Deformationsabbildung, das Geschwindigkeitsfeld, das Temperaturfeld und eine deformationswertige viskose innere Variable unabhängige Variablen darstellen. Die Bewegungsgleichungen sind deshalb Differentialgleichungen erster Ordnung. Das Lagrangesche Temperaturfeld wird bestimmt durch die lokale Entropiebilanz als dritte Differentialgleichung erster Ordnung, verbunden mit dem Fourierschen Gesetz für Wärmeleitung. Die letzte Differentialgleichung erster Ordnung stellt die viskose Evolutionsgleichung dar. Sie basiert auf einer inneren Dissipation, welche quadratisch in einem nichtlinearen viskosen Verzerrungsratentensor formuliert ist. Dieses System von gekoppelten nichtlinearen Differentialgleichungen wird diskretisiert mittels einer neuen Raum-Zeit-Finite-Elemente-Methode, die sowohl zu kontinuierlichen als auch zu diskontinuierlichen Approximationen in der Zeit führt.&#13;
+Aufgrund spezieller Zeitapproximationen in den konstitutiven Gesetzen des Problemes wird, neben der Gesamtimpuls- und Gesamtdrehimpulsbilanz, auch eine Stabilitätsabschätzung bezüglich einer relativen Energiefunktion noch nach der Raum-Zeit-Diskretisierung exakt erfüllt.&#13;
+Daher ist der resultierende Zeitintegrationsalgorithmus langzeitstabil, auch wenn Zeitschrittweitenänderungen vorgenommen werden. Das erhaltene System von gekoppelten nichtlinearen algebraischen Gleichungen wird mittels einer monolithischen Strategie gelöst. Die damit verbundenen Newton-Raphson-Verfahren auf globaler Ebene und auf Elementebene basieren auf einer konsistenten Linearisierung. Die verwendeten neuen Konvergenzkriterien für die iterative Lösungsprozedur beziehen die Energiekonsistenz des Algorithmus' in Betracht, und sind frei von Skalierungseinflüssen in den vier unabhängigen Variablen.&#13;
+Repräsentative numerische Simulationen mit verschiedenen Randbedingungen zeigen die unbegrenzte Genauigkeit und die hervorragende Stabilität des neuen Zeitintegrationsalgorithmus'.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2009-06-25</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2009</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-3890</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dcterms:isPartOf xsi:type="ddb:noScheme">Schriftenreihe des Lehrstuhls für Numerische Mechanik;  2</dcterms:isPartOf>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.habilitation</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Mechanik und Regelungstechnik - Mechatronik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="gross.pdf" ddb:fileSize="13234684"/>
+   <ddb:checksum ddb:type="MD5">9302ae5b3d3a35878e4660adb7182aa3</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/389/1/gross.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/389</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

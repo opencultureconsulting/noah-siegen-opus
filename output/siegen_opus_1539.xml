@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1539">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>Mickey Mouse telephone : an icon of turning tides in the relationship between the state, the economy and society in 1980s Germany</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Henrich-Franke, Christian</displayForm>
+                        <namePart type="family">Henrich-Franke</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The 1980s saw the triumph of neoliberal thinking in Western European societies and economies. Referring to neoliberal economists, governments across Europe implemented policies to deregulate (inter)national markets and to privatise national monopolies. One priority were the large postal and telecommunication services monopolies. In terms of media iconography, one icon of this ‘turn of the tides’ in the regulation of German telephone markets was the ‘Mickey Mouse Telephone’. It was a symbol of the American way of life and the freedom of choice, of the firm belief in the power of markets and the deregulation of monopolies. Nevertheless, the Mickey Mouse Telephone was an antagonism in itself. It was a symbol of American (technological) superiority, and yet, when it was introduced in the German market, it was overpriced and featured an outdated technology. Provided by the ‘Deutsche Bundespost’ – the German state-owned postal and telecommunications monopoly business – the Mickey Mouse Telephone was an analogue model equipped with a dial. The price was several times higher than for a standard phone model. This paper places the Mickey Mouse Telephone in the broader historical context of the relationship between the state, the economy and society in 1980s Germany.</abstract>
+                    <subject>
+                        <topic>Telekommunikationsmarkt</topic>
+                        <topic>media history</topic>
+                        <topic>neoliberalism</topic>
+                        <topic>telecommunication</topic>
+                        <topic>regulatory policy</topic>
+                        <topic>media iconography</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-15394</identifier>
+                    <identifier type="sys">HT020354501</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1539</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1539">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1539/3/WPS_12_Henrich-Franke_The_Mickey_Mouse_Telephone.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1539"
+            DMDID="DMD_siegen_opus_1539">
+            <mets:fptr FILEID="FILE0_siegen_opus_1539"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

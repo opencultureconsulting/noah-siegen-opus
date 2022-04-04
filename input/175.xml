@@ -1,0 +1,58 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>175</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Schnelle 3D-Objektvermessung mittels PMD/CMOS-Kombizeilensensor und Signalkompressions-Hardware</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Stephan</pc:foreName>
+            <pc:surName>Hußmann</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">smart optical sensor</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">photonic mixer device (PMD)</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">industrial automation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">One of the main topics in the automation and safety engineering is the fast and precise measurement of objects, object dimensions and their spatial position. In the quality control, identification, navigation and monitoring of danger areas the fast and contactless 3D-object measurement plays a major roll. Until now there is no system available solving this task fast, flexible, robust and for an economical price. &#13;
+Common optical sensors sensing only the illumination of points, 1D- and 2D-images. For getting the desired 3D-information a new generation of smart pixel sensors has been developed. They are called photonic mixer devices (PMD). Every PMD-pixel is a complete receiver unit with on-chip signal processing. It not only detects the intensity of the light but also measures the echo propagation time from a modulated light source to a object surface and back to the sensor. With that information it is possible to calculate the image spot position and by it the space coordinate. &#13;
+This thesis presents a sensor system including a sensor chip with a combination of those new smart pixels and a common CMOS linear sensor. That means two different sensor types are implemented on one chip with the same system of coordinates. The standard CMOS line delivers an intensity value with a high spatial resolution and the PMD line delivers the distance values. Therefore for example faulty object dimension measurements caused by contrast differences (Black / White transition) can be avoided by the additional distance values. There are many other application thinkable as well. &#13;
+The less pixel number of the CMOS-line can quasi be increased by an pixel interpolation algorithm. There exist many standard interpolation algorithms. In this work a new algorithm based on chirp signal is proved. First it is simulated on a PC and afterwards it is tried to realized it in practical operation. &#13;
+The electro-optical properties of the new chip are determined. Therefore the measurement behavior of the sensor system can be better predicted. The spectral response e.g. makes it possible to find the best illumination source for the sensor system. &#13;
+The system design is laid out for high-speed processing of the CMOS-line. A FPGA not only generates the trigger signals but also is responsible for signal filtering and processing. For that reason you will get a very high data compression and data output rate. &#13;
+At the end of that thesis the sensor system will be described and some application examples shows the advantages of the new sensor concept.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2000-10-16</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2000</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-1751</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 12, Elektrotechnik und Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="hussmann.pdf" ddb:fileSize="2292413"/>
+   <ddb:checksum ddb:type="MD5">78f464f7a3354b52ba796247fda82fe1</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/175/1/hussmann.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/175</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

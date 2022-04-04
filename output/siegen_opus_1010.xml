@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1010">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Die </nonSort>
+                        <title>Situation geduldeter Flüchtlinge als Herausforderung für die Soziale Arbeit im Spannungsfeld von professionellem Selbstverständnis und strukturellen Rahmenbedingungen</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <nonSort>Die </nonSort>
+                        <title>The situation of refugees with temporary suspension of deportation as a challenge for social work between the poles of professional self-conception and structural circumstances</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Müller, Moritz</displayForm>
+                        <namePart type="family">Müller</namePart>
+                        <namePart type="given">Moritz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bachelorThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Der aufenthaltsrechtliche Status der Duldung ist für die Betroffenen mit vielfältigen Auflagen und Einschränkungen verbunden. So zeigt sich ein in erster Linie restriktiver Umgang mit Geduldeten, der gerade aus einer menschenrechtlichen Perspektive in vielerlei Hinsicht problematisch erscheint. Betrachtet man in diesem Kontext normative und professionelle Selbstzuschreibungen der Sozialen Arbeit (etwa als Menschenrechtsprofession), zeigen sich grundlegende Spannungsfelder. So wirft die Situation geduldeter Flüchtlinge zentrale Fragen nach Selbstverständnis und Rolle der Sozialen Arbeit im modernen Wohlfahrtsstaat auf.</abstract>
+                    <subject>
+                        <topic>Flüchtling</topic>
+                        <topic>Menschenrechtsprofession</topic>
+                    </subject>
+                    <classification authority="ddc">360</classification>
+                    <classification authority="ioo" displayLabel="Fakultät II (Bildung, Architektur, Künste)"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-10106</identifier>
+                    <identifier type="sys">HT018984252</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1010</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBachelorThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1010">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1010/1/Moritz_Mueller.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1010"
+            DMDID="DMD_siegen_opus_1010">
+            <mets:fptr FILEID="FILE0_siegen_opus_1010"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

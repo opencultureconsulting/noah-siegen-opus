@@ -1,0 +1,77 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>68</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Eine Client/Server-Architektur für statistische Visualisierungen und Analyse von Finanzdaten</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Torsten</pc:foreName>
+            <pc:surName>Spillmann</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">statistische Visualisierungen</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Finanzdatenanalyse</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Client/Server-Architektur</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">510</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Statistische Visualisierungen bilden ein wichtiges Instrument der Daten-Analyse. In&#13;
+dieser Arbeit wird eine Client/Server-Architektur für die Ausgabe dieser vorgestellt.&#13;
+Die Architektur basiert auf drei Komponenten, wobei zwei Teile eine Grafikbibliothek&#13;
+für statistischen Visualisierungen enthalten. Es werden die Aufgaben jeder Komponente&#13;
+vorgestellt und deren Kommunikation miteinander erläutert. Der in dieser Arbeit vorgestellte&#13;
+Prototyp kann aufWebseiten, insbesondere im Bereich E-Learning, eingesetzt&#13;
+werden. Die Kommunikation erfolgt über die Middleware CORBA. Die Komponenten&#13;
+wurden in C++ und JAVA implementiert.&#13;
+Im zweiten Teil der Arbeit werden Modell zur Analyse von Finanzdaten basieren&#13;
+auf einer Studentschen Verteilung vorgestellt. Im Univariaten eine Studentsche Zeitreihe&#13;
+eingeführt. Im Multivariaten wird die Modellierung über Copulas vorgestellt. Es&#13;
+werden Copulas definiert, Schätzer und Simulationsalgorithmen angegeben. Besonders&#13;
+wird auf die Fragestellung:&#13;
+”Welches ist die richtige Copula?“ eingegangen.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Statistical visualizations form an important instrument of the data analysis. In this thesis&#13;
+a client/server-architecture for these visualizations is introduced. The architecture is&#13;
+based on the components, whereby two of them contain a graphic-library for statistical&#13;
+visualizations. The functions of each component are presented and their communication&#13;
+is described. The prototype introduced in this work can be used on web pages,&#13;
+in particular e-learning. The communication is made by the middleware CORBA. The&#13;
+components were implemented in C++ and JAVA.&#13;
+In the second part of the thesis models for analysis of finance data with student&#13;
+t-distributions, especially a timeseries, are introduced. In the multivariate case models&#13;
+depending on Copulas are presented. Copulas are defined, Estimators and simulationsalgorithms&#13;
+are given. Particularly the question&#13;
+”Which copula is the right one?“is discussed.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2004-10-27</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2004</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-689</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 6, Mathematik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="spillmann.pdf" ddb:fileSize="13359911"/>
+   <ddb:checksum ddb:type="MD5">b268ba40ac6fc6c4d23ecce8ecc04d65</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/68/1/spillmann.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/68</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

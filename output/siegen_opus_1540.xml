@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1540">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Das </nonSort>
+                        <title>Drama von Tübingen : eine Humanities and Technology Story (HTS)</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Erbacher, Christian</displayForm>
+                        <namePart type="family">Erbacher</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Was geschah am Tübinger Wittgenstein Archiv? – Unter Wittgensteinforschern regt diese Frage seit mehr als 30 Jahren zu Spekulationen und Legendenbildung an. Das Archiv war das erste große Projekt zur Herstellung einer maschinenlesbaren Transkription von Ludwig Wittgensteins nachgelassenen philosophischen Schriften (ca. 20.000 Seiten) als Vorbereitung für eine wissenschaftliche Gesamtausgabe. Dieses Projekt begann mit großen Hoffnungen und versprach, eine Sternstunde sowohl für die philosophische Editorik als auch für die frühen Digital Humanities zu werden. Doch die Projektgruppe zerbrach alsbald. Bis heute sind die näheren Umstände des Zusammenbruchs nicht bekannt. Daher stellt dieser Beitrag auf der Grundlage ausführlicher Archivrecherchen und Interviews die Geschichte des Archivs dar. Im Kern erweist sich diese Geschichte als ein sich ausweitender Vertrauensverlust innerhalb einer Forschergruppe und darüber hinaus. Wie etwa bereits Harold Garfinkels breaching Experimente erwarten lassen würden, führt auch in diesem Fall der Verlust von Vertrauen zum Kollaps der Kooperation.</abstract>
+                    <subject>
+                        <topic>Wittgenstein, Ludwig</topic>
+                        <topic>Wittgenstein</topic>
+                        <topic>Garfinkel</topic>
+                        <topic>Philosophische Editionen</topic>
+                        <topic>Trust</topic>
+                        <topic>Digital Humanities</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-15405</identifier>
+                    <identifier type="sys">HT020354556</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1540</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1540">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1540/3/WPS_13_Erbacher_Das_Drama_von_Tuebingen.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1540"
+            DMDID="DMD_siegen_opus_1540">
+            <mets:fptr FILEID="FILE0_siegen_opus_1540"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

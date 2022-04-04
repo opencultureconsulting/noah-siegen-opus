@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_107">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Dreidimensionale konfokale Absorptionsmessungen zur räumlichen Strukturaufklärung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bornemann, Rainer</displayForm>
+                        <namePart type="family">Bornemann</namePart>
+                        <namePart type="given">Rainer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2005</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In Rahmen dieser Arbeit wird ein neuartiges Messverfahren zur dreidimensionalen Mikroskopie vorgestellt. Dabei erfolgt die Bilderzeugung allein anhand einer induzierten Transmissionsänderung bestimmter Bestandteile innerhalb einer transparenten Probe.
+Dazu wird ein mathematisches Modell erarbeitet, dass die Bilderzeugung aufgrund
+der photophysikalischen Hintergründe am Beispiel eines einfachen Farbstoffsystems erläutert. Mit Hilfe dieses Modells lässt sich die erzielbare räumliche Auflösung und die Nachweisempfindlichkeit des Verfahrens bestimmen. Weiterhin prognostiziert dieses Modell einen alternativen Weg, um die Zerfallskinetik angeregter Molekülzustände zu untersuchen.
+Es wird ein Messaufbau beschrieben, mit dem die einzelnen Vorhersagen des Modells experimentell überprüft werden können. Es werden Messungen gezeigt, die die Vorhersagen des Modells einzeln überprüfen und die Möglichkeiten des Verfahrens aufzeigen. Diese Untersuchungen zeigen, das eine räumliche Abbildung nicht fluoreszierender, mikroskopischer Proben mit hoher Auflösung möglich ist. Weiterhin wird die erzielbare Nachweisempfindlichkeit abgeschätzt, die mit derzeitigen kommerziell erhältlichen Messlichtquellen erreichbar ist. Ebenso wird gezeigt, dass es möglich ist die Dynamik transienter Zerfallsprozesse mit diesem Verfahren zu untersuchen.
+Auf Grundlage dieser Arbeiten wurde im Jahre 2002 von der Universität Siegen erfolgreich ein Patent angemeldet.</abstract>
+                    <abstract type="content" lang="eng">This study introduces a new measurement procedure for three-dimensional microscopy. With this procedure, image formation results merely from an induced change in transmission of certain components in a transparent sample.
+In order to achieve this, a mathematical model was created to explain image formation due to the photophysical backgrounds based on a simple dye system. Using this model, the attainable spatial resolution and sensitivity of detection of this measurement technique can be determined. Furthermore, the model forecasts an alternative method to examine the molcecular dynamics.
+Also contained is a description of a setup for the experimental verification of the individual forecasts of the model. The study describes measurements to verify the individual forecasts of the model and to indicate the prospects of the procedure. The tests demonstrate that the spatial imaging of non-fluorescent specimen with high resolution is possible. Furthermore, the study contains an estimation of the attainable detection sensitivity which can be achieved with commercialized light sources for measurement currently available. The study also shows that the dynamics of transient decay processes can be examined using this procedure.
+Based on these studies, the University of Siegen in Germany has successfully filed a patent in 2002.</abstract>
+                    <subject>
+                        <topic>optische Spektroskopie</topic>
+                        <topic>dreidimensionale konfokale Absorptionsmikroskopie</topic>
+                        <topic>Lasermikroskopie</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 8, Chemie - Biologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1073</identifier>
+                    <identifier type="sys">HT014501381</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_107</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2005-06-02</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_107">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/107/1/bornemann.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_107"
+            DMDID="DMD_siegen_opus_107">
+            <mets:fptr FILEID="FILE0_siegen_opus_107"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

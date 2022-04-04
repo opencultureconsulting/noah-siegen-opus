@@ -1,0 +1,93 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>100</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Ein Konzept für die Datenhaltung in der fertigungsnahen Mikrosystemtechnik</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Jens</pc:foreName>
+            <pc:surName>Popp</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Mikrosystemtechnik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Datenhaltung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Prince (Process Information and Management Center)</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Diese Arbeit präsentiert Ergebnisse, die im Rahmen des PRINCE-Projektes am&#13;
+Institut für Mikrosystemtechnik generiert wurden. PRINCE steht für PRocess&#13;
+INformation and management CEnter und beschäftigt sich mit der automatisierten&#13;
+Entwurfsunterstützung für die Mikrosystemtechnik. Besonderes Augenmerk&#13;
+wurde hierbei auf die fertigungsnahen Aspekte des Entwurfs gelegt,&#13;
+da diese in bisherigen Lösungen nur ungenügend beachtet werden.&#13;
+Im Rahmen der Arbeit wurde deshalb eine umfassende Analyse der Problematik&#13;
+durchgeführt. Eines der Ergebnisse war die Erkenntnis, dass beim fertigungsnahen&#13;
+Entwurf viele Daten anfallen, die alle in enger Beziehung stehen.&#13;
+Die geeignete Datenhaltung ist deshalb ein zentraler Punkt des Entwurfs.&#13;
+Ausgehend von dieser Erkenntnis wurde untersucht, welche aus der Informatik&#13;
+bekannten Methoden im Bereich Datenbank-Management geeignet sind.&#13;
+Als Ergebnis wird ein relationales Datenbankmodell vorgestellt, mit dem die&#13;
+gesammelten Daten auf sinnvolle Weise gespeichert und miteinander in Beziehung&#13;
+gebracht werden können. Außerdem wird eine Erweiterung dieses&#13;
+Modells um Methoden aus der Objektorientierung präsentiert, die eine hierarchische&#13;
+Darstellung der Daten durch Vererbung und Mehrfachvererbung&#13;
+ermöglicht.&#13;
+Mit dem Software-System PRINCE wurden die entworfenen Modelle umgesetzt&#13;
+und in der Praxis getestet. Durch den Einsatz moderner Techniken, wie&#13;
+z.B. J2EE und Java, ist eine Software entstanden, die eine Zusammenarbeit&#13;
+mehrerer unterschiedlicher Nutzer mit unterschiedlichen Rechnerplattformen&#13;
+ermöglicht.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">This work presents results generated during the PRINCE project. PRINCE is&#13;
+an acronym for PRocess INformation and management CEnter. The aim of the&#13;
+project was the support of the design of microsystems with special attention&#13;
+to the technology driven aspects of the design. The technology driven design&#13;
+(design for manufacturing) support is until now only marginally available.&#13;
+Within the project a systematic analysis of the technology driven design was&#13;
+performed. It turns out that a lot of data is accumulated. Also most of the&#13;
+collected data is somehow related. Therefore the organized management of&#13;
+data is a key topic in the design of microsystems.&#13;
+Starting from this realization methods for data management were researched&#13;
+for adequacy. Among the methods known in computer science the relational&#13;
+database was selected. As a result a relational database scheme is presented.&#13;
+All collected data can be stored and related in a useful manner using this scheme.&#13;
+Furthermore an extension of this scheme is presented that enhances it with&#13;
+methods from object oriented modelling. The usage of inheritance and multiple&#13;
+inheritance is discussed in detail.&#13;
+With the PRINCE software a system is presented that puts the model into practical&#13;
+use. Using modern technologies like Java and J2EE the software enables&#13;
+collaborative work among users with different hardware platforms.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2005-02-09</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2005</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-1009</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 12, Elektrotechnik und Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="popp.pdf" ddb:fileSize="11668920"/>
+   <ddb:checksum ddb:type="MD5">dcc71eba5e73eb6efe6800869b3f0ceb</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/100/1/popp.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/100</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_817">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Analyse von Maschinendaten zur Entscheidungsunterstützung bei der Produktverbesserung durch die Anwendung eines Feedback Assistenz Systems</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Dienst, Susanne</displayForm>
+                        <namePart type="family">Dienst</namePart>
+                        <namePart type="given">Susanne</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Der technologische Fortschritt führt dazu, dass immer mehr Daten erzeugt und verwaltet werden. Dieser Trend lässt sich auch im Kontext des Produktlebenszyklus beobachten. Hier werden während der Nutzungsphase in der Umgebung und am Produkt selbst mit steigender Tendenz Daten mittels Sensoren automatisch erfasst. Aber auch manuell werden durch Betreiber oder Servicemitarbeiter immer mehr Daten in Informationssysteme eingegeben. Diese Daten werden für einen spezifischen Verwendungszweck, wie die Abrechnung von Dienstleistungen genutzt und anschließend archiviert. Dabei kann aus diesen Daten über ihren eigentlichen Verwendungszweck hinaus Wissen zur Verbesserung von Produkten generiert werden, wofür die Basis in der Produktentwicklung gelegt wird. 
+Eine erfolgreiche Produktentwicklung führt zu qualitativ hochwertigen Gütern und zufriedenen Kunden und damit zu hohen Verkaufszahlen der Güter, was den Unternehmenserfolg auf dem Markt ausmacht. Daher ist die Verbesserung der Produktentwicklung immer wieder Gegenstand der Forschung. Aktuell werden hierzu im Produktlebenszyklus der Produktentwicklung nachgelagerte Phasen, speziell die Nutzungsphase kaum betrachtet. Das Ziel der vorliegenden Arbeit ist es daher einen Wissenstransfer zu realisieren, in dem aus den Produktnutzungsdaten anwendbares Wissen in die Produktentwicklung zurückgeführt wird. Der Fokus liegt dabei auf Industriegütern, bei denen die Feedbackdaten strukturiert in verschiedenen Datenquellen vorliegen und ein enger Kontakt zwischen Kunden und Herstellern gegeben ist. 
+Zur Verwaltung und Analyse der Daten wird ein Feedback Assistenz System (FAS) konzipiert und entwickelt. Hier werden die Daten aus den verschiedenen Quellen hin transferiert und in ein einheitliches Datenbankschema übertragen. Auf diese zentrale Datenbasis lassen sich wissensbasierte Methoden anwenden u.a. aus dem Bereich des Data Mining. Diese assistieren dem Produktentwickler bei der Verbesserung bestehender Produktgenerationen. Die erfassten und umfangreichen Datenmengen werden verdichtet und Muster werden aufgedeckt, die der Bereitstellung von entscheidungsrelevantem und intuitiv verständlichem Wissen für den Produktentwickler dienen. Im Rahmen der Produktverbesserung sind hierzu explizit drei Bereiche identifiziert worden, in denen die Feedbackdaten erfolgsbringend eingesetzt werden können: die Überprüfung der Kundenanforderungen, die Fehlerdiagnose und die Bewertung von Verbesserungsalternativen. Mittels der Feedbackdaten werden Kosten- und Zeitindikatoren aufgestellt und berechnet zur Überprüfung der Kundenanforderungen mit dem Ziel bei nicht erfüllen den Produktverbesserungsprozess auszulösen. Sodann wird während der Analysephase der Produktverbesserung eine Methode zur Diagnose von Schwachstellen und Fehlerursachen entwickelt und angewandt. Ziel ist hier die Aufdeckung von Verbesserungspotentialen und somit die Senkung der Fehleranfälligkeit von Produkten. Zur Verbesserung des Produktes stehen dem Produktentwickler eine Vielzahl von Alternativen zur Verfügung, die bewertet werden müssen, nach den Zielsetzungen aus der Produktentwicklung und/oder mittels der Feedbackdaten. Hierzu ist eine Methode aus der multikriteriellen Entscheidungstheorie konzipiert und umgesetzt worden.</abstract>
+                    <abstract type="content" lang="eng">Technological progress leads to an increasing number of generated and managed data. This trend can also be observed in the context of the product life cycle. During the use phase data are collected from the product automatically, with increasing tendency, by means of on-site, embedded or mounted sensors. In addition, the operator or service staffs insert substantial data into information systems. The accumulated data are used for specific purposes, such as billing of services, and afterwards are archived in the repositories. Knowledge can be generated from the collected data with the intention to support development and especially improvement of the product. 
+A successful product development leads to high-quality goods and customer satisfaction which ultimately influences on the company’s success in the market with large scale sales of goods. Hence, the product development is consistently a subject of research. Currently in the product life cycle, the subsequent phases, especially the use phase is not considered. The aim of this work is to realize a knowledge transfer where applicable knowledge from the product use data is fed back into product development. The focus is on industrial goods, where the feedback data are structured in multiple data sources, and also manufacturers and customers are in close contacts.  
+For the management and analysis of data, a feedback assistance system (FAS), is designed and developed. Here the data from different sources are transferred into a unified database. On this data layer, knowledge-based methods can be applied i.e. from the field of data-mining. These methods should assist product developers in the improvement of existing product generations. The captured, extensive amounts of data are, therefore, condensed, and patterns are detected. As a result, the FAS provide the product developer with decision-relevant and intuitively under-standable knowledge. In the scope of product improvement, important is to determine the areas in which the feedback data can be used successfully. So for the FAS, a combination of methods for three main applications will be integrated (1) verification of customer requirements, (2) fault diagnosis, and (3) evaluation of improvement potential. Cost and time indicators are deployed for the verification of requirements which consequently reveal the non-achieved objectives of the product improvement process. So the diagnosis should be applied to detect weak points and failure causes as improvement potential such as reduction of the error rate. To eliminate the existing weaknesses and deficiencies, the product developers should evaluate a variety of alternatives according to the objectives of the product development on the basis of the feedback data. For this purpose, a method from the multi-criteria decision theory is implemented.</abstract>
+                    <subject>
+                        <topic>Produktentwicklung</topic>
+                        <topic>product development</topic>
+                        <topic>feedback assistance system (FAS)</topic>
+                        <topic>knowledge discovery in databases</topic>
+                        <topic>product life cycle</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Wissensbasierte Systeme und Wissensmanagement"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-8179</identifier>
+                    <identifier type="sys">HT018443905</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_817</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2014-07-24</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_817">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/817/1/Dissertation_Susanne_Dienst_bearbeitet.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_817"
+            DMDID="DMD_siegen_opus_817">
+            <mets:fptr FILEID="FILE0_siegen_opus_817"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

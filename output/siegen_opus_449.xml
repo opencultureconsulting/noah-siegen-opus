@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_449">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Entwicklung eines neuen sicheren Verfahrens zur Verbesserung der Betriebssicherheit bei der Speisung von elektrischen Antrieben durch den Matrixumrichter</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Development of a new protection strategy for improvement of the reliability when feeding of electrical drives by the matrix converter</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Pfeifer, Markus</displayForm>
+                        <namePart type="family">Pfeifer</namePart>
+                        <namePart type="given">Markus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In dieser Arbeit wird ein Verfahren vorgestellt, bei dem der Matrixumrichter von einem zu jedem Zeitpunkt zur Verfügung stehenden Freilaufkreis geschützt wird. Dieser führt bei Bedarf den induktiven Laststrom, so dass die Bauteile des Umrichters keinen Schaden nehmen können. Mit dieser Eigenschaft sind keine aufwändigen Kommutierungs-Steuerverfahren notwendig, um den Matrixumrichter sicher betreiben zu können. Weitere Vorteile entstehen dadurch, dass auf einen normalerweise zum Schutz notwendigen Pufferkondensator verzichtet werden kann. Dadurch lassen sich das Bauvolumen, das Gewicht und die Kosten des Umrichters reduzieren.</abstract>
+                    <abstract type="content" lang="eng">In this work a method is presented, by which the matrix converter is protected by a free wheeling path available at any time. This carries the inductive load current if necessary, so that the parts of the inverter can not be damaged. With this feature, no complicated commutation strategies and control methods are necessary to operate the matrix converter safely. Other advantages arise because the capacitor normally needed for protection can be omitted. So the size, the weight and the costs of the inverter are reduced.</abstract>
+                    <subject>
+                        <topic>Matrixkonverter</topic>
+                        <topic>Matrixumrichter</topic>
+                        <topic>schaltbarer Freilaufkreis</topic>
+                        <topic>Rückspeisung</topic>
+                        <topic>Elektrische Antriebe</topic>
+                        <topic>matrix converter</topic>
+                        <topic>overvoltage protection circuit</topic>
+                        <topic>switchable free wheeling path</topic>
+                        <topic>alternating-current converter</topic>
+                        <topic>converter</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Leistungselektronik und Elektrische Antriebe"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4498</identifier>
+                    <identifier type="sys">HT016468790</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_449</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2010-07-21</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_449">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/449/1/pfeifer.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_449"
+            DMDID="DMD_siegen_opus_449">
+            <mets:fptr FILEID="FILE0_siegen_opus_449"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

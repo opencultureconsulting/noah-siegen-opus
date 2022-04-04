@@ -1,0 +1,69 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1914</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Comprehensive machine and deep learning fault detection and classification approaches of industry 4.0 mechanical machineries: with application to a hydraulic test rig</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Umfassende Ansätze zur Erkennung und Klassifizierung von Maschinen- und Deep-Learning-Fehlern in Industrie 4.0 Mechanischen Maschinen: Mit Anwendung auf einen hydraulischen Prüfstand</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Ahlam</pc:foreName>
+            <pc:surName>Mallak</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Anomalieerkennung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Machine Learning</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Deep Learning</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Industry 4.0</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Anomaly dectection</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Fault Detection and Diagnosis</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Anomaly occurrences in mechanical equipment within industry 4.0 may lead to massive systems shut down, jeopardizing the safety of the machinery and its surrounding human operator(s) and environment, as well as the severe economic implications succeeding the faults and their associated damage. Various mechanical tools are mostly placed in harsh and ruthless environments, where the machines are consistently vulnerable to many fault types connected to their functionality nature. Hence, not only the machines and their components are prone to anomalies, but also the sensors attached to them necessary to collect viable signals to monitor and report the overall machine health and behavioural changes. Those sensors may likewise fail and carry out various anomalies.&#13;
+This thesis elucidates a full research and analytical implementation of component and sensor faults detection and diagnosis, utilizing numerous machine and deep learning approaches in application of a hydraulic system extracted from a hydraulic test rig. It is unfortunate that hydraulic systems are rarely approached for anomaly detection subject comparing to other mechanical machines in the past decade. Specifically, comprehensive systems that cover all aspects of anomaly detection in hydraulic systems, which includes both sensor and component faults, essential feature engineering methods, and innovative detection algorithms based on the latest technologies such as, the application of deep learning.&#13;
+In this work, three main contributions to anomaly detection in hydraulic systems extracted from a hydraulic test rig are thoroughly achieved. Firstly, we provided a combination of LSTM autoencoders and supervised machine and deep learning methodologies to perform two separate stages of fault detection and diagnosis. The two phases are condensed by: (1) the detection phase using the LSTM autoencoder. Followed by (2) the fault diagnosis phase represented by the classification schema. The previously mentioned framework is applied to component and sensor faults in hydraulic systems, deployed in the form of two in-depth applicational experiments. In the detection phase declared by the classification process, diversified machine and deep learning supervised methods are compared and analysed for their component and sensor fault detection performance in hydraulic systems. In addition, we provided comparisons of plentiful feature engineering techniques in the time-domain, to showcase the influence of each feature engineering method on its corresponding supervised classifiers in the detection phase. Secondly, we provided an unprecedented feature selection method called Recursive k-means Silhouette Elimination (RkSE), and it is deployed to perform feature selection for component fault classification in multi-variate hydraulic test rig dataset. Moreover, RkSE is utilized as a window compression method when deployed to achieve sensor fault identification in univariate sliding window-structured datasets. Finally, an innovative application of Random Forests (RF) in a hybrid architecture between data-driven and model-based diagnosis approaches is introduced and applied to hydraulic systems for dynamic diagnostic rules generation.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Das Auftreten von Anomalien in mechanischen Geräten innerhalb der Industrie 4.0 kann zu massiven Systemabschaltungen führen, die die Sicherheit der Maschinen und der sie umgebenden menschlichen Bediener und der Umwelt gefährden, sowie zu schwerwiegenden wirtschaftlichen Auswirkungen, die auf die Fehler und die damit verbundenen Schäden folgen. Verschiedene mechanische Werkzeuge werden meist in rauen und unbarmherzigen Umgebungen eingesetzt, in denen die Maschinen aufgrund ihrer Funktionsweise durchweg anfällig für viele Fehlertypen sind. Daher sind nicht nur die Maschinen und ihre Komponenten anfällig für Anomalien, sondern auch die an ihnen angebrachten Sensoren, die notwendig sind, um brauchbare Signale zur Überwachung und Meldung des allgemeinen Maschinenzustands und der Verhaltensänderungen zu sammeln. Diese Sensoren können ebenfalls ausfallen und verschiedene Anomalien hervorrufen.&#13;
+Diese Arbeit erläutert eine vollständige Forschung und analytische Implementierung der Erkennung und Diagnose von Komponenten- und Sensorfehlern unter Verwendung zahlreicher maschineller und Deep-Learning-Ansätze in der Anwendung eines hydraulischen Systems, das aus einem hydraulischen Prüfstand stammt. Es ist bedauerlich, dass hydraulische Systeme im Vergleich zu anderen mechanischen Maschinen im letzten Jahrzehnt nur selten zum Thema Anomalieerkennung herangezogen werden. Insbesondere umfassende Systeme, die alle Aspekte der Anomalieerkennung in hydraulischen Systemen abdecken, was sowohl Sensor- als auch Komponentenfehler, wesentliche Feature-Engineering-Methoden und innovative Erkennungsalgorithmen auf Basis neuester Technologien wie die Anwendung von Deep Learning umfasst.&#13;
+In dieser Arbeit werden drei Hauptbeiträge zur Anomalieerkennung in hydraulischen Systemen, die von einem hydraulischen Prüfstand extrahiert wurden, gründlich erreicht. Erstens haben wir eine Kombination aus LSTM-Auto-Encodern und überwachten Maschinen- und Deep-Learning-Methoden bereitgestellt, um zwei separate Phasen der Fehlererkennung und -diagnose durchzuführen. Die beiden Phasen werden zusammengefasst durch: (1) die Erkennungsphase unter Verwendung des LSTM-Autoencoders. Gefolgt von (2) der Fehlerdiagnosephase, die durch das Klassifikationsschema repräsentiert wird. Das zuvor beschriebene Framework wird auf Komponenten- und Sensorfehler in hydraulischen Systemen angewandt, die in Form von zwei vertiefenden Anwendungsexperimenten eingesetzt werden. In der durch das Klassifikationsverfahren deklarierten Erkennungsphase werden diversifizierte maschinelle und Deep-Learning-überwachte Methoden verglichen und auf ihre Leistung bei der Erkennung von Komponenten- und Sensorfehlern in hydraulischen Systemen analysiert. Darüber hinaus haben wir Vergleiche zahlreicher Feature-Engineering-Techniken im Zeitbereich durchgeführt, um den Einfluss jeder Feature-Engineering-Methode auf die entsprechenden überwachten Klassifikatoren in der Erkennungsphase zu zeigen. Zweitens haben wir eine noch nie dagewesene Merkmalsauswahlmethode namens Recursive k-means Silhouette Elimination (RkSE) entwickelt, die zur Merkmalsauswahl für die Klassifizierung von Komponentenfehlern in einem multivariaten Hydraulikprüfstandsdatensatz eingesetzt wird. Darüber hinaus wird RkSE als Fensterkompressionsmethode eingesetzt, um eine Sensorfehleridentifikation in univariaten, gleitenden, fensterstrukturierten Datensätzen zu erreichen. Schließlich wird eine innovative Anwendung von Random Forests (RF) in einer hybriden Architektur zwischen datengetriebenen und modellbasierten Diagnoseansätzen vorgestellt und auf hydraulische Systeme zur dynamischen Generierung von Diagnoseregeln angewendet.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Madjid</pc:foreName>
+            <pc:surName>Fathi</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2021-03-15</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2021</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-19147</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">http://creativecommons.org/publicdomain/zero/1.0/</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Wissensbasierte Systeme und Wissensmanagement</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Ahlam_Mallak.pdf" ddb:fileSize="3935162"/>
+   <ddb:checksum ddb:type="MD5">8a664211db82dc422c6d8656e84f526b</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1914/4/Dissertation_Ahlam_Mallak.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1914</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

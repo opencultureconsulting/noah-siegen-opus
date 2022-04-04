@@ -1,0 +1,83 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>191</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Ereignisdiskrete Simulation einer Hochenergie-Kugelmühle</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Roland</pc:foreName>
+            <pc:surName>Reichardt</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Ereignisdiskrete Simulation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Mechanische Verfahrenstechnik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Kugelmühle</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Hochenergie-Kugelmühlen sind Zerkleinerungsmaschinen, welche bereits pulverförmig&#13;
+vorliegendes Ausgangsmaterial in einem Trockenprozess auf eine Partikelgröße unterhalb von&#13;
+1 µm zermahlen. Da diese Maschinen erst seit ca. 10 Jahren existieren, sind die Mechanismen&#13;
+im Innern der Mühle bisher nicht verstanden. Die Betriebsparameter, wie Rotordrehzahl oder&#13;
+Kugelfüllung werden empirisch, wie in der mechanischen Verfahrenstechnik üblich, durch&#13;
+Erfahrung und Prozessbeobachtung bestimmt. Computersimulationen sollen helfen, die&#13;
+Vorgänge innerhalb der Maschine zu verstehen, um etwa Materialwissenschaftlern&#13;
+Informationen über die Geschwindigkeitsverteilung der kollidierenden Mahlkugeln zu liefern.&#13;
+Als Simulationsmethode wurde ein ereignisdiskretes Verfahren gewählt, welches erstmals auf&#13;
+diese Problemstellung angewendet wurde und unter realen Prozessbedingungen anwendbar&#13;
+ist. Die Schwachstellen der bisher veröffentlichten ereignisdiskreten Algorithmen wurden&#13;
+erkannt, dokumentiert, und durch neue Verfahren behoben. Ferner wurden bisher eingesetzte&#13;
+Verfahren zeiteffizient und numerisch korrekt optimiert.&#13;
+Im Rahmen dieser Arbeit wurden eigens Versuchsaufbauten konstruiert, um das&#13;
+Kollisionsmodell mit experimentell gewonnenen Daten zu parametrisieren. Da keine&#13;
+experimentellen Daten über das Kollisionsverhalten der Mahlkugeln während des Prozesses&#13;
+vorliegen, wurde zur Überprüfung der Realitätstreue des Simulators ein Modell aus der&#13;
+statistischen Physik entwickelt. Hiermit konnte der Simulator anhand der errechneten&#13;
+Geschwindigkeitsverteilungen verifiziert werden.&#13;
+Mit dem entwickelten Simulator wurden diverse Parameterstudien durchgeführt, die, obwohl&#13;
+zeitoptimiert, auf einem durchschnittlichen Computer mehrere Jahre dauernd, mit Hilfe des&#13;
+universitätseigenen Rechenclusters in einigen Tagen durchgeführt werden konnten. Basierend&#13;
+auf den Simulationsergebnissen konnten die für den Mahlprozess wichtigen&#13;
+Geschwindigkeitsverteilungen in Abhängigkeit von den Betriebsparametern gewonnen&#13;
+werden. Diese Daten wurden sowohl mit statistischen Methoden und Computeranimationen&#13;
+analysiert.&#13;
+Kollisionen mit hoher Kollisionsenergie sind relativ selten – ganz im Gegensatz zu dem, was&#13;
+der Name „Hochenergie“-Kugelmühle vermuten lässt und bisher der allgemeinen Auffassung&#13;
+entsprach. Eine wichtige und neue Erkenntnis ist, dass der Mahleffekt in der Hochenergie-&#13;
+Kugelmühle, da er auf Kollisionen mit hoher Relativgeschwindigkeit beruht, nur relativ selten&#13;
+stattfindet. Aufgrund der neu vorliegenden Erkenntnisse, wurden grundlegende&#13;
+Konstruktionsänderungen der drei zentralen Baugruppen vorgeschlagen.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2005-11-10</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2005</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-1914</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 11, Maschinenbau</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="reichardt.pdf" ddb:fileSize="11833719"/>
+   <ddb:checksum ddb:type="MD5">18a136c2816173ff18a8791cacdb4809</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/191/1/reichardt.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/191</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

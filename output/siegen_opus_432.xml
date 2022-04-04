@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_432">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Das </nonSort>
+                        <title>Befinden pflegender Angehöriger nach dem Tod eines demenziell erkrankten Familienmitgliedes : eine Untersuchung zum Befinden nach der Pflege im Rahmen der &quot;Längsschnittstudie zur Belastung pflegender Angehöriger von demenziell Erkrankten&quot; (LEANDER)</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Opterbeck, Ilga</displayForm>
+                        <namePart type="family">Opterbeck</namePart>
+                        <namePart type="given">Ilga</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2009</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Forschungen rund um die familiäre Pflege demenzkranker Menschen haben sich in den letzten Jahren kontinuierlich intensiviert. Über das Befinden der pflegenden Angehörigen nach dem Tod der Demenzkranken ist jedoch bislang noch relativ wenig bekannt. Die wenigen bisher existierenden Studien zu diesem Thema belegen einerseits eine enorme Entlastung und gesundheitliche Verbesserung der Angehörigen nach dem Ende der Pflege. Andere Studien wiederum zeigen keine konstante Befindlichkeitsverbesserung der Pflegenden nach dem Tod ihres Angehörigen auf. Aufgrund dieser widersprüchlichen und rudimentären Forschungslage wurde im Rahmen der vorliegenden Dissertation das Befinden der Angehörigen nach dem Ende der Pflege näher analysiert. Die Studie ist eingebettet in die &quot;Längsschnittstudie zur Belastung pflegender Angehöriger von demenziell Erkrankten&quot; (LEANDER). So wurde insgesamt 354 Angehörigen, deren Pflegesituation im Verlauf dieser Längsschnittstudie durch den Tod des Patienten endete, ein Fragebogen zum Befinden nach der Pflege zugesandt, welcher von 90 Teilnehmern zurückgeschickt wurde. Da es bislang noch keinen Fragebogen in deutscher Sprache gibt, der das Befinden von Angehörigen nach dem Ende der Pflegesituation misst, wurde eigens für diese Untersuchung von den Projektleiterinnen der LEANDER-Studie ein solches Instrument entwickelt. Es wurden zunächst die Faktorenstruktur sowie die Gütekriterien des eingesetzten Instrumentes zur Messung des Befindens nach der Pflege untersucht. In den anschließenden Analysen konnte regressionsanalytisch der Nachweis erbracht werden, dass vor allem die in der Pflege aufkommende Gewalt gegenüber dem Demenzkranken von zentraler Bedeutung für das Befinden nach der Pflege ist. Darüber hinaus zeigte sich, dass generell keine konstante Abnahme der Depressionswerte bei den Angehörigen nach dem Tod der Gepflegten zu verzeichnen ist. Allerdings verbesserten sich die Werte bezüglich des allgemeinen Wohlbefindens und der subjektiv eingeschätzten physischen Gesundheit nach dem Ende der Pflege bedeutsam. Mittels hierarchischer Regressionen zeigte sich, dass vor allem der Wegfall der Belastung durch die pflegebedingten Bedürfniskonflikte für die Verbesserungen der gesundheitlichen Lage ausschlaggebend zu sein scheint. Im Gegensatz dazu erwies sich der Wegfall der positiven Aspekte (die persönliche Reifung durch die Pflege) als bedeutsamer Prädiktor für die gesundheitlichen Verschlechterungen. Die Befunde lassen den Schluss zu, dass gezielte präventive Maßnahmen und Entlastungsprogramme von Nöten sind, um die Pflegenden vor belastenden Nachwirkungen der Pflege und einer schlechten Trauerverarbeitung nach dem Verlust der dementen Angehörigen zu bewahren.</abstract>
+                    <subject>
+                        <topic>Demenz</topic>
+                        <topic>Angehörigenpflege</topic>
+                    </subject>
+                    <classification authority="ddc">150</classification>
+                    <classification authority="ioo" displayLabel="Fachbereich 2, Erziehungswissenschaft und Psychologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4321</identifier>
+                    <identifier type="sys">HT016252785</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_432</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2010-02-02</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_432">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/432/1/opterbeck.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_432"
+            DMDID="DMD_siegen_opus_432">
+            <mets:fptr FILEID="FILE0_siegen_opus_432"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

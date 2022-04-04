@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1642">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>New perspectives on statistical data analysis: challenges and possibilities of digitalization for hypothesis testing in quantitative research</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kelter, Riko</displayForm>
+                        <namePart type="family">Kelter</namePart>
+                        <namePart type="given">Riko</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">p-values, the &apos;gold standard&apos; of statistical validity are not as reliable as many scientists assume. In the last decade, severe problems have been observed regarding the validity of highly reputable research. Additionally, the growing availability of big data challenges the design and statistical analysis of studies and experiments across science. Therefore, it is more important than ever to make the best use of available computational tools, software and possibilities digitalization offers to improve the validity of research results. In this paper, we focus on an essential procedure often carried out in quantitative research, which is directly related to the experienced problems: Statistical hypothesis testing. First, we show that the traditional way of hypothesis testing has severe logical problems. Second, it is shown that due to the increasing availability of computational resources, highly sophisticated methods from the area of computational statistics - namely Bayesian data analysis - can complement and even replace traditional hypothesis testing. Third, we highlight how digitalization helps in making these technologies available to a vast range of researchers in the form of the novel and free software package JASP. Together, this paper shows that considering a change in perspective on statistical data analysis, in particular on hypothesis testing, provides the possibility to improve the transparency and reliability of research in the medical, social and natural sciences.</abstract>
+                    <subject>
+                        <topic>Datenanalyse</topic>
+                        <topic>Data Analysis</topic>
+                        <topic>Statistical Inference</topic>
+                        <topic>Bayesian Statistics</topic>
+                        <topic>Hypothesis Testing</topic>
+                        <topic>Mathematical Psychology</topic>
+                        <topic>Statistische Schlussfolgerung</topic>
+                        <topic>Bayessche Statistik</topic>
+                        <topic>Prüfung von Hypothesen</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16426</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1642</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1642">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1642/5/New_Perspectives_on_Statistical_Data_Analysis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1642"
+            DMDID="DMD_siegen_opus_1642">
+            <mets:fptr FILEID="FILE0_siegen_opus_1642"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

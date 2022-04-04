@@ -1,0 +1,85 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1905">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Utilization of the Brinkman penalization to represent geometries in a high-order discontinuous Galerkin scheme on octree meshes</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Anand, Nikhil</displayForm>
+                        <namePart type="family">Anand</namePart>
+                        <namePart type="given">Nikhil</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ebrahimi Pour, Neda</displayForm>
+                        <namePart type="family">Ebrahimi Pour</namePart>
+                        <namePart type="given">Neda</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Klimach, Harald</displayForm>
+                        <namePart type="family">Klimach</namePart>
+                        <namePart type="given">Harald</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Roller, Sabine</displayForm>
+                        <namePart type="family">Roller</namePart>
+                        <namePart type="given">Sabine</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">We investigate the suitability of the Brinkman penalization method in the context of a high-order discontinuous Galerkin scheme to represent wall boundaries in compressible flow simulations. To evaluate the accuracy of the wall model in the numerical scheme, we use setups with symmetric reflections at the wall. High-order approximations are attractive as they require few degrees of freedom to represent smooth solutions. Low memory requirements are an essential property on modern computing systems with limited memory bandwidth and capability. The high-order discretization is especially useful to represent long traveling waves, due to their small dissipation and dispersion errors. An application where this is important is the direct simulation of aeroacoustic phenomena arising from the fluid motion around obstacles. A significant problem for high-order methods is the proper definition of wall boundary conditions. The description of surfaces needs to match the discretization scheme. One option to achieve a high-order boundary description is to deform elements at the boundary into curved elements. However, creating such curved elements is delicate and prone to numerical instabilities. Immersed boundaries offer an alternative that does not require a modification of the mesh. The Brinkman penalization is such a scheme that allows us to maintain cubical elements and thereby the utilization of efficient numerical algorithms exploiting symmetry properties of the multi-dimensional basis functions. We explain the Brinkman penalization method and its application in our open-source implementation of the discontinuous Galerkin scheme, Ateles. The core of this presentation is the investigation of various penalization parameters. While we investigate the fundamental properties with one-dimensional setups, a two-dimensional reflection of an acoustic pulse at a cylinder shows how the presented method can accurately represent curved walls and maintains the symmetry of the resulting wave patterns.</abstract>
+                    <subject>
+                        <topic>Simulation</topic>
+                        <topic>High-order-methods</topic>
+                        <topic>Brinkman penalization</topic>
+                        <topic>Discontinuos Galerkin methods</topic>
+                        <topic>Embedded geometry</topic>
+                        <topic>High-order boundary</topic>
+                        <topic>IMEX Runge-Kutta methods</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19051</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1905</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1905">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1905/4/Utilization_of_the_Brinkman_penalization.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1905"
+            DMDID="DMD_siegen_opus_1905">
+            <mets:fptr FILEID="FILE0_siegen_opus_1905"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

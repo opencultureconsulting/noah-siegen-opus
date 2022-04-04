@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_91">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Neoklassische Wachstumstheorie : Darstellung, Kritik und Erweiterung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Christiaans, Thomas</displayForm>
+                        <namePart type="family">Christiaans</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2004</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Das Wirtschaftswachstum ist der wesentliche Bestimmungsgrund für den Wohlstand der Nationen. Ob ein Land heute reich oder arm ist, hängt vom Wachstum seines Nationale inkommens in der Vergangenheit ab. Der zukünftige Reichtum eines Landes wird durch das gegenwärtige und das künftige Wachstum bestimmt.
+In diesem Buch werden die grundlegenden Modelle der neoklassischen Wachstumstheorie dargestellt, in Teilen kritisiert und darauf aufbauend erweitert. Die zentralen Kritikpunkte beziehen sich auf den Ansatz der dynamischen Optimierung in Erklärungsmodellen einerseits und auf die Skaleneffekte in der Theorie des endogenen Wachstums andererseits.
+Auf der Basis des neoklassis chen Paradigmas werden einfache Modelle des Wirtschaftswachstums entwickelt, die diese Kritik berücksichtigen und die mit den sogenannten stilisierten Fakten über das Wachstum vereinbar sind. Die
+gängige Konsumhypothese der Neoklassik wird durch den Ansatz von Faustregeln ersetzt, wobei Modelle ohne Skaleneffekte mit endogenem technischem Fortschritt im Mittelpunkt stehen. In bezug auf einige der stilisierten Fakten erweist sich die Betrachtung offener Volkswirtschaften als unumgänglich. In diesem Zusammenhang wird die Frage untersucht, welche Ansatzpunkte für die Wachstumspolitik im Rahmen von Modellen des semi-endogenen Wachstums bestehen.
+Wegen seiner zentralen Ausrichtung auf die Theorie des semi-endogenen Wachstums und der ausführlichen Erörterung der erforderlichen mathematischen Grundlagen (gewöhnliche Differentialgleichungen und dynamische Optimierung) im wachstumstheoretischen Kontext ist der Text auch als fortgeschrittenes Lehrbuch geeignet.</abstract>
+                    <subject>
+                        <topic>Neoklassische Theorie</topic>
+                        <topic>Wirtschaftswachstum</topic>
+                        <topic>offene Volkswirtschaft</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 5, Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-914</identifier>
+                    <identifier type="sys">HT014258132</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_91</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaHabil</vl:doctype>
+                        <vl:defenseDate>2003-05-20</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_91">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/91/1/christiaans.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_91"
+            DMDID="DMD_siegen_opus_91">
+            <mets:fptr FILEID="FILE0_siegen_opus_91"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

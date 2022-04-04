@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1853">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Pulse based Time-of-Flight range sensing</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kolb, Andreas</displayForm>
+                        <namePart type="family">Kolb</namePart>
+                        <namePart type="given">Andreas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sarbolandi, Hamed</displayForm>
+                        <namePart type="family">Sarbolandi</namePart>
+                        <namePart type="given">Hamed</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Plack, Markus</displayForm>
+                        <namePart type="family">Plack</namePart>
+                        <namePart type="given">Markus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Pulse-based Time-of-Flight (PB-ToF) cameras are an attractive alternative range imaging approach, compared to the widely commercialized Amplitude Modulated Continuous-Wave Time-of-Flight (AMCW-ToF) approach. This paper presents an in-depth evaluation of a PB-ToF camera prototype based on the Hamamatsu area sensor S11963-01CR. We evaluate different ToF-related effects, i.e., temperature drift, systematic error, depth inhomogeneity, multi-path effects, and motion artefacts. Furthermore, we evaluate the systematic error of the system in more detail, and introduce novel concepts to improve the quality of range measurements by modifying the mode of operation of the PB-ToF camera. Finally, we describe the means of measuring the gate response of the PB-ToF sensor and using this information for PB-ToF sensor simulation</abstract>
+                    <subject>
+                        <topic>ToF-Kamera</topic>
+                        <topic>Time-of-flight</topic>
+                        <topic>Pulse-based</topic>
+                        <topic>Range sensor</topic>
+                        <topic>Computer vision</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-18530</identifier>
+                    <accessCondition type="use and reproduction">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1853</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1853">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1853/3/Pulse_Based_Time-of-Flight_Range_Sensing.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1853"
+            DMDID="DMD_siegen_opus_1853">
+            <mets:fptr FILEID="FILE0_siegen_opus_1853"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,55 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1334</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Speed control of autonomous amphibious vehicles</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Sailan</pc:foreName>
+            <pc:surName>Khaled</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Antriebsregelung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">SCOAAV</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">621</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">This thesis describes the development of a speed and steering control system for an autonomous amphibious vehicle use under extreme conditions for tactical distributed surveillance and autonomous motion on ground and water. It has been a research project of the Institute for Real-Time Learning Systems of Siegen University. The primary aim of the project is to design and develop speed and steering control systems for the DORIS Robot. The research is focused on controlling speed, steering, and obstacle avoidance using PID, Dead-Beat, and intelligent fuzzy logic control methods. For controlling the steering of DORIS on ground, two DC motors were used, which act on two variable displacement hydraulic pumps that set the swashplate angles in the hydrostatic transmission system. The PID, Dead-Beat, and P-Dead-Beat controllers were each designed to control the DC motor’s angular position, which in turn, controls the swashplate angle. Throughout the project, these types of controllers were tested on a separate hardware using PWM (Pulse-Width Modulation) for controlling the DC motor’s angular position. A comparison identified the PID control method as the optimal one. The speed of the DC motor is an important factor for controlling the swashplate torque. It was analyzed and studied with respect to the impact of different surfaces during skidding and rolling. To control the steering of the vehicle optimally, an intelligent fuzzy logic controller was developed for producing the independent angular positions of the two DC motors, which control the different speeds of the left and right wheels of the vehicle. These different speeds cause the vehicle to skid-steer right or left per the fuzzy logic rules.&#13;
+The speed of the vehicle is a function of the engine speed. A servo motor control system controls the engine speed, whereby a coupling between the servo-control loop and the engine control loop is achieved. To drive DORIS semi-autonomously, a tele-operating system was added to the whole design, using a PC and/or Joystick and the Robot Operating System (ROS). During the motion of the vehicle in an unknown and changing environment, the vehicle must be able to navigate successfully without colliding with obstacles in the surroundings. For this purpose, a fuzzy logic strategy was also developed to guide the Autonomous Amphibious Vehicle (AAV). &#13;
+For driving the vehicle on water, a water-jet system is used. The steering control system was implemented based on a PID control approach. &#13;
+All hardware systems, control architecture, sensor suite, current capabilities, future research, and applications of the AAV are described in this project.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Diese Arbeit beschreibt die Entwicklung einer Geschwindigkeits- und Lenkregelung für ein Amphibienfahrzeug, welches beispielsweise für Überwachungsaufgaben oder autonomes Fahren auf teilweise schwerbefahrbaren Untergründen zu Land und auf dem Wasser konzipiert wurde. Es ist ein Forschungsprojekt des Instituts für Echtzeit Lernsystems der Universität Siegen. Dabei ist das primäre Ziel der Entwurf und die Entwicklung einer Geschwindigkeits-  und Lenkreglung zur Anwendung auf den mobilen Roboter „DORIS“ (Dual media Outdoor Robot Intelligent System). Darüber hinaus wurde darauf aufbauend eine Hindernisvermeidungsregelung entwickelt. Als Regelungssysteme wurden PID-Regler, Dead Beat-Regler und intelligente Fuzzy-Logik-Regler verwendet. Die Geschwindigkeitsreglung des hydraulisch angetriebenen Amphibienfahrzeugs DORIS wurde durch zwei Gleichstrommotoren realisiert, die jeweils die Winkelpositionen der Taumelscheibenpumpen am hydrostatischen Übertragungssystem stellen. Eine Kombination aus PID-, Dead-Beat- und P-Dead-Beat-Regler wurde entworfen und entwickelt, um die Gleichstrommotoren anzusteuern, sodass der Winkel der hydraulisch verstellbaren Taumelscheibenpumpe entsprechend eingestellt werden konnten. Des Weiteren wurden im Rahmen des Projektes diese Regelungstypen auf verschiedene Hardwaresystemen unter Verwendung von Pulsweitenmodulation (kurz PWM) getestet um die Winkelpositionen eines Gleichstrommotors zu kontrollieren. Ein Vergleich identifizierte den PID-Regler als das Optimum. Die Geschwindigkeitsreglung des Gleichstrommotors stellt einen wichtigen Faktor für die Steuerung des Drehmoments der Taumelscheibe dar. Dementsprechend wurde die Auswirkung des Taumelscheiben-Drehmoments bezüglich Roll- und Gleiteigenschaften des Fahrzeugs auf verschiedenen Untergründen analysiert. Für die optimale Steuerung des Lenkungssystems des Fahrzeugs wurde ein intelligenter Fuzzy-Logik-Regler entwickelt, um die zwei unabhängigen Winkelpositionen beider Gleichstrommotoren zu setzen, sodass unterschiedliche Drehzahlen bzw. Geschwindigkeiten für die linke und rechte Achse des Fahrzeugs erzeugt werden können. Diese durch Fuzzy-Logik-Reglung erzeugten unterschiedlichen Geschwindigkeiten erzeugen die entsprechenden Richtungsänderung des Fahrzeugs. Die Geschwindigkeit des Fahrzeugs ist eine Funktion aus der Motordrehzahl. Hierbei wird die Motordrehzahl mit Hilfe eines Servo-Motor-Regelungssystems gesteuert, wodurch eine Kopplung zwischen dem Servo-Regelkreis und dem Motor-Regelkreis erreicht wird. Um das Fahrzeug DORIS semi-autonom betreiben zu können, wurde dem Gesamtdesign ein Funkfernsteuerungssystem hinzugefügt, welches ermöglicht, dass das Fahrzeug mit der Hilfe eines Eingabegerätes wie z.B. ein Joystick und/oder PC mit integriertem Roboter-Betriebssystems ROS (Robot Operation System), gesteuert werden kann. Während der Navigation des Fahrzeugs in einem unbekannten und sich ständig ändernden Umfeld, sollte das Fahrzeug in der Lage sein, Hindernissen erfolgreich auszuweichen, um Kollisionen zu vermeiden. Zu diesem Zweck wurde erneut eine Fuzzy-Logik-Strategie entwickelt, welche das autonome Amphibienfahrzeug navigiert. Um das Fahrzeug auf dem Wasser nutzen zu können, wurde ein Wasser-Jet-Antriebssystem mit einem Lenkungssystem basierend auf einem PID-Regler entwickelt und implementiert. Alle Hardwaresysteme, Regelungsarchitekturen, integrierte Sensor- und Stromversorgungseinheiten, zukünftige Forschungsausblicke und Anwendungsbereiche des autonomen Amphibienfahrzeugs sind in dieser Arbeit beschrieben.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2017-12-20</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2017</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-13343</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Bildinformatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Sailan_Khaled.pdf" ddb:fileSize="9815910"/>
+   <ddb:checksum ddb:type="MD5">fe5a706e1eb98223a9c257a56e9dd1d3</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1334/1/Dissertation_Sailan_Khaled.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1334</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

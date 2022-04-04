@@ -1,0 +1,64 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1596</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Entwicklung und Anwendung eines virtuellen Mehrzwecklabors zur Untersuchung und Optimierung multifunktionaler Wandstrukturen</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="eng">Development and application of a virtual multi-purpose laboratory for the analysis and optimization of multifunctional wall structures</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Elias</pc:foreName>
+            <pc:surName>Perras</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Wärmeschutz</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">FEM</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Wall</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Sound insulation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Thermal insulation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">624</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Zum Schutz vor Lärmeinwirkungen und hinsichtlich eines möglichst geringen Energieverbrauchs müssen im Bauwesen verwendete Wandstrukturen sowohl über eine gute Schalldämmung als auch über eine effiziente Wärmedämmung verfügen. Um diese beiden Vorgaben bestmöglich zu erfüllen, werden zur Optimierung der Schall- und Wärmedämmeigenschaften von Wandstrukturen üblicherweise experimentelle Messungen sowie analytische und numerische Untersuchungen durchgeführt. Während umfangreiche Messreihen teuer und zeitaufwändig sind, müssen für analytische Methoden starke Vereinfachungen bezüglich der möglichen Randbedingungen und dem geometrischen Aufbau vorgenommen werden. Durch die Anwendung geeigneter numerischer Näherungsverfahren können hingegen fast alle relevanten physikalischen Phänomene in der Berechnung berücksichtigt werden. In der vorliegenden Arbeit wird ein virtuelles Mehrzwecklabor entwickelt, das in der Lage ist, die Schall- und Wärmedämmeigenschaften von geometrisch beliebigen Wandstrukturen zu ermitteln und zu optimieren. Zur Bestimmung der Schalldämmeigenschaften wird ein vollständig gekoppeltes Fluid-Struktur-Interaktionsproblem (FSI) im Frequenzbereich gelöst, wobei sich die numerische Näherungsrechnung am prinzipiellen Vorgehen bei einer Messung im Labor orientiert. Die im virtuellen Mehrzwecklabor berechneten Kennwerte der Schalldämmung sind daher gut mit experimentellen Versuchsergebnissen vergleichbar. Durch Lösung der Wärmeleitungsgleichung werden die Wärmedämmeigenschaften bestimmt. Für luftgefüllte Spalte und Hohlräume innerhalb der Struktur wird dazu ein äquivalenter Wärmeleitkoeffizient verwendet. Das virtuelle Mehrzwecklabor soll die Kennwerte der Schall- und Wärmedämmung für eine große Anzahl an Geometrieparametern der Wandstrukturen ermitteln. Um eine genaue und zeiteffiziente Berechnung zu gewährleisten, wird die Spektral-Elemente-Methode (SEM), eine fortschrittliche Variante der Finite-Elemente-Methode (FEM), verwendet. Die Effizienz der entwickelten SEM wird anhand von Konvergenzstudien diskutiert. Die im virtuellen Mehrzwecklabor ermittelten Kennwerte der Schall- und Wärmedämmung werden mit experimentellen Daten validiert und mit anderen Näherungsverfahren verglichen. Die Anwendung des virtuellen Labors zur Optimierung von Wandstrukturen wird für ausgewählte Beispiele demonstriert.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">A wall construction, used in civil engineering, requires not only good acoustic insulation to protect people from the harmful impact of noise exposure, but also efficient thermal insulation to minimize energy consumption. Experimental, analytical and numerical studies are usually conducted to analyze and optimize the acoustic and thermal properties of a wall structure. In general, experimental measurements are time-consuming and expensive, while analytical studies suffer from restrictions of the boundary conditions and geometry of the problem. By using appropriate numerical methods, however, all relevant physical phenomena can be included. The present work develops a virtual multipurpose laboratory, which is capable to determine the acoustic and thermal insulation of a geometrically complex wall construction. A strongly coupled fluid-structure interaction problem (FSI) in the frequency domain is solved to determine the acoustic insulation. The simulation follows the conditions of an experimental setup. Therefore, the characteristic values for the sound insulation calculated by the virtual multipurpose laboratory are comparable to experimental measurements. The heat equation is solved to estimate the thermal insulation. In the case of structures including cavities and gaps filled with air, an equivalent thermal conductivity is used. The virtual multipurpose laboratory calculates the characteristic values of the acoustic and the thermal insulation for a large number of geometry parameters of the wall structure. To increase the accuracy and speed of the calculation, the spectral element method (SEM), which is an advanced finite element method (FEM), is used. Convergence studies are conducted to analyze the efficiency of the developed SEM. The characteristic values for the acoustic and thermal insulation, which are calculated in the virtual multipurpose laboratory are verified by experimental data and compared to the characteristic values derived by other estimation methods. Examples for the use of the virtual multipurpose laboratory in the optimization procedure of wall structures are given.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Chuanzeng</pc:foreName>
+            <pc:surName>Zhang</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2020-03-03</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2020</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-15968</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Lehrstuhl für Baustatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Elias_Perras.pdf" ddb:fileSize="55688061"/>
+   <ddb:checksum ddb:type="MD5">2009882787773a16a641f3c2a9d99e47</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1596/5/Dissertation_Elias_Perras.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1596</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

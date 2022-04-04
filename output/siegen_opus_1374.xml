@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1374">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Probing quantum steering through incompatible measurements</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Uola, Roope</displayForm>
+                        <namePart type="family">Uola</namePart>
+                        <namePart type="given">Roope</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">This thesis investigates classical models of correlation experiments from a quantum measurement theoretical point of view. Of special interest are the concept of measurement incompatibility and the phenomenon of quantum steering.
+As the main result, we establish a one-to-one connection between non-joint measurability, i.e. the impossibility of measuring two or more observables simultaneously, and quantum steering, i.e. the possibility of one party to affect a space-like separated party’s quantum state by the means of local actions and classical communication. The result can be used to translate various results between the relatively new research field of quantum steering and the older field of incompatibility. As examples, we use steering inequalities as incompatibility criteria and map joint observables to local hidden state models.
+The main result comes with some possible generalisations. The generalisations discussed here are strongly motivated by quantum measurement theory and they concentrate on continuous variable and channel versions of steering. The resulting formalism not only extends the aforementioned one-to-one connection, but it also has natural applications to Gaussian steering and to temporal correlations.
+Whereas the main result focuses on the connection between non-joint measurability and steering-like phenomena, in the process we also derive steering witnesses and bounds on noise tolerance of incompatible observables. As examples, we map certain entropic uncertainty relations to steering inequalities and use known steering techniques to prove the tightness of the aforementioned noise bounds on incompatibility.
+On top of the measurement theoretical work, we introduce a technique for witnessing steering in scenarios with one completely uncharacterised and one dimension-bounded observer. The resulting witnesses are motivated by former works on entanglement theory and, despite being more general, they don’t weaken the detection strength of the known steering criteria in typical symmetric scenarios.</abstract>
+                    <abstract type="content" lang="ger">Diese Arbeit untersucht klassische Modelle von Korrelationsexperimenten wie Makrorealismus und lokalen Realismus aus einer messtheoretischen Perspektive. Von besonderem Interesse sind das Konzept der Inkompatibilität und das Phänomen der Quantensteuerung.
+Als Hauptergebnis stellen wir eine Eins-zu-eins-Verbindung zwischen der nicht gemeinsamen Messbarkeit her, d. h. der Unmöglichkeit, zwei oder mehr Observablen gleichzeitig zu messen, und der Quantensteuerung. Eine solche Verbindung erlaubt es, verschiedene Ergebnisse zwischen dem relativ neuen Forschungsgebiet der Quantensteuerung und dem älteren Bereich der Inkompatibilität zu übersetzen. Als Beispiele verwenden wir Ungleichungen als Inkompatibilitätskriterien und bilden gemeinsame Observablen auf lokale Modelle versteckter Zustände ab.
+Das Hauptergebnis eröffnet einige Möglichkeiten für Verallgemeinerungen. Die hier betrachteten Verallgemeinerungen sind stark durch die Quantenmesstheorie motiviert und konzentrieren sich auf kontinuierliche Variablen und Quantensteuerung für Kanäle. Die Tragweite unseres Ansatzes zeigt sich nicht nur in der Erweiterung der oben genannten Eins-zu-eins-Verbindung auf allgemeinere Szenarien, sondern auch in Anwendungen zur Steuerung mit kanonischen Quadraturen und dem Nachweis einer strengen Hierarchie zwischen zeitlicher Steuerung von Quantenzuständen und Makrorealismus.
+Während sich das Hauptergebnis auf den Zusammenhang zwischen nicht-gemeinsamer Messbarkeit und steuerungsähnlichen Phänomenen konzentriert, nutzen wir auch den messtheoretischen Ansatz zur Ableitung von Steuerungskriterien und gemeinsamen Messunsicherheitsbeziehungen. Als Beispiele zeigen wir, wie bestimmte entropische Unschärferelationen als Steuerungsungleichungen verwendet werden können und wie bekannte Steuerungstechniken verwendet werden können, um die Exaktheit bestimmter Unschärferelationen zu beweisen.
+Zusätzlich zur messtheoretischen Arbeit führen wir eine Technik ein, mit der wir
+Steuerung in einem Szenario beobachten können, in dem eine Partei völlig uncharakterisiert ist und der anderen Partei nur die Dimension ihres Systems bekannt ist. Solche Kriterien werden durch frühere Arbeiten zur Verschränkungstheorie motiviert, und sie schwächen überraschenderweise nicht die Nachweismöglichkeiten bekannter Steuerungskriterien in typischen symmetrischen Szenarien.</abstract>
+                    <subject>
+                        <topic>Einstein-Podolsky-Rosen-Paradox</topic>
+                        <topic>Quantum steering</topic>
+                        <topic>Joint measurability</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-13744</identifier>
+                    <identifier type="sys">HT019885211</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1374</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2018-05-09</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1374">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1374/1/Dissertation_Roope_Uola.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1374"
+            DMDID="DMD_siegen_opus_1374">
+            <mets:fptr FILEID="FILE0_siegen_opus_1374"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

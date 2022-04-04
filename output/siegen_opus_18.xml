@@ -1,0 +1,74 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_18">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Ein </nonSort>
+                        <title>hochauflösender und hochdynamischer Bildsensor in TFA-Technologie</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schneider, Bernd</displayForm>
+                        <namePart type="family">Schneider</namePart>
+                        <namePart type="given">Bernd</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2002</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Diese Dissertation beschreibt die Entwicklung des hochdynamischen und hochauflösenden TFA-(Thin Film on ASIC) Bildsensors ISAAC (Image Sensor Array with Adjustable Characteristic) und leitet seine Eigenschaften mit numerischen Simulationen und analytischen Modellen her.
+Die Auflösung ist ein Hauptkriterium bei der Beurteilung von elektronischen Bildern. Vor allem angesichts der fortschreitenden Verkleinerung von Technologien und Pixeln ist die gemeinhin angegebene Pixeldichte ein unzureichendes Maß. Diese Dissertation ergänzt vorangegangene Arbeiten über die Modulationstransferfunktion (MTF) als Auflösungsgrenze unter Einbeziehung des Objektivs einer Kamera. Der Dynamikbereich stellt eine weitere entscheidende Größe dar.
+So ist es nicht möglich, Szenen mit natürlicher Beleuchtung linear in einen Spannungsbereich von typischerweise 60 dB abzubilden. Im ISAAC wird das Bildsignal durch ein steuerbares Überlaufventil in jedem Pixel komprimiert und somit ein größerer Dynamikbereich erzielt. Die Kompression kann logarithmisch sein und ermöglicht es, bei einem Spannungshub von 2 V einen Photostrombereich von 100 dB abzudecken. So erreicht der ISAAC eine bessere Empfindlichkeit und ein höheres Signal-Rausch-Verhältnis als ein nichtintegrierender logarithmischer Sensor, wobei seine Komplexität und Datenrate geringer als bei hochdynamischen Konzepten mit Integrationsregelung oder Mehrfachauslese ist.
+Der Prototyp ISAAC II ist für einen 0,35-µm-CMOS-Prozeß mit drei Metallisierungen und zwei Poly-Ebenen entworfen. In TFA-Technologie dient eine Schichtenfolge aus amorphem Silizium auf dem kristallinen Chip als optischer Detektor, wodurch der Füllfaktor 100% bei gleichzeitig hohem Quantenwirkungsgrad und niedrigem Dunkelstrom beträgt. Jedes Pixel mißt (7,7µm)2 und beinhaltet drei oder vier Transistoren. Der Sensor besteht aus insgesamt 256 x 256 Pixeln, Zeilenauswahl- und Spaltenauslese-Schaltungen. Er wird im Schlitzverschluß-Modus betrieben.
+Zur Berechnung der Kennlinie wird ein detailliertes Modell des Pixels des ISAAC II entwickelt, wobei der Einfluß des als Überlaufventil dienenden Transistors im Subthreshold-Bereich sowie verschiedenene parasitäre Effekte berücksichtigt werden. Rauschen und Fixed Pattern Noise erfahren besondere Aufmerksamkeit, indem ihre Übertragungsfunktionen für die verschiedenen Stufen des Auslesens hergeleitet werden. Hard-to-Soft Reset, der Betrieb des Resettransistors in
+schwacher Inversion nach einer kurzen Phase im Triodenbereich, dient dazu, sowohl das im Pixel entstehende Fixed Pattern Noise als auch das Resetrauschen zu reduzieren. Offsets von Pixel zu Pixel können mit korrelierter Doppelabtastung in jeder Spalte weitgehend beseitigt werden, während Abweichungen von Spalte zu Spalte mit einer zusätzlichen Doppelabtastung unterdrückt werden. Beide Schaltungen sind in der Lage, über einen weiten Signalbereich eine räumliche Standardabweichung auf weniger als 8% ihres Ursprungswerts zu reduzieren. Der Prototyp ISAAC II kann gefertigt werden, sobald genügende Kapazitäten zur Verfügung stehen.</abstract>
+                    <abstract type="content" lang="eng">This Ph.D. thesis describes the development of the wide dynamic range and high resolution TFA (Thin Film on ASIC) image sensor ISAAC (Image Sensor Array with Adjustable Characteristic) and derives its basic characteristics using numerical simulations and analytical models.
+Resolution is a key criterion in evaluating electronic images. The commonly given pixel density of a sensor, however, is not a sufficient measure, especially as technology feature sizes and pixel sizes keep shrinking. Previous work on the modulation transfer function (MTF) as the resolution limit, also taking into account the lens system of a camera, is supplemented in this dissertation.
+The dynamic range is another decisive quantity, since naturally illuminated scenes do not fit into a voltage range of typically 60 dB in a linear fashion. The image signal is compressed and thereby a wide dynamic range is achieved using an adjustable overflow gate in each pixel of the ISAAC. The compression curve may be, but is not restricted to, a logarithmic characteristic, and
+the photocurrent range to be covered in a voltage signal with 2 V swing may be as wide as 100 dB. Hence, ISAAC achieves a better sensitivity and signal-to-noise ratio than nonintegrating logarithmic sensors, and the overall complexity of the circuitry and the data rate is lower than in high-dynamic concepts with integration control or multiple readout.
+The prototype ISAAC II has been designed for a 0.35 µm 3-metal double-poly CMOS process.
+In TFA technology, an amorphous silicon thin film on top of the crystalline die acts as the optical detector, thereby increasing the fill factor of a pixel to 100%, at a high quantum efficiency and low dark current. Each pixel measures (7.7 µm)2 and includes three or four transistors. The sensor consists of a 256 x 256 pixel array, row select and column readout circuitry. It is operated in rolling shutter mode. In order to describe its characteristics, a detailed
+model of the operation of the ISAAC II pixel is developed, including the sub-threshold behavior of the MOSFET that serves as the overflow gate, and several parasitic effects that are identified and evaluated. Special attention is paid to noise and fixed pattern noise whose transfer functions are derived for the various stages of signal readout. Hard-to-soft reset of the pixels, denoting that, after a short phase in the triode region, the reset transistor is operated in weak inversion, is employed to reduce both fixed pattern noise arising from the integration phase as well as the reset noise of the pixel. Pixel-to-pixel offset variations can be largely canceled through correlated double sampling in each column, while column-to-column variations are suppressed
+using a single additional analog double delta sampling stage. Both circuits are capable of reducing a spatial standard deviation to less than 8% of its original value over a wide signal range. The ISAAC II prototype is ready to be fabricated provided that sufficient capacities are available.</abstract>
+                    <subject>
+                        <topic>Bildsensor</topic>
+                        <topic>Auflösungsvermögen</topic>
+                        <topic>Rauschen</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-189</identifier>
+                    <identifier type="sys">HT013552399</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_18</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2002-12-12</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_18">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/18/1/schneider_b.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_18"
+            DMDID="DMD_siegen_opus_18">
+            <mets:fptr FILEID="FILE0_siegen_opus_18"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

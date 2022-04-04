@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_812">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Interactive models for latent information discovery in satellite images</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bratasanu, Dragos</displayForm>
+                        <namePart type="family">Bratasanu</namePart>
+                        <namePart type="given">Dragos</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The recent increase in Earth Observation (EO) missions has resulted in unprecedented volumes of multi-modal data to be processed, understood, used and stored in archives. The advanced capabilities of satellite sensors become useful only when translated into accurate, focused information, ready to be used by decision makers from various fields. Two key problems emerge when trying to bridge the gap between research, science and multi-user platforms: (1) The current systems for data access permit only queries by geographic location, time of acquisition, type of sensor, but this information is often less important than the latent, conceptual content of the scenes; (2) simultaneously, many new applications relying on EO data require the knowledge of complex image processing and computer vision methods for understanding and extracting information from the data. 
+
+This dissertation designs two important concept modules of a theoretical image information mining (IIM) system for EO: semantic knowledge discovery in large databases and data visualization techniques. These modules allow users to discover and extract relevant conceptual information directly from satellite images and generate an optimum visualization for this information. 
+
+The first contribution of this dissertation brings a theoretical solution that bridges the gap and discovers the semantic rules between the output of state-of-the-art classification algorithms and the semantic, human-defined, manually-applied terminology of cartographic data. The set of rules explain in latent, linguistic concepts the contents of satellite images and link the low-level machine language to the high-level human understanding. 
+
+The second contribution of this dissertation is an adaptive visualization methodology  used to assist the image analyst in understanding the satellite image through optimum representations and to offer cognitive support in discovering relevant information in the scenes. It is an interactive technique applied to discover the optimum combination of three spectral features of a multi-band satellite image that enhance visualization of learned targets and phenomena of interest. The visual mining module is essential for an IIM system because all EO-based applications involve several steps of visual inspection and the final decision about the information derived from satellite data is always made by a human operator. To ensure maximum correlation between the requirements of the analyst and the possibilities of the computer, the visualization tool models the human visual system and secures that a change in the image space is equivalent to a change in the perception space of the operator.  This thesis presents novel concepts and methods that help users access and discover latent information in archives and visualize satellite scenes in an interactive, human-centered and information-driven workflow.</abstract>
+                    <abstract type="content" lang="ger">Der aktuelle Anstieg an Erdbeobachtungsmissionen hat zu einem Anstieg von multi-modalen Daten geführt die verarbeitet, verstanden, benutzt und in Archiven gespeichert werden müssen. Die erweiterten Fähigkeiten von Satellitensensoren sind nur dann von Entscheidungstraegern nutzbar, wenn sie in genaue, fokussierte Information liefern. Es bestehen zwei Schlüsselprobleme beim Versuch die Lücke zwischen Forschung, Wissenschaft und Multi-User-Systeme zu füllen: (1) Die aktuellen Systeme für Datenzugriffe erlauben nur Anfragen basierend auf geografischer Position, Aufzeichnungszeit, Sensortyp. Aber diese Informationen sind oft weniger wichtig als der latente, konzeptuelle Inhalt der Szenerien. (2) Viele neue Anwendungen von Erdbeobachtungsdaten benötigen Wissen über komplexe Bildverarbeitung und Computer Vision Methoden um Information verstehen und extrahieren zu können.
+
+Diese Dissertation zeigt zwei wichtige Konzeptmodule eines theoretischen Image Information Mining (IIM) Systems für Erdbeobachtung auf: Semantische Informationsentdeckung in grossen Datenbanken und Datenvisualisierungstechniken. Diese Module erlauben Benutzern das Entdecken und Extrahieren relevanter konzeptioneller Informationen direkt aus Satellitendaten und die Erzeugung von optimalen Visualisierungen dieser Informationen.
+
+Der erste Beitrag dieser Dissertation bringt eine theretische Lösung welche diese Lücke überbrückt und entdeckt semantische Regeln zwischen dem Output von state-of-the-art Klassifikationsalgorithmen und semantischer, menschlich definierter, manuell angewendete Terminologie von kartographischen Daten. Ein Satz von Regeln erkläret in latenten, linguistischen Konzepten den Inhalte von Satellitenbildern und verbinden die low-level Maschinensprache mit high-level menschlichen Verstehen.
+
+Der zweite Beitrag dieser Dissertation ist eine adaptive Visualisierungsmethode die einem Bildanalysten im Verstehen der Satellitenbilder durch optimale Repräsentation hilft und die kognitive Unterstützung beim Entdecken von relevenanter Informationen in Szenerien bietet. Die Methode ist ein interaktive Technik die angewendet wird um eine optimale Kombination von von drei Spektralfeatures eines Multiband-Satellitenbildes welche die Visualisierung von gelernten Zielen and Phänomenen ermöglichen. Das visuelle Mining-Modul ist essentiell für IIM Systeme da alle erdbeobachtungsbasierte Anwendungen mehrere Schritte von visueller Inspektion benötigen und davon abgeleitete Informationen immer vom Operator selbst gemacht werden müssen. Um eine maximale Korrelation von Anforderungen des Analysten und den Möglichkeiten von Computern sicher zu stellen, modelliert das Visualisierungsmodul das menschliche Wahrnehmungssystem und stellt weiters sicher, dass eine Änderung im Bildraum äquivalent zu einer Änderung der Wahrnehmung durch den Operator ist. Diese These präsentieret neuartige Konzepte und Methoden, die Anwendern helfen latente Informationen in Archiven zu finden und visualisiert Satellitenszenen in einem interaktiven, menschlich zentrierten und informationsgetriebenen Arbeitsprozess.</abstract>
+                    <subject>
+                        <topic>Data Mining</topic>
+                        <topic>remote sensing</topic>
+                        <topic>data mining</topic>
+                        <topic>image information mining</topic>
+                        <topic>visual mining</topic>
+                        <topic>satellite images</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="NRW-Zentrum für Sensorsysteme (ZESS)"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-8124</identifier>
+                    <identifier type="sys">HT018333575</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_812</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2014-05-29</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_812">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/812/1/PhD_Thesis_Dragos_Bratasanu_fertig.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_812"
+            DMDID="DMD_siegen_opus_812">
+            <mets:fptr FILEID="FILE0_siegen_opus_812"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

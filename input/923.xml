@@ -1,0 +1,68 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>923</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Revenue management models for hotel business</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Optimierungsmodelle im Hotel Revenue Management</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Andrei M.</pc:foreName>
+            <pc:surName>Bandalouski</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Revenue Management</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Revenue Management</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">650</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Competition and macroeconomic changes stimulate hoteliers to find ways to improve business. Hotel Revenue Management (HRM) techniques evolve and their beneficial results attract more and more hotel owners. Solutions of hotel revenue management approaches support managers in decision-making and increase revenues.&#13;
+&#13;
+In order to contribute to HRM theory and practice the following two problems of revenue management in hotel business have been studied: 1) problem P-Pricing, which is a dynamic and uncertain problem of determining prices of rooms of different categories such that the total profit of room sales based on the forecasted demand is maximized, assuming that the demand is price sensitive, and 2) problem P-Select, which is a static and deterministic problem of selecting a subset of room requests from a given set of room requests such that the selected requests can be assigned to physically different rooms or the same room in different time slots and the total value of these requests is maximized.&#13;
+&#13;
+In problem P-Pricing specific historical forecasting methods are used to predict values of coefficients of linear demand function.  Revenue maximization of a hotel is gained via solving mathematical programming problem with concave quadratic objective function and linear constraints. A typical example of a practical situation where problem P-Pricing appears is the reservation of hotel rooms via an Internet service, which immediately accepts a request if it can be satisfied.&#13;
+&#13;
+Problem P-Select is modeled as a Fixed Interval Scheduling Problem on parallel machines. Its relation to the Maximum Weight Clique Problem of graph theory is established. Optimal and heuristic solution approaches are developed and computer tested. A typical example of a practical situation where problem P-Select appears is renting of private apartments and cottages, when the owner collects requests during a certain period of time and then decides which of them to accept. It also appears in hotel business in special cases such as world sporting events, when requests for rooms come much in advance, demand is usually exaggerated and hotel managers have the possibility to consider requests during a certain period of time.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Der zunehmende Wettbewerb im Hotelgewerbe zwingt Hoteliers zum Einsatz von Entscheidungsunterstützungssoftware, die eine flexiblere, nachfrageorientiertere Preispolitik auf Basis der bei Flugbuchungen bekannten Methoden des Revenue Managements erfordert.&#13;
+&#13;
+Diese Dissertation betrachtet die beiden Probleme der Bestimmung des geeigneten Zimmerpreises jeder Zimmerkategorie, bei zu großer, auf Vergangenheitsdaten basierter, prognostizierter Nachfrage (P-Pricing), sowie das Problem der Auswahl von Nachfragen (Hotelbuchungen) bei vorliegender Überbuchung (P-Select). P-Pricing ist ein dynamisches, auf unsicheren Daten basierendes Gewinnmaximierungsproblem bei preiselastischer Nachfrage. P-Select ist ein deterministisches Problem zur gewinnmaximalen Auswahl von Zimmernachfragen, die sich auf entweder unterschiedliche Zeiträume für gleiche Zimmer oder gleiche Zeiträume für unterschiedliche Zimmer beziehen.&#13;
+&#13;
+P-Pricing wird als mathematisches Programmierungsproblem mit konkaver, quadratischer Zielfunktion und linearen Restriktionen modelliert. Die zu erwartende Nachfrage wird über die vorliegenden Vergangenheitswerte prognostiziert. Beispielhaft ist hier etwa die Buchen eines Hotelzimmers über ein Internetportal, das eine Nachfrage sofort akzeptiert, sofern sie befriedigt werden kann. Eine Preisanpassung findet dann unmittelbar statt.&#13;
+P-Select wird als Intervall Scheduling Problem auf parallelen Maschinen mit festen Intervallen formuliert und läuft darauf hinaus, in einem Graphen maximale, gewichtete Cliquen zu bestimmen. Exakte und heuristische Verfahren werden vorgestellt und getestet. &#13;
+&#13;
+Beispielhaft für Problem P-Select steht die Vermietung von privaten Wohnungen. Der Besitzer sammelt für einen gewissen Zeitraum alle eingehenden Anfrage und wählt anschließend die für Ihn geeignetsten aus.&#13;
+Die Situation tritt im Hotelgewerbe eher dann auf, wenn aufgrund von Großveranstaltungen auf knappe Hotelressourcen zurückgegriffen wird, die bereits frühzeitig angefragt werden. &#13;
+Der Arbeit liegen reale Daten zugrunde.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2015-04-30</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2015</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-9235</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät III - Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Bandalouski_revenue_management_for_hotel_business.pdf" ddb:fileSize="2303901"/>
+   <ddb:checksum ddb:type="MD5">aa4186a6b2e9f6bcca3932d2b45f4b26</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/923/1/Bandalouski_revenue_management_for_hotel_business.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/923</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

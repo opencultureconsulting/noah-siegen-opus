@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1811">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Selected topics in interactive computer graphics</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Ausgewählte Themen der Interaktiven Computergrafik</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lambers, Martin</displayForm>
+                        <namePart type="family">Lambers</namePart>
+                        <namePart type="given">Martin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">This habilitation thesis summarises the postdoctoral scientific work of the author in the following areas: mappings between the sphere and planar surfaces, simulation of time-of-flight sensors, and complementary work and related topics.
+The overarching topic of this work is the interactive aspect of Computer Graphics: the ultimate goal is to enable interactive visual analysis, simulate dynamic scenes in an interactive fashion so that motion is handled appropriately, reconstruct 3D environments with interactive sensor handling, or render stereoscopic contents with the goal of immersion. All of these use cases impose hard constraints on the computing time available to produce or to process each frame of information, and therefore require careful design of data structures and algorithms that make efficient use of dedicated computing resources such as Graphics Processing Units (GPUs).</abstract>
+                    <subject>
+                        <topic>Computergrafik</topic>
+                        <topic>Computer graphics</topic>
+                    </subject>
+                    <classification authority="ddc">004</classification>
+                    <classification authority="ioo" displayLabel="Department Elektrotechnik - Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-18115</identifier>
+                    <identifier type="sys">HT021078211</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1811</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaHabil</vl:doctype>
+                        <vl:defenseDate>2021-01-25</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1811">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1811/4/Habilitationsschrift_Martin_Lambers.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1811"
+            DMDID="DMD_siegen_opus_1811">
+            <mets:fptr FILEID="FILE0_siegen_opus_1811"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

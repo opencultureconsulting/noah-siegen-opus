@@ -1,0 +1,102 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1944">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Life review therapy for holocaust survivors (LRT-HS): study protocol for a randomised controlled trial</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Forstmeier, Simon</displayForm>
+                        <namePart type="family">Forstmeier</namePart>
+                        <namePart type="given">Simon</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>van der Hal, Elisheva</displayForm>
+                        <namePart type="family">van der Hal</namePart>
+                        <namePart type="given">Elisheva</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Auerbach, Martin</displayForm>
+                        <namePart type="family">Auerbach</namePart>
+                        <namePart type="given">Martin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Maercker, Andreas</displayForm>
+                        <namePart type="family">Maercker</namePart>
+                        <namePart type="given">Andreas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Brom, Danny</displayForm>
+                        <namePart type="family">Brom</namePart>
+                        <namePart type="given">Danny</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Background
+The Holocaust was one of the most traumatic catastrophes in recorded human history. Survivors seeking psychotherapeutic help today, now in their seventies and older, often show symptoms of a posttraumatic stress disorder (PTSD), depression, or prolonged grief disorder. Established psychological treatments for PTSD (e.g. cognitive behaviour therapy, psychodynamic therapies) have been tested and assessed mainly with young and middle-aged adults; only very few studies examined them in old age. There is no therapy outcome study known to us for any treatment mode for Holocaust survivors. Moreover, there is a need for an age group-specific treatment of PTSD and other stress-related mental disorders. A narrative approach including life-review and narrative exposure seems to meet very well the natural need of older people to review their lives and is highly effective. However, most studies on the efficacy of life review therapy (LRT) focus on late-life depression. There is a lack of efficacy studies evaluating the effect of LRT on PTSD symptoms in older individuals that have experienced traumatic events.
+
+Methods
+The main goal of this study is to evaluate the effect of LRT for Holocaust survivors (LRT-HS) on symptoms of PTSD and related mental health problems (depression, anxiety, prolonged grief), compared to a supportive control group. A secondary goal is to identify the characteristics of participants that seem to especially benefit from the treatment. The proposed study is a randomised, controlled follow-up trial including Holocaust survivors with one or more trauma-related disorders. The LRT treatment consists of 20–25 sessions. Before and after the treatment phase, participants in both conditions will be assessed. Follow-up will take place 6 months after the treatment. A sample size of 80 is required (drop-out rate included).
+
+Discussion
+Efficacious treatments for trauma-related disorders in older people are of high importance, also because the probability of traumatisation and loss increases with age. Because this study is conducted with this specific group of multiply traumatised people, we are convinced that the results can easily transfer to other samples.</abstract>
+                    <subject>
+                        <topic>Posttraumatisches Stresssyndrom</topic>
+                        <topic>Post-traumatic stress disorder</topic>
+                        <topic>Depression</topic>
+                        <topic>Prolonged grief</topic>
+                        <topic>Life review therapy</topic>
+                        <topic>Holocaust survivors</topic>
+                        <topic>Reminiscence</topic>
+                        <topic>Narrative exposure</topic>
+                        <topic>Randomised controlled trial</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19441</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1944</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1944">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1944/3/Life_review_therapy_for_holocaust_survivors.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1944"
+            DMDID="DMD_siegen_opus_1944">
+            <mets:fptr FILEID="FILE0_siegen_opus_1944"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

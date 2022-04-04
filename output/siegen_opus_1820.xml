@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1820">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>concept of “pastiche” in Directive 2001/29/EC in the light of the German case Metall auf Metall</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Döhl, Frédéric</displayForm>
+                        <namePart type="family">Döhl</namePart>
+                        <namePart type="given">Frédéric</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Frédéric Döhl analyses the development of the “Metall auf Metall” lawsuit from the beginning in 1999 until now and reviews all legal positions on micro-sampling. Moreover, he introduces “pastiche” as an exception in European copyright as a possible basis for the foundations of future copyright. So far, it remains to be clarified whether and how digital adaptations from other musical works and media can achieve the status of an “independent work” according to German copyright. Döhl reminds us that, in adaptation research, it is commonly acknowledged across all arts that, as a matter of principle, all adaptations can reach a state of artistic identity in their own right, no matter how prominent the original material may be in the new work. The controversial question is how and when these new works pass that threshold rather than whether they reach it at all. From an artistic point of view, the concept of independent use as an aesthetic category is a suitable instrument for a free balance of interests.</abstract>
+                    <subject>
+                        <topic>Pastiche</topic>
+                        <topic>Copyright law</topic>
+                        <topic>Adaptation</topic>
+                        <topic>Urheberrecht</topic>
+                        <topic>Bearbeitung</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-18200</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1820</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1820">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1820/4/Doehl_The_concept_of_pastiche.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1820"
+            DMDID="DMD_siegen_opus_1820">
+            <mets:fptr FILEID="FILE0_siegen_opus_1820"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

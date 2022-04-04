@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1737">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Entwicklung eines neuen Widerstandsnietschweißverfahrens zur flexiblen und wirtschaftlichen Fertigung der Karosserie in der Al-Stahl-Mischbauweise</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Rivet resistance spot welding process for flexible and economical production of Al-steel mixed body-in-white structure</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zhang, Fan</displayForm>
+                        <namePart type="family">Zhang</namePart>
+                        <namePart type="given">Fan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Fang, Xiangfan</displayForm>
+                        <namePart type="family">Fang</namePart>
+                        <namePart type="given">Xiangfan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Derzeit werden verschiedene Fahrzeuge modular konzipiert und gemeinsam auf einer Rohbaulinie gefertigt. Die Fertigungsanlagen (Punktschweißanlage und die dazugehörigen Roboter) werden i.d.R. über Fahrzeuggenerationen wiederverwendet, um die Investitionskosten zu reduzieren. Eine Karosserie in Al-Stahl-Mischbauweise ist eine vielversprechende Lösung, um die Leichtbauanforderungen zu erfüllen. Allerdings erfüllen die üblichen mechanischen Fügeverfahren z.B. Halbhohl- und Vollstanznieten etc. aufgrund der eigenen Prozesseinschränkungen die Anforderungen an Flexibilität und Wirtschaftlichkeit bei der Fertigung der modular konzipierten Karosserien sowohl in Stahlbauweise als auch in Al-Stahl-Mischbauweise nicht. Daher ist die Entwicklung einer neuen Fügetechnik notwendig, mit der die Wiederverwendung der existierenden Punktschweißanlagen bei Herstellung der Al-Stahl-Mischstruktur parallel zur reinen Stahlkarosserie ermöglicht werden kann.
+In dieser Dissertation wurde daher ein neues Fügeverfahren „Widerstandsnietschweißen (WNS)“ für Al-Stahl-Mischbaustrukturen entwickelt. Das Verfahren funktioniert durch Einsatz eines Stahlelements als Schweißadapter im Al-Blechbauteil. Das Stahlelement wird während des Umformprozesses ins Al-Blechbauteil eingestanzt und verformt. Dabei wird eine formschlüssige Verbindung zwischen Al und Stahlelementen abgebildet. Anschließend wird das Stahlelement mit dem Stahlbauteil durch Punktschweißen verschweißt. 
+Durch FEM-Berechnung und -Optimierung des Nietprozesses wurden die Nietgeometrie und Matrizenform so ausgelegt, dass eine gute formschlüssige Verbindung zwischen Al-Blech und Stahlniet hergestellt werden kann. Die passenden Schweißparameter (Strom, Elektrodenkraft und -kappenform), mit denen der Schweißpunkt zwischen Stahlblech und -Niet ohne Al-Aufschmelzung hergestellt werden kann, wurden über Schweißversuche ermittelt. Der Vergleich der Ergebnisse aus den mechanischen Prüfungen der WNS- und HHSNVerbindungen hat gezeigt, dass die WNS-Verbindung eine höhere statische Festigkeit als HHSN bei vielen Materialkombinationen aufweist. Darüber hinaus kann die Kontaktkorrosion durch den von WNS eingestellten Spalt zwischen Al und Stahl vermieden werden.
+Zum Prüfen der Prozessfähigkeit wurde das WNS-Verfahren bei der Herstellung einer Al- Stahl-Teildachstruktur erprobt. Dazu wurden die Presswerkzeuge und die kompakten Stanzköpfe zum Umformen des Al-Teildachs und Einpressen der Stahlniete ins Teildach entwickelt und gebaut. Mit dem Werkzeug wurden viele Niete gleichzeitig in einem Operationsschritt ins Al-Blech eingebracht und somit kann die Wirtschaftlichkeit des WNSVerfahrens gewährleistet werden. Das Al-Teildach mit eingebrachten Stahlnieten wurde dann unter realen Randbedingungen über eine robotergeführte Schweißzange mit dem Stahldachspriegel verschweißt. Die Prozessfähigkeit des WNS-Verfahrens wurde durch die Erprobung mit der Al-Stahl-Teildachstruktur erfolgreich nachgewiesen. Darüber hinaus wurde die WNSVerbindung mit Ersatzmodell MAT_100_DA in LS-DYNA in Crashberechnung modelliert und durch Versuche validiert, womit die weiteren Einsätze mit WNS in Karosserie ermöglicht werden.
+Zusammenfassend können die Karosserie in Al-Stahl-Mischbauweise und Stahlbauweise mit dem in der Dissertation dargestellten Verfahren auf der gleichen Rohbaulinie mit herkömmlicher Punktschweißanlage ohne zusätzlichen Änderungen gefertigt und die Investitionskosten an neuen Rohbauanlagen vermieden werden.</abstract>
+                    <abstract type="content" lang="eng">Various vehicles are currently being designed modularly and manufactured on the same assembly line. The manufacturing facilities such as spot welding system and the associated robots are being reused across vehicle generations to reduce investment costs. A car body in Al-steel mixed construction is a promising solution to meet the lightweight requirements. However, the existing mechanical joining technologies, such as self-piercing riveting (SPR), punch rivet etc., due to their process restrictions, do not meet the flexibility and economy requirements for producing the car bodies with Al-steel-mixed and steel construction at the same time. Therefore, it is necessary to develop a new joining technique that will make it possible to reuse the existing spot welding equipment for manufacturing the Al-steel mixed body-in-white structure parallel to the pure steel body.
+Thus, a novel joining method “rivet resistance spot welding (RRSW)” was developed in this dissertation for producing an Al-steel mixed body-in-white structure. The RRSW works by using a steel rivet as a welding adapter in the Al sheet part. The steel rivet is pressed into the Al sheet part during its forming process and the rivet deformation makes a form-interlock between steel rivet and Al sheet part. The steel rivet is then welded to the adjacent steel parts by spot welding.
+The rivet geometry and the die shape were designed and optimized by the FEM-simulation. With the optimized rivet and the die, a good form-interlock between the Al sheet part and the steel rivet can be realized. The appropriate welding parameters, including the welding current, electrode force, and the shape of the electrode cap, with which the welding point between the steel sheet and rivet can be produced without Al melting, were determined by the welding test. The comparison of mechanical test results between RRSW- and SPR-joints has shown that the RRSW joints have a higher static strength than SPR in many material combinations. The contact corrosion can also be avoided by the gap between Al and steel set by RRSW. 
+The RRSW process was tested in the production of an Al-steel-mixed partial roof structure to check its process capability. The pressing tools for forming Al partial roof and the compact punching heads for pressing the steel rivets into the roof were developed and built. With these tools, many steel rivets were inserted simultaneously into the Al partial roof in a single step, and thus the cost-effectiveness of RRSW was ensured. The Al partial roof with inserted steel rivets was then welded to the steel roof bow via a robot-guided welding gun under the real boundary conditions of the assembly line. The process capability of RRSW was thus successfully proven by testing with the Al-steel partial roof structure. Besides, the RRSW joint was modelled with a substitute model MAT_100_DA in LS-DYNA in the crash simulation and validated by tests, which enables the further application of RRSW in the car body.
+In summary, with the joining method “RRSW” described in the dissertation, the body in white structure in both Al-steel mixed and steel construction can be manufactured by using the existing spot welding equipment on the same assembly line without any additional changes of manufacturing facilities and the high investment costs for new joining equipment can be avoided.</abstract>
+                    <subject>
+                        <topic>Widerstandsnietschweißen</topic>
+                        <topic>Karosserie in Al-Stahl-Mischbauweise</topic>
+                        <topic>Flexible Produktion</topic>
+                        <topic>Korrosionsbeständigkeit</topic>
+                        <topic>Rivet resistance spot welding</topic>
+                        <topic>Al-steel mixed BIW structure</topic>
+                        <topic>flexible production</topic>
+                        <topic>corrosion resistance</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Fahrzeugtechnik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-17375</identifier>
+                    <identifier type="sys">HT020959323</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1737</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2020-08-17</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1737">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1737/3/Automobiltechnik_5_Zhang.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1737"
+            DMDID="DMD_siegen_opus_1737">
+            <mets:fptr FILEID="FILE0_siegen_opus_1737"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

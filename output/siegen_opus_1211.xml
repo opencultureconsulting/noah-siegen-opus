@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1211">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Hunter into prey : trying to make sense of the »Media Revolution« at Göbekli Tepe</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schüttpelz, Erhard</displayForm>
+                        <namePart type="family">Schüttpelz</namePart>
+                        <namePart type="given">Erhard</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The essay tries to make sense of the iconography and monumentalism of Göbekli Tepe by way of a comparison with recent ›hunting ideologies‹ in forager situations of abundance or ›super-abundance‹. The article refers to two North Ameri- can situations of super-abundance (North-West Coast societies based on seasonal aquafaunal abundance; and the seasonal congregations of large-scale Bison hunting groups on the Plains) to demonstrate how foragers coping with a situation of seasonal super-abundance are still able to ritually perform the rever- sibility of prey and predator inherent in hunting ideologies. The radical iconography of predators at Göbekli Tepe may likewise point to the ritual function of turning ›hunter into prey‹, and the monumentalism of Göbekli Tepe may be interpreted as a ritual setting celebrating the unity of a hunting congregation quite for- eign to – and even deliberately pitted against – later regional developments.</abstract>
+                    <subject>
+                        <topic>Göbekli Tepe</topic>
+                        <topic>Göbekli Tepe</topic>
+                        <topic>hunting ideology</topic>
+                        <topic>iconography</topic>
+                        <topic>affluence</topic>
+                        <topic>neolithisation</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-12114</identifier>
+                    <identifier type="sys">HT019503034</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1211</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1211">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1211/1/Schuettpelz_Hunter_into_prey.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1211"
+            DMDID="DMD_siegen_opus_1211">
+            <mets:fptr FILEID="FILE0_siegen_opus_1211"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

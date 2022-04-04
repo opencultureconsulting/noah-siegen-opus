@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_910">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>applications of compressive sensing in multi-modal images</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Han, Juanjuan</displayForm>
+                        <namePart type="family">Han</namePart>
+                        <namePart type="given">Juanjuan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">In the past decade, an exciting new theorem, known as Compressive Sensing or Compressed Sensing (CS), mathematically establishes that relatively small number of non-adaptive, linear measurements can harvest all of the information necessary to faithfully reconstruct sparse or compressible signals. This leads to the reduction of sampling rates, storage volume, power consumption and computational complexity in signal and image processing. 
+The thesis develops three different applications of compressive sensing in multimodal images. The first application presents an effective multi-image fusion scheme based on a Discrete Cosine Transform (DCT) sampling model for compressive sensing imaging by taking advantage of the sparsity of the image in the spectral domain. In the second application, although the depth images delivered by 3D vision system based on Time-of-Flight (ToF) camera provide new perspective, they suffer from relatively low spatial resolution in comparison with color images due to the size limitation of current 2D pixel array in ToF sensor. Hence, the soft solution (i.e., post-processing) to increase the spatial resolution deserves to be advocated in comparison to high payoff of the hard solution (i.e., hardware improvement). From this point of view, the thesis attempts to explore the potential approaches within the framework of compressive sensing to enhance resolution of depth image. Regarding the third application, a rapid development of related research work with regard to processing and analysis of multi-modal image data is urgently desired due to the 2D/3D vision system which not only provides 2D view of the scene but also depth information of the same scene has become increasingly attractive. Hence, the thesis also attempts to explore potential approaches based on CS to sense change in the multi-modal images.
+The work presented in the dissertation is expected to contribute to the related field by addressing the following aspects:
+• For multi images fusion, in order to reduce the computational complexity and to save storage space, an effective fusion scheme based on compressive sensing is presented.
+• To enhance the lateral resolution of depth image, a novel method is proposed by adopting the recent emerging theory of compressive sensing. This approach benefits from the finding of the sparsity of depth image, which is different from the conventional methods and open a new way for super-resolution reconstruction of depth image.
+• In the point of view of the sparsity in image analysis, the thesis presents an innovative approach to detect change occurred in multi-modal images. The proposed approach mainly focuses on sparse feature pursuit with arbitrary shape and reconstruct via matrix decomposition. So far, to our knowledge, matrix decomposition has not yet been applied to the multimodal image data. Thus, this formulation yields a novel model for this application.</abstract>
+                    <abstract type="content" lang="ger">Die Forschungstätigkeitenin „Compressive Sensing“ (auch „Compressed Sensing“) haben während der letzten Dekade zu sehr interessanten und aufregenden Ergebnissen im Bereich der Signalverarbeitung beigetragen.Hierbei kann mathematisch belegt werden, daß unter gewissen, aber definierten Umständen, durch einige wenige, nicht-adaptive und lineare Messungen eine vollständige Wiederherstellung kompressibler Signale möglich sein kann. Die Anwendung dieser Technik ermöglicht dann, um Beispiele anzuführen,die Verringerung der Signalabtastraten,der Speichervolumina zur Sicherung von Daten sowie der Komplexität in Bild- und Signalverarbeitung.
+In dieser Arbeit werden drei verschiedene Anwendungen dieses Forschungsgebiets entwickelt und präsentiert.
+Die erste Anwendung zeigt eine Lösung für eine effektive Methode zur Fusionierung von Daten auf, die aus Multi-Sensoren-Systemen  stammen(ToF-Kameras), die auf einer diskreten Kosinus-Transformation (DCT) basiert.Hierbei wird davon profitiert, dass nach der Transformation die Spektraldarstellung der Daten in der neuen Basis „sparse“ ist.
+Die zweite Anwendung konzentriert sich auf die Verbesserung von Tiefenbild-Aufnamen der ToF-Systemen, die durch die Möglichkeit der Aquisitionvon 3D-Distanz-Daten eine neue Perspektive in die Bewertung solcher Datensätze einbringen.Diese Abstandsdatensind üblicherweise von geringererräumlicher Auflösung als im Vergleich zu herkömmlichen 2D-Darstellungen. In einem nachgelagerten Schritt kann diesem Nachteil durch „Hochrechnen“ der Bildauflöung entgegengewirkt werden („soft solution“). Alternativ ist es durch Veränderung der Hardwareausstattung möglich, einen ähnlichen Effekt zu erzielen (e.g. Austausch der Sensoren mit höherer Auflösung).Im Rahmen des „Compressive Sensing“ werden hierbei Wege und Möglichkeiten untersucht, den kostenintensiven Austausch der Hardware zu vermeiden.
+Durch die inzwischen kostengünstige und einfache Verfügbarkeit von ToF-Systemen istauch der Wunsch entstanden nach einfachen Möglichkeiten, in Bild- und Videoszenen Änderungen (e.g. Objektbewegungen) festzustellen. Eine dritte und die damit letzte Anwendung, die in dieser Dissertation untersucht wird,ist damit, wiesolche Änderungen in multi-modalen Datensätzenmithilfe des„Compressive Sensing“-Frameworksdetektiert werden können.
+Zusammenfassend kann der Beitrag dieser Arbeit damit auf die folgenden Aspekte festgelegt werden:
+•	Eine Methode, um Daten (Bilder) unterschiedlicher Sensoren einheitlich durch „Compressive Sensing“ behandeln zu können, z.B., um Speicherplatz zu sparen oder die Komplexität in Berechnung zu reduzieren.
+•	Erhöhung der Bildauflösung in Tiefenbildaufnahmen (z.B. von ToF-Systemen, wie der MultiCam des ZESS). Dazu wurde eine neue Methode entwickelt, die eine der Grundannahmen des „Compressive Sensings“ ausnutzt („sparsity“). Diese neuartigeHerangehensweise eröffnet eine Möglichkeit zur Steigerung der lateralen Auflösung („Superresolution“).
+•	Mithilfe der „sparsity“-Eigenschaft wird eine neuartige Methode präsentiert, um Bewegungen in multi-modalen Bildaufnahmen zu detektieren und verfolgen. Die Rekonstruktion dieser Eigenschaften geschieht durch die Formulierung (und numerischer Lösung) eines zugeordneten Optimierungsproblems unter zuhilfenahme der „Lagrange“-Multiplikatoren.Die betreffenden Matrizen beschreiben dabei den Hinter- bzw. Vordergrund der Bildszene. So weit wir wissen, wurde dieses Verfahren noch nicht auf multi-modale Daten angewendet.</abstract>
+                    <subject>
+                        <topic>Optische Signalverarbeitung</topic>
+                        <topic>Compressive sensing</topic>
+                        <topic>Multi-modal images</topic>
+                        <topic>Low-rank and sparse matrix decomposition</topic>
+                        <topic>Depth image</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="NRW-Zentrum für Sensorsysteme (ZESS)"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-9108</identifier>
+                    <identifier type="sys">HT018574506</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_910</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2014-08-25</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_910">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/910/1/Dissertation_Juanjuan_Han.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_910"
+            DMDID="DMD_siegen_opus_910">
+            <mets:fptr FILEID="FILE0_siegen_opus_910"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1500">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Fiskaldezentralisierung und interne Konflikte</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Fiscal decentralization and internal conflicts</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ndemewah, Sinclear Richard</displayForm>
+                        <namePart type="family">Ndemewah</namePart>
+                        <namePart type="given">Sinclear Richard</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Basierend auf theoretischen und ökonometrischen Analysen mit einem Datenpanel von 86 Ländern (zwischen den Jahren 1972 und 2014) untersucht die vorliegende Arbeit den Zusammenhang zwischen der Fiskaldezentralisierung und internen Konflikten. Die Analyse verwendet sowohl modelltheoretische als auch Querschnitts- und Panel-ökonometrische Methoden, um diese Beziehung aufzuklären. Die Ergebnisse zeigen einen signifikanten und negativen Zusammenhang zwischen dem Grad der Fiskaldezentralisierung und dem Risiko von Bürgerkriegen. Darüber hinaus zeigt die empirische Analyse auch, dass die Fiskaldezentralisierung den Effekt von natürlichen Ressourcen auf bewaffnete interne Konflikte verstärken kann. Folglich lassen die Ergebnisse darauf schließen, dass eine bedachte Gestaltung der Dezentralisierung der Einnahmen aus natürlichen Ressourcen dazu beitragen kann, die konfliktmindernde Wirkung der Dezentralisierung zu erhöhen und dadurch gewalttätige interne Konflikte zu verhindern. Solche Maßnahmen können nahhaltig zur Förderung des Friedens und der Wirtschaftsentwicklung beitragen, insbesondere in Entwicklungsländern.</abstract>
+                    <abstract type="content" lang="eng">Based on theoretical and econometric analyzes with a data panel of 86 countries (between 1972 and 2014), this thesis examines the relationship between fiscal decentralization and internal conflicts. The analysis employs theoretical models as well as cross-sectional and panel-econometric methods to shed light on this relationship. The empirical results indicate a significant negative relationship between fiscal decentralization and the incidence of civil war. Moreover, the empirical results also show that fiscal decentralization can increase the conflict impact of natural resources. Consequently, the results suggest that a well-designed decentralization of revenues from natural resources can contribute to enhance the conflict-reducing effect of decentralization, thereby preventing violent internal con-flicts. Such measures can help to build sustainable peace and the economic develop-ment, especially in developing countries.</abstract>
+                    <subject>
+                        <topic>Dezentralisierung</topic>
+                        <topic>Décentralisation, Guerre</topic>
+                        <topic>Developement</topic>
+                        <topic>Ressources</topic>
+                        <topic>Taxation</topic>
+                        <topic>Decentralization</topic>
+                        <topic>Wars</topic>
+                        <topic>Development</topic>
+                        <topic>Policies</topic>
+                        <topic>Oil</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät III - Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-15003</identifier>
+                    <identifier type="sys">HT020205070</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1500</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2019-09-11</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1500">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1500/1/Dissertation_Sinclear_Richard_Ndemewah.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1500"
+            DMDID="DMD_siegen_opus_1500">
+            <mets:fptr FILEID="FILE0_siegen_opus_1500"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

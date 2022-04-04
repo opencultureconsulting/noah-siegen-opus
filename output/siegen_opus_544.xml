@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_544">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Sparse regularization of a joint inversion of gravitational data and normal mode anomalies</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Kombinierte Inversion von Gravitationsdaten und Normal-Mode-Anomalien mittels Sparse Regularization</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Fischer, Doreen</displayForm>
+                        <namePart type="family">Fischer</namePart>
+                        <namePart type="given">Doreen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">To recover the density of the Earth we invert Newton&apos;s gravitational potential. It is a well-known fact that this problem is ill-posed. Thus, we need to develop a regularization method to solve it appropriately.
+We apply the idea of a Matching Pursuit (see Mallat and Zhang 1993) to recover a solution stepwise. At every step, the next expansion function and the corresponding weight are selected to best match the data structure.
+One big advantage of this method is that all kinds of different functions may be taken into account to improve the solution stepwise and, thus, the sparsity of the solution may be controlled directly. Moreover, this new approach generates models with a resolution that is adapted to the data density as well as the detail density of the solution.
+In the numerical part of this work, we reconstruct the density distribution of the Earth.
+For the area of South America, we perform an extensive case study to investigate the performance and behavior of the new algorithm. Furthermore, we research the mass transport in the area of the Amazon where the proposed method shows great potential for further ecological studies, i.e. to reconstruct the mass loss of Greenland or Antarctica.
+However, from gravitational data alone it is only possible to recover the harmonic part of the density. To get information about the anharmonic part as well, we need to be able to include other data types, e.g. seismic data in the form of normal mode anomalies. In this work, we will perform such an inversion and present a new model of the density distribution of the whole Earth.</abstract>
+                    <abstract type="content" lang="ger">Zur Bestimmung der Dichte der Erde invertieren wir Newtons Gravitationspotential. Da dieses Problem bekanntlich schlecht gestellt ist, entwickeln wir ein geeignetes Regularisierungsverfahren um es zu lösen.
+Wir wenden die Idee eines Matching Pursuits (siehe Mallat und Zhang 1993) an. Das heißt, wir bestimmen, der Datenstruktur bestmöglich entsprechend, die Entwicklungsfunktion und den zugehörigen Koeffizienten schrittweise. Vorteilhaft ist, dass die unterschiedlichsten Funktionen zur Entwicklung der Lösung beitragen können. Des weiteren erhalten wir Modelle, deren Auflösung an die Datendichte und die Detailstruktur der exakten Lösung angepasst ist. 
+Wir wenden die Methode auf die Rekonstruktion der Dichteverteilung der Erde (mit Erdinnerem) an.
+Für das Gebiet um Südamerika führen wir eine Fallstudie durch, in der wir die Güte und das Verhalten der Methode ausführlich studieren. Des weiteren untersuchen wir den Massentransport im Amazonasgebiet. Die Ergebnisse lassen erwarten, dass die Methode auch für andere ökologisch relevante Problemstellungen, wie die Untersuchung des Massenverlustes in Grönland und der Antarktis, geeignet ist. 
+Allerdings kann man aus Gravitationsdaten nur den harmonischen Anteil der Dichte rekonstruieren. Das Einbeziehen von seismischen Daten, wie Normal Mode Anomalies, erlaubt es, auch Informationen über den anharmonischen Anteil zu erhalten. In der vorliegenden Arbeit wird das Ergebnis einer solchen Inversion als neues Modell für die gesamte Erde vorgestellt.</abstract>
+                    <subject>
+                        <topic>Inverses Problem</topic>
+                        <topic>Regularisierung</topic>
+                        <topic>inverse problem</topic>
+                        <topic>regularization</topic>
+                        <topic>gravimetry</topic>
+                        <topic>gravity anomaly</topic>
+                        <topic>geodesy</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5448</identifier>
+                    <identifier type="sys">HT017123752</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_544</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2011-07-20</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_544">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/544/1/fischer_doreen.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_544"
+            DMDID="DMD_siegen_opus_544">
+            <mets:fptr FILEID="FILE0_siegen_opus_544"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

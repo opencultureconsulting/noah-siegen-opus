@@ -1,0 +1,57 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1472">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Wie gut das/daß alles wächst! - Zur Konstruktion sprachlicher Struktur im Schrifterwerb</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Feilke, Helmuth</displayForm>
+                        <namePart type="family">Feilke</namePart>
+                        <namePart type="given">Helmuth</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">1998</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Am Beispiel des Erwerbs der Heterographie das/daß untersucht der Beitrag folgende Frage: Wie entsteht die Kompetenz, in der geschriebenen Sprache genau die ausdruckseitigen Differenzierungen vorzunehmen, die in der Herausbildung der schriftlichen Sprache im Deutschen grammatikalisiert worden und für die Sprachgemeinschaft zu einer Norm der Schriftsprache geworden sind? Theoretisch verbindet die Untersuchung Gesichtspunkte der neueren Schrifttheorie mit einem strukturgenetisch-konstruktivistischen Konzept des Spracherwerbs und Denkansätzen der jüngeren Grammatikalisierungsforschung. Der Erwerb kann hinsichtlich der grammatischen Fähigkeiten der Lerner analysiert werden als eine über verschiedene Stufen verlaufende, weitgehend selbstgesteuerte Grammatikalisierung des sprachlichen Ausdrucks im Schreiben. Lerner konstruieren schreibend ihre schriftgrammatische Kompetenz. Die Entwicklung ist strukturell gekennzeichnet durch die kontinuierliche Erzeugung und Rekodierung grammatischer Hybridformen, die eine Sequenz konzeptueller Verschiebungen indizieren. Sie sind die Transmissionsriemen des Erwerbs. Die in der Untersuchung zutagetretenden Formqualitäten werden durch das Grammatikalisierungskonzept entwicklungstheoretisch interpretierbar. Die Motive für die fortschreitende grammatische Differenzierung der Artikulation qua Schrift liegen in den sozial objektivierten Formen des Schriftsystems, die aber erst nach Maßgabe der Umfeldbedingungen des Schreibens selbst für den Erwerb relevant und angeeignet werden. Die Diskussion der Ergebnisse begründet Perspektiven einer kulturwissenschaftlich explizierten Konzeption von schriftlicher Sprache und Schriftspracherwerb.</abstract>
+                    <subject>
+                        <topic>Deutsch</topic>
+                    </subject>
+                    <classification authority="ddc">430</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-14720</identifier>
+                    <identifier type="sys">HT020276580</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1472</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1472">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1472/2/SPASS_Heft_01_1998.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1472"
+            DMDID="DMD_siegen_opus_1472">
+            <mets:fptr FILEID="FILE0_siegen_opus_1472"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

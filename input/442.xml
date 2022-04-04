@@ -1,0 +1,94 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>442</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Diagnose von Leistungstransformatoren durch Rückkehrspannungs- und Teilentladungsmessungen - Neue Methoden zur Auswertung der Messdaten</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="eng">Diagnosis of power transformers using return voltage and partial discharge measurements - New methods for measurement data evaluation</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Johannes</pc:foreName>
+            <pc:surName>Menzel</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Elektrisches Betriebsmittel</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Betriebsmitteldiagnostik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Rückkehrspannung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Isolierflüssigkeit</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Flüssige Isolierstoffe</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Dielektrische Diagnostik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Transformer Diagnostics</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Insulating Liquid</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Return Voltage</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Partial Discharge</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Dielectrics</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Zur Diagnose des Isoliersystems von Leistungstransformatoren kommt eine Vielzahl unterschiedlicher elektrischer und nicht-elektrischer Verfahren zum Einsatz. Jedes dieser Verfahren kann Aufschluss über eine oder mehrere bestimmte Komponenten des komplexen Systems Transformatorisolierung geben. Ein einzelnes Verfahren, das eine Diagnose des Gesamtobjekts zulässt, ist aufgrund der Komplexität des Systems nicht verfügbar. Für eine Beurteilung des Gesamtsystems ist grundsätzlich eine Analyse mit mehreren unterschiedlichen Verfahren erforderlich.&#13;
+&#13;
+Im Rahmen der vorliegenden Arbeit wurden speziell zwei Verfahren untersucht: Rückkehrspannungsmessungen und Teilentladungsmessungen in Transformatoröl. Die Rückkehrspannungsmessung als dielektrisches Diagnoseverfahren, bisher hauptsächlich aus der Kabeldiagnose bekannt, liefert ein integrales Abbild der dielektrischen Eigenschaften der gesamten Transformatorisolierung, während die Teilentladungsdiagnose des Isolieröls zunächst nur Rückschlüsse auf die Ölqualität zulässt, die aber in großem Maße den Zustand des Gesamtsystems widerspiegelt.&#13;
+&#13;
+Beide Verfahren haben gemeinsam, dass die eigentliche Messtechnik mit vergleichsweise einfachen Mitteln aufzubauen ist. Speziell die Rückkehrspannungsmessung ist relativ störsicher, während Teilentladungsmessungen oft unter Laborbedingungen durchgeführt werden. In den letzten Jahren hat allerdings auch die softwaregestützte Störunterdrückung erheblich an Bedeutung gewonnen, wobei durch spezielle Algorithmen Störsignale von Nutzsignalen getrennt werden können.&#13;
+&#13;
+Gegenstand der vorliegenden Arbeit ist in erster Linie die Vorstellung neuer Möglichkeiten zur Auswertung der genannten Verfahren unter Ausnutzung der dargelegten physikalischen Zusammenhänge. Dadurch ist es möglich, aus mit den herkömmlichen Messverfahren gewonnenen Daten zusätzliche Informationen zu erhalten.&#13;
+&#13;
+Speziell im Fall der Rückkehrspannungsmessung, die unter der Bezeichnung "Recovery Voltage Method" bzw. "Polarisationsspektrum" seit längerem von vielen Autoren als für die Transformatordiagnose ungeeignet dargestellt wird, ist eine eingehendere Betrachtung der physikalischen Hintergründe des Verfahrens sinnvoll, da die in der Literatur angezweifelten Messergebnisse in erster Linie auf eine Fehlinterpretation der Messdaten anhand einer ungeeigneten Modellbildung zurückzuführen sind.&#13;
+&#13;
+Teilentladungsmessungen in Isolieröl mit geeigneten inhomogenen Elektrodenanordnungen sollen Rückschlüsse auf die Ölqualität, speziell zumindest qualitativ auf den Gehalt an kurzkettigen Abbauprodukten, ermöglichen. Das Fernziel der Untersuchungen ist die Entwicklung einer Messanordnung zum Einbau in Transformatoren, mit der eine Online-Ölüberwachung durchgeführt werden kann. Zu diesem Zweck werden Parameter gesucht, die eine automatische Auswertung gestatten.&#13;
+&#13;
+Die Arbeit präsentiert zunächst die Theorie und Modellvorstellungen, die den Verfahren zugrunde liegen. Die theoretischen Überlegungen werden anschließend anhand von realen Messergebnissen näher erörtert. Des weiteren werden Vergleiche mit Simulationen und Berechnungen vorgenommen.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">With the increase of required lifetime of power transformers, diagnostics become more and more important to monitor the condition of the insulation system. There are numerous methods existing for the analysis of different components or parts of the insulation and their electrical and chemical properties. The results of all these methods together should give a complete overview of the condition of the sample.&#13;
+&#13;
+This thesis presents new approaches in measurement data evaluation for two diagnostic methods, the Return Voltage Measurement (RVM) - also known as Recovery Voltage Measurement - and the Partial Discharge (PD) Measurement in the insulating oil. The Return Voltage Measurement is an integral method that is influenced by both the solid and the liquid component of the insulation. In contrast to this, the PD Measurement in transformer oil basically reveals information about the condition of the liquid component.&#13;
+&#13;
+Especially the Return Voltage Measurement is often criticized as not being suitable for transformer diagnostics due to a lack of useful evaluation methods. Most methods that have been known for many years - i.e. especially the Polarisation Spectrum as the most well-known one - do not take the physically relevant processes inside a multi-layer insulation into account and thus give insufficient or even wrong interpretation of the data.&#13;
+&#13;
+The basic mechanism in oil-cellulose insulation systems is the boundary polarization which is the only polarization mechanism - maybe only except charge carrier trapping or space charge processes - that can produce time constants in the range of up to several hundreds of seconds. For the description of boundary polarization processes in a two-component system, the Maxwell equivalent circuit can be used. For this equivalent circuit it is possible to calculate all relevant parameters analytically, even with an additional resistance - e.g. the finite input resistance of the measuring equipment - and capacitance in parallel.&#13;
+&#13;
+The goal of this work is to show that an evaluation of RVM data according to the Maxwell equivalent circuit may reveal additional information about the condition of the insulation - especially that of the cellulose component - that cannot be gained by interpretation based on the commonly used formal equivalent circuit.&#13;
+&#13;
+For the analysis of the condition of the liquid component of the insulation - i.e. in this case the transformer oil - different methods exist that in many cases are relatively intricate and expensive. The simpler methods like e.g. the electric breakdown strength testing often do not reveal much information about the actual overall condition of the oil. &#13;
+&#13;
+The present work compares the partial discharge behavior of transformer oils in different conditions and with different histories of ageing in order to find correlations to the presence of certain degradation products that do not necessarily directly affect the electrical strength of the oil - and that consequently cannot be detected by simple dielectric strength measurements, e.g. a breakdown test - but that may reveal information about the overall condition of the insulation system. &#13;
+&#13;
+Usually those substances can only be detected e.g. by gas chromatography or similar procedures. The basic idea behind the experiments was to find at least a qualitative influence of these substances on partial discharge parameters. In some cases the results could be compared to the results of standard analyses like the Dissolved Gas Analysis. The influence of the concentration of water in the oil was evaluated as well.&#13;
+&#13;
+The partial discharge measurements were performed using a low frequency wide-band band pass filter system as detector. For the evaluation of the partial discharge data, recently developed methods were applied that mainly analyze the shape of the signals generated by the partial discharge detector (Pulse Shape Analysis). The shape of these impulse responses is influenced by short-time sequences of partial discharge events in the range of a few microseconds.&#13;
+&#13;
+The final goal of the experiments was to find methods that allow a quick (maybe even on-line) low-cost analysis that allows a relatively prompt reaction to critical states of the insulation system. The low cost aspect is particularly interesting for smaller and/or less important equipment, where other on-line monitoring methods would be too costly and consequently are usually not applied.&#13;
+&#13;
+The intention is not to replace the standard methods like e.g. the DGA, but rather as a complementary pre-analysis that - in case of the detection of a critical condition - may lead to a warning and subsequently to a further analysis using standard methods.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2009-11-26</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2009</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-4423</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Werkstoffe der Elektrotechnik und Diagnostik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="menzel.pdf" ddb:fileSize="2969385"/>
+   <ddb:checksum ddb:type="MD5">b8a5e483f36719c61d096638628c434a</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/442/1/menzel.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/442</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

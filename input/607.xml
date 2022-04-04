@@ -1,0 +1,53 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>607</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Integration von 3D-"Time of Flight"-Kameras in Applikationen zur sicheren Steuerung autonomer Roboter</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Jens</pc:foreName>
+            <pc:surName>Bernshausen</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Lokalisierung &lt;Robotik&gt;</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">mobile Robotik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Handhabungsrobotik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Optische Sensoren sind heutzutage aus den Bereichen mobile Robotik und Industrierobotik nicht mehr wegzudenken. Laserscanner und Stereovisionsysteme dienen hauptsächlich zur Erfassung des Roboterumfelds. Hierbei werden diese Sensoren größtenteils in Kombination verwendet, um die Schwächen der einzelnen Systeme zu kompensieren. Dies hat einen nicht unerheblichen Aufwand zur Sensorfusion und zur Integration in die Robotersysteme zur Folge. Die PMD-Technik, welche in den letzten Jahren eine enorme Entwicklung bezüglich der erreichbaren Messgenauigkeit vollzogen hat, verspricht in diesem Umfeld eine hervorragende, kostengünstige und leicht zu integrierende Alternative zu sein.&#13;
+Die Arbeit beschäftigt sich mit der Untersuchung der Leistungsfähigkeit der PMD-Kameratechnik in dem Gebiet der Kollisionsvermeidung durch Überwachung des Roboterumfeldes bei Handhabungsrobotern  und für mobile Robotersysteme. Diese wird anhand von zwei verschiedenen Beispielapplikationen untersucht. Im Bereich der mobilen Robotik wird ein fahrerloses Transportsystem aufgebaut, welches allein auf Grundlage der 3D PMD-Bilder die autonome Navigation in einer nur teilweise bekannten Umgebung beherrscht. Hierzu wurden PMD basierte Algorithmen zur Selbstlokalisierung, Hinderniserkennung sowie reaktiven Bahnplanung entworfen. Die zweite Applikation befasst sich mit der Überwachung von Roboterarbeitsräumen im Gebiet der Handhabungsrobotik. Spezielle auf die PMD-Kamera angepasste Algorithmen gewährleisten das Erkennen von Fremdobjekten und Personen in der Roboterzelle. Dies ermöglicht dem Roboter  entsprechend zu reagieren und alternative kollisionsfreie Trajektorien zu finden. Auf die Installation von Sicherheitszäunen, die  heutzutage im industriellen Umfeld noch Standard sind, kann aufgrund dessen verzichtet werden, so dass zum Beispiel die Option zu einer Mensch-Roboter-Kooperation geschaffen wird. Zudem bietet die PMD basierte Bahnplanung von Robotertrajektorien den Vorteil, dass zeitintensive Teach-In-Prozesse zum Einlernen von Trajektorien entfallen und Roboterzellen schneller in Betrieb genommen werden können.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2011-01-13</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2011</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-6075</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV - Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="bernshausen_jens.pdf" ddb:fileSize="4437432"/>
+   <ddb:checksum ddb:type="MD5">7635807699824f813ac9881fa69c5741</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/607/1/bernshausen_jens.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/607</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

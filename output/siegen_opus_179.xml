@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_179">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Experimental investigation of photonic mixer device and development of TOF 3D ranging Ssystems based on PMD technology</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Luan, Xuming</displayForm>
+                        <namePart type="family">Luan</namePart>
+                        <namePart type="given">Xuming</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2001</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The 3D-ranging systems based on time-of-flight (TOF) principle are nowadays
+intensively investigated. As the key component of a 3D non-scanning TOF ranging
+system, the novel P hotonic M ixer D evice (PMD) realized based on the standard CMOS technology, has won intensive, widespread interest from various sides since its appearance in 1997. The unique and astonishing features of PMD, and its easy integration into a sensing array and the flexible arrangement make the realization of extremely fast, flexible, robust and low cost smart 3D solid-state ranging cameras possible. 
+In this thesis, the experimental investigation of the PMD device was carried out, which offers an experimental basis for the further optimization in the PMD chip design. Based on the actually fabricated single PMD chips, the first generation of smart 3D PMD ranging cameras was developed. Because of the its outstanding electro-optical mixing features, the PMD ranging system overcomes the typical drawbacks in the conventional TOF-measurement techniques and considerably simplifies the system design without loss of the measurement accuracy. With the continuous development of the modern semiconductor technology and further improvement of PMD performance, the PMD will find more and more applications in different areas of the industry in the future.</abstract>
+                    <subject>
+                        <topic>PMD</topic>
+                        <topic>3D-camera</topic>
+                        <topic>time of flight (TOF)</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1791</identifier>
+                    <identifier type="sys">HT013289721</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_179</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2001-11-21</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_179">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/179/1/luan.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_179"
+            DMDID="DMD_siegen_opus_179">
+            <mets:fptr FILEID="FILE0_siegen_opus_179"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

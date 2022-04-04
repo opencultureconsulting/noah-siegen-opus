@@ -1,0 +1,91 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>237</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Autonome Optimierung des Verhaltens von Fahrzeugsteuerungen auf der Basis von Verstärkungslernen</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Michael</pc:foreName>
+            <pc:surName>Krödel</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">autonome Verhaltensoptimierung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Fahrassistenzsystem</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">reinforcement learning</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Fahrsysteme oder Fahrerassistenzsysteme sind bereits seit einigen Jahren&#13;
+Bestandteil von Forschungsprojekten. Dabei umfassen diese meist zwei&#13;
+wesentliche Bestandteile: die Erfassung der Umwelt sowie die Generierung von&#13;
+Steuerungsbefehlen. Die Lernfähigkeit solcher Projekte gewinnt zunehmend an&#13;
+Bedeutung und ist der Hauptfokus der vorliegenden Forschungsarbeit - wobei&#13;
+Lernfähigkeit als Optimierung von Fahrverhalten verstanden wird, d.h. die&#13;
+Auswahl vom optimalen Verhalten für eine jeweilige Situation.&#13;
+&#13;
+Die vorliegende Arbeit setzt für die Lernfähigkeit erstmals ein System basierend&#13;
+auf Verstärkungslernen (Reinforcement Learning) ein – dies im Gegensatz zu&#13;
+bisherigen Arbeiten im ähnlichen Umfeld basierend auf Modellierung oder&#13;
+Neuronalen Netzen. Im Kern der Arbeit werden Situationen klassifiziert und für&#13;
+jede Situation eine mögliche Anzahl von Verhalten ermittelt. Durch&#13;
+Verstärkungslernen werden diese Verhalten bewertet und die entsprechenden&#13;
+Situationsbewertungen konvergieren über die Zeit. Fazit: es wird autonom&#13;
+ermittelt, welche Verhalten in einer Situation angemessen sind und welche nicht.&#13;
+&#13;
+Neben einer mathematischen Abhandlung über das Konvergenzverhalten von&#13;
+Verstärkungslernen-Systemen wird mit unterschiedlichen Testreihen die&#13;
+Funktionsweise des o.g. Ansatzes im Rahmen einer konkreten Implementierung&#13;
+nachgewiesen und die Konvergenz der Situationsbewertungen untersucht.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Driver and Driver Assistance Systems move more and more into the focus of&#13;
+research projects. Corresponding research areas consist of two main parts: the&#13;
+understanding of the environment as well as the generation of steering&#13;
+commands. Learning capabilities gain more and more importance and is the&#13;
+main aspect of this research. In detail: the term “learning capability” represents&#13;
+the optimization of driving behaviour, i.e. the optimized situation-specific&#13;
+selection of actions.&#13;
+&#13;
+The current research implements first-time a system based on Reinforcement&#13;
+Learning (RL) – in contrast to many other research work using modeling or&#13;
+neural nets. In the light of Reinforcement Learning, situations are being classified&#13;
+and possible actions are being identified for each situation. Rewards following&#13;
+such actions are used for cumulated ratings which in turn converge over time. In&#13;
+the end, the cumulated ratings indicate as to how much an action was&#13;
+appropriate for the determined situation.&#13;
+&#13;
+After a mathematical analysis of Reinforcement Learning methods in general,&#13;
+test-series are being analyzed within the framework of a real implementation and&#13;
+convergence behaviour as well as driving capabilities are being achieved.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2006-05-29</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2006</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-2371</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 12, Elektrotechnik und Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="kroedel.pdf" ddb:fileSize="2469143"/>
+   <ddb:checksum ddb:type="MD5">b4cf0e43201e5980cd03197963704507</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/237/1/kroedel.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/237</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_870">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>On the asymptotic distribution of the Dirichlet eigenvalues of fractal chains</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Über die asymptotische Verteilung der Dirichlet-Eigenwerte fraktaler Ketten</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Etienne, Roland Jean</displayForm>
+                        <namePart type="family">Etienne</namePart>
+                        <namePart type="given">Roland Jean</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">In this thesis, we offer an investigation of the vibrational properties of discrete one-dimensional systems with an underlying fractal structure. Thus, the primary objects of scrutiny in this work are two types of fractal objects: the first class being quite simple structures with a fractal boundary, the second class having an internal fractal structure but very simple boundaries. By introducing a matrix representation of the related Laplacians, we prove the efficiency of using techniques originally taken from random matrix theory in the area of fractal geometry. Thereby, a unifying framework for the study of these systems has been developed, capable of being extended to higher dimensions.</abstract>
+                    <abstract type="content" lang="ger">In dieser Arbeit wird eine Untersuchung der Schwingungseigenschaften von diskreten eindimensionalen Systemen mit einer zugrunde liegenden fraktalen Struktur präsentiert. Hauptsächlich werden in dieser Arbeit zwei Arten von fraktalen Objekten untersucht: die erste Kategorie zeigt sich als recht einfache Struktur mit einer fraktalen Begrenzung, die Zweite mit einer inneren fraktalen Struktur aber einfacher Begrenzung. Durch die Einführung einer Matrixdarstellung der zugehörigen Laplace-Operatoren zeigen wir die Effizienz der Verwendung von aus der Zufallsmatrizentheorie übernommenen Techniken im Bereich der fraktalen Geometrie. Auf diese Weise wird ein vereinheitlichender Rahmen für die Untersuchung dieser Systeme geschaffen, welcher auch auf höherdimensionale  Anwendungen erweitert werden kann.</abstract>
+                    <subject>
+                        <topic>Eigenwert</topic>
+                        <topic>Eigenvalues</topic>
+                        <topic>Laplace-Operator</topic>
+                        <topic>Fractals</topic>
+                        <topic>Asymptotics</topic>
+                        <topic>Matrices</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-8700</identifier>
+                    <identifier type="sys">HT018544970</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_870</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2015-01-16</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_870">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/870/1/Dissertation_Roland_Etienne.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_870"
+            DMDID="DMD_siegen_opus_870">
+            <mets:fptr FILEID="FILE0_siegen_opus_870"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

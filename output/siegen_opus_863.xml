@@ -1,0 +1,85 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_863">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Hochstereoselektive Aldolreaktionen mit Metallbis- und Metallpolyenolaten zur Darstellung von Tetrahydropyran-2,4-diolen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Koy, Thomas</displayForm>
+                        <namePart type="family">Koy</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2002</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Es wurden erfolgreich die Metallenolate der Gruppe 13 in der Dominoaldolreaktion
+zum Aufbau von Tetrahydropyran-2,4-diolen eingesetzt. Dabei wurde eine Reaktionskaskade
+durchlaufen, bei der 5 stereogene Zentren neu gebildet wurden. Durch die optimale
+Reaktionsführung wurde lediglich ein einziges Stereoisomer aus 16 möglichen synthetisiert.
+Auf diesem Wege konnten Alkyl-, Aryl- und Alkoxy-substituierte Tetrahydropyran-2,4-diole
+hergestellt werden. Es wurde gezeigt, daß innerhalb der Gruppe 13 die Indiumtrisenolate am
+erfolgreichsten in der Dominoaldolreaktion eingesetzt werden konnten, was auf die
+physikalischen Eigenschaften wie Ionenradius, Elektronegativität und Ladungsdichte des
+Indium(III)ions zurückzuführen ist. Aufgrund der erhaltenen Ergebnisse aus der Metall
+gesteuerten Dominoaldolreaktion konnte ein mechanistisches Modell der Produktbildung
+erarbeitet werden. Die relative Konfiguration der erhaltenen Produkte konnte in einigen
+Fällen mittels Röntgenstruktur einwandfrei bestimmt werden, während sonst die relative
+Konfiguration der Produkte durch NMR-spektroskopische Methoden geklärt wurden.
+Außerdem wurden erste Vorversuche zur Dominoaldolreaktion über zwei getrennte
+Metallzentren durchgeführt.</abstract>
+                    <abstract type="content" lang="eng">Enolates of tetrahydropyran-2,4-diols with metals from group XIII were successfully
+used to catalyse the domino aldol reaction. Further a series of reactions was performed to
+obtain products containing 5 stereogenic centers. Optimising the reaction conditions enabled
+isolation of one stereoisomer out of 16 possible isomers. Alkyl-, aryl- and alkoxy substituted
+tetrahydropyran-2,4-diols were thus synthesised by the above mentioned strategy. Among the
+group XIII metal enolates used indium tris enolate was found to be most effective. This is due
+to various physical characteristics such as ion radius, electronegativity and charge density of
+the indium(III)ions. A mechanistic model for the metal controlled domino aldol reaction was
+deduced from the results obtained. The relative configuration of all the products was assigned
+by NMR and in few cases by x-ray crystallography. Additionally first preliminary tests for
+domino aldol reaction over two localseparated metal centers were performed.</abstract>
+                    <subject>
+                        <topic>Metallenolat</topic>
+                        <topic>Dominoaldolreaktion</topic>
+                        <topic>Indiumtrisenolat</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 8, Chemie - Biologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-138</identifier>
+                    <identifier type="sys">HT013497969</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_863</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2002-10-10</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_863">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/863/1/koy.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_863"
+            DMDID="DMD_siegen_opus_863">
+            <mets:fptr FILEID="FILE0_siegen_opus_863"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

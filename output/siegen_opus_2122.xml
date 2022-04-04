@@ -1,0 +1,82 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_2122">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Mechanical and pathophysiological in vivo characterization of the individual aortic wall based on 4D ultrasound imaging</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Mechanische und pathophysiologische in vivo Charakterisierung der individuellen Aortenwand auf Basis von 4D-Ultraschall-Bildgebung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wittek, Andreas</displayForm>
+                        <namePart type="family">Wittek</namePart>
+                        <namePart type="given">Andreas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Fritzen, Claus-Peter</displayForm>
+                        <namePart type="family">Fritzen</namePart>
+                        <namePart type="given">Claus-Peter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Ziel dieser Arbeit war die Entwicklung neuer nicht-invasiver Methoden zur Charakterisierung des individuellen elastischen Verhaltens der menschlichen Aortenwand. Aufgrund der physiolo-gischen Funktion der elastischen Eigenschaften im Herz-Kreislauf-System und deren Änderung bei degenerativen Prozessen und Erkrankungen hat die Kenntnis des individuellen elastischen Verhaltens zum einen unmittelbar diagnostische Relevanz. Zum anderen sind die individuellen Materialeigenschaften eine wichtige, bislang unbekannte, Bestimmungsgröße Patienten-spezifischer Finite Elemente Modelle, die zur Berechnung der maximalen Wandspannung und zur Abschätzung des Rupturrisikos von Bauchaortenaneurysmen entwickelt wurden.
+Unter Verwendung eines modifizierten kommerziellen Echtzeit-3D-Echokardiographiegeräts, dessen Software über einen Speckle-Tracking-Algorithmus verfügt (4D-Ultraschall), wurde in Zusammenarbeit mit industriellen und klinischen Partnern eine neuartige Vollfeldmessung der Verformung der Aortenwand etabliert. Die Messung liefert die räumliche Bewegungsfunktion diskreter materieller Punkte im Sinne der Kontinuumsmechanik über den Herzzyklus. Diese Da-ten ermöglichen die Bestimmung aller Komponenten des ebenen Dehnungszustandes für Ge-fäßwandsegmente mit einer Größe zwischen ca. 1 mm^2 und 20 mm^2. Die etablierte Messung der Wandbewegung wurde in einem in vitro-Experiment hinsichtlich ihrer Messunsicherheit und ihrer Reproduzierbarkeit validiert.
+Zwei Methoden zur Analyse der Wandbewegung wurden entwickelt und in klinischen Stu-dien exemplarisch auf Patientengruppen angewendet. Ein Vergleich der dreidimensionalen Ver-formung der herznahen aufsteigenden Aorta und der Bauchaorta führte zu einem verbesserten Verständnis der physiologischen Windkessel-Funktion der herznahen Aorta. Durch statistische Analyse der aus den Vollfeldmessungen erhaltenen Verteilungen lokaler Dehnungen wurden neue Maße für Größe und Heterogenität der elastischen Verformung der Wand gewonnen, sog. Dehnungs-Verteilungs- oder Wandbewegungs-Kennwerte. In einer vergleichenden klinischen Studie konnte gezeigt werden, dass diese Kennwerte zuverlässige Kriterien für die Klassifikation des pathologischen Zustands von Aortenwänden sind und sich daher als zusätzliche Biomarker für Erkrankungen der Aortenwand eignen.
+Zur Indentifikation der individuellen elastischen Eigenschaften der Aortenwand wurden im Rahmen dieser Arbeit zwei Ansätze entwickelt. Zum einen wurde ein lokaler Distensibilitätsko-effizient eingeführt. Er kann ohne Modellannahmen auf Basis der 4D Ultraschalldaten und nichtinvasiver Blutdruckmessungen bestimmt werden und ist proportional zur Inversen des Se-kantenmoduls des lokalen nichtlinear elastischen Materialverhaltens im Bereich physiologischer Belastung durch den Blutdruck. Zum anderen wurde ein iteratives Finite-Element-Model-Updating-Verfahren zur inversen Identifikation des individuellen orthotropen und hyperelasti-schen konstitutiven Verhaltens entwickelt, das auch auf Aorten und Aneurysmen mit geomet-risch unregelmäßigen Konfigurationen angewendet werden kann. In einem numerischen Verifi-kationsexperiment konnte gezeigt werden, dass die Identifikation des Materialverhaltens auf Basis der mit 4D Ultraschall gemessenen Dehnungsfelder reproduzierbar möglich ist, obwohl nur zwei Lastfälle nichtinvasiv messbar sind. Die Auswirkung der in der Validierungsstudie be-stimmten Messunsicherheit auf die Parameteridentifikation wurde untersucht. Schließlich wur-den exemplarisch die elastischen Eigenschaften von drei Patienten identifiziert, die sich nach Alter und Herz-Kreislauferkrankungen charakteristisch unterschieden.</abstract>
+                    <abstract type="content" lang="eng">This work focuses on the development of new non-invasive methods for the in vivo characteri-zation of the individual elastic behavior of the human aortic wall. Due to the physiological func-tion of the elastic properties within the cardiovascular system and its change with degenerative processes, this knowledge is of direct diagnostic relevance. In addition, the individual material properties are an important, prior to the work presented here unknown, determinant of patient-specific finite element models, which have been developed to calculate the maximum wall stress and to estimate the rupture risk of abdominal aortic aneurysms.
+Using a modified device that provides time resolved 3D echocardiography with speckle tracking (4D ultrasound), a non-invasive in vivo full field measurement of human aortic wall motion was established in cooperation with industrial and clinical partners. It provided highly resolved mo-tion functions of discrete material points and derived in-plane strain tensors for wall surface segments with a sizes between 1 and about 20 mm^2. This new measurement of displacement and strain was validated in an in vitro experiment with respect to its agreement with optical full field measurements and to its reproducibility under identical conditions (test-retest reliability).
+Two different methods for the analysis of aortic wall motion were developed and applied to different patient cohorts in clinical studies. A comparison of the cyclic three-dimensional de-formation of the proximal ascending and the abdominal aorta in terms of length and diameter change and twist provided deepened insight in the physiological “Windkessel” function of the ascending aorta. Statistical analysis of the distributions of local in-plane strains was used to ob-tain measures for size and heterogeneity of elastic aortic wall deformation (‘strain distribution indices’). A comparative clinical study in young volunteers and two groups of aged cardiovascular patients without and with abdominal aortic aneurysm showed that aortic walls reliably can be classified according to their cardiovascular health state by use of the obtained strain distribution indices and that these, therefore, are suited as new biomarker for cardiovascular health.
+Two approaches were developed to characterize and model the individual elastic properties of the aortic wall. Firstly, a local distensibility coefficient has been introduced to linearly ap-proximate and identify the heterogeneous local functional elastic properties in the physiological range in vivo. Secondly, an iterative Finite Element Model Updating approach to the inverse identification of the individual orthotropic and hyperelastic constitutive behavior of geometrical-ly irregular aneurysmal walls was developed. It could be shown that constitutive parameter identification based on heterogeneous full field strain data is feasible even though only two load cases are accessible non-invasively in vivo. The approach was verified numerically and the effect of the measurement uncertainty on the constitutive parameter identification was examined. Finally, the approach was applied exemplarily to in vivo data of three patients of different age and cardiovascular health state.</abstract>
+                    <subject>
+                        <topic>Bauchaorta</topic>
+                        <topic>Abdominal aortic aneurysm</topic>
+                        <topic>Constitutive behavior</topic>
+                        <topic>In vivo parameter identification</topic>
+                        <topic>4D ultrasound</topic>
+                        <topic>Local elastic properties</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Mechanik und Regelungstechnik - Mechatronik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-21221</identifier>
+                    <identifier type="sys">HT021247785</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_2122</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2020-12-11</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_2122">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/2122/4/Dissertation_Andreas_Wittek.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_2122"
+            DMDID="DMD_siegen_opus_2122">
+            <mets:fptr FILEID="FILE0_siegen_opus_2122"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,61 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>652</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Mechanical integrators for the optimal control in multibody dynamics</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Mechanische Integratoren für die optimale Steuerung in der Mehrkörperdynamik</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Ralf</pc:foreName>
+            <pc:surName>Siebert</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Mehrkörpersystem</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Mechanische Integratoren</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Multibody System</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Optimal Control</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Collocation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Differential-Algebraic Equations</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Mechanical Integrators</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The present thesis deals with inverse multibody dynamics problems. In particular, optimal control problems will be treated, which are governed by differential-algebraic equations. The main goal therein is the minimization of the control effort, which is necessary for moving a multibody system from one configuration to another. A basic task therefore is the formulation of the underlying equations of motion. &#13;
+Main focus will be on the formulation of the equations of motion with natural coordinates, which facilitates the design of structure-preserving time-stepping schemes. It is well known that schemes preserving basic properties of the mechanical system algorithmically exhibit superior stability properties in comparison to standard integrators. The application of these schemes within optimal control problems requires a consistent incorporation of the control torques. A convincing way for the incorporation of the control torques will be proposed in this contribution. In addition to the schemes based on the rotationless formulation, also an energy-momentum conserving time-stepping scheme based on quaternions will be presented. Although the quaternion-based scheme turns out to be competitive in the forward dynamics of rigid bodies, the extension to multibody problems is not as straightforward and easy to handle as with the rotationless formulation in terms of natural coordinates. Therefore quaternions will not be applied within optimal control problems in this thesis. Regarding optimal control of multibody systems, new energy-momentum consistent direct transcription methods in terms of natural coordinates will be presented. In a first step, the equations of motion obtained by a reduction process via the discrete null space method will be applied. The arising results will be compared with those achieved by a formulation of the equations of motion with the widely used minimal coordinates. In a second step, the original equations of motion in form of differential-algebraic equations will serve as basis for the formulation of the optimal control problem. In addition to the direct transcription methods mentioned before, a novel optimal control method based on indirect transcription will be presented. The newly proposed method conserves the Hamiltonian corresponding to the optimal control problem. It is worth mentioning that this method is directly related to previously developed energy consistent schemes in forward dynamics.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die vorliegende Arbeit behandelt Problemstellungen der inversen Mehrkörperdynamik. Insbesondere werden Optimalsteuerungsprobleme untersucht, die mittels differential-algebraischer Gleichungen beschrieben werden. Das Hauptziel besteht in der Minimierung des Steuerungsaufwands, der benötigt wird, um ein Mehrkörpersystem von einer Konfiguration in eine andere zu bewegen. Eine wichtige Aufgabe dafür ist die Formulierung der zu Grunde liegenden Bewegungsgleichungen. Hauptaugenmerk wird dabei auf die Formulierung der Bewegungsgleichungen mit natürlichen Koordinaten gelegt, die die Konstruktion von Struktur erhaltenden Zeitintegratoren ermöglichen. &#13;
+Es ist bekannt, dass sich Verfahren, die grundlegende mechanische Eigenschaften algorithmisch erhalten, durch überlegene numerische Stabilitätseigenschaften im Vergleich zu Standardintegratoren auszeichnen. Die Anwendung von diesen Verfahren innerhalb von Optimalsteuerungsproblemen erfordert einen konsistenten Einbau von Steuerungsmomenten. Ein überzeugender Weg für den Einbau von Steuerungsmomenten wird in dieser Arbeit vorgeschlagen. Zusätzlich zu den Integratoren aufbauend auf der rotationsfreien Formulierung wird ergänzend ein Energie-Impuls-erhaltendes Zeitschrittverfahren basierend auf Quaternionen vorgestellt. Zwar stellt sich das Quaternionen gestützte Verfahren als konkurrenzfähig in der Vorwärtsdynamik von Starrkörpern heraus, die Erweiterung auf Mehrkörperprobleme ist allerdings nicht so direkt und einfach zu handhaben wie bei der rotationsfreien Formulierung basierend auf natürlichen Koordinaten. Daher werden die Quaternionen innerhalb von den Optimalsteuerungsproblemen in dieser Arbeit nicht verwendet. In Bezug auf die optimale Steuerung von Mehrkörpersystemen werden neuartige Energie-Impuls-konsistente direkte Transkriptionsverfahren beruhend auf natürlichen Koordinaten vorgestellt. In einem ersten Schritt werden Bewegungsgleichungen verwendet, die über eine Reduktion mittels der diskreten Nullraum-Methode gewonnen werden. Die Resultate werden verglichen mit denen, die man durch eine Formulierung der Bewegungsgleichungen mit den weit verbreiteten minimalen Koordinaten erhält. In einem zweiten Schritt dienen die ursprünglichen Bewegungsgleichungen in Form von differential-algebraischen Gleichungen als Basis für die Formulierung von den Optimalsteuerungsproblemen. Zusätzlich zu den bereits erwähnten direkten Transkriptionsmethoden wird auch eine neuartige Optimalsteuerungsmethode basierend auf indirekter Transkription eingeführt. Die besagte Methode erhält die zu dem Optimalsteuerungsproblem zugehörige Hamiltonfunktion. Es ist erwähnenswert, das diese Methode direkten Bezug hat zu früher entwickelten Energie-konsistenten Verfahren in der Vorwärtsdynamik.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2012-08-30</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2012</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-6520</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dcterms:isPartOf xsi:type="ddb:noScheme">Schriftenreihe des Lehrstuhls für Numerische Mechanik;  5</dcterms:isPartOf>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Mechanik und Regelungstechnik - Mechatronik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="siebert.pdf" ddb:fileSize="1115843"/>
+   <ddb:checksum ddb:type="MD5">5312e058d5e81460971c4ad4952beb05</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/652/1/siebert.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/652</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

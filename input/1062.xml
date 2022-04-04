@@ -1,0 +1,69 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1062</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Statistical regeneration and scalable clustering of big data using MapReduce in the Hadoop ecosystem : a case study of competence management in the computer science career</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Statistische Regenerierung und skalierbares Clustering von Big Data mit MapReduce im Hadoop Ökosystem</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Mahdi</pc:foreName>
+            <pc:surName>Bohlouli</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Massendaten</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Big Data</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">MapReduce</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Evolutionary Algorithms</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Statistical Analysis</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Clustering</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Any adaptive analysis of domain specific data demands fully generic, sophisticated, and customizable methods. A mathematical representation and modelling of domain specific requirements ensure achieving this goal. In talent analytics and job knowledge management era, a mathematical model should resolve person-job-fit and skill mismatch problems as well as under-qualification concerns about workers and job-seekers. This issue becomes even greater challenge for large job centers and enterprises when they should process data intensive matching of talents and various job positions at the same time. In other words, it should result in the large-scale assignment of best-fit (right) talents with right expertise to the right positions at the right time. The diversity in the domain of human resource management imposes large volumes of data. Hence, extending approaches towards speeding up analytical processes is essential.&#13;
+&#13;
+The main focus of this dissertation is on efficient and scalable modelling, representation and analysis of career knowledge by proposing a hybrid approach based on big data technologies. In this regard three types of the data have been prepared through profiling, namely as talent profiles, job profiles and competence development profiles. The main focus is divided into three matching problems: (a) Scalable matching of talent profiles with job profiles towards person-job-fit using evolutionary MapReduce based K-Means (EMRKM) clustering and TOPSIS methods. (b) Matching of competence goals of under-qualified talents, prioritized using Arithmetic Hierarchy Processing (AHP), with competence development profiles towards improving competitiveness of job seekers using K-Means and TOPSIS algorithms. (c) Matching of competence development profiles with the job profiles. In order to evaluate the achievements of this work, the hybrid approach is applied in the computer science academic career.&#13;
+&#13;
+To this aim, a generic Career Knowledge Representation (CKR) model is proposed in this research in order to cover all required competences in a wide variety of careers. The CKR model is the base of setting up profiles and has been evaluated by careful survey analysis through domain experts. The volume of collected data from the web is so large that any type of analytics demands for the use of big data technology. Accordingly, the original collected data of 200 employees from the web as well as through assessments have been statistically analyzed and rescaled to 15 million employee data using the uniform distribution. In order to find the best-fit employee which resolves skill mismatch challenge, the talent profiles are first clustered using EMRKM algorithm. The cluster with the closest Euclidean distance of its centroid with desired job profile is regarded as the talent cluster. Talents of this cluster are sorted on the basis of TOPSIS method towards selecting the best-fit candidate in the cluster. Similar methods are used for the matching problem in recommending competence improvement programs such as Vocational Educational Training (VET) for under-qualified talents. &#13;
+&#13;
+An analysis of achieved results shows that 78% domain experts believe that the proposed CKR model is beneficial for their industries and showed an interest to integrate the model in their workforce development strategies. The use of the uniform distribution in the regeneration of data showed a success rate of 94.27% at the significance level of 0.05 and 97.92% at the significance level of 0.01. The proposed EMRKM algorithm handles clustering of the large-scale data 47 times faster than traditional K-Means clustering and 2.3 times faster than existing MapReduce based clustering methods such as the one provided in the Apache Mahout. Moreover, any investigation in developing further metrics for various domains such as nursing, politics and engineering based on proposed CKR model as well as discovering career data through web crawling methods will promote this work. In addition, novel text mining methods in order to discover job knowledge from large volumes of streamed social media data, web and digital sources and linked open data will improve the quality of data in talent profiles and enrich the proposed approach.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Jede adaptive Analyse von domänenspezifischen Daten erfordert generische, weiterentwickelte und anpassbare Methoden. Eine mathematische Darstellung und Modellierung von domänenspezifischen Anforderungen hilft dabei, dieses Ziel zu erreichen. In der Analyse von Mitarbeiterfähigkeiten und in der Ära des Managements von Berufswissen kommt ein mathematisches Modell zum Einsatz, um das Problem des „Person-Job-Fits“ und Qualifikationsungleichgewichte zu lösen sowie eine mögliche Unterqualifizierung von Arbeitnehmern und Arbeitsuchenden zu berücksichtigen. Dieses Problem ist eine noch größere Herausforderung für große Job-Center und Unternehmen, die in datenintensiven Prozessen die Qualifikationen von Arbeitssuchenden mit den verschiedenen Anforderungen von Jobangeboten zur gleichen Zeit verarbeiten müssen. Mit anderen Worten kann hierbei die Zuordnung von Best-Fit (die richtigen) Talenten mit dem richtigen Know-how, den richtigen Positionen, zum richtigen Zeitpunkt gelingen. Die Anwendungsvielfalt im Bereich des Personalmanagements impliziert große Datenmengen. Daher sind weiterführende Ansätze zur Beschleunigung von analytischen Prozessen von wesentlicher Bedeutung.&#13;
+&#13;
+Der Schwerpunkt dieser Arbeit liegt auf der effizienten und skalierbaren Modellierung, Darstellung und Analyse von Karrierewissen durch einen erstellten hybriden Ansatz basierend auf Big Data Technologien. In diesem Kontext werden Arten von Daten (Fähigkeitsprofile, Jobprofile und Profile der Kompetenzentwicklung) durch den Einsatz von Profilierung vorbereitet. Der Schwerpunkt ist in drei Abstimmungsprobleme aufgeteilt: (a) Skalierbare Abstimmung von Fähigkeitsprofilen mit den Jobprofilen zur Erreichung des „Person-Job-Fits“ durch Anwendung von evolutionärem MapReduce basierend auf k-Means (EMRKM) Clustering und TOPSIS Methoden. (b) Abstimmung von Kompetenzzielen von unterqualifizierten Talenten durch Priorisierung mittels Analytischem Hierarchieprozess (AHP) sowie der Entwicklung von Kompetenzprofilen, um die Wettbewerbsfähigkeit von Arbeitsuchenden unter Verwendung von k-Means und TOPSIS Algorithmen zu verbessern. (C) Abstimmung von Profilen der Kompetenzentwicklung mit den Jobprofilen. Um die Leistungen dieser Arbeit zu bewerten, wird der Hybrid-Ansatz in der Anwendungsdomäne der akademischen Laufbahn in der Informatik angewendet.&#13;
+&#13;
+Zu diesem Zweck wird in dieser Thesis ein generisches Career Knowledge Representation (CKR) Modell vorgeschlagen, um alle erforderlichen Kompetenzen einer Vielzahl von Berufen abzudecken. Das CKR-Modell ist die Basis zum Erstellen von Profilen und wurde durch eine sorgfältige Umfrageanalyse durch Domain-Experten evaluiert. Das Volumen der gesammelten Daten aus dem Internet ist sehr umfassend, so dass jede Art von Analytik den Einsatz von Big Data Technologien verlangt. Dementsprechend wurden die ursprünglich erhobenen Daten von 200 Mitarbeitern, die aus dem Internet sowie durch Mitarbeiterbewertung gewonnen wurden, statistisch analysiert und auf 15 Millionen Mitarbeiterdaten mithilfe der Stetigen Gleichverteilung neu skaliert. Um den am besten passenden Mitarbeiter zu finden, der das Qualifikationsungleichgewicht lösen kann, werden die Fähigkeitsprofile mithilfe des EMRKM Algorithmus gruppiert. Das Cluster mit dem kürzesten euklidischen Abstands des geometrischen Schwerpunkts des Clusters zu dem gewünschten Anforderungsprofil wird als Talent-Cluster betrachtet. Dieses Cluster wird anschließend auf der Grundlage des TOPSIS Verfahrens zur Auswahl des am besten passenden Kandidaten sortiert. Ähnliche Clustering Verfahren werden für das Abstimmungsproblem bei der Empfehlung zur Kompetenzverbesserung in Programmen der Berufsbildung für unterqualifizierte Talente eingesetzt.&#13;
+&#13;
+Eine Analyse der erzielten Ergebnisse zeigt, dass 78% der Domain-Experten einschätzen, dass das vorgeschlagene CKR-Modell für ihre Industrie von Vorteil ist und zeigten ein Interesse, das Modell in ihren Entwicklungsstrategien für die Belegschaft zu integrieren. Die Verwendung der Stetigen Gleichverteilung in der Datenregeneration zeigt eine Erfolgsrate von 94,27% bei einem Signifikanzniveau von 0,05 und 97,92% bei einem Signifikanzniveau von 0,01. Der vorgeschlagene EMRKM Algorithmus erledigt das Clustering der Daten 47 mal schneller als das herkömmliche k-Means-Clustering und 2,3-mal schneller als bestehende MapReduce-basierende Clustering Verfahren, wie es beispielsweise in Apache Mahout integriert ist. Darüber hinaus kann die Entwicklung weiterer Metriken für verschiedene Bereiche wie Pflege, Politik und Ingenieurwesen auf dem vorgeschlagenen CKR-Modell basieren sowie die Sammlung von Karrieredaten über Web-Crawling Methoden die Ergebnisse der Arbeit weiter anreichern. Überdies können neuartige Text-Mining-Methoden zur Extrahierung von Job Wissen aus Social Media-Daten, Web, digitalen Quellen und Linked Open Data, dazu beitragen, die Qualität der Daten in den Fähigkeitsprofilen zu verbessern und das vorgeschlagene Konzept weiterzuentwickeln.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2016-10-28</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2016</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-10628</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Wissensbasierte Systeme und Wissensmanagement</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Mahdi_Bohlouli.pdf" ddb:fileSize="4763040"/>
+   <ddb:checksum ddb:type="MD5">ee8c0720a3502bc2950e4566fa14eb4d</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1062/1/Dissertation_Mahdi_Bohlouli.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1062</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

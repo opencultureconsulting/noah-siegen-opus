@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_605">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Technologiemanagement und anwendungsspezifische Prozessentwicklung in der Mikrosystemtechnik</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Technology management and application specific process development for MEMS</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schmidt, Thilo</displayForm>
+                        <namePart type="family">Schmidt</namePart>
+                        <namePart type="given">Thilo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Produkte der Mikrosystemtechnik finden sich heute in nahezu allen Anwendungsbereichen von der Automobiltechnik bis hin zur Unterhaltungselektronik. Die große Vielfalt an Anwendungen mit teilweise sehr unterschiedlichen Randbedingungen erfordert auch eine entsprechende Vielfalt an Fertigungstechnologien. Nahezu jedes Mikrosystem benötigt einen speziell auf den jeweiligen Anwendungsbereich zugeschnittenen Fertigungsprozess. Dieser auch als &quot;MEMS-Law&quot; bezeichnete Umstand ist nach aktuellen Marktanalysen auch weiterhin gültig und mitverantwortlich für lange Entwicklungszeiten und hohe Kosten im Mikrosystementwurf. Ohne die Existenz einer gemeinsamen Technologieplattform erscheint die Modularisierung und Wiederverwendung bereits bekannter Fertigungstechnologien als einzig gangbarer Weg.  
+Aufbauend auf früheren Forschungsarbeiten am Lehrstuhl für Mikrosystementwurf in den Bereichen Datenmanagement und Entwurfsunterstützung, wird in dieser Arbeit ein softwaregestütztes Konzept zum Technologiemanagement vorgestellt, das auf den effizienten Entwurf anwendungsspezifischer Fertigungsprozesse in der Mikrosystemtechnik ausgelegt ist. Das Konzept sieht eine enge Kopplung von Informationsmanagement, Wissensentwicklung und Entwurfsunterstützung vor. Dabei kommt insbesondere eine neue Wissenskategorisierung für den Mikrosystementwurf zum Einsatz, die erstmals das Wissen um Entwurfswerkzeuge als eigenständiges Wissensgebiet behandelt. Die dadurch mögliche Abstraktion der Fertigungstechnik erlaubt z. B. den Einsatz von Technologiesimulation im Entwurfsprozess auch ohne das detailliertes Wissen über das Simulationswerkzeug zu Verfügung steht. Als Anwendungsfälle dienen die virtuelle Fertigung eines Prototypen, die Durchführung virtueller Experimente und die Optimierung von Prozessparametern. 
+Der zweite Teil der Arbeit beschäftigt sich mit der Fragestellung, wie im Kontext eines Szenarios aus unabhängigen Systemhäusern und Technologieanbietern eine geeignete Fertigungstechnologie für den Systementwurf ausgewählt und ein darauf aufbauender anwendungsspezifischer Fertigungsprozess entwickelt werden kann. Dazu wird ein neuer visueller Ansatz vorgestellt, der die Auswahl von Fertigungsprozessen auf Basis von Querschnittszeichnungen ermöglicht und anschließend die Synthese eines abstrakten Fertigungsprozesses zu dieser Technologie erlaubt. In Kombination mit dem Technologiemanagementsystem stellt dieser Ansatz einen ersten Schritt zur Unterstützung eines Fabless-Mikrosystementwurfs vor, der explizit die Entwicklung eines anwendungsspezifischen Fertigungsprozesses berücksichtigt.</abstract>
+                    <abstract type="content" lang="eng">With MEMS entering fast moving consumer markets, the need for a more efficient design approach becomes apparent. One of the biggest challenges in this context is the huge impact of the manufacturing technology on all aspects of product design. Nearly every application area requires a specific manufacturing technology. According to recent market reports this so-called MEMS Law (&quot;one product, one process!&quot;) still rules. Without a common technology platform in sight, the only
+feasible solution seems to be the extensive modularization and re-use of existing manufacturing technology.
+In this thesis, a comprehensive software framework for management, development, and verification of MEMS manufacturing technologies is presented. This PDES(Process Development Execution System) is based on previous research on datamanagement and design-support by Popp, Wagener, and Ortloff. One of the two main contributions of this thesis to the PDES is a new simulation interface that allows
+setting up and performing virtual experiments and optimization with minimum knowledge of the TCAD-tools.
+The second contribution of this thesis is a new visual approach on process modeling build on top of the PDES. The new approach supports the device engineer in selecting an appropriate manufacturing technology based on a set of device-cross-sections. For this purpose dedicated software tools have been developed that are able to automatically analyze the cross-sections and map the analysis results to specific technologies. The results are used to synthesize abstract process-templates that form the basis for the development of a new application specific fabrication process. The approach is especially targeted at emerging MEMS business models like the fabless-design-house that do not have direct access to technology knowledge. In combination with the PDES, the presented approach resembles the first step in
+design-support for fabless MEMS that explicitly includes the development of an application specific manufacturing process.</abstract>
+                    <subject>
+                        <topic>MEMS</topic>
+                        <topic>Prozessentwurf</topic>
+                        <topic>Technologiemanagement</topic>
+                        <topic>MEMS</topic>
+                        <topic>CAD</topic>
+                        <topic>information management</topic>
+                        <topic>technology management</topic>
+                        <topic>design automation</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-6058</identifier>
+                    <identifier type="sys">HT017189052</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_605</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2011-12-11</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_605">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/605/1/Dissertation_Thilo_Schmidt.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_605"
+            DMDID="DMD_siegen_opus_605">
+            <mets:fptr FILEID="FILE0_siegen_opus_605"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

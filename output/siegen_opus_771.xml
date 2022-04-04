@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_771">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Auditory image understanding for the visually impaired based on a modular computer vision sonification model</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Akustisches Bildverständnis für Sehbehinderte basierend auf einem modularen Computer Visions Sonifikations Modell</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Banf, Michael</displayForm>
+                        <namePart type="family">Banf</namePart>
+                        <namePart type="given">Michael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die vorliegende Arbeit beschreibt ein System das blinden Menschen einen direkt erfahrbaren Zugang zu Bildern mit Hilfe akustischer Signale anbietet. Der Benutzer exploriert ein Bild interaktiv auf einem berührungsempfindlichen Bildschirm und erhält eine akustische Rückmeldung über den Bildinhalt an der jeweiligen Fingerposition. Die Gestaltung eines solchen Systems beinhaltet zwei größere Herausforderungen: Welche ist die relevante Bildinformation, und wie kann möglichst viel Information in einem Audiosignal untergebracht werden. Wir behandeln diese Probleme basierend auf einem modularen Computer Vision Sonikations Modell, welches wir als grundlegendes Gerüst für die Aufnahme,
+Exploration und Sonikation von visueller Information zur Unterstützung blinder Menschen vorstellen. Es werden einige Ansätze vorgestellt, welche hierzu die Information auf verschiedenen Abstraktionsebenen kombinieren. So z.B. sehr grundlegende Information wie Farbe, Kanten und Rauigkeit und komplexere Information welche durch die Verwendung von Machine Learning Algorithmen gewonnen werden kann. Diese Machine Learning Algorithmen behandeln sowohl das Erkennen von Objekten als auch die Klassikation von Bildregionen in &quot;künstlich&quot; und &quot;natürlich&quot;, basierend auf einem neu entwickelten Typs eines probabilistischen graphischen Modells. Wir zeigen, dass dieser Mehr-Ebenen Ansatz dem Benutzer direkten Zugang zum Wesen und Position von Objekten und Strukturen im Bild ermöglicht und gleichzeitig das Potential neuester Entwicklungen im Bereich Computer Vision und Machine Learning ausnutzt. Während der Exploration kann der Benutzer erkannte &quot;künstliche&quot; Strukturen oder bestimmte natürliche Regionen als Referenzpunkte verwenden um andere natürliche Regionen mit Hilfe deren individueller Position, Farbe und Texturen zu klassizieren. Wir werden zeigen, dass geburtsblinde Teilnehmer diese Strategie erfolgreich einsetzen um ganze Szenen zu interpretieren und zu verstehen.</abstract>
+                    <abstract type="content" lang="eng">This thesis presents a system that strives to give visually impaired people direct perceptual access to images via an acoustic signal. The user explores the image actively on a touch screen or touch pad and receives auditory feedback about the image content at the current position. The design of such a system involves two major challenges: what is the most useful and relevant image information, and how can as much information as possible be captured in an audio signal. We address those problems, based on a Modular Computer Vision Sonication Model, which we propose as a general framework for acquisition, exploration and sonication of visual information to support visually impaired people. General approaches are presented that combine low-level information, such as color, edges, and roughness, with mid- and high-level information obtained from Machine Learning algorithms. This includes object recognition and the classication of regions into the categories &quot;man-made&quot; versus &quot;natural&quot; based on a novel type of discriminative graphical model. We argue that this multi-level approach gives users direct access to the identity and location of objects and structures in the image, yet it still exploits the potential of recent developments in Computer Vision and Machine Learning. During exploration, the user can utilize detected man made structures or specic natural regions as reference points to classify other natural regions by their individual location, color and texture. We show that congenital blind participants employ that strategy successfully to interpret and understand whole scenes.</abstract>
+                    <subject>
+                        <topic>Computer Vision</topic>
+                        <topic>Sonifikation</topic>
+                        <topic>Computer Mensch Interaktion</topic>
+                        <topic>Assistive Systeme</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Bildinformatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-7716</identifier>
+                    <identifier type="sys">HT018094091</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_771</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2013-10-15</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_771">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/771/1/banf.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_771"
+            DMDID="DMD_siegen_opus_771">
+            <mets:fptr FILEID="FILE0_siegen_opus_771"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

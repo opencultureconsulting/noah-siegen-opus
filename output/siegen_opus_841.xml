@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_841">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Assistenzsystem zur Testung und Verbesserung der Lesbarkeit von Gebrauchsinformationen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Merges, Fabian</displayForm>
+                        <namePart type="family">Merges</namePart>
+                        <namePart type="given">Fabian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Ziel der Entwicklung, deren Ergebnisse in der vorliegenden Arbeit vorgestellt werden, war die Konzipierung und Realisierung eines Verfahrens zur Verbesserung der Verständlichkeit (Lesbarkeit) von Gebrauchsinformationen für Arzneimittel. Das Verfahren, das die Erstellung neuer und die Verbesserung bestehender Gebrauchsinformationen unterstützen soll, baut auf einem umfangreichen Kriterienkatalog auf, der für die Lesbarkeit eines Textes relevante Kriterien enthält. Die Lesbarkeitstestung ist als 5-stufiges Verfahren strukturiert. Beginnend mit der Berechnung eines Lesbarkeitsindex für den gesamten Text und der Erstellung einer graphischen Übersicht, werden in mehreren Schritten Detailanalysen über die Absätze und Einzelsätze durchgeführt, die mit Vorschlägen zur Lesbarkeitsverbesserung abschließen. Als Assistenzsystem konzipiert leitet das Verfahren einen Bearbeiter zu den Problemfeldern eines Textes, ohne ihn zu bevormunden. Die Entscheidung über eine Textmodifizierung verbleibt uneingeschränkt bei dem für den Text verantwortlichen Bearbeiter.
+Das Verfahren zur Lesbarkeitsverbesserung ist in einem Prototypen realisiert, mit dem die Machbarkeit und die Validität des Verfahrens aufgezeigt wird. Über die Testung von Gebrauchsinformationen hinaus werden weitere Anwendungsfelder vorgestellt, in denen das Verfahren nach Branchen spezifischen Modifikationen des Textkorpus ebenfalls angewendet werden kann. Um, wie bspw. vom Bundesministerium für Bildung und Forschung gefordert, das Verfahren außerhalb des universitären Umfeldes einsetzen zu können, wird das erforderliche Vorgehen beschrieben, um den Prototypen zum marktreifen Produkt weiterzuentwickeln.</abstract>
+                    <abstract type="content" lang="eng">Target of the development of which the results were presented below was to create and to realize a method for the improvement of the readability of drug package leaflets. The method designed to support the creation of new leaflets and the improvement of given ones is based on an extensive catalog of criteria which are relevant for the readability of an information for use. The readability testing is structured as a 5-layer system. Starting with calculation of a readability index and a graphical overview covering the total text a detailed analysis of all clauses and sentences is performed resulting in proposals for the readability improvement. The method is designed as an assistance system to support a person in charge to find sentences which could be difficult to understand but without telling the personal what to do. The decision how to modify the wording of a text stays absolutely with the person in charge.
+The method for readability improvement was implemented in a prototype to show the feasibility and the validity of the procedure. Additionally to the testing method for drug package leaflets the study indicates further application areas where the method can be used after having adapted the dictionary to the specific wording of the branch of trade in question. To prepare the method for the use in the industry as asked for by the Ministry of Education and Development the necessary procedure is defined for the development of the marketable product.</abstract>
+                    <subject>
+                        <topic>Lesbarkeit</topic>
+                        <topic>Gebrauchsinformation</topic>
+                        <topic>Beipackzettel</topic>
+                        <topic>Verständlichkeit</topic>
+                        <topic>readability</topic>
+                        <topic>drug package leaflets</topic>
+                        <topic>assistance system</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Wissensbasierte Systeme und Wissensmanagement"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-8418</identifier>
+                    <identifier type="sys">HT018513137</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_841</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2014-11-25</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_841">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/841/1/Dissertation_Fabian_Merges.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_841"
+            DMDID="DMD_siegen_opus_841">
+            <mets:fptr FILEID="FILE0_siegen_opus_841"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

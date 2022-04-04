@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1972">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Die </nonSort>
+                        <title>Suzuki-Methode und ihre Genese</title>
+                        <subTitle lang="ger">Fallstudie zu einem musikpädagogischen Transkulturationsprozess</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ito, Ayako</displayForm>
+                        <namePart type="family">Ito</namePart>
+                        <namePart type="given">Ayako</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die auf den japanischen Geigenpädagogen Shinichi Suzuki (1898–1998) zurückgehende Suzuki-Methode gehört zu den bekanntesten Ansätzen in der Musikpädagogik. Weit weniger bekannt ist, unter welchen spezifischen Voraussetzungen die Suzuki-Methode in Japan entstanden ist und was sie als solche überhaupt definiert, denn ihr Erscheinungsbild ist in ihrer weltweiten Verbreitung keineswegs einheitlich. Auch, dass sie immer wieder ihrem Wesen nach als ‚japanisch‘ deklariert wird, ist auf der Grundlage dieser Untersuchungsergebnisse wohl eher ein Konstrukt als eine Erklärung. 
+Die Autorin zieht für ihre kritische Untersuchung die japanischen Originalquellen heran und arbeitet auf dieser Grundlage die ursprüngliche Konzeption Suzukis wieder heraus. Sie lotet dafür die Entstehungsprozesse des Konzeptes als komplexe Übertragungswege verschiedener Ideen im historischen und kulturellen Kontext aus. Dabei erweist sich die ,Methode‘ im Ergebnis keineswegs als einfacher ,Export‘ eines ausgereiften pädagogischen Konzeptes – vielmehr fand vor dem Hintergrund des japanischen Imperialismus sowie im Spannungsfeld unterschiedlicher kultureller Räume eine konfliktreiche und alles andere als gradlinige Entwicklung statt.
+Ayako Ito folgt den keineswegs immer klaren Wegen der Suzuki-Methode durch wechselnde Übernahmen und Anpassungen hindurch und analysiert sie als ein kulturelles Phänomen, das erst durch mehrere Transkulturationsprozesse zu seiner heutigen Form gefunden hat.</abstract>
+                    <abstract type="content" lang="eng">The Suzuki Method, which stems from Japanese violin teacher Shinichi Suzuki (1898-1998), is one of the most well-known music pedagogical methods. It is far less known, under which specific conditions the Suzuki Method originated in Japan and what it defines as such, because its image is by no means perceived the same in its worldwide dissemination. In addition, on the basis of these research results, the fact that it is repeatedly declared to be ‘Japanese’ in its essence is probably more of a construct than an explanation.
+In her critical examination, the author draws on the original Japanese sources and uses them as a basis for re-elaborating Suzuki’s original conception. To this end, she explores the concept’s development processes as complex transmission paths for different ideas in a historical and cultural context. The result is that the ‘method’ is by no means a simple ‘export’ of a mature pedagogical concept – rather, amid Japanese imperialism and caught between different cultural spaces, a conflict-ridden and far from straightforward development took place.
+Ayako Ito follows the by no means always clear paths of the Suzuki Method through changing adoptions and adaptations and analyses it as a cultural phenomenon that has only found its present form through several processes of transculturation</abstract>
+                    <subject>
+                        <topic>Musikerziehung</topic>
+                        <topic>Japan</topic>
+                        <topic>music education</topic>
+                        <topic>music pedagogics</topic>
+                        <topic>instrumental tuition</topic>
+                        <topic>instrumental pedagogics</topic>
+                        <topic>Musikpädagogik</topic>
+                        <topic>Instrumentalpädagogik</topic>
+                        <topic>Suzuki-Methode</topic>
+                        <topic>Geige</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19724</identifier>
+                    <identifier type="sys">HT021129162</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1972</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1972">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1972/1/Ayako%20Ito_Die%20Suzuki-Methode%20und%20ihre%20Genese.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1972"
+            DMDID="DMD_siegen_opus_1972">
+            <mets:fptr FILEID="FILE0_siegen_opus_1972"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,85 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>176</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Untersuchung eines neuartigen 2D-gestützten 3D-PMD-Bildverarbeitungssystems</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Detlef</pc:foreName>
+            <pc:surName>Justen</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">PMD-technology</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">depth resolution</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">3D-image processing</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Grundlage dieser Arbeit ist die Einführung eines 2D/3D-Kamerakonzeptes auf Basis&#13;
+einer flächendeckenden Grauwertkamera mit Unterstützung vereinzelter&#13;
+Entfernungswerte. Bereits mit Hilfe von vereinzelten Entfernungswerten in&#13;
+Verbindung mit einem flächendeckenden Grauwertbild wird die 3D-Bildverarbeitung&#13;
+wesentlich vereinfacht bzw. erst ermöglicht (z.B. 3D-Objektrekonstruktion,&#13;
+Bewegungsanalyse ...). &#13;
+Diese Arbeit bezieht sich vorwiegend auf die Untersuchung von bisher bekannten&#13;
+Grundlagen der 2D- und 3D-BV und auf deren Tauglichkeit hinsichtlich der oben&#13;
+genannten neuen Sensoranordnung. Der Schwerpunkt der ausgewählten Verfahren&#13;
+liegt dort, wo normale 2D-BV Konzepte Schwierigkeiten haben oder infolge der&#13;
+fehlenden Tiefeninformation versagen. Mit den nur vereinzelten Tiefenwerten in&#13;
+Verbindung mit einem flächendeckenden Grauwertbild stellt das Aufnahme- und&#13;
+Verarbeitungssystem eine einfache Möglichkeit zur effektiven Nutzung der&#13;
+Tiefeninformation zur Verfügung. Auf Basis der herkömmlichen 2D-BV und mit&#13;
+vereinzelten Tiefenwerten kann unter Berücksichtigung des Abtastproblems mit&#13;
+einfachen Mitteln:  &#13;
+  eine Klassifizierung von Objekten erfolgen &#13;
+  eine Entfernungs-, Lage- und Größenbestimmung erfolgen &#13;
+  die Oberflächenorientierung bestimmt werden &#13;
+  eine Flächeninterpretation erfolgen &#13;
+  eine Klassifizierung von texturierten Regionen erfolgen &#13;
+  eine Objektverfolgung (Geschwindigkeit, Richtung) erfolgen &#13;
+  ...  &#13;
+Neben der direkten Nutzung der vereinzelten Tiefenwerte an mißverständlichen bzw. mehrdeutigen Stellen im Grauwertbild können die wenigen vorhandenen Tiefendaten auch dazu genutzt werden, die fehlenden Tiefenwerte mit Hilfe der vorhandenen Grauwertdaten zu rekonstruieren. Dazu werden Verfahren eingesetzt, welche eine Beschreibung der Zusammenhänge zwischen den Grauwert- und Tiefenbildern nutzen (z.B. Shape-from-Shading). Die real vorliegenden Tiefenwerte werden dabei nur für die Initialisierungsphase genutzt. Als Ergebnis erhält man ein ‚vollständiges‘ rekonstruiertes Tiefenbild.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Basis of this thesis is the introduction of a 2D/3D-camera concept based on a&#13;
+surface-covering greyscale camera, supported by individual depths data. Already the use of only individual depths data in combination with a complete greyscale image simplifies a 3D-image processing considerably or makes it actually possible (e.g. 3D-object reconstruction, motion analysis …). &#13;
+The thesis presented here is mainly based on the research into already existing&#13;
+theories on 2D- and 3D-image processing and their value in regard to the above&#13;
+mentioned sensor arrangement. Due to the direct spatial relation between greyscale and depths data the main focus lies on the registered data sources (synchronization of the scanning elements). Possible applications for the herein introduced new 3D-image processing are to be found wherever standard 2D-image processing concepts encounter difficulties or fail due to the missing depth information. Using only individual depths data in combination with a surface covering greyscale image, the recording and processing system offers a simple possibility for the effective utilization of the depths information. Already individual depths data offer simple means to:  &#13;
+  classify objects &#13;
+  determine distance, orientation and size &#13;
+  determine the surface orientation &#13;
+  …  &#13;
+Next to the direct utilization of the individual depths data in such spots in the greyscale image that might lead to misinterpretation or have ambiguous meaning, the real depths data can also be used to reconstruct missing depths values by using the available greyscale data. Thus such procedures are applied which use a description of the relation between the greyscale and depths images (e.g. Shape-from-Shading).</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2001-01-25</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2001</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-1769</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 12, Elektrotechnik und Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="justen.pdf" ddb:fileSize="20134247"/>
+   <ddb:checksum ddb:type="MD5">2a2dac0121c47124c97994fd6c953275</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/176/1/justen.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/176</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

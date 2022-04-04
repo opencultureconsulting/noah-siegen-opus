@@ -1,0 +1,59 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1037">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>No being, no singularity : Hegel’s critique of sense-certainty in the ,Phenomenology of Spirit‘</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schönecker, Dieter</displayForm>
+                        <namePart type="family">Schönecker</namePart>
+                        <namePart type="given">Dieter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bookPart</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2004</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">It has always been a matter of great dispute what Hegel’s philosophy is about. There is not even an agreement on what he is driving at; we simply don’t know what he was talking about. To some he is a strict metaphysician with claims to ultimate justification and truth, to others he is more or less a cultural relativist. But almost all relevant books and papers discuss Hegel’s philosophy in general terms; very few have tried a detailed tme-to-the-text exegesis.</abstract>
+                    <subject>
+                        <topic>Hegel, Georg Wilhelm Friedrich</topic>
+                        <topic>Hegel</topic>
+                        <topic>Phänomenologie</topic>
+                        <topic>Singularität</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-10373</identifier>
+                    <identifier type="sys">HT019100178</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1037</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBookPart</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1037">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1037/1/No_Being_No_Singularity_Schoenecker.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1037"
+            DMDID="DMD_siegen_opus_1037">
+            <mets:fptr FILEID="FILE0_siegen_opus_1037"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

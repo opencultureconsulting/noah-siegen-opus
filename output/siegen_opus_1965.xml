@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1965">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Ordinal pattern analysis: limit theorems for multivariate long-range dependent Gaussian time series and a comparison to multivariate dependence measures</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Ordinale Muster Analyse: Grenzwertsätze für mehrdimensionale langzeitabhängige Gaußsche Zeitreihen sowie der Vergleich mit mehrdimensionalen Abhängigkeitsmaßen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Nüßgen, Ines</displayForm>
+                        <namePart type="family">Nüßgen</namePart>
+                        <namePart type="given">Ines</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schnurr, Alexander</displayForm>
+                        <namePart type="family">Schnurr</namePart>
+                        <namePart type="given">Alexander</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Ordinal pattern analysis provides a possibility to study dependence structures in multivariate time series with few assumptions on the underlying stochastic model. Focussing on a univariate time series, we discuss the concept of ordinal pattern probabilities that deals with the occuranceoof one fixed ordinal pattern within this time series. Based on this method, the dependence within the time series is investigated. Turning to the multivariate case, ordinal pattern dependence allows us to compare data sets by studying the probability of coincident ordinal patterns at the same points in time. Applying these two approaches we are able to detect linear as well as non-linear dependence. We extend the theoretical framework for estimators in the context of these two concepts to multivariate long-range dependent Gaussian time series, allowing for pure long-range dependence as well as for mixed cases of short- and long-range dependent univariate components. We provide limit theorems for functionals with Hermite rank 1 and 2, as it turns out that the estimators in the context of ordinal pattern analysis are represented by these two classes. For functionals with Hermite rank 2, the asymptotic distribution is non-Gaussian and follows a Rosenblatt distribution. Further, we investigate the differences in the asymptotics considering multivariate stationary Gaussian time series and multivariate Gaussian time series with stationary increments, which is less restrictive. A generalization to more flexible models in the context of ordinal pattern dependence is also provided. The first part of this thesis closes with a simulation study that illustrates the theoretical results. The second part of this work puts ordinal pattern dependence in the perspective of multivariate dependence measures. We compare ordinal pattern dependence to classical dependence measures like Pearson’s p and Kendall’s r.
+By precisely distinguishing between measures that arise in a time series context and models that study dependence between or within multivariate random vectors, we identify differences and provide relations between ordinal pattern dependence and the classical approaches. Finally, a simulation study and a real-world data analysis in the field of hydrology that emphasizes the practical value of ordinal pattern dependence complete this work.</abstract>
+                    <abstract type="content" lang="ger">Die ordinale Muster-Analyse bietet eine Möglichkeit Abhängigkeitsstrukturen in multivariaten Zeitreihen mit wenigen Annahmen an das zugrundeliegende stochastische Modell zu untersuchen. Wir stellen das Konzept ordinaler Muster-Wahrscheinlichkeiten vor, welches sich mit dem Auftreten eines festen ordinalen Musters innerhalb dieser Zeitreihe beschäftigt und, auf dessen Basis, die Abhängigkeiten innerhalb der Zeitreihe beschreibt. Wenden wir uns dem multivariaten Fall zu, erlaubt uns die ordinale Muster-Abhängigkeit Datensätze zu vergleichen, indem wir die Wahrscheinlichkeit übereinstimmender ordinaler Muster zu den gleichen Zeitpunkten untersuchen. Durch die Anwendung dieses Modells sind wir in der Lage, sowohl lineare als auch nicht-lineare Abhängigkeiten zu erkennen. Wir erweitern den theoretischen Hintergrund der Schätzer im Kontext dieser beiden Konzepte auf multivariate langzeitabhängige Gaußsche Zeitreihen, wobei wir sowohl reine Langzeitabhängigkeit als auch gemischte Fälle von kurz- und langzeitabhängigen univariaten Komponenten berücksichtigen. Zunächst werden Grenzwertsätze für Funktionen mit Hermite-Rang 1 und 2 bewiesen, da sich herausstellt, dass Schätzer im Kontext der ordinalen Muster-Analyse durch diese Klassen repräsentiert werden. Die asymptotische Verteilung ist im Fall von Hermite-Rang 2 nicht Gaußsch, sondern folgt einer Rosenblatt-Verteilung. Weiterhin untersuchen wir die Unterschiede in der Asymptotik der Schätzer, einerseits für zugrundeliegende multivariate stationäre Gaußsche Zeitreihen und andererseits für multivariate Gaußsche Zeitreihen mit stationären Zuwächsen, was ein weniger restriktives Modell darstellt. Eine Verallgemeinerung der Resultate für flexiblere und abgewandelte Modelle im Kontext der ordinalen Muster-Abhängigkeit wird ebenfalls betrachtet. Der erste Teil der Arbeit schließt mit einer Simulationsstudie, welche die theoretischen Resultate veranschaulicht. Der zweite Teil der Dissertation befasst sich mit der Einordnung der ordinalen Muster-Abhängigkeit in die Klasse der multivariaten Abhängigkeitsmaße. Wir vergleichen die ordinale Muster-Abhängigkeit mit klassischen Abhängigkeitsmaßen wie Pearsons p und Kendalls   r. Durch die genaue Unterscheidung zwischen Maßen, welche sich auf einen Zeitreihenkontext beziehen, und Modellen, welche Abhängigkeiten zwischen oder innerhalb von multivariaten Zufallsvektoren untersuchen, identifizieren wir Unterschiede und stellen Beziehungen zwischen der ordinalen Muster-Abhängigkeit und den klassischen Ansätzen her. Schließlich runden eine Simulationsstudie sowie eine Analyse realer Daten aus dem Bereich der Hydrologie diese Arbeit ab, welche den praktischen Nutzwert der ordinalen Muster-Abhängigkeit unterstreicht.</abstract>
+                    <subject>
+                        <topic>Musteranalyse</topic>
+                        <topic>Ordinal patterns</topic>
+                        <topic>Long-range dependence</topic>
+                        <topic>Limit theorems</topic>
+                        <topic>Multivariate dependence measures</topic>
+                        <topic>Multivariate data analysis</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Department Mathematik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19650</identifier>
+                    <identifier type="sys">HT021086778</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1965</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2021-07-09</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1965">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1965/5/Dissertation_Ines_Nuessgen.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1965"
+            DMDID="DMD_siegen_opus_1965">
+            <mets:fptr FILEID="FILE0_siegen_opus_1965"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,66 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1194</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Modes of operation for Compressed Sensing based encryption</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Betriebsarten für Compressed Sensing basierte Verschlüsselung</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Robin</pc:foreName>
+            <pc:surName>Fay</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Kryptologie</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Betriebsarten</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Verschlüsselung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Cryptography</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Compressed sensing</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Compressed Sensing bietet die Möglichkeit spärlich besetzte oder komprimierbare Signale bereits bei der Abtastung - also im Sensor - zu komprimieren und gleichzeitig zu verschlüsseln. Dabei muss zur Verschlüsselung lediglich die Abtastmatrix, welche auch für die Signalrekonstruktion notwendig ist, geheim gehalten werden. Allerdings ist diese Verschlu?sselungstechnik nicht mehr sicher, wenn mehrere Signale verschlüsselt werden, da derselbe Klartext immer denselben Schlüsseltext ergibt. Deshalb befasst sich diese Dissertation mit Betriebsarten für Compressed Sensing, die eine sichere Verschlüsselung von mehreren Signalen ermöglichen.&#13;
+Zunächst werden verschiedene Angriffe und Angreifermodelle untersucht, um Sicherheitsdefinitionen für Compressed Sensing basierte Verschlüsselung und Compressed Sensing-Betriebsarten zu entwickeln. Basierend auf den Ergebnissen dieser Analyse wird ein generelles Modell für Compressed Sensing-Betriebsarten entworfen, welche Vertraulichkeit gewährleisten und darüber hinaus den Informationsverlust der Compressed Sensing-Verschlüsselung reduzieren. Nach einer Sicherheits- und Performancebewertung der für die Implementierung geeigneten kryptographischen Verfahren werden drei dedizierte Betriebsarten aus dem generellen Design abgeleitet, die verschiedene Dienstgüteeigenschaften wie Parallelisierbarkeit oder Selbstsynchronisation aufweisen. Diese Betriebsarten und die damit verbundenen Sicherheitsanalysen sind das erste Hauptergebnis dieser Dissertation.&#13;
+Zusa?tzlich zur Vertraulichkeit, die durch Verschlüsselung erreicht wird, ist Datenunversehrtheit ein weiterer wichtiger Sicherheitsdienst. Deshalb werden in dieser Arbeit auch sogenannte Authenticated-Encryption-Betriebsarten für Compressed Sensing entworfen, die Vertraulichkeit und zeitgleich den Schutz der Datenunversehrheit gewährleisten. Auch hier wird zunächst ein generelles Modell für diese Betriebsarten entwickelt, aus dem dann konkrete Implementierungen abgeleitet werden, deren Sicherheit auf die zugrundeliegenden kryptographischen Verfahren zurückgeführt wird. Compressed Sensing mit Authenticated-Encryption bietet auch dann Sicherheit, wenn ein Angreifer gezielt Schlüsseltexte manipulieren kann.&#13;
+Ein letzter Aspekt, der in dieser Arbeit betrachtet wird, ist die Integration der entwickelten Betriebsarten in eine verteilte Anwendung. Dazu wird eine Softwarearchitektur für Industrie 4.0-Anwendungen entworfen und implementiert, welche die nötigen Komponenten für den Einsatz der Compressed Sensing-Betriebsarten, wie Schlüsselvereinbarung und Parameteraustausch, beinhaltet. Neben der Sicherheit ist ein Hauptziel des entworfenen Systems die Benutzerfreundlichkeit. Alle sicherheitsrelevanten Operationen werden für den Anwender transparent von der Software durchgeführt, sodass der Anwender lediglich festlegen muss, wie die Daten seiner Anwendung geschützt werden sollen. Auf diese Weise werden Sicherheitsprobleme vermieden, die durch unsachgemäße Verwendung von kryptographischen Verfahren entstehen.&#13;
+Die in dieser Arbeit entwickelten Betriebsarten für Compressed Sensing sind durch die gleichzeitige Abtastung und Komprimierung für viele reale Anwendungsfälle interessant und ermöglichen echte Ende-zu-Ende-Sicherheit, die bereits im Sensor beginnt. Das vorgestellte Softwaresystem vervollständigt den Beitrag dieser Arbeit, da es die nötigen Komponenten für die Verwendung der entworfenen Betriebsarten realisiert.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Compressed Sensing offers the possibility to jointly compress and encrypt sparse or compressible signals during the sampling process, i.e. directly at the sensor level. For the purpose of encryption, only the sampling matrix, which is also needed for the signal recovery, must be kept secret. However, this type of encryption scheme is no longer secure if multiple signals are encrypted, since the same plaintext will always yield the same ciphertext. This thesis proposes modes of operations for Compressed Sensing that allow the secure encryption of multiple signals.&#13;
+First, different attacks and threat models are analyzed in order to develop security definitions for Compressed Sensing based encryption and Compressed Sensing modes of operations. The results from this analysis are used to design a general model for Compressed Sensing modes, which ensure confidentiality and additionally reduce the information leakage of Compressed Sensing encryption. The security and performance of cryptographic constructions that are suitable for implementing the general model are evaluated and three dedicated modes with different quality of service properties are derived from the general design. These modes of operation and their corresponding security analysis are the first main result of this thesis.&#13;
+In addition to confidentiality, which is achieved through encryption, another important security service is data integrity. This work also examines so-called authenticated-encryption modes for Compressed Sensing, which ensure confidentiality and data integrity simultaneously. A general model for Compressed Sensing with authenticated-encryption is developed and dedicated schemes are derived from this model. The security of these schemes is reduced to the security of the underlying cryptographic constructions and primitives. Compressed Sensing with authenticated encryption provides security even in the case where an adversary has the ability to tamper with the ciphertext.&#13;
+The final contribution of this thesis is the integration of the proposed Compressed Sensing modes into a distributed application. A software architecture for Industry 4.0 applications is developed and implemented. The designed system includes all necessary components for the usage of Compressed Sensing modes, like key-establishment and parameter exchange. Next to security, a main design goal of this system is usability. The user just determines the security service for his application and all security relevant operations are handled by the software, transparent for the user. This approach prevents security problems that are caused by inappropriate usage of cryptographic schemes.&#13;
+The Compressed Sensing modes developed in this thesis are suitable for a wide range of real world applications due their joint sampling, compression and end-to-end security that starts at the sensor level. The proposed software-system completes the contribution of this work, since it realizes all necessary components for the usage of the designed modes.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2017-06-14</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2017</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-11947</dc:identifier>
+   <dc:source xsi:type="ddb:ISBN">978-3-8440-5445-3</dc:source>
+   <dc:source xsi:type="ddb:noScheme">Zugl.: Aachen: Shaker Verlag, 2017. ISBN 978-3-8440-5445-3</dc:source>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Kommunikations- und Informationstechnik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Robin_Fay.pdf" ddb:fileSize="2778372"/>
+   <ddb:checksum ddb:type="MD5">0f0a7272dfc11c09978cd04eb4d661ff</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1194/1/Dissertation_Robin_Fay.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1194</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

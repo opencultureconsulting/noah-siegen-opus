@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1136">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>&quot;A free will and a will under moral laws are the same&quot;: Kant’s concept of autonomy and his thesis of analyticity in Groundwork III</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schönecker, Dieter</displayForm>
+                        <namePart type="family">Schönecker</namePart>
+                        <namePart type="given">Dieter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bookPart</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">In section 1 of GMS III, Kant claims that “a free will and a will under
+moral laws are the same” (447.6–10). 1 h is claim expresses Kant’s concept
+of autonomy; after all, the concept of freedom is the “key” (446.6) to
+this concept. So if we understand freedom in its relation to morality, we
+understand autonomy. But how are we to understand this relation? On
+the standard reading, Kant’s claim is that a free will is under the moral
+law as a Categorical Imperative (CI); hence, once it is shown that we are
+free it is shown that we are obliged by the CI. 2 h is interpretation, I will
+argue, is incorrect.</abstract>
+                    <subject>
+                        <topic>Willensfreiheit</topic>
+                    </subject>
+                    <classification authority="ddc">100</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11360</identifier>
+                    <identifier type="sys">HT019476989</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1136</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBookPart</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1136">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1136/1/Schoenecker_A_free_will_and_a_will_under_moral_laws_are_the_same.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1136"
+            DMDID="DMD_siegen_opus_1136">
+            <mets:fptr FILEID="FILE0_siegen_opus_1136"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

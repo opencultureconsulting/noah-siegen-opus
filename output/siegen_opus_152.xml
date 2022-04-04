@@ -1,0 +1,91 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_152">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Mikroskopie mit Parabolspiegeloptik : Theorie, Aufbau und Charakterisierung eines kombinierten konfokalen und nahfeld-optischen Mikroskops für die Einzelmolekül-Spektroskopie bei tiefen Temperaturen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lieb, Michael Andreas</displayForm>
+                        <namePart type="family">Lieb</namePart>
+                        <namePart type="given">Michael Andreas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2002</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In dieser Arbeit wird sowohl theoretisch als auch experimentell untersucht, wie ein
+Parabolspiegel mit einem großen Öffnungswinkel von etwa neunzig Grad anstelle eines
+Objektivs in der Mikroskopie eingesetzt werden kann. Parabolspiegel mit kleinem
+Öffnungswinkel sind zwar sehr gebräuchlich im Teleskopbau und in der Telekommunikation.
+Spiegel mit großem Öffnungswinkel hingegen wurden kaum je benutzt, weil sie außerhalb der
+optischen Achse sehr schlechte Abbildungs-Eigenschaften besitzen und ihre Herstellung
+schwierig ist. Trotzdem sind sie ein optisches Bauelement, das bei geeigneter Anwendung
+keine Abbildungsfehler erzeugt. Die Eigenschaften eines Parabolspiegel-Mikroskops mit
+großem Öffnungswinkel sind wenig bekannt und werden in dieser Arbeit ausführlich
+untersucht. In einem geeigneten konfokalen Aufbau zeigt es hervorragende Eigenschaften,
+insbesondere auch für Tieftemperatur-Anwendungen, da Mikroskop-Objektive bei tiefer
+Temperatur nur bedingt eingesetzt werden können. Für Nahfeld-Anwendungen besitzt es
+vielversprechende Eigenschaften in Kombination mit speziellem radial polarisiertem
+Laserlicht.
+Des weiteren wird der Aufbau eines Mikroskops mit Parabolspiegeloptik für die
+Einzelmolekül-Spektroskopie bei tiefen Temperaturen beschrieben und die guten Abbildungs-
+Eigenschaften werden experimentell untersucht.</abstract>
+                    <abstract type="content" lang="eng">In this thesis the applicability of a parabolic mirror with a large opening angle of almost
+ninety degree instead of the commonly used objective lenses for microscopic imaging is
+investigated. Parabolic mirrors with small opening angle are very common in telescope
+manufacturing and in telecommunications, whereas mirrors with large opening angle have
+been avoided, due to their poor imaging properties outside the optical axis and because the
+manufacturing is difficult. However, they are optical elements, which are free of aberrations,
+if appropriately applied. The properties of a parabolic mirror microscope with large opening
+angle are insufficiently known and are extensively investigated in this work. In an appropriate
+confocal setup it shows excellent imaging properties, also particularly for low temperature
+applications, where objective lenses show only restricted performance. For near-field optical
+applications it offers promising characteristics in combination with radially polarized laser
+beams.
+Furthermore the setup of a parabolic mirror microscope for single-molecule spectroscopy at
+low temperatures is described and the good imaging performance is experimentally
+investigated.</abstract>
+                    <subject>
+                        <topic>Parabolspiegeloptik</topic>
+                        <topic>konfokale  Mikroskopie</topic>
+                        <topic>Einzelmolekül-Spektroskopie</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 8, Chemie - Biologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1520</identifier>
+                    <identifier type="sys">HT013317469</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_152</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2001-12-09</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_152">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/152/1/lieb.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_152"
+            DMDID="DMD_siegen_opus_152">
+            <mets:fptr FILEID="FILE0_siegen_opus_152"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

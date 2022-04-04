@@ -1,0 +1,68 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1079</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Protection of the switches in a three-level inverter by using modified switching schemes for the redistribution of losses</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>The Minh</pc:foreName>
+            <pc:surName>Phan</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Wechselrichter</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Fehlertolerante Regelung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Mehrpunkt Wechselrichter</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Raumzeigermodulation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Verlustberechnung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Fault-tolerant control</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Multilevel inverter</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Space-vector modulation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Loss calculation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Lifetime extension</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">621</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Elektronische Ventile (IGBT, IGCT, usw.) eines Drei-Punkt-Wechselrichters (3L-NPC-VSI) für Mittelspannungsanwendungen werden üblicherweise auf separaten Kühlkörpern montiert, als Folge entsteht eine schwache thermische Kopplung zwischen den Ventilen. Wie aus der Literatur bekannt ist, kann im normalen Betrieb des Wechselrichters die Wärmeverteilung zwischen den Schaltern mit Hilfe verschiedener Verfahren verbessert werden. Trotzdem ist die Entstehung von lokalen Hotspots unter bestimmten Fehlersituationen wie: Störung im Kühlsystem, schlechter Platzierung der Ventile, Fehler in der Elektronik usw. unvermeidbar. Die lokale thermische Überlastung erhöht das Ausfallrisiko der betroffenen Ventile und reduziert die Lebensdauer des gesamten Systems.&#13;
+&#13;
+In der vorliegender Arbeit wird ein neuartiger fehlertoleranter Regelungsansatz entwickelt, um das Problem anzugehen. Im Falle der lokalen thermischen Überlastung wird die Pulsweitenmodulation bzw. werden die Schaltmuster so adaptiert, dass die thermisch belasteten Ventile geschont werden und ein Teil der Wärme auf andere, nicht überlastete Schalter verlagert wird. Dabei werden redundante Zustände des 3L-NPC-VSI ausgenutzt, welche dieselbe Ausgangsspannung haben, aber unterschiedlichen Einfluss auf die Verlustverteilung des Wechselrichters nehmen. Dank der aktiven Verlustverteilung zwischen den Ventilen bewegt sich der Temperaturwert der überlasteten Ventile im erlaubten Bereich und das System kann im Betrieb bleiben. Darüber hinaus wird die Lebensdauer des Wechselrichters selbst im Fehlerzustand maximiert.&#13;
+&#13;
+Der vorgeschlagene Ansatz wird in zwei verschiedenen Varianten untersucht. Die erste betrachtet den 3L-NPC-VSI als Stellglied einer feldorientiert geregelten Asynchronmaschine und modifiziert die Pulsweitenmodulation entsprechend. Im zweiten Fall wird die Direkte Drehmomentregelung (DTC) betrachtet und die Schalttabelle modifiziert. Die vorgeschlagene fehlertolerante Prozedur minimiert auch ihre Auswirkungen auf die Mittelpunktspannung des Zwischenkreises, ohne dass zusätzliche Hardware notwendig ist. Das Verfahren wird mittels Simulation und zahlreicher Messungen an einem Laborprüfstand validiert.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Switching devices (IGBT, IGCT, etc.) of Three-level Neutral-Point-Clamped Voltage Source Inverters (3L-NPC-VSI) for high-power applications are typically mounted on dedicated heatsinks, which results in a lack of heat sharing among the switches. Several control strategies have been proposed to enable even distribution of losses among the switches in normal operation, however a local thermal overload can occur due to adverse operating conditions such as: degradation of cooling system, inappropriate placing of semiconductor device, failures in electronics, etc. The thermal overload increases the risk of thermal breakdown of the affected device and reduces consequently the expected lifetime of inverter.&#13;
+&#13;
+A new fault-tolerant control approach is proposed in the work to deal with this matter. In case of thermal overload, the control method of inverter is immediately adapted, so that the stressed switch is relieved, the heat is distributed to the other devices which are not affected by the overload. Here, redundant states of multi-level inverter are taken advantage of, since redundancies of a voltage space vector deliver the same line-to-line output voltage, but having different impact on the loss distribution among the switches of the inverter. Thanks to the active redistribution of losses among the switches, the temperature of the affected device is kept under the critical limit. In this way, the lifetime of the inverter is maximized even in case of thermal overload. &#13;
+&#13;
+The proposed strategy will be examined with two control methods for the inverter feeding an induction machine: Fields Oriented Control (FOC) and Direct Torque Control (DTC), which are very widespread in the practice. The implementation of each control method requires different considerations and strategies. Finally, the impact of the optimized switching pattern on loss distribution among the switches will be verified by means of simulation and measurements on a laboratory set-up. During operation of the proposed control methods, the stability of the neutral-point potential of the inverter is ensured without any additional hardware.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2016-06-17</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2016</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-10791</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Automatisierungstechnik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_The_Minh_Phan.pdf" ddb:fileSize="25776197"/>
+   <ddb:checksum ddb:type="MD5">b8631d3c17085eee5dfa0a8e6a1674c7</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1079/1/Dissertation_The_Minh_Phan.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1079</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

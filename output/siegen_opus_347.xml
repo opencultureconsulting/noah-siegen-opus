@@ -1,0 +1,83 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_347">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Eine </nonSort>
+                        <title>Implementierung bis &quot;Next to Leading Order&quot; von b-Quarks in PHOJET</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <nonSort>Eine </nonSort>
+                        <title>An implementation up to &quot;next to leading order&quot; of b-quarks into PHOJET</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lammers, Stefan</displayForm>
+                        <namePart type="family">Lammers</namePart>
+                        <namePart type="given">Stefan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2008</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Diese Arbeit befasst sich mit der Implementierung der Produktion von b-Quarks in das Simulationsprogramm PHOJET (bzw. in das Simulationsprogramm DPMJET III, mit dem PHOJET aus technischen Gründen aufgerufen wird) bis &quot;Next to Leading Order&quot; nach einer Methode von S. Frixione und B.R.  Webber.
+Um eine für diese Art der Implementierung typische Schwierigkeit von Eventgeneratoren, das &quot;Double Counting&quot;, das während der Partonen-Schauer-Phase eintritt, weitgehend lösen zu können, wurde ein gegebenes Schema (in seiner ursprünglichen Form ist es für das Simulationsprogramm HERWIG angepasst und in dem Programm MC@NLO realisiert) adaptiert und entsprechend verändert. Der wesentliche Bestandteil daraus, der Subtraktionsterm, wurde dann für das Programm DPMJET III neu berechnet (Kapitel 4, Abschnitte 5.4 und 5.5 sowie ab Abschnitt 6.3). 
+Die Berechnungen wurden in Kapitel 7 an Hand von Vektorbosonenproduktion überprüft. Im Gegensatz zu dem Simulationsprogramm HERWIG wurde gefunden, dass DPMJET III für die relevante Konfiguration mit den gewählten Schauervariablen den &quot;Soft&quot;&apos;- und &quot;Kollinearen&quot;&apos; Bereich unter der Emission eines Partons in diesem Fall ohne weiteres &quot;Tuning&quot;&apos; korrekt beschreiben kann.
+ Nach einer Beschreibung der Eventgenerierung werden in Kapitel 9 schließlich Transversalimpulsverteilungen von &quot;Bottom&quot;-Mesonen zu einer Fermilab-Konfiguration präsentiert. Da die Modelle weitgehend den Daten entsprechen, sind die Subtraktionsterme im Wesentlichen Modell-unabhängig, und der mit dem Programm MC@NLO verfügbare Subtraktionsterm für das Simulationsprogramm HERWIG kann als Kontrolle herangezogen werden. Diese Vorhersagen wurden mit den experimentellen Daten, die durch die CDF-Kollaboration bereitgestellt wurden (Run I und II), verglichen. Nach einer moderaten Anpassung der Faktorisierungs- und Renormierungsskala wird eine Übereinstimmung mit den Fermilab-Daten gefunden.
+Für den Abschnitt 10.1 wurden ebenfalls unter einer LHCb-Konfiguration Transversalimpulsspektren von &quot;Bottom&quot;-Mesonen erzeugt. Dafür wurden die frei wählbaren Renormierungs- und Faktorisierungsskalen wie in Abschnitt 9.1 angesetzt. Auch diese Grafiken wurden mit beiden Subtraktionstermen erzeugt.
+DPMJET III und PHOJET sind vollständige und in vielen Aspekten getestete Eventgeneratoren. Da diese Programme den Hintergrund gut beschreiben, ist es möglich, mehr technische Fragen zu untersuchen. Der Abschnitt  10.2 präsentiert daher die Fähigkeit des Programms DPMJET III, auch als &quot;Teilchen-Rekonstruktions-Maschinerie&quot; arbeiten zu können. Um diese Rekonstruktionen durchführen zu können, wurde ein weiteres Programm geschrieben, dass die Zerfallsprodukte bestimmter &quot;Bottom&quot;-Mesonen-Zerfälle analysiert und darauf testet, ob die Sekundär-Teilchen aus einem der nachgelagerten Zerfälle zu einem B-Meson gehören können oder nicht. Solche Analysen sind hilfreich, wenn &quot;Mutterprodukte&quot; nur schwer (oder gar nicht) direkt zugänglich für experimentelle Messungen sind.</abstract>
+                    <abstract type="content" lang="eng">This works aim is primarily the implementation of b-quarks into the event generator PHOJET (respectively into DPMJET III containing PHOJET). Following a method of S. Frixione and B.R. Webber the implementation includes &quot;next to leading order&quot; in a perturbative expansion on partonic level.
+A typical problem of such a calculation in event generators that include initial and final state radiation is &quot;double counting&quot;. To overcome this error Frixione and Webber developed a scheme involving subtraction terms. In this thesis this elaborate method is adapted and implemented in DPMJET III by means of recalculation of this subtraction term to match DPMJET III needs (chapter 4 and sections 5.4, 5.5 as well as the section 6.3.
+ The correct outcome of this matching is shown in chapter 7 by means of production of vector bosons. In contrast to the event generator HERWIG it is found, that DPMJET III is able to reproduce the correct partonic behavior in the &quot;soft&quot;&apos; and &quot;collinear&quot;&apos; limits, when one additional parton is emitted.
+After a short description of the method of event generation this work presents, beginning with chapter 9 the results of the calculation which are then compared to available experimental data provided by the CDF collaboration (RUN I and II). A moderate adjustment of the two relevant scales (factorization and renormalization scales) leads to good agreement between model prediction and the CDF data. Subsequently the predictions for the transverse spectra of bottom mesons at LHCb (section 10.1) are presented. As the adjusted factorization and renormalization scales were kept, the results can be expected to be quite reliable.
+DPMJET III and PHOJET are highly checked out and complete event generators that can reliably reproduce the background part of the events. It is therefore possible to address more technical questions like the identification of B-mesons in realistic events to DPMJET III.  To investigate this task in a generic way a small program was built to identify daughter particles of specific bottom decays with suitable cuts on an event.</abstract>
+                    <subject>
+                        <topic>b-Quark</topic>
+                        <topic>Computerverfahren</topic>
+                        <topic>PHOJET</topic>
+                        <topic>DPMJET</topic>
+                        <topic>MC@NLO</topic>
+                        <topic>bottom quark</topic>
+                        <topic>PHOJET</topic>
+                        <topic>DPMJET</topic>
+                        <topic>MC@NLO</topic>
+                        <topic>bottom quark</topic>
+                        <topic>&quot;next to leading order&quot;</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 7, Physik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-3470</identifier>
+                    <identifier type="sys">HT015528520</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_347</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2008-04-22</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_347">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/347/1/Dissertation_Stefan_Lammers.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_347"
+            DMDID="DMD_siegen_opus_347">
+            <mets:fptr FILEID="FILE0_siegen_opus_347"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

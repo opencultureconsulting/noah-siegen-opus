@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_69">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Eine </nonSort>
+                        <title>Linienmethode zur approximativen Lösung inverser Probleme für elliptische Differentialgleichungen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Charton, Jean Mathias</displayForm>
+                        <namePart type="family">Charton</namePart>
+                        <namePart type="given">Jean Mathias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2004</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die vorliegende Arbeit behandelt die Herleitung, theoretische Analyse und praktischnumerische Erprobung einer Linienmethode für das Cauchy-Problem für elliptische Differentialgleichungen.
+Untersucht werden zum einen die Poisson- beziehungsweise Laplace-
+Gleichung und zum anderen eine allgemeinere Gleichung mit einem von einer Ortsdimension abhängigen Diffusionskoeffizienten. Auf der Grundlage einer bedingten Stabilitätsabschätzung für das kontinuierliche Problem vom Hölder-Typ, deren Beweis in der bisherigen Literatur zum Teil nicht ausreichend exakt durchgeführt wurde, und mit Hilfe der Einführung bestimmter endlichdimensionaler Datenräume, auf die man die (unter Umständen) gestörten Cauchy-Daten projeziert, gelingt die Regularisierung dieses schlecht gestellten Problems und der Nachweis von Fehlerabschätzungen und Konvergenzsätzen für die Linienmethode für beide
+betrachtete Differentialoperatoren. In dem Fall einer PDGL mit Diffusionskoeffizient werden dabei zusätzlich benötigte, umfangreiche Untersuchungen zur Konvergenz der Eigenwerte beziehungsweise Eigenvektoren der diskreten Approximation einer Sturm-Liouvilleschen Eigenwertaufgabe durchgeführt. Zum Abschluß werden einige numerische Ergebnisse vorgestellt
+und unter Bezugnahme auf die vorher erzielten theoretischen Resultate diskutiert. Eine etwas ausführlichere Übersicht über diese Arbeit, die den Rahmen dieser Zusammenfassung sprengen würde, befindet sich im Übrigen im Abschnitt 1.4.</abstract>
+                    <abstract type="content" lang="eng">In this thesis we deal with the development, theoretical examination and numerical implementation of a method of lines for the Cauchy-problem for elliptic partial differential equations. We consider both the Laplace-equation and a more general elliptic equation containing a diffusion coefficient, which depends on one of the space variables. Our main results for both differential operators are the regularization of the illposed Cauchy-Problem and
+the proof of error estimates leading to convergence results for the method of lines. We base them principally on two major foundations. The first one is a conditional stability result for the continuous Cauchy-problem, of which the proof in parts of the relevant literature was not carried out thoroughly enough. The second one consists of introducing certain finitedimensional spaces, onto which the possibly perturbed Cauchy-data is projected. For the more general PDE, comprehensive additional examinations are required, which reveal the convergence of the eigenvalues and eigenvectors of the discrete approximation of a Sturm-
+Liouville eigenvalue problem. We finish the thesis with the presentation of the results of some of our numerical computations and discuss them referring to the knowledge, we have gained by our preceding theoretical work. The reader can find a more detailed overview beyond the scope of this abstract in Section 1.4.</abstract>
+                    <subject>
+                        <topic>Linienmethode</topic>
+                        <topic>elliptische Differentialgleichungen</topic>
+                        <topic>inverse Probleme</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 6, Mathematik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-690</identifier>
+                    <identifier type="sys">HT014155921</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_69</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2004-07-28</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_69">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/69/1/charton.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_69"
+            DMDID="DMD_siegen_opus_69">
+            <mets:fptr FILEID="FILE0_siegen_opus_69"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

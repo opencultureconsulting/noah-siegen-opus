@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_283">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Sprache und Werke von vier Trobadors im Licht der Forschung unter besonderer Berücksichtigung fremdsprachlicher und dialektaler Einflüsse</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Language and works of four troubadours in the light of research and in special view of foreign and dialectal forms</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Stasyk, Maria</displayForm>
+                        <namePart type="family">Stasyk</namePart>
+                        <namePart type="given">Maria</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2006</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Werke vier bekannter Troubadours - namentlich Wilhelm IX. von Aquitanien, Peire Cardenal, Peire Vidal und Marcabru - werden in Bezug auf Sprache und Inhalt untersucht. Die Auswahl der vier genannten Troubadours trägt deren Bekanntheits- und Berühmtheitsgrad Rechnung und bezieht außerdem diachronische und regionale Aspekte mit ein. Aus den Gesamtwerken der vorstehend genannten werden sowohl stichprobenartig Lieder ausgewählt als auch besonders bekannte herangezogen. Im Mittelpunkt der Untersuchung stehen fremdspracheliche sowie dialektale Charakteristika, aber auch der Inhalt und wesentliche literaturwissenschaftliche Forschungsergebnisse werden kurz skizziert. An verschiedenen Stellen werden überdies besondere Merkmale der Manuskripte in die Detailuntersuchungen miteinbezogen. So liefert diese die Werke mehrerer Troubadours einbeziehende Analyse einen umfassenden Einblick in die sprachliche Kunstfertigkeit der provenzalischen Minnelyrik.</abstract>
+                    <abstract type="content" lang="eng">The works of four troubadours - namely William 9th of Aquitanine, Peire Cardenal, Peire Vidal and Marcabru - are examined with regard to content and language. The above-named troubadours were chosen because of their degree of fame and celebrity. In addition the presented choice is taking into account diachronic and regional aspects. By means of spot checks and including well-known pieces of lyric poetry not only the essential developments in research of literary studies are presented, but especially exceptional features of their language concerning foreign and dialectal forms are analyzed having regard to specific characteristics of the manuscripts. In the wide field of troubadour research a survey concerning the works of four famous troubadours is given to get a general and introductory idea of their linguistic skilfulness.</abstract>
+                    <subject>
+                        <topic>Okzitanisch</topic>
+                        <topic>Wilhelm IX. von Aquitanien</topic>
+                        <topic>Sprache</topic>
+                        <topic>William 9th of Aquitaine</topic>
+                        <topic>Peire Cardenal</topic>
+                        <topic>Peire Vidal</topic>
+                        <topic>occitan</topic>
+                        <topic>old provencal</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Siegener Institut für Sprache und Kommunikation im Beruf (SISIB)"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-2831</identifier>
+                    <identifier type="sys">HT015221904</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_283</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2007-05-09</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_283">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/283/1/stasyk.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_283"
+            DMDID="DMD_siegen_opus_283">
+            <mets:fptr FILEID="FILE0_siegen_opus_283"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

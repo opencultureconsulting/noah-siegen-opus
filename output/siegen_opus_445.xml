@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_445">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Statistical models for exceedances with applications to finance and environmental statistics</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Statistische Modelle für Exzedenten mit Anwendungen in der Finanzwirtschaft und Umweltstatistik</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Cormann, Ulf</displayForm>
+                        <namePart type="family">Cormann</namePart>
+                        <namePart type="given">Ulf</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">This thesis concerns statistical analysis for upper tails of distribution functions.
+Firstly, we derive asymptotic distributions of exceedances under general monotone transformations and analyze the pertaining domains of attraction. It turns out that all possible limiting distributions satisfy a certain form of a generalized pot-stability.
+We give a complete characterization of all strictly increasing, continuous limiting distributions. Further, we deduce the class of all limiting distributions under power-normalization and characterize the pertaining domains of attraction. The limiting distributions
+are identified as generalized log-Pareto and negative generalized log-Pareto distributions as well as a certain class of discrete distributions. Moreover, we introduce and study an extended class of generalized log-Pareto distributions and provide a hybrid Maximum-Likelihood estimator. These distributions can serve as a parametric
+asymptotic model for super-heavy tailed distributions.In the second part of this thesis statistical inference for the upper tail of the cnditional distribution of a response variable Y given a covariate X = x within the framework of asymptotic distributions is considered as well. We propose to base the inference on the conditional distribution of the point process of exceedances given the point process of covariates. The results are valid within a model where the response
+variables are conditionally independent given the covariates.
+Both parts of the thesis are linked to each other by the fact that that a Pareto modeling of the conditional distribution leads to super-heavy upper tailed unconditional distributions.</abstract>
+                    <abstract type="content" lang="ger">Diese Arbeit thematisiert die statistische Analyse der oberen Flanken einer Verteilungsfunktion.
+Zuerst werden asymptotische Verteilungen von Exzedenten unter monotonen
+Normalisierungen hergeleitet sowie die zugehörigen Anziehungsbereiche analysiert. Es stellt sich heraus, dass alle stetigen Grenzverteilungen verallgemeinert pot-stabil sind.
+Für den Fall, dass die Normalisierung einer zusätzlichen Bedingung genügt, gilt dies für alle nicht-degenerierten Grenzverteilungen, einschließlich der diskreten. Die Familie der streng monoton steigenden, stetigen Grenzverteilungen sowie die Familie der
+Grenzverteilungen unter Power-Normalisierung werden vollständig charakterisiert. In letzterem Fall treten verallgemeinerte log-Pareto Verteilungen, negative verallgemeinerte log-Pareto Verteilungen sowie bestimmte p-pot stabile, diskrete Familien auf.
+Weiterhin wird eine erweiterte Familie von verallgemeinerten log-Pareto Verteilungen eingeführt und untersucht. Letztere können als asymptotisches Modell für Verteilungen mit super-schweren Flanken dienen.
+Im zweiten Teil der Arbeit wird die obere Flanke der bedingten Verteilung einer Response-Variable Y gegeben einer Kovariablen X = x untersucht. Hierzu werden die asymptotischen Ergebnisse für Exzedentenverteilungen aus dem ersten Teil der Arbeit herangezogen. In der vorliegenden Arbeit wird ein bedingtes Punktprozessmodell
+eingeführt und für die statistische Analyse verwendet. Die zugehörigen Ergebnisse sind gültig, falls die Response-Variablen bedingt unabhängig unter den Kovariablen sind. Eine Verbindung der beiden Teile der Arbeit wird durch die Tatsache hergestellt, dass eine Modellbildung mit Pareto-Verteilungen im bedingten Fall zu unbedingten Verteilungen mit super-schweren Flanken führt.</abstract>
+                    <subject>
+                        <topic>Extremwertstatistik</topic>
+                    </subject>
+                    <classification authority="ddc">510</classification>
+                    <classification authority="ioo" displayLabel="Statistik, Risikoanalyse &amp; Computing"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4450</identifier>
+                    <identifier type="sys">HT016474677</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_445</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2010-04-27</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_445">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/445/1/cormann.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_445"
+            DMDID="DMD_siegen_opus_445">
+            <mets:fptr FILEID="FILE0_siegen_opus_445"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

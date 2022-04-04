@@ -1,0 +1,83 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_355">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Image registration via entropy consideration and data fusion</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Amankwah, Anthony</displayForm>
+                        <namePart type="family">Amankwah</namePart>
+                        <namePart type="given">Anthony</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2008</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Image registration is a process by which the most accurate match is determined between two images, which may have been taken at same or different times, by the same or different sensors, from the same or different viewpoints. It is one of the crucial steps in remote sensing. Image registration requires intensive computational effort, not only because of its computational complexity but also the increasing resolution of images. For high accuracy and robustness as well as low computational cost a suitable similarity metric, a reduction in search data and a robust search space strategy is needed.
+
+Reduction in search data can be achieved by using a few subimages for image registration. We propose a new measure, called alignability, which shows the ability of subimages to provide robust and reliable results. We compare this feature to entropy, variance and gradient magnitude respectively. We show that using alignability produces not only reliable but robust results in image registration.
+
+In the dissertation, we investigate mutual information as a similarity metric. We show the effect of bin size on mutual information. Increasing the number of bins discriminates more image intensities, on the other hand, in decreasing the number of bins mutual information becomes noisy or even fail. We propose two methods which formalize the selection of bin size. We show that using the proposed methods increases the robustness of mutual information.
+
+Mutual information has emerged in recent years as a popular similarity metric in the registration of images. Unfortunately, it ignores the spatial information contained in the images such as edges and corners that might be useful in the matching of images. It takes into account only the relationships between corresponding individual pixels and not those of each pixel&apos;s neighborhood. However, it is essential to consider both quantitative and qualitative information in the registration of images. We propose a new similarity metric, called spatial mutual information, which combines mutual information and a weighting function based on image gradient, image variance, and image entropy of local regions. Salient pixels in the in regions with high gradient, high variance and high entropy contribute more in the estimation of mutual information of image pairs being registered. We show that spatial mutual information is more robust to noise than mutual information. We also demonstrate that the spatial mutual information is not only more robust than mutual information but more reliable in the registration of multitemporal images.
+
+A search space strategy based on Robbins-Monro stochastic approximation algorithm is also introduced. Results show that the algorithm is not only fast but robust as well.</abstract>
+                    <abstract type="content" lang="ger">Die Bildregistrierung ist ein Prozess, durch den die genaueste Übereinstimmung zwischen zwei Bildern bestimmt wird. Dabei können die Bilder zu gleichen oder unterschiedlichen Zeitpunkten, durch denselben oder verschiedene Sensoren vom gleichen oder von einem anderen Betrachtungswinkel aufgenommen worden sein. Es ist einer der entscheidenden Schritte in der Fernerkundung. Die Bildregistrierung erfordert einen enormen Rechenaufwand. Dieser resultiert nicht nur aus der Komplexität der Berechnungen, sondern auch aufgrund der immer weiter zunehmenden Auflösung der Bilder. Für eine hohe Genauigkeit und Robustheit als auch für einen möglichst niedrigen Berechnungsaufwand sind ein passendes Ähnlichkeitsmaß, die Verminderung der &quot;Search Data&quot; und eine robuste Suchraumstrategie erforderlich. 
+
+Die Reduzierung der Search Data kann durch die Verwendung einiger Subimages für die Bildregistrierung erreicht werden. Wir schlagen ein neues Maß, genannt Alignabilty, vor, das die Fähigkeit von Subimages zeigt, robuste und zuverlässige Ergebnisse zur Verfügung zu stellen. Wir vergleichen dieses Merkmal mit der Entropie, der Varianz bzw. dem Betrag des Gradienten. Wir zeigen, dass die Verwendung von Alginability nicht nur zuverlässige, sondern auch robuste Ergebnisse in der Bildregistrierung erzeugt.
+
+In der vorliegenden Dissertation, wird die Verwendung von Mutual Information als ein Ähnlichkeitmaß untersucht. Wir zeigen die Auswirkung der Bin-Size auf die Mutual Information. Durch die Erhöhung der Bin-Anzahl können mehr Bildintensitäten unterschieden werden. Anderseits wird durch die Verringerung der Bin-Anzahl die Mutual Information verrauscht oder schlägt fehl. Wir schlagen zwei Methoden vor, die die Auswahl der Bin Size Größe formalisieren. Wir zeigen, wie die Verwendung der vorgeschlagenen Methoden die Robustheit der Mutual Information erhöht.
+
+Die Mutual Information hat sich in den vergangenen Jahren zu einem populären Ähnlichkeitsmaß in der Bildregistrierung entwickelt. Leider ignoriert Mutual Information die in Bildern enthaltene Ortsinformation wie z.B. Kanten und Ecken, die zum Matching von Bildern nützlich sein könnten. Es werden nur die Beziehungen zwischen korrespondierenden Pixeln betrachtet, nicht die der näheren Umgebung. Jedoch ist es notwendig, sowohl quantitative als auch qualitative Information in der Registrierung zu betrachten. Wir stellen ein neues Ähnlichkeitsmaß vor. Dieses wird Spatial Mutual Information genannt und kombiniert die Mutual Information mit einer Gewichtsfunktion, basierend auf dem Bildgradienten, der Bildvarianz und der Bildentropie einer lokalen Bildregion. Hervorspringende Pixel in Gebieten mit einem hohen Gradienten, einer hohen Varianz und einer hohen Entropie tragen mehr zur Schätzung der Mutual Information von Bildpaaren bei die registriert werden. Wir zeigen, dass die Spatial Mutual Information gegenüber Rauschen robuster ist als die Mutual Information. Wir zeigen auch, dass die Spatial Mutual Information nicht nur robuster ist als die Mutual Information, sondern auch zuverlässiger in der Registrierung von multitemporalen Bildern ist. 
+
+Eine auf dem Robbins-Monro stochastischen Approximationsalgorithmus beruhende Suchraumstrategie wird auch eingeführt. Die Ergebnisse zeigen, dass der Algorithmus nicht nur schnell, sondern auch robust ist.</abstract>
+                    <subject>
+                        <topic>Bildregistrierung</topic>
+                        <topic>Mutual Information</topic>
+                        <topic>Suchraumstrategie</topic>
+                        <topic>Search Space Strategie</topic>
+                        <topic>Search Data Strategie</topic>
+                        <topic>image registration</topic>
+                        <topic>mutual information</topic>
+                        <topic>search space strategie</topic>
+                        <topic>search data strategie</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-3551</identifier>
+                    <identifier type="sys">HT015588074</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_355</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2008-04-14</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_355">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/355/1/amankwah.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_355"
+            DMDID="DMD_siegen_opus_355">
+            <mets:fptr FILEID="FILE0_siegen_opus_355"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

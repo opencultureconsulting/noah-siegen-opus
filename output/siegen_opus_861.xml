@@ -1,0 +1,84 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_861">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Die </nonSort>
+                        <title>Auslandsbeziehungen der deutschen Kommunen im Rahmen der europäischen Kommunalbewegung in den 1950er und 60er Jahren : Städtepartnerschaften - Integration - Ost-West-Konflikt</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bautz, Ingo</displayForm>
+                        <namePart type="family">Bautz</namePart>
+                        <namePart type="given">Ingo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2002</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Nach dem Ende des Zweiten Weltkriegs drängten die Kommunen als transnationale Akteure erstmals
+auf die Bühne der internationalen Beziehungen. Im Selbstverständnis vieler Kommunalpolitiker war
+es das Ziel, die Macht der Nationalstaaten durch europäische Integration von oben und Ausbau der
+kommunalen Selbstverwaltung von unten einzuschränken.
+Im Gegensatz dazu waren die europäischen Regierungen vor allem daran interessiert, im Rahmen
+einer „Europäischen Erziehung“ die notwendige öffentliche Unterstützung für die als unabdingbar
+empfundenen Integrationsschritte auf europäischer Ebene sicherzustellen. Weitergehende kommunalund
+europapolitische Forderungen der Kommunen stießen dagegen auf einhellige Ablehnung.
+In den 1950er und 60er Jahren wurden die transnationalen Beziehungen der Kommunen von den
+europäischen Regierungen daher koordiniert, reglementiert und – im Falle des Ost-West-Konfliktes –
+auch instrumentalisiert. Dennoch sind die Städtepartnerschaften und die Europäischen
+Kommunalkonferenz beim Europarat wichtige kommunale Beiträge im Rahmen der Europäischen
+Integration.</abstract>
+                    <abstract type="content" lang="eng">After World War II municipalities became transnational actors in international politics for the first
+time. By European Integration from above and the widening of local autonomy from below, many
+local politicians aimed to reduce the power of nation-states.
+In contrast the national governments were – in the first place – interested to create sufficient public
+support for the necessary steps toward integration on the European level. Therefore they fostered the
+local initiatives in the field of “European Education” and blocked the far-reaching demands for local
+autonomy and European Integration.
+In 1950s and 60s the transnational relations of municipalities were co-ordinated, regularised, and – in
+the case of East-West-relations – instrumentalised by the European governments. Nonetheless
+twinnings and the European Conference of Local Authorities were important municipal contributions
+to European Integration.</abstract>
+                    <subject>
+                        <topic>Städtepartnerschaft</topic>
+                        <topic>Europäische Integration</topic>
+                        <topic>Ost-West-Konflikt</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 1, Sozialwissenschaften - Philosophie - Theologie - Geschichte - Geographie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-119</identifier>
+                    <identifier type="sys">HT013496415</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_861</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2002-02-10</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_861">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/861/1/bautz.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_861"
+            DMDID="DMD_siegen_opus_861">
+            <mets:fptr FILEID="FILE0_siegen_opus_861"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

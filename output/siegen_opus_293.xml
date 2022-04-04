@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_293">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Gründerstudie 06/07 der Universität Siegen : auf dem Weg zur Unternehmer-Uni</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Heinemann, Daniel</displayForm>
+                        <namePart type="family">Heinemann</namePart>
+                        <namePart type="given">Daniel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Welter, Friederike</displayForm>
+                        <namePart type="family">Welter</namePart>
+                        <namePart type="given">Friederike</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2007</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In der Siegener Gründerstudie 06/07 wurden Studierende, Wissenschaftliche Mitarbeiter sowie Professoren zu ihrer Gründungsbereitschaft befragt. Mit Hilfe dieser nach Fachgruppen getrennten Analyse können die besonderen Charakteristika der potenziellen Gründer aus der Hochschule identifiziert und ihre spezifischen Anforderungen an sowie die Wahrnehmung der hochschulinternen Rahmenbedingungen erhoben werden. Die Erkenntnisse über die Bewertung der vorhandenen Gründungsinfrastruktur und des Entrepreneurship-Lehre Angebots der Universität Siegen werden genutzt, den Status quo der Universität Siegen auf dem Weg zu einer Unternehmer-Uni zu ermitteln und Empfehlungen für eine verbesserte Ausgestaltung der Gründersensibilisierung und -qualifizierung, sowie des Gründercoaching abzuleiten.</abstract>
+                    <subject>
+                        <topic>Universität Siegen</topic>
+                        <topic>Gründerstudie</topic>
+                        <topic>Gründung</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-2935</identifier>
+                    <identifier type="sys">HT015327389</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_293</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_293">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/293/1/Gruenderstudie_2006_2007.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_293"
+            DMDID="DMD_siegen_opus_293">
+            <mets:fptr FILEID="FILE0_siegen_opus_293"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

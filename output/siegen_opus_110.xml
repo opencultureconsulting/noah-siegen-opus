@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_110">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Spurenbestimmung von Insektiziden in Sedimenten und Böden aus dem Einzugsgebiet des Lake Abaya / Äthiopien</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schmeck, Thorsten</displayForm>
+                        <namePart type="family">Schmeck</namePart>
+                        <namePart type="given">Thorsten</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2005</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Zur Spurenanalyse von fünfzehn Insektiziden, im wesentlichen Organochlorpestizide, im µg kg -1 -Bereich in Sedimentenbohrkernen und Böden aus dem Einzugsgebiet des Lake Abaya, einem der großen Binnenseen Äthiopiens, wurden Messmethoden, von der Probenvorbereitung bis zur Bestimmung mittels GC-MS, untersucht.
+Die Messmethoden wurden mit Hilfe ausführlicher Experimente zu den Wiederfindungen der Analyten validiert. Zur Extraktion wurden Ultraschallextraktion (USE), Soxhletextraktion und Beschleunigte Lösungsmittelextraktion (PSE/ASE) verwendet. Als Lösungsmittel wurden
+Hexan, Dichlormethan, Hexan/ Aceton (1/1, v/v) und Ethylacetat/Methyl-tert-butylether (1/3, v/v) verglichen. Matrixeffekte bei der Quantifizierung wurden nachgewiesen und ausführlich diskutiert. Zur Analyse der Realproben wurde die Ultraschallextraktion mit Dichlormethan als Lösungsmittel ausgewählt, da sie gute Wiederfindungen und mit Matrixbestandteilen gering
+belastete Extrakte lieferte. Die Methode konnte mit Hilfe eines zertifizierten
+Referenzmaterials erfolgreich überprüft werden. Die gemessenen Konzentrationen stimmten sehr gut mit den zertifizierten Konzentrationen überein. Bei der Untersuchung der Proben konnte eine Kontamination des Untersuchungsgebietes mit dem Insektizid DDT und seinen Metaboliten DDD und DDE im Bereich von 1,6 µg kg -1 bis 3390 µg kg -1 erfolgreich nachgewiesen werden.</abstract>
+                    <abstract type="content" lang="eng">Method validation for trace analysis of fifteen insecticides, mainly organochlorine insecticides, in the µg kg -1 -range in sediment cores and soils from the Lake Abaya watershed, one of the great lakes in the Ethiopian rift valley, was carried out. Extraction methods studied were ultrasonic extraction (USE), Soxhlet extraction and pressurized solvent extraction
+(PSE/ASE). Determinations were carried out using GC-MS. Hexane, dichloromethane,
+hexane/ acetone (1/1, v/v) und ethylacetate/ methyl-tert-butylether (1/3, v/v) were used as solvents. Matrix effects were identified in quantification and discussed. Due to good analyte recoveries and a low yield of undesired matrix compounds coextracted from the samples, ultrasonic extraction with dichloromethane as solvent was used for sample analysis. The method was validated using a certified reference material. Values measured were in good
+agreement with the certified values. A contamination of the Lake Abaya region with the insecticide DDT and its metabolites DDD and DDE was found at concentrations between 1,6 µg kg -1 and 3390 µg kg -1 .</abstract>
+                    <subject>
+                        <topic>Sedimente</topic>
+                        <topic>Insektizide</topic>
+                        <topic>Äthiopien</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 8, Chemie - Biologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1106</identifier>
+                    <identifier type="sys">HT014456877</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_110</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2005-07-28</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_110">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/110/1/schmeck.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_110"
+            DMDID="DMD_siegen_opus_110">
+            <mets:fptr FILEID="FILE0_siegen_opus_110"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

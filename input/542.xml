@@ -1,0 +1,55 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>542</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Operator Scaling Stable Random Sheets with application to binary mixtures</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Operator skalierende stabile Zufallsblätter zur Simulation von Entmischungsvorgängen</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Alexander</pc:foreName>
+            <pc:surName>Hoffmann</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Zufallsoperator</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Hölderregularität</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">OSSRF</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Alpha Stable Random Fields</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">510</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Zufallsfelder eignen sich gut zur Modellierung von Ereignissen aus den verschiedensten Fachgebieten. Sie werden z.B. zur Simulation von Naturphänomenen in der Physik, der Hydrologie oder der Geologie eingesetzt. Hierbei sind natürlich gewisse Eigenschaften erwünscht, welche die Zufallsfelder erfüllen sollten. Zur geeigneten Modellierung sind sehr häufig eine Selbstähnlichkeit bezüglich der Skalierung der Felder sowie gewisse anisotrope Strukturen notwendig. Kamont führte das erste Beispiel von anisotropen, selbstähnlichen Gauss'schen Zufallsfeldern ein, das Fractional Brownian Sheet (FBS). Bei diesen Feldern können die einzelnen Achsen unabhängig voneinander skaliert werden. Ein anderes Konzept von anisotropen, selbstähnlichen Zufallsfeldern sind die Operator Scaling Stable Random Fields (OSSRF), welche von H. Biermé, M. Meerschaert und H.P. Scheffler eingeführt wurden. Diese Zufallsfelder weisen globale Abhängigkeitsstrukturen auf, wobei die Unterräume jedoch nicht mehr wie im Fall von FBS voneinander entkoppelt werden können. Die grundlegende Idee dieser Arbeit besteht nun darin, die Konzepte von FBS und OSSRF miteinander zu verbinden, um eine Klasse von Zufallsfeldern zu erhalten, welche eine sehr flexible Gestaltungsmöglichkeit bietet, indem man die gewünschten Eigenschaften beider Konzepte verbindet. Um aufzuzeigen, welchen entscheidenden Vorteil die Verknüpfung der beiden Konzepte bietet, wird zur Simulation von Entmischungsvorgängen ein geeignetes Zufallsfeld erzeugt, welches die bisherigen Simulationsergebnisse qualitativ deutlich verbessert.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Random fields are useful for modeling events from different subject areas. They are for example used for simulation of natural phenomena in physics, hydrology, or geology. In order to faithfully model these phenomena, the random fields need to have properties often observed in real data and experiments: scaling properties, also known as 'statistical' self-similarity and anisotropy, that is different scaling in different directions. A. Kamont introduced the first example of anisotropic self-similar Gaussian random field, the fractional Brownian sheet (FBS). These fields scale independently and at possible different rates along the coordinate axes. Another concept of anisotropic self-similar random fields are the Operator Scaling Stable Random Fields (OSSRF) introduced by H. Biermé, M. Meerschaert, and H.-P. Scheffler. These random fields have global dependence structures, but the subspaces can not be decoupled as in the case of FBS. The basic idea of this work is to link the concepts of FBS and OSSRF to get a class of random fields, which offers very flexible design possibilities by connecting the characteristics of both concepts. To show the advantage of the combination of these two concepts, we simulate segregation processes driven by our random field which improve previous simulation results using isotropic fields, yielding results close to experimental data</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2011-09-04</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2011</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-5425</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV - Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="hoffmann.pdf" ddb:fileSize="8259040"/>
+   <ddb:checksum ddb:type="MD5">2ba9e14225af686ac376a035bde463e2</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/542/1/hoffmann.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/542</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

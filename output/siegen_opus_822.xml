@@ -1,0 +1,110 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_822">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>I AM ERROR : Störungen des Computerspiels</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Rautzenberg, Markus</displayForm>
+                        <namePart type="family">Rautzenberg</namePart>
+                        <namePart type="given">Markus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wolfsteiner, Andreas</displayForm>
+                        <namePart type="family">Wolfsteiner</namePart>
+                        <namePart type="given">Andreas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bojahr, Philipp</displayForm>
+                        <namePart type="family">Bojahr</namePart>
+                        <namePart type="given">Philipp</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schwingeler, Stephan</displayForm>
+                        <namePart type="family">Schwingeler</namePart>
+                        <namePart type="given">Stephan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Beil, Benjamin</displayForm>
+                        <namePart type="family">Beil</namePart>
+                        <namePart type="given">Benjamin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hensel, Thomas</displayForm>
+                        <namePart type="family">Hensel</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Beil, Benjamin...</displayForm>
+                        <namePart type="family">Beil</namePart>
+                        <namePart type="given">Benjamin...</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">PeriodicalPart</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Für die Medientheorie erweisen sich Phänomene der Störung spätestens dann als
+besonders bedeutsam, wenn sie nicht mehr nur als Un- oder Zufälle ansonsten
+›reibungslos‹ verlaufender medientechnischer Prozesse gedeutet, sondern als integraler Bestandteil von Medialität selbst begriffen werden können. Von Martin
+Heideggers »Zeug«-Analysen bis zu Michel Serres‘ »Parasitologie« ist Störung mit
+und gegen das kommunikationstheoretische Paradigma als jenes Element beschrieben
+worden, anhand dessen sich die materielle Eigensinnigkeit der Medien selbst beobachten lässt und das damit den Blick auf Dynamiken von Medialität jenseits der Funktionsweise technischer Artefakte lenkt. Dies ist einer der zentralen
+Ansatzpunkte aktueller Medientheorie, die hoffen kann, aufgrund des Explikationspotenzials des Störungsphänomens den Begriff des Medialen schärfer konturieren zu können.</abstract>
+                    <subject>
+                        <topic>Computerspiel</topic>
+                    </subject>
+                    <classification authority="ddc">793</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-8227</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_822</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>journal issue</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_822">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/822/1/Navigationen_I_am_error.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_822"
+            DMDID="DMD_siegen_opus_822">
+            <mets:fptr FILEID="FILE0_siegen_opus_822"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

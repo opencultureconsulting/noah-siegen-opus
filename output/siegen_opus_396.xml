@@ -1,0 +1,81 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_396">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Crystal Ball : die Gewinnung von verwertbarer Information aus Datenobjekten mit unscharfem Zusammenhang</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Montino, Ralf</displayForm>
+                        <namePart type="family">Montino</namePart>
+                        <namePart type="given">Ralf</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2009</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In den Zeiten der Globalisierung steigen für die Unternehmen nicht nur die Chancen, sondern auch die Herausforderungen. Der ständig vorhandene Wettbewerb fordert von jedem Unternehmen, seine Produkte und Prozesse kontinuierlich zu verbessern. Differenzieren können sich die Anbieter über eine bessere Qualität der Produkte. Neben der Steigerung der Kundenzufriedenheit führt eine bessere Produktqualität durch höhere Planungssicherheit und geringere Ausschüsse zu reduzierten Kosten und steigert damit die Wettbewerbsfähigkeit des Unternehmens.
+Insbesondere bei der Herstellung von Produkten für die Automobilzulieferindustrie sind die Qualitätsanforderungen bereits seit langem sehr hoch. Am Beispiel der Halbleiterindustrie wird der Stand der Technik beschrieben. Die heute eingesetzten Werkzeuge und Abläufe dienen nahezu durchgängig der Sicherstellung der hinreichend identischen Reproduktion von einzelnen Prozessschritten, die zuvor als richtig definiert wurden. Insbesondere bei den sehr komplexen Herstellungsprozessen sind die Auswirkungen von Variationen bei einzelnen Prozessschritten auf das Endprodukt häufig nicht klar.
+In den vergangenen Jahren haben sich viele Unternehmen unterschiedlichster Größe mit Unterstützung von Hochschulen und Instituten mit der Suche nach Lösungen für die Handhabung der sehr großen vorhandenen Datenmengen und Gewinnung von verwertbarer Information aus diesen beschäftigt.
+Der Fokus der hier vorliegenden Arbeit liegt auf der Suche nach den Ursachen für Abweichungen in einem hochkomplexen Fertigungsumfeld. Aufgrund der Vielzahl der Einflussfaktoren und dem langen Fertigungsdurchlauf führt eine analytische Lösung nicht zum Ziel. 
+Abweichend vom in der Literatur beschriebenen Einsatz von Neuronalen Netzwerken zur Klassifizierung oder Prognose des Verhaltens von komplexen Systemen wird hier ein solches Netzwerk eingesetzt, um die Ursachen für das Systemverhalten zu identifizieren. Ebenfalls neu ist die Reduktion der Datenmenge durch den Einsatz der Feature Selection, wobei das Neuronale Netz jeweils als Validierungsinstanz der Feature Selection genutzt wird. Um keine möglichen Lösungen auszuschließen, wird keinerlei Wissen über die technischen Zusammenhänge für diese Verfahren genutzt.
+Durch diese Kombination aus datenreduzierendem (Feature Selection) und wissensgenerierendem (Neuronale Netz) Verfahren gelingt es, die für den untersuchten Effekt relevanten Eingangsparameter zu isolieren. Darüber hinaus liefern die Regeln des Neuronalen Netzes Hinweise für die Prozessoptimierung oder Fehlerverhütung. 
+Dieses neu entwickelte Verfahren wurde zunächst erfolgreich mit synthetischen Daten validiert. Anschließend erfolgte der Einsatz des Systems mit Daten aus der Fertigung. Hier konnten überzeugende Ergebnisse erreicht werden.
+In einem aufgezeigten Beispiel wurde für ein Produkt bei mehr als 1000 Datensätzen aus einer Menge von nahezu 100 Parametern eine kleine Anzahl von Parametern identifiziert, die für den untersuchten unerwünschten Effekt verantwortlich waren.
+Aktuell befindet sich das System in der Einführung bei einem Halbleiterhersteller. Weitere Unternehmen haben Interesse an dem Verfahren geäußert. Darüber hinaus scheint ein Einsatz des Verfahrens auch in anderen Bereichen der Wirtschaft sinnvoll, insbesondere wenn es sich um Geschäftsprozesse handelt, die sehr hohe Qualitätsanforderungen mit einer guten Dokumentation der durchgeführten Prozesse verbinden.</abstract>
+                    <abstract type="content" lang="eng">In times of globalization opportunities but also challenges are rising for the enterprises. The permanent competition requires continuous improvement of products and processes from all companies. The companies can set themselves apart from the market by better quality. Beside the increase in customer satisfaction, improvement of quality leads to reduced costs by higher reliability in planning and reduced scrap. A rising competiveness of the company is the result.
+The production of parts for the automotive industry has been faced with very high quality demands for a long time. Taking the semiconductor industry as example, the state of the art will be described.
+Reproducing single process steps -which have been defined as correct before- as identical as necessary is the main target of tools and procedures which are currently used. Especially in very complex production processes, the impact of variations in a single process step for the final product is often not clear.
+Many companies -from small ones to the very big ones- made a lot of efforts together with universities and institutes. They searched for solutions to deal with the huge amounts of data and they tried to gain useful information from this data.
+The focal point of this work is the retrieval of root causes for deviations in a very complex production environment. Because of the huge amount of influencing parameters and the long production time, an analytical solution does not lead to the target.
+As described in the literature, Neural Networks are often used for classification purposes or for prediction of the behavior of complex systems. In this elaboration, a Neural Network is used to find the root cause for the system behavior. Also new is data reduction by Feature Selection, whereas the Neural Network acts as validation instance for the selected parameters. No knowledge about the technical dependencies is being used in this process. So, no possible solutions are excluded in advance.
+With this combination of data reduction (Feature Selection) and knowledge generation (Neural Network), the relevant input parameters for the analyzed effect can be identified successfully. Furthermore, the rules of the Neural Network provide hints for process optimization and error prevention.
+At first, this newly developed method has been validated successfully with synthetic data. After that, the system has been used with real production data obtaining convincing results.
+Analyzing one problem as an example, more than 1000 datasets from one product were selected. The system identified a small number of parameter responsible for the effect from a bunch of nearly 100. 
+Actually, the method is being implemented at a semiconductor manufacturer. Other companies show interest in this method. 
+Beyond that, an implementation of this method seems to be reasonable in other parts of the economy, especially when there are business processes with a combination of high quality requirements and a very good documentation of these processes.</abstract>
+                    <subject>
+                        <topic>Datenanalyse</topic>
+                        <topic>neuronale Netze</topic>
+                        <topic>zero defect</topic>
+                        <topic>neural networks</topic>
+                        <topic>feature selection</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-3965</identifier>
+                    <identifier type="sys">HT016050683</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_396</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2009-07-06</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_396">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/396/1/montino.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_396"
+            DMDID="DMD_siegen_opus_396">
+            <mets:fptr FILEID="FILE0_siegen_opus_396"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

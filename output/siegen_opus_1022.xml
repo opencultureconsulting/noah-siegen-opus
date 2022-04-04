@@ -1,0 +1,85 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1022">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Real-time simulation of time-of-flight sensors and accumulation of range camera data</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Echtzeit Simulation von Time-of-Flight Sensoren und Akkumulation von Tiefendaten</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Keller, Maik</displayForm>
+                        <namePart type="family">Keller</namePart>
+                        <namePart type="given">Maik</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The present thesis addresses the topic of 3D range imaging in a twofold way: new methods in the field of range data simulation as well as the accumulation of range images into a consistent data representation, namely 3D environment models, for high quality 3D object reconstruction are proposed.
+
+Within the last years inexpensive Time-of-Flight (ToF) range imaging devices have become an alternative to traditional depth measuring approaches. ToF cameras measure full-range distance information by actively illuminating a scene and measuring the time until back-scattered light is detected. The final distance information is computed from multiple raw images. This thesis proposes a method for simulating the ToF principle in real-time along with the major sensor characteristics. The approach is motivated by physically-based illumination models and applied to the simulation of Photonic Mixing Devices, a specific type of ToF sensors.
+
+Furthermore, this thesis presents new methods of range data accumulation in real-time. While the hierarchical volumetric approach supports merging and subtraction of sub-volumes with arbitrary resolutions, the point-based fusion method accounts for spatial limitations of previous approaches and addresses high quality 3D reconstructions at extended scales. Additionally, dynamically changing scenes are supported which results in advanced camera pose estimation as well as reduced drift errors. The algorithms are evaluated using simulated data as well as real camera data from structured light and ToF devices.
+
+The algorithms presented in this thesis feature an extensive data-parallel implementation on current graphics processing units in order to ensure the online capability of the methods but without restricting the algorithms to hardware-specific features.</abstract>
+                    <abstract type="content" lang="ger">Die vorliegende Arbeit befasst sich im Bereich der 3D Tiefen-Bildverarbeitung mit zwei unterschiedlichen Themengebieten: zum einen geht es um neue Ansätze zur Simulation von Tiefenbilddaten, zum anderen geht es um die Akkumulierung von Entfernungsbildern in eine konsistente Datenbasis - auch 3D Umgebungsmodelle genannt - für qualitativ hochwertige 3D Objektrekonstruktionen.
+
+Im Laufe der letzten Jahre haben sich kostengünstige 3D Laufzeitkamerasysteme (Time-of-Flight, ToF) zu einer ernstzunehmenden Alternative zu traditionellen Abstandsmessverfahren etabliert. ToF-Kameras erfassen Entfernungsbilder, indem die Szene aktiv beleuchtet und die Laufzeit des reflektierten Lichts bestimmt wird. Dabei werden die Tiefendaten aus mehreren Rohbildern rekonstruiert. Diese Arbeit stellt einen Ansatz zur Echtzeit-Simulation des ToF-Verfahrens vor, welcher auch die Simulation von relevanten Sensor-Charakteristiken umfasst. 
+Der Ansatz ist physikalisch motiviert und findet seine Anwendung in der Simulation von Photomischdetektoren (Photonic Mixing Devices), welche auf dem Lichtlaufzeitverfahren basieren.
+
+Darüber hinaus werden in der vorliegenden Arbeit neue Verfahren für die Akkumulierung von Entfernungsbildern präsentiert. Der hierarchisch-volumetrische Ansatz unterstützt das Hinzufügen und Entfernen von Teil-Volumen mit unterschiedlicher Auflösung. Im Gegensatz zu bisherigen Ansätzen stellt die punkt-basierte Methode qualitativ hochwertige Rekonstruktion von großen Szenen sicher. Des Weiteren werden dynamische Szenen unterstützt. Dadurch verbessern sich die Abschätzung der Kamerapose sowie das Abdriften während der Datenfusion. Die Anwendung der Algorithmen wird unter Nutzung von Simulationsdaten und realen Kameradaten (basierend sowohl auf dem strukturierten Licht-Ansatz als auch auf dem ToF Verfahren) demonstriert. 
+
+Alle präsentierten Algorithmen zeichnen sich durch eine umfangreiche daten-parallele Implementierung auf derzeit verfügbaren Grafikkarten aus, um die Echtzeitverarbeitung sicherzustellen. Die Algorithmen werden dabei nicht auf hardware-spezifische Aspekte eingeschränkt.</abstract>
+                    <subject>
+                        <topic>Computersimulation</topic>
+                        <topic>Echtzeit</topic>
+                        <topic>Tiefendaten</topic>
+                        <topic>Laufzeitverfahren</topic>
+                        <topic>3D-Objekt-Rekonstruktion</topic>
+                        <topic>Umgebungsmodell</topic>
+                        <topic>Real-time</topic>
+                        <topic>SLAM</topic>
+                        <topic>Time-of-flight</topic>
+                        <topic>Object reconstruction</topic>
+                        <topic>Environment model</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Bildinformatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-10227</identifier>
+                    <identifier type="sys">HT019043800</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1022</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2015-11-13</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1022">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1022/1/Dissertation_Maik_Keller.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1022"
+            DMDID="DMD_siegen_opus_1022">
+            <mets:fptr FILEID="FILE0_siegen_opus_1022"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

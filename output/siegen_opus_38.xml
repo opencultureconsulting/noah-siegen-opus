@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_38">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Resonanz-Ramanspektren transienter Molekülzustände stark fluoreszierender Farbstoffe</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gregor, Ingo</displayForm>
+                        <namePart type="family">Gregor</namePart>
+                        <namePart type="given">Ingo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2002</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Absorption sichtbaren Lichtes lässt sich in vielen Fällen qualitativ und quantitativ durch ein recht einfaches Modell beschreiben. Die inelastische Lichtstreuung führt zur Anregung von Schwingungen des Moleküls. Beide Wechselwirkungen des Lichtes werden genutzt, um die Eigenschaften von Molekülen zu untersuchen. Die erreichbare Genauigkeit der Bestimmung von Lichtmengen wird diskutiert und Kriterien für die Wahl des Detektors bestimmt. Mit dem Transientenspektrometer wird die Absorption angeregter Farbstoffmoleküle bestimmt. Diese Daten sind die Grundlage für die Experimente zur resonanten Ramanstreuung an anregten Molekülzuständen. Untersuchungen mit einem Ramanspektrometer für schwach fluoreszierende Proben geben Hinweise auf die erforderliche Messgenauigkeit. Es werden Untersuchungen über Ursprung und Große des vorhandenen Rauschens durchgeführt. Anhand der gewonnen Daten lassen sich Strategien zur Optimierung finden. Eine Modulationstechnik zur Unterdrückung der Fluoreszenz durch 2-λ-Anregung wird vorgestellt und die Ergebnisse analysiert. Mit dem Ziel, das Signal-zu-Rausch Verhältnis zu steigern, werden die Anforderungen und Kenngroßen des Monochromators untersucht. Die notwendigen Verbesserungen werden in dem Ramanmikroskop umgesetzt. Dessen Funktion wird optimiert, bis die Messung von Ramanspektren angeregter Molekülzustände stark fluoreszierender Moleküle gelingt. Zur Interpretation der Schwingungseigenschaften von Rhodaminfarbstoffen werden Vergleiche zur Literatur und quantenmechanischen Rechnungen herangezogen.</abstract>
+                    <abstract type="content" lang="eng">In many cases a comparatively simple model is capable to explain the absorption of visible light in a qualitative and quantitative matter. Inelastic scattering leads to a stimulation of molecular vibrations. Both interactions are used to determine important properties of molecules. The discussion of the achievable sensitivity on the quantification of the power of light leads to criteria for the choice of a detector. With the help of a transient-state spectrometer the absorption of excited states of dye molecules is measured. This data is essential for the experiments related to resonant raman scattering on transient states. Using a raman-spectrometer for weakly fluorescent probes, the necessary sensitivity is determined. Origin and magnitude of the noise level are studied carefully. The results give clues to several optimisation strategies. A modulation technique for suppression of the fluorescence by 2-λ- excitation is presented and the results are analyzed. Obligations and key parameters of the monochromator are examined with respect to the signal-to-noise ratio. The necessary improvements are accomplished in the raman microscope. Its function is optimised till the measurement of raman spectra of excited states of strongly fluorescent dyes is achieved. The properties of the vibrational spectra of rhodamine dyes are discussed with respect to literature data and quantum-mechanical calculations.</abstract>
+                    <subject>
+                        <topic>Ramanspektroskopie</topic>
+                        <topic>Fluoreszenzfarbstoffe</topic>
+                        <topic>Rhodamine</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 8, Chemie - Biologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-387</identifier>
+                    <identifier type="sys">HT013655491</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_38</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2003-02-19</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_38">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/38/1/gregor.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_38"
+            DMDID="DMD_siegen_opus_38">
+            <mets:fptr FILEID="FILE0_siegen_opus_38"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

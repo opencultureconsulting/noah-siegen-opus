@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1033">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Three-dimensional Green’s function and its derivatives for anisotropic elastic, piezoelectric and magnetoelectroelastic materials</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Xie, Longtao</displayForm>
+                        <namePart type="family">Xie</namePart>
+                        <namePart type="given">Longtao</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Diese Arbeit behandelt hauptsächlich die Greensche Funktion für lineare allgemein anisotrope Materialien im unendlichen dreidimensionalen Raum, die auch als Fundamentallösung bezeichnet wird. Die detaillierten Herleitungen und die numerischen Auswertungen der expliziten Ausdrücke der Greenschen Funktion bzw. deren ersten und zweiten Ableitung, die auf der Methode der Residuen (RCM), dem Stroh-Formalismus (SFM) sowie der Unified Explicit Expression Method (UEEM) basieren, werden ebenfalls behandelt. Die numerischen Beispiele der drei verschiedenen Methoden werden für die Elastizitätstheorie miteinander verglichen. In nicht-degenerierten Fällen sind alle drei Methoden exakt für einen beliebigen Punkt. Bei nahezu degenerierten Fällen werden sowohl die RCM als auch die SFM instabil, während die UEEM ihre Gültigkeit behält. Ungeachtet dessen ist die SFM etwas stabiler als die RCM. Um deren Instabilität in degenerierten und nahezu degenerierten Fällen zu überwinden, werden in der RCM und der SFM einige Materialkonstanten leicht modifiziert. Trotz der Vorteile der UEEM im Vergleich zu RCM und SFM, ergeben sich Schwierigkeiten bei der Erweiterung auf Mehrfeldmaterialien. Die RCM und die SFM werden auf piezoelektrische Materialien erweitert und miteinander verglichen. Dadurch, dass die SFM bessere Ergebnisse für piezoelektrische Materialien liefert als die RCM, wird sie zusätzlich auf magnetoelektroelastische Materialien erweitert. Darüber hinaus wird die UEEM als Anwendung in einem BEM-Programm implementiert, mit dem sich einfache Elastizitätsprobleme lösen lassen.</abstract>
+                    <abstract type="content" lang="eng">This thesis mainly deals with the Green’s function for linear generally anisotropic materials in the infinite three-dimensional space, also called the fundamental solution. The detailed derivations and the numerical results of the explicit expressions of the Green’s function and its first and second derivatives based on the residue calculus method (RCM), Stroh formalism method (SFM) and unified explicit expression method (UEEM) are presented. The numerical examples of the three different methods are compared with each other for the anisotropic elasticity. All three methods are accurate for an arbitrary point in non-degenerate cases. For nearly degenerate cases, both the RCM and the SFM become unstable while the UEEM keeps accurate. Moreover, the SFM is more stable than the RCM. To overcome the difficulty in nearly degenerate cases and degenerate cases, some material constants are slightly changed in the RCM and the SFM. Although the UEEM has some advantages compared with the RCM and the SFM, it is difficult to be extended to the multifield coupled materials. The RCM and SFM are extended to the piezoelectric materials and compared with each other. Since the SFM has a better performance than the RCM for the piezoelectric materials, it is extended further to the magnetoelectroelastic materials. The UEEM is implemented into a Boundary Element Method (BEM) as an application. Some demonstrative anisotropic elastic problems are solved by the developed BEM.</abstract>
+                    <subject>
+                        <topic>Greensche Funktion</topic>
+                        <topic>allgemein anisotrope Materialien</topic>
+                        <topic>Greenâ  s function</topic>
+                        <topic>generally anisotropic materials</topic>
+                        <topic>Multi-field coupled materials</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-10337</identifier>
+                    <identifier type="sys">HT019067233</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1033</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2016-07-15</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1033">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1033/1/Dissertation_Longtao_Xie.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1033"
+            DMDID="DMD_siegen_opus_1033">
+            <mets:fptr FILEID="FILE0_siegen_opus_1033"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

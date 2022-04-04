@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1612">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Tempered operator scaling stable random fields</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Stahl, Andreas</displayForm>
+                        <namePart type="family">Stahl</namePart>
+                        <namePart type="given">Andreas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Scheffler, Peter</displayForm>
+                        <namePart type="family">Scheffler</namePart>
+                        <namePart type="given">Peter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Der Inhalt der neuen Forschungsergebnisse dieser Arbeit stammen aus Kapitel 3 bis Kapitel 5. Es werden zwei Darstellungen skalarer Zufallsfelder {X(t)|t\in {R}^d} betrachtet, diese umfassen die moving average Darstellungen sowie die harmonizable Darstellungen, welche sich explizit durch das Hinzufügen eines sogenannten temperings von den bereits bekannten Darstellungen, welche unter anderem in [OSSRF] untersucht werden, unterscheidet. Grundlegend dazu wiederholen und führen wir im zweiten Kapitel zunächst verallgemeinerte Polarkoordinaten und E-homogene Funktionen sowie indepdently scattered random measures beziehungsweise multi stabile independently scattered random measures ein, um die entsprechenden Integraldarstellungen tätigen zu können. Anschließend studieren wir diese Darstellungen genauer und zeigen im dritten Kapitel die Existenz sowie das Verhalten der Pfade. Letzteres wird durch stationäre Zuwächse, stochastische Stetigkeit und das lokale Verhalten deutlich. Wir sind in der Lage explizit Elemente des Tangentialraumes anzugeben. Durch das hinzugefügte tempering ist es zudem möglich, bis jetzt nur im Falle der moving average Darstellung, eine weitere Familie von Zufallsfeldern anzugeben, welche durch &quot;Abschneiden&quot; des entsprechenden Integranden entsteht. Diese Zufallsfelder unterscheiden sich maßgeblich von den anderen, da sie stationär sind. In den darauffolgenden Kapiteln vier und fünf erweitern wir die getemperten Zufallsfelder durch die multi Stabilität, sodass der Stabilitätsparameter \alpha nun vom Ort der Betrachtung abhängt. In diesem Fall konnten wir ebenfalls die Existenz der oben genannten beiden Darstellungen sowie reichhaltige Eigenschaften wie stochastische Stetigkeit und das lokale Verhalten untersuchen.</abstract>
+                    <abstract type="content" lang="eng">The content of the new research results are displayed in the chapters three, four and five and follow an introduction in chapter one as well as a repetition and a provision of basics in chapter two. The main objects throughout the dissertation are two special representations of scalar random fields, namely the moving average and the harmonizable representation. We were able to add a tempering to the already known integrand of the operator scaling stable random fields, which allows us to define several new random fields in chapter three. Moreover, the chapters four and five cover an application of the known generalization of stable random fields by adding a dependence on time or place of the stable parameter alpha onto our new fields. Furthermore, we were able to show properties like stochastic continuity and stationary increments as well as explicit elements of tangent field space for the representations. Last but not least, the new tempering allowed a definition of an isolated random field which differs from the other mentioned ones by stationary.</abstract>
+                    <subject>
+                        <topic>Zufälliges Feld</topic>
+                        <topic>Tempering</topic>
+                        <topic>Stabile Zufallsfelder</topic>
+                        <topic>Multistabile Zufallsfelder</topic>
+                        <topic>Moving Average Darstellung</topic>
+                        <topic>Harmonizable Darstellung</topic>
+                        <topic>Tempering</topic>
+                        <topic>Stable Random Field</topic>
+                        <topic>Harmonizable representation</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16128</identifier>
+                    <identifier type="sys">HT020446625</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1612</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2019-11-29</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1612">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1612/3/Dissertation_Andreas_Stahl.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1612"
+            DMDID="DMD_siegen_opus_1612">
+            <mets:fptr FILEID="FILE0_siegen_opus_1612"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

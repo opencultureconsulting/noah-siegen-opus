@@ -1,0 +1,69 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1305</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Scheduling event-triggered and time-triggered applications with optimal reliability and predictability on networked multi-core chips</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Ayman</pc:foreName>
+            <pc:surName>Murshed</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Lineare Programmierung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Echtzeitsysteme</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Zeitgesteuertes Netzwerk</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Planungsmodell</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Systeme von Systemen</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Gemischt-ganzzahlige lineare Programmierung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Real-time system</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Time-triggered network</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Scheduling algorithm</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">System-of-systems</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Mixed-integer linear programming</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Multi-core processors are gaining increasing importance in safety-relevant embedded realtime systems, where temporal guarantees must be ensured despite the sharing of on-chip resources such as processor cores and networks-on-chip (NoC). At the same time, many applications comprise workloads with different timing models including time triggered and event-triggered communication.&#13;
+The first contribution is a scheduling model based on Mixed Integer Linear Programming(MILP) supporting the allocation of computational jobs to processing cores as well as the scheduling of messages and the selection of paths on NoC. The model supports dependencies between computational jobs and it combines both time-triggered and event-triggered messages. Phase alignment of time-triggered messages is performed while avoiding collisions between time-triggered messages and satisfying bandwidth constraints for event-triggered messages. Example scenarios are solved optimally using the IBM CPLEX optimizer yielding minimal computational and communication latencies.&#13;
+Real-time communication and reliability are two important requirements in the development of safety-critical embedded systems, which benefit from the inherent fault isolation and temporal predictability of time-triggered networks. These systems depend on redundant communication schedules that contain global time-based information of message transmissions with conflict-free paths through the switches. In these systems, the use of redundancy to handle communication errors requires the preallocation of communication resources. The second contribution introduces a novel scheduler for redundant time-triggered networks that assigns messages to redundant paths. The scheduler considers the link reliability along with physical and logical models and produces a schedule where each message is assigned to two different paths along the switches. We also discuss and validate the approach with results from a prototype implementation.&#13;
+SoS consist of complex interconnections of large numbers of networked embedded systems that are characterized by operational and managerial independence of constituent systems, geographical separation, and emergent behavior in a constantly changing environment. The support for real-time communication is crucial for many SoS application areas such as medical, business, and military systems. The third contribution is a conceptual model and a scheduling algorithm for supporting real-time requirements in SoS. The search for a feasible schedule is computed incrementally upon the introduction of new applications in the SoS. The distributed computation of the schedule using the different constituent systems considers the lack of global knowledge and control in the SoS, while also reducing the overall scheduling time. Concurrent scheduling activities are supported to deal with the uncoordinated and possibly simultaneous introduction of multiple applications.&#13;
+The dissertation introduces also a simulation framework with real-time support of SoS that supports high-level scheduling as well as low-level scheduling for each constituent system. A time-triggered Ethernet (TTEthernet) simulation framework was extended by adding a scheduler layer to perform incremental scheduling among Constituent System Managers (CSMs). The simulation framework enabled the evaluation of the proposed algorithms in terms of schedulability, run-time, and worst-case latency for time-triggered and rate-constrained messages.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Mehrkernprozessoren gewinnen zunehmend an Bedeutung in sicherheitsrelevanten eingebetteten Echtzeitsystemen, bei denen trotz der gemeinsamen Nutzung von On-Chip-Ressourcen wie Prozessorkernen und On-Chip-Netzwerken zeitliche Garantien gewährleistet sein müssen. Gleichzeitig umfassen viele Anwendungen Arbeitsbelastungen mit unterschiedlichen Timing- Modellen, einschließlich zeitgesteuerter und ereignisgesteuerter Kommunikation. &#13;
+Der erste Beitrag der Dissertation ist ein Planungsmodell, das auf der gemischt-ganzzahligen linearen Programmierung basiert und die Zuweisung von Rechenaufträgen an Prozessorkerne sowie die Planung von Nachrichten und die Auswahl von Wegen auf NoCs unterstützt. Das Modell unterstützt Abhängigkeiten zwischen Rechenjobs und kombiniert sowohl zeitgesteuerte als auch ereignisgesteuerte Nachrichten. Die Phasenausrichtung zeitgesteuerter Nachrichten wird durchgeführt, während Kollisionen zwischen zeitgesteuerten Nachrichten und die Verletzung von Bandbreitenbeschränkungen für ereignisgesteuerte Nachrichten vermieden werden. Beispielszenarien werden optimal mit dem IBM CPLEX-Optimierer gelöst, wobei minimale Rechen- und Kommunikationslatenzen garantiert werden. &#13;
+Echtzeitkommunikation und Zuverlässigkeit sind zwei wichtige Anforderungen bei der Entwicklung sicherheitskritischer eingebetteter Systeme, die von der inhärenten Fehlerisolierung und zeitlichen Vorhersagbarkeit zeitgesteuerter Netzwerke profitieren. Als Grundlage für Fehlertoleranz benötigen diese Systeme außerdem redundante Kommunikationspläne, die globale zeitbasierte Informationen von mehrfachen Nachrichtenübertragungen mit konfliktfreien Pfaden durch die Switches enthalten. In diesen Systemen erfordert die Verwendung von Redundanz zur Behandlung von Kommunikationsfehlern die Vorbelegung von Kommunikationsressourcen. Der zweite Beitrag der Dissertation stellt einen neuartigen Scheduler für redundante zeitgesteuerte Netzwerke vor, der Nachrichten redundanten Pfaden zuweist. Der Scheduler berücksichtigt die Verbindungszuverlässigkeit zusammen mit physischen und logischen Modellen und erstellt einen Zeitplan, bei dem jede Nachricht zwei verschiedenen Pfaden entlang der Switches zugewiesen wird. Wir diskutieren und validieren den Ansatz mit den Ergebnissen einer Prototypimplementierung.&#13;
+Systeme von Systemen (SoS) bestehen aus komplexen Zusammenschaltungen einer großen Anzahl von vernetzten eingebetteten Systemen, die durch betriebliche Unabhängigkeit von Teilsystemen, geografische Trennung und emergentes Verhalten in einer sich ständig verändernden Umgebung gekennzeichnet sind. Die Unterstützung für Echtzeitkommunikation ist für viele Anwendungsbereiche wie medizinische, geschäftliche und militärische Systeme von entscheidender Bedeutung. Der dritte Beitrag der Dissertation ist ein konzeptionelles Modell und ein Planungsalgorithmus zur Unterstützung von Echtzeitanforderungen in SoS. Die Suche nach einem realisierbaren Zeitplan wird schrittweise nach der Einführung neuer Anwendungen im SoS berechnet. Die verteilte Berechnung des Zeitplans unter Verwendung der verschiedenen Teilsysteme berücksichtigt den Mangel an globalem Wissen und Kontrolle im SoS, während gleichzeitig die Gesamtplanungszeit verringert wird. Gleichzeitige Terminierungsaktivitäten werden unterstützt, um die unkoordinierte und möglicherweise gleichzeitige Einführung mehrerer Anwendungen zu bewältigen.&#13;
+Die Dissertation stellt auch ein Simulationsframework mit Echtzeit-Unterstützung von SoS vor, das sowohl die High-Level-Planung als auch die Low-Level-Planung für jedes Teilsystem unterstützt. Ein Simulationsframework für zeitgesteuertes Ethernet (TTEthernet) wurde um eine Scheduler-Schicht erweitert, um eine inkrementelle Planung unter Constituent System Managern (CSMs) durchzuführen. Das Simulationsframework ermöglichte die Evaluierung der vorgeschlagenen Algorithmen hinsichtlich der Planbarkeit, der Laufzeit und der Worst-Case-Latenz für zeitgesteuerte und ratenbeschränkte Nachrichten.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2018-03-23</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2018</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-13054</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Praktische und Technische Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Ayman_Murshed.pdf" ddb:fileSize="1376029"/>
+   <ddb:checksum ddb:type="MD5">ab15131651b8e12ee601b662f6601a5b</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1305/1/Dissertation_Ayman_Murshed.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1305</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

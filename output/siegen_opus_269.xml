@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_269">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Goethe redivivus als Motiv in ausgewählten Werken der jüngeren deutschen Literatur</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gille, Michaela</displayForm>
+                        <namePart type="family">Gille</namePart>
+                        <namePart type="given">Michaela</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2006</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Kaum eine andere historische Figur wird so oft in dieser Form vergegenwärtigt, wie dies bei Goethe der Fall ist. Kaum eine andere Figur der Literaturgeschichte fordert moderne Autoren aber auch derart intensiv dazu auf. Goethes Biographie bietet die richtigen Aufhänger, bei denen heutige Schriftsteller ansetzen können. Mit Goethes Leben kann gespielt werden! Und zwar nicht nur im historischen Roman, nein, gerade bei Goethe bieten sich auch andere – aktualisierende – Formen an. Warum ihn nicht einfach in unsere moderne Welt versetzen, wie dies Peter Jakob, Werner Dürrson, Arno Schmidt, Egon Friedell und Alfred Polgar,  Karl Otto Conrady und – bedingt – auch Hans Magnus Enzensberger gemacht haben? Warum ihn nicht aus der Perspektive seiner Liebschaften präsentieren wie Eckard Henscheid? Warum ihn nicht Abenteuer mit den Gebrüdern Grimm erleben (Kai Mayer) oder in Rom einen wahren Freund finden lassen (Hanns-Josef Ortheil)? Warum ihm nicht mittels Collagetechnik zu Leibe rücken wie Eckard Henscheid, F.W. Bernstein und Bernd Eilert sowie Hans Magnus Enzensberger dies getan haben?</abstract>
+                    <subject>
+                        <topic>Goethe-Rezeption</topic>
+                        <topic>Goethe-Forschung</topic>
+                        <topic>fiktiver Goethe</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 3, Sprach-, Literatur- und Medienwissenschaften"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-2690</identifier>
+                    <identifier type="sys">HT014995161</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_269</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2007-02-12</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_269">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/269/1/Goethe_redivivus.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_269"
+            DMDID="DMD_siegen_opus_269">
+            <mets:fptr FILEID="FILE0_siegen_opus_269"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

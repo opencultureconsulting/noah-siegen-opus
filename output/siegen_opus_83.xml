@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_83">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Versionierungskonzepte mit Unterstützung für Differenz- und Mischwerkzeuge</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ohst, Dirk</displayForm>
+                        <namePart type="family">Ohst</namePart>
+                        <namePart type="given">Dirk</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2004</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Softwarekonfigurations-Management (SKM) ist ein wichtiger Bestandteil moderner Softwareentwicklungsprozesse. Ein Vorteil des Einsatzes von SKM-Werkzeugen ist die Möglichkeit Versionen zu erzeugen, Unterschiede festzustellen und Produkte zu veröffentlichen, die eine Konfiguration von bestimmten Dokumenten darstellen. Es ist eine große Anzahl von SKM-Systemen und Konzepten verfügbar, jedoch arbeiten die meisten von ihnen (einschl. CVS, RCS oder SCCS) fast ausschließlich auf Textdateien. Deshalb ist der Einsatz von SCM-Werkzeugen in den späten Phasen der Softwareentwicklung, insbesondere bei der Programmierung und Wartung, etabliert und gängige Praxis. SKM hat in den frühen Phasen (z.B. Analyse und Entwurf) noch nicht diese Bedeutung erlangt. Existierende SKM-Systeme sind weniger gut geeignet, um Dokumente der frühen Phasen zu versionieren, Unterschiede zu bestimmen oder um diese zu visualisieren. Der Grund hierfür liegt darin, daß es sich bei diesen Dokumenten üblicherweise nicht um Text, sondern um Diagramme handelt, die Bestandteil von Modellierungssprachen
+sind, wie z. B. UML.
+Der erste Teil dieser Arbeit beschäftigt sich mit der Aufgabenstellung der Versionierung von Diagrammen. Das vorgeschlagene Versionierungskonzept basiert auf dem Einsatz eines Objektmanagement-Systems (OMS) und der Nutzung einer OMS-orientierten Werkzeugarchitektur. Die Werkzeugtransaktionen des OMS sind die Basis für das vorgestellte Versionierungskonzept. Alle modifizierten Objekte werden automatisch innerhalb der Werkzeugtransaktionen versioniert. Einzelne Objektversionen faßt eine Konfiguration zusammen, die eine Dokumentversion repräsentiert. Entwurfstransaktionen dienen zur Verwaltung der Dokumentversionen.
+Dieses Versionierungskonzept erlaubt eine andere Form der Gruppenarbeit im Vergleich zu der Nutzung von z.B. CVS oder RCS. Alle Entwickler arbeiten auf denselben Daten. Änderungen sind sofort für alle Entwickler sichtbar, die an der selben Version arbeiten. Die Konsistenz wird durch Transaktionssperren auf Objektversionen sichergestellt.
+Der zweite Teil dieser Arbeit beschäftigt sich mit der Visualisierung der Differenzen zwischen zwei Diagrammen im Fall der kooperativen Arbeit. Die Berechnung der Unterschiede zwischen den Versionen stützt sich auf die eindeutigen Objektidentifizierer ab, die durch das OMS vergeben werden. Das vorgeschlagene Visualisierungskonzept ist nur abhängig von der verwendeten Modellierungssprache, jedoch nicht vom verwendeten Versionsverwaltungs-System. Zur Visualisierung wird ein so genanntes Vereinigungsdiagramm verwendet, welches die gemeinsamen Elemente der beiden zu vergleichenden Diagramme und die spezifischen Diagrammelemente enthält. Diese werden hierin farbig hervorgehoben.
+Das Versionierungskonzept und die Visualisierung sind prototypisch im OMS H-PCTE
+und in der Werkzeugsammlung PISET implementiert. PISET bietet Editoren für UML
+Kollaborations-, Objekt-, Anwendungsfall-, Klassen- und Zustandsdiagramme. Die Visualisierung für Klassendiagramme ist ebenfalls im CASE-Werkzeug FUJABA implementiert.</abstract>
+                    <abstract type="content" lang="eng">Software configuration management (SCM) is an indispensable part of high-quality software development processes. An advantage of using SCM systems is that one can create versions of a document, detect the differences between them and release systems as configuration of certain document versions. A large number of SCM systems and concepts are available, however most of them (incl. systems such as RCS, CVS and SCCS) only work with text files. Therefore SCM is a well established and common practise in the later phases of software development processes, notably during programming and maintenance. SCM is a less common practise during the early phases, i.e. analysis and design. Existing SCM systems are not well suited for the versioning, detection and visualisation of differences between documents in the early phases, because those documents are not text, but diagrams usually part of modelling languages such as the UML.
+The first part of this thesis addresses the problem of versioning diagrams. The proposed versioning system is based an object management system (OMS) to store all diagrams and on an OMS-oriented tool architecture. The tool transactions of the OMS are the basis of the proposed versioning concept. All modified objects are automatically versioned inside the tool transactions. Single object versions are combined in a configuration, which forms one version of an entire document in the OMS. Design transactions provide the required versions of the documents to the tool transactions.
+This versioning concept offers a different kind of team cooperation compared to the use of RCS, CVS, etc. All developers work on the same data. Thus modifications are visible to all developers working on the same document version and do not affect others. The consistency is ensured by transaction locks on object versions.
+The second part of this thesis addresses the visualisation of diagram differences when working cooperatively. The computation of the differences is based on the object identifiers offered by the OMS. The proposed visualisation of the differences is independent from the used version management system but depend on the modelling language and its syntax elements. The differences are visualised by using an so called unified diagrams. This kind of diagram includes the common and the specific parts of the compared diagrams. The specific parts are highlighted using different colours.
+The versioning concept and the visualisation has been prototypically implemented on the OMS H-PCTE and the tool set PISET. PISET supports Editors for UML collaboration, object, use case, class and statechart diagrams . The visualisation of UML class diagrams have also been implemented in the Fujaba CASE tool.</abstract>
+                    <subject>
+                        <topic>UML</topic>
+                        <topic>Versionierung</topic>
+                        <topic>Visualisierung</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-831</identifier>
+                    <identifier type="sys">HT014307558</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_83</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2004-09-06</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_83">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/83/1/ohst.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_83"
+            DMDID="DMD_siegen_opus_83">
+            <mets:fptr FILEID="FILE0_siegen_opus_83"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

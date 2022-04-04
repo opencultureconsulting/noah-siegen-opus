@@ -1,0 +1,98 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_34">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Phänomenologische Auswertung einzelmolekülspektroskopischer Erscheinungen : Beschreibung, Klassifikation und statistische Analyse der zeitabhängigen Fluoreszenz einzelner Moleküle</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Stracke, Frank</displayForm>
+                        <namePart type="family">Stracke</namePart>
+                        <namePart type="given">Frank</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2002</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Einzelne fluoreszierende Moleküle aus der Farbstoffklasse der
+Perylendicarboximide, eingebettet in Polystyrol, wurden abgebildet und
+spektroskopisch untersucht. Dabei wurde das Fluoreszenzspektrum der
+Farbstoffmoleküle zeitlich mit einer Auflösung von 1s verfolgt. Insgesamt zeigt sich
+bei allen untersuchten Farbstoffen eine breite Diversität spektraler Parameter und
+reichhaltige Dynamik unterschiedlichster Ausprägung. Zur Auswertung dieser
+Phänomene wurden diese beschrieben und klassifiziert, sowie ohne
+Ausgangshyphotesen statistisch ausgewertet.
+Die verschiedenen Parameter der einzelnen Spektren wurden durch eine eigens
+entwickelte Software ausgemessen und protokolliert. Die statistische Auswertung
+der protokollierten Parameter bot den Zugang zu reproduzierbaren und
+spezifischen Eigenschaften der untersuchten Farbstoff/Matrix Systeme auch für
+solche Größen, die im Ensembleexperiment nicht zugänglich sind (Größen, die
+dynamisches Verhalten beschreiben; Größen, die aus der Verknüpfung mehrerer
+Einzelmolekülparameter abgeleitet sind).
+Die Analyse von Verteilungsfunktionen der gemessenen Größen und die
+Untersuchung von Korrelationen zwischen diesen Größen ließ umfangreiche
+Aussagen über das molekulare Verhalten sowohl der Farbstoffe als auch des
+umgebenden Polymers zu. Es wurden die verschiedenen Typen spektraler Dynamik
+auf ihren Zusammenhang untersucht, sowie die Ursache der einzelnen Phänomene
+weitestgehend eingegrenzt. Dabei wurde darauf geachtet, daß die eingeführten
+Konzepte, Methoden und Darstellungsweisen möglichst allgemein anwendbar
+waren.</abstract>
+                    <abstract type="content" lang="eng">Single fluorescent dye molecules from the perylenedicarboxiimde class embedded
+in Polystyrene were imaged and studied spectroscopically by means of tracing their
+fluorescence spectrum with a temporal resolution of 1s. All of the investigated dyes
+exhibited a wide diversity of spectral properties and a multiplicity of dynamic
+phenomena. In order to analyse these phenomena a detailed description and
+classification was performed, succeeded by statistical analysis.
+The various parameters of single spectra were gauged and recorded by a specially
+developed software. The statistical analysis of the recorded parameters gave access
+to representative and specific properties of the investigated Dye/Host-System, even
+for quantities which are not accessible in ensemble experiments.
+The investigation in distributions of those quantities and studies on their correlation
+allowed extensive statements on molecular behaviour of both the dye and the
+polymer. The different forms of appearance in spectral dynamics were examined
+for coherence. Further the origin of the dynamic phenomena were widely
+contained. It was taken care, that all introduced concepts, methods and charts are
+at possible commonly applicable.</abstract>
+                    <subject>
+                        <topic>Einzelmolekülspektroskopie</topic>
+                        <topic>Perylene</topic>
+                        <topic>Fluoreszenz</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 8, Chemie - Biologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-346</identifier>
+                    <identifier type="sys">HT013620406</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_34</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2003-02-21</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_34">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/34/1/stracke.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_34"
+            DMDID="DMD_siegen_opus_34">
+            <mets:fptr FILEID="FILE0_siegen_opus_34"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

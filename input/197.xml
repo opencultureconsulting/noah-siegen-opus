@@ -1,0 +1,96 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>197</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Echtzeitprognose des Schmiedemaßes an hydraulischen Freiformpressen</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Ralf</pc:foreName>
+            <pc:surName>Nötzel</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Hydraulik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Schmieden</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Prädiktion</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Hydraulische Freiformschmiedepressen sind bei der Umformung von&#13;
+großen Stahlwerkstücken im industriellen Produktionsprozeß weit&#13;
+verbreitet. Die verfahrenstechnisch auftretende Forderung, ein&#13;
+bestimmtes vorgegebenes Umformmaß (Schmiedemaß) einzuhalten,&#13;
+wird dabei mit einfachen iterativ korrigierenden Schätzalgorithmen&#13;
+realisiert. Systembedingt führt dies zu größeren Abweichungen bei den&#13;
+ersten Pressenhüben.&#13;
+&#13;
+Im Rahmen der vorliegenden Dissertation wird ein Verfahren vorgestellt,&#13;
+welches diesen Nachteil vermeidet.&#13;
+&#13;
+Durch Messung der Verläufe des Umformweges und des&#13;
+Pressendruckes, während des aktuellen Umformvorganges, ist es&#13;
+möglich, mit einem in Echtzeit arbeitenden Parameterschätzverfahren,&#13;
+die zeitlichen Verläufe dieser Größen zu prognostizieren. Ein&#13;
+Prädiktionsmodell berechnet zyklisch das zum aktuellen Zeitpunkt&#13;
+erreichbare Schmiedemaß. Hat die Presse die vom Modell ermittelte&#13;
+Position erreicht, wird mit der Entlastung des Arbeitszylinders begonnen.&#13;
+Der benötigte optimale Verlauf der Ansteuerfunktion für das&#13;
+Schmiedeventil wird dabei während des aktuellen Pressenhubes&#13;
+berechnet.&#13;
+&#13;
+Die theoretisch gefundenen Ergebnisse konnten in einer Modellrechnung&#13;
+und mit Untersuchungen an einer Versuchsanlage bestätigt werden.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Hydraulic open-die forging presses are widely used in industrial production&#13;
+processes for the forming of large steel workpieces. The process&#13;
+demand of achieving a given forming dimension (forging dimension) is&#13;
+satisfied here using simple iterative correcting approximation algorithms.&#13;
+This system, however, results in relatively large deviations in the initial&#13;
+press strokes.&#13;
+&#13;
+The present dissertation describes a process that enables this disadvantage&#13;
+to be eliminated.&#13;
+&#13;
+By measuring the curves of the forming stroke and press pressure during&#13;
+the momentary forming process, it is possible to predict the curves of&#13;
+these parameters over time using a real-time parameter approximation&#13;
+process. A prediction model calculates cyclically the forging dimension&#13;
+that can be achieved at the present time. When the press reaches the&#13;
+position calculated by the model, relief of the working cylinder starts. The&#13;
+optimum curve of the control function for the forging valve required is&#13;
+thereby calculated during the momentary press stroke.&#13;
+&#13;
+The theoretically calculated results have already been validated by&#13;
+means of a model calculation and in tests on a trial press plant.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2005-11-28</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2005</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-1972</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 12, Elektrotechnik und Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="noetzel.pdf" ddb:fileSize="6596101"/>
+   <ddb:checksum ddb:type="MD5">af7a50281f30acd5f924fa7f92fa03b7</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/197/1/noetzel.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/197</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

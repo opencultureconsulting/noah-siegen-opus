@@ -1,0 +1,82 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1829">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Travelling by taxi brousse in Madagascar</title>
+                        <subTitle lang="eng">an investigation into practices of overland transportation</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wulf, Volker</displayForm>
+                        <namePart type="family">Wulf</namePart>
+                        <namePart type="given">Volker</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Misaki, Kaoru</displayForm>
+                        <namePart type="family">Misaki</namePart>
+                        <namePart type="given">Kaoru</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Randall, Dave</displayForm>
+                        <namePart type="family">Randall</namePart>
+                        <namePart type="given">Dave</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Rohde, Markus</displayForm>
+                        <namePart type="family">Rohde</namePart>
+                        <namePart type="given">Markus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Organising public mobility is a global challenge. However, most studies directed at ICT support approach the subject from the perspective of developed countries. In contrast, we conducted a modest and initial attempt to study practices of public transportation in Madagascar – one of the poorest countries in Africa. We found that central assumptions, usually unquestioned in prevailing studies, were challenged in the context of this developing country. We present an empirical study which analyses how collective taxis, locally called Taxi Brousses, are used in overland travel. The study reveals complex socio-political conditions which passengers face in this country. Security as well as corruption issues shape these transportation practices. Based on our findings, we indicate opportunities for supporting intra-organisational cooperation and the customers’ interaction with ICT artefacts.</abstract>
+                    <subject>
+                        <topic>Public mobility</topic>
+                    </subject>
+                    <classification authority="ddc">302</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-18297</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1829</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1829">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1829/4/Wulf_et_al_Travelling.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1829"
+            DMDID="DMD_siegen_opus_1829">
+            <mets:fptr FILEID="FILE0_siegen_opus_1829"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

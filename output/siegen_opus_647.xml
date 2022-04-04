@@ -1,0 +1,100 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_647">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Strukturaussagen für die optimalen Ausübungsstrategien bei multiplen Stoppproblemen und Swing Optionen</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Properties of the optimal decision rules for multiple stopping problems and swing options</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bagus, Florian</displayForm>
+                        <namePart type="family">Bagus</namePart>
+                        <namePart type="given">Florian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die vorliegende Arbeit beschäftigt sich mit folgendem stochastischen dynamischen 
+Optimierungsproblem. Ein Entscheider, der seinen erwarteten Nutzen maximiert, 
+soll eine gegebene Kapazität unter Restriktionen über einen endlichen Zeitraum 
+verbrauchen. Zu jedem Entscheidungszeitpunkt liegt ein Angebot vor und der Ent
+scheider bekommt einen Gewinn in Abhängigkeit von der Höhe des Angebotes und 
+der verbrauchten Menge. Ziel ist es, den erwarteten Nutzen des Gesamtgewinns zu 
+maximieren. Im Rahmen dieser Problemstellung werden sowohl multiple optimale 
+Stoppprobleme als auch Swing Optionen, die beispielsweise in der Energiewirtschaft 
+eine wichtige Rolle spielen, untersucht. 
+Das Entscheidungsproblem wird für lineare und exponentielle Nutzenfunktionen mit Hilfe der Theorie Markovscher Entscheidungsprozesse betrachtet. Für einen 
+risikoneutralen Entscheider mit linearer Nutzenfunktion werden Bedingungen an 
+die Folge der Angebote gefunden, so dass es Schwellenwerte gibt, die die optimale Strategie bestimmen. Zudem wird das Verhalten der Schwellenwerte betrachtet, 
+wenn die Laufzeit gegen unendlich geht. Im Fall eines risikoaversen Entscheiders 
+mit exponentieller Nutzenfunktion ergibt sich eine andere Struktur der Lösung. Die 
+Randpunkte der zulässigen Menge sind z.B. nicht mehr notwendigerweise optimal. 
+Außerdem wird untersucht, welchen Einfluss die Risikoneigung des Entscheiders auf 
+die optimale Strategie hat. Die Resultate werden anhand von einigen Beispielen 
+illustriert.</abstract>
+                    <abstract type="content" lang="eng">This thesis is concerned with the following stochastic dynamic optimization problem. 
+A decision maker, who maximizes his expected utility, is supposed to consume a 
+given capacity under constraints in a finite time horizon. At each point of time there 
+is an offer and the decision maker receives a reward, which depends on the value of 
+the offer and the consumed quantity. The aim is to maximize the expected utility 
+of the total reward. In this context multiple optimal stopping problems as well as 
+swing options, which are important in the energy sector, are investigated. 
+The decision problem is considered for linear and exponential utility functi
+ons using the theory of Markov Decision Processes. For a risk-neutral decision ma
+ker with a linear utility function we give conditions for the sequence of offers that 
+guarantee the existence of thresholds. Furthermore, we study the behaviour of the 
+thresholds when the planning horizon tends to infinity. In the case of a risk-averse 
+decision maker with an exponential utility function the solution is different. The 
+boundary points of the admissible set are in general no longer optimal. Additional
+ly, we investigate how attitude to risk affects the optimal strategy. The results are 
+illustrated by several examples.</abstract>
+                    <subject>
+                        <topic>Optimales Stoppen</topic>
+                        <topic>Swing Optionen</topic>
+                        <topic>Optimal stopping</topic>
+                        <topic>Markov Decision Process</topic>
+                        <topic>Dynamic Programming</topic>
+                        <topic>Expected utility theory</topic>
+                        <topic>Swing Options</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-6474</identifier>
+                    <identifier type="sys">HT017378986</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_647</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2012-07-15</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_647">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/647/1/bagus.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_647"
+            DMDID="DMD_siegen_opus_647">
+            <mets:fptr FILEID="FILE0_siegen_opus_647"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

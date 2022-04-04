@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_80">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Measurement of light isotopes ratios in the cosmic rays with the IMAX balloon experiment</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Vasilas, Dragos</displayForm>
+                        <namePart type="family">Vasilas</namePart>
+                        <namePart type="given">Dragos</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2004</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Vasilas, Dragoş: Diese Arbeit widmet sich der Messung der Wasserstoffisotopenhäufigkeit in der kosmischen Strahlung im Energiebereich von 0.2 bis 1.8 GeV/nuc. Die analysierten Daten stammen von dem Flug des Ballonexperimentes IMAX (Isotope Matter Antimatter eXperiment) vom 16-17 Juli 1992 in Lynn Lake, Kanada. Die Ergebnisse dieser Arbeit sollen einen zusätzlichen Beitrag zu den bereits vorhandenen Daten liefern, um so besser zwischen den heutigen Propagationsmodellen der galaktischen kosmischen Strahlung unterscheiden zu konnen. Dazu wurden in der Datenanalyse das 2 H/He und das 2 H/ 1 H-Verhältnis bestimmt, weil nach dem heutigen Wissensstand angenommen wird, dass die kosmischen Deuteronen hauptsächlich aus Wechselwirkungen von Helium und Protonen mit dem interstellaren Medium stammen. Ein weiteres signifikantes Ergebnis dieser Arbeit ist das Verhältnis 3 H/ 4 He, gemessen bei 5 g Â· cm −2 Restatmosphäre, da das gemessene Tritium rein sekundär überwiegend durch die Spaltung von Heliumkernen gebildet wird. Das gemessene Verhältnis kann dann als Test von theoretischen Berechnungen des atmosphärischen sekundären Tritium benutzt werden. Das Messprinzip von IMAX basiert auf der gleichzeitigen Bestimmung von Ladung, Geschwindigkeit und Steifigkeit der einfallenden Teilchen. Die Analyse der einzelnen Detektoren konzentriert sich in dieser Arbeit auf die Steifigkeitsbestimmung, die Kalibrierung der Flugzeitmessung und der Ladungsselektion. Um die Verhältnisse der leichten Isotope im Instrument zu erhalten, wird eine Instrumentsimulation durchgeführt. Nach weiteren instrumentellen und atmosphärischen Korrekturen der gemessenen Verhältnisse werden die so erhaltenen Ergebnisse am Rand der Atmosphäre mit den theoretischen Vorhersagen verglichen.</abstract>
+                    <abstract type="content" lang="eng">This thesis is dedicated to the measurement of hydrogen isotopic abundances in the cosmic rays with energies between 0.2 to 1.8 GeV/nuc. The data for the analysis discussed here were obtained during a high-altitude balloon flight of the Isotope Matter Antimatter eXperiment (IMAX), on 16-17 July 1992 from Lynn Lake, Canada. The results that this analysis aims to provide should enlarge the data basis for distinguishing among various models about galactic cosmic rays propagation. From this perspective, the deuteron-to-helium and deuteron-to-proton ratios are resolved from the flight data, as it is generally believed that the cosmic deuterons are mainly created from the interaction of the helium and proton nuclei with the interstellar medium. Another result of interest provided by this work is the ratio triton-to-helium, measured at 5 g Â· cm −2 atmospheric overburden. Tritium is considered as being produced in the atmosphere mainly from the spallation of helium nuclei. Thus, the 3 H/ 4 He ratio can serve as test for the present calculations about atmospheric secondary tritons. IMAX measurement technique employs a simultaneous determination of charge, velocity and magnetic rigidity. The analysis of the separate detectors is concentrated on rigidity determination, Time-of-Flight calibration and charge selection. Ratios of the light isotopes in the instrument are obtained by means of mass histograms simulations. Further instrumental and atmospheric corrections are applied to the measured ratios and the results at the top of the atmosphere are compared with predictions from theoretical models.</abstract>
+                    <subject>
+                        <topic>kosmische Strahlung</topic>
+                        <topic>Elementarteilchen</topic>
+                        <topic>ISM: Häufigkeiten</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 7, Physik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-803</identifier>
+                    <identifier type="sys">HT014133023</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_80</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2004-06-08</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_80">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/80/1/vasilas.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_80"
+            DMDID="DMD_siegen_opus_80">
+            <mets:fptr FILEID="FILE0_siegen_opus_80"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

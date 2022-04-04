@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_66">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Elastische und inelastische Lichtstreuung an Edelmetall-Nanopartikeln und scharfen Goldspitzen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Debus, Christina</displayForm>
+                        <namePart type="family">Debus</namePart>
+                        <namePart type="given">Christina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2004</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Im Rahmen dieser Arbeit werden einzelne Nanopartikel-Aggregate aus Gold, Silber und Kupfer sowie scharfe Goldspitzen auf ihre elastischen und inelastischen Lichtstreu-eigenschaften hin untersucht. Die optischen Experimente an den Nanopartikel-Aggregaten dienen dazu, einen vertieften Einblick in die Resonanzeigenschaften der für die oberflächenverstärkte Raman-Spektroskopie als Substrat verwendeten Aggregate zu gewinnen. Dafür werden an einzelnen Partikelaggregaten, die aus kolloidalen Lösungen präpariert wurden, elastische Weißlichtstreuspektren und inelastische Lumineszenz-spektren bei Anregung mit verschiedenen Laserwellenlängen detektiert und miteinander korreliert. Diesen Messungen werden quasistatische Berechnungen der Extinktions-querschnitte der Partikelaggregate gegenüber gestellt. Zusätzlich wird die SERS-Aktivität einzelner Aggregate mit deren Resonanzeigenschaften verglichen.
+An scharfen Goldspitzen, die für die aperturlose optische Raster-Nahfeld-Mikroskopie verwendet werden, werden ebenfalls Lumineszenzuntersuchungen mit Ein- und Zwei-Photonen-Anregung durchgeführt, wodurch Rückschlüsse auf das Resonanzverhalten der Spitzen möglich sind.
+Die elastische Lichtstreuung an einer scharfen Goldspitze wird darüber hinaus zur Abtastung der elektrischen Feldstärkeverteilung in der fokalen Region eines konfokalen Parabolspiegel-Mikroskops hoher numerischer Apertur in Abhängigkeit von der eingestrahlten Polarisation eingesetzt. Der Vergleich der gemessenen Intensitäts-verteilungen mit theoretischen Ergebnissen aus Vektorfeldberechnungen zeigt eine gute Reproduzierbarkeit der berechneten Daten durch die Streulichtmessungen an der Goldspitze.</abstract>
+                    <abstract type="content" lang="eng">Within this work, single nanoparticle aggregates of gold, silver and copper, as well as sharp gold tips, are investigated with respect to their light scattering properties. The optical experiments on nanoparticle aggregates are intended to provide deeper insightinto the resonance behaviour of the aggregates, which are widely used as substrates for surface-enhanced Raman spectroscopy. With this aim, single particle aggregates prepared from colloidal solutions are investigated by measurement and correlation of the elastic white light scattering spectra and the inelastic luminescence spectra at different excitation laser wavelengths. These measurements are compared with quasi-static calculations of the extinction cross sections of the particle aggregates. Additionally, the SERS activity of single aggregates is compared with their resonance behaviour.
+Luminescence spectra of sharp gold tips, which are applied for apertureless scanning
+near-field optical microscopy, are measured at one- and two-photon excitation. These spectra provide information about the resonance behaviour of the tips. Moreover, the elastic light scattering at a sharp gold tip is used to probe the distribution
+of the electric field strength in the focal region of a high NA parabolic mirror confocal
+microscope in relation to the incident polarisation. A comparison of the measured intensity distributions with the theoretical results of vector field calculations shows that the calculated data are well reproduced by the light scattering measurements.</abstract>
+                    <subject>
+                        <topic>Lichtstreuung</topic>
+                        <topic>Nanopartikel</topic>
+                        <topic>Edelmetall</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 8, Chemie - Biologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-661</identifier>
+                    <identifier type="sys">HT014076278</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_66</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2004-06-06</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_66">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/66/1/debus.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_66"
+            DMDID="DMD_siegen_opus_66">
+            <mets:fptr FILEID="FILE0_siegen_opus_66"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

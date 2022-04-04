@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1724">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Simulationssystem zur Interaktion mit realen Fischen unter Verwendung von Analyse-durch-Synthese-Verfahren</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Simulation system for interaction with real fishes using analysis-by-synthesis method</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Müller, Klaus</displayForm>
+                        <namePart type="family">Müller</namePart>
+                        <namePart type="given">Klaus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kuhnert, Klaus-Dieter</displayForm>
+                        <namePart type="family">Kuhnert</namePart>
+                        <namePart type="given">Klaus-Dieter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Der Begriff der virtuellen Realität (VR) ist in aller Munde und zu einem Inbegriff des Fortschritts geworden. Die meisten VR-Systeme sind für den menschlichen Betrachter konzipiert. In der vorliegenden Arbeit wird hingegen ein VR-System für Fische entwickelt, welches in der Verhaltensforschung Anwendung findet. Durch die Interaktion eines virtuellen mit einem realen Fischs werden zur Erforschung des Paarungsverhaltens neue Möglichkeiten geschaffen und bestehende Arbeitsabläufe vereinfacht.
+Ziel der Arbeit ist die Entwicklung eines Versuchsstandes zur Durchführung von visuellen, interaktiven Verhaltensforschungsexperimenten, bei denen ein virtueller 3D-Fisch als Stimulus während der Partnerwahl eingesetzt wird und mit dem realen Testfisch interagiert.
+Als Basis des Systems wurde im Rahmen dieser Arbeit eine System-Architektur entworfen, die aus der Robotik abgeleitet und auf den speziellen Einsatz für Versuchsstände zur visuellen Fisch-Computer-Interaktion angepasst wurde. Das entwickelte Fisch-Animationssystem ermöglicht eine einfache Gestaltung und benutzerfreundliche Animation virtueller Fischstimuli. Um darüber hinaus eine Interaktion zu realisieren, wird die Position des realen Fischs verfolgt und die Fischbewegung exakt rekonstruiert. Das optische Positionsverfolgungssystem trackt die 3D-Position der Fische in Echtzeit und erzeugt eine einfache geometrische Rekonstruktion der Versuchstiere. Die entwickelte Methode zur Kompensation der am Aquarium auftretenden Lichtbrechung erhöht dabei die Positionsgenauigkeit. Zusätzlich werden Methoden zur automatischen Initialisierung, zur einfachen Kamerakalibrierung und zur Erhöhung der Systemzuverlässigkeit bei welliger Wasseroberfläche vorgestellt. 
+Zur Rekonstruktion der Fischbewegung kommen Analyse-durch-Synthese-Verfahren zum Einsatz, mit denen die geometrischen Eigenschaften des realen Fisches in Modellparameter des virtuellen Modells übertragen werden. Auf diese Weise können aufgenommene Bewegungssequenzen zum direkten Einsatz im Animationssystem aufbereitet werden. Zur Erhöhung der Präzision wurde ebenfalls eine Methode zur Kompensation der Lichtbrechung entwickelt. Der Versuchsstand wurde erfolgreich in mehreren Experimenten mit Breitflossenkärpflingen an der Universität Siegen getestet und ist in Teilen der Forschungsgemeinschaft als quelloffene Software zur Verfügung gestellt worden.</abstract>
+                    <abstract type="content" lang="eng">The concept of virtual reality (VR) has become very popular and the epitome of progress. Most VR systems are designed for humans. In the present work, on the other hand, a VR system for fish is developed, which is used in behavioral research. Through the interaction of a virtual with a real fish, new possibilities are created and existing work ows are simplified.
+The aim of this work is the development of a test stand for visual, interactive behavioral research experiments. During this a virtual 3D fish is used as a stimulus during mate choice experiments and is able to interact with the real test fish.
+As a basis, a system architecture was designed in the context of this work, which was derived from robotics and adapted to the special use of test rigs for visual fish-computer interaction. The developed fish animation system enables a simple way of design and an user-friendly animation of virtual fish stimuli. In order to realize an interaction, the position of the real fish is tracked and the fish movement is exactly reconstructed. The optical tracking system tracks the 3D position of the fish in real time and generates a simple geometric reconstruction of the experimental animals. The developed method for compensation of the light refraction occurring at the aquarium increases the position accuracy. In addition, methods for automatic initialization, simple camera calibration and for increasing system reliability with wavy water surfaces are presented. 
+For the reconstruction of the fish movement, analysis-by-synthesis methods are used, with which the geometric properties of the real fish are transferred into model parameters of the virtual model. In this way, recorded motion sequences can be processed for direct use in the animation system. In order to increase the precision, a method for the compensation of light refraction has also been developed for the reconstruction part. 
+The complete system has been successfully tested in several experiments with Sailfin mollies at the University of Siegen and has been partially made available as open source software to the research community.</abstract>
+                    <subject>
+                        <topic>Virtuelle Realität</topic>
+                        <topic>Tier-Computer-Interaktion</topic>
+                        <topic>Objekt-Tracking</topic>
+                        <topic>Interaktive Animation</topic>
+                        <topic>Virtual reality</topic>
+                        <topic>Computer vision</topic>
+                        <topic>Behaviour research</topic>
+                        <topic>Simulation</topic>
+                        <topic>Object tracking</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Department Elektrotechnik - Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-17245</identifier>
+                    <identifier type="sys">HT020619585</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1724</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2020-05-06</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1724">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1724/4/Dissertation_Klaus_Mueller.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1724"
+            DMDID="DMD_siegen_opus_1724">
+            <mets:fptr FILEID="FILE0_siegen_opus_1724"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

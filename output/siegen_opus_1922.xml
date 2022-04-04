@@ -1,0 +1,92 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1922">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Defective defence in Daphnia daughters: silver nanoparticles inhibit anti-predator defence in offspring but not in maternal Daphnia magna</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Witte, Klaudia</displayForm>
+                        <namePart type="family">Witte</namePart>
+                        <namePart type="given">Klaudia</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hartmann, Sarah</displayForm>
+                        <namePart type="family">Hartmann</namePart>
+                        <namePart type="given">Sarah</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Beasley, Anna</displayForm>
+                        <namePart type="family">Beasley</namePart>
+                        <namePart type="given">Anna</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mozhayeva, Darya</displayForm>
+                        <namePart type="family">Mozhayeva</namePart>
+                        <namePart type="given">Darya</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Engelhard, Carsten</displayForm>
+                        <namePart type="family">Engelhard</namePart>
+                        <namePart type="given">Carsten</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">One major environmental problem of our time are emerging contaminants in the aquatic environment. While nanoparticles exhibit attractive features such as antimicrobial properties in the case of silver nanoparticles (AgNPs), earlier studies suggest that NPs are not completely filtered out at wastewater treatment plants and may therefore be continuously introduced into the aquatic environment. Although adverse effects of AgNPs on aquatic organisms have been extensively studied, there is still a lack of knowledge on how this chemical stressor interacts with natural cues on the maternal and subsequent generation of aquatic organisms. We tested whether AgNPs (NM-300K, 14.9 ± 2.4 nm, concentration range: 2.5 µg/L – 20 µg/L) affect the kairomone-induced adaptive anti-predator defence mechanism in maternal Daphnia and their offspring. While maternal Daphnia developed typical anti-predator defence mechanisms when exposed to kairomones and AgNPs, their offspring could not develop such adaptive defensive traits. The lack of this defence mechanism in offspring could have dramatic negative consequences (e.g. reduced Daphnia population) for the entire complex food web in the aquatic ecosystem. For a realistic risk assessment, it is extremely important to test combinations of chemical stressors because aquatic organisms are exposed to several natural and artificial chemical stressors at the same time.</abstract>
+                    <subject>
+                        <topic>Daphnia</topic>
+                        <topic>Silver nanoparticles</topic>
+                        <topic>Defence</topic>
+                        <topic>Daphnia offspring</topic>
+                    </subject>
+                    <classification authority="ddc">570</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19229</identifier>
+                    <accessCondition type="use and reproduction">CREATIVECOMMONS.ORG PUBLICDOMAIN ZERO 1.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1922</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1922">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1922/4/Defective_defence_in_Daphnia_daughters.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1922"
+            DMDID="DMD_siegen_opus_1922">
+            <mets:fptr FILEID="FILE0_siegen_opus_1922"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

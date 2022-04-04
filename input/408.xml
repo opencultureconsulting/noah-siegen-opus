@@ -1,0 +1,60 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>408</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Energy consistent time-integration of hybrid multibody systems</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Energie-konsistente Zeitintegration hybrider Mehrkörpersysteme</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Stefan</pc:foreName>
+            <pc:surName>Uhlar</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Mechanik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Mehrkörperdynamik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Zeitintegration</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Differential-algebraic equations</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">inverse dynamics</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">nonholonomic constraints</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">dissipation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">multibody systems</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">In the present contribution we address the design of energy-consistent time stepping schemes for hybrid multibody systems, which consist of rigid and flexible parts. First focusing on rigid body dynamics, we will present a specific rotationless formulation to describe rigid body rotations. This kinematics alleviates the design of energy-consistent integration schemes which facilitate a stable numerical integration of the corresponding set of differential algebraic equations. Furthermore we will mainly focus on vital modeling features concerning rigid bodies. In this connection we present the coordinate augmentation technique, the design of explicit null space matrices for closed loop systems, the incorporation of control constraints, the modeling of dissipation and its consistent time integration, the incorporation of kinematic constraints as well as the coupling of flexible and rigid structures. The performance of the final hybrid scheme will be demonstrated with an example incorporating all modeling features listed above.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">In der vorliegenden Arbeit steht die Entwicklung eines energiekonsistenten Zeitintegrationsverfahrens für hybride Mehrkörpersysteme, bestehend aus starren und flexiblen Komponenten, im Vordergrund. Dabei beschäftigen wir uns zunächst mit der Starrkörperdynamik und wählen eine rotationsfreie Formulierung als Starrkörperkinematik. Diese erleichtert die Entwicklung von energiekonsistenten Zeitintegratoren, welche ein stabiles Verhalten bei der Lösung von differential-algebraischen Gleichungssystemen aufweisen. Ein weiterer Schwerpunkt der Arbeit liegt auf Modellierungstechniken für die Starrkörperdynamik. In diesem Zusammenhang stellen wir die Koordinaten Augmentierung vor, präsentieren eine explizite Darstellung von Null-Raum Matrizen für Systeme mit geschlossenen kinematischen Schleifen, behandeln Steuerungsprobleme, beschäftigen uns mit der Modellierung von Dissipation und der zugehörigen energie-konsistenten Zeitintegration, wie auch letztendlich die Behandlung von nichtholonomen Systemen. Die Leistungsfähigkeit des neuen Zeitintegrationsverfahrens für hybride Mehrkörpersysteme wird anhand eines letzten Beispieles, welches alle oben genannten Modellierungsaspekte beinhaltet, aufgezeigt.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2009-10-22</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2009</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-4086</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dcterms:isPartOf xsi:type="ddb:noScheme">Schriftenreihe des Lehrstuhls für Numerische Mechanik;  3</dcterms:isPartOf>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Mechanik und Regelungstechnik - Mechatronik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="uhlar.pdf" ddb:fileSize="19589305"/>
+   <ddb:checksum ddb:type="MD5">7547f2f1799aea65bd6d2dcd782e2710</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/408/1/uhlar.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/408</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

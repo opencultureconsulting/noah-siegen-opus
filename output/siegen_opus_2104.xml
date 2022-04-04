@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_2104">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Crash simulation of woven fabric thermoplastic composites</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Crash-Simulation von gewebten thermoplastischen Faserverbundwerkstoffen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ahmad, Bilal</displayForm>
+                        <namePart type="family">Ahmad</namePart>
+                        <namePart type="given">Bilal</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Fang, Xiangfan</displayForm>
+                        <namePart type="family">Fang</namePart>
+                        <namePart type="given">Xiangfan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Fiber composite materials are frequently being used in automotive industry to meet the growing demand for fuel efficient passenger cars. Woven fabric thermoplastic composites materials provide high stiffness-to-weight, strength-to-weight and energy absorption-to-weight ratio at affordable mass production cost. To use these materials in structural components of passenger cars, the crashworthiness requirements must be met. To fulfill the crashworthiness requirements, dynamic FEM simulations are carried out as part of the product development process. However, the composite material behavior under dynamics loads is not fully understood. Furthermore, the state-of-the-art material models fail to predict the crash behavior of woven fabric composite material accurately which leads to under-utilization of the weight-saving-potential of these materials.
+The goal of this work was to develop an improved material model for the dynamics simulation of woven fabric thermoplastic composites. The material model must be independent of non-physical parameters and all parameters could be determined experimentally.
+In the framework of this work, the mechanical material properties were measured experimentally. The test data was used to identify discrepancies in state-of-the-art continuum damage mechanics material models. The in-plane shear damage behavior was improved and effects of tensile and compression strain on the shear behavior were quantified. High-speed test data was used to incorporate the strain rate-dependency in material model. The improved material model was implemented as user-material subroutine and simulation results were validated with component level drop tower crash tests.
+The potential for further improvements was identified by proposing the method to implement the measured size effect on the strength of materials. Stress-strain transformation was used to determine the failure points under multiaxial stress state. Finally, the viability of cohesive zone modeling approach was investigated to model the quasi-static axial crushing.</abstract>
+                    <abstract type="content" lang="ger">Um die wachsende Nachfrage nach kraftstoffsparenden PKW zu erfüllen, werden in der Automobilindustrie heutzutage zunehmend Faserverbundwerkstoffe eingesetzt.
+Thermoplastische Verbundwerkstoffe bieten eine hohe spezifische Steifigkeit, spezifische Festigkeit und spezifische Energieabsorption bei erschwinglichen Produktionskosten in der Massenfertigung. Um diese Materialien in Strukturbauteilen von PKWs einzusetzen, müssen diverse Anforderungen an die Crashsicherheit erfüllt werden. Um diese Anforderungen zu erfüllen, werden im Rahmen der Produktentwicklung dynamische FEM-Simulationen durchgeführt. Das Verhalten von Verbundwerkstoffen unter dynamischen Belastungen ist jedoch noch nicht vollständig bekannt. Darüber hinaus können die aktuellen Materialmodelle das Crashverhalten von gewebten Verbundwerkstoffen nicht genau vorhersagen, was dazu führt, dass das Gewichtseinsparungspotenzial dieser Materialien nicht voll ausgeschöpft wird.
+Das Ziel dieser Arbeit war es, ein verbessertes Materialmodell für die dynamische Simulation von gewebten thermoplastischen Verbundwerkstoffen zu entwickeln. Da das Materialmodell auf nicht-physikalische Parameter verzichtet, kann es vollständig mittels experimentell erhobener Daten kalibriert werden.
+Im Rahmen dieser Arbeit wurden die mechanischen Materialeigenschaften experimentell ermittelt. Die resultierenden Versuchsdaten wurden verwendet, um Diskrepanzen in modernen kontinuumsmechanischen Materialmodellen zu identifizieren. Das Schädigungsgesetz für Schub wurde verbessert und die Auswirkungen von Zug- und Druckbelastungen auf das Schubverhalten wurden quantifiziert. Hochgeschwindigkeits-Testdaten wurden verwendet, um die Abhängigkeit von der Dehnungsrate in das Materialmodell einzubeziehen. Das Materialmodell wurde als User-Material-Subroutine implementiert und die Simulationsergebnisse wurden mit Fallturm-Crashtests auf Komponentenebene validiert.
+Die Implementierung des beobachteten Größeneffekts auf die Festigkeit der geprüften Materialien wurde als Verbesserungspotenzial für zukünftige Arbeiten identifiziert. Die Spannungs-Dehnungs-Transformation wurde verwendet, um die Versagenspunkte unter multiaxialem Spannungszustand zu bestimmen. Zum Schluss wurde die Durchführbarkeit des Modellierungsansatzes für kohäsive Zonen untersucht, um den quasistatischen Axialcrash zu modellieren.</abstract>
+                    <subject>
+                        <topic>Verbundwerkstoff</topic>
+                        <topic>Thermoplastics composites</topic>
+                        <topic>Testing</topic>
+                        <topic>Material modeling</topic>
+                        <topic>Dynamic simulation</topic>
+                        <topic>Thermoplastische Verbundwerkstoffe</topic>
+                        <topic>Werkstoffprüfung</topic>
+                        <topic>Materialmodellierung</topic>
+                        <topic>Dynamische Simulation</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Fahrzeugtechnik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-21043</identifier>
+                    <identifier type="sys">HT021201008</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_2104</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2021-07-27</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_2104">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/2104/3/FLB_7_Dissertation_Ahmad.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_2104"
+            DMDID="DMD_siegen_opus_2104">
+            <mets:fptr FILEID="FILE0_siegen_opus_2104"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

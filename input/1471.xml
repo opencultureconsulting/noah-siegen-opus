@@ -1,0 +1,62 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1471</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Scenario-based meta-scheduling for energy-efficient, robust and adaptive time-triggered multi-core architectures</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Babak</pc:foreName>
+            <pc:surName>Sorkhpour</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Sicherheitskritisches System</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Meta-scheduling</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">MIQP</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Time-Triggered</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Energy-Efficient</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Multi-Core Architectures</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">In vielen sicherheitskritischen Anwendungen (z.B. Luft- und Raumfahrt, Automotive, Kernkraftwerke) kommen komplexe elektronische Systeme zum Einsatz, für die Zertifizierungsnormen den Einsatz von sicheren Konstruktionsmethoden und -tools vorschreiben. Die Szenario-basierte Meta-Planung (SBMeS) ist eine Möglichkeit, die Komplexität von adaptiven Systemen über vorhersehbare Verhaltensmuster zu steuern, die durch statische Planungsalgorithmen festgelegt werden. SBMeS ist sehr bedeutsam für das Internet der Dinge (IoT) und Echtzeitsysteme. Echtzeitsysteme basieren oft auf zeitgesteuerten Betriebssystemen und Netzwerken und können von SBMeS für mehr Energieeffizienz, Flexibilität und Zuverlässigkeit profitieren.&#13;
+Diese Abhandlung stellt einen SBMeS-Algorithmus vor, der einen individuellen Zeitplan für jede relevante Kombination von Ereignissen wie dynamische Schlupfereignisse berechnet. Die dynamische Frequenzskalierung von Prozessorkernen und Routern dient der Verbesserung der Energieeffizienz unter Beibehaltung der zeitlichen Korrektheit von zeitgesteuerten Berechnungs- und Kommunikationsaktivitäten (z.B. Kollisionsvermeidung, Echtzeitfähigkeit). Mit Hilfe von Modellen von Anwendungen, Plattformen und Kontexten werden Planungswerkzeuge eingesetzt, um Reaktionen auf Ereignisse vorzubereiten und Meta-Planungen zu generieren. &#13;
+Im Rahmen dieser Arbeit werden Techniken und Werkzeuge entwickelt, um eine Reihe von Berechnungen und Nachrichten auf Network-On-Chip (NoC)-Architekturen zu planen, mit dem Ziel, den Gesamtenergieverbrauch unter Berücksichtigung von Zeitvorgaben und einstellbaren Frequenzen zu minimieren. Der Algorithmus unterstützt sicherheitskritische adaptive zeitgesteuerte Systeme und kann die Anforderungen hinsichtlich der Fehlertoleranz abdecken. Er kann auch dazu beitragen auf Störungsfälle zu reagieren, indem er das System wiederherstellt. Außerdem stellen wir ein Meta-Planungstool (MeSViz) zur Visualisierung von zeitgesteuerten Plänen vor. &#13;
+Wir analysieren und bewerten die Energieeffizienz der Pläne experimentell für Prozessorkerne und Router. Darüber hinaus wird das Zeitverhalten anhand von statischen und dynamischen Schlupfereignissen analytisch bewertet. Simulationsergebnisse zeigen, dass unser dynamischer Schlupfalgorithmus im Durchschnitt eine Energieeinsparung von 64,4% in einem einzigen Zeitplan und 41,61% Energieeinsparung für NoCs erbringt. Durch die Komprimierung der Zeitpläne kann der Speicherverbrauch um mehr als 61% reduziert werden.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Complex electronic systems are used in many safety-critical applications (e.g., aerospace, automotive, nuclear stations), for which certification standards demand the use of assured design methods and tools. Scenario-based meta-scheduling (SBMeS) is a way of managing the complexity of adaptive systems via predictable behavioral patterns established by static scheduling algorithms. SBMeS is highly relevant to the internet of things (IoT) and real-time systems. Real-time systems are often based on time-triggered operating systems and networks and can benefit from SBMeS for improved energy-efficiency, flexibility and dependability.&#13;
+This thesis introduces an SBMeS algorithm that computes an individual schedule for each relevant combination of events such as dynamic slack occurrences. Dynamic frequency scaling of cores and routers is used to improve energy efficiency while preserving the temporal correctness of time-triggered computation and communication activities (e.g., collision avoidance, timeliness). Models of applications, platforms and context are used by scheduling tools to prepare reactions to events and to generate meta-schedules. &#13;
+In this work, techniques and tools are developed to schedule a set of tasks and messages on Network-on-chip (NoC) architectures to minimize total energy consumption, considering time constraints and adjustable frequencies. This algorithm is intended for mixed-criticality and safety-critical adaptive time-triggered systems and can cover fault-tolerance requirements. It can also help to react to fault events by recovering the system. We also introduce a meta-scheduling visualization tool (MeSViz) for visualizing schedules. We also introduce a meta-scheduling visualization tool (MeSViz) for visualizing schedules. &#13;
+We experimentally and analytically evaluate the schedules’ energy-efficiency for cores and routers. In addition, the timing is analytically evaluated, based on static slack and dynamic slack events. Simulation results show that our dynamic slack algorithm produces, on average, an energy reduction of 64.4% in a single schedule and 41.61% energy reduction for NoCs. By compressing the schedule graphs the memory consumption can be reduced by more than 61%.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2019-07-09</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2019</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-14715</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Babak_Sorkhpour.pdf" ddb:fileSize="6836108"/>
+   <ddb:checksum ddb:type="MD5">b4ca88d48835cba8ef8289e3aabff35b</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1471/1/Dissertation_Babak_Sorkhpour.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1471</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

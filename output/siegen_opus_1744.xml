@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1744">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Virtual reality simulation of a smart eating table for handicapped people</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Majeed, Salih Rashid</displayForm>
+                        <namePart type="family">Majeed</namePart>
+                        <namePart type="given">Salih Rashid</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Roth, Hubert</displayForm>
+                        <namePart type="family">Roth</namePart>
+                        <namePart type="given">Hubert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Diese Arbeit beschäftigt sich mit der simulierten Interaktion zwischen Mensch und Roboter und der Verwendung des Roboters in verschiedenen Lebensbereichen. Entsprechend der Entwicklung in der künstlichen Intelligenz und in der Robotik wird es möglich, neue intelligente Roboteranwendungen zu entwickeln. Die Idee zu diesem Projekt entstand durch die große Anzahl der behinderten Menschen in meinem Heimatland, die durch den dortigen Terrorkrieg verletzt worden sind. Die Herausforderung ist, ein neues intelligentes Robotersystem zu bauen, das den Menschen bei ihren alltäglichen Lebensaktivitäten - speziell beim Essen und Trinken - hilft. Aus vielen Gründen, die im ersten Kapitel erläutert werden, haben wir beschlossen, die Simulationssoftware zu verwenden, um ein solches System zu implementieren. Das vorgeschlagene simulierte System besteht aus drei Subsystemen: dem Robotersystem (einem JACO Manipulator Arm). Dem Seh-System (semantische Kamera), das verschiedene Umgebungsobjekte nach ihren Typen und Namen erkennen kann. Es liefert uns dann die Koordinaten für jedes einzelne Objekt. Das letzte Subsystem ist das Geräuscherkennungssystem, das die Wörter erkennt, die programmiert wurden, um den Prozesstyp Essen oder Trinken auch auf die Lebensmittelarten zu beziehen. Die gesamte Umgebung wurde mit Hilfe eines Simulationsprogrammes (MORSE) erstellt, das Python vollständig unterstützt und auf Blender basiert (3D-Zeichnungs und Animationsprogramm). Die Umgebung besteht aus dem Modell einer Person, einem Essenstisch, zwei Schüsseln mit verschiedenen Farben, um die verschiedenen Essensarten darzustellen, einer Küche mit einigen Pflanzen, Heizungen, Spüle und Tisch. Der Arm wurde mit den Designdaten des realen Armes implementiert. Er beinhaltet die gleichen Gelenke, Links und Funktionen. Der Roboterarm, der in diesem Projekt verwendet wurde, ist ein JACO Roboterarm. Dieser Arm wurde speziell für Behinderte entwickelt, die kleine Probleme mit Essen und Trinken haben. Wir haben diesen Arm durch Hinzufügen von zwei Systemen weiterentwickelt: diese Systeme sind Sehen und Hören. Dies wird den Leuten helfen, die ihre Hände nicht benutzen können. Das externe Mikrofon wird mit dem PC verbunden und startet seine Funktion, wenn das Programm startet. Das System wird unter Verwendung von robot operating system (ROS) gesteuert, dass die Sprache C ++ unterstützt. Das System beginnt wie folgt: Wenn der Mensch das gewünschte Wort sagt, das die Nahrungsmittelarten oder das Getränk beschreibt, wird es durch das Geräuscherkennungssystem erkannt. Das Sichtsystem wird die Koordinaten des erforderlichen Essens oder Getränks erkennen. Die Koordinaten des Essens oder des Getränkes werden gespeichert und dann an den Roboterarm übertragen. Der Roboterarm fährt zum Essenstisch oder zum Glas, nimmt es auf und bewegt sich dann zum Mund. Danach bringt er den Rest des Essens oder das Glas zurück an die erste Position. Dieses Projekt kann sehr hilfreich sein für Menschen, die körperliche Probleme beim Essen oder Trinken haben. Also insbesondere für Behinderte mit Einschränkungen der Handhabung.</abstract>
+                    <abstract type="content" lang="eng">This thesis deals with simulated human-robot interaction and how to use a robot in different everyday life activities. It is in line with the significant developments in the sector of artificial intelligent and robotic fields that have enabled the emergence of a new smart robot generation. The idea of this project came from the large number of disabled people, especially handicapped people. This number has been substantially increased by the terrorist war in my country. The challenge of this task is how to build a new smart robotic system that can help those people in everyday life activities, especially in eating and drinking. Due to many reasons that will be clarified in the first chapter, we decided to use simulation software to implement such a system. The proposed simulated system comprises three sub-systems: the robotic system (a JACO manipulator arm), the semantic camera system – which can detect the different environment objects according to their types and names, which finally gives us the coordinates for each one – and the sound recognition system, which will recognize the words from the person using it. It has been programmed to refer to the process type (eating or drinking), as well as the food types. The whole environment has been built using a simulation program (MORSE) that completely supports Python and is based on Blender (a 3D drawing and animation program). The simulated environment comprises a human model, a food table, two dishes with different colours to represent the food types, a kitchen room with some plants, heaters, sink, and tables. The robot arm has been implemented with the same design as the real arm. It includes the same joints, links, and functions. The robotic arm simulated in this project is a JACO robotic arm. This arm has been designed especially for disabled people who have minor problems with eating and drinking. We improved this arm by adding two systems, one for semantic camera system and one for sound. This will help people who cannot use their hands. An external microphone is connected to the PC and starts its function when the program starts, whereby the system is controlled by using a robot operation system (ROS) that supports C++. The system then starts with the human saying the required word, which represents the food type or a drinkable liquid (e.g. water). Each of the available food types has a specific word. When the person says this word, it will be recognized by the sound recognition system. Subsequently, the semantic camera system will detect the coordinates of the required food or drink, which will be stored and then transferred to move the robotic arm. The robotic arm will drive to the food dish or the water cup and pick up it, before moving to the mouth and finally returning the rest food or cup to the first position and continuing in this execution loop. This project will be very helpful to people who have physical problems with eating or drinking, especially for disabled and handicapped people.</abstract>
+                    <subject>
+                        <topic>MORSE &lt;Programm&gt;</topic>
+                        <topic>Robot</topic>
+                        <topic>ROS</topic>
+                        <topic>Simulation</topic>
+                        <topic>Handicapped</topic>
+                        <topic>Morse</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Department Elektrotechnik - Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-17441</identifier>
+                    <identifier type="sys">HT020670871</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1744</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2020-10-06</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1744">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1744/2/Dissertation_Salih_Rashid_Majeed.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1744"
+            DMDID="DMD_siegen_opus_1744">
+            <mets:fptr FILEID="FILE0_siegen_opus_1744"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_145">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Investigation of electrokinetic forces on single particles</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bonaccurso, Elmar</displayForm>
+                        <namePart type="family">Bonaccurso</namePart>
+                        <namePart type="given">Elmar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2001</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">This work shows that in many aspects of colloidal systems there exists a coupling between hydrodynamic and electrostatic interactions. For charged particles immersed in a polar medium, there is a pronounced influence of the electric field upon the motion of the particle in the fluid. Experimentally, this leads to electrokinetic effects , which may influence the coagulation of colloid particles and their adsorption at surfaces. These effects can be
+described by extending the equations of motion by an additional electrostatic term.  
+This work also gives evidence of the existence of the hydrodynamic phenomenon of slip between hydrophilic bodies in an aqueous medium. Recently, more general boundary conditions, differing from the no-slip boundary condition , have been proposed. Due to the experiments presented here, the more general boundary conditions have to be considered only for shear stresses, which the liquid experiences in the vicinity of the solid interfaces.  
+In order to carry out these measurements using the colloidal probe technique , new types of rectangular tipless cantilevers have been designed and fabricated. These have the advantage, with respect to commercial triangular cantilevers, of affecting less the hydrodynamics of the microsphere in vicinity of the flat surface. These home made cantilevers have also a higher sensitivity in the specific range of forces of our interest (0.1 ÷ 10 nN).</abstract>
+                    <subject>
+                        <topic>hydrodynamics</topic>
+                        <topic>electrokinetics</topic>
+                        <topic>colloidal probe technique</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 8, Chemie - Biologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1452</identifier>
+                    <identifier type="sys">HT013281249</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_145</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2001-12-14</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_145">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/145/1/bonaccurso.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_145"
+            DMDID="DMD_siegen_opus_145">
+            <mets:fptr FILEID="FILE0_siegen_opus_145"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

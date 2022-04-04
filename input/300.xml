@@ -1,0 +1,79 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>300</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Numerical modelling of turbulent premixed combustion for gas turbine conditions with incorporation of molecular transport effects</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Numerische Modellierung turbulenter Vormischverbrennung bei Gasturbinenbedingungen unter Einbeziehung molekularer Transporteffekte</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Naresh Kumar</pc:foreName>
+            <pc:surName>Aluri</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Turbulente Verbrennung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Numerische Strömungsberechnung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Verbrennungsmodellierung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Reaktionsmodelle</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Molekularer Transport</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">combustion modelling</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">numerical simulation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">premixed turbulent combustion</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">CFD</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Large-Eddy-Simulation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Aufgrund endlicher fossiler Brennstoffreserven erfordert die Auslegung zukünftiger Verbrennungssysteme erhöhte Wirkunggrade und reduzierten Brennstoffverbrauch. Gleichzeitig müssen die Abgasemissionen kontrolliert werden, da sie unsere Umwelt belasten. Einer der modernen verbrennungstechnischen Ansätze ist die Anwendung von turbulenten Vormischflammen unter hohem Druck, beispielsweise in Gasturbinen- Brennern. Die vorliegende Arbeit befasst sich mit der Entwicklung effizienter numerischer Berechnungsverfahren solcher turbulenter Vormischflammen unter erhöhtem Druck. Hierbei spielen molekulare Transportvorgänge und dynamische Flammenvorgänge eine wichtige Rolle. Fünf verschiedene Brennerkonfigurationen wurden dafür in dieser Arbeit untersucht, die durch unterschiedliche Komplexität charakterisiert sind. Sie reichen von einfachen Bunsenflammen bis zu industriellen Gasturbinen-Brennern. &#13;
+&#13;
+Die Dissertation befasst sich mit drei wesentlichen Themen. &#13;
+&#13;
+Erstens wurden verschiedene Reaktions-Modelle für die Berechnung turbulenter Vormischflammen getestet. Dies wurde anhand eines breiten Datensatzes von Bunsenflammen bei variiertem Druck und Brennstoff durchgeführt, bei denen das Strömungs- und Turbulenzfeld relativ einfach strukturiert sind, so dass dieses mit der Methodik der gemittelten Navier-Stokes-Gleichungen (Reynolds averaged Navier- Stokes Simulation - RANS) berechnet werden konnte. Aufgrund der mangelhaften Vorhersagegüte von vielen der existierenden Reaktionsmodellen bei erhöhtem Druck und bei variiertem Brennstoff wurde hier ein neues Modell entwickelt. Dieses enthält eine algebraische Berechnungssgleichung der Verwinkelung der Flammenoberfläche (Algebraic Flame Surface Wrinkling (AFSW) Modell). Es ist in der Lage, den gesamten breiten Satz an über 100 Bunsenflammendaten recht gut zu beschreiben. Der Einfluss des Brennstoffes wurde hierbei über eine Lewiszahl beschrieben. Dies zeigt, dass molekulare Transportvorgänge sogar bei hohen Turbulenzbedingungen einen unerwartet starken Einfluss auf die mittlere Reaktionsrate haben. Auch die Anwendung dieses AFSW-Modelles auf andere Brennerkonfigurationen zeigte eine beachtliche Anwendbarkeit, beispielsweise bei der Berechnung eines Gasturbinen- Brenners bis zu 32 bar Betriebsdruck. Bei einer Brennstoff- (Lewiszahl-) abhängigen Berechnung eines Gasturbinen-Brenners wurde gefunden, dass die dynamische Flammenstabilisierung im Zusammenhang mit der strömungsmechanischen Wirbelaufbruch-Stabilisierung stark von dieser Lewiszahl (also dem Brennstoff) abhängen kann. Alternativ wurde das Reaktionsmodell von Lindstedt und Váos recht erfolgreich mit ähnlichen druck- und Lewiszahlabhängigen Termen erweitert (was im Anhang der Arbeit beschrieben ist). &#13;
+&#13;
+Zweitens wurde das neu entwickelte Reaktionsmodell auch im Zusammenhang der in der Strömungsmechanik in den letzten Jahren eingeführten zeitabhängigen Large- Eddy-Simulationsmethode (LES) erprobt. Hier wurde das AFSW-Reaktionsmodell als Subgrid-scale-Modell (sgs) formuliert und im Zusammenhang mit drei sgs-Turbulenz- Modellen erprobt. Vergleiche der Flammenlänge und der Flammenzonenausbreitung zeigen die erfolgreiche Anwendbarkeit auch bei Brennern mit komplexen Strömungsformen mit Rezirkulation und Drall. Dieser Ansatz erlaubte erstmalig die Berechnung und Erklärung einer experimentell beobachteten Doppel-Flammen- Instabilität eines speziellen Gasturbinen-Brenners. &#13;
+&#13;
+Drittens wurde als Ausblick auf zukünftige Arbeiten die Berechnung von Wasserstoffangereicherten Methanflammen untersucht, was beispielsweise für zukünftige CO2- arme Brennerkonzepte von Bedeutung ist. Da Wasserstoff aufgrund seiner geringen Masse eine erheblich höhere molekulare Diffusionskonstante als andere Brennstoffe besitzt, ist dies eine nichttriviale Herausforderung für jedes Reaktionsmodell. Eine analytische Abschätzung und erste Berechnungen mit der RANS-Methodik zeigen, dass das AFSW-Modell die bei diesem Brennstoff auftretenden Effekte durch bevorzugte molekulare Diffusionsvorgänge nicht ausreichend beschreibt. Als Ausblick wird eine Modellerweiterung mittels einer chemischen Zeitskala vorgeschlagen, die auf einem "Leading-point"-Konzept von "kritisch gekrümmten" laminaren Flammen beruht. Zur Validierung dieses neuen Ansatzes sind weitere Studien notwendig.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Design of combustion systems with increased efficiency and reduced fuel consumption under controlled pollutant emissions is mandatory due to the fast depleting trend of the fossil fuel reserves, and environmental concerns. Premixed turbulent high pressure combustion is a practically viable option to tackle these issues, especially in relation with gas turbine combustion. The central theme of this research work is the numerical investigation of the molecular transport effects and the dynamics of turbulent premixed high-pressure flames. These elements of premixed turbulent combustion are exhaustively studied on five different flame configurations of varied degree of complexity, ranging from a simple Bunsen-like burner to an industrial gas turbine combustor. &#13;
+&#13;
+The focus of this thesis is diversified on three subjects. &#13;
+&#13;
+Firstly, the behaviour of various turbulent premixed combustion models for the variation of pressure and fuel types with a broad set of simple Bunsen-like flames are numerically tested, where the flow and turbulence field has a relatively simple structure and is calculated with the Reynolds averaged Navier-Stokes (RANS) approach. It is found that several of the existing reaction models are insensitive to the effects of pressure and fuel type. Therefore, a new reaction model is developed, being based on an Algebraic Flame Surface Wrinkling relation (AFSW model), which can describe well the broad set of over 100 Bunsen flame data. The fuel influence is modelled for several hydrocarbon fuels with a Lewis number effect, which shows that molecular transport effects are of importance even for high turbulence conditions. The AFSW model shows remarkable workability also for the other flame configurations, including the gas turbine combustors for pressure variation up to 32 bar. In a set of calculations of a gasturbine burner, it is found that the flame dynamics in conjunction with the vortex breakdown point is sensitive to the Lewis number (i.e., for fuel type). As an alternative reaction model, also the Lindstedt-Váos model is extended in a similar way with a pressure-term and the Lewis number, being described in the appendix. &#13;
+&#13;
+Secondly, the applicability of the AFSW reaction model is tested in conjunction with more elaborate turbulence models, based on the time dependent large-eddy simulation (LES). Here, the AFSW reaction model was incorporated as a subgrid scale (sgs) reaction closure and was tested for three sgs turbulence models. Validation is done successfully against experimentally measured flame brush thickness and mean flame position on those flame configurations, where the turbulent flow pattern is rather complex with recirculation and swirl. This approach allowed for the first time the calculation and explanation of experimentally observed dual-flame instability of a specific gas-turbine burner. &#13;
+&#13;
+Thirdly, a preliminary study is started to incorporate the possibility of hydrogen blended methane-air flames, which is of importance as a possible future fuel component, e.g., in the frame of reduced CO2 emissions. As the molecular weight and with that the diffusivity of hydrogen differs significantly from that of other fuels, this is a non-trivial challenge for any reaction model. In an analytical analysis and with limited computations in the RANS context, it is found that the AFSW model is insensitive to the preferential molecular diffusion effects, occurring here. As an outlook a submodel for the chemical time scale is proposed, based on a leading point concept of critically curved laminar flames. Further studies of this new approach are necessary for thorough validation.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2007-06-12</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2007</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-3001</dc:identifier>
+   <dc:source xsi:type="ddb:ISBN">978-3-89963-579-9</dc:source>
+   <dc:source xsi:type="ddb:noScheme">Zugl. ersch.:  München: Hut, 2007 ISBN 978-3-89963-579-9</dc:source>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Fluid- und Thermodynamik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="aluri.pdf" ddb:fileSize="3107030"/>
+   <ddb:checksum ddb:type="MD5">3911f80eb7072303944b9de74fe76c1c</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/300/1/aluri.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/300</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

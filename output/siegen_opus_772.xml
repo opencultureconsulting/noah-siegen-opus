@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_772">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Das </nonSort>
+                        <title>Erhaltungsprinzip in der Physik und seine Anwendung im Physikunterricht</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Krause, Eduard</displayForm>
+                        <namePart type="family">Krause</namePart>
+                        <namePart type="given">Eduard</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In der vorliegenden Dissertation wird von einer wissenschaftstheoretischen und wissenschaftshistorischen Sicht ausgehend das Erhaltungsprinzip in der Physik als ein strukturierendes und systematisierendes Grundprinzip vorgestellt. Des Weiteren fungiert das Erhaltungsprinzip auch als ein Denkprinzip, das in der Geschichte der Physik immer wieder effektiv genutzt wurde und auch heute im Schulunterricht als Problemlösewerkzeug nützliche Dienste erweist. Ziel der Betonung der Erhaltung als Grundprinzip und Denkwerkzeug der Physik im Unterricht ist die Förderung des konzeptionellen Verständnisses der Physik. Dabei meint konzeptionelles Verständnis nicht nur den Überblick und die Verflechtung physikalischen Wissens, sondern auch die Fähigkeit selbstständig physikalisch zu denken. 
+So wird weiter gezeigt, wie die Erhaltung in diesen zwei Rollen - als Grundkonzept und Problemlösewerkzeug - für den Unterricht genutzt werden kann. Dabei stehen ein klar strukturierter und mit bekanntem Wissen verwobener Unterricht, sowie die Vermittlung physikalischer Denkprinzipien zum Lösen offener Aufgaben im Fokus dieser didaktischen Betrachtungen. Zur möglichen Umsetzung ist eine Unterrichtsreihe zum elektrischen Feld konzipiert worden, die auch in einer zwölften Klasse erprobt wurde.
+Welche Bedeutung der Erhaltung bisher im Physikunterricht beigemessen wird, wird durch eine Schulbuchanalyse gezeigt. Dabei werden sechs gängige Schulbücher der gymnasialen Oberstufe, sowie deren Lösungsbücher untersucht. Dabei wird deutlich, dass die Förderung des konzeptionellen Verständnisses der Physik in den Schulbüchern noch ausbaufähig ist.</abstract>
+                    <abstract type="content" lang="eng">The present dissertation will discuss, based on the philosophy and the history of science, the principle of conservation in physics as a structuring and systemizing fundamental principle. 
+Furthermore the principle of conservation functions as a principle of reasoning that has been used effectively throughout the history of physics and still works beneficially for today’s physics class at school.
+The goal of placing an emphasis on conservation as a fundamental principle and cognitive tool within physics class is to foster a conceptual understanding and intertwining of physical knowledge. Conceptual knowledge in this case does not mean an overview and intertwining of physical knowledge only but the ability of autonomous physical reasoning as well.
+Therefore it will also be discussed how conservation in both of these roles - as a fundamental principle and a tool for problem solving – can be used in class. A clearly structured teaching intertwining with the student’s prior knowledge as well as imparting a physical way of thinking for performing open tasks is emphasized in these didactic considerations. For a potential implementation a teaching unit dealing with the electric field has been designed which has already been tested in a year 12 class. 
+An analysis of different school books shows the degree of importance conservation has had in physics class up to now. This analysis included six commonly used school books for eleventh to thirteenth grade and the respective teacher’s editions. It becomes obvious that the promotion of a conceptual understanding of physics has yet room for improvement.</abstract>
+                    <subject>
+                        <topic>Wissenschaftliches Denken</topic>
+                        <topic>physikalisches Denken</topic>
+                        <topic>Erhaltung</topic>
+                        <topic>physics</topic>
+                        <topic>education</topic>
+                        <topic>thinking</topic>
+                        <topic>conservation principle</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-7726</identifier>
+                    <identifier type="sys">HT018107850</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_772</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2013-11-18</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_772">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/772/1/krause_eduard.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_772"
+            DMDID="DMD_siegen_opus_772">
+            <mets:fptr FILEID="FILE0_siegen_opus_772"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

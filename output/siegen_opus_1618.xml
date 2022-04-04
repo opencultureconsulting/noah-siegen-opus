@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1618">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Die </nonSort>
+                        <title>argumentative Funktion und Geltung naturwissenschaftlicher Rekurse bei Friedrich Kittler</title>
+                        <subTitle lang="ger">eine Diskurskritik vor dem Hintergrund des „Sokal Hoax“</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Weiß, Bastian</displayForm>
+                        <namePart type="family">Weiß</namePart>
+                        <namePart type="given">Bastian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Leschke, Rainer</displayForm>
+                        <namePart type="family">Leschke</namePart>
+                        <namePart type="given">Rainer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">masterThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Medienwissenschaften kommen als kritisch-theoretische oder soziologisch-empirische Untersuchung von Kommunikationstechnologie nicht umhin, mit natur-, geistes- und sozialwissenschaftlichen Konzepten zu operieren. Welche Probleme solch disziplinäres Grenzgängertum mit sich bringen kann, zeigte die berüchtigte Sokal-Affäre, im Zuge derer der „elegante Unsinn“, der in der geisteswissenschaftlichen Postmoderne mit Rekursen auf Mathematik und Naturwissenschaften getrieben wird, ins kritische Scheinwerferlicht rückte. 
+Wie und wann beziehen sich Medienwissenschaftler auf Naturwissenschaften und was bedeutet das für eine Disziplin, deren Curricula keinerlei mathematische Ausbildung vorsehen? 
+Am Beispiel des Werkes Friedrich Kittlers diskutiert diese Arbeit, wie naturwissenschaftliche Rekurse in den Medienwissenschaften nicht nur wegen eines notwendig interdisziplinären Gegenstandes, sondern mit argumentativ-diskursiver Funktion, und damit zumindest potentiell missbräuchlich im Sinne Sokals, eingesetzt werden.</abstract>
+                    <subject>
+                        <topic>Kittler, Friedrich A.</topic>
+                        <topic>Austreibung des Geistes aus den Geisteswissenschaften &lt;Werk&gt;</topic>
+                        <topic>Eleganter Unsinn &lt;Werk&gt;</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Medienwissenschaftliches Seminar"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16188</identifier>
+                    <identifier type="sys">HT020570169</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1618</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaMasterThesis</vl:doctype>
+                        <vl:defenseDate>2017-06-22</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1618">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1618/1/Medienwissenschaften_19_Weiss.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1618"
+            DMDID="DMD_siegen_opus_1618">
+            <mets:fptr FILEID="FILE0_siegen_opus_1618"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

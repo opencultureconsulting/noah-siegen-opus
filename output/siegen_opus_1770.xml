@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1770">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>structure of measurements and states in quantum theory</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <nonSort>The </nonSort>
+                        <title>Struktur der Messungen und Zustände in der Quantenmechanik</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kleinmann, Matthias</displayForm>
+                        <namePart type="family">Kleinmann</namePart>
+                        <namePart type="given">Matthias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Diese Arbeit behandelt die Struktur der Quantenmechanik mit Fokus darauf, was die Struktur von Zuständen und Messungen im Formalismus der Quantenmechanik auszeichnet. Ein sehr allgemeiner Formalismus um beide Begrifflichkeiten zu beschreiben ist durch den operationellen Formalismus der verallgemeinerten probabilistischen Theorien gegeben. Die Verallgemeinerung wird durch eine Abstraktion des reellen Vektorraums der hermiteschen Operatoren erreicht, sowie durch eine Abstraktion von positiv-Semidefinitheit. Beide Konzepte sind hinreichend um das Grundgerüst der Quantenmechanik zu erhalten, jedoch erweitern verallgemeinere probabilistische Theorien diese in einer solchen Weise, dass sie auf nahezu jede operationellen Theorie der Physik anwendbar sind. In dieser Arbeit wird die Rolle der Quantenmechanik innerhalb dieses Formalismus diskutiert, insbesondere bezüglich der Frage, welche Konzepte der Quantenmechanik eigen sind und welche Konzepte lediglich in der Tatsache gegründet sind, dass die Quantenmechanik ein Spezialfall der verallgemeinerten probabilistischen Theorien ist.</abstract>
+                    <abstract type="content" lang="ger">This thesis concerns the structure of quantum theory with a focus on  what states and measurements are according to the formalism of quantum theory itself. A very general mathematical framework for a theory to capture both notions is the operational framework of general probabilistic theories. Hereby, the generalization is achieved by considering an abstraction of the real vector space of Hermitian operators and an abstraction of the concept of positive semidefiniteness. These two concepts are enough to recover the skeleton of quantum theory, but general probabilistic theories broaden these notions to be applicable to virtually any conceivable operational theory of physics. This thesis addresses the role of quantum theory within this framework, specifically addressing the question which concepts are native to quantum theory and which concepts are due to the fact that quantum theory is an instance of a general probabilistic theory.</abstract>
+                    <subject>
+                        <topic>Quantenzustand</topic>
+                        <topic>foundations of quantum theory</topic>
+                        <topic>generalized probabilistic theories</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Department Physik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-17703</identifier>
+                    <identifier type="sys">HT020684707</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1770</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaHabil</vl:doctype>
+                        <vl:defenseDate>2019-12-19</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1770">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1770/36/Habilitationsschrift_Matthias_Kleinmann.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1770"
+            DMDID="DMD_siegen_opus_1770">
+            <mets:fptr FILEID="FILE0_siegen_opus_1770"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

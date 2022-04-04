@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1795">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Tandem Teaching in der ingenieurpädagogischen Ausbildung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Al-Diban, Sabine</displayForm>
+                        <namePart type="family">Al-Diban</namePart>
+                        <namePart type="given">Sabine</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Prof. Dr. Ralph Dreher, Universität Siegen</displayForm>
+                        <namePart type="family">Prof. Dr. Ralph Dreher</namePart>
+                        <namePart type="given">Universität Siegen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In diesem Beitrag geht es um das Tandem Teaching. Der Begriff beinhaltet in Analogie zu einem
+Fahrrad, das für Zwei gebaut wurde, die Aussage, dass zwei Personen für das Lehren gleichermaßen verantwortlich sind [Nicholas, Ransohoff, 1965, S. 489]. Generell sind sehr unterschiedliche Tandemkonstellationen möglich, die vergleichend vorgestellt werden. Als Fragestellungen zum Tandem Teaching werdendiskutiert, welches Potential das Tandem Teaching allgemein aufweist und welche Herausforderungen beim Initiieren von Lernprozessen und der Entwicklung von Lehrkompetenzen auch bei angehenden Ingenieurpädagoginnen/
+Ingenieurpädagogen und Lehrenden in der Ingenieurbildung bestehen.</abstract>
+                    <subject>
+                        <topic>Lehre</topic>
+                        <topic>Tandem Teaching</topic>
+                        <topic>Explorative Fallstudie</topic>
+                        <topic>Mentale Modelle</topic>
+                        <topic>Lehrkompetenzen</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-17955</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1795</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1795">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1795/4/Tandem_Teaching.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1795"
+            DMDID="DMD_siegen_opus_1795">
+            <mets:fptr FILEID="FILE0_siegen_opus_1795"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

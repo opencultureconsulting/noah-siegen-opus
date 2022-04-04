@@ -1,0 +1,74 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1636">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Emergence in design science research</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Klesel, Michael</displayForm>
+                        <namePart type="family">Klesel</namePart>
+                        <namePart type="given">Michael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Henseler, Jörg</displayForm>
+                        <namePart type="family">Henseler</namePart>
+                        <namePart type="given">Jörg</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Designing artifacts is a pivotal activity in Information Systems (IS) research. Beside the development process, the evaluation of artifacts is important as it allows the application of scientific methodologies to generate and accumulate knowledge. Commonly, the evaluation of an artifact is conducted in terms of the artifacts usefulness, utility or performance. Although those evaluation metrics are important, they do not allow conclusions on a more fundamental question, namely “What are fundamental components of an artifact?”. Since Information Technology is becoming increasingly complex, identifying fundamental components becomes more important. To address this important topic, we draw from emergence theory to enhance artifact evaluation. We argue that emergence is a well-suited perspective that can be used to identify crucial components of an artifact. We provide a conceptual notion that can be applied to evaluate artifacts in the light of emergence and demonstrate conceptually how to apply this framework.</abstract>
+                    <subject>
+                        <topic>Artefakt</topic>
+                        <topic>Emergence</topic>
+                        <topic>Design Science Research</topic>
+                        <topic>Confirmatory Composite Analysis (CCA)</topic>
+                        <topic>IT Artifact Evaluation</topic>
+                        <topic>Innovation</topic>
+                        <topic>Designwissenschaftliche Forschung</topic>
+                        <topic>Innovation</topic>
+                        <topic>Bestätigende Verbundanalyse (CCA)</topic>
+                        <topic>Bewertung von IT-Artefakten</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16366</identifier>
+                    <identifier type="sys">HT020642188</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1636</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1636">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1636/5/Emergence_in_Design_Science_Research.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1636"
+            DMDID="DMD_siegen_opus_1636">
+            <mets:fptr FILEID="FILE0_siegen_opus_1636"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

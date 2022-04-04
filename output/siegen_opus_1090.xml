@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1090">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Gemeinsames Sammeln am Beispiel von Zotero Groups. Offen Publizieren - Publiziertes öffnen : OPUS Universitätsbibliothek Siegen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Müller, Melanie</displayForm>
+                        <namePart type="family">Müller</namePart>
+                        <namePart type="given">Melanie</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Am 13.10.2016 fand unter dem Titel Die Neue Offenheit der elfte Hochschuldidaktiktag an der Universität Siegen statt. In diesem Jahr galt die Aufmerksamkeit den offenen Bildungsressourcen. Neben drei Plädoyers für Open Educational Resources, hatten die Teilnehmenden Gelegenheit zur kompetenzorientierten Auseinandersetzung mit dem Thema.
+
+Hierfür haben Kolleginnen und Kollegen aus unterschiedlichen Feldern der Universität Siegen kurze Tracks vorbereitet, in denen die Chancen, Potentiale und Notwendigkeiten für die Arbeit mit offenen Materialien aus verschiedenen Perspektiven beleuchtet wurden. Nicht nur um einen Einstieg in das Thema zu bieten und erste Diskussionen zu befördern, sondern um sogleich die konkrete Anbindung am Standort zu verdeutlichen.
+
+Melanie Müller ist in ihrem Track auf das gemeinsame Sammeln von Literatur in Zotero-Groups eingegangen und hat die Veröffentlichung auf dem offenen Publikationsserver der Universitätsbibliothek Siegen vorgestellt.</abstract>
+                    <subject>
+                        <topic>Open Access</topic>
+                    </subject>
+                    <classification authority="ddc">020</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-10902</identifier>
+                    <identifier type="sys">HT019241207</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1090</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1090">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1090/1/Mueller_Gemeinsames_Sammeln.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1090"
+            DMDID="DMD_siegen_opus_1090">
+            <mets:fptr FILEID="FILE0_siegen_opus_1090"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,66 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>957</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Development of cooperation between flying robot, ground robot and ground station with fuzzy logic and image processing</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Rami</pc:foreName>
+            <pc:surName>Al-Jarrah</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Fuzzy-Logik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Flugroboter</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Robotersysteme</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Fuzzy Logic</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Fly Robot</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Robot System</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Cooperation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Flugroboter repräsentieren ein interessantes und weites Gebiet für Forschungen, da sie sehr vielseitig einsetzbar sind, um komplexe Aufgaben zu erfüllen, wie Bildaufnahmen in schwer zugänglichen Gebieten, Lokalisierung und Verfolgung von Zielen. Bei der En twicklung eines Luftschiff-Systems, das in einer Vielzahl von Szenarien eingesetzt werden kann, ist eine intelligente Steuerung mit hoher Autonomie von Nöten. Folglich ist die Hauptherausforderung&#13;
+im Kontext des Designs und Navigation die Kombination zwischen einem intelligenten Steuerungssystem und einer kleinen und leichten Hardware. Deshalb entwickeln wir einen Luftschiffroboter basierend auf einem eingebetteten System, dann präsentieren wir verschiedene Fuzzy-Modelle die Probleme der autonomen Navigation und Zielverfolgung lösen.&#13;
+Diese Modelle sind empirisch durch die Kombination von Wahrscheinlichkeitsverteilungen mit Theorien der Fuzzylogik erstellt worden. Andererseits wird durch die Verwendung von kooperativen Robotersystemen die Leistung, Effizienz und Zuverlässigkeit drastisch gesteigert.&#13;
+Die Entwicklung eines solchen kooperativen Robotersystems ist eines der anspruchsvollsten Ziele bei der Erforschung künstlicher Intelligenzen und dabei sind die größten Herausforderungen Lokalisierung und Zielverfolgung. Somit adressiert diese Dissertation das Problem der parallelen Verfolgung von Robotern durch das Erreichen von kooperativen Verhalten basierend auf Bildverarbeitung und Künstlicher Intelligenz, um die Leistung und Effizienz eines solchen Systems zu verbessern. Darüber hinaus betrachtet diese Arbeit, ob Systeme zur Bildverarbeitung bei der Navigation und Zielverfolgung eingesetzt werden können.&#13;
+Dieses System wurde entwickelt um Bodenroboter oder 3D Luftobjekte zu erkennen und zu verfolgen. Außerdem wird eine Methode zur Positionsschätzung von multiplen Zielen mit Hilfe eines drahtlosen Sensornetzwerkes präsentiert. Schließlich wurden die oben erwähnten Ansätze der Arbeit auf ein reales Luftschiff angewendet und getestet. Umfangreiche Experimente wurden durchgeführt, analysiert, um die Fähigkeiten und Eigenschaften des&#13;
+entwickelten Systems und der entwickelten und verwendeten Algorithmen zu validieren.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The aerial robots represent an interested and rich area of research because they are very useful to perform complex tasks such as image acquisition of unreachable areas, localization and tracking targets. To develop blimp system that is appropriate in diversity scenarios, an intelligent control with high autonomy degree is required. Thus, the main challenge in context&#13;
+of designing and navigation is the combination between intelligent control framework and small-light hardware components. Therefore, we design blimp robot based on embedded system; then, we present several fuzzy sets models that should deal with autonomous,navigation and visual tracking problems. These models are empirically designed by combining the possibilities distributions theory with fuzzy logic.&#13;
+On the other hand, the use of cooperative robots system dramatically increases since it is appropriate solution in relation to performance, efficiency and reliability. The development of such cooperation system is one of the most demanding goals in artificial intelligence research and the most challenging issues here are the localization and tracking targets. Thus, this&#13;
+dissertation addresses the problem of tracking robots in parallel with achieving the cooperative behavior based on computer vision system and artificial intelligent control to improve the performance and efficiency of such system. Moreover, the thesis considers the use of computer vision system that can be applied to navigation and tracking missions. This system has been&#13;
+designed to detect and track either ground robots or 3D aerial object. In addition, considering use of wireless sensor network for estimation multi-targets locations and the distances between them is presented. Finally, the approaches that were developed in the thesis have been carried out and evaluated on the blimp robot. The extensive experiments have been done to demonstrate, analyze and validate the capabilities of such system as well as the properties of the proposed algorithms.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2015-04-23</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2015</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-9571</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Mechanik und Regelungstechnik - Mechatronik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="al_jarrah.pdf" ddb:fileSize="16217824"/>
+   <ddb:checksum ddb:type="MD5">29065cacea6487b58bbf995abe41f974</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/957/1/al_jarrah.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/957</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

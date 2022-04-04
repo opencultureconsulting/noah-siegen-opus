@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_158">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Chromatographische Untersuchungen und Extraktion von Pyrethrinen und Pyrethroiden</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Otterbach, Ansgar</displayForm>
+                        <namePart type="family">Otterbach</namePart>
+                        <namePart type="given">Ansgar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2000</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In dieser Arbeit werden chromatographische Methoden für die Analytik von Pyrethrinen und Pyrethroiden entwickelt und der Einsatz unterschiedlicher Extraktionsmethoden zur Probenvorbereitung verglichen. 
+Die chromatographische Separation der insektiziden Wirkstoffe wird sowohl mit der überkritischen Fluid Chromatographie (SFC) unter Anwendung eines linearen positiven Druckgradienten als auch mit der Hochleistungs-Flüssigkeitschromatographie (HPLC) ermöglicht. Mit einer SFC-MS-Kopplung konnte die exakte Elutionsreihenfolge in der SFC bestimmt werden. Unter Einsatz eines Flammenionisationsdetektors (FID) und der
+Kohlenstoff-Kalibrierung werden neben dem Pyrethrin-Gesamtgehalt auch die Gehalte der Einzelkomponenten ermittelt. Das Pyrethroid Allethrin dient dabei als Referenzsubstanz. Die Kohlenstoff-Kalibrierung wird an ausgewählten synthetischen Pyrethroiden beschrieben. 
+Die sechs natürlichen Insektizide in Pyrethrum-Extrakten werden in der HPLC mit einem linearen Eluentengradient und UV-Detektion separiert. 
+Zur Probenvorbereitung werden diverse Extraktionsmethoden für Feststoffe untersucht. Es werden Ultraschall-, Soxhlet-, beschleunigte Lösemittel- und überkritische Fluid Extraktion bezüglich ihrer maximalen Extraktion von Wirkstoffen untereinander verglichen. Die faktoriellen Teilversuchsplanung wurde verwendet, um die selektive Extraktion von Pyrethrinen in der SFE zu optimieren.</abstract>
+                    <abstract type="content" lang="eng">In this study chromatographic methods to analyze pyrethrins and pyrethroids are developed. Different extraction methods for sample preparation are applied. 
+Chromatographic separation of the insecticide active substances is done by both supercritical fluid chromatography (SFC) with positive pressure gradient, and high performance liquid chromatography (HPLC). The exact elution order in SFC is determined with SFC-MS-coupling. The content of pyrethrins and the content
+of every single pesticide is established with flame ionization detection (FID) and carbon calibration. The pyrethroide allethrin is used as reference substance. Carbon calibration is applied for selected synthetic pyrethroids. 
+The six natural insecticides in pyrethrum are separated by HPLC with a linear elution gradient and UV-detection. Different extraction methods for solid sample preparation are investigated. Ultrasonic-, Soxhlet-, accelerated solvent- and supercritical fluid extraction are compared with regard to their maximal extraction of insecticides. Fractional factorial design was used to optimize selective extraction of pyrethrins by SFE.</abstract>
+                    <subject>
+                        <topic>Pyrethrine</topic>
+                        <topic>Chromatographie</topic>
+                        <topic>Extraktion</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 8, Chemie - Biologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1585</identifier>
+                    <identifier type="sys">HT012815974</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_158</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2000-05-11</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_158">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/158/1/otterbach.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_158"
+            DMDID="DMD_siegen_opus_158">
+            <mets:fptr FILEID="FILE0_siegen_opus_158"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_373">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Concept and design of a cooperative robotic assistant surgery system</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Konzept und Design eines kooperativen chirugischen Roboter Assistenz Systems</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Castillo Cruces, Raúl Armando</displayForm>
+                        <namePart type="family">Castillo Cruces</namePart>
+                        <namePart type="given">Raúl Armando</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2008</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The modular interactive computer-assisted surgery (modiCAS) project, settled in the Center for Sensor System (ZESS) at the University of Siegen, in Germany, is engaged to develop an integral solution for different surgical problems by the combination of a navigation system and a robot arm with hands-on capabilities. The robotic system may be thought of as a smart surgical tool that extends surgeon&apos;s ability to treat patients, giving him/her surgical assistant by working in cooperative fashion. However, a natural and seamless integration of robotic systems in the operating room is still a big challenge in robotic surgery. The interaction between surgeon and robotic system is a very important issue. Autonomous systems have lost acceptance in the surgical community because the surgeon wants to be in charge of the operation rather than acting only as an observer. In such autonomous procedures, human experience, intuition, reacting capability in front of unexpected situations are lost. Furthermore, assistance intends to improve the performance of the surgeon rather than delimitating or obstructing him/her. An alternative solution is to provide a cooperative system where benefits of both can be combined. In this context, the surgeon gain complete control over the operation by grabbing the tool mounted on the robot and commanding it with his/her own hands. But the fact that a robot is to be used in clinical applications and in direct contact with human beings, imposes some additional requirements in comparison with the well established robotics technology applied in the industry. The most obvious is safety. On the one hand, the surgeon must keep control of the surgical operation. On the other hand, the surgical robots must assure a correctly usage by the surgeon in order to guarantee patient safeness. Therefore, surgeon&apos;s freedom of action has to be partially limited so that forbidden regions become unattainable to prevent accidental injuries. For these reasons, a seamless and safety integration of the system within the operating room is considered a paramount issue for a successful assistance and represents an important requirement within the modiCAS project.
+The first contribution of this work is a proposal of software framework architecture for the modiCAS system able to support medical interventions in several surgical disciplines. A modular structure, together with a strategic distribution of the modules, provides flexibility for the adaptation of a common basic hardware platform to different applications.
+Secondly, concerning the cooperative capabilities of the modiCAS system, the issue of mishandling is avoided with the introduction of virtual constraints, here called virtual fixtures, which help guiding the tool within certain predefined permitted directions. The combination of these preferred directions permits different kinds of virtual constraints, which may be one dimensional (lines), two dimensional (planes), three dimensions (tubes, cones, etc.) or even more complex trajectories (by means of parametric functions). 
+A particularly issue to be considered when thinking about cooperative manipulation of a robotic arm is the presence of singular configurations. In the neighborhood and at singular configurations an exact solution of the robot inverse kinematic becomes ill conditioned. Consequently, unfeasible joint velocities may be produced which yields into acute behavior of the robotic system. During virtual constrained cooperative operation, high velocities and position deviations are unacceptable. Therefore, another important objective of this work is to assure that such cooperative guidance is robust and accurate even in the presence of such singular robot configurations.</abstract>
+                    <abstract type="content" lang="ger">Im Rahmen des modular interactive computer assisted surgery Projekts (modiCAS) wurde eine Lösung zur Kombination eines Navigationssystems und eines manuell steuerbaren Roboterarms zur Unterstützung verschiedenster chirurgischer Eingriffe entwickelt. Dieses Robotersystem kann als intelligentes Werkzeug betrachtet werden, das die Fähigkeiten eines Chirurgen auf assistierende und kooperative Weise ergänzt. Das System soll den Chirurgen während Operationen unterstützen, keinesfalls jedoch ersetzen. Das Ziel dieser Arbeit liegt darin, die Interaktion zwischen Chirurg und Roboter bei manueller Führung zu erweitern und einfach und sicher zu gestalten.
+Der erste Teil dieser Arbeit beschreibt die Architektur eines software-frameworks, das die Bedienung des modiCAS-Systems in verschiedenen chirurgischen Bereichen zulässt. Hierbei ermöglicht eine modulare Struktur, in Verbindung mit einer strategischen Verteilung der einzelnen Module, ausreichende Flexibilität um eine Hardware Plattform an verschiedene Anwendungen anzupassen. 
+Im zweiten Teil wird, im Hinblick auf die kooperativen Fähigkeiten des modiCAS Systems, das Vermeiden von Fehlsteuerungen mittels virtueller Beschränkungen (virtual fixtures) durch den Admittance Controller behandelt. Diese dienen dazu die Bewegungsmöglichkeiten des Roboterarms bei haptischer Führung so zu begrenzen, dass er sich nur in vordefinierte und erlaubte Richtungen bewegen kann. Die Kombination von gewünschten Richtungen erlaubt die Konstruktion verschiedener virtueller Einschränkungen, die eindimensional (z.B. Linie), zweidimensional (z.B. Oberfläche) oder dreidimensional (z.B. Kegel oder Zylinder) sein können. Außerdem sind komplexe Kurven generierbar, die von dem Roboterarm bei manueller Führung exakt durchlaufen werden.
+Die Methoden Damped Least Squares und Adjoint Jacobian vermeiden hohe Geschwindigkeiten, die während der haptischen Führung des Roboterarms bei singulären Konfigurationen auftauchen können. Eben dies darf während einer kooperativen Operation mittels virtueller Begrenzungen nicht geschehen.
+Die in dieser Arbeit vorgestellten Methoden liefern einen Beitrag für eine sichere und präzise Steuerung von manuell gesteuerten Roboterarmen. Sie erhöhen die Funktionalitäten zur Assistenz und das Integrationsniveau von Roboterarmen bei chirurgischen Einsätzen. Auf diese Weise wird die Interaktion zwischen Chirurg und Roboter intuitiver und leichter in der Handhabung. Die Möglichkeit zur Festlegung virtueller Begrenzungen verbessert die Sicherheit in der Anwendung erheblich, da der Chirurg den Roboterarm nicht unbeabsichtigt in leicht verletzbare Bereiche führen kann.</abstract>
+                    <subject>
+                        <topic>Kinetik</topic>
+                        <topic>Robotertechnik</topic>
+                        <topic>robotic-assisted surgery</topic>
+                        <topic>cooperative robotics</topic>
+                        <topic>virtual constraints</topic>
+                        <topic>singularity</topic>
+                        <topic>null space</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-3731</identifier>
+                    <identifier type="sys">HT015742970</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_373</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2008-07-27</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_373">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/373/1/cruces.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_373"
+            DMDID="DMD_siegen_opus_373">
+            <mets:fptr FILEID="FILE0_siegen_opus_373"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

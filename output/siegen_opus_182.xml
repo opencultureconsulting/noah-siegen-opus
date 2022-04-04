@@ -1,0 +1,74 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_182">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Hochauflösende Verarbeitung von Radardaten mit synthetischer Apertur</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mittermayer, Josef</displayForm>
+                        <namePart type="family">Mittermayer</namePart>
+                        <namePart type="given">Josef</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2000</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Diese Arbeit stellt das neuartige Frequenz-Skalierungs-Verfahren zur effizienten und genauen Verarbeitung von Spotlight -SAR-Daten ohne Interpolation vor. Es wird eine genaue Modellierung der Spotlight -Abbildungsgeometrie eingeführt. Eine neue analytische Formulierung für SAR-Rohdaten mit Dechirp on Receive -Operation wird abgeleitet. Aufbauend auf dieser Formulierung erfolgt die Entwicklung einer interpolationsfreien Korrektur der Zielentfernungsänderung, der sogenannten Frequenz-Skalierung. 
+Wegen der für alle Ziele gleichen Anfangs- und Endzeitpunkte der Beleuchtung im
+Spotlight -Modus bietet das SPECAN-Verfahren eine sehr effiziente, aber ungenaue Verarbeitung in Azimut. Eine Azimut-Skalierung wird entwickelt, welche eine hochgenaue und interpolationsfreie Verarbeitung von Spotlight -SAR-Daten mit der SPECAN-Methode ermöglicht. 
+Die Verarbeitung von Spotlight -Rohdaten mit Dechirp -Operation in Entfernung erfordert die Erhöhung der Abtastung in Azimut. Zur Vermeidung dieser Erhöhung wird eine Subapertur-Verarbeitung eingeführt. 
+Die hohe Verarbeitungsqualität des Verfahrens wird anhand von simulierten und
+realen Rohdaten des E-SAR-Sensors des DLR gezeigt. Der Nachweis der
+Phasentreue wird durchgeführt. Als Anwendungsbeispiel dient ein Spotlight -Interferogramm. Interessante physikalische Besonderheiten des Spotlight -Abbildungsmodus werden durch den Vergleich des Spotlight -Interferogramms mit dem Stripmap -Interferogramm derselben Szene herausgearbeitet.</abstract>
+                    <abstract type="content" lang="eng">In this thesis, the novel Frequency Scaling Algorithm for efficient and accurate
+interpolation-free processing of Spotlight SAR data with Dechirp on Receive has
+been developed. An accurate model of the Spotlight illumination geometry is
+introduced. A new analytical formulation for SAR raw data with Dechirp on Receive Operation is derived. Starting with this formulation, an interpolation-free range cell migration correction is developed. This range cell migration correction is called Frequency Scaling. 
+Due to the constant target illumination start and end time in Spotlight SAR data, the SPECAN approach offers a very efficient processing in azimuth with poor accuracy. In the frame of this thesis, an azimuth scaling operation has been developed, which allows a highly accurate and interpolation-free processing of Spotlight data by the SPECAN approach. 
+Spotlight raw data with one-dimensional Dechirp on Receive have to be upsampled in azimuth before the data processing. In order to avoid this upsampling, a subaperture approach is introduced. 
+The high quality performance of the Frequency Scaling Algorithm is demonstrated by processing simulated and real raw data acquired with the E-SAR-Sensor of DLR. The phase fidelity is proved. As application example, a spotlight interferogram is generated from E-SAR raw data. Interesting physical properties of the Spotlight mode are demonstrated by the comparison of a Spotlight and a Stripmap
+interferogram, processed from the same raw data.</abstract>
+                    <subject>
+                        <topic>SAR-Signalverarbeitung</topic>
+                        <topic>Frequenz-Skalierungs-Verfahren</topic>
+                        <topic>Spotlight-SAR</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1827</identifier>
+                    <identifier type="sys">HT012804562</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_182</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2000-07-12</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_182">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/182/1/mittermayer.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_182"
+            DMDID="DMD_siegen_opus_182">
+            <mets:fptr FILEID="FILE0_siegen_opus_182"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

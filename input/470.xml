@@ -1,0 +1,66 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>470</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Zur Erkennung verformbarer Objekte anhand ihrer Teile</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Martin</pc:foreName>
+            <pc:surName>Stommel</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Bildverarbeitung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Clusterung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">erscheinungsbasiert</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">teilebasiert</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die Erkennung verformbarer Objekte mit den Mitteln der digitalen Bildverarbeitung ist ein drängendes, aber bisher weitgehend ungelöstes Problem. In vielen industriellen und anderen Bereichen besteht ein großer Bedarf, Abläufe zu automatisieren, die in einer sich verändernden oder nicht vollständig kontrollierbaren Umgebung stattfinden. Technische Systeme folgen jedoch derzeit in der Regel starren Abläufen, ohne mit ihrer Umgebung zu interagieren. Das Hauptproblem liegt dabei in der Interpretation der Kameradaten. Die existierenden Verfahren zur Erkennung von Objekten funktionieren nur in einfachen Spezialfällen.&#13;
+&#13;
+In dieser Arbeit wird daher ein neuartiger Ansatz untersucht, der sowohl eine Klassifikation als auch eine Lokalisation von Objekten im Bild ermöglicht. Dazu wird ein kompositionelles Modell eingeführt, bei dem ein Objekt als Hierarchie von Teilen und Unterteilen in geometrischen Beziehungen beschrieben wird. Ein besonderer Schwerpunkt liegt dabei auf der Untersuchung, welches Verhältnis zwischen der Ausprägung und der Position lokaler Merkmale besteht. Da gerade verformbare Objekte in ihrer Erscheinung stark variieren, speichert das Modell mehrere Objektansichten. Dies unterscheidet den vorliegenden Ansatz von vielen anderen.&#13;
+&#13;
+Das Modell wird mittels einer Stichprobe von Beispielbildern trainiert. Dies umfaßt sowohl die automatische Wahl geeigneter Teile als auch die Identifikation charakteristischer Ansichten. Die Teilemengen auf verschiedenen Hierarchieebenen werden aufgrund unterschiedlicher Randbedingungen individuell optimiert. Über eine Erkennungsmethode, die sowohl zur Hough-Transformation als auch zu Radialen Basisfunktionen Ähnlichkeiten besitzt, wird das Modell mit den Bildern verglichen.&#13;
+&#13;
+Die Leistungsfähigkeit des entwickelten Verfahrens wird am Beispiel einer Cartoon-Datenbank gezeigt. Dazu werden unterschiedliche Modellkonfigurationen vorgestellt, die bei einer Korrektklassifikationsrate von mindestens 78 Prozent entweder einen positiven Vorhersagewert von 97 Prozent oder eine Sensitivität von 93 Prozent erreichen.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The recognition of deformable objects by the means of digital image processing is a crucial, but widely unsolved problem yet. In many industrial and other areas there is a strong need to automate processes which take place in a changing or not completely controllable environment. However, technical systems are presently characterised by fixed operational procedures and little interaction with their environment. The main problem lies in the interpretation of the camera data. The existing object recognition methods work only in simple special cases.&#13;
+&#13;
+Therefore, in this thesis a novel approach is studied which allows for a simultaneous classification and localisation of the objects present in an image. To this end, a compositional model is introduced which describes an object as a hierarchy of parts and sub-parts. Between parts, geometrical relationships are modelled. A major emphasis is placed on the analysis of the relationship between the position and the attributes of parts. To account for the strongly varying appearance of deformable objects, the model stores multiple views. This is in contrast to many other recent approaches.&#13;
+&#13;
+The model is build by analysing sample images of the objects to be recognised. The training comprises both the automatic selection of appropriate parts as well as the identification of characteristic views. Due to differing boundary conditions, the resulting sets of parts are optimised individually for every level in the hierarchy. The comparison between the model and a test image is done by a voting method which has similarities to the Hough transform or to radial basis functions.&#13;
+&#13;
+The performance of the new methods is demonstrated by the recognition of a character from a cartoon data-base with strongly varying appearance. Two model configurations are presented achieving either a precision of 97 percent or a recall of 93 percent with a general accuracy of at least 78 percent for both cases.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2010-06-30</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2010</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-4706</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 12, Elektrotechnik und Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="stommel.pdf" ddb:fileSize="15019019"/>
+   <ddb:checksum ddb:type="MD5">5a0fa73d8f198e998e726bb4e1e097d3</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/470/1/stommel.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/470</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

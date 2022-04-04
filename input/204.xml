@@ -1,0 +1,83 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>204</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Signalverarbeitungsverfahren und virtuelle Instrumente zur Messung von elektrischen Signalen und zur Fehlerdiagnose an Maschinen</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Zhongdong</pc:foreName>
+            <pc:surName>Liu</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">virtual instruments</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">fault diagnosis in machines</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">vibration analysis</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Es wird in dieser Arbeit gezeigt, dass sich die Chirp-z-Transformation (CZT) und das&#13;
+Zeropadding-Verfahren (ZP), kombiniert mit der Anwendung geeigneter Fensterfunktionen,&#13;
+zur Bestimmung der Größen von Spannungs- und Stromsignalen bezüglich der&#13;
+Zuverlässigkeit bei kurzen Messzeiten eignen. Die allgemeinen Bedingungen für die&#13;
+Anwendung der CZT bzw. des ZP bei reellen Multifrequenz-Signalen unter dem Einsatz der&#13;
+Fensterfunktionen dargestellt. Der Einfluß eines reellen weißen Rauschsignals auf die&#13;
+geschätzten Größen eines reellen Multifrequenz-Signals wurde untersucht.&#13;
+Das TDA-Verfahren wird zur Verarbeitung der harmonischen Komponenten der&#13;
+Ausgangssignale eines Frequenzumformers untersucht. Zur Detektion und Messung der&#13;
+interharmonischen Komponenten wird ein digitales Differenz-Filter vorgestellt. Die&#13;
+Anwendbarkeit des TDA-Verfahrens und des digitalen Differenz-Filters wird durch die&#13;
+Ergebnisse aus Simulationen und praktischen Anwendungen gezeigt.&#13;
+Virtuelle Instrumente wurden zur Fehldiagnose und Schwingungsanalyse an&#13;
+Planetengetrieben entwickelt. Die praktischen Anwendungen zeigen, dass das Spektrum der&#13;
+demodulierten hochfrequenten mechanischen Schwingungen – Hüllkurvenspektrum – eine&#13;
+spektrale Struktur bei den Frequenzen enthält, die mit den Fehlern auf Innenring- oder&#13;
+Außenringlaufbahn in Verbindung stehen.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">It will be shown that the chirp-z-transform and zero-padding, combined with a appropriate&#13;
+window, are suitable for the estimation of the parameters of the voltage and current signals&#13;
+with moderate computational complexity. Through the analysis of the spectral interference in&#13;
+the discrete time Fourier transform the conditions for the simultaneous use of the windows&#13;
+and the chirp-z-transform or zero-padding will be presented. The statistical errors of the&#13;
+estimations will be discussed.&#13;
+The time domain averaging will be here investigated to process harmonic components in the&#13;
+output signals of frequency converters. For the detection and measurement of interharmonics&#13;
+a digital difference-filter will be proposed. Simulations and field test results are provided to&#13;
+illustrate the utility of the time domain averaging and the difference-filter.&#13;
+Based on the analysis of the faults of gears and rolling bearings the virtual instruments for the&#13;
+fault diagnosis and vibration analysis in epicyclic gearboxes are developed. The practical&#13;
+applications show that the spectrum of the demodulated high-frequency vibration – envelope&#13;
+spectrum – contains a pattern of spectral lines at frequencies which can be related to the faults&#13;
+on the inner or outer race of rolling bearings.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2006-01-09</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2006</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-2047</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 12, Elektrotechnik und Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="liu.pdf" ddb:fileSize="7852017"/>
+   <ddb:checksum ddb:type="MD5">0e97f2f7faf309f172ea3387547dd814</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/204/1/liu.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/204</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

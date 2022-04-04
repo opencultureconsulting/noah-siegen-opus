@@ -1,0 +1,72 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>685</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Regularization-based fictitious domain methods</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Regularisierungs-basierte Fictitious Domain Methoden</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Torsten</pc:foreName>
+            <pc:surName>Krüger</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Finite-Elemente-Methode</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Finite Elements</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Fictitious Domain</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Nitsche Method</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Level Set Method</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Streamline Diffusion</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">510</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The work at hand is addressed to methods from the fictitious domain context, combined with the finite element method.&#13;
+Fictitious domain techniques are suitable in case partial differential equations have to be solved on a geometrically complex or time-dependent domain.&#13;
+Own suggestions based on penalization and regularization, utilizing variants of Nitsches method in order to impose boundary conditions in a weak sense, are introduced and analyzed. The techniques presented are generalizations of methods due to Glowinski et al.&#13;
+The underlying model equations of order two are non-linear reaction-diffusion-convection equations of rather general type, able to describe a lot of real-world situations. In addition, incompressible Stokes and Navier-Stokes systems are introduced, being special cases of the original model equations in some sense. &#13;
+The numerical analysis is carried out with respect to linearized versions of the original model equations. Within this process, symmetrical reaction-diffusion, diffusion-convection-reaction and a version of the Oseen equations are treated separately, in order to deal with different typical problems appearing in each case adequately.&#13;
+Following that, besides symmetrical problems, tasks like dominant convection, as well as the circumvention of a discrete inf-sup condition in case the Oseen problem are discussed. Streamline diffusion/Galerkin least squares techniques playing a key role in that matter. &#13;
+For implicit description of the embedded boundary the well established level set method is used, describing the boundary as a zero level set of suitable functions. This allows for an easy and flexible handling of the geometrical aspects.&#13;
+Algorithmic tasks are addressed, followed by tests regarding numerical accuracy. In the end, several applications are presented in order to show the potential of the new methods: examples regarding plain flow problems, including one with moving boundary, and the Boussinesq equations on complex multi-connected domains.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die vorliegende Arbeit befasst sich mit Methoden aus dem Bereich der sogenannten Fictitious Domain (FD) Techniken bei gleichzeitiger Verwendung von Finiten Elementen. Fictitious Domain Techniken eigenen sich gut, falls das Gebiet, auf dem eine partielle Differenzialgleichung gelöst werden soll, geometrisch komplex oder auch zeitabhängig ist. &#13;
+Eigene Vorschläge, welche auf Straf- und Regularisierungstechniken basieren, werden vorgestellt und analysiert. Varianten der bekannten Nitsche-Methode zur Aufprägung von Randbedingungen kommen zum Einsatz. Dies wird kombiniert mit Verfahren einer regularisierungs-basierenden FD Methode, ursprünglich erdacht von Glowinski et al.&#13;
+Die zugrunde liegenden Modellgleichungen zweiter Ordnung sind dabei von nichtlinearer und recht allgemeiner Natur.  Eine numerische Analyse findet in Bezug auf die linearisierten Gleichungen statt. &#13;
+So wird neben den resultierenden symmetrischen Problemen insbesondere auch auf Aspekte hinsichtlich dominanter Konvektion eingegangen, sowie auf die Umgehung einer diskreten Inf-Sup-Bedingung im Falle&#13;
+des Oseen-Problems. Der Nutzung von Streamline-Diffusion/Galerkin-Least-Squares Techniken kommt dabei die Schlüsselrolle zu.&#13;
+Die erforderliche implizite Beschreibung der ursprünglichen Geometrie erfolgt über die Level Set Methode. Dabei wird der eingebettete Rand als Nullmenge einer geeigneten Funktion beschrieben, was eine bequeme und flexible Handhabung der Geometrie erlaubt.&#13;
+Der Darstellung von zugrunde liegenden algorithmischen Aspekten und einer allgemeinen Überprüfung hinsichtlich der Genauigkeit der neuen Methoden anhand von verschiedenen Beispielen mit&#13;
+bekannter analytischer Lösung wird Platz eingeräumt. Teil der Arbeit ist zudem die Präsentation verschiedener Anwendungen, um das Potenzial der neuen Methoden auf verschiedenen Gebieten auszuloten. &#13;
+Dazu werden Beispiele aus dem Bereich der planaren stationären und instationären Strömungsprobleme, inklusive einem Beispiel mit bewegtem Rand, sowie die Boussinesq-Gleichungen auf komplexen, mehrfach zusammenhängenden Gebieten, behandelt.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2012-10-30</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2012</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-6857</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV - Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="krueger.pdf" ddb:fileSize="6267269"/>
+   <ddb:checksum ddb:type="MD5">b3eeee93eb1d492afabc61ebd547826b</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/685/1/krueger.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/685</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

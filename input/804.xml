@@ -1,0 +1,159 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>804</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Lokalisation und Verfolgung von Personen in Echtzeit unter Verwendung kooperierender 2D/3D-Kameras</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="eng">Real-Time localization and tracking of persons using cooperative 2D/3D-cameras</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Omar Edmond</pc:foreName>
+            <pc:surName>Loepprich</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Datenfusion</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">2D/3D-devices</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">surveillance system</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">multiple simultaneously operating MultiCams</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die grundsätzliche Zielsetzung von intelligenten Systemen zur Überwachung von Innenräumen&#13;
+besteht in der automatisierten Interpretation von Aktionen in dem zu betrachtenden Gebiet. Eine&#13;
+Prämisse hierfür ist die Fähigkeit der Detektion, Lokalisation, Verfolgung und Klassifikation von&#13;
+Objekten im entsprechenden Zielbereich. &#13;
+Entscheidend  für  die  Konzeption  eines  Überwachungssystems  ist  weiterhin  das  primäre&#13;
+Einsatzgebiet. Während für kleine Überwachungsbereiche und unter der Annahme nur weniger&#13;
+gleichzeitig  vorhandener  Objekte  eventuell  die  Verwendung  eines  einzelnen  Sensorsystems&#13;
+ausreicht, bedarf es im Fall größerer Bereiche, mit mehreren gleichzeitig vorhandenen und zu&#13;
+verfolgenden Objekten, in der Regel einer verteilten und miteinander kooperierenden Sensorik. &#13;
+Ein  in  letzter  Zeit  verstärkt  verfolgter Ansatz  zur  Steigerung  der  Leistung  der  Prozesse  von&#13;
+Detektion, Lokalisation und Klassifikation liegt dabei in der Verwendung einer Kombination von&#13;
+2D-  und  3D-Informationen,  welche,  je  nach  Anforderung,  auf  Pixel-,  Merkmal-  oder&#13;
+Entscheidungsebene miteinander fusioniert werden. Die Kombination unterschiedlicher Systeme&#13;
+zu  2D/3D-Messsystemen  ist  jedoch  keineswegs  trivial.  Zunächst  bedarf  es  im  Falle  der&#13;
+Betrachtung  beweglicher  Objekte  einer  zeitlichen  Synchronisation  der  anfallenden  Daten.  Im&#13;
+Hinblick auf eine effektive Fusion ist weiterhin eine Registrierung der Daten der unterschiedlichen&#13;
+Quellen notwendig. Tritt zusätzlich die Notwendigkeit einer koordinierten Verwendung mehrerer&#13;
+Systeme auf, so kann das aufgrund der sich ergebenden Komplexität in Bezug auf die Handhabung&#13;
+der  informationsliefernden  Einheiten  in  einer  inakzeptablen  Operation  des  Gesamtsystems&#13;
+münden.&#13;
+Die  am  Zentrum  für  Sensorsysteme  (ZESS)  entwickelte  MultiCam,  ein  zurzeit  einmaliges&#13;
+Sensorsystem zur kombinierten Akquisition von CMOS-basierten Intensitäts- (2D) und Time-ofFlight  (ToF)  basierten  Distanzdaten  (3D)  einer  gesamten  Szene,  erlaubt  aufgrund  ihres&#13;
+monokularen  Aufbaus  eine  drastische  Vereinfachung  der  Registrierung  der  2D-  und  3DInformationen. Weiterhin ermöglicht die interne Logik, untergebracht in einem dedizierten FPGA,&#13;
+eine akkurate Synchronisation der unterschiedlichen Informationsströme. Durch die Reduktion der&#13;
+Komplexität der Prozesse der Registrierung sowie Synchronisierung der 2D- und 3D-Daten bietet&#13;
+sich die Möglichkeit der Kombination einer Vielzahl von simultan operierenden MultiCams zu&#13;
+einem Überwachungssystem an, mit im Vergleich zu konventionellen 2D/3D-Systemen drastisch&#13;
+vereinfachter Handhabung. &#13;
+Bedingt durch den Einsatz der ebenfalls am ZESS entwickelten Beleuchtungseinheiten, erlauben&#13;
+die im Rahmen dieser Arbeit verwendeten MultiCams die Überwachung eines Distanzbereichs bis&#13;
+ca.  9 m bei  einer  Bildwiederholrate  von  20  Bildern  pro  Sekunde.  Dieses  entspricht  einem&#13;
+Entfernungsbereich, der zurzeit von ToF-Systemen vergleichbarer Art nur unter Einsatz erhöhter&#13;
+Integrationszeiten und somit reduzierter Bildwiederholraten abgedeckt werden kann. Weiterhin&#13;
+ergibt sich durch die Verwendung einer Linse mit einer Brennweite von  6mmdie Möglichkeit der&#13;
+Überwachung von Volumina, in denen sich mehrere Personen simultan aufhalten und miteinander&#13;
+interagieren  können.  In  Verbindung  mit  der  vorhandenen  Zeitauflösung  kann  damit  der&#13;
+Bewegungsdynamik der Objekte effektiv Rechnung getragen werden. Aufgrund der genannten&#13;
+Eigenschaften eignet sich die MultiCam somit ideal zur Detektion, Lokalisation, Verfolgung und&#13;
+Klassifikation von Objekten in Innenräumen.&#13;
+Durch die Verwendung der Informationen von mehreren, simultan operierenden MultiCams mit&#13;
+verschiedenen Ausrichtungen und  einem  sich  teilweise  überlappenden Sichtbereich, lässt  sich&#13;
+weiterhin  eine  direkte  Erweiterung  des  Überwachungsbereichs  sowie  eine  Reduktion  durch&#13;
+gegenseitige  Objektverdeckungen  induzierten  Uneindeutigkeiten  erreichen  und  ermöglicht  die&#13;
+Erzeugung von Objekttrajektorien mit einem erhöhten Informationsgehalt.&#13;
+&#13;
+Dem  Problem  der  anfallenden  Datenmenge,  die  durch  die  Verwendung  mehrerer  simultan&#13;
+operierender  MultiCams  entsteht,  wird  durch  den  Einsatz  eines  agentenbasierten  verteilten&#13;
+Systems begegnet. &#13;
+&#13;
+Informationsliefernde  Agenten,  bestehend  aus  einer  MultiCam  mit  zugehöriger&#13;
+Prozessierungseinheit, übernehmen die Erzeugung von lokalen Informationen bzw. Features bzgl.&#13;
+der aus ihrer Sicht vorhandenen Objekte und senden diese in Form eines Statusvektors an einen&#13;
+zur  Fusion  aller  Informationen  zuständigen Agenten. Weiterhin können aufgrund der gegenseitigen&#13;
+Unabhängigkeit  der  informationsliefernden  Agenten  die  Daten  der  vorhandenen  MultiCams&#13;
+parallel bearbeitet werden, was eine einfache Skalierung des Gesamtsystems erlaubt.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The fundamental objective of intelligent systems targeted towards surveillance of indoor areas lies&#13;
+in the automated interpretation of actions within the monitored space. One premise therefore is the&#13;
+ability to detect, localize, track and classify objects within the surveyed area&#13;
+In terms of system design, it’s also crucial to incorporate the targeted application area. For the case&#13;
+of surveillance of just relatively small volumes and with the additional assumption that only very&#13;
+few objects are simultaneously present within the detection area, data from a single sensor might&#13;
+be sufficient in order to infer adequate information. Increasing the area to be monitored and also&#13;
+allowing multiple objects to dynamically interact in the space to be surveyed, usually leads to the&#13;
+necessity  to  apply  multiple  distributed  sensor  systems  which,  in  order  to  generate  useful&#13;
+information, have to work together in a cooperative manner.&#13;
+One  in  recent  times  increasingly  adopted  approach  in  order  to  increase  the  performance  of&#13;
+detection, localization and classification is to utilize a combination of devices delivering 2D- and&#13;
+3D-data. Depending on the requirement, fusion of the information is then done on pixel-, feature or decision-level. The combination of different systems in a 2D/3D-measurement device is not&#13;
+trivial, though. In case of taking moving objects into account, there’s a necessity to provide an&#13;
+adequate temporal synchronisation mechanism between the participating devices. With regard to&#13;
+an effective fusion process, the process of registration of the acquired data needs also to be&#13;
+applied. Furthermore, by combining multiple of such 2D/3D-devices into one all encompassing&#13;
+system, the additional need for a coordinated management emerges. Having to cope with all of the&#13;
+aforementioned points might well lead to a system complexity which is intricate to handle and&#13;
+which in turn might result in an unacceptable overall system performance.&#13;
+The at the Center for Sensorsystems (ZESS) developed MultiCam, an at the moment unique sensor&#13;
+system usable to acquire a combination of CMOS-based intensity (2D) and Time-of-Flight (ToF)&#13;
+based distance information (3D) of a complete scene. Due to the monocular set-up, a drastic&#13;
+simplification  of  the  process  of  image  registration  of  the  2D-  and  3D-images  is  attained.&#13;
+Furthermore, the internal logic, situated in an embedded FPGA, permits an accurate temporal&#13;
+synchronisation  of  the  different  information  streams.  Due  to  the  reduction  of  the  overall&#13;
+complexity of the processes of registration and temporal synchronisation of the 2D- and 3D-data, it&#13;
+is feasible to combine a multitude of simultaneously operating MultiCams to a surveillance system&#13;
+with,  in  comparison  with  conventional  2D/3D-systems,  a  drastic  simplification  in  terms  of&#13;
+handling.&#13;
+The additional application of the also at the ZESS developed dedicated MultiCam illumination&#13;
+units enables to supervise an area up to a distance of maximal  9mat a camera frame rate of 20fps.&#13;
+With similar ToF devices, the same distance range can only be achieved by an increase of the&#13;
+sensor integration times and which in turn directly leads to a reduced frame rate. Furthermore, as a&#13;
+result of the utilization of a lens with a focal length of  6mm, it is possible to monitor volumes in&#13;
+which multiple persons can simultaneously be present and also interact with each other. Due to the&#13;
+available  temporal  resolution,  one  can  account  for  the  dynamic  behaviour  of  the  objects&#13;
+effectively. As a results of all of the aforementioned properties, the MultiCam is ideally suited for&#13;
+the detection, localization, tracking and classification of objects in indoor areas.&#13;
+Through  the  combination  of  multiple  simultaneously  operating  MultiCams  with  different&#13;
+orientations and partially overlapping field of views, it is possible to directly extend the surveyed&#13;
+area and also reduce the amount of mutual object occlusion. This directly leads to the generation of&#13;
+object trajectories with an increased information content. &#13;
+In order to respond to the amount of data generated by the simultaneous operation of multiple&#13;
+devices,  an  agent  based  system  is  utilized.  Information  delivering  agents,  composed  of  one&#13;
+MultiCam with dedicated processing unit, are responsible for the direct processing of the acquired&#13;
+raw sensor data. Based on their view onto the scene, they generate information in form of a local&#13;
+status vector which they send to a dedicated fusion agent. This fusion agent is in turn responsible&#13;
+for the combination of all of the local information received into one global status vector. Due to the mutual independence of the participating agents, parallel processing&#13;
+of the acquired data is inherently possible which in turn results in the possibility to be able to scale&#13;
+the system in an easy manner.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2014-01-23</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2013</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-8040</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>NRW-Zentrum für Sensorsysteme (ZESS)</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="loepprich.pdf" ddb:fileSize="82495664"/>
+   <ddb:checksum ddb:type="MD5">a656f79f04bc573314253b2e46455395</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/804/1/loepprich.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/804</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

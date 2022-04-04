@@ -1,0 +1,103 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1221">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>influence of forcing schemes on the diffusion properties in pseudopotential-based Lattice Boltzmann models for multicomponent flows</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Küllmer, Knut</displayForm>
+                        <namePart type="family">Küllmer</namePart>
+                        <namePart type="given">Knut</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Krämer, Andreas</displayForm>
+                        <namePart type="family">Krämer</namePart>
+                        <namePart type="given">Andreas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Joppich, Wolfgang</displayForm>
+                        <namePart type="family">Joppich</namePart>
+                        <namePart type="given">Wolfgang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Reith, Dirk</displayForm>
+                        <namePart type="family">Reith</namePart>
+                        <namePart type="given">Dirk</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Foysi, Holger</displayForm>
+                        <namePart type="family">Foysi</namePart>
+                        <namePart type="given">Holger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Foysi, Holger</displayForm>
+                        <namePart type="family">Foysi</namePart>
+                        <namePart type="given">Holger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">Other</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In dem Vortrag wird gezeigt, wie die Wahl eines Forcing Schemas (bspw. von Shan &amp; Doolen (1995) oder He &amp; Doolen (1998)) über die Chapman-Enskog Entwicklung zu einem vom Forcing abhängigen Diffusionskoeffizienten für Mehrphasenströmungen führt. Der kritische Wert von G wird danach bestimmt und bekannte in der Literatur ad hoc verwendete Beziehungen abgeleitet (Huan et al. (2007)), sowie für tau=1 der bisher nicht erklärbare Shift um den Faktor 2 abgeleitet. Simulationen zeigen die exzellente Übereinstimmung des Diffusionskoeffizienten bspw. mit dem Fick’schen Gesetz für unterschiedliche Werte von G.</abstract>
+                    <abstract type="content" lang="eng">The talk presents the influence of the choice of forcing schemes in pseudopotential-based LBM methods for multi-phase flows (e.g. Shan &amp; Doolen (1995) or He &amp; Doolen (1998))  on the diffusion coefficient, obtained via Chapman-Enskog analysis. The critical value of G is obtained und known relations used in the literature are subsequently derived based on this theory (e.g. Huan et al. (2007)). The often observed shift at tau=1 for the critical value of G can be directly derived. Simulation show excellent agreement between the diffusion coefficient and Fick’s law for various values of G.</abstract>
+                    <subject>
+                        <topic>Pseudopotential</topic>
+                        <topic>Lattice-Boltzmann Methode</topic>
+                        <topic>Pseudopotential</topic>
+                        <topic>Lattice Boltzmann method</topic>
+                        <topic>Multiphase flow</topic>
+                        <topic>Forcing schemes</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-12213</identifier>
+                    <identifier type="sys">HT019483606</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1221</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBdOther</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1221">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1221/1/The_Influence_of_Forcing_Schemes.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1221"
+            DMDID="DMD_siegen_opus_1221">
+            <mets:fptr FILEID="FILE0_siegen_opus_1221"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

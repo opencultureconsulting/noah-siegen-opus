@@ -1,0 +1,99 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_742">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Consistent FE-analysis of elliptic variational inequalities</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Klein, Nicole</displayForm>
+                        <namePart type="family">Klein</namePart>
+                        <namePart type="given">Nicole</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Economical mesh structures are of great interest when simulating physical processes using 
+the Finite Elemente Method. They are essential
+for a fast calculation producing results of high accuracy. In case of restricted problems, many
+a posteriori estimators which are the indicators for adaptive refinement turn out to be inconsistent
+in areas where the restriction takes place. The effort of the subject matter is to develop a
+method to overcome this problem by introducing saddle point 
+formulations and using the Lagrangian multiplier to balance gaps in the error estimations. 
+When dealing with sattle point problems there may arise the problem of unstable systems due to an 
+injured inf-sup-condition, especially in the discrete case. 
+We solve this problem using the Galerkin least squares method. In consequence
+we get additional terms which also have to be taken into account when developing the a posteriori estimators.
+To examine the general validity of this method we analyse problems of different type. 
+That means linear and nonlinear problems with linear or nonlinear restrictions in 
+the primal or dual variable, respectively.
+In all cases, the resulting adaptive mesh structures  
+turn out out to be very efficient since they outline critical zones of the underlying problems
+which is confirmed by numerical tests.</abstract>
+                    <abstract type="content" lang="ger">In der  Simulation von Fertigungsprozessen mit Hilfe der Finite Elemente Technik sind 
+ökonomische Gitterstrukturen von großem Interesse da sie für eine schnelle Berechnung 
+bei gleichzeitiger hoher Genauigkeit unverzichtbar sind. Bei der Behandlung von restringierten
+Problemen tritt allerdings häufig das Problem auf, dass die Fehlerschätzer, die als Indikatoren 
+für eine adaptive Gitterstruktur dienen, in den restringierten Bereichen inkonsistent sind, was zu
+ineffizienten Verfeinerungen führt. Für die Optimierung der Fehlerschätzer 
+führen wir in dieser Arbeit Sattelpunktformulierungen ein um mit Hilfe
+des Lagrangeparameters die entstehenden Inkonsistenzen auszugleichen. Bei der Verwendung von 
+gemischten System kann hier das Problem der Instabilität durch eine verletzte inf-sup Bedingung 
+auftreten, das wir durch die Verwendung des Galerkin least 
+squares Ansatzes beheben. Hieraus resultieren allerdings zusätzliche Terme in der Problemformulierung,
+die bei der Entwicklung der a posteriori Schätzer ebenfalls berücksichtigt werden müssen. Um die allgemeine
+Gültigkeit unserer Methode zu untersuchen, analysieren wir Probleme mit unterschiedlichen 
+Eigenschaften, das heißt lineare und nichtlineare Gleichungen mit linearen bzw. nichtlinearen 
+Restriktionen in der primalen oder dualen Variable.
+In numerischen Tests stellt sich heraus, dass wir in allen Fällen 
+effiziente Gitterstrukturen erzielen, die die kritischen Zonen der jeweiligen
+Probleme durch hohe Verfeinerung herausarbeiten.</abstract>
+                    <subject>
+                        <topic>Finite-Elemente-Methode</topic>
+                        <topic>FEM</topic>
+                        <topic>Adaptivität</topic>
+                        <topic>a posteriori Fehlerschätzer</topic>
+                        <topic>finite element method</topic>
+                        <topic>adaptivity</topic>
+                        <topic>variational inequality</topic>
+                        <topic>a posteriori error estimate</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-7429</identifier>
+                    <identifier type="sys">HT017636050</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_742</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2013-03-13</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_742">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/742/1/klein_nicole.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_742"
+            DMDID="DMD_siegen_opus_742">
+            <mets:fptr FILEID="FILE0_siegen_opus_742"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

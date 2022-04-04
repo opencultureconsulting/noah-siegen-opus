@@ -1,0 +1,91 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1885">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Nachhaltige Motivation durch wohlbefindensorientierte Gestaltung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schlicker, Nadine</displayForm>
+                        <namePart type="family">Schlicker</namePart>
+                        <namePart type="given">Nadine</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Uhde, Alarith</displayForm>
+                        <namePart type="family">Uhde</namePart>
+                        <namePart type="given">Alarith</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hassenzahl, Marc</displayForm>
+                        <namePart type="family">Hassenzahl</namePart>
+                        <namePart type="given">Marc</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wallach, Dieter</displayForm>
+                        <namePart type="family">Wallach</namePart>
+                        <namePart type="given">Dieter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bookPart</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In dem Projekt „Game of Roster“ (GamOR, siehe Kapitel 1) haben wir uns zum Ziel gesetzt, ein kollaboratives Schichtplanungssystem für Pflegekräfte zu entwickeln, das Mitarbeitende nachhaltig zur Beteiligung am Schichtplanungsprozess motivieren möchte. Das System sollte allen Mitarbeitenden ermöglichen, ihre Wünsche einzubringen, Planungskonflikte eigenständig aufzulösen und letztendlich ihre Schichtarbeit besser mit ihrem Lebensalltag zu vereinbaren. Die so entstehende Planungssicherheit und -autonomie soll nicht nur die Arbeitszufriedenheit, sondern auch das allgemeine Wohlbefinden der Pflegekräfte in ihrem angespannten Arbeitsfeld erhöhen. Die „nachhaltige Motivation” als zentrale Anforderung brachte daher das Gestaltungsziel eines als sinnvoll und freudvoll empfundenen Planungsprozesses mit sich.</abstract>
+                    <subject>
+                        <topic>Personaleinsatz</topic>
+                        <topic>Schichtplanung</topic>
+                        <topic>Schichtarbeit</topic>
+                        <topic>Pflege</topic>
+                        <topic>Wohlbefinden</topic>
+                        <topic>Soziale Praktiken</topic>
+                        <topic>Shift planning</topic>
+                        <topic>Shift work</topic>
+                        <topic>Care</topic>
+                        <topic>Wellbeing</topic>
+                        <topic>Social practices</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-18855</identifier>
+                    <identifier type="sys">HT020961528</identifier>
+                    <accessCondition type="use and reproduction">CC BY 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1885</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBookPart</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1885">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1885/4/Nachhaltige_Motivation_durch_wohlbefindensorientierte_Gestaltung.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1885"
+            DMDID="DMD_siegen_opus_1885">
+            <mets:fptr FILEID="FILE0_siegen_opus_1885"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

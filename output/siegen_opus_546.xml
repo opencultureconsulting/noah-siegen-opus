@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_546">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Kriterien der Professionalisierbarkeit von Sozialer Arbeit</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Criteria of social work</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Markowski, Magdalena</displayForm>
+                        <namePart type="family">Markowski</namePart>
+                        <namePart type="given">Magdalena</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">masterThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2009</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In der Diplomarbeit werden die Möglichkeiten der Professionalisierung der Sozialen Arbeit ausgelotet. Aufgrund der Verortung Sozialer Arbeit innerhalb vieler Wissenschaften (Erziehngswissenschaft, Hermeneutik, Soziologie, Psychologie, Recht u.v.m.); aufgrund der vielen Mandate (politische, pädagogische u.a.) denen sie sich stellen muss und der vielen weiteren Spannungsfeldern die den Handlungsrahmen Sozialer Arbeit bestimmen, ist Soziale Arbeit als Profession gezwungen Positionen zu beziehen und ein klares Selbstverständnis ihrer Aufgabe zu formulieren. Andernfalls droht sie zwischen den vielen Ansprüchen zermalmt oder gar als Werkzeug politischer Machenschaften mißbraucht zu werden. Die Diplomarbeit beschreibt die Soziale Arbeit zunächst aus entstehungsgeschichtlicher Perspektive und bettet sie daraufhin ein in gesellschaftliche Positions- und Funktionsbestimmungen. Schließlich wird (weitestgehend in Abgrenzung zu den äußerlich bestimmenden Faktoren sozialarbeiterischen Handelns) ein sozialarbeiterischer Konsens herausgearbeitet, der als Basis/Grundgerüst Sozialer Arbeit angesehen werden kann und auf dessen Grundlage die Professionalisierung der Sozialen Arbeit erst möglich wird.</abstract>
+                    <subject>
+                        <topic>Sozialarbeit</topic>
+                    </subject>
+                    <classification authority="ddc">360</classification>
+                    <classification authority="ioo" displayLabel="Fachbereich 2, Erziehungswissenschaft und Psychologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5464</identifier>
+                    <identifier type="sys">HT016969464</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_546</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaMasterThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_546">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/546/1/markowski.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_546"
+            DMDID="DMD_siegen_opus_546">
+            <mets:fptr FILEID="FILE0_siegen_opus_546"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

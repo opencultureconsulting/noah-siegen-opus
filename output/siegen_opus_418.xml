@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_418">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Metadaten-Management in crossmedialen Produktionsumgebungen : semantikinvariante bidirektionale Transformation typographischer Auszeichnungen auf Basis variabler Compiler</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Management of metadata in cross media publishing environments</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Harlessem, Marcus von</displayForm>
+                        <namePart type="family">Harlessem</namePart>
+                        <namePart type="given">Marcus von</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2009</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Im Bereich des Cross Media Publishing (CMP) ist die Integration der Prozesse zweier separater Anwendungsbereiche erforderlich: Erstens die Prozesse zur Online-Verarbeitung via Web Content Management Systemen (WCMS) und ähnlichen Anwendungen und zweitens, die Prozesse für die traditionellen gedruckten Publikationen, wie Layout und Formatierung mit Hilfe von Desktop-Publishing-Systemen (DTP). Nachdem diese Welten über viele Jahre isoliert nebeneinander existierten, wurde in den letzten Jahren viel Aufwand in die Übertragung der Inhalte zwischen diesen Medienarten investiert. Ein großer Fortschritt war die Entwicklung von XML als Transport-Protokoll für den Austausch der Daten. XML und die daraus abgeleiteten Sub-Sprachen behandeln mittlerweile viele der sich daraus ergebenden Probleme.
+Im Zuge der Medienkonvergenz erfahren diese Integrationsprozesse eine schnell steigende Bedeutung. Medienunternehmen streben eine im Rahmen ihrer Diversifikationsstrategien notwendige Mehrfachverwertung von aufwändig erstellten Inhalten mit möglichst geringen Kosten an.
+Ziel dieser Arbeit war zunächst, die neu entstehenden Prozesse in der medienneutralen Informationsverarbeitung zu erkennen, ihre Risiken und Kosten zu identifizieren und zu formalisieren. Während die Prozesse für die medienneutrale Verarbeitung von Bilddaten theoretisch bereits gelöst sind, gab es für die Behandlung von typographischen Metadaten bisher keine befriedigende Lösung, wenn man die industriellen Standards zur Bearbeitung von Inhalten beibehalten und den Anwendern weiterhin das Arbeiten in ihren gewohnten Umgebungen ermöglichen will.
+Jede einzelne, medienspezifische Anwendung zur Bearbeitung und Gestaltung von Textinhalten besitzt ihre eigene Sprache mit typographischer Syntax und Semantik. Um diese typographischen Metadaten bei der Übertragung zwischen medienspezifischen Anwendungen und bei der mehrfachen Verwendung von Texten innerhalb einer Mediengattung nicht zu verlieren, wurde im Rahmen dieser Arbeit ein Verfahren zur Übersetzung dieser typographischen Metadaten auf Basis von grammatikgesteuerten Übersetzern entwickelt. Die Übersetzer verwenden als Drehscheibe für den Datenaustausch die Typographische Markup Sprache TML, ein XML-basierter Dialekt zur medienneutralen Datenhaltung der typographischen Metadaten. Die TML wurde ebenfalls im Rahmen dieser Arbeit entwickelt.
+Die Anforderungen an die Gesamtarchitektur wurden für diese Arbeit in Zusammenarbeit mit der InterRed GmbH formuliert. InterRed entwickelt und vertreibt ein Redaktions- und Publishingsystem für die medienübergreifende Publikation von Inhalten wie Texte, Bilder und Video. Für die bidirektionale Übertragung von Textinhalten zwischen dem Redaktionssystem und Standards wie Quark XPress, Adobe Indesign, RTF oder HTML gab es bisher kein Verfahren, welches die typographische Semantik eines Textes berücksichtigt.</abstract>
+                    <abstract type="content" lang="eng">In the field of Cross Media Publishing (CMP) the processes of two separate application suits require integration: first, the online information processing via Web Content Management Systems (WCMS) and similar applications, and, second, the traditional printed publications, such as the layout and formatting with Desktop-Publishing Systems (DTP). After many years of respective isolation, much effort has been dedicated to enable data transfers between these realms. One major achievement was XML as a data transport protocol. XML, and the sub-languages derived from it, addressed many of the resultant problems.
+In the wake of media convergence, these integration processes get a fast-growing importance. In the context of their diversification strategies, media enterprises require the multiple utilization of their expensive content with the lowest possible costs.
+The aim of this work was, first, to identify and formalize the risks and the costs of the new processes, that would occur in a media-neutral processing environment information. While the theory of the processes of media-neutral image processing has already been solved, so far there were no satisfactory solutions for the treatment of typographical metadata, if the industry standards for handling content are maintained and users would be allowed to work in their familiar application frameworks.
+Every single media-specific application for editing and layout of textual content has its own internal language, with typographic syntax and semantics. In order not to lose this typographic metadata while transferring content between the media-specific applications or at the multiple use of texts within a media class, it was in the scope of this work to develop a translation-procedure for typographical metadata, based on translators controlled by grammar rules. For the exchange of textual data, the compilers uses the Typographic Markup Language (TML), an XML-based dialect of the media-neutral contents representation, as an intermediate hub format of the typographical metadata. Developing the TML was also an aspect of this work.
+For this work, the demands for the overall architecture have been predefined in collaboration with the InterRed GmbH. InterRed is a software manufacturer, that develops and distributes an editing and publishing application for the media independent publishing of content such as text, images and video. For the bi-directional exchange of text content between the editorial system and industry standards such as QuarkXPress, Adobe InDesign, RTF or HTML there was no method, which takes the semantics of a typographical text into account.</abstract>
+                    <subject>
+                        <topic>Online-Publizieren</topic>
+                        <topic>Verlags-Management</topic>
+                        <topic>Crossmedia-Management</topic>
+                        <topic>InterRed CMS</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4180</identifier>
+                    <identifier type="sys">HT016205066</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_418</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2009-10-28</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_418">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/418/1/von_harlessem.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_418"
+            DMDID="DMD_siegen_opus_418">
+            <mets:fptr FILEID="FILE0_siegen_opus_418"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

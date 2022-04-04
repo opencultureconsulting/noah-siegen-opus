@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1573">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Intelligente Persönliche Assistenten im häuslichen Umfeld : Erkenntnisse aus einer linguistischen Pilotstudie zur Erhebung audiovisueller Interaktionsdaten</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hector, Tim Moritz</displayForm>
+                        <namePart type="family">Hector</namePart>
+                        <namePart type="given">Tim Moritz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hrncal, Christine</displayForm>
+                        <namePart type="family">Hrncal</namePart>
+                        <namePart type="given">Christine</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Sprachassistenten werden in einer steigenden Zahl von Haushalten in den Alltag eingebunden. Es zeigen sich dabei sprachliche und kulturelle Praktiken, die durch die Integration artifizieller Mündlichkeit in die Interaktion entstehen, wie sie bisher noch nicht beschrieben werden konnten. Diese untersucht der gesprächslinguistisch ausgerichtete Teilbereich des Projekts B06 „Un/erbetene Beobachtung in Interaktion: ,Intelligente Persönliche Assistenten‘ (IPA)“ im Sonderforschungsbereich „Medien der Kooperation“ an der Universität Siegen. Sprachassistenzsysteme sind außerdem für ihre Funktionalität auf die dauerhafte Beobachtung des häuslichen Umfelds angewiesen. Die Reflexion der NutzerInnen über dieses „Mithören“, das im öffentlichen Diskurs teilweise sehr kritisch betrachtet wird, steht ebenfalls im Fokus der im Projekt durchgeführten Untersuchungen. Im Rahmen der hier vorgestellten Pilotstudie werden methodische Prämissen im Hinblick auf das Vorgehen bei der Datenerhebung reflektiert und aus den gewonnenen Daten erste Anhaltspunkte für die sprachwissenschaftlichen Analysekategorien herauskristallisiert. Der Schwerpunkt liegt dabei auf der Identifikation von sprachlich-interaktionalen Praktiken und deren Einbettung in soziokulturelle Praktiken, die in der Hauptstudie ebenfalls näher beleuchtet werden sollen. Unsere Daten zeigen, dass Interagierende ein Sprachassistenzsystem nicht wie einen zusätzlichen Gesprächsteilnehmer in die Interaktion einbeziehen, sondern es durchaus wie ein technisches Gerät behandeln. Gleichzeitig scheint die parallele Nutzung des medial mündlichen Kanals zur Bedienung eines Geräts auf der einen und zum Führen einer Konversation auf der anderen Seite Auswirkungen auf das Repertoire sprachlich-interaktionaler sowie kultureller Praktiken zu haben.</abstract>
+                    <subject>
+                        <topic>Konversationsanalyse</topic>
+                        <topic>Sprachassistenten</topic>
+                        <topic>Mensch-Maschine-Interaktion</topic>
+                        <topic>Voice User Interfaces</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-15731</identifier>
+                    <identifier type="sys">HT020409005</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1573</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1573">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1573/3/WPS_14_Hector_Hrncal.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1573"
+            DMDID="DMD_siegen_opus_1573">
+            <mets:fptr FILEID="FILE0_siegen_opus_1573"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

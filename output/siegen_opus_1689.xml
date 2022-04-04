@@ -1,0 +1,81 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1689">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>way to a smarter community: exploring and exploiting data modeling, big data analytics, high-performance computing and artificial intelligence techniques for applications of 2D energy-dispersive detectors in the crystallography community</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <nonSort>The </nonSort>
+                        <title>Der Weg zu einer intelligenteren Gemeinschaft: Erforschung und Nutzung von Datenmodellierung, Großdatenanalyse, Hochleistungsrechner und Techniken der künstlichen Intelligenz für die Anwendung von 2D-Energiedispersiven Detektoren in der Kristallographie-Gemeinschaft</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Tosson, Amir</displayForm>
+                        <namePart type="family">Tosson</namePart>
+                        <namePart type="given">Amir</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Pietsch, Ullrich</displayForm>
+                        <namePart type="family">Pietsch</namePart>
+                        <namePart type="given">Ullrich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Verarbeitung großer Datenmengen bietet eine immer größeren Wert für Wirtschaft und neue Innovationen. Aber es bietet noch viel größeres Potenzial. Die wachsende Menge an Daten spiegelt [...] Veränderungen in der Art und Weise, wie wir Informationen analysieren, die unser Verständnis und unsere Organisation der Gesellschaft verändern&quot; \cite{mayer2013big}, wieder. Diese wichtige Aussage von Mayer-Schönberger und Cukier unterstreicht den entscheidenden Nutzen, den dieses Feld für die Forschung und die Wirtschaft bietet. Es eröffnet einen völlig neuen Horizont für wirtschaftliche und innovative Lösungen. 
+Sie beleuchtet auch die größte Herausforderung, vor der Forscher und Wirtschaftsanalytiker in den letzten Jahren weltweit stehen, nämlich die Handhabung, Extraktion und Nutzung großer Datenmengen. Die Digitalisierung, die die Echtzeit-Visualisierung der Daten für die weitere Analyse ermöglicht, ist heute eine entscheidende Voraussetzung für eine erfolgreiche und innovative wissenschaftliche Gesellschaft. Diese Arbeit soll dazu beitragen, die Kristall-ographieGesellschaft, die mit einer enormen Menge an Messdaten, die aufgrund des technologischen Fortschritts in der Strahlung und Detektion gewonnen wurden, in eine intelligentere wissenschaftliche Umgebung zu verwandeln.
+Diese Dissertation verfolgt insbesondere ein zweifaches Ziel. Erstens soll sie eine Einführung und einen Umsetzungsleitfaden für Wissenschaftler in der KristallographieGemeinschaft und in allen Bereichen bieten und aufzeigen, wie Trendtechnologien zur Gestaltung von Spitzenforschungsprojekten eingesetzt werden können. Zweitens wird unter Berücksichtigung der energiedispersiven Laue-Beugung (EDLD) als Fallstudie ein innovativer Ansatz zur Nutzung der Hochleistungsrechnen vorgestellt, um ein neuartiges Rahmenwerk für die Datenverarbeitung innerhalb des Zeitraums von wenigen Sekunden zu entwickeln, im Vergleich zu den traditionellen analytischen Systemen, die für die Verarbeitung der gleichen Datenmenge einige Stunden benötigen. Das entwickelte Rahmenwerk basiert auf mehreren Algorithmen der künstlichen Intelligenz, die so konzipiert sind, dass sie Aufgaben ausführen können, die durch grundlegende Programmiertechniken nicht verarbeitet werden können. In Erweiterung dieses Ansatzes wurde die Data Clouding eingesetzt, um die Kommunikationskanäle zwischen den Wissenschaftlern und den gesammelten Daten her- zustellen. Diese Rechenlösung hilft bei der Kommodifizierung der Rechenressourcen, der Implementierung von Open-Source-Software, der Datenvirtualisierung, der Globalisierung der Arbeitskräfte und der Einrichtung eines Datenaustauschpunktes. Insgesamt könnte die Kristallographie-Gemeinschaft aufgrund dieser technologischen Verbesserungen maximalen Nutzen aus den gesammelten Daten ziehen. Als Machbarkeitsnachweis wurde die Zuverlässigkeit, Effizienz und Leistung der gesamten Arbeit durch die Einbeziehung des Systems in eine anspruchs-volle Aufgabe verifiziert, nämlich: die einmalige Analyse der Mikrotextur in polykristallinen Materialien.</abstract>
+                    <abstract type="content" lang="eng">Big data will be a source of new economic value and innovation. But even more is at stake. Big data’s ascendancy represents […] shifts in the way we analyze information that transforms how we understand and organize society”. This important statement by Mayer-Schönberger and Cukier highlights the crucial benefit this field offers to the research and business communities. It is opening up an entirely new horizon for economic and innovative solutions. It also sheds light on the main challenge researchers and business analytics across the world have been facing during the recent years, namely big data handling, extraction and employing. Digitization enabling the real-time data visualization for the further analysis is now a vital prerequisite for a successful and innovative scientific community. This work aims to contribute to the transformation of the crystallography community, dealing with an enormous volume of the measured data obtained due to technological advancement in radiation and detection, into a smarter scientific environment. \\
+	Specifically, this dissertation has a twofold aim. First, it is intended to provide an introduction and implementation guideline to scientists in the crystallography community and across the fields demonstrating how trend technologies might be applied to design cutting-edge research projects. Second, considering the Energy Dispersive Laue Diffraction (EDLD) as a case study, it introduces an innovative approach to exploit high-performance computing to develop a novel framework for data processing within the time frame of a few seconds compared to the traditional analytic systems requiring a few hours to process the same amount of data. The framework developed is based on multiple artificial intelligence algorithms, designed to perform tasks that cannot be processed by basic programming techniques. Extending this approach, data clouding has been employed to establish the communication channels between scientists and the collected data. This computing solution helps to achieve commoditization of computational resources, implementation of open-source software, data virtualization, globalization of workforce, establishing a data-sharing point. On the whole, due to these technological improvements, the crystallography community might gain maximum benefit from the collected data. As a proof of concept, the reliability, efficiency, and performance of the  entire work has been verified by involving the system in a challenging task, namely: the one-shot analysis of the micro texture in polycrystalline materials.</abstract>
+                    <subject>
+                        <topic>Hochleistungsrechnen</topic>
+                        <topic>HPC</topic>
+                        <topic>AI</topic>
+                        <topic>Crystallography</topic>
+                        <topic>X-Rays</topic>
+                        <topic>Data science</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Department Physik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16891</identifier>
+                    <identifier type="sys">HT020569560</identifier>
+                    <accessCondition type="use and reproduction">CREATIVECOMMONS.ORG PUBLICDOMAIN ZERO 1.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1689</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2020-06-23</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1689">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1689/4/Dissertation_Amir_Tosson.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1689"
+            DMDID="DMD_siegen_opus_1689">
+            <mets:fptr FILEID="FILE0_siegen_opus_1689"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

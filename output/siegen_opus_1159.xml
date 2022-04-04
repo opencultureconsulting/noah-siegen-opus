@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1159">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Selbstbestimmung von Menschen mit einer kognitiven Beeinträchtigung durch die Nutzung von tragbaren, internetfähigen Geräten : eine Bachelorstudie</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bäumer, Micha</displayForm>
+                        <namePart type="family">Bäumer</namePart>
+                        <namePart type="given">Micha</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Weil das Smartphone in bestimmten Nutzergruppen zum Statussymbol „degradiert“ wurde, bleibt das wahre Potenzial der Geräte oft im Verborgenen. Auf Grund der mittlerweile sehr hohen Nutzerzahlen, über alle Altersgruppen verteilt, ist zumindest die materielle Voraussetzung für das „Assistenzmedium Smartphone“ gegeben. Jeder Smartphone-Besitzer hält womöglich die Hilfe in der Hand, die ihm oder ihr das Leben auf die eine oder andere Weise erleichtern könnte.</abstract>
+                    <subject>
+                        <topic>Geistig Behinderter</topic>
+                        <topic>Neue Medien</topic>
+                        <topic>Medienkonsum</topic>
+                        <topic>Behinderung</topic>
+                        <topic>Digitale Teilhabe</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11592</identifier>
+                    <identifier type="sys">HT019536581</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1159</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1159">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1159/1/Baeumer_Selbstbestimmung_von_Menschen.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1159"
+            DMDID="DMD_siegen_opus_1159">
+            <mets:fptr FILEID="FILE0_siegen_opus_1159"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

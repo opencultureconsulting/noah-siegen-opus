@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1182">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Development and certification of dependable mixed-criticality embedded systems</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Entwicklung und Zertifizierung von zuverlässigen eingebetteten Mixed-Criticality-Systemen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Larrucea Ortube, Asier</displayForm>
+                        <namePart type="family">Larrucea Ortube</namePart>
+                        <namePart type="given">Asier</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The transition from conventional federated architectures to integrated architectures enables the integration of functionalities with different criticality concerning safety, security and real-time on a single embedded computing platform. The trend towards multi-core and many-core architectures has further contributed to this tendency, providing benefits regarding cost-size-weight. Multi-core architectures are designed for offering the maximum average performance at the cost of increasing complexity and interferences. Partitioning solutions such as hypervisors (e.g., XtratuM, PikeOS) are commonly used to tackle the challenges related to these architectures. They limit the impact of changes and faults to reduced areas of the system, also called partitions, enabling reusability and reducing the complexity. Partitions can be designed, developed and certified individually with different levels of criticality (e.g., Safety Integrity Level (SIL) 1 to 4 according to IEC 61508). However, although partitioned multi-core architectures provide the benefits mentioned before, they imply many challenges to certification such as the assessment of the temporal independence, which leads to a significant increase in the engineering and certification cost. Furthermore, an embedded system may require distributed subsystems with communication networks (such as EtherCAT) to satisfy the computational resource demands, ensure fault-tolerance and satisfy the installation requirements. The broad trend of the integration of functionalities with different criticality on a single embedded computing platform involves the implementation of safe and predictable communication systems with temporal segregation between different criticality. Therefore, communication networks represent certification challenges such as guaranteeing the non-interference between safety-critical and non safety-critical communications. This dissertation presents the modular safety concepts for an IEC 61508 compliant generic hypervisor, partition, commercial-off-the-shelf (COTS) multi-core device and mixed-criticality network. A modular safety case (MSC) defines the safety-related arguments and evidences that a system must fulfil in order to be compliant with a safety standard. The MSCs defined throughout this thesis have been assessed by a certification body within the context of the European research project DREAMS. Besides, this dissertation defines the linking analysis for commercial technologies such as XtratuM hypervisor, Zynq-7000 multi-core device and TTEthernet and EtherCAT networks. A linking analysis describes the way in which a commercial system fulfils the safety-related requirements identified in the generic modular safety cases.
+
+As a result of the definition of the modular safety cases and associated analysis of the IEC 61508 safety standard, the remarkable components that imply challenges in the development and certification of today’s mixed-criticality embedded computing platforms have been identified. In addition, it is detected that the measures and diagnostic techniques recommended by the IEC 61508 safety standard are mostly geared to single-core architectures where a resource cannot be shared among more than one component. These measures and diagnostic techniques are not at all applicable to today’s mixed-criticality systems where sharing a resource among more than one component is a common task. For example, in multi-core architectures a memory area can be accessed simultaneously by more than one component (e.g., CPUs), leading to interferences that may jeopardise the safety of the system. In order to give a solution to those challenges, the dissertation presents several generic cross-domain patterns for commonly occurring problems in the development of mixed-critical systems. These patterns are analysed, defined and implemented in a wind turbine case study based on the DREAMS architecture style. This case study provides a realistic system scenario where the solutions generated in this dissertation are integrated and evaluated.</abstract>
+                    <abstract type="content" lang="dut">Der Übergang von herkömmlichen Verbundarchitekturen zu integrierten Architekturen ermöglicht die Integration von Funktionalitäten mit unterschiedlichen Kritikalitäten in Bezug auf die Betriebs- und Angriffssicherheit sowie Echtzeit fähigkeit in einer einzigen eingebetteten Computer-Plattform. Der Trend zu Multi-core- und Many-Core-Architekturen hat des Weiteren zu dieser Tendenz beigetragen, indem er Vorteile in Hinblick auf die Kosten, Größe und Gewicht liefert. Multi-Core-Architekturen sind derart gestaltet, dass eine maximale durchschnittliche Leistung auf Kosten einer erhöhten Komplexität und Wechselwirkungen zwischen Applikationen geboten wird. Partitionierungslösungen wie Hypervisoren (z.B. XtratuM, PikeOS) werden normalerweise zur Bewältigung von mit diesen Architekturen in Verbindung stehenden Herausforderungen verwendet. Sie begrenzen die Auswirkung von Veränderungen und Störungen auf abgesteckte Bereiche des Systems, auch Partitionen genannt, ermöglichen die Wiederverwendbarkeit und verringern die Komplexität. Derartige Partitionen können individuell und mit unterschiedlichen Kritikalitätslevels gestaltet, entwickelt und zertifiziert werden (z.B. Sicherheitsintegritätslevel (SIL) 1 bis 4 gemäß IEC 61508). Obgleich auch partitionierte Multi-Core-Architekturen die o.g. Vorteile aufweisen können sie viele Probleme im Zusammenhang mit der Zertifizierung mit sich bringen, wie z.B. die Bewertung der zeitlichen Unabhängigkeit, was wiederum zu einer beachtlichen Erhöhung der Engineering- und Zertifizierungskosten führt. Darüber hinaus kann ein eingebettetes System verteilte Subsysteme mit Kommunikationsnetzwerken (wie z.B. EtherCAT) erforderlich machen, um den Rechnerressourcenbedarf zu decken, Fehlertoleranz sicherzustellen und die Installationsanforderungen zu erfüllen. Der allgemeine Trend hin zur Integration von Funktionalitäten mit unterschiedlichen Kritikalitäten in einer einzigen eingebetteten Computer-Plattform erfordert die Implementierung von sicheren und vorhersagbaren Kommunikationssystemen mit einer zeitlichen Trennung zwischen den verschiedenen Kritikalitäten. Aus diesem Grund stellen sich für Kommunikationsnetzwerke besondere Herausforderungen in Hinblick auf die Zertifizierung, wie z.B. ein Sicherstellen der Non-Interference zwischen sicherheitskritischen und nicht sicherheitskritischen Kommunikationsaktivitäten. In dieser Dissertation werden modulare Sicherheitskonzepte für einen IEC 61508-konformen generischen Hypervisor, die Partition, kommerzielle Mehrkernprozessoren und Netzwerke mit gemischter Kritikalität vorgestellt. In einem modularen Sicherheitsnachweis werden sicherheits-relevante Argumente und Nachweise definiert, die ein System aufweisen muss, um die Sicherheitsstandards zu erfüllen. Die in dieser Dissertation definierten Sicherheitsnachweise sind von einer Zertifizierungsstelle im Rahmen des Europäischen Forschungsprojekts DREAMS bewertet worden. Darüber hinaus wird in dieser Doktorarbeit eine Verbindungsanalyse für kommerzielle Technologien, wie z.B. den XtratuM-Hypervisor, Zynq-7000, TTEthernet und EtherCAT-Netzwerke durchgeführt. In dieser Analyse wird beschrieben, inwiefern ein kommerzielles System in generischen modularen Sicherheits-nachweisen identifizierte sicherheitsrelevante Anforderungen erfüllt.
+
+Als Ergebnis der Definition von modularen Sicherheitsnachweisen und der dazugehörigen Analyse des IEC 61508 Sicherheitsstandards sind jene Komponenten identifiziert worden, die Herausforderungen für die Entwicklung und Zertifizierung von derzeit vorhandenen eingebetteten Computer-Plattformen mit gemischter Kritikalität aufweisen. Außerdem konnte festgestellt werden, dass die durch den Sicherheitsstandard IEC 61508 empfohlenen Maßnahmen und Diagnosetechniken meist auf Single-Core-Architekturen ausgerichtet sind, bei denen eine Ressource lediglich mit einer Komponente geteilt werden kann. Diese Maßnahmen und Diagnosetechniken sind keineswegs auf heute verfügbare Systeme mit gemischter Kritikalität anwendbar, da bei ihnen sehr häufig eine Ressource mit mehr als einer Komponente geteilt wird. So kann z.B. bei einer Multi-Core-Architektur gleichzeitig mehr als eine Komponente auf einen Speicherbereich zugreifen, was wiederum zu Wechselwirkungen führt, die die Sicherheit des Systems gefährden können. In dem Bestreben, eine Antwort auf diese Herausforderungen zu finden, werden in dieser Dissertation verschiedene allgemeine domänenübergreifende Modelle und Lösungen für bei der Entwicklung von Systemen mit gemischter Kritikalität häufig auftretende Probleme vorgestellt. Diese Modelle werden ausgehend vom DREAMS-Architekturstil untersucht, definiert und letztlich in einer Fallstudie zu einer Windkraftanlage implementiert. Diese Fallstudie liefert ein realistisches Systemszenario, in das die in dieser Dissertation aufgeführten Lösungen integriert und letztlich bewertet werden können.</abstract>
+                    <subject>
+                        <topic>Sicherheitskritisches System</topic>
+                        <topic>Mixed-Criticality-Systeme</topic>
+                        <topic>Multi-core Architekturen</topic>
+                        <topic>Mixed-criticality systems</topic>
+                        <topic>Safety case</topic>
+                        <topic>Modularity</topic>
+                        <topic>Cross-domain patterns</topic>
+                        <topic>Product line design</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11825</identifier>
+                    <identifier type="sys">HT019457754</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1182</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2017-07-06</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1182">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1182/1/Dissertation_Asier_Larrucea_Ortube.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1182"
+            DMDID="DMD_siegen_opus_1182">
+            <mets:fptr FILEID="FILE0_siegen_opus_1182"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

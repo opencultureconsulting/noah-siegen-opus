@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1038">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Kein Sein, keine Unmittelbarkeit : Hegel über die Vernunft der sinnlichen Gewißheit</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schönecker, Dieter</displayForm>
+                        <namePart type="family">Schönecker</namePart>
+                        <namePart type="given">Dieter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bookPart</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2003</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Hegels Werk hat das eigenartige Schicksal, zugleich außerordentlich einfluß-
+reich und völlig unverstanden oder zumindest radikal divergierend interpre-
+tiert  worden  zu  sein.Nun  ist  es  zwar  nicht  unüblich,  daß  Philosophen
+unterschiedlich interpretiert werden. Bei Hegel grenzt die Vielfalt und Wider-
+sprüchlichkeit der Interpretationen allerdings ans Absurde: Vermutlich wur-
+den ihm alle möglichen Positionen zwischen absolutem Idealismus und spe-
+kulativer  Metaphysik  auf  der  einen  sowie  Relativismus  und  Historizismus
+auf der anderen Seite zugeschrieben.</abstract>
+                    <subject>
+                        <topic>Hegel, Georg Wilhelm Friedrich</topic>
+                        <topic>Hegel</topic>
+                        <topic>Sein</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-10382</identifier>
+                    <identifier type="sys">HT019078932</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1038</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBookPart</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1038">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1038/1/Kein_Sein_keine_Unmittelbarkeit_Schoenecker.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1038"
+            DMDID="DMD_siegen_opus_1038">
+            <mets:fptr FILEID="FILE0_siegen_opus_1038"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

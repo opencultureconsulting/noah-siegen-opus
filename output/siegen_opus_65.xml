@@ -1,0 +1,85 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_65">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Medienrevolutionen und Redereflexe : die Etablierung neuer Medien im Spiegel ihrer Diskurse</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Welther, Tilman</displayForm>
+                        <namePart type="family">Welther</namePart>
+                        <namePart type="given">Tilman</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2000</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Mediale Innovationen lösen auf dem Weg ihrer gesellschaftlichen Durchsetzung
+Wertedebatten aus, die vergleichbare Argumentationsmuster aufweisen, obwohl sie
+um unterschiedliche Medientechniken und in unterschiedlichen historischen Kontexten
+geführt werden. Diese These überprüft die Untersuchung anhand einer exemplarischen
+Gegenüberstellung zweier Etablierungsdiskurse, die das Auftauchen des
+Films als neues Medium in den 1910er Jahren und des Internets als neues Medium
+achtzig Jahre später auslöste.
+Die so genannte Kino-Debatte und die Diskussion um die Anfänge der Filmwirtschaft
+vor dem Hintergrund des militärisch-politischen Komplexes des Ersten Weltkriegs
+sowie die ersten größeren Filmtheorien werden strukturiert und dem aktuellen
+Digitalisierungsdiskurs über die „elektronische Demokratie“ und das „Wissensmedium
+Internet“ vergleichend gegenüber gestellt.
+Bei aller Unterschiedlichkeit der jeweils zu Grunde liegenden Technik, weist die
+Form der öffentlichen Diskurse weitreichende Ähnlichkeiten auf. Zum Teil identische
+Formulierungen, Motive und diskursive Versatzstücke werden in der Untersuchung
+vergleichbaren Strukturmustern und Diskurstopoi subsumiert. Die Unterschiedlichkeit
+der diskursiven Zuschreibungen jeweiliger medialer Qualitäten zeigt,
+dass sich die Diskurse von ihrem Gegenstand loslösen und sich gemäß jeweils virulenter
+Werte-Diskussionen formieren, also nicht von einer zu Grunde liegenden Medientechnik
+vorgezeichnet sind. So erscheint das neue Medium gleichermaßen in
+seiner Anwendung unbestimmt wie universell in seinen Möglichkeiten. Einen
+Schwerpunkt bei der Darstellung homologer Debattenstrukturen bildet der Diskurstopos
+„Wirklichkeitsverlust“, die befürchtete Erosion der Unterscheidbarkeit von
+Sein und Schein. „Medienrevolutionen“ erscheinen in der Perspektive dieser Untersuchung
+als Ansammlung aufeinander bezogener Redereflexe und nicht als medientechnisch
+induzierte Innovationen.</abstract>
+                    <subject>
+                        <topic>Mediendiskurse</topic>
+                        <topic>Neue Medien</topic>
+                        <topic>Medienrevolutionen</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 3, Sprach-, Literatur- und Medienwissenschaften"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-651</identifier>
+                    <identifier type="sys">HT014118547</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_65</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2000-06-09</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_65">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/65/1/welther.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_65"
+            DMDID="DMD_siegen_opus_65">
+            <mets:fptr FILEID="FILE0_siegen_opus_65"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,57 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1156">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Medienkompetenz  - Von Anfang an?</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lang, Dorit</displayForm>
+                        <namePart type="family">Lang</namePart>
+                        <namePart type="given">Dorit</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Kinder sind heute mit einer großen Anzahl verschiedener und vielfältiger technischer Hilfsmittel konfrontiert. Der Umgang mit diesen wird für sie zur alltäglichen Herausforderung. Hier stellt sich nun die Frage, ob und wie die Pädagogik und die Soziale Arbeit auf diese Situation reagieren soll und kann. Medienkompetenz ist hierbei ein Schlüssel. In diesem Artikel soll der Frage nachgegangen werden, ob und ab welchem Alter die Förderung von Medienkompetenz sinnvoll ist.</abstract>
+                    <subject>
+                        <topic>Medienkompetenz</topic>
+                    </subject>
+                    <classification authority="ddc">302</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11561</identifier>
+                    <identifier type="sys">HT019572486</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1156</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1156">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1156/1/Lang_Medienkompetenz_von_Anfang_an.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1156"
+            DMDID="DMD_siegen_opus_1156">
+            <mets:fptr FILEID="FILE0_siegen_opus_1156"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

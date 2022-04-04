@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1040">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>new approach to multivariate extreme value theory : f-implicit max-infinitely divisible distributions and f-implicit max-stable processes</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <nonSort>A </nonSort>
+                        <title>Ein neuer Zugang zur multivariaten Extremwerttheorie : f-implizit max-unendlich teilbare Verteilungen und f-implizit max-stabile Prozesse</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Goldbach, Johannes</displayForm>
+                        <namePart type="family">Goldbach</namePart>
+                        <namePart type="given">Johannes</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Let X1,...,Xn be independent and identically distributed random vectors in R^d and f:R^d -&gt; [0,∞) a suitable function being referred to as the loss function. Further, let k(n) = argmax(f(X1),â ¦, f(Xn)). Referring to [SchSt14, Definition 4.1], recall that a random vector X in R^d is f-implicit max-stable if for all n &gt;= 1 there exist an&gt;0 such that an^{-1}X{k(n)} and X are equal in distribution, with X1,...,Xn being independent copies of X. Now, the aim is to expand on this notion and to advance it. To this end, a new mathematical framework called f-implicit extreme value theory, which is closely related to multivariate extreme value theory but yet different as to the study of extremes, is developed. More precisely, adopting the approach suggested in [SchSt14], the idea of focusing on extreme loss events rather than extreme values is pursued. The motivation behind this stems from some kind of inverse problem where one wants to determine the extremal behavior of an R^d-valued random vector X when only explicitly observing the extremal loss f(X). In the first part of the thesis, some basics constituting the fundament of all further deliberations are introduced. In particular, this includes a specific (inner) binary operation on R^d called f-implicit max-operation, an astute convolution concept being referred to as f-implicit max-convolution and a distinctive partial order named f-implicit max-order. Finally, various possibilities to estimate the distribution of the f-implicit maximum X{k(n)} of X1,...,Xn are provided. Equipped with these aspects, the notion of f-implicit max-infinite divisibility is developed, thus extending the class of f-implicit max-stable distributions. Here, it is proved that all random vectors coming under one of two specific classes of random vectors are f-implicit max-infinitely divisible. To this end, the notion of f-implicit max-convolution semigroups is applied. The third part of the thesis deals with the class of f-implicit max-stable processes being the analogue of max-stable processes. In order to provide non-trivial examples of such processes, the ingenious concepts of f-implicit sup-measures and f-implicit extremal integrals are established. The thesis concludes with several suggestions for additional research possibilities which might refine the novel field of f-implicit extreme value theory.</abstract>
+                    <abstract type="content" lang="ger">Es seien X1,...,Xn unabhängig und identisch verteilte Zufallsvektoren mit Werten in R^d sowie f:R^d -&gt; [0,∞) eine geeignete, die Rolle einer Verlust-funktion spielende Abbildung. Zudem sei k(n) = argmax(f(X1),â ¦, f(Xn)). Entsprechend [SchSt14, Definition 4.1] ist ein R^d-wertiger Zufallsvektor X f-implizit max-stabil, wenn zu jedem n &gt;= 1 Zahlen an&gt;0 existieren, sodass für unabhängige Kopien X1,...,Xn von X die Zufallsvektoren an^{-1}X{k(n)} und X dieselbe Verteilung besitzen. Ziel ist es an dieses Konzept anzuknüpfen und es auf zwei spezielle Arten zu verallgemeinern. Dazu wird eine neue Theorie entwickelt, die f-implizite Extremwerttheorie. Diese ähnelt stark der klassischen Extremwerttheorie, ist jedoch hinsichtlich des konkreten Blickwinkels auf die Analyse extremer Ereignisse von grundlegendem Unterschied. Genauer gesagt handelt es sich um die bereits in [SchSt14] vorgeschlagene Alternative zur klassischen Extremwerttheorie, die sich weniger der Analyse von Ausreißern, d.h. maximalen Werten einer Stichprobe widmet, sondern vielmehr der Analyse von Ereignissen, die zu extremen Verlustszenarien führen. Der erste Teil der Arbeit stellt einige, für den weiteren Inhalt essentielle Grundlagen zusammen. Im Einzelnen handelt es sich dabei um die f-implizite max-Operation, einer speziellen inneren zweistelligen Verknüpfung auf R^d, die f-implizite max-Faltung sowie die f-implizite max-Ordnung. Außerdem wird die Verteilung des f-impliziten Maximums X{k(n)} von X1,...,Xn genauer studiert. Darauf aufbauend behandelt der zweite Teil der Arbeit das Konzept f-implizit max-unendlich teilbarer Verteilungen und erweitert dadurch die Klasse der f-implizit max-stabilen Verteilungen. In diesem Kontext wird die Zugehorigkeit zweier spezieller Klassen von Verteilungen zur Klasse der f-implizit max-unendlich teilbaren Verteilungen bewiesen. Ein wichtiges Hilfsmittel, neben den vorab genannten Grundlagen, stellt dabei das Konzept der f-impliziten max-Faltungshalbgruppe dar. Der dritte Teil der Arbeit befasst sich schließlich mit den f-implizit max-stabilen Prozessen. Diese stellen das Analogon zu den max-stabilen Prozessen aus der klassischen Extremwerttheorie dar. Der Frage nach geeigneten Beispiele solcher Prozesse nachgehend, werden die Konzepte der f-impliziten sup-Maße und f-impliziten Extremwertintegrale eingeführt, die eine Vielzahl von Beispielen f-implizit max-stabiler Prozesse liefern. Zum Abschluss werden einige Moglichkeiten angesprochen, die Inhalte der Arbeit und das Gebiet der f-impliziten Extremwerttheorie auszubauen.</abstract>
+                    <subject>
+                        <topic>Stochastischer Prozess</topic>
+                        <topic>Multivariate Extremwerttheorie</topic>
+                        <topic>f-implizite Extremwerttheorie</topic>
+                        <topic>f-implizit max-unendlich teilbare Verteilungen</topic>
+                        <topic>f-implizit max-stabile Prozesse</topic>
+                        <topic>f-implicit extreme value theory</topic>
+                        <topic>multivariate extreme value theory</topic>
+                        <topic>f-implicit max-infinitely divisible distribution</topic>
+                        <topic>f-implicit max-stable process</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-10400</identifier>
+                    <identifier type="sys">HT019097959</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1040</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2016-09-05</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1040">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1040/1/Dissertation_Johannes_Goldbach.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1040"
+            DMDID="DMD_siegen_opus_1040">
+            <mets:fptr FILEID="FILE0_siegen_opus_1040"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

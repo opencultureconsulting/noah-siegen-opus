@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_400">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Poesie und Poetologie : Untersuchungen zum Verhältnis von literarischer Theorie und poetischer Praxis bei Durs Grünbein</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ganseuer, Christian</displayForm>
+                        <namePart type="family">Ganseuer</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2009</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">&quot;Wenn Deutschland ein Königreich wäre, dann wäre Durs Grünbein [...] der Dichterfürst&quot;(Die ZEIT), ein &quot;Götterliebling&quot; (Seibt), die &quot;erste genuine Stimme der neuen Republik&quot; (Schirrmacher). &quot;Durs Grünbein ist das Edelste, was die deutsche Lyrik heute zu bieten hat&quot; (Die ZEIT). Superlative gibt es viele, die seit Mitte der 1990er Jahre bemüht wurden, um den Dichter Durs Grünbein ins rechte Licht zu setzen. Seine Gedichte und Essays initiieren, begleiten und kommentieren intellektuelle Diskurse, eröffnen historische Räume, knüpfen an, führen weiter bzw. ad absurdum. Begleitet werden die Gedichte von regelmäßigen poetologischen Essays, die den Resonanzraum der Gedichte thematisieren und einen Dialog mit den großen Poetologien des 19. und vor allem des 20. Jahrhunderts eröffnen.  Poetologie und Poesie, Theorie und Praxis, gehen bei Grünbein nicht nur eine symbiotische Beziehung ein, sie gehen viel mehr ineinander über, kommentieren und bereichern sich wechselseitig. Die Problemstellung der Arbeit ist es, den Zusammenhang von Poetologie und Poesie bei Durs Grünbein zu entschlüsseln, das poetologische mit dem poetischen Werk in ein Verhältnis zu setzen und dabei herauszustellen, wo die poetologischen Wurzeln von Grünbeins Poetik im Kontext der großen Poetologien des 20. Jahrhunderts zu lokalisieren sind. Ein besonderer Schwerpunkt liegt dabei auf der Entschlüsselung des  poetologischen Eigenwerts der Poesie, der auf den Grundprinzipien Grünbeins Poetik basierend selbstständige poetologische Aussagen aufweist. Dabei wird das Werk Grünbeins in zwei Werkphasen unterteilt. Die erste Werkphase kennzeichnen Grünbeins Gedichtbände Grauzone morgens (1988), Schädelbasislektion (1991), Falten und Fallen (1994) und Den Teuren Toten (1994), die von dem Essayband Galilei vermißt Dantes Hölle und bleibt an den Maßen hängen (1996) begleitet werden. Die zweite Werkphase ist durch die Gedichtbände Nach den Satiren (1999), Erklärte Nacht (2002) und Porzellan (2005) bestimmt und werden durch den Essayband Antike Dispositionen (2005) gestützt. Besonderes Augenmerk legt die Arbeit auf den politischen Autor Durs Grünbein, der in der bisherigen Grünbein-Forschung zu selten gewürdigt wurde.</abstract>
+                    <subject>
+                        <topic>Grünbein, Durs</topic>
+                        <topic>Literatur nach 1990</topic>
+                        <topic>neue deutsche Literatur</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 3, Sprach-, Literatur- und Medienwissenschaften"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4007</identifier>
+                    <identifier type="sys">HT016075824</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_400</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2009-07-13</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_400">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/400/1/ganseuer.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_400"
+            DMDID="DMD_siegen_opus_400">
+            <mets:fptr FILEID="FILE0_siegen_opus_400"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

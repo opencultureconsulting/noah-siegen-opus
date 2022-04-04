@@ -1,0 +1,100 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_595">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Customizable visualization in the context of metabolic networks</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Höchst anpassbare Visualisierung im Kontext von Stoffwechselnetzwerken</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Droste, Peter</displayForm>
+                        <namePart type="family">Droste</namePart>
+                        <namePart type="given">Peter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Systems biology has the ambitious goal to obtain a holistic understanding of the biochemical processes in living organisms. In order to reach this goal experimental studies coupled with computer simulations are applied in an iterative process. Commonly, biologic processes are considered as networks describing various substances in the cell as well as substance transfer. These so-called metabolic networks are subject of many studies that are made to gain insights into the cellular metabolism.
+Nowadays, modern high-throughput methods as well as high-performance computer simulation lead to a huge amount of data concerning metabolic networks. Post-processing these data is a big challenge for today&apos;s sience. In this situation, visualization becomes more and more important. This thesis deals with the visualization of data in metabolic networks. Therefore, new approaches are developed in four different topics:
+
+Network drawing:
+A drawing editor for biochemical network is developed bringing high usability and supporting special requirements of metabolic networks.
+
+Network layout:
+In combination with metabolic networks, de facto standards concerning the arrangement of network components have arisen in the last decades. These conventions cannot be met by available automatic layout algorithms. Semi-automatic network layout approaches are developed that support drawing networks according to established standards.
+
+Data visualization:
+For the visualization of data in networks, a new approach is introduced in this thesis: the script-based visualization. A new scripting language is developed that allows the users to visualize data according to individual requirements and preferences.
+
+Extensibility:
+In order to allow adaptability to future application fields and requirements, a plug-in interface is indispensable. The conceptual design of this interface as well as existing modeling and 3D visualization plug-ins are introduced.
+A large amount of example applications brought by this thesis reveals the high benefit of the here introduced approaches for systems biology.</abstract>
+                    <abstract type="content" lang="ger">Die Systembiologie hat das ehrgeizige Ziel, die biologischen Zusammenhänge in lebenden Organismen ganzheitlich zu verstehen. Um dieses Ziel zu erreichen, werden experimentelle Studien gekoppelt mit Computersimulation in einem iterativen Prozess eingesetzt. Biologische Prozesse werden gemeinhin als Netzwerke aufgefasst, welche die unterschiedlichen Stoffe in einer Zelle und die Stoffübergänge beschreiben. Solche sogenannten metabolischen Netzwerke sind Gegenstand vieler Studien zum Verständnis des zellulären Stoffwechsels.
+Moderne Hochdurchsatz-Techniken und Hochleistungs-Computersimulation führen heutzutage zu Unmengen von Daten, welche diese Stoffwechsel-Netzwerke betreffen. Die Auswertung dieser Daten stellt eine große Herausforderung für die heutige Forschung dar. Visualisierung ist hier ein bedeutendes Hilfsmittel. Diese Doktorarbeit befasst sich mit der Visualisierung von Daten in metabolischen Netzwerken. Dabei werden neuartige Ansätze in vier verschiedenen Themengebieten entwickelt:
+
+Zeichnen von Netzwerkdiagrammen:
+Es wird ein Zeichenwerkzeug für Stoffwechsel-Diagramme entwickelt, welches eine hohe Anwenderfreundlichkeit aufweist und die speziellen Anforderungen metabolischer Netzwerke unterstützt.
+
+Netzwerklayout:
+Im Zusammenhang mit metabolischen Netzwerken sind de facto Standards für das Anordnen der Netzwerkkomponenten entstanden, die von gängigen Netzwerklayout-Algorithmen nicht unterstützt werden. Es werden semi-automatische Layouttechniken entwickelt, welche das Zeichnen von Netzwerken nach konventionellen Standards unterstützen.
+
+Datenvisualisierung:
+Zur Visualisierung von Daten in Netzwerkdiagrammen wird eine neuartige Herangehensweise vorgestellt: die skript-basierte Visualisierung. Es wird eine Skriptsprache eingeführt, mit der Anwender die Datenvisualisierung nach eigenen Anforderungen programmieren können.
+
+Erweiterbarkeit durch Plugins:
+Damit ein Visualisierungswerkzeug an zukünftige Anforderungen anpassbar bleibt ist eine Plugin-Schnittstelle unumgänglich. Der Entwurf dieser Schnittstelle und bestehende Modellierungs- und 3D-Visualisierungs-Plugins werden vorgestellt.
+Eine hohe Anzahl an Beispielanwendungen in der Arbeit macht den großen Nutzen der hier entwickelten neuen Ansätze für die Systembiologie deutlich.</abstract>
+                    <subject>
+                        <topic>Visualisierung</topic>
+                        <topic>Omix</topic>
+                        <topic>Modellierung</topic>
+                        <topic>Netzwerk</topic>
+                        <topic>Fluxomics</topic>
+                        <topic>Biochemisches Netzwerk</topic>
+                        <topic>Visualization</topic>
+                        <topic>Biochemical Network</topic>
+                        <topic>Scripting language</topic>
+                        <topic>Semi-automatic layout</topic>
+                        <topic>Systems Biology</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5958</identifier>
+                    <identifier type="sys">HT017391238</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_595</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2011-12-01</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_595">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/595/1/droste.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_595"
+            DMDID="DMD_siegen_opus_595">
+            <mets:fptr FILEID="FILE0_siegen_opus_595"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,67 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1343</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Multi-layer conditional random fields for revealing unobserved entities</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Mehrschichtiges bedingtes Zufallsfeld zum Aufdecken nicht beobachteter Entitäten</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Sergey</pc:foreName>
+            <pc:surName>Kosov</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Bildsegmentierung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Klassifizierung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">semantische Segmentierung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Zufallsfelder</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Pattern Recognition</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Classification</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Semantic Segmentation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Random Fields</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Understanding the role of each pixel in the image - the so-called semantic image segmentation - is one of the central problems in computer vision and pattern recognition. Allowing a mathematical sound integration of different image labeling concepts into a single framework, conditional random fields belong to the best performing and best understood techniques for solving this task. They belong to the class of undirected graphical models, where the scene is represented by a graph whose nodes are the random variables involved in the classification process and whose edges model dependencies between the random variables corresponding to the nodes. However, they are often considered as a statistical model of context, which has a smoothing effect on the classification results. In this thesis I show that the conditional random fields technique is a much more powerful tool for semantic image segmentation by making two important scientific contributions, described in Chapters 2 and 3. &#13;
+&#13;
+The first part of this thesis is dedicated to construction of conditional random fields methods (Chapter 2). I first discuss some classical probabilistic models, used for initializing the graph nodes and edges, and then propose new more accurate and efficient models, which are based on classical ones. Thereby, I demonstrate that this toolkit allows for incredible flexibility in modeling the graph structure and thus binding various kinds of observations together. Here I also investigate the influence of different data-features, extracted from the observations on the entire labeling process. Finally, I construct a local-global classification engine -- conditional random field, incorporating not only classical local nodes, but also additional global nodes, which correspond to the global features that describe the whole image in toto. Extensive qualitative and quantitative benchmarks for eight different node models and five edge models show the accuracy and the efficiency of the proposed implementations. At the current status quo this provides the most precise random fields approaches in the literature and allows me to make the second scientific contribution. &#13;
+&#13;
+The second part of this thesis extends the previous scientific contributions to a novel Multi-Layer-CRF framework (Chapter 3) that allows for the integration of sophisticated occlusion potentials into the model and enables the automatic inference of the layer decomposition. I use a special message-passing algorithm to perform maximum a posterior inference on mixed graphs and demonstrate the ability to infer the correct labels of occluded regions in both the aerial near-vertical dataset and urban street-view dataset. A major innovation of the proposed framework is that the 3D structure of the scene is considered in the classification process. This is necessary to be able to deal with occlusions in a systematic way. In order to do so, multi-layer conditional random fields are built that use multiple nodes for the class labels at a certain position in object space, namely one corresponding to the base layer of the scene (containing background objects that do not occlude other objects but may be occluded) and others, corresponding to the occlusion layers (containing objects that may occlude other objects). Quality and efficiency benchmarks show the success of this layered framework: the accuracy of classification on occluded areas becomes considerably higher in comparison to the classical random fields techniques.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die Rolle jedes einzelnen Pixels im Bild zu verstehen -- die so genannte semantische Bildsegmentierung - ist eines der zentralen Probleme der Computer-Vision und Mustererkennung. Conditional Random Fields gehören zu den leistungsstärksten und am besten verstandenen Techniken zur Lösung dieser Aufgabe, da sie eine mathematische überzeugene Integration verschiedener Bildbeschriftungskonzepte in einem einzigen Framework ermöglichen. Sie gehören zur Klasse der ungerichteten Graphen, bei denen die Szene durch einen Graphen repräsentiert wird, dessen Knoten die Zufallsvariablen sind, die am Klassifizierungsprozess beteiligt sind, und deren Kanten die Abhängigkeiten zwischen den Zufallsvariablen, die den Knoten entsprechen, modellieren. Sie werden jedoch oft als statistisches Kontextmodell betrachtet, was auf die Klassifikationsergebnisse einen Glättungseffekt hat. In dieser Arbeit zeigen wir, dass die Technik der bedingten Zufallsfelder ein viel mächtigeres Werkzeug für die semantische Bildsegmentierung ist, indem wir zwei wichtige Beiträge leisten, die in den Kapiteln 2 und 3 beschrieben werden. &#13;
+&#13;
+Der erste Teil dieser Arbeit widmet sich der Konstruktion von Methoden mit Conditional Random Fields (Kapitel 2). Wir besprechen zunächst einige klassische probabilistische Modelle, die für die Initialisierung der Graphenknoten und -kanten verwendet werden, und schlagen dann neue, genauere und effizientere Modelle vor, die auf klassischen Modellen basieren. Dabei zeigen wir, dass dieses Werkzeug eine unglaubliche Flexibilität bei der Modellierung der Graphenstruktur ermöglicht und somit verschiedene Arten von Beobachtungen miteinander verbindet. Hier untersuchen wir auch den Einfluss verschiedener Datenmerkmale, die aus den Beobachtungen extrahiert wurden, auf den gesamten Beschriftungsprozess. Schließlich konstruieren wir eine lokal-globale Klassifizierungsmethode, basieren auf Conditional Random Fields, das nicht nur klassische lokale Knoten enthält, sondern auch zusätzliche globale Knoten, die den globalen Merkmalen entsprechen, die das ganze Bild beschreiben in toto. Umfangreiche qualitative und quantitative Benchmarks für acht verschiedene Knotenmodelle und fünf Kantenmodelle zeigen die Genauigkeit und Effizienz der vorgeschlagenen Implementierungen. Beim aktuellen Status quo liefert uns dies die präzisesten Random Fields in der Literatur und erlaubt es uns, unseren zweiten Beitrag zu leisten. &#13;
+&#13;
+Der zweite Teil dieser Arbeit erweitert unsere bisherigen Beiträge zu einem neuartigen Multi-Layer-CRF Framework (Kapitel 3), das die Integration anspruchsvoller Okklusionspotentiale in das Modell ermöglicht und die automatische Ableitung der Schichtzerlegung ermöglicht. Wir verwenden einen speziellen Message-Passing-Algorithmus, um eine Maximum a posteriori Inferenz auf gemischte Graphen durchzuführen und die Fähigkeit zu demonstrieren, die korrekten Bezeichnungen von verdeckten Regionen sowohl im Datensatz von Senkrechtaufnahmen als auch im urbanen Street-View-Datensatz herzuleiten. Eine wesentliche Neuerung des vorgeschlagenen Rahmens besteht darin, dass die 3D-Struktur der Szene bei der Klassifizierung berücksichtigt wird. Dies ist notwendig, um Okklusionen systematisch behandeln zu können. Dazu werden mehrschichtige bedingte Zufallsfelder aufgebaut, die mehrere Knoten für die Klassenbeschriftungen an einer bestimmten Position im Objektraum verwenden, nämlich einen, der der Basisebene der Szene entspricht (mit Hintergrundobjekten, die andere Objekte nicht verdecken, sondern verdecken können) und andere, die den Okklusionsebenen entsprechen (mit Objekten, die andere Objekte verdecken können). Qualitäts- und Effizienz-Benchmarks zeigen den Erfolg dieses mehrschichtigen Frameworks: Die Genauigkeit der Klassifikation auf den verdeckten Flächen wird im Vergleich zu den klassischen Random Fields deutlich erhöht.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2018-07-19</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2018</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-13434</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV - Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Sergey_Kosov.pdf" ddb:fileSize="29690233"/>
+   <ddb:checksum ddb:type="MD5">2b82f90a71c51b755762c64d1b97f8c6</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1343/1/Dissertation_Sergey_Kosov.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1343</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

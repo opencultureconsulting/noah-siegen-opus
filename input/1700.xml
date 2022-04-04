@@ -1,0 +1,65 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1700</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Wearable-based affect recognition</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Emotionserkennung basierend auf tragbarer Sensorik</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Philip</pc:foreName>
+            <pc:surName>Schmidt</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Stressreaktion</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Affect Recognition</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Wearables</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">User Study</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Der technologische Fortschritt im Bereich tragbarer Sensorik ermöglicht die minimalinvasive Erfassung von Nutzerdaten wie beispielsweise zurückgelegte Schritte oder verbrauchte Kalorien. Zudem ist die neueste Generation Smartwatches in der Lage, basierend auf physiologischen Daten affektive Zustände der Nutzer zu schätzen.&#13;
+Im Rahmen dieser Arbeit wurden physiologische und Bewegungsdaten mithilfe tragbarer Sensorik aufgenommen. Diese wurden zur Erkennung affektiver Zustände (z.B. Stress) verwendet. Die geleisteten Beiträge sind die folgenden: Der aktuelle Stand der Forschung im Bereich der Emotionserkennung basierend auf tragbarer Sensorik wurde umfassend dargestellt. Dabei zeigte sich ein Mangel an öffentlich verfügbaren und multimodalen Datensätzen. Diese Lücke wurde durch die Aufzeichnung und Publikation eines Laborstudiendatensatzes (WESAD) geschlossen. Des Weiteren wurden im Rahmen einer Feldstudie physiologische, Bewegungs- sowie affektive Daten von 11 Versuchspersonen aufgezeichnet. Im Vorfeld dieser Feldstudie wurden Empfehlungen für Smartphone-basierte Fragebogen-Apps entwickelt und diese wurden anhand der gesammelten Einblicke überprüft. Zudem wurden die Klassifizierungsraten von feature-basierten Klassifikatoren sowie aktuellsten Convolutional Neural Networks untersucht. Dabei zeigte sich, dass die Erkennung affektiver Zustände im Feld auf unterschiedlichen Skalen nur eingeschränkt möglich ist (über Skalen gemittelter F1 Score: ~ 45%). Daher wurden Fallstricke für Emotionserkennung basierend auf tragbarer Sensorik diskutiert und Auswirkungen für die weitere Forschung dargelegt.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Advances in wearable-based sensor technology like smartphones and watches allow to monitor users in a minimally intrusive way. At the point of writing, wearables are, for instance, used to count steps or estimate burned calories. Recently, a first generation of  smartwatches entered the consumer market offering data driven insights into affective states. &#13;
+Over the course of this thesis physiological and motion data recorded using wearables have been employed to detect the affective state (e.g., stress or amusement) of users. The contributions made are threefold: First, a comprehensive literature review of the state-of-the art in wearable-based affect recognition was conducted. Second, concluding from this review a lack of publicly available multimodal datasets was identified. This gap was closed by recording, benchmarking, and publishing a lab study dataset for WEarable Stress and Affect Detection (WESAD). Third, a field study was conducted recording physiological and motion data as well as affective labels from 11 healthy subjects. Prior to the field study guidelines for smartphone-based labelling apps were formulated and they were evaluated using the field study data. Furthermore, data and labels acquired during the field study were used to train both feature-based and latest end-to-end trainable machine learning classifiers, detecting affective states on different scales. Both types of classifiers performed on par (averaged F1 score across scales: ~ 45%). Hence, potential pitfalls for wearable-based affect recognition were discussed in detail and implications for further research were provided.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Kristof van</pc:foreName>
+            <pc:surName>Laerhoven</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2019-11-07</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2019</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-17007</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/lizenz.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Department Elektrotechnik - Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Philip_Schmidt.pdf" ddb:fileSize="6488513"/>
+   <ddb:checksum ddb:type="MD5">a248bed7f07a37c3e40c4505694223c3</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1700/4/Dissertation_Philip_Schmidt.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1700</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

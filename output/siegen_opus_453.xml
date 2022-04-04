@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_453">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Phänomenales Bewusstsein : wie kann sich der naturalistische Repräsentationalismus im Lichte der konkurrierenden Strategien als vielversprechende physikalistische Qualiatheorie behaupten?</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zoller, Antje</displayForm>
+                        <namePart type="family">Zoller</namePart>
+                        <namePart type="given">Antje</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">masterThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Magisterarbeit befasst sich schwerpunktmäßig mit den ontologischen und methodologischen Problemen des phänomenalen Bewusstseins. Es wird hinterfragt, ob und wie der besondere subjektive Charakter der Erfahrung eine vollständig objektive Natur haben kann, d.h. ob und wie eine umfassende Naturalisierung phänomenaler Zustände möglich ist. Eine vergleichende Analyse der einschlägigen Argumente und dialektischen Optionen soll die Stärken und Schwächen der angebotenen philosophischen Positionen deutlich machen. Dabei stellen sich die naturalistischen Repräsentationsanalysen von Dretske und Tye als besonders vielversprechend heraus.</abstract>
+                    <subject>
+                        <topic>Bewusstsein</topic>
+                        <topic>Tye, Michael</topic>
+                        <topic>Naturalisierung des Geistes</topic>
+                        <topic>naturalistischer Repräsentationalismus</topic>
+                        <topic>Philosophie des Geistes</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 1, Sozialwissenschaften - Philosophie - Theologie - Geschichte - Geographie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4531</identifier>
+                    <identifier type="sys">HT016516434</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_453</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaMasterThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_453">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/453/1/zoller.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_453"
+            DMDID="DMD_siegen_opus_453">
+            <mets:fptr FILEID="FILE0_siegen_opus_453"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

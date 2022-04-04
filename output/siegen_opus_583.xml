@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_583">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Verformungsverhalten metallischer Schaumwerkstoffe unter isothermen und thermomechanischen Beanspruchungsbedingungen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ohrndorf, Arne</displayForm>
+                        <namePart type="family">Ohrndorf</namePart>
+                        <namePart type="given">Arne</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Metallische Schaumwerkstoffe zeichnen sich durch ein hervorragendes Verhältnis aus Steifigkeit und Masse aus, was sie für eine Vielzahl technischer Anwendungen im Bereich des Leichtbaus äußerst interessant macht. Ihr Verformungsverhalten hängt nicht allein vom Grundwerkstoff der Zellstege ab, sondern vielmehr bestimmt das Zusammenwirken von Grundmaterialeigenschaften und strukturellem Aufbau der Porengeometrie maßgeblich die Mechanismen der Verformung. Im Rahmen der vorliegenden Arbeit wurde durch die Auswahl geeigneter Metallschäume versucht, die Einflüsse des Grundwerkstoffs auf das Verformungsverhalten von denen der Struktur zu trennen.
+Im einsinnigen Zugversuch ist der Einfluss der Duktilität besonders stark ausgeprägt, da hier eine nennenswerte Streckung der Zellstege in die Richtung der Zugbelastung durch die Bildung plastischer Fließgelenke in den Knotenpunkten nur möglich ist, wenn die Duktilität des Stegwerkstoffs eine entsprechende Verformung überhaupt erlaubt. Während sprödere Schäume im Zugversuch nur Bruchdehnungen von etwa A=1% aufweisen, erreichte der untersuchte Messingschwamm bei identischer Zellgeometrie immerhin Bruchdehnungen von rund 25%. Im für die Absorption von Aufprallenergie wichtigen Druckversuch wirkt sich das spröde Versagen von Stegen weniger stark aus als im Zugversuch. Dennoch tragen auch unter Druckbeanspruchung verbesserte Duktilität des Grundwerkstoffs und gute Homogenität der Porenstruktur zu einer verringerten Neigung zur Verformungslokalisierung in Verformungsbändern bei, wie sie für sprödere Schaumwerkstoffe typisch ist.
+Unter zyklischer mechanischer Beanspruchung dominiert nach einer anfänglichen Phase des zyklischen Kriechens Ermüdungsrissausbreitung den Schädigungsverlauf. Das Versagen von Zellstegen reduziert mit zunehmender Risslänge immer mehr die Probensteifigkeit im Zugbereich, während im Druckbereich die gebrochenen Zellstege aufeinander aufsetzen und die ursprüngliche Steifigkeit erhalten bleibt. Bei höheren Prüftemperaturen verringern sich die Fließspannungen und Spannungsrelaxations- sowie Kriecheffekte bekommen Relevanz. Die gemessenen Lebensdauern in gesamtdehnungsgeregelten thermomechanischen Ermüdungsversuchen hängen daher erheblich von der eingestellten Phasenbeziehung zwischen dem Temperaturverlauf und dem Verlauf der mechanischen Beanspruchung ab. Unter in-phase-TMF-Beanspruchung bilden sich Druckmittelspannungen aus und aufgrund gleichphasig zur mechanischen Dehnung auftretender thermischer Dehnungen reduziert sich die schädigungswirksame plastische Dehnungsschwingbreite gegenüber dem out-of-phase-TMF-Versuch, woraus eine um etwa den Faktor 3 höhere Lebensdauer resultiert.</abstract>
+                    <subject>
+                        <topic>Metallschaum</topic>
+                        <topic>material fatigue</topic>
+                        <topic>metal foam</topic>
+                        <topic>deformation behaviour</topic>
+                        <topic>deterioration</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Werkstofftechnik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5838</identifier>
+                    <identifier type="sys">HT017088137</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_583</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2011-11-10</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_583">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/583/1/ohrndorf.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_583"
+            DMDID="DMD_siegen_opus_583">
+            <mets:fptr FILEID="FILE0_siegen_opus_583"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

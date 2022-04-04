@@ -1,0 +1,60 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>189</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Untersuchung der Verbesserung des Zeitauflösungsvermögens im ps-Bereich mit Hilfe einer Pulsformanalyse</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Sergey</pc:foreName>
+            <pc:surName>Volkov</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Pulsformanalyse</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">FADC</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Transientenrekorder</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Das Thema dieser Arbeit ist die Untersuchung einer Verbesserungsmöglichkeit des Zeitauflösungsvermögens von X-Ray Szintillationsdetektoren im ps-Bereich über eine Analyse der Pulsform. In einem aktuellen Messaufbau, der für die Positronenlebensdauermessung an der Universität-Siegen gebaut wurde, wurde eine Zeitauflösung von 180ps erreicht. Hier wird ein 5cm dicker BaF 2 -Kristall verwendet. Der Hauptbeitrag der eitauflösungsbegrenzung des Detektors kommt von Laufzeitdifferenzen von Lichtphotonen im BaF 2 -Kristall. &#13;
+In Rahmen dieser Arbeit wurde ein Monte Carlo Programm geschrieben, um das Zeitverhalten von Signalen zu studieren und die Idee zu überprüfen, den Konversionsort durch Pulsformunterschiede bestimmen zu können. Um diese zu untersuchen, wurde die Pulsformanalyse des Signals in Abhängigkeit von dem Konversionsort im Kristall durchgeführt. Als Ergebnis hat sich herausgestellt, dass die Zeitspektren für Gamma-Konversion nahe bzw. fern vom Photomultiplier nur bei der Mittelung über mehr als 10 Gamma-Konversionen unterschieden werden können. Dabei muss ein Vorverstärker benutzt werden, dessen Bandbreite mindestens 300MHz beträgt. Es hat sich auch gezeigt, dass fast alle Schwierigkeiten dieser Pulsformanalyse zwei Ursachen haben: erstens eine niedrige Lichtausbeute der Lichtphotonen in einem BaF 2 -Kristall und eine niedrige Quanteneffizienz(QE) des Photomultipiers - beides verursacht sehr starke Fluktuationen – und zweitens eine nicht ausreichend steile Anstiegsflanke beim Signal des verwendeten Photomultipliers.  &#13;
+Die Übereinstimmung der Simulation wurde in einem dedizierten Experiment mit einem BaF 2 -Szintillator und einem schnellen Photomultiplier bestätigt. Um die Ereignisse der Simulation mit der Messung genau zu vergleichen, wurde ein sehr schnelles Abtastsystem der Firma „LeCroy“ mit einer Abtastfrequenz von 10Gigasamples/s genutzt. &#13;
+Als Vorstufe zu einem Transientenrekorder wurde zunächst mit den derzeit verfügbaren Bauelementen ein 300MHz FADC-Transientenrekorder entwickelt und getestet. Um eine höhere Abtastrate zu erreichen, können mehrere FADCs phasenverschoben verwendet werden. Die Phasenverschiebung kann durch eine Verzögerung der analogen Signale erreicht werden. Auf dieser Art lässt sich eine Abtastrate von 700MHz und höher erreichen.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The subject of this thesis is the study of the possibility to improve the time resolution of X-ray scintillation detectors in the picosecond range by a pulse shape analysis. In a system built for positron lifetime measurement in material at the university of Siegen the time resolution was around 180ps. Here 5cm thick BaF 2 crystals are used.  &#13;
+The time resolution is limited by the propogation time difference of the light photons coming from different conversion locations of the X-rays in the BaF 2 crystal.  &#13;
+A Monte Carlo program for the simulation of the signal pulse shape was written to study this phenomenon in detail. In principle, the pulse shape contains information about the location of gamma conversions. But the studies showed that gamma conversion locations nearby or far away from the PMT, respectively, only can be distinguished by averaging over corresponding pulse shapes of more than 10 events and by using an amplifier with a minimal bandwidth of 300MHz. The main difficulties in recognizing the signals from single gamma conversions arise from the very high fluctuations of light photons which are due to a low light production in the scintillator, a limited bandwidth and a relative low quantum efficiency of the photomultiplier.  &#13;
+The consistence of the simulations results was proved by the measurement in a dedicated experiment with a BaF 2 Scintillator and a fast PMT. In order to compare the results of the simulation with the measurement very precisely a very fast LeCroy sampling system with a sampling rate of 10GSPS was used. &#13;
+A novel fast Flash Analog to Digital Converter capable of digitizing in special mode up to a sampling frequency of 350MHz has been developed and tested. The potential for using this FADC to build a transient recorder with a sampling frequency of 700MHz and higher is discussed.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2002-02-19</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2002</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-1898</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 12, Elektrotechnik und Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="volkov.pdf" ddb:fileSize="2863390"/>
+   <ddb:checksum ddb:type="MD5">d66c54112c0d9fc24977ea50a9e77b07</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/189/1/volkov.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/189</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

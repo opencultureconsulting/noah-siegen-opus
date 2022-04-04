@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_806">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Evolving practices of end user articulation in software co-design</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Heß, Jan</displayForm>
+                        <namePart type="family">Heß</namePart>
+                        <namePart type="given">Jan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The work is focused on new techniques and practices that support end user to get involved in software co-design. Social networks, variations of self-documentation and new interactive technologies enable new forms of user involvement in software development projects. The potential of new practices and also the issues that come with these methods will be reflected.</abstract>
+                    <abstract type="content" lang="ger">Die Arbeit thematisiert neue Technologien und Praktiken zur Unterstützung der Nutzereinbindung im Software Co-Design. Soziale Netzwerke, Variationen der Selbstdokumentation und neue interaktive Technologien ermöglichen neue Formen der Beteiligung an Software Entwicklungsprojekten. Das Potential neuer Praktiken und auch die Herausforderungen bei der Anwendung solcher Methoden werden reflektiert.</abstract>
+                    <subject>
+                        <topic>Softwareentwicklung</topic>
+                        <topic>Participatory Design</topic>
+                        <topic>Social Technologies</topic>
+                        <topic>Software Co-Design</topic>
+                        <topic>End User Development</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät III - Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-8068</identifier>
+                    <identifier type="sys">HT018311101</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_806</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2014-05-05</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_806">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/806/1/Evolving_Practices_PD_main_bearbeitet.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_806"
+            DMDID="DMD_siegen_opus_806">
+            <mets:fptr FILEID="FILE0_siegen_opus_806"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

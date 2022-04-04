@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1938">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>technicity of platform governance: structure and evolution of Facebook’s APIs</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>van der Vlist, Fernando</displayForm>
+                        <namePart type="family">van der Vlist</namePart>
+                        <namePart type="given">Fernando</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Helmond, Anne</displayForm>
+                        <namePart type="family">Helmond</namePart>
+                        <namePart type="given">Anne</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Burkhardt, Marcus</displayForm>
+                        <namePart type="family">Burkhardt</namePart>
+                        <namePart type="given">Marcus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Seitz, Tatjana</displayForm>
+                        <namePart type="family">Seitz</namePart>
+                        <namePart type="given">Tatjana</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Researchers, policymakers, and competition and regulation authorities worldwide recognise application pro- gramming interfaces (APIs) for powering the digital economy and driving processes of datafication and platformisation. However, it is unclear how APIs tie into the power of, and gov- ernance by, large digital platforms. This article traces the rela- tionality between Facebook’s APIs, platform governance, and data strategy based on an empirical and evolutionary analy- sis. It examines a large corpus of (archived) developer pages and API reference documentation to determine the technicity of platform governance – the technical dimension and dynam- ics of how and what platforms like Facebook seek to govern. It traces how Facebook Platform evolved into a complex layered and interconnected governance arrangement, wherein techni- cal API specifications serve to enforce (changes to) platform policy and (data) strategy. Finally, the article discusses the significance of this technicity in specifying the material condi- tions for app and business development ‘on top of’ platforms and for maintaining infrastructural and evolutive power over their ecosystems.</abstract>
+                    <subject>
+                        <topic>API</topic>
+                        <topic>APIs</topic>
+                        <topic>platform governance</topic>
+                        <topic>platform evolution</topic>
+                        <topic>platform power</topic>
+                        <topic>data strategy</topic>
+                        <topic>Facebook</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19380</identifier>
+                    <identifier type="sys">HT020997183</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1938</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1938">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1938/3/WPS_20_Platform%20Governance.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1938"
+            DMDID="DMD_siegen_opus_1938">
+            <mets:fptr FILEID="FILE0_siegen_opus_1938"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

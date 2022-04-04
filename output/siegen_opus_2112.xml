@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_2112">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Revolution - Fortschritt - Evolution</title>
+                        <subTitle lang="ger">zur Begriffsgeschichte der evolutionistischen Geschichts- und Zukunftssemantik der deutschen Sozialdemokratie</subTitle>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Revolution, Progress, Evolution. On the conceptual history of the evolutionist semantics of history and of future in German social democracy</title>
+                        <subTitle lang="ger">zur Begriffsgeschichte der evolutionistischen Geschichts- und Zukunftssemantik der deutschen Sozialdemokratie</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Deus, Fabian</displayForm>
+                        <namePart type="family">Deus</namePart>
+                        <namePart type="given">Fabian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Vogel, Friedemann</displayForm>
+                        <namePart type="family">Vogel</namePart>
+                        <namePart type="given">Friedemann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Unterschiedliche Vorstellungen über die Geschichte und Zukunft unserer Gesellschaft spielen im politischen Diskurs eine zentrale Rolle: Begriffe wie Fortschritt oder Revolution liefern uns Erklärungsmuster für die bisherige Geschichte, umreißen aber auch den ‚Erwartungshorizont‘ für zukünftige Entwicklungen. Im Fokus stehen hierbei die sich wandelnden Geschichts- und Zukunftskonzepte in den Debatten der deutschen Sozialdemokratie, die zeitweise unter enger Orientierung an der naturgeschichtlichen Evolution entworfen wurden. Im vorliegenden Band werden diese evolutionistischen Semantiken aus begriffsgeschichtlicher Perspektive untersucht.</abstract>
+                    <abstract type="content" lang="eng">Different ideas about the history and future of our society play a central role in political discourse: concepts such as progress or revolution provide us with explanatory patterns for past history, but also outline the &apos;horizon of expectations&apos; for future developments. The focus here is on the changing concepts of history and future in the debates of German social democracy, which were at times drafted with a close orientation to natural history evolution. In this volume, these evolutionist semantics are examined from a conceptual-historical perspective.</abstract>
+                    <subject>
+                        <topic>Begriffsgeschichte</topic>
+                        <topic>History of concepts</topic>
+                        <topic>Progress</topic>
+                        <topic>Revolution</topic>
+                        <topic>Evolutionism</topic>
+                        <topic>Social democracy</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Germanistisches Seminar"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-21129</identifier>
+                    <identifier type="sys">HT021190378</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_2112</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2018-10-18</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_2112">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/2112/3/SuK_8_Dissertation_Deus.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_2112"
+            DMDID="DMD_siegen_opus_2112">
+            <mets:fptr FILEID="FILE0_siegen_opus_2112"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

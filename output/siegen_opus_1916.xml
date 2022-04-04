@@ -1,0 +1,81 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1916">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Learning from the past –  the use of secondary qualitative material in a design education context</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Lernen aus der Vergangenheit - Der Einsatz von sekundär-qualitativem Werkstoff in einem Design-Bildung Kontext</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Li, Qinyu</displayForm>
+                        <namePart type="family">Li</namePart>
+                        <namePart type="given">Qinyu</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wulf, Volker</displayForm>
+                        <namePart type="family">Wulf</namePart>
+                        <namePart type="given">Volker</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">In this thesis, I examine the use of qualitative data drawn from existing project material as a resource for design education. The use of second-hand qualitative data has been discussed extensively in relation to the ‘open science’ agenda, but its use as an educational resource has not. To investigate the extent to which second-hand qualitative data might be useful for analytic work, I conducted a study in which students were encouraged to use Grounded Design – a user-centred design approach in Siegen Social Informatic group- as a means to leverage data of this kind. Four design seminars were carried out to allow Master’s students participating in an HCI program access to substantial datasets collected in two long-term research projects that had finished some time previously.
+In the first seminar, the students were asked to select content from this dataset, analyse it, and then, on the basis of this, form conclusions about possible design opportunities. The study reveals a number of challenges and insights regarding what it takes to use qualitative data as a resource for design. After that, I involved students in the second and third seminar in the design process of preparing the secondary research data, namely designing tools and curating data. An artefact called DesignCaser was developed, and later, tested by the fourth seminar students. 
+The evaluation of the processes undergone revealed both that students saw the exercise as useful and illuminating with respect to their understanding of how qualitative material can be used for design purposes but also, at the same time demonstrated some of the challenges involved. These were primarily to do with the amount of material, how it was curated, the nature of the data, and the time available to them.</abstract>
+                    <subject>
+                        <topic>Studie</topic>
+                        <topic>HCI Education</topic>
+                        <topic>Design Learning</topic>
+                        <topic>Secondary Qualitative data</topic>
+                        <topic>Data Reuse</topic>
+                        <topic>Qualitative Study</topic>
+                        <topic>HCI-Ausbildung</topic>
+                        <topic>Design Lernen</topic>
+                        <topic>Sekundäre Qualitative Daten</topic>
+                        <topic>Wiederverwendung von Daten</topic>
+                        <topic>Qualitative Studie</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät III - Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19166</identifier>
+                    <identifier type="sys">HT021095785</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1916</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2021-09-29</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1916">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1916/3/Dissertation_Qinyu_Li.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1916"
+            DMDID="DMD_siegen_opus_1916">
+            <mets:fptr FILEID="FILE0_siegen_opus_1916"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

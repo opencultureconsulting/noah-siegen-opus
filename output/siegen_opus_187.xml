@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_187">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Realisierung eines Mehrkammer-Depositionssystems zur kontinuierlichen photovoltaischen Beschichtung flexibler Substrate</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Scholz, Markus</displayForm>
+                        <namePart type="family">Scholz</namePart>
+                        <namePart type="given">Markus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">1999</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Im Rahmen dieser Arbeit wurde im Labormaßstab eine Depositionsanlage zur Herstellung von amorphen hydrogenisierten Silizium (a-Si:H) Solarzellen auf einem kontinuierlichen Stahlband geplant, entworfen und aufgebaut. Die Anlage besteht aus fünf Prozeßkammern und zwei Substratauf- bzw. Abwickelkammern, die durch spezielle Zwischenstücke miteinander verbunden sind. Die Zwischenstücke erlauben Druckverhältnisse von mehr als 1:1000 zwischen benachbarten Depositionszonen. Zwei Kammern/ Depositionszonen dienen der Herstellung von metallischen- bzw. TCO- ( T ransparent C onductive O xide ) Schichten durch einen Sputterprozeß, zwei weitere Kammern werden zur Herstellung des a-Si:H Schichtsystemes benötigt. Die verbleibende Kammer ist zur Einkopplung eines Laserstrukturierungssystemes vorgesehen, welches zur integrierten Serienverschaltung benötigt wird. 
+Auf einem kontinuierlichen, während der Deposition beweglichen Edelstahlband von 9cm Breite und ca. 75m Länge wurden in einem parallelen Depositionsprozeß a-Si:H Solarzellen hergestellt. Erstmals wurden Sputter- und PECVD-Prozesse sowohl zur Deposition intrinsischer Schichten als auch dotierter Schichten zeitgleich in einer Vakuumkammer durchgeführt. Dieses parallele Prozessieren ermöglicht die Massenproduktion von Solarzellen im reel to reel Verfahren auf kontinuierlich bewegten langen flexiblen Substraten. Der entwickelte stop and go Betrieb läßt sich ohne Einschränkungen auf ein bewegtes Substrat
+übertragen, da er die Substratbeweglichkeit nicht behindert. Die Anfangswirkungsgrade der in einem parallelen Depositionsprozeß hergestellten Solarzellen sind gegenüber den in separaten Depositionen hergestellten Zellen zunächst unverändert und konnten sogar durch intensive Optimierung auf über 6,7% (A=0,785cm 2 ) gesteigert werden.</abstract>
+                    <abstract type="content" lang="eng">In the course of the work presented a deposition system on laboratory scale for the fabrication of amorphous hydrogenated silicon (a-Si:H) solar cells has been designed and constructed. The system consists of seven metal sealed UHV stainless steel chambers which are linked by pressure stages. The pressure stages between the deposition zones allow pressure gradients of more than 1:1000 between adjacent chambers. In the first two zones TCO ( T ransparent C onductive O xide: with sheet resistances from R sq =9Â±2Ω (ITO) and R sq =13Â±7Ω (ZnO) on a 9 by 9cm 2 glass substrate with an average transmission of 84% within the spectral range of 450nm-850nm.) and metal contacts are deposited by rf magnetron sputtering whereas two of the other zones are used for the deposition of the a-Si:H layers. In the fifth zone a laser patterning system can be coupled in. Subsequent to the test phase of all single components they are examined as a whole system. A-Si:H solar cells are produced on continuous flexible metal tapes (75m by 0.09m). For the first time it became possible to handle sputter and PECVD processes simultaneously as well as the parallel deposition of doped and intrinsic a-Si:H layers in one single vacuum chamber. This parallel processing allows the mass production of solar cells in a reel to reel in line system on long continuous tapes. The developed resulting stop and go mode can easily be applied to a continuous movement since the substrate is not fixed. Only extensions of the plasma zones according to film thickness and deposition rate are necessary. In competition to solar cells produced by separate deposition the initial efficiencies of solar cells obtained by parallel processing constantly range at over 6.7% (A=0.785cm 2 ).</abstract>
+                    <subject>
+                        <topic>Solarzellen</topic>
+                        <topic>Fertigungsverfahren</topic>
+                        <topic>Vakuumsystem</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1870</identifier>
+                    <identifier type="sys">HT011215932</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_187</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>1999-12-21</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_187">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/187/1/scholz_markus.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_187"
+            DMDID="DMD_siegen_opus_187">
+            <mets:fptr FILEID="FILE0_siegen_opus_187"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

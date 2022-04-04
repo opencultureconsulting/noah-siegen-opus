@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_797">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Kommunikation und Kollaboration : Methoden und Chancen für die Lehre</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Jahnke, Isa</displayForm>
+                        <namePart type="family">Jahnke</namePart>
+                        <namePart type="given">Isa</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schaffner, Sabina</displayForm>
+                        <namePart type="family">Schaffner</namePart>
+                        <namePart type="given">Sabina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Das Internet ist heute nicht mehr wegzudenken. Mit Web 2.0-Konzepten wie Facebook, YouTube, MySpace.com, Wikipedia, Blogs, Twitter u.v.m., die zunehmend auch für mobile Endgeräte entwickelt werden, sind neue Kommunikationsformen zu beobachten (Jahnke &amp; Koch, 2009). Mit dem Aufkommen von Online-Foren sind Informations- und Diskussionsforen aller Art mittlerweile zu allen Themen entstanden (z.B. Sport, Kino, Urlaubsreisen, Finanzgeschäfte, Softwareprobleme und -lösungen u.v.m.). Personen erhalten die Möglichkeit, sich relativ einfach und schnell mit frei zur Verfügung stehenden Informationen im Internet weiter zu qualifizieren und Probleme zu lösen. Foren haben auch Einzug in Hochschulen gehalten, z.B. zur Studieninformation und Studienorganisation. Es gibt an fast jeder Universität Foren oder Wikis von Fachschaften und Fakultäten (Jahnke, 2012). 
+
+Peer Coaching ist kollegiale Beratung in verschiedenen Kontexten. Peer Coaching kann in Organisationen und über die Organisationsgrenzen hinaus in verschiedenen Anwendungssituationen genutzt werden, in denen Lösungsorientierung anstatt Problemorientierung und Ressourcenorientierung an Stelle von Defizitorientierung angestrebt werden. Es wird als Begleitmaßnahme zur Erhöhung der Wirksamkeit in Aus- und Weiterbildungssituationen und für die berufliche Weiterentwicklung „on the job“ genutzt. Es unterstützt Teams außerdem bei der Lösungssuche in gemeinsamen Aufgaben oder Projekten. Gemeinsam ist allen Anwendungssituationen, dass die Peers selbstorganisiert ohne professionelle Leitung arbeiten.</abstract>
+                    <subject>
+                        <topic>Kommunikation</topic>
+                        <topic>Kollaboration</topic>
+                        <topic>digitale Medien</topic>
+                        <topic>Peer Coaching</topic>
+                        <topic>Personalentwicklung</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-7979</identifier>
+                    <identifier type="sys">HT018276670</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_797</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_797">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/797/1/KoSi_HD_Werkstattbericht_3_Kommunikation_Kollaboration_KORREKTUR.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_797"
+            DMDID="DMD_siegen_opus_797">
+            <mets:fptr FILEID="FILE0_siegen_opus_797"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

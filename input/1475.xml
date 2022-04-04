@@ -1,0 +1,74 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1475</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Automatic 3D face reconstruction and feature transfer</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Marcel</pc:foreName>
+            <pc:surName>Piotraschke</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Maschinelles Sehen</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Analyse-durch-Synthese</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Gesichtsrekonstruktion</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Image processing</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Morphable model</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Face reconstruction</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Feature transfer</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Face detection</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The 3D Morphable Model (3DMM) by Blanz and Vetter is likewise the basis and the initial motivation of this dissertation. It is based on a data set of 3D scans of example faces which are in dense point-to-point correspondence to each other. This correspondence can be used to apply a morphing between individual faces. Accordingly, it is possible to create a continuous transition between different facial shapes and textures.&#13;
+The new methods which have been developed and are presented in this dissertation rely strongly on the dense point-to-point correspondence and the associated ability to morph between individual faces. Furthermore, the support of non-rigid transformations (various facial expressions) leads to a substantial advantage when comparing the 3DMM to geometry-based methods. Altogether, this enables to analyze facial attributes, including variations caused by facial expressions or aging of a specific person, as well as the transfer of these attributes between several individuals.&#13;
+So far it has not been possible to reconstruct facial details like pores or facial hair when fitting a 3DMM to blurred or low-resolution input images as they exceed the level of detail captured by the 3DMM. By making use of a new hallucination approach, these missing, high spatial frequencies can be inferred from a dataset of high-resolution photos of faces. For this purpose, a search for matching candidates is performed individually for each facial region of the face in the input image. Then the additional details of all regions are combined to generate a plausible high-resolution facial texture based on a low-resolution input image.&#13;
+Another new approach, which is presented in this dissertation, makes it unnecessary to manually select facial landmarks like the position of the nose, mouth, eyes, etc. when fitting the 3DMM to an input image. This new fully automated method provides the basis for analyzing large photo databases. Additionally, it creates a simplified and much more intuitive workflow, which enables even non-professionals to use the 3DMM for 3D face reconstructions. Following this, it is shown how an approach, that creates realistic lighting situations based on coarse sketches on the face in an input image, can be used to change the lighting and shading of an arbitrary face without having knowledge about the real face geometry or the underlying 3D face reconstruction method.&#13;
+Finally, a novel method is introduced which extracts and combines facial information based on several images of the same person. When compared to existing multi-fitting techniques, the resulting 3D facial reconstructions are more robust and superior with respect to overall quality, especially if the processed photos contain distinct facial expressions, non-frontal poses and complex lighting.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Als Grundlage und zugleich als initiale Motivation dieser Dissertation dient das 3D Morphable Model (3DMM) von Blanz und Vetter. Das 3DMM basiert auf 3D Scans von Beispielgesichtern, zwischen denen eine enge Punkt-zu-Punkt-Korrespondenz hergestellt worden ist. Diese Korrespondenz kann dazu genutzt werden ein Morphing zwischen den Gesichtsformen und -texturen unterschiedlicher Gesichter durchzuführen.&#13;
+Die im Rahmen dieser Dissertation entwickelten Verfahren machen sich vor allem die Punkt-zu-Punkt-Korrespondenz und das damit verbundene Morphing zwischen unterschiedlichen Gesichtern zu nutze. Aufgrund der Unterstützung nicht rigider Transformationen (unterschiedliche Gesichtsausdrücke) durch das 3DMM ergibt sich ein entscheidender Vorteil gegenüber geometriebasierten Verfahren. So lassen sich personenübergreifende Analysen von Gesichtseigenschaften durchführen. Dazu zählen die Variationen aufgrund von Gesichtsausdrücken oder Alterung einer bestimmten Person, aber auch der Transfer dieser Attribute zwischen unterschiedlichen Personen.&#13;
+Beim Fitting des 3DMM an unscharfe oder sehr niedrig aufgelöste Eingabebilder war es bislang nicht möglich feine Haar- oder Hautstrukturen wiederherzustellen, welche über den vom 3DMM repräsentierten Detailgrad hinausgehen. Mit Hilfe eines neuen Halluzinationsansatzes werden nun die fehlenden, hohen Ortsfrequenzen aus einer Datenbasis mit hochaufgelösten Fotos von Gesichtern abgeleitet. Dazu werden für jede Gesichtspartie individuelle Kandidaten gesucht, die bestmöglich zum Eingangsbild passen. Deren Details werden nahtlos zusammengefügt und dazu genutzt, aus dem ursprünglich niedrig aufgelösten Eingabebild eine passende, hochaufgelöste Gesichtstextur zu generieren.&#13;
+Im Zusammenhang mit dem Fitting des 3DMM an Bilder wird in dieser Dissertation ein neu entwickelter Ansatz vorgestellt, welcher die manuelle Selektion von Landmarken (Position von Nase, Mund, Augen, etc.) im Eingabebild obsolet macht. Dieses vollautomatische Verfahren stellt die Grundlage zur Analyse großer Fotodatenbanken dar. Zugleich entsteht dadurch ein stark vereinfachter und intuitiverer Workflow, welcher es auch Laien erlaubt das 3DMM zur 3D Gesichtsrekonstruktion einzusetzen. So wird in dieser Arbeit gezeigt, wie sich auf Basis grober Skizzen realistische Beleuchtungssituationen erzeugen und auf Fotos von Gesichtern anwenden lassen, ohne Wissen über die 3D Gesichtsform oder Details des zugrundeliegenden 3D Rekonstruktionsverfahrens besitzen zu müssen.&#13;
+Des Weiteren wird ein neues Verfahren vorgestellt, welches die Gesichtsinformationen einer Person aus mehreren Bildern extrahiert und kombiniert. Die resultierenden Gesichtsrekonstruktionen übertreffen dabei die visuelle Qualität existierender Multifittingansätze und sind zugleich robuster in Bezug auf extreme Gesichtsausdrücke, Posen und Beleuchtungssituationen.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Volker</pc:foreName>
+            <pc:surName>Blanz</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2019-06-04</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2018</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-14754</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Bildinformatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Marcel_Piotraschke.pdf" ddb:fileSize="113243207"/>
+   <ddb:checksum ddb:type="MD5">56952bd08268602118b11ccd068ac761</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1475/2/Dissertation_Marcel_Piotraschke.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1475</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

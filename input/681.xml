@@ -1,0 +1,61 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>681</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Modelling and numerical simulation of contact and lubrication</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Modellierung und numerische Simulation von Kontakt und Schmiermittel</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Frank</pc:foreName>
+            <pc:surName>Gimbel</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Finite-Elemente-Methode</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Modelladaptivität</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">A-posteriori-Schätzer</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Kontaktbedingung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">SubStokes model</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Reynolds model</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Signorini-contact</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">linear finite elements</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">510</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">This thesis considers the simulation of a steel forming process including the lubricant between tool and workpiece. The model equations, that describe deformation, contact and hydrodynamic flow, are derived from fundamental physical laws. For the contact-simulation the two models of Signorini- and z-contact are introduced. The 3-dimensional Stokes problem for a thin fluid film is condensed to the 2-dimensional SubStokes model (for velocity and pressure) and further reduced to the Reynolds model, which is an equation for the pressure only. All fluid models are extended to variational inequations to consider cavitation. Basic mathematical concepts for the numerical treatment with the finite element method and the corresponding analysis are presented. Error estimation is done separate for the modelling error and discretisation error. An algorithm for model adaptivity is given and model error estimates are derived out of the physical models for z- and Signorini-contact aswell as SubStokes- and Reynolds-fluids.&#13;
+Error estimates for the discretisation error of elliptic problems - deformation and Reynolds-flow - are presented. The SubStokes problem is stabilized to apply linear finite elements. To estimate the discretisation error of the SubStokes inequation a Lagrangian multiplier is introduced. An algorithm for a simultanous refinement of model and grid is given. Finally the presented methods and estimates are validated by the application to various prototype examples. The results allow to compare the different models (z- and Signorini-contact, Reynolds- and SubStokes-fluid).</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Diese Arbeit behandelt die Simulation eines Stahlformungsprozesses einschließlich des Schmieröls zwischen Werkzeug und Werkstück. Die Modellgleichungen, die Deformation, Kontakt und Hydrodynamik zugrunde liegen, werden aus physikalischen Gesetzen abgeleitet. Für die Kontakt-Simulation werden die beiden Modelle des Signorini- und z-Kontaktes vorgestellt. Das 3-dimensionale Stokes-Problem für eine dünne Schicht wird zum 2-dimensionalen SubStokes-Modell verdichtet und weiter vereinfacht zum Reynolds-Modell, das nur noch eine Gleichung für den Druck ist. Alle Fluid-Modelle werden zu Variationsungleichungen erweitert, um Kavitation abzubilden. Mathematische Grundlagen zur numerischen Simulation mittels Finiter Elemente und die zugehörige Analyse werden bereitgestellt. Modell- und Diskretisierungsfehler werden separat abgeschätzt. Es wird ein Algorithmus zur Modelladaptivität aufgestellt und aus den physikalischen Modellen für z- und Signorini-Kontakt sowie für SubStokes- und Reynolds-Fluide Modellfehlerschätzer hergeleitet. Fehlerschätzer für den Diskretisierungsfehler elliptischer Probleme - Deformation und Reynolds-Strömung - werden präsentiert. Das SubStokes-Problem wird stabilisiert, um lineare Finite Elemente darauf anzuwenden. Um den Diskretisierungsfehler der SubStokes-Ungleichung abzuschätzen, wird ein &#13;
+Lagrange-Multiplikator eingefügt. Ein Algorithmus zur simultanen Modell- und Gitter-Verfeinerung wird aufgestellt. Schließlich werden die vorgestellten Methoden und Schätzer durch die Anwendung auf vielfältige Beispiele validiert. Die Ergebnisse gewähren einen Vergleich der unterschiedlichen Modelle von Kontakt und Fluid.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2012-11-27</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2012</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-6816</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV - Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="gimbel.pdf" ddb:fileSize="12194081"/>
+   <ddb:checksum ddb:type="MD5">7fcf4f76d23b0f32271c758a5f926d08</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/681/1/gimbel.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/681</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

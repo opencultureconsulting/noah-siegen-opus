@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1693">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Die </nonSort>
+                        <title>Gartenstadt Staaken als Prototyp der modernen deutschen Siedlung</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <nonSort>Die </nonSort>
+                        <title>The garden city Staaken as a prototype of the modern German housing estate</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kiem, Karl</displayForm>
+                        <namePart type="family">Kiem</namePart>
+                        <namePart type="given">Karl</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bookPart</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">1992</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Erste ausführliche Baugeschichte der Gartenstadt Staaken (1914 ff.) anhand von neu entdecktem Quellenmaterial.  Beitrag für den Katalog zu der viel beachtete Ausstellung &apos;Moderne Architektur in Deutschland; Reform und Tradition&apos; im Deutschen Architekturmuseum in Frankfurt. Der Text setzt sich intensiv mit den Projektionen, Mythen und Fehlinterpretationen  auseinander und läßt die überragendeBedeutung dieser gartenstädtischen Anlage für den Siedlungsbau des frühen 20. Jahrhunderts wieder sichtbar werden.</abstract>
+                    <abstract type="content" lang="eng">First detailed architectural history of the garden city of Staaken (1914 et sqq.) near Berlin based on newly discovered source material.  Contribution to the catalogue for the highly acclaimed exhibition &apos;Moderne Architektur in Deutschland; Reform und Tradition&apos; in the German Architecture Museum in Frankfurt/Main. The text deals also intensively with the projections, myths and misinterpretations and reveals the outstanding importance of this garden city for the construction of housing estates in the early 20th century.</abstract>
+                    <subject>
+                        <topic>Gartenstadt</topic>
+                        <topic>Paul Schmitthenner</topic>
+                        <topic>Haustyp</topic>
+                        <topic>Deutscher Werkbund</topic>
+                        <topic>Camillo Sitte</topic>
+                        <topic>Reformarchitektur</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16933</identifier>
+                    <identifier type="sys">HT020586034</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1693</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBookPart</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1693">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1693/3/Karl_Kiem_Die_Gartenstadt_Staaken_als_Prototyp.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1693"
+            DMDID="DMD_siegen_opus_1693">
+            <mets:fptr FILEID="FILE0_siegen_opus_1693"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

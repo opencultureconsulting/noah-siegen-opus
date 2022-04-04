@@ -1,0 +1,96 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1690">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Folter und Körperwissen – Notizen aus der laufenden Forschung</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Torture and body knowledge - notes from an ongoing research project</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Inhetveen, Katharina</displayForm>
+                        <namePart type="family">Inhetveen</namePart>
+                        <namePart type="given">Katharina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Breger, Max</displayForm>
+                        <namePart type="family">Breger</namePart>
+                        <namePart type="given">Max</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bultmann, Daniel</displayForm>
+                        <namePart type="family">Bultmann</namePart>
+                        <namePart type="given">Daniel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schütz, Christina</displayForm>
+                        <namePart type="family">Schütz</namePart>
+                        <namePart type="given">Christina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Das komparative Forschungsprojekt „Folter und Körperwissen“ untersucht die Wechselwirkungen zwischen Foltertechniken (als vollzogene Praktiken und als verfestigte Handlungsentwürfe) und Körperwissen (als Wissen über den Körper und als inkorporiertes Wissen). Dabei verbindet das Projekt körper-, gewalt- und wissenssoziologische Perspektiven. Empirisch liegt der Fokus auf drei Folterkomplexen: Folter durch US-Instanzen im Kalten Krieg und insbesondere dem sogenannten „Krieg gegen den Terror“, durch die Diktaturen in Argentinien und Chile sowie durch die Roten Khmer in Kambodscha. 
+
+Das Working Paper stellt neben der Konzeptualisierung, den Fragestellungen und Zielen des Projektes im zweiten Teil einige Diskussionspunkte aus der laufenden Projektarbeit vor. Theoretische gewaltsoziologische Fragen, die sich bei der Analyse von Folter als einer sozialen Interaktion ergeben, werden dabei unter dem Eindruck der Empirie beleuchtet: Die Spannungsverhältnisse zwischen Reziprozitätsannahmen und Othering sowie zwischen Selbstzweck und Instrumentalität von Foltergewalt und schließlich der asymmetrische Charakter von Foltersituationen und die Relevanz des oder der Dritten.</abstract>
+                    <abstract type="content" lang="eng">The comparative research project “Torture and Body Knowledge” analyzes how torture techniques (as enacted practices and as systematized blueprints for action) and body knowledge (as knowledge about the body and as incorporated knowledge) interact with each other. Thereby, the project combines perspectives from the sociology of the body, the sociology of violence, and the sociology of knowledge. Empirically, the project focusses on three torture complexes, namely torture by US agencies during the Cold War and the so-called ‘War on Terror’, by Argentinean and Chilean dictatorships in Latin America, and by the Khmer Rouge in Cambodia. 
+
+In addition to the project’s conceptualization, its research questions and aims, the contribution introduces to several points of discussion from the ongoing research. Based on the empirical findings from the three project areas, the team discusses questions pertaining the sociology of violence, which emerge from the analysis of torture as social interaction. These include the tension between assumptions of reciprocity versus othering, and between the violence of torture as an end in itself versus as a means to an end, as well as the asymmetric character of torture situations and the relevance of the “third”.</abstract>
+                    <subject>
+                        <topic>Folter</topic>
+                        <topic>CIA</topic>
+                        <topic>Othering</topic>
+                        <topic>politische Gewalt</topic>
+                        <topic>Torture</topic>
+                        <topic>Body</topic>
+                        <topic>Knowledge</topic>
+                        <topic>Violence</topic>
+                        <topic>Sociology</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16904</identifier>
+                    <identifier type="sys">HT020615163</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1690</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1690">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1690/3/Folter_und_Koerperwissen.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1690"
+            DMDID="DMD_siegen_opus_1690">
+            <mets:fptr FILEID="FILE0_siegen_opus_1690"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

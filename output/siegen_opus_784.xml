@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_784">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Begrenzung des unternehmerischen Risikos im Insolvenzverfahren</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Managing and limiting majority-shareholder risk in bankruptcy proceedings</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gotthardt, Justus</displayForm>
+                        <namePart type="family">Gotthardt</namePart>
+                        <namePart type="given">Justus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Eine Behandlung der wesentlichen Normen des Insolvenz- und Gesellschaftsrechts aus der Perspektive des GmbH-Gesellschafters. Dabei wird ein besonderes Augenmerk auf die Gestaltungsmöglichen und Risiken für den Gesellschafter im Insolvenzverfahren gelegt.</abstract>
+                    <abstract type="content" lang="eng">This thesis discusses German company and bankruptcy law from a shareholders’ perspective. It focusses especially on the opportunities and risks associated with bankruptcy proceedings under German law.</abstract>
+                    <subject>
+                        <topic>Insolvenzrecht</topic>
+                        <topic>Gesellschaftsrecht</topic>
+                        <topic>GmbH</topic>
+                        <topic>Sanierung</topic>
+                        <topic>Restrukturierung</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät III - Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-7842</identifier>
+                    <identifier type="sys">HT018166641</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_784</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2013-12-17</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_784">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/784/1/gotthardt.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_784"
+            DMDID="DMD_siegen_opus_784">
+            <mets:fptr FILEID="FILE0_siegen_opus_784"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

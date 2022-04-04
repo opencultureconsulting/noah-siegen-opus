@@ -1,0 +1,93 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_176">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Untersuchung eines neuartigen 2D-gestützten 3D-PMD-Bildverarbeitungssystems</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Justen, Detlef</displayForm>
+                        <namePart type="family">Justen</namePart>
+                        <namePart type="given">Detlef</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2001</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Grundlage dieser Arbeit ist die Einführung eines 2D/3D-Kamerakonzeptes auf Basis
+einer flächendeckenden Grauwertkamera mit Unterstützung vereinzelter
+Entfernungswerte. Bereits mit Hilfe von vereinzelten Entfernungswerten in
+Verbindung mit einem flächendeckenden Grauwertbild wird die 3D-Bildverarbeitung
+wesentlich vereinfacht bzw. erst ermöglicht (z.B. 3D-Objektrekonstruktion,
+Bewegungsanalyse ...). 
+Diese Arbeit bezieht sich vorwiegend auf die Untersuchung von bisher bekannten
+Grundlagen der 2D- und 3D-BV und auf deren Tauglichkeit hinsichtlich der oben
+genannten neuen Sensoranordnung. Der Schwerpunkt der ausgewählten Verfahren
+liegt dort, wo normale 2D-BV Konzepte Schwierigkeiten haben oder infolge der
+fehlenden Tiefeninformation versagen. Mit den nur vereinzelten Tiefenwerten in
+Verbindung mit einem flächendeckenden Grauwertbild stellt das Aufnahme- und
+Verarbeitungssystem eine einfache Möglichkeit zur effektiven Nutzung der
+Tiefeninformation zur Verfügung. Auf Basis der herkömmlichen 2D-BV und mit
+vereinzelten Tiefenwerten kann unter Berücksichtigung des Abtastproblems mit
+einfachen Mitteln:  
+  eine Klassifizierung von Objekten erfolgen 
+  eine Entfernungs-, Lage- und Größenbestimmung erfolgen 
+  die Oberflächenorientierung bestimmt werden 
+  eine Flächeninterpretation erfolgen 
+  eine Klassifizierung von texturierten Regionen erfolgen 
+  eine Objektverfolgung (Geschwindigkeit, Richtung) erfolgen 
+  ...  
+Neben der direkten Nutzung der vereinzelten Tiefenwerte an mißverständlichen bzw. mehrdeutigen Stellen im Grauwertbild können die wenigen vorhandenen Tiefendaten auch dazu genutzt werden, die fehlenden Tiefenwerte mit Hilfe der vorhandenen Grauwertdaten zu rekonstruieren. Dazu werden Verfahren eingesetzt, welche eine Beschreibung der Zusammenhänge zwischen den Grauwert- und Tiefenbildern nutzen (z.B. Shape-from-Shading). Die real vorliegenden Tiefenwerte werden dabei nur für die Initialisierungsphase genutzt. Als Ergebnis erhält man ein ‚vollständiges‘ rekonstruiertes Tiefenbild.</abstract>
+                    <abstract type="content" lang="eng">Basis of this thesis is the introduction of a 2D/3D-camera concept based on a
+surface-covering greyscale camera, supported by individual depths data. Already the use of only individual depths data in combination with a complete greyscale image simplifies a 3D-image processing considerably or makes it actually possible (e.g. 3D-object reconstruction, motion analysis …). 
+The thesis presented here is mainly based on the research into already existing
+theories on 2D- and 3D-image processing and their value in regard to the above
+mentioned sensor arrangement. Due to the direct spatial relation between greyscale and depths data the main focus lies on the registered data sources (synchronization of the scanning elements). Possible applications for the herein introduced new 3D-image processing are to be found wherever standard 2D-image processing concepts encounter difficulties or fail due to the missing depth information. Using only individual depths data in combination with a surface covering greyscale image, the recording and processing system offers a simple possibility for the effective utilization of the depths information. Already individual depths data offer simple means to:  
+  classify objects 
+  determine distance, orientation and size 
+  determine the surface orientation 
+  …  
+Next to the direct utilization of the individual depths data in such spots in the greyscale image that might lead to misinterpretation or have ambiguous meaning, the real depths data can also be used to reconstruct missing depths values by using the available greyscale data. Thus such procedures are applied which use a description of the relation between the greyscale and depths images (e.g. Shape-from-Shading).</abstract>
+                    <subject>
+                        <topic>PMD-technology</topic>
+                        <topic>depth resolution</topic>
+                        <topic>3D-image processing</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1769</identifier>
+                    <identifier type="sys">HT012966072</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_176</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2001-01-25</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_176">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/176/1/justen.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_176"
+            DMDID="DMD_siegen_opus_176">
+            <mets:fptr FILEID="FILE0_siegen_opus_176"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

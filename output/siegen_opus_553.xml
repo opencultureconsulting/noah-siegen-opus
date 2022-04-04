@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_553">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Reducing illicit work done by unemployed by promoting small business start-ups : a feasibility study</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Weiß, Carsten</displayForm>
+                        <namePart type="family">Weiß</namePart>
+                        <namePart type="given">Carsten</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Searching for moonlighting entrepreneurs by methods of social science can be successful. But new terms of descriptions are needed and the complexity of clandestine employment as a social phenomenon increases. Based on trigonometrical survey in social science, a new typology of &quot;clandestine entrepreneurs&quot; is presented to make the dark side of employment with its complex phenomena manageable.</abstract>
+                    <abstract type="content" lang="ger">Eine erfolgreiche Suche nach Schwarzarbeit anhand von sozialwissenschaftlichen Methoden ist möglich, führt aber zu neuen Begrifflichkeiten in der Beschreibung des Phänomens sowie zu Komplexitätssteigerungen. Auf der Grundlage von triangulativen Verfahren der empirischen Sozialforschung wurde eine &quot;Schwarzarbeiter-Typologie&quot; erarbeitet, die die komplexen Phänomene auf der Schattenseite der Erwerbsgesellschaft operationalisierbar machen soll.</abstract>
+                    <subject>
+                        <topic>JEL-Classification</topic>
+                        <topic>J68</topic>
+                        <topic>M13</topic>
+                        <topic>H43</topic>
+                        <topic>D63</topic>
+                        <topic>Entrepreneurship</topic>
+                        <topic>Ethics/Social Issues</topic>
+                        <topic>Government Policy/Regulation</topic>
+                        <topic>Illicit Work</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5530</identifier>
+                    <identifier type="sys">HT016980419</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_553</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_553">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/553/1/weiss.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_553"
+            DMDID="DMD_siegen_opus_553">
+            <mets:fptr FILEID="FILE0_siegen_opus_553"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

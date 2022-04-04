@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_718">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>high-sensitivity THz-sensing technology for DNA detection with split-ring resonator based biochips</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <nonSort>A </nonSort>
+                        <title>Eine hochempfindliche THz-Sensor-Technologie zur DNA-Detektion mit Biochips basierend auf Schlitzring-Resonatoren</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Debus, Christian</displayForm>
+                        <namePart type="family">Debus</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The detection and characterization of dielectric thin-films and biomolecules are of great interest for THz-research due to characteristic material properties at these frequencies. The detection of films much thinner than wavelength or material amounts in femtomol range requires specialized sensors. The sensors identify a material&apos;s permittivity, or refractive index, respectively, by a signal delay in the time domain or the detuning of a resonator in the frequency domain. A biochip in particular aims at the detection of sub-μm-size molecules, such as DNA or proteins. This work begins with a review of the state-of-the-art THz-thin-film sensing approaches evolving towards lower film thicknesses. These indicate that more promising results are achieved with high-Q resonators due to their more efficient sample/E-field interaction. The asymmetric double-split ring resonator (aDSR) is researched, exhibiting a sharp resonance feature and a strong concentration of the electric field. In a two-dimensional array, corresponding to a frequency selective surface, the aDSR qualifies as the basic element for a biochip with a high sensitivity. For the biochip development material properties as well as practical and commercial aspects are taken into account. The result is a glass chip with a structured three-layer metal surface and undercut edges. With regard to practical aspects, a biochip reader is developed being compact, easy to use, of low-maintenance and affordable, to find application in biomedical laboratories. The reader is essentially a fully-electronic spectrometer for 240 - 320 GHz, reading a single measurement spot in 110 Milliseconds. Compared to a classical network analyzer, the setup has reduced complexity and cost. It generates the high frequencies from a single voltage controlled oscillator by upconverting in diode-based mixers. Heterodyne detection is realized by utilizing the time delay of the signal sweeping through the frequency band. The functionality of biochip and reader is compared to TDS measurements proving good results. The detection of dielectric thin-films is successfully applied with dye, photo-resist and gelatin. Hybridized DNA, deposited locally by a functionalization process, is detected. However, the DNA detection could not be confirmed by additional measurements. Causes for this failure are investigated and discussed.</abstract>
+                    <abstract type="content" lang="ger">Die Detektion und Charakterisierung von dünnen dielektrischen Schichten und Biomolekülen sind von großem Interesse in der THz-Forschung, da viele Materialien charakteristische Eigenschaften in diesem Frequenzbereich aufweisen. Um Schichten, die sehr viel dünner sind als eine Wellenlänge, oder Materialmengen im Femtomol-Bereich zu detektieren werden spezielle Sensoren benotigt. Die Sensoren bestimmen die Permittivität bzw. den Brechungsindex eines Materials über die Laufzeitverzogerung des Signals in der Zeitbereichsmessung oder über das Verstimmen eines Resonators im Frequenzbereich. Biochips im Speziellen dienen der Detektion von Molekülen im sub-μm Großenbereich, z.B. DNA oder Proteine. Zu Beginn der vorliegenden Arbeit wird der Stand der Technik in der THz- Dünnschichtmessung dargestellt und beurteilt. Die Entwicklung hin zur Detektion immer dünnerer Schichten führt zu der Erkenntnis, dass Resonatoren mit einer hohen Güte erforderlich sind, da mit ihnen eine effizientere Interaktion von Probe und elektrischem Feld moglich ist. Dazu wird der asymmetrische doppeltgeschlitzte Ringresonator (asymmetric double-split ring resonator - aDSR) erforscht. Er zeigt eine spektral scharfe Resonanz kombiniert mit einer starken Konzentration des elektrischen Feldes. Der aDSR wird periodisch angeordnet, entsprechend einer frequenzselektiven Oberfläche, die als zentrales resonantes Element des Biochips verwendet wird, um eine hohe Empfindlichkeit zu erreichen. Die Entwicklung dieses Biochips berücksichtigt neben Materialeigenschaften auch praktische und kommerzielle Aspekte. Der fertige Biochip ist eine strukturierte dreistockige Metallschicht auf einem Glassubstrat, wobei die Strukturkanten unterätzt sind. Zusätzlich wird ein Lesegerät für die Biochips entwickelt, das hinsichtlich einer Anwendung in biomedizinischen Labors ausgelegt wird. Gemessen an aktuell eingesetzter THz-Technologie ist das Lesegerät klein, einfach zu bedienen, erfordert wenig Wartung und hat reduzierte Investitionskosten. Das Lesegerät ist im Wesentlichen ein voll-elektronisches Spektrometer für den Frequenzbereich von 240 bis 320 GHz und benotigt für eine Messung 110 Millisekunden. Das System ist kompakter und preiswerter als ein vollwertiges Laborspektrometer, da nur ein spannungsgesteuerter Oszillator (VCO) verwendet wird. Die Hochfrequenz wird in Diodenmischern erzeugt und heterodyne Detektion wird künstlich durch das Zusammenspiel von Frequenzdurchlauf und Laufzeitverzogerung ermoglicht. Die Funktionsfähigkeit von Biochip und Lesegerät wird demonstriert und durch Vergleichsmessungen mit THz-TDS bestätigt. Die Fähigkeit zur Detektion dünner Schichten wird anhand von dünnen Filmen aus Lacken bzw. Gelatine experimentell nachgewiesen. Hybridisierte DNA, die mittels Oberflächenfunktionalisierung an ausgewählten Stellen auf dem Biochip deponiert wird, wird detektiert. Diese Detektion kann jedoch nicht durch weitere Messreihen bestätigt werden. Gründe für diesen Ausfall werden untersucht und diskutiert.</abstract>
+                    <subject>
+                        <topic>THz</topic>
+                        <topic>Biochip</topic>
+                        <topic>Biosensorik</topic>
+                        <topic>DNA</topic>
+                        <topic>Resonator</topic>
+                        <topic>THz</topic>
+                        <topic>biosensing</topic>
+                        <topic>splitring</topic>
+                        <topic>FSS</topic>
+                        <topic>sensitivity</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Kommunikations- und Informationstechnik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-7182</identifier>
+                    <identifier type="sys">HT017677202</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_718</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2013-01-07</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_718">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/718/1/debus.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_718"
+            DMDID="DMD_siegen_opus_718">
+            <mets:fptr FILEID="FILE0_siegen_opus_718"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

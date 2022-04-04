@@ -1,0 +1,124 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1850</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Neue Lösungsstrategien für l1-Minimierungsprobleme mit Kalman-Filtern</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">New solution strategies for l1-minimization problems with Kalman-filters</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Dunja Alexandra</pc:foreName>
+            <pc:surName>Hage</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Schwellwertverfahren</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Compressed Sensing</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">l1-Minimierungsprobleme</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">510</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">In vielen Problemen müssen hochdimensionale diskrete Signale aus verrauschten und&#13;
+oft unterabgetasteten Daten rekonstruiert werden, was die Problematik der Lösung&#13;
+von nominal unterdeterminierten, rauschbelasteten Gleichungssystemen aufwirft. Die&#13;
+Theorie der komprimierten Abtastung besagt (und beweist), dass solche Signale tatsächlich&#13;
+unter der Annahme der Dünnbesetztheit rekonstruiert werden können. Auf&#13;
+dem breiten Forschungsgebiet, genannt Compressed Sensing – dessen Anwendungen&#13;
+beispielsweise in der Medizin (MRT), Hochfrequenz-Kommunikationstechnologie und&#13;
+Radar liegen – existieren bereits viele Algorithmen zur Rekonstruktion von sparsen&#13;
+Signalen. Eine der wichtigsten Eigenschaften ist die so genannte Nullraum-Eigenschaft&#13;
+der Sensormatrix. Sie stellt sicher, dass die sparse oder kompressible Darstellung durch&#13;
+die ℓ1-Minimierung wiederhergestellt werden kann, die tatsächlich entweder durch konvexe&#13;
+Optimierungsansätze, wie es der klassische Weg ist, oder alternativ durch schätztheoretische&#13;
+Ansätze, z. B. durch das erweiterte linearisierte Kalman-Filter, realisiert werden kann.&#13;
+In dieser Arbeit etablieren wir neue Ansätze zur Rekonstruktion sparser Signale durch&#13;
+ℓ1-Minimierung mit einem Kalman-Filter. Das Kernstück unseres Kalman-Filters beruht&#13;
+auf einer einfachen Idee. Auf Grundlage einer partikulären Lösung x_p (es existieren&#13;
+unendlich viele Lösungen) schätzt das Kalman-Filter in jeder Iteration eine weitere&#13;
+Lösung aus dem Nullraum der Messmatrix, sodass die Summe beider Vektoren eine&#13;
+Lösung x = x_p + x_N mit reduzierter ℓ1-Norm erreicht. Im ersten Teil der Arbeit wird&#13;
+im Kalman-Filter-Algorithmus, mit Hilfe von Konvergenzbeschleunigungsverfahren,&#13;
+eine konvergierende Folge konstruiert, deren Grenzwert einen Lösungsvektor liefert,&#13;
+der mit der Lösung des primal-dualen Algorithmus für ℓ1-Minimierung von Chambolle&#13;
+&amp; Pock übereinstimmt. Die Konvergenzbeschleunigungsverfahren resultieren aus dem&#13;
+Delta2-Grundverfahren von Aitken. Für das Lösen von ℓ1-Minimierungsproblemen werden&#13;
+zum Auffinden der Lösung vermehrt sogenannte Thresholdingverfahren eingesetzt. Im&#13;
+zweiten Teil der Arbeit stellen wir das Kalman-Filter mit einem, den Anforderung genügendem,&#13;
+externen Thresholdingverfahren vor. Mit diesem externen Thresholding,&#13;
+welches nicht direkt das Kalman-Filter beeinflusst, können wir sparse Signale sehr&#13;
+schnell rekonstruieren. Weitere Untersuchungen von rauschbehafteten Signalen mit&#13;
+dem modifizierten Kalman-Filter bestätigen die Resultate in Bezug auf Rekonstruktionsfehler,&#13;
+Rekonstruktionszeit, ℓ0-Norm und Supportfehler gegenüber den gängigen&#13;
+bekannten ℓ1-Minimierungsalgorithmen, wie z. B. der primal-dual Algorithmus für&#13;
+ℓ1-Minimierung von Chambolle &amp; Pock und der Orthogonal Matching Pursuit.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">In many problems, high-dimensional discrete signals need to be reconstructed from&#13;
+noisy and often undersampled data, raising the issue of solving nominally underdetermined&#13;
+noise-contaminated systems of equations. The theory of compressed sensing&#13;
+states (and proves) that such signals can in fact uniquely be reconstructed under&#13;
+the sparsity assumption. In the broad research field of compressed sensing – whose&#13;
+applications are found, for example, in medicine (MRT), radar and high-frequency&#13;
+communication technology, many algorithms already exist for the reconstruction of&#13;
+sparse signals. One of the most important properties is the so-called null space property&#13;
+of the sensor matrix. It ensures that the sparse or compressible representation&#13;
+can be recovered by the ℓ1-minimization, which can in fact be realized either by convex&#13;
+optimization approaches, which is the classical way, or alternatively by estimationtheoretic&#13;
+approaches, e.g. by extended linearized Kalman-filters, which is the approach&#13;
+analyzed in this paper.&#13;
+In this work new results for the reconstruction of sparse signals by ℓ1-minimization&#13;
+are established with such a Kalman-filter. The core of our Kalman-filter is based on a&#13;
+simple idea. On the basis of a particular solution x_p (there are infinitely many solutions),&#13;
+the Kalman-filter estimates another solution from the null space room of the&#13;
+measurement matrix in each iteration step, so that the sum of both vectors achieves&#13;
+a solution x = x_p + x_N with a reduced ℓ1-norm. In the first part, the Kalman-filter&#13;
+uses convergence acceleration techniques to construct a convergent sequence whose&#13;
+limit value provides a solution, which corresponds to Chambolle &amp; Pock’s primal-dual&#13;
+algorithm solution. The convergence acceleration methods result from the Delat2-basic&#13;
+process of Aitken.&#13;
+For solving ℓ1-minimization problems so-called thresholding methods are increasingly&#13;
+used to find the solution. In the second part of the thesis the Kalman-filter is presented&#13;
+with an external thresholding method. With this external thresholding, which does not&#13;
+directly affect the Kalman-filter, we can now reconstruct sparse signals very quickly.&#13;
+Further investigations of noise-affected signals with the modified Kalman-filter confirm&#13;
+the results in terms of sparse recovery error, ℓ0-norm of the estimates, support mismatch,&#13;
+and recovery time compared to the usual known ℓ1-minimization algorithms,&#13;
+e.g., primal-dual algorithm of Chambolle &amp; Pock and Orthogonal Matching Pursuit.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Otmar</pc:foreName>
+            <pc:surName>Loffeld</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2020-12-10</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2020</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-18504</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/lizenz.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>NRW-Zentrum für Sensorsysteme (ZESS)</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Dunja_Alexandra_Hage.pdf" ddb:fileSize="2316014"/>
+   <ddb:checksum ddb:type="MD5">6bae43cbf0150977e773c1ee04c8d5b0</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1850/3/Dissertation_Dunja_Alexandra_Hage.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1850</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

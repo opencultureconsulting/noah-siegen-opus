@@ -1,0 +1,89 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_88">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>QCD aspects of heavy to light currents</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Campanario Pallás, Francisco</displayForm>
+                        <namePart type="family">Campanario Pallás</namePart>
+                        <namePart type="given">Francisco</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2004</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">In decay processes of B mesons the so-called &quot;heavy light currents&quot; play an
+important role, for example in the determination of matrix elements of the CKM
+mixing matrix.
+The present thesis investigates various aspects of the strong interaction of the
+quarks participating in the heavy light current. The theory of strong
+interaction is Quantum Chromodynamics, which is treated in perturbation theory.
+After a short introduction to the relevant effective field theories, which are
+derived from QCD, some new results are presented. First the asymptotic behaviour
+of the perturbative series is investigated, and the second result are proofs of
+factorization theorems which are used to separate the perturbative from the nonperturbative
+contributions.
+Finally the symmetries of the effective field theories are used to find
+relations between non-perturbative matrix elements involved in &quot;heavy to light&quot;
+currents.</abstract>
+                    <abstract type="content" lang="ger">Im Zusammenhang mit Zerfällen von B Mesonen spielen so-genannte &quot;Schwer nach
+Leicht&quot; Ströme eine wichtige Rolle, beispielsweise zur Bestimmung von
+Matrixelementen der CKM Mischungsmatrix.
+In der vorgelegten Arbeit werden verschiedene Aspekte untersucht, die mit der
+starken Wechselwirkung der in diesen Strömen beteiligten Quarks zusammenhängen.
+Die Theorie der starken Wechselwirkung ist die Quantenchromodynamik (QCD), die
+hier im Rahmen der Störungstheorie behandelt wird.
+Nach einer kurzen Einführung in die aus der QCD abgeleiteten effektiven
+Feldtheorien werden verschiedene, teilweise neue Resultate abgeleitet.
+Es wird zum einen das asymptotische Verhalten der Störungstheorie untersucht,
+zum anderen werden Faktorisierungstheoreme bewiesen, mit deren Hilfe die
+störungstheoretisch behandelbare Beiträge von den nichtstörungstheoretischen
+getrennt werden können.
+Zum Abschluss werden Symmetrien der effektiven Feldtheorien benutzt, um
+Relationen zwischen nichtstörungstheoretischen Matrixelementen von
+&quot;Schwer nach Leicht&quot; Strömen zu gewinnen.</abstract>
+                    <subject>
+                        <topic>quantum chromodynamics</topic>
+                        <topic>heavy quark effective theory</topic>
+                        <topic>heavy to light transitions</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 7, Physik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-887</identifier>
+                    <identifier type="sys">HT014260544</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_88</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2004-09-28</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_88">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/88/1/campanario.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_88"
+            DMDID="DMD_siegen_opus_88">
+            <mets:fptr FILEID="FILE0_siegen_opus_88"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

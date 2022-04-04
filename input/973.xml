@@ -1,0 +1,57 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>973</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Finite set model predictive control of the PMSM with sine-wave filter</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Prädiktive Regelung einer permanenterregten Synchronmaschine mit Sinusfilter</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Paul Marcelo</pc:foreName>
+            <pc:surName>Pozo Palma</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Prädiktive Regelung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Predictive control</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Permanent magnet machines</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Observers</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Convergence of numerical methods</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Variable speed drives</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die vorliegende Arbeit befasst sich mit der prädiktiven Regelung einer permanenterregten Synchron Maschine mit Sinusfilter, um die Maschine mit sinusförmigen Größen zu speisen. Das entwickelte Konzept verwendet einen virtuellen mehrstufigen Umrichter, der auf einer konventionellen PWM aufbaut. Zunächst wird eine Schätzung des Spannungsraumzeigers durchgeführt, der mithilfe des Umrichters erzeugt werden soll. Die Berechnung erfolgt auf Grundlage der Gleichungen des mathematischen Models des Systems unter Verwendung eines Luenberger Beobachters und den gemessenen Umrichterströme sowie der Winkelposition. Die Schaltmuster werden berechnet, unter der Annahme, dass der virtuelle mehrstufige Umrichter eine beliebig hohe Anzahl an Stufen hat. Die Kostenfunktion der prädiktiven Regelung wird minimiert, indem ein Netz aus Maschen definiert wird. Dabei entsprechen die Knoten der Maschen den natürlichen Spannungsraumzeigern des virtuellen mehrstufigen Umrichters. Das Zentrum dieses Maschennetzes, das unendlich viele Elemente enthält, korrespondiert mit dem zuvor berechneten Spannungsraumzeiger. Zur Minimierung der Kostenfunktion werden nur diejenigen Werte herangezogen, die dem Maschennetz zugeordnet sind. Nur der Raumzeiger, der bei dieser Optimierung gewählt wird, wird zur Berechnung der Schaltimpulse verwendet. Zur Generierung dieses Raumzeigers kommt eine konventionelle Pulsweitenmodulation (PWM) und einen realer, handelsüblicher Zweipunktwechselrichter zum Einsatz. Das vorgestellte Regelungskonzept ist einfach zu implementieren und liefert eine hohe Dynamik im Drehmoment. Um eine Konvergenz der digitalen Implementierung sicher zu stellen, wird das Runge-Kutta-Verfahren verwendet. Der vorgestellte prädiktive Regler wird komplettiert durch die Verwendung einer sensorlosen Regelung sowie einer Echtzeitidentifikation und -adaption. Das Verfahren erkennt die Maschinenparameter Statorwiderstand und permanent erregter Fluss und passt sie selbstständig an. So ist das Verfahren auch geeignet für hoch dynamische, industrielle Anwendungen.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">In the frame of this work a predictive control for a permanent magnet synchronous machine with LC-Filter aiming sinusoidal voltage at the machine terminals is presented. The proposed scheme assumes a virtual multilevel inverter for the optimization of the cost function and utilizes a conventional pulse width modulator (PWM) thus being a finite control set predictive control scheme. A first estimation of the voltage space phasor, that has to be synthesized by the inverter, is computed by using the equations of the mathematical model of the system enhanced by a Luenberger observer and based on measured inverter currents and the shaft position. The switching patterns are calculated by assuming that the "virtual" inverter has an arbitrary high number of levels. The cost function in a predictive control scheme is minimized by defining a mesh of voltage space phasors that corresponds to the output states of the “virtual” multilevel inverter. The center of this mesh with a finite number of elements corresponds to the first calculated value of the reference voltage. For the minimization only the points belonging to the mesh are considered and the voltage space phasor chosen in this way is then used for the calculation of the switching signals in a conventional space phasor modulator and sent to the real two-level inverter. The proposed scheme results in an easy implementation and delivers good dynamics in the torque behavior. To ensure the convergence on the digital implementation, the Runge-Kutta method is used in each integration step. The proposed predictive controller is complemented by means of sensorless control as well as on-line identification and adaptive parameter tuning, both based on the voltage model method of the machine and working at the same time. This method identifies and adapts all machine parameters simultaneously (resistance and flux) and it is applicable to high-dynamic drives.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2015-03-13</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2015</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-9733</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Automatisierungstechnik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_PaAl_Marcelo_Pozo_Palma.pdf" ddb:fileSize="10367478"/>
+   <ddb:checksum ddb:type="MD5">a1a408f2a40bddd10ae50bb5b84c2371</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/973/1/Dissertation_PaAl_Marcelo_Pozo_Palma.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/973</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

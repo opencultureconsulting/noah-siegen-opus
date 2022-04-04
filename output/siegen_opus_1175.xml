@@ -1,0 +1,59 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1175">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Michel Sauer : Kategorie und Maßstabwechsel</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Stöckmann, Götz</displayForm>
+                        <namePart type="family">Stöckmann</namePart>
+                        <namePart type="given">Götz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Ausstellung und Katalog der dritten Auflage von &quot;hell&quot; widmen sich dem Künstler Michel Sauer, 1994 bis 2015 Professor für Kunst mit Schwerpunkt Plastik an der Universität Siegen.
+Michel Sauers Kunst entspricht natürlich seinem Sehen. Er sagt: Sehen ist Vergleichen. Seine Skulpturen sind vergleichbar in Größe, handhabbar, selten schwer. Die Maßstäbe entsprechen ihrer eigenen Wirklichkeit. Sie werden tatsächlich malerisch anschaulich. Sie weisen auf Dinge des größeren Ganzen: Technik, Häuser, Natur, Berge, Köpfe. Und es gibt Montagen und vorbildlose Erfindungen.</abstract>
+                    <subject>
+                        <topic>Sauer, Michel</topic>
+                        <topic>Illusionen</topic>
+                        <topic>Plastiken</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11756</identifier>
+                    <identifier type="sys">HT020641085</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1175</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1175">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1175/2/hell_03_Michel_Sauer.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1175"
+            DMDID="DMD_siegen_opus_1175">
+            <mets:fptr FILEID="FILE0_siegen_opus_1175"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

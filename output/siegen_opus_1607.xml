@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1607">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>To everything, turn, turn, turn?</title>
+                        <subTitle lang="eng">taking stock of the practice turn in social theory, sociology, and media studies</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Julian, Genner</displayForm>
+                        <namePart type="family">Julian</namePart>
+                        <namePart type="given">Genner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">This article reviews the “practice turn” (PT) in sociology, social theory, and media studies. In addition, it develops a sociological perspective on turns in general. As other turns, PT presents itself as heterogeneous and interdisciplinary phenomenon lacking clear conceptual and institutional boundaries. In order to grasp this fuzziness inherent to PT, I regard PT as a “sign-post” (Wittgenstein 1984) giving rather vague directions and thus “assembling” (Latour 2005) a heterogeneous research community. Thus, my main question is as follows: How does PT guide research and how do researchers follow PT? Drawing on interviews with researchers involved in PT, I distinguish two major ideal-typical ways of following PT. Revolutionary approaches aim for overcoming existing ways of doing research by turning to practice. In contrast, reformative approaches aim for a renewal of disciplines. Whereas revolutionary approaches mainly arise in interdisciplinary fields and various “studies”, reformative approaches flourish on the margins of sociology. In exploring this pattern, the article develops a sociological way of reflecting PT and turns in general. Thereby the article establishes an institutional perspective drawing on the work of Boltanski and Chiapello (2007).</abstract>
+                    <subject>
+                        <topic>Praxistheorie</topic>
+                        <topic>Practice Turn</topic>
+                        <topic>Practice Theory</topic>
+                        <topic>Sociology of the Social Sciences</topic>
+                        <topic>Turns</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16076</identifier>
+                    <identifier type="sys">HT020566892</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1607</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1607">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1607/5/WPS_15_Genner.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1607"
+            DMDID="DMD_siegen_opus_1607">
+            <mets:fptr FILEID="FILE0_siegen_opus_1607"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

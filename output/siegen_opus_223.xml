@@ -1,0 +1,160 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_223">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Neural preprocessing and control of reactive walking machines</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Manoonpong, Poramate</displayForm>
+                        <namePart type="family">Manoonpong</namePart>
+                        <namePart type="given">Poramate</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2006</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Research in the domain of biologically inspired walking machines has focused
+for the most part on the mechanical designs and locomotion control.
+Although some of this research has been concentrated on the generation of
+a reactive behavior of walking machines, it has been restricted only to a few
+of such reactive behaviors. However, from this research, there are only few
+examples where different behaviors have been implemented in one machine
+at the same time. In general, these walking machines were solely designed
+for pure locomotion, i.e. without sensing environmental stimuli.
+
+Therefore, in this thesis, biologically inspired walking machines with different
+reactive behaviors are presented. Inspired by obstacle avoidance and
+escape behavior of scorpions and cockroaches, such behavior is implemented
+in the walking machines as a negative tropism. On the other hand, a sound
+induced behavior called “sound tropism”, in analogy to the prey capture behavior
+of spiders, is employed as a model of a positive tropism. The biological
+sensing systems which those animals use to trigger the described behaviors
+are investigated so that they can be reproduced in the abstract form with
+respect to their principle functionalities. In addition, the morphologies of
+a salamander and a cockroach which are designed for efficient locomotion
+are also taken into account for the leg and trunk designs of the four- and
+six-legged walking machines, respectively.
+
+Different behavior controls for generating the biologically inspired reactive
+behaviors are developed on the basis of a modular neural structure. Each
+behavior control consists of a neural preprocessing module and a neural control
+module. Preprocessing is for sensory signals while the neural control
+generates basic locomotion and changes the appropriate motions, e.g. turning
+left, right or walking backward, with respect to sensory signals. Neural
+preprocessing and control are formed by realizing discrete-time dynamical
+properties of recurrent neural networks. Parts of the networks are generated
+and optimized by using an evolutionary algorithm. Utilizing the modular
+neural structure, the coupling of the neural control module with different
+neural preprocessing modules leads to the desired behavior controllers, e.g.
+obstacle avoidance and sound tropism. Furthermore, these behavior controllers
+are then fused by using a sensor fusion technique consisting of lookup
+table and time scheduling methods to obtain an effective behavior fusion
+controller, whereby different neural preprocessing modules have to cooperate.
+
+Eventually, all of these reactive behavior controllers together with the
+physical sensor systems are implemented on the physical walking machines
+to be tested in a real world environment. The fully equipped walking machines
+can be seen as artificial perception-action systems. As a result, the
+walking machine(s) is able to respond to environmental stimuli, e.g. wandering
+around, sound tropism (positive tropism), avoiding obstacles and even
+escaping from corners as well as deadlock situations (negative tropism). The
+developed controller is universal in the sense that it can be implemented
+on different types of walking machines, e.g. four- and six-legged walking
+machines, giving comparably good results without changing parameters.</abstract>
+                    <abstract type="content" lang="ger">Im Bereich biologisch inspirierter Laufmaschinen konzentrierte sich die Forschung
+meist auf die reine Bewegungskontrolle sowie das mechanische Design.
+Obwohl ein Teil dieser Forschung sich auch mit der Erzeugung reaktiver
+Verhaltensweisen von Robotern beschäftigte, war dies auf einige wenige
+reaktive Verhaltensweisen beschränkt; und zwar war auf einem Roboter nur
+jeweils eine Verhaltensweise implementiert. Es gibt nur wenige Ansätze, die
+sich mit der Erzeugung mehrerer reaktiver Verhaltensweisen einer Maschine
+gleichzeitig beschäftigen. Im Allgemeinen wurden Laufmaschinen nur zum
+Zwecke der reinen Fortbewegung konzipiert, d.h. ohne dass sie ihre Umgebung
+wahrnehmen konnten.
+
+Diese Arbeit stellt biologisch inspirierte Laufmaschinen vor, welche mehrere
+verschiedene reaktive Verhaltensweisen zeigen. Inspiriert vom Hindernisvermeidungs-
+und Fluchtverhalten der Skorpione und Kakerlaken wird ein solches
+Verhalten in der Laufmaschine mittels eines negativen Tropismus erzeugt.
+Andererseits wird ein akustisch motiviertes Verhalten, ein sog. “akustischer
+Tropismus” (Sound Tropism), in Analogie zum Jagdverhalten von Spinnen,
+als Beispiel eines positiven Tropismus angewendet. Um die oben beschriebenen
+Verhalten in abstrahierter Weise reproduzieren zu können, wird außerdem
+der biologische Wahrnehmungsapparat der genannten Tiere im Hinblick
+auf ihre prinzipielle Funktionalität untersucht. Zusätzlich werden die Morphologien
+von Salamander und Kakerlake, welche für effiziente Bewegung
+gebaut sind, für die Bein- und Körpergestaltung in Betracht gezogen.
+
+Basierend auf einem modularen neuronalen Modell werden verschiedene
+Verhaltenskontroller für die Erzeugung biologisch inspirierter reaktiver Verhaltensweisen
+entwickelt. Jede Verhaltenskontrolle besteht aus neuronalen
+Signal-Vorverarbeitungseinheiten und Kontrollmodulen. Für die Vorverarbeitung
+sensorischer Signale werden rekurrente neuronale Netze genutzt, ebenso
+wie für die Kontrolle und die Erzeugung von Laufbewegungen, sowie der
+Änderung der Bewegung, z.B. Drehung nach rechts, links oder rückwärts, in
+Abhängigkeit von Sensorsignalen. Die effektive neuronale Verarbeitung und
+Kontrolle wird erreicht durch Ausnutzung der dynamisschen Eigenschaften
+der rekurrenten neuronalen Netze, die zum Teil durch evolutionäre Algorithmen
+konstruiert bzw. optimiert wurden. Den modularen Aufbau nutzend
+führt eine Kombination der verschiedenen neuronalen Verarbeitungseinheiten
+zu den gewünschten Verhaltenssteuerungen. Des weiteren werden diese Verhaltenssteuerungen
+zusammengeführt mittels einer Sensor-Fusions-Technik,
+welche aus Tabellen- und “Time-Scheduling” -Methoden besteht. Damit
+entsteht letztlich eine neue effektive verhaltenfusionierte Steuerung, die sich
+auf verschiedenste Laufmaschinen übertragen läßt.
+
+Abschließend werden alle diese reaktiven Verhaltenssteuerungen zusammen
+mit einem Sensorsystem in physikalischen Laufmaschinen implementiert,
+um sie zu testen und als künstliche Perzeptions-Aktions-Maschine zu
+demonstrieren. Es wird gezeigt, dass die Laufmaschinen in der Lage sind in
+der Umgebung umherzuwandern und auf Reize der Umgebung zu reagieren,
+z.B. durch akustischen Tropismus (positiver Tropismus), durch Hindernisvermeidung
+und sogar durch Entkommen aus Ecken und Sackgassen (negativer
+Tropismus). Der entwickelte Kontroller ist universell in dem Sinne, dass
+er auf Laufmaschinen mit unterschiedlicher Beinanzahl, hier vier und sechs
+Beine, ohne Parameteranpassung mit vergleichbaren Ergebnissen implentiert
+werden kann.</abstract>
+                    <subject>
+                        <topic>autonome Roboter</topic>
+                        <topic>Laufmaschinen</topic>
+                        <topic>rekurrente neuronale Netze</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-2235</identifier>
+                    <identifier type="sys">HT014769054</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_223</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2006-05-18</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_223">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/223/1/manoonpong.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_223"
+            DMDID="DMD_siegen_opus_223">
+            <mets:fptr FILEID="FILE0_siegen_opus_223"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

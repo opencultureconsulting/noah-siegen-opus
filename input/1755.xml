@@ -1,0 +1,96 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1755</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Realisierung einer Graphen-basierten plasmonischen Antenne zur Kommunikation im THz-Bereich</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Realization of a graphene-based plasmonic antenna for communication in the THz-range</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Christoph</pc:foreName>
+            <pc:surName>Süßmeier</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Plasmon</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Graphene antenna</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">THz radiation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Zeitbereichs-Spektroskopie</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">621</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die heutige Digitalisierung wird maßgeblich durch die Vernetzung digitaler Komponenten und die Erhöhung der Rechenleistung ermöglicht. Dadurch entstanden in den letzten Jahrzehnten Anwendungen und Forschungen, die zuvor aufgrund der fehlenden Rechenleistung nicht möglich waren. Hierzu zählen unter anderem autonomes Fahren, Deep Learning und künstliche Intelligenz. Der stetige technische Fortschritt, der durch das Mooresche Gesetz beschrieben wird, lässt sich dabei maßgeblich auf die Miniaturisierung der Bauteile, wie z.B. Transistoren zurückführen. Dadurch steigt die Transistorendichte auf einem Prozessorkern und damit auch dessen Rechenleistung.&#13;
+Die weitere Einhaltung des Mooreschen Gesetzes und damit der digitale Fortschritt, kann allerdings in Zukunft nicht mehr alleine durch Verkleinerung der Bauelemente geschehen. Schon heute stößt man an fundamentale physikalische Grenzen, wie zum Beispiel die Wärmeabfuhr, die eine weitere Miniaturisierung stark erschweren. Daher werden Alternativen benötigt um die Rechenleistung auch in Zukunft weiter zu erhöhen.&#13;
+Eine Möglichkeit ist die massive Parallelisierung. Hierbei werden hunderte bis tausende Kerne parallel geschaltet um die Rechenleistung zu erhöhen. Allerdings sind bei der Kommunikation zwischen den Kernen klassische On-Chip Kommunikationsverfahren, wie BUS Systeme, ungeeignet, da diese nur begrenzt skalierbar ist. Eine Alternative dazu ist die kabellose Kommunikation als Schlüsseltechnologie für komplexe Architekturen. Neben der Skalierbarkeit besitzt diese Kommunikationstechnik auch die Möglichkeit der Rekonfiguration und Adaption an die aktuellen Anforderungen und eignet sich damit perfekt für agile Netzwerkarchitekturen. Dazu benötigt jeder Kern eine Antenne um Signale zu senden und die Signale anderer Kerne zu&#13;
+empfangen.&#13;
+Die Größe der Antenne spielt dabei eine entscheidende Rolle, denn durch die Miniaturisierung ist der Platz auf einem Kern sehr kostbar geworden. Klassische Metallantennen, die bei einem THz emittieren, besitzen dabei eine Länge, die in etwa 7000 mal so groß ist wie ein Transistorkanal und sind daher entschieden zu groß.&#13;
+Bei Graphen hingegen besteht auf Grund der einzigartigen Materialeigenschaften ein grundlegend veränderter Zusammenhang zwischen Antennenlänge und Resonanzfrequenz. Dadurch können Antennen aus Graphen, bei gleicher Resonanzfrequenz, um bis zu zwei Größenordnungen kleiner sein als metallische Antennen. Die Integration von Graphen-Antennen in integrierte Schaltkreise eignet sich damit hervorragend um die On-Chip Kommunikation zu realisieren und damit die Rechenleistung zu steigern.&#13;
+Die Erforschung, Beschreibung, Realisierung und Untersuchung dieser Antennen ist der Inhalt der vorliegenden Arbeit.&#13;
+Nach der Einleitung folgen die theoretischen Grundlagen zur Beschreibung dieser Antennen. Hier werden zunächst einige wichtige Antennengrundlagen erklärt und danach die fundamentalen Beschreibungen von Plasmonen dargelegt. Anschließend folgt eine Beschreibung von Graphen. Das Kapitel schließt mit der theoretischen Behandlung von plasmonischen Graphen-Antennen.&#13;
+Nach der Betrachtung des aktuellen Standes der Forschung werden die Mess- und Herstellungsmethoden erläutert. Zunächst wird dabei auf die Lithografie eingegangen, die zur Herstellung der Antennenstruktur verwendet wird. Als nächster Punkt folgt die Beschreibung des TDS-Messaufbaus, mit dem die Antennen vermessen wurden.&#13;
+Als Nächstes folgen theoretische Betrachtung und Berechnungen zu den Materialanforderung von Graphen. Die Länge der Antenne ist von entscheidender Bedeutung.&#13;
+Hierbei wird gezeigt, dass für eine funktionsfähige Graphen-Antenne eine gute Abstimmung zwischen Antennengeometrie und Materialqualität erfolgen muss.&#13;
+Bei der technologischen Realisierung konnte nach einigen Herausforderungen ein stabiler Herstellungsprozess etabliert werden. Zur Charakterisierung von Graphen werden verschiedene Methoden betrachtet. Hierzu eignen sich elektrische Messungen mittels Wolframnadeln am REM, TDS-Transmissionsmessungen und Raman-Spektroskopie.&#13;
+Nach der Herstellung und Charakterisierung von Graphen werden die Dipol-Antennen im TDS-Messaufbau vermessen. Bei den ersten Messungen wird gezeigt, dass neben dem Antenneneffekt auch Ladungsträger, die durch eine elektrische Vorspannung beschleunigt werden, zur THz-Emission beitragen.&#13;
+Zur Minimierung des Einflusses dieses Effektes wurden Antennen in einer alternativen Geometrie (H-Struktur) hergestellt und vermessen. Hierbei konnte ein deutlicher Einfluss von Graphen auf die Amplitude der emittierten THz-Strahlung festgestellt werden. Der Ursprung dieses Signals ist die Konzentration des elektrischen Feldes, das durch die Vorspannung entsteht, zwischen den Antennenarmen. Diese Messungen zeigen die erste THz-Emission einer Graphen- Antennenstruktur.&#13;
+Um die Materialqualität zu erhöhen wurden Proben hergestellt, bei denen entweder eine oder beide Seiten der Graphen-Antenne mit hBN bedeckt sind. Messungen an diesen Antennen zeigen eine deutlich verstärkte THz-Emission durch die Konzentration des elektrischen Feldes zwischen den beiden Antennenarmen.&#13;
+Abschließend werden diverse Möglichkeiten dargestellt um die Emission der Graphenantenne zu steigern. Hierbei gibt es sowohl Möglichkeiten den Probenaufbau und die Geometrie, als auch externe Einflüsse, wie Dotierung und Temperatur zu verändern.&#13;
+Im abschließenden Fazit folgt eine kritische Diskussion der theoretischen und praktischen Ergebnisse dieser Arbeit und eine Einordnung in mögliche Forschungs- und Anwendungsfelder.&#13;
+Diese Arbeit zeigt die erste THz Emission einer Graphen-Antennenstruktur und bietet ausführliche theoretische, technologische und experimentelle Ergebnisse, die zur Realisierung einer funktionsfähigen Graphen-Antenne benötigt werden.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Today’s digitalization is largely made possible by connecting digital components and increasing computing power. This has led to applications and research in the last decades that were previously not possible due to the lack of computing power. These include autonomous driving, deep learning and artificial intelligence. The constant technical progress described by Moore’s Law can be traced back to the miniaturization of components such as transistors. This increases the density of transistors on a processor core and thus its computing power.&#13;
+However, further compliance with Moore’s Law and thus digital progress cannot be achieved in the future by reducing the size of the components alone. Already today, fundamental physical limits are being reached, such as heat dissipation, which make further miniaturization very difficult. Therefore, alternatives are needed to further increase computing power in the future. One possibility is massive parallelization.&#13;
+Here hundreds to thousands of cores are connected in parallel to increase the computing power. However, classical on-chip communication methods such as BUS systems are unsuitable for communication between the cores, as they are only scalable to a limited extent. An alternative is wireless communication, as a key technology for complex architectures. In addition to scalability, this communication technology also has the possibility of reconfiguration and adaptation to current requirements and is therefore perfectly suited for agile network architectures. For this purpose, each core requires an antenna to send signals and receive signals from other cores.&#13;
+The size of the antenna plays a decisive role here, because miniaturization has made the space on a core very precious. Classical metal antennas emitting at one THz have a length of approximately 7000 transistor channels and are therefore far too large.&#13;
+With graphene, on the other hand, there is a fundamentally altered relationship between antenna length and resonance frequency due to the unique material properties.&#13;
+This means that graphene antennas can be up to two orders of magnitude smaller than metallic antennas at the same resonant frequency. The integration of graphene antennas into integrated circuits is therefore ideally suited to realize on-chip communication and thus increase computing power. The research, description, realization and investigation of these antennas is the content of this thesis.&#13;
+The introduction is followed by the theoretical principles for the description of these antennas. Here, first some important antenna fundamentals are explained and then the fundamental descriptions of plasmons are presented. This is followed by a description of graphene. The chapter concludes with the theoretical treatment of plasmonic graphene antennas.&#13;
+After considering the current state of research, the measuring and manufacturing methods are explained. First of all, lithography, which is used to manufacture the antenna structure, is discussed. The next point is the description of the TDS measurement setup used to measure the antennas.&#13;
+Next, theoretical considerations and calculations on the material requirements of graphene follow. The length of the antenna is of crucial importance. Here it is shown that for a functional graphene antenna a good match between antenna geometry and material quality is required.&#13;
+During the technological realization, after some challenges, a stable manufacturing process could be established. For the characterization of graphene different methods are considered. For this purpose needle measurements on the SEM, TDS transmission measurements and Raman spectroscopy are suitable.&#13;
+After the production and characterization of graphene, the dipole antennas are measured in the TDS test setup. The first measurements show that, in addition to the antenna effect, charge carriers accelerated by an electrical bias voltage also contribute to the THz emission.&#13;
+To minimize the influence of this effect, antennas were manufactured and measured in an alternative geometry (H-structure). A clear influence of graphene on the amplitude of the emitted THz radiation was found. The origin of this signal is the concentration of the electric field created by the bias voltage between the antenna arms. These measurements show the first THz emission of a graphene antenna structure.&#13;
+In order to increase the material quality, samples were produced where either one or both sides of the graphene antenna are covered with hBN. Measurements on these antennas show a significantly increased THz emission due to the concentration of the electric field between the two antenna arms.&#13;
+Finally, various possibilities to increase the emission of the graphene antenna are presented. There are possibilities to change the sample setup and geometry as well as external influences like doping and temperature.&#13;
+The final conclusion is followed by a critical discussion of the theoretical and practical results of this work and a classification into possible fields of research and application.&#13;
+This work shows the first THz emission of a graphene antenna structure and provides detailed theoretical, technological and experimental results, which are needed to realize a functional graphene antenna.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Peter</pc:foreName>
+            <pc:surName>Haring Bolívar</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2020-06-26</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2020</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-17550</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dcterms:isPartOf xsi:type="ddb:noScheme">Höchstfrequenztechnik und Quantenelektronik;  9</dcterms:isPartOf>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/lizenz.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Department Elektrotechnik - Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Christoph_Suessmeier.pdf" ddb:fileSize="6052674"/>
+   <ddb:checksum ddb:type="MD5">21e1be76096dc69d09903d7acf3feec0</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1755/2/Dissertation_Christoph_Suessmeier.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1755</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

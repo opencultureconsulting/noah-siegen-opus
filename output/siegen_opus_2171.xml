@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_2171">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Auslegung eines Sensorsystems zur Überwachung der menschlichen Hydratation</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Design of a sensor system for hydration monitoring</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Viehbeck, Jana</displayForm>
+                        <namePart type="family">Viehbeck</namePart>
+                        <namePart type="given">Jana</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Brück, Rainer</displayForm>
+                        <namePart type="family">Brück</namePart>
+                        <namePart type="given">Rainer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Im Rahmen dieser Forschungsarbeit wird ein Konzept zur Auslegung eines mobilen Sensorsystems erarbeitet, welches zur nicht-invasiven und kontinuierlichen Messung des Hydratationsstatus beiträgt. Durch gezielte Voruntersuchungen zur Gewebefeuchte und zur Bestimmung des Hydra-tationszustands wird ein Algorithmus etabliert, welcher mittels Sensordatenfusion diverser Vital-parameter einen Rückschluss auf das Gesamtkörperwasser des Menschen zulässt. Das Konzept zur Überwachung des Hydratationszustands basiert auf kontinuierlichem Vitalparameter-monitoring der Parameter Puls, Sauerstoffsättigung, Bioimpedanz, Hautleitwert und Gewebe-feuchte. Mittels personenspezifischer Kalibrierung über Nacht wird das System auf den Träger eingestellt. Die Kalibrierung basiert auf einer ausgiebigen Korrelationsanalyse zwischen den erhobenen Vitalparametern und dem Gewicht, welches repräsentativ für den Hydratationsstatus angesehen werden kann. Der Algorithmus wird durch die Datenaufnahme von 9 Teilnehmern validiert. Zur Kalibrierung wurden die Daten von jeweils zwei Nächten erhoben. Die Korrelations-analyse zeigt auffällig, dass die erhobenen Parameter in der Nacht sowie den Voruntersuchungen in entgegengesetzte Richtung verlaufen. Dieses Verhalten ist größtenteils auf Schlafphasen und anderen Umgebungsbedingungen während des Schlafens zurückzuführen. Durch eine weitere Datenaufnahme am Tag wurde der kalibrierte Algorithmus getestet. Die Überprüfung, ob der Algorithmus valide Werte des Gesamtkörperwassers berechnet, erfolgt über stetige Gewichts-kontrolle. Durch eine Korrelationsanalyse der Tag-Datensätze kann festgestellt werden, dass die Parameter wieder in die gleiche Richtung verlaufen, wie ursprünglich in den Voruntersuchungen festgestellt und entsprechend erwartet wurde. Das Ergebnis der Korrelationsanalyse der Nacht-aufnahmen führte zu einer inkorrekten Kalibrierung des Algorithmus‘. Im Hinblick darauf muss eine andere Art der Kalibrierung des Systems gewählt und der Algorithmus revalidiert werden. Es kann bei ausschließlich 33,3 % der Teilnehmer durch das System eine tatsächliche Dehydratation erkannt werden. Dies zeigt, dass es grundsätzlich möglich ist, eine Dehydratation durch kontinu-ierliches Vitalparametermonitoring und anschließender Sensordatenfusion festzustellen. Die Kalibrierung und Verrechnung der Daten sollen ebenfalls auf dem Gerät verfügbar sein, sodass der Algorithmus kontinuierlich angewendet werden kann. Es wird ein Kalibriervorgang tagsüber angestrebt, ein entsprechendes Konzept hierfür muss künftig erarbeitet und evaluiert werden.</abstract>
+                    <abstract type="content" lang="eng">In this research project, a concept for the evaluation of a mobile sensor system is developed, which contributes to the non-invasive and continuous measurement of the hydration status. Through targeted preliminary investigations of tissue moisture and the determination of hydration status, an algorithm is established which allows a conclusion to be drawn about the total body water of the human being by means of sensor data fusion of various vital signs. The concept for monitoring the hydration state is based on continuous vital signs monitoring of the parameters pulse, oxygen saturation, bioimpedance, skin conductance and tissue hydration. By means of person-specific overnight calibration, the system is adjusted to the user. The calibration is based on an extensive correlation analysis between the collected vital signs and weight, which can be considered representative of hydration status. The algorithm is validated with the help of data acquisition from 9 participants. Data from two nights were collected for calibration. The correlation analysis shows noticeably that the collected parameters run in opposite directions during the night as well as the preliminary tests. This behaviour is largely due to sleep phases and other environmental conditions during sleep. By acquiring more data during the day, the calibrated algorithm was tested. Verification that the algorithm calculates valid values of total body water is performed by steady weight control. Through correlation analysis of the day data sets, it can be determined that the parameters are again trending in the same direction as originally determined in the preliminary tests. The results of the correlation analysis of the night records lead to an incorrect calibration of the algorithm. Regarding this, a different way of calibrating the system must be chosen and the algorithm needs to be revalidated. Actual dehydration can be detected by the system in only 33.3% of the participants. This shows that it is in principle possible to detect dehydration by continuous vital signs monitoring and subsequent sensor data fusion. Calibration and accounting of the data will also be available on the device so that the algorithm can be applied in real time. A calibration process during the day is aimed at; a corresponding concept for this must be developed and evaluated in the future.</abstract>
+                    <subject>
+                        <topic>Sensorsystem</topic>
+                        <topic>Dehydratation</topic>
+                        <topic>Hydratationsstatus</topic>
+                        <topic>Wasserhaushalt</topic>
+                        <topic>Gesamtkörperwasser</topic>
+                        <topic>Vitalparametermonitoring</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät V -  Lebenswissenschaftliche Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-21718</identifier>
+                    <identifier type="sys">HT021283334</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_2171</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2022-01-10</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_2171">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/2171/3/Dissertation_Jana_Viehbeck.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_2171"
+            DMDID="DMD_siegen_opus_2171">
+            <mets:fptr FILEID="FILE0_siegen_opus_2171"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

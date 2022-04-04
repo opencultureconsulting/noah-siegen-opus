@@ -1,0 +1,64 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1956</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Scheduling flexible job shops under workforce constraints</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="und">Ablaufplanung in Flexible Job Shops unter Berücksichtigung von Personalrestriktionen</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>David</pc:foreName>
+            <pc:surName>Müller</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Produktionsplanung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Production</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Manufacturing systems</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Scheduling</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Flexible job shop</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Workforce constraints</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">650</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Scheduling problems are of high relevance in various application areas, especially in production and logistic environments. A well-known problem setting is the job shop scheduling problem that occurs in traditional manufacturing systems. Modern manufacturing systems, however, are usually more complex and feature multi-purpose machines that allow to process different types of manufacturing operations. This is taken account of in the flexible job shop scheduling problem, which generalizes the job shop scheduling problem, by assuming that each operation must be processed by exactly one machine out of a given set of eligible machines. Moreover, in real-world manufacturing systems, the incorporation of setup times plays an important role and the workforce planning must be integrated, especially when having to consider a set of employees with differing skills. In the face of the growing automatization of manufacturing processes, the need for applicable solution approaches that promise a good trade-off between computational time and solution quality is becoming more important. Against this background, this cumulative thesis investigates various flexible job shop scheduling problems incorporating workforce constraints that are of practical relevance as well as presents novel exact and heuristic solution approaches for scheduling the respective problem variants.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Dominik</pc:foreName>
+            <pc:surName>Kreß</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2021-07-16</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2021</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-19569</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/lizenz.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät III - Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_David_Mueller.pdf" ddb:fileSize="4335502"/>
+   <ddb:checksum ddb:type="MD5">1855e10e908f92cc42241c32baba158c</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1956/4/Dissertation_David_Mueller.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1956</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

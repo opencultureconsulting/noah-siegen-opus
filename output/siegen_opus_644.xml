@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_644">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Ästhetische Erfahrung im Teufelsmoor? Künstlerische Lebensformen um 1900: Der Worpsweder Kreis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kringe, Janina</displayForm>
+                        <namePart type="family">Kringe</namePart>
+                        <namePart type="given">Janina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Im Spätsommer des Jahres 1900 versammelt sich sonntäglich eine kleine Gruppe von Malern und Literaten in einer Jugendstilvilla, die etwas außerhalb des Worpsweder Ortskerns gelegen ist. Man trägt vornehme Kleidung, setzt sich zu romantischer Hausmusik im &quot;weißen Saal&quot; des Barkenhoffs zusammen, liest sich Gedichte und Prosatexte vor und diskutiert ästhetische Fragen. Es handelt sich um den Worpsweder Kreis, zu dessen Kern der Jugendstilkünstler Heinrich Vogeler und seine Verlobte Martha Schröder, der Landschaftsmaler Otto Modersohn und die Malerin Paula Becker sowie der Dichter Rainer Maria Rilke und die Bildhauerin Clara Westhoff gehören; auch der Schriftsteller Carl Hauptmann und Paulas Schwester Milly Becker sind für einige Zeit Teil der sonntäglichen Zusammenkünfte. 
+Auf den ersten Blick mag man diesen Zirkel im Kontext jener ästhetischen Assoziationen sehen, die nach 1890 aus der Moderne aussteigen und die Vereinigung von Kunst und Leben zur obersten Priorität erheben. Bei näherer Betrachtung fällt jedoch ein eklatanter Unterschied auf: Während andere Künstlervereinigungen, literarische Kreise oder lebensreformerisch geprägte Gemeinschaften auf die Verlusterfahrungen der gesellschaftlichen Modernisierung mit dekadenter Weltflucht oder einer durch Kunst und Kultur eingeleiteten Gesellschaftsreform reagieren, zeigt der Worpsweder Kreis weder gegenbürgerliche Einstellungen noch gesellschaftsreformerischen Anspruch. Vielmehr ist in dem sich als &quot;Familie&quot; begreifenden Kreis ein häuslich-idyllischer Regress zu beobachten: Biedermeierliche Strukturen sind nicht nur äußerlich - im Kleidungsstil der Beteiligten oder in der Einrichtung des Barkenhoffs - zu erkennen, auch die Umgangsformen und Weltanschauungen offenbaren eine Ausrichtung auf (bildungs-)bürgerliche Kultur. 
+Es wird deutlich, dass der Worpsweder Kreis nicht in das allgemeine Bild künstlerischer Lebensformen um 1900 eingeordnet werden kann, da gängige Deutungsansätze und Beschreibungsmuster versagen. Offenkundig handelt es sich bei diesem Kreis um eine Sonderform ästhetischer Lebensweise, die bislang noch nicht untersucht wurde.
+Dieses Versäumnis wird im Rahmen der vorliegenden Dissertation nachgeholt. Ziel der Arbeit ist die erstmalige Erforschung des Worpsweder Kreises und seine Positionierung im Kontext alternativer Künstlergruppen um 1900; nicht zuletzt, um ausgehend von der konstruierten Sonderstellung des Kreises eine umfassendere, differenziertere Sicht auf die Deutung und Beschreibung künstlerischer Lebensformen eröffnen zu können.</abstract>
+                    <subject>
+                        <topic>Worpswede</topic>
+                        <topic>künstlerische Lebensformen</topic>
+                        <topic>ästhetische Erfahrung</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät I Philosophische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-6445</identifier>
+                    <identifier type="sys">HT017373665</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_644</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2012-07-09</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_644">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/644/1/kringe.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_644"
+            DMDID="DMD_siegen_opus_644">
+            <mets:fptr FILEID="FILE0_siegen_opus_644"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

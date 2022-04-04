@@ -1,0 +1,91 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_191">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Ereignisdiskrete Simulation einer Hochenergie-Kugelmühle</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Reichardt, Roland</displayForm>
+                        <namePart type="family">Reichardt</namePart>
+                        <namePart type="given">Roland</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2005</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Hochenergie-Kugelmühlen sind Zerkleinerungsmaschinen, welche bereits pulverförmig
+vorliegendes Ausgangsmaterial in einem Trockenprozess auf eine Partikelgröße unterhalb von
+1 µm zermahlen. Da diese Maschinen erst seit ca. 10 Jahren existieren, sind die Mechanismen
+im Innern der Mühle bisher nicht verstanden. Die Betriebsparameter, wie Rotordrehzahl oder
+Kugelfüllung werden empirisch, wie in der mechanischen Verfahrenstechnik üblich, durch
+Erfahrung und Prozessbeobachtung bestimmt. Computersimulationen sollen helfen, die
+Vorgänge innerhalb der Maschine zu verstehen, um etwa Materialwissenschaftlern
+Informationen über die Geschwindigkeitsverteilung der kollidierenden Mahlkugeln zu liefern.
+Als Simulationsmethode wurde ein ereignisdiskretes Verfahren gewählt, welches erstmals auf
+diese Problemstellung angewendet wurde und unter realen Prozessbedingungen anwendbar
+ist. Die Schwachstellen der bisher veröffentlichten ereignisdiskreten Algorithmen wurden
+erkannt, dokumentiert, und durch neue Verfahren behoben. Ferner wurden bisher eingesetzte
+Verfahren zeiteffizient und numerisch korrekt optimiert.
+Im Rahmen dieser Arbeit wurden eigens Versuchsaufbauten konstruiert, um das
+Kollisionsmodell mit experimentell gewonnenen Daten zu parametrisieren. Da keine
+experimentellen Daten über das Kollisionsverhalten der Mahlkugeln während des Prozesses
+vorliegen, wurde zur Überprüfung der Realitätstreue des Simulators ein Modell aus der
+statistischen Physik entwickelt. Hiermit konnte der Simulator anhand der errechneten
+Geschwindigkeitsverteilungen verifiziert werden.
+Mit dem entwickelten Simulator wurden diverse Parameterstudien durchgeführt, die, obwohl
+zeitoptimiert, auf einem durchschnittlichen Computer mehrere Jahre dauernd, mit Hilfe des
+universitätseigenen Rechenclusters in einigen Tagen durchgeführt werden konnten. Basierend
+auf den Simulationsergebnissen konnten die für den Mahlprozess wichtigen
+Geschwindigkeitsverteilungen in Abhängigkeit von den Betriebsparametern gewonnen
+werden. Diese Daten wurden sowohl mit statistischen Methoden und Computeranimationen
+analysiert.
+Kollisionen mit hoher Kollisionsenergie sind relativ selten – ganz im Gegensatz zu dem, was
+der Name „Hochenergie“-Kugelmühle vermuten lässt und bisher der allgemeinen Auffassung
+entsprach. Eine wichtige und neue Erkenntnis ist, dass der Mahleffekt in der Hochenergie-
+Kugelmühle, da er auf Kollisionen mit hoher Relativgeschwindigkeit beruht, nur relativ selten
+stattfindet. Aufgrund der neu vorliegenden Erkenntnisse, wurden grundlegende
+Konstruktionsänderungen der drei zentralen Baugruppen vorgeschlagen.</abstract>
+                    <subject>
+                        <topic>Ereignisdiskrete Simulation</topic>
+                        <topic>Mechanische Verfahrenstechnik</topic>
+                        <topic>Kugelmühle</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 11, Maschinenbau"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1914</identifier>
+                    <identifier type="sys">HT014574063</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_191</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2005-11-10</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_191">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/191/1/reichardt.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_191"
+            DMDID="DMD_siegen_opus_191">
+            <mets:fptr FILEID="FILE0_siegen_opus_191"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

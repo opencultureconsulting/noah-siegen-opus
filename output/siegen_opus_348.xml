@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_348">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Vergleichende Analyse von computerunterstützten Messwerterfassungssystemen für den Physikunterricht</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bernshausen, Henrik</displayForm>
+                        <namePart type="family">Bernshausen</namePart>
+                        <namePart type="given">Henrik</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2008</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Computer und deren Anwendungen sind in den letzten Jahrzehnten Standardwerkzeuge in Wissenschaft und Technik bis hinein ins alltägliche Leben geworden. Auch in die Schullandschaft hat die elektronische Datenverarbeitung Einzug gefunden. Die denkbaren Nutzungsmöglichkeiten von Computern im Unterricht sind vielfältig.
+Das Erfassen von Messgrößen aus Experimenten gehört zu den Grundlagen naturwissenschaftlicher Erkenntnisgewinnung. In einem experimentzentrierten Unterricht kommt Computerunterstützten Messwerterfassungssystemen als technisches Hilfsmittel speziell zur Aufnahme und Weiterverarbeitung der Messwerte daher eine große Bedeutung zu. In diesem Bereich hat die Entwicklung der jüngsten Zeit zu einer nahezu unüberschaubaren Vielzahl von Soft- und Hardwarepaketen geführt. Dabei variieren die existierenden Systeme von einfachen Anwendungen der Standard-Computerperipherie bis hin zu komplexen, baugruppenartig erweiterbaren Schnittstellensystemen. Sowohl Funktionsprinzip als auch Funktionsumfang und Bedienung unterscheiden sich zum Teil beträchtlich.
+Eine wichtige Aufgabe der gegenwärtigen fachdidaktischen Forschung ist, die Vergleichbarkeit Computerunterstützter Messwerterfassungssysteme im Physikunterricht zu untersuchen. Dabei muss ihrer Nutzbarkeit – zumindest als technisches Hilfsmittel zur Messdatenerfassung – analysiert werden. Die vorliegende Arbeit leistet hierzu einen Beitrag. Ihr Ziel ist es, einen Katalog möglichst objektiv erfassbarer Kriterien zu finden, anhand deren die „Nutzbarkeit“ von Computerunterstützten Messwerterfassungsystemen im Physikunterricht komparativ analysiert werden kann.
+Eine Reihe solcher Messwerterfassungsysteme ist in den Bestand des Medienlabors des Fachbereichs Physik – Didaktik der Physik – der Universität Siegen integriert und unter unterrichtspraktischen Bedingungen auf ihre „Nutzbarkeit“ verglichen worden. Basierend auf den gewonnenen Ergebnissen wurde ein Analysebogen entwickelt, der es Lehrenden und Lernenden nun erleichtert ermöglicht, Computerunterstützte Messwerterfassungssysteme zielgerichtet zu erproben und zu beurteilen.</abstract>
+                    <subject>
+                        <topic>Physikunterricht</topic>
+                        <topic>Messwerterfassung</topic>
+                        <topic>physics instruction</topic>
+                        <topic>experiment</topic>
+                        <topic>computer</topic>
+                        <topic>automatic measurement</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 7, Physik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-3489</identifier>
+                    <identifier type="sys">HT015536579</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_348</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2008-05-13</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_348">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/348/1/bernshausen.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_348"
+            DMDID="DMD_siegen_opus_348">
+            <mets:fptr FILEID="FILE0_siegen_opus_348"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

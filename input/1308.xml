@@ -1,0 +1,68 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1308</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Dynamic knowledge assets management to interactive problem solving and sustained learning : a collaborative CBR system in chronic and palliative care</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Sara</pc:foreName>
+            <pc:surName>Nasiri</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Wissensbasiertes System</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Knowledge-based system</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Case-based reasoning</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Recommendation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Asset</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Knowledge management is a decision-making approach for facilitating the development and application of a variety types of knowledge assets. There are a number of key questions in the field, including “how can we gather knowledge assets?” and “How can we evaluate knowledge management initiatives planned for improving user experiences?”. The identification of the key knowledge asset value drivers and their relations allows stakeholders to define priorities.&#13;
+It is also important to utilize existing knowledge effectively in the proper knowledge management of knowledge-based assets. Accordingly, building a knowledge-based system to solve new and similar problems is a research challenge that this thesis aims to address.&#13;
+Although search engines and question-answering systems already serve as crucial tools for knowledge workers, understanding texts and using knowledge obtained from the texts for problem-solving is far from routine. Thus, this work addresses the problem of developing a collaborative knowledge-based system that can learn from user experience and knowledge assets.&#13;
+The research described in this dissertation involved an investigation of the use of word association strength based on the statistical cohesions between words to build a semantic profile of a text. This approach in the retrieval of relevant information can provide reasoning information from a text in a manner that has traditionally required the use of human experts; this information then be reused in the analysis of new problems. In developing an artificial intelligence&#13;
+(AI)-based problem-solving technique, this study investigated the use of case-based reasoning (CBR), a methodology in which data representing information on solved problems is stored for reuse in new problem-solving processes. The choice of past cases to be reused is based on similarity measures in the retrieval process as extracted from all stored cases in the case base. Each similarity measure characterizes a set of heuristics for approximating&#13;
+the unidentified utility of a case, and the quality of similarity measures can be improved by integrating as much knowledge regarding the specific application domain as possible into them. Features relations from ontology and fuzzy logic can also be integrated into CBR similarity measures to handle the ambiguities and uncertainties that are characteristically present in knowledge-intensive processes. &#13;
+The system developed in this research – DePicT CLASS – is based on the DePicT&#13;
+concept, in which diseases are detected and predicted using image classification and text information from personal health records. DePicT CLASS was developed to serve as a collaborative case-based system to support caregivers and patients’ relatives by preparing relevant references and learning material to help them understand the patients’ medical issues. The main characteristics of DePicT and DePicT CLASS are demonstrated in this work using instances from two disease domains: dementia and melanoma.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Wissensmanagement ist ein Ansatz der Entscheidungsfindung, um die Entwicklung und Anwendung von Wissensressourcen unterschiedlicher Art zu erleichtern. Es gibt eine Reihe von Schlüsselfragen in diesem Bereich, einschließlich „Wie können wir Wissensressourcen sammeln?“ und „Wie können wir Initiativen zum Wissensmanagement bewerten, die zur Verbesserung der Benutzererfahrungen geplant sind?“. Die Identifikation der wichtigsten Wissensbestandswerttreiber und deren Beziehungen ermöglichen es den Stakeholdern, Prioritäten zu definieren. Darüber hinaus ist es wichtig, vorhandenes Wissen effektiv für das richtige Wissensmanagement von wissensbasierten Beständen zu nutzen. Dementsprechend&#13;
+ist der Aufbau eines wissensbasierten Systems zur Lösung neuer und ähnlicher Probleme eine Forschungsherausforderung, die mit dieser Dissertation angegangen werden soll.&#13;
+Obwohl Suchmaschinen und Frage-Antwort-Systeme bereits als entscheidende Werkzeuge für Wissensarbeiter dienen, ist das Verstehen von Texten und das Verwenden von Wissen, das aus den Texten zur Problemlösung gewonnen wird, weit von einer Routine entfernt. Daher befasst sich diese Arbeit mit dem Problem der Entwicklung eines kollaborativen wissensbasierten Systems, das von Benutzererfahrungen und Wissensressourcen lernen kann.&#13;
+Die in dieser Dissertation beschriebene Forschung beinhaltete eine Untersuchung der Verwendung von Wortvereinigungsstärke basierend auf den statistischen Zusammenhängen zwischen Wörtern, um ein semantisches Profil eines Textes aufzubauen. Dieser Ansatz bei der Suche nach relevanten Informationen kann aus einem Text aufschlussreiche Informationen liefern, die traditionell den Einsatz von Experten erfordern. Diese Informationen werden dann bei der Analyse neuer Probleme wiederverwendet. Bei der Entwicklung einer auf künstlicher Intelligenz beruhenden Problemlösungs-Technik untersuchte diese Studie die Verwendung von fallbasiertem Denken (CBR), eine Methodik, bei der Daten, die Informationen zu gelösten Problemen darstellen, zur Wiederverwendung in neuen Problemlösungsprozessen gespeichert werden. Die Auswahl der zu verwendenden Fälle in der Vergangenheit basiert auf Ähnlichkeitsmaßen im Abrufprozess, die aus allen gespeicherten Fällen in der Fallbasis extrahiert werden. Jedes Ähnlichkeitsmaß charakterisiert eine Menge von Heuristiken zur Approximation des nicht identifizierten Nutzens eines Falls, und die Qualität von Ähnlichkeitsmaßen kann verbessert werden, indem so viel Wissen wie möglich in die spezifische Anwendungsdomäne integriert wird. Eigenschaften-Relationen aus Ontologie und Fuzzy-Logik können auch in CBR-Ähnlichkeitsmaße integriert werden, um die Mehrdeutigkeiten und Unsicherheiten zu bewältigen, die charakteristisch in wissensintensiven Prozessen vorhanden sind.&#13;
+Das in dieser Studie entwickelte System – DePicT CLASS - basiert auf dem DePicT&#13;
+Konzept, bei dem Krankheiten anhand von Bildklassifikationen und Textinformationen aus persönlichen Gesundheitsakten erkannt und vorhergesagt werden. DePicT CLASS wurde entwickelt, um als kollaboratives fallbasiertes System zur Unterstützung von Angehörigen und Angehörigen von Patienten zu dienen, indem relevante Referenzen und Lernmaterialien erstellt werden, die ihnen helfen, die medizinischen Probleme der Patienten zu verstehen. Die Hauptmerkmale von DePicT und DePicT CLASS werden in dieser Arbeit anhand von&#13;
+Beispielen aus zwei Krankheitsdomänen demonstriert: Demenz und Melanom.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2018-04-24</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2018</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-13082</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Wissensbasierte Systeme und Wissensmanagement</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Sara_Nasiri.pdf" ddb:fileSize="16515341"/>
+   <ddb:checksum ddb:type="MD5">19723cf0639e2ee945533b3149c47e92</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1308/1/Dissertation_Sara_Nasiri.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1308</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

@@ -1,0 +1,56 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>533</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Autonomous navigation and mapping of mobile robots based on 2D/3D cameras combination</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Chanin</pc:foreName>
+            <pc:surName>Joochim</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Robotik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Aufgrund der tendenziell zunehmenden Nachfrage an Systemen zur Unterstützung des alltäglichen Lebens gibt es derzeit ein großes Interesse an autonomen Systemen. Autonome Systeme werden in Häusern, Büros, Museen sowie in Fabriken eingesetzt. Sie können verschiedene Aufgaben erledigen, beispielsweise beim Reinigen, als Helfer im Haushalt, im Bereich der Sicherheit und Bildung, im Supermarkt sowie im Empfang als Auskunft, weil sie dazu verwendet werden können, die Verarbeitungszeit zu kontrollieren und präzise, zuverlässige Ergebnisse zu liefern. Ein Forschungsgebiet autonomer Systeme ist die Navigation und Kartenerstellung. Das heißt, mobile Roboter sollen selbständig ihre Aufgaben erledigen und zugleich eine Karte der Umgebung erstellen, um navigieren zu können.&#13;
+     Das Hauptproblem besteht darin, dass der mobile Roboter in einer unbekannten Umgebung, in der keine zusätzlichen Bezugsinformationen vorhanden sind, das Gelände erkunden und eine dreidimensionale Karte davon erstellen muss. Der Roboter muss seine Positionen innerhalb der Karte bestimmen. Es ist notwendig, ein unterscheidbares Objekt zu finden. Daher spielen die ausgewählten Sensoren und der Register-Algorithmus eine relevante Rolle. Die Sensoren, die sowohl Tiefen- als auch Bilddaten liefern können, sind noch unzureichend. Der neue 3D-Sensor, nämlich der "Photonic Mixer Device" (PMD), erzeugt mit hoher Bildwiederholfrequenz eine Echtzeitvolumenerfassung des umliegenden Szenarios und liefert Tiefen- und Graustufendaten. Allerdings erfordert die höhere Qualität der dreidimensionalen Erkundung der Umgebung Details und Strukturen der Oberflächen, die man nur mit einer hochauflösenden CCD-Kamera erhalten kann. Die vorliegende Arbeit präsentiert somit eine Exploration eines mobilen Roboters mit Hilfe der Kombination einer CCD- und PMD-Kamera, um eine dreidimensionale Karte der Umgebung zu erstellen.&#13;
+     Außerdem wird ein Hochleistungsalgorithmus zur Erstellung von 3D Karten und zur Poseschätzung in Echtzeit unter Verwendung des "Simultaneous Localization and Mapping" (SLAM) Verfahrens präsentiert. Der autonom arbeitende, mobile Roboter soll ferner Aufgaben übernehmen, wie z.B. die Erkennung von Objekten in ihrer Umgebung, um verschiedene praktische Aufgaben zu lösen. Die visuellen Daten der CCD-Kamera liefern nicht nur eine hohe Auflösung der Textur-Daten für die Tiefendaten, sondern werden auch für die Objekterkennung verwendet. Der "Iterative Closest Point" (ICP) Algorithmus benutzt zwei Punktwolken, um den Bewegungsvektor zu bestimmen. Schließlich sind die Auswertung der Korrespondenzen und die Rekonstruktion der Karte, um die reale Umgebung abzubilden, in dieser Arbeit enthalten.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Presently, intelligent autonomous systems have to perform very interesting tasks due to trendy increases in support demands of human living. Autonomous systems have been used in various applications like houses, offices, museums as well as in factories. They are able to operate in several kinds of applications such as cleaning, household assistance, transportation, security, education and shop assistance&#13;
+because they can be used to control the processing time, and to provide precise and reliable output. One research field of autonomous systems is mobile robot navigation and map generation. That means the mobile robot should work autonomously while generating a map, which the robot follows.&#13;
+     The main issue is that the mobile robot has to explore an unknown environment and to generate a three dimensional map of an unknown environment in case that there is not any further reference information. The mobile robot has to estimate its position and pose. It is required to find distinguishable objects. Therefore, the selected sensors and registered algorithms are significant. The sensors, which can provide both, depth as well as image data are still deficient. A new 3D sensor, namely the Photonic Mixer Device (PMD), generates a high rate output in real-time capturing the surrounding scenario as well as the depth and gray scale data. However, a higher quality of three dimension explorations requires details and textures of surfaces, which can be obtained from a high resolution CCD camera. This work hence presents the mobile robot exploration using the integration of CCD and PMD camera in order to create a three dimensional map.&#13;
+     In addition, a high performance algorithm for 3D mapping and pose estimation of the locomotion in real time, using the "Simultaneous Localization and Mapping" (SLAM) technique is proposed. The flawlessly mobile robot should also handle the tasks, such as the recognition of objects in its environment, in order to achieve various practical missions. Visual input from the CCD camera not only delivers high resolution texture data on depth volume, but is also used for object recognition. The “Iterative Closest Point” (ICP) algorithm is using two sets of points to find out the translation and rotation vector between two scans. Finally, the evaluation of the correspondences and the reconstruction of the map to resemble the real environment are included in this thesis.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2011-05-26</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2011</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-5332</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV - Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="joochim.pdf" ddb:fileSize="14098511"/>
+   <ddb:checksum ddb:type="MD5">a809dc5ef3b4050d9d7883d6ef06d6e8</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/533/1/joochim.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/533</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

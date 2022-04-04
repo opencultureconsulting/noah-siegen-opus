@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1292">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="und">
+                        <title>Integrierte szenariobasierte Produkt- und Produktionssystementwicklung – Ein Beitrag zum Systems Engineering</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Grienitz, Volker</displayForm>
+                        <namePart type="family">Grienitz</namePart>
+                        <namePart type="given">Volker</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">und</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Der Kundenwunsch nach Individualität erhöht die Variantenvielfalt im Markt und eine unternehmensinterne Komplexität in Bezug auf die Produktentstehungsprozesse und die Produktionssysteme. Unternehmen müssen daher ausgewogen im Spannungsfeld zwischen „Market Pull“ und „Technology Push“ erfolgreich agieren. Um anspruchsvolle multifunktionale Systeme multidisziplinär im Sinne des Systems Engineering bearbeiten zu können, bedarf es einer reibungslosen Zusammenarbeit verschiedener Fachdisziplinen, wie den Ingenieurwissenschaften sowie der Betriebswirtschaft. 
+Die vorliegende Arbeit ist eine Methodik, welche betriebswirtschaftlich orientierte Bereiche mit den ingenieurwissenschaftlichen Bereichen ausgewogen zusammenzuführt, so dass Produkte und Produktionssysteme integriert entwickelt bzw. optimiert werden können. 
+Dazu werden die Methoden Szenariotechnik, GraFem, Erfolgsfaktoren, Serious Games, Technologiereifegradbeurteilungen sowie strategisches Management vereint. Kern der Arbeit stellt die Adaption der Szenariotechnik auf unterschiedliche Fragestellungen, wie Produktentwicklung  sowie Produktionssystementwurf dar.
+Die vorliegende kumulative Habilitationsschrift ist maßgebliches Ergebnis der aktiven Forschungsarbeit der Juniorprofessur an der Universität Siegen. Die Forschungsergebnisse wurden in zahlreichen international anerkannten Fachzeitschriften und etablierten Konferenzen veröffentlicht.</abstract>
+                    <subject>
+                        <topic>Szenario</topic>
+                        <topic>Szenariotechnik</topic>
+                    </subject>
+                    <classification authority="ddc">650</classification>
+                    <classification authority="ioo" displayLabel="Institut für Produktionstechnik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-12928</identifier>
+                    <identifier type="sys">HT019661550</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1292</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaHabil</vl:doctype>
+                        <vl:defenseDate>2017-02-02</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1292">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1292/1/Habilitationsschrift_Volker_Grienitz.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1292"
+            DMDID="DMD_siegen_opus_1292">
+            <mets:fptr FILEID="FILE0_siegen_opus_1292"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

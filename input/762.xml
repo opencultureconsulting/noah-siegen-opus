@@ -1,0 +1,63 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>762</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Stereo vision for facet type cameras</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Tao</pc:foreName>
+            <pc:surName>Jiang</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">stereosehen</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">künstliche Facettenaugensysteme</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">subpixel</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Fassette</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">eCley</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">stereo vision</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">artificial compound eye</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">subpixel</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">facet</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">eCley</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Ausgehend von den Facettenaugen der Insekten haben Wissenschaftler seit 10 Jahren viele künstliche Facettenaugensysteme erstellt, die auf der Multi-Apertur-Optik basieren. Im Vergleich zu den auf Single-Apertur-Optik basierenden Systemen sind diese Systeme kleiner und leichter. Außerdem haben solche Systeme ein großes Sichtfeld und eine hohe Empfindlichkeit. Das eCley (Electronic cluster eye) ist ein neues künstliches Facettenaugensystem, das Bilder mit Super-Pixel-Auflösung erstellen kann, welches vom Sehsystem der parasitären Wespe „Xenos Peckii“ inspiriert ist. Wegen seiner ausgezeichneten Fähigkeiten sind eCley-Systeme in den Bereichen ärztliche Untersuchung, Identitätsauthentifizierung, Roboternavigation und Flugkörperlenkung angewendet worden. Aber solche Anwendungen basieren nur auf der Datenverarbeitung im 2D-Bereich. Wenn jedoch mit einem eCley-System räumliche 3D-Daten erzeugt werden können, kann man nur mit eCley 3D-Rekonstruktion, Lokalisierung und Entfernungsmessung erledigen, die man vorher mit anderen Geräten durchführen musste.&#13;
+Zwar können je zwei horizontal benachbarte Mikrokameras im eCley als ein Stereo-Sehsystem genutzt werden, aber es ist nicht leicht, die räumlichen Informationen durch so kleine Kameras zu erhalten. Die von der Mikrokamera gemachten Fotos haben nur eine ziemlich niedrige Auflösung. Außerdem ist die Tiefenveränderung der Szene kleiner als 1 Pixel, wenn die Entfernung größer als 86mm ist, d.h. dass viele verbreitete Algorithmen zum Stereosehen mit eCley nicht gut funktionieren können.&#13;
+Um die verbreiteten Stereosehalgorithmen mit dem eCley besser anwenden zu können, wurde eine neue Methode dafür im Bereich des Subpixel-Stereosehen erstellt. Diese Methode basiert auf der positiven Eigenschaft des eCleys, dass die Kanten des Ziels im eCley sehr gut behalten werden können. Im Übergang zwischen Bilder benachbarter Mikrokameras gibt es zahlreiche Tiefeninformationen. Mit diesen Tiefeninformationen kann der entsprechende Subpixelabstand ausgerechnet werden. Danach kann die Entfernung des Ziels mit dem Subpixelabstand berechnet werden. Aufgrund der Struktur des eCleys haben wir in dieser Doktorarbeit ein mathematisches Modell des Stereosehens für eCley abgeleitet. Dazu werden die optische Ausrichtung und die geometrische Korrektur, die die Voraussetzungen zur präzisen Messung sind,  diskutiert. Zum Schluss haben wir die Subpixel-Baseline-Methode, die auf der Helligkeit und den Gradienten basiert, und die Echtzeit-Messung für den Subpixelabstand, die auf der Eigenschaft der Kanten basiert, entwickelt. &#13;
+Um unsere Methode zu überprüfen, haben wir viele künstliche und reale Szenenbilder angewendet. Das Ergebnis zeigt, dass unsere Methode die Messung zum Subpixelabstand für Stereopixelpaare ausgezeichnet realisiert hat. Außerdem funktioniert diese Methode in vielen komplexen Umgebungen robust. Das bedeutet, dass die Methode die Fähigkeit des eCleys verbessert hat, die 3D-Umgebung zu erkennen. Das eCley kann daher in verschiedenen 3D-Anwendungsbereichen eingesetzt werden.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">In the last decade, scientists have put forth many artificial compound eye systems, inspired by the compound eyes of all kinds of insects. These systems, employing multi-aperture optical systems instead of single-aperture optical systems, provide many specific characteristics, such as small volume, light weight, large view, and high sensitivity. Electronic cluster eye (eCley) is a state-of-the-art artificial superposition compound eye with super resolution, which is inspired by a wasp parasite called the Xenos Peckii. Thanks to the inherent characteristics of eCley, it has successfully been applied to aspects of medical inspection, personal identification, bank safety, robot navigation, and missile guidance. However, all these applications only involve a two-dimensional image space, i.e., no three-dimensional (3D) information is provided. Conceiving of the ability of detecting 3D space information using eCley, the performances of 3D reconstruction, object position, and distance measurement will be obtained easily from the single eCley rather than requiring extra depth information devices. In practice, there is a big challenge to implementing 3D space information detection in the minimized eCley, although structures similar to stereo vision exist in each pair of adjacent channels. In the case of an imaging channel with short focal length and low resolution, the determination of the depth information not only is an ill-posed problem but also varies in the range of one pixel from quite near distance (≥86 mm), which restricts the applicability of popular stereo matching algorithms to eCley. Taking aim at this limitation, and with the goal of satisfying the real demands of applications in eCley, this thesis mainly studies a novel method of subpixel stereo vision for eCley. This method utilizes the significant property of object edges still retained in eCley, i.e., the transitional areas of edges contain rich information including the depths or distances of objects, to determine subpixel distances of the corresponding pixel pairs in the adjacent channels, to further obtain the objects' depth information by employing the triangle relationship. In the whole thesis, I mainly deduce the mathematical model of stereo vision in eCley theoretically based on its special structure, discuss the optical correction and geometric calibration that are essential to high precision measurement, study the implementation of methods of the subpixel baselines for each pixel pair based on intensity information and gradient information in transitional areas, and eventually implement real-time subpixel distance measurement for objects through these edge features. To verify the various methods adopted, and to analyze the precision of these methods, I employ an artificial synthetical stereo channel image and a large number of real images captured in diverse scenes in my experiments. The results from either a process or the whole method prove that the proposed methods efficiently implement stereo vision in eCley and the measurement of the subpixel distance of stereo pixel pairs. Through a sensitivity analysis with respect to illumination, object distances, and pixel positions, I verify that the proposed method also performs robustly in many scenes. This stereo vision method extends the ability of perceiving 3D information in eCley, and makes it applicable to more comprehensive fields such as 3D object position, distance measurement, and 3D reconstruction.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2013-09-26</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2013</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-7624</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Bildinformatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="jiang.pdf" ddb:fileSize="2822080"/>
+   <ddb:checksum ddb:type="MD5">ee1749ed54ae6f4c92410f09d8239f28</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/762/1/jiang.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/762</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

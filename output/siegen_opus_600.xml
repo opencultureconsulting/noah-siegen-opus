@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_600">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Die </nonSort>
+                        <title>Soziale Marktwirtschaft aus dem Blickwinkel von Schulbüchern in NRW</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hofmann, Michael</displayForm>
+                        <namePart type="family">Hofmann</namePart>
+                        <namePart type="given">Michael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schuhen, Michael</displayForm>
+                        <namePart type="family">Schuhen</namePart>
+                        <namePart type="given">Michael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schürkmann, Susanne</displayForm>
+                        <namePart type="family">Schürkmann</namePart>
+                        <namePart type="given">Susanne</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Nach aktuellen Umfragen ist die Akzeptanz unserer Wirtschaftsordnung bei einem Großteil der deutschen Bevölkerung gering. Aber ist die vielfach diskutierte Sinnkrise der Sozialen Marktwirtschaft ein Produkt des Zeitgeistes, oder ist doch eher ein weit verbreiteterer Mangel an Verständnis über ökonomische Zusammenhänge die Ursache für den Akzeptanzverlust? Die Autoren gehen der Frage nach, ob das eigentliche Problem auf eine Vermittlungskrise in der Schule zurückzuführen ist. Im Folgenden wird das Konstrukt der Sozialen Marktwirtschaft im Blickwinkel von Schulbüchern in NRW untersucht.</abstract>
+                    <abstract type="content" lang="eng">To follow current surveys, the acceptance of our economic system achieves low values for a large part of the German population. But is the crisis of meaning of the social market economy just a current phenomenon? Or is a widespread lack of understanding on economic issues cause for the formation of the dilemma? The authors examine the question whether the problem is caused by a communication crisis at school. Therefore the construct of the social market economy from the perspective of textbooks in NRW will be examined. The results of this didactic reflection should to assist the search for the trouble spot.</abstract>
+                    <subject>
+                        <topic>Ökonomische Bildung</topic>
+                        <topic>Soziale Marktwirtschaft</topic>
+                        <topic>Schulbuchanalyse</topic>
+                        <topic>Vermittlungskrise</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-6009</identifier>
+                    <identifier type="sys">HT017148828</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_600</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_600">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/600/1/Schulbuchanalyse_Soziale_Marktwirtschaft.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_600"
+            DMDID="DMD_siegen_opus_600">
+            <mets:fptr FILEID="FILE0_siegen_opus_600"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

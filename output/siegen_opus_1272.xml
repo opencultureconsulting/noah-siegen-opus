@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1272">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Quantum states and their marginals : from multipartite entanglement to quantum error-correcting codes</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Quantenzustände und deren Marginalien : von multipartiter Verschränkung zu fehlerkorrigierenden Quantencodes</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Huber, Felix Michael</displayForm>
+                        <namePart type="family">Huber</namePart>
+                        <namePart type="given">Felix Michael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">At the heart of the curious phenomenon of quantum entanglement lies the relation between the whole and its parts. In my thesis, I explore different aspects of this theme in the multipartite setting by drawing connections to concepts from statistics, graph theory, and quantum error-correcting codes: first, I address the case when joint quantum states are determined by their few-body parts and by Jaynes’ maximum entropy principle. This can be seen as an extension of the notion of entanglement, with less complex states already being determined by their few-body marginals. Second, I address the conditions for certain highly entangled multipartite states to exist. In particular, I present the solution of a long-standing open problem concerning the existence of an absolutely maximally entangled state on seven qubits. This sheds light on the algebraic properties of pure quantum states, and on the conditions that constrain the sharing of entanglement amongst multiple particles. Third, I investigate Ulam’s graph reconstruction problems in the quantum setting, and obtain legitimacy conditions of a set of states to be the reductions of a joint graph state. Lastly, I apply and extend the weight enumerator machinery from quantum error correction to investigate the existence of codes and highly entangled states in higher dimensions. This clarifies the physical interpretation of the weight enumerators and of the quantum MacWilliams identity, leading to novel applications in multipartite entanglement.</abstract>
+                    <abstract type="content" lang="ger">Für das Phänomen der Quantenverschränkung sind die Beziehungen zwischen dem Ganzen und dessen Teilen zentral. In dieser Dissertation untersuche ich verschiede Aspekte dieser Thematik im Hinblick auf Mehrteilchen-Systeme, und ziehe Verbindungen zu Konzepten der Statistik, der Graphentheorie, und der Quantenfehlerkorrektur. Als Erstes untersuche ich die Bedingungen, unter denen Quantenzustände durch ihre Reduktionen auf kleine Subsysteme zusammen mit der Anwendung von Jaynes’ Maximum-Entropie-Methode bestimmt sind. Dies kann als eine Ausweitung des Verschränkungsbegriffes gesehen werden, wobei ein weniger komplexer Zustand bereits durch seine Subsysteme kleiner Größe festgelegt ist. Zweitens erörtere ich notwendige Bedingungen an die Existenz von gewissen hoch verschränkten Zuständen. Insbesondere präsentiere ich die Lösung einer langjährigen bisher noch ungelösten Frage zur Existenz eines absolut maximal verschränkten Zustandes, welcher aus sieben Quantenbits besteht. Dies wirft neues Licht auf die algebraischen Eigenschaften von reinen Quantenzuständen und auf die Restriktionen, welche das Teilen von Verschränkung unter mehreren Parteien limitieren. Drittens untersuche ich gewisse Fragestellungen für Quantenzustände, welche dem Rekonstruktionproblem von Ulam in der Graphentheorie ähneln. Dies führt zu neuen Bedingungen, damit eine Sammlung von Marginalien einem gemeinsamen Zustand entstammt. Zuletzt wende ich die Theorie der Gewichtszähler aus der Quantenfehlerkorrektur auf Fragen der Existenz von hoch verschränkten höher-dimensionale Zuständen und von fehlerkorrigierenden Codes an. Dies klärt die physikalische Interpretation der Gewichtszähler und der quantum MacWilliams identität, und führt zu neuartigen Anwendungen in der Theorie der Mehrteilchen-Verschränkung.</abstract>
+                    <subject>
+                        <topic>Verschränkter Zustand</topic>
+                        <topic>Multipartite Verschränkung</topic>
+                        <topic>Fehlerkorrigierende Quantencodes</topic>
+                        <topic>Quanten Marginalien Problem</topic>
+                        <topic>Multipartite entanglement</topic>
+                        <topic>Quantum error-correcting codes</topic>
+                        <topic>Quantum marginal problem</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-12725</identifier>
+                    <identifier type="sys">HT019592832</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1272</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2017-12-15</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1272">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1272/1/Dissertation_Felix_Huber.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1272"
+            DMDID="DMD_siegen_opus_1272">
+            <mets:fptr FILEID="FILE0_siegen_opus_1272"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

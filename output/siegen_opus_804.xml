@@ -1,0 +1,169 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_804">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Lokalisation und Verfolgung von Personen in Echtzeit unter Verwendung kooperierender 2D/3D-Kameras</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Real-Time localization and tracking of persons using cooperative 2D/3D-cameras</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Loepprich, Omar Edmond</displayForm>
+                        <namePart type="family">Loepprich</namePart>
+                        <namePart type="given">Omar Edmond</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die grundsätzliche Zielsetzung von intelligenten Systemen zur Überwachung von Innenräumen
+besteht in der automatisierten Interpretation von Aktionen in dem zu betrachtenden Gebiet. Eine
+Prämisse hierfür ist die Fähigkeit der Detektion, Lokalisation, Verfolgung und Klassifikation von
+Objekten im entsprechenden Zielbereich. 
+Entscheidend  für  die  Konzeption  eines  Überwachungssystems  ist  weiterhin  das  primäre
+Einsatzgebiet. Während für kleine Überwachungsbereiche und unter der Annahme nur weniger
+gleichzeitig  vorhandener  Objekte  eventuell  die  Verwendung  eines  einzelnen  Sensorsystems
+ausreicht, bedarf es im Fall größerer Bereiche, mit mehreren gleichzeitig vorhandenen und zu
+verfolgenden Objekten, in der Regel einer verteilten und miteinander kooperierenden Sensorik. 
+Ein  in  letzter  Zeit  verstärkt  verfolgter Ansatz  zur  Steigerung  der  Leistung  der  Prozesse  von
+Detektion, Lokalisation und Klassifikation liegt dabei in der Verwendung einer Kombination von
+2D-  und  3D-Informationen,  welche,  je  nach  Anforderung,  auf  Pixel-,  Merkmal-  oder
+Entscheidungsebene miteinander fusioniert werden. Die Kombination unterschiedlicher Systeme
+zu  2D/3D-Messsystemen  ist  jedoch  keineswegs  trivial.  Zunächst  bedarf  es  im  Falle  der
+Betrachtung  beweglicher  Objekte  einer  zeitlichen  Synchronisation  der  anfallenden  Daten.  Im
+Hinblick auf eine effektive Fusion ist weiterhin eine Registrierung der Daten der unterschiedlichen
+Quellen notwendig. Tritt zusätzlich die Notwendigkeit einer koordinierten Verwendung mehrerer
+Systeme auf, so kann das aufgrund der sich ergebenden Komplexität in Bezug auf die Handhabung
+der  informationsliefernden  Einheiten  in  einer  inakzeptablen  Operation  des  Gesamtsystems
+münden.
+Die  am  Zentrum  für  Sensorsysteme  (ZESS)  entwickelte  MultiCam,  ein  zurzeit  einmaliges
+Sensorsystem zur kombinierten Akquisition von CMOS-basierten Intensitäts- (2D) und Time-ofFlight  (ToF)  basierten  Distanzdaten  (3D)  einer  gesamten  Szene,  erlaubt  aufgrund  ihres
+monokularen  Aufbaus  eine  drastische  Vereinfachung  der  Registrierung  der  2D-  und  3DInformationen. Weiterhin ermöglicht die interne Logik, untergebracht in einem dedizierten FPGA,
+eine akkurate Synchronisation der unterschiedlichen Informationsströme. Durch die Reduktion der
+Komplexität der Prozesse der Registrierung sowie Synchronisierung der 2D- und 3D-Daten bietet
+sich die Möglichkeit der Kombination einer Vielzahl von simultan operierenden MultiCams zu
+einem Überwachungssystem an, mit im Vergleich zu konventionellen 2D/3D-Systemen drastisch
+vereinfachter Handhabung. 
+Bedingt durch den Einsatz der ebenfalls am ZESS entwickelten Beleuchtungseinheiten, erlauben
+die im Rahmen dieser Arbeit verwendeten MultiCams die Überwachung eines Distanzbereichs bis
+ca.  9 m bei  einer  Bildwiederholrate  von  20  Bildern  pro  Sekunde.  Dieses  entspricht  einem
+Entfernungsbereich, der zurzeit von ToF-Systemen vergleichbarer Art nur unter Einsatz erhöhter
+Integrationszeiten und somit reduzierter Bildwiederholraten abgedeckt werden kann. Weiterhin
+ergibt sich durch die Verwendung einer Linse mit einer Brennweite von  6mmdie Möglichkeit der
+Überwachung von Volumina, in denen sich mehrere Personen simultan aufhalten und miteinander
+interagieren  können.  In  Verbindung  mit  der  vorhandenen  Zeitauflösung  kann  damit  der
+Bewegungsdynamik der Objekte effektiv Rechnung getragen werden. Aufgrund der genannten
+Eigenschaften eignet sich die MultiCam somit ideal zur Detektion, Lokalisation, Verfolgung und
+Klassifikation von Objekten in Innenräumen.
+Durch die Verwendung der Informationen von mehreren, simultan operierenden MultiCams mit
+verschiedenen Ausrichtungen und  einem  sich  teilweise  überlappenden Sichtbereich, lässt  sich
+weiterhin  eine  direkte  Erweiterung  des  Überwachungsbereichs  sowie  eine  Reduktion  durch
+gegenseitige  Objektverdeckungen  induzierten  Uneindeutigkeiten  erreichen  und  ermöglicht  die
+Erzeugung von Objekttrajektorien mit einem erhöhten Informationsgehalt.
+
+Dem  Problem  der  anfallenden  Datenmenge,  die  durch  die  Verwendung  mehrerer  simultan
+operierender  MultiCams  entsteht,  wird  durch  den  Einsatz  eines  agentenbasierten  verteilten
+Systems begegnet. 
+
+Informationsliefernde  Agenten,  bestehend  aus  einer  MultiCam  mit  zugehöriger
+Prozessierungseinheit, übernehmen die Erzeugung von lokalen Informationen bzw. Features bzgl.
+der aus ihrer Sicht vorhandenen Objekte und senden diese in Form eines Statusvektors an einen
+zur  Fusion  aller  Informationen  zuständigen Agenten. Weiterhin können aufgrund der gegenseitigen
+Unabhängigkeit  der  informationsliefernden  Agenten  die  Daten  der  vorhandenen  MultiCams
+parallel bearbeitet werden, was eine einfache Skalierung des Gesamtsystems erlaubt.</abstract>
+                    <abstract type="content" lang="eng">The fundamental objective of intelligent systems targeted towards surveillance of indoor areas lies
+in the automated interpretation of actions within the monitored space. One premise therefore is the
+ability to detect, localize, track and classify objects within the surveyed area
+In terms of system design, it’s also crucial to incorporate the targeted application area. For the case
+of surveillance of just relatively small volumes and with the additional assumption that only very
+few objects are simultaneously present within the detection area, data from a single sensor might
+be sufficient in order to infer adequate information. Increasing the area to be monitored and also
+allowing multiple objects to dynamically interact in the space to be surveyed, usually leads to the
+necessity  to  apply  multiple  distributed  sensor  systems  which,  in  order  to  generate  useful
+information, have to work together in a cooperative manner.
+One  in  recent  times  increasingly  adopted  approach  in  order  to  increase  the  performance  of
+detection, localization and classification is to utilize a combination of devices delivering 2D- and
+3D-data. Depending on the requirement, fusion of the information is then done on pixel-, feature or decision-level. The combination of different systems in a 2D/3D-measurement device is not
+trivial, though. In case of taking moving objects into account, there’s a necessity to provide an
+adequate temporal synchronisation mechanism between the participating devices. With regard to
+an effective fusion process, the process of registration of the acquired data needs also to be
+applied. Furthermore, by combining multiple of such 2D/3D-devices into one all encompassing
+system, the additional need for a coordinated management emerges. Having to cope with all of the
+aforementioned points might well lead to a system complexity which is intricate to handle and
+which in turn might result in an unacceptable overall system performance.
+The at the Center for Sensorsystems (ZESS) developed MultiCam, an at the moment unique sensor
+system usable to acquire a combination of CMOS-based intensity (2D) and Time-of-Flight (ToF)
+based distance information (3D) of a complete scene. Due to the monocular set-up, a drastic
+simplification  of  the  process  of  image  registration  of  the  2D-  and  3D-images  is  attained.
+Furthermore, the internal logic, situated in an embedded FPGA, permits an accurate temporal
+synchronisation  of  the  different  information  streams.  Due  to  the  reduction  of  the  overall
+complexity of the processes of registration and temporal synchronisation of the 2D- and 3D-data, it
+is feasible to combine a multitude of simultaneously operating MultiCams to a surveillance system
+with,  in  comparison  with  conventional  2D/3D-systems,  a  drastic  simplification  in  terms  of
+handling.
+The additional application of the also at the ZESS developed dedicated MultiCam illumination
+units enables to supervise an area up to a distance of maximal  9mat a camera frame rate of 20fps.
+With similar ToF devices, the same distance range can only be achieved by an increase of the
+sensor integration times and which in turn directly leads to a reduced frame rate. Furthermore, as a
+result of the utilization of a lens with a focal length of  6mm, it is possible to monitor volumes in
+which multiple persons can simultaneously be present and also interact with each other. Due to the
+available  temporal  resolution,  one  can  account  for  the  dynamic  behaviour  of  the  objects
+effectively. As a results of all of the aforementioned properties, the MultiCam is ideally suited for
+the detection, localization, tracking and classification of objects in indoor areas.
+Through  the  combination  of  multiple  simultaneously  operating  MultiCams  with  different
+orientations and partially overlapping field of views, it is possible to directly extend the surveyed
+area and also reduce the amount of mutual object occlusion. This directly leads to the generation of
+object trajectories with an increased information content. 
+In order to respond to the amount of data generated by the simultaneous operation of multiple
+devices,  an  agent  based  system  is  utilized.  Information  delivering  agents,  composed  of  one
+MultiCam with dedicated processing unit, are responsible for the direct processing of the acquired
+raw sensor data. Based on their view onto the scene, they generate information in form of a local
+status vector which they send to a dedicated fusion agent. This fusion agent is in turn responsible
+for the combination of all of the local information received into one global status vector. Due to the mutual independence of the participating agents, parallel processing
+of the acquired data is inherently possible which in turn results in the possibility to be able to scale
+the system in an easy manner.</abstract>
+                    <subject>
+                        <topic>Datenfusion</topic>
+                        <topic>2D/3D-devices</topic>
+                        <topic>surveillance system</topic>
+                        <topic>multiple simultaneously operating MultiCams</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="NRW-Zentrum für Sensorsysteme (ZESS)"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-8040</identifier>
+                    <identifier type="sys">HT018312275</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_804</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2014-01-23</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_804">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/804/1/loepprich.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_804"
+            DMDID="DMD_siegen_opus_804">
+            <mets:fptr FILEID="FILE0_siegen_opus_804"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1884">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Understanding and designing automation with peoples&apos; wellbeing in mind</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Klapperich, Holger</displayForm>
+                        <namePart type="family">Klapperich</namePart>
+                        <namePart type="given">Holger</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Uhde, Alarith</displayForm>
+                        <namePart type="family">Uhde</namePart>
+                        <namePart type="given">Alarith</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Hassenzahl, Marc</displayForm>
+                        <namePart type="family">Hassenzahl</namePart>
+                        <namePart type="given">Marc</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">Other</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Nowadays, automation not only dominates industry but becomes more and more a part of our private, everyday lives. Following the notion of increased convenience and more time for the &quot;important things in life”, automation relieves us from many daily household chores – robots vacuum floors and automated coffeemakers produce supposedly barista-quality coffee on the press of a button. In many cases these offers are embraced by people without further questioning.  Of course, automation frees us from many unloved activities, but we may also lose something by delegating more and more everyday activities to automation. In a series of four studies, we explored the experiential costs of everyday automation and strategies of how to design technology to reconcile experience with the advantages of ever more powerful automation.</abstract>
+                    <subject>
+                        <topic>Wohlbefinden</topic>
+                        <topic>Home automation</topic>
+                        <topic>Design for wellbeing</topic>
+                        <topic>Meaningful experiences</topic>
+                        <topic>Automation from below</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-18848</identifier>
+                    <identifier type="sys">HT020961507</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1884</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBdOther</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1884">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1884/3/Understanding_and_Designing_Automation.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1884"
+            DMDID="DMD_siegen_opus_1884">
+            <mets:fptr FILEID="FILE0_siegen_opus_1884"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1051">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Radial basis function collocation methods for band structure computation of phononic crystals</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Radiale Basisfunktion-Kollokationsmethode für die Bandstrukturberechnung von phononischen Kristallen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zheng, Hui</displayForm>
+                        <namePart type="family">Zheng</namePart>
+                        <namePart type="given">Hui</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The main aim of this thesis is to develop an accurate and efficient numerical tool based on the radial basis function collocation method (RBFCM) for the band structure calculations of elastic and acoustic waves in one-dimensional (1D) and two-dimensional (2D) phononic crystals. Some new numerical techniques are proposed to accurately deal with the derivative computations of the field quantities near/on the boundaries/interfaces required by the boundary conditions and the continuity conditions on the interfaces. By using these novel numerical techniques, the stability of the RBFCM can be significantly improved, which leads to an enhanced accuracy and efficiency. Both the global RBFCM (GRBFCM) and the local RBFCM (LRBFCM) are presented and discussed in the thesis. Then, the accuracy and the efficiency of the RBFCM are verified by the numerical results obtained by the finite element method (FEM), and applied to the band structure computations of 1D and 2D solid/solid as well as 2D solid/fluid and fluid/solid phononic crystals with different acoustic impedance mismatches, material combinations, scatterer shapes, and lattice forms. The effects of the key geometrical and material parameters on the band structures especially the bandgaps of 1D and 2D phononic crystals are also investigated and discussed.</abstract>
+                    <abstract type="content" lang="ger">Das Hauptziel dieser Arbeit ist es, ein genaues und effizientes numerisches Programm zu entwickeln, welches auf der Basis der radialen Basisfunktions-Kollokationsmethode (RBFCM) die Bandstrukturberechnung von elastischen und akustischen Wellen in eindimensionalen (1D) und zweidimensionalen (2D) phononischen Kristallen ermöglicht. Es werden einige neue numerische Techniken vorgeschlagen, um die Ableitungsberechnungen der Feldgrößen in der Nähe von oder auf den Rändern/Grenzflächen, welche für die Randbedingungen und die Kontinuitätsbedingungen an den Grenzflächen erforderlich sind, genau zu behandeln. Durch die Verwendung dieser neuartigen numerischen Techniken kann die Stabilität der RBFCM wesentlich gesteigert werden, was zu einer verbesserten Genauigkeit und Effizienz führt. Sowohl die globale RBFCM (GRBFCM) als auch die lokale RBFCM (LRBFCM) werden in der Arbeit vorgestellt und diskutiert. Anschließend werden die Genauigkeit und die Effizienz der RBFCM durch die mit der Finite-Elemente-Methode (FEM) erhaltenen numerischen Ergebnisse verifiziert, und die entwickelten RBFCM werden auf die Bandstrukturberechnung von 1D und 2D fest-festen sowie 2D fest-flüssigen und flüssig-festen phononischen Kristallen mit verschiedenen akustischen Impedanzunterschieden, Materialkombinationen, Streuerformen und Gitterformen angewandt. Die Auswirkungen der wichtigsten geometrischen und materiellen Parameter auf die Bandstrukturen, insbesondere auf die Bandlücken von 1D und 2D phononischen Kristallen werden ebenfalls untersucht und diskutiert.</abstract>
+                    <subject>
+                        <topic>Bandstrukturberechnung</topic>
+                        <topic>Phononische Kristalle</topic>
+                        <topic>Elastische Wellen</topic>
+                        <topic>Band structure calculation</topic>
+                        <topic>Phononic crystal</topic>
+                        <topic>Radial basis function</topic>
+                        <topic>Elastic wave</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-10513</identifier>
+                    <identifier type="sys">HT019136983</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1051</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2016-09-09</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1051">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1051/1/Dissertation_Hui_Zheng.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1051"
+            DMDID="DMD_siegen_opus_1051">
+            <mets:fptr FILEID="FILE0_siegen_opus_1051"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

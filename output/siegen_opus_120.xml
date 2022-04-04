@@ -1,0 +1,94 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_120">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Wissensvermittlung mit neuen Medien : Untersuchungen am Beispiel Niedrigenergie- und Solararchitektur</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Benkert, Stephan</displayForm>
+                        <namePart type="family">Benkert</namePart>
+                        <namePart type="given">Stephan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2001</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Was nützt das fundierteste Wissen, wenn es den Elfenbeinturm der Forschung nie verlässt und
+den Alltag der Gesellschaft nicht erreicht? Die Dissertation untersucht am Beispiel
+Niedrigenergie- und Solararchitektur, wie neue Medien eingesetzt werden können, um die
+Kluft zwischen Forschung und Alltag zu überwinden. Besonderer Augenmerk wird auf
+handlungsorientiertes Lernen, konstruktivistische Lerntheorien und gestaltpsychologische
+Grundlagen der Wissensvermittlung gelegt.
+In verschiedenen Kategorien werden multimediale Lernsysteme klassifiziert, z.B. nach Lernparadigma,
+Interaktionspotenzial und Programmstruktur. Mögliche Einsatzgebiete und daraus
+folgende Ansprüche und Anforderungen an Technik und Didaktik der Lernsysteme werden
+erläutert. Aufbauend auf bestehende Kriterienkataloge wird eine „Erweiterte Prüfliste für
+Lernsysteme“ zur Evaluation multimedialer Lernsysteme entwickelt und vorgestellt.
+Eine breit angelegte Sammlung beschreibt multimediale Lernsysteme aus dem Bereich
+Niedrigenergie- und Solararchitektur. Mit der „Erweiterten Prüfliste für Lernsysteme“ werden
+ausgewählte Beispiele detailliert untersucht. Dabei wird vergleichend bewertet, wie die
+didaktischen und technischen Möglichkeiten neuer Medien in die praktische Anwendung
+umgesetzt werden. Anhand der Evaluationsergebnisse werden Stärken und Schwächen der
+Lernsysteme dargestellt, verbunden mit Orientierungshilfen für die erfolgversprechende
+Entwicklung zukünftiger multimedialer Lernsysteme.</abstract>
+                    <abstract type="content" lang="eng">What does the most profound knowledge serve for if it never leaves the ivory tower of
+research and never reaches society’s everyday life? The dissertation investigates for the
+example of low energy and solar architecture how new media can be employed to bridge the
+gap between research and everyday life. Special emphasis is put on active learning,
+constructivist learning theories and Gestalt laws laying ground for knowledge transfer.
+In several categories multimedia learning environments are classified, e.g. according to
+learning paradigm, potential for interaction and program structure. Possible application ranges
+and resulting technical and didactic demands for learning environments are described. Based
+on existing criteria catalogs an enhanced check-list for the evaluation of learning
+environments is developed and presented.
+A broad sample of examples of multimedia learning environments for low energy and solar
+architecture is described with learning goals and target groups as well as contents and learning
+methods. Selected examples are investigated in detail with the enhanced check-list. With
+comparative studies the transfer of technical and didactic possibilities of new media into
+practical application is investigated. The results of these studies reveal strengths and
+weaknesses of learning environments, leading to guidelines for successful future development
+of multimedia learning environments.</abstract>
+                    <subject>
+                        <topic>multimediale Lernsysteme</topic>
+                        <topic>Niedrigenergiearchitektur</topic>
+                        <topic>Solararchitektur</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 3, Sprach-, Literatur- und Medienwissenschaften"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1203</identifier>
+                    <identifier type="sys">HT013103107</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_120</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2001-07-09</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_120">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/120/1/benkert.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_120"
+            DMDID="DMD_siegen_opus_120">
+            <mets:fptr FILEID="FILE0_siegen_opus_120"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

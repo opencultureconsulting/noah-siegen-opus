@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1808">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Data politics</title>
+                        <subTitle lang="eng">the early phase of digitalisation within the federal government and the debate on computer privacy in the United States during the 1960s and 1970s</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Neuroth, Benedikt</displayForm>
+                        <namePart type="family">Neuroth</namePart>
+                        <namePart type="given">Benedikt</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">This article discusses how computer technology was implemented within the US federal government in the 1960s and 1970s. Drawing on sources from the Bureau of the Budget (BOB), later renamed the Office of Management and Budget (OMB), the article demonstrates that the Johnson administration centralised the management of Automatic Data Processing (ADP) and also set technical standards. To characterise this process, the article proposes to use the expression “early phase of digitalisation”. At the time, a debate arose about how the processing of personal data would affect individual rights. Several studies analysed the functioning of technology with regard to computer privacy and suggested general guidelines. In addition, Congress passed data privacy legislation. Regardless of the legal debate, computerisation continued under the Nixon administration. The article argues that digitalisation shaped the privacy debate at the time.</abstract>
+                    <subject>
+                        <topic>Brooks Bill</topic>
+                        <topic>Bureau of the Budget</topic>
+                        <topic>Office of Management and Budget</topic>
+                        <topic>Computer history</topic>
+                        <topic>Information privacy</topic>
+                        <topic>BOB</topic>
+                        <topic>OMB</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-18082</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1808</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1808">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1808/4/Neuroth_Data_politics.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1808"
+            DMDID="DMD_siegen_opus_1808">
+            <mets:fptr FILEID="FILE0_siegen_opus_1808"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

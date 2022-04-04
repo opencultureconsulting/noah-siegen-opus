@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_829">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>CIMAWA : Entwicklung und Anwendung einer textbasierten Assoziations-Berechnungsmethode</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>CIMAWA : development and implementation of a text-based association measuring method</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Uhr, Patrick</displayForm>
+                        <namePart type="family">Uhr</namePart>
+                        <namePart type="given">Patrick</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die vorliegende Arbeit stellt die Entwicklung und Anwendung einer textbasierten Assoziations - Berechnungsmethode vor. Das Verfahren trägt den Titel CIMAWA (Concept for the Imitation of the Human Ability of Word Association) und berechnet die Stärke der Beziehungen zwischen Worten. CIMAWA orientiert sich dabei an der menschlichen Wortassoziation und versucht diese möglichst exakt nachzubilden. Basierend auf großen Textsammlungen, werden statistische Auswertungen über gemeinsames Vorkommen von Worten und deren Häufigkeit dazu verwendet, die Stärke der Assoziationen zwischen Begriffen zu berechnen. Die Ergebnisse der CIMAWA-Berechnungen werden in mehreren Fallstudien mit Assoziationstests an menschlichen Probanden verglichen. Zusätzlich wurden aus der Literatur bekannte Assoziations – Berechnungsmethoden implementiert und in ihrer Leistungsfähigkeit bewertet.
+Die detaillierte Erläuterung der Berechnung und die Herleitung der Parameter werden komplettiert durch die Darstellung der konzeptuellen Unterschiede zwischen den bekannten Berechnungsverfahren und CIMAWA. Die vielseitige Anwendbarkeit und praktische Relevanz der CIMAWA-Assoziationsberechnung wird durch vier Umsetzungen aus verschiedenen Anwendungsgebieten gezeigt.
+Die erste Anwendung zeigt, wie CIMAWA zur Erkennung von Multi-Themenstrukturen in Textdokumenten eingesetzt wird. Die Metaanalyse von Textdokumenten im Instandhaltungsmanagement wird zum Gegenstand der zweiten Anwendung und die kontextbasierte Bereitstellung von Texten im Produktverbesserungsprozess ist im dritten Beispiel behandelt. Ein assoziatives Suchverfahren für die Wissensbasis von Unternehmen bildet die abschließende CIMAWA-Anwendung.</abstract>
+                    <abstract type="content" lang="eng">The present work discusses the development and application of a novel method for text-based word association measuring. The method is entitled as CIMAWA which stands for the ‘Concept for the Imitation of the Human Ability of Word Association‘. CIMAWA calculates the strength of the relationship between words. Taking into account the human ability of word association as an archetype, CIMAWA is aimed at simulating the existing but not necessarily discovered associations. It applies statistical analysis to detect co-occurring terms and frequencies based on huge collections of texts, and uses the outcomes for the calculation of the strength of the relation. 
+CIMAWA is verified in several case studies, especially in comparison with free association tests of human test subjects. In addition the literatures of association measuring are reviewed and the most common methods are implemented and compared with CIMAWA’s outcomes. A detailed explanation of the calculation and the parameters are given, as well as a demonstration of the conceptual differences between CIMAWA and other measurement methods. 
+The multilateral areas of application and the practical adaptability are shown in four independent software applications. The first application shows how CIMAWA is utilized to detect multi-topic structures in text documents. The second discusses the meta-analysis of text documents in maintenance management. The third presents a CIMAWA based recommender system for text documents towards improving quality of industrial goods.  Finally, the fourth application is developed for associative search engine in companies.</abstract>
+                    <subject>
+                        <topic>Text Mining</topic>
+                        <topic>Semantics -- Psychological aspects</topic>
+                        <topic>Knowledge Management</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Wissensbasierte Systeme und Wissensmanagement"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-8298</identifier>
+                    <identifier type="sys">HT018459134</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_829</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2014-09-23</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_829">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/829/1/Dissertation_Patrick_Uhr.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_829"
+            DMDID="DMD_siegen_opus_829">
+            <mets:fptr FILEID="FILE0_siegen_opus_829"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

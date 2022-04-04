@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_872">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Abschlußbericht zum Projekt Konzepte zur Berufsschullehrerbildung : im Auftrag des Bundesministeriums für Bildung und Forschung (Förder-Kennzeichen: K 6116.00) ; Siegen, April 2001</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Buchmann, Ulrike</displayForm>
+                        <namePart type="family">Buchmann</namePart>
+                        <namePart type="given">Ulrike</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kell, Adolf</displayForm>
+                        <namePart type="family">Kell</namePart>
+                        <namePart type="given">Adolf</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2001</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Der Abschlußbericht des BMBF-Projekts &quot;Konzepte zur Berufschullehrerbildung&quot; faßt die Ergebnisse einer historischen, strukturellen und bildungspolitischen Analyse der Berufschullehrerbildung in Deutschland zusammen und gibt einen Ausblick zu ihrer möglichen Weiterentwicklung.</abstract>
+                    <subject>
+                        <topic>Berufsschullehrerbildung</topic>
+                        <topic>Geschichte</topic>
+                        <topic>Konzepte</topic>
+                        <topic>Abschlußbericht</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-8728</identifier>
+                    <identifier type="sys">HT018722682</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_872</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_872">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/872/1/buchmann_kell.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_872"
+            DMDID="DMD_siegen_opus_872">
+            <mets:fptr FILEID="FILE0_siegen_opus_872"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,86 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1581">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Fully-automated plant recognition systems in challenging controlled and uncontrolled environments using classical and Deep Learning methods</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Fathi Kazerouni, Masoud</displayForm>
+                        <namePart type="family">Fathi Kazerouni</namePart>
+                        <namePart type="given">Masoud</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kuhnert, Klaus-Dieter</displayForm>
+                        <namePart type="family">Kuhnert</namePart>
+                        <namePart type="given">Klaus-Dieter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Similar to other sectors, present-day agriculture relies on new advances in different fields such as machine learning, computer vision, robotics, botany, etc. In the modern world, new scopes have been introduced to agriculture, either directly or indirectly, to meet human needs, preserve the natural and environments and resources for the future. As an example, the sustainability of growth is dependent on a drop in cost under a particular threshold, and modernization of agriculture, in different aspects, is a demand to accelerate the process toward an acceptable growth. In order to improve agricultural productivity and increase benefits, one necessity is to transition from traditional methods to modern methods and availability of smart machines. In this way, it is feasible to build systems based on automation and control concepts and utilize precise algorithms for carrying out different tasks with fewer hands-on farms and protecting natural resources for the next generations. Hence, experts in robotics and electrical engineering are also involved with new aspects of agriculture and farming.
+Accordingly, while researchers have been forced to compete for increasing precision and profitability in agricultural activities and improve present methods with respect to natural environments, it is also necessary to serve on new major fronts: accurate mitigation of weeds in fields, optimum water consumption, reducing labor costs and number of workers, 24-hour remote control of fields, etc. Hence, it is necessary to provide more useful information about plant species and apply the extracted information for further purposes. Accurate recognition of plants is an essential part of such information. This task cannot be neglected as it supports not only farmers but also botanists and environmentalists.
+By considering the workplaces of farmers and botanists, it is feasible to divide the workspaces into two main subsets: controlled environments like laboratories with static conditions and uncontrolled environments like outdoor environments with dynamic conditions. Despite the importance of plant recognition, a considerable number of works has been proposed for recognizing plant species in stationary conditions based on constant background, light condition, the position of leaves, presence of single leaves, etc. In the real world, such constraints and assumptions do not lead to promising results. Therefore, consideration of other factors is essential to build efficient systems for natural plant recognition.
+In this research, both workspaces have been considered to develop well-mechanized plant recognition systems. This work employs the modern combined methods for local feature extraction and precise recognition of plant species. To fulfill the goals in the controlled environment, six different plant recognition systems are developed and evaluated by conducting various experiments. It is noteworthy that the modern combined methods have been adopted as the foundation of the first phase of the natural plant recognition systems in the uncontrolled environment. However, the story changes in outdoor environments and there is no fixed condition for taking images of plants and leaves.
+In uncontrolled environments, environmental and non-environmental factors affect the photographing process. Light intensity and illumination are two crucial environmental factors that have an impact on images, and these factors may vary over time. Images taken from one particular scene or object are not the same if it is captured in the morning or the evening. Furthermore, weather affects the color intensity in outdoor environments as the color of leaves depends on temperature, light and water supply, and changes to these factors are also inevitable with the change of month and season. Non-environmental factors like background and distance have also effects on the performance of plant recognition systems. Backgrounds of images of natural plants taken in outdoor environments are generally more complicated in comparison to backgrounds in controlled environments. Meanwhile, the distance, either short or long, between camera and plant is undoubtedly another big challenge in uncontrolled environments. In addition, there is no certainty that the images contain only one single leaf or there will be a number of leaves within images.
+To develop a more efficient natural plant recognition system, we ride the wave of the tsunami of deep learning and build a novel plant recognition system based on a convolutional neural network. Due to the promising result and the superior performance, the system is then deployed as the main core of a mobile real-time system. To evaluate the system, a mobile robot and a semi-robot have been equipped with cameras to navigate and explore the outdoor environment in two different years, 2017 and 2018. While exploring, an image is captured and automatically processed by the deep natural plant recognition system to visualize the species of the target plant as a real-time system. The final results show that the real-time mobile plant recognition system can identify natural plant species independently of the used camera, distance, time of day and other environmental and non-environmental factors in uncontrolled environments.</abstract>
+                    <abstract type="content" lang="ger">Ähnlich wie in anderen Sektoren wird die heutige Landwirtschaft durch aktuelle Fortschritte in anderen Bereichen wie z.B. maschinelles Lernen, Computer Sehen, Robotik, Botanik usw. beeinflusst. Die Moderne eröffnet neue Perspektiven für die Landwirtschaft, sowohl direkt als auch indirekt, um den menschlichen Bedürfnisse besser dienen zu können, dabei die natürlichen Lebensräume zu erhalten und die Ressourcen zu schonen, um nachhaltig zu wirtschaften. So ist beispielsweise die Nachhaltigkeit des Wachstums von einer deutlichen Senkung der Kosten unter einen bestimmten Schwellenwert abhängig. Damit wird die Modernisierung der Landwirtschaft unter verschiedenen Gesichtpunkten eine Forderung, die den Prozess eines akzeptablen Wachstum beschleunigen kann. Um die landwirtschaftliche Produktivität zu verbessern und den Nutzen zu steigern, ist es notwendig, von traditionellen Methoden auf moderne Methoden und insbesondere auf die Verfügbarkeit intelligenter Maschinen zurückzugreifen. Auf diese Weise ist es möglich, Systeme auf Basis von Automatisierungs- und Steuerungskonzepten zu bauen. Mit solchen präzise an die Aufgabe angepassten Systemen können die gleichen Aufgaben mit deutlich weniger menschlicher Arbeitskraft in den Betrieben bewältigt werden und es werden gleichzeitig die natürlichen Ressourcen für die nächsten Generationen geschont. Daher beschäftigen sich Experten für Robotik und Elektrotechnik auch mit neuen Aspekten der Landwirtschaft.
+Die Forschung ist allgemein bemüht die Genauigkeit und Rentabilität der landwirtschaftlichen Tätigkeiten zu steigern und vorhandene Methoden in Einklang mit den gegenwärtigen, natürlichen Gegebenheiten zu verbessern. Dies bedeutet auch, dass es notwendig ist in neuen Gebieten tätig zu werden. Diese Gebiete sind unter anderem, präzisere Minimierung von Unkraut auf den Feldern, Optimierung des Wasserverbrauchs, Reduzierung von Arbeitskosten und Arbeitskräften, sowie ständige Fernsteuerung von Feldern. Um diesen neuen Anforderungen gerecht werden zu können, werden detaillierte Informationen über die verschiedenen Pflanzenarten benötigt. Dabei spielt vor allem die exakte Identifizierung der Pflanzenspezies eine zentrale Rolle. Schlussendlich werden davon die Landwirte, Botaniker und Umweltschützern gleichermaßen profitieren.
+Die Arbeitsbereiche von Landwirten und Botanikern lassen sich in zwei Hauptgruppen unterteilen: Der erste Bereich findet sich in einer kontrollierten Umgebung. Eine solche Umgebung ist charakterisiert durch statische Bedingungen und lässt sich zum Beispiel in einem Labor realisieren. Der zweite Bereich ist die unkontrollierte Umgebung. Diese Umgebung ist durch dynamische Bedingungen geprägt und lässt sich beispielsweise in der Außenumgebung finden. Ein Großteil der Forschung zur Pflanzenerkennung findet bisher in einer kontrollierten Umgebung statt und dokumentiert Ergebnisse, wie die Position und das Vorhandensein einzelner Blätter. Diese Ergebnisse sind auf einen konstantem Hintergrund und gleichbleibende Lichtverhältnisse angewiesen. In der realen Welt überwiegen jedoch dynamische Bedingungen. Folglich kommt es in der Praxis häufig zu unzulänglichen Ergebnissen bei der Identifikation von Pflanzenarten. Für die Optimierung der Pflanzenerkennung in der Praxis ist es daher unbedingt erforderlich weitere Faktoren, die über die in den kontrollierten Umgebungen vorhandenen hinausgehen, zu berücksichtigen.
+In dieser Forschung wurde in beiden Arbeitsbereichen die Entwicklung gut mechanisierbarer Pflanzenerkennungssysteme berücksichtigt. In dieser Arbeit werden moderne kombinierten Methoden zur lokalen Merkmalsextraktion und zur präzisen Erkennung von Pflanzenspezies eingesetzt. Um die Ziele in der kontrollierten Umgebung zu erreichen, werden sechs verschiedene Pflanzenerkennungssysteme entwickelt und durch verschiedene Experimente bewertet. Diese Methoden wurde auch in der ersten Phase in der unkontrollierten Umgebung verwendet. In der Außenumgebung gibt es jedoch keine festgelegten Bedingungen für die Aufnahme von Pflanzen und Blättern. Damit sind die Randbedingungen substantiel anders.
+In unkontrollierten Umgebungen beeinflussen Umwelt- und Nicht-Umweltfaktoren den Prozess der Fotografie. Lichtintensität und Beleuchtung sind zwei wichtige Umweltfaktoren, welche die Bildentstehung beeinflussen. Sie können auch noch im Laufe der Zeit variieren. Die Bilder, die von einer bestimmten Szene oder einem bestimmten Objekt aufgenommen wurden, stimmen nicht überein, wenn sie morgens, mittags oder nachmittags aufgenommen wurden. Darüber hinaus beeinflusst das Wetter die Farbintensität in den Außenumgebungen, ebenfalls ist die Farbe der Blätter von der Temperatur, dem Licht und der Wasserversorgung abhängig. Änderungen dieser Faktoren sind auch mit dem Wechsel von Monat und Jahreszeit unvermeidlich. Nicht-Umweltfaktoren wie Hintergrund und Entfernung wirken sich zusätzlic auf die Leistung von Pflanzenerkennungssystemen aus. Hintergründe von Bildern natürlicher Pflanzen, die im Freien aufgenommen wurden, sind im Vergleich zu Hintergründen in kontrollierten Umgebungen im Allgemeinen komplexer. Der kurze oder große Abstand zwischen der Kamera und den Pflanzen ist zweifellos eine weitere große Herausforderung in unkontrollierten Umgebungen. Außerdem gibt es keine Gewissheit, dass die Bilder nur ein einziges Blatt enthalten, oder eine große Anzahl von Blättern widergegeben wird.
+Um ein effizienteres natürliches Pflanzenerkennungssystem zu entwickeln, surfen wir mit auf der aktuellen Tsunami des Deep Learnings und bauen ein neuartiges Pflanzenerkennungssystem auf, das auf einem recursiven neuronalen Netzwerk basiert. Dieses System wird detailiert vorgestellt und evaluiert. Aufgrund der vielversprechenden Ergebnisse und der guten Leistung wird das System dann als Hauptkern eines mobilen Echtzeitsystems eingesetzt. Zur praxisnahen Bewertung des Systems wurden ein mobiler Roboter und ein Semiroboter mit Kameras ausgestattet, um in zwei verschiedenen Jahren - 2017 und 2018 - die Umgebung im Freien zu erkunden. Während der Erkundung wird das Bild erfasst und automatisch vom System die Spezies der im Bild sichtbaren Pflanzen bestimmt. Die Endergebnisse zeigen, dass das mobile Echtzeitpflanzenerkennungssystem in der Lage ist, natürliche Pflanzenarten unabhängig von der verwendeten Kamera, der Entfernung, der Tageszeit und anderen Umwelt- und Nicht-Umweltfaktoren in unkontrollierten Umgebungen robust zu identifizieren.</abstract>
+                    <subject>
+                        <topic>Pflanzen</topic>
+                        <topic>Natural Plant Recognition System</topic>
+                        <topic>Deep Learning</topic>
+                        <topic>Dynamic Environment</topic>
+                        <topic>Controlled Environment</topic>
+                        <topic>Field Robot</topic>
+                        <topic>Pflanzenbestimmungssystem</topic>
+                        <topic>Dynamische Umgebung</topic>
+                        <topic>Kontrollierte Umgebung</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-15813</identifier>
+                    <identifier type="sys">HT020469611</identifier>
+                    <accessCondition type="use and reproduction">CREATIVECOMMONS.ORG PUBLICDOMAIN ZERO 1.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1581</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2020-03-03</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1581">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1581/1/Dissertation_Masoud_Fathi_Kazerouni.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1581"
+            DMDID="DMD_siegen_opus_1581">
+            <mets:fptr FILEID="FILE0_siegen_opus_1581"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

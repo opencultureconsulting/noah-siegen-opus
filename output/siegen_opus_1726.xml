@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1726">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Buchdruckkunst in der Grafschaft Nassau</title>
+                        <subTitle lang="ger">Christoph Corvin (1552-1620) und der Kreis reformierter Gelehrter an der Hohen Schule in Herborn und Siegen</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Brachthäuser, Christian</displayForm>
+                        <namePart type="family">Brachthäuser</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Wo sich heute die Universitätsbibliothek Siegen im modernisierten Ambiente des Unteren Schlosses befindet, standen einst die Druckerpressen. Die Ende des 16. Jahrhunderts in Herborn gegründete „Academia Nassauensis“, eine reformierte Lehranstalt mit angeschlossenem Pädagogium, war die Wirkungsstätte des Buchdruckers und Verlegers Christoph Corvin (1552-1620).
+Die Ende des 16. Jahrhunderts in Herborn gegründete „Academia Nassauensis“, eine reformierte Lehranstalt mit angeschlossenem Pädagogium zur Vorbereitung auf spätere Hochschulstudien, war die Wirkungsstätte des Buchdruckers und Verlegers Christoph Corvin (1552-1620). Er verfügte nicht nur über handwerkliches Know-how, Vertriebswege und Kontakte zu Buchhändlern und gebildeten Kreisen in der Reichsstadt Frankfurt am Main, sondern war Teil eines intellektuellen Netzwerks, das in der Grafschaft Nassau die kirchliche Doktrin im Geiste Johannes Calvins propagierte. Professoren und Studierende profitierten von Corvins literarischem Engagement in Herborn, vorübergehend aber auch in Siegen (1594 bis 1599 und 1606 bis 1609). Zu seiner Aufgabe gehörte die Herstellung und Verbreitung von Enzyklopädien, Bibelkommentaren, theologischen Traktaten, philosophischen Schriften, medizinischen Ratgebern oder staatstheoretischen Abhandlungen. Corvin belebte dadurch den wissenschaftlichen Diskurs, arbeitete jedoch wie viele andere seiner Berufskollegen unter dem Eindruck strenger Hochschulstatuten.  Dies setzte ein hohes Maß an Professionalität, Sensibilität und Loyalität gegenüber seinem Dienstherrn Johann VI. Graf zu Nassau, Katzenelnbogen, Vianden und Diez (1536-1606)  und seinen Auftraggebern voraus.</abstract>
+                    <subject>
+                        <topic>Reformation</topic>
+                        <topic>Geschichte 1550-1620</topic>
+                    </subject>
+                    <classification authority="ddc">020</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-17266</identifier>
+                    <identifier type="sys">HT020657271</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1726</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1726">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1726/3/Brachth%c3%a4user%2c%20Buchdruckkunst%20Nassau%20Corvin.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1726"
+            DMDID="DMD_siegen_opus_1726">
+            <mets:fptr FILEID="FILE0_siegen_opus_1726"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

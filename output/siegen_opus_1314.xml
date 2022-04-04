@@ -1,0 +1,88 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1314">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Model-based estimation of missing facial structures in 2D and 3D</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Modellbasierte Rekonstruktion von verdeckten Strukturen in Gesichtern in 2D und 3D Daten</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schumacher, Matthaeus</displayForm>
+                        <namePart type="family">Schumacher</namePart>
+                        <namePart type="given">Matthaeus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The 3D Morphable Model of faces (3DMM) is a known method for calculating a 3D face model from a 2D input image by using an analysis-by-synthesis approach. Surveillance or detection as well as investigation of criminal offenses by law enforcement authorities, for instance, are common application scenarios for the 3DMM. In the majority of these fields the reconstruction algorithm must deal with a wide-ranging quality of input data. Since the influence of image degradation on the 3DMM has not been studied yet, the exploration of image artifacts and their impact on the reconstruction quality is one focus of this thesis. Therefore, relevant degradation factors are determined and methods for incorporating the sources in the analysis-by-synthesis algorithm to revert the effect are presented. Especially details lost in the input images due to blur, low resolution or occlusions, are considered in this thesis. By leveraging class-specific knowledge, this restoration process goes beyond what image operations such as deblurring or inpainting can achieve.
+
+Another advantage of the 3DMM is its application to any pose and illumination, unlike image-based methods. However, only with the here presented algorithm the 3DMM can compute realistic face models from severely degraded images. The new method includes the blurring or downsampling operator explicitly into the analysis-by-synthesis approach. In this context, the plausibility of the added information by the 3DMM is another important factor. An application of the model for forensic tasks can only be helpful and supportive if it is ensured that the added data are in line with human expectation and do not lead to wrong cues, thus misleading the investigation.
+
+Besides the validation of added information by the 3DMM, the concept can be used further to explore the human visual system (HVS). The Morphable Model enables a plausible modification of faces and thus a virtual generation of stimuli for perceptual experiments. Hence, the investigation if and how humans use face-specific knowledge to infer non-visible information is addressed in this thesis. In psycho-physical experiments, the inference of facial profiles from the frontal view is examined. The results indicate that humans use the information from the front view, and not just rely on the plausibility of the profiles per se. All findings are consistent with the correlation-based inference of the 3DMM. The results also verify that the 3D reconstructions are congruous with human expectation, since they are chosen to be the true profile as equally often as the ground truth profiles in the experiments.
+
+However, the correlations on which the HVS and many example-based algorithms rely on are implicit and diffcult to visualize. According to these findings, the thesis explores further which facial attributes and characteristics humans or algorithms use to infer information. This is done by identifying and visualizing the most reliable correlations using a canonical correlation analysis (CCA) of faces.
+
+These correlations are used to fill in missing information, e.g. occluded regions, in the 3D face models. Afterwards, the results are compared to the PCA-based approach of the 3DMM by a subsequent assessment of perceived similarity. It is shown that the PCA-based 3DMM captures correlations sufficiently and is not affected by spurious random correlations in the limited training set.
+
+Finally, the findings and methods of this thesis are transferred to a forensic application scenario as part of the BMBF research project INBEKI.</abstract>
+                    <abstract type="content" lang="ger">Das dreidimensionale Morphable Model (3DMM) ist ein bekanntes Verfahren, das 3D-Modelle von Gesichtern durch einen Analyse-durch-Synthese-Ansatz aus 2D-Aufnahmen rekonstruiert. Diese Gesichtsrekonstruktion findet Anwendung unter anderem in der Überwachung und Erkennung von Gesichtern sowie der Ermittlung von Straftaten durch Strafverfolgungsbehörden. Da in diesen Anwendungsbereichen die Qualität der vorliegenden Bilder stark schwankt und der Einfluss von Störfaktoren auf das 3DMM bisher noch nicht untersucht worden ist, liegt ein Schwerpunkt der vorliegenden Arbeit auf der Untersuchung von Bildartefakten und deren Einfluss auf die Rekonstruktionsqualität des 3D-Modells. Hierzu werden zunächst relevante Artefakte ermittelt und Verfahren dargestellt, um den Einfluss auf das 3DMM zu vermindern beziehungsweise die Erzeugung der Artefaktursprünge innerhalb des Analysedurch-Synthese-Verfahrens zu integrieren. Ein besonderer Fokus liegt hierbei auf der Rekonstruktion von Details, die im Eingangsbild durch Unschärfe beziehungsweise niedrige Auflösung sowie Teil-Verdeckungen im Aufnahmeprozess verloren gegangen sind. Durch die Einbeziehung von klassenspezifischem Wissen geht dieser Wiederherstellungsprozess über das hinaus, was allgemeine Bildoperationen wie Deblurring oder Image Inpainting erreichen können.
+
+Ein weiterer Vorteil des 3DMM gegenüber diesen Verfahren ist die Unabhängigkeit von Pose und Beleuchtung. Durch den in dieser Arbeit vorgestellten Algorithmus können realistische Gesichter aus stark verschlechterten Bildern mittels eines erweiterten 3DMM erzeugt werden. Dabei integriert die neue Methode den Unschärfe- oder Downsampling-Operator explizit in den Analyse-durch-Synthese-Algorithmus. In diesem Zusammenhang ist ein weiterer wichtiger Faktor die Plausibilität der hinzugefügten Informationen durch das 3DMM. Eine Anwendung des Modells, beispielsweise im kriminaltechnische Bereich, kann nur hilfreich und nützlich sein, wenn sichergestellt ist, dass die rekonstruierten Daten sowohl korrekt sind als auch mit der menschlichen Erwartung übereinstimmen und so den Betrachter nicht in die Irre führen.
+
+In diesem Rahmen ermöglicht das 3DMM nicht nur eine Validierung der hinzugefügten Informationen, sondern darüber hinaus eine geeignete Methode, das menschliche visuelle Wahrnehmungssystem zu untersuchen, da das Modell eine einfache Modifikation von Gesichtern und damit die Erzeugung von Stimuli für Wahrnehmungsexperimente erlaubt. Aus diesem Grund liegt ein weiteres Augenmerk dieser Arbeit auf der Ermittlung, ob und in welcher Form Menschen gesichtsspezifisches Vorwissen verwenden, um unbekannte Informationen zu schlussfolgern. In psychophysischen Wahrnehmungsexperimenten wird das Erschließen von Gesichtsprofilen aus der Frontalansicht untersucht. Die Ergebnisse zeigen, dass Menschen die Informationen aus der Frontansicht nutzen und sich nicht nur auf die Plausibilität der Profile an sich verlassen. Alle gewonnenen Erkenntnisse stimmen mit der korrelationsbasierten Inferenz des 3DMM überein. Weiterhin bestätigen die Resultate, dass die 3D-Rekonstruktionen der Erwartung des menschlichen Wahrnehmungssystems entsprechen, da sie und die Original-Profile gleichermaßen oft in den durchgeführten Wahrnehmungsversuchen gewählt wurden.
+
+Die Korrelationen, auf denen sowohl das menschliche visuelle System als auch viele Algorithmen beruhen, sind allerdings implizit und schwer zu visualisieren. Entsprechend dieser Erkenntnisse wird im weiteren Verlauf der Arbeit untersucht, welche Attribute und Merkmale von Gesichtern Menschen beziehungsweise Algorithmen Schlussfolgerungen ermöglichen, indem die zuverlässigsten Korrelationen anhand einer Korrelationsanalyse (CCA) von Gesichtern bestimmt sowie intrinsische Korrelationen von zufälligen Korrelationen in den Trainingsdaten getrennt werden.
+
+Die so ermittelten Korrelationen werden verwendet, um fehlende Informationen in Gesichtsmodellen zu rekonstruieren. Die Ergebnisse werden anschließend mit den PCA-basierten Methoden des 3DMM anhand der wahrgenommenen Ähnlichkeit verglichen. Dabei zeigt sich, dass das 3DMM die Korrelationen ausreichend erfasst und nicht durch falsche oder zufällige Zusammenhänge in den begrenzten Trainingsdaten beeinflusst wird.
+
+Abschließend werden die ermittelten Erkenntnisse und Methoden dieser Arbeit als Teil des BMBF-Forschungsprojektes INBEKI auf ein forensisches Anwendungsszenario übertragen.</abstract>
+                    <subject>
+                        <topic>Bildverarbeitung</topic>
+                        <topic>Analyse-durch-Synthese</topic>
+                        <topic>Image Processing</topic>
+                        <topic>Morphable Model</topic>
+                        <topic>Occlusion Handling</topic>
+                        <topic>Canonical Correlation Analysis</topic>
+                        <topic>Deblurring</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Bildinformatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-13148</identifier>
+                    <identifier type="sys">HT019721940</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1314</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2017-11-03</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1314">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1314/1/Dissertation_Matthaeus_Schumacher.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1314"
+            DMDID="DMD_siegen_opus_1314">
+            <mets:fptr FILEID="FILE0_siegen_opus_1314"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

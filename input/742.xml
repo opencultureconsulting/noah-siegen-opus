@@ -1,0 +1,91 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>742</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Consistent FE-analysis of elliptic variational inequalities</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Nicole</pc:foreName>
+            <pc:surName>Klein</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Finite-Elemente-Methode</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">FEM</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Adaptivität</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">a posteriori Fehlerschätzer</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">finite element method</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">adaptivity</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">variational inequality</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">a posteriori error estimate</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">510</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Economical mesh structures are of great interest when simulating physical processes using &#13;
+the Finite Elemente Method. They are essential&#13;
+for a fast calculation producing results of high accuracy. In case of restricted problems, many&#13;
+a posteriori estimators which are the indicators for adaptive refinement turn out to be inconsistent&#13;
+in areas where the restriction takes place. The effort of the subject matter is to develop a&#13;
+method to overcome this problem by introducing saddle point &#13;
+formulations and using the Lagrangian multiplier to balance gaps in the error estimations. &#13;
+When dealing with sattle point problems there may arise the problem of unstable systems due to an &#13;
+injured inf-sup-condition, especially in the discrete case. &#13;
+We solve this problem using the Galerkin least squares method. In consequence&#13;
+we get additional terms which also have to be taken into account when developing the a posteriori estimators.&#13;
+To examine the general validity of this method we analyse problems of different type. &#13;
+That means linear and nonlinear problems with linear or nonlinear restrictions in &#13;
+the primal or dual variable, respectively.&#13;
+In all cases, the resulting adaptive mesh structures  &#13;
+turn out out to be very efficient since they outline critical zones of the underlying problems&#13;
+which is confirmed by numerical tests.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">In der  Simulation von Fertigungsprozessen mit Hilfe der Finite Elemente Technik sind &#13;
+ökonomische Gitterstrukturen von großem Interesse da sie für eine schnelle Berechnung &#13;
+bei gleichzeitiger hoher Genauigkeit unverzichtbar sind. Bei der Behandlung von restringierten&#13;
+Problemen tritt allerdings häufig das Problem auf, dass die Fehlerschätzer, die als Indikatoren &#13;
+für eine adaptive Gitterstruktur dienen, in den restringierten Bereichen inkonsistent sind, was zu&#13;
+ineffizienten Verfeinerungen führt. Für die Optimierung der Fehlerschätzer &#13;
+führen wir in dieser Arbeit Sattelpunktformulierungen ein um mit Hilfe&#13;
+des Lagrangeparameters die entstehenden Inkonsistenzen auszugleichen. Bei der Verwendung von &#13;
+gemischten System kann hier das Problem der Instabilität durch eine verletzte inf-sup Bedingung &#13;
+auftreten, das wir durch die Verwendung des Galerkin least &#13;
+squares Ansatzes beheben. Hieraus resultieren allerdings zusätzliche Terme in der Problemformulierung,&#13;
+die bei der Entwicklung der a posteriori Schätzer ebenfalls berücksichtigt werden müssen. Um die allgemeine&#13;
+Gültigkeit unserer Methode zu untersuchen, analysieren wir Probleme mit unterschiedlichen &#13;
+Eigenschaften, das heißt lineare und nichtlineare Gleichungen mit linearen bzw. nichtlinearen &#13;
+Restriktionen in der primalen oder dualen Variable.&#13;
+In numerischen Tests stellt sich heraus, dass wir in allen Fällen &#13;
+effiziente Gitterstrukturen erzielen, die die kritischen Zonen der jeweiligen&#13;
+Probleme durch hohe Verfeinerung herausarbeiten.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2013-03-13</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2012</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-7429</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV - Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="klein_nicole.pdf" ddb:fileSize="9843568"/>
+   <ddb:checksum ddb:type="MD5">99b3b6f0dc04efe1dc1e3b25d70c6667</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/742/1/klein_nicole.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/742</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

@@ -1,0 +1,78 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1073</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Konzeption und Aufbau eines Systems zur navigierten und roboter-assistierten Laserosteotomie mit spektroskopischer Rückkopplung</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="eng">Design and setup of a system for navigated and robot assisted laserosteotomy with spectroscopic feedback</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Konrad</pc:foreName>
+            <pc:surName>Henn</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Osteotomie</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Roboter</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Laserosteotomie</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Experimentierstand</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Schnittüberwachung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">laserosteotomy</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">robot-assisted</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">real-time supervision</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">experimental setup</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">621</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">In vielen Operationen ist es ein notwendiger und wichtiger Schritt Knochen zu schneiden. Man nennt solche Knochenschnitte Osteotomien. In der heutigen Anwendung in einem Operationssaal kommen vorwiegend mechanische Werkzeuge zum Einsatz wie beispielsweise Sägen, Fräsen, Bohrer oder Meißel. Diese Instrumente sind etabliert, bergen jedoch einige Nachteile wie Erwäarmung, Metallabrieb oder Mikrotraumata im Knochengewebe. Die Handhabung dieser Werkzeuge bedarf viel Erfahrung des Operateurs, so dass komplexere Schnittgeometrien einer langjährigen Ausbildung und viel Erfahrung benötigen.&#13;
+Vor einigen Jahren beschäftigte sich eine Forschungsgruppe des Instituts für Lasermedizin der Universität Düsseldorf damit, ein Laserosteotomieverfahren als Alternative zu den bestehenden Osteotomietechniken zu entwickeln. Die Grundlagen dieses Verfahrens wurden gelegt und in mehreren Studien gezeigt, dass ein Knochen mit einem Laser berührungslos, präzise, gewebeschonend und mit geringer Wärmeentwicklung geschnitten werden kann. Es wurde ein Lasersystem geschaffen, das es mit Hilfe eines Laserscanners ermöglicht, beliebige Schnittgeometrien angepasst an den jeweiligen chirurgischen Eingriff durchzuführen. Verwendet wird ein CO2-Laser mit einer Wellenlänge&#13;
+von 10,6µm, dessen Laserstrahl durch einen Strahlscanner in einem Arbeitsbereich von etwa 70x70mm2 auf ebenen Flächen appliziert werden kann. Soll der Laser jedoch in einem größeren Arbeitsbereich verwendet werden, muss der Laserscanner derzeit per Hand positioniert werden. Diese manuelle Verschiebung führt in den meisten Fällen zu Ungenauigkeiten, da die Positionierung nur rein visuell mit Hilfe eines Pilotlasers kontrolliert&#13;
+werden kann.&#13;
+Der Laserstrahl arbeitet sich schrittweise in den Knochen vor. Durch die zunehmende Schnitttiefe muss der Fokuspunkt des Lasersystems nachgeführt werden, was manuell nur schwer exakt durchführbar ist. Zudem fehlt es an einer automatischen Überwachung des Laserschnittes, um im Notfall den Laserstrahl abschalten zu können.&#13;
+In dieser Arbeit wird das Forschungsprojekt ESCURAL (Experimentierstand zur computer- und roboter-assistierten Laserosteotomie) vorgestellt, dessen Ziel es ist, Ärzten ein Assistenzsystem zur Verfügung zu stellen, um präziser und für den Patienten schonender Knochen schneiden zu können. Im Rahmen der durchgeführten Promotionsarbeit wird ein Versuchsstand aufgebaut, bei dem der Laserscanner von einem Roboter über der Ablationsstelle platziert und gehalten wird. Dadurch sollen längere und zusammengesetzte Knochenschnitte auf gekrümmten Oberflächen mit einer Tiefennachfüuhrung des Fokuspunktes realisierbar werden. Der Arzt soll den Knochenschnitt mit Hilfe eines optischen&#13;
+Positionssensors und mehrerer Trajektorienvarianten planen können. Aus dieser&#13;
+geplanten Schnittgeometrie werden eine Trajektorie berechnet und der Roboter sowie der Laser angesteuert. Der Roboter wird durch den optischen Positionssensor in seiner Position und Orientierung kontrolliert.&#13;
+Während des Schneideprozesses entsteht über der Ablationsstelle ein Plasma, aus dessen Spektrum Informationen gewonnen werden sollen, ob der Laser im Moment der Ablation Knochen schneidet, der Knochen bereits durchtrennt ist oder gerade umliegendes Weichgewebe bestrahlt wird. Wird anhand des Spektrums festgestellt, dass der Laser entgegen der Planung gerade keinen Knochen durchtrennt, wird der Laser sofort abgeschaltet. Auf diese Weise soll eine Echtzeitüberwachung des Laserschnittes erfolgen. Der Experimentierstand soll die einzelnen Systemkomponenten wie Roboter, Positionssensor, Laser, Laserscanner und Schnittüberwachung beinhalten. Alle Geräte sollen von einem Zentralrechner mit einer Benutzeroberfläche aus steuerbar sein und interagieren können.&#13;
+Dieses System der roboter-assistierten Laserosteotomie kann vor allem dort gewinnbringend eingesetzt werden, wo zum einen eine sehr präzise und exakte Schnittführung am Knochen notwendig ist und zum anderen eine konservative operative Therapie erhebliche Auswirkungen auf das äußere Erscheinungsbild des Patienten mit sich bringt. Durch den hohen apparativen Aufwand und die notwendige Planungsphase der Behandlung ist ein notfallmedizinischer Einsatz sicherlich nicht möglich. Sinnvolle Einsatzgebiete sind jedoch Eingriffe in Disziplinen wie beispielsweise der Mund-Kiefer-Gesichts-Chirurgie, der&#13;
+Neurochirurgie oder der Herz-Thorax-Chirurgie. In all diesen Bereichen sind exakte und möglichst schonende Knochenbearbeitungen notwendig, um den Heilungsprozess so kurz und angenehm und die Spätfolgen für den Patienten so gering wie möglich zu halten.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Osteotomy, the cutting of bones, is a necessary and important step in many surgical procedures. Today it is common practice in surgery to use mechanical tools like oscillating saws, rotating burrs or chisels. These traditional instruments hold some disadvantages like increasing temperature, friction injury, and other microtraumata in the bony tissues. In addition, the handling of these tools is somewhat sensitive to the technical skills of the surgeon. Developing such skills can take long training with the instruments and&#13;
+much hands-on experience to accomplish complicated geometries.&#13;
+Some years ago a research group of the Institute of Laser Medicine at the University of Duesseldorf developed a new technique to cut bones by using a laser, called laser osteotomy, as an alternative to existing osteotomy techniques. They established the basis of this technique and proved in several studies that it is possible to make precise contact-free cuts while conserving bony tissue and producing little heat artifact. This laser system executes several cutting geometries and adapts to the surgical procedure by using a laser scanner. The research group used a CO2-Laser at a wavelength of 10,6µm.&#13;
+Its laser beam can be applied in an array of about 70x70mm2 on &#13;
+at surfaces. If the laser is needed to cut deeper and larger areas, it has to be positioned by hand in its current state. This manually adjustment will lead to inaccuracies in most cases because the focal point of the laser system has to be repositioned mechanically by hand and by sight with increasing depth of the cut. Additionally, an ability to set parameters to automatically stop the laser cut in case of undesired cuts for example when it reaches the border of a defined area is still missing.&#13;
+In this dissertation, the research project ESCURAL (experimental setup for a computed robot assisted laserosteotomy) is presented. The goal is to provide surgeons with an assistance system to cut bones with more precision and less tissue damage in the surgical field. The experimental procedure involves positioning and locking of the laser scanner over the field of ablation by a robotic system. With this set up, longer and combined cuts on curved surfaces with an adjustment of the focal point can be realized with technical precision. The surgeon plans the cut with the help of an optical tracking device and a&#13;
+choice of predetermined trajectories. Out of this planned geometry of the cut, a trajectory is calculated and the robot and the laser get actuated. The robot is supervised in its position and orientation by the optical tracking system. During the process of the laser cut plasma arises above the place of ablation. By analysis of the spectrum of the plasma, information is gathered about whether the laser is cutting bone, the bone is already cut through, or the surrounding soft tissue is being affected. An immediate automatic shut off can be programmed to stop the laser if the spectrum analysis indicates that soft&#13;
+tissue has been reached or the bone is cut through. This way a real-time supervision of the laser cut is achieved. The experimental set up contains all components of the system including robot, tracking system, laser, laser-scanner and the cut supervision program. All of these are supposed to interact and to be controlled by one computer with a graphical user interface.&#13;
+This system of a robot-assisted laserosteotomy can be successfully applied where exact cuts on bones are necessary because, for example, a common surgical therapy has a significant outcome for the patients’ appearance. Emergency use of ESCURAL would be impractical due to the high amount of instrumentation required and the necessary planning phase in using this equipment. However in medical specialties as Oral and Maxillofacial Surgery, Neurosurgery or Thoracic and Cardiovascular Surgery precise treatment of the bone is required to keep the process of healing as short and comfortable as possible and to lower complication rates.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2016-09-15</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2015</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-10735</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Regelungs- und Steuerungstechnik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Konrad_Henn.pdf" ddb:fileSize="52992634"/>
+   <ddb:checksum ddb:type="MD5">87b25773dc4262f139fec176d3a0c2ec</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1073/1/Dissertation_Konrad_Henn.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1073</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

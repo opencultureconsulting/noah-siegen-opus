@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1797">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Digitale Kompetenzen für zukünftige Wirtschaftsingenieurinnen und -ingenieure – ein Stakeholderranking mithilfe des analytischen Hierarchieprozesses (ahp)</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Lindner, Fabian</displayForm>
+                        <namePart type="family">Lindner</namePart>
+                        <namePart type="given">Fabian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Winkler, Daniel</displayForm>
+                        <namePart type="family">Winkler</namePart>
+                        <namePart type="given">Daniel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mühlan, Kevin</displayForm>
+                        <namePart type="family">Mühlan</namePart>
+                        <namePart type="given">Kevin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Keil, Sophia</displayForm>
+                        <namePart type="family">Keil</namePart>
+                        <namePart type="given">Sophia</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Prof. Dr. Ralph Dreher, Universität Siegen</displayForm>
+                        <namePart type="family">Prof. Dr. Ralph Dreher</namePart>
+                        <namePart type="given">Universität Siegen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Vor dem Hintergrund der digitalen Transformation in Wirtschaft und Gesellschaft sowie der
+Industrie 4.0 schlägt der vorliegende Beitrag die Anwendung des Analytischen Hierarchieprozesses (AHP) zur Wichtung notwendiger Kompetenzen zukünftiger Wirtschaftsingenieurinnen und -ingenieure vor. Dazu wird eine entsprechende Hierarchie von Kriterien unter den Kategorien „Wissen“, „Fähigkeiten“ sowie „Einstellungen und Werte“ gebildet. Zur Durchführung des AHP wird außerdem das Konzept eines Workshops unter Beteiligung entsprechender Stakeholder erläutert.</abstract>
+                    <subject>
+                        <topic>Analytic Hierarchy Process</topic>
+                        <topic>Digitale Transformation</topic>
+                        <topic>Industrie 4.0</topic>
+                        <topic>Kompetenzen</topic>
+                        <topic>Wirtschaftsingenieurwesen</topic>
+                        <topic>Hochschulpädagogik</topic>
+                        <topic>Analytischer Hierarchieprozess (AHP)</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-17971</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1797</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1797">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1797/4/Digitale_Kompetenzen.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1797"
+            DMDID="DMD_siegen_opus_1797">
+            <mets:fptr FILEID="FILE0_siegen_opus_1797"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

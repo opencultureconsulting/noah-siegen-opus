@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_2088">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Puppen, Freiheit und Möglichkeitssinn(e): Die Echse und Michael Hatzius im Interview … … mit Phillip Helmke</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Puppets, freedom and sense(s) of possibility: The Lizard and Michael Hatzius interviewed by ... ... Phillip Helmke</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hatzius, Michael</displayForm>
+                        <namePart type="family">Hatzius</namePart>
+                        <namePart type="given">Michael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Helmke, Phillip</displayForm>
+                        <namePart type="family">Helmke</namePart>
+                        <namePart type="given">Phillip</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Echse und Michael Hatzius im Interview</abstract>
+                    <abstract type="content" lang="eng">The Lizard and Michael Hatzius interviewed</abstract>
+                    <subject>
+                        <topic>Interview</topic>
+                        <topic>Puppe und Comedy</topic>
+                        <topic>Verfremdung als Chance</topic>
+                        <topic>Puppe als ‚dritter Ort‘</topic>
+                        <topic>Interview</topic>
+                        <topic>Puppets/dolls and comedy</topic>
+                        <topic>Alienation as opportunity</topic>
+                        <topic>Doll/puppet as a &apos;third place&apos;</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-20887</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_2088</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_2088">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/2088/1/Hatzius_Echse_Helmke_Interview_Dedo4.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_2088"
+            DMDID="DMD_siegen_opus_2088">
+            <mets:fptr FILEID="FILE0_siegen_opus_2088"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

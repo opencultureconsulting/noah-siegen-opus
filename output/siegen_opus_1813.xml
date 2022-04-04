@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1813">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Home computer on the line</title>
+                        <subTitle lang="eng">the West German BBS scene and the change of telecommunications in the 1980s</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Röhr, Matthias</displayForm>
+                        <namePart type="family">Röhr</namePart>
+                        <namePart type="given">Matthias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">This paper explores the phenomenon of bulletin board systems (BBS) – home computers connected through the telephone network – in West Germany in the 1980s. Due to the openness of the US telephone network, the use of home computers as private communication devices became quite successful across the Atlantic. However, in West Germany, this practice conflicted with the state monopoly and its policy on telecommunications. This paper argues that this conflict was part of a structural change caused by the convergence of IT and telecommunications. The West German government saw this convergence as both a threat and a chance for the national IT and telecommunications industries, prompting it to adopt a telecommunications policy designed to challenge the dominant US IT industry.</abstract>
+                    <subject>
+                        <topic>History of telecommunications</topic>
+                        <topic>History of datanetworks</topic>
+                        <topic>History of computing</topic>
+                        <topic>Bulletin board systems</topic>
+                        <topic>History of digital media</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-18132</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1813</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1813">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1813/4/Roehr_Home_computer.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1813"
+            DMDID="DMD_siegen_opus_1813">
+            <mets:fptr FILEID="FILE0_siegen_opus_1813"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

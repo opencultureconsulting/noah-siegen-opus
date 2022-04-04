@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_857">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Prognosesysteme für die Verkehrssicherheit mit Methoden des Soft-Computings am Beispiel einer Glätteprognose und einer Fahrzustandsbestimmung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wieland, Frank</displayForm>
+                        <namePart type="family">Wieland</namePart>
+                        <namePart type="given">Frank</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2001</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In dieser Arbeit werden neue Prognosesysteme für die Verkehrssicherheit vorgestellt. Die hierfür entwickelten Systeme ermoglichen die Erfassung und Optimierung dynamischen Verhaltens im Straßenverkehr. Um dies zu erreichen wurde ein Adaptionsverfahren entwickelt und getestet, das unter Verwendung von Gewichtungswerten die Wissensbasis eines Fuzzy-Systems optimiert. Des weiteren ist im Rahmen dieser Arbeit ein Verfahren entwickelt worden, das in der Lage ist die Wissensbasis eines Fuzzy-System mit Hilfe von genetischen Algorithmen zu erweitern und zu optimieren. Es ist hierdurch nicht unbedingt notwendig sämtliche Zusammenhänge zwischen den vorhandenen Werten zu kennen und im Vorfeld zu beschreiben. Es wurde auch der Lernalgorithmus für Neuronale Fuzzy-Netze mit Hilfe von α-Schnitten mit einem genetischen Algorithmus erweitert. Dies ermoglicht ein schnelleres Lernen des Netzes und die Ermittlung der optimalen Ergebnisse. Es wurde gezeigt, dass mit Hilfe der beschriebenen Methoden und Vorgehensweisen sich Fehler in aufgenommen Messwerten sehr gut kompensieren lassen. Des weiteren hat es sich gezeigt, dass ein intelligentes System auch in der Lage ist nicht direkt messbare Werte zu ermitteln und mit diesen Werten hinreichend gute Prognosen zu machen. Dies wurde in dieser Arbeit bei der Glätteprognose anschaulich gezeigt. Die Implementierung des Systems zeigt, dass die Prognosegenauigkeit bei 95% liegt. Bei dem realisierten System für die Ermittlung des Fahrzustandes liegt die Genauigkeit bei 75%. Dieser Wert ist im Laufe der Arbeit durch Einbeziehung des Fahrerverhaltens auf 86% erhoht worden. Für eine Verwendung des Messwertes reicht dieses aus. Eine Adaption, die im Laufe der Arbeit realisiert wurde, brachte keine signifikante Verbesserung. Dies war auch zu erwarten, da die adaptierbaren Werte hauptsächlich durch das Benutzerprofil abgedeckt sind. In Systemen, die von mehreren Benutzern bedient werden sind Optimierungsaufgaben nur schwer zu realisieren, da ein dauerndes Wechseln von Anwenderprofilen große Probleme bereitet. Wird für einen der Benutzer ein optimiertes System erstellt, kann dies für einen anderen Benutzer ein vollkommen unzureichendes Profil darstellen. Die hier gewählten Ansätze für das Erkennen des Fahrerverhaltens sind in der Lage die nächsten Reaktionen hinreichend genau vorauszusagen. Obwohl beide Verfahren sehr unterschiedlich sind erzeugen sie jedoch annähernd gleiche Ergebnisse. Die resultierenden Zugehorigkeitsfunktionen sind bis auf kleine Unterschiede gleich. Abschließend ist zu sagen, dass die ermittelten Verfahren nicht nur auf diese Anwendungen beschränkt sind.</abstract>
+                    <abstract type="content" lang="eng">In this work new prognosis systems for road safety are presented. The systems enable the entry and optimization of dynamic behavior in traffic consideration. To get such results an adaptation procedure was developed and tested by optimized weighting values of knowledge base of a fuzzy system. Furthermore in this work a procedure was developed, which is able to extend and optimize the knowledge base of a fuzzy system by genetic algorithms. Thereby it is not necessary to know and describe all connections between the available values. Also the learning algorithm for neural fuzzy networks by using α-cuts was extended with a genetic algorithm. This enables a faster learning of the network and the determination of the optimal results. It was shown that with the help of the described methods errors in measured values can be compensated very well. Furthermore it was shown that an intelligent system is also able to determine not directly measurable values and make with these values sufficiently good prognoses. This was shown in this work with the smoothness prognosis. The implementation of the system shows that the prognosis accuracy is 95%. With the implemented system for the jam prognosis the prognosis accuracy is 75%. This value was increased in the course of the work by inclusion of the drivers behavior to 86%. For use of the measured value this is sufficient. An adaptation, which was implemented in the course of the work, did not bring significant improvement. This was also expected, since the adaptable values are taken off by the user profile mainly. In systems, for different users more difficult optimization tasks have to be implemented, since continuing changing from user profiles prepares large problems. An optimized system created, can represent a perfectly insufficient profile for another user. The beginnings for detecting the driver behavior, selected here, are to be forecastable for the next reactions and are sufficiently exact. Although both procedures are very different, they produce approximately the same results. The resulting membership functions are alike up to small differences. Finally, the determined procedures are not only limited to these applications.</abstract>
+                    <subject>
+                        <topic>Fuzzy logic</topic>
+                        <topic>Neuronal nets</topic>
+                        <topic>Genetic algorithm</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-77</identifier>
+                    <identifier type="sys">HT013728354</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_857</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2001-12-17</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_857">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/857/1/wieland.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_857"
+            DMDID="DMD_siegen_opus_857">
+            <mets:fptr FILEID="FILE0_siegen_opus_857"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

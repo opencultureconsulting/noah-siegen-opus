@@ -1,0 +1,85 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1787">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>TIMEA: Time-triggered message-based multicore architecture for AUTOSAR</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>TIMEA: Zeitgesteuerte nachrichtenbasierte Multicore-Architektur für AUTOSAR</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Urbina Fuentes, Moisés Ignacio</displayForm>
+                        <namePart type="family">Urbina Fuentes</namePart>
+                        <namePart type="given">Moisés Ignacio</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Obermaisser, Roman</displayForm>
+                        <namePart type="family">Obermaisser</namePart>
+                        <namePart type="given">Roman</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">System-on-a-Chips mit mehreren Prozessoren (MPSoC) werden zu einer bevorzugten Option für die Entwicklung eingebetteter Systemanwendungen. Sie bieten die Möglichkeit, unterschiedliche Softwarekomponenten auf unterschiedlichen Kernen parallel auszuführen. In den letzten Jahren wurden mehrere MPSoC-Architekturen für bestimmte Anwendungsbereiche (z.B., Intel, PowerPC usw.) entwickelt. Kommerzielle MPSoCs geben den Zertifizierungsstellen jedoch Anlass zu großer Sorge. Das Paradigma der nachrichtenbasierten Netzwerke auf einem Chip (NoC) bietet signifikante Vorteile hinsichtlich der zeitlichen Vorhersagbarkeit, der Fehlerisolierung und der Energieeffizienz im Vergleich zu den für die Entwicklung von Multicore-Systemen implementierten gemeinsamen Speicheransätzen. Daher stellen vorhersagbare Multi-Core-Plattformen (z.B., COMPSOC, GENESYS MPSoC) nachrichtenbasierte On-Chip-Netzwerke als Lösung bereit. 
+Zur Zeit werden im Automobilbereich Multicore-Prozessoren eingesetzt, die das Paradigma des gemeinsamen Speichers für die Interaktion zwischen den Kernen verwenden. Mit dem AUTOSAR-Standard (Automotive Open System Architecture) wird seit Version 4 eine Multi-Core-Version der ECU-Softwarearchitektur eingeführt, die ein Multi-Core-Betriebssystem definiert, das die Ausführung der zugewiesenen AUTOSARSoftwarekomponenten (SWCs) steuert und verschiedene Kerne mit einem gemeinsamen Speicher unterstützt. AUTOSAR bietet jedoch keinen Ansatz für die Zuordnung seiner ECU-Softwarearchitektur zu einem NoC-basierten MPSoC.
+Um die Vorteile von NoC-basierten MPSoCs mit dem AUTOSAR-Standard zu kombinieren, wird in dieser Dissertation eine neuartige Systemarchitektur vorgestellt, die die AUTOSAR-Einkern-ECU-Softwarearchitektur auf eine nachrichtenbasierte Multi-Core- Plattform abbildet. Die sogenannte TIMEA (TIme-triggered MEssage-based Multi-Core- Plattform für AUTOSAR) definiert ein nachrichtenbasiertes NoC als einziges physikalisches Medium für die Kommunikation zwischen den Kernen und führt autonome Anwendungskerne auf dem MPSoC ein, die als AUTOSAR Micro-ECUs (μECUs) funktionieren. Jede μECU fungiert als Abstraktionseinheit, bei der die SWCs mit einer Laufzeitumgebung (RTE) und einer einfachen Implementierung der AUTOSAR Basis Software (BSW) ausgestattet sind, wobei die Vorteile von nachrichtenbasiertem NoC im Gegensatz zu einem gemeinsamen Speicheransatz genutzt werden (z.B., Fehlerisolation, zeitliche Vorhersagbarkeit). 
+Darüber hinaus wird die rechenintensive Funktionalität der Basis Software an Systemkerne delegiert, die als Hardwarebeschleuniger für die Anwendungskerne dienen. TIMEA unterstützt Fehlertoleranzmechanismen durch die Integration neuer BSW-Module für Health Monitoring Services und Proxy-Funktionalitäten für den Zugriff auf die dedizierten Systemkerne, die SWC-Redundanz auf Kerne-Ebene und auf MPSoC-Ebene bieten.
+TIMEA wurde prototypisch implementiert und mit einem Simulationsframework evaluiert. Das Simulationsframework besteht aus einem AUTOSAR-Simulator und einem On-Chip-Simulator zur Implementierung der Modelle und Algorithmen. Zur Auswertung dienten Automotive Use Cases auf Basis eines Antiblockiersystems und eines Lichtanzeigesystems. Die erhaltenen Ergebnisse zeigen eine bessere Fehlerisolierung für das AUTOSARSystem aufgrund der Verwendung eines On-Chip-Netzwerks für die Inter-Core-Kommunikation. TIMEA unterstützt strenge zeitliche Garantien für die SWC-Interaktion zwischen verschiedenen Kernen. Darüber hinaus wurde die Zuverlässigkeit des AUTOSARMulticore-Systems erheblich verbessert. Fehler auf der SWC-Ebene und auf der Kerne-Ebene werden erkannt und Wiederherstellungslösungen basierend auf der SWC-Redundanz werden ausgenutzt. Schließlich unterstützt die vorgeschlagene Architektur erstmals eine AUTOSARMulticore-Plattform mit SWC-Kommunikation über ein nachrichtenbasiertes NoC.</abstract>
+                    <abstract type="content" lang="eng">Multi-Processors System-on-a-Chips (MPSoCs) are becoming a preferred option for the development of embedded system applications. They provide the possibility to execute different software components in parallel on different cores. In the last years several MPSoC architectures have been developed for specific application domains (e.g., by intel, powerpc, etc). However, commercial MPSoCs are the cause of major concern to certification authorities. The paradigm of message-based Networks-on-a-Chip (NoC) with support for time-triggered communication provides significant advantages with respect to temporal predictability, fault isolation and energy efficiency in comparison to the common shared memory approaches implemented for the development of multicore systems. Therefore predictable multicore platforms (e.g., COMPSOC, GENESYS MPSoC) provide message-based on-chip networks as a solution.
+At present, in the automotive domain, multicore processors are deployed that use the paradigm of shared memory for the interaction between the cores. The AUTOSAR (Automotive Open System Architecture) standard introduces a multicore version of its Electronic Control Unit (ECU) software architecture since the version 4, defining a multicore operating system that controls the execution of AUTOSAR Software Components (SWCs) allocated to different cores with a shared memory for the inter-core communication. However, AUTOSAR does not provide any approach for the mapping of its ECU software architecture to a NoC-based MPSoC.
+In order to combine the benefits of NoC-based MPSoCs with the AUTOSAR standard, this dissertation presents a novel system architecture which maps the AUTOSAR single-core ECU software architecture to a message-based multicore platform. The so-called TIMEA (TIme-triggered MEssage-based multicore platform for AUTOSAR) defines a message-based NoC as the only physical medium for the communication between the cores and introduces autonomous application cores which function as AUTOSAR Micro-ECUs (μECUs) on the MPSoC. Each μECU acts as a unit of abstraction where the SWCs are provided with a Run-Time Environment (RTE) and a lightweight implementation of the AUTOSAR Basic Software (BSW), exploiting the advantages of message-based NoC in contrast to a shared memory approach (e.g., fault isolation, temporal predictability).
+Furthermore, computationally expensive functionality of the basic software is delegated to system cores, which serve as hardware accelerators for the application cores. TIMEA supports fault-tolerance mechanisms by the integration of new BSW modules for health monitoring services and proxy functionalities for accessing the dedicated system cores offering SWC redundancy at the core level and at the MPSoC level.
+TIMEA was prototypically implemented and evaluated using a simulation framework. The simulation framework consists of an AUTOSAR simulator and on-chip simulator for the implementation of the models and algorithms. Automotive use cases based on an anti-lock braking system and a light indicator system served for the evaluation.
+The obtained results demonstrate a better fault isolation for the AUTOSAR system due to the use of an on chip network for the inter-core communication. TIMEA supports stringent temporal guarantees for the SWC interaction between different cores. Moreover, the reliability of the AUTOSAR multicore system was improved considerably. Faults at the SWC level and at the core level are detected and recovery solutions based on SWC redundancy are exploited. Finally, the proposed architecture supports, for the first time, an AUTOSAR multicore platform with SWC communication through a message-based NoC.</abstract>
+                    <subject>
+                        <topic>Kraftfahrzeugelektronik / Norm</topic>
+                        <topic>AUTOSAR</topic>
+                        <topic>Multicore</topic>
+                        <topic>Network-on-a-Chip</topic>
+                        <topic>Fault-tolerance Mechanisms</topic>
+                        <topic>Simulation Environment</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Department Elektrotechnik - Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-17879</identifier>
+                    <identifier type="sys">HT020831747</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1787</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2020-12-04</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1787">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1787/5/Dissertation_Moises_Ignacio_Urbina_Fuentes.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1787"
+            DMDID="DMD_siegen_opus_1787">
+            <mets:fptr FILEID="FILE0_siegen_opus_1787"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

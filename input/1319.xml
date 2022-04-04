@@ -1,0 +1,59 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1319</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Single-image inverse lighting of faces with a virtual light stage</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Davoud</pc:foreName>
+            <pc:surName>Shahlaei</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Gesichtserkennung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Beleuchtungserkennung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Gesichtmodellierung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Inverse Rendering</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Inverse lighting</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Relighting</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Virtual light stage</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Illumination cone</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Face modeling</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">This dissertation addresses the problem of inverse lighting from a single image of a face. No information is given about the face or the imaging conditions, yet, the goal is to estimate a physically plausible lighting that reproduces plain and harsh illumination effects with respect to the appearance of the face in the given image. First, a 3D Morphable Model is fit to the 2D input face. Then, a generating set of images is rendered under all the same conditions as the input image, but different lights. Each image is rendered under a single light source with unit intensity. The light sources build a fixed set that is called a Virtual Light Stage in this dissertation. We assume that the input image belongs to the synthetic illumination cone that this generating set spans. We estimate the coefficients, so that the linear combination of the generating set is as similar as possible to the input image. To aim for more realistic illumination effects, this thesis uses a non-Lambertian reflectance that considers Fresnel specular highlights at grazing angles. Analysis and synthesis of cast shadows under complex lighting conditions is another important subject of the thesis. For the parameter estimation, two probabilistic modeling approaches are proposed. A hierarchical Bayesian model automatically suppresses inconsistencies between the generative model and the input. The nonnegative optimization algorithm finds the optimal spectral intensities of the Virtual Light Stage  light sources for the input face. To enhance the performance of the algorithm on complex illumination effects, such as cast shadows, the hyperparameters of the hierarchical approach are controlled by constraints. This dissertation is a contribution to single image face and environment modeling and analysis with applications in realistic scene reconstruction, intrinsic face model decomposition, relighting and lighting design.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Im Mittelpunkt der vorliegenden Arbeits steht das Thema der inversen Beleuchtung eines Einzelbildes von einem Gesicht. Darüber hinaus sind keine Informationen über das Gesicht oder die Abbildungsbedingungen vorhanden. Somit muss eine physikalisch plausible Beleuchtung  geschätzt werden, die sowohl einfache als auch harte Lichteffekte in Bezug auf das Aussehen des Gesichtes in dem gegebenen Bild reproduziert. Zuerst wird ein 3D Morphable Model an das 2D Eingabegesicht angepasst. Dann wird eine generative Menge von Bildern unter genau den gleichen Bedingungen wie das Eingabebild, aber mit unterschiedlichen Beleuchtungen gerendert, indem jedes Bild unter einer einzigen Lichtquelle mit Einheitsintensität synthetisiert wird. Die Menge der Lichtquellen ist vorgegeben und wird als Virtual Light Stage bezeichnet. Es wird davon ausgegangen, dass das Eingabebild zu dem synthetischen Beleuchtungskonus gehört, den dieser generierende Satz aufspannt. Dann werden die Koeffizienten geschätzt, so dass die Linearkombination des generierenden Satzes möglichst ähnlich dem Eingangsbild ist. Um realistischere Lichteffekte zu ermöglichen, wird eine nicht-Lambert’sche Reflektanzverteilungsfunktion verwendet, die Fresnel-Reflexion bei flachen Winkeln berücksichtigt. Es wird viel Aufwand in die Analyse und Synthese von Schlagschatten unter komplexen Lichtverhältnissen investiert. Für die Parameterschätzung werden zwei probabilistische Modellierungsansätze vorgeschlagen. Ein hierarchisches Bayes’sches Modell unterdrückt automatisch Inkonsistenzen zwischen dem generativen Modell und dem Input. Der Optimierungsalgorithmus mit Nicht-Negativität als Nebenbedingung findet die optimalen spektralen Intensitäten der Virtual Light Stage für das Eingangsbild. Diese Dissertation ist ein Beitrag zur Gesichtsbild- und Umgebungsmodellierung. Einige Anwendungen des vorgeschlagenen Algorithmus sind zum Beispiel die realistische Rekonstruktion des Eingabebildes, die intrinsische Gesichtsmodellzerlegung, die Wiederbeleuchtung und der Beleuchtungsentwurf.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2018-03-12</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2017</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-13194</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Bildinformatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Davoud_Shahlaei.pdf" ddb:fileSize="70671900"/>
+   <ddb:checksum ddb:type="MD5">0ab1d2b6ffabe8aae5c425b715318510</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1319/1/Dissertation_Davoud_Shahlaei.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1319</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

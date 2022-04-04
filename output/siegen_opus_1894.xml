@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1894">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Die </nonSort>
+                        <title>Erfahrung von Armut</title>
+                        <subTitle lang="ger">eine Analyse der Lebenswelt von Personen in Mangel- und Ausschlusslagen in Großbritannien</subTitle>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <nonSort>Die </nonSort>
+                        <title>The experience of poverty : an analysis of the life-world of people experiencing deprivation and exclusion in Great Britain</title>
+                        <subTitle lang="ger">eine Analyse der Lebenswelt von Personen in Mangel- und Ausschlusslagen in Großbritannien</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Erhard, Franz</displayForm>
+                        <namePart type="family">Erhard</namePart>
+                        <namePart type="given">Franz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Was macht ein Leben in Armut aus? Das Buch beantwortet diese Frage anhand qualitativer Interviews, durch die deutlich wird, dass sich hinter dem Sammelbegriff der Armut eine ganze Lebenswelt verbirgt. Diese dreht sich wesentlich um das basale und kurzfristige ‚Über-die-Runden-Kommen‘. Außerdem stehen Gefühle der Kränkung und der Scham im Zentrum. Großbritannien als Untersuchungsraum gilt hierbei als Prototyp eines sogenannten neoliberalen Wohlfahrtsstaats, in dem Armut zur Abwertung des sozialen Status führt. Das wird anhand der Erfahrungsdimensionen Zeit, Raum und Sozialität ausdifferenziert. Soziale Arbeit hilft den Betroffenen, den Devaluierungen zu begegnen.</abstract>
+                    <subject>
+                        <topic>Großbritannien</topic>
+                        <topic>Armut</topic>
+                        <topic>Großbritannien</topic>
+                    </subject>
+                    <classification authority="ddc">300</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-18949</identifier>
+                    <identifier type="sys">HT020906003</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1894</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1894">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1894/4/Erhard_Die_Erfahrung_von_Armut.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1894"
+            DMDID="DMD_siegen_opus_1894">
+            <mets:fptr FILEID="FILE0_siegen_opus_1894"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

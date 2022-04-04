@@ -1,0 +1,101 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1920">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Survey based dataset on automation decisions for assembly systems in Germany</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Burggräf, Peter</displayForm>
+                        <namePart type="family">Burggräf</namePart>
+                        <namePart type="given">Peter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wagner, Johannes</displayForm>
+                        <namePart type="family">Wagner</namePart>
+                        <namePart type="given">Johannes</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Dannapfel, Matthias</displayForm>
+                        <namePart type="family">Dannapfel</namePart>
+                        <namePart type="given">Matthias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Fluchs, Sarah</displayForm>
+                        <namePart type="family">Fluchs</namePart>
+                        <namePart type="given">Sarah</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Müller, Katharina</displayForm>
+                        <namePart type="family">Müller</namePart>
+                        <namePart type="given">Katharina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Koke, Benjamin</displayForm>
+                        <namePart type="family">Koke</namePart>
+                        <namePart type="given">Benjamin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The data provided in the present article provides information on the importance of a list of monetary and non-monetary influencing factors on decisions regarding the automation of an assembly system. A survey among German industry representatives conducted between July 2018 and October 2018 is the basis for this dataset. It contains the characteristics of industrial companies based in Germany that participated in the survey as well as their attitude towards the development of the automation level in assembly systems. The focus of the survey lies on the influencing factors of the production and production environment and their influence on the automation level. The participants were able to evaluate the factors on a six-step ordinal scale from “no influence” to “very strong influence”. Interpretation of this data can be found in the research article titled “Automation decisions in flow-line assembly systems based on a cost-benefit analysis”</abstract>
+                    <subject>
+                        <topic>Automation</topic>
+                        <topic>Automatisierungsentscheidungen</topic>
+                        <topic>Montageanlagen</topic>
+                        <topic>Fließmontagesystemen</topic>
+                        <topic>Automation decisions</topic>
+                        <topic>Assembly systems</topic>
+                        <topic>Flow assembly systems</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19207</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1920</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1920">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1920/4/Survey_based_dataset_on_automation_decisions.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1920"
+            DMDID="DMD_siegen_opus_1920">
+            <mets:fptr FILEID="FILE0_siegen_opus_1920"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

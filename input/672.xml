@@ -1,0 +1,69 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>672</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Quantum gates with trapped ions using magnetic gradient induced coupling</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Anastasiya</pc:foreName>
+            <pc:surName>Khromova</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Quantenspinsystem</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">gefangene Ionen</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Quantengatter</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">MAGIC-Methode</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Spin-Spin Kopplung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Magnetfeldgradient induzierte Kopplung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">linear Paul trap</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">quantum computer</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">quantum information</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">MAGIC method</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">spin-spin coupling</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">530</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Since the original proposal from Cirac and Zoller in 1995 to use trapped ions as a quantum computer and couple a chain of ions through their collective quantize motion, most of the experimental efforts to couple trapped ions have been performed with the use of laser light.  To achieve a high fidelity of the implemented quantum gates, the lasers' frequency, intensity, phase, beam quality, pointing stability and diffraction must be controlled. Additionally, spontaneous emission affects the gate operation. In 2001 a method was proposed to use long-wavelength radiation, such as microwaves or radio-waves, to implement the quantum gates. In practice, an additional inhomogeneous magnetic field is applied to the cooled chain of trapped ions and in this way the ions can be individually addressed in frequency space. Furthermore, the gradient induces a coupling between the ions' internal and motional states and the Ising-type spin-spin coupling (J-coupling) between the ions internal states. We call this method Magnetic Gradient Induced Coupling, MAGIC. By employing MAGIC, it is possible to use microwave radiation instead of optical light, avoiding the fundamental technical limitations mentioned above.&#13;
+&#13;
+In this thesis a new experimental setup to implement MAGIC is described. Initially, the setup was characterized and then different experiments have been performed that evidenced the spin-spin coupling. The coupling constants have been measured for a two and three ion chain. The measured values are in good agreement with the calculated dependence J propto b^2/vz^2, where b is the magnetic field gradient and vz is the axial trap frequency of the common mode. The measurements demonstrated that the coupling constants can be varied by adjusting the axial trapping potential.&#13;
+&#13;
+Spin-spin coupling can be used to implement controlled-NOT (CNOT) gates. First, a CNOT gate between two neighboring ions has been performed to demonstrate that the MAGIC method can be used for conditional dynamics. Furthermore, the CNOT gate has been implemented between non-neighboring ions in a three-ion chain as a proof-of principle of a quantum bus employing the ion chain. This has been done here for the first time using the MAGIC method. The quantum nature of a conditional gate is verified via creation of a bipartite entangled Bell state with a fidelity that exceeds the Bell limit and thus proves the existence of entanglement.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Im Jahr 1995 machten Ignacio Cirac und Peter Zoller den Vorschlag, Ketten von gespeicherten Ionen für den Bau eines Quantencomputers zu nutzen. Dieser Vorschlag wurde experimentell zumeist realisiert, indem die einzelnen Ionen einer Kette mit Hilfe von Laserlicht miteinander verschränkt wurden. Um mit dieser Methode eine hohe Fidelity der implementierten Quantengatter zu erreichen, müssen Frequenz, Intensität und Phase des benutzten Laserlichtes und außerdem das Strahlprofil und die Strahlbeugung sehr stabil und gut einstellbar sein. Zudem beeinflussen spontane Emissionen die Gatteroperationen. Eine Methode, diese fundamentalen technischen Einschränkungen zu umgehen, wurde im Jahr 2001 veröffentlicht. Bei dieser Methode nutzt man langwellige Strahlung wie Mikrowellen oder Radiowellen statt des kurzwelligen Laserlichtes, um Quantengatter zu implementieren. Dafür wird ein zusätzliches inhomogenes Magnetfeld am Ort der Ionenkette angelegt. Dieser Magnetfeldgradient ermöglicht eine Adressierung der einzelnen Ionen der Kette im Frequenzraum. Zudem wird durch den Gradienten eine Kopplung zwischen den inneren und äußeren Zuständen der Ionen erzeugt, es entsteht eine Isingmodell-artige Spin-Spin Kopplung (J-Kopplung) zwischen den Ionen. Diese Methode wird als magnetfeldgradientinduzierte Kopplung, kurz MAGIC (Magnetic Gradient Induced Coupling), bezeichnet.&#13;
+&#13;
+In der vorliegenden Arbeit wird ein neuartiger experimenteller Aufbau zur Umsetzung des MAGIC-Schemas beschrieben. Zunächst wurde der Aufbau charakterisiert und verschiedene Experimente für eine Evidenz der Spin-Spin Kopplung durchgeführt. An Ionenketten mit zwei bzw. drei Ionen wurden die Kopplungskonstanten vermessen. Die Ergebnisse aus diesen Messungen sind in guter Übereinstimmung mit dem berechneten Zusammenhang J propto b^2/vz^2 (b ist dabei der Magnetfeldgradient, vz die axiale Fallenfrequenz der Normalmode). Mit Hilfe dieser Messungen wurde demonstriert, dass die Kopplungskonstanten durch Variation des axialen Fallenpotentials eingestellt werden können. &#13;
+&#13;
+Spin-Spin Kopplung kann dazu genutzt werden, Kontrollierte-Nicht-(CNOT-) Gatter umzusetzen. Im Rahmen dieser Arbeit wurde zunächst ein CNOT-Gatter zwischen zwei benachbarten Ionen ausgeführt und so gezeigt, dass die MAGIC-Methode für die bedingte Dynamik eingesetzt werden kann. Zudem wurde mit der MAGIC-Methode erstmalig ein CNOT-Gatter zwischen zwei nicht benachbarten Ionen einer drei-Ionen-Kette umgesetzt, was der Implementation eines Quantenbusses entspricht. Die Quantennatur der bedingten Gatter wurde gezeigt, indem ein verschränkter Bellzustand mit zwei Ionen erzeugt wurde. Dabei übersteigt die Fidelity das Bell-Limit, eineVerschränkung der Teilchen ist somit bewiesen.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2012-08-09</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2012</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-6724</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV - Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="khromova.pdf" ddb:fileSize="24782604"/>
+   <ddb:checksum ddb:type="MD5">b4745dbd93b5bdee0ff71a1889586d56</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/672/1/khromova.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/672</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

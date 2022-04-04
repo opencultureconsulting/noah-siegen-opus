@@ -1,0 +1,84 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_2135">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>&quot;Same procedure as last year?&quot; Repeatedly tracked swifts show individual consistency in migration pattern in successive years</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wellbrock, Arndt</displayForm>
+                        <namePart type="family">Wellbrock</namePart>
+                        <namePart type="given">Arndt</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Bauch, Christina</displayForm>
+                        <namePart type="family">Bauch</namePart>
+                        <namePart type="given">Christina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Rozman, Jan</displayForm>
+                        <namePart type="family">Rozman</namePart>
+                        <namePart type="given">Jan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Witte, Klaudia</displayForm>
+                        <namePart type="family">Witte</namePart>
+                        <namePart type="given">Klaudia</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Individual migration pattern during non-breeding season is still a black box in many migratory birds. However, knowledge on both individual level and population level in migration and overwintering is fundamental to understand the life cycle of these birds and the constraints affecting them. We showed in a highly aerial migrant, the common swift Apus apus, that repeatedly tracked birds breeding at one site in Germany used the same individual-specific migration routes and wintering areas in subsequent years. In contrast, different individuals from the same breeding colony showed diverse movement patterns during non-breeding season suggesting that several suitable areas for overwintering coexist. We found lower variation in timing of autumn and spring migration within than between individuals. Our findings provide first indication of individual consistency but between-individual variation in migration pattern in a small non-passerine bird revealed by geolocators. This supports that swifts have diverse but individual-specific ‘step-by-step’ migration patterns revealing high flexibility through individual strategies.</abstract>
+                    <subject>
+                        <topic>Zugvögel</topic>
+                        <topic>Migration pattern</topic>
+                        <topic>Overwintering</topic>
+                        <topic>Geolocator</topic>
+                        <topic>Apus apus</topic>
+                        <topic>Behavioral research</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-21356</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_2135</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_2135">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/2135/1/Same_procedure_as_last_year.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_2135"
+            DMDID="DMD_siegen_opus_2135">
+            <mets:fptr FILEID="FILE0_siegen_opus_2135"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

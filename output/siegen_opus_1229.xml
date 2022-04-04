@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1229">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Die </nonSort>
+                        <title>Bachelor- und Masterstudiengänge &quot;Soziale Arbeit&quot; und &quot;Bildung und Soziale Arbeit&quot; in ihren Curricula und Reformkonzepten seit den 1970er Jahren</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Büttner, Kester</displayForm>
+                        <namePart type="family">Büttner</namePart>
+                        <namePart type="given">Kester</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Einführend wird in diesem Artikel ein knapper Blick in die frühe Vergangenheit geworfen, um die aktuellen Studiengänge ‚Bachelor Soziale Arbeit‘ und ‚Master Bildung und Soziale Arbeit‘ hinsichtlich der Curricula der Studiengangsvorläufer in einen Entwicklungsprozess eingebettet darzustellen. Ein zweiter ausführlicher Schwerpunkt dieses Artikels bildet die Betrachtung aktueller Strukturen in den Bachelor- und Masterstudiengängen ‚Soziale Arbeit‘ und ‚Bildung und Soziale Arbeit‘. Ziel soll hier sein, einem interessierten Personenkreis die Rahmenbedingungen und Inhalte dieser Studiengänge an der Universität Siegen näher zu bringen.</abstract>
+                    <subject>
+                        <topic>Sozialarbeit</topic>
+                        <topic>Fachhochschule Siegen-Gummersbach</topic>
+                        <topic>Universität Gesamthochschule Siegen</topic>
+                        <topic>Pädagogik</topic>
+                        <topic>Y-Modell</topic>
+                        <topic>modularer Studienaufbau</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-12295</identifier>
+                    <identifier type="sys">HT019892753</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1229</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1229">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1229/1/Buettner_Die_Bachelor_und_Masterstudiengaenge.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1229"
+            DMDID="DMD_siegen_opus_1229">
+            <mets:fptr FILEID="FILE0_siegen_opus_1229"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

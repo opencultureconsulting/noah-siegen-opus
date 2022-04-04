@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1046">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Wiping the slate? : Margaret Atwood’s &quot;MaddAddam&quot; trilogy and challenges to the concept of cultural memory</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Richard, Eva Maja</displayForm>
+                        <namePart type="family">Richard</namePart>
+                        <namePart type="given">Eva Maja</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">masterThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">This paper deals with memory cultures, identity formation, and the challenges of establishing a continuous history. In Margaret Atwood’s MaddAddam trilogy these factors are dramatised via the extinction of almost all carriers of memory, leaving the remaining survivors in charge of cultural memory. Beginning from there, this paper looks at the importance of a recipient for necessary identity formation in the novels. With the help of Maurice Halbwachs’ and Jan and Aleida Assmann’s research the mechanisms and dynamics of cultural memory are examined as well as the influence of sites of memory, looked at with Pierre Nora’s concept of lieu de mémoire. Major challenges of the post-apocalyptic situation and their influence on memory creation are considered as well as the subsequent establishing of a new canon. Memory as an open system is subjected to constant change from a multitude of agents, rooted in the social dimension of memory formation. Underlying structures of censorship which find their place in oral and written narratives are highlighted and offer a recipient-driven view of memory.</abstract>
+                    <subject>
+                        <topic>Atwood, Margaret</topic>
+                        <topic>Erinnerungskulturen</topic>
+                        <topic>Lieu de mémoire</topic>
+                        <topic>Schriftkultur</topic>
+                        <topic>Cultural memory</topic>
+                        <topic>MaddAddam</topic>
+                        <topic>Orality</topic>
+                        <topic>Ritual</topic>
+                        <topic>Trauma</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät I Philosophische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-10460</identifier>
+                    <identifier type="sys">HT019107319</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1046</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaMasterThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1046">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1046/1/Masterarbeit_Eva_Richard.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1046"
+            DMDID="DMD_siegen_opus_1046">
+            <mets:fptr FILEID="FILE0_siegen_opus_1046"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

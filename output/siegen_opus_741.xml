@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_741">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Die </nonSort>
+                        <title>Bedeutung von Schule als sozialem Ort ästhetisch-kulturellen Lebens und Lernens unter Betrachtung des Kritzel-Phänomens während der Adoleszenz</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Noell, Imke</displayForm>
+                        <namePart type="family">Noell</namePart>
+                        <namePart type="given">Imke</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">masterThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Über das was Jugendliche beschäftigt kann in Schule nur partiell geredet werden. Es verwundert also nicht, das Kritzeleien trotz bitterlicher Reinigungsattacken aus der Lebens- und Lernwelt Schule nicht wegzurationalisieren sind, finden ja schließlich in diesen ästhetisch-kulturellen Alltagspraxen die Sprachsymboliken statt, welche der offizielle Dialog zu unterbinden versucht. 	                                                         
+Das Kritzel-Phänomen erscheint so in unterschiedlichen Räumen, an ungleichen Plätzen sowie zu verschiedenen Zeiten.  Durch seine Multilokalität entstehen  Vernetzungen von (jugend-)kulturellem Bewusstem und Unbewusstem und nicht zuletzt von Schule als Lebenswelt, sozialem Ort und letztlich symbolischem Erfahrungsraum.</abstract>
+                    <subject>
+                        <topic>Ästhetische Bildung</topic>
+                        <topic>Kritzel</topic>
+                        <topic>Jugendkultur</topic>
+                        <topic>Schule</topic>
+                        <topic>Kulturelle Bildung</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät II (Bildung, Architektur, Künste)"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-7410</identifier>
+                    <identifier type="sys">HT017638476</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_741</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaMasterThesis</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_741">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/741/1/noell.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_741"
+            DMDID="DMD_siegen_opus_741">
+            <mets:fptr FILEID="FILE0_siegen_opus_741"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,81 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_297">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Untersuchung von Photogate-PMD-Sensoren hinsichtlich qualifizierender Charakterisierungsparameter und -methoden</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Albrecht, Martin</displayForm>
+                        <namePart type="family">Albrecht</namePart>
+                        <namePart type="given">Martin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2007</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Nach der Grundpatentanmeldung im Jahre 1996, der ersten PMD Realisierung in CMOS-Technologie 1997, über Punkt- und Zeilendemonstratoren und der ersten 3D-Kamera 2001, bis zu aktuellen hochauflösenden Matrixanordnungen mit aktiver Hintergrundlichtunterdrückung hat die PMD-Technologie mit der Serienfertigung eines Produkts 2005 Marktreife erlangt.
+Damit dieses Entwicklungsniveau erreicht werden konnte waren zahlreiche Entwicklungsschritte und -iterationen notwendig, die dem Verständnis des Grundprinzips, der kontinuierlichen Optimierung der funktionellen Eigenschaften und schließlich der Qualitätsüberwachung und -sicherung dienten. Die qualifizierende Bewertung des PMD-Sensors und der Vergleich verschiedener Sensorvariationen untereinander erfordert die Definition neuartiger charakteristischer PMD-Kenngrößen, die unter definierten und konstanten Umgebungsbedingungen reproduzierbar erfasst werden können.
+Die in 5 Kapitel gegliederte Arbeit gibt einen Überblick über qualifizierende Kenngrößen und Messmethoden zur Charakterisierung von PMD-Sensoren.
+Kapitel 1 beginnt mit einer Vorstellung der zum Verständnis notwendigen Grundlagen der Messtechnik, der Korrelation, der Entfernungsmessung über die Lichtecholaufzeit (ToF) und einer kurzen Funktionsbeschreibung des Photomischdetektors (PMD).
+Kapitel 2 beschreibt die Grundvoraussetzung für die Charakterisierung in Form einer geeigneten universellen Messumgebung, die es ermöglicht, PMD-spezifische Funktionseigenschaften reproduzierbar unter konstanten Umgebungsbedingungen zu bewerten.
+Kapitel 3 beinhaltet die Parametrisierung verschiedener PMD-Eigenschaften über geeignete Charakterisierungskenngrößen. Nach einer Nomenklatur und Interpretation der Ausgangsspannungen wird eine für Bildsensoren typische Bestimmung der Empfindlichkeit und des Dunkelstroms durchgeführt. Die Effizienzbewertung der PMD-typischen elektrooptischen Mischung und Korrelation durch einen steuerbaren Potentialgradienten im photosensitiven Bereich erfolgt über statische und dynamische Mischerkennlinien und die Bewertung der Gegentaktkorrelationsfunktion. Der Verlauf der Gegentaktkorrelationsfunktion stellt die wichtigste Eigenschaft des PMDs als Korrelationsempfänger dar und dient als Basis für die Definition verschiedener PMD-Parameter. So spiegelt der Demodulationskontrast, bzw. die Demodulationsempfindlichkeit, die Effizienz des Mischvorgangs wider, während Symmetrie- und Phasenstabilitätsbewertungen Rückschlüsse auf die Verlaufsform ermöglichen. Nach der Vorstellung von matrixtypischen Charakterisierungsparametern endet die Parametrisierung mit einer optischen Dynamikbestimmung auf Basis verschiedener Bewertungsansätze.
+Kapitel 4 zeigt Untersuchungen zur Dynamiksteigerung durch nichtlineare Integrationskennlinien und verdeutlicht die erzielte Dynamikerweiterung eines abschnittsweise linearen Ansatzes an einer vorhandenen PMD-Matrix durch Messungen in der Charakterisierungsumgebung sowie der Aufnahme einer realen 3D-Szene.
+Kapitel 5 schließt diese Arbeit mit einer Zusammenfassung und einem Ausblick ab.</abstract>
+                    <abstract type="content" lang="eng">Since patent pending in 1996, the first realised photonic mixer device (PMD) structure in CMOS technology in 1997, several single pixel and line sensor structures with improved performance and the first 3D camera in 2001, up to current high resolution 3D cameras with active suppression of background illumination, PMD technology has reached readiness for marketing in 2005.
+To achieve this development status, numerous sensor variations had to be evaluated to understand and to verify the basic working principle and to improve the pixel performance. To allow a qualitative comparison between different kinds of sensors, significant characterisation and performance parameters had to be defined and achieved under non-varying measurement conditions. Repeated accuracy of different samples during a long development period is achieved by the realisation of a special kind of measurement environment. It enables the accomplishment of automated measuring routines under constant and reproducible ambient conditions and therefore guarantees reliable measurement data acquisition.
+Goals of this study are the configuration of a modular characterisation platform and the definition and implementation of appropriate PMD performance parameters.
+Chapter 1 starts with a short introduction to the fundamentals of measuring, time of flight measurement, correlation, and a basic PMD principle description.
+In chapter 2 the requirements for the measurement environment are listed. Concerning the demands on flexible optical and electrical signal generation for various kinds of different PMD sensors, a universal and modular characterisation platform is realised and described. It consists of optical signal generation modules, including automated power measurement and attenuation controls, and several electrical pattern generators.
+Chapter 3 includes the definition of different PMD typical characterisation parameters. It starts with a nomenclature and interpretation, based upon the curve of video voltages, and describes the characterisation of some typical parameters for image sensors, like dark current and sensitivity. The PMD mixing efficiency is explained and rated for constant and modulated signal conditions. Based upon the mixing principle the resulting transfer and correlation functions are benchmarked by significant parameters like demodulation contrast, symmetry and stability of phase measurement. Chapter 3 concludes with different kinds of experimental evaluation methods to determine the optical dynamic characteristics.
+Chapter 4 describes a basic approach to increase the optical signal dynamic range by the use of different non-linear integration characteristics. Based on a simplified PMD model the resulting optical dynamic range is evaluated by simulation. The achieved dynamic extension can be shown in measurement results for a standard high resolution PMD sensor under measurement conditions and the resulting distance accuracy of a real 3D scene.
+The work concludes with a short summary and a view of the prospects for the future developments for PMD characterisation.</abstract>
+                    <subject>
+                        <topic>Elektrooptische Entfernungsmessung</topic>
+                        <topic>PMD</topic>
+                        <topic>Photomischdetektor</topic>
+                        <topic>optoelektronischer Gegentaktmischer</topic>
+                        <topic>optoelektronischer Gegentaktkorrelationsempfänger</topic>
+                        <topic>dynamisches 3D-Sehen</topic>
+                        <topic>PMD</topic>
+                        <topic>photonic mixer device</topic>
+                        <topic>time-of-flight</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-2977</identifier>
+                    <identifier type="sys">HT015316753</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_297</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2007-07-31</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_297">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/297/1/albrecht.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_297"
+            DMDID="DMD_siegen_opus_297">
+            <mets:fptr FILEID="FILE0_siegen_opus_297"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

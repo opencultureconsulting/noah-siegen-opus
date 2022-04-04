@@ -1,0 +1,98 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1904">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Nomadic knowledge sharing practices and challenges: findings from a long-term case study</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wulf, Volker</displayForm>
+                        <namePart type="family">Wulf</namePart>
+                        <namePart type="given">Volker</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Pinatti de Carvalho, Aparecido Fabiano</displayForm>
+                        <namePart type="family">Pinatti de Carvalho</namePart>
+                        <namePart type="given">Aparecido Fabiano</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Rohde, Markus</displayForm>
+                        <namePart type="family">Rohde</namePart>
+                        <namePart type="given">Markus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Pipek, Volkmar</displayForm>
+                        <namePart type="family">Pipek</namePart>
+                        <namePart type="given">Volkmar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Saeed, Saqib</displayForm>
+                        <namePart type="family">Saeed</namePart>
+                        <namePart type="given">Saqib</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Reuter, Christian</displayForm>
+                        <namePart type="family">Reuter</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">In this paper, we explore a specialized type of knowledge, namely, nomadic knowledge, to understand its implications in knowledge sharing. Nomadic knowledge is enacted in a discontinuous pattern with a changing set of actors and further flows on a defined trajectory. This knowledge is quite important but is required sporadically, so it has a varying level of importance for stakeholders at different instances of time. The limited interest of knowledge holders after the creation of this type of knowledge makes its sharing process complex. Furthermore, new sets of actors overloaded with tasks often ignore the knowledge sharing aspect of nomadic knowledge due to the urgency of the tasks at hand. Using a long-term field study, we illustrate practices concerning the sharing of nomadic knowledge, which, we argue, are to date not yet well supported technologically. The objective of this contribution is, therefore, to outline the concept of nomadic knowledge and associated implications, so that respective knowledge sharing practices can be supported by the knowledge management community with appropriate technology. The underlying complexity of knowledge sharing practices highlighted in this paper stresses the need for appropriate technological and social processes to facilitate the sharing of nomadic knowledge.</abstract>
+                    <subject>
+                        <topic>Wissensmanagement</topic>
+                        <topic>Knowledge management</topic>
+                        <topic>Knowledge sharing</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19049</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1904</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1904">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1904/4/Nomadic_knowledge_sharing_practices_and_challenges.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1904"
+            DMDID="DMD_siegen_opus_1904">
+            <mets:fptr FILEID="FILE0_siegen_opus_1904"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_826">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Die </nonSort>
+                        <title>Industrialisierung des Siegerländer Amtsbezirks Netphen in der preußischen Zeit 1815/16 bis 1946</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Vitt, Peter</displayForm>
+                        <namePart type="family">Vitt</namePart>
+                        <namePart type="given">Peter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Darstellung des Forschungsstandes zur regionalen Industrialisierung. Überblick über die politischen und historischen Rahmenbedingungen. Untersuchung der Industrialisierung des Amtsbezirks Netphen anhand eines Faktorenmodells mit Beschreibung aller Firmengründungen der nassauischen, bergischen und preußischen Zeit. Behandlung der Infrastrukturen, typischer Betriebsarten der Region und Übersicht der Entwicklung von Bevölkerung und  Berufstätigen in den einzelnen Sektoren. Im Anhang umfangreiches statistisches Material.</abstract>
+                    <abstract type="content" lang="eng">Presentation of the results of research concerning regional
+industrialization. Overview of the political as well as historical framework
+conditions. Research of the industrialization within the administrative
+district of Netphen on the basis of a factor model including the description
+of all company foundations during the nassau, bergisch and prussian period.
+Approach of the infrastructures, typical kinds of industrial operations
+within the region and overview of the development of the population and
+their employment within the individual sectors. Attached comprehensive
+statistical material.</abstract>
+                    <subject>
+                        <topic>Netphen</topic>
+                        <topic>Wirtschaftsgeschichte</topic>
+                        <topic>Siegerland</topic>
+                        <topic>Netphen (Region)</topic>
+                        <topic>Geschichte &lt;1815-1946&gt;</topic>
+                        <topic>industrialization</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät I Philosophische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-8269</identifier>
+                    <identifier type="sys">HT018457520</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_826</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2014-08-31</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_826">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/826/1/Dissertation_Peter_Vitt.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_826"
+            DMDID="DMD_siegen_opus_826">
+            <mets:fptr FILEID="FILE0_siegen_opus_826"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

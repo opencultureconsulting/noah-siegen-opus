@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_593">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Sensor placement methods and evaluation criteria in structural health monitoring</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Li, Dongsheng</displayForm>
+                        <namePart type="family">Li</namePart>
+                        <namePart type="given">Dongsheng</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The objective of the current work is to deepen the understanding of existing influential sensor placement methods and their interrelationship and to develop an effective method to deploy accelerometers suitable for structural health monitoring. Furthermore, we aim to find a sufficient evaluation criterion to judge which topology configuration of sensors outperforms than others. 
+Three major contributions are made in the dissertation. The connection of the influential Modal Kinetic Energy method and the Effective Independence method is derived and a fast algorithm for computing the Effective Independence method is developed. Furthermore, existing influential sensor placement methods are critically reviewed and discussed. An extended MinMAC algorithm is also proposed.
+Secondly, five influential evaluation criteria for sensor placement are treated from a mathematical point of view to reveal their connections and interrelationship. Based on this, an almost unbiasedness criterion is proposed, which is found to be a more general criterion and can be regarded as step-by-step approximate to the Fisher information criterion used by the Effective Independence method. 
+Finally, a loading dependent sensor placement method is specially developed to incorporate the influences of the structural characteristics and that of actual loading conditions with the aid of the proposed representative least squares method. Three computational approaches to find the solution for the representative least squares method and also for the loading dependent sensor placement method are examined. A six-story truss model structure is built and used to validate the idea of loading dependent sensor placement method proposed in the dissertation. Sensor positions should be changed when a structure is subjected to various loading conditions and the essential idea of ‘load dependence’ in the field of sensor placement is established.</abstract>
+                    <subject>
+                        <topic>Vibrationssensor</topic>
+                        <topic>Zustandsüberwachung</topic>
+                        <topic>Zerstörungsfreie Werkstoffprüfung</topic>
+                        <topic>Sensortechnik</topic>
+                        <topic>sensor placement method</topic>
+                        <topic>sensor placement evaluation</topic>
+                        <topic>structural health monitoring</topic>
+                        <topic>load dependent sensor placement method</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Mechanik und Regelungstechnik - Mechatronik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5932</identifier>
+                    <identifier type="sys">HT017115135</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_593</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2011-12-07</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_593">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/593/1/li.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_593"
+            DMDID="DMD_siegen_opus_593">
+            <mets:fptr FILEID="FILE0_siegen_opus_593"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,169 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_455">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Real time object recognition and tracking using 2D/3D images</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Objekterkennung und -verfolgung in Echtzeit mit Hilfe von 2D/3D Bildern</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ghobadi, Seyed Eghbal</displayForm>
+                        <namePart type="family">Ghobadi</namePart>
+                        <namePart type="given">Seyed Eghbal</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Object recognition and tracking are the main tasks in computer vision applications such as safety,
+surveillance, human-robot-interaction, driving assistance system, traffic monitoring, remote surgery,
+medical reasoning and many more. In all these applications the aim is to bring the visual perception
+capabilities of the human being into the machines and computers.
+In this context many significant researches have recently been conducted to open new horizons in
+computer vision by using both 2D and 3D visual aspects of the scene. While the 2D visual aspect
+represents some data about the color or intensity of the objects in the scene, the 3D denotes some
+information about the position of the object surfaces. In fact, these aspects are two different modalities
+of vision which should be necessarily fused in many computer vision applications to comprehend our
+three-dimensional colorful world efficiently.
+Nowadays, the 3D vision systems based on Time of Flight (TOF), which fuse range measurements
+with the imaging aspect at the hardware level, have become very attractive to be used in the
+aforementioned applications. However, the main limitation of current TOF sensors is their low lateral
+resolution which makes these types of sensors inefficient for accurate image processing tasks in real
+world problems. On the other hand, they do not provide any color information which is a significant
+property of the visual data. Therefore, some efforts have currently been made to combine TOF cameras
+with standard cameras in a binocular setup. Although, this solves the problem to some extent, it still
+deals with some issues, such as complex camera synchronization, complicated and time consuming
+2D/3D image calibration and registration, which make the final solution practically complex or even
+infeasible for some applications.
+On the other hand, the novel 2D/3D vision system, the so-called MultiCam, which has recently been
+developed at Center for Sensor Systems (ZESS), combines a TOF-PMD sensor with a CMOS chip in a
+monocular setup to provide high resolution intensity or color data with range information.
+This dissertation investigates different aspects of employing the MultiCam for a real time object
+recognition and tracking to find advantages and limitations of this new camera system. The core
+contribution of this work is threefold:
+In the first part of this work, the MultiCam is presented and some important issues such as
+synchronization, calibration and registration are discussed. Likewise, TOF range data obtained from
+the PMD sensor are analyzed to find the main sources of noise contributions and some techniques are
+presented to enhance the quality of the range data. In this section, it is seen that due to the monocular
+setup of the MultiCam, the calibration and registration of 2D/3D images obtained from the two sensors
+is simply attainable [12]. Also, thanks to a common FPGA processing unit used in the MultiCam,
+sensor synchronization, which is a crucial point in the multi-sensor systems, is possible. These are, in
+fact, the vital points which make the MultiCam suitable for a vision based object recognition and
+tracking.
+In the second part, the key point of this work is presented. In fact, by having both 2D and 3D image
+modalities, obtained from the MultiCam, one can fuse the information from one modality with the
+other one easily and fast. Therefore, one can take the advantages of both in order to make a fast,
+reliable and robust object classification and tracking system. As an example, we observe that in the
+real world problems, where the lighting conditions might not be adequate or the background is
+cluttered, 3D range data are more reliable than 2D color images. On the other hand, in the cases where many small color features are required to detect an object, like in gesture recognition, the high resolution color data can be used to extract good features. Thus, we have found that a fast fusion of
+2D/3D data obtained from the MultiCam, at pixel level, feature level and decision level, provides
+promising results for real time object recognition and tracking. This is validated in different parts of
+this work ranging from object segmentation to object tracking.
+In the last part, the results of our work are utilized in two practical applications. In the first application,
+the MultiCam is used to observe the defined zones to guarantee the safety of the personnel in a close
+cooperation with a robot. In the second application, an intuitive and natural interaction system between
+the human and a robot is implemented. This is done by a 2D/3D hand gesture tracker and classifier
+which is used as an interface to command the robot. These results validate the adequacy of the
+MultiCam for real time object recognition and tracking at the indoor conditions.</abstract>
+                    <abstract type="content" lang="ger">In vielen Anwendungen der Computervision besteht die Hauptaufgabe aus dem Erkennen und
+Verfolgen von Objekten. Dazu zählen z.B. Anwendungen aus dem Bereich der
+Sicherheitsüberwachung, der Mensch-Maschine-Interaktion sowie Fahrerassistenz- und
+Verkehrsüberwachungssysteme oder auch Anwendungen aus dem medizinischen Bereich. Allen diesen
+Anwendungen ist das Ziel gemein, die visuellen Fähigkeiten des Menschen auf Maschinen und
+Computer zu übertragen.
+In diesem Zusammenhang wurden in der Vergangenheit bis heute viele Forschungsansätze verfolgt,
+um neue Horizonte im Bereich der Computervision zu eröffnen, indem sowohl 2D- als auch 3DAspekte
+der Szene berücksichtigt werden. Während die 2D-Informationen sich auf die Farbe oder
+Intensität der Objekte in der Szene beziehen, geben die 3D-Daten Aufschluss über die Positionen der
+Objektoberflächen. Diese beiden Aspekte repräsentieren verschiedene Modalitäten, die
+notwendigerweise fusioniert werden müssen, um die farbige 3D-Welt effizient zu interpretieren.
+Heutzutage sind die optischen 3D-Messsysteme, die auf der Phasenlaufzeitmessung beruhen und die
+eine örtlich aufgelöste Abstandsmessung auf Hardwarebasis ermöglichen, für die oben genannten
+Anwendungsbereiche sehr attraktiv geworden. Jedoch haben die derzeitigen 3D-Sensoren nur eine
+sehr geringe laterale Auflösung, was für Bildverarbeitungsaufgaben bei realen Szenen sehr hinderlich
+ist. Zudem übertragen sie keine Informationen über die Farbe, eine wichtige Eigenschaft der visuellen
+Daten. Aus diesem Grund wurde in letzter Zeit einiger Aufwand getrieben, um die 3D-Kameras mit
+Standardkameras in einem binokularen Aufbau miteinander zu verbinden. Obwohl dadurch das
+Problem zu einem gewissen Ausmaß gelöst wird, entstehen neue Probleme wie die genaue
+Synchronisierung, Kalibrierung und Registrierung der Daten, wodurch die finale Lösung sehr komplex
+oder teilweise unmöglich wird. Auf der anderen Seite wurde am Zentrum für Sensorsysteme eine
+2D/3D-Kamera entwickelt (&quot;MultiCam&quot;), die einen 3D-PMD-Sensor mit einem gewöhnlichen 2DCMOS-
+Sensor in einem monokularen Aufbau verbindet und somit gleichzeitig hochaufgelöste
+Farbbilder und Distanzdaten zur Verfügung stellt.
+Diese Dissertation untersucht verschiedene Aspekte der MultiCam für eine Objekterkennung und
+-verfolgung in Echtzeit und stellt die Vorzüge und Einschränkungen dieser Technik heraus. Der
+Kernbeitrag dieser Arbeit ist in drei Punkten zu sehen:
+Im ersten Teil der Arbeit wird die MultiCam vorgestellt und auf einige wichtige Eigenschaften wie die
+Synchronisierung, Kalibrierung und Registrierung der Daten eingegangen. Außerdem werden die
+Abstandsdaten der Kamera untersucht und einige Techniken zur Rauschunterdrückung werden
+vorgestellt. Auf Grund des monokularen Aufbaus der MultiCam kann die Kalibrierung und
+Registrierung der 2D/3D Bilder sehr einfach erhalten werden [12]. Die Synchronisierung der Daten ist
+dank einer gemeinsamen FPGA-Verarbeitung möglich, was ein entscheidender Punkt in
+Multisensorsystemen darstellt. Dieses sind die wichtigsten Eigenschaften, die die MultiCam für ein
+optisches Objekterkennungs- und verfolgungssystem sehr effizient machen.
+Im zweiten Teil wird der Hauptpunkt dieser Arbeit präsentiert. Dadurch, dass 2D- und 3D-Bilder durch
+eine Kamera akquiriert werden, kann man die Informationen der einen Modalität mit der anderen sehr
+einfach fusionieren. Somit können beide Modalitäten genutz werden, um ein schnelles, zuverlässiges
+und robustes Objektklassifizierungs- und verfolgungssystem zu entwickeln. Zum Beispiel können bei
+in der Realität häufig auftretenden schlechten Lichtverhältnissen die 3D-Daten benutzt werden, um Objekte zuverlässiger zu detektieren, als dies mit den Farbinformationen möglich wäre. Auf der anderen Seite ist zur Erkennung von Gesten eine hohe laterale Auflösung nötig, so dass hierfür das 2DFarbbild
+sehr gut verwendet werden kann. Aus diesem Grund bietet die schnelle Fusion der 2D/3DDaten
+der MultiCam auf einem Bildpunkte-, Merkmals- oder Entscheidungs-orientierten Level
+vielversprechende Ergebnisse für eine Objekterkennung und -verfolgung in Echtzeit. Dies wird in
+dieser Arbeit in verschiedenen Abschnitten validiert, angefangen bei der Objektsegmentierung bis
+hin zur Verfolgung.
+Im letzten Teil werden die Ergebnisse unserer Arbeit in zwei praktischen Anwendungen realisiert. In
+der ersten Anwendung wird die MultiCam zur Überwachung definierter Zonen benutzt, um die
+Sicherheit des Bedienpersonals eines Roboters zu gewährleisten. In der zweiten Anwendung wird ein
+intuitives und natürliches Interaktionssystem zwischen Mensch und Roboter implementiert. Dies wird
+durch eine Handverfolgung und Gestendetektion erreicht, die als Schnittstelle zur Roboterbedienung
+dienen. Diese Resultate bestätigen die Effizienz und Eignung der MultiCam für die Objektdetektion
+und -verfolgung in Echtzeit bei Innenraumbedingungen.</abstract>
+                    <subject>
+                        <topic>Objekterkennung</topic>
+                        <topic>2D/3D Bilder</topic>
+                        <topic>PMD</topic>
+                        <topic>Object Recognition</topic>
+                        <topic>2D/3D Imaging</topic>
+                        <topic>Object Tracking</topic>
+                        <topic>PMD</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="NRW-Zentrum für Sensorsysteme (ZESS)"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4557</identifier>
+                    <identifier type="sys">HT016552463</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_455</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2010-09-15</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_455">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/455/1/ghobadi.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_455"
+            DMDID="DMD_siegen_opus_455">
+            <mets:fptr FILEID="FILE0_siegen_opus_455"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

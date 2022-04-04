@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_869">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Grundbegriffe der Erkenntnislehre für Ökonomen</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Fundamentals of logic and social ethics for economists</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Merk, Gerhard</displayForm>
+                        <namePart type="family">Merk</namePart>
+                        <namePart type="given">Gerhard</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">1985</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Im ersten Teil kurzgefasst die Lehre von den Begriffe, Urteilen und Schlüssen. Im zweiten Teil Wege zur Unterscheidung zwischen Sachurteilen und Werturteilen. Im dritten Teil grundlegende ökonomische und sozialethische Zusammenhänge.</abstract>
+                    <abstract type="content" lang="eng">Part I contains basic knowledge about concepts, conclusions and judgements in logic; part II guidelines to distinguish between factual judgment and value judgement, part III principles of economics and social ethics.</abstract>
+                    <subject>
+                        <topic>Begriffslogik</topic>
+                        <topic>sozialethische Prinzipien</topic>
+                        <topic>value judgments</topic>
+                        <topic>epistemology</topic>
+                        <topic>social principles</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-8696</identifier>
+                    <identifier type="sys">HT018594908</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_869</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_869">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/869/1/Lehrbuch_Gerhard_Merk.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_869"
+            DMDID="DMD_siegen_opus_869">
+            <mets:fptr FILEID="FILE0_siegen_opus_869"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

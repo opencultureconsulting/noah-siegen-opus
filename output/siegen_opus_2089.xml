@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_2089">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Títeres, Teddybären und Puppen in der Hand – Auf der Suche nach der eigenen Welt</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Títeres, teddy bears and dolls in hand – In search on one&apos;s own world</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Balsevicius, Kristiane</displayForm>
+                        <namePart type="family">Balsevicius</namePart>
+                        <namePart type="given">Kristiane</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Vor dem Hintergrund der eigenen Familien- und Migrationsbiographie reflektiert Kristiane Balsevicius die Bedeutung früher Puppen- und Puppenspielerfahrungen im Kindes- und Jugendalter für ihre künstlerische Entwicklung als Puppenspielerin, Regisseurin und Leiterin eines Figurentheaters. Im zusammenschauenden Rückblick wird deutlich, dass frühe Emotionen und Spielthemen (z. B. Heimat, Sehnsucht, Selbstbestimmung, Liebe) in ganz unterschiedlich gestalteten Puppenfiguren und Inszenierungen für Kinder und Erwachsene wiederkehrend bearbeitet und künstlerisch transformiert werden.</abstract>
+                    <abstract type="content" lang="eng">Against the background of her own family constellation and migration biography Kristiane Balsevicius reflects on the significance of early experiences with dolls/puppets and puppeteering in childhood and adolescence for her artistic development as a puppeteer, director and head of a puppet theater. Looking back, it becomes clear that early emotions and play themes (e.g., belongingness, yearning, self-determination, love) are recurrently processed and artistically transformed in very differently designed doll/puppet figures and productions for children and adults.</abstract>
+                    <subject>
+                        <topic>Puppenspiel in Kindheit und Jugend</topic>
+                        <topic>Biographische Spuren in der künstlerischen Entwicklung</topic>
+                        <topic>Puppetry in childhood and adolescence</topic>
+                        <topic>Biographical traces in the artistic development</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-20895</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_2089</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_2089">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/2089/1/Balsevicius_Teddybaeren_Dedo4.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_2089"
+            DMDID="DMD_siegen_opus_2089">
+            <mets:fptr FILEID="FILE0_siegen_opus_2089"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

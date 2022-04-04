@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_392">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Non-leptonic B meson decays as a probe of new physics</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Einflüsse Neuer Physik auf nicht-leptonische Zerfälle von B Mesonen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Jung, Martin</displayForm>
+                        <namePart type="family">Jung</namePart>
+                        <namePart type="given">Martin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2009</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Despite the tremendous success of the Standard Model, the arguments for the necessity of an extension are compelling. The corresponding energy scale is expected to be O(TeV); it should lead therefore to visible effects in high-precision flavour observables. While no conclusive effect is seen there up to now, the data reveal certain puzzles when compared to Standard Model expectations based on a global fit of the CKM unitarity triangle and general theoretical expectations. The discussion of these tensions in the channels B-&gt;J/psi K, B-&gt;phi K, and B-&gt;pi K, and the deduced constraints for New Physics operators of the class b-&gt;sqq  form the first project discussed in this thesis. On the other hand, hadronic uncertainties within the Standard Model are still not well understood. Therefore the opposite assumption of large hadronic Standard Model effects in B-&gt;J/psi K is made in the second project, allowing in addition for a New Physics phase in B meson mixing. Finally, the necessity of reliable SM predictions is addressed by developing a framework for the model-independent inclusion of corrections to U-spin symmetry predictions.</abstract>
+                    <abstract type="content" lang="ger">Trotz des enormen Erfolgs des Standardmodells ist die Notwendigkeit einer Erweiterung unbestritten. Es wird erwartet, dass die zugehörige Energieskala im TeV-Bereich liegt. Dies sollte zu sichtbaren Effekten in Hochpräzisions-Observablen in der Flavour-Physik führen. Während dort bis heute kein eindeutiger Effekt beobachtet wurde, gibt es doch zumindest gewisse Spannungen, wenn man die Daten mit den Vorhersagen des Standardmodells vergleicht, die aus dem globalen Fit an das Unitaritätsdreieck und allgemeinen theoretischen Erwägungen folgen. Die Diskussion dieser Spannungen in den Kanälen B-&gt;J/\psi K, B-&gt;phi K und B-&gt;pi K, sowie die daraus abgeleiteten Einschränkungen an Operatoren Neuer Physik der Form b-&gt;sqq bilden das erste Projekt, das in dieser Arbeit diskutiert wird. Auf der anderen Seite sind die hadronischen Unsicherheiten im Standardmodell nach wie vor nicht gut verstanden. Daher wird im zweiten Projekt die entgegengesetzte Annahme gemacht, dass große Standardmodellbeiträge in Kombination mit Neuer Physik in der  B Meson Mischung für die Abweichungen verantwortlich sind. Schließlich wird diskutiert, wie Einbeziehung von Modell-unabhängigen Korrekturen zu U-Spin-Relationen die Zuverlässigkeit einiger Standardmodell-Vorhersagen erhöht werden kann.</abstract>
+                    <subject>
+                        <topic>CP-Paritaet</topic>
+                        <topic>CP violation</topic>
+                        <topic>Beyond the Standard Model</topic>
+                        <topic>U-spin</topic>
+                        <topic>non-leptonic decays</topic>
+                        <topic>B decays</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 7, Physik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-3923</identifier>
+                    <identifier type="sys">HT016050521</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_392</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2009-07-16</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_392">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/392/1/jung.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_392"
+            DMDID="DMD_siegen_opus_392">
+            <mets:fptr FILEID="FILE0_siegen_opus_392"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

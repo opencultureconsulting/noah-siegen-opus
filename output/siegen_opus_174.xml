@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_174">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Untersuchung und Entwicklung von modulationslaufzeitbasierten 3D-Sichtsystemen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Heinol, Horst G.</displayForm>
+                        <namePart type="family">Heinol</namePart>
+                        <namePart type="given">Horst G.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2001</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Presently there is still a remarkable gap between the requirements and the
+capabilities of 3D-vision in the field of industrial automation, especially in manufacture integrated 100%-quality control. For these and a lot of other applications like security and traffic control a new extremely fast, precise and flexible 3D-camera concept is described in the following sections. 
+In order to obtain the geometrical 3D information, the whole 3D object or 3D scene is illuminated simultaneously by means of rf-modulated light. This is realized by using optical modulators such as Pockels cells, FTR optical components (FTR: Frustrated Total Reflection) or the new semiconductor device PMD (Photonic Mixer Device). The back scattered light of an active illumination represents the depth information within the local delay of the phase front of the rf-modulated light intensity. If the reflected wave front is mixed again within the whole receiving aperture using the same optical 2D-modulation components and the same rf-frequency, an rf-interference pattern is produced. In the case of Pockels cell or FTR-Modulator a CCD camera may be applied as a focal plane array (FPA) to sample these rf-modulation interferograms. In the case of PMD the device itself forms pixel by pixel the modulation and detection element. 
+In order to reconstruct the 3D-image a minimum of three independent interferograms have to be evaluated. They may be produced either by applying three different rf-phases or three different rf-frequencies. This procedure will be able to deliver up to some tens of high resolution 3D-images per second with some hundred thousand voxels (volume elements). Such a remarkable progress can be achieved by means of three key important steps: Firstly by separating the opto-electronic receiver device from real-time requirements by using homodyne mixing of CW-modulated light. Secondly by applying the rf-modulation signal as an optical reference signal to the receiving optical mixer. And thirdly by using a throughout two-dimensional layout of the transmitter illumination, further, of the optical mixer in the receiving aperture, and of the optoelectronic sensing element, e.g., a CCD- or PMD-chip.</abstract>
+                    <subject>
+                        <topic>Laufzeitmessung (TOF)</topic>
+                        <topic>Photomischdetektor (PMD)</topic>
+                        <topic>3D-Kamera</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1742</identifier>
+                    <identifier type="sys">HT013286874</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_174</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2001-01-23</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_174">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/174/1/heinol.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_174"
+            DMDID="DMD_siegen_opus_174">
+            <mets:fptr FILEID="FILE0_siegen_opus_174"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

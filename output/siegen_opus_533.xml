@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_533">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Autonomous navigation and mapping of mobile robots based on 2D/3D cameras combination</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Joochim, Chanin</displayForm>
+                        <namePart type="family">Joochim</namePart>
+                        <namePart type="given">Chanin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Aufgrund der tendenziell zunehmenden Nachfrage an Systemen zur Unterstützung des alltäglichen Lebens gibt es derzeit ein großes Interesse an autonomen Systemen. Autonome Systeme werden in Häusern, Büros, Museen sowie in Fabriken eingesetzt. Sie können verschiedene Aufgaben erledigen, beispielsweise beim Reinigen, als Helfer im Haushalt, im Bereich der Sicherheit und Bildung, im Supermarkt sowie im Empfang als Auskunft, weil sie dazu verwendet werden können, die Verarbeitungszeit zu kontrollieren und präzise, zuverlässige Ergebnisse zu liefern. Ein Forschungsgebiet autonomer Systeme ist die Navigation und Kartenerstellung. Das heißt, mobile Roboter sollen selbständig ihre Aufgaben erledigen und zugleich eine Karte der Umgebung erstellen, um navigieren zu können.
+     Das Hauptproblem besteht darin, dass der mobile Roboter in einer unbekannten Umgebung, in der keine zusätzlichen Bezugsinformationen vorhanden sind, das Gelände erkunden und eine dreidimensionale Karte davon erstellen muss. Der Roboter muss seine Positionen innerhalb der Karte bestimmen. Es ist notwendig, ein unterscheidbares Objekt zu finden. Daher spielen die ausgewählten Sensoren und der Register-Algorithmus eine relevante Rolle. Die Sensoren, die sowohl Tiefen- als auch Bilddaten liefern können, sind noch unzureichend. Der neue 3D-Sensor, nämlich der &quot;Photonic Mixer Device&quot; (PMD), erzeugt mit hoher Bildwiederholfrequenz eine Echtzeitvolumenerfassung des umliegenden Szenarios und liefert Tiefen- und Graustufendaten. Allerdings erfordert die höhere Qualität der dreidimensionalen Erkundung der Umgebung Details und Strukturen der Oberflächen, die man nur mit einer hochauflösenden CCD-Kamera erhalten kann. Die vorliegende Arbeit präsentiert somit eine Exploration eines mobilen Roboters mit Hilfe der Kombination einer CCD- und PMD-Kamera, um eine dreidimensionale Karte der Umgebung zu erstellen.
+     Außerdem wird ein Hochleistungsalgorithmus zur Erstellung von 3D Karten und zur Poseschätzung in Echtzeit unter Verwendung des &quot;Simultaneous Localization and Mapping&quot; (SLAM) Verfahrens präsentiert. Der autonom arbeitende, mobile Roboter soll ferner Aufgaben übernehmen, wie z.B. die Erkennung von Objekten in ihrer Umgebung, um verschiedene praktische Aufgaben zu lösen. Die visuellen Daten der CCD-Kamera liefern nicht nur eine hohe Auflösung der Textur-Daten für die Tiefendaten, sondern werden auch für die Objekterkennung verwendet. Der &quot;Iterative Closest Point&quot; (ICP) Algorithmus benutzt zwei Punktwolken, um den Bewegungsvektor zu bestimmen. Schließlich sind die Auswertung der Korrespondenzen und die Rekonstruktion der Karte, um die reale Umgebung abzubilden, in dieser Arbeit enthalten.</abstract>
+                    <abstract type="content" lang="eng">Presently, intelligent autonomous systems have to perform very interesting tasks due to trendy increases in support demands of human living. Autonomous systems have been used in various applications like houses, offices, museums as well as in factories. They are able to operate in several kinds of applications such as cleaning, household assistance, transportation, security, education and shop assistance
+because they can be used to control the processing time, and to provide precise and reliable output. One research field of autonomous systems is mobile robot navigation and map generation. That means the mobile robot should work autonomously while generating a map, which the robot follows.
+     The main issue is that the mobile robot has to explore an unknown environment and to generate a three dimensional map of an unknown environment in case that there is not any further reference information. The mobile robot has to estimate its position and pose. It is required to find distinguishable objects. Therefore, the selected sensors and registered algorithms are significant. The sensors, which can provide both, depth as well as image data are still deficient. A new 3D sensor, namely the Photonic Mixer Device (PMD), generates a high rate output in real-time capturing the surrounding scenario as well as the depth and gray scale data. However, a higher quality of three dimension explorations requires details and textures of surfaces, which can be obtained from a high resolution CCD camera. This work hence presents the mobile robot exploration using the integration of CCD and PMD camera in order to create a three dimensional map.
+     In addition, a high performance algorithm for 3D mapping and pose estimation of the locomotion in real time, using the &quot;Simultaneous Localization and Mapping&quot; (SLAM) technique is proposed. The flawlessly mobile robot should also handle the tasks, such as the recognition of objects in its environment, in order to achieve various practical missions. Visual input from the CCD camera not only delivers high resolution texture data on depth volume, but is also used for object recognition. The “Iterative Closest Point” (ICP) algorithm is using two sets of points to find out the translation and rotation vector between two scans. Finally, the evaluation of the correspondences and the reconstruction of the map to resemble the real environment are included in this thesis.</abstract>
+                    <subject>
+                        <topic>Robotik</topic>
+                    </subject>
+                    <classification authority="ddc">620</classification>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5332</identifier>
+                    <identifier type="sys">HT016966922</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_533</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2011-05-26</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_533">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/533/1/joochim.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_533"
+            DMDID="DMD_siegen_opus_533">
+            <mets:fptr FILEID="FILE0_siegen_opus_533"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

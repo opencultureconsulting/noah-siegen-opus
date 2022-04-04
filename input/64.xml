@@ -1,0 +1,125 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>64</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Confidentiality of XML documents by pool encryption</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Christian</pc:foreName>
+            <pc:surName>Geuer-Pollmann</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">XML security</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Encryption</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Pool Encryption</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The eXtensible Markup Language (XML) is a widely adopted format for documents&#13;
+containing structured information. Structured information contains&#13;
+both the content (words, images etc.) and the ‘markup’ which indicates the&#13;
+role of the content, e.g. ‘section’ or ‘price’.&#13;
+XML is the foundation for a huge variety of existing and emerging applications,&#13;
+including user applications like vector imaging formats, web pages,&#13;
+enterprise application integration, database interfaces or network protocols.&#13;
+Parallel to the increasing use of XML, the level of security provisions for these&#13;
+XML based systems rises. The World Wide Web Consortium (W3C) addressed&#13;
+these issues by creating the “XML Signature Syntax and Processing” and “XML&#13;
+Encryption Syntax and Processing” recommendations. These standards define&#13;
+authentication, integrity and confidentiality mechanisms for XML documents.&#13;
+The XML Signature recommendation defines a method for digitally signing&#13;
+arbitrary portions (nodes) of an XML document. XML Signature can sign both&#13;
+tree structures and arbitrary sets of nodes of an XML document.&#13;
+The XML Encryption recommendation specifies a method for encrypting tree&#13;
+structures in an XML document. The XML Encryption recommendation is constrained&#13;
+to protect full tree structures, i.e. there is no mechanism to protect&#13;
+the confidentiality of a single node in a document without affecting the&#13;
+descendants of that node.&#13;
+The access control community transformed access control models originating&#13;
+in database systems to be available for XML based databases. These access&#13;
+control systems offer fine-grained access control enforcement on the node&#13;
+level, similar to the node level integrity protection of XML Signature. For&#13;
+example, XML Access Control systems can restrict the read access to a particular&#13;
+node in an XML tree while allowing access to its child nodes.&#13;
+This thesis is focused on the development of a cryptography based system&#13;
+which can protect the confidentiality of arbitrary nodes in an XML tree. This&#13;
+goal is reached by combining a tree addressing scheme of databases with&#13;
+cryptographic mechanisms. This system is called “XML Pool Encryption”.&#13;
+To verify the results of this thesis, XML Pool Encryption has been implemented&#13;
+using the Java programming language.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die eXtensible Markup Language (XML) ist ein weit verbreitetes Format für&#13;
+Dokumente, die strukturierte Information enthalten. Strukturierte Information&#13;
+umfasst sowohl den eigentlichen Inhalt (z.B. Wörter, Bilder, etc.) sowie&#13;
+Auszeichnungsinformation, um die Rolle der Inhalte zu umschreiben, z.B.&#13;
+“Überschrift” oder “Preis”.&#13;
+XML bildet die Grundlage für eine große Anzahl existierender und im Entstehen&#13;
+begriffener Anwendungen, wie z.B. Vektorgrafik-Formate, Web Seiten,&#13;
+Enterprise Application Integration Systeme, Datenbank Schnittstellen oder&#13;
+Netzwerkprotokolle.&#13;
+Parallel zur steigenden Verbreitung von XML werden immer mehr Vorkehrungen&#13;
+zum Schutz der auf XML basierenden Systeme notwendig. Das World&#13;
+Wide Web Consortium (W3C) hat sich dieser Notwendigkeit angenommen,&#13;
+indem die “XML Signature Syntax and Processing” und die “XML Encryption&#13;
+Syntax and Processing” Empfehlungen verabschiedet wurden. Diese Standards&#13;
+definieren Mechanismen für Authentisierung, Integrität und Vertraulichkeit&#13;
+von XML Dokumenten.&#13;
+Die XML Signature Recommendation definiert einen Mechanismus, um beliebige&#13;
+Teile eines XML Dokumentes (Nodes) digital zu signieren. XML Signature&#13;
+kann sowohl Baumstrukturen als auch beliebig geformte Knotenmengen eines&#13;
+XML Baumes schützen.&#13;
+Die XML Encryption Recommendation definiert einen Mechanismus für das&#13;
+Verschlüsseln von Baumstrukturen innerhalb eines XML Dokumentes. W3C&#13;
+XML Encryption ist hierbei auf die Verschlüsselung kompletter Baumstrukturen&#13;
+beschränkt, d.h. es existiert keine Möglichkeit, die Vertraulichkeit für einzelne&#13;
+Knoten im Dokument zu gewährleisten, ohne dass die Kinder dieser&#13;
+Knoten ebenfalls geschützt werden.&#13;
+Für die Zugriffskontrolle von XML basierten Daten wurden Zugriffsschutzmodelle&#13;
+aus dem Datenbankbereich überarbeitet. Diese Systeme bieten die&#13;
+Durchsetzung fein granularer Zugriffskontrolle auf Knotenebene, ähnlich dem&#13;
+Integritätsschutz beliebiger Knoten bei XML Signature. So ist es beispielsweise&#13;
+möglich, den Lesezugriff auf einen Knoten zu verweigern, während die Kinder&#13;
+dieses Knotens weiterhin lesbar bleiben.&#13;
+Im Mittelpunkt dieser Arbeit steht die Entwicklung eines auf kryptografischen&#13;
+Verfahren basierenden Systems, welches die Vertraulichkeit für beliebige Knoten&#13;
+eines XML Baumes gewährleistet. Dieses Ziel wurde durch die Kombination&#13;
+eines Schemas für die Adressierung von Baumstrukturen mit&#13;
+kryptografischen Verfahren erreicht. Dieses System wird “XML Pool Encryption”&#13;
+genannt.&#13;
+Zur Überprüfung der Resultate dieser Arbeit wurde XML Pool Encryption in&#13;
+Java implementiert.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2003-07-28</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2004</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-647</dc:identifier>
+   <dc:source xsi:type="ddb:ISBN">3-8322-2846-2</dc:source>
+   <dc:source xsi:type="ddb:noScheme">Zugl. ersch.: Aachen: Shaker, 2004 ISBN 3-8322-2846-2</dc:source>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 12, Elektrotechnik und Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="geuer.pdf" ddb:fileSize="2043697"/>
+   <ddb:checksum ddb:type="MD5">b5c26424d882e88186bbc1b03d41089d</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/64/1/geuer.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/64</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

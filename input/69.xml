@@ -1,0 +1,61 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>69</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Eine Linienmethode zur approximativen Lösung inverser Probleme für elliptische Differentialgleichungen</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Jean Mathias</pc:foreName>
+            <pc:surName>Charton</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Linienmethode</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">elliptische Differentialgleichungen</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">inverse Probleme</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">510</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die vorliegende Arbeit behandelt die Herleitung, theoretische Analyse und praktischnumerische Erprobung einer Linienmethode für das Cauchy-Problem für elliptische Differentialgleichungen.&#13;
+Untersucht werden zum einen die Poisson- beziehungsweise Laplace-&#13;
+Gleichung und zum anderen eine allgemeinere Gleichung mit einem von einer Ortsdimension abhängigen Diffusionskoeffizienten. Auf der Grundlage einer bedingten Stabilitätsabschätzung für das kontinuierliche Problem vom Hölder-Typ, deren Beweis in der bisherigen Literatur zum Teil nicht ausreichend exakt durchgeführt wurde, und mit Hilfe der Einführung bestimmter endlichdimensionaler Datenräume, auf die man die (unter Umständen) gestörten Cauchy-Daten projeziert, gelingt die Regularisierung dieses schlecht gestellten Problems und der Nachweis von Fehlerabschätzungen und Konvergenzsätzen für die Linienmethode für beide&#13;
+betrachtete Differentialoperatoren. In dem Fall einer PDGL mit Diffusionskoeffizient werden dabei zusätzlich benötigte, umfangreiche Untersuchungen zur Konvergenz der Eigenwerte beziehungsweise Eigenvektoren der diskreten Approximation einer Sturm-Liouvilleschen Eigenwertaufgabe durchgeführt. Zum Abschluß werden einige numerische Ergebnisse vorgestellt&#13;
+und unter Bezugnahme auf die vorher erzielten theoretischen Resultate diskutiert. Eine etwas ausführlichere Übersicht über diese Arbeit, die den Rahmen dieser Zusammenfassung sprengen würde, befindet sich im Übrigen im Abschnitt 1.4.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">In this thesis we deal with the development, theoretical examination and numerical implementation of a method of lines for the Cauchy-problem for elliptic partial differential equations. We consider both the Laplace-equation and a more general elliptic equation containing a diffusion coefficient, which depends on one of the space variables. Our main results for both differential operators are the regularization of the illposed Cauchy-Problem and&#13;
+the proof of error estimates leading to convergence results for the method of lines. We base them principally on two major foundations. The first one is a conditional stability result for the continuous Cauchy-problem, of which the proof in parts of the relevant literature was not carried out thoroughly enough. The second one consists of introducing certain finitedimensional spaces, onto which the possibly perturbed Cauchy-data is projected. For the more general PDE, comprehensive additional examinations are required, which reveal the convergence of the eigenvalues and eigenvectors of the discrete approximation of a Sturm-&#13;
+Liouville eigenvalue problem. We finish the thesis with the presentation of the results of some of our numerical computations and discuss them referring to the knowledge, we have gained by our preceding theoretical work. The reader can find a more detailed overview beyond the scope of this abstract in Section 1.4.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2004-07-28</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2004</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-690</dc:identifier>
+   <dc:source xsi:type="ddb:ISBN">3-8325-0687-X</dc:source>
+   <dc:source xsi:type="ddb:noScheme">Charton, Jean Mathias: Eine Linienmethode zur approximativen Lösung inverser Probleme für elliptische Differentialgleichungen. Berlin: Logos-Verl., 2004.  ISBN 3-8325-0687-X</dc:source>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 6, Mathematik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="charton.pdf" ddb:fileSize="3714902"/>
+   <ddb:checksum ddb:type="MD5">40901a0e1d73850980ae660a9ac82aa5</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/69/1/charton.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/69</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

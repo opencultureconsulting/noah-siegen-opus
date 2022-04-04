@@ -1,0 +1,65 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1005</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Experiments and simulation in structural health monitoring systems using the E/M impedance and cross transfer function methods</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>KeJia</pc:foreName>
+            <pc:surName>Xing</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Simulation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Strukturüberwachung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Schadensdiagnose</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Structural health monitoring</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Cross transfer function method</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">E/M impedance method</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">As an enabling technology, Structural Health Monitoring (SHM) assesses the state of mechanical structures in real time in order to prevent accidents or disasters during the structures’ operational lifetime. According to basic principles, several methods in SHM techniques can be defined e.g. mechanical, electric, electro-mechanical and electro-magnetic methods. The focus of this work is on the Electro-Mechanical Impedance method (EMI) and Cross Transfer Function method. &#13;
+&#13;
+In this work, the EMI method is further developed for three different fields of application: self-diagnosis of bonded piezoelements, their sensing ability and their use for damage detection in fatigue experiments. Self-diagnosis is used to monitor whether the bonded piezoelectric elements either used as actuators or as sensors can continue to measure or function properly in SHM, which is decided by the change of the EM impedance spectrum. In the investigation of the sensing ability of piezoelectric elements, it is shown how the damage positions and the different frequency ranges of the input signals influence the element measurements using EMI spectrum. This is investigated experimentally in combination with the Spectral Element Method (SEM). In the last part of the work, EMI method is used to monitor the start of the crack in a vibrating aluminium plate in a fatigue experiment. &#13;
+&#13;
+Another focus of this work lies on a better localization of damage using phased array techniques. Such arrays consist of several piezoelectric elements arranged in a certain geometric way. By controlling the phase shift of the input signal between each piezoelectric element and the superposition of all outputs, a wave propagation with a desired direction is obtained, where the direction of propagation is determined by the phase shift. The proposed technique works in the frequency domain and is based on the Cross Transfer Function method which uses the transfer functions between different actuatorsensors permutations of the array. In the frequency domain, the phase shifts are implemented numerically after the experimental determination of the transfer functions using a computer algorithm. This can be seen as a big advantage of the Cross Transfer Function method which makes it more flexible and efficient. The results show that the damage indicators are especially large in those directions where the damage is located.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Als eine wichtige Grundlagentechnologie ist es Aufgabe der Strukturüberwachung (engl.: Structural Health Monitoring, SHM) den aktuellen Zustand einer mechanischen Tragstruktur kontinuierlich und on-line festzustellen und dadurch Unfälle oder Katastrophen zu vermeiden, die durch Versagen eines Bauteils während des Betriebs hervorgerufen werden können. Gemäß den grundlegenden physikalischen Prinzipien kann man verschiedene SHM-Techniken unterscheiden, z.B. mechanische, elektrische, elektro-mechanische oder auch elektro-magnetische Verfahren. Der Fokus in dieser Arbeit liegt auf der Elektro-Mechanischen Impedanz (EMI) Methode und der Kreuz-Transferfunktions-Methode (Cross Transfer functions).&#13;
+&#13;
+In der vorliegenden Dissertation wird die EMI-Methode zur Eigendiagnose von piezo-elektrischen Sensorelementen weiterentwickelt. Diese Eigendiagnose ist dazu da, um fetszustellen, ob die applizierten Piezo-Elemente, die Festkörperwellen sowohl als Aktor erzeugen oder auch als Sensor messen können, selbst einwandfrei funktionieren, bevor man eine Schadendiagnose zuverlässig mit ihnen durchführen kann. Diese Selbstdiagnose geschieht mit Hilfe von Veränderungen im Impedanzspektrum. Weiterhin wird untersucht, wie die sensorischen Eigenschaften hinsichtlich Abstand und Richtung eines Schadens vom Sensorort beeinflusst werden und welchen Einfluss der Spektralbereich und die Materialdämpfung dabei haben. Hierzu werden experimentelle Untersuchungen in Verbindung mit der Simulation von Wellenausbreitungsvorgängen mit Hilfe der Spektral-Elemente Method (SEM) durchgeführt und der jeweilige Einfluss auf die Veränderung der Impedanzspektren betrachtet. Schließlich wird die EMI-Methode dazu eingesetzt, um beginnendes Risswachstum in einer schwingenden Aluminiumplatte im Rahmen eines Ermüdungsexperiments festzustellen.&#13;
+&#13;
+Ein weiterer Schwerpunkt der Arbeit stellt die bessere Ortung von Schäden mit Hilfe einer Phased-Array-Technik dar. Dabei wird eine in bestimmter Weise geometrisch angeordnete Gruppe von piezo-elektrischen Elementen verwendet. Die vorgeschlagene Technik beruht auf der Kreuz-Transferfunktions-Methode, wobei jeweils Übertragungsfunktionen für alle möglichen Aktor-Sensorpaare gebildet werden. Durch eine Phasenverschiebung zwischen den Aktoren bzw. Sensoren und einer anschließenden Überlagerung wird eine Welle erzeugt, die sich konzentriert in eine bestimmte Richtung ausbreitet. Die Implementierung im Frequenzbereich erlaubt es, die Phasenverschiebung ohne weitere Experimente im Nachhinein zu variieren. Das macht die Methode flexibel und hardwaretechnisch effizient. Die Ergebnisse zeigen, dass die Schadensindikatoren dann besonders stark in Richtung des Schadens ausschlagen.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2015-11-13</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2015</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-10055</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dcterms:isPartOf xsi:type="ddb:noScheme">Schriftenreihe der Arbeitsgruppe für Technische Mechanik im Institut für Mechanik und Regelungstechnik - Mechatronik;  9</dcterms:isPartOf>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Mechanik und Regelungstechnik - Mechatronik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_KeJia_Xing.pdf" ddb:fileSize="6485143"/>
+   <ddb:checksum ddb:type="MD5">f4f7da11a9caa67bc62d89c751448ce8</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1005/1/Dissertation_KeJia_Xing.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1005</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

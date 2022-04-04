@@ -1,0 +1,70 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1484</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Real-time sensor data acquisition for borehole trajectory tracking and telemetry over an underground wireless ad hoc network</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Echtzeit-Sensordatenerfassung für die Verfolgung und Telemetrie der Bohrlochbahn über ein unterirdisches drahtloses Ad-hoc-Netzwerk</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Emmanuel</pc:foreName>
+            <pc:surName>Odei-Lartey</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Bohrloch</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Telemetrie</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Indirekt-Kalman-Filter</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Navigation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Borehole</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Telemetry</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Indirect-Kalman-Filter</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Navigation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">This work provides a contribution to the positional tracking of the drill head in directional drilling considering real-time communication along the drill string. Particularly in the context of the development of oil and gas fields where target-oriented positions including the orientation of the drill head at large depths should be achieved. There are relatively large budgets available for such drilling projects to create suitable solutions using the latest technologies. In the construction industry, various deep drilling concepts are used, but with considerably lower depths. At the same time, high demands are also placed on position tracking. However, with these applications, lower technology budgets are available. Appropriate automatic measuring methods that provide online data in the process are not yet available even if the basic measurement technologies exist. An overall concept, which can meet the various requirements, is missing. &#13;
+Regarding the scope of application, special attention is paid to the vertical drilling process used in Deep Soil Mixing. The Deep Soil Mixing process mixes the in-situ soil with cement or other binders to improve the mechanical and physical properties. This process results in a higher strength, lower permeability and low compressibility of the original soil [1-2]. Based on these systemic constraints, a new model is being developed and validated for the acquisition of sensor data and communication in the soil along the drill string and in real time during the drilling process (MWD). Based on the geometric model of the drill string, the signal model is developed to provide precise navigation data along the entire drill string. With the help of a new communication technology and the signal model, it is investigated which implementation concepts are possible and which performance is generated in each case. To provide a suitable reference, an error model is used, which has been defined by the Industry Steering Committee for Wellbore Accuracy (ISCWA). This model is used as a uniform basis for evaluation to improve the overall accuracy with regard to the tracking of the drilling process.&#13;
+The newly developed communication technology enables a new form of sensor data acquisition, data distribution and data fusing. Precision and stability can be significantly increased without increasing the cost of the technology. An important aspect here is the possibility of transporting sensor data in an ad-hoc sensor network in both directions along the drill string. This concept is also independent of the length of the drill string and thus also of the depth of a drilling operation to be achieved. The consequent use of navigation concepts and their optimized adaptation to the developed system model allows the acquisition of all position parameters of the drill head in directional drilling. The consistent use of known fault model specifications allows a deep analysis of the developed navigation concept with other known measuring technology components and different sensor platforms. The analysis of the realization platforms with data from field tests gives a further Impression of the practicability of the developed concept.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Diese Arbeit liefert einen Forschungsbeitrag zum Positions-Tracking des Bohrkopfs bei Richtbohrungen unter Berücksichtigung einer Echtzeitkommunikation entlang des Bohrstrangs. &#13;
+Besonders im Zusammenhang mit der Erschließung von Erdöl- und Gas-Feldern sind zielgenau Positionen inklusive der Orientierung des Bohrkopfes in großen Tiefen zu erreichen. Für solche Bohrvorhaben stehen relativ große Budgets zur Verfügung, um mit Hilfe neuster Technologien geeignete Lösungen zu schaffen. In der Bauindustrie werden ebenfalls vielfältige Tiefbohrkonzepte,   Allerdings bei deutlich geringeren Tiefen, eingesetzt. Gleichwohl werden dabei ebenfalls hohe Anforderungen an ein Positions-Tracking gestellt. Bei diesen Anwendungen stehen allerdings geringere Technik-Budgets zur Verfügung. Geeignete automatisch messende Verfahren, die Online-Daten im Prozess bereitstellen sind bisher nicht verfügbar, auch wenn die prinzipiellen Mess-Technologien existieren. Es fehlt bisher ein Gesamtkonzept, welches die verschiedenen Anforderungen erfüllen kann.&#13;
+Hinsichtlich des Anwendungsbereichs liegt das besondere Augenmerk auf dem vertikalen Bohrprozess, der beim Deep Soil Mixing angewandt wird. Der Deep Soil Mixing Prozess vermischt das vorgefundene Erdreich mit Zement oder anderen Bindemitteln, um die mechanisch-physikalischen Eigenschaften zu verbessern. Dieser Prozess verhilft zu einer höheren Festigkeit, geringerer Durchlässigkeit und niedriger Komprimierbarkeit des ursprünglichen Bodens[1-2].&#13;
+Ausgehend von diesen systemischen Randbedingungen wird hier ein neues Modell für die Erfassung von Sensordaten und der Kommunikation im Erdreich entlang des Bohrstrangs und in Echtzeit während des Bohrvorgangs (MWD) entwickelt und validiert. &#13;
+Auf Basis des geometrischen Modells des Bohrstrangs wird das Signalmodell entwickelt, um präzise Navigationsdaten entlang des gesamten Bohrstrangs bereitzustellen. &#13;
+Mit Hilfe einer neuen Kommunikations-Technologie und dem Signalmodell wird untersucht, welche Realisierungskonzepte möglich sind und welche Leistungsfähigkeit dabei jeweils entsteht. Um eine geeignete Referenz zu ermöglichen, wird ein Fehlermodell verwendet, welches vom Industry Steering Comittee for Wellbore Accuracy (ISCWA) festgelegt wurde. Dieses Modell wird als einheitliche Basis zur Evaluation eingesetzt, um eine Verbesserung der Gesamtgenauigkeit hinsichtlich des Tracking des Bohrvorgangs zu erreichen.  &#13;
+Die neu entwickelte Kommunikationstechnologie ermöglicht eine neue Form der Sensordatenerfassung, Datenverteilung und der Datenfusion. Präzision und  Stabilität können deutlich erhöht werden ohne die Kosten für die Technologie vergleichbar zu erhöhen. Wesentlicher Gesichtspunkt ist hier die Möglichkeit, Sensordaten in einem Ad-hoc Sensornetzwerk in beide Richtungen entlang des Bohrstrangs zu transportieren. Dieses Konzept ist im besonderen Maße auch unabhängig von der Länge des Bohrstrangs und somit auch von der zu erreichenden Tiefe eines Bohrvorgangs.&#13;
+Die Systematische Verwendung von Navigationskonzepten und deren optimierte Anpassung an das entwickelte Systemmodell ermöglicht die Erfassung von allen Lageparametern des Bohrkopfes bei einer Richtbohrung.&#13;
+Die systematische Verwendung von bekannten Fehlermodellvorgaben ermöglicht eine tiefgehende Analyse des erarbeiteten Navigationskonzepts mit anderen bekannten Messtechnik-Komponenten und verschiedenen Sensorplattformen.&#13;
+Die Analyse der Realisierungsplattformen mit Daten von Feldversuchen gibt einen weiteren Eindruck für die Praxistauglichkeit des erarbeiteten Konzeptes.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2019-03-08</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2018</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-14849</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>NRW-Zentrum für Sensorsysteme (ZESS)</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Emmanuel_Odei_Lartey.pdf" ddb:fileSize="3422060"/>
+   <ddb:checksum ddb:type="MD5">9971bcbe9bb3ae5a31955d9834554287</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1484/1/Dissertation_Emmanuel_Odei_Lartey.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1484</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1733">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>New approaches for object tracking and image-based quality control</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Neue Methoden zur Objektverfolgung und bildbasierte Qualitätskontrolle</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Delforouzi, Ahmad</displayForm>
+                        <namePart type="family">Delforouzi</namePart>
+                        <namePart type="given">Ahmad</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Roth, Hubert</displayForm>
+                        <namePart type="family">Roth</namePart>
+                        <namePart type="given">Hubert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The dissertation at hand is concerned with the scientific solutions for the problems of visual object tracking and image-based railway quality control. In the tracking scenario, an object of interest is followed automatically. The type, size and, general features of the object are not known and the system does not have any knowledge of it. The object tracking schemes are studied based on three different sensors namely rectangular, omnidirectional and, 360-degree cameras. For the rectangular videos, two object detection-based methods are proposed. The first tracker uses a pre-trained object detector and does not update, whereas the second one is updated during the tracking. These systems compare five famous training based object detectors. The results demonstrate the trackers’ efficiency and show the preference of offline tracker to the online one. The polar cameras - namely omnidirectional and 360-degree sensors - provide videos
+with a wider field of view than the conventional normal rectangular ones. Replacing conventional security cameras with 360-degree ones allows a significant reduction of hardware costs as well as software license and maintenance costs. There are many trackers based on conventional rectangular videos in the literature, whereas the number of polar object following systems, in comparison, is very limited and they are not yet matured. Most of the projects which are going to be discussed in this work are processing the 360-degree videos. Two proposed methods unwrap the polar videos using image rectification; then a modified version of Tracking Learning Detection tracker and another state-of-the-art detector are applied. To increase the speed of the process, a trapezoidal tracker is proposed to eliminate the rectification part. In another proposed scheme, a SURF based algorithm is used to improve performance. This tracker uses two learning-based modules for interesting points matching and challenges recognizing respectively.
+The other proposed method combines a polar candidates generation method and color binary features to improve its accuracy and speed. The experiments show that the last method has the best accuracy and speed among the proposed methods and it outperforms the state-of-the-art polar trackers.
+In the second part of the dissertation, a vision-based quality control method of concrete railroad sleepers is presented. This system captures an image sequence by a high resolution, fast and moving camera from railway top view and applies a proposed image-based crack detector to control the railway sleepers quality. This scheme first locates the sleepers within the images and then, generates crack candidates on the sleeper images and finally, detects and classifies the cracks and by applying a supervised classifier on the candidates. The classifier uses geometrical features to detect and classify the cracks on the concrete sleepers. The experimental results show that the crack detector successfully finds the cracks.</abstract>
+                    <abstract type="content" lang="ger">Die vorliegende Dissertation befasst sich mit der Problematik der visuellen Objektverfolgung und bildbasierte Bahnqualitätskontrolle. Im Objektverfolgungsszenario wird ein Objekt von Interesse automatisch verfolgt. Hierbei sind Art, Größe und im Allgemeinen die Eigenschaften ebendiesen Objekts nicht bekannt und der Tracker hat keinerlei Kenntnis über das Objekt. Die Objektverfolgung wird auf der Grundlage von drei verschiedenen Sensoren untersucht, nämlich rechteckigen, omnidirektionalen und 360-Grad-Sensoren. Für die rechteckigen Videos werden zwei auf Objekterkennung basierende Tracker vorgeschlagen. Der erste Tracker verwendet einen vortrainierten Objektdetektor und aktualisiert nicht, während der zweite während des Tracking aktualisiert wird. Anhand dessen werden fünf bekannte trainingsbasierte Objektdetektoren verglichen. Die Ergebnisse zeigen die Effizienz der Tracker und die Präferenz des Offline gegenüber dem Online-Tracker.
+Die Polarsensoren, d.h. omnidirektionale und 360- Grad-Sensoren, liefern polare Videos. Sie verfügen über ein breiteres Sichtfeld als die herkömmlichen rechteckigen Sensoren. Der Austausch herkömmlicher Sicherheitskameras durch 360-Grad Kameras reduziert die Kosten für Hardware, Softwarelizenzierung und Wartung erheblich. In der Literatur finden sich viele Tracker, die auf herkömmlichen rechteckigen Videos basieren, während die Anzahl der Polar-Tracker im Vergleich dazu sehr begrenzt ist und diese noch nicht ausgereift sind. Die meisten Projekte, die in dieser Dissertation behandelt werden, verarbeiten Videos von 360-Grad-Sensoren. Zwei vorgestellte Tracker wandeln die polaren Videos mittels Bild-Rektifizierung in ein rechteckiges Format um. Anschließend erfolgt die Anwendung einer modifizierten Version des Tracking- Learning-Detection Tracker für die erste Objektverfolgungsmethode. Die Tracking- Geschwindigkeit soll erhöht werden, indem ein trapezförmiger Tracker vorgeschlagen wird, um den Rektifikationsprozess zu vermeiden. In einem anderen Vorschlag wird ein SURF-basierter Tracker verwendet, um die Trackingleistung zu verbessern. Dieser verwendet zwei lernbasierte Module, um interessante Punkte abzugleichen und Herausforderungen zu erkennen. Schließlich werden ein Polar-Kandidaten-Erzeugungsverfahren und Farbbinärmerkmale verwendet, um deren Genauigkeit und Geschwindigkeit zu verbessern. Die Experimente zeigen, dass diese Methode die beste Genauigkeit und Geschwindigkeit unter den vorgeschlagenen polaren Trackern bietet und die modernen Polar-Tracker übertrifft.
+Im zweiten Teil dieser Dissertation wird ein visionsbasiertes Qualitätskontrollverfahren für Eisenbahnschwellen aus Beton dargelegt. Hierbei wird eine Bildsequenz von einer hochauflösenden und sich schnell bewegenden Kamera von Draufsicht auf die Eisenbahn aufgenommen und der vorgeschlagene bildbasierte Rissdetektor überprüft den Zustand der Schwellen. Die vorgeschlagene Methode findet zunächst die Schwellen in den Bildern. Anschließend werden auf den Schwellenbildern Riss-Kandidaten erzeugt und schließlich werden Risse anhand geometrischer Merkmale erkannt und klassifiziert, indem ein überwachter Klassifizierer auf die Kandidaten angewendet wird. Die experimentellen Ergebnisse zeigen, dass der Rissdetektor die Risse erfolgreich findet.</abstract>
+                    <subject>
+                        <topic>Bildverarbeitung</topic>
+                        <topic>Image Processing</topic>
+                        <topic>Quality Control</topic>
+                        <topic>Object Tracking</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-17332</identifier>
+                    <identifier type="sys">HT020633592</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1733</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2020-07-22</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1733">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1733/3/Dissertation_Ahmad_Delforouzi.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1733"
+            DMDID="DMD_siegen_opus_1733">
+            <mets:fptr FILEID="FILE0_siegen_opus_1733"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

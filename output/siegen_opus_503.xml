@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_503">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Auf- und Untergang von Herrschern, Dynastien und Regierungen der Völker dieser Welt : zyklenhistorische Betrachtungen</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Historical cycles of gouvernments and dynasties</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bellers, Jürgen</displayForm>
+                        <namePart type="family">Bellers</namePart>
+                        <namePart type="given">Jürgen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Ursachen für Auf- und Untergang von Regierungen und Regimen bei Konstanz der Völker.</abstract>
+                    <abstract type="content" lang="eng">Causes for decline of regimes and gouvernments in accordance with persistence of peoples.</abstract>
+                    <subject>
+                        <topic>Weltgeschichte</topic>
+                        <topic>Globalgeschichte</topic>
+                        <topic>Herrschaftszyklus</topic>
+                        <topic>Politisches Modell</topic>
+                        <topic>Global History</topic>
+                        <topic>Political Theory</topic>
+                        <topic>Theory of History</topic>
+                        <topic>Philosophy of History</topic>
+                        <topic>Forms of Governance</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5034</identifier>
+                    <identifier type="sys">HT016765349</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_503</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_503">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/503/1/zyklus_insgesamt.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_503"
+            DMDID="DMD_siegen_opus_503">
+            <mets:fptr FILEID="FILE0_siegen_opus_503"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

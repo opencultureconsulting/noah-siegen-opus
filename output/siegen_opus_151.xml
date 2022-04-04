@@ -1,0 +1,99 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_151">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Fluoreszenzspektroskopie als neue Meßmethode zur höchstempfindlichen Untersuchungen transienter Zustände</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Heupel, Martin</displayForm>
+                        <namePart type="family">Heupel</namePart>
+                        <namePart type="given">Martin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2000</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Ziel der vorliegenden Arbeit war es einerseits, durch die Etablierung der sogenannten
+Rotationsküvetten-Technik den Anwendungsbereich eines bestehenden Transientenspektrometers
+erheblich zu erweitern. Das zugrunde liegende Meßsystem zeigte dabei Nachteile auf.
+Diese sollten durch die Entwicklung eines neuen Meßprinzips aufgehoben werden, um
+Untersuchungen an Fluoreszenzfarbstoffen durchführen zu können, die in aktuellen
+Forschungsrichtungen ihren Einsatz finden.
+Im ersten Teil der Arbeit wurde die Weiterentwicklung eines Transientenspektrometers
+vorgestellt, mit Hilfe dessen durch Absorptionsmessungen die Triplett-Lebensdauer und die
+Intersystem-Crossing Ratenkonstante von organischen Farbstoffen bestimmt werden können.
+Im zweiten Teil wurden neuartige Untersuchungen transienter Zustände an unterschiedlichen
+Fluoreszenzfarbstoffen vorgestellt, die durch das weiterentwickelte Transientenspektrometer
+ermöglicht wurden.
+Im dritten Teil wurde die Idee der Fluoreszenzreduktion aufgegriffen und ein neues
+Meßprinzip vorgestellt, das auf der Messung der Fluoreszenz beruht. Durch die Anwendung
+dieses neuen Meßprinzips konnten Messungen durchgeführt werden, die mit dem bestehenden
+Transientenspektrometer, das auf der Messung der Absorption beruht, nicht möglich waren.
+Die Ergebnisse dieser Untersuchungen an Fluoreszenzfarbstoffen aus aktuellen
+Forschungsgebieten wurden im vierten Teil der Arbeit vorgestellt.
+Durch die Kombination der Absorptions- und der Fluoreszenzreduktions-Meßmethode in
+Verbindung mit der neu entwickelten Rotationsküvetten-Technik steht nun eine Meßapparatur
+zur Verfügung, die einen erheblich erweiterten Anwendungsbereich ermöglicht.</abstract>
+                    <abstract type="content" lang="eng">The aim oft the present work was to extend the range of application of the existing transient
+spectrometer by establishing the so called rotational-cuvette-technique. Thereby the basic
+measurement system had disadvantages. Those disadvantages should be removed by the
+development of a new principle of measurement to carry out measurements on fluorescent
+dyes applied in actual scientific investigations.
+In the first part of the work the development of the transient spectrometer is shown, giving the
+possibility to detect the triplet lifetime an the intersystem crossing rate constant of organic
+dyes by absorption measurements.
+In the second part new investigations of transient states of various fluorescent dyes are
+presented, enabled by the further development of the transient spectrometer.
+In the third part the idea of fluorescent reduction has been picked up and a new principle of
+measurement has been introduced, based on the detection of fluorescence. By the application
+of this new principle it was possible to carry out measurements, which were not possible by
+using the spectrometer based on the measurement of absorption. The results of these
+investigations on fluorescent dyes applied in actual scientific research are shown in the fourth
+part of the present work.
+The combination of the absorption- and the fluorescence-based measurement system in
+combination with the new rotational-cuvette-system offers a measurement equipment with a
+widely enlarged range of application.</abstract>
+                    <subject>
+                        <topic>Transientenspektrometer</topic>
+                        <topic>Lock-In-Technologie</topic>
+                        <topic>Fluoreszenzspektroskopie</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 8, Chemie - Biologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1511</identifier>
+                    <identifier type="sys">HT012930125</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_151</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2001-01-26</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_151">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/151/1/heupel.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_151"
+            DMDID="DMD_siegen_opus_151">
+            <mets:fptr FILEID="FILE0_siegen_opus_151"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

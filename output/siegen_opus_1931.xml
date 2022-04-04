@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1931">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Monolayer hexagonal boron nitride: an ultra-thin insulator</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Einlagiges hexagonales Bornitrid: ein ultradünner Isolator</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Cai, Jiaqi</displayForm>
+                        <namePart type="family">Cai</namePart>
+                        <namePart type="given">Jiaqi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Busse, Carsten</displayForm>
+                        <namePart type="family">Busse</namePart>
+                        <namePart type="given">Carsten</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">High-quality 2d-materials can be grown by epitaxial methods on the high-symmetry surfaces of transition metal (TM) crystals. In this thesis, we grow monolayer hexagonal boron nitride (hBN) on three TM surfaces, Pt(111), Ir(111) and Ru(0001). The epitaxy leads to the interaction between hBN and the TM substrates. Due to lattice mismatch, the hBN-TM interaction periodically modulates the geometric and electronic structure of hBN/TM. This spatial periodicity constitutes a moiré pattern, which we observed on both hBN/Pt(111), hBN/Ir(111) and hBN/Ru(0001). Within the moiré unit cell, in the regions where the interaction is strong/weak, the distance between hBN and the TM substrate is small/large (valleys/hills), thus rendering a corrugation of the hBN layer.
+The difference of the geometric structure measured on hBN/Pt(111), hBN/Ir(111) and hBN/Ru(0001) suggests that the strength of the hBN-TM interaction varies for different TM substrates. We study the adsorption of representative molecules on TM surfaces to simulate the local atomic interaction by DFT calculation.
+Beside the geometric corrugation, the moiré pattern also generates a spatial modulation of the electronic properties of hBN/TM. Hence hBN/TM can function as a template for adsorbates. To study this templating effect, we introduce the alkali metals (Cs and K) into hBN/Ru(0001) and hBN/Ir(111). Our STM measurements reveal, hBN/Ru(0001) and hBN/Ir(111) are very different templates: the preferred adsorption sites on hBN/ Ru(0001) are the strongly bonded regions (valleys) of the moiré unit cell, and on hBN/Ir(111) it is the weakly bonded regions (hills). Furthermore, one valley regions on hBN/ Ru(0001) can accommodate multiple alkali metal atoms, while only one single Cs atom can adsorb in one hill region of the hBN/Ir(111) moiré unit cell. An additional interesting feature of Cs adsorption on hBN/Ir(111) is that, there are two hill regions in one moiré unit cell. With the proper preparation procedure, the adsorbed Cs atoms form an unusual honeycomb lattice.
+Due to the low concentration, the alkali metal adsorption induces little modulation to the electronic structure of hBN. The photo-emission measurements demonstrate a small rigid shift of the hBN electronic bands towards higher binding energy. To pursue a larger shift, ample alkali metal is incorporated into hBN/Ir(111). In this case, alkali metal intercalates and lifts the hBN layer up from the TM substrate. Ample Cs incorporation induces a large shift of the hBN bands. In the angular resolved photo-emission spectroscope measurement, the conduction bands of hBN is still above the Fermi energy. Assuming a rigid shift, our measurement sets a lower bond of 5.85 eV for the hBN band gap.</abstract>
+                    <subject>
+                        <topic>Monoschicht</topic>
+                        <topic>2d-material</topic>
+                        <topic>hBN</topic>
+                        <topic>STM</topic>
+                        <topic>Photoemission</topic>
+                        <topic>Alkali metal</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Department Physik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19313</identifier>
+                    <identifier type="sys">HT020976288</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1931</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2021-05-19</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1931">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1931/3/Dissertation_Jiaqi_Cai.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1931"
+            DMDID="DMD_siegen_opus_1931">
+            <mets:fptr FILEID="FILE0_siegen_opus_1931"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

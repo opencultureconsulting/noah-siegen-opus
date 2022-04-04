@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_516">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Data fusion for ground target tracking in GSM networks</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zhang, Miao</displayForm>
+                        <namePart type="family">Zhang</namePart>
+                        <namePart type="given">Miao</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Positioning in mobile cellular networks is an exciting research area. The Global System for Mobile communications (GSM) network, as a widely used mobile communication standard around the world, has shown the potential to provide position information. Ground target tracking is a significant application of finding the position of a mobile station (MS). However, a GSM positioning system based on current specifications faces many difficulties to yield an accurate position estimate. Since the signals are designed by communication needs rather than positioning, the resolution of the measurements in GSM networks for positioning is coarse. The ambiguities of the position estimate arise when there are not a sufficient number of measurements available. Moreover, due to the restriction of terrain, road and traffic, the ground target often maneuvers. Therefore, data fusion approaches, which integrate redundant information from different sources, are applied in this work to obtain improved position estimation accuracy. 
+
+This work focuses on the state estimation problem of the MS&apos;s position given the measurements from the GSM networks and a priori road information. A data fusion solution, which integrates time of arrival (TOA) and received signal strength (RSS) measurements using an extended Kalman filter (EKF), is proposed to provide an improved position estimate. The theoretical best achievable performance, posterior Cramer-Rao lower bound (PCRLB), is derived for the data fusion approach. The PCRLB is used to demonstrate the benefits of the fusion approach and applied as a benchmark to compare different estimators. The road constraint is incorporated into the estimation process as a pseudomeasurement. Simulations of the linear and nonlinear road segments prove the advantages of the road-constrained approach. Moreover, the motion mode uncertainty problem is considered and solved by a multiple model (MM) approach. In particular, an adaptive road-constrained interacting MM (ARC-IMM) estimator, which incorporates the road information into a variable structure MM mechanism, is proposed and demonstrated to be effective and robust to provide a significantly improved position estimate.</abstract>
+                    <abstract type="content" lang="ger">Die Ortung in Mobilfunknetzen ist ein faszinierendes Forschungsgebiet. Der in großem Umfang genutzte Mobilfunkstandard für digitale Netze Global System for Mobile communications (GSM) kann auch zur Positionsbestimmung erfolgreich eingesetzt werden. Eine der bedeutenden Anwendungen bezüglich der Ortung von Mobilstationen (MS), d.h. von Mobilfunkend-geräten, ist das sogenannte Ground-Target-Tracking, also die Zielverfolgung derselben. Im Falle eines GSM-basierten Ortungssystems, das auf den aktuellen GSM-Spezifikationen basiert, müssen viele Schwierigkeiten überwunden werden, um die Position genau schätzen zu können. Zum einen liegen - da die Signale im Wesentlichen unter Berücksichtigung der Anforderungen hinsichtlich der Kommunikation (und nicht der Ortung) entworfen wurden - die Ergebnisse der Ortung in GSM-Netzwerken nur in einer groben Auflösung vor, und im Falle einer nicht ausreichend hohen Anzahl von verfügbaren Messwerten treten Mehrdeutigkeiten bei der Positionsschätzung auf. Zum anderen führt das Ziel entsprechend dem Gelände, dem Straßenverlauf und dem Verkehr oft Bewegungsänderungen durch. In dieser Arbeit werden deshalb Datenfusionsansätze verfolgt, die redundante Messwerte aus verschiedenen Quellen berücksichtigen, um eine verbesserte Genauigkeit der Positionsschätzung zu erzielen.
+
+Im Mittelpunkt der Arbeit steht die Zustandsschätzung unter Berücksichtigung der Messwerte aus dem GSM-Netzwerk und von a priori Information zum Straßenverlauf. Es wird ein Datenfusionsansatz eingeführt, mit dem die Fusion der Messwerte aus den Verfahren Time-of-Arrival (TOA) und Received-Signal-Strength (RSS) möglich wird, um einen verbesserten Positionsschätzwert zu erhalten. Es wird dabei ein Extended-Kalman-Filter (EKF) eingesetzt. Die theoretisch beste erzielbare Genauigkeit mit dem Datenfusionsansatz wird in Form der posterior Cramér-Rao lower bound (PCRLB) abgeleitet. Die PCRLB wird herangezogen um die Vorteile des Datenfusionsansatzes zu zeigen und dient als Benchmark für den Vergleich verschiedener Verfahren. Die Information über den Straßenverlauf wird in den Schätzprozess in Form einer Pseudomessung integriert. Simulationen sowohl in linearen als auch in nichtlinearen Fällen zeigen die Vorteile dieses Ansatzes, der die Randbedingungen durch den Straßenverlauf einbezieht. Weiterhin wird das Problem der Unsicherheit bei der Auswahl der Bewegungsart im Multiple-Model (MM) - Ansatz betrachtet und gelöst. Insbesondere wird ein sogenannter Adaptive-Road-Constraint-Interacting-Multiple-Model (ARC-IMM) - Schätzer, der die Straßen-information in einen MM-Ansatz mit variabler Struktur integriert, vorgeschlagen. Es wird gezeigt, dass dieser Schätzer effizient und robust ist, und eine wesentlich verbesserte Positionsschätzung liefert.</abstract>
+                    <subject>
+                        <topic>GSM-Standard</topic>
+                        <topic>Datenfusion</topic>
+                        <topic>Ortung</topic>
+                        <topic>Zustandsschätzung</topic>
+                        <topic>Data fusion</topic>
+                        <topic>Tracking</topic>
+                        <topic>State estimation</topic>
+                        <topic>GSM networks</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="NRW-Zentrum für Sensorsysteme (ZESS)"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5168</identifier>
+                    <identifier type="sys">HT016863970</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_516</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2010-12-06</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_516">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/516/1/zhang.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_516"
+            DMDID="DMD_siegen_opus_516">
+            <mets:fptr FILEID="FILE0_siegen_opus_516"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

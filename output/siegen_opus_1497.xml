@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1497">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Abschlussbericht zum BMBF-Forschungsprojekt MultiForm - Entwicklung eines Hochleistungsverfahrens zur simultanen Umformung von faserverstärkten Kunststoffen mit Metallblechen : Projektzeitraum: 01.08.2014-31.07.2018</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Heidrich, Daniel</displayForm>
+                        <namePart type="family">Heidrich</namePart>
+                        <namePart type="given">Daniel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kloska, Tobias</displayForm>
+                        <namePart type="family">Kloska</namePart>
+                        <namePart type="given">Tobias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Fang, Xiangfan</displayForm>
+                        <namePart type="family">Fang</namePart>
+                        <namePart type="given">Xiangfan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Herstellung von Hybridbauteilen aus Metall und Kunststoff für automobile Leichtbauanwendungen erfolgt in der Regel in getrennten Fertigungsschritten und Werkzeugen. Für die Blechumformung ist das Tiefziehen ein etabliertes Fertigungsverfahren und Kunststoffbauteile können in Spritzgieß- oder Fließpress-Verfahren hergestellt werden. In einer nachfolgenden Fügeoperation können Metall und Kunststoff zu einem hybriden Bauteil zusammengeklebt werden. Im öffentlich geförderten Forschungsprojekt „MultiForm“ wird eine wirtschaftliche Verfahrenskombination („Hybridpressen“) des Tiefziehens von Metallblechen und dem Fließpressen von langfaserverstärkten Thermoplasten (LFT) entwickelt. Dabei wirkt die thermoplastische Kunststoffschmelze wie ein Wirkmedium in hydromechanischen Prozessen (z.B. Innenhochdruckumformung) und formt zusammen mit dem Werkzeugstempel hochfeste Stahlbleche. Durch Einsatz eines Haftvermittlers als Vorbeschichtung auf dem Metallblech wird gleichzeitig eine stoffschlüssige Verbindung zum Thermoplast hergestellt. Somit werden beim Hybridpressen drei Fertigungsschritte (Metall Tiefziehen, LFT-Fließpressen, Kleben) in einem Schritt vereint, sodass Hybridbauteile deutlich wirtschaftlicher gefertigt werden können. Das neuartige Verfahren „Hybridpressen“ wird im vorliegenden Projektbericht anhand zweier Bauteile aus dem Fahrwerksbereich demonstriert.</abstract>
+                    <subject>
+                        <topic>Leichtbau</topic>
+                        <topic>Hybridbauweise</topic>
+                        <topic>Metall-Kunststoff-Hybride</topic>
+                        <topic>LFT-Fließpressen</topic>
+                        <topic>wirkmedienbasierte Umformung</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-14977</identifier>
+                    <identifier type="sys">HT020328901</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1497</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1497">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1497/3/Abschlussbericht_zum_BMBF-Forschungsprojekt_MultiForm.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1497"
+            DMDID="DMD_siegen_opus_1497">
+            <mets:fptr FILEID="FILE0_siegen_opus_1497"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

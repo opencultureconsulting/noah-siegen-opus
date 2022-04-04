@@ -1,0 +1,55 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>838</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Development of a GEM based time projection chamber prototype using a pixelized readout system</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Entwicklung einer GEM basierten Zeitprojektionskammer mit Pixelauslese-System</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Saiqa</pc:foreName>
+            <pc:surName>Shahid</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Zeitprojektionskammer</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">time projection chamber</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Gas Electron Multiplier</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Standard Model (Particle Physics)</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">530</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">A Time Projection Chamber (TPC) is an ideal candidate for the tracking system in experiments of particle physics as it has a low material budget and a large number of possible track points. Gas Electron Multipliers (GEMs) in combination with a highly segmented readout device give the possibility to achieve a very good performance in track reconstruction by getting good spatial and momentum resolutions. A TPC prototype with a drift length of 30 cm, using a triple GEM stack for amplification and a CMOS chip (Timepix chip) as a readout has been successfully operated at the University of Siegen. The Timepix chip consists of 256 x 256 identical elements, which can measure either time or charge of a particle track through the TPC. Each one of these pixels has a size of 55 µm x 55 µm. In order to avoid charging up effects of the used GEMs and to maintain a costant gain during time, GEMs coated with a carbon layer, which is supposed to have a thickness of approx. 0.1 µm, have been used. The resistivity of the diamond like carbon is in the range of 10 15 Ωm. The gain of the GEMs can be also increased by reducing the spark production between both GEM sides, so that higher electric fields can be applied.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die geringe Materialbelegung und die große Anzahl an Messpunkten zur Spurrekonstruktion machen eine Zeitprojektionskammer (TPC) zum idealen Kandidaten für die Verwendung in Teilchendetektoren. Gas-Electron-Multipliers (GEMs) in Verbindung mit einem hochauflosenden Auselesesystem sorgen für eine hohe Effizienz des Detektors, was eine gute Orts- und Impulsauflosung moglich macht. Eine TPC mit einer Länge von 30 cm und der Verwendung eines Stapels bestehend aus drei GEMs in Verbindung mit einem CMOS Chip (Timepix Chip) als Auslesesystem konnte an der Universität Siegen erfolgreich in Betrieb genommen werden. Der Timepix Chip besteht aus 256 x 256 identischen Elementen, die entweder die Ankunftszeit oder die Ladung einer Teilchenspur messen konnen. Jeder dieser Pixel hat eine Große von 55 µm x 55 µm. Um Effekte wie das elektrische Aufladen der Plastikschicht (Kaptonschicht) in GEMs zu vermeiden und eine zeitlich stabile Gasverstärkung zu erzielen, wurden GEMs verwendet, die mit einer dünnen Karbonschicht überzogen wurden, welche eine Schichtdicke von etwa 0,1 µm besitzen sollte. Der spezifische Widerstand dieser Karbonschicht beträgt etwa 10 15 Ωm. Durch die Reduzierung von elektrischen Entladungen zwischen der Ober- und Unterseite von GEMs kann die maximale Verstärkung erhoht werden, da in diesem Fall hohere elektrische Feldstärken in den GEMs erzeugt werden konnen.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2014-09-23</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2014</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-8385</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV - Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Saiqa_Shahid.pdf" ddb:fileSize="23993833"/>
+   <ddb:checksum ddb:type="MD5">0564c2c450bc057b4e16e0d36f18c279</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/838/1/Dissertation_Saiqa_Shahid.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/838</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

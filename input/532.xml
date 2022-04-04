@@ -1,0 +1,68 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>532</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Schadensdiagnoseverfahren für die Zustandsüberwachung von Offshore-Windenergieanlagen</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="eng">Damage diagnosis approaches for structural health and condition monitoring of offshore wind energy plants</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Peter</pc:foreName>
+            <pc:surName>Kraemer</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Offshore-Windenergieanlagen</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Schadensdiagnose</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Signalanalyse</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Sensorfehleridentifikation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">modellgestützte Schadenslokalisation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Offshore Wind Energy Plants</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Damage Diagnosis</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Signal Analysis</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Sensor Fault Identification</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Model-based Damage Localization</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die Schadensdiagnose auf der Basis von Schwingungsmessdaten ist ein vielversprechender Ansatz zur Überwachung unterschiedlicher Struktur- und Maschinenkomponenten von "vibrationsfreudigen" Offshore-Windenergieanlagen während des laufenden Betriebs. Die kontinuierliche Überwachung soll die Anzahl der geplanten Instandhaltungsaktionen verringern, welche besonders im Offshore-Bereich sehr kostenintensiv sind. Gleichzeitig soll eine automatisierte Schadensdiagnose auch bei wetterbedingt schlechter Erreichbarkeit der Anlagen dem Anlagenbetreiber Informationen über den Zustand der Anlage liefern und gegebenenfalls einen entsprechend dem Anlagenzustand schonenden Betrieb einleiten.&#13;
+Der Fokus dieser Arbeit liegt in der Methodenentwicklung für ein Überwachungssystem hinsichtlich der Schadensfrüherkennung an Offshore-Windenergieanlagen und insbesondere in der Zustandsüberwachung von Turm, Fundament und Maschinenkomponenten der Anlage. Die Methodenentwicklung baut auf der Erweiterung und Kombination unterschiedlicher Ansätze der Datenanalyse aus Strukturdynamik, Mustererkennung, Informationstheorie und Signalanalyse auf, damit diese den spezifischen Anforderungen für den Einsatz an Offshore-Windenergieanlagen gerecht werden.&#13;
+Somit wird in dieser Arbeit ein Konzept zur Strukturüberwachung mit Hilfe von gemessenen Schwingungsdaten entwickelt und implementiert. Dieses besteht aus Algorithmen zur Strukturschadensdetektion unter Berücksichtigung veränderlicher Umgebungs- und Betriebs-zustände der Anlage, modellgestützter Schadenslokalisation mit Hilfe von Modaldaten und einer Sensorfehleridentifikation. Zur Maschinenüberwachung werden weitere Ansätze zur Auswertung gemessener Signale im Triebstrang von Windenergieanlagen erweitert und implementiert. Diese bestehen aus der Kombination unterschiedlicher Signalanalysemethoden im Frequenzbereich und dienen dazu, Schäden in Lagern und langsam laufenden Planetenge-trieben in einem früheren Stadium als mit den bislang angewendeten Ansätzen zu entdecken.&#13;
+Die entwickelten und angewendeten Methoden zur Strukturüberwachung werden mit Hilfe von Simulationsmodellen, mit Messdaten unterschiedlicher Laborstrukturen sowie Messdaten aus einem Langzeitmonitoring einer 5MW-Offshore-Prototypanlage (Areva-Multibrid M5000-2) getestet. Die Methoden zur Maschinenüberwachung werden mit Hilfe von gemessenen Signalen an unterschiedlichen Windenergieanlagen validiert.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Vibration-based damage diagnosis is a promising approach for monitoring different structural and machine components of offshore wind energy plants. The aim of continuous monitoring is to reduce the inspection intervals, which especially offshore, are very time and cost consuming. At the same time an automatic damage diagnosis system provides the operator with necessary and reliable information about the plant's state, which allows the initiation of maintenance actions also if the plant is unreachable due to bad weather condition. &#13;
+This work is focused on the development of new methods which are included in one monitoring system performing damage diagnosis for different component of offshore wind energy plants, such as: tower, foundation and drive train. The development is based on the extension and combination of different signal analysis approaches in structural dynamics, pattern recognition and information theory.&#13;
+On this base a structural health monitoring concept dealing with measured data was developed and implemented. This includes structural damage detection algorithms in the presence of changing environmental and operational conditions, model-based damage localization by means of modal data and sensor fault identification. For condition monitoring purposes different approaches for signal analysis of measured time data belonging to the drive train components are extended and implemented. The applied algorithms combine different frequency domain approaches. These are used to detect damages in rolling bearings and planetary gears in an earlier stage compared to the established condition monitoring algorithms.&#13;
+The developed and applied methods in structural health monitoring are validated by means of simulation models, measured signals from different laboratory structures and measured data from a long time monitoring of the 5MW prototype wind energy plant built by Areva-Multibrid. The condition monitoring methods are validated by means of measured signals from different wind energy plants.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2011-07-14</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2011</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-5323</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dcterms:isPartOf xsi:type="ddb:noScheme">Schriftenreihe der Arbeitsgruppe für Technische Mechanik im Institut für Mechanik und Regelungstechnik - Mechatronik;  3</dcterms:isPartOf>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="kraemer.pdf" ddb:fileSize="62368234"/>
+   <ddb:checksum ddb:type="MD5">822f32ff3f4b2818a6152057b8da20ea</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/532/1/kraemer.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/532</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

@@ -1,0 +1,137 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1509">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Quantum hypergraph states and the theory of multiparticle entanglement</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Quanten-Hypergraph-Zustände und die Theorie der Mehrteilchen-Verschränkung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gachechiladze, Mariami</displayForm>
+                        <namePart type="family">Gachechiladze</namePart>
+                        <namePart type="given">Mariami</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Gühne, Otfried</displayForm>
+                        <namePart type="family">Gühne</namePart>
+                        <namePart type="given">Otfried</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">This thesis is devoted to learning different aspects of quantum entanglement theory.
+More precisely, it concerns a characterization of certain classes of pure multipartite
+entangled states, their nonlocal and entanglement properties, comparisons with the
+other well-studied classes of states and, finally, their utilization in certain quantum
+information processing tasks.
+
+The most extensive part of the thesis explores an interesting class of pure multipartite
+entangled states, quantum hypergraph states. These states are generalizations of the
+renowned class of graph states. Here we cover their nonlocal properties in various
+scenarios, derive graphical rules for unitary transformations and Pauli bases measurements.
+Using these rules, we characterize entanglement classes of hypergraph states
+under local operations, obtain tight entanglement witnesses, and calculate entanglement
+measures for hypergraph states. Finally, we apply all the aforementioned analysis
+to endorse hypergraph states as powerful resource states for measurement-based
+quantum computation and quantum error-correction.
+
+The rest of the thesis is devoted to three disjoint problems, but all of them are still in
+the scope of entanglement theory. First, using mathematical structure of linear matrix
+pencils, we coarse grain entanglement in tripartite pure states of local dimensions
+2 x m x n under the most general local transformations. In addition, we identify the
+structure of generic states for every m and n and see that for certain dimensions there
+is a resemblance between bipartite and tripartite entanglement. Second, we consider
+the following question: Can entanglement detection be improved, if in addition to
+the expectation value of the measured witness, we have knowledge of the expectation
+value of another observable? For low dimensions we give necessary and sufficient
+criterion that such two product observables must satisfy in order to be able to detect
+entanglement. Finally, we derive a general statement that any genuine N-partite entangled
+state can always be projected on any of its k-partite subsystems in a way that
+the new state in genuine k-partite entangled.</abstract>
+                    <abstract type="content" lang="ger">Diese Arbeit ist verschiedenen Aspekten der Verschränkungstheorie gewidmet. Genauer
+gesagt, beschäftigt sie sich mit der Charakterisierung verschiedener Klassen
+reiner mehrteilchenverschränkter Zustände, sowie ihrer nicht-lokalen und Verschränkungseigenschaften,
+Vergleichen mit anderen bekannten Klassen von Zuständen und,
+letztendlich, ihrer Verwendung in der Quanteninformationsverarbeitung.
+
+Der größte Teil dieser Arbeit beschäftigt sich mit einer interessanten Klasse von reinen
+mehrteilchenverschränkten Zuständen, den Hypergraphen Zuständen. Diese Zustände
+bilden eine Verallgemeinerung der weithin bekannten Graphen Zustände. Wir
+werden ihre nicht-lokalen Eigenschaften untersuchen und graphische Regeln für ihr
+Verhalten unter unitären Transformationen sowie Messungen in der Pauli Basis herleiten.
+Unter Verwendung dieser Regeln werden Verschränkungsklassen unter lokalen
+Operationen charakterisiert, und optimale Verschränkungszeugen sowie Verschränkungsmaße
+berechnet. Zuletzt wird, unter Berücksichtigung der vorangegangenen
+Analyse, gezeigt, dass Hypergraphen Zustände eine Ressource für Messungsbasierte
+Quantencomputer und Quantenfehlerkorrektur bilden.
+
+Der verbleibende Teil dieser Arbeit beschäftigt sich mit drei unterschiedlichen Problemen
+im Rahmen der Verschränkungstheorie. Zuerst wird die Verschränkung reiner
+Dreiteilchenzustände mit lokalen Dimensionen 2 x m x n unter den allgemeinsten
+Transformationen untersucht. Dazu wird eine spezielle mathematische Struktur verwendet,
+die so genannten Matrix Pencils. Zudem identifizieren wir die Struktur von
+generischen Zuständen für alle m und n und wir werden sehen, dass in bestimmten
+Dimensionen eine Ähnlichkeit zwischen Zweiteilchen- und Dreiteilchenverschränkung
+besteht. Danach wird der Frage nachgegangen: Kann Verschränkungsdetektion
+verbessert werden, wenn man zusätzlich zum Erwartungswertes des Verschränkungszeugen
+noch den Erwartungswert einer anderen Observablen kennt? Für niedrige Dimensionen
+werden notwendige und hinreichende Bedingungen hergeleitet, die zwei
+Produktobservablen erfüllen müssen um Verschränkung detektieren zu können. Zuletzt
+wird die allgemeine Aussage bewiesen, dass jeder echte N-Teilchen verschränkte
+
+Zustand immer auf seine k-Teilchen Subsysteme projiziert werden kann, sodass dieser
+Zustand echt k-Teilchen verschränkt ist.</abstract>
+                    <subject>
+                        <topic>Quanteninformatik</topic>
+                        <topic>Quantentheorie</topic>
+                        <topic>Mehrteilchen Verschränkung</topic>
+                        <topic>Quantum Information</topic>
+                        <topic>Quantum theory</topic>
+                        <topic>Multiparticle entanglement</topic>
+                        <topic>Hypergraph states</topic>
+                        <topic>Bell-inequalities</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-15090</identifier>
+                    <identifier type="sys">HT020276480</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1509</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2019-08-26</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1509">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1509/2/Dissertation_Mariami_Gachechiladze.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1509"
+            DMDID="DMD_siegen_opus_1509">
+            <mets:fptr FILEID="FILE0_siegen_opus_1509"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

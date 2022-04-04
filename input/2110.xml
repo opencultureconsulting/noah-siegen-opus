@@ -1,0 +1,75 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>2110</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Efficient coupling of fluid and acoustic interaction on massively parallel systems</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Effiziente Kopplung der Interaktion von Strömungen und Akustik auf massiv parallelen Systemen</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Verena</pc:foreName>
+            <pc:surName>Krupp</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Schallerzeugung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Simulation technology</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Multi-scale problems</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Sound generation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Simulationstechnik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Mehrskalenprobleme</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Schallerzeugung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Mehrskalenprobleme, wie die Schallerzeugung durch Strömung und deren reine Schallausbreitung, sind für die Industrie von wachsender Bedeutung, z.B. für die Reduktion der Schallemission von Windenergieanlagen. Generell können sowohl Strömung als auch akustische Wellenausbreitung durch die selben physikalischen Gleichungen beschrieben werden. Die Beschreibung des reinen Wellentransports kann jedoch wesentlich vereinfacht werden, was in einem geringeren Berechnungsaufwand resultiert. Des Weiteren basieren Strömungsphänomene auf sehr kleinen räumlichen Skalen, wohingegen die akustische Wellenausbreitung auf großen räumlichen Skalen stattfindet. Vor allem dieser Skalenunterschied macht die numerische Berechnung solcher Mehrskalenproblemen anspruchsvoll. So ist eine Simulation des gesamten Gebietes mit der Auflösung, welche durch die sehr kleinen Strömungsskalen vorgegeben ist, aufgrund der hohen Kosten und des hohen Energieverbrauches mit heutigen Computerressourcen nicht durchführbar. Im Rahmen dieser Arbeit wird eine partitionierte Kopplung mittels Oberflächen als Ansatz zur effizienten Simulation solcher Probleme auf massiv parallelen Supercomputern entwickelt. Dabei wird das gesamte Gebiet in kleinere Gebiete einzelner physikalischer Phänomene aufgeteilt und die Interaktion dieser Gebiete durch einen bidirektionalen Datenaustausch an den Rändern realisiert. Die separate Behandlung einzelner Phänomene ermöglicht nicht nur die Nutzung von auf die jeweilige Physik abgestimmter Verfahren (Ordnung, Gitterauflösung, Gleichungen), sondern auch verschiedener numerischer Löser. Diese Herangehensweise birgt aber auch numerische Herausforderungen an den Kopplungsrändern: so sind für einen konsistenten Datenaustausch an den Kopplungsrändern im Falle unterschiedlicher räumlicher Auflösung direkte Datenauswertung oder effiziente Interpolationsmethoden notwendig. Im Rahmen dieser Arbeit werden zwei verschiedene Ansätze zur partitionierten Kopplung von Strömungs- sowie Akustikgebieten im Hinblick auf Qualität der Lösung und Performanz implementiert und untersucht: ein black-box und ein white-box Ansatz. Dabei verspricht ein white-box Ansatz höhere Effizienz, da löserinterne Verfahren zur Datenevaluierung verwendet werden können. Ein black-box Ansatz hingegen, zeichnet sich durch Flexibilität in der Wahl der numerischen Löser sowie schneller Umsetzbarkeit aus. Dieser Anspruch auf Flexibilität geht allerdings einher mit einem beschränkten Zugriff auf löserinterne Informationen sowie potenziellen Geschwindigkeitseinbußen. Zudem arbeitet ein solcher Ansatz an den Kopplungsrändern ausschließlich mit Punktwerten, was zur Folge hat, dass externe Interpolationsmethoden zum konsistenten Datenaustausch verwendet werden müssen, was erwartungsgemäß weniger effizient ist als löserinterne Methoden. Daher wird in dieser Arbeit auch die Performanz beider Kopplungsansätze betrachtet und eine optimale Lastverteilung zwischen den einzelnen physikalischen Gebieten erarbeitet. Es wird an einem Beispiel aus der Industrie, einem 3D Freistrahl mit hoher Reynoldszahl gezeigt, dass mit dem beschriebenen Verfahren die Berechnung komplexer Mehrskalenprobleme in angemessener Zeit durch eine effiziente Nutzung der heutigen Computerressourcen ermöglicht wird.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Multi-scale problems like the generation of sound in a flow field and its sound wave propagation in the far field have become increasingly important in the design phase of industrial devices: One example is noise reduction of aircrafts or wind turbines. Although the generation of sound as well as its propagation can both be described by the same governing equations, wave propagation is a linear phenomenon and its equations can be simplified, which results in less computational effort. Additionally, the generation of sound in a flow field occurs at small spatial scales, while its propagation in the far field has to be observed on a large spatial scale. These large differences in scales are particularly challenging for numerical simulations. Resolving the entire domain with the high resolution that is required for the small scales of the flow domain is impossible due to the vast computational demand. In this thesis, we propose a partitioned coupling approach for the efficient simulation of such problems on massively parallel supercomputers. In partitioned coupling the physical domain is split into smaller subdomains, each covering a different physical phenomenon. Their interaction is realized by exchanging data at the joint coupling interface. Subsequently, these subdomains can be solved with numerical methods, resolutions, and equations tailored to the local physical requirements. Even different solvers can be used. However, this approach also holds numerical challenges at the coupling interface: E.g. for a consistent data exchange in case of different spatial resolutions, direct data evaluation, or efficient interpolation methods are necessary. Within this work, two different approaches of partitioned coupling are implemented and compared: A blackbox and a white-box approach. The black-box approach is characterized by a flexible choice of numerical solvers which allows for a wide range of different applications. Its generality comes with limited access to information inside each solver and, therefore, with a potential loss of performance. However, a black-box approach only acts on point data at the coupling interface and therefore requires external interpolation methods for a consistent coupling in space which is expected to be less efficient than solver-internal data mapping. In contrast, the white-box approach is fully integrated within one numerical framework. Accordingly, it can access solver-internal data mapping methods which promises better numerical results. This tight integration allows for the exploitation of knowledge about internal data structures and, therefore, yields performance benefits. On the other hand, it comes with less flexibility. Both strategies will be compared with respect to quality of data mapping at the coupling interface as well as performance on modern supercomputers. In order to achieve the best performance, the optimal load balancing strategy for a coupled setup is investigated. The benefits of the partitioned coupling approach are demonstrated on an industrial application of a 3D free-stream jet with a high Reynolds number showing that a multi-scale problem can be simulated using today’s compute resources.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution>
+         <cc:name>universi – Universitätsverlag Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Am Eichenhang 50, 57076 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Sabine</pc:foreName>
+            <pc:surName>Roller</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2021-08-27</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2021</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-21109</dc:identifier>
+   <dc:source xsi:type="ddb:ISBN">978-3-96182-104-4</dc:source>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dcterms:isPartOf xsi:type="ddb:noScheme">Simulation techniques in Siegen - STS;  5</dcterms:isPartOf>
+   <dc:rights xsi:type="dcterms:URI">http://creativecommons.org/licenses/by/4.0/</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Simulationstechnik und wissenschaftliches Rechnen</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Krupp_STS 5.pdf" ddb:fileSize="13916269"/>
+   <ddb:checksum ddb:type="MD5">47216287c186a1424ef31c70175671a4</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/2110/1/Dissertation_Krupp_STS%205.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/2110</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

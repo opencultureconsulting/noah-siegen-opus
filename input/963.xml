@@ -1,0 +1,73 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>963</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Calculation and propagation of model changes based on user-level edit operations : a foundation for version and variant management in model-driven engineering</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Timo</pc:foreName>
+            <pc:surName>Kehrer</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Modellgetriebene Entwicklung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Modellgetriebene Software-Entwicklung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Software-Evolution</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Differenzberechnung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Änderungspropagation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Model-driven engineering</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Software evolution</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Version and variant management</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Difference calculation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Change propagation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Model-driven engineering (MDE) has become a widespread approach for developing software in many application domains. Models are primary development documents in MDE and subject to continuous evolution. Models therefore have many versions and variants during system lifetime. Thus, the specification and recognition of changes in models is the key to understand and manage the evolution of a model-based system. &#13;
+&#13;
+However, currently available model versioning tools operate on low-level, sometimes tool-specific model representations which can be considered as an implementation of the abstract syntax graph (ASG) of a model. Moreover, primitive graph edit operations are used to specify model changes. This leads to two serious problems: Firstly, the resulting model differences are hard to understand for normal tool users who are not familiar with the internal, graph-based representation of models and the related types of nodes and edges which are usually defined by a meta-model. Secondly, generic graph operations lead to further problems in change propagation scenarios since they can violate consistency constraints in ASGs. In the worst case, which particularly applies to all kinds of visual models, the synthesized result can no longer be opened in standard visual editors and must be corrected based on the serialized data format (e.g. XML) by using low-level textual editors, which is obviously a tedious task prone to errors.&#13;
+&#13;
+Model differences should therefore be based on edit operations which are understandable for modelers and which preserve elementary consistency constraints in the sense that models remain displayable in visual editors. Edit operations which are offered as editing commands in standard editors or modern refactoring tools are examples of this. The tight integration of editing and versioning tools requires consistent specifications of edit operations; this integration is a largely open problem. The main objective of this thesis is to provide a solution for this problem and to systematically lift model versioning concepts, algorithms and tools to a higher level of abstraction.&#13;
+&#13;
+The central idea is to formally specify the available edit operations for a given type of models as transformation rules using the model transformation language Henshin which is based on graph transformation concepts. These formal specifications are automatically transformed into recognition rules being used by a lifting algorithm which recognizes edit operations in a low-level difference of two model versions. The approach has been implemented and evaluated in a framework which is known as SiLift and which is based on the widely used Eclipse Modeling Project.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Modellbasierte Softwareentwicklung ist in einigen Domänen inzwischen gängige Praxis. Modelle sind hier primäre Artefakte. Sie entwickeln sich daher ständig weiter und existieren im Laufe ihrer Evolution in zahlreichen Versionen und&#13;
+Varianten. Die Spezifikation und Erkennung von Änderungen an Modellen sind somit fundamentale Voraussetzung, um die Evolution modellbasierter Systeme zu verstehen und zu kontrollieren.&#13;
+&#13;
+Derzeitig verfügbare Werkzeuge des Versions- und Variantenmanagements für Modelle arbeiten jedoch auf systemnahen, fallweise werkzeugspezifischen Repräsentationen von Modellen, letzten Endes einer Implementierung des abstrakten Syntaxgraphen (ASG) eines Modells. Ferner werden primitive Graphoperationen zur Beschreibung von Änderungen an Modellen unterstellt. Dies führt zu zwei wesentlichen Problemen: Zum einen ist die Darstellung solcher "low-level" Änderungen meist unverständlich, ohne Kenntnisse der internen, ASG-basierten Repräsentation der Modelle teilweise sogar unmöglich. Zum anderen birgt die Anwendung von low-level Änderungen im Rahmen der Propagation von Änderungen die Gefahr der Synthetisierung inkonsistenter Modelle. Im schlimmsten Fall kann ein Modell so inkorrekt werden, dass es nicht mehr mit Standard-Modelleditoren verarbeitet werden kann. Dies gilt insbesondere für visuelle Modelle, welche in diesem Fall nur noch mit einfachen textuellen Editoren auf Basis der Repräsentation des serialisierten Datenformats (z.B. XML) bearbeitet und korrigiert werden können.&#13;
+&#13;
+Modelldifferenzen sollten daher auf für den Benutzer verständlichen, konsistenzerhaltenden Editieroperationen basieren, wie sie bspw. von Modelleditoren oder modernen Refactoring-Werkzeugen angeboten werden. Zur Erkennung derartiger Editieroperationen existieren bislang nur erste Ansätze. Die enge Integration von Editier- und Differenzwerkzeugen erfordert konsistente Spezifikationen der Editieroperationen; diese Integration ist ein offenes wissenschaftliches Problem. Ziel dieser Arbeit ist es, dieses Integrationsproblem zu lösen und die Versionierungskonzepte, -algorithmen und -werkzeuge von einem derzeit systemnahen Niveau auf ein möglichst hohes, benutzernahes Abstraktionsniveau anzuheben.&#13;
+&#13;
+Kernidee des im Rahmen dieser Dissertation entwickelten Ansatzes ist es, die für einen Modelltyp verfügbaren Editieroperationen formal zu spezifizieren. Hierzu wird die Graphersetzungs- und Modelltransformationssprache Henshin genutzt. Editierregeln werden automatisiert in Erkennungsregeln übersetzt, welche zur Erkennung von Editieroperationen in low-level Differenzen genutzt werden. Eine Referenzimplementierung des Ansatzes ist im Rahmen des Eclipse-basierten Frameworks SiLift verfügbar und wurde in zahlreichen Fallstudien evaluiert.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2015-08-20</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2015</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-9633</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Praktische und Technische Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Timo_Kehrer.pdf" ddb:fileSize="9582510"/>
+   <ddb:checksum ddb:type="MD5">b5d410bc022ef13515abfee35e745c41</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/963/1/Dissertation_Timo_Kehrer.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/963</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

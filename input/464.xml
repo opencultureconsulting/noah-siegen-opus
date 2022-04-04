@@ -1,0 +1,56 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>464</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Numerical analysis of Cauchy-type problem arising in electrical engineering</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Numerische Analyse von Cauchy-Problemen mit Anwendung in der Elektrotechnik</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Monika</pc:foreName>
+            <pc:surName>Dücker</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Cauchy-Anfangswertproblem</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Cauchy problem</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Nitsche's method</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Dirichlet control</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Neumann control</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">510</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Inverse problems arise often in physical and technical processes. In this dissertation we consider problems of Cauchy-type based on the application of hybrid insulation. The experimental setup takes place at the NTNU Trondheim which placed at the disposal the measurements for the calculation. In this case we search Dirichlet or Neumann control for given Neumann measurements. After describing the problem of hybrid insulation and introducing the basic principals of functional analysis we analyse Nitsche's method for dealing with Dirichlet boundary conditions. The error estimates will be deduced and verified. Subsequent we give an introduction to inverse problems and their regularisation. We formulate three optimal control problems on the unit square based on the application of hybrid insulation. For given Neumann measurement we search Dirichlet control. For the regularisation we draw on three matrices. For all three problems we do numerical calculations with different grid refinements, different numbers  of degrees of freedom on the boundary of control and different regularisation parameters. After comparison of the results within each problem we compare the results to each other. Based on these results we do the numerical caluclations for the application of hybrid insulation for searched Neumann control and given Neumann measurements.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Inverse Probleme sind häufig auftretende Probleme in Naturwissenschaft und Technik. In dieser Arbeit werden Probleme vom Cauchy-Typ basierend auf der elektotechnischen Anwendung hybrider Isolierung betrachtet. Der Experimentaufbau befindet sich an der NTNU Trondheim, die die Messdaten für die Berechnungen zur Verfügung gestellt hat. In diesem Fall wird die Dirichlet- oder Neumann-Steuerung für gegebene Neumann-Messdaten gesucht. Nachdem das Problem der hybriden Isolierung beschrieben und die nötigen Grundlagen der Funktionalanalysis eingeführt wurden, wird Nitsche's Methode zur Behandlung von Dirichlet-Randdaten analysiert. Die Fehlerabschätzungen werden hergeleitet und verifiziert. Im Anschluß wird eine Einführung zu inversen Problemen und deren Regularisierung gegeben. Es werden drei optimale Steuerungsprobleme auf dem Einheitsquadrat formuliert, basierend auf der Anwendung der hybriden Isolierung. Zu gegebenen Neumann-Messdaten werden Dirichlet- oder Neumann-Steuerung gesucht und zu gegebenen Dirichlet-Messdaten die Dirichlet-Steuerung. Zur Regularisierung werden drei Matrizen herangezogen. Für alle drei Probleme werden numerische Berechnungen für verschiedene globale Verfeinerungen, verschiedene Anzahlen an Freiheitsgraden auf dem Kontrollrand und verschiedene Regularisierungsparameter durchgeführt. Nach einem Vergleich der Ergebnisse innerhalb eines Problems werden die Ergebnisse der Probleme untereinander verglichen. Basierend auf diesen Ergebnissen werden für das Problem der hybriden Isolierung  nur die numerischen Berechnungen im Fall gesuchter Neumann-Steuerung zu gegebenen Neumann-Messdaten durchgeführt.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2010-09-09</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2010</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-4646</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 6, Mathematik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="duecker.pdf" ddb:fileSize="1986312"/>
+   <ddb:checksum ddb:type="MD5">55827991dca567e85a98b672c7b17e47</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/464/1/duecker.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/464</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

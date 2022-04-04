@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1877">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Moving beyond the obsession with nudging individual behaviour: towards a broader understanding of behavioural public policy</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ewert, Benjamin</displayForm>
+                        <namePart type="family">Ewert</namePart>
+                        <namePart type="given">Benjamin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Behavioural interventions are much more than ‘just another policy tool’. Indeed, the use of behavioural science has the potential to lead to a wide-ranging reassessment of policymaking and public administration. However, Behavioural Public Policy remains a policy paradigm ‘under construction’. This paper seeks to contribute to this development process by investigating the conceptual features of advanced Behavioural Public Policy that go beyond the now familiar notion of nudging individual behavioural change. It thus seeks to provide more illumination in a debate which currently seems to have become stuck on the pro and cons of nudging citizens’ individual behaviours. In reality, Behavioural Public Policy should be seen as a pluralist, non-deterministic and multipurpose approach that allows the application of behavioural insights ‘throughout the policy process’ and in combination with regulatory policies. The paper’s line of argument unfolds in three steps. First, it explores the policy rationales that have driven nudge techniques and also summarises the conceptual, methodological, ethical and ideological criticisms that have made of it. In a second step, state-of-the-art Behavioural Public Policy, which claims to be more substantial and wide-ranging than today’s nudge techniques, is empirically examined through interviews conducted with global thinkers (academics and practitioners) in the field of behavioural insights. Finally, there is a discussion of whether advanced Behavioural Public Policy could be better suited to withstand the criticisms that have been directed at nudge techniques.</abstract>
+                    <subject>
+                        <topic>Staatstätigkeit</topic>
+                        <topic>Behavioural insights</topic>
+                        <topic>Behavioural public policy</topic>
+                        <topic>Expert interwiews</topic>
+                        <topic>Nudge</topic>
+                        <topic>Policy making</topic>
+                        <topic>Policy process</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-18779</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1877</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1877">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1877/4/Ewert_Moving_beyond.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1877"
+            DMDID="DMD_siegen_opus_1877">
+            <mets:fptr FILEID="FILE0_siegen_opus_1877"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,98 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1784">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Aspects of quantum resources: coherence, measurements, and network correlations</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Aspekte der Quantenressourcen: Kohärenz, Messungen, und Netzwerkkorrelationen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kraft, Tristan</displayForm>
+                        <namePart type="family">Kraft</namePart>
+                        <namePart type="given">Tristan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Gühne, Otfried</displayForm>
+                        <namePart type="family">Gühne</namePart>
+                        <namePart type="given">Otfried</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Diese Arbeit ist verschiedenen Aspekten der Quanteninformationstheorie gewidmet. Es werden neue Resultate auf den Gebieten der Kohärenztheorie, der Netzwerkkorrelationen, der Gemeinsamen Messbarkeit, und der Quantifizierung von quantenmechanischen Ressourcen präsentiert, sowie eine Zusammenhang zwischen inkompatiblen Kanälen und dem Marginalienproblem in der Quantenmechanik diskutiert.
+
+Zuerst wird das Konzept der echt-korrelierten Kohärenz eingeführt. Diese entspricht dem kleinsten Anteil der globalen Kohärenz, der übrig bleibt, wenn man globale inkohärente unitäre Transformationen durchführt, die freie Operationen in der Ressourcentheorie der Kohärenz bilden. Dies trägt zu einer aktuellen Diskussion über mögliche freie Operationen in einer Ressourcentheorie von Vielteilchenkohärenz bei, und zeigt eine Verbindung zur echten Mehrniveauverschränkung auf.
+
+Danach werden wir Monogamierelationen für Kohärenzen herleiten, die zwischen orthogonalen Unterräumen existieren kann. Diese Art von Monogamie limitiert die Unterscheidbarkeit von Zuständen unter unitärer Zeitentwicklung, wenn Messungen auf Unterräume beschränkt sind. Diese Monogamie wird es uns außerdem erlauben Kriterien für echte Unterraumkohärenz herzuleiten, die zum Beispiel Anwendung in der Charakterisierung von Quantennetzwerken finden werden.
+
+Anschließend werden wir unseren Fokus auf Korrelationen in Quantennetzwerken richten. Wir werden zeigen, wie die Struktur dieser Netzwerke die Erzeugung von Verschränkung limitiert, insbesondere im sogenannten Dreieck-Netzwerk. Wir werden notwendige Bedingungen herleiten die ein Zustand erfüllen muss, um im Dreieck-Netzwerk präparierbar zu sein. Diese Kriterien basieren auf der statistischen Unabhängigkeit der Quellen, der Monogamie von Verschränkung, und Bedingungen an die lokalen Ränge. Zudem werden wir einen anderen Ansatz verfolgen der auf den Eigenschaften von Kovarianzmatrizen beruht, die sich durch Messungen auf einem Netzwerkzustand ergeben. Wir werden zeigen, dass die Kohärenztheorie benutzt werden kann, um die relevanten Eigenschaften der Kovarianzmatrizen zu untersuchen. Dies wird es uns erlauben zu überprüften, ob eine Wahrscheinlichkeitsverteilung einem Netzwerk entstammen kann oder nicht.
+
+Ein weiterer großer Teil dieser Arbeit beschäftigt sich mit der Quantifizierung quantenmechanischer Ressourcen. Genauer gesagt, werden wir zeigen, dass inkompatible Messungen einen Vorteil haben gegenüber allen kompatiblen Messungen in einem quantenmechanischen Zustandsunterscheidungsproblem. Dies resultiert in einer operationellen Charakterisierung inkompatibler Messungen und der Möglichkeit, diese teilweise gerätunabhängig zu verifizieren. Das Resultat beruht auf Eigenschaften der sogenannten Inkompatibilitätsrobustheit.
+
+Anschließend werden wir zeigen, dass solche Resultate eine allgemeine Eigenschaft von Robustheitsmaßen sind. Genauer gesagt werden wir zeigen, dass in jeder konvexen Ressourcentheorie von Zuständen, Messungen, Kanälen, oder Mengen von diesen, das Robustheitmaß den Vorteil quantifiziert, den eine Ressource gegenüber Nicht-Ressourcen in einem bestimmten Problem hat. Die Form des Problems kann man aus der Dualitätstheorie konischer Optimierungsprobleme ableiten.
+
+Außerdem werden wir einen Zusammenhang zwischen inkompatiblen Kanälen und bestimmten Instanzen des Marginalienproblems in der Quantenmechanik diskutieren, welcher es uns erlauben wird Resultate, zwischen den beiden Gebieten auf das jeweils andere zu übersetzen.</abstract>
+                    <abstract type="content" lang="eng">This thesis is devoted to different aspects in quantum information theory. We will put forward new results on the topics of coherence theory, correlations in quantum networks, measurement incompatibility, quantification of quantum resources, as well as a connection between channel compatibility and the quantum marginal problem.
+
+First, we will introduce the notion of genuine correlated coherence, which is defined as the amount of coherence that remains after applying global incoherent unitaries, which are deemed to be free in a resource theoretic approach to coherence. This contributes to an ongoing discussion on the possible free operations in a resource theory of multipartite coherence and reveals a connection to genuine multilevel entanglement.
+
+Then, we will derive monogamy relations that capture the trade-off in the coherence that can exist between multiple orthogonal subspaces. Such a trade-off puts limits on the distinguishability of quantum states under unitary time evolution when measurements are restricted to subspaces. Moreover, this will allow us to derive criteria detecting genuine multisubspace coherence of the density matrix, which has applications in, e.g., the characterization of quantum networks.
+
+Next, we will turn our focus to correlations in quantum networks. We will show how the structure of the network limits the distribution of entanglement, focusing on the so-called triangle network. We derive several necessary criteria for states to be preparable in the triangle network, based on the independence of the sources, entanglement monogamy and constraints on the local ranks. Then, we will consider a different approach based on the coherence properties of covariance matrices that arise from performing measurements on a network state. We will use the theory of coherence to analyze the relevant properties of the covariance matrices. This allows us to witness probability distributions that are incompatible with the structure of the network.
+
+Another large part of this thesis is concerned with the quantification of quantum resources. We will first show that incompatible measurements provide an advantage over all compatible measurements in certain instances of quantum state discrimination. This provides an operational characterization of measurement incompatibility and opens a possibility of its semi-device-independent verification. The result is based on properties of the so-called incompatibility robustness.
+
+Subsequently, we will show that such a result is a rather generic feature of the generalized robustness. More precisely, we will show that in any convex resource theory of states, measurements, channels, and collections of those, the robustness with respect to the set of free elements quantifies the advantage of a resourceful element over all free ones, in a task that can be derived from the duality theory of conic optimization.
+
+Finally, we will put forward a connection between the compatibility of channels and certain instances of the quantum marginal problem, which allows us to translate many structural results between the two fields.</abstract>
+                    <subject>
+                        <topic>Robustheit &lt;Quantenmechanik&gt;</topic>
+                        <topic>Quantum Resources</topic>
+                        <topic>Quantum Networks</topic>
+                        <topic>Measurement Incompatibility</topic>
+                        <topic>Entanglement</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Department Physik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-17841</identifier>
+                    <identifier type="sys">HT020704695</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1784</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2020-11-17</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1784">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1784/4/Dissertation_Tristan_Kraft.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1784"
+            DMDID="DMD_siegen_opus_1784">
+            <mets:fptr FILEID="FILE0_siegen_opus_1784"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

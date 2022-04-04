@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_854">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Die </nonSort>
+                        <title>Entstehung und Entwicklung der europäischen Partnerschaft im Fernsehbereich 1950 - 1970 : zur historischen Betrachtung eines komplexen Sensemaking-Prozesses</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Degenhardt, Wolfgang</displayForm>
+                        <namePart type="family">Degenhardt</namePart>
+                        <namePart type="given">Wolfgang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2002</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Ursprünge und die Entwicklung der Europäischen Partnerschaft im Fernsehaustausch können als komplexer Sensemaking-Prozess in der Terminologie Karl Weicks und unter Benutzung seines orga-nisationswissenschaftlichen Ansatzes dargestellt werden.
+In ihrem Hauptteil zeigt die Studie organisationsgeschichtliche Entwicklungslinien der Europäischen Fernsehpartnerschaft in enger Verbindung zu den Lebensläufen ihrer bedeutendsten Protagonisten auf und diskutiert in einem zweiten Teil die erkenntnistheoretischen Probleme der Geschichte komplexer Prozesse im Allgemeinen.</abstract>
+                    <abstract type="content" lang="eng">The origins and the development of the European partnership in television programme-exchange can be characterised and narrated as as a complex sensemaking-process, using the terminology of Karl Weick and his approach in organisational science.
+In its main part the study outlines the organisational history of European television partnership in close relation to the biographies of its most influential protagonists and discusses in a second part the epistemological problems of the history of complex processes in general.</abstract>
+                    <subject>
+                        <topic>Fernsehen</topic>
+                        <topic>Europa</topic>
+                        <topic>Sensemaking</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 1, Sozialwissenschaften - Philosophie - Theologie - Geschichte - Geographie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-46</identifier>
+                    <identifier type="sys">HT013411214</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_854</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2000-02-13</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_854">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/854/1/degenhardt.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_854"
+            DMDID="DMD_siegen_opus_854">
+            <mets:fptr FILEID="FILE0_siegen_opus_854"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

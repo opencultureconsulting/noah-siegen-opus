@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1242">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Ontology enhanced representing and reasoning of job specific knowledge to identify skill balance</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Khobreh, Marjan</displayForm>
+                        <namePart type="family">Khobreh</namePart>
+                        <namePart type="given">Marjan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die modernisierte und wissensbasierte Welt der Arbeit (World of Work – WoW), benötigt gut ausgebildete, fähige und kompetente Arbeitnehmer, die die erwartete Leistung in ihrem Job erbringen. Um das Wissen, Können und die Kompetenz (Knowledge, Skills and Competences – KSCs), welche für die WoW verlangt werden, bereitzustellen, wurden berufsbildende Systeme (Vocational Edcuation and Training – VET) eingerichtet. VET wird als ein bedarfsgetriebener Bildungssektor in der Welt der Bildung (World of Education – WoE) verstanden. Basierend auf der Prämisse, dass die WoE bereitstellen soll, was von der WoW gefordert wird, können wir das Problem des Fähigkeiten-Ungleichgewichts und der Nichtübereinstimmung nicht nur auf einem Mikrolevel, sondern auch auf einem Makrolevel adressieren. 
+Das Mikrolevel “Matching” ermittelt, ob ein KSC, welches ein Job-Suchender oder ein Mitarbeiter besitzt, zu einem KSC passt, welches von einem Arbeitgeber benötigt wird oder ob es ein KSC-Ungleichgewichts-Problem gibt. Das Makrolevel Fähigkeiten-Matching ist personenunabhängig, z. B. zwischen Lernergebnissen der Lerngebiete, zur Verfügung gestellt durch die WoE, und den KSCs, nachgefragt durch die WoW, um jobbezogene Aufgaben zu erfüllen. Die Ergebnisse des Matchings identifizieren, zu welchem Grad die WoE den Bedarf der WoW an qualifizierten Bewerber decken kann, die die benötigten KSCs vorweisen. Unter Berücksichtigung des Matchings zwischen den angebotenen KSCs eines Lerngebiets und den benötigten KSCs für einen Job resultiert die qualitative Analyse in fünf Zuständen, nämlich lückenhaft, defizitär, überschüssig, obsolet und ausgeglichen (gap, shortage, surplus, obsolete and balance).
+Ein Weg, das Fähigkeiten-Ungleichgewicht zu reduzieren, ist das (Um)trainieren von Job-Lernenden und/oder On-the-Job-Training von Mitarbeitern, um die benötigten KSCs zu erwerben oder zu erhalten. Für diesen Zweck und vor dem Initiieren eines Trainingsprogramms sollte identifiziert werden, was gelernt werden soll. Hierzu ist es notwendig, einen Kommunikationskanal zwischen der WoW und der WoE einzurichten, der ein Ungleichgewicht zwischen den angebotenen Lernzielen und den benötigten KSCs identifizieren kann.
+Dem Problem des Ungleichgewichts zwischen Angebot und Bedarf Rechnung tragend, liefert diese Dissertation einen Beitrag in dreierlei Hinsicht. Erstens durch die Vorstellung und Konzeptualisierung des Kommunikationskanals und des Matching-Raums, bekannt als Welt der Kompetenz (World of Competence – WoC). Zweitens durch semantisches Repräsentieren des Matching-Prozesses durch die Entwicklung des Modells der Job-Know Ontologie, welches ein gemeinsames Verständnis und eine gemeinsame Interpretation aus dem Matching-Prozess zur Verfügung stellt. Um die Anwendbarkeit der Job-Know-Ontologie insbesondere für nicht-technische Zielgruppen in der WoW und WoE sicherzustellen, stellt die Entwicklung der Ontologie eine große Herausforderung bezüglich der sozialen Qualität und des Reifegrades dar. Drittens durch Formalisieren und Realisieren der Job-Know-Ontologie, welche aus zwei Domänen besteht, der WoW und der WoE, als generische Lösung, um nicht nur das Wissen der Felder zu repräsentieren, sondern auch Inferenz und semantisches Ableiten zu unterstützen (z.B. semantisches Matching der WoW und WoE).
+Vor diesem Hintergrund ist das Hauptresultat der vorgestellten Dissertation eine Ontologie, bezeichnet als Job-Know-Ontologie, als eine Repräsentation zweier interdisziplinären Domänen, WoW und WoE, um ein gemeinsames Bild durch Fokussieren auf deren Verbindungspunkt bereit zu stellen, der die WoC erzeugt. Die Job-Know-Ontologie stellt neue Mechanismen zur Verfügung, um KSC-Zustände abzuleiten (Fähigkeiten-(Un)gleichgewichtszustände), mit denen der Arbeitsmarkt konfrontiert sein kann, dadurch, dass die Arbeitsaufgaben und die Lerneinheiten des Gebietes durch die nachgefragten und angebotenen KSCs in Übereinstimmung gebracht werden. Schließlich wurde die Instantiierung des vorgeschlagenen Modells untersucht, woraus die Entwicklung und Evaluierung einer Pflege-Job-Know-Ontologie resultierte. Zusätzlich wurde der Grad der Domänenunabhängigkeit des vorgeschlagenen Modells untersucht, indem eine Produktionslogistik-Job-Know-Ontologie realisiert wurde.</abstract>
+                    <abstract type="content" lang="eng">The modernized and knowledge-based world of work (WoW) requires well-educated, skillful, and competent employees, who demonstrate the expected quality performance on the job. To supply knowledge, skills, and competences (KSCs) de-manded by the WoW, vocational education and training (VET) systems are established. VET is understood as a demand-driven education sector in the world of education (WoE). On the premise that WoE supplies what is demanded by WoW, we may ap-proach the problem of skill imbalance and mismatches not only on the micro level but also on the macro level.
+The micro level matching determines whether a KSC possessed by a job seeker/an employee corresponds to KSCs required by an employer or if there is a KSC imbalance problem. The macro level skill matching is individual-independent i.e. between the learning outcomes of the learning fields supplied by the WoE and KSCs demanded by the WoW to perform the tasks of the job. The result of matching identifies to what ex-tent the WoE can satisfy the demand of the WoW for qualified job applicants who pos-sess the required KSCs. Consider the matching of the KSCs supplied by a learning field and the demanded KSCs for a job, the qualitative analysis results in five states: gap, shortage, surplus, obsolete and balance.
+One way to reduce the skill imbalance is the (re)training of job-learners and/or on the job training of employees to develop or maintain the demanded KSCs. For this pur-pose and prior to initiating any training program, what is demanded to be learned should be identified. To do so, there is a need to establish a communication channel between WoW and WoE, which facilitates the detection of the imbalance between the supplied learning outcomes and demanded KSCs.
+Taking the problem of supply-demand imbalance into account, the present thesis contributes in three dimensions. First, introducing and conceptualizing the communica-tion channel and the matching space known as the world of competence (WoC). Sec-ond, semantic representation of the matching process by constituting the model of Job-Know Ontology, which provides a shared understanding and interpretation from the matching state. In order to assure the usability of the Job-Know Ontology especially for non-technical target groups in the WoW and WoE, developing the ontology shall con-front a great challenge with regard to social quality and maturity. Third, formalizing and realizing the Job-Know Ontology, consisting of the two domains of WoW and WoE, as a generic solution not only to represent knowledge of the fields but also to support in-ferences and semantic reasoning (i.e. semantic matching of WoW and WoE). 
+In the light of this fact, the main result of the present thesis is an ontology called Job-Know Ontology as a representation of two interdisciplinary domains, WoW and WoE, to provide one picture by focusing on their melting point, which creates the WoC. The Job-Know Ontology provides novel mechanisms to infer the KSC states, which the labor market may confront, by matching the job tasks and the learning units of the field via supplied and demanded KSCs. Last but not least, the instantiation of the proposed model has been investigated and resulted in the development and evaluation of Nursing Job-Know Ontology. In addition, the degree of domain-independency of the proposed model has been examined through the realization of Production-Logistics Job-Know Ontology.</abstract>
+                    <subject>
+                        <topic>Ontologie</topic>
+                        <topic>Fähigkeiten-Matching</topic>
+                        <topic>Welt der Arbeit</topic>
+                        <topic>Welt der Bildung</topic>
+                        <topic>Ontology</topic>
+                        <topic>Competence</topic>
+                        <topic>Skill-matching</topic>
+                        <topic>World of work</topic>
+                        <topic>World of education</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Wissensbasierte Systeme und Wissensmanagement"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-12427</identifier>
+                    <identifier type="sys">HT019522197</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1242</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2017-11-06</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1242">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1242/1/Dissertation_Marjan_Khobreh.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1242"
+            DMDID="DMD_siegen_opus_1242">
+            <mets:fptr FILEID="FILE0_siegen_opus_1242"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

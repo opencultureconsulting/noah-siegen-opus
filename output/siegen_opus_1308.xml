@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1308">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Dynamic knowledge assets management to interactive problem solving and sustained learning : a collaborative CBR system in chronic and palliative care</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Nasiri, Sara</displayForm>
+                        <namePart type="family">Nasiri</namePart>
+                        <namePart type="given">Sara</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2018</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Knowledge management is a decision-making approach for facilitating the development and application of a variety types of knowledge assets. There are a number of key questions in the field, including “how can we gather knowledge assets?” and “How can we evaluate knowledge management initiatives planned for improving user experiences?”. The identification of the key knowledge asset value drivers and their relations allows stakeholders to define priorities.
+It is also important to utilize existing knowledge effectively in the proper knowledge management of knowledge-based assets. Accordingly, building a knowledge-based system to solve new and similar problems is a research challenge that this thesis aims to address.
+Although search engines and question-answering systems already serve as crucial tools for knowledge workers, understanding texts and using knowledge obtained from the texts for problem-solving is far from routine. Thus, this work addresses the problem of developing a collaborative knowledge-based system that can learn from user experience and knowledge assets.
+The research described in this dissertation involved an investigation of the use of word association strength based on the statistical cohesions between words to build a semantic profile of a text. This approach in the retrieval of relevant information can provide reasoning information from a text in a manner that has traditionally required the use of human experts; this information then be reused in the analysis of new problems. In developing an artificial intelligence
+(AI)-based problem-solving technique, this study investigated the use of case-based reasoning (CBR), a methodology in which data representing information on solved problems is stored for reuse in new problem-solving processes. The choice of past cases to be reused is based on similarity measures in the retrieval process as extracted from all stored cases in the case base. Each similarity measure characterizes a set of heuristics for approximating
+the unidentified utility of a case, and the quality of similarity measures can be improved by integrating as much knowledge regarding the specific application domain as possible into them. Features relations from ontology and fuzzy logic can also be integrated into CBR similarity measures to handle the ambiguities and uncertainties that are characteristically present in knowledge-intensive processes. 
+The system developed in this research – DePicT CLASS – is based on the DePicT
+concept, in which diseases are detected and predicted using image classification and text information from personal health records. DePicT CLASS was developed to serve as a collaborative case-based system to support caregivers and patients’ relatives by preparing relevant references and learning material to help them understand the patients’ medical issues. The main characteristics of DePicT and DePicT CLASS are demonstrated in this work using instances from two disease domains: dementia and melanoma.</abstract>
+                    <abstract type="content" lang="ger">Wissensmanagement ist ein Ansatz der Entscheidungsfindung, um die Entwicklung und Anwendung von Wissensressourcen unterschiedlicher Art zu erleichtern. Es gibt eine Reihe von Schlüsselfragen in diesem Bereich, einschließlich „Wie können wir Wissensressourcen sammeln?“ und „Wie können wir Initiativen zum Wissensmanagement bewerten, die zur Verbesserung der Benutzererfahrungen geplant sind?“. Die Identifikation der wichtigsten Wissensbestandswerttreiber und deren Beziehungen ermöglichen es den Stakeholdern, Prioritäten zu definieren. Darüber hinaus ist es wichtig, vorhandenes Wissen effektiv für das richtige Wissensmanagement von wissensbasierten Beständen zu nutzen. Dementsprechend
+ist der Aufbau eines wissensbasierten Systems zur Lösung neuer und ähnlicher Probleme eine Forschungsherausforderung, die mit dieser Dissertation angegangen werden soll.
+Obwohl Suchmaschinen und Frage-Antwort-Systeme bereits als entscheidende Werkzeuge für Wissensarbeiter dienen, ist das Verstehen von Texten und das Verwenden von Wissen, das aus den Texten zur Problemlösung gewonnen wird, weit von einer Routine entfernt. Daher befasst sich diese Arbeit mit dem Problem der Entwicklung eines kollaborativen wissensbasierten Systems, das von Benutzererfahrungen und Wissensressourcen lernen kann.
+Die in dieser Dissertation beschriebene Forschung beinhaltete eine Untersuchung der Verwendung von Wortvereinigungsstärke basierend auf den statistischen Zusammenhängen zwischen Wörtern, um ein semantisches Profil eines Textes aufzubauen. Dieser Ansatz bei der Suche nach relevanten Informationen kann aus einem Text aufschlussreiche Informationen liefern, die traditionell den Einsatz von Experten erfordern. Diese Informationen werden dann bei der Analyse neuer Probleme wiederverwendet. Bei der Entwicklung einer auf künstlicher Intelligenz beruhenden Problemlösungs-Technik untersuchte diese Studie die Verwendung von fallbasiertem Denken (CBR), eine Methodik, bei der Daten, die Informationen zu gelösten Problemen darstellen, zur Wiederverwendung in neuen Problemlösungsprozessen gespeichert werden. Die Auswahl der zu verwendenden Fälle in der Vergangenheit basiert auf Ähnlichkeitsmaßen im Abrufprozess, die aus allen gespeicherten Fällen in der Fallbasis extrahiert werden. Jedes Ähnlichkeitsmaß charakterisiert eine Menge von Heuristiken zur Approximation des nicht identifizierten Nutzens eines Falls, und die Qualität von Ähnlichkeitsmaßen kann verbessert werden, indem so viel Wissen wie möglich in die spezifische Anwendungsdomäne integriert wird. Eigenschaften-Relationen aus Ontologie und Fuzzy-Logik können auch in CBR-Ähnlichkeitsmaße integriert werden, um die Mehrdeutigkeiten und Unsicherheiten zu bewältigen, die charakteristisch in wissensintensiven Prozessen vorhanden sind.
+Das in dieser Studie entwickelte System – DePicT CLASS - basiert auf dem DePicT
+Konzept, bei dem Krankheiten anhand von Bildklassifikationen und Textinformationen aus persönlichen Gesundheitsakten erkannt und vorhergesagt werden. DePicT CLASS wurde entwickelt, um als kollaboratives fallbasiertes System zur Unterstützung von Angehörigen und Angehörigen von Patienten zu dienen, indem relevante Referenzen und Lernmaterialien erstellt werden, die ihnen helfen, die medizinischen Probleme der Patienten zu verstehen. Die Hauptmerkmale von DePicT und DePicT CLASS werden in dieser Arbeit anhand von
+Beispielen aus zwei Krankheitsdomänen demonstriert: Demenz und Melanom.</abstract>
+                    <subject>
+                        <topic>Wissensbasiertes System</topic>
+                        <topic>Knowledge-based system</topic>
+                        <topic>Case-based reasoning</topic>
+                        <topic>Recommendation</topic>
+                        <topic>Asset</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Wissensbasierte Systeme und Wissensmanagement"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-13082</identifier>
+                    <identifier type="sys">HT019687171</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1308</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2018-04-24</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1308">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1308/1/Dissertation_Sara_Nasiri.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1308"
+            DMDID="DMD_siegen_opus_1308">
+            <mets:fptr FILEID="FILE0_siegen_opus_1308"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

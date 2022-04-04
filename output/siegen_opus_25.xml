@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_25">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Leben und Werk Caroline Fliedners geb. Bertheau, der zweiten Vorsteherin der Diakonissen-Anstalt Kaiserswerth</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Irle, Katrin</displayForm>
+                        <namePart type="family">Irle</namePart>
+                        <namePart type="given">Katrin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2002</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Untersuchung des Lebens und Werks Caroline Fliedners geb. Bertheau , der zweiten Frau des Gründers der Diakonissen-Anstalt Kaiserswerth, versucht, das Leben einer Frau mit aus dem Rahmen des 19. Jahrhunderts heraustretender Biographie im Rahmen des historischen Kontexts zu analysieren. Neben der Auseinandersetzung mit der Bedeutsamkeit der Theologie der Erweckungsbewegung für ihre Vita wird die Arbeit durch Anwendung der modernen gender-Forschung befruchtet.
+Caroline Bertheau wird 1811 in Hamburg geboren. In Kontakte zur Erweckungsbewegung knüpft sie während ihrer Erziehung bei Amalie Sieveking (1794-1859), deren Leitung sie bis zu ihrer Konfirmation 1828 unterstellt wird. Nach dem Tod des Vaters 1831 arbeitet sie als Erzieherin auf verschiedenen holsteinischen Gütern, um 1840 als Oberaufseherin über die weibliche chirurgische Abteilung des Hamburger Allgemeinen Krankenhauses zurückzukehren, wo sie 1843 Theodor Fliedner begegnet und ihm wenig später als seine Frau
+nach Kaiserswerth folgt. Neben ihre Aufgaben als Ehefrau und Mutter seiner drei ihm aus erster Ehe verbliebenen Kinder tritt die Übernahme des Amtes der Vorsteherin der rasch expandierenden Anstalten (während der Amtszeit Caroline Fliedners wuchs die Zahl der Schwestern von 47 auf 638). In den ersten elf Ehejahren schenkt Caroline acht Kindern das Leben, von denen sieben das Erwachsenenalter erreichen. Während sie ihre beruflichen Aufgaben, die in der Leitung des inneren der Anstalten bestehen, brillant bewältigt, ist ihre
+Ehe durch massive Konflikte gekennzeichnet, die sich in erster Linie aus den häufigen beruflichen Abwesenheiten Th. Fliedners ergeben. Nach dem Tod ihre Gatten 1864 führt sie das Werk in seinem Sinne weiter, bis sie 1883 ihr Amt niederlegte. Stets die Grenzen ihrer Instruction respektierend, die als wesentliches Merkmal der Vorsteherin Mütterlichkeit postulierte, genoss sie Jahrzehnte über ihren Tod 1892 hinaus gleichermaßen in Anstalten wie in der Familie hohes Ansehen. Die Biographie Caroline Fliedners geb. Bertheau zeigt in vieler Hinsicht die Schwierigkeiten mit der die Situation der Frau im 19. Jahrhundert behaftet war.</abstract>
+                    <subject>
+                        <topic>Caroline Fliedner</topic>
+                        <topic>Frauenforschung</topic>
+                        <topic>Diakonie</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 1, Sozialwissenschaften - Philosophie - Theologie - Geschichte - Geographie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-257</identifier>
+                    <identifier type="sys">HT013574827</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_25</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2003-01-27</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_25">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/25/1/irle.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_25"
+            DMDID="DMD_siegen_opus_25">
+            <mets:fptr FILEID="FILE0_siegen_opus_25"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

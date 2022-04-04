@@ -1,0 +1,84 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_916">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Ground moving target tracking with space-time adaptive radar</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Bodenzielverfolgung mit Raum-Zeit adaptiver Signalverarbeitung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kohlleppel, Robert</displayForm>
+                        <namePart type="family">Kohlleppel</namePart>
+                        <namePart type="given">Robert</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Ground moving target tracking by airborne radar provides situational awareness of vehicle movements in the supervised region. Vehicles are detected by applying space time adaptive processing to the received multi channel radar data. The detections are then fed to a tracking algorithm that processes them to tracks. 
+In literature, radar signal processing and ground target tracking are treated as two separate topics and results are not validated by experimental data. The first objective of this thesis is to provide a closer link between these fields. The second objective is to show that tracking performance can be improved by providing additional data from the radar signal processing to the tracking step. The third objective is to validate the algorithm and the performance improvement using experimental data. 
+
+As a result this thesis presents a unified treatment of ground moving target tracking from radar raw data to established tracks. A complete reference algorithm for ground moving target tracking based on the Gaussian mixture probability hypothesis density filter is presented. In particular, Jacobians of the observation process are derived. They are presented in such a form that immediate implementation in a programming language is possible. 
+
+In the course of this thesis a measurement campaign with the experimental radar PAMIR of Fraunhofer FHR was conducted. The experiment included two GPS equipped reference vehicles and a multitude of targets of opportunity. Tracking results obtained with this experimental data and the reference tracking algorithm of this thesis are shown. 
+
+The thesis also enhances the reference target tracking algorithm by a parameter that characterizes the variance of the direction of arrival measurement of the target signal. This parameter is determined adaptively depending on the estimated signal strength and the clutter background. The major contribution with regard to this enhancement is a thorough experimental validation: Firstly, a comparison between GPS based measurements and radar based measurements of the direction of arrival shows that this variance captures the distribution of measurement errors excellently. Secondly, tracking results are compared to the GPS tracks of the ground truth vehicles. It is found that the enhanced algorithm yields superior track quality with respect to both track accuracy and track continuity.</abstract>
+                    <abstract type="content" lang="ger">Bodenzielverfolgung mit luftgestütztem Radar liefert das Lagebild von Fahrzeug­bewegungen innerhalb des beobachteten Gebiets. Fahrzeuge werden durch die Anwendung von Raum-Zeit adaptiver Signalverarbeitung (STAP) entdeckt. Die Entdeckungen werden dann von einem Zielverfolgungsalgorithmus zu Zielspuren verarbeitet. 
+
+In der Literatur werden Radarsignalverarbeitung und Zielverfolgung als zwei getrennte Forschungsfelder behandelt und die Bodenzielverfolgung wird nicht anhand von Realdaten validiert. Das erste Ziel dieser Arbeit ist, eine engere Verbindung zwischen beiden Feldern herzustellen. Das zweite Ziel ist zu zeigen, dass die Qualität der Zielverfolgung durch das Verwenden zusätzlicher, durch die Radarsignalverarbeitung gewonnene Information verbessert werden kann. Das dritte Ziel ist, die Funktionalität der Zielverfolgung und die Verbesserung der Leistung durch experimentelle Realdaten zu belegen. 
+
+Somit stellt diese Arbeit eine Gesamtbehandlung der Bodenzielverfolgung von den Radar-Rohdaten bis zu Zielspuren dar. Es wird ein vollständiger, auf dem Gaussian Mixture Probability Hypothesis Density Filter basierender Referenzalgorithmus für die Bodenzielverfolgung entwickelt. Insbesondere werden Jacobimatrizen der Beobachtungsfunktion hergeleitet. Sie werden in der Arbeit so dargestellt, dass sie direkt in einer Programmiersprache implementiert werden können. 
+
+Im Zuge dieser Arbeit wurde ein Zielverfolgungs-Experiment mit dem Experimentalsystem PAMIR des Fraunhofer FHR durchgeführt. In dem Experiment wurden neben einer Vielzahl von Gelegenheitszielen zwei mit GPS-Geräten ausgerüstete Fahrzeuge von dem Radar beobachtet. Auf Basis dieses Experiments und des Referenzalgorithmus werden Zielverfolgungsergebnisse vorgestellt. 
+
+Darüber hinaus erweitert diese Arbeit den Referenzalgorithmus um einen Parameter, der die Varianz der Richtungsschätzung des Zielsignals charakterisiert. Dieser Parameter wird adaptiv anhand der geschätzten Signalstärke und der Stärke störender Bodenrückstreuungen festgelegt. Der wesentliche Beitrag dieser Arbeit in Bezug auf diese Erweiterung ist eine gründliche experimentelle Validierung. Erstens zeigt der Vergleich von GPS- und Radar-basierten Richtungsschätzungen, dass dieser Parameter die Verteilung des Messfehlers exzellent beschreibt. Zweitens werden Zielverfolgungsergebnisse mit den GPS-Spuren verglichen. Es zeigt sich, dass der erweiterte Algorithmus sowohl in Bezug auf die Spurgenauigkeit als auch in Bezug auf die Spurkontinuität die Zielverfolgung verbessert.</abstract>
+                    <subject>
+                        <topic>Raum-Zeit-Signalverarbeitung</topic>
+                        <topic>Bodenzielverfolgung</topic>
+                        <topic>Raum-Zeit adaptive Signalverarbeitung</topic>
+                        <topic>Richtungsschätzung</topic>
+                        <topic>Gaussian mixture probability hypothesis density</topic>
+                        <topic>ground moving target indication</topic>
+                        <topic>ground target tracking</topic>
+                        <topic>space time adaptive processing</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-9164</identifier>
+                    <identifier type="sys">HT018643056</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_916</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2015-03-23</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_916">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/916/1/Dissertation_Robert_Kohlleppel.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_916"
+            DMDID="DMD_siegen_opus_916">
+            <mets:fptr FILEID="FILE0_siegen_opus_916"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

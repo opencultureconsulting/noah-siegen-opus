@@ -1,0 +1,91 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_523">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Informelles Lernen und ökonomische Bildung</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Informal learning and economic education</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Macha, Klaas</displayForm>
+                        <namePart type="family">Macha</namePart>
+                        <namePart type="given">Klaas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Neubauer, Maria</displayForm>
+                        <namePart type="family">Neubauer</namePart>
+                        <namePart type="given">Maria</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Rehm, Marco</displayForm>
+                        <namePart type="family">Rehm</namePart>
+                        <namePart type="given">Marco</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schuhen, Michael</displayForm>
+                        <namePart type="family">Schuhen</namePart>
+                        <namePart type="given">Michael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Ein Großteil ökonomischer Kompetenzen bei Jugendlichen wird vermutlich informell gelernt, da ökonomische Bildung in Deutschland nur zu einem geringen Umfang im Unterricht gelehrt wird. Zur Diagnose von Art und Umfang informellen Lernens im Bereich der ökonomischen Bildung erläutern die Autoren die theoretischen Hintergründe und stellen ein Pilotprojekt zur Kompetenzmessung in der ökonomischen Bildung vor (ECOS - Economic Competencies Study). In diesem Projekt wird die Performanz in einer simulierten Online-Umgebung als Indikator für Kompetenzen angesehen. Mit diesem Verfahren sollen informell erworbene Kompetenzen quantitativ erfasst werden.</abstract>
+                    <abstract type="content" lang="eng">The authors argue that a large part of economic competencies in adolescents are likely to be acquired in informal settings because generally economic education is taught only to a small amount in German schools. In order to assess the very character and extend of in-formal learning in economic education the authors explain the theoretic background and present a pilot project (ECOS - Economic Competencies Study). We assume that performance in a simulated online environment is regarded as an indicator for competencies. With this method informally acquired competencies in economic education are to be quantitatively assessed.</abstract>
+                    <subject>
+                        <topic>Informelles Lernen</topic>
+                        <topic>Formelles Lernen</topic>
+                        <topic>Ökonomische Kompetenz</topic>
+                        <topic>Online-Testung</topic>
+                        <topic>Wirtschaftswissen</topic>
+                        <topic>Informal learning</topic>
+                        <topic>formal learning</topic>
+                        <topic>economic education</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5232</identifier>
+                    <identifier type="sys">HT016913251</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_523</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_523">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/523/1/informelles_lernen_und_oekonomische_bildung.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_523"
+            DMDID="DMD_siegen_opus_523">
+            <mets:fptr FILEID="FILE0_siegen_opus_523"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

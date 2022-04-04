@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1933">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Quantification: the view from natural language generation</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Carstensen, Kai-Uwe</displayForm>
+                        <namePart type="family">Carstensen</namePart>
+                        <namePart type="given">Kai-Uwe</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Quantification is one of the central topics in language and computation, and the interplay ofcollectivity, distributivity, cumulativity, and plurality is at the heart of the semantics ofquantification expressions. However, its aspects are usually discussed piecemeal,distributed, and only from an interpretative perspective with selected linguistic examples,often blurring the overall picture. In this article, quantification phenomena are investigatedfrom the perspective of natural language generation. Starting with a small-scale, but realisticscenario, the necessary steps toward generating quantifier expressions for a perceivedsituation are explained. Together with the automatically generated descriptions of thescenario, the observations made are shown to present new insights into the interplay,and the semantics of quantification expressions and plurals, in general. The results highlightthe importance of taking different points of view in thefield of language and computation.</abstract>
+                    <subject>
+                        <topic>Natürliche Sprache</topic>
+                        <topic>Language</topic>
+                        <topic>Computation</topic>
+                        <topic>Quantification</topic>
+                        <topic>Computational linguistics</topic>
+                        <topic>Semantics</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19336</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1933</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1933">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1933/4/Carstensen_Quantification.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1933"
+            DMDID="DMD_siegen_opus_1933">
+            <mets:fptr FILEID="FILE0_siegen_opus_1933"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

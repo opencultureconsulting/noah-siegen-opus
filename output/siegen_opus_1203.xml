@@ -1,0 +1,58 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1203">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Vom Umgang mit Kriegs-, Gewalt- und Todesdarstellungen in bildnerischen Produktionen von männlichen Jugendlichen : für eine vielschichtige Archäologie der Kinder- und Jugendzeichnung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hoffmann, Katja</displayForm>
+                        <namePart type="family">Hoffmann</namePart>
+                        <namePart type="given">Katja</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Dieser Beitrag widmet sich einem in der kunstpädagogischen Literatur bereits vielfach behandelten Thema: der Kinderzeichnung. Er nimmt im Rahmen einer qualitativ-empirischen Bildanalyse exemplarisch drei Zeichnungen von Schülern im Übergang zum Jugendalter in den Blick. Sie wurden im Kontext eines Unterrichtsprojekts an einem Leverkusener Gymnasium innerhalb einer sechsten Klasse von drei Jungen im Alter von elf Jahren angefertigt. Die vorgelegten Bilder sind also in einem strengen Sinne nicht mehr eindeutig als Kinderzeichnungen zu verstehen, sondern eher als Jugendzeichnungen. Hat die - häufig mehr oder weniger explizit - psychoanalytisch geprägte, bildnerische Persönlichkeitsdiagnostik  eher monokausale und eindimensionale Deutungsmodelle im Blick, sollen hier unterschiedliche Bildzugänge zu den Zeichnungen entfaltet werden: Es geht in diesem Beitrag zunächst um eine behutsame ‚Archäologie der Kinder- bzw. Jugendzeichnung‘, in dem Sinne, dass der Versuch unternommen wird, sich unterschiedlichen, möglichen Bild- und Bedeutungsschichten in den Zeichnungen durch die Erschließung vielfältiger Entstehungskontexte anzunähern. Gerade in sozialpädagogischen, aber auch in schulischen Zeichenprojekten bietet ein solcher multiperspektivischer Zugang das Potential, sich vielschichtig mit diesem hoch spannenden Bildphänomen der Jugendzeichnung auseinanderzusetzen und sich zugleich mit einem differenzierten Blick den Jugendlichen und ihren komplexen Lebenswirklichkeiten anzunähern.</abstract>
+                    <subject>
+                        <topic>Kinderzeichnung</topic>
+                        <topic>Adoleszenz</topic>
+                    </subject>
+                    <classification authority="ddc">740</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-12037</identifier>
+                    <identifier type="sys">HT020892905</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1203</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1203">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1203/1/Hoffmann_Vom_Umgang_mit_Kriegs_Gewalt_und_Todesdarstellungen.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1203"
+            DMDID="DMD_siegen_opus_1203">
+            <mets:fptr FILEID="FILE0_siegen_opus_1203"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

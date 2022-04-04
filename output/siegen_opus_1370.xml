@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1370">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Existenz, Legitimation und Notwendigkeit unionaler Sonderabgaben</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Roggenkamp, Daniel</displayForm>
+                        <namePart type="family">Roggenkamp</namePart>
+                        <namePart type="given">Daniel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Arbeit unterucht die Existenz unionaler Sonderabgaben nach nationalem Verständnis und zeigt auf, dass eine Belastungsidentität der Abgabeformen nicht zu einer einheitlichen Klassifikation unionaler und nationaler Abgaben führen muss.</abstract>
+                    <subject>
+                        <topic>Europäische Union</topic>
+                        <topic>Abgaberecht</topic>
+                        <topic>European Union</topic>
+                        <topic>Special levy</topic>
+                        <topic>Tax law</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät III - Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-13705</identifier>
+                    <identifier type="sys">HT019825105</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1370</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2018-09-24</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1370">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1370/1/Dissertation_Daniel_Roggenkamp.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1370"
+            DMDID="DMD_siegen_opus_1370">
+            <mets:fptr FILEID="FILE0_siegen_opus_1370"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

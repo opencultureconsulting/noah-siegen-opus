@@ -1,0 +1,84 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1713">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Learning dictionaries for inverse problems on the sphere</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Lernen von Dictionarys für inverse Probleme auf der Sphäre</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Lernen von Dictionarys für inverse Probleme auf der Sphäre</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schneider, Naomi</displayForm>
+                        <namePart type="family">Schneider</namePart>
+                        <namePart type="given">Naomi</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Michel, Volker</displayForm>
+                        <namePart type="family">Michel</namePart>
+                        <namePart type="given">Volker</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Berechnung des Gravitationspotentials auf der Erdoberfläche aus Satellitendaten ist ein schlecht gestelltes sphärisches inverses Problem. Die GRACE-Mission (NASA/DLR) liefert uns u. a. die monatlichen Abweichungen zu diesem Potential. Dadurch erhalten wir Einblicke in den Massentransport auf der Erde und können insbesondere den Klimawandel visualisieren.
+Traditionell wird eine approximative Lösung eines inversen Problems in einer Basis, wie z. B. Kugelflächenfunktionen, dargestellt. Dagegen bestimmen die Inverse Problem Matching Pursuit (IPMP) Algorithmen iterativ eine Darstellung in Dictionary-Elementen. Ein Dictionary enthält üblicherweise globale und lokale Ansatzfunktionen wie Kugelflächenfunktionen, Slepian-Funktionen und radiale Basisfunktionen. Man sieht leicht, dass die A-priori-Wahl eines endlichen Dictionarys prägend für den Verlauf der Algorithmen ist.
+Daher entwickeln wir in dieser Arbeit die Learning Inverse Problem Matching Pursuit (LIPMP) Algorithmen. Die Wahl eines Dictionary-Elementes in einem Iterationsschritt wird hier um mehrere nichtlineare Optimierungsprobleme erweitert. Auf diese Weise werden automatisch endlich viele optimierte Ansatzfunktionen aus unendlich Vielen gelernt.
+Zunächst fassen wir in dieser Arbeit grundlegende Resultate zusammen, die notwendig für das weitere Verständnis sind. Danach entwickeln wir die LIPMP-Algorithmen. Dabei legen wir ein besonderes Augenmerk auf Satellitendaten des Gravitationspotentials. Wir betrachten ebenfalls einige theoretische Aspekte der Methoden. Außerdem präsentieren wir numerische Experimente, die die praktische Anwendbarkeit der Algorithmen für die Downward Continuation belegen.</abstract>
+                    <abstract type="content" lang="eng">The downward continuation of the gravitational potential from satellite data is a spherical ill-posed inverse problem in the geosciences. The GRACE mission (NASA/DLR) supplied us, e. g., with monthly deviations from this potential. This enables us to consider the mass transport on the Earth and, thus, visualize the climate change.
+Classically, an approximative solution of an inverse problem is expanded in a suitable basis like spherical harmonics. Alternatively, the Inverse Problem Matching Pursuit (IPMP) algorithms iteratively build a linear combination of dictionary elements. A dictionary usually consists of global and local trial functions, such as spherical harmonics, Slepian functions and radial basis functions. Consequently, an a-priori choice of a finite dictionary is of major importance for the IPMP algorithms.
+Therefore, we develop the Learning Inverse Problem Matching Pursuit (LIPMP) algorithms in this thesis. Here, the choice of a dictionary element in each iteration is extended by several non-linear optimization problems. In this way, the LIPMP algorithms automatically learn a finite number of optimized trial functions from infinitely many possible ones.
+First, we introduce the basic results necessary for the understanding of the novel learning methods. Then we develop the LIPMP algorithms. There, we have a closer look on the downward continuation of satellite data of the gravitational potential. We also consider some of the theoretical aspects of the methods. Further, we present numerical experiments which underline the applicability of the strategies for the downward continuation problem.</abstract>
+                    <subject>
+                        <topic>Inverses Problem</topic>
+                        <topic>Matching pursuits</topic>
+                        <topic>Downward continuation</topic>
+                        <topic>Learning</topic>
+                        <topic>Inverse problems</topic>
+                        <topic>Gravitational potential</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Department Mathematik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-17133</identifier>
+                    <identifier type="sys">HT020616287</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1713</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2020-08-10</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1713">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1713/4/Dissertation_Naomi_Schneider.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1713"
+            DMDID="DMD_siegen_opus_1713">
+            <mets:fptr FILEID="FILE0_siegen_opus_1713"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

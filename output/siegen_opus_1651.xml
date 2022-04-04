@@ -1,0 +1,161 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1651">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Execution environment for integrated real-time systems based on software-defined networking</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Ausführungsumgebung für integrierte Echtzeitsysteme basierend auf Software-definierter Vernetzung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Fang, Hongjie</displayForm>
+                        <namePart type="family">Fang</namePart>
+                        <namePart type="given">Hongjie</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Obermaisser, Roman</displayForm>
+                        <namePart type="family">Obermaisser</namePart>
+                        <namePart type="given">Roman</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Heute gibt es eine breite Palette von Industriesystemen, die auf föderierten
+Architekturen basieren, was bedeutet, dass jeder Rechenknoten im System ausschließlich
+einer Funktion zugeordnet ist. Aufgrund der zunehmenden Rechenleistung
+eines einzelnen Prozessors und der zunehmenden Anzahl von Rechenprozessoren
+auf einer einzigen Plattform wurde umfangreiche Forschung zur Integration
+mehrerer Funktionen mit unterschiedlichen Kritikalitätsstufen auf einer gemeinsamen
+Plattform durchgeführt. So hat sich beispielsweise im Bereich der Avionik
+der Entwicklungstrend von föderierten zu integrierten Architekturen verlagert. Der
+ARINC 653 Standard wurde veröffentlicht, der die Ausführungsumgebung für das
+Hosting mehrerer Avionik-Softwarefunktionen in einem einzigen Rechenknoten
+definiert. ARINC 653 wurde erfolgreich implementiert (z.B. Airbus A380) und erreichte
+seine primären Ziele (Kosten- und Gewichtsreduzierung, modulare Zertifizierung
+möglich).
+
+Die bestehenden Ausführungsumgebungen auf Basis einer integrierten Architektur
+unterstützen jedoch nur statische Systemkonfigurationen. In bestimmten Bereichen
+wie der Bahnindustrie ist eine dynamische Systemanpassung zur Laufzeit erforderlich,
+die sowohl die Anwendungsausführungsumgebung als auch die Datenkommunikationsmechanismen
+betrifft. In dieser Dissertation liegt unser Fokus auf einer
+Ausführungsumgebung, die auf einer integrierten Architektur basiert, die die sichere
+Integration von mixed-criticality-Anwendungen garantiert und auch das Problem
+der Systemrekonfiguration angeht.
+
+Um die Forschungslücke zu schließen, stellen wir eine Ausführungsumgebung
+für integrierte Echtzeitanwendungen vor, indem wir das Paradigma des Software-
+Defined Networking (SDN) nutzen. Wir erweitern die zeitlichen und räumlichen
+Isolations-mechanismen von der Anwendungsschicht auf die Ausführungsumgebung,
+so dass sich die integrierten Anwendungen den Rechenknoten störungsfrei
+teilen. Für die Datenkommunikation der integrierten Anwendungen schlagen wir
+einen virtuellen Switch vor, der die zeitliche und räumliche Isolation zwischen den
+Datenflüssen unterstützt und das SDN-Paradigma nutzt, um die Rekonfigurationsanforderungen
+der Datenflüsse zu erfüllen. Darüber hinaus befassen wir uns auch mit
+dem kontrollierten Import und Export von Nachrichten zwischen Datenflüssen im
+vorgeschlagenen virtuellen Switch. Für die deterministischen Kommunikationsanforderungen
+von harten Echtzeitanwendungen schlagen wir einen virtuellen Switch
+vor, der IEEE 802.1Qbv und IEEE 802.1Qci nach dem Time Sensitive Networking
+(TSN)-Standard ist, um die Forschungslücke des virtuellen Switchings zu schließen,
+das eine begrenzte Verzögerung mit geringem Jitter in einer integrierten Architektur
+garantiert.
+
+In den Proof-of-Concept-Implementierungen zeigen wir die Nicht-Interferenz
+zwischen Anwendungen in der Ausführungsumgebung durch Fehlerinjektion. In
+unseren Virtual-Switch-Demonstratoren bewerten wir die grundlegenden Isolationsmechanismen
+und den Determinismus des Message-Switching, während wir den
+verursachten Overhead für die Nachrichtenübertragung sowie den kontrollierten
+Datenaustausch messen, wobei der gemessene Overhead im vorgeschlagenen Virtual-
+Switch weniger als 10 μs beträgt.</abstract>
+                    <abstract type="content" lang="eng">Today there exists a wide range of industrial systems that are based on federated
+architectures, which means that the each computing node in the system is exclusively
+assigned to one function. Due to the increasing computing capability of a single
+processor and the increasing amount of computing processors on a single platform,
+extensive research on integrating multiple functions with different criticality levels
+on a shared platform was carried out. For example, in the avionic domain, the
+development trend has moved from federated to integrated architectures. The ARINC
+653 standard was released, which defines the execution environment for hosting
+several avionic software functions within a single computing node. ARINC 653 was
+successfully implemented (e.g., Airbus A380) and achieved its primary goals (cost
+and weight reduction, enabling modular certification).
+
+However, the existing execution environments based on an integrated architecture
+support only static system configurations. In specific domains like the railway
+industry, dynamic system adaptation is required during runtime, which affects both
+the application execution environment and the data communication mechanisms. In
+this dissertation, our focus is on an execution environment based on an integrated
+architecture, which guarantees the safe integration of mixed-criticality applications
+and also addresses the system reconfiguration problem.
+
+In order to close the research gap, we introduce an execution environment for
+integrated real-time applications by leveraging the Software-Defined Networking
+(SDN) paradigm. We extend the temporal and spatial isolation mechanisms from the
+application layer to the execution environment, so that the integrated applications
+share the computing node without interference. For the data communication of
+the integrated applications, we propose a virtual switch supporting temporal and
+spatial isolation between data flows and leverage the SDN paradigm to address the
+reconfiguration requirements of data flows. Besides, we also address the controlled
+import and export of messages between data flows in the proposed virtual switch.
+For the deterministic communication requirements of hard real-time applications, we
+propose a virtual switch that is IEEE 802.1Qbv and IEEE 802.1Qci capable according
+to the Time Sensitive Networking (TSN) standard, in order to close the research gap
+of virtual switching guaranteeing bounded delay with low jitter in an integrated
+architecture.
+
+In the proof-of-concept implementations, we demonstrate the non-interference
+between applications in the execution environment by fault injection. In our virtual
+switch demonstrators, we evaluate the fundamental isolation mechanisms and determinism
+of message switching, while measuring the caused overhead for message
+transmission as well as controlled data exchange, where the measured overhead in
+the proposed virtual switch is less than 10 μs.</abstract>
+                    <subject>
+                        <topic>Software-defined networking</topic>
+                        <topic>Integrated System</topic>
+                        <topic>Software-Defined Networking</topic>
+                        <topic>Real-time System</topic>
+                        <topic>Virtual Networking</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Praktische und Technische Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16514</identifier>
+                    <identifier type="sys">HT020527634</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1651</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2020-05-13</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1651">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1651/4/Dissertation_Hongjie_Fang.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1651"
+            DMDID="DMD_siegen_opus_1651">
+            <mets:fptr FILEID="FILE0_siegen_opus_1651"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

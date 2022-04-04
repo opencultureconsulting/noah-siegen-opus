@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_848">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Diskriminierende Unternehmensbesteuerung und Standortwettbewerb</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Discriminatory corporate taxation and location competition</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Geiken, Christian</displayForm>
+                        <namePart type="family">Geiken</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Diese Arbeit beschäftigt sich mit verschiedenen Aspekten einer diskriminierenden Unternehmensbesteuerung und betrachtet dabei unter anderem die Optimalität eines solchen Steuersystems aus einer finanzwissenschaftlichen Perspektive.</abstract>
+                    <abstract type="content" lang="eng">This thesis deals with different aspects of discriminatory corporate taxation and analyzes inter alia the optimality of such a tax regime from a public economic perspective.</abstract>
+                    <subject>
+                        <topic>Unternehmensbesteuerung</topic>
+                        <topic>Diskriminierung</topic>
+                        <topic>Standortwettbewerb</topic>
+                        <topic>corporate taxation</topic>
+                        <topic>discrimination</topic>
+                        <topic>location competition</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät III - Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-8489</identifier>
+                    <identifier type="sys">HT018512983</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_848</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2015-01-06</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_848">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/848/1/Dissertation_Christian_Geiken.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_848"
+            DMDID="DMD_siegen_opus_848">
+            <mets:fptr FILEID="FILE0_siegen_opus_848"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

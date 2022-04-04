@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1951">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Rammekens, eine frühe Bastionärfestung in den Niederlanden (De Boni, ab 1547)</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Rammekens, an early bastion fortress in the Netherlands (De Boni, 1547)</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kiem, Karl</displayForm>
+                        <namePart type="family">Kiem</namePart>
+                        <namePart type="given">Karl</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">1987</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Festung Rammekens wurde ab 1547 in der niederländischen Provinz Zeeland in der Nähe der Stadt Vlissingen gebaut. Bauherr war Kaiser Karl V., der Architekt war Donato di Pellizuoli aus Bergamo. Zweck der Festung war es, die Einfahrt zum Hafen von Antwerpen zu sichern. Rammekens ist eine der ältesten Bastionstürme außerhalb Italiens. Das Tor gehört zu den frühesten Beispielen für den Import der italienischen Renaissance in die Niederlande.</abstract>
+                    <abstract type="content" lang="eng">The Rammekens fortress was built since 1547 in the Dutch province of Zeeland near the town of Vlissingen. The client was Emperor Charles V, the architect was Donato di Pellizuoli from Bergamo. The purpose of the fortification was to secure the entrance to the port of Antwerp. Rammekens is one of the oldest bastion fortresses outside of Italy. The Gate of the building belongs to the earliest examples of the import of the Italian Renaissance in the Netherlands.</abstract>
+                    <subject>
+                        <topic>Festung</topic>
+                        <topic>Niederlande</topic>
+                        <topic>Karl V.</topic>
+                        <topic>Donato de Boni</topic>
+                        <topic>Napoleon</topic>
+                        <topic>Fortress</topic>
+                        <topic>Netherlands</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19512</identifier>
+                    <identifier type="sys">HT021013988</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1951</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1951">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1951/3/Karl_Kiem_Rammekens.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1951"
+            DMDID="DMD_siegen_opus_1951">
+            <mets:fptr FILEID="FILE0_siegen_opus_1951"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

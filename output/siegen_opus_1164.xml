@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1164">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Das </nonSort>
+                        <title>Berufspraktikum der Sozialen Arbeit als Statuspassage : „dass es eine sehr große Herausforderung sein wird für mich“</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Reitemeier, Ulrich</displayForm>
+                        <namePart type="family">Reitemeier</namePart>
+                        <namePart type="given">Ulrich</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Frey, Cornelia</displayForm>
+                        <namePart type="family">Frey</namePart>
+                        <namePart type="given">Cornelia</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Autor_innen haben ihrem Beitrag ein Zitat aus einem Interview mit einer Sozialpädagogin im Anerkennungsjahr (Berufspraktikum) vorangestellt. Es gibt die Einschätzung wieder, die die Informantin vor Antritt ihrer Berufspraktikumsstelle von dieser Ausbildungsphase hatte. Sie ging offenbar davon aus, dass ungewohnt hohe Beanspruchungen und Aufgaben auf sie zukommen und auch davon, dass diese nicht leicht zu bewältigen sein werden. Vorliegende Untersuchungen lassen diesen Herausforderungscharakter weitgehend unberücksichtigt.</abstract>
+                    <subject>
+                        <topic>Sozialarbeit</topic>
+                        <topic>Soziale Arbeit</topic>
+                        <topic>Praktikum</topic>
+                        <topic>Erfahrungsbericht</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11641</identifier>
+                    <identifier type="sys">HT019569442</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1164</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1164">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1164/1/Reitemeier_Frey_Das_Berufspraktikum_der_Sozialen_Arbeit.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1164"
+            DMDID="DMD_siegen_opus_1164">
+            <mets:fptr FILEID="FILE0_siegen_opus_1164"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

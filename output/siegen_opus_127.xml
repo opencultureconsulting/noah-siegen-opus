@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_127">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Sport in der Literatur : Aspekte ausgewählter Sportmotive im 20. Jahrhundert</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Leis, Mario</displayForm>
+                        <namePart type="family">Leis</namePart>
+                        <namePart type="given">Mario</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">1999</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Ziel war es, den Sport in der Literatur umfassend darzustellen. Während der Lektüre stellte sich heraus, daß bestimmte Themenkomplexe und Motive (Turnen, Körperlichkeit, Krieg, Weltausgrenzung, Arbeitersport, Liebe vs. Sport ...) auffallend häufig verhandelt wurden. Aus der Menge des Materials konnten so elf Motivkapitel, die sich geradezu aufdrängten, gebildet werden. Jedes dieser Kapitel erzählt dann mehr oder weniger chronologisch seine Geschichte. Im Ganzen ist so eine kleine Kulturgeschichte des Sport in der Literatur entstanden: Das 20. Jahrhundert wird mehr oder weniger flächendeckend diskutiert, gelegentlich werden Ausflüge bis ins späte 18. Jahrhundert (Goethe) vorgenommen.</abstract>
+                    <subject>
+                        <topic>Sport</topic>
+                        <topic>Deutsche Literatur</topic>
+                        <topic>20. Jahrhundert</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 3, Sprach-, Literatur- und Medienwissenschaften"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1272</identifier>
+                    <identifier type="sys">HT010612148</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_127</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>1999-04-13</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_127">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/127/1/leis.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_127"
+            DMDID="DMD_siegen_opus_127">
+            <mets:fptr FILEID="FILE0_siegen_opus_127"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

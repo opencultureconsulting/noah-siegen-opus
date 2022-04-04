@@ -1,0 +1,57 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>489</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Second moment modelling for the numerical simulation of passive scalar dispersion of air pollutants in urban environments</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Rafael</pc:foreName>
+            <pc:surName>Izarra Garcia</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Numerische Strömungssimulation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Turbulent scalar fluxes</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">anisotropic modelling</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">MUST</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">atmospheric dispersion</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">model improvement</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Since the Industrial Revolution mankind has needed to deal with increasing air pollution problems as a result of manufacturing, mining, transportation, and power production. Air pollution concerns the interaction of gases and particles emitted into the atmosphere with the surrounding environment. This interaction can redirect pollutants toward sensitive areas, concentrate different species above acceptable levels, or even mitigate concentration levels by enhancing diffusion and dispersion. The present EU environmental legislation has been implemented to control these high pollutant concentrations and improve the air quality conditions in urban areas. The numerical simulation of dispersion has shown to be a useful tool for both the scientific description of pollution phenomena and for planning and decision making.&#13;
+The numerical simulation of pollution dispersion in urban environments by means of solution of the statistically steady Reynolds Averaged Navier Stokes (RANS) equations is known to be strongly dependent on turbulence models. If pollution dispersion is modelled, the turbulence models do not only have to be used for the Reynolds stresses, but also for the turbulent scalar fluxes. While the influence of several turbulence models for Reynolds stresses on pollution dispersion in urban environments has already been examined several times, the turbulent scalar fluxes are usually modelled by the simple gradient diffusion assumption. In the present work, the influence of more advanced models for the turbulent scalar fluxes on the dispersion of pollutants is examined. Two different wind tunnel experiments, a two-dimensional (2D) street canyon and a three-dimensional (3D) urban area model, were selected for the validation of the models' performance. In total, five anisotropic algebraic flux models and two second moment models were implemented in the commercial software FLUENT 6.3. All these models together with the simple gradient diffusion model (with different turbulent Schmidt numbers) are used and the results are compared with measurements using statistical performance measures to assess their predictive capability. &#13;
+All evaluated models showed good general agreement in comparison to the experiments. The anisotropic models provided better concentration predictions than the isotropic models in 2D simulations. However, these improvements were very small in 3D simulations and usually disappeared. In the end, modelling improvements based on the sensitivity analysis of model coefficients, numerical and experimental model limitations and other parameters and assumptions relevant for the simulation of passive scalar pollution dispersion are presented and discussed.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2009-12-17</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2009</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-4896</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Fluid- und Thermodynamik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="izarra.pdf" ddb:fileSize="13250789"/>
+   <ddb:checksum ddb:type="MD5">b4fd24d460b075cfdd915625f5f2cf1f</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/489/1/izarra.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/489</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

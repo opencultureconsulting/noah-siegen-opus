@@ -1,0 +1,119 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1053">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Parallel multi-scale simulations with octrees and coupled applications</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Klimach, Harald</displayForm>
+                        <namePart type="family">Klimach</namePart>
+                        <namePart type="given">Harald</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Physical simulations often require the consideration of many phenomena
+and scales. For example in aeroacoustic problems, both, the flow generating
+the noise and the sound wave propagation needs to be considered. This work
+investigates numerical approaches to such problems on large distributed and
+parallel computing systems. The coupling framework KOP is parallelized
+as far as possible and to overcome fundamental scalability limits a new
+framework APES is developed. Both implementations utilize high-order
+discretizations, as these allow for accurate simulations with less degrees of
+freedoms than lower order methods. This property of high-order methods
+is an important feature for modern supercomputing systems, as memory
+to represent degrees of freedom in a simulation is a scarce resource. The
+presented methods enable the transient simulation of multi-scale setups but
+detailed resolutions still require large amounts of computational resources.
+A focus is put on the efficient utilization of modern computing systems
+to address this need. Besides the scalability of the implementations, the
+importance of single core optimization and vectorization is illustrated. 
+KOP uses discrete points to realize the coupling and allows for the interaction
+between domains with differing discretizations and solved equation
+systems. Arbitrary mesh configurations are supported and both, structured
+and unstructured mesh solvers are available in the framework. In both framworks
+explicit time integration methods are deployed to resolve the time
+dependent simulations. The coupling allows for a varying time step width
+over the participating domains by a sub-cycling method. Various conservation
+laws can be solved by the presented frameworks ranging from Maxwell’s
+equations and linearized Euler equations to full compressible Navier-Stokes
+equations. A fully distributed coupling approach is developed that allows
+for coupling of those in a large-scale simulation to solve, for example, aeroacoustic problems. 
+APES enables high-order discretizations in the spectral regime. It involves
+a fully scalable toolchain for mesh-based simulations featuring a mesh
+generation and a post-processing tool to support the solvers. The common
+foundation of these tools is an Octree representation for the mesh, and
+this work specifically covers the generation of high-order geometry approximations in the developed mesh generator Seeder. This robust mechanism works for arbitrarily complex surfaces and offers a practical way to tackle
+engineering tasks with spectral element discretizations.</abstract>
+                    <abstract type="content" lang="ger">Simulationen physikalischer Gegebenheiten müssen oft das Zusammenspiel
+vieler Phänomene und Skalen berücksichtigen. Bei aeroakustischen Problemen
+zum Beispiel, muss beides berücksichtigt werden, sowohl die Strömung,
+die den Lärm erzeugt, als auch der Transport der Schallwellen. In dieser Arbeit
+werden numerische Ansätze für solche Probleme auf großen, verteilt parallelen
+Rechensystemen untersucht. Das Kopplungsframework KOP wird,
+soweit wie möglich, parallelisiert und ein neues Framework (APES) wird
+entwickelt um fundamentale Beschränkungen der Skalierbarkeit zu überwinden.
+In beiden Implementierungen werden Verfahren hoher Ordnung
+eingesetzt, da diese eine hochauflösende Simulation mit weniger Freiheitsgraden
+ermöglichen, als Verfahren niedrigerer Ordnung. Diese Eigenschaft von Verfahren hoher Ordnung ist ein wichtiger Vorteil auf modernen Supercomputersystemen, da der Speicher, der benötigt wird um die Freiheitsgrade abzubilden eine knappe Ressource darstellt. Die vorgestellten Methoden ermöglichen die transiente Simulation von Mehrskalenproblemen, allerdings werden für detaillierte Simulationen noch immer große Mengen an Rechenressourcen benötigt. Im Rahmen dieser Arbeit wird deshalb ein Fokus auf
+die effiziente Nutzung moderner Rechensysteme gelegt. 
+KOP verwendet diskrete Punkte um die Kopplung zu realisieren. Dies
+erlaubt die Interaktion zwischen Gebieten mit unterschiedlicher Diskretisierung
+aber auch verschiedenen Gleichungen. Beide Implementierungen
+verwenden eine explizite Zeitintegration um die zeitabhängigen Simulationen
+aufzulösen. Das Kopplungsframework erlaubt von Gebiet zu Gebiet
+variierende Zeitschritte. Diverse Erhaltungsgleichungen, von linearisierten
+Euler Gleichungen und den Maxwell Gleichung, bis hin zu den Navier-Stokes
+Gleichungen, können mit den vorgestellten Verfahren gelöst werden. Ein
+vollständig verteilter Kopplungsmechanismus wird im Rahmen der Arbeit
+entwickelt, der es ermöglicht, diese Gleichungen in großen Simulationen
+gekoppelt zu verwenden. 
+APES erlaubt die Verwendung spektraler Diskretisierungen. Dazu bringt
+es eine eigene Toolchain mit, die eine skalierbare Ausführung der gesamten
+Simulation sicherstellt. Insbesondere, umfasst dies auch einen Gittergenerator,
+der Geometrien mit Polynomen hoher Ordnung darstellen kann. Das
+robuste Verfahren, das hier zum Einsatz kommt ermöglicht es, ingenieurtechnische
+Fragestellungen auch mit solchen Verfahren hoher Ordnung in Angriff
+zu nehmen.</abstract>
+                    <subject>
+                        <topic>Simulation</topic>
+                        <topic>gekoppelte Anwendungen</topic>
+                        <topic>Frameworks</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-10536</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1053</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1053">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1053/1/Klimach_Parallel_multi_scale_simulations.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1053"
+            DMDID="DMD_siegen_opus_1053">
+            <mets:fptr FILEID="FILE0_siegen_opus_1053"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

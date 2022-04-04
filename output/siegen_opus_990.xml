@@ -1,0 +1,111 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_990">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Siegener Beiträge zur Geschichte und Philosophie der Mathematik 2015</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bedürftig, Thomas</displayForm>
+                        <namePart type="family">Bedürftig</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Binder, Alessa</displayForm>
+                        <namePart type="family">Binder</namePart>
+                        <namePart type="given">Alessa</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Janßen, Martin</displayForm>
+                        <namePart type="family">Janßen</namePart>
+                        <namePart type="given">Martin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Pernkopf, Elisabeth</displayForm>
+                        <namePart type="family">Pernkopf</namePart>
+                        <namePart type="given">Elisabeth</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wille, Matthias</displayForm>
+                        <namePart type="family">Wille</namePart>
+                        <namePart type="given">Matthias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Nickel, Gregor</displayForm>
+                        <namePart type="family">Nickel</namePart>
+                        <namePart type="given">Gregor</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die &quot;Siegener Beiträge zur Geschichte und Philosophie der Mathematik - SieB&quot; bieten ein Forum für den interdisziplinären Diskurs im Bereich Philosophie und Geschichte der Mathematik, der eine Pluralität an Themen, Perspektiven und Methoden mit dem Bemühen um ein besseres Verständnis ’der’ Mathematik vereint.
+Im Sinne der Leitfrage nach dem &quot;Wesen&quot; der Mathematik enthält der vorliegende Band Beiträge zur Mathematik- und Logikgeschichte und zugleiche Beiträge zur Philosophie der Mathematik.</abstract>
+                    <abstract type="content" lang="und">Inhaltsverzeichnis: 
+Thomas Bedürftig: Was ist ein Punkt? – Ein Streifzug durch die Geschichte
+Alessa Binder: Lorenzens Operativismus und die reellen Zahlen
+Martin Janßen: David Hilbert und die Genetik der Drosophila
+Elisabeth Pernkopf: Zahlenteuflisches Sprechen und die Sprache der Mathematik
+Matthias Wille: ’Largely unknown’ – Wie Gottlob Frege zu posthumem Weltruhm gelangte</abstract>
+                    <subject>
+                        <topic>Kontinuum &lt;Mathematik&gt;</topic>
+                        <topic>Punkt</topic>
+                        <topic>Lorenzens Operativismus</topic>
+                        <topic>Drosophila</topic>
+                        <topic>Zahlenteuflisches Sprechen</topic>
+                        <topic>Zahlenteufel</topic>
+                        <topic>David Hilbert</topic>
+                        <topic>Paul Lorenzen</topic>
+                        <topic>mathematical history</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-9904</identifier>
+                    <identifier type="sys">HT019026469</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_990</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_990">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/990/1/Sieb_Bd5.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_990"
+            DMDID="DMD_siegen_opus_990">
+            <mets:fptr FILEID="FILE0_siegen_opus_990"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

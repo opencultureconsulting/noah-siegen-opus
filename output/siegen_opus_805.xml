@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_805">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Bistatic synthetic aperture radar processing</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Verarbeitung bistatischer SAR-Daten</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ul-Ann, Qurat</displayForm>
+                        <namePart type="family">Ul-Ann</namePart>
+                        <namePart type="given">Qurat</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The interest in bistatic SAR processing has increased tremendously over the years. It is not only a useful advancement of monostatic SAR but offers considerable flexibility in designing SAR mission, improves classification and detection of objects in SAR images, provides additional information about the observed scene, reduces vulnerability in mili-tary applications, etc. Besides all these advantages, a bistatic SAR configuration offers a complex geometry with increased processing complexities. 
+In order to achieve a computationally efficient processing approach, a frequency domain processor has been considered in this thesis for different bistatic SAR configurations. As a first step, the corresponding bistatic point target reference spectrum has been de-rived. Based on this spectrum an appropriate focusing algorithm is implemented. It is then used to focus both simulated and real bistatic SAR data for various bistatic SAR configurations. The results obtained using frequency domain algorithm, are compared with those obtained using a time domain (back projection) algorithm. A detailed analysis of the data shows that the frequency domain processor provides very good quality images.</abstract>
+                    <abstract type="content" lang="ger">Das Interesse an bistatischer SAR-Verarbeitung ist in den letzten Jahren enorm gestie-gen. Es ist nicht nur eine sinnvolle Weiterentwicklung des monostatischen SAR sondern bietet ein hohes Maß an Flexibilität in der Entwicklung neuer SAR-Missionen, verbes-serte Klassifizierung und Entdeckung von Objekten in SAR-Bildern, liefert weitere In-formationen über die zu beobachtende Szene, reduziert die Entdeckungswahrschein-lichkeit der Trägerplatform in militärischen Anwendungen usw. Neben all diesen Vor-teilen führt eine bistatischen SAR-Konfiguration eine komplexere Geometrie mit erhöh-ter Verarbeitungskomplexität herbei, als es beim monostatischen SAR der Fall ist.
+Um eine rechentechnisch effiziente Verarbeitung zu erreichen, wurde ein Frequenzbe-reichsprozessor für verschiedene bistatischen SAR-Konfigurationen in dieser Arbeit entwickelt. Als erster Schritt wurde das bistatischen Punktziel Referenzspektrum herge-leitet. Basierend auf diesem Spektrum wurde ein entsprechender Fokussierungsalgo-rithmus implementiert. Die Verifizierung erfolg mit realen und simulierten bistatischen SAR-Daten für verschiedene bistatische SAR Konstellationen. Die Ergebnisse des Fre-quenzbereichsalgorithmus wurden mit denen einer Zeitbereichsmethode (Rückprojektionalgorithmus) verglichen. Eine detailierte Analyse zeigt, dass der herge-leitete Frequenzbereichsprozessor sehr gute Fokussierungsergebnisse liefert.</abstract>
+                    <subject>
+                        <topic>Synthetik-Apertur-Radar</topic>
+                        <topic>SAR</topic>
+                        <topic>Synthetic Aperture Radar,  Scaled Inverse Fourier Transformation</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Kommunikations- und Informationstechnik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-8050</identifier>
+                    <identifier type="sys">HT018314198</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_805</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2014-04-16</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_805">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/805/1/Qurat_Ul_Ann_PhD_Thesis_fertig.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_805"
+            DMDID="DMD_siegen_opus_805">
+            <mets:fptr FILEID="FILE0_siegen_opus_805"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

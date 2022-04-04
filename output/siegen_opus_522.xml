@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_522">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Waldgänger</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Woods crosser</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bellers, Jürgen</displayForm>
+                        <namePart type="family">Bellers</namePart>
+                        <namePart type="given">Jürgen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Freiheit durch Rückzug aus der Gesellschaft in Waldeinsamkeit.</abstract>
+                    <abstract type="content" lang="eng">Aspects of freedom by refusal of world and society, descripted in short stories and novels.</abstract>
+                    <subject>
+                        <topic>Freiheit</topic>
+                        <topic>Rückzug</topic>
+                        <topic>Hemingway</topic>
+                        <topic>Jünger</topic>
+                        <topic>Goethe</topic>
+                        <topic>Melville</topic>
+                        <topic>Freedom</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5221</identifier>
+                    <identifier type="sys">HT016905326</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_522</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_522">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/522/1/waldgaenger.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_522"
+            DMDID="DMD_siegen_opus_522">
+            <mets:fptr FILEID="FILE0_siegen_opus_522"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

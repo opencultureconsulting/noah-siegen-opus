@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_202">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Die </nonSort>
+                        <title>alkoholkranke Familie und ihre Kinder</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Reiners-Kröncke, Werner</displayForm>
+                        <namePart type="family">Reiners-Kröncke</namePart>
+                        <namePart type="given">Werner</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2005</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Zunächst wird das System Familie unter suchtspezifischen Aspekten behandelt, die Verhaltensmuster und Rollen der einzelnen Systemmitglieder und die Co-Abhängigkeit werden dargestellt. Nicht unbeachtet bleibt, dass die Familie in „größere Systeme“ eingebunden ist, die die betroffene Familie auch als „Multiproblemfamilie“ definieren.
+Im zweiten Teil werden die Sozialisation und der Alkoholismus vorgestellt und verschiedene Erklärungsansätze des Alkoholismus in ihren Stärken und Schwächen beleuchtet. Auch Erziehungsstile, Sozialisationsstörungen und Familientraditionen werden referiert.
+Abschließend werden helfende Interventionen für die gesamte Familie und insbesondere auch für die Kinder dargestellt. Dabei treten sozialpädagogische Interventionen, die auch therapeutische Begründen erfahren, in den Vordergrund. Systemische Ansätze, gemeindeorientierte Hilfen und einzelfallbezogene Netzwerkarbeit fehlen nicht. Möglichkeiten präventiven Handelns in verschiedenen Interventionsbereichen werden beschrieben.</abstract>
+                    <abstract type="content" lang="eng">Alcohol dependence does not only affect the addicted but has a profound impact on all family members around them: on their behaviour patterns, their role within the family system as well as their (emotional) co-dependence.
+The afflicted family is thus defined as “multi-dysfunctional” by its social surrounding.
+Therefore the relation between socialisation and alcoholism is to be examined. Different theories on alcohol dependence are discussed as well as different approaches to child raising, malfunctions of socialisation and the influence of family patterns.
+Supportive interventions for the family (and their children) are described concentrating on social-pedagogical methods with therapeutic treatment. Systemic approaches, community-provided assistance and institutional networks for individual cases are considered as well as the possibilities of various preventive measures.</abstract>
+                    <subject>
+                        <topic>Hilfen für Alkoholikerkinder</topic>
+                        <topic>Multiproblemfamilie</topic>
+                        <topic>Suchtfamilie</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 2, Erziehungswissenschaft und Psychologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-2020</identifier>
+                    <identifier type="sys">HT014679482</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_202</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2005-12-19</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_202">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/202/1/reiners.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_202"
+            DMDID="DMD_siegen_opus_202">
+            <mets:fptr FILEID="FILE0_siegen_opus_202"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

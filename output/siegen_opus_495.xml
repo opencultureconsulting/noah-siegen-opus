@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_495">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Using mobile multi-camera unit for real-time 3D motion estimation and map building of indoor environment</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Netramai, Chayakorn</displayForm>
+                        <namePart type="family">Netramai</namePart>
+                        <namePart type="given">Chayakorn</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Real-time 3D map building and 3D motion estimation using only visual data are two challenging problems which have been intensively studied by the machine vision community in the past decade. In order to successfully build a 3D map, the accurate 3D motion estimation of the input sensor during the map building process is needed. Up to now, most of the attempts to improve the 3D motion estimation process have been concentrated on the software algorithms used. However, despite the use of sophisticated algorithms, accurate 3D motion information is still hindered by the limitation of the visual sensor used, e.g. a single camera with small field of view which suffers the motion ambiguity problem in the case of small movements, leading to inaccurate motion information and poor map quality.
+
+This thesis work proposes a new piece of multi-camera hardware to be used as a 3D visual sensing device for the real-time 3D motion estimation and 3D map building problems. Instead of focusing only on the software solution, this work takes an alternative approach to improve the motion estimation accuracy and robustness by means of a better hardware design. A multi-camera unit (MCU) which is aimed for high accuracy 3D motion detection is constructed. It consists of three pairs of stereo cameras which are put together as a compact, mobile hardware platform. This unique camera arrangement eliminates the motion ambiguity error found in single camera systems and so accurate motion estimation is obtained. The increased field of view by means of multiple cameras also enables a simple but accurate detection of 3D movement of the camera in real-time without any complex calculations. The accompanied algorithms which are needed for the real-time 3D motion estimation including the real-time feature detection and feature matching as well as outlier rejection schemes are also implemented for the MCU system. Moreover, the FastSLAM algorithm for real-time 3D localization and map building approach is implemented in order to maintain a consistent feature point map and the location and orientation of the MCU. As a result, the proposed 3D motion estimation and 3D map building using the MCU system gives a better performance compared to the conventional, single camera systems as confirmed by the simulation results and real world experiments. This is especially the case for 3D motion estimation performances, where the motion ambiguity error is being compensated in both rotation and translation cases. The probabilistic approach for 3D feature point map building shows a strong real-time performance and consistency with good accuracy. Finally, the proposed multi-camera hardware is used for a 3D photorealistic map building task where a high quality 3D model which correctly replicates the surrounding environment can be constructed in real-time.</abstract>
+                    <abstract type="content" lang="ger">3D-Kartengenerierung und 3D-Bewegungsschätzung in Echtzeit ausschließlich unter Verwendung visueller Daten sind zwei anspruchsvolle Problemstellungen, mit denen sich der Arbeitskreis zum maschinellen Sehen in den vergangenen Jahren intensiv auseinandergesetzt hat. Für die erfolgreiche Erstellung einer 3D-Karte bedarf es der genauen 3D-Bewegungsschätzung mit Hilfe eines Eingangssensors während des Kartierungsprozesses. Bisher waren die meisten Versuche zur Verbesserung der 3D-Bewegungsschätzung vor allem auf die eingesetzten Software-Algorithmen gerichtet. Doch trotz ausgeklügelter Algorithmen wird eine exakte 3D-Bewegungsschätzung weiterhin durch die Grenzen behindert, die durch den verwendeten visuellen Sensor hervorgerufen werden. Eine einzelne Kamera besitzt nur ein kleines Sichtfeld, was zum Problem der Bewegungsmehrdeutigkeit im Fall kleiner Bewegungen führt und damit zu ungenauen Bewegungsinformationen und einer schlechten Kartenqualität.
+
+Diese Doktorarbeit stellt eine neue Multikamera-Hardware vor, die als ein optisches 3D-Messgerät zur Lösung der Probleme der Echtzeit-3D-Bewegungsschätzung und -3D-Kartierung verwendet werden kann. Der Fokus liegt dabei nicht allein auf der Software-Lösung, sondern geht einen alternativen Weg zur Verbesserung der Genauigkeit und Zuverlässigkeit der Bewegungsschätzung, nämlich mit Hilfe eines besseren Hardware-Designs. Das Ergebnis dieser Herangehensweise ist eine Multikameraeinheit (MKE), die auf eine extrem genaue 3D-Bewegungsdetektion ausgelegt ist. Sie besteht aus drei Stereokamerapaaren, die zu einer kompakten, mobilen Hardwareplattform zusammengefügt werden. Die einzigartige Kameraanordnung beseitigt die Mehrdeutigkeit des Bewegungsfehlers, welche man in Einzelkamerasystemen findet, und liefert so eine präzise Bewegungsschätzung. Das erweiterte Sichtfeld dank mehrerer Kameras ermöglicht außerdem eine einfache, aber genaue Detektion der 3D-Bewegung der Kamera in Echtzeit ohne komplizierte Berechnungen. Die begleitenden Algorithmen, die für die Echtzeit-3D-Bewegungsschätzung benötigt werden, einschließlich der Detektion und des Abgleichs von Merkmalen in Echtzeit sowie Algorithmen zur Unterdrückung von Ausreißern, werden ebenfalls für die MKE implementiert. Darüber hinaus wird der FastSLAM-Algorithmus für die simultane Echtzeit-3D-Lokalisierung und Kartenerstellung implementiert, um eine einheitliche Merkmalpunktkarte und den Standort und die Ausrichtung der MKE beizubehalten. Infolge dessen erbringt das vorgestellte 3D-Bewegungsschätzungs- und 3D-Kartierungssystem mittels der MKE im Vergleich zu den herkömmlichen Einzelkamerasystemen eine höhere Leistung, was durch Simulationsergebnisse und Experimente unter realen Bedingungen bestätigt wird. Dies gilt besonders für die Leistungsfähigkeit der 3D-Bewegungsschätzung, bei der sowohl die rotatorische als auch die translatorische Mehrdeutigkeit des Bewegungsfehlers kompensiert wird. Der wahrscheinlichkeitstheoretische Ansatz für die Generierung von Merkmalpunktkarten zeigt eine hohe Echtzeit-Leistung und Konsistenz mit guter Genauigkeit. Schließlich wird die vorgestellte Multikamera-Hardware für 3D-fotorealistische Kartierungsprojekte verwendet, in denen ein hochwertiges 3D-Modell, welches die Umgebung korrekt repliziert, in Echtzeit erstellt werden kann.</abstract>
+                    <subject>
+                        <topic>Multikamera System</topic>
+                        <topic>3D-Kartengenerierung</topic>
+                        <topic>3D-Bewegungsschätzung</topic>
+                        <topic>Echtzeit</topic>
+                        <topic>Multi-Camera System</topic>
+                        <topic>3D Motion Estimation</topic>
+                        <topic>3D Map Building</topic>
+                        <topic>Real-Time</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4952</identifier>
+                    <identifier type="sys">HT016720776</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_495</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2011-01-20</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_495">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/495/1/Netramai.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_495"
+            DMDID="DMD_siegen_opus_495">
+            <mets:fptr FILEID="FILE0_siegen_opus_495"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

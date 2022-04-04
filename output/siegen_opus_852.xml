@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_852">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Automatische Merkmalsynthese : ein Lern- und Klassifikationssystem zur Erkennung komplexer und deformierter, natürlicher und künstlicher Objekte</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Pechtel, Dag</displayForm>
+                        <namePart type="family">Pechtel</namePart>
+                        <namePart type="given">Dag</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2002</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Diese Arbeit beschäftigt sich mit der Erkennung isolierter visueller Objekte. Diese Objekte entstammen der realen Welt und können komplex und deformiert sein. Die Außenkonturen, der auf eine Ebene projizierten 3D-Objekte jeweils einer bestimmten Klasse, werden hinsichtlich signifikanter lokaler Konturabschnitte untersucht, die ausreichen, um die Konturen dieser Klasse von den Konturen jeweils aller anderen Klassen zu unterscheiden.
+Es ist zu betonen, dass in dieser Arbeit das bisher stiefmütterlich behandelte Thema der automatischen Merkmalgenerierung im Vordergrund steht. Die Merkmalgenerierung darf nicht mit der Merkmalselektion verwechselt werden, in der es um die Auswahl einer möglichst optimalen Untermenge aus einer gegebenen Menge von Merkmalen handelt.
+Sie darf aber auch nicht mit der unsystematischen traditionellen Merkmalextraktion verwechselt
+werden, da diese das Ziel verfolgt, vordefinierte Merkmale wie z.B. das Längen-
+Breiten-Verhältnis eines Objektes im Bild aus dem Bild zu extrahieren. Bei der automatischen
+Merkmalgenerierung werden abstrakte Merkmale, wie z.B. Flaschenkappen oder
+Fischflossen, systematisch erzeugt, indem gleichartige Basismerkmale, wie z.B. aufeinanderfolgende
+Konturpunkte, zu komplexeren neuen Merkmalen synthetisiert werden.
+Das Hauptaugenmerk liegt hier also nicht auf der Konstruktion eines Klassifikators,
+sondern in einer neuartigen systematischen Merkmalgenerierung basierend auf einer automatischen
+Merkmalsynthese.</abstract>
+                    <abstract type="content" lang="eng">This work deals with the recognition of isolated visual objects. These objects stem from the real world and in general they are complex and deformed.
+The outer contours of 3d-Objects, that are projected on a plane, are analyzed
+with regard to local significant contour sections. These sections are sufficient in order to distinguish the contours from different classes.
+It is emphasized that the subject automatic feature generation is to the fore in
+this work. Up to know there is paid little attention to this subject. The automatic feature generation must not be confused with the feature selection. Feature selection deals with the selection of an as much as possible optimal subset from a givenfeature set. Also automatic feature generation must not confused with the unsystematic conventional feature extraction methods. In the field of traditional feature
+extraction predefined features like the length-width-ratio are extracted from an object in the image. In the field of automatic feature generation abstract features like the top of a bottle or the fin of a fish are generated systematically. This is done by synthesizing more complex features out of basic features of the same kind like successive contour points. The main attention is not directed to the construction of a classifier, but to a systematic innovative feature generation method based on automatic feature synthesis.</abstract>
+                    <subject>
+                        <topic>Merkmalsynthese</topic>
+                        <topic>Merkmalgenerierung</topic>
+                        <topic>Mustererkennung</topic>
+                        <topic>Objekterkennung</topic>
+                        <topic>Autonome Systeme</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-20</identifier>
+                    <identifier type="sys">HT013411417</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_852</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2002-01-31</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_852">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/852/1/pechtel.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_852"
+            DMDID="DMD_siegen_opus_852">
+            <mets:fptr FILEID="FILE0_siegen_opus_852"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

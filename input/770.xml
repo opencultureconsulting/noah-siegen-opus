@@ -1,0 +1,85 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>770</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Concept, system design, evaluation and safety requirements for a multispectral sensor</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Konzept, Systemdesign, Evaluation und Sicherheitsanforderungen eines multispektralen Sensors</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Oliver</pc:foreName>
+            <pc:surName>Schwaneberg</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Sicherheitstechnik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Sensorik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Detektionstechnologie</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">DIN EN 61496</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Nahinfrarot</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Multispectral sensors</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">skin detection</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">near-infrared</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">contact-free detection</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">IEC 61496</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">621</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The use of manually fed machines (e.g. table saws) bares risks of injury that are clearly above the average level of other high risk workplaces.&#13;
+The wide use of such machines causes severe problems for occupational safety and implies high costs for medical treatments and accident annuities.&#13;
+&#13;
+This thesis presents a new concept of a multispectral sensor to monitor an area in front of a danger zone to detect the user’s limbs and trigger safeguarding measures to prevent an accident in time.&#13;
+The sensor concept realizes a contact-free material classification, which comprises the development of a system design and specific safety requirements with respect to international safety standards.&#13;
+Furthermore, a prototypical implementation using four wavebands, which were determined for skin detection through an analysis of reflectance spectra acquired specifically for this purpose, was built.&#13;
+&#13;
+This sensor comprises an embedded system which is able to perform a material classification within a few milliseconds.&#13;
+To achieve this, several algorithms were researched and developed to process the raw sensor readings.&#13;
+An evaluation of the presented methods on both real and synthesized sensor data as well as on the prototypical implementation was performed.&#13;
+The evaluation yields that the prototype implementing the presented methods can detect human skin reliably within a wide range of measurement conditions, including the presence of interference sources.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die Arbeit mit handbeschickten Maschinen (wie z.B. Kreissägen) birgt deutlich höhere Verletzungsrisiken als vergleichbare Arbeitsplätze mit hohem Risikopotential.&#13;
+Die weite Verbreitung solcher Maschinen führt zu schwerwiegenden Problemen für den Arbeitsschutz und hohen Kosten für medizinische Behandlungen sowie Unfallrenten.&#13;
+&#13;
+In dieser Arbeit wird ein neues Konzept eines multispektralen Sensors vorgestellt, welcher den Bereich vor der Gefahrenzone einer Maschine überwachen soll, um Gliedmaßen des Benutzers zu erkennen.&#13;
+Ziel ist, rechtzeitig Schutzmaßnahmen einzuleiten, um einen drohenden Unfall zu verhindern.&#13;
+&#13;
+Das Sensorkonzept ermöglicht eine berührungslose Materialklassifikation.&#13;
+Ein entsprechendes Systemdesign und spezielle Sicherheitsanforderungen unter Berücksichtigung internationaler Sicherheitsstandards wurden entwickelt.&#13;
+Darüber hinaus wurde ein Prototyp implementiert, welcher vier Wellenlängenbänder verwendet.&#13;
+Diese wurden durch eine Analyse von Reflexionsspektren ermittelt, die eigens für diesen Zweck erhoben wurden.&#13;
+&#13;
+Der Sensor beinhaltet ein Embedded System, welches eine Materialklassifikation innerhalb weniger Millisekunden durchführt.&#13;
+Um dies zu erreichen, wurden mehrere Methoden zur Verarbeitung der Sensordaten erforscht und entwickelt.&#13;
+Die dargestellten Methoden wurden mit gemessenen und synthetisierten Sensordaten evaluiert. Ebenfalls erfolgte eine Evaluierung der Prototypen, welche die dargestellten Methoden implementieren.&#13;
+Die Ergebnisse zeigen, dass menschliche Haut unter verschiedensten Messbedingungen, auch unter Störeinflüssen, verlässlich erkannt wird.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2013-09-25</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2013</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-7704</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Bildinformatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="schwaneberg.pdf" ddb:fileSize="16776888"/>
+   <ddb:checksum ddb:type="MD5">ddd4bb9f1bd27b3d48875f73d348729f</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/770/1/schwaneberg.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/770</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

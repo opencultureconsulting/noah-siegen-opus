@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_2120">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Maßstabskonflikte im Populären</title>
+                        <subTitle lang="ger">über Friktionen der Popularisierung zweiter Ordnung am Beispiel der ZDF-Hitparade</subTitle>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Conflicts of scale in the popular</title>
+                        <subTitle lang="ger">über Friktionen der Popularisierung zweiter Ordnung am Beispiel der ZDF-Hitparade</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Venus, Jochen</displayForm>
+                        <namePart type="family">Venus</namePart>
+                        <namePart type="given">Jochen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die ZDF-Hitparade war in den 1970er Jahren die zentrale Medien- und Popularisierungsagentur des deutschen Schlagers, einer musikalischen Form, die als spezifisch deutscher Gegenentwurf zur englischsprachigen Popmusik produziert und popularisiert wurde. 1982 wird diese Programmatik abrupt unterbrochen. Die ZDF-Hitparade featured auf einmal die schlager-aversen, pop-affinen Stücke der &quot;Neuen Deutschen Welle&quot;. Wie ist das zu erklären? Der Beitrag rekonstruiert den programmatischen Umbruch durch eine Erörterung seines kulturellen und popularisierungstechnologischen Hintergrundes.</abstract>
+                    <abstract type="content" lang="eng">In the 1970s, the ZDF Hit Parade was the central media and popularisation agency for German Schlagers, a musical form produced and popularised as a specifically German counter-design to English-language pop music. In 1982, this programme was abruptly interrupted. The ZDF hit parade suddenly featured the pop-affine songs of the &quot;Neue Deutsche Welle&quot;. How can this be explained? The article reconstructs the programmatic upheaval by discussing its cultural and popularisation-technological background.</abstract>
+                    <subject>
+                        <topic>Populärkultur</topic>
+                        <topic>Popularisierung</topic>
+                        <topic>Pop</topic>
+                        <topic>Schlager</topic>
+                        <topic>Stilgemeinschaften</topic>
+                        <topic>Kultureller Wandel</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-21207</identifier>
+                    <identifier type="sys">HT021219969</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_2120</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_2120">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/2120/4/Venus_Massstabskonflikte_im_Populaeren.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_2120"
+            DMDID="DMD_siegen_opus_2120">
+            <mets:fptr FILEID="FILE0_siegen_opus_2120"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

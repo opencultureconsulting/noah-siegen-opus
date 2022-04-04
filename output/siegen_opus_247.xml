@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_247">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>How to make regions RTD success stories? : good practice models and regional RTD</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Welter, Friederike</displayForm>
+                        <namePart type="family">Welter</namePart>
+                        <namePart type="given">Friederike</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Kolb, Susanne</displayForm>
+                        <namePart type="family">Kolb</namePart>
+                        <namePart type="given">Susanne</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2006</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">This report is part of the work of the CRIPREDE project. This report&apos;s main objective is to identify current regional policies fostering innovation and technology transfer as well as ‘good practice’ policy and influencing factors for an RTD exemplar region. It also aims at selecting ‘good practice’ regions against which participating regions are to be benchmarked. Further-more it wants to review the current policies fostering RTD excellence in participating regions in order to assess their strengths and weaknesses in contributing to an RTD exemplar region.</abstract>
+                    <subject>
+                        <topic>Region</topic>
+                        <topic>Forschung &amp; Entwicklung</topic>
+                        <topic>Innovation</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-2476</identifier>
+                    <identifier type="sys">HT014931794</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_247</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_247">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/247/1/Band_2_How_to_make_regions_RTD_success_stories.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_247"
+            DMDID="DMD_siegen_opus_247">
+            <mets:fptr FILEID="FILE0_siegen_opus_247"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

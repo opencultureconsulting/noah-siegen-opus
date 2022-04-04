@@ -1,0 +1,81 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1465">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Parallel adaptive Monte Carlo integration and vector-boson scattering at the Large Hadron Collider</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Parallele, adaptive Monte-Carlo-Integration und Vektor-Boson-Streuung am Large Hadron Collider</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Braß, Simon</displayForm>
+                        <namePart type="family">Braß</namePart>
+                        <namePart type="given">Simon</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Das Standard-Modell der Teilchenphysik hat sich als verlässliche Theorie für die Beschreibung der Wechselwirkung zwischen elementaren Teilchen erwiesen. Mit der Entdeckung des Higgs-Bosons am Large Hadron Collider (LHC) sind alle heoretisch-vorhergesagten Teilchen des Standard-Modells beobachtet worden. Damit sieht sich die Teilchenphysik neuen Herausforderungen gegenübergestellt, wie die weitere Validierung des Standard-Modells voranzutreiben oder nach neuer Physik jenseits des Standard-Modells zu suchen. Beides ist durch präzisere und umfangreichere Messungen und experimentelle Daten-Analysen am LHC oder anderen zukünftigen Kollider-Experimenten möglich.
+Monte-Carlo–Event-Generatoren sind ein wichtiges Werkzeug für Messungen und experimentelle Daten-Analysen, sowie für theoretische Vorhersagen für Kollider-Experimente. Sie basieren auf der “acceptance-rejection”-Methode für die Event-Erzeugung mit einer vorgegebenen Wahrscheinlichkeitsverteilung im Konfigurationsraum. Diese wird ergänzt durch die Methoden der Monte-Carlo–Integration desd-dimensionalen Phasenraumes mit d = 3n - 4 Freiheitsgraden eines n-Teilchen Endzustands, wofür die Anwendung von klassischen, numerischen Integrationsregeln bei großen n &gt; 4 von Nachteil sind. Dabei sind Monte-Carlo–Integration und Event-Erzeugung durch das sogenannte „importance sampling“ eng miteinander verbunden. Die Anwendung von iterativen und adaptiven Monte-Carlo–Algorithmen für numerischen Integration erlaubt es uns die Effizienz der Event-Erzeugung mit einer vorhergehenden Monte Carlo-Integration zu optimieren.
+Wir stellen die Parallelisierung des doppelt-adaptiven Monte-Carlo–Algorithmus Vamp unter der Benutzung der Paradigmen aus OpenMP und MPI vor, mit Rücksichtnahme auf die Minimierung des Kommunikationsbedarfs und einer Methode der Effizienz-Verbesserung der Parallelisierung durch einen statischen Last- und Arbeitsverteiler. Wir haben eine neue Implementation dieses doppelt-adaptiven Algorithmus, Vamp2, für die adaptive Monte Carlo-Integration und Event-Erzeugung geschrieben, welcher als Teil des Monte Carlo Event-Generators Whizard verfügbar ist. Ingesamt können wir eine Verbesserung der Integrationslaufzeit für typische Anwendungsfälle an Kollider-Experimenten im Rahmen von Whizard um die Ordnung 10 erreichen, sodass sich die Rechenzeit von Tagen oder Wochen auf Stunden reduziert.
+Wir verwenden die parallelisierte Integration in einer ersten Anwendung im elektroschwachen und Higgs-Bereich des Standard-Modells für hohe Energien an der TeV-Skala, welche am LHC erreichbar sind. Hierzu betrachten wir die Rolle von transversal-polarisierten Eichbosonen und dem Higgs-Boson in Vektorboson-Streuung (VBS), dass heißt, der Streuung von W und Z Boson in Paaren zu W, Z und Higgs.
+In einem “bottom-up”-Ansatz der effektiven Feldtheorie des Standard-Modells können wir auf modell-unabhängige Weise anomale Beiträge durch mögliche neue Physik mit dimension-acht Operatoren modellieren. Dabei stellen wir Relationen für die dimension-acht Operatoren für verschiedene Darstellungen des Higgs-Feldes auf, um Vergleiche zwischen unseren Resultaten und existierenden Studien zu ermöglichen.
+Es zeigt sich, dass eine Beschreibung der VBS-Prozesse bei diesen hohen Energie durch die effektiven Feldtheorie die Unitarität der Streumatrix verletzt. Durch die Anwendung des “T-matrix” Unitaritätsverfahren können wir die Unitarität der Theorie und damit das verletzte Grundprinzip der Quantenfeldtheorie wiederherstellen. Die dadurch definierten vereinfachten Modelle erlauben uns quantitative Aussagen über (typische) Szenarien neuer Physik zu studieren und mögliche zusätzliche Event-Raten über die Standard-Modell Vorhersagen hinaus durch Obergrenzen abzuschätzen. Davon können wir die Sensitvität auf Resultate für neue Physik am LHC abstecken.</abstract>
+                    <abstract type="content" lang="eng">The Standard Model of particle physics has proved to be a reliable theory for the description of the interaction between elementary particles. With the discovery of the Higgs boson at the LHC, all predicted particles of the Standard Model have been observed. As a result, particle physics faces new challenges such as further validation of the Standard Model or the search for New Physics beyond the Standard Model. More precise and more comprehensive measurements and experimental data analyses at the LHC or other future collider will shed light on this.
+Monte Carlo event generators are an indispensable tool for measurements and experimental data analyses, as well as for theoretical predictions at collider experiments. They are based on the acceptance-rejection method for event generation with a given probability distribution in configuration space. This is supplemented by the methods of Monte Carlo integration of the d -dimensional phase space with d = 3n - 4 degrees of freedom of an n-particle final state, for which the application of classical, numerical integration rules for large n &gt; 4 are disadvantageous. In particular, Monte Carlo integration and event generation are closely linked by the so-called importance sampling. The application of iterative and adaptive Monte Carlo algorithms for numerical integration allows us to optimize the efficiency of event generation with a previous Monte Carlo integration.
+We present the parallelization of the doubly-adaptive Monte Carlo algorithm Vamp using the OpenMP and MPI paradigms, under special consideration of minimizing communication needs and a method to improve the efficiency of parallelization by a static load balancer. We have written a new implementation of the doubly-adaptive algorithm, Vamp2, for adaptive Monte Carlo integration and event generation, which is available as part of the Monte Carlo event generator Whizard. We reached an overall improvement of the integration run-time of Whizard for typical use cases at collider experiments by order 10, reducing possible computation times from days or weeks to hours.
+In a first application, we employ the parallelized integration in the electroweak and Higgs sector of the Standard Model for high energies at the TeV scale accessible by the LHC. For this purpose, we consider the role of transverse-polarized gauge bosons and the Higgs boson in vector boson scattering (VBS), that is, the scattering of W and Z bosons in pairs to W, Z, and Higgs.
+In a bottom-up approach of the effective field theory of the Standard Model, we model anomalous contributions by possible new physics in a model-independently way with dimension-eight operators. We provide relations for the dimension-eight operators for different representations of the Higgs field to allow comparisons between our results and existing studies.
+A description of the VBS processes by the effective field theory at such high energies violates the unitarity of the scattering matrix. By applying the T-matrix unitarity projection we can restore the unitarity of the theory and thus the first principles of quantum field theory. The simplified models, defined in this way, allow us to study quantitative statements about (typical) scenarios of New Physics and estimate possible event rates beyond the standard model predictions by upper limits. From this we can pinpoint the sensitivity on results for New Physics at the LHC.</abstract>
+                    <subject>
+                        <topic>Parallelisierung</topic>
+                        <topic>Adaptive Integration</topic>
+                        <topic>Multi-Channel-Integration</topic>
+                        <topic>Standardmodell-Effektive-Theorie</topic>
+                        <topic>Unitarisierung</topic>
+                        <topic>Neue-Physik-Vorhersage</topic>
+                        <topic>Adaptive Integration</topic>
+                        <topic>Multi-Channel Integration</topic>
+                        <topic>Standard-Model Effective Theorie (SMEFT)</topic>
+                        <topic>New-Physics Prediction</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-14658</identifier>
+                    <identifier type="sys">HT020155478</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1465</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2019-06-05</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1465">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1465/1/Dissertation_Simon_Brass.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1465"
+            DMDID="DMD_siegen_opus_1465">
+            <mets:fptr FILEID="FILE0_siegen_opus_1465"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

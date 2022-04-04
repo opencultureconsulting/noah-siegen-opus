@@ -1,0 +1,72 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1713</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Learning dictionaries for inverse problems on the sphere</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Lernen von Dictionarys für inverse Probleme auf der Sphäre</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Lernen von Dictionarys für inverse Probleme auf der Sphäre</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Naomi</pc:foreName>
+            <pc:surName>Schneider</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Inverses Problem</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Matching pursuits</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Downward continuation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Learning</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Inverse problems</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Gravitational potential</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">510</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die Berechnung des Gravitationspotentials auf der Erdoberfläche aus Satellitendaten ist ein schlecht gestelltes sphärisches inverses Problem. Die GRACE-Mission (NASA/DLR) liefert uns u. a. die monatlichen Abweichungen zu diesem Potential. Dadurch erhalten wir Einblicke in den Massentransport auf der Erde und können insbesondere den Klimawandel visualisieren.&#13;
+Traditionell wird eine approximative Lösung eines inversen Problems in einer Basis, wie z. B. Kugelflächenfunktionen, dargestellt. Dagegen bestimmen die Inverse Problem Matching Pursuit (IPMP) Algorithmen iterativ eine Darstellung in Dictionary-Elementen. Ein Dictionary enthält üblicherweise globale und lokale Ansatzfunktionen wie Kugelflächenfunktionen, Slepian-Funktionen und radiale Basisfunktionen. Man sieht leicht, dass die A-priori-Wahl eines endlichen Dictionarys prägend für den Verlauf der Algorithmen ist.&#13;
+Daher entwickeln wir in dieser Arbeit die Learning Inverse Problem Matching Pursuit (LIPMP) Algorithmen. Die Wahl eines Dictionary-Elementes in einem Iterationsschritt wird hier um mehrere nichtlineare Optimierungsprobleme erweitert. Auf diese Weise werden automatisch endlich viele optimierte Ansatzfunktionen aus unendlich Vielen gelernt.&#13;
+Zunächst fassen wir in dieser Arbeit grundlegende Resultate zusammen, die notwendig für das weitere Verständnis sind. Danach entwickeln wir die LIPMP-Algorithmen. Dabei legen wir ein besonderes Augenmerk auf Satellitendaten des Gravitationspotentials. Wir betrachten ebenfalls einige theoretische Aspekte der Methoden. Außerdem präsentieren wir numerische Experimente, die die praktische Anwendbarkeit der Algorithmen für die Downward Continuation belegen.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The downward continuation of the gravitational potential from satellite data is a spherical ill-posed inverse problem in the geosciences. The GRACE mission (NASA/DLR) supplied us, e. g., with monthly deviations from this potential. This enables us to consider the mass transport on the Earth and, thus, visualize the climate change.&#13;
+Classically, an approximative solution of an inverse problem is expanded in a suitable basis like spherical harmonics. Alternatively, the Inverse Problem Matching Pursuit (IPMP) algorithms iteratively build a linear combination of dictionary elements. A dictionary usually consists of global and local trial functions, such as spherical harmonics, Slepian functions and radial basis functions. Consequently, an a-priori choice of a finite dictionary is of major importance for the IPMP algorithms.&#13;
+Therefore, we develop the Learning Inverse Problem Matching Pursuit (LIPMP) algorithms in this thesis. Here, the choice of a dictionary element in each iteration is extended by several non-linear optimization problems. In this way, the LIPMP algorithms automatically learn a finite number of optimized trial functions from infinitely many possible ones.&#13;
+First, we introduce the basic results necessary for the understanding of the novel learning methods. Then we develop the LIPMP algorithms. There, we have a closer look on the downward continuation of satellite data of the gravitational potential. We also consider some of the theoretical aspects of the methods. Further, we present numerical experiments which underline the applicability of the strategies for the downward continuation problem.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Volker</pc:foreName>
+            <pc:surName>Michel</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2020-08-10</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2020</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-17133</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/lizenz.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Department Mathematik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Naomi_Schneider.pdf" ddb:fileSize="76418920"/>
+   <ddb:checksum ddb:type="MD5">b419f31845e796a74f400467b6b41783</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1713/4/Dissertation_Naomi_Schneider.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1713</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

@@ -1,0 +1,62 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>190</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Bayesian information extraction from SAR images</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Bayessche Informationsextraktion aus SAR-Bildern</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Marc</pc:foreName>
+            <pc:surName>Walessa</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Synthetisches Apertur-Radar (SAR)</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Speckle</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Bayes'sche Schätztheorie</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Synthetisches Apertur-Radar (SAR) stellt ein mächtiges Werkzeug zur Erdbeobachtung dar, da es von Wetterbedingungen und Tageszeiten weitgehend unbeeinflußt ist. Die automatische Interpretation der Intensitätsinformation der SAR-Daten ist allerdings auf Grund des Specklephänomens, das einem starken multiplikativen Rauschen entspricht und bei allen kohärenten Bildgebungsverfahren auftritt, extrem aufwendig und schwierig.  &#13;
+In dieser Dissertation wird ein Bayesscher Ansatz zur Informationsextraktion aus SAR-Daten vorgestellt. Der Schwerpunkt der Arbeit liegt auf der Bildfilterung und Schätzung der Radarrückstreufläche zur Erleichterung einer nachfolgenden Bildinterpretation. Von besonderer Wichtigkeit für das vorgestellte Verfahren sind dabei Methoden der Merkmalsextraktion. &#13;
+Die Filterung, insbesondere von hochaufgelösten SAR-Bildern, erfordert die Erhaltung von wichtigen Bildmerkmalen, wie Texturen, Kanten und Punktstreuern. In dem hier vorgestellten Ansatz wird Information bezüglich dieser Merkmale extrahiert und zur Rekonstruktion der Radarrückstreufläche verwendet. Im Gegensatz zu konventionellen Verfahren wird damit nicht nur ein einziges, sondern es werden mehrere Modelle zur Beschreibung des Bildinhaltes genutzt. &#13;
+Zur Darstellung von Textureigenschaften werden Gauß-Markov-Zufallsfelder verwendet. Deren texturbeschreibende Parameter werden iterativ unter Berücksichtigung des Specklerauschens geschätzt. Zur Kantenfindung und zur Anpassung der Nachbarschaft des Gauß-Markov-Modells wird ein spezielles Segmentierungsverfahren verwendet. Als letztes Merkmal werden Punktstreuer mittels einer statistischen Analyse detektiert. &#13;
+Durch geeignete Kombination der so extrahierten Information wird auf Grund der verbesserten Modellbildung im Vergleich zu anderen Verfahren eine genauere Maximum-A-Posteriori-Schätzung der Rückstreufläche erzielt.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Allowing the acquisition of high-resolution images of the Earth under all weather conditions and both day and night, synthetic aperture radar (SAR) systems represent a very powerful observation tool. However, an automatic interpretation of the information which is contained in the reflected intensity of the SAR data is extremely difficult. These difficulties are due to the speckle phenomenon that can be regarded as a strong multiplicative noise affecting all coherent imaging systems. &#13;
+In this thesis, a Bayesian approach for information extraction from SAR images is presented. The emphasis of this work lies on speckle removal and estimation of the radar cross-section to obtain images easier to analyze with standard image interpretation tools. Strongly related to this task are methods for feature extraction and segmentation. &#13;
+Filtering SAR images, especially images of high resolution, requires a good preservation of important features, such as texture, edges and targets. In the discussed approach information about these features is extracted and used for restoration of the radar cross-section. Not only relying on one single assumption as most techniques do, our algorithm uses multiple models to describe the image content. &#13;
+To model textural properties, Gauss-Markov random fields are used. Their parameters, which characterize the texture of the image, are iteratively estimated taking into account the speckle noise. A region-growing segmentation algorithm is employed to detect edges and adapt the neighborhood of the Gauss-Markov model to preserve non-stationarities. As a last feature, targets are extracted by statistical data analysis. &#13;
+By suitably combining the extracted information, an improved maximum a posteriori estimate of the cross-section is obtained, which is due to the increased modeling in comparison with other approaches.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2001-10-24</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2001</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-1909</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 12, Elektrotechnik und Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>3</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="walessa.pdf" ddb:fileSize="6124462"/>
+   <ddb:fileProperties ddb:fileName="abstract.pdf" ddb:fileSize="39333"/>
+   <ddb:fileProperties ddb:fileName="abst_ger.pdf" ddb:fileSize="35111"/>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/190</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

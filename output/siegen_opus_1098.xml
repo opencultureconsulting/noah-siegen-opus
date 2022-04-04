@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1098">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Chance Bereitschaftspflege : Impulse für eine entwicklungsfördernde Praxis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Petri, Corinna</displayForm>
+                        <namePart type="family">Petri</namePart>
+                        <namePart type="given">Corinna</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Pierlings, Judith</displayForm>
+                        <namePart type="family">Pierlings</namePart>
+                        <namePart type="given">Judith</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Bereitschaftspflege bietet mehreren tausend Kindern pro Jahr, die aufgrund von Not- und Krisensituationen außerhalb der eigenen Familie untergebracht werden müssen, einen vorübergehenden Lebensort und die Chance auf eine bessere Zukunft. Der Abschlussbericht zum Modellprojekt &quot;Bereitschaftspflege zur Verbesserung der Entwicklungschancen junger Kinder durch zeitnahe Perspektivklärung&quot; stellt Ergebnisse vor.</abstract>
+                    <subject>
+                        <topic>Pflegekind</topic>
+                        <topic>Pflegekinder</topic>
+                        <topic>Vollzeitpflege</topic>
+                        <topic>Modellprojekt</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-10988</identifier>
+                    <identifier type="sys">HT019470088</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1098</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1098">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1098/1/ZPE_Nr_44_Corinna_Petri_Judith_Pierlings.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1098"
+            DMDID="DMD_siegen_opus_1098">
+            <mets:fptr FILEID="FILE0_siegen_opus_1098"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

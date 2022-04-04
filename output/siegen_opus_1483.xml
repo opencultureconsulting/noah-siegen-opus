@@ -1,0 +1,59 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1483">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Weigh house : a building type of the Dutch Golden Century (2nd edition)</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kiem, Karl</displayForm>
+                        <namePart type="family">Kiem</namePart>
+                        <namePart type="given">Karl</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The weigh house, a unique architectural typology, was integral to Dutch culture throughout the seventeenth and eighteenth centuries. This typology is almost exclusively found in the provinces of Holland and Friesland. It is not surprising that the most famous painters of this period resided in these two provinces, as these territories formed the economic and cultural center of the Republic of the United Netherlands. The weigh house developed into an independent architectural typology during the so-called Golden Century. Generally speaking, the weigh house can be seen as the architectural equivalent of Rembrandt and Vermeer’s artistic works.</abstract>
+                    <subject>
+                        <topic>Holland</topic>
+                        <topic>Monofunctional</topic>
+                        <topic>Dutch culture</topic>
+                        <topic>Weigh House</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-14831</identifier>
+                    <identifier type="sys">HT020188264</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1483</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1483">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1483/2/Karl_Kiem_Weigh_House_2nd_edition.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1483"
+            DMDID="DMD_siegen_opus_1483">
+            <mets:fptr FILEID="FILE0_siegen_opus_1483"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

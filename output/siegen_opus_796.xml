@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_796">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Stochastic modeling of the spot price of electricity incorporating commodities and renewables as exogenous factors</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Stochastische Modellierung des Spotpreises für Strom unter Berücksichtigung von Rohstoffpreisen und erneuerbaren Energien als exogenen Faktoren</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Müller, Jan</displayForm>
+                        <namePart type="family">Müller</namePart>
+                        <namePart type="given">Jan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Models for electricity spot prices are used for a variety of valuation issues, e.g. pricing of (real) options and pricing on the retail market. These issues require adequate stochastic price models. A major requirement is the reproduction of stylized facts of the spot price of electricity. Furthermore, the dependencies on other commodities need to be modeled as well. Combined models of all relevant commodities gain importance in the context of risk management of energy utilities. The complexity of options and of portfolios of energy utilities increases due to the number of products with multiple commodities included. This makes the use of combined models essential.
+
+The spot price of electricity is set by the principle of merit order. The most important drivers for the merit order curve on the EEX market are grid load, generation of renewables and prices of coal, natural gas, oil and emission allowances. We present a model incorporating these influence factors in a functional approximation of the non-deterministic merit order curve. The stylized facts mean reversion, seasonalities, negative prices and price spikes as observable in historical spot prices are reproduced.
+
+The input factors require models as well. The residual load model relies on distinct models for renewables including their increase and grid load. We introduce a gas price model incorporating temperature and oil price as exogenous factors. Three model alternatives are presented for the considered commodity prices. A comparison gives evidence that the cointegration approach describes the dependencies best. Finally, the electricity price model is applied to risk-adequate pricing on the retail market.</abstract>
+                    <abstract type="content" lang="ger">Für eine Reihe von Bewertungen werden Strompreismodelle benötigt, beispielsweise für die Bewertung von (Real-) Optionen oder die Risikobewertung bei Kundenverträgen. Diese Anwendungen erfordern stochastische Spotpreismodelle, die die Eigenschaften der Preise sowie die Abhängigkeiten von anderen Brennstoffpreisen wiedergeben. Für das Risikomanagement von Energieversorgern sind kombinierte Preismodelle für alle Brennstoffe und CO2 von großer Bedeutung. Durch die steigende Zahl von Handelsprodukten, die auf mehreren Brennstoffpreisen basieren, steigt die Komplexität der zu bewertenden Portfolios. Daher sind kombinierte Modelle unverzichtbar.
+
+Der Stromspotpreis wird durch das Prinzip der &quot;merit order&quot; bestimmt. Dabei sind die Netzlast, die Erzeugung durch erneuerbare Energien und die Preise für Kohle, Gas, Öl und CO2-Zertifikate die wichtigsten Einflussfaktoren auf dem EEX Markt. In dieser Arbeit wird eine funktionale Approximation der nicht-deterministischen &quot;merit order&quot; unter Berücksichtigung der wesentlichen Einflussfaktoren angegeben. Das resultierende Modell reproduziert mean reversion, Saisonalitäten, negative Preise und Preisspitzen der historischen Preise.
+
+Für die Einflussfaktoren des Strompreismodells sind ebenfalls Modelle notwendig. Das Restlastmodell basiert auf Modellen für die Netzlast und die Erzeugung der erneuerbaren Energien unter Berücksichtigung der erwarteten Kapazitätserhöhungen. Im Gaspreismodell werden Temperatur und Ölpreis als exogene Größen verwendet. Für die Brennstoffpreise werden drei verschiedene Modellansätze präsentiert. Der Vergleich dieser Ansätze zeigt, dass die Abhängigkeiten im Kointegrationsansatz am besten berücksichtigt werden. Abschließend wird das Modell zur Bewertung der Risiken in Kundenverträgen angewendet.</abstract>
+                    <subject>
+                        <topic>Strompreis</topic>
+                        <topic>Spot price</topic>
+                        <topic>Electricity</topic>
+                        <topic>Commodities</topic>
+                        <topic>Renewables</topic>
+                        <topic>Stochastic model</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-7965</identifier>
+                    <identifier type="sys">HT018276349</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_796</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2013-09-15</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_796">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/796/1/mueller_jan.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_796"
+            DMDID="DMD_siegen_opus_796">
+            <mets:fptr FILEID="FILE0_siegen_opus_796"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

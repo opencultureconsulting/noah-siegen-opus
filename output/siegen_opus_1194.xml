@@ -1,0 +1,74 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1194">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Modes of operation for Compressed Sensing based encryption</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Betriebsarten für Compressed Sensing basierte Verschlüsselung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Fay, Robin</displayForm>
+                        <namePart type="family">Fay</namePart>
+                        <namePart type="given">Robin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Compressed Sensing bietet die Möglichkeit spärlich besetzte oder komprimierbare Signale bereits bei der Abtastung - also im Sensor - zu komprimieren und gleichzeitig zu verschlüsseln. Dabei muss zur Verschlüsselung lediglich die Abtastmatrix, welche auch für die Signalrekonstruktion notwendig ist, geheim gehalten werden. Allerdings ist diese Verschlu?sselungstechnik nicht mehr sicher, wenn mehrere Signale verschlüsselt werden, da derselbe Klartext immer denselben Schlüsseltext ergibt. Deshalb befasst sich diese Dissertation mit Betriebsarten für Compressed Sensing, die eine sichere Verschlüsselung von mehreren Signalen ermöglichen.
+Zunächst werden verschiedene Angriffe und Angreifermodelle untersucht, um Sicherheitsdefinitionen für Compressed Sensing basierte Verschlüsselung und Compressed Sensing-Betriebsarten zu entwickeln. Basierend auf den Ergebnissen dieser Analyse wird ein generelles Modell für Compressed Sensing-Betriebsarten entworfen, welche Vertraulichkeit gewährleisten und darüber hinaus den Informationsverlust der Compressed Sensing-Verschlüsselung reduzieren. Nach einer Sicherheits- und Performancebewertung der für die Implementierung geeigneten kryptographischen Verfahren werden drei dedizierte Betriebsarten aus dem generellen Design abgeleitet, die verschiedene Dienstgüteeigenschaften wie Parallelisierbarkeit oder Selbstsynchronisation aufweisen. Diese Betriebsarten und die damit verbundenen Sicherheitsanalysen sind das erste Hauptergebnis dieser Dissertation.
+Zusa?tzlich zur Vertraulichkeit, die durch Verschlüsselung erreicht wird, ist Datenunversehrtheit ein weiterer wichtiger Sicherheitsdienst. Deshalb werden in dieser Arbeit auch sogenannte Authenticated-Encryption-Betriebsarten für Compressed Sensing entworfen, die Vertraulichkeit und zeitgleich den Schutz der Datenunversehrheit gewährleisten. Auch hier wird zunächst ein generelles Modell für diese Betriebsarten entwickelt, aus dem dann konkrete Implementierungen abgeleitet werden, deren Sicherheit auf die zugrundeliegenden kryptographischen Verfahren zurückgeführt wird. Compressed Sensing mit Authenticated-Encryption bietet auch dann Sicherheit, wenn ein Angreifer gezielt Schlüsseltexte manipulieren kann.
+Ein letzter Aspekt, der in dieser Arbeit betrachtet wird, ist die Integration der entwickelten Betriebsarten in eine verteilte Anwendung. Dazu wird eine Softwarearchitektur für Industrie 4.0-Anwendungen entworfen und implementiert, welche die nötigen Komponenten für den Einsatz der Compressed Sensing-Betriebsarten, wie Schlüsselvereinbarung und Parameteraustausch, beinhaltet. Neben der Sicherheit ist ein Hauptziel des entworfenen Systems die Benutzerfreundlichkeit. Alle sicherheitsrelevanten Operationen werden für den Anwender transparent von der Software durchgeführt, sodass der Anwender lediglich festlegen muss, wie die Daten seiner Anwendung geschützt werden sollen. Auf diese Weise werden Sicherheitsprobleme vermieden, die durch unsachgemäße Verwendung von kryptographischen Verfahren entstehen.
+Die in dieser Arbeit entwickelten Betriebsarten für Compressed Sensing sind durch die gleichzeitige Abtastung und Komprimierung für viele reale Anwendungsfälle interessant und ermöglichen echte Ende-zu-Ende-Sicherheit, die bereits im Sensor beginnt. Das vorgestellte Softwaresystem vervollständigt den Beitrag dieser Arbeit, da es die nötigen Komponenten für die Verwendung der entworfenen Betriebsarten realisiert.</abstract>
+                    <abstract type="content" lang="eng">Compressed Sensing offers the possibility to jointly compress and encrypt sparse or compressible signals during the sampling process, i.e. directly at the sensor level. For the purpose of encryption, only the sampling matrix, which is also needed for the signal recovery, must be kept secret. However, this type of encryption scheme is no longer secure if multiple signals are encrypted, since the same plaintext will always yield the same ciphertext. This thesis proposes modes of operations for Compressed Sensing that allow the secure encryption of multiple signals.
+First, different attacks and threat models are analyzed in order to develop security definitions for Compressed Sensing based encryption and Compressed Sensing modes of operations. The results from this analysis are used to design a general model for Compressed Sensing modes, which ensure confidentiality and additionally reduce the information leakage of Compressed Sensing encryption. The security and performance of cryptographic constructions that are suitable for implementing the general model are evaluated and three dedicated modes with different quality of service properties are derived from the general design. These modes of operation and their corresponding security analysis are the first main result of this thesis.
+In addition to confidentiality, which is achieved through encryption, another important security service is data integrity. This work also examines so-called authenticated-encryption modes for Compressed Sensing, which ensure confidentiality and data integrity simultaneously. A general model for Compressed Sensing with authenticated-encryption is developed and dedicated schemes are derived from this model. The security of these schemes is reduced to the security of the underlying cryptographic constructions and primitives. Compressed Sensing with authenticated encryption provides security even in the case where an adversary has the ability to tamper with the ciphertext.
+The final contribution of this thesis is the integration of the proposed Compressed Sensing modes into a distributed application. A software architecture for Industry 4.0 applications is developed and implemented. The designed system includes all necessary components for the usage of Compressed Sensing modes, like key-establishment and parameter exchange. Next to security, a main design goal of this system is usability. The user just determines the security service for his application and all security relevant operations are handled by the software, transparent for the user. This approach prevents security problems that are caused by inappropriate usage of cryptographic schemes.
+The Compressed Sensing modes developed in this thesis are suitable for a wide range of real world applications due their joint sampling, compression and end-to-end security that starts at the sensor level. The proposed software-system completes the contribution of this work, since it realizes all necessary components for the usage of the designed modes.</abstract>
+                    <subject>
+                        <topic>Kryptologie</topic>
+                        <topic>Betriebsarten</topic>
+                        <topic>Verschlüsselung</topic>
+                        <topic>Cryptography</topic>
+                        <topic>Compressed sensing</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Kommunikations- und Informationstechnik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11947</identifier>
+                    <identifier type="sys">HT019463407</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1194</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2017-06-14</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1194">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1194/1/Dissertation_Robin_Fay.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1194"
+            DMDID="DMD_siegen_opus_1194">
+            <mets:fptr FILEID="FILE0_siegen_opus_1194"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

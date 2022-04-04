@@ -1,0 +1,65 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1019</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Analysis of grammar-based tree compression</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Analyse grammatik-basierter Baumkompression</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Eric</pc:foreName>
+            <pc:surName>Nöth</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Azyklischer gerichteter Graph</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Datenbäume</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Data Compression</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Trees</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Lossless data compression is a classic research area of computer science. We use data compression not only to reduce the amount of space needed for big data structures, but also to accelerate algorithms or to find patterns in data. Oftentimes it is important that algorithms may operate directly on the compressed data (i.e.~without prior decompression). This is possible by using so-called grammar-based methods.&#13;
+&#13;
+In this thesis we focus on the analysis of different grammar-based methods of tree compression.&#13;
+&#13;
+In the first part of the thesis we prove that the average size of the DAG (directed acyclic graph) of a full binary tree with n inner nodes is asymptotically equal to (cn)/(sqrt(log n)) (where c is a constant). The DAG of a tree can be understood as a particular tree grammar, a so-called regular tree grammar. This result has only been sketched prior in the literature. We then generalize the proof to unranked trees and to a labelled setting. Then we compare the worst-case size of the DAG of a tree with the worst-case size of the so-called BDAG (for Binary DAG) of that tree. For this we introduce the HDAG (for Hybrid DAG), which is also interesting as a compression algorithm on its own. Then we discuss the use of grammar-based string compression for the construction of tree grammars. In the first method we compress certain sequences that arise during DAG compression and in the second method we use grammar-based string compression on the so-called traversal of a tree, which is the sequence of the tree’s node labels when the tree is traversed in depth-first/left-to-right manner. We call these kind of grammars traversal SLP (SLP stands for straight-line program, which are context-free grammars that generate precisely one word) and show that there exist trees such that the smallest traversal grammars for those trees are exponentially smaller than a smallest so-called tree straight-line program, which is a common grammar-based tree compression scheme. Next we discuss algorithms for compressed trees. &#13;
+Finally we show a case in which tree compression can accelerate computations. We show by experiments that automatic termination proving of term rewriting systems is faster if tree compression on the involved terms is used as an intermediate step.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Verlustfreie Datenkompression ist ein wichtiges Forschungsgebiet der Informatik. Datenkompression wird nicht nur eingesetzt, um den Speicherbedarf großer Strukturen zu verringern, sondern auch, um Algorithmen zu beschleunigen oder um Muster in den Daten zu suchen. Häufig ist es wichtig, dass Algorithmen direkt auf der komprimierten Version der Datei operieren können (also keine Dekompression durchgeführt werden muss). Dies wird beispielsweise von sogenannten grammatik-basierten Verfahren gewährleistet.&#13;
+&#13;
+In der vorliegenden Arbeit wurde der Fokus auf die Analyse verschiedener grammatik-basierter Verfahren der Baumkompression gelegt.&#13;
+&#13;
+Zuerst wird bewiesen, dass die durchschnittliche Größe des DAGs (Englisch für directed acyclic graph, also gerichteter azyklischer Graph) eines vollen Binärbaums mit n inneren Knoten asymptotisch sich wie c n/(sqrt(log n)) verhält (wobei c eine Konstante ist). Dabei kann der DAG eines Baums als eine spezielle Baumgrammatik aufgefasst werden, eine sogenannte reguläre Baumgrammatik. Dieses Resultat wurde vorher in der Literatur nur skizziert. Das Ergebnis wird u.a. auf Bäume mit beliebigen Knotenrang verallgemeinert. Des Weiteren wird die Worst-Case Größe des DAGs eines Baums verglichen mit der Worst-Case Größe des eng verwandten BDAGs des Baums (für Binärer DAG). Für dieses Resultat wird der HDAG (für Hybrider DAG) eingeführt, welcher auch als eigenständiges Kompressionsverfahren interessant ist. Danach wird untersucht, inwiefern grammatik-basierte Stringkompression beim Erstellen von Baumgrammatik eingesetzt werden kann. Zunächst werden gewisse Sequenzen, die beim Erstellen des DAGs eines Baums entstehen, komprimiert, und anschließend wird Stringkompression verwendet, um die Sequenz zu komprimieren, die sich ergibt, wenn die Namen der einzelnen Knoten beim Traversieren des Baums ausgeschrieben werden (wobei jeder Name als Element eines Alphabets aufgefasst wird). Grammatiken dieser Art nennen wir Traversal SLP (SLP steht für straight-line program; dies sind kontextfreie Grammatiken, die genau Wort erzeugen). Es wird gezeigt, dass Traversal SLPs exponentiell bessere Ergebnisse gegenüber Baumkompression via sogenannten Tree Straight Line Programs (TSLP) erzielen können, einem weit verbreiteten Baumkompressionsparadigma. Außerdem werden noch einige Algorithmen für komprimierte Bäume vorgestellt. &#13;
+Schließlich diskutieren wir einen Fall, in welchem Baumkompression die Rechengeschwindigkeit beschleunigen kann. Wir zeigen durch Experimente, dass für automatisierte Terminationsbeweise von Termersetzungssystemen eine Kompression der Terme die durchschnittliche Rechenzeit verringert.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2016-06-08</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2016</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-10193</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Theoretische Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Eric_John_Leo_Noeth.pdf" ddb:fileSize="1108796"/>
+   <ddb:checksum ddb:type="MD5">448c431db8cc6e46d9ceed523b71657b</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1019/1/Dissertation_Eric_John_Leo_Noeth.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1019</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

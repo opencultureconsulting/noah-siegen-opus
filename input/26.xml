@@ -1,0 +1,63 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>26</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Modellbildung und modellbasierte Estimation thermodynamischer Prozeßgrößen am Beispiel eines Dieselmotors</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Klaus</pc:foreName>
+            <pc:surName>Allmendinger</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Dieselmotor</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Luftpfadmodell</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">AGR</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Aufgrund ständig ansteigender Anforderungen seitens der Abgasgesetzgebung steigt der Bedarf an leistungsfähigen Methoden zur Realisierung eines emissionsminimalen Motorbetriebs für PKW an.&#13;
+Der Beitrag dieser Arbeit zu diesem Ziel besteht im Entwurf eines Estimationsalgorithmus zur Bestimmung der AGR-Rate, welche bei Dieselmotoren einen wesentlichen Einfluß auf die NOx-Emision ausübt. Unter Kenntnis dieser&#13;
+Größe ist in einem weiteren Schritt der Entwurf eines entkoppelten Reglers für die AGR-Rate und die in den Motor einströmende Luftmasse möglich. Als Entwicklungsgrundlage dient in dieser Arbeit eine umfangreiche Simulationsbasis, welche zum einen in der Lage ist, das vollständige Luftsystem eines modernen Dieselmotors mit Hilfe von Mittelwertmodellen abzubilden und für spezielle Anforderungen um ein kurbelwinkelaufgelöstes Motormodell erweitert werden kann. Bei dem aus einer auf dieser Simulationsbasis eingehenden Systemanalyse hervorgehenden Schätzalgorithmus für die AGR-Rate stellt sich als wesentliches Problem die dynamisch träge Temperatursensorik heraus, welche einer Umsetzung eines instationärtauglichen Algorithmus zur Berechnung der AGR-Rate im Wege&#13;
+steht. Nach einer eingehenden numerischen Simulation des verwendeten Temperatursensors ist die Ableitung eines reduzierten Modells möglich, welches das dynamische Verhalten des Sensors relativ genau wiedergibt. Mit der Einbindung dieses Modells in Kalmanfilter gelingt es anschließend einen hochdynamischen Schätzwert der Gastemperatur zu berechnen und somit den Algorithmus zur AGR-Berechnung zu vervollständigen. Die weiteren Ausführungen widmen sich dem Problem von Parameteränderungen des Temperatursensormodells welche durch Verschmutzungen der Sensoroberfläche hervorgerufen werden können. Mit der Hinzunahme eines weiteren Temperatursensors, ist anschließend die Identifikation der veränderlichen Parameter möglich, die unmittelbar dem&#13;
+AGR-Schätzalgorithmus zugeführt werden und somit für ein robustes Verhalten der&#13;
+Gesamtberechnung gegenüber Parameterdrift führt.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Together with the presently increasing emission limitations, the necessity for powerful control algorithms to reduce the emissions of internal combustion engines are today more important than ever. Because of the essential influence of the EGR-Rate on the NOx-emissions, it is important for transient engine control, to know the amount of the recirculated exhaust very accurately.&#13;
+This research develops a robust and practical means for egr-estimations in combustion engines. To find out the relationship between the subsystems, a complete simulation model of the diesel engine air system is realised. This simulation environment includes the thermodynamics of the entire air system of a diesel engine with an intercooler, a vtg-turbo charger, the intake and exhaust manifold, the egr-system and a mean value engine model. In extension to the mean-value-engine model an optional calculation time optimised crankshaft-&#13;
+angle-domain combustion model is developed. This model allows the simulation of&#13;
+interactions between the air-system and the fuel hydraulics. Based on this simulation environment and analysis of the thermodynamics an algorithm for the egr is determined. To adapt this approach to a real system, the sensor dynamics have to meet certain technical requirements. These requirements are fulfilled for almost every needed sensor with the exception of the temperature sensor which has slow dynamic characteristics, and is moreover influenced by deposits on the sensor hull. This restriction leads directly to an intensive analysis of the specific sensor and the transfer function between the gas temperature and the sensor outputs. The analysis starts with a numeric simulation of the energy transport inside the sensor and the heat transfer between the gas and the sensor hull. Based on these investigations, a third order, non-linear model of the sensor reactions is developed and is used in combination with a kalman filter to estimate the transient gas temperature, without a significant loss in dynamics. With an implementation of the gas temperature estimations, the original algorithm is extended to estimate the transient changes of the exhaust gas&#13;
+recirculation. In a further step, and with the use of another temperature sensor, an algorithm is developed, that is able to identify the variable parameter of the sensor model. With an on-line implementation of the parameter identification, the robustness of the egr estimation algorithm has been considerably improved.&#13;
+Finally, an outlook for a decoupled control of the egr and the charge pressure based on the egr-estimation is given.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2002-06-16</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2002</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-261</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 12, Elektrotechnik und Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="allmendinger.pdf" ddb:fileSize="2718134"/>
+   <ddb:checksum ddb:type="MD5">3f86e91cc5e7772f1cc11744a6c1e012</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/26/1/allmendinger.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/26</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

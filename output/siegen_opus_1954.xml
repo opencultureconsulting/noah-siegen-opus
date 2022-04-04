@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1954">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Spatial and social mobility of doctoral candidates in the context of Europeanisation and internationalisation in higher education</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Räumliche und soziale Mobilität von Doktorand*innen im Kontext von Europäisierung und Internationalisierung der Hochschulbildung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schäfer, Gregor</displayForm>
+                        <namePart type="family">Schäfer</namePart>
+                        <namePart type="given">Gregor</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schittenhelm, Karin</displayForm>
+                        <namePart type="family">Schittenhelm</namePart>
+                        <namePart type="given">Karin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Dissertation untersucht Mobilität räumlicher und sozialer Natur bei ausgewanderten Doktorand*innen unter besonderer Berücksichtigung von Europäisierungs- und Internationalisierungsprozessen.</abstract>
+                    <abstract type="content" lang="eng">The dissertation addresses spatial and social mobility among emigrated doctoral candidates in the context of Europeanisation and internationalisation in higher education.</abstract>
+                    <subject>
+                        <topic>Doktorand</topic>
+                        <topic>academic mobility</topic>
+                        <topic>doctoral candidates</topic>
+                        <topic>spatial mobility</topic>
+                        <topic>higher education</topic>
+                        <topic>Europeanisation</topic>
+                        <topic>internationalisation</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Seminar für Sozialwissenschaften"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19548</identifier>
+                    <identifier type="sys">HT021011606</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1954</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2021-07-12</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1954">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1954/4/Dissertation_Gregor_Sch%c3%a4fer.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1954"
+            DMDID="DMD_siegen_opus_1954">
+            <mets:fptr FILEID="FILE0_siegen_opus_1954"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

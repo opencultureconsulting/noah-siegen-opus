@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1896">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>List scheduling algorithms for open distributed real-time embedded systems</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Listenscheduling-Algorithmen für offene verteilte Echtzeitsysteme</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Amin, Sarah</displayForm>
+                        <namePart type="family">Amin</namePart>
+                        <namePart type="given">Sarah</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Obermaisser, Roman</displayForm>
+                        <namePart type="family">Obermaisser</namePart>
+                        <namePart type="given">Roman</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In den letzten Jahren hat sich der Bereich der eingebetteten Systeme zu Anwendungsbereichen entwickelt, die strenge Echtzeitbeschränkungen, Zuverlässigkeitsanforderungenund  die  Notwendigkeit  einer  Open-World-Annahme  vereinen. Solche Systeme werdenals Open Distributed Real-time Embedded (ODRE) Systeme bezeichnet. Diese Systeme basieren auf einer Open-World-Annahme, bei der neue Komponenten zur Laufzeitauftreten, um neu entstehende Dienste dynamisch zu realisieren. Gleichzeitig sind ein zuverlässiger Betrieb und die Unterstützung von strengen Echtzeitanforderungen für die Unterstützung von geschlossenen Regelkreisen und garantierten Reaktionszeiten unerlässlich. In solchen Systemen sorgt ein zeitgesteuertes Scheduling der Dienste vor der Ausführungauf dem System für das korrekte zeitliche Verhalten der Anwendungen und garantiert die Unterstützung von strengen Echtzeitbedingungen.  Das Scheduling einer Echtzeitanwendung in einem ODRE-System ist jedoch aufgrund seiner dynamischen Natur kompliziert. Die Struktur des ODRE-Systemsändert sich ständig, was bedeutet, dass ein zur Designzeitgenerierter fester Zeitplan nichtüber die gesamte Lebensdauer des Systems verwendet werden kann. Die Ausführungszeiten gängiger Scheduling-Algorithmen, z.B. evolutionäre Algorithmen, gemischt-ganzzahlige lineare Programmierung, Satisfiablity-Modulo-Theorien, sind für die Verwendung zur Laufzeit nicht geeignet.  Darüber hinaus machen diese Algorithmen restriktive Annahmen, z.B. die Annahme eines busbasierten Kommunikationsnetzes  anstelle  von  Multi-Hop-Kommunikationsnetzen  oder  die  Berücksichtigung  dergleichen  Periode  für  alle  Anwendungsaufgaben,  die  für  die  Echtzeitanforderungen  von ODRE-Systemen  unrealistisch  sind. Daher  besteht  ein  Bedarf  an  einem  Scheduling-Algorithmus,  der zur Laufzeit einen realisierbaren Zeitplan für ODRE-Systeme berechnet,  wenn  es Änderungen  im  System  gibt. Diese  Arbeit  schlägt  Listen-Scheduling-Algorithmen vor, die sowohl strenge Zetbedingungen als auch die Offenheit des ODRE-Systems berücksichtigen, während sie einen Zeitplan mit kurzer Planungsverzögerung zur Laufzeit berechnen. Die vorgeschlagenen Algorithmen sind generisch und unterstützendie Berechnung eines zeitgesteuerten Zeitplans für verschiedene Systemanwendungenauf einem ODRE-System. Darüber hinaus werden in dieser Arbeit die Modelle und Algorithmen für das Scheduling von Diagnosediensten zur Fehlererkennung und Diagnose in ODRE-Systemen demonstriert. Die Scheduling-Algorithmen werden auf der Basis verschiedener Parameter, wie z.B. der Größe der Systemanwendung, der Anzahl derverfügbaren Ressourcen, der im System verwendeten Netzwerktopologie, der Anzahl der Änderungen in der geplanten Anwendung und der Rekonfigurationskosten des Systems, bewertet. Die Ergebnisse zeigen, dass die Algorithmen einen korrekten Zeitplan berechnen können, sofern genügend Ressourcen im System vorhanden sind. Die Ergebnisse fürden vorgeschlagenen inkrementellen Scheduling-Algorithmus zeigen, dass die berechneten Zeitpläne auf Änderungen im System skalierbar sind und der Aufwand für die Revalidierung durch Minimierung der Änderungen in der bereits eingeplanten Anwendung reduziert werden kann. Darüber hinaus zeigt die Analyse der Zeitkomplexität und derbeobachteten Laufzeit der Algorithmen, dass sie zur Laufzeit aufgerufen werden können, wenn der Scheduler durch eine Änderung der Systemkonfiguration ausgelöst wird.</abstract>
+                    <abstract type="content" lang="eng">In recent years, the field of embedded systems has evolved towards application areas that combine stringent real-time constraints, reliability requirements and a need for an open-world assumption. Such systems are called Open Distributed Real-time Embedded (ODRE) systems. These systems are based on an open-world assumption where new components enter at runtime to dynamically realise emerging services. At the same time, reliable operation and support for stringent real-time requirements are essential to support closed-loop control and guaranteed response times. In such systems, time-triggered scheduling of the services before executing them on the system ensures the correct temporal behaviour of the applications and guarantees support for stringent real-time constraints. However, scheduling a real-time application in an ODRE system is complicated because of its dynamic nature. The structure of the ODRE system is continuously changing, which means that a fixed schedule generated at the design time cannot be used throughout the lifetime of the system. The execution times of prevalent scheduling algorithms, e.g, evolutionary algorithms, mixed integer linear programming, satisfiablity modulo theories, are not suitable for invocation at runtime. Moreover, these algorithms make assumptions, e.g., assuming a bus-based communication network instead of multi-hop communication networks or considering the same period for all the application tasks, that are unrealistic for the stringent real-time requirements of ODRE systems. Therefore, there is a need for a scheduling algorithm that computes a feasible schedule for ODRE systems at runtime whenever there are changes in the system. This thesis proposes list scheduling algorithms that consider both stringent timing constraints and openness of the ODRE system while computing a feasible schedule with short scheduling delay at runtime. The proposed algorithms are generic and support the computation of a time-triggered schedule for any system application on an ODRE system. In addition, this thesis demonstrates the models and algorithms for scheduling diagnostic services for fault detection and diagnosis in ODRE systems. The scheduling algorithms are evaluated based on different parameters such as, the size of the system application, the number of available resources, the network topology used in the system, the number of modifications in the scheduled application, and reconfiguration cost of the system. The results show that the algorithms can compute a feasible schedule provided that there are enough resources in the system. The results for the proposed incremental scheduling algorithm show that the computed schedules are scalable to changes in the system and the revalidation efforts can be reduced by minimising the changes in the already scheduled application. Furthermore, the time complexity and the observed runtime of the algorithms shows that they can be invoked during runtime when the scheduler is triggered by a change in the system configuration.</abstract>
+                    <subject>
+                        <topic>Echtzeitsystem</topic>
+                        <topic>List scheduling</topic>
+                        <topic>Incremental scheduling</topic>
+                        <topic>ODRE systems</topic>
+                        <topic>Real-time systems</topic>
+                        <topic>Fault detection and diagnosis</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Department Elektrotechnik - Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-18964</identifier>
+                    <identifier type="sys">HT020931968</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1896</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2020-05-20</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1896">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1896/3/Dissertation_Sarah_Amin.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1896"
+            DMDID="DMD_siegen_opus_1896">
+            <mets:fptr FILEID="FILE0_siegen_opus_1896"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

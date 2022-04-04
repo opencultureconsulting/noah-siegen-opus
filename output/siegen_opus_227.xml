@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_227">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Das </nonSort>
+                        <title>Französische in Luxemburg : eine Sprache im romanisch-germanischen Kontaktbereich</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Neuhausen, Ingo</displayForm>
+                        <namePart type="family">Neuhausen</namePart>
+                        <namePart type="given">Ingo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2002</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Ziel der Arbeit ist die Darstellung von Status und Charakter des Französischen
+innerhalb der luxemburgischen Dreisprachigkeitssituation. – Zuerst wird die Wahl des Themas gerechtfertigt durch den Hinweis auf die Geschichte des Großherzogtums, die heutige Sprachgesetzgebung sowie das luxemburgische Schulsystem (Kap. 2). Die anschließende Analyse aktueller Umfrageergebnisse zeigt, daß das Französische in Luxemburg heute keineswegs
+mehr nur in den traditionellen Domänen Schule, Gesetzgebung und Verwaltung
+präsent ist, sondern z. B. auch am Arbeitsplatz, wo es als bevorzugte Verkehrssprache zwischen Einheimischen und Ausländern fungiert (Kap. 3). Im Anschluß an die Ausführungen zu Status, Funktion und Prestige der drei luxemburgischen Landessprachen im einzelnen wird dann versucht, unter Nutzung unterschiedlicher Ansätze und Modelle die luxemburgische Sprachensituation insgesamt zu beschreiben (Kap. 4); die Darstellung wird ergänzt durch einige Anmerkungen zur individuellen Sprachkompetenz und zum Sprach- bzw. Sozialverhalten
+des einzelnen innerhalb der Gesamtsituation (Kap. 5). Ein zweiter Schwerpunkt
+liegt auf der Einschätzung der Qualität der betreffenden Sprachen, wobei insbesondere die Frage nach der Existenz einer luxemburgischen Regionalvarietät des Französischen diskutiert wird (Kap. 6); soweit das luxemburgische Zeitungsfranzösisch untersucht wurde, wich es von der Pressesprache Frankreichs nur unerheblich ab (Kap. 7). Am Ende der Arbeit steht eine vorläufige Bilanz der luxemburgischen Sprachpolitik sowie eine Statusbewertung des Lëtzeburgeschen in Europa ( Kap. 8).</abstract>
+                    <subject>
+                        <topic>Französisch</topic>
+                        <topic>Luxemburg</topic>
+                        <topic>Sprachkontakt</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 3, Sprach-, Literatur- und Medienwissenschaften"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-2276</identifier>
+                    <identifier type="sys">HT013283395</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_227</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2002-02-13</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_227">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/227/1/neuhausen.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_227"
+            DMDID="DMD_siegen_opus_227">
+            <mets:fptr FILEID="FILE0_siegen_opus_227"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

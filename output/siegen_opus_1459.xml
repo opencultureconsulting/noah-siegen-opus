@@ -1,0 +1,58 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1459">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Mediants and the making of narrative assemblages</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Appadurai, Arjun</displayForm>
+                        <namePart type="family">Appadurai</namePart>
+                        <namePart type="given">Arjun</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In this lecture, I will highlight the ways in which the current world of financial markets, mechanisms, and risk-taking is saturated with linguistic and literary forms. These include the promissory language of derivatives, the public pronouncements of central bankers, and the internal narratives of financial analysts.</abstract>
+                    <subject>
+                        <topic>Kooperation</topic>
+                        <topic>Derivate</topic>
+                        <topic>Finanzmärkte</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-14593</identifier>
+                    <identifier type="sys">HT020292063</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1459</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1459">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1459/2/WPS_06_Appadurai_Mediants.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1459"
+            DMDID="DMD_siegen_opus_1459">
+            <mets:fptr FILEID="FILE0_siegen_opus_1459"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

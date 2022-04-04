@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1245">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Siliziumkarbid-Transistoren für Audioverstärker der Klasse-D</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Silicon-carbide transistors for class-D audio amplifiers</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Grifone Fuchs, Verena</displayForm>
+                        <namePart type="family">Grifone Fuchs</namePart>
+                        <namePart type="given">Verena</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Der Klang von Musik hat die Menschen seit jeher fasziniert. Im Vergleich zu Aristoteles´ Zeit, ist ein Konzertbesuch heute nicht mehr nur eine willkommene Abwechslung, sondern ein Klangerlebnis, welches durch die Unterstützung von Licht-, Ton- und Videotechnik zu einem emotionalen Moment wird. Folglich müssen die in der Tontechnik eingesetzten Audioverstärker höchsten Anforderungen bezüglich Audioqualität und Wirkungsgrad genügen. Zum Erreichen der benötigten Gesamtleistung kann eine Beschallungsanlage aus über 100 einzelnen Audioverstärkern bestehen. Mit steigender Geräteanzahl nimmt der Aufwand der Verkabelung sowie die physische Anstrengung zum Auf- und Abbauen der Beschallungsanlage zu. Obwohl die Komplexität einer Beschallungsanlage durch schaltende Verstärker der Klasse D reduziert würde, werden meist Verstärker bevorzugt, deren Leistungstransistoren linear arbeiten (Klasse H). Die linearen Verstärker werden u.a. wegen der geringen harmonischen Verzerrungen geschätzt, da dies zu einer höherwertigen Audioqualität führt. In einem Klasse-D-Verstärker hingegen entstehen vermehrt harmonische Verzerrungen, welche u.a. durch die Transistoren in der Schaltstufe verursacht werden. Zur Zeit werden diese Verzerrungen durch komplexe Rückkopplungs-Topologien mit einem erheblichen Aufwand in der Entwicklung lediglich reduziert.  
+Ziel dieser Dissertation ist es, das Potential von Transistoren aus Siliziumkarbid (SiC) für die Klasse-D-Technik zu ergründen, um bei der Ursache der harmonischen Verzerrungen anzusetzen. Das schnelle Schaltverhalten der SiC-Transistoren könnte genutzt werden, um die Entstehung der harmonischen Verzerrungen in der Leistungsstufe vom Grunde her zu reduzieren und so die Audioqualität in dieser Hinsicht zu verbessern. Darüber hinaus ergeben sich weitere viel versprechende Vorteile, beispielsweise im Zusammenhang mit Ausgangsleistung und Wirkungsgrad. In dieser Arbeit werden vier Endstufen eines Klasse-D-Verstärkers entwickelt und charakterisiert. Die fundierte Analyse der Audioqualität deckt interessante Aspekte bezüglich der etablierten Theorie eines D-Verstärkers auf. Insbesondere die Erkenntnisse im Kontext von Leistung und Wirkungsgrad sind auch auf andere schaltende Anwendungen in der Leistungselektronik übertragbar. Darüber hinaus wird der Zusammenhang zwischen den Halbleitereigenschaften des Transistors und der Entstehung von harmonischen Verzerrungen erstmalig ausführlich ergründet. Die Analyse-Ergebnisse sind jeweils im Kapitel ’Einfluss der Transistor-Charakteristika auf..’ zusammengestellt.
+Der Einsatz von Siliziumkarbid-Transistoren würde in vielen Aspekten der Klasse-D-Technik neue Perspektiven eröffnen. Die vorliegende Dissertation widmet sich der Untersuchung von Audioqualität, Leistung und Wirkungsgrad.</abstract>
+                    <abstract type="content" lang="eng">The sound of music has always fascinated mankind. In contrast Aristotels’ time, visiting a concert is more than mere entertainment in the normal course of life – nowadays, it is a splendid performance, turned into an emotional moment by light and audio engineering. To meet the arising demands, the audio engineering must utilise a so-called public address system (PA system) consisting of an array of single amplifiers, to drive loudspeakers. Each amplifier requires high performance in terms of energy efficiency and audio quality. In order to achieve the desired power level, a PA system may consist of over 100 single amplifiers. The intricacy of wiring as well as the physical effort to build up a PA system increase rapidly with the number of amplifiers. Although the complexity of a PA system could be reduced using switch-mode class D amplifiers, in the majority of cases linear class H amplifiers are used. These linear amplifiers are less efficient but provide excellent audio quality due to low harmonic distortion. A switch-mode class D amplifier works efficiently but generates harmonic distortion to a greater extent. Currently, this harmonic distortion is generally reduced by complex feedback topologies requiring major time and effort during the designing process of the amplifier. 
+This thesis investigates the benefit of silicon carbide (SiC) transistors for the power stage of a class-D amplifier, since harmonic distortion is also caused by the power stage devices. The fast-switching SiC-transistors may partially resolve the root of the poorer sound quality by minimising the harmonic distortion of the power stage. Further advantages also arise; e.g. concerning output power and efficiency. In this work, four class D power stages are developed and characterised. Detailed analysis of the audio quality reveals interesting aspects relating to existing class D amplifier theory. The outcome, particularly with regard to output power and efficiency, may be transferred to other switch-mode applications in power electronics. Beyond that, the relationship between the transistor’s semiconductor-characteristics and the source of harmonic distortion is investigated in detail for the first time. The results are outlined in each chapter beginning with ’Einfluss der Transistor-Charakteristika auf..’.
+The use of silicon carbide power devices would open new prospects in many aspects of class D amplifier performance. This work examines these aspects with respect to audio quality, output power and efficiency.</abstract>
+                    <subject>
+                        <topic>Tonfrequenzverstärker</topic>
+                        <topic>Klasse-D</topic>
+                        <topic>PWM-Verstärker</topic>
+                        <topic>Siliziumkarbid-Transistoren</topic>
+                        <topic>SiC Leistungstransistoren</topic>
+                        <topic>Gate-Treiber</topic>
+                        <topic>Class-D</topic>
+                        <topic>Switch-mode amplifier</topic>
+                        <topic>Total Harmonic Distortion THD</topic>
+                        <topic>Power amplifier</topic>
+                        <topic>Silicon carbide transistors</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Mikrosystemtechnik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-12453</identifier>
+                    <identifier type="sys">HT019655059</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1245</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2017-07-14</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1245">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1245/1/Dissertation_Verena_Grifone_Fuchs.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1245"
+            DMDID="DMD_siegen_opus_1245">
+            <mets:fptr FILEID="FILE0_siegen_opus_1245"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

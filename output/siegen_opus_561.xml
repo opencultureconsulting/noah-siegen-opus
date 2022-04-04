@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_561">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Elemente für die Dynamik flexibler Mehrkörpersysteme</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Elements for flexible multibody dynamics</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Sänger, Nicolas</displayForm>
+                        <namePart type="family">Sänger</namePart>
+                        <namePart type="given">Nicolas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die vorliegende Arbeit behandelt die Erstellung energie-, impuls- und drehimpulskonsistenter Zeitschrittverfahren für die Dynamik flexibler Mehrkörpersysteme mit großen Verformungen. Der vorgestellte Ansatz basiert auf nichtlinearen Finite-Elemente-Methoden für die räumliche Diskretisierung flexibler Körper.
+Es wird gezeigt, daß sich die Bewegungsgleichungen in Form von Algebrodifferenzialgleichungen (differential algebraic equations, DAEs) schreiben lassen. Diese DAEs erlauben eine einheitliche Systematik für eine rotationsfreie Formulierung flexibler Mehrkörpersysteme, d.h. die Verwendung von Rotationsfreiheitsgraden wird während des kompletten Diskretisierungsprozesses in Raum und Zeit vermieden. Die rotationsfreie Formulierung wiederum erleichtert die  direkte Einbeziehung geometrisch exakter Schalen und Balken. Zusätzlich erlaubt sie einheitliche energie- und drehimpulskonsistente Zeitschrittverfahren für jegliche Arten von Mehrkörpersystemen.
+
+Neben der Beschreibung der Zeitschrittverfahren erfolgt die der zugrundeliegenden Strukturelemente: einer Starrkörper-, einer Balken- und einer Schalenformulierung. Bei ersterer handelt es sich um einen Spezialfall der sogenannten &quot;natürlichen Koordinaten&quot;, zweitere ist eine rotationsfreie Balkenformulierung mit Simo-Reissner-Kinematik und letztere eine Schalenformulierung mit Reissner-Mindlin-Kinematik.
+
+Die Einbindung von Gelenken für die rotationsfreie Starrkörperformulierung wird auf eine systematische Basis gestellt, die insbesondere für eine effiziente Implementierung, aber auch für eine Bewahrung der obengenannten Erhaltungseigenschaften geeignet ist.
+
+Linienförmige Verbindungen betreffen im Rahmen der flexiblen Mehrkörpersysteme insbesondere Balken und Schalenränder. Die Behandlung von Schalenverschneidungen als flexible Mehrkörpersysteme zeigt die Universalität des gewählten Ansatzes, insbesondere da sich durch die integrale Betrachtung mit Mortar-ähnlichen Ansätzen selbst nicht-konforme Netze mühelos verbinden lassen, ohne künstliche Versteifungseffekte hervorzurufen. Auch hier wird die Wahrung der Konsistenzeigenschaften nicht beeinträchtigt.
+
+Numerische Beispiele dienen der Demonstration der hervorragenden numerischen Stabilitätseigenschaften des vorgestellten Zeitschrittverfahrens sowie der Eignung der vorliegenden Systematik für reale Problemstellungen.</abstract>
+                    <subject>
+                        <topic>Nichtlineare Finite-Elemente-Methode</topic>
+                        <topic>Natürliche Koordinaten</topic>
+                        <topic>Strukturelemente</topic>
+                        <topic>Flexible Mehrkörperdynamik</topic>
+                        <topic>Natural co ordinates</topic>
+                        <topic>flexible multibody dynamics</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Mechanik und Regelungstechnik - Mechatronik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5611</identifier>
+                    <identifier type="sys">HT017027346</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_561</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2011-09-08</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_561">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/561/1/saenger.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_561"
+            DMDID="DMD_siegen_opus_561">
+            <mets:fptr FILEID="FILE0_siegen_opus_561"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1196">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Verschenkte Bildungsressourcen und ihre Ursachen : leistungsfremder sozialer Filter, tendenzielle Unterschichtung und unterentwickelte Förderkultur</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Geißler, Rainer</displayForm>
+                        <namePart type="family">Geißler</namePart>
+                        <namePart type="given">Rainer</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die internationalen Bildungsvergleichsstudien innerhalb der OECD im letzten Jahrzehnt haben deutlich gemacht, dass die deutsche Altlast der Bildungsbenachteiligung von jungen Menschen aus bildungsfernen Familien, die bereits in den 1960er Jahren intensiv im Zusammenhang mit der „deutschen Bildungskatastrophe“ diskutiert wurde, auch heute noch fortlebt. Der Beitrag skizziert die Zusammenhänge der Schulleistungen mit sozialer und ethnischer Herkunft und die damit verbundenen Nachteile auf verschiedenen Stufen der Bildungslaufbahn. Im zweiten Teil werden die wichtigsten Ursachen dieser Defizite und Benachteiligungen dargestellt - der leistungsfremde soziale Filter im deutschen Schulsystem, die tendenzielle Unterschichtung der Sozialstruktur durch Migranten und die unterentwickelte Förderkultur in den Schulen.</abstract>
+                    <subject>
+                        <topic>Bildung</topic>
+                        <topic>Migrationshintergrund</topic>
+                        <topic>soziale Auslese</topic>
+                        <topic>Unterschichtung</topic>
+                        <topic>Schule</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11967</identifier>
+                    <identifier type="sys">HT020893070</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1196</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1196">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1196/1/Geissler_Verschenkte_Bildungsressourcen_und_ihre_Ursachen.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1196"
+            DMDID="DMD_siegen_opus_1196">
+            <mets:fptr FILEID="FILE0_siegen_opus_1196"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

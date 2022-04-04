@@ -1,0 +1,87 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1728">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Distributed co-simulation framework for hardware- and software-in-the-loop testing of networked embedded real-time systems</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Verteiltes Co-Simulations-Framework für Hardware- und Software-In-The-Loop Testen vernetzter eingebetteter Echtzeitsysteme</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Pieper, Tobias</displayForm>
+                        <namePart type="family">Pieper</namePart>
+                        <namePart type="given">Tobias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Obermaisser, Roman</displayForm>
+                        <namePart type="family">Obermaisser</namePart>
+                        <namePart type="given">Roman</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Heutige komplexe Steuerungssysteme wie Züge, Flugzeuge oder Autos bestehen in der Regel aus mehreren vernetzten Komponenten, die von geografisch verteilten Herstellern entwickelt werden. Während ihres Entwicklungsprozesses sind die Integration und das Testen der Komponenten zentrale Schritte. Die Standorte der Hersteller erschweren jedoch den Prozess, da die Komponenten an einen Ort geliefert werden müssen und Intellectual Property geschützt werden muss. Die Verwendung eines verteilten Co-Simulations-Frameworks, das Software- und Hardware-in-the-Loop (SIL/HIL) Tests unterstützt, kann diese Probleme lösen. Es ermöglicht eine virtuelle Integration sowie das Testen der Komponenten über das Internet und schützt Intellectual Property, wenn es auf einer netzwerkzentrischen Abstraktionsebene arbeitet. In diesem Fall konzentriert es sich auf den Datenaustausch zwischen den Komponenten und Kenntnisse über ihre interne Implementierung sind nicht erforderlich.
+
+Nach dem heutigen Stand der Technik ist ein Framework, das auf einer netzwerkzentrischen Abstraktionsebene arbeitet und Co-Simulation, SIL- und HIL-Tests unterstützt, noch nicht verfügbar. Außerdem werden beim HIL-Test Hardware-Geräte mit Echtzeitanforderungen eingesetzt. Wenn diese Geräte über öffentliche Wide Area Networks wie das Internet miteinander verbunden werden, ist die Genauigkeit verteilter HIL-Tests durch den Determinismus der Netzwerklatenzen begrenzt. Die verfügbaren Frameworks basieren hauptsächlich auf Quality of Service Mechanismen wie z.B. Differentiated Services. Die Kommunikationszyklen des Systems Under Test (SUT) können jedoch kleiner als die garantierten Latenzen sein, was zu Deadline-Überschreitungen führt. Daher sind Mechanismen zur Verwaltung von Verzögerungen erforderlich, die eine rechtzeitige Weiterleitung der Eingangspakete gewährleisten.
+
+Diese Dissertation schlägt ein verteiltes Co-Simulations-Framework vor, das auf einer netzwerkzentrischen Abstraktionsebene arbeitet und die oben genannten Techniken unterstützt. Es synchronisiert die Komponenten des SUT, koordiniert ihren Datenaustausch und beinhaltet Fehlerinjektionsmechanismen zur Validierung der Zuverlässigkeit. Durch die Bereitstellung einer generischen Komponentenschnittstelle werden heterogene Simulationswerkzeuge und physikalische Geräte unterstützt. Die wichtigsten Beiträge dieser Dissertation sind zwei Mechanismen zur Verwaltung von Verzögerungen, die auf State-Estimation und spekulativer Ausführung basieren. Der erste Mechanismus leitet vorhergesagte Pakete an die Komponente weiter, wenn (I) empfangene Pakete verzögert werden oder (II) als zusätzliche Pakete zwischen den Empfangenen. Dadurch wird der Nachrichtenaustausch innerhalb des Frameworks reduziert. Der zweite Mechanismus teilt die Simulation in mehrere Untergruppen auf. Diese Untergruppen führen unabhängige Tasks im Voraus aus, um Daten rechtzeitig an Echtzeitgeräte weiterzuleiten. Mit Hilfe der Mechanismen ist das Framework in der Lage, Simulationen, Software-Algorithmen und reale Hardware über öffentliche Kommunikationsnetze zu verbinden und gleichzeitig die Echtzeitanforderungen des SUTs zu erfüllen. Es ist daher nicht notwendig, alle Simulationsmodelle oder physikalische Prototypen zentral zur Verfügung zu stellen. 
+
+Die Auswertung mit einer verteilten Steuerungsanwendung demonstriert die Skalierbarkeit des Frameworks. Die Zeit für die Ausführung einer Simulation steigt linear mit der simulierten Zeit und ist durch das Wachstum der Anzahl der Komponenten in größeren Setups begrenzt. Darüber hinaus zeigt die Auswertung die Vorteile des Verzögerungsmanagements für verteilte Echtzeittests. Nach der Bestimmung einer geeigneten Echtzeitkonfiguration des Simulations-PCs kann der State-Estimation-Mechanismus für eine rechtzeitige Weiterleitung von Paketen an die Komponenten verwendet werden. Die Verwendung von zusätzlichen Paketen zwischen den Empfangenen verbessert die Genauigkeit von verteilten Echtzeittests und macht sie unabhängig von den Verzögerungen im Netzwerk. Während die spekulative Ausführung Echtzeittests lokal und in Local Area Networks ermöglicht, erfordern Netzwerke mit größeren Verzögerungen (z.B. das Internet) weniger strikte zeitliche Anforderungen an das SUT. Aus Performance-Sicht erreichen beide Mechanismen je nach Größe des Setups, der Netzwerktopologie und der Kommunikationsperiode erhebliche Speedups.</abstract>
+                    <abstract type="content" lang="eng">Today&apos;s complex control systems such as trains, aircraft or cars are typically composed of multiple networked components which are developed by geographically distributed manufacturers. During their development process, integrating and testing the components are central steps. However, the manufacturers&apos; locations complicate the process since the components must be shipped to a central place and intellectual property must be protected. Using a distributed co-simulation framework which supports Software- and Hardware-In-The-Loop (SIL/HIL) testing can solve these issues. It enables a virtual integration and testing of the components via the Internet and protects intellectual property if it operates on a network-centric abstraction level. In this case, it focuses on the data exchange between the components and knowledge about their internal implementation is not required.
+
+In today&apos;s state-of-the-art, a framework that operates on a network-centric abstraction level and supports co-simulation, SIL and HIL testing together is not available yet. Besides that, HIL testing involves hardware devices with real-time requirements. Connecting those devices via public wide area networks such as the Internet, the accuracy of distributed HIL tests is limited by the determinism of the network’s communication delays. The available frameworks are mainly based on Quality of Service mechanisms such as differentiated services. However, the communication cycles of the System Under Test (SUT) might be smaller than the guaranteed latencies which leads to deadline misses. Hence, delay-management mechanisms are required which ensure a timely forwarding of input data.
+
+This thesis proposes a distributed co-simulation framework which operates on a network-centric abstraction level and supports the above mentioned techniques. It synchronizes the components of the SUT, coordinates their data exchange and includes fault-injection to validate the dependability. By providing a generic component interface, heterogeneous simulation tools and physical devices are supported. The main contributions of the thesis are two delay-management mechanisms based on state-estimation and speculative execution. The first mechanism forwards estimated inputs to the component if (I) received inputs are delayed or (II) as intermediary inputs. This reduces the number of communication activities inside the framework. The second mechanism divides a simulation setup into several subsets. Those subsets execute independent tasks in advance to forward data to real-time devices in time. Using the mechanisms, the framework is able to connect simulations, software algorithms and real hardware via public communication networks while maintaining the SUT&apos;s real-time requirements. Hence, there is no need to make all simulation models or physical prototypes centrally available. 
+
+The evaluation using a distributed control application demonstrates the scalability of the framework. The time to execute a simulation setup increases linearly with the simulated time and is bounded by the growth of the component&apos;s number in larger setups. Furthermore, the evaluation shows the advantages of the delay-management mechanisms for distributed real-time tests. After determining a proper real-time configuration of the simulation host, the state-estimation mechanism can be used for a timely forwarding of inputs to the components. Using intermediary packets improves the accuracy of distributed real-time tests and makes it independent from the network delays. While the speculative execution enables real-time tests locally and in Local Area Networks, networks with larger delays (e.g., the Internet) require less stringent temporal requirements of the SUT. From a performance point of view, both mechanisms achieve significant speedups depending on the setup&apos;s size, the network topology and the communication period.</abstract>
+                    <subject>
+                        <topic>Distributed Co-Simulation</topic>
+                        <topic>Hardware-In-The-Loop Testing</topic>
+                        <topic>Software-In-The-Loop Testing</topic>
+                        <topic>Networked Embedded Systems</topic>
+                        <topic>Real-Time Systems</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Praktische und Technische Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-17287</identifier>
+                    <identifier type="sys">HT020626921</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1728</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2020-10-05</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1728">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1728/4/Dissertation_Tobias_Pieper.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1728"
+            DMDID="DMD_siegen_opus_1728">
+            <mets:fptr FILEID="FILE0_siegen_opus_1728"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

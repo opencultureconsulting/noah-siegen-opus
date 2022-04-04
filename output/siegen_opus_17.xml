@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_17">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Hochaufgelöste optische Spektroskopie einzelner Terrylen-Moleküle bei kryogenen Temperaturen mit einem Parabolspiegelmikroskop</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Drechsler, Andreas</displayForm>
+                        <namePart type="family">Drechsler</namePart>
+                        <namePart type="given">Andreas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2002</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Ein konfokales Mikroskop mit Parabolspiegeloptik (NA ≈ 1) wird zur Fluoreszenzmikroskopie und räumlich aufgelosten Spektroskopie des in einer Shpol´skii Matrix aus n-Octadecan eingebetteten organischen Farbstoffmoleküls Terrylen auf Ensemble- und Einzelmolekülbasis eingesetzt. Das Mikroskop erlaubt bei Raumtemperatur und bei 1,8 K neben einer effizienten Anregung und Sammlung des Lichts eine Abbildung nahe an der beugungslimitierten Auflosungsgrenze. Die Fokussierung des Mikroskops wird experimentell verifiziert und zeigt einen um den Faktor 1,5 großeren Wert als der theoretisch erwartete. Mittels Fluoreszenz-Anregungs-Spektroskopie bei tiefen Temperaturen mit einem schmalbandigen Laser wird die natürliche Linienbreite des Terrylens zu (42 Â± 2) MHz bestimmt und homogene und inhomogene Linienverbreiterung aufgezeigt. Aus Messungen der Fluoreszenz-Sättigung und der Leistungsverbreiterung kann auf die grobe Orientierung einzelner Moleküle geschlossen werden. Untersuchte spektrale Sprünge sind lichtinduziert. Fluoreszenz-Spektroskopie bei tiefen Temperaturen ergibt die Energie der hoch aufgelosten vibratorischen Niveaus des elektronischen Grundzustandes. Messungen der oberflächenverstärkten Resonanz-Raman-Streuung bei Raumtemperatur werden den Tieftemperaturdaten gegenübergestellt und reproduzieren einen Teil der Fluoreszenz-Banden. Für zukünftige Experimente wird ein Polarisationskonverter mit einer Interferometeranordnung zur Erzeugung von radial- bzw. azimutal polarisiertem Licht aufgebaut und eingehend charakterisiert.</abstract>
+                    <abstract type="content" lang="eng">A confocal microscope with a parabolic mirror objective (NA ≈ 1) is used at ensemble and single molecule level for fluorescence microscopy and spatially resolved spectroscopy of the organic dye terrylene, which is embedded in a Shpol´skii matrix of n-octadecane. Beside an efficient excitation and collection of light a spatial resolution close to the diffraction limit is achieved, both at room temperature and at 1.8 K. The focusing properties of the microscope are experimentally verified and show a value which is 1.5 times larger than the theoretical limit. By fluorescence excitation spectroscopy with a narrow band laser, excitation spectra are recorded at low temperatures and yield a natural linewidth of (42 Â± 2) MHz. Homogeneous and inhomogeneous broadening is demonstrated. The orientation of single molecules can coarsely be concluded from fluorescence saturation and power broadening. Analyzed spectral jumps are found to be light induced. Fluorescence spectroscopy at low temperatures yield the energy of the highly resolved vibrational levels of the electronic ground state. Surface enhanced resonance Raman scattering at room temperature is compared with the lowtemperature data and reproduces some of the fluorescence lines. For forthcoming experiments a polarization converter with interferometer arrangement for generation of radially and azimuthally polarized light is set up and characterized in detail.</abstract>
+                    <subject>
+                        <topic>Einzelmolekülspektroskopie</topic>
+                        <topic>konfokale Mikroskopie</topic>
+                        <topic>Terrylen</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 8, Chemie - Biologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-177</identifier>
+                    <identifier type="sys">HT013586683</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_17</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2002-12-05</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_17">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/17/1/drechsler.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_17"
+            DMDID="DMD_siegen_opus_17">
+            <mets:fptr FILEID="FILE0_siegen_opus_17"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

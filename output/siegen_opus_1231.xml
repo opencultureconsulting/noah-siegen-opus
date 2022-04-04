@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1231">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Nicht noch ein Fach!? : Forschungsethik im Studium der Sozialen Arbeit</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kaminsky, Carmen</displayForm>
+                        <namePart type="family">Kaminsky</namePart>
+                        <namePart type="given">Carmen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Mayerle, Michael</displayForm>
+                        <namePart type="family">Mayerle</namePart>
+                        <namePart type="given">Michael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Mit diesem Beitrag sollen die Ergebnisse eines Workshops zum Thema Forschungsethik im Rahmen des Fachbereichstags Soziale Arbeit (FBTS) vorgestellt werden. Dabei geht es vor allem um die folgenden Fragen: Welche Gründe sprechen für Forschungsethik als Teil des Curriculums von Studiengängen der Sozialen Arbeit? Welche Inhalte und Ziele eines forschungsethischen Curriculums werden als sinnvoll angesehen? Welchen Umfang sollte Forschungsethik als Thema des Studiums haben?</abstract>
+                    <subject>
+                        <topic>Sozialarbeit</topic>
+                        <topic>Soziale Arbeit</topic>
+                        <topic>Forschungsethik</topic>
+                        <topic>epistemisches Ethos</topic>
+                        <topic>Verantwortungsethos</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-12312</identifier>
+                    <identifier type="sys">HT019893219</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1231</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1231">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1231/1/Kaminsky_Mayerle_Nicht_noch_ein_Fach.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1231"
+            DMDID="DMD_siegen_opus_1231">
+            <mets:fptr FILEID="FILE0_siegen_opus_1231"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

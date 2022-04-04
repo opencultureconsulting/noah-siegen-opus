@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1344">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Regional finance and growth : empirical evidence on the relationship between financial and economic development on the local level</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hoffmann, Kristin</displayForm>
+                        <namePart type="family">Hoffmann</namePart>
+                        <namePart type="given">Kristin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Empirical research on regional financial structures and economic growth development is rare, due to two reasons. First, in many countries disaggregated data on regional banking structures are not available for research. Second, empirical economic research on the finance and growth sector faces an inherent problem of endogeneity. This work solves both problems by presenting a unique
+and just recently created database on regional German banking structures and by using the historic event of the German reunification and the unique German savings bank system as instruments.</abstract>
+                    <abstract type="content" lang="ger">Aufgrund zweier Faktoren gibt es nur wenige empirische Studien über regionale Finanzmarktstrukturen und wirtschaftliche Entwicklung. Zum einen gibt es kaum Länder, in denen regionale Bankdaten zu Forschungszwecken zur Verfügung stehen, zum anderen liegt bei emprischen Studien zu Wirtschafts- und Finanzmarktentwicklung ein Endogenitätsproblem vor. Diese Arbeit löst beide Probleme anhand einer umfassenden Datenbank, die Deutschlands regionale Bankenstruktur wiedergibt, sowie der Verwendung historischer Ereignisse und Strukturen wie der Deutschen Wiedervereinigung und das weltweit einzigartige deutsche Sparkassensystem.</abstract>
+                    <subject>
+                        <topic>Bank</topic>
+                        <topic>Regionalentwicklung</topic>
+                        <topic>Financial markets</topic>
+                        <topic>Economic development</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät III - Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-13441</identifier>
+                    <identifier type="sys">HT019794029</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1344</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2018-07-18</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1344">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1344/1/Dissertation_Kristin_Hoffmann.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1344"
+            DMDID="DMD_siegen_opus_1344">
+            <mets:fptr FILEID="FILE0_siegen_opus_1344"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

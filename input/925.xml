@@ -1,0 +1,74 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>925</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Error control for Radio Frequency Identification</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Fehlerkorrekturverfahren für RFID Systeme</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Andreas</pc:foreName>
+            <pc:surName>Schantin</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">RFID</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">RFID</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Forward error correction</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Hybrid ARQ</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">621</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">This work proposes to use Forward Error Correction (FEC) for the tag-to-reader communication in long-range Radio Frequency Identification (RFID) systems, specifically in the widely used EPCglocal Class-1 Generation-2 (EPCc1g2) systems, to overcome some of the limitations that occur at extended communication distances.&#13;
+&#13;
+In a long-range RFID system, the reader must be able to identify a great number of tagged items in a reliable fashion, and in a limited amount of time. Cluttered propagation paths, difficult channel conditions, and the low power of the backscattered tag signals, make this task difficult. Especially, when the communication distances are high, as for battery-assisted tags, the signal-to-noise ratio at the reader’s receiver is low, and the bit-error probability is high. Nevertheless, the widely used standard protocols offer only rudimentary error-control mechanisms. The use of FEC is not yet established in practical systems and has not been widely researched in the context of RFID.&#13;
+&#13;
+A model was developed, to describe the impact of errors on the duration of the tag identification, and it is subsequently used, to evaluate the use of convolutional codes and their benefits in terms of the improved identification time, related to the tag-reader distance. For a chosen code, it was shown that the range of the system can be extended by approximately 4 m without increasing the identification time. Furthermore, the application of an iterative decoder architecture is presented that is used to decode the concatenated code, which is formed by the proposed FEC code and the standard EPCc1g2 baseband codes. An improvement of the coding gain of up to 2.8 dB could be shown in simulations, comparing the iterative decoder to a non-iterative one. Additionally, the convergence behavior of the decoder is analyzed and its limitations are discussed.&#13;
+&#13;
+Since a great number of RFID systems have already been deployed worldwide, standards and standard compatibility should be a great concern, when proposing extensions for an existing system. It is shown in this work, how a standard EPCc1g2 system may be improved, by using combining at the reader to minimize the number of retransmissions that are caused by frame-errors. Furthermore, it is shown how the standard may be extended with Hybrid Automatic Repeat Request (HARQ) functionality, without losing backward compatibility. Simulations of the identification time as well as the system’s throughput show significant improvements when using the proposed schemes.&#13;
+&#13;
+Finally, tag collisions are another concern in EPCc1g2 systems. It is investigated whether the use FEC can increase the frequency of captures: i.e., recoverable tag collisions. To this end, a capture model is proposed, and the relations for some important channel models are derived. This capture model is then used to evaluate the throughput without and with FEC coding. An increased capture probability can be demonstrated when using FEC, however, the improvement of the system’s throughput is&#13;
+not very pronounced, when only regarding the influence of captures.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die vorliegende Arbeit untersucht die Eignung von Vorwärtsfehlerkorrekturverfahren (FEC) zur Verbesserung der Kommunikation zwischen Transpondern und Lesegerät in einem long-range Radio Frequency Identification (RFID) System. Der Fokus liegt dabei auf den EPCglocal Class-1 Generation-2 (EPCc1g2) Systemen.&#13;
+&#13;
+Das Lesegerät in einem long-range RFID System muss in der Lage sein eine große Anzahl markierter (getaggter) Gegenstände in einer limitierten Zeit zuverlässig zu identifizieren. Die in diesen Systemen vorherrschenden Ausbreitungsbedingungen, stark gestörte Übertragungskanäle und die geringe Leistung der empfangenen Transpondersignale stehen dieser Aufgabe entgegen. Besonders wenn die Kommunikationsentfernungen, wie bei semi-passiven Transpondern, groß sind, ist der Signal-Rauschabstand der Tagsignale niedrig und die Fehlerwahrscheinlichkeit hoch. Obwohl diese Probleme hinreichend bekannt sind, gibt es in den zurzeit standardisierten Protokollen nur sehr einfache Fehlerschutzmechanismen. FEC wird in der Praxis noch nicht eingesetzt und ihr Einsatz in RFID Systemen ist noch nicht ausreichend erforscht.&#13;
+&#13;
+In dieser Arbeit wird zunächst ein Modell beschrieben, welches den Einfluss von Übertragungsfehlern auf die Identifikationszeit der Transponder beschreibt. Anhand dieses Modells wird der Einsatz von FEC evaluiert und es werden die Auswirkungen auf die maximale Lesereichweite des Systems aufgezeigt. Für einen ausgewählten Code konnte gezeigt werden, dass sich so die Reichweite des System um 4 m erhöhen lässt, ohne dass dabei die Identifikationszeit steigt. Weiter wird ein iterativer Decoder vorgestellt der dazu verwendet werden kann, den verketteten Code zu decodieren, welcher sich aus dem vorgeschlagenen Faltungscode und den standardisierten EPCc1g2 Leitungscodes ergibt. Dabei konnte in Simulationen eine Verbesserung des Codiergewinns um bis zu 2,8 dB, beim Vergleich des iterativen mit einem nicht-iterativen Decoder, erzielt werden. Zudem wird das Konvergenzverhalten des Decoders untersucht.&#13;
+&#13;
+Da sich weltweit bereits viele RFID Systeme im Einsatz befinden, sollten mögliche Erweiterungen stets mit Hinblick auf deren Kompatibilität zu den heutigen Standards entworfen werden. Es wird in dieser Arbeit gezeigt, wie sich die bereits in Gebrauch befindlichen EPCc1g2 Systeme mit Combining-Verfahren erweitern lassen, um die Anzahl von Wiederholungen gestörter Pakete zu minimieren. Weiter wird aufgezeigt, wie sich der existierende Standard um Hybrid Automatic Repeat Request (HARQ) Funktionalität erweitern lässt, ohne die Kompatibilität zu älteren Standardsystemen einzubüßen. In Simulationen konnte für die vorgeschlagenen Erweiterungen eine signifikante Reduktion der Identifikationszeit bzw. eine Erhöhug des Datendurchsatzes demonstriert werden.&#13;
+&#13;
+Ein letzter Aspekt sind die in EPCc1g2 unvermeidlichen Kollisionen von Transponderantworten. Es wird untersucht, ob FEC dazu beitragen kann die Häufigkeit von Captures, d. h. die spontane Auflösung von Kollisionen, zu erhöhen. Dazu wurde ein Capture-Modell entwickelt und die Zusammenhänge für einige wichtige Kanalmodelle hergeleitet. Anhand dieses Modells wird schließlich untersucht, ob der Einsatz von FEC den Durchsatz des Systems steigern kann. Dabei ist beim Einsatz von FEC zwar eine Erhöhung der Capturewahrscheinlichkeit nachweisbar, jedoch ergibt sich daraus nur eine geringe Verbesserung des Durchsatzes im System.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2015-03-24</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2015</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-9250</dc:identifier>
+   <dc:source xsi:type="ddb:ISBN">978-3-8440-3742-5</dc:source>
+   <dc:source xsi:type="ddb:noScheme">Zugl. ersch.: Aachen: Shaker, 2015 ISBN 978-3-8440-3742-5</dc:source>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Kommunikations- und Informationstechnik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Andreas_Schantin.pdf" ddb:fileSize="931714"/>
+   <ddb:checksum ddb:type="MD5">7ea66b1bf0af6dae6cbb8df56963cb00</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/925/1/Dissertation_Andreas_Schantin.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/925</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

@@ -1,0 +1,67 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>370</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Ein Framework für echtzeitfähige Ethernet-Netzwerke in der Automatisierungstechnik mit variabler Kompatibilität zu Standard-Ethernet</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="eng">A framework for industrial realtime Ethernet-networks with variable compatibility to common Ethernet networks</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Frank</pc:foreName>
+            <pc:surName>Dopatka</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Ethernet</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Echtzeit</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Framework</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Ethernet</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Automation Technology</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Realtime</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Framework</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Model</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Im Umfeld der Automatisierungstechnik ist bereits seit einigen Jahren der Trend zu beobachten, etablierte Feldbusse durch echtzeitfähiges Ethernet zu ersetzen oder zu ergänzen. Das Ziel liegt darin, eine einzige Netzwerkinfrastruktur von der Leitebene im Bürobereich bis hin zu Feldgeräten wie Sensoren, Aktoren und Bedienpulten in industriellen Produktionshallen zu schaffen. Dieser Trend wird als vertikale Integration bezeichnet. Ein Hauptproblem liegt dabei darin, dass die weit verbreiteten Standard-Ethernet Netzwerke nicht den Anforderungen der industriellen Echtzeit genügen. Andererseits soll der Ethernet- Standard aber auch auf der Feldebene eingehalten werden, da ansonsten wiederum separate Feldbusse entstehen. Das Hauptziel dieser Arbeit besteht in der Entwicklung eines formal fundierten Frameworks, mit dessen Hilfe zwischen der Kompatibilität zum verbreiteten Standard-Ethernet und der Einhaltung von konkreten Echtzeitanforderungen einer automatisierten Anlage variiert werden kann.&#13;
+Dabei erfolgt zunächst eine Übersicht und Klassifizierung der existierenden echtzeitfähigen Ethernet-Lösungen. Diese haben zum größten Teil gemeinsam, dass sie Subnetze bilden, in denen ausschließlich echtzeitfähige Geräte erlaubt sind. Es ist zwar asynchroner Datenverkehr möglich, ein angeschlossener Rechner ohne Kenntnis des Echtzeitprotokolls beeinträchtigt jedoch die Echtzeitfähigkeit des Netzes. Geräte auf der Basis von Standard-&#13;
+Ethernet können lediglich über Gateways angeschlossen werden. In diesen Fällen kann jedoch gleichermassen ein Feldbus mit Ethernet-Gateway zum Einsatz kommen. Des Weiteren basieren viele existierende Lösungen auf einem Master/Slave-Kommunikationsmodell. Sie beachten nicht konsequent den Trend zu dezentraler Peripherie, bei der unabhängige parallele Übertragungen im Netzwerk statt finden.&#13;
+Im Rahmen dieser Arbeit wird durch das Framework eine neue Sichtweise auf echtzeitfähige Netzwerke der Automatisierungstechnik auf Ethernet-Basis erarbeitet. Zusätzlich dazu wird ein neuartiger Ansatz beschrieben, der auf einem TDMA-Zugriffsverfahren basiert und keine strikte Subnetz-Bildung erzwingt. Geräte wie Laptops oder Standard-PCs&#13;
+können transparent in das echtzeitfähige Netzwerk hinzugefügt und wieder entfernt werden. Sie können asynchrone Daten senden und empfangen, ohne das Echtzeitverhalten des Netzwerkes zu beeinflussen. Zur Realisierung des TDMA-Verfahrens werden auf Basis der im Vorfeld bekannten Echtzeit-Übertragungen Schedules berechnet. Des Weiteren wird die Fragestellung erörtert, an welcher Stelle des Netzwerkes die Schedules umgesetzt werden. Dabei wird ein zentraler Scheduler ebenso betrachtet wie dezentrale Schedules in den Switches sowie aktiv sendende und passive Geräte. Abschließend wird die Entwicklung eines&#13;
+neuartigen Switches skizziert, welcher Frames mit hohen Echtzeitanforderungen schneller als cut-through Switches deterministisch weiterleiten kann.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Within the scope of automation technology, a trend to substitute established fieldbuses with realtime Ethernet networks or to integrate Ethernet frames into a fieldbus infrastructure can be observed since several years. The aim is to use a single network from the office area to the field devices like sensors, actuators or user-panels. This trend is characterized as vertical integration. A central issue is that widespread Standard-Ethernet networks do not satisfy the demands of industrial realtime in automation technology. However, the Ethernet standard ought to be observed in the field area as well. Otherwise, separate field bus infrastructures would arise again. The main objective of this work is the development of a formal profounded framework, which allows to vary between compability to the widespread&#13;
+Ethernet standard on the one hand, and the compliance with concrete realtime demands of an automated plant on the other hand.&#13;
+First of all, an overview and classification of existing realtime Ethernet solutions is given. These solutions mostly build subnets consisting exclusively of realtime devices. Though it is possible to transfer data in an asynchronous manner, a connected personal computer without knowledge about the realtime protocol would impact the realtime capabilities of the network. Standard Ethernet devices can only be connected via gateways. However, in this case a common fieldbus with Ethernet gateway can be used in the same manner. Furthermore, many existing solutions are based on a master/slave communication model. They do not consequently follow the trend towards decentral periphery, which allows concurrent communication in the network.&#13;
+Within the scope of this work, the developed framework allows a new perspective on realtime networks for automation technology based on Ethernet. In addition to this, a new approach is depicted, which is based on a TDMA access method without enforcing strict subnets. Devices like laptops or personal computers can be added to the network and removed from the network seamlessly. They can transmit and receive asynchronous data without influencing the realtime capabilities of the network. In order to realise the TDMA access method, offline schedules are calculated with regard to the well known realtime communication requirements. Furthermore, the location for implementing the schedules in the network is discussed. In this context, a central scheduler is considered as well as decentral schedules inside the switches. Active transmitting devices are included as well as passive devices. Finally, the design of a new switching hardware is outlined. This switch will be able to transmit Ethernet frames with high realtime requirements deterministically and even faster than cut-through switches.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2008-09-11</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2008</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-3700</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachgruppe Betriebssysteme und verteilte Systeme</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="dopatka.pdf" ddb:fileSize="26640365"/>
+   <ddb:checksum ddb:type="MD5">ef1d9899a3a1801649abcbedcf897c8d</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/370/1/dopatka.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/370</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

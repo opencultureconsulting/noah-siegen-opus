@@ -1,0 +1,71 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1865</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Scheduling problems in rail transshipment yards and industrial production</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Ablaufplanungsprobleme an Umschlagbahnhöfen und in der industriellen Fertigung</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Xiyu</pc:foreName>
+            <pc:surName>Li</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Logistik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Operations research</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Crane scheduling</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Transshipment yards</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Assembly line</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Sequencing</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Krandisposition</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Umschlagplätze</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Fließband</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Sequenzierung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">330</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">This cumulative dissertation focuses on the design of optimization methods for planning problems, and consists of three papers focusing on two topics.&#13;
+In the first paper we propose a two-way bounded dynamic programming (TBDP) approach to deal with situations, when it takes a long time to evaluate the value function in the state graph of dynamic programming. TBDP provides sharp bounds early in the solution process and identifies critical subproblems, i.e., states and transition arcs, for which the value function has to be estimated. Based on the TBDP framework, we develop a heuristic and an exact algorithm for the static crane scheduling problem (SCSP). The SCSP refers to simultaneous yard partitioning into single-crane areas and job sequencing at railway container transshipment yards, where both rail-rail and rail-road transshipments are present and rail-rail moves are short. The designed exact solution algorithm solves instances of practically relevant size within acceptable time limits. The proposed heuristic finds optimal solutions in 90% of the cases. We recommend using the heuristic algorithm for planning very large transshipment yards, with more than five tracks and a large number of container moves per crane.&#13;
+The second paper considers single-crane scheduling at rail transshipment yards, in which gantry cranes move containers between trains, trucks and a storage area. The single-crane scheduling problem arises at single-crane transshipment terminals and as a subproblem of the multiple-crane scheduling problem. We consider a makespan objective function, which is equivalent to minimizing the train dwell time in the yard, and introduce time windows for container moves, for example, as a customer service promise. Our proposed decomposition algorithm with integrated dynamic branch-and-cut or dynamic programming solves practically relevant instances within short time limits.&#13;
+The last paper investigates product sequencing in multiple-piece-flow assembly lines. Modern markets demand mass customization, that is, the manufacture of customized products at low cost. Mass customization represents a major challenge for the organization of assembly lines, which were originally designed for the manufacture of homogeneous products. The multiple-piece-flow assembly line is an organizational innovation that can address this challenge. Here, several customized workpieces, each associated with a separate customer order and, hence, a separate due date, are handled simultaneously in one cycle. Consequently, the idle times decrease as do the manufacturing costs. Multiple-piece-flow assembly lines are used, for instance, in manufacturing industrial equipment. We formalize the underlying planning problem, establish a mixed-integer model, examine its relation to several classic optimization problems, and describe useful problem properties. We leverage these properties to design an effective iterative variable neighborhood heuristic (IVNH). A detailed simulation based on real-world data and the rolling-horizon planning framework confirms that the IVNH is well suited for practical use. Furthermore, extensive computational experiments on well-structured randomly generated data sets show that the IVNH identifies optimal or near-optimal solutions within short run times. It outperformed an off-the-shelf optimization software, and in certain practice settings, the IVNH was even able to substantially reduce average order delays.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Erwin</pc:foreName>
+            <pc:surName>Pesch</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2021-02-26</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2021</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-18652</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/lizenz.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät III - Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Xiyu_Li.pdf" ddb:fileSize="1778058"/>
+   <ddb:checksum ddb:type="MD5">586b21802ffe4424d549e3fcc0d4d898</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1865/4/Dissertation_Xiyu_Li.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1865</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

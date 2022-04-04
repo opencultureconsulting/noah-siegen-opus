@@ -1,0 +1,60 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1040</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">A new approach to multivariate extreme value theory : f-implicit max-infinitely divisible distributions and f-implicit max-stable processes</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Ein neuer Zugang zur multivariaten Extremwerttheorie : f-implizit max-unendlich teilbare Verteilungen und f-implizit max-stabile Prozesse</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Johannes</pc:foreName>
+            <pc:surName>Goldbach</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Stochastischer Prozess</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Multivariate Extremwerttheorie</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">f-implizite Extremwerttheorie</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">f-implizit max-unendlich teilbare Verteilungen</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">f-implizit max-stabile Prozesse</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">f-implicit extreme value theory</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">multivariate extreme value theory</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">f-implicit max-infinitely divisible distribution</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">f-implicit max-stable process</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">510</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Let X1,...,Xn be independent and identically distributed random vectors in R^d and f:R^d -&gt; [0,∞) a suitable function being referred to as the loss function. Further, let k(n) = argmax(f(X1),â ¦, f(Xn)). Referring to [SchSt14, Definition 4.1], recall that a random vector X in R^d is f-implicit max-stable if for all n &gt;= 1 there exist an&gt;0 such that an^{-1}X{k(n)} and X are equal in distribution, with X1,...,Xn being independent copies of X. Now, the aim is to expand on this notion and to advance it. To this end, a new mathematical framework called f-implicit extreme value theory, which is closely related to multivariate extreme value theory but yet different as to the study of extremes, is developed. More precisely, adopting the approach suggested in [SchSt14], the idea of focusing on extreme loss events rather than extreme values is pursued. The motivation behind this stems from some kind of inverse problem where one wants to determine the extremal behavior of an R^d-valued random vector X when only explicitly observing the extremal loss f(X). In the first part of the thesis, some basics constituting the fundament of all further deliberations are introduced. In particular, this includes a specific (inner) binary operation on R^d called f-implicit max-operation, an astute convolution concept being referred to as f-implicit max-convolution and a distinctive partial order named f-implicit max-order. Finally, various possibilities to estimate the distribution of the f-implicit maximum X{k(n)} of X1,...,Xn are provided. Equipped with these aspects, the notion of f-implicit max-infinite divisibility is developed, thus extending the class of f-implicit max-stable distributions. Here, it is proved that all random vectors coming under one of two specific classes of random vectors are f-implicit max-infinitely divisible. To this end, the notion of f-implicit max-convolution semigroups is applied. The third part of the thesis deals with the class of f-implicit max-stable processes being the analogue of max-stable processes. In order to provide non-trivial examples of such processes, the ingenious concepts of f-implicit sup-measures and f-implicit extremal integrals are established. The thesis concludes with several suggestions for additional research possibilities which might refine the novel field of f-implicit extreme value theory.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Es seien X1,...,Xn unabhängig und identisch verteilte Zufallsvektoren mit Werten in R^d sowie f:R^d -&gt; [0,∞) eine geeignete, die Rolle einer Verlust-funktion spielende Abbildung. Zudem sei k(n) = argmax(f(X1),â ¦, f(Xn)). Entsprechend [SchSt14, Definition 4.1] ist ein R^d-wertiger Zufallsvektor X f-implizit max-stabil, wenn zu jedem n &gt;= 1 Zahlen an&gt;0 existieren, sodass für unabhängige Kopien X1,...,Xn von X die Zufallsvektoren an^{-1}X{k(n)} und X dieselbe Verteilung besitzen. Ziel ist es an dieses Konzept anzuknüpfen und es auf zwei spezielle Arten zu verallgemeinern. Dazu wird eine neue Theorie entwickelt, die f-implizite Extremwerttheorie. Diese ähnelt stark der klassischen Extremwerttheorie, ist jedoch hinsichtlich des konkreten Blickwinkels auf die Analyse extremer Ereignisse von grundlegendem Unterschied. Genauer gesagt handelt es sich um die bereits in [SchSt14] vorgeschlagene Alternative zur klassischen Extremwerttheorie, die sich weniger der Analyse von Ausreißern, d.h. maximalen Werten einer Stichprobe widmet, sondern vielmehr der Analyse von Ereignissen, die zu extremen Verlustszenarien führen. Der erste Teil der Arbeit stellt einige, für den weiteren Inhalt essentielle Grundlagen zusammen. Im Einzelnen handelt es sich dabei um die f-implizite max-Operation, einer speziellen inneren zweistelligen Verknüpfung auf R^d, die f-implizite max-Faltung sowie die f-implizite max-Ordnung. Außerdem wird die Verteilung des f-impliziten Maximums X{k(n)} von X1,...,Xn genauer studiert. Darauf aufbauend behandelt der zweite Teil der Arbeit das Konzept f-implizit max-unendlich teilbarer Verteilungen und erweitert dadurch die Klasse der f-implizit max-stabilen Verteilungen. In diesem Kontext wird die Zugehorigkeit zweier spezieller Klassen von Verteilungen zur Klasse der f-implizit max-unendlich teilbaren Verteilungen bewiesen. Ein wichtiges Hilfsmittel, neben den vorab genannten Grundlagen, stellt dabei das Konzept der f-impliziten max-Faltungshalbgruppe dar. Der dritte Teil der Arbeit befasst sich schließlich mit den f-implizit max-stabilen Prozessen. Diese stellen das Analogon zu den max-stabilen Prozessen aus der klassischen Extremwerttheorie dar. Der Frage nach geeigneten Beispiele solcher Prozesse nachgehend, werden die Konzepte der f-impliziten sup-Maße und f-impliziten Extremwertintegrale eingeführt, die eine Vielzahl von Beispielen f-implizit max-stabiler Prozesse liefern. Zum Abschluss werden einige Moglichkeiten angesprochen, die Inhalte der Arbeit und das Gebiet der f-impliziten Extremwerttheorie auszubauen.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2016-09-05</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2016</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-10400</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV - Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Johannes_Goldbach.pdf" ddb:fileSize="690191"/>
+   <ddb:checksum ddb:type="MD5">5c78ad36310f5e68db073547b791c5ee</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1040/1/Dissertation_Johannes_Goldbach.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1040</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

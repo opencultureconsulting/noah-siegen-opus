@@ -1,0 +1,75 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>30</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Adaptierbare CASE-Werkzeuge in prozeßorientierten Software-Entwicklungsumgebungen</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Marc</pc:foreName>
+            <pc:surName>Monecke</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">CASE</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Software-Engineering</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Software-Development</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die Entwicklung von Software-Systemen ist eine komplexe und anspruchsvolle Aufgabe, die bei großen Systemen meist auf mehrere Entwickler verteilt wird. Software-Entwicklungs-methoden strukturieren die Arbeit der Beteiligten: Sie legen Arbeitsschritte und Produkte fest, die in den einzelnen Schritten erzeugt oder verarbeitet werden. Produkte sind hier verschiedene Arten von Software-Dokumenten. Die Arbeit konzentriert sich auf die frühen&#13;
+Software-Entwicklungsphasen Analyse und Entwurf, in denen Anforderungen ermittelt und Modelle wichtiger Aspekte des Systems erstellt werden. In diesen Phasen kommen Upper-CASE-Werkzeuge zum Einsatz, mit denen die verschiedenen Arten von Software-Dokumenten bearbeitet, geprüft und in andere Formate transformiert werden können. Die Werkzeuge müssen also die im jeweiligen Dokument verwendeten Konzepte (wie Entitätstyp, Klasse,&#13;
+Vererbungsbeziehung) und die zugehörigen Notationen und Darstellungen unterstützen.&#13;
+&#13;
+Die Anforderungen an CASE-Werkzeuge unterscheiden sich stark, da sie in unterschiedlichen Organisationen, von Personen mit unterschiedlichen Aufgaben und Zielen und zur Entwicklung unterschiedlicher Arten von Systemen eingesetzt werden - zum Teil sind die Anforderungen auch unbekannt, wenn in einem Projekt neue Wege beschritten werden.&#13;
+Eine wichtige Anforderung an die Werkzeuge ist daher, daß sie an die jeweilige Einsatzsituation angepaßt werden können. Herkömmliche CASE-Werkzeuge erfüllen diese Anforderung nur unzureichend. Meta-Umgebungen erleichtern den Bau angepaßter Werkzeuge, allerdings konzentrieren sich die meisten bekannten Ansätze auf nur einen bestimmten Aspekt: Den Bau von CASE-Werkzeugen für einen gegebenen Dokumenttyp oder die Unterstützung des gegebenen Vorgehens- oder Prozeßmodells.&#13;
+In der Arbeit wird ein Ansatz zum Bau von prozeßorientierten Software-Entwicklungsumgebungen entwickelt, mit dem CASE-Werkzeuge maßgeschneidert und mit dem Software-Entwicklungsprozeß integriert werden kÄonnen. Die resultierenden Umgebungen nutzen ein&#13;
+Object Management System (OMS) als zentrales Repository.&#13;
+Wichtige Merkmale sind die feingranulare Modellierung der Dokumente und eine Werkzeugarchitektur, mit der die Dienste des OMS zur Implementierung der Werkzeugfunktionen direkt ausgenutzt werden können. In der Arbeit wird ein Framework mit Werkzeugkomponenten entwickelt, das zum Bau mehrbenutzerfähiger und verteilt einsetzbarer Werkzeuge verwendet wird. Werkzeuge können einfach und schnell aus vorhandenen Komponenten zusammengesetzt und Parameter zur Steuerung dieser Komponenten festgelegt werden. Weiterhin können Komponenten erweitert und angepaßt werden, wodurch eine hohe Flexibilität bei der Adaptierung von Werkzeugen erreicht wird.&#13;
+Zur Beschreibung des Prozeßmodells wird eine einfache Prozeßmodellierungssprache vorgeschlagen. Mit Framework-Komponenten kann eine Prozeßmaschine zur Steuerung und Überwachung des Prozesses gebaut und flexibel um prozeßspezifische Funktionen erweitert werden. Das Prozeßmodell dient hier als Spezifikation für die Prozeßmaschine. Die gebauten CASE-Werkzeuge werden mit dem Prozeß integriert, passen sich also an die aktuelle Prozeßsituation an und ermöglichen es dem Entwickler, den Prozeßfortschritt zu beeinflussen. Mit dem Bau von Planungs- und Managementwerkzeugen und ihrer Integration in die Umgebung&#13;
+wird die Flexibilität des Ansatzes geprüft.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Software development is a complex and demanding task, frequently carried out by teams of multiple developers. Software development methods define the steps to be taken and the products to be maintained in order to attain a successful project outcome. Thus, methods outline the structure of a project. In the early phases, upper-CASE tools are used to edit, check, and transform various types of software documents. The requirements for these tools vary considerably, depending on the organization, user role, task, and kind of system to&#13;
+be developed. Consequently, tools have to be adaptable to the actual situation. Traditional CASE tools do not fulfill this demand sufficiently. Meta environments support tool developers in building customized tools. However, known systems are focused on only one aspect: The adaptation to different document types or the adaptation to different process models.&#13;
+The thesis describes an approach for building process-centered software development environments (PSEEs). The resulting environments contain tools which are tailored to the given situation and are integrated with the software development process. An important component of these environments is an Object Management System (OMS). It serves as a central repository for both, software documents and information concerning the current process state. The OMS integrates the various tools with their different views on the common data-&#13;
+base and offers numerous services which are used for implementing tool functions - among them views, access controls, transactions, and distributed notifications.&#13;
+Thereby, the costs for building meta environments and for building their instances, i.e. concrete environments, are reduced. The services mentioned can only be used if data models are fine-grained and if tools implement an OMS-oriented architecture. In the thesis, this architecture has been implemented in a framework. It is used to build distributed multi-user tools. The framework consists of components for building CASE tools and process&#13;
+tools. The configuration of tools depends on the data model of software documents and on additional information. These additional information are codified in tool parameters which&#13;
+are associated to type definitions in the data model. The resulting tool specification is called&#13;
+tool schema. Besides this black-box reuse, tool components can be extended with tool-specific&#13;
+functionality. This white-box reuse requires a more extensive knowledge and offers more flexible means for tool adaptation.&#13;
+For the description of process models we define a simple process modeling language which is used for demonstration purposes only. Based on the framework, a process engine can be&#13;
+built. It controls process performance and can be flexibly extended with process-specific&#13;
+functionality. CASE tools adapt themselves to the current process situation and allow their&#13;
+users to influence process performance. Additionally, tools for planning and managing software processes have been built and have been integrated into the environment to underline the flexibility of the approach.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2003-02-06</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2003</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-303</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 12, Elektrotechnik und Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="monecke.pdf" ddb:fileSize="2733134"/>
+   <ddb:checksum ddb:type="MD5">e2b29a975f74609d8dc7205cb4973690</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/30/1/monecke.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/30</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

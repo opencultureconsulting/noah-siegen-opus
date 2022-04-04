@@ -1,0 +1,85 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1707">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Online dictionary learning for classification of antipersonnel landmines using ground penetrating radar</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Online Dictionary Learning für die Klassifikation von Antipersonenminen mit Ground Penetrating Radar</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Giovanneschi, Fabio</displayForm>
+                        <namePart type="family">Giovanneschi</namePart>
+                        <namePart type="given">Fabio</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Ender, Joachim</displayForm>
+                        <namePart type="family">Ender</namePart>
+                        <namePart type="given">Joachim</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">The contamination of Antipersonnel Landmines (APM) all over the world has been a serious threat to mankind since many decades. Starting from 1999, when the Landmine Monitor organization was founded, there have been more that 110,000 registered  casualties while 2018 marked one of the highest percentage of civilians affected (being 87\% with 47\% of them being children). APMs are relatively small (for instance, ca. 10cm of diameter and 5cm of height), generally activated by light pressure hence designed to kill (or maim) in their close proximity. 
+Being many APMs almost entirely made of plastic (with the exception from their ignition device and other small parts) they often cannot be recognized using metal detectors.\\
+A promising alternative consists in the use of the Ground Penetrating Radar (GPR). GPRs are sensible to dielectric contrast, hence they can distinguish non-metallic buried targets from the background soil only due to their different dielectric properties. To obtain the necessary resolution to resolve APMs, a GPR for landmine recognition has to work with  high frequencies and bandwidth (being both around 1-2 GHz). In these situations there are many unwanted backscattered contributions that can mask the actual target response.\\
+Classification approaches are often employed to recognize between landmines and natural or man-made clutter sources; in order to do that, a database of target signatures from known APMs is usually employed to train the classifier of choice. However, classification techniques typically require a collection of data representing all possible targets and soil characteristics; to create such a general database remains a cumbersome task. It is often preferable to extract discriminative features (which will remain robust to the variation of the scenario conditions) from a smaller (but representative) database; the features chosen for this work are sparse representation coefficients.\\
+Sparse Representation (SR) shares its framework of techniques with Compressive Sensing theory (CS). However, while CS goal is to recover the signal of interest by using less of its samples, SR deals with the problem of represent a signal with a minimum number of coefficients in a certain base or dictionary. These few coefficients can be characteristic of a certain class of target (in our case different types of mines or clutter) if the chosen dictionary contains sufficient examples of all classes in the considered dataset. \\
+The selection of the dictionary is crucial; instead of choosing it, one can learn it from a representative set of signals, namely a training set. Dictionary Learning (DL) techniques aim to generate a dictionary which can represent different classes of targets with a minimum number of non-zero coefficients. Popular DL techniques (such as K-SVD) deal with the entire training set in each iteration, making the learning process slow for high dimensional datasets; this approach is called batch Dictionary Learning. Online-DL techniques deal with the training set by considering one element at a time or in mini batches, making the processing of learning faster than batch-DL and adaptive to variations.\\
+In this work we anaylize a selection of state-of-the-art Online-DL approaches for sparse representation based classification of buried landmines using GPR range profiles (or A-Scans). A detailed description on the development of a novel Online-Dl algorithm, the Drop-Off Mini-Batch Online Dictionary Learning (DOMINODL), is also presented. The development of this algorithm is one of the main contribution of this thesis. For the validation, we use range profiles from an experimental GPR dataset which includes different classes of landmine simulants, buried in a sandy and highly inhomogeneous soil. \\
+The proposed strategy initially consists in using a collection of carefully selected range profiles as a training set for different Online and Batch DL strategies (K-SVD, LRSDL, ODL, CBWLSU and DOMINODL). DL algorithms are very sensitive to input parameters (such as number of iterations, number of learned atoms, etc.); in order to assure an optimal selection of parameters combination, we performed an exhaustive evaluation which relies on statistical metrics such as Kolmogorov-Smirnoff test distance and Dvoretzky-Kiefer-Wolfowitz inequality. The sparse coefficients obtained with the learned dictionaries are finally employed as features for a Support Vector Machine Classifier. \\
+Online-DL strategy demonstrated to be much faster than their batch counterparts. In particular, DOMINODL is the fastest, being capable of learning the dictionary in just 1.75 seconds (3 times faster than ODL and 15 faster than K-SVD). When using optimal input parameters for DL, we observe that bigger mines (PMN and PMA2 types) are classified with excellent accuracy ($P_{cc}=98\%$), and so it is for clutter ($P_{cc}=90\%$). Medium sized mines (a standard test target provided by ERA technologies, we simply call them ERA) are not always correctly classified but the declarations around their ground truth always correspond to a class of landmine. Classification accuracy for smaller landmines (Type-72) is higher with respect to ERA targets, despite being the smallest mines in the set.  Online DL methods show higher $P_{CC}$ for the ERA and Type-72 targets with respect to K-SVD and LRSDL. As an additional comparison with a state-of-the art classification algorithm, we use a Convolutional Neural Network (CNN) trained with the same training set used for our DL-based approach. Classification results with CNN are poorer in general, especially for ERA and T72 ($P_{cc}$ degrades by more than $27\%$). Our final evaluation consisted in assessing the classification accuracy when reducing the original samples of the GPR range profiles to 25\% 50\% and 75\%. While CNN classification accuracy reduces drastically even when the reduction is only 25\%, DL-based approaches are definitely more robust to the sample reduction.\\
+The proposed approach is not limited to GPR dataset and can be tested on other radar applications as well. Due to the extremely fast learning time of Online-DL strategies (especially DOMINODL), real time learning of a constantly varying training set (updating it with new measurements) it is also envisioned, paving the way for a fully cognitive classification approach.</abstract>
+                    <subject>
+                        <topic>Elektromagnetische Reflexionsmethode</topic>
+                        <topic>ground penetrating radar</topic>
+                        <topic>online dictionary learning</topic>
+                        <topic>adaptive radar</topic>
+                        <topic>deep learning</topic>
+                        <topic>radar target classification</topic>
+                        <topic>sparse decomposition</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Department Elektrotechnik - Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-17071</identifier>
+                    <identifier type="sys">HT020576868</identifier>
+                    <accessCondition type="use and reproduction">CREATIVECOMMONS.ORG PUBLICDOMAIN ZERO 1.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1707</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2020-07-09</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1707">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1707/5/Dissertation_Fabio_Giovanneschi.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1707"
+            DMDID="DMD_siegen_opus_1707">
+            <mets:fptr FILEID="FILE0_siegen_opus_1707"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_128">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Stilisierte Fakten und internationale reale Konjunkturmodelle</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gail, Michael</displayForm>
+                        <namePart type="family">Gail</namePart>
+                        <namePart type="given">Michael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">1998</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The purpose of this thesis is twofold: First, it aims at detecting empirical regularities of the business cycle in Denmark, Germany and the U.S. Second, it tries to give a theoretical explanation for these stylized facts. The thesis is fully in line with the modern analysis of business cycles in the spirit of the Real Business Cycle school initiated by Kydland/Prescott (1982) and
+Long/Plosser (1983). After a short summary in chapter 1 the second chapter gives a brief introduction to the structure of the basic model, to the solution method (details are transferred to the appendix) and to the main propagation mechanisms at work. The role of the degree of risk aversion of the representative agent is carefully examined. In chapter 3 the series of specific national accounts are detrended using the HP-filter to extract the cyclical component of the series. The standard deviations of these series and their cross correlations with output are reported. Special emphasis is given to lead-lag relationships. Chapter 4 builds upon the basic model of King/Plosser/Rebelo (1988a,b) which is extended in various forms to a small open economy model used to explain the stylized facts of Denmark. The speciality here is the detailed analysis of the effects of adding government spending shocks and interest rate shocks to the model. To summarize, there is no model version that fits the data well. The empirical observation that Danish consumption fluctuates more than output remains unexplained. The absolute standard deviations are too high and the variables are too strongly correlated with output. The trade balance does not move countercyclically. Chapter 5 tries to explain the German business cycle stylized facts using the two country one good model of Baxter/Crucini (1995) as a
+starting point. The combination of GHH-preferences (Greenwood/Hercowitz/Huffman (1988)) with taste shocks resulting from government consumption as in Bec (1995) is shown to be an important feature of the German business cycle. A VAR model for the exogenous variables is estimated that enables the model to account for the observed positive international correlations and for the lead-lag relationship of international outputs, hours worked and savings. Nevertheless the consumption correlation remains above the output correlation. Technology and
+government consumption shocks cannot fully account for the observed volatilities. The trade balance does not fluctuate adequately and its countercyclicality cannot be explained. The latest developments in the literature regarding these open economy business cycle models are reviewed in chapter 6. They are categorized in two country models with two goods and multi
+country models. Each subsection presents at first a short overview. Thereafter some specific models are depicted to make clear in which way the remaining anomalies of the one good model are tried to overcome. The main problem of all these models is to explain a high variability of the trade balance and the terms of trade while simultaneously displaying the correct ranking of the international correlations of outputs, consumption, investment and hours
+worked. In chapter 7 some of the very latest developments which do not fit the categories of chapter 6 are presented. The assumptions underlying the representative agent approach - utility and production functions and the aggregation problem - are critically investigated and some suggestions for future research are made.</abstract>
+                    <subject>
+                        <topic>Konjunkturzyklus</topic>
+                        <topic>Konjunkturtheorie</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <classification authority="ioo" displayLabel="Fachbereich 5, Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1283</identifier>
+                    <identifier type="sys">HT009723472</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_128</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>1998-10-29</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_128">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/128/1/gail.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_128"
+            DMDID="DMD_siegen_opus_128">
+            <mets:fptr FILEID="FILE0_siegen_opus_128"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

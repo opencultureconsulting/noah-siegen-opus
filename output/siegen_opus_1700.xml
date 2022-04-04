@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1700">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Wearable-based affect recognition</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Emotionserkennung basierend auf tragbarer Sensorik</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schmidt, Philip</displayForm>
+                        <namePart type="family">Schmidt</namePart>
+                        <namePart type="given">Philip</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Laerhoven, Kristof van</displayForm>
+                        <namePart type="family">Laerhoven</namePart>
+                        <namePart type="given">Kristof van</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Der technologische Fortschritt im Bereich tragbarer Sensorik ermöglicht die minimalinvasive Erfassung von Nutzerdaten wie beispielsweise zurückgelegte Schritte oder verbrauchte Kalorien. Zudem ist die neueste Generation Smartwatches in der Lage, basierend auf physiologischen Daten affektive Zustände der Nutzer zu schätzen.
+Im Rahmen dieser Arbeit wurden physiologische und Bewegungsdaten mithilfe tragbarer Sensorik aufgenommen. Diese wurden zur Erkennung affektiver Zustände (z.B. Stress) verwendet. Die geleisteten Beiträge sind die folgenden: Der aktuelle Stand der Forschung im Bereich der Emotionserkennung basierend auf tragbarer Sensorik wurde umfassend dargestellt. Dabei zeigte sich ein Mangel an öffentlich verfügbaren und multimodalen Datensätzen. Diese Lücke wurde durch die Aufzeichnung und Publikation eines Laborstudiendatensatzes (WESAD) geschlossen. Des Weiteren wurden im Rahmen einer Feldstudie physiologische, Bewegungs- sowie affektive Daten von 11 Versuchspersonen aufgezeichnet. Im Vorfeld dieser Feldstudie wurden Empfehlungen für Smartphone-basierte Fragebogen-Apps entwickelt und diese wurden anhand der gesammelten Einblicke überprüft. Zudem wurden die Klassifizierungsraten von feature-basierten Klassifikatoren sowie aktuellsten Convolutional Neural Networks untersucht. Dabei zeigte sich, dass die Erkennung affektiver Zustände im Feld auf unterschiedlichen Skalen nur eingeschränkt möglich ist (über Skalen gemittelter F1 Score: ~ 45%). Daher wurden Fallstricke für Emotionserkennung basierend auf tragbarer Sensorik diskutiert und Auswirkungen für die weitere Forschung dargelegt.</abstract>
+                    <abstract type="content" lang="eng">Advances in wearable-based sensor technology like smartphones and watches allow to monitor users in a minimally intrusive way. At the point of writing, wearables are, for instance, used to count steps or estimate burned calories. Recently, a first generation of  smartwatches entered the consumer market offering data driven insights into affective states. 
+Over the course of this thesis physiological and motion data recorded using wearables have been employed to detect the affective state (e.g., stress or amusement) of users. The contributions made are threefold: First, a comprehensive literature review of the state-of-the art in wearable-based affect recognition was conducted. Second, concluding from this review a lack of publicly available multimodal datasets was identified. This gap was closed by recording, benchmarking, and publishing a lab study dataset for WEarable Stress and Affect Detection (WESAD). Third, a field study was conducted recording physiological and motion data as well as affective labels from 11 healthy subjects. Prior to the field study guidelines for smartphone-based labelling apps were formulated and they were evaluated using the field study data. Furthermore, data and labels acquired during the field study were used to train both feature-based and latest end-to-end trainable machine learning classifiers, detecting affective states on different scales. Both types of classifiers performed on par (averaged F1 score across scales: ~ 45%). Hence, potential pitfalls for wearable-based affect recognition were discussed in detail and implications for further research were provided.</abstract>
+                    <subject>
+                        <topic>Stressreaktion</topic>
+                        <topic>Affect Recognition</topic>
+                        <topic>Wearables</topic>
+                        <topic>User Study</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Department Elektrotechnik - Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-17007</identifier>
+                    <identifier type="sys">HT020569661</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1700</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2019-11-07</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1700">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1700/4/Dissertation_Philip_Schmidt.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1700"
+            DMDID="DMD_siegen_opus_1700">
+            <mets:fptr FILEID="FILE0_siegen_opus_1700"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

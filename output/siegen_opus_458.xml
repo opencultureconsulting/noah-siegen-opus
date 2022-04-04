@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_458">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Ein </nonSort>
+                        <title>Sicherheitskonzept für elektronische Prüfungen an Hochschulen auf Basis eines virtuellen, ticketbasierten Dateisystems</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <nonSort>Ein </nonSort>
+                        <title>An e-assessment security concept for universities with a virtual, ticket-based file system.</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hoffmann, Andreas</displayForm>
+                        <namePart type="family">Hoffmann</namePart>
+                        <namePart type="given">Andreas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Aufgrund des Bologna-Prozesses und der damit verbundenen Umstellung auf die BA/MA-Studiengänge spielen elektronische Prüfungen an Hochschulen eine immer größer werdende Rolle. Denn durch die Umstellung erhöhte sich die Anzahl der Prüfungen, was wiederum einen erheblichen Mehraufwand für die Lehrenden bedeutete. Der Einsatz von elektronischen Prüfungen kann dabei aber nicht nur den Mehraufwand deutlich minimieren, sondern kann auch für einen Kulturwandel im Bereich der Prüfungen an Hochschulen sorgen.
+Jedoch können die traditionellen papierbasierten Prüfungen nicht so ohne weiteres durch die elektronische Form ersetzt werden. Denn zum einen unterliegen die elektronischen Prüfungen den gleichen formalen Ansprüchen wie die papierbasierten Prüfungen und zum anderen sind die technischen, administrativen und datenschutzrechtlichen Anforderungen zu beachten. Ein Spezialfall ist dabei die Nichtabstreitbarkeit der Lösungen der Prüfungsteilnehmer. Was bei den papierbasierten Prüfungen im Streitfall mittels handschriftlichen Gutachtens bewiesen werden kann, muss bei den elektronischen Prüfungen durch eine vom Prüfungsteilnehmer abgegebene Unterschrift, sei es auf Papier oder elektronisch durch digitale Signaturen, erfolgen. Die derzeitigen Prüfungssysteme stellen z.B. die Rechtssicherheit nur durch Medienbrüche und hohen administrativen Aufwand sicher, was weder praktikabel noch nachhaltig ist.
+Das in dieser Arbeit dargestellte Sicherheitskonzept berücksichtigt sowohl die technischen, administrativen als auch die formalen Anforderungen, sowie den Datenschutz und Datensicherheit von elektronischen Prüfungen an Hochschulen. Dabei wird die Notwendigkeit der qualifizierenden digitalen Signaturen begründet und wie diese zusammen mit einem virtuellen, ticketbasierten Dateisystem verwendet werden können. Das virtuelle, ticketbasierte Dateisystem wurde dabei vom Lösungskonzept der elektronischen Gesundheitskarte adaptiert, u.a. deshalb, weil damit die Anonymität trotz Authentizität möglich ist und sowohl die Studierenden als auch die Lehrenden &quot;Herr Ihrer Daten&quot; bleiben. Das Sicherheitskonzept kann für bestehende Prüfungssystem verwendet werden, was durch eine prototypische Umsetzung an einem webbasierten Prüfungssystem gezeigt werden konnte. Des Weiteren bietet vor allem das virtuelle, ticketbasierte Dateisystem einen multifunktionalen Nutzen für weitere Hochschulanwendungen wie z.B. Evaluierungen und elektronische Übungssysteme.</abstract>
+                    <subject>
+                        <topic>Datenschutz</topic>
+                        <topic>elektronische Prüfung</topic>
+                        <topic>ePrüfung</topic>
+                        <topic>Online-Prüfung</topic>
+                        <topic>Datensicherheit</topic>
+                        <topic>eAssessment</topic>
+                        <topic>Security</topic>
+                        <topic>Privacy</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachgruppe Betriebssysteme und verteilte Systeme"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4587</identifier>
+                    <identifier type="sys">HT016555699</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_458</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2010-09-29</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_458">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/458/1/hoffmann.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_458"
+            DMDID="DMD_siegen_opus_458">
+            <mets:fptr FILEID="FILE0_siegen_opus_458"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_108">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Hierarchical Bayesian analysis of high complexity data for the inversion of metric InSAR in urban environments</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Quartulli, Marco Francesco</displayForm>
+                        <namePart type="family">Quartulli</namePart>
+                        <namePart type="given">Marco Francesco</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2005</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">In this thesis, structured hierarchical Bayesian models and estimators are considered for the analysis of multidimensional datasets representing high complexity phenomena.
+The analysis is motivated by the problem of urban scene reconstruction and understanding from meter resolution InSAR data, observations of highly diverse, structured settlements through sophisticated, coherent radar based instruments from airborne or spaceborne platforms at distances of up to hundreds of kilometers from the scene.
+Based on a Bayesian analysis framework, stochastic models are developed for both the original signals to be recovered (in this case, the original scene characteristics that are object of the analysis— 3D geometry, radiometry in terms of cover type) and the noisy acquisition instrument (a meter resolution SAR interferometer). The models are then combined to provide a consistent description of the acquisition process that can be inverted by the
+application of the so called Bayes’ equation.
+The developed models for both the scene and the acquisition system are splitted into a series of separated layers with likelihoods providing a probabilistic link between the different levels and with Maximum A Posteriori Bayesian inference as a basis for the estimation algorithms.
+To discriminate between different Prior scene models and to provide the necessary ability to choose in a given set the most probable model for the data, a Bayesian model selection framework is considered.
+In particular, a set of existing Gauss–Markov randon field model–based algorithms for SAR and InSAR information extraction and denoising are extended by automated space–variant model–order selection capabilities whose performance is demonstrated by generating and validating model–complexity based classification maps of a set of test images as well as of real SAR data.
+Based on that, a method for building recognition and reconstruction from InSAR data centered on Bayesian information extraction and data classification and fusion is developed. The system integrates signal based classes and user conjectures, and is demonstrated on input data ranging from on board Shuttle based observations of large urban centers to airborne data acquired at sub–metric resolutions on small rural ones.
+To overcome the limitations of pixel based models and inference methods, a system based on stochastic geometry, decomposable object Gibbs fields and Monte Carlo Markov Chains is developed and evaluated on sub–metric data acquired on both urban and industrial sites.
+The developed algorithms are then extensively validated by integrating them in an image information mining system that enables the navigation and exploitation of large image archives based on a generic characterization of the data that is automatically generated.</abstract>
+                    <abstract type="content" lang="ger">In dieser Dissertation werden strukturierte, hierarchische Bayes’sche Modelle und Schätzverfahren zur Analyse von komplexen mehrdimensionalen Fernerkundungsdaten vorgestellt.
+Die entwickelten Methoden befassen sich mit der Problematik der Rekonstruktion und Interpretation von interferometrischen Radardaten mit einer Auflösung in der Größenordnung von einem Meter. Die betrachteten Daten beschreiben Stadtgebiete, wie sie von kohärenten luft– oder raumbasierten Sensoren aus großer Entfernung aufgenommen werden.
+Basierend auf einem Bayes’schen Ansatz werden stochastische Modelle entwickelt sowohl für die Rekonstruktion der Szeneneigenschaften als auch für den verwendeten Sensor. Anschließend werden die Modelle kombiniert, um eine konsistente Beschreibung des Aufnahmevorgangs zu erreichen. Die enwickelten Modelle für die Szene und das Beobachtungssystem werden in mehrere getrennte Ebenen aufgeteilt. Dabei verbinden Wahrscheinlichkeiten die unterschiedlichen Ebenen. Die Basis für die Schätzverfahren liefert die Maximum A Posteriori Statistik.
+Um zwischen unterschiedlichen A Priori Modellen der Szene zu unterscheiden und das Modell mit der höchsten Wahrscheinlichkeit auszuwählen, wird eine sog. Modellauswahl nach Bayes benutzt. Diese Methodik führt zur Entwicklung von einigen Algorithmen, die die Interpretation von Radar- und interferometrischen Radardaten von Stadtszenen erlauben. Im Besonderen werden einige bereits existierende Algorithmen zur Informationsgewinnung und Filterung von Radardaten, basierend auf Gauß–Markov–Zufallsfeldern, erweitert zur raumvarianten automatischen Bestimmung der Modellordnung. Die Leistungsstärke dieser Methoden wird durch modellordnungsbasierte Klassfikationen dargestellt.
+Basierend auf diesem Wissen wird eine Methode zur Rekonstruktion von Gebäuden mittels interferometrischer Radardaten entwickelt. Die Methode integriert signal–basierte und nutzerrelevante Klassen durch Bayes’sche Informationsgewinnung, Fusion und Klassifikation. Die Leistung des Systems wird an Hand von raumbezogenen Fernerkundungsdaten gezeigt.
+Um die Beschränkungen von pixelbasierten Modellen und statistischen Verfahren zu
+überwinden, wurde ein System auf der Grundlage von stochastischer Geometrie, aufteilbaren Gibbs-Objektfeldern und Monte Carlo Methoden entwickelt. Zur Evaluiering werden Fernerkundungsbilder verwendet, die große Städte und Industrieanlagen bedecken.
+Die entwickelten Algorithmen werden anschliessend ausführlich evaluiert, indem sie in ein Image Information Mining System integriert werden. Das System ermöglicht es, in dem Datenarchiv zu navigieren und es zu analysieren.</abstract>
+                    <subject>
+                        <topic>Bayes&apos;sches Modell</topic>
+                        <topic>Fernerkundung</topic>
+                        <topic>interferometrische Radardaten</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1084</identifier>
+                    <identifier type="sys">HT014432663</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_108</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2005-03-17</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_108">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/108/1/quartulli.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_108"
+            DMDID="DMD_siegen_opus_108">
+            <mets:fptr FILEID="FILE0_siegen_opus_108"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

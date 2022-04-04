@@ -1,0 +1,122 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>207</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Metabolische Stimulus-Response-Experimente : Werkzeuge zur Modellierung, Simulation und Auswertung</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Marc Daniel</pc:foreName>
+            <pc:surName>Haunschild</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">System Biologie</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Simulationstechnik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Source Code Generation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die Modellbildung metabolischer Systeme wurde in den letzten Jahren zu&#13;
+einem der Hauptarbeitsgebiete im Metabolic Engineering, um die komplexen&#13;
+Regelmechanismen einer lebenden Zelle zu verstehen. In dieser Arbeit wurde&#13;
+ein vielseitiges Werkzeug entwickelt, um Modellierer bei der Erstellung&#13;
+und Überarbeitung von Modellen zu unterstützen, die auf Messdaten aus&#13;
+einem Stimulus-Response-Experiment aufbauen.  Im Verlauf der Modellbildung&#13;
+ist der Modellierer meist nicht nur mit einem einzigen Modell beschäftigt,&#13;
+sondern mit Sequenzen, Alternativen und strukturellen Varianten von&#13;
+Modellen. Für die Unterstützung der Modellbildung dynamischer&#13;
+biochemischer Netzwerke, die auf in-vivo Daten basieren, ist daher mehr&#13;
+als nur Simulation erforderlich. In dieser Arbeit wurde ein neues Konzept&#13;
+für Modellfamilien spezifiziert und implementiert. Mit diesem Konzept&#13;
+können eine Vielzahl von ähnlichen Modellen in einer einzigen Beschreibung&#13;
+gespeichert werden, mit der Hilfe von Netzwerk und kinetischen Varianten.&#13;
+Dadurch wird ein automatisches Navigieren im Raum der Modellvarianten&#13;
+möglich, in dem biologisch unsinnige Modelle auf der Basis einer&#13;
+Elementarmodenanalyse ausgeschlossen werden können.&#13;
+&#13;
+Das Einbeziehen von Messdaten wird durch die Möglichkeit unterstützt,&#13;
+Splines an Stelle von Zustandsvariablen zu verwenden. Anschließend werden&#13;
+leistungsfähige automatische Methoden benötigt, die den Modellierer bei&#13;
+der Modellbildung, Organisation und Auswertung alternativer Modelle&#13;
+unterstützen.&#13;
+&#13;
+Dieses Werkzeug wurde als Rechenkern entworfen, der in eine Kette von&#13;
+Werkzeugen eingebaut werden soll. Durch automatische Codegenerierung,&#13;
+automatische Differentiation zur Sensitivitätsanalyse und Grid-Computing&#13;
+Technologie wird eine Hochleistungsrechenumgebung erstellt. Sie&#13;
+unterstützt die Modellspezifikation in XML und bietet mehrere&#13;
+Softwareschnittstellen.&#13;
+&#13;
+Die Leistungsfähigkeit und Nutzbarkeit des Softwarewerkzeugs dieser &#13;
+Arbeit wird an mehreren Beispielen von laufenden Forschungsprojekten&#13;
+gezeigt. Darüber hinaus wurde ein Optimierungsalgorithmus entwickelt, der&#13;
+dem Softwarewerkzeug ermöglicht die Aufgabe der Modellvariantensuche und&#13;
+Parameteranpassung zu übernehmen. Das Ergebnis der Berechnung ist ein&#13;
+Ranking der Modellvarianten, die die Messdaten am besten reproduziert&#13;
+haben.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Metabolic modeling has become a major activity in metabolic engineering in&#13;
+recent years, in order to understand the complex regulation phenomena in a&#13;
+living cell. In this thesis, a versatile tool has been developed to&#13;
+support a modeler with the setup and refining of a model, that simulates&#13;
+the data extracted from a rapidly sampled stimulus response experiment.&#13;
+&#13;
+In the course of the modeling process, the modeler is typically not only&#13;
+concerned with a single model but with sequences, alternatives and&#13;
+structural variants of models. Supporting the modeling process of dynamic&#13;
+biochemical networks based on sampled in vivo data requires more than just&#13;
+simulation. For this purpose, the new concept of model families is&#13;
+specified and implemented in this thesis. With this concept, a multitude&#13;
+of similar models can be formulated in a single description by using&#13;
+network and kinetic variants The concept allows to automatically navigate&#13;
+in the space of models and to exclude biologically meaningless models on&#13;
+the basis of elementary flux mode analysis.&#13;
+&#13;
+An incremental usage of the measured data is supported by using splined&#13;
+data instead of state variables. Powerful automatic methods are then&#13;
+required to assist the modeler in the organization and evaluation of&#13;
+alternative models. This tool has been developed as a computational&#13;
+engine, intended to be built into a tool chain. By the use of automatic&#13;
+code generation, automatic differentiation for sensitivity analysis, and&#13;
+Grid computing technology, a high performance computing environment is&#13;
+achieved. It supplies XML model specification and several software&#13;
+interfaces.&#13;
+&#13;
+The performance and usability of the tool of this thesis is illustrated by&#13;
+several examples from ongoing research projects. An optimization algorithm&#13;
+was developed, enabling the software tool to automatically carry through&#13;
+the tasks of model variant switching and parameter fitting. The&#13;
+computation results into a ranking of models variants fitting best to the&#13;
+experimental data.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2006-01-12</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2006</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-2077</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 12, Elektrotechnik und Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="haunschild.pdf" ddb:fileSize="7427487"/>
+   <ddb:checksum ddb:type="MD5">0c57becbc316e4d27b15d6e8b28d649e</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/207/1/haunschild.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/207</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

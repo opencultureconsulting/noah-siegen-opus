@@ -1,0 +1,85 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_258">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Mörtel für die Erhaltung historischer Kalkputze : Haftmörtel, Hinterfüllmörtel und Kalkputze</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Böttger, Karl Georg</displayForm>
+                        <namePart type="family">Böttger</namePart>
+                        <namePart type="given">Karl Georg</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">1997</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Im Rahmen der Dissertation wurde ein Mörtelsystem für die Restaurierung historischer
+Kalkputze entwickelt. Die Literaturübersicht dieser Dissertation befaßt sich mit Ursachen für
+Schäden an Putzen, dabei wird ausführlich auf herstellungsbedingte Fehler eingegangen und
+chemische, physikalische und mikrobiologische Gründe für die Entstehung von Putzschäden
+behandelt. Ausführlich werden mögliche Schäden durch ungeeignete Restaurierungsmörtel
+behandelt, die z. B. Alkalisalze eintragen, aber auch Ettringit- und Thaumasitbildung durch
+Reaktionen mit Sulfaten in historischen Mörtel verursachen können.
+Ein bedeutender Teil der Dissertation widmet sich der Untersuchung von historischen Putzen
+der Torhalle in Lorsch, der Einhardbasilika in Steinbach, des Magdeburger Domes und des
+ehemaligen Zisterzienserklosters Heydau in Morschen. Die Eigenschaften dieser Putze werden
+umfangreich nicht nur hinsichtlich ihrer Mörtelzusammensetzung und ihrer mechanischen
+Eigenschaften, sondern auch ihrer hygrischen Eigenschaften (Wasseraufnahme, Wasserabgabe,
+Wasserdampf-Diffusionswiderstand), ihrer Porenstruktur und Phasenausbildung geprüft.
+Die gewonnenen Daten dienten zur Definition von Anforderungsprofilen für Restaurierungsmörtel,
+die zum einen den historischen Bestand sichern (Haftmörtel, Hinterfüllmörtel), zum
+anderen als Ersatzmörtel bei Fehlstellen dienen (Kalkputze) sollen. Die verschiedenen Mörtel
+sollen die folgenden Aufgaben bei einer Restaurierung übernehmen:
+- Haftmörtel sollen vor der Verfüllung hohlliegender Putzbereiche zu deren Randsicherung
+und zum Wiederbefestigen lockerer Putzschollen dienen und mechanisch wieder leicht entfernbar
+sein, ohne die Altsubstanz zu schädigen.
+- Hinterfüllmörtel dienen zum Verfüllen hohlliegender Putzpartien, die im Anschluß an die
+Maßnahme wieder einen ausreichenden und dauerhaften Verbund mit dem Untergrund
+aufweisen sollen. Sie können drucklos mit Spritzen eingebracht werden und müssen ein
+gutes Penetrationsvermögen aufweisen, damit alle Hohlräume sicher gefüllt werden.
+- Kalkputze entweder auf Basis von Sandkalk (mit feuchtem Sand trocken gelöschter
+Branntstückkalk) oder auf Basis handelsüblichen Weißkalkhydrates (WKH) sollen, möglichst
+exakt den historischen Vorbildern nachgestellt, als Ersatz für abgängigen historischen
+Putz eingesetzt werden.</abstract>
+                    <subject>
+                        <topic>Baudenkmal</topic>
+                        <topic>Putz</topic>
+                        <topic>Restaurierung</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-2589</identifier>
+                    <identifier type="sys">HT010610441</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_258</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_258">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/258/1/boettger.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_258"
+            DMDID="DMD_siegen_opus_258">
+            <mets:fptr FILEID="FILE0_siegen_opus_258"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

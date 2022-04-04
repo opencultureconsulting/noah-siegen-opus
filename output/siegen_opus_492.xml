@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_492">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Die </nonSort>
+                        <title>Grünen in der &quot;Provinz voll Grünem&quot; : Geschichte der Grünen im Kreis Siegen-Wittgenstein</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <nonSort>Die </nonSort>
+                        <title>The Green Party in a green region</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bellers, Jürgen</displayForm>
+                        <namePart type="family">Bellers</namePart>
+                        <namePart type="given">Jürgen</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Geschichte der Grünen in Siegen-Wittgenstein seit 1980.</abstract>
+                    <abstract type="content" lang="eng">History of Green Party in Siegen-Wittgenstein since 1980.</abstract>
+                    <subject>
+                        <topic>Kommunalpolitik</topic>
+                        <topic>Geschichte Deutschland</topic>
+                        <topic>NRW</topic>
+                        <topic>Region</topic>
+                        <topic>Geschichte Grüne Siegen-Wittgenstein</topic>
+                        <topic>1968</topic>
+                        <topic>history ecological party</topic>
+                        <topic>lokal policy</topic>
+                        <topic>Siegen-Wittgenstein</topic>
+                        <topic>Germany</topic>
+                        <topic>1968</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4925</identifier>
+                    <identifier type="sys">HT016712855</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_492</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_492">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/492/1/Geschichte_Gruenen.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_492"
+            DMDID="DMD_siegen_opus_492">
+            <mets:fptr FILEID="FILE0_siegen_opus_492"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

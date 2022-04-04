@@ -1,0 +1,149 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1193">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Parallel evaluation of algebraic circuits</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Paralleles Auswerten algebraischer Schaltkreise</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>König, Daniel</displayForm>
+                        <namePart type="family">König</namePart>
+                        <namePart type="given">Daniel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The circuit evaluation problem for various finitely generated algebraic structures is studied. More
+precisely, for various rings, finite and infinite semirings, groups, and polynomial rings the complexity
+of circuit evaluation is investigated. The focus is on parallel complexity classes like NC or
+DET resp., the randomized parallel complexity class coRNC.
+For the ring (Z,+,*) it is known that circuit evaluation is in the randomized complexity class
+coRP. We show that under the assumption that the circuit has a constant bound for its multiplication
+depth circuit evaluation for (Z,+,*) is complete for the class C=L. If instead, we assume
+that the formal degree of the circuit is polynomially bounded, then circuit evaluation for (Z,+,*)
+is complete for the class C=LogCFL.
+For circuits over the polynomial ring (Z[x_1,...,x_k],+,*), where k is part of the input, circuit
+evaluation is also known as polynomial identity testing and again the best known upper bound for
+this problem is coRP. Under the assumption that the circuit is skew, it is known that the problem
+is in coRNC. For skew circuits over (Z[x_1,...,x_k],+,*) with fixed k we show that circuit evaluation
+is in C=L. The more general powerful skew circuits are introduced. These are skew circuits with
+variables where input gates can be labeled by powers x^n for binary encoded numbers n. It is shown
+that polynomial identity testing for powerful skew circuits belongs to coRNC2 which generalizes
+the corresponding result for skew circuits. Two applications of this result are presented:
+(i) Equivalence of higher-dimensional straight-line programs can be tested in coRNC2; this result
+is even new in the one-dimensional case, where the straight-line programs produce strings.
+(ii) The circuit evaluation problem for certain wreath products of finitely generated abelian groups
+belongs to coRNC2.
+For finitely generated linear groups, the best upper bound for circuit evaluation is again coRP,
+which was shown by a reduction to polynomial identity testing. Conversely, circuit evaluation
+for the linear group SL_3(Z) is equivalent to polynomial identity testing. In this work, it is shown
+that circuit evaluation for every finitely generated nilpotent group is in DET. Within the
+larger class of polycyclic groups we find examples where circuit evaluation is at least as hard as
+polynomial identity testing for powerful skew circuits.
+For finite semirings where semirings are not assumed to have an additive or multiplicative
+identity, the following dichotomy is shown: if a finite semiring is such that (i) the multiplicative
+semigroup is not solvable or (ii) it does contain a subsemiring with an additive identity 0 and a
+multiplicative identity 1 not equal to 0, then the circuit evaluation problem for the semiring is P-complete.
+In all other cases, the circuit evaluation problem is in DET.
+An extension of the circuit evaluation problem to circuits over power sets is the circuit intersection
+problem where circuits with additional union gates over the power set of a structure
+are considered. We show that for a finite semiring S circuit intersection is in DET if S is a solvable
+local group. Otherwise it is P-complete. It is known that circuit intersection for the ring
+(Z,+,*) is NEXPTIME-complete. We use this to show that also for the linear group SL_5(Z) circuit
+intersection is NEXPTIME-complete.
+At the beginning of this thesis we show for the more classical word problem that this problem for
+an infinite finitely generated linear group G is DLOGTIME-uniform TC0-complete if G is solvable
+and that it is in DLOGTIME-uniform NC1 if G is virtually solvable.</abstract>
+                    <abstract type="content" lang="ger">Das Auswertungsproblem für algebraische Schaltkreise für verschiedene endlich erzeugte algebraische
+Strukturen wird bezüglich seiner Komplexität untersucht. Genauer gesagt wird dieses Problem
+für verschiedene Ringe, endliche und unendliche Semiringe, Gruppen und Polynomringe betrachtet.
+Hierbei liegt der Fokus auf parallelen Komplexitätsklassen wie NC oder DET sowie auf der
+Komplexitätsklasse der Komplemente der randomisiert effizient parallelisierbaren Probleme coRNC.
+Bekanntermaßen liegt das Auswertungsproblem für Schaltkreise über dem Ring (Z,+,*) in der
+Komplextitätsklasse coRP, also der Klasse der Komplemente der in randomisierter Polynomialzeit
+lösbaren Probleme. Es wird gezeigt, dass unter der Annahme, dass die multiplikative Tiefe des
+Schaltkreises durch eine Konstante beschränkt ist, das Auswerten von Schaltkreisen vollständig für
+die Klasse C=L ist. Nimmt man hingegen an, dass der formale Grad des Schaltkreises über (Z,+,*)
+polynomiell beschr änkt ist, so erhält man Vollständigkeit für die Klasse C=LogCFL.
+Für Schaltkreise über dem Polynomring (Z[x_1,..., x_k],+,*), wobei das k Teil der Eingabe ist,
+liegt das Schaltkreisauswertungsproblem ebenfalls in der Klasse coRP. Unter der Annahme, dass für
+jedes Multiplikationsgatter eines der beiden Eingangsgatter ein Eingangsgatter des gesamten Schaltkreises
+ist (sog. schiefe Schaltkreise), weiß man, dass das Problem in der Klasse coRNC liegt. Es wird
+gezeigt, dass mit der zusätzlichen Annahme, dass k konstant ist, das Auswerten von Schaltkeisen
+in C=L liegt. Etwas mehr Ausdruckskraft besitzt eine neu eingeführte Klasse von Schaltkreisen, bei
+der wir voraussetzen, dass eines der beiden Eingangsgatter eines multiplikativen Gatters von der
+Form x^n ist und n als binär kodierte Zahl gegeben ist. Wir bezeichnen diese Schaltkreise als kraftvoll
+schief. Für diesen Fall wird gezeigt, dass das Schaltkreisauswertungsproblem ebenfalls in coRNC
+liegt. Dieses Ergebnis wird genutzt, um zwei Anwendungen zu zeigen: Einerseits wird gezeigt, dass
+das Äquivalenzproblem für mehrdimensionale Straight-line programs in coRNC lösbar ist, was selbst
+für den eindimensionalen Fall ein neues Ergebnis liefert. Außerdem zeigen wir, dass das Auswertungsproblem
+für Schaltkreise über bestimmten Kranzprodukten von endlich erzeugten abelschen Gruppen ebenfalls in coRNC liegt.
+Für endlich erzeugte lineare Gruppen liegt die beste bisher bekannte obere Schranke für das
+Auswertungsproblem von Schaltkreisen erneut bei coRP, was mit Hilfe einer Reduktion auf das
+Auswerten von Schaltkreisen über (Z,+,*) gezeigt wurde. Auf der anderen Seite konnte gezeigt
+werden, dass das Schaltkreisauswertungsproblem für die lineare Gruppe SL_3(Z) und für (Z,+,*)
+äquivalent zueinander sind. In dieser Arbeit wird gezeigt, dass das Auswerten von Schaltkreisen
+für endlich erzeugte nilpotente Gruppen in DET liegt. Weiterhin wird gezeigt, dass es in
+der größeren Klasse der polyzyklischen Gruppen eine Gruppe gibt, deren Auswertungsproblem für
+Schaltkreise mindestens so schwer ist wie für kraftvoll schiefe Schaltkreise über (Z[x_1,...,x_k],+,*).
+Für endliche Semiringe, wobei in einem Semiring weder ein multiplikativ noch ein additiv neutrales
+Element verlangt wird, wird die folgende Zweiteilung gezeigt: Besitzt der Semiring ein multiplikativ
+neutrales und ein von diesem verschiedenes additiv neutrales Element oder ist die multiplikative
+Halbgruppe des Semirings nicht auflösbar, so ist das Schaltkreisauswertungsproblem vollständig für
+die Klasse P. In allen anderen Fällen liegt es in der Klasse DET.
+Eine Erweiterung des Auswertungsproblems für Schaltkreise ist das Schnittproblem für Schaltkreise.
+Dieses agiert auf den Potenzmengen von algebraischen Strukturen und fragt für Schaltkreise
+über diesen zusammen mit Vereinigungsgattern, ob der Durchschnitt zweier durch Schaltkreise  repräsentierter Mengen leer ist. Es wird gezeigt, dass dieses Problem für eine endliche Halbgruppe in DET liegt, wenn es sich um eine lokale Gruppe handelt. Ansonsten ist das Problem vollständig für P.
+Zusätzlich wird gezeigt, dass dieses Problem für die lineare Gruppe SL_5(Z) NEXPTIME-volständig
+ist.
+Zu Beginn dieser Arbeit wird das klassische Wortproblem für endlich erzeugte Gruppen betrachtet.
+Es wird gezeigt, dass für eine endlich erzeugte lineare Gruppe das Wortproblem vollständig für
+DLOGTIME-uniforme TC0-Schaltkreise ist, falls die Gruppe auflösbar ist. Ist sie hingegen virtuell auflösbar, so liegt das Wortproblem in DLOGTIME-uniformem NC1.</abstract>
+                    <subject>
+                        <topic>Komplexitätstheorie</topic>
+                        <topic>Algorithmische Algebra</topic>
+                        <topic>Combinatorial group theory</topic>
+                        <topic>Parallel algorithms</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Theoretische Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11937</identifier>
+                    <identifier type="sys">HT019408568</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1193</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2017-07-25</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1193">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1193/1/Dissertation_Daniel_Koenig.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1193"
+            DMDID="DMD_siegen_opus_1193">
+            <mets:fptr FILEID="FILE0_siegen_opus_1193"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

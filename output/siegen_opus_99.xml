@@ -1,0 +1,95 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_99">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Fertigungsnahe Entwurfsunterstützung für die Mikrosystemtechnik</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Technology driven design support for microsystem technology</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wagener, Andreas</displayForm>
+                        <namePart type="family">Wagener</namePart>
+                        <namePart type="given">Andreas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2005</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Der Entwurf von Mikrosystemen, hier speziell der von siliziumbasierten nichtelektronischen
+Systemen, zeichnet sich dadurch aus, dass alle Phasen des Entwurfs durch die angestrebte
+Fertigungsanweisung beeinflusst werden. Erschwerend kommt hinzu, dass, im Gegensatz zur
+Mikroelektronik, beinahe jedes Mikrosystem eine eigene Fertigungsanweisung benötigt. Eine
+Abstraktion auf Basis von Masken und Entwurfsregeln ist nicht möglich. Aus diesem Grund
+beschränken sich die meisten Softwarewerkzeuge für die Mikrosystemtechnik auf die sehr
+frühen Phasen des Entwurfs und Einzelprozesssimulationen.
+Unter Berücksichtigung der Methoden in der Mikroelektronik und der Mechanik wird in
+dieser Arbeit eine Methodik vorgestellt, die als Basis für eine durchgängige
+Entwurfsunterstützung speziell im technologienahen Bereich dienen kann. Basierend auf eben
+dieser Methodik und neuen Konzepten der Datenhaltung wird eine Entwicklungsumgebung
+vorgestellt, die es ermöglicht, Prozessinformationen einheitlich abzulegen, zu verwalten und
+wieder zur Verfügung zu stellen. Die Entwicklungsumgebung gibt weiterhin die Möglichkeit
+auf Basis der abgelegten Prozessinformationen, Fertigungsanweisungen zu erstellen und
+automatisch auf Fertigbarkeit zu prüfen. Die Simulation der Fertigungsfolge wird durch eine
+hierarchische Anordnung der Simulationsmodelle unterstützt bzw. erst möglich gemacht.
+Abschließend werden mögliche Erweiterungen diskutiert.</abstract>
+                    <abstract type="content" lang="eng">In microsystem technology, especially in the area of silicon-based nonelectronic devices, the
+design is dominated by the fabrication of the devices. That is not only true for the technologydriven
+and physical design phases but also for the more abstract phases in the beginning of the
+design. In contrast to micro electronics there is no Mead/Conway-abstraction possible. That is
+why available design frameworks are limited to the behavioural-driven and more abstract
+design.
+A new concept of an integrated design support for microsystem technology and a
+prototypically realisation of that concept is presented. Designing Microsystems with this tool
+the designer need not longer to be technology expert.
+Basing on design methodology in micro electronics and mechanics as well considerations on
+the design in microsystem technology are discussed. A new methodology for technologydriven
+design is presented and by the means of a prototype realised. This prototype allows the
+management of process data as well as the design of fabrication process flows. Also the
+manufacturability of these flows can be checked. The concept of hierarchical ordered
+simulation models is introduced to guarantee at least a rough simulation of process flows,
+even if there is no model for one or more fabrication steps available.</abstract>
+                    <subject>
+                        <topic>Prozessverwaltung</topic>
+                        <topic>Verifikation</topic>
+                        <topic>Simulation</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-994</identifier>
+                    <identifier type="sys">HT014287479</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_99</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2005-02-09</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_99">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/99/1/wagener.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_99"
+            DMDID="DMD_siegen_opus_99">
+            <mets:fptr FILEID="FILE0_siegen_opus_99"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

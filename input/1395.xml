@@ -1,0 +1,65 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1395</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Multi-qubit gates and quantum-enhanced deliberation for machine learning using a trapped-ion quantum processor</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Theeraphot</pc:foreName>
+            <pc:surName>Sriarunothai</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Paul-Falle</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Quantenphysik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Quanteninformatik</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Ionenfalle</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Quantum information processing</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Trapped ions</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Quantum optics</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Artificial intelligence</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Reinforcement learning</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">530</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">During last decades, the development of large-scale fault-tolerant quantum computers has been a central aim of research in quantum information processing. The availability of such a device could fundamentally impact not only a large number of research fields but also the whole of society. A quantum device could perform quantum-enhanced algorithms to solve problems, which are practically inaccessible using a classical machine. A key challenge lies in qualities of quantum logic gates and any errors occurring during their execution.&#13;
+In this work, the investigation and improvements on the quantum-gate fidelity of an ion-trap-based quantum computer are presented. This is a small-scale quantum processor based on laser-cooled ions in a macroscopic linear Paul trap. Quantum bits (qubits) are realized by the ions’ pseudo-spins using ionic hyperfine states in a static magnetic field gradient following the MAgnetic Gradient Induced Coupling (MAGIC) scheme. Quantum states of individual ions are manipulated using radio frequency (RF) radiation and addressing in frequency space.&#13;
+This work reports the investigation and improvement of the Bell-state fidelity, which is an essential ingredient of quantum gates, in several aspects. (i) We have achieved sideband cooling on a single ion near the motional ground state using RF radiation with a minimum motional excitation of 0.30(12). The cooling technique is also extended to a two-ion system. This realization shows sympathetic cooling using RF sideband cooling of an ion crystal. (ii) We have outlined and explored possible sources of qubit dephasing, which are limitations of qubit control, fluctuations of magnetic fields, fluctuations of electric fields, and consequences of ions being in motionally excited states. (iii) Using dynamical decoupling sequences to protect from qubit dephasing, we have explored the limitations of this technique in numerical simulations and experiments, in which we have achieved a Bell-state fidelity of 0.95(3). &#13;
+The implementation of all these improvements allowed the proof-of-principle demonstration of a quantum-enhanced learning agent to speed up the deliberation process within the reinforcement learning paradigm -- a learning scheme in the field of machine learning. The deliberation time of the quantum learning agent has been quadratically improved with respect to its classical counterpart. We have demonstrated that the algorithm takes O(epsilon^-0.57(5)) steps instead of O(epsilon^-1), where epsilon represents a probability to sample an action in the probability distribution of the learning process. This demonstration highlights the potential of a quantum computer in the fields of machine learning and artificial intelligence, which have grown into fundamental components for modern autonomous machines. Furthermore, we have discussed some prerequisite elements for a static quantum register using four ions. In addition, preliminary demonstrations of quantum state transfer have been presented.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die Entwicklung eines großmaßstäblichen, fehlertoleranten Quantencomputers ist ein zentrales Ziel der Forschung im Bereich der Quanteninformation. Die Verfügbarkeit eines solchen Gerätes könnte nicht nur eine große Zahl an Forschungsfeldern grundlegend beeinflussen, sondern auch die Gesellschaft insgesamt. Ein Quantencomputer könnte quantengestützte Algorithmen anwenden, um Probleme zu lösen, die mit einem klassischen Rechner nicht praktikabel zu bewältigen sind. Eine zentrale Herausforderung stellt die Qualität logischer Quantengatter dar, sowie mögliche Fehler, die währenddessen auftreten.&#13;
+In dieser Arbeit werden zunächst die Untersuchung und Verbesserung der Fidelity von Quantengattern in einem ionenfallenbasierten Quantencomputer vorgestellt. Dabei handelt es sich um einen Quantenprozessor in kleinem Maßstab, der auf lasergekühlten Ionen in einer makroskopischen linearen Paul-Falle basiert. Quantenbits (Qubits) werden durch Pseudospins der Ionen realisiert, indem atomare Hyperfeinzustände in einem Magnetfeldgradienten nach dem Schema Magnetfeldgradienten-induzierter Kopplung (MAGIC) genutzt werden. Quantenzustände einzelner Ionen werden mithilfe von Radiofrequenz (RF) - Feldern manipuliert, wobei die Adressierung im Frequenzraum erfolgt.&#13;
+Diese Arbeit beschreibt mehrere Aspekte der Untersuchung und Verbesserung der Fidelity von Bell-Zuständen, die ein essentieller Bestandteil von Quantengattern ist. (i) Wir haben Seitenbandkühlung eines einzelnen Ions bis nahe an den Bewegungsgrundzustand mit RF-Feldern erreicht, die minimale Bewegungsanregung lag bei 0.30(12) Phononen. Diese Technik zur Kühlung wird anschließend auf ein Zwei-Ionen-System ausgeweitet und durch die Realisierung wird die sympathetische Kühlung eines Ionenkristalls mittels RF Seitenbandkühlung gezeigt. (ii) Wir haben mögliche Ursachen für die Dephasierung der Qubits zusammengestellt und untersucht. Dies sind Limitierungen bei der Steuerung der Qubits, Fluktuationen magnetischer Felder, Fluktuationen elektrischer Felder und die Folgen, wenn sich Ionen in angeregten Bewegungszuständen befinden.  (iii) Unter Verwendung von Sequenzen zur dynamischen Entkopplung, die Qubits vor Dephasierung schützen, haben wir die Grenzen dieser Technik in numerischen Simulationen und mit Experimenten untersucht, bei denen wir für einen Bell-Zustand eine Fidelity von 0.95(3) erreicht haben. &#13;
+Die Umsetzung all dieser Verbesserungen erlaubte den grundsätzlichen Nachweis eines quantengestützten Learning Agent, der den Entscheidungsprozess innerhalb des Reinforcement Learning Modells – ein Lernschema für maschinelles Lernen – beschleunigt. Die Entscheidungszeit des Quanten-Learning Agent konnte im Vergleich zum klassischen Pendant, quadratisch verbessert werden. Wir haben gezeigt, dass der Algorithmus O(epsilon^-0.57(5)) Schritte benötigt, anstelle von O(epsilon^-1), wobei epsilon die Wahrscheinlichkeit darstellt, aus der Wahrscheinlichkeitsverteilung des Lernprozesses eine Aktion zu erhalten. Diese Demonstration hebt das Potential eines Quantencomputers in den Bereichen maschinellen Lernens und der künstlichen Intelligenz hervor, die zu einer grundlegenden Komponente für moderne autonome Maschinen geworden sind. Weiterhin haben wir einige Voraussetzungen für ein statisches Quantenregister anhand eines Systems aus vier Ionen behandelt. Schließlich werden vorläufige Demonstrationen von Quantenzustandstransfer vorgestellt.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2018-11-13</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2018</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-13950</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV - Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Theeraphot_Sriarunothai.pdf" ddb:fileSize="9248290"/>
+   <ddb:checksum ddb:type="MD5">b7105538f51120865f2a665835129adb</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1395/1/Dissertation_Theeraphot_Sriarunothai.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1395</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

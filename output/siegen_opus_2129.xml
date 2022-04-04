@@ -1,0 +1,85 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_2129">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Siegerländer Sprachatlas</title>
+                        <subTitle lang="ger">Lautgeographie</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Solau-Riebel, Petra</displayForm>
+                        <namePart type="family">Solau-Riebel</namePart>
+                        <namePart type="given">Petra</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Vogel, Petra M.</displayForm>
+                        <namePart type="family">Vogel</namePart>
+                        <namePart type="given">Petra M.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Sprachatlanten beinhalten skizzierte Sprachkarten, die diverse Dialektphänomene einer bestimmten Region detailliert darstellen. So ist das Ziel dieser Arbeit, die Lautgeographie des Siegerlandes abzubilden und zu analysieren. 
+Als Basis fungieren die in den Jahren 2011 bis 2013 erhobenen Audiodateien aus dem SiSAL-Projekt (Siegerländer Sprachatlas). Zur Spezifizierung der einzelnen lautlichen Merkmale werden vorrangig die Vokale und partiell Konsonanten des mittelhochdeutschen Bezugssystems herangezogen.
+In kontrastiver Darstellung erfolgt die Erörterung von Analogien zu älteren Siegerländer Sprachkarten sowie die Beschreibung der lautlichen Ausprägungen in den angrenzenden Dialekträumen. Hierzu werden Karten aus dem Digitalen Wenker-Atlas (DiWA), dem Siegerländer Wörterbuch (SiWöb) und Einträge aus Wörterbüchern der betrachteten Gebiete zur Illustration herangezogen.
+Der Sprachatlas ermöglicht Rückschlüsse darauf, ob ein einheitliches „Siegerländer Platt“ existiert, und inwieweit die angrenzenden Mundarten den Sprachgebrauch beeinflussen. 
+Das vorliegende Printmedium stellt eine Ergänzung zur digitalen Version (erreichbar unter www.mundart.sisal.uni-siegen.de), dem „Sprechenden Siegerländer Sprachatlas“ (SiSAL), dar.</abstract>
+                    <abstract type="content" lang="eng">Linguistic atlases contain sketched linguistic maps providing detailed overviews of various dialectal phenomena in a particular region. The aim of this thesis is to map and to analyze the phonetic geography of the Siegerland, a Western German area.
+The audio files, collected within the frame of the SiSAL project (Siegerländer Sprachatlas) between 2011 and 2013, serve as the basis. Primarily, in order to specify the individual phonetic characteristics, vowels and also partially consonants of the Middle High German reference system are used.
+In a contrastive approach, the analogies to older linguistic maps of the Siegerland and the description of the phonetic characteristics in adjacent dialect areas are discussed. For this purpose, maps from the Digitaler Wenker-Atlas (DiWA), the Siegerländer Wörterbuch (SiWöb), and entries from dictionaries of the surrounding areas under consideration are used for illustration.
+The linguistic atlas enables to draw conclusions as to whether a homogeneous “Siegerländer Platt” (the local dialect) exists and to what extent neighboring dialects have an impact on its linguistic usage.
+The present print medium is a supplement to the digital version of the SiSAL (accessible via www.mundart.sisal.uni-siegen.de).</abstract>
+                    <subject>
+                        <topic>Sprachatlas</topic>
+                        <topic>Dialekt</topic>
+                        <topic>Siegerländer Dialekt</topic>
+                        <topic>Linguistic atlas</topic>
+                        <topic>Dialect</topic>
+                        <topic>Cartography</topic>
+                        <topic>Regional speech</topic>
+                        <topic>Phonetics</topic>
+                        <topic>Phonology</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Germanistisches Seminar"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-21294</identifier>
+                    <identifier type="sys">HT021266168</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_2129</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2016-12-19</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_2129">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/2129/1/SuK_7_Solau_Riebel_Siegerlaender_Sprachatlas.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_2129"
+            DMDID="DMD_siegen_opus_2129">
+            <mets:fptr FILEID="FILE0_siegen_opus_2129"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,102 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_100">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Ein </nonSort>
+                        <title>Konzept für die Datenhaltung in der fertigungsnahen Mikrosystemtechnik</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Popp, Jens</displayForm>
+                        <namePart type="family">Popp</namePart>
+                        <namePart type="given">Jens</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2005</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Diese Arbeit präsentiert Ergebnisse, die im Rahmen des PRINCE-Projektes am
+Institut für Mikrosystemtechnik generiert wurden. PRINCE steht für PRocess
+INformation and management CEnter und beschäftigt sich mit der automatisierten
+Entwurfsunterstützung für die Mikrosystemtechnik. Besonderes Augenmerk
+wurde hierbei auf die fertigungsnahen Aspekte des Entwurfs gelegt,
+da diese in bisherigen Lösungen nur ungenügend beachtet werden.
+Im Rahmen der Arbeit wurde deshalb eine umfassende Analyse der Problematik
+durchgeführt. Eines der Ergebnisse war die Erkenntnis, dass beim fertigungsnahen
+Entwurf viele Daten anfallen, die alle in enger Beziehung stehen.
+Die geeignete Datenhaltung ist deshalb ein zentraler Punkt des Entwurfs.
+Ausgehend von dieser Erkenntnis wurde untersucht, welche aus der Informatik
+bekannten Methoden im Bereich Datenbank-Management geeignet sind.
+Als Ergebnis wird ein relationales Datenbankmodell vorgestellt, mit dem die
+gesammelten Daten auf sinnvolle Weise gespeichert und miteinander in Beziehung
+gebracht werden können. Außerdem wird eine Erweiterung dieses
+Modells um Methoden aus der Objektorientierung präsentiert, die eine hierarchische
+Darstellung der Daten durch Vererbung und Mehrfachvererbung
+ermöglicht.
+Mit dem Software-System PRINCE wurden die entworfenen Modelle umgesetzt
+und in der Praxis getestet. Durch den Einsatz moderner Techniken, wie
+z.B. J2EE und Java, ist eine Software entstanden, die eine Zusammenarbeit
+mehrerer unterschiedlicher Nutzer mit unterschiedlichen Rechnerplattformen
+ermöglicht.</abstract>
+                    <abstract type="content" lang="eng">This work presents results generated during the PRINCE project. PRINCE is
+an acronym for PRocess INformation and management CEnter. The aim of the
+project was the support of the design of microsystems with special attention
+to the technology driven aspects of the design. The technology driven design
+(design for manufacturing) support is until now only marginally available.
+Within the project a systematic analysis of the technology driven design was
+performed. It turns out that a lot of data is accumulated. Also most of the
+collected data is somehow related. Therefore the organized management of
+data is a key topic in the design of microsystems.
+Starting from this realization methods for data management were researched
+for adequacy. Among the methods known in computer science the relational
+database was selected. As a result a relational database scheme is presented.
+All collected data can be stored and related in a useful manner using this scheme.
+Furthermore an extension of this scheme is presented that enhances it with
+methods from object oriented modelling. The usage of inheritance and multiple
+inheritance is discussed in detail.
+With the PRINCE software a system is presented that puts the model into practical
+use. Using modern technologies like Java and J2EE the software enables
+collaborative work among users with different hardware platforms.</abstract>
+                    <subject>
+                        <topic>Mikrosystemtechnik</topic>
+                        <topic>Datenhaltung</topic>
+                        <topic>Prince (Process Information and Management Center)</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1009</identifier>
+                    <identifier type="sys">HT014287652</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_100</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2005-02-09</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_100">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/100/1/popp.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_100"
+            DMDID="DMD_siegen_opus_100">
+            <mets:fptr FILEID="FILE0_siegen_opus_100"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

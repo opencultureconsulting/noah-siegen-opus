@@ -1,0 +1,85 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1932">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>mechanism of the first hydration-dehydration cycle of pure α- and β-CaSO4•0.5H2O</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Abu Zeitoun, Edres</displayForm>
+                        <namePart type="family">Abu Zeitoun</namePart>
+                        <namePart type="given">Edres</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Pritzel, Christian</displayForm>
+                        <namePart type="family">Pritzel</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Sakalli, Yilmaz</displayForm>
+                        <namePart type="family">Sakalli</namePart>
+                        <namePart type="given">Yilmaz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Trettin, Reinhard</displayForm>
+                        <namePart type="family">Trettin</namePart>
+                        <namePart type="given">Reinhard</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The objective of this research was to understand the dehydration mechanism of technical dihydrate and the variation of the physical properties of β-hemihydrate after the first hydration-dehydration process. In this study, the recycling mechanism of different hemihydrate types as raw material was investigated. The influence of the first hydration-dehydration process on the hydration rate, microstructure, and mechanical properties of recycled hemihydrate were characterized by differential calorimetric analysis (DCA), calcium ion-selective electrode (Ca2+-ISE), conductivity, particle size distribution (PSD), scanning electron microscopy (SEM), and X-ray diffraction (XRD). The results showed that the formed hemihydrate after the first hydration-dehydration process differs in its properties than the unrecycled hemihydrate in some characteristics such as the morphological structure, number of surface, and side defects due to the grinding process after the first hydration step. In addition to the grinding step, the calcination process was responsible for increasing the number of defects on the crystal surface, which leads to a change in setting time and the microstructure of the recycled hemihydrate. Therefore, after the 1st reaction cycle of β-HH, the compressive strength decreases due to a decrease in the hemihydrate crystal size, an increase in the surface area, and an increase in the amount of water required to perform the hydration reaction. The obtained hemihydrate after the first hydration-dehydration process was in β form due to the applied calcination process after the first cycle.</abstract>
+                    <subject>
+                        <topic>Bassanit</topic>
+                        <topic>HemiHydrate</topic>
+                        <topic>Hydrogenation</topic>
+                        <topic>Dehydrogenation</topic>
+                    </subject>
+                    <classification authority="ddc">540</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19322</identifier>
+                    <accessCondition type="use and reproduction">CREATIVECOMMONS.ORG PUBLICDOMAIN ZERO 1.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1932</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1932">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1932/4/The_mechanism_of_the_first_hydration-dehydration_cycle.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1932"
+            DMDID="DMD_siegen_opus_1932">
+            <mets:fptr FILEID="FILE0_siegen_opus_1932"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1112">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>&quot;verderben, verführen, verwüsten, bestechen&quot; : Literatur und Korruption um 1800</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Söhlke, Jan</displayForm>
+                        <namePart type="family">Söhlke</namePart>
+                        <namePart type="given">Jan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Der von Max Weber für die Zeit um 1800 diagnostizierte Übergang von einem patrimonialen zu einem bürokratischen Herrschaftssystem ist mit Roger Callois zugleich faßbar als Wechsel vom aleatorischen zum agônalen Prinzip. Unter dem
+Vorzeichen der Korruption wird jener Übergang beschreibbar als Wandel von einem Paradigma der Kriecherei hin zu einem der Bestechung.
+Diese bisher kaum eingenommene Perspektive ermöglicht es, die sich wechselseitig bedingenden und durchdringenden moralischen, politischen, ökonomischen und juristischen Implikationen der Modernisierung freizulegen.
+
+Eine umfassende begriffsgeschichtliche Analyse der semantischen, historischen und sozialen Verfasstheit von »Korruption« bildet die Grundlage für Lektüren von Lessings Minna von Barnhelm , Kleists Der zerbrochne Krug und Schillers Der Geisterseher . Drei kanonische Texte werden so in einer überraschenden Konstellation neu lesbar – und lassen ihrerseits unser Verständnis von Korruption in einem neuen Zwielicht erscheinen.</abstract>
+                    <subject>
+                        <topic>Korruption</topic>
+                        <topic>Sattelzeit</topic>
+                    </subject>
+                    <classification authority="ddc">800</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11127</identifier>
+                    <identifier type="sys">HT019365123</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1112</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1112">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1112/1/Dissertation_Jan_Soehlke.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1112"
+            DMDID="DMD_siegen_opus_1112">
+            <mets:fptr FILEID="FILE0_siegen_opus_1112"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

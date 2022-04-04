@@ -1,0 +1,79 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1578">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Strategien zur Fehlerprävention und zum Fehlermanagement bei Datenanalysen im Bereich des E-Commerce</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Strategies for error prevention and error management within data analytics in the context of E-Commerce</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wacker, Svenja</displayForm>
+                        <namePart type="family">Wacker</namePart>
+                        <namePart type="given">Svenja</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Müller, Julia</displayForm>
+                        <namePart type="family">Müller</namePart>
+                        <namePart type="given">Julia</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">masterThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Laut der Boston Consulting Group stehen Big Data Analysen an dritter Stelle der Bereiche, die in den nächsten drei bis fünf Jahren den meisten Einfluss auf die Industrie haben werden und die daher aktiv bearbeitet werden sollten (Ringel et al. 2018, S. 4). Die Frage ist, wie solche Analysen gewinnbringend integriert werden können, um dadurch eine zukunftsfähige Positionierung im Wettbewerb generieren zu können. Dabei können Unternehmen auf einige Herausforderungen und Fehlerquellen stoßen, die in dieser Arbeit vor dem Hintergrund des elektronischen Wertschöpfungsprozesses nach Kollmann (2019) näher betrachtet werden sollen. Ziel dieser Arbeit ist die Abbildung von Fehlerquellen bei Big Data Analysen im Bereich des E-Commerce und das Aufzeigen eines möglichen Umgangs mit geschehenen Fehlern und der Prävention von Fehlern im Wertschöpfungsprozess.</abstract>
+                    <abstract type="content" lang="eng">According to the Boston Consulting Group, big data analytics are the third most important area that will have the greatest impact on industry over the next three to five years and should therefore be actively pursued (Ringel et al. 2018, p. 4). The question is how such analyses can be profitably integrated in order to generate a sustainable competitive positioning. In doing so, companies may encounter some challenges and sources of error, which will be examined in more detail in this paper against the background of the electronic value creation process according to Kollmann (2019). The aim of this thesis is to map sources of error in big data analytics in the field of e-commerce and to show how to deal with errors that have occurred and how to prevent errors in the value creation process.</abstract>
+                    <subject>
+                        <topic>Big Data</topic>
+                        <topic>E-Commerce</topic>
+                        <topic>Fehlermanagement</topic>
+                        <topic>Fehlerprävention</topic>
+                        <topic>Strategien</topic>
+                        <topic>Strategies</topic>
+                        <topic>Error management</topic>
+                        <topic>Error prevention</topic>
+                        <topic>E-commerce</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät I Philosophische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-15780</identifier>
+                    <identifier type="sys">HT020469685</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1578</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaMasterThesis</vl:doctype>
+                        <vl:defenseDate>2019-09-05</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1578">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1578/6/Masterarbeit_Svenja_Wacker.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1578"
+            DMDID="DMD_siegen_opus_1578">
+            <mets:fptr FILEID="FILE0_siegen_opus_1578"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

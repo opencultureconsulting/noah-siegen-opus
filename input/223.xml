@@ -1,0 +1,152 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>223</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Neural preprocessing and control of reactive walking machines</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Poramate</pc:foreName>
+            <pc:surName>Manoonpong</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">autonome Roboter</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Laufmaschinen</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">rekurrente neuronale Netze</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Research in the domain of biologically inspired walking machines has focused&#13;
+for the most part on the mechanical designs and locomotion control.&#13;
+Although some of this research has been concentrated on the generation of&#13;
+a reactive behavior of walking machines, it has been restricted only to a few&#13;
+of such reactive behaviors. However, from this research, there are only few&#13;
+examples where different behaviors have been implemented in one machine&#13;
+at the same time. In general, these walking machines were solely designed&#13;
+for pure locomotion, i.e. without sensing environmental stimuli.&#13;
+&#13;
+Therefore, in this thesis, biologically inspired walking machines with different&#13;
+reactive behaviors are presented. Inspired by obstacle avoidance and&#13;
+escape behavior of scorpions and cockroaches, such behavior is implemented&#13;
+in the walking machines as a negative tropism. On the other hand, a sound&#13;
+induced behavior called “sound tropism”, in analogy to the prey capture behavior&#13;
+of spiders, is employed as a model of a positive tropism. The biological&#13;
+sensing systems which those animals use to trigger the described behaviors&#13;
+are investigated so that they can be reproduced in the abstract form with&#13;
+respect to their principle functionalities. In addition, the morphologies of&#13;
+a salamander and a cockroach which are designed for efficient locomotion&#13;
+are also taken into account for the leg and trunk designs of the four- and&#13;
+six-legged walking machines, respectively.&#13;
+&#13;
+Different behavior controls for generating the biologically inspired reactive&#13;
+behaviors are developed on the basis of a modular neural structure. Each&#13;
+behavior control consists of a neural preprocessing module and a neural control&#13;
+module. Preprocessing is for sensory signals while the neural control&#13;
+generates basic locomotion and changes the appropriate motions, e.g. turning&#13;
+left, right or walking backward, with respect to sensory signals. Neural&#13;
+preprocessing and control are formed by realizing discrete-time dynamical&#13;
+properties of recurrent neural networks. Parts of the networks are generated&#13;
+and optimized by using an evolutionary algorithm. Utilizing the modular&#13;
+neural structure, the coupling of the neural control module with different&#13;
+neural preprocessing modules leads to the desired behavior controllers, e.g.&#13;
+obstacle avoidance and sound tropism. Furthermore, these behavior controllers&#13;
+are then fused by using a sensor fusion technique consisting of lookup&#13;
+table and time scheduling methods to obtain an effective behavior fusion&#13;
+controller, whereby different neural preprocessing modules have to cooperate.&#13;
+&#13;
+Eventually, all of these reactive behavior controllers together with the&#13;
+physical sensor systems are implemented on the physical walking machines&#13;
+to be tested in a real world environment. The fully equipped walking machines&#13;
+can be seen as artificial perception-action systems. As a result, the&#13;
+walking machine(s) is able to respond to environmental stimuli, e.g. wandering&#13;
+around, sound tropism (positive tropism), avoiding obstacles and even&#13;
+escaping from corners as well as deadlock situations (negative tropism). The&#13;
+developed controller is universal in the sense that it can be implemented&#13;
+on different types of walking machines, e.g. four- and six-legged walking&#13;
+machines, giving comparably good results without changing parameters.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Im Bereich biologisch inspirierter Laufmaschinen konzentrierte sich die Forschung&#13;
+meist auf die reine Bewegungskontrolle sowie das mechanische Design.&#13;
+Obwohl ein Teil dieser Forschung sich auch mit der Erzeugung reaktiver&#13;
+Verhaltensweisen von Robotern beschäftigte, war dies auf einige wenige&#13;
+reaktive Verhaltensweisen beschränkt; und zwar war auf einem Roboter nur&#13;
+jeweils eine Verhaltensweise implementiert. Es gibt nur wenige Ansätze, die&#13;
+sich mit der Erzeugung mehrerer reaktiver Verhaltensweisen einer Maschine&#13;
+gleichzeitig beschäftigen. Im Allgemeinen wurden Laufmaschinen nur zum&#13;
+Zwecke der reinen Fortbewegung konzipiert, d.h. ohne dass sie ihre Umgebung&#13;
+wahrnehmen konnten.&#13;
+&#13;
+Diese Arbeit stellt biologisch inspirierte Laufmaschinen vor, welche mehrere&#13;
+verschiedene reaktive Verhaltensweisen zeigen. Inspiriert vom Hindernisvermeidungs-&#13;
+und Fluchtverhalten der Skorpione und Kakerlaken wird ein solches&#13;
+Verhalten in der Laufmaschine mittels eines negativen Tropismus erzeugt.&#13;
+Andererseits wird ein akustisch motiviertes Verhalten, ein sog. “akustischer&#13;
+Tropismus” (Sound Tropism), in Analogie zum Jagdverhalten von Spinnen,&#13;
+als Beispiel eines positiven Tropismus angewendet. Um die oben beschriebenen&#13;
+Verhalten in abstrahierter Weise reproduzieren zu können, wird außerdem&#13;
+der biologische Wahrnehmungsapparat der genannten Tiere im Hinblick&#13;
+auf ihre prinzipielle Funktionalität untersucht. Zusätzlich werden die Morphologien&#13;
+von Salamander und Kakerlake, welche für effiziente Bewegung&#13;
+gebaut sind, für die Bein- und Körpergestaltung in Betracht gezogen.&#13;
+&#13;
+Basierend auf einem modularen neuronalen Modell werden verschiedene&#13;
+Verhaltenskontroller für die Erzeugung biologisch inspirierter reaktiver Verhaltensweisen&#13;
+entwickelt. Jede Verhaltenskontrolle besteht aus neuronalen&#13;
+Signal-Vorverarbeitungseinheiten und Kontrollmodulen. Für die Vorverarbeitung&#13;
+sensorischer Signale werden rekurrente neuronale Netze genutzt, ebenso&#13;
+wie für die Kontrolle und die Erzeugung von Laufbewegungen, sowie der&#13;
+Änderung der Bewegung, z.B. Drehung nach rechts, links oder rückwärts, in&#13;
+Abhängigkeit von Sensorsignalen. Die effektive neuronale Verarbeitung und&#13;
+Kontrolle wird erreicht durch Ausnutzung der dynamisschen Eigenschaften&#13;
+der rekurrenten neuronalen Netze, die zum Teil durch evolutionäre Algorithmen&#13;
+konstruiert bzw. optimiert wurden. Den modularen Aufbau nutzend&#13;
+führt eine Kombination der verschiedenen neuronalen Verarbeitungseinheiten&#13;
+zu den gewünschten Verhaltenssteuerungen. Des weiteren werden diese Verhaltenssteuerungen&#13;
+zusammengeführt mittels einer Sensor-Fusions-Technik,&#13;
+welche aus Tabellen- und “Time-Scheduling” -Methoden besteht. Damit&#13;
+entsteht letztlich eine neue effektive verhaltenfusionierte Steuerung, die sich&#13;
+auf verschiedenste Laufmaschinen übertragen läßt.&#13;
+&#13;
+Abschließend werden alle diese reaktiven Verhaltenssteuerungen zusammen&#13;
+mit einem Sensorsystem in physikalischen Laufmaschinen implementiert,&#13;
+um sie zu testen und als künstliche Perzeptions-Aktions-Maschine zu&#13;
+demonstrieren. Es wird gezeigt, dass die Laufmaschinen in der Lage sind in&#13;
+der Umgebung umherzuwandern und auf Reize der Umgebung zu reagieren,&#13;
+z.B. durch akustischen Tropismus (positiver Tropismus), durch Hindernisvermeidung&#13;
+und sogar durch Entkommen aus Ecken und Sackgassen (negativer&#13;
+Tropismus). Der entwickelte Kontroller ist universell in dem Sinne, dass&#13;
+er auf Laufmaschinen mit unterschiedlicher Beinanzahl, hier vier und sechs&#13;
+Beine, ohne Parameteranpassung mit vergleichbaren Ergebnissen implentiert&#13;
+werden kann.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2006-05-18</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2006</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-2235</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fachbereich 12, Elektrotechnik und Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="manoonpong.pdf" ddb:fileSize="13113799"/>
+   <ddb:checksum ddb:type="MD5">637a22dd5e6b8c5fa07cffb5f28df2ef</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/223/1/manoonpong.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/223</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

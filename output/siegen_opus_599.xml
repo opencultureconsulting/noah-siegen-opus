@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_599">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Modellierung ökonomischer Kompetenz in einer Pilotstudie zu ECOS</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Macha, Klaas</displayForm>
+                        <namePart type="family">Macha</namePart>
+                        <namePart type="given">Klaas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schuhen, Michael</displayForm>
+                        <namePart type="family">Schuhen</namePart>
+                        <namePart type="given">Michael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Modellierung ökonomische Kompetenz zur empirischen Erfassung einer Economic Literacy gehört immer noch zu den Forschungsdesideraten innerhalb der Ökonomischen Bildung.Bisher gelang es nicht, ein überzeugendes Modell für die empirische Erfassung vorzulegen,das den Ansprüchen einer deutschlandweiten Testung genügt. Dies verdeutlicht der nachfolgende Beitrag, indem er in einem Dreischritt, ausgehend von einer detaillierten Synthese der Kompetenzdefinition von Weinert, die bisherigen Studien aus dem Bereich der ökonomischen Bildung einer kritischen Anforderungsanalyse unterzieht, um anschließend zu versuchen, die bestehenden Ansätze in ein neues Modell für die Modellierung ökonomischer Kompetenz zu integrieren. Dieses Konstrukt zielt auf die Behebung der identifizierten Problemlagen und somit auf die Öffnung ökonomischer Kompetenz für empirische Tests. Es bildet die Basis für die Pilotstudie zu ECOS.</abstract>
+                    <abstract type="content" lang="eng">Modelling Economic Literacy is still one of the research desiderata in economic education. Up to now, a convincing model for an empirical analysis was not yet presented that meets the requirements of a large-scale assessment. This is illustrated in the paper at hand, starting with a detailed synthesis of the competence definition of Weinert. After that the previous studies in the field of economic education are subject to a critical analysis. Then we try to integrate our new model of Economic Literacy into the existing approaches. This construct,which is expected to fix the identified problem areas, would therefore open economic Literacy for empirical tests, forms the basis for the pilot study of ECOS.</abstract>
+                    <subject>
+                        <topic>Ökonomische Kompetenz</topic>
+                        <topic>Wirtschaftswissen</topic>
+                        <topic>Economic Literacy</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5990</identifier>
+                    <identifier type="sys">HT017140850</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_599</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_599">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/599/1/Modellierung_oekonomischer_kompetenz.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_599"
+            DMDID="DMD_siegen_opus_599">
+            <mets:fptr FILEID="FILE0_siegen_opus_599"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

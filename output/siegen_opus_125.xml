@@ -1,0 +1,64 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_125">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Gestaltung eines ästhetischen Programms : zur Fragmentarisierung in den dramatischen Texten Heiner Müllers der siebziger Jahre</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kim, Maeng-Ha</displayForm>
+                        <namePart type="family">Kim</namePart>
+                        <namePart type="given">Maeng-Ha</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2000</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die gegenwärtige Diskussion um das Fragmentarische hat weite Bereiche, insbesondere die Literatur, Kunst und Philosophie erfasst. Das Fragment weist auf Verweigerung bzw. Verfall der Totalität. Das Verständnis einer zusammenhängenden Wirklichkeit, mit der Einheit von Wesen und Erscheinung, ist damit obsolet geworden.  Heiner Müllers innovative Dramaturgie operiert angesichts einer veränderten gesellschaftlichen Wirklichkeit auf einer anderen Ebene und steht gegen die traditionellen dramatischen Kategorien des bürgerlichen Illusionstheaters. In den siebziger Jahren richtet sich Heiner Müllers schriftstellerische Arbeit nicht nur auf einen umfassenden Wandel der Bedingungsfaktoren und poetologischen Voraussetzungen, sondern auch auf
+Verschiebungen in der dramatischen Konzeption. 
+Nach Müller ist das Fragment die adäquate Form der Darstellung deutscher Geschichte, die ja Fragmentcharakter hat, in der &quot;Gewalt durch Gegengewalt&quot; abgelöst wird, die vom Terror wie von einer roten Spur durchzogen ist, in der &quot;keine Epoche zu Ende gelebt&quot; wurde &apos;negativen Bruch&apos;, weil keine Revolution kam, die einen &apos;positiven Bruch&apos; ermöglicht hätte. Müller betreibt Trauerarbeit, führt Klage. 
+Entgegen der zunehmenden Funktionalisierung des Menschen durch die traditionelle
+Mechanisierung und Technologisierung der Sinnlichkeit setzt Heiner Müller auf ein Modell von Theater als &quot;Laboratorium sozialer Fantasie&quot;. Schließlich entspricht Müllers Konstruktion des Theaters einem &apos;Laboratorium&apos; der &quot;Erkundung und Erweiterung des gesellschaftlichen und kulturellen Möglichkeitsspielraums&quot;.</abstract>
+                    <subject>
+                        <topic>Fragment</topic>
+                        <topic>Intertextualität</topic>
+                        <topic>Dekonstruktion</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 3, Sprach-, Literatur- und Medienwissenschaften"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1250</identifier>
+                    <identifier type="sys">HT013369386</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_125</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2000-12-10</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_125">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/125/1/kim.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_125"
+            DMDID="DMD_siegen_opus_125">
+            <mets:fptr FILEID="FILE0_siegen_opus_125"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_111">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Literarisches Lesen in der Mediengesellschaft</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kim, Yong-Hyun</displayForm>
+                        <namePart type="family">Kim</namePart>
+                        <namePart type="given">Yong-Hyun</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2005</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Das Ziel der Arbeit ist es, einen funktionsorientierten Literaturbegriff vorzustellen, der sich
+mit einem Begriff des Lesens aus konstruktivistischer Perspektive verbindet. Es wird
+versucht, Literarisches Lesen als einen Kommunikatbildungsprozeß bezüglich schriftlicher
+Medienangebote zu bestimmen, der es einem Leser ermöglicht zwischenmenschliche
+Kommunikationsvorgänge zu simulieren, ohne daß der Leser Risiken eingehen muß, die im
+Fall einer nicht erfolgreichen zwischenmenschlichen Kommunikation drohen könnten. Dabei
+läßt sich der besondere Stellenwert des Literarischen Lesens darin sehen, daß das Literarische
+Lesen dazu dient, die Medienkompetenz, die sich nicht nur auf medienbezogene Handlungen,
+sondern auch auf die face-to-face Kommunikation bezieht, zu fördern und zu entwickeln. In
+diesem Sinne bietet der funktionsorientierte Literaturbegriff eine bedeutende Perspektive für
+die Medienpädagogik: Das Literarische Lesen kann und muß nicht nur in die Leseerziehung,
+sondern auch in die Medienerziehung einbezogen werden.</abstract>
+                    <subject>
+                        <topic>Medienkompetenz</topic>
+                        <topic>Lesen</topic>
+                        <topic>Literatur</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 3, Sprach-, Literatur- und Medienwissenschaften"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1117</identifier>
+                    <identifier type="sys">HT014457357</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_111</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2005-07-19</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_111">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/111/1/kim_yh_2.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_111"
+            DMDID="DMD_siegen_opus_111">
+            <mets:fptr FILEID="FILE0_siegen_opus_111"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

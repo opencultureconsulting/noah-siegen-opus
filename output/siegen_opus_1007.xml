@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1007">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Betriebserkundung „online“? Geht das?</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schuhen, Michael</displayForm>
+                        <namePart type="family">Schuhen</namePart>
+                        <namePart type="given">Michael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Froitzheim, Manuel</displayForm>
+                        <namePart type="family">Froitzheim</namePart>
+                        <namePart type="given">Manuel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schulte, Tobias</displayForm>
+                        <namePart type="family">Schulte</namePart>
+                        <namePart type="given">Tobias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die domänenspezifische Unterrichtsmethode der Betriebserkundung stellt einen zentralen Baustein für die Berufsorientierung von Schülerinnen und Schülern dar. Als eine Variante des Praxiskontaktes erhalten die Schüler bei einer Betriebserkundung einen Einblick in ein Unternehmen. Jedoch führt die zunehmende Zahl möglicher Ausbildungsberufe und Stu-dienmöglichkeiten dazu, dass es für junge Erwachsene heutzutage immer schwieriger wird, sich hinreichend über die verschiedenen Angebote zu informieren. Insbesondere Jugendliche aus ländlichen Regionen oder minderjährige Jugendliche stehen vor dem Problem, dass das Unternehmen, das sie gerne kennen lernen möchten oder der Beruf, der sie interessiert, nicht für sie erreichbar sind.
+Deswegen wird im folgenden Aufsatz die Möglichkeit einer Online-Betriebserkundung dargestellt. Ist es möglich, über das Internet einen Betrieb zu erkunden? Welche techni-schen Hilfsmittel können dafür genutzt werden? Wie kann eine Online-Betriebserkundung gestaltet werden?</abstract>
+                    <abstract type="content" lang="eng">The domain-specific teaching method of company exploration represents a central com-ponent in the vocational orientation of students. As a variant of direct practical contact, students gain an insight into a company during a company exploration. The increasing number of possible occupations that require training and of study opportunities, however, lead to the fact that nowadays it is becoming increasingly more difficult for young adults to sufficiently inform themselves about the different offers available. Especially adoles-cents from rural areas or underage adolescents face the problem that the company they would like to become acquainted with or the occupation they are interested in are not accessible to them. 
+Therefore, the possibility of an online company exploration is represented in the following essay. Is it possible to explore a company via the internet? Which technical devices can be used for this purpose? How can an online company exploration be designed and realized?</abstract>
+                    <subject>
+                        <topic>Betriebserkundung</topic>
+                        <topic>Multimediales Lernen</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-10078</identifier>
+                    <identifier type="sys">HT018995051</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1007</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1007">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1007/1/Betriebserkundung_online_Geht_das.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1007"
+            DMDID="DMD_siegen_opus_1007">
+            <mets:fptr FILEID="FILE0_siegen_opus_1007"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

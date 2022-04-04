@@ -1,0 +1,99 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_237">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Autonome Optimierung des Verhaltens von Fahrzeugsteuerungen auf der Basis von Verstärkungslernen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Krödel, Michael</displayForm>
+                        <namePart type="family">Krödel</namePart>
+                        <namePart type="given">Michael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2006</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Fahrsysteme oder Fahrerassistenzsysteme sind bereits seit einigen Jahren
+Bestandteil von Forschungsprojekten. Dabei umfassen diese meist zwei
+wesentliche Bestandteile: die Erfassung der Umwelt sowie die Generierung von
+Steuerungsbefehlen. Die Lernfähigkeit solcher Projekte gewinnt zunehmend an
+Bedeutung und ist der Hauptfokus der vorliegenden Forschungsarbeit - wobei
+Lernfähigkeit als Optimierung von Fahrverhalten verstanden wird, d.h. die
+Auswahl vom optimalen Verhalten für eine jeweilige Situation.
+
+Die vorliegende Arbeit setzt für die Lernfähigkeit erstmals ein System basierend
+auf Verstärkungslernen (Reinforcement Learning) ein – dies im Gegensatz zu
+bisherigen Arbeiten im ähnlichen Umfeld basierend auf Modellierung oder
+Neuronalen Netzen. Im Kern der Arbeit werden Situationen klassifiziert und für
+jede Situation eine mögliche Anzahl von Verhalten ermittelt. Durch
+Verstärkungslernen werden diese Verhalten bewertet und die entsprechenden
+Situationsbewertungen konvergieren über die Zeit. Fazit: es wird autonom
+ermittelt, welche Verhalten in einer Situation angemessen sind und welche nicht.
+
+Neben einer mathematischen Abhandlung über das Konvergenzverhalten von
+Verstärkungslernen-Systemen wird mit unterschiedlichen Testreihen die
+Funktionsweise des o.g. Ansatzes im Rahmen einer konkreten Implementierung
+nachgewiesen und die Konvergenz der Situationsbewertungen untersucht.</abstract>
+                    <abstract type="content" lang="eng">Driver and Driver Assistance Systems move more and more into the focus of
+research projects. Corresponding research areas consist of two main parts: the
+understanding of the environment as well as the generation of steering
+commands. Learning capabilities gain more and more importance and is the
+main aspect of this research. In detail: the term “learning capability” represents
+the optimization of driving behaviour, i.e. the optimized situation-specific
+selection of actions.
+
+The current research implements first-time a system based on Reinforcement
+Learning (RL) – in contrast to many other research work using modeling or
+neural nets. In the light of Reinforcement Learning, situations are being classified
+and possible actions are being identified for each situation. Rewards following
+such actions are used for cumulated ratings which in turn converge over time. In
+the end, the cumulated ratings indicate as to how much an action was
+appropriate for the determined situation.
+
+After a mathematical analysis of Reinforcement Learning methods in general,
+test-series are being analyzed within the framework of a real implementation and
+convergence behaviour as well as driving capabilities are being achieved.</abstract>
+                    <subject>
+                        <topic>autonome Verhaltensoptimierung</topic>
+                        <topic>Fahrassistenzsystem</topic>
+                        <topic>reinforcement learning</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-2371</identifier>
+                    <identifier type="sys">HT014828867</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_237</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2006-05-29</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_237">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/237/1/kroedel.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_237"
+            DMDID="DMD_siegen_opus_237">
+            <mets:fptr FILEID="FILE0_siegen_opus_237"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

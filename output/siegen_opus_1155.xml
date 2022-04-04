@@ -1,0 +1,59 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1155">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>‚Wer suchet, der findet‘ : wie inklusiv ist das Internet?!</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kalisch, Carolin</displayForm>
+                        <namePart type="family">Kalisch</namePart>
+                        <namePart type="given">Carolin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Aufgrund der Aktualität von Medialisierungs- und Kommunikationsprozessen im alltäglichen Leben, nimmt auch die Thematik der digitalen Teilhabe sowie die autonome Mediennutzung einen besonderen Stellenwert in der Inklusionsdebatte ein. Zwei Ziele für die Förderung von digitaler Selbständigkeit und Teilhabe sind zum einen die aktive, autonome Nutzung und Gestaltung sowie Partizipation im und durch das Netz und zum anderen die Erleichterung des Internetzugangs für alle Bevölkerungsgruppen. Zu prüfen ist dabei, wie zugänglich Medien sind und inwieweit eine aktive und selbständige Anwendung und Gestaltung durch die Nutzer möglich ist.</abstract>
+                    <subject>
+                        <topic>Internet</topic>
+                        <topic>Neue Medien</topic>
+                        <topic>Digitale Teilhabe</topic>
+                        <topic>Digitale Spaltung</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11553</identifier>
+                    <identifier type="sys">HT019532252</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1155</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1155">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1155/1/Kalisch_Wer_suchet_der_findet.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1155"
+            DMDID="DMD_siegen_opus_1155">
+            <mets:fptr FILEID="FILE0_siegen_opus_1155"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

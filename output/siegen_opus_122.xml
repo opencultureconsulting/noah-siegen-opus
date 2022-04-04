@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_122">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Ausdrucksweisen der Possessivität im Deutschen und im Arabischen : eine konfrontative Studie</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Elkady, Nourelhoda</displayForm>
+                        <namePart type="family">Elkady</namePart>
+                        <namePart type="given">Nourelhoda</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2001</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Arbeit widmet sich auf funktionaler Grundlage der Untersuchung
+des semanto-syntaktischen Bereichs &quot;Possessivität&quot; und die daran
+beteiligten hetorogenen Optionen und Operationen im Deutschen und
+im Arabischen. Eine solche Untersuchung stützt sich auf das
+Wechselverhältnis zwischen sprachlicher Form und grammatischsemantischen
+Funktionen. Das Resultat dieses Wechselverhältnises ist
+die Realisierung von possessiven Beziehungen.
+Anhand der Unterscheidung zwischen attributiver und prädikativer
+Possessivität wird versucht, einen Ansatz zu schaffen, durch den eine
+einigermaßen umfassende Darstellung des Bereichs erreicht werden
+kann. Dabei wird zwischen einem Kern- und Rrandbereich
+unterschieden, d.h. zwischen Optionen, die als &quot;fokale Instanz&quot; des
+Bereichs fungieren und anderen, die nur an der Peripherie des Bereichs
+liegen.</abstract>
+                    <subject>
+                        <topic>konfrontative Linguistik</topic>
+                        <topic>Deutsch-Arabisch</topic>
+                        <topic>Possessivität</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 3, Sprach-, Literatur- und Medienwissenschaften"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-1223</identifier>
+                    <identifier type="sys">HT012931573</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_122</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2001-02-05</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_122">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/122/1/elkady.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_122"
+            DMDID="DMD_siegen_opus_122">
+            <mets:fptr FILEID="FILE0_siegen_opus_122"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

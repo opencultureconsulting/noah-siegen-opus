@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1692">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Identifizieren: Theorie und Geschichte einer Medienpraktik</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gießmann, Sebastian</displayForm>
+                        <namePart type="family">Gießmann</namePart>
+                        <namePart type="given">Sebastian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Registrieren, Identifizieren und Klassifizieren sind Praktiken, die in digitalen Kulturen kaum mehr zu trennen sind. Anhand der Mediengeschichte des Passes und der Kreditkarte geht der folgende Text der Frage nach, wie immer neue infrastrukturelle Kaskaden des Identifizierens entstehen und welche öffentliche Brisanz den entsprechenden Datenverarbeitungen innewohnt. Beim Identifizieren handelt es sich um eine ko-operative Medien- und Datenpraktik, an der stets mehr als eine Person beteiligt ist. Sie involviert von Anfang an menschliche Körper samt deren semiotischen Ressourcen und koppelt diese mit bürokratischen Aufschreibesystemen. Auch die neuesten digitalen Prozeduren greifen bevorzugt auf Gesichter und Fingerabdrücke zu: Biometrie versucht, den für das Identifizieren konstitutiven Abstand zwischen Konten, Körpern und Personen aufzuheben.</abstract>
+                    <subject>
+                        <topic>Medientheorie</topic>
+                        <topic>Medientheorie</topic>
+                        <topic>Medientechnik</topic>
+                        <topic>Informationstechnik</topic>
+                        <topic>Mustererkennung</topic>
+                        <topic>Identifizierung</topic>
+                        <topic>Media theory</topic>
+                        <topic>Identification</topic>
+                        <topic>Image recognition</topic>
+                        <topic>Biometrics</topic>
+                        <topic>Data-processing</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16928</identifier>
+                    <identifier type="sys">HT020621006</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1692</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1692">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1692/4/WPS_17_Giessmann.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1692"
+            DMDID="DMD_siegen_opus_1692">
+            <mets:fptr FILEID="FILE0_siegen_opus_1692"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_26">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Modellbildung und modellbasierte Estimation thermodynamischer Prozeßgrößen am Beispiel eines Dieselmotors</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Allmendinger, Klaus</displayForm>
+                        <namePart type="family">Allmendinger</namePart>
+                        <namePart type="given">Klaus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2002</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Aufgrund ständig ansteigender Anforderungen seitens der Abgasgesetzgebung steigt der Bedarf an leistungsfähigen Methoden zur Realisierung eines emissionsminimalen Motorbetriebs für PKW an.
+Der Beitrag dieser Arbeit zu diesem Ziel besteht im Entwurf eines Estimationsalgorithmus zur Bestimmung der AGR-Rate, welche bei Dieselmotoren einen wesentlichen Einfluß auf die NOx-Emision ausübt. Unter Kenntnis dieser
+Größe ist in einem weiteren Schritt der Entwurf eines entkoppelten Reglers für die AGR-Rate und die in den Motor einströmende Luftmasse möglich. Als Entwicklungsgrundlage dient in dieser Arbeit eine umfangreiche Simulationsbasis, welche zum einen in der Lage ist, das vollständige Luftsystem eines modernen Dieselmotors mit Hilfe von Mittelwertmodellen abzubilden und für spezielle Anforderungen um ein kurbelwinkelaufgelöstes Motormodell erweitert werden kann. Bei dem aus einer auf dieser Simulationsbasis eingehenden Systemanalyse hervorgehenden Schätzalgorithmus für die AGR-Rate stellt sich als wesentliches Problem die dynamisch träge Temperatursensorik heraus, welche einer Umsetzung eines instationärtauglichen Algorithmus zur Berechnung der AGR-Rate im Wege
+steht. Nach einer eingehenden numerischen Simulation des verwendeten Temperatursensors ist die Ableitung eines reduzierten Modells möglich, welches das dynamische Verhalten des Sensors relativ genau wiedergibt. Mit der Einbindung dieses Modells in Kalmanfilter gelingt es anschließend einen hochdynamischen Schätzwert der Gastemperatur zu berechnen und somit den Algorithmus zur AGR-Berechnung zu vervollständigen. Die weiteren Ausführungen widmen sich dem Problem von Parameteränderungen des Temperatursensormodells welche durch Verschmutzungen der Sensoroberfläche hervorgerufen werden können. Mit der Hinzunahme eines weiteren Temperatursensors, ist anschließend die Identifikation der veränderlichen Parameter möglich, die unmittelbar dem
+AGR-Schätzalgorithmus zugeführt werden und somit für ein robustes Verhalten der
+Gesamtberechnung gegenüber Parameterdrift führt.</abstract>
+                    <abstract type="content" lang="eng">Together with the presently increasing emission limitations, the necessity for powerful control algorithms to reduce the emissions of internal combustion engines are today more important than ever. Because of the essential influence of the EGR-Rate on the NOx-emissions, it is important for transient engine control, to know the amount of the recirculated exhaust very accurately.
+This research develops a robust and practical means for egr-estimations in combustion engines. To find out the relationship between the subsystems, a complete simulation model of the diesel engine air system is realised. This simulation environment includes the thermodynamics of the entire air system of a diesel engine with an intercooler, a vtg-turbo charger, the intake and exhaust manifold, the egr-system and a mean value engine model. In extension to the mean-value-engine model an optional calculation time optimised crankshaft-
+angle-domain combustion model is developed. This model allows the simulation of
+interactions between the air-system and the fuel hydraulics. Based on this simulation environment and analysis of the thermodynamics an algorithm for the egr is determined. To adapt this approach to a real system, the sensor dynamics have to meet certain technical requirements. These requirements are fulfilled for almost every needed sensor with the exception of the temperature sensor which has slow dynamic characteristics, and is moreover influenced by deposits on the sensor hull. This restriction leads directly to an intensive analysis of the specific sensor and the transfer function between the gas temperature and the sensor outputs. The analysis starts with a numeric simulation of the energy transport inside the sensor and the heat transfer between the gas and the sensor hull. Based on these investigations, a third order, non-linear model of the sensor reactions is developed and is used in combination with a kalman filter to estimate the transient gas temperature, without a significant loss in dynamics. With an implementation of the gas temperature estimations, the original algorithm is extended to estimate the transient changes of the exhaust gas
+recirculation. In a further step, and with the use of another temperature sensor, an algorithm is developed, that is able to identify the variable parameter of the sensor model. With an on-line implementation of the parameter identification, the robustness of the egr estimation algorithm has been considerably improved.
+Finally, an outlook for a decoupled control of the egr and the charge pressure based on the egr-estimation is given.</abstract>
+                    <subject>
+                        <topic>Dieselmotor</topic>
+                        <topic>Luftpfadmodell</topic>
+                        <topic>AGR</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-261</identifier>
+                    <identifier type="sys">HT013858198</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_26</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2002-06-16</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_26">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/26/1/allmendinger.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_26"
+            DMDID="DMD_siegen_opus_26">
+            <mets:fptr FILEID="FILE0_siegen_opus_26"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

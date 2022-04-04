@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_276">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Fault tolerant operation of series connected H-bridge multilevel inverters</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Correa Vasquez, Pablo</displayForm>
+                        <namePart type="family">Correa Vasquez</namePart>
+                        <namePart type="given">Pablo</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2006</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Die vorliegende Arbeit befasst sich mit dem theoretischen und experimentellen Erforschung des Fehlertolerantbetriebs von einem H-Brücke Mehrpunkt-Wechselrichter. Dieser Art von Wechselrichter besteht aus mehrere hintereinander geschaltete H-Brücken, die so genanten
+Zellen, die eine Phasenspannung mit mehreren Stufen erzeugen können.
+Im Fehlerfall, können die Zellen überbrückt werden um den Fehlertolerantbetrieb des Wechselrichters zu ermöglichen. Diese Lösung verursacht eine Unsymmetrie in der Topologie die durch die Anpassung des Pulsbreitmodulators und die Regelverfahren kompensiert werden kann. Zwei verschiedene Modulationverfahren für Mehrpunktwechselrichter wurden untersucht, die Standard Phase Shift-PWM (PS-PWM)und Raumzeigermodulation. Andere Aspekte wie die Erzeugung der Schaltpulsen und die Optimierung des Sequenzen wurden auch im Betracht gekommen. Die vorgeschlagenen Steuerverfahren wurden schließlich in einem Laborprototyp untersucht.</abstract>
+                    <subject>
+                        <topic>Wechselrichter</topic>
+                        <topic>Mehrpunktwechselrichter</topic>
+                        <topic>Multilevel Inverters</topic>
+                        <topic>Fault Tolerant</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-2764</identifier>
+                    <identifier type="sys">HT015030603</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_276</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2006-08-30</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_276">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/276/1/correa_vasquez.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_276"
+            DMDID="DMD_siegen_opus_276">
+            <mets:fptr FILEID="FILE0_siegen_opus_276"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

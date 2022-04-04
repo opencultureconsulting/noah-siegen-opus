@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1235">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Rechtliche Perspektive</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Fröschle, Tobias</displayForm>
+                        <namePart type="family">Fröschle</namePart>
+                        <namePart type="given">Tobias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die praktische Tätigkeit eines Juristen besteht in der Anwendung des geltenden Rechts auf den Lebenssachverhalt, der seinen „Fall“ bildet. Das beginnt immer mit der Ausgangsfrage: „Wer will was von wem und warum?“ Das konkrete Geschäft der Rechtsanwendung besteht in der Anwendung von Rechtsnormen, mit deren Hilfe aus dem Vorliegen bestimmter tatsächlicher Umstände auf das Eingreifen einer bestimmten Rechtsfolge geschlossen werden kann. Rechtsnormen sind abstrakt-generelle Konditionalsätze. Sie ordnen an, dass aus bestimmten abstrakt formulierten Bedingungen - die wir den Tatbestand der Norm nennen - bestimmte Folgerungen - die wir die Rechtsfolge der Norm nennen - gezogen werden.</abstract>
+                    <subject>
+                        <topic>Soziale Arbeit</topic>
+                        <topic>Rechtsanwendung</topic>
+                        <topic>Rechtsnormen</topic>
+                        <topic>Syllogismus</topic>
+                        <topic>Gesetzsystematik</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-12356</identifier>
+                    <identifier type="sys">HT019893286</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1235</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1235">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1235/1/Froeschle_Rechtliche_Perspektive.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1235"
+            DMDID="DMD_siegen_opus_1235">
+            <mets:fptr FILEID="FILE0_siegen_opus_1235"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

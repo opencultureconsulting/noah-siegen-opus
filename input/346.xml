@@ -1,0 +1,67 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>346</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Verdunstungsprozesse von Mikrotropfen: Modellierung, Simulation und Datenanalyse</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="eng">Evaporation processes of microdrops: modelling, simulation and data analysis</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Thomas</pc:foreName>
+            <pc:surName>Haschke</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Mikrotropfen</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Tropfenverdunstung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Lab-on-Microchip</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Simulation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">AFM-Cantilever</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Microdrops</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Drop Evaporation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Lab-on-Microchip</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Simulation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">AFM-Cantilever</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die vorliegende Arbeit entstand an der Universität Siegen innerhalb der Forschergruppe „Physikalische und chemische Grundlagen, Komponenten und Systeme für die Lab-on-Microchip Technologie“ in einem Teilprojekt mit dem Schwerpunkt auf der Untersuchung von Verdunstungsprozessen von Mikrotropfen. In enger Kopplung an die am Mainzer Max-Planck-Institut für Polymerforschung durchgeführten Experimente wurden neue Erkenntnisse im Hinblick auf das komplexe Zusammenspiel physikalisch-chemischer Prozesse bei Tropfenverdunstungsprozessen auf der Mikro- und Nanometerskala gewonnen. Dies gelang durch die Entwicklung neuer Modellierungsansätze, den zielgerichteten Einsatz von Simulationen und der anschließenden Datenanalyse. Ziel der vorliegenden Arbeit ist es, die durchgeführten experimentellen Arbeiten zu unterstützen, indem &#13;
+-	neue experimentelle Methoden validiert werden &#13;
+-	bestimmte Effekte und Phänomene untersucht werden, die (noch) nicht experimentell untersucht werden konnten&#13;
+-	aus den Simulationsergebnissen abgeleitete Vorschläge für einen verbesserten experimentellen Aufbau gegeben werden.&#13;
+Im ersten Teil der Arbeit „Cantilever“ werden einerseits die durch den Verdunstungsprozess von Mikrotropfen hervorgerufenen elastischen Deformationen eines AFM-Cantilevers mit Hilfe eines neuentwickelten 3D-Simulationsmodells untersucht. Andererseits wird die experimentelle Erweiterung der sogenannten Cleveland-Methode zur Kalibrierung von AFM-Cantilevern durch automatisierte Finite Elemente Simulationen validiert. In beiden Fällen sind Ergebnisse erzielt worden, die im Bereich der angenommenen Fehlertoleranz der etablierten Methoden liegen.&#13;
+Der zweite Teil der Arbeit stellt ein Werkzeug zur Profilanalyse regelmäßig strukturierter Oberflächen (Mikrokrater) vor, wie sie z. B. durch den Verdunstungsprozess von Toluol-Tropfen auf Polystyrol-Substraten entstehen (s. dritter Teil der Arbeit). Das Werkzeug beschreibt die Originalkrater durch einen gemittelten Rotationsellipsoid, der durch einen B-Spline definiert wird. Die „Form“ des B-Splines wird durch die Minimierung einer Fehlerquadratsumme mit Hilfe eines Genetischen Algorithmus „optimal“ an die Rohdaten angepasst. Aus den Parametern des B-Splines werden abschließend globale geometrische Parameter abgeleitet, die eine automatische statistische Analyse ermöglichen.&#13;
+Der Verdunstungsprozess von Toluol-Tropfen auf Polystyrol-Substraten wird im dritten Teil der Arbeit beschrieben. Dazu wurde ein neuer, auf einem bereits bestehenden Modell aufbauender Modellierungsansatz zur Beschreibung des Verdunstungsprozesses von mikrometer-großen Toluol-Tropfen auf einem Polystyrol-Substrat entwickelt. Eine Verbesserung gegenüber dem Vorgängermodell wird vor allem durch eine konsequente Formulierung des Modells in Form partieller Differentialgleichungen und der Implementierung in der adaptiven Finite Elemente Bibliothek DEAL erzielt. Auf diese Weise wurde in erster Linie die numerische Genauigkeit erhöht. Zusätzlich wird der Einfluss von einigen wichtigen Systemparametern auf das resultierende Kraterprofil mit dem bestehenden Simulator im Rahmen von Sensitivitätsanalysen untersucht.&#13;
+Im vierten Teil der Arbeit werden die erzielten Ergebnisse der drei ersten, für sich abgeschlossenen Teile zueinander in Relation gesetzt, um so neue Erkenntnisse zu gewinnen. Abschließend erfolgen eine kapitelübergreifende Diskussion und ein Ausblick auf mögliche Anknüpfungspunkte für weitere wissenschaftliche Arbeiten.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2008-03-06</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2008</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-3463</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Systemtechnik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="haschke.pdf" ddb:fileSize="10654674"/>
+   <ddb:checksum ddb:type="MD5">545bad96f9c3d4f33281b4ee94ae881e</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/346/1/haschke.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/346</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

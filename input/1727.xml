@@ -1,0 +1,71 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1727</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Fault injection framework for time-triggered systems</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Framework zur Fehlereinstreuung in zeitgesteuerten Systemen</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Daniel</pc:foreName>
+            <pc:surName>Onwuchekwa</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Fault Injection</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Time Sensitive Networking</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">TTEthernet</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Dependability Evaluation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">This thesis presents a methodology and tool for verifying and validating the integrated system behaviour of time-triggered Ethernet networks. The determinism and sufficient bandwidth provided by time-triggered Ethernet network make it appealing for building safety-critical systems in different domains such as railway, aviation, health, and automobile. Many applications in these domains impose stringent dependability requirements. Therefore, verification and validation are often required at most stages of the development process when designing these systems.&#13;
+      &#13;
+    Due to the complexity of time-triggered network protocols, design engineers mostly employ formal methods and simulations as the verification and validation techniques. However, these methods mainly verify and validate only certain functions of the time-triggered protocol and not the integrated system behaviour. The reasons stem from the downsides of these approaches. The formal method suffers from a state-space explosion when modelling complex systems, and simulators do not sufficiently model certain complex functionality.  Simulators also require cross-verification from a physical network to gain better confidence. Since evaluating the physical realisation of time-triggered Ethernet networks results in the best confidence levels, this work then focuses on the use of fault injection on physical devices for this purpose.&#13;
+ &#13;
+    This work proposes a novel and topology independent cut-through fault injection framework that can be used to evaluate the integrated system behaviour of time-triggered Ethernet networks. This work also describes a technique that can be used for failure detection in time-triggered networks during the synchronisation startup before the establishment of global time. It furthermore presents a discussion of experimental procedure(s) and results that demonstrate the use of the fault injection framework for the evaluation of a selection of different use cases. The Experiments carried out herein confirms how the novel fault injection framework surpasses other time-triggered Ethernet frameworks by satisfying a set of collective requirements which mainly include low-intrusiveness, portability, and the abstraction of fault injection component from the network under test.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">In dieser Dissertation wird eine Methodik zur Verifizierung und Validierung des Verhaltens von integrierten System vorgestellt, die auf zeitgesteuerten Ethernet-Netzwerken basieren. Der Determinismus und die ausreichende Bandbreite, die durch ein zeitgesteuertes Ethernet-Netzwerk bereitgestellt werden, ermöglichen die Konstruktion sicherheitskritischer Systeme in verschiedenen Bereichen wie Eisenbahn, Luftfahrt, Gesundheit und Automobil. Viele Anwendungen in diesen Bereichen stellen hohe Anforderungen an die Zuverlässigkeit. Deshalb sind Verifizierung und Validierung in den meisten Phasen des Entwicklungsprozesses sicherheitskritischer Systeme erforderlich.&#13;
+      &#13;
+    Aufgrund der Komplexität von zeitgesteuerten Netzwerkprotokollen verwenden Entwickler meist formale Methoden und Simulationen als Verifikations- und Validierungstechniken. Allerdings  verifizieren und validieren diese Methoden hauptsächlich bestimmte Funktionen der zeitgesteuerten Protokolle und nicht das Verhalten des integrierten Systems. Die Gründe dafür liegen in den Nachteilen dieser Ansätze. Die Modellierung komplexer Systeme führt bei der Benutzung formaler Methoden zu einer Explosion des Zustandsraums und Simulatoren modellieren bestimmte komplexe Funktionen nicht ausreichend.  Des Weiteren erfordern Simulatoren eine zusätzliche Verifizierung durch ein physikalisches Netzwerk, um die Aussagekräftigkeit zu verbessern. Da die Evaluierung der physikalischen Realisierung von zeitgesteuerten Ethernet-Netzwerken zu den besten Ergebnissen führt, konzentriert sich diese Arbeit auf die Anwendung der Fehlerinjektion auf physikalische Geräte.&#13;
+ &#13;
+    Diese Dissertation schlägt ein neuartiges und topologieunabhängiges Cut-Through-Fehler- injektions-Framework vor, welches das integrierte Systemverhalten von zeitgesteuerten Ethernet-Netzwerken auswerten kann. Sie bietet zudem eine Lösung für die Fehlererkennung in zeitgesteuerten Netzwerken während des Synchronisationsstarts, bevor eine globale Zeit festgelegt wird. Darüber hinaus werden experimentelle Verfahren und Ergebnisse diskutiert, die die Verwendung des Fehlerinjektions-Frameworks für die Bewertung einer Auswahl verschiedener Anwendungsfälle demonstrieren. Die hier durchgeführten Experimente bestätigen, wie das neuartige Framework andere zeitgesteuerte Ethernet-Frameworks übertrifft, indem es die kollektiven Anforderungen erfüllt. Hierzu gehören geringe Störanfälligkeit, Portabilität und die Abstraktion der Fehlerinjektionskomponente aus dem zu testenden Netzwerk.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Roman</pc:foreName>
+            <pc:surName>Obermaisser</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2020-10-09</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2020</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-17270</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/lizenz.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Department Elektrotechnik - Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Daniel_Lucky_Onwuchekwa.pdf" ddb:fileSize="3385058"/>
+   <ddb:checksum ddb:type="MD5">f44b9d19aae2920b9096e9c53293074e</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1727/3/Dissertation_Daniel_Lucky_Onwuchekwa.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1727</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

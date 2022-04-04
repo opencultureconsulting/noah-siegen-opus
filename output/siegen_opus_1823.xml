@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1823">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Referencing in academia</title>
+                        <subTitle lang="eng">video essay, mashup, copyright</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Voigts, Eckart</displayForm>
+                        <namePart type="family">Voigts</namePart>
+                        <namePart type="given">Eckart</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Marshfield, Katerina</displayForm>
+                        <namePart type="family">Marshfield</namePart>
+                        <namePart type="given">Katerina</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Eckart Voigts and Katerina Marshfield focus on videographic essays as a genuine form of scientific or intellectual performance. They report from a student project entitled “Producing and Podcasting Film Analytical Audio Commentaries” and characterise these productions as a new form of learning and a possibility to appropriate a certain degree of multiliteracy. Especially mashups allow for mixing texts, footage, images, and sounds without having to create substantial semiotic expressions. Mashups and videographic essays are becoming increasingly important as a multi-channel cultural technique for constituting, exchanging, and presenting meanings, ideas, and materials, both for establishing amateur media studies as well as for emerging professional and academic approaches. In their contribution, they discuss the lack of established criteria for such kind of audio-visual student work as well as the lack of clarity regarding copyright issues when referencing audio-visual material.</abstract>
+                    <subject>
+                        <topic>Copyright</topic>
+                    </subject>
+                    <classification authority="ddc">302</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-18231</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1823</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1823">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1823/4/Voigts_Marshfield_Referencing.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1823"
+            DMDID="DMD_siegen_opus_1823">
+            <mets:fptr FILEID="FILE0_siegen_opus_1823"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1129">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Mechanismenbasierte Modellierung und Simulation des VHCF-Wechselverformungsverhaltens austenitischer Edelstähle</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Mechanism-based modelling and simulation of the VHCF deformation behaviour of austenitic stainless steels</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hilgendorff, Philipp-Malte</displayForm>
+                        <namePart type="family">Hilgendorff</namePart>
+                        <namePart type="given">Philipp-Malte</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In der vorliegenden Arbeit wird ein Modell zur Beschreibung des VHCF-Wechselverformungsverhaltens eines metastabilen und eines stabilen austenitischen Edelstahls vorgestellt und mit Hilfe einer erweiterten numerischen Randelementemethode gelost. Aufbauend auf experimentellen Untersuchungen des Ermüdungsverhaltens beider Werkstoffe bis hin zu sehr hohen Zyklenzahlen (engl. very high cycle fatigue, VHCF) werden in dem Modell charakteristische Mechanismen für die plastische Verformung in Gleitbändern und die deformationsinduzierte Phasenumwandlung von Austenit zu α`-Martensit abgebildet. Als numerische Methode dient eine zweidimensionale Randelementemethode, die hinsichtlich der Beschreibung elastisch anisotroper Eigenschaften und der räumlichen Verformungsbeschreibung erweitert wird. Die Losung des Modells mit der numerischen Methode erlaubt die Simulation der zyklischen plastischen Verformung in zweidimensionalen Gefügestrukturen. In erweiterten Studien gehen ebenfalls der Einfluss eines vorverformten Zustandes und einer moderaten Temperaturerhohung mit ein. Die Simulationsergebnisse werden einerseits direkt mit der beobachteten Verformungsentwicklung auf realen Probenoberflächen verglichen und andererseits auf Basis des Resonanzverhaltens der Ermüdungsproben und der modellierten Gefüge einander gegenübergestellt. Gute Übereinstimmungen der Ergebnisse bestätigen die Modellannahmen, wodurch ein Beitrag für ein tiefergehendes Verständnis des VHCF-Wechselverformungsverhaltens der beiden austenitischen Edelstähle geleistet werden kann.</abstract>
+                    <abstract type="content" lang="eng">In this work, a model describing the VHCF deformation behaviour of a metastable and a stable austenitic stainless steel is presented and solved by means of a boundary element method. Based on the experimental examination of the fatigue behaviour of both alloys until very high number of loading cycles (very high cycle fatigue, VHCF) characteristic mechanisms of plastic deformation in shear bands and of deformation-induced phase transformation from the austenite to the α`-martensite are described. A 2-D boundary element method is extended regarding the description of elastic anisotropic properties and the calculation of spatial deformation. Solving the model by using the boundary element method allows simulating the cyclic plastic deformation within two-dimensional microstructures. In extended studies, the effect of a predeformed condition and of a moderate increase of temperature is also considered. Simulation results are directly compared to the observed deformation evolution on real fatigue specimen surfaces and, in addition, a comparison is carried out on the basis of the resonant behaviour of fatigue specimens and of modelled microstructures. Good accordance of results confirms the model assumptions and thereby provides a more profound understanding of the VHCF deformation behaviour of both austenitic stainless steels.</abstract>
+                    <subject>
+                        <topic>Ermüdung bei sehr hohen Lastspielzahlen</topic>
+                        <topic>Wechselverformung</topic>
+                        <topic>Austenitischer Edelstahl</topic>
+                        <topic>Mesoskopische Simulation</topic>
+                        <topic>Vorverformung</topic>
+                        <topic>Resonanzverhalten</topic>
+                        <topic>Very high cycle fatigue</topic>
+                        <topic>Austenitic stainless steels</topic>
+                        <topic>Mesoscopic simulation</topic>
+                        <topic>Cyclic deformation mechanisms</topic>
+                        <topic>Resonant behaviour</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Mechanik und Regelungstechnik - Mechatronik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11298</identifier>
+                    <identifier type="sys">HT019356579</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1129</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2017-04-13</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1129">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1129/1/Dissertation_Philipp_Malte_Hilgendorff.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1129"
+            DMDID="DMD_siegen_opus_1129">
+            <mets:fptr FILEID="FILE0_siegen_opus_1129"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

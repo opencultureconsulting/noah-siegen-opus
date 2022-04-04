@@ -1,0 +1,91 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_204">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Signalverarbeitungsverfahren und virtuelle Instrumente zur Messung von elektrischen Signalen und zur Fehlerdiagnose an Maschinen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Liu, Zhongdong</displayForm>
+                        <namePart type="family">Liu</namePart>
+                        <namePart type="given">Zhongdong</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2006</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Es wird in dieser Arbeit gezeigt, dass sich die Chirp-z-Transformation (CZT) und das
+Zeropadding-Verfahren (ZP), kombiniert mit der Anwendung geeigneter Fensterfunktionen,
+zur Bestimmung der Größen von Spannungs- und Stromsignalen bezüglich der
+Zuverlässigkeit bei kurzen Messzeiten eignen. Die allgemeinen Bedingungen für die
+Anwendung der CZT bzw. des ZP bei reellen Multifrequenz-Signalen unter dem Einsatz der
+Fensterfunktionen dargestellt. Der Einfluß eines reellen weißen Rauschsignals auf die
+geschätzten Größen eines reellen Multifrequenz-Signals wurde untersucht.
+Das TDA-Verfahren wird zur Verarbeitung der harmonischen Komponenten der
+Ausgangssignale eines Frequenzumformers untersucht. Zur Detektion und Messung der
+interharmonischen Komponenten wird ein digitales Differenz-Filter vorgestellt. Die
+Anwendbarkeit des TDA-Verfahrens und des digitalen Differenz-Filters wird durch die
+Ergebnisse aus Simulationen und praktischen Anwendungen gezeigt.
+Virtuelle Instrumente wurden zur Fehldiagnose und Schwingungsanalyse an
+Planetengetrieben entwickelt. Die praktischen Anwendungen zeigen, dass das Spektrum der
+demodulierten hochfrequenten mechanischen Schwingungen – Hüllkurvenspektrum – eine
+spektrale Struktur bei den Frequenzen enthält, die mit den Fehlern auf Innenring- oder
+Außenringlaufbahn in Verbindung stehen.</abstract>
+                    <abstract type="content" lang="eng">It will be shown that the chirp-z-transform and zero-padding, combined with a appropriate
+window, are suitable for the estimation of the parameters of the voltage and current signals
+with moderate computational complexity. Through the analysis of the spectral interference in
+the discrete time Fourier transform the conditions for the simultaneous use of the windows
+and the chirp-z-transform or zero-padding will be presented. The statistical errors of the
+estimations will be discussed.
+The time domain averaging will be here investigated to process harmonic components in the
+output signals of frequency converters. For the detection and measurement of interharmonics
+a digital difference-filter will be proposed. Simulations and field test results are provided to
+illustrate the utility of the time domain averaging and the difference-filter.
+Based on the analysis of the faults of gears and rolling bearings the virtual instruments for the
+fault diagnosis and vibration analysis in epicyclic gearboxes are developed. The practical
+applications show that the spectrum of the demodulated high-frequency vibration – envelope
+spectrum – contains a pattern of spectral lines at frequencies which can be related to the faults
+on the inner or outer race of rolling bearings.</abstract>
+                    <subject>
+                        <topic>virtual instruments</topic>
+                        <topic>fault diagnosis in machines</topic>
+                        <topic>vibration analysis</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-2047</identifier>
+                    <identifier type="sys">HT014613194</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_204</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2006-01-09</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_204">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/204/1/liu.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_204"
+            DMDID="DMD_siegen_opus_204">
+            <mets:fptr FILEID="FILE0_siegen_opus_204"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

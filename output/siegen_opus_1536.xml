@@ -1,0 +1,130 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1536">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Grammar-based compression for strings and trees</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Grammatik-basierte Kompression von Wörtern und Bäumen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hucke, Danny</displayForm>
+                        <namePart type="family">Hucke</namePart>
+                        <namePart type="given">Danny</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lohrey, Markus</displayForm>
+                        <namePart type="family">Lohrey</namePart>
+                        <namePart type="given">Markus</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Das Ziel grammatik-basierter Datenkompression ist es ein Wort (oder einen
+Text) durch eine kontextfreie Grammatik darzustellen, die ausschließlich dieses
+Wort erzeugt. Eine kontextfreie Grammatik mit dieser Eigenschaft wird als
+Straight-line Program (SLP) bezeichnet. Grammatik-basierte Kompression ist
+ein nützliches Werkzeug um Daten zu komprimieren und verschiedene Anfragen
+effizient mit Hilfe der komprimierten Repräsentation zu beantworten ohne diese
+vorher zu dekomprimieren. Im ersten Teil dieser Arbeit werden die grammatikbasierten
+Kompressoren LZ78, BiSection, RePair, Greedy und LongestMatch untersucht,
+die zu den bekanntesten Algorithmen in diesem Bereich zählen. In der
+bedeutenden Veröffentlichung &quot;The smallest grammar problem&quot; von Charikar et
+al. wurden untere und obere Schranken für die Approximationsgüte verschiedenster
+grammatik-basierter Kompressoren gezeigt, darunter die oben genannten.
+Leider besteht für jeden Algorithmus eine Lücke zwischen der unteren und oberen
+Schranke. In dieser Arbeit werden diese Lücken für die Kompressoren LZ78 und
+BiSection geschlossen. Des Weiteren werd für RePair und für Greedy die unteren Schranken verbessert.
+Ein weiteres Ergebnis dieser Arbeit verbessert
+ein Resultat von Arpe und Reischuk, welches grammatik-basierte Kompression
+ über beliebigen Alphabeten und binären Alphabeten verbindet.
+Im zweiten Teil dieser Arbeit betrachten wir grammatik-basierte Kompression
+für Bäume. Das Prinzip ist ähnlich, da in diesem Kontext ein Baum durch eine
+lineare, kontextfreie Baumgrammatik erzeugt wird. Eine solche Grammatik
+wird Tree Straight-line Program (TSLP) genannt. Als Hauptresultat in diesem
+Zusammenhang werden zwei Algorithmen präsentiert, die für einen Baum mit n
+Knoten und konstant vielen verschiedenen Beschriftungen der Knoten ein TSLP der Gr öße
+O(n/log n) generieren. Zusätzlich wird erreicht, dass das TSLP logarithmische
+Tiefe hat. Diese Eigenschaften können in logarithmischen Platz oder alternativ
+in linearer Zeit erreicht werden. Entsprechende Resultate für grammatik-basierte
+Kompression von Wörtern sind wohl bekannt.
+Es werden zusätzlich zwei Anwendungen präsentiert: Zuerst werden TSLPs
+für die Umwandlung von arithmetischen Formeln zu arithmetischen Schaltkreisen
+der Größe O((n*log m)/log n) und Tiefe O(log n) genutzt, wobei n die Größe
+der Formel und m die Anzahl verschiedener Variablen in der Formel ist. Als
+zweite Anwendung wird eine binäre Kodierung von unbeschrifteten Binärbäumen
+auf der Basis von grammatik-basierter Baumkompression präsentiert. Es wird
+gezeigt, dass diese Kodierung unter gewissen Voraussetzungen asymptotisch
+optimal ist.</abstract>
+                    <abstract type="content" lang="eng">The goal of grammar-based compression is to represent a string by a small context-free grammar that produces only this string.
+Such a grammar is called a straight-line program (SLP).
+Grammar-based compression is a powerful tool to efficiently store data and process the compressed representation without decompressing it.
+In the first part of this work, we study the grammar-based compressors LZ78, BiSection, Repair, Greedy and LongestMatch, which are among the most popular compressors in this area.
+In the seminal work &quot;The smallest grammar problem&quot; by Charikar et al., the authors derived lower and upper bounds on the approximation ratios of several grammar-based compressors including the algorithms mentioned above.
+Unfortunately, for none of the compressors the presented bounds matched.
+Here, we close the gaps for LZ78 and BiSection.
+For RePair and Greedy we improve the lower bounds.
+Moreover, we improve a result of Arpe and Reischuk which relates grammar-based compression for arbitrary alphabets and binary alphabets.
+In the second part of this work, we consider grammar-based compression for trees.
+The main principle is similar, because the goal is to represent a tree by a small linear context-free tree grammar that produces only this tree.
+Such a tree grammar is called a tree straight-line program (TSLP).
+As a main contribution, we present two algorithms that produce a TSLP of size O(n/log n) for any given tree with n nodes and a constant set of node labels, where we assume that the maximal number of children of a node in the tree is also bounded by a constant.
+Additionally, the obtained TSLP has logarithmic depth.
+We show that those properties can be achieved in logarithmic space, or alternatively, in linear time.
+Similar results on the worst-case size of SLPs are well known.
+
+We use our constructions for two applications: First, we apply TSLPs to the problem of transforming arithmetical formulas
+into equivalent circuits of size O((n*log m)/log n) and depth O(log n), where n is the size of the formula and m is number of different variables occurring in the formula.
+As a second application, we present a binary encoding of unlabeled binary trees based on grammar-based tree compression.
+We prove that this encoding is worst-case universal and thus asymptotically optimal for certain tree sources.</abstract>
+                    <subject>
+                        <topic>Datenkompression</topic>
+                        <topic>Kompression</topic>
+                        <topic>Bäume</topic>
+                        <topic>Grammar-based compression</topic>
+                        <topic>strings</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Theoretische Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-15361</identifier>
+                    <identifier type="sys">HT020324646</identifier>
+                    <accessCondition type="use and reproduction">CREATIVECOMMONS.ORG PUBLICDOMAIN ZERO 1.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1536</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2019-11-25</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1536">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1536/4/Dissertation_Danny_Hucke.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1536"
+            DMDID="DMD_siegen_opus_1536">
+            <mets:fptr FILEID="FILE0_siegen_opus_1536"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

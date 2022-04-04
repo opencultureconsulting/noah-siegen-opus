@@ -1,0 +1,65 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1123</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Algorithmusunterstützte Multisensorintegration zur langzeitstabilen Objektverfolgung und Bewegungserkennung</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Mustafa</pc:foreName>
+            <pc:surName>Kamil</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Inertialvermessung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Inertiale Navigation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Multisensorintegration</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Estimationstheorie</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Inertial navigation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Estimation theory</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Pattern Recognition</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">621</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die für die inertiale low-cost Navigation verwendete, sehr kleine, leichte und hochverfügbare Hardware erlaubt die Nutzung MEMS-basierter inertialer Sensoren, die eine besonders kostengünstige und flexible Realisierbarkeit einer breiten Fülle industrieller, medizinischer oder konsumorientierter Anwendungen bieten. Die Anwendbarkeit dieser Sensoren wurde bislang allerdings aufgrund ihrer Leistungsfähigkeit lediglich auf einfache, nichtintelligente Anwendungen in Smartphones, Tablet-PCs, etc. begrenzt, beispielsweise zur Schockerkennung, zur Vibrations¬messung oder zur orientierungsabhängigen Rotation der Bildschirmanzeige.&#13;
+Die Motivation der vorliegenden Arbeit liegt in der Erweiterung der aktuell verfügbaren Anwendungsbandbreite kostengünstiger inertialer Navigationssysteme (auch: INS) um intelligente Applikationen der langzeitstabilen Objektverfolgung und Bewegungserkennung. &#13;
+Bei der Objektverfolgung wird eine Sensordatenfusion zwischen einem Low-cost INS und einem GPS-Referenznavigationssystem auf Basis einer indirekten Kalman-Filterung realisiert. Dabei wird das Potential der Zweifilterglättung validiert, die während möglicher Ausfälle der Referenznavigation schnell anwachsenden Fehler der inertialen Navigation zu reduzieren. Eine Vereinfachungsmethode wird angewandt, um die Berechnung inverser Kovarianzmatrizen bei der Glättung zu vermeiden, sodass numerischen Instabilitäten vorgebeugt und die algorithmische Effizienz gesteigert werden können.&#13;
+Mit dem Ziel der Entwicklung einer zuverlässigen und einfachen Möglichkeit einer computergestützten Bewegungsanalyse und –validierung als einer Schlüsseltechnologie zur Optimierung von Bewegungsabläufen stellt die vorliegende Arbeit eine algorithmische Grundlage zur referenzlosen Bewegungserkennung unter Nutzung kosten-günstiger inertialer Sensoren zur Verfügung. Der vorgestellte Ansatz basiert auf der Theorie der Hidden-Markov-Modelle sowie auf der stochastischen Modellierung inertial messbarer Bewegungsprofile mit Hilfe von Markov-Ketten.&#13;
+Die Ergebnisse der Arbeit werden durch eine Reihe von Experimenten hinsichtlich der Zuverlässigkeit und der Stabilität der vorgestellten Ansätze validiert. Die finalen Lösungen arbeiten eigenständig, sind kostengünstig, klein, leicht und lassen dabei eine unbeschränkte Langzeitanwendung zu.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Since the required hardware for low-cost inertial navigation is very small, low-weight and widely available in the market, using MEMS-based sensors promises various industrial, medical or consumer entertainment applications to be realized at very low manufacturing costs. Due to the performance these sensors have shown, their applicability such as shaking detection, vibration measurement or orientation-dependent screen view rotation, has been limited to just simple, non-intelligent tasks in smart phones, tablets etc. &#13;
+The present research is motivated by enhancing the currently available applicability of low-cost inertial navigation systems (also: INS), towards intelligent applications of long-term object tracking and motion recognition. &#13;
+The object tracking makes use of a loose coupling integration method based on Kalman-filtering in order to realize a sensor fusion between low-cost INS and GPS reference navigation. This work shows the performance of two-filter-smoothing to reduce the growth of errors during potential outages of the reference navigation. A simplification technique is applied to avoid the calculation of inverse covariance matrices for the smoothing, which reduces the possibility of numerical instabilities while increasing the algorithms’ efficiency. &#13;
+Aiming towards a reliable and simple possibility of computer-assisted motion analysis and validation as a key for motion optimization, the present work provides an algo-rithmic framework for reference-less motion analysis and validation using low-cost inertial sensors. The developed algorithms are based on the theory of Hidden-Markov-Models and on stochastical modelling of inertially measurable motion profiles using Markov-chains. &#13;
+The research results are validated by a series of experiments in order to verify the reliability and the stability of the present approaches. The final solutions are stand-alone, low-cost, miniature-size and low-weight, while being capable of unlimited long-term operation.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2017-01-16</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2017</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-11237</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>NRW-Zentrum für Sensorsysteme (ZESS)</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Mustafa_Kamil.pdf" ddb:fileSize="19424910"/>
+   <ddb:checksum ddb:type="MD5">91792816ba1defa5b7a407198d755601</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1123/1/Dissertation_Mustafa_Kamil.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1123</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

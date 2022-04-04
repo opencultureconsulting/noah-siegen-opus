@@ -1,0 +1,62 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1208">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Das </nonSort>
+                        <title>Feld der Geflüchtetenproteste : die Non-Citizens als Virtuosengemeinschaft</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kewes, Andreas</displayForm>
+                        <namePart type="family">Kewes</namePart>
+                        <namePart type="given">Andreas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Geflüchtetenproteste der Jahre 2012 bis 2014 haben der Situation von Migrant_innen in Deutschland eine gewisse Aufmerksamkeit gebracht. Mit Demonstrationen wurde eine bis dato nicht da gewesene Mobilisierung in  diesem Protestfeld erreicht, nachdem die Situation der Flüchtlinge in Deutschland seit den  Übergriffen der 1990er Jahre eigentlich kaum noch Gegenstand kontinuierlicher politischer Debatte  war. Doch die Proteste sind wieder weniger sichtbar geworden, haben vielleicht sogar in ihrem Mobilisierungspotential nachgelassen. Der Beitrag widmet sich diesen Protesten und den jüngsten Zyklus der Proteste genauer betrachten. Dabei soll ein sozialwissenschaftliches Erkenntnisinteresse insbesondere in der Frage liegen, wie sich diese entwickelt haben; wie diese gerade im Kontext einer öffentlichen Flüchtlingsfürsorge an Dynamik gewonnen haben.</abstract>
+                    <subject>
+                        <topic>Flüchtling</topic>
+                        <topic>Migration</topic>
+                        <topic>Integration</topic>
+                        <topic>Geflüchtete</topic>
+                        <topic>Proteste</topic>
+                        <topic>Asylverfahren</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-12088</identifier>
+                    <identifier type="sys">HT020893328</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1208</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1208">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1208/1/Kewes_Das_Feld_der_Gefluechtetenproteste.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1208"
+            DMDID="DMD_siegen_opus_1208">
+            <mets:fptr FILEID="FILE0_siegen_opus_1208"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

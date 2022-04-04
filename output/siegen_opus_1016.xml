@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1016">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Ein </nonSort>
+                        <title>Beitrag zur Beherrschung von Unsicherheit in Lastmonitoring-Systemen</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <nonSort>Ein </nonSort>
+                        <title>A contribution to control uncertainty in loadmonitoring-systems</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Koenen, Jan Felix</displayForm>
+                        <namePart type="family">Koenen</namePart>
+                        <namePart type="given">Jan Felix</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Betriebslast eines lasttragenden Systems ist eine wesentliche dimensionierende Größe und beeinflusst maßgeblich dessen Lebensdauer. Tatsächliche produktindividuelle Betriebslasten sind aber meist nur unvollständig bekannt und werden pauschal und stellvertretend für ähnliche Produktgruppen abgeschätzt. Ein Lastmonitoring-System ermöglicht die Ermittlung aktueller, produktindividueller Belastungs- und Verformungszustände in der Nutzung eines lasttragenden Systems. Es besteht in der Regel aus sensorischen Elementen, einem mathematischen Modell zur Abbildung der relevanten Systemeigenschaften und einer geeigneten Informationsverarbeitung. Zum Lastmonitoring wird in dieser Arbeit  ein  dem Stand der Technik entsprechender Zustandsbeobachter für unbekannte Eingangsgrößen verwendet. Zur Lösung unterbestimmter Problemstellungen des Lastmonitorings wird ein neuer Weg auf Basis eines Projektionsansatzes vorgestellt. Er beruht auf der Annahme, dass oftmals tatsächlich nur wenige Ursachen zu den beobachteten Wirkungen führen. Der Ansatz wird in zwei praxisrelevanten Beispielen zur a) Ermittlung von Lastort und zur  b) Ermittlung von veränderlichen Systemeigenschaften  bei unbekannten Belastungen in der numerischen und experimentellen Simulation validiert.
+Unsicherheit, die in den Prozessen des Lastmonitorings auftreten kann, führt zu Abweichungen zwischen der tatsächlichen und der durch das Lastmonitoring ermittelten Belastung. Diese Unsicherheit wird mit der in dieser Arbeit entwickelten Methodik beherrscht. Die Methodik beruht auf der Anwendung bekannter und erweiterter Methoden zum Lastmonitoring und zur Beschreibung, Bewertung und Beeinflussung von Unsicherheit. Der Beitrag der einzelnen, in dieser Arbeit vorgestellten Methoden zur Beherrschung von Unsicherheit wird qualitativ und quantitativ in zahlreichen analytischen, numerischen und experimentellen Untersuchungen bewertet und miteinander verglichen. Zur qualitativen Bewertung dient ein Unsicherheitsmodell, in welchem die Unsicherheit in der Ermittlung der Belastung nach dem Grad an verfügbaren Informationen eingeordnet werden kann. Zur quantitativen Bewertung dient die relative effektive Abweichung zwischen der direkt gemessenen und der durch das Lastmonitoring ermittelten Belastung. Der größte Anteil der Unsicherheit in der ermittelten Belastung resultiert aus unvermeidbarer Modellunsicherheit durch die vereinfachende Abbildung des realen lasttragenden Systems im mathematischen Modell. Diese Modellunsicherheit wird mit einem Fehlerübertragungsmodell zur Beschreibung von systematischen und stochastischen Abweichungen statistisch bewertet. Den wesentlichen quantitativen Beitrag zur Reduktion von Unsicherheit leistet die unsicherheitsminimierende Positionierung von Sensoren.
+Die Funktionstauglichkeit des Lastmonitoring-Systems wird in numerischen Simulationen und experimentellen Untersuchungen an einem axial und lateral belasteten Balken und einer Platte aufgezeigt. In der experimentellen Untersuchung wird für ein breitbandiges Belastungsspektrum eine relative effektive Abweichung zwischen gemessener und ermittelter Belastung im Bereich von 4% bis 12% erreicht. 
+Die vorliegende Arbeit liefert einen Beitrag zur Reduktion von Unsicherheit in der Nutzung lasttragender Systeme, indem Methoden zur Ermittlung produktindividueller Betriebslasten entwickelt und zur Anwendung bereitgestellt werden. Die dabei potentiell auftretende Unsicherheit kann durch die Methodik erstmals ganzheitlich und anwendungsorientiert beherrscht werden.</abstract>
+                    <abstract type="content" lang="eng">A fundamental characteristic for the lifetime of load-carrying structures is the operating load. Real operating loads for an individual structure are mostly only partly available from rough estimations for similar structures. A load-monitoring system provides the identification of current load and deformation states during the usage of load-carrying structures. Normally, it consists of sensors, a mathematical model to represent the relevant systems properties and a suitable information processing algorithm. In this work, an observer-based estimation algorithm for unknown input is used to identify the current loads and deformation states. A new projection approach is presented to solve socalled underdetermined inverse problems. This approach is based on the assumption that often only a few causes result to the observed effects. The approach is used in numerical and experimental simulations for two practical examples in order to a) identify the location of a load and b) identify changing system properties without knowing loads.
+Uncertainty that may occur within the processes of load monitoring could potentially lead to a deviation between the real loads and those that are identified by the load-monitoring. This uncertainty will be controlled by the methodology developed within this work. The methodology is based on the usage of known and refined methods to describe, evaluate and eventually control uncertainty. The contribution of each method shown in this work is rated and compared qualitatively and quantitatively in numerous analytical, numerical and experimental investigations. For a qualitative rating, an uncertainty model is used to classify uncertainty based on the level of available information. The root mean squared error of the deviation between directly measured loads and loads that are estimated by the load-monitoring is used for quantitative rating. On the one hand, the highest  amount of uncertainty results from the unavoidable model uncertainty due to the simplified and idealized representation of the real structure in a mathematical model. This model uncertainty is statistically described by using a model error model. On the other hand, the choice of sensor position has the highest amount to reduce uncertainty in a load-monitoring system.
+The functional efficiency of the proposed load-monitoring system is proven by numerical and experimental simulations using the example of an axially and laterally loaded beam structure and a plate. For a broadband excitation in experimental simulations, a relative root mean squared error between measured and identified load between 4% and 12% occurs.
+The present work is a contribution to reduce uncertainty in the usage of load-carrying structures by providing methods to identify individual operation loads. Thereby, uncertainty that may occur during the processes of load-monitoring can be controlled in a holistic and integrated manner for the first time.</abstract>
+                    <subject>
+                        <topic>Unsicherheit</topic>
+                        <topic>Lastmonitoring</topic>
+                        <topic>Load-monitoring</topic>
+                        <topic>Load-carrying structures</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Mechanik und Regelungstechnik - Mechatronik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-10164</identifier>
+                    <identifier type="sys">HT019134515</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1016</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2016-03-03</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1016">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1016/1/Dissertation_Koenen_Jan_Felix.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1016"
+            DMDID="DMD_siegen_opus_1016">
+            <mets:fptr FILEID="FILE0_siegen_opus_1016"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1389">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Super-resolution compressed sensing for resolving time-of-flight multipath interferences</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Super-resolution Compressed Sensing für die Lösung von Time-of-Flight Mehrwegsinterferenz-Problem</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Nguyen, Xuan Vinh</displayForm>
+                        <namePart type="family">Nguyen</namePart>
+                        <namePart type="given">Xuan Vinh</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Nowadays, time-of-flight (TOF) cameras have become more popular in many practical applications, e.g., robot navigation, 3D reconstruction. Typically, they produce depth map of the entire scene through a low-cost and high-frame-rate system. Nevertheless, there exist many TOF problems, e.g., linearity errors, ambiguity range, multipath interferences (MPIs). Especially, MPIs which are usually caused by transparent object imaging or broaden illumination influence negatively on depth reconstruction results of the traditional phase-stepping method. For this reason, this thesis aims to resolve the MPI problem by carrying out multiple-frequency TOF (MFT) acquisition. According to the compressed sensing (CS) theory, since the amount of MPIs in real-life scenes is small, only a few MFT measurements are required to estimate the sparse time profile of the MPIs. However, this CS-MFT model suffers from hardware design limitation. To be concrete, under the Rayleigh resolution theorem, the low-frequency modulation of a commercial TOF camera leads to poor depth accuracy and low range resolution of the CS-MFT model. Whereas, increasing the modulation frequency is a significantly complicated task. Thus, our solution approach is to construct a super-resolution CS-MFT model with a large refinement factor. From this model, super-resolution CS techniques can reduce mismatch model errors but simultaneously cause poor sparse reconstruction performance with a highly coherent sensing matrix. This thesis introduces a variety of CS techniques to improve these reconstruction results as well as to maintain high-processing speed. They include exploring new CS reconstruction algorithms and optimizing the superresolution CS-MFT sensing matrix structure. Besides, an alternative relaxed metric with a tolerance offset is introduced for gauging the quality of spike recovery in a more accurate way. The results achieved through numerical and practical experiments show a significant improvement in accuracy and resolution of the MPI time profile reconstruction.</abstract>
+                    <abstract type="content" lang="ger">Heutzutage ist die Time-of-flight-Kamera (TOF-Kamera) in vielen praktischen Anwendungen sehr populär geworden, z.B., bei der Roboternavigation oder der 3DRekonstruktion. Sie erzeugt ein Tiefenbild der gesamten Szene ohne einen aufwendigen Scanvorgang. Daher sind die meisten der kommerziell erhältlichen TOF-Kameras kostengünstige Systeme, die mit der heute üblichen Videorate arbeiten. Dennoch gibt es weiterhin viele TOF-spezifische Probleme, wie z.B. Linearitätsfehler, Mehrdeutigkeitsbereiche und Mehrwegsinterferenzen (MPIs). Insbesondere MPIs, die durch eine transparente Objektabbildung oder eine überlappende Beleuchtung verursacht werden können, beeinflussen die Tiefenrekonstruktionsergebnisse des herkömmlichen Phasenschrittverfahrens negativ. Aus diesem Grund zielt diese Arbeit darauf ab, das MPI-Problem zu lösen, indem Mehrfrequenz-TOF (MFT)-Messungen durchgeführt werden. Unter der Annahmen, dass die Anzahl der MPIs in realen Szenen gering ist, sind gemäß der Theorie der komprimierten Erfassung (Compressed Sensing, CS) nur wenige MFT-Messungen erforderlich, um das dünnbesetztes Zeitprofil der MPIs abzuschätzen. Ein solches CS-MFT-Modell leidet jedoch unter Hardwarebeschränkungen. Konkret führt die Modulation bei den niedrigen Frequenzen einer kommerziellen TOF-Kamera unter dem Rayleigh-Auflösungssatz zu einer schlechten Tiefengenauigkeit und niedrigen Bereichsauflösung bei Anwendung des CS-MFT Modells. Die nötige Erhöhung der Modulationsfrequenz ist dagegen nicht einfach möglich und ist meist nicht realisierbar. Unser Lösungsansatz besteht daher darin, das CS-MFT-Modell durch Superresolution-Techniken mit hohen Verfeinerungsfaktoren zu verbessern. Diese Superresolution-CS-Technik kann Fehlanpassungen des Modellsreduzieren, liefert aber gleichzeitig aufgrund der im hohen Maße kohärenten Messmatrix eine sehr schlechte Rekonstruktion. Wir schlagen in dieser Arbeit einige CS-Techniken vor, um diese Rekonstruktionsergebnisse zu verbessern und trotzdem eine hohe Verarbeitungsgeschwindigkeit beizubehalten. Sie umfassen die Erforschung neuer CS-Rekonstruktionsalgorithmen und die Optimierung des Designs der Superresolution-CS-MFT-Messmatrix. Außerdem wird eine alternative Metrik mit einem Toleranzausgleich eingeführt, um die Qualität der Rekonstruktion besonders bei heterogenen Szenen (Absätze, Sprünge) zu verbessern. Die erzielten Ergebnisse, die durch numerische und praktische Experimente demonstriert wurden, zeigen eine signifikante Verbesserung der Genauigkeit und Auflösung der MPI-Zeitprofilrekonstruktion.</abstract>
+                    <subject>
+                        <topic>Komprimierte Abtastung</topic>
+                        <topic>Mehrweginterferenzen</topic>
+                        <topic>Super-Resolution</topic>
+                        <topic>Compressed sensing</topic>
+                        <topic>Time-of-flight</topic>
+                        <topic>Multipath interferences</topic>
+                        <topic>Super-resolution</topic>
+                        <topic>Reconstruction algorithm</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="NRW-Zentrum für Sensorsysteme (ZESS)"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-13890</identifier>
+                    <identifier type="sys">HT019908866</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1389</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2018-08-30</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1389">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1389/1/Dissertation_Xuan_Vinh_Nguyen.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1389"
+            DMDID="DMD_siegen_opus_1389">
+            <mets:fptr FILEID="FILE0_siegen_opus_1389"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

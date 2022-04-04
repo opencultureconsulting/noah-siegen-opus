@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_754">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Entwicklung eines Sensorsystems zur kontinuierlichen Ölqualitätsmessung und Verschleißidentifikation in Getrieben und anderen Aggregaten</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Development of a sensor system for the continuous measurement of oil quality and wear in gears and other aggregates</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mauntz, Manfred R.</displayForm>
+                        <namePart type="family">Mauntz</namePart>
+                        <namePart type="given">Manfred R.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Es wurde ein Ölsensorsystem zur kontinuierlichen Online-Messung der von der Ölqualität abhängigen Parametern der elektrischen Leitfähigkeit, sowie der Dielektrizitätszahl von Ölen entwickelt. Mit dem Sensorsystem und dem grundsätzlichen Ansatz einer Messung der Veränderung des Systems Öl-Maschine werden bereits ab Inbetriebnahme kontinuierliche Analysen und Bewertungen von Maschinenverschleiß und Ölalterung ermöglicht. Warnungen vor kritischen Betriebszuständen, wie zu hohem Abrieb oder Schmierstoffversauerung und auch die treffsichere Indikation von vorbeugenden Wartungsmaßnahmen werden angezeigt. Beim Abrollen der Wälzkörper auf Lagerlaufbahnen können unter bestimmten, oft nur kurzzeitig herrschenden Betriebsbedingungen, etwa in Windgetrieben, hohe, durch lokale Reibung hervorgerufene, Zugspannungen zur Bildung scharfkantiger, spaltbruchartiger spröder Gewaltbruchanrisse von der Oberfläche führen. Dieser Schadensmechanismus steht mit Frühausfällen in Verbindung. Durchgeführte praktische Messungen und Berechnungen nach Mischungsregeln von Maxwell-Garnett, Lichtenecker und Piekara unterstützen diese Hypothese. Vielversprechende Einsatzbereiche sind Industriegetriebe, Windenergieanlagen, Schiffsgetriebe, Turbinen und Motoren, Hydraulikanlagen und Transformatoren. Es werden Betriebszeiten vergrößert, Stillstandzeiten reduziert und eine verbesserte ökonomische und ökologische Effizienz erreicht. Wirksamere Maschinenausnutzung, gezielte Schadensverhütung, Lebensdauererhöhung und Reduktion der Ausfallzeiten sind dadurch realisierbar.</abstract>
+                    <abstract type="content" lang="eng">An oil sensor system for the continuous, online measurement of oil quality has been developed using the quality dependent parameters, electrical conductivity and permittivity. The sensor system permits the evaluation of the ‘total machine system’ by the basic approach of measuring the changes and degradation in the oil system. Warnings of critical operating conditions, such as excessive wear or lubricant acidification and also accurate indication of the need for preventive maintenance are realised. The rolling of bearings on the raceway can cause  localised friction stress, resulting in the formation of sharp edged, brittle, hairline cracks. Often these are caused by only briefly prevailing conditions, e.g. high wind gusts in wind turbines. This crack formation is the first stage in the failure mechanism commonly associated with early failure of the machine. Practical measurements and calculations employing the laws of Maxwell-Garnett, Lichtenecker and Piekara support this hypothesis. Promising applications include industrial drives, wind turbines, marine gearboxes, turbines and engines, hydraulic systems and transformers. Benefits include increased uptime, reduced maintenance and an improvement in both economic and environmental efficiency. More effective utilization of machines, targeted prevention, increased serviceable life and reduced downtime are thereby realised.</abstract>
+                    <subject>
+                        <topic>Getriebe</topic>
+                        <topic>chemische Ölalterung</topic>
+                        <topic>Weiß anätzende Risse</topic>
+                        <topic>frühzeitige Lagerschadenerkennung</topic>
+                        <topic>critical vibration loading</topic>
+                        <topic>early bearing failures</topic>
+                        <topic>white etching cracks</topic>
+                        <topic>chemical oil aging</topic>
+                        <topic>oil additive degradation</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Kommunikations- und Informationstechnik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-7540</identifier>
+                    <identifier type="sys">HT017741302</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_754</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2013-07-25</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_754">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/754/1/mauntz.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_754"
+            DMDID="DMD_siegen_opus_754">
+            <mets:fptr FILEID="FILE0_siegen_opus_754"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

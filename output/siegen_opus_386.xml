@@ -1,0 +1,144 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_386">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Real-time rendering and acquisition of spherical light fields</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Echtzeit-Rendering und Akquisition sphärischer Lichtfelder</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Todt, Severin Sönke</displayForm>
+                        <namePart type="family">Todt</namePart>
+                        <namePart type="given">Severin Sönke</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2009</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Image-based rendering techniques have proven to be a powerful
+alternative to traditional polygon-based computer graphics.
+This thesis presents a novel light field rendering technique
+which performs per-pixel depth correction of rays for
+high-quality light field reconstruction. The technique stores
+combined RGB and depth values in a parabolic 2D texture for
+every light field sample being acquired at discrete positions
+in a uniform spherical setup. Image synthesis is implemented on
+the graphics processing unit within a customized fragment program which extracts the
+correct image information from adjacent cameras for each
+fragment by applying per-pixel depth correction of rays.
+
+This dissertation demonstrates that the presented image-based
+rendering technique provides a significant improvement compared
+to previous approaches. Two different rendering implementations
+are explained which make use of the uniform parametrization to
+minimize disparity problems and ensure full six degrees of
+freedom for virtual view synthesis. While one rendering
+algorithm implements an iterative refinement approach for
+rendering light fields with per-pixel depth correction, the
+other approach employs a raycaster which provides superior
+rendering quality at moderate frame rates.
+
+Graphics processing unit based per-fragment depth correction of rays, used in both
+implementations, helps reducing ghosting artifacts to a non
+noticeable amount and provides a rendering technique that
+performs without exhaustive pre-processing for 3D object
+reconstruction.
+
+The presented light field techniques open up for the
+implementation of efficient and flexible rendering approaches.
+This work presents an efficient level of detail rendering
+approach for light fields and introduces a flexible rendering
+technique for remote access to light field representation in a
+web-based client-server application.
+
+For the acquisition of spherical light fields with per-pixel
+depth a new acquisition system is presented which makes use of
+recent advances in 3D sensor technology to acquire combined RGB
+and depth images directly.</abstract>
+                    <abstract type="content" lang="ger">Kurze Inhaltszusammenfassung in einer weiteren Sprache (deutsch) 
+Bildbasierte Renderingmethoden haben sich in der Vergangenheit
+als effiziente Alternative zu traditionellen Renderingmethoden
+auf Polygonbasis erwiesen. Diese Doktorarbeit präsentiert
+eine neue Lichtfeld-Renderingmethode die unter Ausnutzung von
+pro Pixel Tiefenwerten eine hochqualitative Bildsynthese in
+Echtzeit ermöglicht. Für einen diskreten Satz an
+gleichmässig auf der Oberfläche einer Kugelrepräsentation
+angeordneter Samplepositionen speichert die Technik kombinierte
+RGB und Tiefenwerte in einer gemeinsamen parabolischen Textur.
+Die Bildsynthese erfolgt auf dem Grafikprozessor und ist in einem
+angepassten Fragment Program umgesetzt, das zur Bestimmung der
+Fragment Farbe korrekte Bildinformationen aus benachbarten
+Samplepositionen extrahiert.
+
+Im Vergleich zu denen in der Vergangenheit vorgestellten
+Lichtfeldverfahren stellt die in dieser Arbeit präsentierte
+Technik eine signifikante Verbesserung dar. Es werden zwei
+unterschiedliche Renderingverfahren dargestellt, die beide die
+gleichmässige Samplingstruktur nutzen, um
+Disparitätsprobleme zu vermeiden und virtuelle Ansichten mit
+sechs Freiheitsgraden zu ermöglichen. Während das eine der
+Verfahren einen iterativen Ansatz zum Rendering von
+Lichtfeldern mit Tiefenkorrektur implementiert, verfolgt das
+andere einen Raycasting Ansatz und erzielt im Vergleich zum
+erst genannten Verfahren deutlich bessere Ergebnisse. Mit Hilfe
+der in beiden Verfahren zur Anwendung kommenden pro Pixel
+Tiefenkorrektur werden bei gleichzeitigem Verzicht auf
+umfangreiche Geometrieverarbeitung Ghosting Artefakte
+signifikant reduziert.
+
+Die präsentierten Lichtfeld-Renderingverfahren ermöglichen
+die Umsetzung weiterer effizienter und flexibler
+Renderingmethoden. Diese Doktorarbeit demonstriert einen
+effizienten Level of Detail Ansatz für die Synthese von
+Lichtfeldern und stellt ein neues flexibles Verfahren für den
+Remote Zugriff auf Lichtfeldrepräsentationen auf Basis einer
+Web basierten Client-Server Anwendung dar.
+
+Für die Akquisition sphärischer Lichtfelder wird im Rahmen
+dieser Arbeit ein Verfahren vorgestellt, das neueste 3D
+Sensorsysteme nutzt, um kombinierte Farb- und Tiefendaten direkt
+zu akquirieren.</abstract>
+                    <subject>
+                        <topic>Bildbasiertes Rendering</topic>
+                    </subject>
+                    <classification authority="ddc">620</classification>
+                    <classification authority="ioo" displayLabel="Institut für Bildinformatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-3865</identifier>
+                    <identifier type="sys">HT015977225</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_386</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2009-06-15</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_386">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/386/1/todt.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_386"
+            DMDID="DMD_siegen_opus_386">
+            <mets:fptr FILEID="FILE0_siegen_opus_386"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

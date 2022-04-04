@@ -1,0 +1,75 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1705</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Quantified integer programming with polyhedral and decision-dependent uncertainty</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Quantifizierte ganzzahlige Programmierung unter polyedrischer und entscheidungsabhängiger Unsicherheit</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Quantifizierte ganzzahlige Programmierung unter polyedrischer und entscheidungsabhängiger Unsicherheit</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Michael</pc:foreName>
+            <pc:surName>Hartisch</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Robuste Optimierung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Robust Optimization</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Multistage Optimization</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Combinatorial Search</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Game Tree Search</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Optimization under Uncertainty</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Mehrstufige Optimierung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Spielbaumsuche</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Optimierung unter Unsicherheit</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">510</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Das in der Mitte des letzten Jahrhunderts etablierte Forschungsgebiet der Optimierung unter Unsicherheit hat in den letzten beiden Jahrzehnten viel Aufmerksamkeit erhalten. Der Umgang mit unsicheren Daten in Optimierungsproblemen bleibt aber trotz (oder gerade wegen) der Zeiten großer Datenmengen und Cloud-Lösungen eine große Herausforderung. Die bekanntesten Ansätze um mit solchen Optimierungsproblemen umzugehen sind stochastische Programmierung und robuste Optimierung. Um ein realistischeres Abbild des zugrunde liegenden Problems zu ermöglichen, können dabei auch mehrstufige Modelle zum Einsatz kommen. Während es einige echt-mehrstufige stochastische Ansätze gibt, gehen die meisten mehrstufigen Erweiterungen der robusten Optimierung nicht über ein zweistufiges Modell hinaus. Noch weniger Aufmerksamkeit wird der Berücksichtigung von entscheidungsabhängiger Unsicherheit geschenkt. Um diese Lücke zu schließen, wurden in dieser Arbeit mehrstufige Optimierungsprobleme auch mit entscheidungsabhängiger Unsicherheit mittels quantifizierter Programme untersucht.&#13;
+Mit quantifizierten Programmen können mehrstufige Optimierungsprobleme unter Unsicherheit formuliert werden. Dabei handelt es sich um  lineare Programme, deren Variablen mit jeweils einem Existenz- oder einem Allquantor versehen sind und eine feste Reihenfolge aufweisen. Die erzielten Fortschritte für quantifizierte lineare Programme gaben Anlass zur näheren Untersuchung von quantifizierten ganzzahligen Programmen (QIP) in dieser Arbeit. Während sich ein Großteil der Forschung in diesem Bereich der komplexitätstheoretischen Untersuchung  spezieller QIP-Erfüllbarkeitsprobleme widmet, war das vorrangige Ziel dieser Arbeit neue Lösungstechniken und Unsicherheitskonzepte für das QIP-Optimierungsproblem zu erforschen.&#13;
+QIPs können durch eine Spielbaumsuche gelöst werden, welche durch Techniken aus den Bereichen des SAT-, QBF- und MIP-Lösens erweitert werden können. Weitere Lösungstechniken, die in eine solche Spielbaumsuche mit einfließen,  wurden in der vorliegenden Arbeit entwickelt und fundiert. Insbesondere wurde die Strategic Copy-Pruning Heuristik etabliert. Diese erlaubt es die Existenz einer Strategie in linearer Zeit implizit sicherzustellen, ohne diese explizit durchlaufen zu müssen. Außerdem konnte gezeigt werden, dass die Umsetzung der erlangten Ergebnisse den Suchprozess erheblich beschleunigen kann.&#13;
+Um die Ausdrucksfähigkeit von QIPs zu erhöhen, wurden darüber hinaus QIPs mit polyedrischer Unsicherheitsmenge eingeführt. Infolge dieser Erweiterung konnten verschiedene mehrstufige kombinatorische Optimierungsprobleme deutlich schneller gelöst werden. Durch eine zusätzliche Erweiterung wurde außerdem ein allgemeiner Rahmen für mehrstufige Optimierungsprobleme unter entscheidungsabhängiger Unsicherheit geschaffen. In dieser Arbeit wurden dafür Lösungstechniken theoretisch fundiert, Implementierungsdetails bereitgestellt und explizite Polynomzeitreduktionen hergeleitet.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The research field of optimization under uncertainty, even though already established in the middle of the last century, gained much attention in the last two decades. The necessity to deal with uncertain data remains a major challenge despite (or because of) the times of big  data and cloud solutions. The most prominent modeling paradigms dealing with such optimization tasks are stochastic programming and robust optimization. Sometimes, in order to obtain an even more realistic description of the underlying problem, multistage models can be used. While there are some real multistage stochastic approaches, most multistage extensions to robust optimization hardly ever consider more than two stages. Even less attention is paid to the consideration of decision-dependent uncertainty. To overcome these shortcomings, we  explored multistage optimization under decision-dependent uncertainty via quantified programming.	&#13;
+Quantified programs, which are linear programs with ordered variables that are either existentially or universally quantified, provide a convenient framework for multistage optimization under uncertainty. While considerable research has been conducted with regard to quantified linear programming (QLP) this thesis focused on quantified integer programming (QIP). Whereas most research in this area is concerned with complexity results regarding the QIP satisfiability problem, we concentrate on solution and modeling techniques for the QIP optimization problem, which we tested and implemented in our open-source solver.&#13;
+One way to solve a QIP is to apply a game tree search, enhanced with non-chronological backjumping. We developed and theoretically substantiated further solution techniques for QIPs within a game tree search framework and  established the strategic copy-pruning mechanism, which allows to implicitly deduce the existence of a strategy in linear time (by static examination of the QIP-matrix) without explicitly traversing the strategy itself. We also showed that the implementation of our findings can massively speed up the search process.&#13;
+Furthermore, in order to enhance the expressive power of QIPs, we introduced QIPs with a polyhedral uncertainty set. We showed that by exploiting this extension, we were able to significantly speed up our solver on various multistage combinatorial optimization problems. Additionally, we established QIPs with interdependent domains and thereby provide a general framework  for multistage optimization problems under decision-dependent uncertainty. We theoretically substantiated solution techniques, provided implementation details and derived polynomial-time reduction functions mapping both extensions to the basic QIP.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Ulf</pc:foreName>
+            <pc:surName>Lorenz</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2020-08-07</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2020</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-17058</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/lizenz.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV - Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Michael_Hartisch.pdf" ddb:fileSize="1803824"/>
+   <ddb:checksum ddb:type="MD5">557bbc72ae83308d5a3db826f8fce195</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1705/4/Dissertation_Michael_Hartisch.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1705</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

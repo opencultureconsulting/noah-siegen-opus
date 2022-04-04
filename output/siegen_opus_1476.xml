@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1476">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Safe and dynamic design of experiments</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Sichere und dynamische Versuchsplanung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schillinger, Mark</displayForm>
+                        <namePart type="family">Schillinger</namePart>
+                        <namePart type="given">Mark</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Nelles, Oliver</displayForm>
+                        <namePart type="family">Nelles</namePart>
+                        <namePart type="given">Oliver</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">In the calibration of modern combustion engines, stationary model-based approaches are common. For future developments, the use of dynamic data-based modeling is an important and required step to further increase the efficiency and quality of the calibration process. In order to achieve high modeling quality, these models require informative measurement data. This necessitates a transient variation of the input signals during the measurement process. At the same time the safety of the system under test needs to be ensured during the measurements by supervising critical output signals.
+This thesis covers different methods to tackle this task, namely for stationary and dynamic design of experiments. Therefore, two strategies are presented and analyzed: on the one hand the use of an offline generated design of experiment, on the other hand the use of active learning. The first strategy is threefold. It starts with the identification of the stationary safe system boundary. Thereafter a dynamic design of experiment is created within the stationary safe boundary. Finally, a dynamic measurement is pursued, while the system under test is safeguarded by a newly introduced supervising controller. The second strategy uses a dynamic safe active learning approach. Thereby, the dynamic model is not anymore learned offline, after the whole measurement was completed, but online, in parallel to the measurement process. Instead of a predefined design of experiment, the queried trajectories are optimized iteratively based on the learned model. The optimization also considers dynamic safety constraints of the system under test.
+Special emphasis is put on the application of these strategies to real-world measurements in the combustion engine domain. The various design of experiments, measurement, and active learning algorithms are compared and their specific advantages and disadvantages are discussed.</abstract>
+                    <abstract type="content" lang="ger">Üblicherweise werden bei der Applikation moderner Verbrennungsmotoren stationäre Modelle eingesetzt. Für zukünftige Entwicklungen ist allerdings die Verwendung dynamischer datenbasierter Modelle ein wichtiger und notwendiger Schritt, um weitere Steigerungen der Effizienz und der Qualität des Applikationsprozesses zu erreichen. Damit diese Modelle eine gute Qualität erreichen, benötigen sie informative Messdaten. Dies erfordert die transiente Verstellung der Eingangsgrößen während des Messprozesses. Gleichzeitig muss die Sicherheit des zu vermessenden Systems während der Messungen garantiert werden, indem kritische Ausgangsgrößen überwacht werden.
+In dieser Arbeit werden verschiedene Methoden für die genannte Aufgabe, nämlich die stationäre und dynamische Versuchsplanung, behandelt. Zwei verschiedene Strategien werden vorgestellt und analysiert: einerseits die Vermessung mit Hilfe eines offline erstellten Versuchsplans, andererseits die Vermessung durch aktives Lernen. Die erste Strategie ist dreigeteilt. Sie beginnt mit der Identifikation der stationär sicheren Systemgrenze, um anschließend einen dynamischen Versuchsplan innerhalb dieser Grenze zu erstellen. Im letzten Schritt wird die dynamische Messung durchgeführt, wobei das zu vermessende System durch einen erstmals vorgestellten Überwachungsregler geschützt wird. Die zweite Strategie verwendet einen Ansatz zum dynamischen sicheren aktiven Lernen. Dabei wird das dynamische Modell nicht erst offline, nach Abschluss der gesamten Messung, sondern online, parallel zur Messung, gelernt. Anstelle eines vordefinierten Versuchsplans werden die zu vermessenden Trajektorien iterativ basierend auf dem gelernten Modell optimiert. In der Optimierung werden auch die dynamischen Betriebsgrenzen des zu vermessenden Systems berücksichtigt.
+Der Fokus der Arbeit liegt insbesondere auf der Anwendung der genannten Strategien an realen Messungen für Verbrennungsmotoren. Die verschiedenen Versuchsplanungs-, Messungs- und aktiven Lernstrategien werden verglichen und ihre spezifischen Vor- und Nachteile diskutiert.</abstract>
+                    <subject>
+                        <topic>Versuchsplanung</topic>
+                        <topic>Aktives Lernen</topic>
+                        <topic>Verbrennungsmotor</topic>
+                        <topic>Active Learning</topic>
+                        <topic>DOE</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Mechanik und Regelungstechnik - Mechatronik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-14768</identifier>
+                    <identifier type="sys">HT020338167</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1476</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2019-07-04</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1476">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1476/2/Dissertation_Mark_Schillinger.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1476"
+            DMDID="DMD_siegen_opus_1476">
+            <mets:fptr FILEID="FILE0_siegen_opus_1476"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

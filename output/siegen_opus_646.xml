@@ -1,0 +1,85 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_646">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Ultra-wideband based communications and localization in wireless sensor networks</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Ultrabreitband Kommunikation und Lokalisation in drahtlosen Sensor-Netzen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Tchere, Gustave Franck</displayForm>
+                        <namePart type="family">Tchere</namePart>
+                        <namePart type="given">Gustave Franck</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2008</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Hauptbeweggründe für das Verwenden von Ultrabreitband (UWB) Kommunikationssysteme ist ihre Fähigkeit für das Bereitstellen drahtloser Kommunikationen mit hoher Kapazität, sowie die Verwendbarkeit der Technologie, um UWB Signale mit verhältnismäßig niedriger Komplexität einzuführen und zu erzeugen. Nicht kohärente Empfänger ohne die Schätzung des Kanals sind vorgeschlagen worden, um die UWB Technologie attraktiv für die Anwendungen zu machen, in denen niedrige Kosten und niedrige Stromaufnahme eine wichtige Rolle spielen, wie es bei drahtlosen Sensor-Netzen (WSNs) der Fall ist. Die Signalübermittlung der Sendereferenz (TR), in Verbindung mit einem Autokorrelations-Empfänger (AcR) sind in diesem Kontext besonders verwendbar. Die große Bandbreite der UWB Technologie liefert nicht nur die Möglichkeit, um mit einer sehr hohen Datenrate zu übertragen, sondern auch sehr genaue zeitliche und räumliche Informationen, die für exakte Schätzung der Zeitverschiebung verwendet werden können. Das UWB Impuls-Radio (IR) verwendet Sub-Nanosekunden - Impulse, die eine hoch auflösende Fähigkeit in der Zeitdomäne liefern und ist dadurch attraktiv für die genaue drahtlose Lokalisation. In der Tat macht seine Fähigkeit, Mehrwegbestandteile zu beheben möglich, genaue Positionsbestimmung ohne die Notwendigkeit komplizierter Schätzungsalgorithmen zu erhalten. Dieses erleichtert viele Anwendungen wie das Position-bewußte Sensor-Netzwerk.
+
+Diese Doktorarbeit trägt zur Entwicklung der UWB Technologie für Kurzstrecken niedriger bis zu durchschnittlicher Datenraten der WSN Anwendungen bei. TR-UWB Empfänger niedriger Komplexität werden zunächst unter Annahme Gauß&apos;scher Rauschmodelle analysiert, danach werden äquivalente nicht lineare System- und Rauschmodelle betrachtet. Beide Ansätze führen zu der Leistungsanalyse der Bit Fehler, die auch in dieser Dissertation dargestellt werden. Die TR-UWB Systeme wurden als Polynome nichtlinearer Systeme modelliert. Da die Statistiken des Funkkanals in der Systemmodellierung sowie in der Leistungsanalyse verwendet werden, werden passende Kanalmodelle für UWB Impuls-Radiosysteme in dieser Doktorarbeit besprochen.
+Weiter wird die Synchronisierung angesprochen. Zu diesem Zweck wird eine neue datengestützte Zeiterfassungstechnik für die Rahmen-Niveau Synchronisierung der DTRUWB Systeme vorgeschlagen. Sie basiert auf dem Einfügen der parallelen Integration-and-dump Schaltkreise innerhalb der Impuls-Paare der Korrelatorzweige, um die Energieerfassung bei der Präsenz der Zeitverschiebung beträchtlich zu verbessern. Außerdem wird ein einfacher Algorithmus für die Feinsynchronisierung der TR-UWB Systeme, keine Intersymbolstörung annehmend, vorgeschlagen. Er verwendet die Energie, die mit der Symbolrate gesammelt wird und verringert so beträchtlich die Implementierungskomplexität. Wenn der Taktzeitfehler bekannt ist, sind Schätzungsprobleme der Zeitverschiebung analog zu Entfernungsmessungsproblemen, und der vorgeschlagene Algorithmus kann leicht als neue Abstandmaßtechnik verwendet werden. Es wird in dieser Dissertation gezeigt, dass der
+Entfernungsansatz eine Lokalisierungsauflösung im Zentimeterbereich mit TR-UWB Systemen bei Datenraten bis zu 5 Mb/s erlaubt.</abstract>
+                    <abstract type="content" lang="eng">The key motivations for using ultra-wideband (UWB) communication systems are their capability for providing high capacity wireless communications, as well as the availability of technology to implement and generate UWB signals with relatively low complexity.
+Non-coherent receivers with no channel estimation have been proposed to make the UWB technology attractive for applications where low cost and low power consumption are playing an important role, as in the case of wireless sensor networks (WSNs). Transmitted Reference (TR) signaling, in combination with an autocorrelation receiver (AcR) is especially
+suitable in this context. The large bandwidth of UWB technology does not only provide the possibility to transmit at a very high data rate, but also provides very accurate temporal and spatial information that can be used for precise timing offset estimation.
+UWB Impulse Radio (IR) uses sub-nanosecond pulses which provide a high resolution capability in the time domain, making it attractive for accurate wireless localization. Indeed, its ability to resolve multipath components makes it possible to obtain accurate location
+estimates without the need for complex estimation algorithms. This facilitates many applications such as location-aware sensor networking.
+
+This thesis presents several contributions towards developing UWB technology for short-range low to medium data rate WSN applications. First, different low complexity TR-UWB receivers are thoroughly analyzed, using the Gaussian approximation on the noise terms in the receiver statistics, and then using the equivalent system and noise models of these receivers. Both approaches lead to the bit error performance analysis, which is also presented in this thesis. The TR-UWB systems were modelled as polynomial nonlinear systems. Since the statistics of the radio channel are used in the system modelling as
+well as in the performance analysis, appropriate channel models for UWB impulse radio systems are discussed in this thesis.
+Further, synchronization issues are addressed. To this end, a novel data-aided timing acquisition technique for frame-level synchronization of DTR-UWB systems is suggested. It is based on incorporating parallel integration-and-dump circuits within pulse-pair correlator branches to improve considerably the energy capture in the presence of timing offset.
+Moreover, a simple algorithm for fine synchronization of low complexity TR-UWB systems,assuming no inter-symbol interference, is proposed. It uses energy collected at the symbol rate, thus reducing considerably the implementation complexity. If the hardware clock timing error is known, timing offset estimation problems are analogical to ranging problems,and the proposed algorithm can readily be used as a new distance measurement technique.
+It is shown, in this thesis, that the proposed ranging approach allows localization accuracy in the centimeter range using TR-UWB systems with data rates up to 5 Mb/s.</abstract>
+                    <subject>
+                        <topic>Ultrabreitband Kommunikation</topic>
+                        <topic>Lokalisation</topic>
+                        <topic>drahtlose Sensor-Netze</topic>
+                        <topic>Systemmodellierung</topic>
+                        <topic>Synchronisierung</topic>
+                        <topic>Ultra-wideband Communication</topic>
+                        <topic>Localization</topic>
+                        <topic>Wireless Sensor Networks</topic>
+                        <topic>Systems Modeling</topic>
+                        <topic>Synchronization</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-6469</identifier>
+                    <identifier type="sys">HT017388325</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_646</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2010-10-27</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_646">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/646/1/tchere.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_646"
+            DMDID="DMD_siegen_opus_646">
+            <mets:fptr FILEID="FILE0_siegen_opus_646"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

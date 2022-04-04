@@ -1,0 +1,58 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1226">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Jugendarrest und &quot;Warnschussarrest&quot; : zu einer umstrittenen jugendstrafrechtlichen Sanktion</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kreuzer, Arthur</displayForm>
+                        <namePart type="family">Kreuzer</namePart>
+                        <namePart type="given">Arthur</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Das Jugendstrafrecht kennt als Sanktionen Erziehungsmaßregeln, Zuchtmittel und als einzige echte Kriminalstrafe die Jugendstrafe. Dazu können noch wie im Erwachsenenrecht Maßregeln und Nebenfolgen kommen. Der Jugendarrest hat als Zuchtmittel „nicht die Wirkungen einer Strafe“. Andere, nicht freiheitsentziehende Zuchtmittel sind die Verwarnung und die Erteilung von Auflagen. Der Arrest ist Freizeitarrest, Kurzarrest oder Dauerarrest. Zuchtmittel sind Ahndungen von Straftaten, „wenn Jugendstrafe nicht geboten ist, dem Jugendlichen (oder Heranwachsenden) aber eindringlich zum Bewusstsein gebracht werden muss, dass er für das von ihm begangene Unrecht einzustehen hat“. Neben dem die Tat ahndenden Arrest gibt es noch den „Ungehorsams“- oder „Beuge-Arrest“. Er kann angeordnet werden, um die Befolgung von Weisungen und Auflagen im Urteil bei schuldhafter Verweigerung abzusichern. Jugendarrest neben Jugendstrafe war bislang ausgeschlossen. Mit dem umstrittenen „Gesetz zur Erweiterung der jugendgerichtlichen Handlungsmöglichkeiten“ vom Juni 2012 ist dieser Grundsatz durchbrochen worden. Als „Einstiegs“- oder „Warnschussarrest“ kann Jugendarrest jetzt nach § 16a JGG unter engen Voraussetzungen neben einer bis zu zweijährigen Jugendstrafe angeordnet werden.</abstract>
+                    <subject>
+                        <topic>Jugendstrafe</topic>
+                        <topic>Kriminalpolitik</topic>
+                        <topic>Arrestvollzug</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-12260</identifier>
+                    <identifier type="sys">HT019832072</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1226</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1226">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1226/1/Kreuzer_Jugendarrest_und_Warnschussarrest.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1226"
+            DMDID="DMD_siegen_opus_1226">
+            <mets:fptr FILEID="FILE0_siegen_opus_1226"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

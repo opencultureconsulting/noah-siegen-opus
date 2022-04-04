@@ -1,0 +1,64 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1744</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Virtual reality simulation of a smart eating table for handicapped people</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Salih Rashid</pc:foreName>
+            <pc:surName>Majeed</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">MORSE &lt;Programm&gt;</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Robot</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">ROS</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Simulation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Handicapped</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Morse</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Diese Arbeit beschäftigt sich mit der simulierten Interaktion zwischen Mensch und Roboter und der Verwendung des Roboters in verschiedenen Lebensbereichen. Entsprechend der Entwicklung in der künstlichen Intelligenz und in der Robotik wird es möglich, neue intelligente Roboteranwendungen zu entwickeln. Die Idee zu diesem Projekt entstand durch die große Anzahl der behinderten Menschen in meinem Heimatland, die durch den dortigen Terrorkrieg verletzt worden sind. Die Herausforderung ist, ein neues intelligentes Robotersystem zu bauen, das den Menschen bei ihren alltäglichen Lebensaktivitäten - speziell beim Essen und Trinken - hilft. Aus vielen Gründen, die im ersten Kapitel erläutert werden, haben wir beschlossen, die Simulationssoftware zu verwenden, um ein solches System zu implementieren. Das vorgeschlagene simulierte System besteht aus drei Subsystemen: dem Robotersystem (einem JACO Manipulator Arm). Dem Seh-System (semantische Kamera), das verschiedene Umgebungsobjekte nach ihren Typen und Namen erkennen kann. Es liefert uns dann die Koordinaten für jedes einzelne Objekt. Das letzte Subsystem ist das Geräuscherkennungssystem, das die Wörter erkennt, die programmiert wurden, um den Prozesstyp Essen oder Trinken auch auf die Lebensmittelarten zu beziehen. Die gesamte Umgebung wurde mit Hilfe eines Simulationsprogrammes (MORSE) erstellt, das Python vollständig unterstützt und auf Blender basiert (3D-Zeichnungs und Animationsprogramm). Die Umgebung besteht aus dem Modell einer Person, einem Essenstisch, zwei Schüsseln mit verschiedenen Farben, um die verschiedenen Essensarten darzustellen, einer Küche mit einigen Pflanzen, Heizungen, Spüle und Tisch. Der Arm wurde mit den Designdaten des realen Armes implementiert. Er beinhaltet die gleichen Gelenke, Links und Funktionen. Der Roboterarm, der in diesem Projekt verwendet wurde, ist ein JACO Roboterarm. Dieser Arm wurde speziell für Behinderte entwickelt, die kleine Probleme mit Essen und Trinken haben. Wir haben diesen Arm durch Hinzufügen von zwei Systemen weiterentwickelt: diese Systeme sind Sehen und Hören. Dies wird den Leuten helfen, die ihre Hände nicht benutzen können. Das externe Mikrofon wird mit dem PC verbunden und startet seine Funktion, wenn das Programm startet. Das System wird unter Verwendung von robot operating system (ROS) gesteuert, dass die Sprache C ++ unterstützt. Das System beginnt wie folgt: Wenn der Mensch das gewünschte Wort sagt, das die Nahrungsmittelarten oder das Getränk beschreibt, wird es durch das Geräuscherkennungssystem erkannt. Das Sichtsystem wird die Koordinaten des erforderlichen Essens oder Getränks erkennen. Die Koordinaten des Essens oder des Getränkes werden gespeichert und dann an den Roboterarm übertragen. Der Roboterarm fährt zum Essenstisch oder zum Glas, nimmt es auf und bewegt sich dann zum Mund. Danach bringt er den Rest des Essens oder das Glas zurück an die erste Position. Dieses Projekt kann sehr hilfreich sein für Menschen, die körperliche Probleme beim Essen oder Trinken haben. Also insbesondere für Behinderte mit Einschränkungen der Handhabung.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">This thesis deals with simulated human-robot interaction and how to use a robot in different everyday life activities. It is in line with the significant developments in the sector of artificial intelligent and robotic fields that have enabled the emergence of a new smart robot generation. The idea of this project came from the large number of disabled people, especially handicapped people. This number has been substantially increased by the terrorist war in my country. The challenge of this task is how to build a new smart robotic system that can help those people in everyday life activities, especially in eating and drinking. Due to many reasons that will be clarified in the first chapter, we decided to use simulation software to implement such a system. The proposed simulated system comprises three sub-systems: the robotic system (a JACO manipulator arm), the semantic camera system – which can detect the different environment objects according to their types and names, which finally gives us the coordinates for each one – and the sound recognition system, which will recognize the words from the person using it. It has been programmed to refer to the process type (eating or drinking), as well as the food types. The whole environment has been built using a simulation program (MORSE) that completely supports Python and is based on Blender (a 3D drawing and animation program). The simulated environment comprises a human model, a food table, two dishes with different colours to represent the food types, a kitchen room with some plants, heaters, sink, and tables. The robot arm has been implemented with the same design as the real arm. It includes the same joints, links, and functions. The robotic arm simulated in this project is a JACO robotic arm. This arm has been designed especially for disabled people who have minor problems with eating and drinking. We improved this arm by adding two systems, one for semantic camera system and one for sound. This will help people who cannot use their hands. An external microphone is connected to the PC and starts its function when the program starts, whereby the system is controlled by using a robot operation system (ROS) that supports C++. The system then starts with the human saying the required word, which represents the food type or a drinkable liquid (e.g. water). Each of the available food types has a specific word. When the person says this word, it will be recognized by the sound recognition system. Subsequently, the semantic camera system will detect the coordinates of the required food or drink, which will be stored and then transferred to move the robotic arm. The robotic arm will drive to the food dish or the water cup and pick up it, before moving to the mouth and finally returning the rest food or cup to the first position and continuing in this execution loop. This project will be very helpful to people who have physical problems with eating or drinking, especially for disabled and handicapped people.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Hubert</pc:foreName>
+            <pc:surName>Roth</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2020-10-06</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2020</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-17441</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/lizenz.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Department Elektrotechnik - Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Salih_Rashid_Majeed.pdf" ddb:fileSize="6301539"/>
+   <ddb:checksum ddb:type="MD5">e76528d0511b46aca79cdbb7d73c3a80</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1744/2/Dissertation_Salih_Rashid_Majeed.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1744</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

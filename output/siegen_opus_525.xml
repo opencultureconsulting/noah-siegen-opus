@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_525">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <nonSort>Die </nonSort>
+                        <title>Demokratie-Förderungspolitik der EU und die Entwicklung der Demokratie in der Türkei</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Yilmaz, Nihat</displayForm>
+                        <namePart type="family">Yilmaz</namePart>
+                        <namePart type="given">Nihat</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Diese Dissertation behandelt vier Themengebiete. Zuallererst geht sie auf den Stand der Forschung und auf die theoretischen Grundlagen ein, um sich daran anschließend mit der Klärung und Definition von zentralen Begriffen zu beschäftigen. Dabei werden bestimmte Ansätze fokussiert, welche auf Neoinstitutionalismus, Europäischer Integration und Europäisierungs- und Transformationstheorie aufbauen und deren Annahmen in unterschiedlicher Form übernehmen bzw. ergänzen.
+
+Nachdem ein Einblick in die theoretischen Grundlagen und in die Begriffserklärungen gewonnen wurde, geht es um die Demokratieförderungspolitik der EU. In diesem zweiten Teil der Arbeit wird Folgendes untersucht: der Begriff der externen Demokratieförderung, das Demokratieverständnis in der EU, die Position der EU in der Welt, Demokratieprobleme der EU, Instrumente zur Demokratieförderung der EU, Zwecke der Politik zur Demokratieunterstützung der EU, die Europäische Nachbarschaftspolitik und die Auswertung der EU-Demokratieförderungspolitik.
+
+Im dritten Teil der Arbeit wird der Demokratisierungsprozess der Türkei dargestellt. Zu Beginn sollen die Europäisierungspolitik im Osmanischen Reichs und die Wirkung der Jungtürken auf den Demokratisierungsprozess analysiert werden. Anschließend werden die Effekte des türkischen Militärs auf den Demokratisierungsprozess der Türkei dargestellt und die Beziehung der Türkei und der EU bewertet. Dabei widmet sich die Untersuchung den nationalen Programme der Türkei und den Fortschrittsberichten der EU für die Türkei.</abstract>
+                    <subject>
+                        <topic>Türkei</topic>
+                        <topic>Demokratieförderung</topic>
+                    </subject>
+                    <classification authority="ddc">320</classification>
+                    <classification authority="ioo" displayLabel="Fakultät I Philosophische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5254</identifier>
+                    <identifier type="sys">HT016898075</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_525</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2011-06-27</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_525">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/525/1/yilmaz.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_525"
+            DMDID="DMD_siegen_opus_525">
+            <mets:fptr FILEID="FILE0_siegen_opus_525"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

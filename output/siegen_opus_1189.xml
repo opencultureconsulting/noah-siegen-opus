@@ -1,0 +1,59 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1189">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Anerkennung und Zugehörigkeit : zur Leistungsfähigkeit ambulanter Erziehungshilfen im Kontext jugendlicher Biografien</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Rosenbauer, Nicole</displayForm>
+                        <namePart type="family">Rosenbauer</namePart>
+                        <namePart type="given">Nicole</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Seit mehr als einem Jahrhundert existieren gesetzlich geregelte und (sozial-) pädagogisch ausgerichtete Einzelbetreuungen für junge Menschen. Die Betreuung eines einzelnen Kindes oder Jugendlichen durch eine sozialpädagogische Fachkraft ist die älteste Form einer ambulanten Erziehungshilfe und seit den 1960er Jahren unter dem Begriff des ‚Erziehungsbeistands’ jugendhilferechtlich verankert. Dabei haben sich diese Einzelbetreuungen im letzten Jahrhundert und insbesondere seit den 1960/70er-Jahren kontinuierlich wegentwickelt von gerichtlich angeordneten ‚Schutzaufsichten’ und frühen Resozialisierungshilfen hin zu freiwillig in Anspruch genommenen Leistungen im Rahmen des neueren Jugendhilferechts.</abstract>
+                    <subject>
+                        <topic>Erziehungshilfe</topic>
+                        <topic>Erziehungshilfe</topic>
+                        <topic>Jugendhilfe</topic>
+                        <topic>Teilhabe</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11896</identifier>
+                    <identifier type="sys">HT019573966</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1189</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1189">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1189/1/Rosenbauer_Anerkennung_und_Zugehoerigkeit.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1189"
+            DMDID="DMD_siegen_opus_1189">
+            <mets:fptr FILEID="FILE0_siegen_opus_1189"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

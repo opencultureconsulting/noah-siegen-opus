@@ -1,0 +1,106 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1080">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Robust vehicle state and parameter observation : adaptive filtering concept with enhanced robustness by usage of Markov chains</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Robuste Beobachtung von Fahrzeugzuständen und Parametern</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Korte, Matthias</displayForm>
+                        <namePart type="family">Korte</namePart>
+                        <namePart type="given">Matthias</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The work presented here should fulfil the requirements for the granting of the degree of
+Doctor of Engineering at the University Siegen. It was completed within the EU funded
+project eFuture with the company Intedis. The goal of the project was to create an
+efficient and safe electric vehicle on the basis of a Tata eVista with help of a complete
+new architecture.
+A novel robust vehicle observer was designed for an optimal support of the integrated
+driver assistance systems. The concept for the observer is based upon an extended
+Kalman Filter using a non-linear vehicle model and the Dugoff tire model.
+Moreover, a parameter estimation and a plausibility check of the sensor signals were
+developed to increase the robustness of the observer. The estimation of the vehicle
+mass, the effective tire radii and the road adhesion were designed with an event-seeking
+characteristic in order to minimise the computational load. In the plausibility check
+delayed or faulty sensor signals are detected and corrected. Here the newly designed
+replacement of delayed or missing sensor signals by the concept of Markov Chains is
+pointed out. By this, the correctness of the output signals and the safety of the vehicle
+can be guaranteed for a defined time. Additionally, the evaluation of the stability limits
+and the driven distance of the vehicle are computed under the use of quantities that
+were calculated before. After the model based design the software was integrated on the
+hardware of the prototype. The functionality of this concept is given by results during
+dynamic test drives</abstract>
+                    <abstract type="content" lang="ger">Die hier vorgestellte Arbeit soll die Anforderungen zur Verleihung des Doktortitels an der
+Universität Siegen erfüllen. Sie wurde im Rahmen des EU geförderten Projekts eFuture
+bei der Firma Intedis in Würzburg abgeleistet, in welchem ein sicheres und effizientes
+Elektrofahrzeug auf Basis eines Tata eVista dank eines neuen Konzeptes aufgebaut wurde.
+Ein neuartiger robuster Fahrzeugbeobachter wurde entwickelt um die integrierten Fahrerassistenzsysteme
+optimal zu unterstützen. Das Konzept des Beobachters basiert auf
+einem erweiterten Kalman Filter unter Verwendung eines nichtlinearen Fahrzeugmodells
+und des Dugoff Reifenmodells.
+Zusätzlich wurde eine Parameterschätzung sowie ein Plausibilitätscheck der Sensorsignale
+integriert, um die Robustheit des Beobachters zu erhöhen. Die Parameterschätzung
+von Fahrzeugmasse, effektiven Reifenradien und Haftreibung wurde mit Hinblick auf die
+Berechnungslast ereignisbasierend aufgebaut. Im Plausibilitätscheck werden sowohl fehlerhafte
+oder verzögerte Signale detektiert als auch korrigiert. Hier ist das neu entworfene
+Ersetzen von verzögerten oder fehlenden Sensorsignalen auf Basis der Theorie der Markov
+Ketten hervorzuheben. So kann auch bei einem Sensorausfall die Korrektheit der
+Ausgangssignale für einen gewissen Zeitraum und dadurch auch die Sicherheit des Fahrzeugs
+unter Assistenzkontrolle garantiert werden. Die Evaluierung der Stabilitätsgrenzen
+für das Fahrzeug sowie die Berechnung der gefahrenen Strecke für das Kombiinstrument
+werden mit den zuvor ermittelten Größen durchgeführt. Nach der modellbasierten Entwicklung
+wurde die Software auf der Hardware des Prototypen integriert. Ergebnisse bei
+dynamischen Testfahrten zeigen die Funktionalität dieses Konzepts.</abstract>
+                    <subject>
+                        <topic>Fahrerassistenzsystem</topic>
+                        <topic>Vehicle State Observation</topic>
+                        <topic>Kalman Filtering</topic>
+                        <topic>Parameter Estimation</topic>
+                        <topic>Vehicle Dynamics</topic>
+                        <topic>Vehicle Model</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Regelungs- und Steuerungstechnik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-10802</identifier>
+                    <identifier type="sys">HT019222594</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1080</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2016-06-06</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1080">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1080/1/Dissertation_Matthias_Korte.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1080"
+            DMDID="DMD_siegen_opus_1080">
+            <mets:fptr FILEID="FILE0_siegen_opus_1080"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,119 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_578">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>A </nonSort>
+                        <title>two-level approach to ontology-based access control in pervasive personal servers</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bourimi, Mohamed</displayForm>
+                        <namePart type="family">Bourimi</namePart>
+                        <namePart type="given">Mohamed</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Scerri, Simon</displayForm>
+                        <namePart type="family">Scerri</namePart>
+                        <namePart type="given">Simon</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Planaguma, Marc</displayForm>
+                        <namePart type="family">Planaguma</namePart>
+                        <namePart type="given">Marc</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Heupel, Marcel</displayForm>
+                        <namePart type="family">Heupel</namePart>
+                        <namePart type="given">Marcel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Karatas, Fatih</displayForm>
+                        <namePart type="family">Karatas</namePart>
+                        <namePart type="given">Fatih</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schwarte, Philipp</displayForm>
+                        <namePart type="family">Schwarte</namePart>
+                        <namePart type="given">Philipp</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">A new trend in pervasive personal server hosting is to enable
+the integration of a user&apos;s social spheres. Ideally, the design of access 
+control to private data should be flexible and independent from the target
+host. Personal data should also remain independent from environmental
+constraints, e.g., in order to support easy migration to new deployment
+landscapes. Such information interoperability can be achieved by
+ontology-based personal information sphere management. In the digital.me
+project, personal data is modelled using an  ontology-based approach. In
+this paper we address the design and first implementation of the
+digital.me userware access control engine. Here, we introduce a two-level
+access control design in order to decouple the ontology based-semantic
+core from the hosting web container, while ensuring that personal data and
+the associated ontology-based access rights remain flexibly decoupled from
+the underlying environment.</abstract>
+                    <subject>
+                        <topic>Authentifizier</topic>
+                        <topic>Authorizierung</topic>
+                        <topic>Ontology-basierte Zugriffskontrolle</topic>
+                        <topic>Spring Security</topic>
+                        <topic>OAuth Authorizierung</topic>
+                        <topic>Authentication</topic>
+                        <topic>(RBAC) Authorisation</topic>
+                        <topic>Ontology-Based Access Control</topic>
+                        <topic>Ontology Trust and Privacy Modeling</topic>
+                        <topic>Spring Security</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5789</identifier>
+                    <identifier type="sys">HT017108415</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_578</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_578">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/578/1/two_level_approach_to_ontology_based_access_control.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_578"
+            DMDID="DMD_siegen_opus_578">
+            <mets:fptr FILEID="FILE0_siegen_opus_578"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

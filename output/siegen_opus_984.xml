@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_984">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Critical success factors for original and derivative ventures and SMEs</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Kritische Erfolgsfaktoren für originäre und derivative Gründungen und KMUs</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Soost, Christian</displayForm>
+                        <namePart type="family">Soost</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2015</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The dissertation contains the investigation of specific success factors for original and derivative ventures and SMEs. These are team diversity for new ventures in university spin-offs, incentives for SMEs, and gender in business succession in family firms. The focus is shift away from a generalized consideration of success factors to a specific one. This approach makes it possible to consider the specific context surroundings and to detect success factors that are of high importance for the organizations observed.</abstract>
+                    <abstract type="content" lang="ger">Die Dissertation enthält die Analyse spezifischer Erfolgsfaktoren für originäre und derivative Gründungen und KMUs. Diese sind Teamdiversität für Neugründungen in University Spin-Offs, Anreize für KMUs und Gender in der Unternehmensnachfolge in Familienunternehmen. Der Fokus wird dabei von einer generalisierten Betrachtungsweise der Erfolgsfaktoren auf eine spezifische verschoben. Durch diesen Ansatz ist ein besserer Kontextbezug möglich und die Aufdeckung hochrelevanter Erfolgsfaktoren für die betrachteten Organisationen.</abstract>
+                    <subject>
+                        <topic>Entrepreneurship</topic>
+                        <topic>Team diversity</topic>
+                        <topic>Incentives</topic>
+                        <topic>SME</topic>
+                        <topic>Business succession</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät III - Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-9844</identifier>
+                    <identifier type="sys">HT018890311</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_984</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2016-01-27</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_984">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/984/1/Dissertation_Christian_Soost.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_984"
+            DMDID="DMD_siegen_opus_984">
+            <mets:fptr FILEID="FILE0_siegen_opus_984"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

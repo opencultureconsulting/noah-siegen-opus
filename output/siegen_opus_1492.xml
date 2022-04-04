@@ -1,0 +1,58 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1492">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Sensormedien : eine medien- und praxistheoretische Annäherung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Thielmann, Tristan</displayForm>
+                        <namePart type="family">Thielmann</namePart>
+                        <namePart type="given">Tristan</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Da gegenwärtig immer mehr Sensoren in Medien, Gebrauchsgegenständen und Infrastrukturen verbaut und diese so zu mobilen „Smart Devices“ transformiert werden, entstehen neue sozio-technische Bedingungen der Datenerfassung und -Verarbeitung, denen nicht mit etablierten Konzepten zur Informations- und Wissensgesellschaft begegnet werden kann. Sie zeichnen sich durch eine entgrenzte Datenerfassung aus, da wir mit Hilfe von Sensoren eine unaufhörliche Verbindung zur Umwelt eingehen. Das Konzept der Sensormedien erlaubt es daher, den Fokus darauf zu richten, was das Beständige medialer Environments ist und was unsere „digitale Gesellschaft“ zusammenhält. Die Grundidee des vorliegenden Working Papers ist, dass Sensormedien einen epistemischen Shift von der Informations- zur Sensorgesellschaft einleiten und nur in der wechselseitigen Verrechnung und Re-Sensibilisierung von Daten, Umwelten und Körpern zu verstehen sind. Sensormedien sind zudem prädestiniert für eine praxistheoretische Auseinandersetzung, da die mediale Erfassung und Darstellung der Körper-Umwelt-Beziehung durch neue Sensortechnologien ein Diversitätsniveau erreicht, welches der Komplexität praxeologischer Beschreibung besser gerecht wird. Umgekehrt lassen sich die kulturellen und gesellschaftlichen Auswirkungen der Sensormedien nur auf Grundlage methodologischer Innovationen wirklich adäquat beschreiben.</abstract>
+                    <subject>
+                        <topic>Sensortechnologien</topic>
+                        <topic>Medientheorie</topic>
+                    </subject>
+                    <classification authority="ddc">302</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-14923</identifier>
+                    <identifier type="sys">HT020292041</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1492</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1492">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1492/2/Thielmann_Sensormedien_WPS_09.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1492"
+            DMDID="DMD_siegen_opus_1492">
+            <mets:fptr FILEID="FILE0_siegen_opus_1492"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

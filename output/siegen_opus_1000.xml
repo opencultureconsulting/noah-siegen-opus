@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1000">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Belastungen und Ressourcen von Pflegeeltern : Analyse eines Pflegeeltern-Onlineforums</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Liabilities and resources of foster parents</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Jespersen, Andy</displayForm>
+                        <namePart type="family">Jespersen</namePart>
+                        <namePart type="given">Andy</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Das vorliegende Buch ist das Ergebnis einer fast einjährigen Betrachtung des pflegeelternforum.de. Inhalt sind:
+• Im ersten Teil zunächst grundlegende Begriffe erklärt, zuvorderst das für die Analyse maßgebliche Konzept der Belastungs-Ressourcen-Balance von Klaus Wolf. Größeren Raum wird – um der Spezifik des Forschungsmaterials gerecht zu werden – einer Einführung in die Gegebenheiten von Onlineforen im Allgemeinen und des untersuchten Pflegeeltern-Onlineforums im Speziellen gegeben. Besonders der Entstehungskontext der zitierten Beiträge der Pflegeeltern soll damit beleuchtet werden.
+• Der zweite Teil legt den gewählten methodischen Zugang auf das Textmaterial dar, der maßgeblich von Annahmen aus der Grounded Theory geprägt ist. Die empirische Vorgehensweise wurde jedoch für die Perspektive von Belastungen und Ressourcen modifiziert und auf den Rahmen dieser Arbeit zugeschnitten.
+• Hierauf folgt im nächsten Teil eine ausführliche Darstellung der Ergebnisse, in der die am Material erarbeiteten Belastungs- und Ressourcenkategorien, entlang von Zitaten aus den Beiträgen der Pflegeeltern beschrieben werden.
+• Im vierten Teil werden die Ergebnisse in einer weiterführende Analyse eingebettet, die in eine jeweilige Strukturierung der Belastungs- und Ressourcenkategorien und in der Folge zu entsprechenden Modellbildungen führt.
+• An die Entwicklung dieser Modelle werden Folgeüberlegungen für die Praxis der sozialen Dienste in der Pflegekinderhilfe geknüpft.</abstract>
+                    <subject>
+                        <topic>Pflegeeltern</topic>
+                        <topic>Pflegekinderhilfe</topic>
+                        <topic>Onlineforum</topic>
+                        <topic>Foster parents</topic>
+                        <topic>Foster care</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-10008</identifier>
+                    <identifier type="sys">HT019084934</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1000</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1000">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1000/1/Jespersen_Belastungen_und_Ressourcen_von_Pflegeeltern.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1000"
+            DMDID="DMD_siegen_opus_1000">
+            <mets:fptr FILEID="FILE0_siegen_opus_1000"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

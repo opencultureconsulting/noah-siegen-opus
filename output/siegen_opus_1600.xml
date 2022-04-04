@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1600">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>&quot;Kritische Kontexte&quot; in der Aneignung modaler Formen und Schemata</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Knobloch, Clemens</displayForm>
+                        <namePart type="family">Knobloch</namePart>
+                        <namePart type="given">Clemens</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2001</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Inhalt: 
+0. Vorab
+1. Modus - Modalität - Modalisierung
+2. Modalität, metapragmatisch
+3. Ein paar Tatsachen über Modalität im Spracherwerb
+4. Exkurs: &quot;Ich ist ein anderer&quot; - oder: das kollektive Symbol- und Fiktionsspiel als &quot;kritischer Kontext&quot; für die Ausdifferenzierung und Dezentrierung modaler Bezüge.
+5. &quot;Grammatische Synonymik&quot; - Entfaltung des metapragmatischen Bezugssystems
+6. Origoverschiebung
+7. Rhematisierbarkeit
+8. Ausblick und Schluß
+Literatur
+Anhang</abstract>
+                    <subject>
+                        <topic>Deutsch</topic>
+                        <topic>Spracherwerb</topic>
+                        <topic>Modalität &lt;Linguistik&gt;</topic>
+                        <topic>Grammatikalisation</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16000</identifier>
+                    <identifier type="sys">HT020634464</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1600</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1600">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1600/1/SPASS_Heft%209_2001.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1600"
+            DMDID="DMD_siegen_opus_1600">
+            <mets:fptr FILEID="FILE0_siegen_opus_1600"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

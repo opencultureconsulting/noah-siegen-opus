@@ -1,0 +1,71 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>345</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Entwicklung elektroosmotischer Mikropumpen für Lab-on-Mikrochips</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="eng">Development of electroosmotic micropumps for lab-on-microchips</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Konstantin</pc:foreName>
+            <pc:surName>Seibel</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Mikropumpe</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Lab-on-Mikrochip</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Elektroosmose</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Elektrolyse</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Gel</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">micropump</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">lab-on-a-chip</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">electroosmosis</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">electrolysis</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">gel</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Diese Arbeit fokussiert sich auf die Entwicklung und Charakterisierung elektroosmotischer Mikropumpen für Lab-on-Mikrochip-Anwendungen. Mikropumpen gehören zu den wichtigsten Komponenten des Labchips. Dabei sind mechanische Pumpen mit beweglichen Teilen aufgrund ihrer großen Abmessungen und komplizierten Konstruktionen nur mit großem Aufwand in Planartechnik integrierbar. Von den nichtmechanischen Mikropumpen mit elektrischer Ansteuerung sind elektroosmotische Pumpen von Bedeutung, da nach diesem Funktionsprinzip wässrige Lösungen mit sehr unterschiedlichen Leitfähigkeiten und pH-Werten gepumpt werden können. &#13;
+AC elektrokinetische Mikropumpen, bestehend aus auf dem Kanalboden angeordneten asymmetrischen Elektroden, ist einfach herzustellen, hat aber einen wesentlichen Nachteil: sie kann kaum einen Arbeitsdruck erzeugen und ist deswegen für den Einsatz in Labchips ungeeignet. Aus diesem Grunde konzentrierte sich die Entwicklung auf DC elektroosmotischen Mikropumpen.&#13;
+Die Konstruktion der DC elektroosmotischen Mikropumpe mit mehreren vertikal angeordneten schmalen Mikrokanälen aus dem Polymer SU-8 reduziert die Pumpenabmessungen, ermöglicht einen hohen Arbeitsdruck bei einer niedrigen Arbeitsspannung und ist kompatibel mit der Post-CMOS-Bearbeitung. Ein einfaches analytisches Modell zur Bestimmung der Pumpgeschwindigkeit im feldfreien Lastkanal wurde entwickelt und dargestellt.&#13;
+Ein wesentliches Problem elektroosmotischer Mikropumpen ist die Wasserelektrolyse an den Metallelektroden. Die nachteilige Gasblasenbildung kann durch die Verwendung von gasdurchlässigen Deckeln aus Polydimethylsiloxan (PDMS) reduziert werden. Diese Lösung hat aber folgende Nachteile: die Arbeitsspannung wird auf einen schmalen Bereich von 4-5 V begrenzt und die hydrophobe Oberfläche von PDMS verhindert die Selbstbefüllung der Kanäle.&#13;
+Eine optimale Lösung des Gasblasenproblems bietet die Positionierung der Metallelektroden in offenen Hilfsreservoiren außerhalb des Hauptkanals. Der Ionenstromfluss von Elektroden in den Hilfsreservoiren zum Pumpenbereich erfolgt durch die Gelelektroden. Mikropumpen mit den Gelelektroden aus dem fotopolymerisierten Polyacrylamid wurden gefertigt und untersucht. Die Pumprate ist bidirektional linear und beträgt etwa 10 nl/min in einem 1 cm langen Lastkanal bei der angelegten Spannung von 40 V, was einem maximalen Arbeitsdruck von 65 Pa entspricht. Zur weiteren Steigerung der Pumpleistungen muss das Aspektverhältnis von den Pumpenmikrokanälen durch die Reduzierung des Rippenabstandes erhöht werden.&#13;
+Zur Messung der Pumprate und damit zur Steuerung der Mikropumpe wurde ein monolithisch integrierter Massenflusssensor entworfen, realisiert und untersucht. Eine programmierbare Pumpe als Kombination der elektroosmotischen Mikropumpe, des Massenflusssensors und einer externen Steuerelektronik wurde erfolgreich getestet. Hierbei konnten Pumpraten bis zu ±30 nl/min eingestellt werden. Die programmierbare Mikropumpe kann auch als aktives Ventil in Labchips eingesetzt werden.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">This work focuses on the development and characterization of electroosmotic micropumps for lab-on-chip applications. Micropumps are the most important components of labchips. Mechanical pumps with moving parts are not suitable for planar technology, especially with regard to integration into a simple standardized technology platform. The reason is their large size and complex construction. The electroosmotic effect is the most common one used for nonmechanical pumping of aqueous solutions of a wide range of conductivities and pH-values. Pumps based on this effect are easy to manufacture and offer good potential for integration into cost effective technology platforms.&#13;
+AC electrokinetic micropumps, a simple version of electroosmotic pumps as known from the literature, consist of an array of asymmetric interdigitated electrodes. They are very easy to fabricate, however, they suffer from a very low working pressure and are therefore not suited for integration on labchips. For this reason this work concentrates on the development of DC electroosmotic micropumps.&#13;
+The design of DC electroosmotic micropumps with a vertical arrangement of multiple narrow microchannels made of the polymer SU-8 reduces the pump dimensions, makes possible high working pressures at moderate operation voltages and is compatible with post-CMOS processing. A simple analytical model has been developed to estimate the flow velocity in the field free section of the pumping channel.&#13;
+A significant problem of DC electroosmotic micropumps is water electrolysis at the metal electrodes. The drawback of bubble generation can be reduced by use of gas permeable covers, e.g. covers made of polydimethylsiloxane (PDMS). This design, however, decreases the range of operation voltages to about (4…5) V, and the hydrophobic surface of PDMS constrains the desired self priming of the fluidic channels.&#13;
+A good solution to cope with bubble generation is the positioning of the metal electrodes outside the main channel in open auxiliary reservoirs. A conductive ionic path between the auxiliary reservoirs and the active pumping region can be established using a gel bridge. Therefore, micropumps using photopolymerized polyacrylamide gel electrodes have been fabricated and tested. The pumping rate of these pumps is bidirectionally linear and reaches 10 nl/min in a 1 cm long pressure-driven channel at an applied voltage of 40 V. This corresponds to a zero-flow pressure of 65 Pa. The working pressure can be further increased by reducing the distance between the vertical ribs of the pumping array.&#13;
+For the measure of the pump rate a monolithically integrated mass flow sensor based on the thermal anemometric principle has been developed, fabricated and tested. For the first time, a planar programmable on-chip micropump, combining the new electroosmotic narrow channel micropump, the mass flow sensor, and external control circuitry has been operated successfully in a closed control loop for flow rates in the range from zero to up to ±30 nl/min. The programmable micropump may also be used as an active closing valve on labchips.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2008-03-18</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2008</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-3454</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">ger</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Mikrosystemtechnik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="seibel.pdf" ddb:fileSize="10900764"/>
+   <ddb:checksum ddb:type="MD5">558370f9442bbc5dc296268ddb97f6af</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/345/1/seibel.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/345</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

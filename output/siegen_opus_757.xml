@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_757">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Acoustic emission testing and acousto-ultrasonics for structural health monitoring</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Torres Arredondo, Miguel Angel</displayForm>
+                        <namePart type="family">Torres Arredondo</namePart>
+                        <namePart type="given">Miguel Angel</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2013</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The global trends in the construction of modern structures require the integration of sensors together with data recording and analysis modules so that its integrity can be continuously monitored for safe-life, economic and ecological reasons. This process of measuring and analysing the data from a distributed sensor network all over a structural system in order to quantify its condition is known as structural health monitoring (SHM). The research presented in this thesis is motivated by the need to improve the inspection capabilities and reliability of SHM systems based on ultrasonic guided waves with focus on the acoustic emission and acousto-ultrasonics techniques. The use of a guided wave-based approach is driven by the fact that these waves are able to propagate over relatively long distances, interact sensitively with and/or being related to different types of defect.
+
+The main emphasis of the thesis is concentrated on the development of different methodologies based on signal analysis together with the fundamental understanding of wave propagation for the solution of problems such as damage detection, localisation and identification. The behaviour of guided waves for both techniques is predicted through modelling in order to investigate the characteristics of the modes being propagated throughout the evaluated structures and support signal analysis. The validity of the developed model is extensively investigated by contrasting numerical simulations and experiments. 
+
+In this thesis special attention is paid to the development of efficient SHM methodologies. This fact requires robust signal processing techniques for the correct interpretation of the complex ultrasonic waves. Therefore, a variety of existing algorithms for signal processing and pattern recognition are evaluated and integrated into the different proposed methodologies. Additionally, effects such as temperature variability and operational conditions are experimentally studied in order to analyse their influence on the performance of developed methodologies. At the end, the efficiency of these methodologies are experimentally evaluated in diverse isotropic and anisotropic composite structures.</abstract>
+                    <abstract type="content" lang="ger">Nach den heutigen Standards zur Konstruktion moderner Leichtbaustrukturen ist es zur Strukturüberwachung aufgrund von wirtschaftlichen, ökologischen und Sicherheitsaspekten unerlässlich, Sensoren und Module zur Datenspeicherung und –analyse in diese Strukturen zu integrieren. Den Prozess der Strukturüberwachung anhand der Messung und Analyse von Daten aus einem dezentralen Sensornetzwerk wird als „Structural Health Monitoring (SHM)“ bezeichnet. Die vorliegende Arbeit und die darin vorgestellten Untersuchungen reagieren auf den Bedarf an verbesserter Genauigkeit und höherer Zuverlässigkeit von SHM-Systemen, die auf geführten Ultraschallwellen basieren, wobei der Fokus der Untersuchung auf Schallemissions- und Acousto-Ultraschalltechniken liegt. Da geführte Wellen lange Wege zurückzulegen können und mit hoher Empfindlichkeit und Genauigkeit auf verschiedene Schadenstypen reagieren, eignen sie sich sehr gut für die Überwachung dünnwandiger Strukturen. 
+
+Der Schwerpunkt der Arbeit liegt in der Entwicklung verschiedener Methoden zur Signalanalyse zur Lösung von Problemen wie Schadenserkennung, lokalisierung und identifizierung. Dies ist nicht ohne ein grundlegendes Verständnis der Wellenausbreitungsmechanismen möglich, sodass ein Modell entwickelt wird, anhand dessen die Charakteristiken der angeregten Moden sowie die Wellenausbreitung in den zu untersuchenden Strukturen analysiert werden können, um so die Signalanalyse zu unterstützen. Die Validität des entwickelten Modells wird eingehend anhand von verschiedenen numerischen Simulationen und Experimenten untersucht. 
+
+Um besonders effiziente Methoden des SHMs zu entwickeln, sind robuste Signalverarbeitungstechniken zur zuverlässigen Interpretation komplexer Ultraschallwellen notwending. Aus diesem Grund erfolgt die Auswertung einer Vielzahl existierender Algorithmen zur Signalverarbeitung und Mustererkennung, die in die hier vorgestellten Methoden integriert werden. Des Weiteren wird experimentell untersucht, welchen Einfluss Effekte wie Temperaturschwankungen und Betriebsbedingungen auf diese Methoden haben. Abschließend wird experimentell die Effizienz der entwickelten Methoden bei der Überwachung diverser isotroper und anisotroper Faserverbundstrukturen nachgewiesen.</abstract>
+                    <subject>
+                        <topic>Zerstörungsfreie Werkstoffprüfung</topic>
+                        <topic>Structural Health Monitoring</topic>
+                        <topic>Acousto-Ultrasonics</topic>
+                        <topic>Acoustic Emission</topic>
+                        <topic>Damage Detection</topic>
+                        <topic>Damage Classification</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Mechanik und Regelungstechnik - Mechatronik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-7573</identifier>
+                    <identifier type="sys">HT017803220</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_757</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2013-08-25</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_757">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/757/1/torres.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_757"
+            DMDID="DMD_siegen_opus_757">
+            <mets:fptr FILEID="FILE0_siegen_opus_757"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

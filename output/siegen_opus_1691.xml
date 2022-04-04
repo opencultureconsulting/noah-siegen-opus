@@ -1,0 +1,65 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1691">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>&quot;Fast wahr&quot;</title>
+                        <subTitle lang="ger">Stilauseinandersetzungen als Farce</subTitle>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Almost true : style conflicts as farce</title>
+                        <subTitle lang="ger">Stilauseinandersetzungen als Farce</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kiem, Karl</displayForm>
+                        <namePart type="family">Kiem</namePart>
+                        <namePart type="given">Karl</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bookPart</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2009</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Der Artikel beschäftigt sich mit der kritiklosen Übertragung der Argumentation der Stilauseinandersetzungen zwischen moderater und funktionalistischer Moderne der Zwanziger Jahre des zwanzigsten Jahrhunderts auf die Gegenwart und die entsprechende einseitige Wertung nach funktionalistischen Vorurteilen. Im Mittelpunkt der Betrachtung steht die Gartenstadt Staaken des Architekten Paul Schmitthenner, die in ihrer Entstehungszeit (1914 ff.) eine der fortschrittlichsten städtebaulichen Anlagen in Deutschland war. An diesem Beispiel wird die Absurdität und Lächerlichkeit der hin und wieder vorgebrachten ideologisch eingeengten Argumentation deutlich gemacht.</abstract>
+                    <abstract type="content" lang="eng">The article deals with the uncritical transfer of the argumentation of the style clashes between moderate and functionalist modernity of the 1920s to the present and the corresponding one-sided evaluation according to functionalist prejudices. The focus of the study is the Gartenstadt Staaken by the architect Paul Schmitthenner, which was one of the most progressive urban development projects in Germany at the time of its creation (1914 ff.). This example illustrates the absurdity and ridiculousness of the ideologically narrowed argumentation that is put forward from time to time.</abstract>
+                    <subject>
+                        <topic>Architekturgeschichte</topic>
+                        <topic>Gartenstadt Staaken</topic>
+                    </subject>
+                    <classification authority="ddc">720</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16917</identifier>
+                    <identifier type="sys">HT020585866</identifier>
+                    <accessCondition type="use and reproduction">CREATIVECOMMONS.ORG PUBLICDOMAIN ZERO 1.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1691</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBookPart</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1691">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1691/4/Karl_Kiem_Fast_wahr.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1691"
+            DMDID="DMD_siegen_opus_1691">
+            <mets:fptr FILEID="FILE0_siegen_opus_1691"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

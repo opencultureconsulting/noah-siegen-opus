@@ -1,0 +1,77 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1460">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Practice as a collective and knowledgeable doing</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gherardi, Silvia</displayForm>
+                        <namePart type="family">Gherardi</namePart>
+                        <namePart type="given">Silvia</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Gießmann, Sebastian</displayForm>
+                        <namePart type="family">Gießmann</namePart>
+                        <namePart type="given">Sebastian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schubert, Cornelius</displayForm>
+                        <namePart type="family">Schubert</namePart>
+                        <namePart type="given">Cornelius</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">This paper explores the relationship between knowledge and practice, knowledgeable practices, knowing in practice and knowledge as a situated activity. It traces a tradition of sociological thought in practice theories that derives from studies of scientifc knowledge and that challenges the conventional understanding of the ‘social’ as human-centred. The understanding of practice is grounded in an actor-network approach and in feminist Science and Technology Studies. In fact, the precursors of the empirical study of knowing in situ were the so-called laboratory studies, and section 1 presents their contributions to the study of knowledge practices. Later, section 2 proposes a post- humanist practice theory that joins other post-epistemologies in the project of decentring the human subject as the main source of action and moving from a formulation of practice theory as ‘humans and their practices’ to a vision of practice as the entanglement of humans, materialities, discourses, knowledges and any other relevant element in the situated activities. The aim of the paper is to interpret practice as an empirical phenomenon; therefore, sections 3, 4 and 5 illustrate the core assumptions: i) the sensory and elusive knowledges embedded in knowing in practice; ii) realities as enacted in practices; and iii) interdependent practices as woven in a texture of practices.</abstract>
+                    <subject>
+                        <topic>Erkenntnistheorie</topic>
+                        <topic>agencement</topic>
+                        <topic>epistemology of practice</topic>
+                        <topic>sensory knowledge</topic>
+                        <topic>sociomateriality</topic>
+                        <topic>texture of practices</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-14604</identifier>
+                    <identifier type="sys">HT020293497</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1460</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1460">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1460/2/WPS_08_Gherardi_Practice.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1460"
+            DMDID="DMD_siegen_opus_1460">
+            <mets:fptr FILEID="FILE0_siegen_opus_1460"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

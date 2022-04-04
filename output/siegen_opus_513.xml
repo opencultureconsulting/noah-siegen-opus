@@ -1,0 +1,59 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_513">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Sicherung von Prüfungsqualität und Wirtschaftlichkeit der handelsrechtlichen Jahresabschlussprüfung von Unternehmen der Bauwirtschaft durch Planung eines geschäftsrisikoorientierten Prüfungsvorgehens</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Wermers-Vormstein, Vera</displayForm>
+                        <namePart type="family">Wermers-Vormstein</namePart>
+                        <namePart type="given">Vera</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Durchführung der Abschlussprüfung hat neben der Sicherung der Prüfungsqualität und Wirtschaftlichkeit auch der Erfüllung weitergehender Erwartungen der Rechnungslegungsadressaten gerecht zu werden, sodass an die Prüfungsplanung hohe Anforderungen zu stellen sind. Dies gilt insbesondere für Jahresabschlussprüfungen von Unternehmen der Bauwirtschaft, bei denen unterschiedlichste Risikofaktoren aus dem Geschäftsumfeld und der Geschäftstätigkeit sowie rechnungslegungsspezifische Besonderheiten der Bauproduktion zu einem erhöhten Fehlerrisiko in der Rechnungslegung und damit steigenden Prüfungsrisiken des Abschlussprüfers führen können. Ein Prüfungsvorgehen, das sich an der Geschäftstätigkeit, den Geschäftsprozessen und den Geschäftsrisiken der zu prüfenden Unternehmen ausrichtet, stellt den Status quo der Abschlussprüfung dar. Die vorliegende Monographie überträgt das bestehende geschäftsrisikoorientierte Prüfungsmodell auf ein konkretes Anwendungsfeld: Die Prüfungsplanung einer handelsrechtlichen Jahresabschlussprüfung von Unternehmen der Bauwirtschaft. Diese zählt zu den hochgradig risikobehafteten Branchen. Dabei wird eruiert, ob die allgemein vermuteten bzw. nachgewiesenen Vorteile, in Bezug auf die bei der Durchführung einer Abschlussprüfung parallel zu verfolgenden Zielsetzungen, auch für diese Branche vollumfänglich greifen bzw. vorliegen.</abstract>
+                    <subject>
+                        <topic>Jahresabschlussprüfung</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <classification authority="ioo" displayLabel="Fachbereich 5, Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5133</identifier>
+                    <identifier type="sys">HT016840673</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_513</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2011-04-26</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_513">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/513/1/wermers_vormstein.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_513"
+            DMDID="DMD_siegen_opus_513">
+            <mets:fptr FILEID="FILE0_siegen_opus_513"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

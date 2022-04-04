@@ -1,0 +1,81 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_345">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Entwicklung elektroosmotischer Mikropumpen für Lab-on-Mikrochips</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Development of electroosmotic micropumps for lab-on-microchips</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Seibel, Konstantin</displayForm>
+                        <namePart type="family">Seibel</namePart>
+                        <namePart type="given">Konstantin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2008</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Diese Arbeit fokussiert sich auf die Entwicklung und Charakterisierung elektroosmotischer Mikropumpen für Lab-on-Mikrochip-Anwendungen. Mikropumpen gehören zu den wichtigsten Komponenten des Labchips. Dabei sind mechanische Pumpen mit beweglichen Teilen aufgrund ihrer großen Abmessungen und komplizierten Konstruktionen nur mit großem Aufwand in Planartechnik integrierbar. Von den nichtmechanischen Mikropumpen mit elektrischer Ansteuerung sind elektroosmotische Pumpen von Bedeutung, da nach diesem Funktionsprinzip wässrige Lösungen mit sehr unterschiedlichen Leitfähigkeiten und pH-Werten gepumpt werden können. 
+AC elektrokinetische Mikropumpen, bestehend aus auf dem Kanalboden angeordneten asymmetrischen Elektroden, ist einfach herzustellen, hat aber einen wesentlichen Nachteil: sie kann kaum einen Arbeitsdruck erzeugen und ist deswegen für den Einsatz in Labchips ungeeignet. Aus diesem Grunde konzentrierte sich die Entwicklung auf DC elektroosmotischen Mikropumpen.
+Die Konstruktion der DC elektroosmotischen Mikropumpe mit mehreren vertikal angeordneten schmalen Mikrokanälen aus dem Polymer SU-8 reduziert die Pumpenabmessungen, ermöglicht einen hohen Arbeitsdruck bei einer niedrigen Arbeitsspannung und ist kompatibel mit der Post-CMOS-Bearbeitung. Ein einfaches analytisches Modell zur Bestimmung der Pumpgeschwindigkeit im feldfreien Lastkanal wurde entwickelt und dargestellt.
+Ein wesentliches Problem elektroosmotischer Mikropumpen ist die Wasserelektrolyse an den Metallelektroden. Die nachteilige Gasblasenbildung kann durch die Verwendung von gasdurchlässigen Deckeln aus Polydimethylsiloxan (PDMS) reduziert werden. Diese Lösung hat aber folgende Nachteile: die Arbeitsspannung wird auf einen schmalen Bereich von 4-5 V begrenzt und die hydrophobe Oberfläche von PDMS verhindert die Selbstbefüllung der Kanäle.
+Eine optimale Lösung des Gasblasenproblems bietet die Positionierung der Metallelektroden in offenen Hilfsreservoiren außerhalb des Hauptkanals. Der Ionenstromfluss von Elektroden in den Hilfsreservoiren zum Pumpenbereich erfolgt durch die Gelelektroden. Mikropumpen mit den Gelelektroden aus dem fotopolymerisierten Polyacrylamid wurden gefertigt und untersucht. Die Pumprate ist bidirektional linear und beträgt etwa 10 nl/min in einem 1 cm langen Lastkanal bei der angelegten Spannung von 40 V, was einem maximalen Arbeitsdruck von 65 Pa entspricht. Zur weiteren Steigerung der Pumpleistungen muss das Aspektverhältnis von den Pumpenmikrokanälen durch die Reduzierung des Rippenabstandes erhöht werden.
+Zur Messung der Pumprate und damit zur Steuerung der Mikropumpe wurde ein monolithisch integrierter Massenflusssensor entworfen, realisiert und untersucht. Eine programmierbare Pumpe als Kombination der elektroosmotischen Mikropumpe, des Massenflusssensors und einer externen Steuerelektronik wurde erfolgreich getestet. Hierbei konnten Pumpraten bis zu ±30 nl/min eingestellt werden. Die programmierbare Mikropumpe kann auch als aktives Ventil in Labchips eingesetzt werden.</abstract>
+                    <abstract type="content" lang="eng">This work focuses on the development and characterization of electroosmotic micropumps for lab-on-chip applications. Micropumps are the most important components of labchips. Mechanical pumps with moving parts are not suitable for planar technology, especially with regard to integration into a simple standardized technology platform. The reason is their large size and complex construction. The electroosmotic effect is the most common one used for nonmechanical pumping of aqueous solutions of a wide range of conductivities and pH-values. Pumps based on this effect are easy to manufacture and offer good potential for integration into cost effective technology platforms.
+AC electrokinetic micropumps, a simple version of electroosmotic pumps as known from the literature, consist of an array of asymmetric interdigitated electrodes. They are very easy to fabricate, however, they suffer from a very low working pressure and are therefore not suited for integration on labchips. For this reason this work concentrates on the development of DC electroosmotic micropumps.
+The design of DC electroosmotic micropumps with a vertical arrangement of multiple narrow microchannels made of the polymer SU-8 reduces the pump dimensions, makes possible high working pressures at moderate operation voltages and is compatible with post-CMOS processing. A simple analytical model has been developed to estimate the flow velocity in the field free section of the pumping channel.
+A significant problem of DC electroosmotic micropumps is water electrolysis at the metal electrodes. The drawback of bubble generation can be reduced by use of gas permeable covers, e.g. covers made of polydimethylsiloxane (PDMS). This design, however, decreases the range of operation voltages to about (4…5) V, and the hydrophobic surface of PDMS constrains the desired self priming of the fluidic channels.
+A good solution to cope with bubble generation is the positioning of the metal electrodes outside the main channel in open auxiliary reservoirs. A conductive ionic path between the auxiliary reservoirs and the active pumping region can be established using a gel bridge. Therefore, micropumps using photopolymerized polyacrylamide gel electrodes have been fabricated and tested. The pumping rate of these pumps is bidirectionally linear and reaches 10 nl/min in a 1 cm long pressure-driven channel at an applied voltage of 40 V. This corresponds to a zero-flow pressure of 65 Pa. The working pressure can be further increased by reducing the distance between the vertical ribs of the pumping array.
+For the measure of the pump rate a monolithically integrated mass flow sensor based on the thermal anemometric principle has been developed, fabricated and tested. For the first time, a planar programmable on-chip micropump, combining the new electroosmotic narrow channel micropump, the mass flow sensor, and external control circuitry has been operated successfully in a closed control loop for flow rates in the range from zero to up to ±30 nl/min. The programmable micropump may also be used as an active closing valve on labchips.</abstract>
+                    <subject>
+                        <topic>Mikropumpe</topic>
+                        <topic>Lab-on-Mikrochip</topic>
+                        <topic>Elektroosmose</topic>
+                        <topic>Elektrolyse</topic>
+                        <topic>Gel</topic>
+                        <topic>micropump</topic>
+                        <topic>lab-on-a-chip</topic>
+                        <topic>electroosmosis</topic>
+                        <topic>electrolysis</topic>
+                        <topic>gel</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Mikrosystemtechnik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-3454</identifier>
+                    <identifier type="sys">HT015483739</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_345</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2008-03-18</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_345">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/345/1/seibel.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_345"
+            DMDID="DMD_siegen_opus_345">
+            <mets:fptr FILEID="FILE0_siegen_opus_345"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

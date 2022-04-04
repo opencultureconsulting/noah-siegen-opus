@@ -1,0 +1,75 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1911</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Performance optimization of a Kirsten–Boeing turbine by a metamodel based on neural networks coupled with CFD</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Jan-Philipp</pc:foreName>
+            <pc:surName>Küppers</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Jens</pc:foreName>
+            <pc:surName>Metzger</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Jürgen</pc:foreName>
+            <pc:surName>Jensen</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Prof. Dr.-Ing. Tamara</pc:foreName>
+            <pc:surName>Reinicke</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Wasserkraftwerk</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Kirsten-Boeing</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Turbine mit vertikaler Achse</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Tensorflow</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">ANSYS CFX</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Metamodellierung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Kirsten-Boeing</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Vertical axis turbine</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Tensorflow</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">ANSYS CFX</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Metamodeling</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Neural nets</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Optimization</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The supply of energy is sustainable only if it is predominantly based on renewable or regenerative energies. For this reason, the use of micro-hydropower plants on rivers and streams is considered recently. This is a particular challenge for the preservation of ecologically permeable streams, so that no dams or similar structures can be considered. While the axial turbine design has prevailed in wind power, there is still no consensus for the generation of energy in free water flow conditions. In this work, an existing prototype of an unusual vertical axis Kirsten–Boeing turbine was investigated. A multivariate optimization process was created, in which all important machine parameters were checked and improved. By using neural networks as a metamodel coupled with flow simulations in ANSYS CFX, a broadly applicable optimization strategy is presented that yielded a blade design that is 36% more efficient than its predecessor in experiments. During the process, it was shown how to set up a complex sliding mesh problem with ANSYS expressions while evaluating a free surface problem.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2019</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">article</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-19114</dc:identifier>
+   <dc:source xsi:type="ddb:ISSN">1996-1073</dc:source>
+   <dc:source xsi:type="dcterms:URI">https://doi.org/10.3390/en12091777</dc:source>
+   <dc:source xsi:type="ddb:noScheme">Energies ; 12 (9), 1777. - https://doi.org/10.3390/en12091777</dc:source>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/lizenz.txt</dc:rights>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Performance_optimization.pdf" ddb:fileSize="12842981"/>
+   <ddb:checksum ddb:type="MD5">f4065800975604f798f841b6cdc28489</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1911/4/Performance_optimization.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1911</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

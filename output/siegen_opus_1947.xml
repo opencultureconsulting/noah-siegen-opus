@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1947">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>(Ethno-)Stereotype in deutschsprachiger Bierwerbung</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>(Ethno-)Stereotypes in German beer advertising</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Breitkopf, Vanessa</displayForm>
+                        <namePart type="family">Breitkopf</namePart>
+                        <namePart type="given">Vanessa</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Vogel, Friedemann</displayForm>
+                        <namePart type="family">Vogel</namePart>
+                        <namePart type="given">Friedemann</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">masterThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die vorliegende Masterarbeit zeigt systematisch unter Zuhilfenahme der linguistischen Imageanalyse auf, wie (Ethno-)Stereotype in den Massenmedien - hier in der Werbung - verarbeitet und dadurch von uns Rezipienten quasi beiläufig aufgenommen und verinnerlicht werden. Sie macht jene Vorgänge sichtbar und nachvollziehbar, die häufig nur unbewusst und innerhalb weniger Sekunden ablaufen, um das Bewusstsein für den alltäglichen Zugang und die dadurch resultierende Konservierung von stereotypen Denkstrukturen zu steigern. Ziel der Masterarbeit ist es, das durch Werbung vermittelte Medienimage der deutschen Bierkultur zu rekonstruieren. Da Bier in Deutschland einen wichtigen Aspekt der deutschen Kultur widerspiegelt und den Status eines Kulturguts erfährt, wird vor allem in der Bierwerbung vermutet, dass präsentierte Inhalte und Bilder absichtlich ausgewählt und angeordnet werden, um eine bestimmte Assoziation und Verknüpfung zur deutschen Kultur beim Rezipienten hervorzurufen.</abstract>
+                    <subject>
+                        <topic>Werbewirkung</topic>
+                        <topic>Werbekommunikation</topic>
+                        <topic>Stereotype</topic>
+                        <topic>Ethnostereotype</topic>
+                        <topic>Linguistische Imageanalyse</topic>
+                        <topic>Images</topic>
+                        <topic>Bierwerbung</topic>
+                        <topic>Bier</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät I Philosophische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-19478</identifier>
+                    <identifier type="sys">HT021114643</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1947</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaMasterThesis</vl:doctype>
+                        <vl:defenseDate>2020-07-02</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1947">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1947/4/MA_Vanessa_Breitkopf.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1947"
+            DMDID="DMD_siegen_opus_1947">
+            <mets:fptr FILEID="FILE0_siegen_opus_1947"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

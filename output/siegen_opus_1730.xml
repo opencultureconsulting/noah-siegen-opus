@@ -1,0 +1,63 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1730">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Mafalda</title>
+                        <subTitle lang="ger">Quinos Comicstrip als Gesellschaftskritik im Argentinien der 1960er und 70er Jahre</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Donadon, Lia Roxana</displayForm>
+                        <namePart type="family">Donadon</namePart>
+                        <namePart type="given">Lia Roxana</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">&quot;Mafalda&quot; ist die erste deutschsprachige Monografie zum international beachteten und politisch bedeutsamen Werk des argentinischen Zeichners Quino (Jg. 1932), der im September 2020 verstorben ist. Wie Lia Roxana Donadon zeigt, ist &quot;Mafalda&quot; eine zeithistorische Fundgrube und zugleich eine subversive Antwort auf große bleibende gesellschaftliche Fragen. 
+Die bis heute andauernde kulturhistorische Relevanz von Quinos Mafalda-Kosmos ist in der internationalen Forschung bislang nur teilweise aufgearbeitet worden. Das Buch trägt daher zur Schließung dieser Forschungslücke bei, indem es Mafalda akribisch in seiner Zeit verortet und Quinos kreativkritischen Blick auf das Argentinien der 1960er und 70er Jahre mit viel Empathie und Gusto untersucht.</abstract>
+                    <subject>
+                        <topic>Argentinien</topic>
+                        <topic>Argentinischer Comicstrip</topic>
+                        <topic>Politischer Humor</topic>
+                        <topic>Comics</topic>
+                        <topic>Argentina</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-17301</identifier>
+                    <identifier type="sys">HT021116802</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1730</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1730">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1730/3/SieGN_1_Donadon_Mafalda.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1730"
+            DMDID="DMD_siegen_opus_1730">
+            <mets:fptr FILEID="FILE0_siegen_opus_1730"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

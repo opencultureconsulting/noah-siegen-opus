@@ -1,0 +1,74 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1122">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Simulation der mikrostrukturbestimmten Kurzrissausbreitung unter dem Einfluss lokaler Phasenumwandlung</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kübbeler, Martin</displayForm>
+                        <namePart type="family">Kübbeler</namePart>
+                        <namePart type="given">Martin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Strukturen und Bauteile sind in zahlreichen praktischen Fällen zyklischen Beanspruchungen mit hohen Lastspielzahlen ausgesetzt, unter denen ihre Lebensdauer vom mikrostrukturellen Wachstum kurzer Ermüdungsrisse bestimmt wird. Eine wichtige Grundlage, um die Resistenz von Werkstoffen gegenüber der Rissausbreitung zu steigern, ist das Verständnis ihrer Mechanismen. Hierzu stellt die vorliegende Arbeit ein neues zweidimensionales Modell zur Beschreibung des Kurzrisswachstums in einem metastabilen austenitischen Edelstahl vor, das durch lokale Phasenumwandlung beeinflusst wird. Sie tritt an der Rissspitze auf, wenn zwei sich kreuzende Gleitsysteme an ihr aktiv sind. Durch das größere Volumen des umgewandelten Werkstoffs ist der Riss gegenüber transformationsfreiem Wachstum für einen größeren Teil des Beanspruchungszyklus geschlossen. Dies verlängert die Lebensdauer von Bauteilen, da die zyklische Rissspitzenabgleitung reduziert wird, die die Rissausbreitungsgeschwindigkeit bestimmt.
+Basierend auf experimentellen Untersuchungen liegen dem Rissfortschritt und der ihm überlagerten Phasentransformation die folgenden wesentlichen Modellschritte zugrunde:
+•	Während eines Lastzyklus wird das Spannungsfeld an der Rissspitze ausgewertet. Reicht es zur Aktivierung zweier Gleitsysteme aus, werden an der Spitze Gleitebenen mit entsprechender Orientierung und elastisch ideal-plastischem Verhalten angesetzt.
+•	Auf ihnen werden die Abgleitungen berechnet und daraus der Rissfortschritt sowie die Zunahme der Phasentransformationszone an der Rissspitze bestimmt.
+•	Die Rissverlängerung und die Vergrößerung der Umwandlungszone werden in das Modell einbezogen und anschließend ein neuer Beanspruchungszyklus durchlaufen.
+Die numerische Lösung des Modells erfolgt durch eine Randelementemethode, bei der Elemente mit Absolut- und Relativverschiebungsansätzen gekoppelt werden. Erstere beranden die Martensitbereiche, was das Aufbringen der Volumenzunahme ermöglicht. Zweitere diskretisieren den Riss und die Gleitebenen.
+Das Modell wird zur Simulation des mikrostrukturbestimmten Kurzrisswachstums angewendet, wobei neben der Phasentransformation auch die Barrierewirkung von Korngrenzen und individuelle isotrope Steifigkeiten der Gefügekörner einbezogen werden. Hieraus resultierende Effekte des Kurzrisswachstums werden herausgestellt und Parameterstudien durchgeführt. Neben anderen Ergebnissen wird die Verringerung der zyklischen Rissspitzenabgleitung durch die Phasentransformation nachvollzogen. Die exemplarische Simulation des Wachstums eines realen Risses zeigt gute Übereinstimmung mit dem zugehörigen Experiment.</abstract>
+                    <abstract type="content" lang="eng">In various practical situations, structures and components are exposed to high-cycle fatigue loading. In such conditions, their lifetime is determined by the growth of microstructurally short fatigue cracks. In order to increase the resistance of materials against short crack propagation, understanding its mechanisms is an important basis. Hence, this thesis presents a new two-dimensional model representing short crack growth in a metastable austenitic steel. It is influenced by phase transformation, provided two intersecting slip systems are activated at the crack tip. Due to the increased volume of the transformed material, the crack is closed for a longer part of the load cycle compared to transformation-free crack growth. This reduces the cyclic crack tip slide displacement determining the crack propagation rate and results in an increased lifetime of components.
+Based on experimental investigations, crack propagation and phase transformation – both occurring at the same time – are modelled performing the following main steps:
+•	The stress field in the vicinity of the crack tip is evaluated during one load cycle. If it activates two slip systems, slip planes with the determined orientations are introduced at the crack tip. They represent elastic ideal-plastic material behaviour.
+•	Crack propagation and the increase of transformed material at the crack tip are determined resulting from slip which has been computed along the slip planes.
+•	Crack extension and the increased transformed regions are included into the model and subsequently, a new load cycle is simulated.
+In order to solve the model numerically, a boundary element method is used, which couples two types of boundary elements: Those with absolute displacements enclose the martensite regions which allows to assign volume increase to these areas. Elements with relative displacements discretise the crack and the slip planes.
+The model is applied to simulate the growth of microstructrually short cracks. Besides of phase transformation, barrier effects of grain boundaries and individual isotropic stiffnesses of the grains of a microstructure are considered. Effects of short crack propagation resulting from these features are highlighted and parameter studies are performed. Besides of other results, reduction of cyclic crack tip slide displacement due to phase transformation is reproduced. Exemplarily, the propagation of a real crack is simulated yielding a good agreement with the experiment.</abstract>
+                    <subject>
+                        <topic>Rissausbreitung</topic>
+                        <topic>mikrostrukturbestimmte Kurzrissausbreitung</topic>
+                        <topic>short crack propagation</topic>
+                        <topic>boundary element method</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Mechanik und Regelungstechnik - Mechatronik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11229</identifier>
+                    <identifier type="sys">HT019340693</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1122</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2017-02-17</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1122">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1122/1/Dissertation_Martin_Kuebbeler.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1122"
+            DMDID="DMD_siegen_opus_1122">
+            <mets:fptr FILEID="FILE0_siegen_opus_1122"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

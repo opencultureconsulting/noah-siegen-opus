@@ -1,0 +1,75 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1241">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Constructive category theory and applications to algebraic geometry</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Konstruktive Kategorientheorie und Anwendungen in algebraischer Geometrie</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gutsche, Sebastian</displayForm>
+                        <namePart type="family">Gutsche</namePart>
+                        <namePart type="given">Sebastian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">In this thesis we design a framework for computing in (abelian) categories in a structured manner, inspired by constructions in category theory.
+We start by giving necessary definitions for a category to be computable in the sense of this thesis. This includes the requirements on the data structure for objects and morphisms, and the specifications of categorical operations which need to be implemented.
+As a first example, we provide data structures and algorithms to show how the category of finitely presented graded modules over a graded computable ring can be implemented in this context.
+Then we describe the category of Serre morphisms of an abelian category. It provides an example of the flexibility a categorical framework offers for the implementation of abelian categories. The category of Serre morphisms will then be used, together with the previously described implementation of f.p. graded modules, to implement the category of coherent sheaves over a normal toric variety. To achieve this, we present an algorithm to compute the graded parts of a f.p. graded module over a Laurent polynomial ring, the latter graded by a finitely presented abelian group.
+As application of this axiomatic computational setup for both f.p. graded modules and coherent sheaves over toric varieties, we describe a categorical algorithm to compute a grade-compatible presentation of a f.p. graded module and a coherent sheaf. 
+A realization of the categorical framework to implement computable categories was created alongside this thesis: CAP (Categories, Algorithms, Programming). All concepts and algorithms presented in this thesis are implemented in CAP.  In the last chapter of the thesis, some technical concepts of CAP are explained and motivated.</abstract>
+                    <abstract type="content" lang="ger">In dieser Arbeit definieren wir einen durch die Konstruktionen der Kategorientheorie definierten Rahmen, um abelsche Kategorien auf dem Computer zu implementieren und mit diesen zu arbeiten.
+Wir beginnen mit der Definition einer berechenbaren Kategorie im Sinne dieser Arbeit. Dies beinhaltet die Anforderungen an die Datenstrukturen für Objekte und Morphismen und die Spezifikationen der kategoriellen Operationen, die implementiert werden sollen.
+Als erstes Beispiel definieren wir Datenstrukturen und geben Algorithmen an, um zu zeigen, dass die Kategorie der endlich präsentierten graduierten Moduln über einem berechenbaren Ring ebenfalls berechenbar ist.
+Anschließend beschreiben wir die Kategorie der Serre Morphismen einer abelschen Kategorie A bezüglich einer dicken Teilkategorie von A. Diese Serre Morphismen Kategorie bietet ein Beispiel für die Flexibilität des kategoriellen Rahmens der Implementation abelscher Kategorien. Wir benutzen die Serre Morphismen Kategorie, zusammen mit der Implementation endlich präsentierter graduierter Moduln, um ein berechenbares Modell kohärenter Garben über torischen Varietäten zu beschreiben. Um dies zu erreichen, stellen wir einen Algorithmus vor, der die Gradschichten eines endlich präsentierten graduierten Moduls über einem mit einer endlich präsentierten abelschen Gruppe graduierten Laurent Polynomring berechnet.
+Als Anwendung dieser axiomatischen Implementation der endlich präsentierten graduierten Moduln und kohärenten Garben geben wir abschließend einen Algorithmus an, welcher Reinheitsgrad-kompatible Präsentationen endlich präsentierter graduierter Moduln und kohärenter Garben berechnet.
+Eine Realisierung dieses axiomatisch-kategoriellen Rahmens zur Implementation berechenbarer Kategorien entstand zusammen mit dieser Arbeit: CAP (Categories, Algorithms, Programming). Alle Konzepte und Algorithmen, welche in dieser Arbeit vorgestellt werden, sind bereits in CAP implementiert. Im letzten Kapitel motivieren und erklären wir zudem einige technische Konzepte von CAP.</abstract>
+                    <subject>
+                        <topic>Kategorientheorie</topic>
+                        <topic>Cohomology computations</topic>
+                        <topic>Homological algebra</topic>
+                        <topic>Algebraic geometry</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-12411</identifier>
+                    <identifier type="sys">HT019538603</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1241</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2017-08-29</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1241">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1241/1/Dissertation_Sebastian_Gutsche.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1241"
+            DMDID="DMD_siegen_opus_1241">
+            <mets:fptr FILEID="FILE0_siegen_opus_1241"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

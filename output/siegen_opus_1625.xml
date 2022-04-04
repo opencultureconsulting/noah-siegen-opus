@@ -1,0 +1,89 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1625">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Fostering literacy with come_IN computer clubs</title>
+                        <subTitle lang="eng">a study of the levelling effects of crafting, making and learning in the intercultural neighborhood</subTitle>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Die Förderung von Literacy durch come_IN Computerclubs</title>
+                        <subTitle lang="eng">a study of the levelling effects of crafting, making and learning in the intercultural neighborhood</subTitle>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Weibert, Anne</displayForm>
+                        <namePart type="family">Weibert</namePart>
+                        <namePart type="given">Anne</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Wulf, Volker</displayForm>
+                        <namePart type="family">Wulf</namePart>
+                        <namePart type="given">Volker</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths␞ths</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Stevens, Gunnar</displayForm>
+                        <namePart type="family">Stevens</namePart>
+                        <namePart type="given">Gunnar</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths␞ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2019</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Indem sie als offene Treffpunkte dezidiert niederschwellig und offen strukturierten Zugang zu Computertechnologie und modernen Medien ermöglichen, geben die interkulturellen come_IN Computerclubs eine kombinierte Antwort auf zwei Entwicklungen: die zunehmende soziale und kulturelle Ausdifferenzierung von Gesellschaft, und eine anhaltende, wenn nicht zunehmende digitale Spaltung. Die Gelegenheit zum gemeinsamen Spielen, Lernen und Arbeiten mit Computern und modernen Medien ist geeignet Brücken zu bauen zwischen Menschen verschiedenen Alters, und unterschiedlicher kultureller und sozialer Herkunft. Auf diesem Grundsatz fußt das Konzept der interkulturellen come_IN Computerclubs. Indem sie come_IN in Diskursen zu kultureller, computer- und medienunterstützter Ausdruckskompetenz situiert, zeigt diese Arbeit, wie alle Aktivität in come_IN Lernen an vier miteinander verschränkten Enden balanciert: das Selbst und die Gemeinschaft, das Analoge und das Digitale.</abstract>
+                    <abstract type="content" lang="eng">Embedding technology access and skill acquirement in a decidedly open local social structure, the intercultural come_IN computer clubs have been developed as a response to
+both, an increasing social and cultural diversity, and a prevailing, if not increasing digital
+divide. The opportunity for collaborative play, learning and work with computers and
+modern media is apt to build bridges among people of different ages, cultural and social
+backgrounds is the basic idea that lays the grounds for the concept of the intercultural
+come_IN computer clubs. By situating come_IN in discourses on cultural as well as computational and media literacy, this work carves out how all activity in come_IN balances learning at four interrelated ends: the Self and the Other, the Non-Computational and the Computational.</abstract>
+                    <subject>
+                        <topic>Interkulturelles Lernen</topic>
+                        <topic>Förderung der Lesefähigkeit</topic>
+                        <topic>Fostering literacy</topic>
+                        <topic>Intercultural learning</topic>
+                        <topic>Computer supported learning</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät III - Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16255</identifier>
+                    <identifier type="sys">HT020562795</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1625</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2020-02-28</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1625">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1625/4/Dissertation_Anne_Weibert.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1625"
+            DMDID="DMD_siegen_opus_1625">
+            <mets:fptr FILEID="FILE0_siegen_opus_1625"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

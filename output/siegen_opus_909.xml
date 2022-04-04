@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_909">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Methode zum Engineering von Produktionsanlagen durch Wiederverwendung von Modulen</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Method for the engineering of production systems by reusing modules</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Klein, Philipp Walter</displayForm>
+                        <namePart type="family">Klein</namePart>
+                        <namePart type="given">Philipp Walter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Anlagenbauer und -betreiber unterliegen heute einem zunehmenden Wettbewerbsdruck, der zur Folge hat, dass die Effizienz in allen Unternehmensbereichen gesteigert werden soll. Die Wiederverwendung von Modulen und dem dazugehörigen Wissen ermöglicht die Steigerung der Effizienz und die Beherrschung der Komplexität im Engineering und auch in der Fertigung von komplexen und variantenreichen Produkten. Der Ansatz der Wiederverwendung ausdetaillierter Module aus Baukästen lässt sich bislang allerdings nur bedingt auf Produktionsanlagen wie Montagelinien übertragen, die spezifisch auf den Anforderungen und Prozesse des Anlagenbetreibers angepasst sind, da die notwendige Standardisierung beispielsweise für die Definition von Modulschnittstellen für diese Systeme sehr aufwändig ist. Die Herausforderung bei der Wiederverwendung von Modulen in solchen Produktionsanlagen liegt darin, Module zu identifizieren, die so klein sind, dass sie in verschiedenen Anlagen wiederverwandt werden können, und die so groß sind, dass sie dem Entwickler einen Mehrwert gegenüber der Wiederverwendung von Komponenten bieten.
+Um dieser Herausforderung gerecht zu werden, wird im Rahmen dieser Arbeit eine Methode vorgestellt werden, die Entwickler bei der Identifikation von Modulen unterstützt und die die Wiederverwendung in den frühen Phasen des Engineering – also in der Konzeption einer Anlage – ermöglicht. Dazu wird ein methodisches Vorgehen entwickelt und in einer Software implementiert. Die Methode ermöglicht es dem Entwickler, wiederverwendbare Module in bestehenden Produktionsanlagen zu identifizieren. Dazu wird ein matrixbasierter Ansatz in Kombination mit Sortieralgorithmen und Bewertungskriterien genutzt. Zusätzlich werden diese Module durch Eigenschaften und Funktionen systematisiert und in einer Wissensbasis abgespeichert. Dadurch wird es ermöglicht, im Engineering neuer Produktionsanlagen Modulkombinationen durch eine Prozessbeschreibung mit Funktionen zu erstellen und durch die Vorgabe von Eigenschaften relevante Kombinationen einzugrenzen. In einem weiteren Schritt werden die Module bewertet und damit die Modulkombinationen priorisiert. Dazu wird ein aggregierter Nutzwert aus Kosten, Produktivität, Energieverbrauch und Auslastung für die Modulkombination gebildet. Durch statistische Verfahren oder Simulation ist es möglich, diese Bewertungen an die Anforderungen an eine neue Produktionsanlage anzupassen. Um den Entwickler bei der Anwendung der Methode zu unterstützen, wurde die Methode in einem Softwarewerkzeug abgebildet und in der industriellen Praxis erprobt. 
+Die vorgestellte Methode eignet sich insbesondere für Hersteller und Betreiber prozessspezifischer Produktionsanlagen, die das Wissen über diese Anlagen im Engineering neuer oder im Reengineering bestehender Anlagen wiederverwenden wollen. Die Methode unterstützt sie nicht nur bei der Modulidentifikation und bei der Systematisierung des Wissens, sondern auch in der Bereitstellung während  der Konzeptionsphase. Im Engineering wird neben der Auswahl einer geeigneten Modulkombination auch eine Bewertung vorgenommen, die in weiterführenden Schritten wie der Angebotserstellung genutzt werden kann. Der Nutzen der Wiederverwendung von Wissen wird durch die Bereitstellung von Daten zu den Modulen erhöht.</abstract>
+                    <abstract type="content" lang="eng">Industrial machine manufacturers and operating companies are subject to an increasing competition nowadays. This results in the pursuit of greater efficiency and effectiveness in all areas of the company. The reuse of modules and the related knowledge allows increasing the efficiency and managing the complexity in engineering and in the production of complex products with many variants. The approach of reusing modules from modular systems, which are described in all details, can be transmitted only partially on production systems such as assembly lines so far. These systems are specifically adapted to the requirements and processes of the operator of the production system. This is mainly due to the standardization effort for example for the definition of module interfaces for these systems. The challenge of reuse of modules in such a production system is to identify modules which are small enough that they can be reused in different systems, and which are large enough that they offer the developer an added value, compared to the reuse of components.
+In this thesis, a method will be presented in order to meet this challenge. This method supports the engineer in the identification of modules, and it facilitates the reuse in the early stages of engineering or, more specifically, in the conception of a system. For this, a methodology is developed and implemented as software. The method allows the developer to identify reusable modules into existing production systems. For this purpose, a matrix-based approach is used in combination with sorting algorithms and evaluation criteria. In addition, these modules are systematized by features and functions and stored in a knowledge base. Thus, it is possible to create combinations of modules through a process description with functions in the engineering of new production and to limit the selection to relevant combinations by specifying properties. In a further step, the modules are assessed and thus the module combinations are prioritized.  For this purpose, an aggregate utility value of cost, productivity, energy consumption and utilization is formed for the module combination. It is possible through statistical methods or simulation to adapt these assessments to the requirements of a new production system. The method is implemented in a software tool to assist the developer in the application of the method and tested in the industrial practice.
+The method is particularly suitable for manufacturers and operators of process-specific production system, who want to reuse the knowledge of these systems in the engineering of new systems or the adaption of existing systems. The method supports the user not only in the identification of modules and in the systematization of knowledge, but also in the provision of knowledge during the conceptual design phase. In addition to choosing a suitable combination of modules an assessment is carried out in engineering, which can be used in further steps, such as the quotation. The benefits of reuse of knowledge are increased by the provision of data of the modules. Due to this this knowledge can be reused not only for the modules, the interfaces and the assessment, but also on first drafts, documentation, simulation models etc..</abstract>
+                    <subject>
+                        <topic>Maschinenbau</topic>
+                    </subject>
+                    <classification authority="ddc">620</classification>
+                    <classification authority="ioo" displayLabel="Institut für Produktionstechnik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-9097</identifier>
+                    <identifier type="sys">HT018569458</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_909</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2014-07-31</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_909">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/909/1/Dissertation_Philipp_Walter_Klein.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_909"
+            DMDID="DMD_siegen_opus_909">
+            <mets:fptr FILEID="FILE0_siegen_opus_909"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

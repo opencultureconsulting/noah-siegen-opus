@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_479">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Modellierung und Simulation von wellenbasierten Structural-Health-Monitoring-Systemen mit der Spektral-Elemente-Methode</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Modelling and simulation of wave-based structural health monitoring-systems using the spectral element method</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schulte, Rolf T.</displayForm>
+                        <namePart type="family">Schulte</namePart>
+                        <namePart type="given">Rolf T.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Eine Vielzahl lasttragender technischer Strukturen bedarf zur Gewährleistung der Betriebssicherheit einer regelmäßigen Überprüfung ihrer Integrität, da aus technologischen, wirtschaftlichen oder ökologischen Gründen keine dauerfeste Auslegung möglich ist. Über die gesamte Lebensdauer dieser Strukturen stellen die notwendigen Inspektionen, die in der Regel mit hohem manuellen Arbeitsaufwand einhergehen, einen großen wirtschaftlichen Faktor dar. Zudem bewirkt der menschliche Faktor ein nicht unerhebliches Risiko, Schäden zu übersehen. Daher existiert eine hohe Nachfrage nach Methoden, die eine selbständige Strukturüberwachung mit permanent installierter Sensorik ermöglichen. Derartige Verfahren werden unter dem Oberbegriff &quot;Structural Health Monitoring (SHM)&quot; zusammengefasst. 
+Der Fokus dieser Arbeit liegt auf Verfahren zur Überwachung dünnwandiger Strukturen, die auf so genannten geführten Wellen basieren. Diese Wellen, die mit Hilfe piezoelektrischer Elemente angeregt und detektiert werden, interagieren stark mit Strukturdiskontinuitäten (Rissen, Delaminationen) und weisen daher eine hohe Sensitivität schon gegenüber kleinen Schädigungen auf. Eine erhebliche Herausforderung ist jedoch die Auslegung eines derartigen SHM-Systems für konkrete Strukturen: Die Anpassung und Optimierung von Parametern wie Aktuator- und Sensorpositionen, Signalformen und Auswertealgorithmen erfolgt bisher meist durch eine große Anzahl von Vorversuchen und ist damit zeitaufwändig und kostenintensiv. Zudem wird ein tiefgreifendes Verständnis der bei der Wellenausbreitung ablaufenden Vorgänge benötigt. Nach einer Zusammenfassung notwendiger Grundlagen stellt diese Arbeit ein leistungsfähiges Simulationsverfahren basierend auf Spektralelementen vor, mit dem Wellenausbreitungsvorgänge in flachen Schalenstrukturen mit einer höheren Effizienz simuliert werden können, als dies mit konventionellen Finiten Elementen möglich ist. Dadurch wird es möglich, ein derartiges SHM-System im Stadium der Vorentwicklung schon vor einer realen Installation virtuell abzubilden und z.B. die Detektierbarkeit von Schädigungen zu untersuchen.
+Auf der Basis von Simulationsmodellen werden in verschiedenen Studien grundlegende Eigenschaften der Wellenausbreitung untersucht. Dabei werden unter anderem unterschiedliche Modelle der piezoelektrischen Aktuatoren und Sensoren sowie verschiedene Schädigungsmodelle betrachtet. Die Sensitivität diverser Sensorkonfigurationen hinsichtlich typischer Schädigungen einer versteiften Schalenstruktur wird detailliert analysiert. Ein  Vergleich mit verschiedenen experimentellen Studien erlaubt eine Validierung des vorgestellten Simulationsverfahrens.</abstract>
+                    <subject>
+                        <topic>Wellenausbreitung</topic>
+                        <topic>Strukturüberwachung</topic>
+                        <topic>Monitoring</topic>
+                        <topic>Spektral-Element Methode</topic>
+                        <topic>structural health monitoring</topic>
+                        <topic>SHM</topic>
+                        <topic>spectral element method</topic>
+                        <topic>wave propagation</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Mechanik und Regelungstechnik - Mechatronik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4799</identifier>
+                    <identifier type="sys">HT016703185</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_479</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2010-12-16</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_479">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/479/1/schulte.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_479"
+            DMDID="DMD_siegen_opus_479">
+            <mets:fptr FILEID="FILE0_siegen_opus_479"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_23">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Entwicklung hydraulischer Bindemittel mit rheinischen Braunkohlenfilteraschen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mallmann, Ralf</displayForm>
+                        <namePart type="family">Mallmann</namePart>
+                        <namePart type="given">Ralf</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2002</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Das Ziel der vorliegenden Arbeit war die Entwicklung aschereicher Putz- und Mauerbinder nach oder in Anlehnung an DIN 4211. Diese Anforderung wurde von einem Gemisch aus einer durchschnittlichen rheinischen Braunkohlenfilterasche (BFA) mit Portlandzementklinker, Hüttensand und verschiedenen Zusatzmitteln in nahezu jeder Hinsicht erfüllt. Die untersuchte Asche stammte von einem mischbekohlten Kraftwerksblock eines Großkraftwerks im Rheinischen Revier. Eine Überprüfung der Rezeptur mit weiteren Aschen und Zementklinkern unter Berücksichtigung der z.T. erheblichen Bandbreite in den Zusammensetzungen
+führte zu einem durchweg positiven Ergebnis. Voraussetzung dafür ist die sorgfältige Zusammenstellung der Komponenten unter Einhaltung einiger Rahmenbedingungen.
+Bei geeigneter Auswahl, insbesondere der Aschen, und angepassten Zusatzmitteldosierungen lassen sich Putz- und Mauerbinder nach DIN 4211 mit einem BFA-Gehalt von ca. 40 M.-% herstellen. Infolge der selbsterhärtenden Eigenschaften der BFA lässt sich so ein Teil des Zementklinkers einsparen, was sowohl unter ökonomischen als auch unter ökologischen Gesichtspunkten sinnvoll ist. Damit hat sich gezeigt, dass die rheinische BFA, ähnlich wie andere,
+bewährte Sekundärrohstoffe, beispielsweise Steinkohlenfilterasche oder Hüttensand, für eine baustoffliche Verwendung geeignet ist.</abstract>
+                    <abstract type="content" lang="eng">The aim of this thesis has been the development of a masonry cement according to DIN 4211 including a high content of lignite fly ash (BFA). These demands are nearly fulfilled by a mixture of an average “Rheinisch” BFA with cement clinker, blast furnace slag and different admixtures. The investigated fly ash is originated from a power plant, fired with mixed lignite.
+Verifying the recipe, using a selection of ashes and clinkers with different compositions provided positive results. The prerequisite for this target is the careful arrangement of components.
+With a suitable selection of ingredients and correct dosage of admixtures it is possible to produce a masonry cement with up to 40 percent BFA.
+As a result of the ashes’ self hardening properties we are able to reduce the amount of cement clinker. Due to ecological and economical reasons this seems useful. So like other well tried secondary sources, e.g. fly ash from hard coal or blast furnace slag, the BFA is suitable for utilisation in building materials, too.</abstract>
+                    <subject>
+                        <topic>Braunkohlenfilterasche</topic>
+                        <topic>Putzbinder</topic>
+                        <topic>Mauerbinder</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 8, Chemie - Biologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-237</identifier>
+                    <identifier type="sys">HT013559610</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_23</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2002-12-10</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_23">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/23/1/mallmann.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_23"
+            DMDID="DMD_siegen_opus_23">
+            <mets:fptr FILEID="FILE0_siegen_opus_23"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

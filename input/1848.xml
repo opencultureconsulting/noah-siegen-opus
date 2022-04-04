@@ -1,0 +1,77 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1848</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Automated high-precision crack detection in airplane combustion chamber liners using white light interferometry</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Automatisierte hochgenaue Rissdetektion in Flammrohren von Flugzeugturbinen mittels Weißlichtinterferometrie</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Marc-André</pc:foreName>
+            <pc:surName>Otto</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Interferometrie</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">White light interferometry</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Inspection</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Data Processing</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Automation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Crack Detection</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">620</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The maintenance, repair, and overhaul (MRO) industry plays an important role in increasing the long-term profitability and safety of large investments, especially in the aviation industry. MRO is, therefore, an important economic factor in its own right. The core of any successful MRO procedure is an appropriate inspection technique, which is capable of detecting all relevant damages in a given part. The requirements for these inspection procedures can be very high, especially for safety-critical parts. Furthermore, the inspection processes can be very challenging to automate, especially for complex and used parts, because they often require a high degree of flexibility. As a consequence, of the day of this writing, many of the inspection procedures in the aviation industry are still performed fully or at least partially manually.&#13;
+&#13;
+In this dissertation, an overview of the most important non-destructive inspection (NDI) technologies in aviation MRO is given, followed by examples of their use in automated inspection systems. One technology that is not currently in automated use, but has a very high potential for the automatic high-resolution inspection of  aviation parts, is white light interferometry. Unfortunately, this technology has several attributes that make it very challenging to integrate in automated processes. In general, a white light interferometer's field of view (FOV) is much smaller than the part under test, while simultaneously having a small depth of view. This means that relative movements between the part and the sensor are required. Furthermore, the technology is very sensitive to vibrations, necessitating special considerations for the sensor integration. In addition, the sensor has a relatively large parameter space, with partially interdependent settings, making it difficult to automatically find suitable parameter sets. For these reasons, white light interferometry is not currently used in automated MRO processes.&#13;
+&#13;
+This dissertation bridges the gap between the well-established white light interferometry sensor technology and its practical use for automated inspection processes. In order to fully understand the technology's implication, an overview of the theory behind white light interferometry was derived and serves as the basis for developing solutions for the problems that arise when white light interferometers are used in practice. &#13;
+&#13;
+Even though the novel inspection process itself can be used with any part, it was developed with the combustion chamber outer liner of a CFM-56 aircraft engine in mind, in order to verify the validity of the approach on a relevant practical example. Since cracks represent the majority of flaws in that particular part, the developed inspection method focuses on the detection of those damages. The description of the novel inspection approach focuses, in particular, on the following aspects: the automation of white light interferometry, the three- and two-dimensional data processing required to detect cracks and the verification of the potential crack indications.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Gerade in der Flugzeugindustrie ist es von zentraler Bedeutung, teure Investitionsgüter langfristig profitabel und sicher zu gestalten, weshalb die Instandhaltung (Englisch: maintenance, repair, and overhaul (MRO)) eine besonders große Rolle spielt. &#13;
+&#13;
+Die Grundlage eines jeden Instandhaltungsprozesses ist die Inspektionstechnologie, welche in der Lage sein muss, alle relevanten Auffälligkeiten zu detektieren. Speziell bei sicherheitsrelevanten Bauteilen sind die Anforderungen an die Detektionsleistung sehr hoch. Weiterhin sind die Detektionsprozesse gerade bei komplexen und gebrauchten Bauteilen schwierig zu automatisieren, da sie häufig einen hohen Grad an Flexibilität erfordern. Deshalb sind zum aktuellen Zeitpunkt viele der in der Luftfahrt eingesetzten Inspektionstechnologien noch vollständig oder zumindest teilweise manuelle Prozesse.&#13;
+&#13;
+In dieser Dissertation wird zunächst ein Überblick über die zerstörungsfreien Inspektionstechnologien in der Flugzeuginstandhaltung gegeben, gefolgt von Beispielen zur automatischen Anwendung dieser Prinzipien. Eine Technologie, welche bisher nicht automatisiert eingesetzt wird, aber ein sehr hohes Potenzial für die Etablierung eines automatischen Inspektionsprozesses für Luftfahrtbauteile aufweist, ist die Weißlichtinterferometrie. Leider hat diese Technologie Eigenschaften, welche die Entwicklung eines automatisierten Inspektionssystems schwierig machen. Da das Bildfeld des Sensors im Allgemeinen sehr viel kleiner als das zu inspizierende Bauteil ist und der Sensor gleichzeitig einen beschränkten Tiefenmessbereich hat, muss es während des Aufnahmevorgangs zu Relativbewegungen zwischen Sensor und Bauteil kommen. Die Technologie reagiert jedoch sehr empfindlich auf Schwingungen, was besondere Anforderungen an die Sensorintegration stellt. Weiterhin ist der Parameterraum des Sensors relativ groß und die Parameter hängen zudem teilweise voneinander ab, was die automatische Konfiguration des Sensors erschwert. Aus diesen Gründen wird die Weißlichtinterferometrie nach aktuellem Stand der Technik nicht in automatisierten MRO Prozessen eingesetzt.&#13;
+&#13;
+Diese Dissertation schlägt eine Brücke zwischen der altbekannten Technologie der Weißlichtinterferometrie und deren praktischer Anwendung in automatischen Inspektionsprozessen. Um die Implikationen der Technologie vollständig zu verstehen, wurde zudem ein Überblick über die Theorie der Weißlichtinterferometrie hergeleitet. Dieser dient als Basis für die Lösungsfindung zu den praktischen Problemen, welche im Einsatz mit dieser Technologie auftreten. Obwohl die Technologie prinzipiell mit jedem beliebigen Bauteil genutzt werden kann, wurde bei der Entwicklung des neuartigen Inspektionsprozesses das äußere Flammrohr eines CFM-56 Flugzeugtriebwerks betrachtet, um die Technologie an einem praktischen Beispiel verifizieren zu können. Weiterhin wurde die Fehlerdetektion auf Risse beschränkt, da diese den Großteil der in diesem Bauteil auftretenden Schäden repräsentieren. Bei der Beschreibung der Entwicklung des neuartigen Inspektionsprozesses werden folgende Aspekte im Detail betrachtet: die Automatisierung der Weißlichtinterferometrie, die für die Rissdetektion notwendige drei- und zweidimensionale Datenverarbeitung sowie die Verifikation der potenziellen Rissanzeigen.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Otmar</pc:foreName>
+            <pc:surName>Loffeld</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2020-11-20</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2020</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-18489</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/lizenz.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>NRW-Zentrum für Sensorsysteme (ZESS)</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Marc-Andre_Otto.pdf" ddb:fileSize="24757055"/>
+   <ddb:checksum ddb:type="MD5">64eece172660c99119bfb062ba7c75bf</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1848/4/Dissertation_Marc-Andre_Otto.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1848</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

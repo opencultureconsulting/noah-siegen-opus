@@ -1,0 +1,58 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>573</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Simulation and estimation of operator scaling stable random fields</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Simulation und Schätzung von operatorskalierenden stabilen Zufallsfeldern</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Tobias</pc:foreName>
+            <pc:surName>Kegel</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Zufälliges Feld</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">OSSRF</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Stable Random Field</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Discrete Approximation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Parameter Estimation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">510</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Operator-scaling stable random fields are stochastic models which can describe spacial dependencies. Thereby dependencies of different intensities and in different, not necessarily orthogonal, directions are allowed, resulting in anisotropic fields which are used, e.g. in hydrology to represent porous media, or to describe fractal surfaces in physics. In the year 2006, H. Biermé, M. M. Meerschaert and H.-P. Scheffler presented models for operator-scaling stable random fields in harmonizable and in moving average representation, and showed some important properties of these fields. &#13;
+In order to use these fields for practical application, procedures for their numeric simulation are needed, and also methods for the statistical analysis (e.g. parameter estimation) of observed realizations of OSSRFs. The present thesis presents numeric approximations of OSSRFs and examines their deviation from the original OSSRFs. Algorithms for the calculation of these approximations have been also developed and are described in the thesis. For the cases of two- and three-dimensional fields, which are relevant for practical applications, these algorithms for the simulation of OSSRFs have been implemented in the programming languages Matlab and Java. Finally, we present also a method for the estimation of several parameters of a two-dimensional harmonizable OSSRF, and its implementation in Matlab.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Operatorskalierende stabile Zufallsfelder (engl. Operator scaling stable random fields, kurz: OSSRFs) sind stochastische Modelle, die räumliche Abhängigkeiten beschreiben können. Dabei sind Abhängigkeiten unterschiedlicher Stärke und in verschiedenen, nicht notwendigerweise zueinander senkrechten, Richtungen zugelassen. Die resultierenden anisotropen Felder werden z.B. zur Beschreibung poröser Medien in der Hydrologie oder fraktaler Oberflächen in der Physik verwendet. Im Jahr 2006 präsentierten H. Biermé, M. M. Meerschaert und H.-P. Scheffler Modelle für operator-skalierende stabile Zufallsfelder in harmonizable und in moving-average Darstellungen, und zeigten einige wichtige Eigenschaften dieser Felder. &#13;
+Um diese OSSRFs in praktischen Anwendungen einsetzen zu können, werden Methoden für die numerische Simulation und für die statistische Analyse (z.B. Parameterschätzung) solcher Felder benötigt. In der vorliegenden Arbeit werden numerische Approximationen von OSSRFs präsentiert und ihre Abweichungen von den ursprünglichen Feldern untersucht. Algorithmen für die Berechnung dieser Approximationen wurden ebenfalls entwickelt und in dieser Arbeit vorgestellt. Für die in der Praxis relevanten Fälle von zwei- und drei-dimensionalen Feldern wurden diese Algorithmen in den Programmiersprachen Matlab und Java implementiert. Schliesslich stellen wir auch eine Methode für die Schätzung mehrerer Parameter eines harmonizable OSSRF sowie ihre Implementierung in Matlab vor.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2011-10-13</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2011</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-5739</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Fakultät IV - Naturwissenschaftlich-Technische Fakultät</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="kegel.pdf" ddb:fileSize="10830488"/>
+   <ddb:checksum ddb:type="MD5">6804751c6b143f9262a47a9ee593f053</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/573/1/kegel.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/573</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

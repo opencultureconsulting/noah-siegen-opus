@@ -1,0 +1,60 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_924">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Wie erklären sich Pflegekinder ihre Lebensgeschichte? : Analyse biografischer Deutungsmuster</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Pierlings, Judith</displayForm>
+                        <namePart type="family">Pierlings</namePart>
+                        <namePart type="given">Judith</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Wie gelingt es Pflegekindern, nach einem in aller Regel schwierigen Start ins Leben, diese Erlebnisse in die eigene Lebensgeschichte zu integrieren? Wie beschreiben sie sich und ihre eigene Geschichte und finden ihre Erklärungen dafür, was ihnen passiert ist?
+Anhand eines Fallbeispiels werden Deutungsmuster differenziert analysiert und ein zugehöriges Kategoriensystem entwickelt. Die Autorin hat ein Interview mit einer jungen Frau ausgewählt, die sehr klug, differenziert und selbstreflektiert ihre Erfahrungen als Pflegekind beschreibt. An ihrem Beispiel lassen sich die Deutungsmuster differenziert analysieren. Judith Pierlings kann überzeugend zeigen, dass die Analyse der Deutungsmuster eine wichtige Erweiterung über die Rekonstruktion der Erlebensinhalte hinaus eröffnet, weil sich hier biografische Deutungen des Erlebten zu relativ stabilen Mustern verdichten, die auch für die zukünftigen Sozialisationsprozesse relevant sind.</abstract>
+                    <subject>
+                        <topic>Pflegekind</topic>
+                        <topic>Pflegekinder</topic>
+                        <topic>Pflegefamilien</topic>
+                        <topic>Familien - und Jugendhilfe</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-9248</identifier>
+                    <identifier type="sys">HT018723792</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_924</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_924">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/924/1/Judith_Pierlings.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_924"
+            DMDID="DMD_siegen_opus_924">
+            <mets:fptr FILEID="FILE0_siegen_opus_924"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

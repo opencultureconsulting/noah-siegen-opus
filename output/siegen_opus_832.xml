@@ -1,0 +1,69 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_832">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Measurement of the charge asymmetry in the top-quark dilepton decay channel in pp collision data at √s = 7 TeV using the ATLAS detector</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Messung der Ladungsasymmetrie im dileptonischen Zerfallskanal eines Top-Quark Paares in pp Kollisionsdaten bei √s = 7 TeV aufgezeichnet mit dem ATLAS Detektor</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Czirr, Hendrik</displayForm>
+                        <namePart type="family">Czirr</namePart>
+                        <namePart type="given">Hendrik</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">A measurement of the top-quark pair charge asymmetry in the dileptonic decay channel is presented. The analysis is performed using a dataset corresponding to an integrated luminosity of 4.7 fb^-1 of proton-proton collision data at √s = 7 TeV recorded by the ATLAS detector. The event selection requires exactly two high energetic charged leptons (electrons or muons), large missing transverse energy and a minimum of two jets. The kinematic system of the initial top-quark pair is reconstructed using the Kinematic Likelihood Fitter. This thesis focuses on the calculation of the central charge asymmetry A_C, as an observable for the top-quark pair charge asymmetry. Iterative Bayesian unfolding is applied to correct for acceptance and detector resolution effects on the observable and to obtain the value of A_C at parton level. The central asymmetry after application of the unfolding procedure and combination of the three possible dileptonic decay channels is measured to be A_C = 0.055 +/- 0.041 (stat.) +/- 0.029 (syst.), for an event selection with at least one jet to be tagged by a heavy flavour tagging algorithm. The value is consistent with the Standard model prediction (at √s = 7 TeV) of A_C^(theory) = 0.0123 +/- 0.0005.</abstract>
+                    <abstract type="content" lang="ger">In der vorliegenden Arbeit wird eine Messung der Top-Quark-Ladungsasymmetrie im dileptonischen Zerfallskanal vorgestellt. Die Analyse basiert auf einem Datensatz der mit Hilfe des ATLAS-Detektors aufgezeichnet wurde. Der Datensatz entspricht einer integrierten Luminosität von 4.7 fb^-1 von Proton-Proton Kollisionen bei einer Schwerpunktsenergie von √s = 7 TeV. Die Ereignisselektion erfordert genau zwei hochenergetische geladene Leptonen (Elektronen und Myonen), fehlende transversale Energie und mindestens zwei Jets. Das kinematische System des zerfallenden Top-Quark-Paares wird mittels des kinematischen Likelihood-Fitters rekonstruiert. Der Fokus der Arbeit liegt auf der Berechnung der zentralen Ladungsasymmetrie A_C als Observable der Top-Quark-Ladungsasymmetrie. Eine iterative Bayesianische Entfaltungsmethode wird genutzt um Effekte der Detektorakzeptanz und der Detektorauflosung zu korrigieren und um den Wert von A_C auf Partonniveau zu bestimmen. Nach Anwendung der Entfaltungsmethode und der Kombination der drei moglichen dileptonischen Zerfallskanäle wurde die zentrale Ladungsasymmetrie bestimmt: A_C = 0.055 +/- 0.041 (stat.) +/- 0.029 (syst.). Dieser Wert wurde für eine Ereignisselektion bestimmt, die erfordert, dass mindestens ein Jet pro Ereignis von einem heavy flavour tagging-Algorithmus markiert wird. Das Ergebnis ist mit der Vorhersage des Standardmodells (für eine Schwerpunktsenergie von √s = 7 TeV) vereinbar A_C^(Theorie) = 0.0123 +/- 0.0005.</abstract>
+                    <subject>
+                        <topic>ATLAS &lt; Teilchendetektor&gt;</topic>
+                        <topic>Top-Quark</topic>
+                        <topic>Ladungsasymmetrie</topic>
+                        <topic>dileptonisch</topic>
+                        <topic>LHC</topic>
+                        <topic>top-quark</topic>
+                        <topic>charge-asymmetry</topic>
+                        <topic>dileptonic</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-8329</identifier>
+                    <identifier type="sys">HT018507107</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_832</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2014-09-23</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_832">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/832/1/Dissertation_Hendrik_Czirr.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_832"
+            DMDID="DMD_siegen_opus_832">
+            <mets:fptr FILEID="FILE0_siegen_opus_832"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

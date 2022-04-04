@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1204">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Vorwort zum Publikationsprojekt &quot;Soziale Arbeit in der multiethnischen Gesellschaft&quot;</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Müller, C. Wolfgang</displayForm>
+                        <namePart type="family">Müller</namePart>
+                        <namePart type="given">C. Wolfgang</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2016</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Nachdem wir auch in Deutschland begriffen haben, dass wir ein Einwanderungsland sind und noch dazu eine europäische Nummer Eins in den Hoffnungen vieler potentieller Emigranten, müssen wir uns mit der Frage auseinandersetzen, wie sehr wir uns in unserem sozialarbeiterischen und sozialpädagogischen Denken, Fühlen und Tun auf unsere eigene Geschichte als ‚Sozialstaat‘ beziehen und wie wir uns auch auf andere soziale, ethnische, religiöse und gesellschaftspolitische Traditionen von Menschen einlassen müssen.</abstract>
+                    <subject>
+                        <topic>Sozialarbeit</topic>
+                        <topic>Globalisierung</topic>
+                        <topic>Geflüchtete</topic>
+                        <topic>indigenisation</topic>
+                        <topic>Migration</topic>
+                        <topic>Inklusion</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-12043</identifier>
+                    <identifier type="sys">HT020893109</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1204</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1204">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1204/1/Mueller_Vorwort_zum_Publikationsprojekt.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1204"
+            DMDID="DMD_siegen_opus_1204">
+            <mets:fptr FILEID="FILE0_siegen_opus_1204"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

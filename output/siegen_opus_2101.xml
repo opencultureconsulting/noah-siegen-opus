@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_2101">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Higher order corrections to the lifetime of heavy hadrons</title>
+                    </titleInfo>
+                    <titleInfo lang="ger" type="translated">
+                        <title>Korrekturen höherer Ordnung zur Lebensdauer von schweren Hadronen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Piscopo, Maria Laura</displayForm>
+                        <namePart type="family">Piscopo</namePart>
+                        <namePart type="given">Maria Laura</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Lenz, Alexander</displayForm>
+                        <namePart type="family">Lenz</namePart>
+                        <namePart type="given">Alexander</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">ths</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2021</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">In this work we discuss the theoretical status for the study of the lifetime of heavy hadrons. 
+After presenting some introductory topics like the effective weak Hamiltonian and the heavy quark effective theory (HQET), we describe the construction of the heavy quark expansion (HQE), which constitutes the theoretical framework to systematically compute the total decay width of heavy hadrons, in terms of an expansion in inverse powers of the heavy quark mass. The structure of the HQE is discussed in detail, and the computation of the lowest dimensional contributions, explicitly outlined. Particular emphasis is put in describing the expansion of the quark propagator in the external gluon field using the Fock-Schwinger (FS) gauge, which represents a fundamental ingredient of the calculation. Moreover, the main result is the computation of the dimension-six contribution due to the Darwin operator, only recently determined and found to have a sizeable effect.  Finally, we consider two phenomenological applications of the HQE in the charm sector, namely the study of the lifetime of charmed mesons and the analysis of the Glashow-Iliopoulos-Maiani (GIM) cancellations in neutral $D$-meson mixing. By comparing our results with recent measurements performed by the LHCb, Belle-II and BESIII collaborations, we conclude that the HQE is able to reproduce, within large theoretical uncertainties, the experimental pattern for the lifetimes of charmed mesons and we discuss a potential solution for the discrepancy of previous theoretical determinations of $D$-mixing with data.</abstract>
+                    <abstract type="content" lang="ger">In dieser Arbeit erörtern wir den theoretischen Status der Untersuchung von Lebensdauern schwerer Hadronen.
+Nach einigen einführenden Themen wie dem schwachen effektiven  Hamiltonian und der effektiven Theorie für schwere Quarks (HQET) beschreiben wir die Konstruktion der Heavy Quark Expansion (HQE), die den theoretischen Rahmen für die systematische Berechnung der totalen Zerfallsbreite schwerer Hadronen in Form einer Entwicklung in inversen Potenzen der schweren Quarkmasse bildet. Die Struktur der HQE wird im Detail diskutiert und die Berechnung der niedrigstdimensionalen Beiträge wird explizit dargestellt. Ein besonderes Augenmerk wird auf die Beschreibung der Entwicklung des Quark-Propagators in einem externen Gluon-Feld unter Verwendung der Fock-Schwinger-Eichung (FS) gelegt, die einen grundlegenden Bestandteil unserer Rechnungen darstellt. Darüber hinaus ist das Hauptergebnis die Berechnung des Beitrags des Darwin Terms mit der Massendimension sechs, der erst vor kurzem von uns erstmals bestimmt wurde und numerisch bedeutend ist.
+Schließlich stellen wir zwei phänomenologische Anwendungen der HQE im Charm-Sektor vor, nämlich die Untersuchung der Lebensdauern von Charm Mesonen und  die Analyse der Glashow-Iliopoulos-Maiani (GIM)-Kanzellierungen in der Mischung neutraler $D$ Mesonen.
+Durch den Vergleich unserer Ergebnisse mit den jüngsten Messungen der Kollaborationen LHCb, BelleII und BesIII kommen wir zu dem Schluss, dass die HQE in der Lage ist, innerhalb großer theoretischer Unsicherheiten, die experimentellen Resultate für die Lebensdauern
+von Charm Mesonen zu reproduzieren, und wir diskutieren eine mögliche Lösung für die Diskrepanz zwischen früheren theoretischen Bestimmungen von $D$-Mischung und den Daten.</abstract>
+                    <subject>
+                        <topic>Schweres Quark</topic>
+                        <topic>QCD</topic>
+                        <topic>HQE</topic>
+                        <topic>Flavour physics</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Department Physik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-21015</identifier>
+                    <identifier type="sys">HT021160726</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_2101</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2021-10-27</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_2101">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/2101/4/Dissertation_Maria_Laura_Piscopo.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_2101"
+            DMDID="DMD_siegen_opus_2101">
+            <mets:fptr FILEID="FILE0_siegen_opus_2101"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

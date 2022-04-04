@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1192">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Weiterdenken mit Makarenko?</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Mannschatz, Eberhard</displayForm>
+                        <namePart type="family">Mannschatz</namePart>
+                        <namePart type="given">Eberhard</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2014</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Der Titel dieses Artikels birgt eine Fragestellung, welche insofern unzeitgemäß erscheint, als die Bezugnahme auf Makarenko nach der Wende augenscheinlich aus der Erörterungsarena nahezu verschwunden ist; nach anfänglichem fruchtbarem gemeinsamen Bemühen von Sozialpädagogen aus Ost und West, die sich bei durchaus unterschiedlichen Interpretationen in Einzelfragen einig waren, dass es sich bei Makarenko um einen Klassiker der Heimerziehungsproblematik handelt; mit dessen Praxis und Auffassungssystem sich zu beschäftigen es sich lohnt. Dabei ging und geht es nicht um die zugespitzte Streitfrage „Für oder Wider Makarenko“, sondern darum, ob aus seinen Gedankengängen Anregungen zu gewinnen sind.</abstract>
+                    <subject>
+                        <topic>Makarenko, Anton Semenovic</topic>
+                        <topic>Makarenko</topic>
+                        <topic>Bildung</topic>
+                        <topic>Pädagogik</topic>
+                        <topic>Heimerziehung</topic>
+                        <topic>DDR</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11926</identifier>
+                    <identifier type="sys">HT020892670</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1192</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1192">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1192/1/Mannschatz_Weiterdenken_mit_Makarenko.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1192"
+            DMDID="DMD_siegen_opus_1192">
+            <mets:fptr FILEID="FILE0_siegen_opus_1192"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

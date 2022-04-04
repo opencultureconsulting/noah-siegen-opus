@@ -1,0 +1,66 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_20">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Rauschen von a-Si:H-pin-Dioden für TFA-Bildsensorarrays</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Blecher, Frank</displayForm>
+                        <namePart type="family">Blecher</namePart>
+                        <namePart type="given">Frank</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2002</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">TFA (Thin Film on ASIC) -Bildsensoren kombinieren Fotodetektoren auf der Basis amorphen Siliziums mit integrierten Schaltungen in Standard-ASIC (Application Specific Integrated Circuit) –Technologie. Üblicherweise werden a-Si:H-pin-Dioden als Fotodetektoren eingesetzt.
+Die Qualität des Bildsignals wird grundsätzlich durch das Rauschen der Fotodetektoren sowie durch das Rauschen der integrierten Schaltkreise begrenzt.
+Die analytische Berechnung aller am Eingang des Pixelverstärkers auftretenden Rauschkomponenten und die Begrenzung von DR und SNR werden als Funktion von Pixelfläche, Dunkel- und Fotostrom sowie Integrationszeit beschrieben und für verschiedene TFABildsensoren vorgestellt. Es wird eine Prognose der Entwicklung von DR und SNR bei zukünftigen Generationen von TFA-Bildsensoren mit reduzierten CMOS-Strukturgrößen vorgestellt. Der Anstieg aller Rauschkomponenten und die Verringerung der maximalen Signalspannung tragen bei der Skalierung zur Reduzierung von SNR und DR bei. Dabei nimmt das thermisch bedingte Rauschen stärker zu als das Rauschen des Fotostromes, so dass der Abstand zwischen SNR und DR abnimmt.</abstract>
+                    <abstract type="content" lang="eng">TFA (Thin Film on ASIC) -imagers combine photodetectors based on amorphous Silicon with integrated circuits in standard ASIC (Application Specific Integrated Circuit) –technology.
+Usually a-Si:H p-i-n diodes are employed as photodetectors. The quality of the video signal is on principle limited by the noise of the photodetectors and the noise of the integrated circuits.
+The analytic calculation of all noise components at the input of the pixel amplifier and the limitation of DR and SNR are described as a function of pixel area, dark current, photocurrent as well as integration time and presented for various TFA-imagers. An estimation of the trend of DR and SNR for future generations of TFA-imagers with reduced CMOS feature sizes is presented. The increase of all noise components and the increase of the signal voltage with
+downscaling contribute to the reduction of DR und SNR. With the scaling the thermal noise increases stronger than the noise of the photocurrent so that the deviation between DR and SNR decreases.</abstract>
+                    <subject>
+                        <topic>Rauschen</topic>
+                        <topic>Bildsensor</topic>
+                        <topic>a-Si (amorphes Silicium)</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 12, Elektrotechnik und Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-207</identifier>
+                    <identifier type="sys">HT013548795</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_20</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2002-12-12</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_20">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/20/1/blecher.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_20"
+            DMDID="DMD_siegen_opus_20">
+            <mets:fptr FILEID="FILE0_siegen_opus_20"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

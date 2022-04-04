@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_362">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>energy spectrum of primary cosmic rays measured with the KASCADE-Grande experiment</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <nonSort>The </nonSort>
+                        <title>Die Messung des Energiespektrums der primären kosmischen Strahlung mit dem KASCADE-Grande-Experiment</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Kickelbick, Dirk</displayForm>
+                        <namePart type="family">Kickelbick</namePart>
+                        <namePart type="given">Dirk</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2008</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">The measurement of the energy spectrum of cosmic rays is an important tool to reveal the nature of cosmic rays. In order to measure the cosmic rays up to an energy of 10**18 eV, the KASCADE experiment was extended to KASCADE-Grande. It is a ground based detector to measure extensive air showers, which are initiated by the primary particles of the cosmic radiation. In order to obtain the energy spectrum, data from
+December 2003 to September 2007 are analyzed by using the method of constant intensity. This method is applied to the number of charged particles in an air shower and leads to a zenith angle independent number of charged particles, which is a measure of the shower size. Simulations of air showers are then used to calibrate the shower size to the primary energy. Thus, the primary energy spectrum in the energy range of 10**16 eV to 10**18 eV is determined. In the energy region from 10**16 eV to 10**17 eV the resulting spectrum and the spectrum measured with KASCADE overlap. Both measurements are in good agreement in this energy range. Due to the extended energy range, the energy spectrum of KASCADE-Grande connects the KASCADE spectrum with the measurements of experiments like AGASA, Auger and HiRes, which measure up to the highest energies of cosmic rays.</abstract>
+                    <abstract type="content" lang="ger">Die Messung des Energiespektrums der geladenen kosmischen Strahlung ist ein wichtiges Hilfsmittel, um die Natur der kosmischen Strahlung aufzudecken. Das KASCADE-Grande-Experiment ist eine Erweiterung des KASCADE-Experiments, um den messbaren Energiebereich auf 10**18 eV zu erweitern. Es ist ein Experiment zur Messung ausgedehnter Luftschauer am Boden. Ausgedehnte Luftschauer werden durch die Primärteilchen der kosmischen Strahlung in der Atmosphäre erzeugt. Für die Analyse werden Messdaten von Dezember 2003 bis September 2007 ausgewertet. Um das Energiespektrum zu bestimmen, wird die Methode der konstanten Intensität auf die Anzahl der geladenen Teilchen des Luftschauers angewendet. Diese Methode liefert eine zenitwinkelunabhängige Anzahl der geladenen Teilchen, welche ein Maß für die Schauergröße ist. Simulationen von Luftschauern werden verwendet, um die Schauergröße mit der Primärenergie zu kalibrieren. Damit kann das Energiespektrum im Bereich von 10**16 eV bis 10**18 eV bestimmt werden. Dieses überlappt im Energiebereich von 10**16 eV bis 10**17 eV mit den Messungen von KASCADE. Beide Messungen stimmen in diesem Energiebereich gut überein. Durch die Vergrößerung des messbaren Energiebereiches wird eine Verbindung zwischem dem gemessenen Spektrum von KASCADE und den Messungen von Experimenten wie AGASA, Auger oder HiRes hergestellt, die bis zu den höchsten Energien der kosmischen Strahlung messen.</abstract>
+                    <subject>
+                        <topic>Energiespektrum</topic>
+                        <topic>Schnitt konstanter Intensität</topic>
+                        <topic>cosmic rays</topic>
+                        <topic>air shower</topic>
+                        <topic>constant intensity cut</topic>
+                        <topic>energy spectrum</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 7, Physik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-3626</identifier>
+                    <identifier type="sys">HT015638947</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_362</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2008-07-10</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_362">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/362/1/kickelbick.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_362"
+            DMDID="DMD_siegen_opus_362">
+            <mets:fptr FILEID="FILE0_siegen_opus_362"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

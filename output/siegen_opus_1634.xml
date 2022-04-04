@@ -1,0 +1,72 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1634">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <nonSort>The </nonSort>
+                        <title>sweet escape - A research agenda on escapism in information systems research</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Zeuge, Anna</displayForm>
+                        <namePart type="family">Zeuge</namePart>
+                        <namePart type="given">Anna</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">conferenceObject</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2020</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">Escapism is often defined as temporally getting away from unpleasant
+situations or thoughts. Since technology creates new opportunities to escape from
+something unpleasant, the interest in studying escapism has recently increased in
+information system (IS) research. However, despite growing interest on escapism,
+research is still in its very beginning stages. To explore IS phenomena more
+comprehensively this paper proposes a research agenda that highlights current
+shortcomings and the need to address these shortcomings. Thus, this paper provides
+a point of departure for future research on escapism and encourages IS-research to
+further investigate the effects of escapism in IS-related settings.</abstract>
+                    <subject>
+                        <topic>Eskapismus</topic>
+                        <topic>Eskapismus</topic>
+                        <topic>Informationssystem</topic>
+                        <topic>Forschungsagenda</topic>
+                        <topic>Escapism</topic>
+                        <topic>Information System</topic>
+                        <topic>Research Agenda</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-16346</identifier>
+                    <identifier type="sys">HT021015996</identifier>
+                    <accessCondition type="use and reproduction">CC BY-NC-ND 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1634</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>conference_object</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1634">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1634/5/The_Sweet_Escape.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1634"
+            DMDID="DMD_siegen_opus_1634">
+            <mets:fptr FILEID="FILE0_siegen_opus_1634"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

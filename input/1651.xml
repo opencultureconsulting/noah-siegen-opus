@@ -1,0 +1,150 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1651</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Execution environment for integrated real-time systems based on software-defined networking</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" ddb:type="translated" lang="ger">Ausführungsumgebung für integrierte Echtzeitsysteme basierend auf Software-definierter Vernetzung</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Hongjie</pc:foreName>
+            <pc:surName>Fang</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Software-defined networking</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Integrated System</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Software-Defined Networking</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Real-time System</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Virtual Networking</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Heute gibt es eine breite Palette von Industriesystemen, die auf föderierten&#13;
+Architekturen basieren, was bedeutet, dass jeder Rechenknoten im System ausschließlich&#13;
+einer Funktion zugeordnet ist. Aufgrund der zunehmenden Rechenleistung&#13;
+eines einzelnen Prozessors und der zunehmenden Anzahl von Rechenprozessoren&#13;
+auf einer einzigen Plattform wurde umfangreiche Forschung zur Integration&#13;
+mehrerer Funktionen mit unterschiedlichen Kritikalitätsstufen auf einer gemeinsamen&#13;
+Plattform durchgeführt. So hat sich beispielsweise im Bereich der Avionik&#13;
+der Entwicklungstrend von föderierten zu integrierten Architekturen verlagert. Der&#13;
+ARINC 653 Standard wurde veröffentlicht, der die Ausführungsumgebung für das&#13;
+Hosting mehrerer Avionik-Softwarefunktionen in einem einzigen Rechenknoten&#13;
+definiert. ARINC 653 wurde erfolgreich implementiert (z.B. Airbus A380) und erreichte&#13;
+seine primären Ziele (Kosten- und Gewichtsreduzierung, modulare Zertifizierung&#13;
+möglich).&#13;
+&#13;
+Die bestehenden Ausführungsumgebungen auf Basis einer integrierten Architektur&#13;
+unterstützen jedoch nur statische Systemkonfigurationen. In bestimmten Bereichen&#13;
+wie der Bahnindustrie ist eine dynamische Systemanpassung zur Laufzeit erforderlich,&#13;
+die sowohl die Anwendungsausführungsumgebung als auch die Datenkommunikationsmechanismen&#13;
+betrifft. In dieser Dissertation liegt unser Fokus auf einer&#13;
+Ausführungsumgebung, die auf einer integrierten Architektur basiert, die die sichere&#13;
+Integration von mixed-criticality-Anwendungen garantiert und auch das Problem&#13;
+der Systemrekonfiguration angeht.&#13;
+&#13;
+Um die Forschungslücke zu schließen, stellen wir eine Ausführungsumgebung&#13;
+für integrierte Echtzeitanwendungen vor, indem wir das Paradigma des Software-&#13;
+Defined Networking (SDN) nutzen. Wir erweitern die zeitlichen und räumlichen&#13;
+Isolations-mechanismen von der Anwendungsschicht auf die Ausführungsumgebung,&#13;
+so dass sich die integrierten Anwendungen den Rechenknoten störungsfrei&#13;
+teilen. Für die Datenkommunikation der integrierten Anwendungen schlagen wir&#13;
+einen virtuellen Switch vor, der die zeitliche und räumliche Isolation zwischen den&#13;
+Datenflüssen unterstützt und das SDN-Paradigma nutzt, um die Rekonfigurationsanforderungen&#13;
+der Datenflüsse zu erfüllen. Darüber hinaus befassen wir uns auch mit&#13;
+dem kontrollierten Import und Export von Nachrichten zwischen Datenflüssen im&#13;
+vorgeschlagenen virtuellen Switch. Für die deterministischen Kommunikationsanforderungen&#13;
+von harten Echtzeitanwendungen schlagen wir einen virtuellen Switch&#13;
+vor, der IEEE 802.1Qbv und IEEE 802.1Qci nach dem Time Sensitive Networking&#13;
+(TSN)-Standard ist, um die Forschungslücke des virtuellen Switchings zu schließen,&#13;
+das eine begrenzte Verzögerung mit geringem Jitter in einer integrierten Architektur&#13;
+garantiert.&#13;
+&#13;
+In den Proof-of-Concept-Implementierungen zeigen wir die Nicht-Interferenz&#13;
+zwischen Anwendungen in der Ausführungsumgebung durch Fehlerinjektion. In&#13;
+unseren Virtual-Switch-Demonstratoren bewerten wir die grundlegenden Isolationsmechanismen&#13;
+und den Determinismus des Message-Switching, während wir den&#13;
+verursachten Overhead für die Nachrichtenübertragung sowie den kontrollierten&#13;
+Datenaustausch messen, wobei der gemessene Overhead im vorgeschlagenen Virtual-&#13;
+Switch weniger als 10 μs beträgt.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">Today there exists a wide range of industrial systems that are based on federated&#13;
+architectures, which means that the each computing node in the system is exclusively&#13;
+assigned to one function. Due to the increasing computing capability of a single&#13;
+processor and the increasing amount of computing processors on a single platform,&#13;
+extensive research on integrating multiple functions with different criticality levels&#13;
+on a shared platform was carried out. For example, in the avionic domain, the&#13;
+development trend has moved from federated to integrated architectures. The ARINC&#13;
+653 standard was released, which defines the execution environment for hosting&#13;
+several avionic software functions within a single computing node. ARINC 653 was&#13;
+successfully implemented (e.g., Airbus A380) and achieved its primary goals (cost&#13;
+and weight reduction, enabling modular certification).&#13;
+&#13;
+However, the existing execution environments based on an integrated architecture&#13;
+support only static system configurations. In specific domains like the railway&#13;
+industry, dynamic system adaptation is required during runtime, which affects both&#13;
+the application execution environment and the data communication mechanisms. In&#13;
+this dissertation, our focus is on an execution environment based on an integrated&#13;
+architecture, which guarantees the safe integration of mixed-criticality applications&#13;
+and also addresses the system reconfiguration problem.&#13;
+&#13;
+In order to close the research gap, we introduce an execution environment for&#13;
+integrated real-time applications by leveraging the Software-Defined Networking&#13;
+(SDN) paradigm. We extend the temporal and spatial isolation mechanisms from the&#13;
+application layer to the execution environment, so that the integrated applications&#13;
+share the computing node without interference. For the data communication of&#13;
+the integrated applications, we propose a virtual switch supporting temporal and&#13;
+spatial isolation between data flows and leverage the SDN paradigm to address the&#13;
+reconfiguration requirements of data flows. Besides, we also address the controlled&#13;
+import and export of messages between data flows in the proposed virtual switch.&#13;
+For the deterministic communication requirements of hard real-time applications, we&#13;
+propose a virtual switch that is IEEE 802.1Qbv and IEEE 802.1Qci capable according&#13;
+to the Time Sensitive Networking (TSN) standard, in order to close the research gap&#13;
+of virtual switching guaranteeing bounded delay with low jitter in an integrated&#13;
+architecture.&#13;
+&#13;
+In the proof-of-concept implementations, we demonstrate the non-interference&#13;
+between applications in the execution environment by fault injection. In our virtual&#13;
+switch demonstrators, we evaluate the fundamental isolation mechanisms and determinism&#13;
+of message switching, while measuring the caused overhead for message&#13;
+transmission as well as controlled data exchange, where the measured overhead in&#13;
+the proposed virtual switch is less than 10 μs.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dc:contributor xsi:type="pc:Contributor" thesis:role="referee">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Roman</pc:foreName>
+            <pc:surName>Obermaisser</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:contributor>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2020-05-13</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2019</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-16514</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">http://creativecommons.org/licenses/by-nc-nd/4.0/</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Praktische und Technische Informatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Dissertation_Hongjie_Fang.pdf" ddb:fileSize="15151172"/>
+   <ddb:checksum ddb:type="MD5">db25b94b61204f168653dfe5e160b55e</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1651/4/Dissertation_Hongjie_Fang.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1651</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

@@ -1,0 +1,76 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1145">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>GrundGesetz</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bongardt, Michael</displayForm>
+                        <namePart type="family">Bongardt</namePart>
+                        <namePart type="given">Michael</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt␞edt␞edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Schröteler-von Brandt, Hildegard</displayForm>
+                        <namePart type="family">Schröteler-von Brandt</namePart>
+                        <namePart type="given">Hildegard</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt␞edt␞edt</roleTerm>
+                        </role>
+                    </name>
+                    <name type="personal">
+                        <displayForm>Stöckmann, Götz</displayForm>
+                        <namePart type="family">Stöckmann</namePart>
+                        <namePart type="given">Götz</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">edt␞edt␞edt</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Für die Idee &quot;Eine Uni - ein Buch&quot; des Stifterverbands und der Klaus Tschira-Stiftung legt die Universität Siegen das Grundgesetz in neu gestalteter Form vor: Die Gesetzestexte werden mit digitalen Spuren hinterlegt - eine künstlerische Ausweitung in Raumtiefen und -zeiten. 
+Die Gesetzestexte sind mit digitalen Spuren hinterlegt, unmaßstäblich, unproportional. Sie entstammen gestischen Cursor-Bewegungen mit digital programmierten Pinselwerkzeugen, liegen in gestapelten transparenten Ebenen senkrecht zu der Bildebene der Textseiten. So entsteht der Eindruck von Raumtiefen und Zeiten. Ihre amorphen Zeichen erinnern vielleicht an Rauch, Staub, Schmutz, Wolken, Atmosphären, Flüssigkeiten, Löcher, Lichtquellen, Zellen und Teilungen – Erscheinungen jenseits unserer Sicht – Horizonte, im Partikulären oder in der Unendlichkeit unseres Raums.</abstract>
+                    <subject>
+                        <topic>Deutschland</topic>
+                        <topic>Eine Uni - Ein Buch</topic>
+                        <topic>Grundrechte</topic>
+                        <topic>Digitale Spuren</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11457</identifier>
+                    <identifier type="sys">HT020640934</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1145</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1145">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1145/2/hell_02_GrundGesetz.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1145"
+            DMDID="DMD_siegen_opus_1145">
+            <mets:fptr FILEID="FILE0_siegen_opus_1145"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

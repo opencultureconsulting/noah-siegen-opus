@@ -1,0 +1,69 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>1905</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Utilization of the Brinkman penalization to represent geometries in a high-order discontinuous Galerkin scheme on octree meshes</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Nikhil</pc:foreName>
+            <pc:surName>Anand</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Neda</pc:foreName>
+            <pc:surName>Ebrahimi Pour</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Harald</pc:foreName>
+            <pc:surName>Klimach</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Sabine</pc:foreName>
+            <pc:surName>Roller</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">Simulation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">High-order-methods</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Brinkman penalization</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Discontinuos Galerkin methods</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Embedded geometry</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">High-order boundary</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">IMEX Runge-Kutta methods</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">We investigate the suitability of the Brinkman penalization method in the context of a high-order discontinuous Galerkin scheme to represent wall boundaries in compressible flow simulations. To evaluate the accuracy of the wall model in the numerical scheme, we use setups with symmetric reflections at the wall. High-order approximations are attractive as they require few degrees of freedom to represent smooth solutions. Low memory requirements are an essential property on modern computing systems with limited memory bandwidth and capability. The high-order discretization is especially useful to represent long traveling waves, due to their small dissipation and dispersion errors. An application where this is important is the direct simulation of aeroacoustic phenomena arising from the fluid motion around obstacles. A significant problem for high-order methods is the proper definition of wall boundary conditions. The description of surfaces needs to match the discretization scheme. One option to achieve a high-order boundary description is to deform elements at the boundary into curved elements. However, creating such curved elements is delicate and prone to numerical instabilities. Immersed boundaries offer an alternative that does not require a modification of the mesh. The Brinkman penalization is such a scheme that allows us to maintain cubical elements and thereby the utilization of efficient numerical algorithms exploiting symmetry properties of the multi-dimensional basis functions. We explain the Brinkman penalization method and its application in our open-source implementation of the discontinuous Galerkin scheme, Ateles. The core of this presentation is the investigation of various penalization parameters. While we investigate the fundamental properties with one-dimensional setups, a two-dimensional reflection of an acoustic pulse at a cylinder shows how the presented method can accurately represent curved walls and maintains the symmetry of the resulting wave patterns.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2019</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">article</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-19051</dc:identifier>
+   <dc:source xsi:type="ddb:ISSN">2073-8994</dc:source>
+   <dc:source xsi:type="dcterms:URI">https://doi.org/10.3390/sym11091126</dc:source>
+   <dc:source xsi:type="ddb:noScheme">Symmetry 2019, 11(9), 1126. - https://doi.org/10.3390/sym11091126</dc:source>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/lizenz.txt</dc:rights>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="Utilization_of_the_Brinkman_penalization.pdf" ddb:fileSize="3418797"/>
+   <ddb:checksum ddb:type="MD5">ec3a4f19be19e90a84c8dd008724b147</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/1905/4/Utilization_of_the_Brinkman_penalization.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/1905</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

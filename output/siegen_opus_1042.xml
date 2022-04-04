@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1042">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Warum moralisch sein? : eine Landkarte für moralische Realisten</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Schönecker, Dieter</displayForm>
+                        <namePart type="family">Schönecker</namePart>
+                        <namePart type="given">Dieter</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">bookPart</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2006</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Warum moralisch sein? Obwohl diese Moralische Frage (wie ich sie mit Prichard
+nennen möchte) im Zentrum meiner Überlegungen steht, kann sie nicht
+behandelt werden, ohne sie in einen größeren Zusammenhang zu stellen.
+Dieser Zusammenhang ist der Hintergrund für eine Debatte, die in jüngerer
+Zeit unter den Stichworten Moralischer Realismus vs. Moralischer
+Anti-Realismus geführt wird, und tatsächlich verstehe ich die Diskussion
+um moralische Normativität im wesentlichen als eine Diskussion über die
+Objektivität und Subjektivität von Werten und Gesetzen.</abstract>
+                    <subject>
+                        <topic>Ethik</topic>
+                        <topic>moralische Frage</topic>
+                        <topic>Moralphilosophie</topic>
+                        <topic>moralischer Realismus</topic>
+                        <topic>moralische Motivation</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-10422</identifier>
+                    <identifier type="sys">HT019124101</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1042</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBookPart</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1042">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1042/1/Warum_moralisch_sein_Schoenecker.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1042"
+            DMDID="DMD_siegen_opus_1042">
+            <mets:fptr FILEID="FILE0_siegen_opus_1042"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

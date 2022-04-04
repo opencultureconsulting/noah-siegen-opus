@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_681">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Modelling and numerical simulation of contact and lubrication</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Modellierung und numerische Simulation von Kontakt und Schmiermittel</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gimbel, Frank</displayForm>
+                        <namePart type="family">Gimbel</namePart>
+                        <namePart type="given">Frank</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2012</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">This thesis considers the simulation of a steel forming process including the lubricant between tool and workpiece. The model equations, that describe deformation, contact and hydrodynamic flow, are derived from fundamental physical laws. For the contact-simulation the two models of Signorini- and z-contact are introduced. The 3-dimensional Stokes problem for a thin fluid film is condensed to the 2-dimensional SubStokes model (for velocity and pressure) and further reduced to the Reynolds model, which is an equation for the pressure only. All fluid models are extended to variational inequations to consider cavitation. Basic mathematical concepts for the numerical treatment with the finite element method and the corresponding analysis are presented. Error estimation is done separate for the modelling error and discretisation error. An algorithm for model adaptivity is given and model error estimates are derived out of the physical models for z- and Signorini-contact aswell as SubStokes- and Reynolds-fluids.
+Error estimates for the discretisation error of elliptic problems - deformation and Reynolds-flow - are presented. The SubStokes problem is stabilized to apply linear finite elements. To estimate the discretisation error of the SubStokes inequation a Lagrangian multiplier is introduced. An algorithm for a simultanous refinement of model and grid is given. Finally the presented methods and estimates are validated by the application to various prototype examples. The results allow to compare the different models (z- and Signorini-contact, Reynolds- and SubStokes-fluid).</abstract>
+                    <abstract type="content" lang="ger">Diese Arbeit behandelt die Simulation eines Stahlformungsprozesses einschließlich des Schmieröls zwischen Werkzeug und Werkstück. Die Modellgleichungen, die Deformation, Kontakt und Hydrodynamik zugrunde liegen, werden aus physikalischen Gesetzen abgeleitet. Für die Kontakt-Simulation werden die beiden Modelle des Signorini- und z-Kontaktes vorgestellt. Das 3-dimensionale Stokes-Problem für eine dünne Schicht wird zum 2-dimensionalen SubStokes-Modell verdichtet und weiter vereinfacht zum Reynolds-Modell, das nur noch eine Gleichung für den Druck ist. Alle Fluid-Modelle werden zu Variationsungleichungen erweitert, um Kavitation abzubilden. Mathematische Grundlagen zur numerischen Simulation mittels Finiter Elemente und die zugehörige Analyse werden bereitgestellt. Modell- und Diskretisierungsfehler werden separat abgeschätzt. Es wird ein Algorithmus zur Modelladaptivität aufgestellt und aus den physikalischen Modellen für z- und Signorini-Kontakt sowie für SubStokes- und Reynolds-Fluide Modellfehlerschätzer hergeleitet. Fehlerschätzer für den Diskretisierungsfehler elliptischer Probleme - Deformation und Reynolds-Strömung - werden präsentiert. Das SubStokes-Problem wird stabilisiert, um lineare Finite Elemente darauf anzuwenden. Um den Diskretisierungsfehler der SubStokes-Ungleichung abzuschätzen, wird ein 
+Lagrange-Multiplikator eingefügt. Ein Algorithmus zur simultanen Modell- und Gitter-Verfeinerung wird aufgestellt. Schließlich werden die vorgestellten Methoden und Schätzer durch die Anwendung auf vielfältige Beispiele validiert. Die Ergebnisse gewähren einen Vergleich der unterschiedlichen Modelle von Kontakt und Fluid.</abstract>
+                    <subject>
+                        <topic>Finite-Elemente-Methode</topic>
+                        <topic>Modelladaptivität</topic>
+                        <topic>A-posteriori-Schätzer</topic>
+                        <topic>Kontaktbedingung</topic>
+                        <topic>SubStokes model</topic>
+                        <topic>Reynolds model</topic>
+                        <topic>Signorini-contact</topic>
+                        <topic>linear finite elements</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-6816</identifier>
+                    <identifier type="sys">HT017548975</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_681</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2012-11-27</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_681">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/681/1/gimbel.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_681"
+            DMDID="DMD_siegen_opus_681">
+            <mets:fptr FILEID="FILE0_siegen_opus_681"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

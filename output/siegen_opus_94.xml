@@ -1,0 +1,96 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_94">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Schnelle chirale Trennungen in mikrofluidischen Strukturen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Ludwig, Martin</displayForm>
+                        <namePart type="family">Ludwig</namePart>
+                        <namePart type="given">Martin</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2004</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Zur Durchführung schneller Trennungen mit Hilfe der Mikrochipelektrophorese
+(MCE), wurde ein modulares MCE-Instrument aufgebaut und evaluiert. Das
+lampengestützte System ermöglicht eine variable Wellenlängenanregung bei hoher
+Detektionsempfindlichkeit. Auf diesem System wurden achirale Trennungen von
+Fluoresceinisothiocyanat (FITC)-markierten Aminen sowie von Rhodaminen
+durchgeführt. Unter optimierten Bedingungen wurde eine Basislinientrennung von
+vier FITC-markierte Amine in weniger als 50 s bei einer Nachweisgrenze von 460 ppt
+(500 pM) erzielt. Die Basislinientrennung von drei Rhodaminfarbstoffen konnte in
+weniger als 6 s bei einer Nachweisgrenze von 240 ppt (500 pM) erreicht werden. Für
+anspruchsvolle chirale Trennungen von FITC-markierten Aminen musste die geringe
+Auflösung verbessert werden. Hierzu wurden die Kanäle von mikrofluidischen
+Glaschips mit Polyvinylalkohol (PVA) beschichtet. Während mit den beschichteten
+Strukturen eine Basislinientrennung erzielt werden konnte, war dies mit
+unbeschichteten Chips nicht möglich. Die hohe Auflösung ermöglichte zudem die
+Enantiomerenverhältnisse mit hoher Präzision (RSD=1,9%) und Genauigkeit
+(R=0,9996) zu bestimmen. Unter Verwendung eines MCE-Systems mit UV-Detektion
+konnten eine Vielzahl underivatisierter Verbindungen in weniger als 1 min getrennt
+werden. Die schnellste Trennung erfolgte hierbei in 2,5 s. Die gleichzeitige Trennung
+einer Mischung aus drei chiralen Verbindungen auf einer Trennstrecke von 12 mm
+benötigte weniger als 11 s.</abstract>
+                    <abstract type="content" lang="eng">A modular instrument for high-speed microchip electrophoresis (MCE), equipped with
+a sensitive, variable wavelength fluorescence detection system, was developed and
+evaluated. The system was applied to achiral separations of fluorescein
+isothiocyanate (FITC)-labeled amines as well as for achiral separation of rhodamines
+At optimised conditions baseline separation of four FITC-labeled amines could be
+obtained in less than 50 s at a detection limit of 460 ppt (1 pM). Three rhodamines
+could be baseline-separated in less than 6 s at a detection limit of 240 ppt (500 pM).
+For demanding chiral separations of FITC-labeled amines the low resolution has to
+be improved. For this the channels of microfluidic glass chips have been coated with
+poly(vinyl alcohol) (PVA). Baseline separation of the enantiomers could be achieved
+in coated devices while it was not possible in uncoated chips. The high resolution
+enabled determination of small enantiomeric impurities with high precision (RSD=1.9
+%) and trueness (R=0.9996). Applying a MCE-system with UV-detection chiral
+separations of numerous unlabeled drugs could be realised in less than a minute.
+The fastest separation could be performed in 2.5 s. Even the successful separation
+of a mixture of three chiral drugs could be performed in a single run in less than 11 s
+utilizing a separation length of only 12 mm.</abstract>
+                    <subject>
+                        <topic>chirale Trennung</topic>
+                        <topic>Mikrochipelektrophorese</topic>
+                        <topic>Mikrofluidik</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 8, Chemie - Biologie"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-944</identifier>
+                    <identifier type="sys">HT014302394</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_94</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2004-12-19</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_94">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/94/1/ludwig.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_94"
+            DMDID="DMD_siegen_opus_94">
+            <mets:fptr FILEID="FILE0_siegen_opus_94"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

@@ -1,0 +1,57 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1822">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Negotiating legal knowledge, community values, and entrepreneurship in fan cultural production</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Einwächter, Sophie G.</displayForm>
+                        <namePart type="family">Einwächter</namePart>
+                        <namePart type="given">Sophie G.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">article</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Sophie G. Einwächter sheds light on the digital transformation of fan culture leading to the phenomenon of entrepreneurial fans who now gather large audiences for their media and make money with practices that were initially purely rooted in fan culture. Einwächter presents two different cases: First, the well-publicised case of fan-fiction-turned-bestseller-author E. L. James (Fifty Shades of Grey trilogy), which evoked a negative response from within her former online community, (with the criticism mostly referring to the ethical rather than the legal status of her work) and, second, the German case of Harry-Potter-fan-turned-comedian Kathrin Fricke, also known as Coldmirror, which shows that practices of fan culture can find a professional market without causing community backlash. Furthermore, Einwächter demonstrates how especially those fan producers who are in charge of their own sites and media infrastructures respond to copyright uncertainty by using copyright disclaimers, reaching an agreement with copyright holders, expanding their own legal knowledge, or by engaging in risk distribution or pragmatic productivity.</abstract>
+                    <subject>
+                        <topic>Negotiating legal knowledge</topic>
+                    </subject>
+                    <classification authority="ddc">302</classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-18226</identifier>
+                    <accessCondition type="use and reproduction">CC BY-SA 4.0</accessCondition>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1822</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaArticle</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1822">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1822/4/Einw%c3%a4chter_Negotiating.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1822"
+            DMDID="DMD_siegen_opus_1822">
+            <mets:fptr FILEID="FILE0_siegen_opus_1822"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

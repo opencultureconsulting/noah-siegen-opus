@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1131">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Architecture design for distributed mixed-criticality systems based on multi-core chips</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Abuteir, Mohammed</displayForm>
+                        <namePart type="family">Abuteir</namePart>
+                        <namePart type="given">Mohammed</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In vielen Anwendungsbereichen wie beispielsweise der Avionik, industriellen Kontrollsystemen und dem Gesundheitswesen gewinnen sogenannte Mixed-Criticality Systeme, in denen Anwendungen mit unterschiedlicher Wichtigkeit sowie unterschiedlichen sicherheitskritischen Anforderungen auf einer gemeinsamen Rechenplattform implementiert werden, immer größere Bedeutung. Die Hauptanforderung an solche Systeme ist ein modularer Sicherheitsnachweis, der eine unabhängige Zertifizierung von Anwendungen anhand der zugehörigen Sicherheitsebenen unterstützt. Um dieses Ziel zu erreichen fehlt im Stand der Technik jedoch eine Mixed-Criticality Architektur für vernetzte Multi-Core-Chips mit Echtzeitunterstützung, Fehlereingrenzung und Sicherheit. Die Dissertation befasst sich mit dieser Problematik und bietet einen Lösungsansatz auf Basis von Architekturmodellen,  selektiver Fehlertoleranz, Scheduling-Techniken und einer Simulationsarchitektur.
+Die Basis dieser Integration sind Mechanismen für die zeitliche und räumliche Partitionierung, die die Sicherheit der Anwendungen mit verschiedenen Kritikalitätsstufen sicherstellen, so dass keine gegenseitige Beeinflussung entsteht. Die zeitliche Partitionierung wird über den Einsatz von autonomer zeitlicher Kontrolle basierend auf einem zeitgesteuerten Schedule mit definierten Zeitpunkten aller Kommunikationsaktivitäten in Bezug auf eine globale Zeitbasis realisiert. Diese Zeitpunkte der periodischen Nachrichten verbessern die Vorhersehbarkeit und ermöglichen eine rigorose Fehlererkennung und Fehleranalyse.	
+Zeitgesteuerte Schedules erleichtern zudem die Beherrschung der Komplexität von Fehlertoleranzmechanismen und die Erstellung analytischer Zuverlässigkeitsmodelle. Ferner wird eine  Partitionierung der Netzwerkbandbreite verwendet um verschiedene Zeitmodelle (z.B. periodisch, sporadisch und aperiodisch) zu kombinieren.	
+Ein weiterer Beitrag dieser Arbeit ist die selektive Fehlertoleranz für Mixed-Criticality Systeme. Ein Hauptmerkmal der Fehlertoleranz in Kommunikationsprotokollen wie Time-Triggered Ethernet (TTEthernet) und ARINC 664 ist die Bereitstellung redundanter Kommunikationskanäle zwischen Netzwerkknoten über mehrere unabhängige Netzwerkkomponenten. Die Datenflüsse zwischen den Netzwerkknoten sind gegen Fehler der verschiedenen Netzwerkkomponenten, wie beispielsweise Links oder Switches, geschützt. Der Hauptnachteil replizierter Netzwerke in großen Systemen sind jedoch die zusätzlichen Kosten, insbesondere wenn die Netzwerke ihre Dienste für mehrere Subsysteme, nämlich nicht-sicherheitskritische und kritische Subsysteme, bereitstellen. Diese Arbeit stellt eine neuartige Systemarchitektur vor, welche die Redundanz in Mixed-Criticality Systemen basierend auf einer Ring-Topologie unterstützt. Diese Architektur erfüllt die Anforderung der sicherheitskritischen Systeme und ist gleichzeitig auch für nicht-sicherheitskritische Systeme wirtschaftlich einsetzbar. Das Hauptmerkmal der vorgeschlagenen Architektur ist die Fehlereingrenzung, so dass Fehler keinen Einfluss auf  Subsysteme mit höherer Kritikalität aufweisen. Außerdem garantiert die vorgeschlagene Architektur die Bereitstellung von Nachrichten mit begrenzten Verzögerungen und begrenztem Jitter.	
+Basierend auf den in dieser Arbeit vorgestellten Architekturansätzen werden effiziente Scheduling-Algorithmen für große Mixed-Criticality Systeme mit verschiedenen Zeitmodellen eingeführt. Die Architekturmodelle werden auch mit Hilfe eines Simulations-Frameworks evaluiert, welches hierarchische Mixed-Criticality Systeme mit vernetzten Multi-Core-Chips unterstützt. Ferner wird dieses Framework verwendet um die vorgeschlagenen Scheduling-Algorithmen zu verifizieren. Diese Evaluation wird zudem um analytische Modelle der End-to-End-Kommunikation für verschiedene Kritikalitätsstufen ergänzt.</abstract>
+                    <abstract type="content" lang="eng">In many domains such as avionics, industrial control, or healthcare there is an increasing trend to mixed-criticality systems, where applications of different importance and criticality are implemented on a shared computing platform. The major requirement of such a system is a modular safety case where each application is certified to the respective assurance level. A mixed-criticality architecture for networked multi-core chips with real-time support, fault isolation and security is missing in the state-of-the-art. In this dissertation, we advance the state-of-the-art by providing solutions to research gaps towards such an architecture for networked multi-core chips, which include the architecture models, selective fault-tolerance concepts, scheduling techniques, and a simulation framework.
+The foundations for this integration are mechanisms for temporal and spatial partitioning, to ensure that applications of different criticality levels are protected so they cannot influence each other. We establish temporal partitioning using autonomous temporal control based on a time-triggered schedule containing the instants of all message exchanges with respect to a global time base. The predetermined instants of the periodic messages improve predictability and enable rigorous error detection and fault isolation. The time-triggered schedules facilitate managing the complexity of fault-tolerance and analytical dependability models. In addition, we use network bandwidth partitioning to support different timing models (i.e., periodic, sporadic and aperiodic traffic). We introduce an architectural model for mixed-criticality systems based on networked multi-core chips, which describes both the physical system structure as well as a logical system structure of the application.
+Another contribution of the dissertation is a selective fault-tolerance concept for mixed-criticality systems. One of the key features of existing fault-tolerant communication protocols such as ac{TTEthernet} and ARINC 664 is providing redundant channels for the communication between nodes over multiple independent network components. The data flows between the nodes are protected against the failure of any network component such as a link or a switch. However, the main drawback of replicated networks in large systems is the extra cost, in particular, if the networks provide their services for non safety-critical subsystems alongside with the critical subsystems. We introduce a novel system architecture supporting redundancy in mixed-criticality systems based on a ring topology, which fulfills the requirements of high-critical systems while also being economically suitable for low-critical systems. The main characteristic of the proposed architecture is fault isolation so that a failure of a low-critical subsystem cannot reach subsystems of higher criticality. Moreover, the proposed architecture supports the delivery of messages with bounded delays and bounded jitter.
+Based on these contributions, we address the scheduling algorithms for large scale mixed-criticality systems where different criticality levels of the subsystem as well as high numbers of nodes and applications lead to a steady increase of the complexity of scheduling the events associated with such systems.
+The architecture models have also been evaluated using a simulation framework. This simulation framework is established for hierarchical mixed-criticality systems based on networked multi-core chips. Additionally, this framework is used to verify the proposed scheduling algorithms. This evaluation is accompanied by analytical models of end-to-end communication for different criticality levels.</abstract>
+                    <subject>
+                        <topic>Netzwerktopologie</topic>
+                        <topic>Mixed-Criticality Systems</topic>
+                        <topic>Time-triggered</topic>
+                        <topic>Gateway</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fakultät IV - Naturwissenschaftlich-Technische Fakultät"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-11314</identifier>
+                    <identifier type="sys">HT019360195</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1131</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2017-05-04</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1131">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1131/1/Dissertation_Mohammed_Abuteir.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1131"
+            DMDID="DMD_siegen_opus_1131">
+            <mets:fptr FILEID="FILE0_siegen_opus_1131"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

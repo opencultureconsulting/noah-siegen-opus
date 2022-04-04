@@ -1,0 +1,68 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_521">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Personenzentrierte Filmanalyse : ein integratives Modell zur systematischen Beobachtung von Filmen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Heidbrink, Henriette</displayForm>
+                        <namePart type="family">Heidbrink</namePart>
+                        <namePart type="given">Henriette</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2008</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Filme lösen beim Publikum ein extrem breites Spektrum an Eindrücken, Meinungen und Bewertungen aus. Dabei sind die Kriterien, die zur Beurteilung eines Films angelegt werden können, zahlreich und vielfältig. Zugleich haben sich in der Wissenschaft standardisierte Verfahren der Filmanalyse herausgebildet. Das Modell der personenzentrierten Filmanalyse unterstützt Verständigungsversuche über Filme, indem es Filmbeobachtungen strukturiert. Dadurch sorgt es für Anschlussfähigkeit zwischen privaten, tendenziell unreflektierten und professionalisierten, wissenschaftlich normierten Film- und Rezeptionsbeschreibungen. In einem systemtheoretischen Rahmen wird das Verhältnis verschiedener paradigmatischer Ansätze - Hermeneutik, Psychoanalyse, Strukturalismus, Formalismus, Neoformalismus und Narratologie - modelliert, so dass eine theoretisch fundierte Durchgängigkeit zwischen verschiedenen Beschreibungssprachen entsteht.</abstract>
+                    <subject>
+                        <topic>Filmanalyse</topic>
+                        <topic>Personenzentriert</topic>
+                        <topic>Filmtherapie</topic>
+                        <topic>Narratologie</topic>
+                        <topic>Narration</topic>
+                        <topic>Figur im Film</topic>
+                        <topic>Filmanalysis</topic>
+                        <topic>Filmtheory</topic>
+                        <topic>Movie Therapy</topic>
+                        <topic>Reception</topic>
+                        <topic>Systems Theory</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 3, Sprach-, Literatur- und Medienwissenschaften"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-5217</identifier>
+                    <identifier type="sys">HT016879207</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_521</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2009-07-14</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_521">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/521/1/heidbrink.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_521"
+            DMDID="DMD_siegen_opus_521">
+            <mets:fptr FILEID="FILE0_siegen_opus_521"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

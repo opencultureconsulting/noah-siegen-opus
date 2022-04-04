@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_399">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Multivariate extremal density expansions and residual tail dependence structures</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Frick, Melanie</displayForm>
+                        <namePart type="family">Frick</namePart>
+                        <namePart type="given">Melanie</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2009</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">In multivariate extreme value theory dependence structures can be modeled by using Pickands dependence functions. Extreme value distribution functions (EVDs) with standard reversely exponential margins and the pertaining generalized Pareto distribution functions (GPDs) can be directly represented in terms of their Pickands dependence function D. Besides GPDs our statistical model comprises multivariate distribution functions belonging to the neighborhood of GPDs. They are characterized by two groups of density expansions which describe the dependence structure of the underlying random vectors and are the basis for the establishment of a test on tail dependence.
+Because in important cases tail independence is attained at a very slow rate, the residual dependence structure plays a significant role. To analyze the residual dependence structure we deduce limiting distributions of maxima under triangular schemes of random vectors. Such a result has been investigated by Hüsler and Reiss and Hashorva in the special cases of normally and elliptically distributed random vectors respectively. Our aim is to treat the problem on an abstract level. For this purpose we study technical conditions imposed on the above mentioned density expansions and generalizations of the same conditions. We also extend our results to models with different univariate margins.
+Finally, we present various measures of asymptotic dependence in the bivariate and multivariate framework. Analyses of these dependence measures within our statistical model show that they are related to certain density expansions and, in particular, to the Pickands dependence function.</abstract>
+                    <abstract type="content" lang="ger">In der multivariaten Extremwerttheorie kann man Abhängigkeitsstrukturen durch Pickands-Abhängigkeitsfunktionen modellieren. Insbesondere sind Extremwertverteilungsfunktionen (EVDs) mit standard invers exponentiellen Randverteilungen und die zugehörigen verallgemeinerten Pareto-Verteilungsfunktionen (GPDs) direkt mit Hilfe ihrer Pickands-Abhängigkeitsfunktion D darstellbar. Neben GPDs umfasst das untersuchte statistische Modell auch Verteilungsfunktionen in der Nachbarschaft von GPDs. Sie werden durch zwei Gruppen von Dichteentwicklungen charakterisiert, welche die Abhängigkeitsstruktur der zu Grunde liegenden Zufallsvektoren beschreiben und die Basis für das Testen auf Flankenabhängigkeit bilden.
+Da Flankenunabhängigkeit in wichtigen Spezialfällen mit einer sehr geringen Rate angenommen wird, ist die residuale Abhängigkeitsstruktur bedeutsam. Um diese zu analysieren leiten wir Grenzverteilungen von Maxima unter Dreiecksschemata von Zufallsvektoren her. Solch ein Resultat wurde von Hüsler und Reiss bzw. Hashorva für normal- bzw. elliptisch verteilte Zufallsvektoren untersucht. Unser Ziel ist es, dieses Problem auf einem abstrakten Niveau zu behandeln. Dazu befassen wir uns mit technischen Bedingungen an die obigen Dichteentwicklungen und Verallgemeinerungen davon. Unsere Resultate erweitern wir zudem auf Modelle mit unterschiedlichen univariaten Randverteilungen.
+Schließlich präsentieren wir mehrere Maße für bivariate und multivariate asymptotische Abhängigkeit. Analysen dieser Abhängigkeitsmaße innerhalb des statistischen Modells zeigen, dass sie in Beziehung stehen zu gewissen Dichteentwicklungen und insbesondere zur Pickands-Abhängigkeitsfunktion.</abstract>
+                    <subject>
+                        <topic>Stochastische Abhängigkeit</topic>
+                        <topic>Dichteentwicklung</topic>
+                        <topic>Pickands-Abhängigkeitsfunktion</topic>
+                        <topic>residuale Abhängigkeit</topic>
+                        <topic>Dreiecksschema</topic>
+                        <topic>Abhängigkeitsmaß</topic>
+                        <topic>density expansion</topic>
+                        <topic>Pickands dependence function</topic>
+                        <topic>residual dependence</topic>
+                        <topic>triangular scheme</topic>
+                        <topic>dependence measure</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 6, Mathematik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-3998</identifier>
+                    <identifier type="sys">HT016068278</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_399</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2009-09-08</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_399">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/399/1/Dissertation_Frick.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_399"
+            DMDID="DMD_siegen_opus_399">
+            <mets:fptr FILEID="FILE0_siegen_opus_399"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

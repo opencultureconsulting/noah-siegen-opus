@@ -1,0 +1,67 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1462">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Oxidationsverhalten refraktärmetallbasierter Konstruktionswerkstoffe für Hochtemperaturanwendungen</title>
+                    </titleInfo>
+                    <titleInfo lang="eng" type="translated">
+                        <title>Oxidation behavior of high temperature refractory metal-based structural materials</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Gorr, Bronislava</displayForm>
+                        <namePart type="family">Gorr</namePart>
+                        <namePart type="given">Bronislava</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2017</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Der anhaltende Bedarf an robusten und leistungsfähigen Hochtemperaturwerkstoffen kommt überwiegend aus der Luft- und Raumfahrtindustrie. Eine Erhöhung der Gaseintritts-temperatur, welche für den Anstieg der thermischen Effizienz von Gasturbinen erforderlich ist, scheint ohne den Einsatz von neuartigen Legierungen schwer realisierbar zu sein. In den letzten Jahren gewinnen refraktärmetallbasierte Legierungen immer mehr an Bedeutung, da diese sehr hohe Schmelztemperaturen und oft gute mechanische Eigenschaften aufweisen. Die Oxidationsbeständigkeit dieser Werkstoffe ist jedoch schwach. Diese Arbeit fasst wesentliche Erkenntnisse mehrerer Forschungsarbeiten zum Thema „Hochtemperaturkorrsionsverhalten refraktärmetallbasierter Werkstoffe“, die am Lehrstuhl für Materialkunde und Werkstoffprüfung des Instituts für Werkstofftechnik an der Universität Siegen durchgeführt wurden, zusammen.  Hier werden Ergebnisse zum Hochtemperaturoxidationsverhalten für Molybdänbasislegierungen, deren chemische Zusammensetzung durch Makrolegieren mit Ti im Vergleich zu den recht gut erforschten Mo-Si-B-Legierungen erheblich geändert wurde, sowie für zwei neue Werkstoffsysteme, Co-Re-Basislegierungen und refraktäre Hochentropielegierungen, vorgestellt. Durch gezielte metallurgische Maßnahmen wie Makro- und Mikrolegieren konnte die Oxidationsresistenz von den untersuchten Werkstoffen auf Basis von refraktären Metallen signifikant verbessert werden. Die Ergebnisse zeigen, dass die refraktärmetallbasierten Werkstoffe bei erfolgreicher Weiterentwicklung ein hohes Potenzial für einen zukünftigen Einsatz in Hochtemperaturanwendungen besitzen.</abstract>
+                    <abstract type="content" lang="eng">New high temperature materials which would lead to a higher thermal efficiency of gas turbines are urgently required in aircraft industry. Refractrory metal-based materials are very perspective candidates as they exhibit high melting points and attractive mechanical properties. However, they often possess poor oxidation resistance that prohibits the practical use of these materials. This work summarizes results of the research activities on high temperature corrosion behavior of refractory-metal based alloys conducted at the Institute of Materials Science at University of Siegen. The research was focused on following alloy systems: (i) Mo-Si-B-Ti alloys, (ii) Co-Re alloys and (iii) refractory high entropy alloys. Due to the macro- and microalloying of the reference alloys, significant improvements of the oxidation resistance were achieved for all alloy systems studied. Results presented in this work clearly show that the main drawback of the refractory metal-based materials, namely the poor oxidation resistance, can be overcome and these alloys can be inherently protective in a wide temperature range.</abstract>
+                    <subject>
+                        <topic>Hochtemperaturkorrosion</topic>
+                        <topic>Hochtemperaturwerkstoffe</topic>
+                        <topic>Refraktäre Metalle</topic>
+                        <topic>High temperature corrosion</topic>
+                        <topic>High temperature materials</topic>
+                        <topic>Refractory metals</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Werkstofftechnik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-14627</identifier>
+                    <identifier type="sys">HT020140748</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1462</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaHabil</vl:doctype>
+                        <vl:defenseDate>2017-06-30</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1462">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1462/1/Habilitationsschrift_Bronislava_Gorr.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1462"
+            DMDID="DMD_siegen_opus_1462">
+            <mets:fptr FILEID="FILE0_siegen_opus_1462"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

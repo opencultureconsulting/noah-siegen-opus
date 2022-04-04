@@ -1,0 +1,76 @@
+<xMetaDiss:xMetaDiss xmlns:xMetaDiss="http://www.d-nb.de/standards/xmetadissplus/" xmlns:cc="http://www.d-nb.de/standards/cc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcmitype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:pc="http://www.d-nb.de/standards/pc/" xmlns:urn="http://www.d-nb.de/standards/urn/" xmlns:hdl="http://www.d-nb.de/standards/hdl/" xmlns:doi="http://www.d-nb.de/standards/doi/" xmlns:thesis="http://www.ndltd.org/standards/metadata/etdms/1.0/" xmlns:ddb="http://www.d-nb.de/standards/ddb/" xmlns:dini="http://www.d-nb.de/standards/xmetadissplus/type/" xmlns="http://www.d-nb.de/standards/subject/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:doc="http://www.lyncode.com/xoai" xsi:schemaLocation="http://www.d-nb.de/standards/xmetadissplus/  http://files.dnb.de/standards/xmetadissplus/xmetadissplus.xsd"><id>473</id>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="eng">Calibration and real-time processing of time-of-flight range data</dc:title>
+   <dc:title xsi:type="ddb:titleISO639-2" lang="ger">Kalibrierung und Echtzeit-Verarbeitung von Time-of-Flight Distanz-Informationen</dc:title>
+   <dc:creator xsi:type="pc:MetaPers">
+      <pc:person>
+         <pc:name type="nameUsedByThePerson">
+            <pc:foreName>Marvin</pc:foreName>
+            <pc:surName>Lindner</pc:surName>
+         </pc:name>
+      </pc:person>
+   </dc:creator>
+   <dc:subject xsi:type="xMetaDiss:SWD">ToF-Kamera</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Wiggling-Korrektur</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Bewegungs-Kompensation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Intensitäts-abhängiger Fehler</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Distanz-Verfeinerung</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Wiggling Correction</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Motion Compensation</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Intensity-Related Distance Error</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:noScheme">Distance Refinement</dc:subject>
+   <dc:subject xsi:type="xMetaDiss:DDC-SG">004</dc:subject>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="eng">The presented thesis addresses a new technology for active range estimation, so-called time-of-flight (TOF) cameras. Based on the runtime principle, time-of-flight cameras allow the parallel acquisition of multiple distance information and thus enable, in contrast to other approaches, the acquisition of an entire scene in real-time. Consequently, TOF cameras are most suitable for many real-time systems in the area of automatization and interaction, where they are used for, i.a., object or gesture recognition. Due to their novelty, however, the accuracy of time-of-flight senors has been studied barely up to the present.&#13;
+&#13;
+Experiments in the context of presented thesis revealed error sources whose characteristics result in distance deviations of several centimeters. Those error sources therefore have significant impact onto the accuracy of acquired distance information and the results of vision systems as well. In addition, current TOF cameras are of low resolution compared to other range sensing approaches. Although this circumstance does not represent a real error source, it might have negative influence on the accuracy of automatization algorithms and therefore gives reasons for appropriate pre-processing of the acquired information.&#13;
+&#13;
+Dealing with basic research, the presented work covers the investigation of the accuracy of current camera models as well as the basic processing steps that are necessary for the enhancement of range images regarding further processing steps.&#13;
+&#13;
+In the context of camera accuracy, the thesis primary focuses on the systematical error characteristics and discusses the design of phenomenological calibration models covering demodulation- as well as intensity-related deviations. Furthermore, it deals with the compensation of TOF-specific motion artifacts and describes a compensation approach, which is based on optical motion estimation as well as an theoretical axial motion model.&#13;
+&#13;
+In the context of data processing, the presented thesis deals with the reduction of noise effects as well as the algorithmic refinement of distance information. Regarding distance refinement, two approaches are discussed: explicitly surface approximation using Moving Least Square surfaces as well as edge preservative data upscaling in image space. Furthermore, it covers the fusion of range images with supplementary information as provided by additional imaging sensors, in order to provide multi-modal data for sophisticated vision systems.</dcterms:abstract>
+   <dcterms:abstract xsi:type="ddb:contentISO639-2" lang="ger">Die vorliegende Arbeit befasst sich mit einer neuartigen, kostengünstigen Technologie zur aktiven Entfernungsmessung, sogenannten Time-of-Flight (TOF) Kameras. Basierend auf dem Laufzeit-Prinzip, erlauben diese die parallele Aufnahme mehrerer Tiefeninformationen und ermöglichen somit, im Gegensatz zu bisherigen Technologien, die Akquisition einer kompletten Szene in Echtzeit. Infolgedessen, eignen sich TOF Kameras besonders gut für vielerlei Echtzeit-Systeme aus den Bereichen der Automatisierung und Interaktion, und finden dort ihren Einsatz u.a. zur Objekt- und Gestenerkennung. Aufgrund ihrer Neuheit, wurde die Genauigkeit von Time-of-Flight Kameras jedoch bisher kaum untersucht.&#13;
+&#13;
+Durchgeführte Untersuchungen im Rahmen der Arbeit haben Fehlerquellen aufgezeigt, die in ihrer Ausprägung zu signifikanten Abweichungen in den Tiefeninformationen von mehreren Zentimetern führen. Diese haben somit relevante Auswirkung auf die Ergebnisse von Vision-Systemen. Des Weiteren weisen aktuelle TOF Kameras, im Vergleich zu anderen Verfahren zur Entfernungsmessung, eine geringere Bildauflösung auf. Auch wenn dieser Sachverhalt im eigentlichen Sinn keine Fehlerquelle darstellt, kann er doch entscheidenden Einfluss auf die Genauigkeit von Automatisierungs-Algorithmen haben und rechtfertigt somit die algorithmische Verfeinerung von Tiefeninformationen.&#13;
+&#13;
+Im Rahmen von Grundlagenforschung, umfasst die Ausarbeitung sowohl die Untersuchung potentieller Fehlerquellen von TOF Kameras und deren Korrektur, als auch die grundlegenden Vorverarbeitungsschritte, die nötig sind um aufgenommene Tiefeninformationen für die weitere Verarbeitung zu verbessern.&#13;
+&#13;
+Im Kontext der Messgenauigkeit, werden primär die Charakteristiken systematisch auftretender Messfehler, sowie der Entwurf entsprechender, phänomenologischer Korrekturmodelle für Demodulations- und Intensitäts-abhängiger Abweichungen betrachtet. Darüber hinaus wird die Reduktion TOF Kamera spezifischer Bewegungsartefakte innerhalb dynamischer Szenen, basierend auf einer optischen Bewegungsschätzungen, sowie eines theoretischen axialen Bewegungsmodels behandelt.&#13;
+&#13;
+Im Bereich der Datenverarbeitung behandelt die Ausarbeitung zunächst die Reduktion von Rauscheinflüssen sowie die algorithmischen Verfeinerung von Tiefeninformationen. In diesem Zusammenhang werden zwei Verfahren zur Tiefenverfeinerung erörtert: explizite Oberflächen-Approximationen mittels Moving Least Square Oberflächen und kantenerhaltendes Upsampling im Bildraum. Ferner befasst sich die Ausarbeitung mit der grundlegenden Fragestellung zur Fusion von Tiefenbildern mit weiteren Informationen zusätzlicher, bildgebender Sensoren zur Erstellung multi-modaler Daten.</dcterms:abstract>
+   <dc:publisher xsi:type="cc:Publisher" type="dcterms:ISO3166" countryCode="DE">
+      <cc:universityOrInstitution cc:GKD-Nr="509551-7">
+         <cc:name>Universitätsbibliothek der Universität Siegen</cc:name>
+         <cc:place>Siegen</cc:place>
+      </cc:universityOrInstitution>
+      <cc:address cc:Scheme="DIN5008">Adolf-Reichweinstr. 2, 57068 Siegen</cc:address>
+   </dc:publisher>
+   <dcterms:dateAccepted xsi:type="dcterms:W3CDTF">2010-10-14</dcterms:dateAccepted>
+   <dcterms:issued xsi:type="dcterms:W3CDTF">2010</dcterms:issued>
+   <dc:type xsi:type="dini:PublType">doctoralThesis</dc:type>
+   <dc:type xsi:type="dcterms:DCMIType">Text</dc:type>
+   <dini:version_driver>publishedVersion</dini:version_driver>
+   <dc:identifier xsi:type="urn:nbn">urn:nbn:de:hbz:467-4730</dc:identifier>
+   <dc:language xsi:type="dcterms:ISO639-2">eng</dc:language>
+   <dc:rights xsi:type="dcterms:URI">https://dspace.ub.uni-siegen.de/static/license.txt</dc:rights>
+   <thesis:degree>
+      <thesis:level>thesis.doctoral</thesis:level>
+      <thesis:grantor xsi:type="cc:Corporate" type="dcterms:ISO3166" countryCode="DE">
+         <cc:universityOrInstitution>
+            <cc:name>Universität Siegen</cc:name>
+            <cc:place>Siegen</cc:place>
+            <cc:department>
+               <cc:name>Institut für Bildinformatik</cc:name>
+               <cc:place>Siegen</cc:place>
+            </cc:department>
+         </cc:universityOrInstitution>
+      </thesis:grantor>
+   </thesis:degree>
+   <ddb:contact ddb:contactID="L6000-0732"/>
+   <ddb:fileNumber>1</ddb:fileNumber>
+   <ddb:fileProperties ddb:fileName="lindner.pdf" ddb:fileSize="27693629"/>
+   <ddb:checksum ddb:type="MD5">8ce912b8890fe48464ea9f416c9b70eb</ddb:checksum>
+   <ddb:transfer ddb:type="dcterms:URI">https://dspace.ub.uni-siegen.de/bitstream/ubsi/473/1/lindner.pdf</ddb:transfer>
+   <ddb:identifier ddb:type="URL">https://dspace.ub.uni-siegen.de/handle/ubsi/473</ddb:identifier>
+   <ddb:rights ddb:kind="free"/>
+   <ddb:server>Universitätsbibliothek Siegen</ddb:server>
+</xMetaDiss:xMetaDiss>

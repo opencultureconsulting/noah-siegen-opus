@@ -1,0 +1,78 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_966">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Monetary policy and credibility : a theoretical and empirical analysis</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Weber, Axel A.</displayForm>
+                        <namePart type="family">Weber</namePart>
+                        <namePart type="given">Axel A.</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">1994</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Die Habilitationschrift beschäftigt sich mit theoretischen und
+empirischen Modellen von Reputation und Glaubwürdigkeit von
+geldpolitischen Maßnahmen der Notenbanken. Es wird dabei auf die
+Anti-Inflations-Reputation von Notenbanken eingegangen und die
+Glaubwürdigkeit geldpolitischer Ziele überprüft, wenn diese als
+numerische Zielwerte angekündigt wurden. Konkret werden hier die
+Geldmengenziele, Zinsziele- und Wechselkursziele der Notenbanken in den
+wichtigsten Währungsräumen der Welt untersucht. In einer zweiten
+Modellklasse wird speziell auf Wechselkurszielzonen eingegangen und deren
+Glaubwürdigkeit wiederum theoretisch und empirisch analysiert. Die
+spezielle Dynamik der Wechselkurse innerhalb der Zielzonen erlaubt es
+dabei, zwischen glaubwürdigen und unglaubwürdigen Zielzonen zu
+unterscheiden. Die empirischen Resultate legen nahe, dass nur wenige
+Notenbanken eine konsistent hohe Anti-Inflations-Reputation hatten
+und Geldmengenzielankündigungen in der Regel nur geringe
+Glaubwürdigkeit besaßen. Auch die Glaubwürdigkeit vieler
+Wechselkurszielzonen war empirisch nicht besonders ausgeprägt, wobei eine
+nennenswerte Ausnahme die empirisch als recht gaubwürdig einzustufende
+Anbindung des niederländischen Guldens an die Deutsche Mark
+darstellte.</abstract>
+                    <subject>
+                        <topic>Geldpolitik</topic>
+                    </subject>
+                    <classification authority="ddc">330</classification>
+                    <classification authority="ioo" displayLabel="Fachbereich 5, Wirtschaftswissenschaften, Wirtschaftsinformatik und Wirtschaftsrecht"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-9661</identifier>
+                    <identifier type="sys">HT018819921</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_966</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaHabil</vl:doctype>
+                        <vl:defenseDate>1994-06-29</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_966">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/966/1/Habilitation_Axel_A._Weber.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_966"
+            DMDID="DMD_siegen_opus_966">
+            <mets:fptr FILEID="FILE0_siegen_opus_966"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

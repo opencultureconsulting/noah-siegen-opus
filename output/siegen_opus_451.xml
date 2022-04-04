@@ -1,0 +1,71 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_451">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Weather corrections for a point source search at the Pierre Auger Observatory</title>
+                    </titleInfo>
+                    <titleInfo lang="ger">
+                        <title>Wetterkorrekturen für die Suche nach Punktquellen mit dem Pierre Auger-Observatorium</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Bäcker, Thomas</displayForm>
+                        <namePart type="family">Bäcker</namePart>
+                        <namePart type="given">Thomas</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2010</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="eng">At energies up to some 100TeV, cosmic radiation can be detected by means of particle detectors installed aboard a balloon or a satellite. At higher particle energies, the flux of the radiation drops significantly and large detection volumes are inevitable to acquire a sufficiently large amount of cosmic ray data in a short period of time. Extensive air shower experiments are exploiting the atmosphere above the actual experimental setup as a detector volume. Therefore, they are capable of recording cosmic ray data even at the highest energies. The properties of the primordial particle, however, can only be inferred from the extensive air showers, i.e. the cascades of secondary particles, that are measured by the detector setup at ground level. The performance of such experiments is thus subject to variations caused by, among other things, the instantaneous state of the atmosphere. In this thesis, a method for partly compensating the impact of these variations on the distribution of the arrival directions of cosmic rays is presented and its application to small scale anisotropy studies is investigated.</abstract>
+                    <abstract type="content" lang="ger">Bis zu Energien von einigen 100TeV können Teilchendetektoren, die von Ballons oder Satelliten getragen werden, zur Erfassung kosmischer Strahlung herangezogen werden. Zu höheren Teilchenenergien hin nimmt der Strahlungsfluß stark ab und große Detektorvolumina sind notwendig, um in kurzer Zeit eine große Anzahl von kosmischen Teilchen vermessen zu können. Experimente, die ausgedehnte Luftschauer vermessen, nutzen die Atmosphäre über dem eigentlichen Experimentaufbau als ihr Detektorvolumen. Sie sind damit in der Lage, selbst bei den höchsten Energien noch Daten kosmischer Teilchen zu erfassen. Die Bestimmung der Eigenschaften der kosmischen Teilchen erfolgt hier aber über eine Messung der ausgedehnten Luftschauer, d.h. der Kaskaden von Sekundärteilchen, durch den experimentellen Aufbau am Boden. Die Funktion solcher Experimente ist daher unter anderem vom gegenwärtigen Zustand der Atmosphäre abhängig. In dieser Arbeit wird eine Methode vorgestellt, die Auswirkungen auf die Verteilung der Ankunftsrichtungen kosmischer Teilchen zu kompensieren und ihre Anwendung auf Studien kleinräumiger Anisotropie wird untersucht.</abstract>
+                    <subject>
+                        <topic>Luftschauer</topic>
+                        <topic>Astroteilchenphysik</topic>
+                        <topic>Wetterkorrekturen</topic>
+                        <topic>Ankunftsrichtungen</topic>
+                        <topic>Pierre Auger-Observatorium</topic>
+                        <topic>Astroparticle Physics</topic>
+                        <topic>Weather Corrections</topic>
+                        <topic>Point Sources</topic>
+                        <topic>Small Scale Anisotropy</topic>
+                        <topic>Pierre Auger Observatory</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Fachbereich 7, Physik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-4515</identifier>
+                    <identifier type="sys">HT016499950</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_451</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2010-08-08</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_451">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/451/1/baecker.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_451"
+            DMDID="DMD_siegen_opus_451">
+            <mets:fptr FILEID="FILE0_siegen_opus_451"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

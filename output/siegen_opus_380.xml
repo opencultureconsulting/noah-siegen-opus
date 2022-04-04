@@ -1,0 +1,73 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_380">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="eng">
+                        <title>Transformation of graphical models to support knowledge transfer</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Holland, Alexander</displayForm>
+                        <namePart type="family">Holland</namePart>
+                        <namePart type="given">Alexander</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2008</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Menschliche Experten verfügen über die Fähigkeit, ihr Entscheidungsverhalten flexibel auf die jeweilige Situation abzustimmen. Diese Fähigkeit zahlt sich insbesondere dann aus, wenn Entscheidungen unter beschränkten Ressourcen wie Zeitrestriktionen getroffen werden müssen. In solchen Situationen ist es besonders vorteilhaft, die Repräsentation des zugrunde liegenden Wissens anpassen und Entscheidungsmodelle auf unterschiedlichen Abstraktionsebenen verwenden zu können. Weiterhin zeichnen sich menschliche Experten durch die Fähigkeit aus, neben unsicheren Informationen auch unscharfe Wahrnehmungen in die Entscheidungsfindung einzubeziehen.
+
+Klassische entscheidungstheoretische Modelle basieren auf dem Konzept der Rationalität, wobei in jeder Situation die nutzenmaximale Entscheidung einer Entscheidungsfunktion zugeordnet wird. Neuere graphbasierte Modelle wie Bayes&apos;sche Netze oder Entscheidungsnetze machen entscheidungstheoretische Methoden unter dem Aspekt der Modellbildung interessant. Als Hauptnachteil lässt sich die Komplexität nennen, wobei Inferenz in Entscheidungsnetzen NP-hart ist. Zielsetzung dieser Dissertation ist die Transformation entscheidungstheoretischer Modelle in Fuzzy-Regelbasen als Zielsprache. Fuzzy-Regelbasen lassen sich effizient auswerten, eignen sich zur Approximation nichtlinearer funktionaler Beziehungen und garantieren die Interpretierbarkeit des resultierenden Handlungsmodells. Die Übersetzung eines Entscheidungsmodells in eine Fuzzy-Regelbasis wird durch einen neuen Transformationsprozess unterstützt.
+Ein Agent kann zunächst ein Bayes&apos;sches Netz durch Anwendung eines in dieser Arbeit neu vorgestellten parametrisierten Strukturlernalgorithmus generieren lassen. Anschließend lässt sich durch Anwendung von Präferenzlernverfahren und durch Präzisierung der Wahrscheinlichkeitsinformation ein entscheidungstheoretisches Modell erstellen. Ein Transformationsalgorithmus kompiliert daraus eine Regelbasis, wobei ein Approximationsmaß den erwarteten Nutzenverlust als Gütekriterium berechnet. Anhand eines Beispiels zur Zustandsüberwachung einer Rotationsspindel wird die Praxistauglichkeit des Konzeptes gezeigt.</abstract>
+                    <abstract type="content" lang="eng">Human experts are able to flexible adjust their decision behaviour with regard to the respective situation. This capability pays in situations under limited resources like time restrictions. It is particularly advantageous to adapt the underlying knowledge representation and to make use of decision models at different levels of abstraction. Furthermore human experts have the ability to include uncertain information and vague perceptions in decision making.
+	
+Classical decision-theoretic models are based directly on the concept of rationality, whereby the decision behaviour prescribed by the principle of maximum expected utility. For each observation some optimal decision function prescribes an action that maximizes expected utility. Modern graph-based methods like Bayesian networks or influence diagrams make use of modelling. One disadvantage of decision-theoretic methods concerns the issue of complexity. Finding an optimal decision might become very expensive. Inference in decision networks is known to be NP-hard. This dissertation aimed at combining the advantages of decision-theoretic models with rule-based systems by transforming a decision-theoretic model into a fuzzy rule-based system. Fuzzy rule bases are an efficient implementation from a computational point of view, they can approximate non-linear functional dependencies and they are also intelligible. There was a need for establishing a new transformation process to generate rule-based representations from decision models, which provide an efficient implementation architecture and represent knowledge in an explicit, intelligible way. At first, an agent can apply the new parameterized structure learning algorithm to identify the structure of the Bayesian network. The use of learning approaches to determine preferences and the specification of probability information subsequently enables to model decision and utility nodes and to generate a consolidated decision-theoretic model. Hence, a transformation process compiled a rule base by measuring the utility loss as approximation measure. The transformation process concept has been successfully applied to the problem of representing condition monitoring results for a rotation spindle.</abstract>
+                    <subject>
+                        <topic>Entscheidungsbaum</topic>
+                        <topic>Strukturlernalgorithmus ,Transformation</topic>
+                        <topic>Wissenstransfer</topic>
+                        <topic>Framework</topic>
+                        <topic>Entscheidungsnetze</topic>
+                        <topic>Graphical Models</topic>
+                        <topic>Decision Networks</topic>
+                        <topic>Framework</topic>
+                        <topic>Product Lifecycle Management</topic>
+                        <topic>Condition Monitoring</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Praktische und Technische Informatik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-3807</identifier>
+                    <identifier type="sys">HT015924686</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_380</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2008-11-24</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_380">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/380/1/holland.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_380"
+            DMDID="DMD_siegen_opus_380">
+            <mets:fptr FILEID="FILE0_siegen_opus_380"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

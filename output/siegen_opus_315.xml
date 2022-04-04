@@ -1,0 +1,70 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_315">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Mechanische Integratoren für Kontaktvorgänge deformierbarer Körper unter großen Verzerrungen</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Hesch, Christian</displayForm>
+                        <namePart type="family">Hesch</namePart>
+                        <namePart type="given">Christian</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">doctoralThesis</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2008</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">Forschungsziel dieser Arbeit ist die Simulation von Kontakt-Vorgängen. Ein beispielhafter und konkreter Anwendungsfall ist die computerunterstützte Crash-Simulation von Fahrzeugen der Automobilindustrie. Die begriffliche Bestimmung von Kontakt wird hierbei weitest definiert mit dem Ziel, das umfassende Feld der Gebietszerlegungsverfahren einbringen zu können. Diese notwendige Voraussetzung ergibt sich aus der Tatsache, dass ein Teil der Interface-Strukturen zur Beschreibung von Kontakt-Vorgängen ursprünglich für Gebietszerlegungsverfahren entwickelt wurde.
+
+Die Entwicklung numerischer Methoden für die Zeitintegration ist damit das substanzielle Ziel der vorliegenden Untersuchung. Die Integratoren müssen für die algorithmische Erhaltung grundlegende Symmetrie-Eigenschaften des mechanischen Systems gewährleisten. Diese Zeitschrittverfahren sind unter der Bezeichnung Mechanische Integratoren bekannt und wurden bislang ohne Erfolg auf die zur Beschreibung von Kontakt-Vorgängen notwendigen Zwangsbedingungen angewandt. Die mechanischen Integratoren bieten eine einheitliche Vorgehensweise zur Gewährleistung der fundamentalen physikalischen Eigenschaften sowohl für die nichtlineare Elastostatik als auch für allgemeine nichtlineare Zwangsbedingungen.
+
+Die algorithmische Erhaltung zentraler Eigenschaften wie der Gesamtenergie und der Impulsabbildungen führen in der Praxis zu einer herausragenden numerischen Stabilität; insbesondere bei Kontakt-Vorgängen ist dies von qualitativ hohem Interesse. Auch die hieraus resultierende Möglichkeit der Wahl beliebiger Zeitschritte zeichnet dieses Verfahren aus. Jene Eigenschaften sowie die Konzeption der mechanischen Integratoren setzen ein exaktes Einfordern der holonomen Zwangsbedingungen voraus. Dies kann mithilfe zusätzlicher Freiheitsgrade, den Lagrangeschen Multiplikatoren, erfolgen. Die zugehörigen Bewegungsgleichungen können als ein differential-algebraisches Gleichungssystem geschrieben werden.
+
+Eine spezifische Besonderheit in der Beschreibung von Kontakt-Vorgängen bei der Simulation großer Deformationen von vollständig nichtlinearen Systemen unter Einbindung beliebiger konstitutiver Gesetze liegt in der Verwendung der Karush-Kuhn-Tucker Bedingungen. Sie bestimmen, ob und wann eine Zwangsbedingung aktiv ist oder nicht. Diese Klasse der Ungleichheits-Zwangsbedingungen erfordert ein entsprechendes Anpassen der mechanischen Integratoren.
+
+In der vorliegenden Untersuchung werden alle notwendigen Formulierungen sowohl für die Elasto- als auch für die Kontaktmechanik detailliert hergeleitet. Das resultierende nichtlineare Gleichungssystem kann mit einem Newton-Raphson Verfahren gelöst werden. Nicht zuletzt werden mithilfe verschiedener numerischer Beispiele die Stärken der neu entwickelten Formulierungen nachvollziehbar demonstriert.</abstract>
+                    <subject>
+                        <topic>Kontakt</topic>
+                        <topic>Gebietszerlegung</topic>
+                        <topic>Mortar</topic>
+                        <topic>Energieerhaltung</topic>
+                        <topic>FEM</topic>
+                    </subject>
+                    <classification authority="ioo" displayLabel="Institut für Mechanik und Regelungstechnik - Mechatronik"></classification>
+                    <identifier type="urn">urn:nbn:de:hbz:467-3156</identifier>
+                    <identifier type="sys">HT015421907</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_315</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaDoctoralThesis</vl:doctype>
+                        <vl:defenseDate>2007-12-12</vl:defenseDate>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_315">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/315/1/1_hesch.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_315"
+            DMDID="DMD_siegen_opus_315">
+            <mets:fptr FILEID="FILE0_siegen_opus_315"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>

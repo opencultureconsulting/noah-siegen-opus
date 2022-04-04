@@ -1,0 +1,61 @@
+<mets:mets xmlns:mets="http://www.loc.gov/METS/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <mets:dmdSec ID="DMD_siegen_opus_1060">
+        <mets:mdWrap MIMETYPE="text/xml" MDTYPE="MODS">
+            <mets:xmlData>
+                <mods xmlns="http://www.loc.gov/mods/v3" version="3.7"
+                    xmlns:vl="http://visuallibrary.net/vl">
+                    <titleInfo lang="ger">
+                        <title>Unermesslich : jenseits von Pisa</title>
+                    </titleInfo>
+                    <name type="personal">
+                        <displayForm>Simon, Nora</displayForm>
+                        <namePart type="family">Simon</namePart>
+                        <namePart type="given">Nora</namePart>
+                        <role>
+                            <roleTerm type="code" authority="marcrelator">aut</roleTerm>
+                        </role>
+                    </name>
+                    <typeOfResource>text</typeOfResource>
+                    <genre authority="dini">book</genre>
+                    <originInfo>
+                        <dateIssued encoding="w3cdtf" keyDate="yes">2011</dateIssued>
+                    </originInfo>
+                    <language>
+                        <languageTerm type="code" authority="iso639-2b">ger</languageTerm>
+                    </language>
+                    <abstract type="content" lang="ger">In Großstudien wie PISA verschwinden Kinder und Jugendliche in Schubladen wie &quot;Migrationshintergrund&quot; oder &quot;Unterschicht&quot;, deren Bedeutung nur in anonymen Prozentwerten fassbar wird. In der Schule schrumpfen Können und Leistung von Schülern auf Ziffern wie &quot;2&quot; oder &quot;4&quot;.
+In diesem Buch aber bekommen sie ein Gesicht: Luisa, Gülbahar, Samira, Benedetto, Hannes: &quot;Sie sind aus einer Schublade ausgebrochen, sie haben unermessliche Kräfte entwickelt, sie haben sich den Aufräum-, Sortier- und Zerstückelungsmaßnahmen ihrer Leistungsfähigkeit widersetzt&quot;, wie die Autorin schreibt.</abstract>
+                    <subject>
+                        <topic>Pädagogik</topic>
+                        <topic>Pädagogik</topic>
+                        <topic>PISA</topic>
+                        <topic>Studien</topic>
+                        <topic>Begabungsvielfalt</topic>
+                    </subject>
+                    <identifier type="urn">urn:nbn:de:hbz:467-10606</identifier>
+                    <identifier type="sys">HT019161171</identifier>
+                    <recordInfo>
+                        <recordIdentifier>siegen_opus_1060</recordIdentifier>
+                    </recordInfo>
+                    <extension>
+                        <vl:doctype>oaBook</vl:doctype>
+                    </extension>
+                </mods>
+            </mets:xmlData>
+        </mets:mdWrap>
+    </mets:dmdSec>
+    <mets:fileSec>
+        <mets:fileGrp USE="pdf upload">
+            <mets:file MIMETYPE="application/pdf" ID="FILE0_siegen_opus_1060">
+                <mets:FLocat xlink:href="https://dspace.ub.uni-siegen.de/bitstream/ubsi/1060/1/Simon_Unermesslich.pdf" LOCTYPE="URL"/>
+            </mets:file>
+        </mets:fileGrp>
+    </mets:fileSec>
+    <mets:structMap TYPE="LOGICAL">
+        <mets:div TYPE="document" ID="siegen_opus_1060"
+            DMDID="DMD_siegen_opus_1060">
+            <mets:fptr FILEID="FILE0_siegen_opus_1060"/>
+        </mets:div>
+    </mets:structMap>
+</mets:mets>
